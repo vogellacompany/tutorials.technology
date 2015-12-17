@@ -7,11 +7,12 @@ Any text editor can be used, even Github allows to edit AsciiDoc directly.
 
 == Asciidoc example
 
-Asciidoc documents typically ends with the <filename>.adoc</filename>.
+Asciidoc documents typically ends with the _.adoc_.
 The following is an example for an Asciidoc document.
 
 == Install the Asciidoctor toolchain
 
+[source, terminal]
 ----
 sudo apt-get install -y asciidoctor
 ----
@@ -23,7 +24,7 @@ It is also very simple to add callouts, as demonstrated by the following snippet
 
 	
 ....
-[source,java]
+[source, java, numbered]
 ----
 System.out.println("Hello");  # <1>
 private int a;
@@ -33,7 +34,7 @@ private int a;
 
 Output is the following
 
-[source, java]
+[source, java, numbered]
 System.out.println("Hello");  # <1>
 private int a;
 

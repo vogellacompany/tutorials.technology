@@ -1,6 +1,6 @@
 = AsciiDoc and Asccidoctor - Tutorial
 :linkcss:
-Lars Vogel (c) 2015 vogella GmbH
+Lars Vogel, Simon Scholz (c) 2015 vogella GmbH
 Version 0.2, 13.12.2015
 
 [abstract]
