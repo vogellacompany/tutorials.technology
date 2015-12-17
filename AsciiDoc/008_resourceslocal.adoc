@@ -1,0 +1,16 @@
+== Asciidoc resources
+
+http://www.methods.co.nz/asciidoc/[AsciiDoc homepage]
+
+http://asciidoctor.org/docs/asciidoc-writers-guide/[AsciiDoc writers guide]
+
+https://waynebeaton.wordpress.com/2015/08/11/technology-behind-the-new-eclipse-project-handbook/[Eclipse Handbook - Technologies used including Asciidoc]
+
+http://johnmacfarlane.net/pandoc/[Pandoc - Converter from one Markup format to another]
+
+https://www.youtube.com/watch?v=MyhiD65qaUI[Youtube video about writing documentation with Asciidoctor]
+
+https://github.com/vogellacompany/asciidoctor-gradle-examples[Asciidoctor with Gradle example]
+
+https://wiki.eclipse.org/Mylyn/WikiText/AsciiDoc[Eclipse Plugin for Asciidoc]
+

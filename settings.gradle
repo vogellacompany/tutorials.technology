@@ -1,0 +1,3 @@
+rootProject.name = 'com.vogella.tutorials.technology'
+
+include 'AsciiDoc'

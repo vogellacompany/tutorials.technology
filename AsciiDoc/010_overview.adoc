@@ -1,0 +1,47 @@
+== Asciidoc
+
+AsciiDoc is a text document format for writing notes, documentation, articles, books, ebooks, slideshows, web pages, man
+pages and blogs. AsciiDoc files can be translated to many formats including HTML, PDF, EPUB, man page.
+
+Any text editor can be used, even Github allows to edit AsciiDoc directly.
+
+== Asciidoc example
+
+Asciidoc documents typically ends with the <filename>.adoc</filename>.
+The following is an example for an Asciidoc document.
+
+== Install the Asciidoctor toolchain
+
+----
+sudo apt-get install -y asciidoctor
+----
+
+== Source code and callouts
+
+To enable syntax highlighting in the output, set the style on the block to source and specify the source language in the second attribute position. 
+It is also very simple to add callouts, as demonstrated by the following snippet.
+
+	
+....
+[source,java]
+----
+System.out.println("Hello");  # <1>
+private int a;
+----
+<1> Imports the library
+....
+
+Output is the following
+
+[source, java]
+System.out.println("Hello");  # <1>
+private int a;
+
+<1> Imports the library
+
+== Convert Asciidoc to Docbook
+
+To convert asciidoc into DocBook use the following command:
+
+asciidoctor -b docbook45 inputfile.adoc.
+
