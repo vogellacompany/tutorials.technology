@@ -1,34 +1,43 @@
 buildscript {
+	repositories { jcenter() }
 	dependencies {
 		classpath 'org.asciidoctor:asciidoctorj-pdf:1.5.0-alpha.8'
+		classpath "org.asciidoctor:asciidoctor-gradle-plugin:1.5.3"
 	}
 }
 
-plugins {
-	id 'org.asciidoctor.convert' version '1.5.2'
-}
+subprojects {
+	apply plugin: 'org.asciidoctor.convert'
 
-apply plugin: 'org.asciidoctor.convert'
+	task runDoc(type: org.asciidoctor.gradle.AsciidoctorTask) {
+		description = 'Runs the asciidoctor task and renames the the output article file'
+		group = 'Documentation'
 
-asciidoctor {
+		backends = ['html5', 'pdf']
+		sourceDir file(projectDir)
+		sources { include '001_article.adoc' }
+		resources {
+			from(sourceDir) { include 'img/**' }
+		}
+		outputDir "${buildDir}/"
 
-	// simply comment this out, when only html5 is desired, because html5 is the default
-	backends = ['pdf']
-	sourceDir file('./AsciiDoc')
-	sources { include '001_article.adoc' }
+		attributes	'source-highlighter' : 'coderay',
+					'toc':'left',
+					'icons': 'font',
+					'setanchors':'true',
+					'idprefix':'',
+					'idseparator':'-',
+					'docinfo1':'true'
 
-	resources {
-		from(sourceDir) {
-			include 'img/**'
+		doLast {
+			def dir = new File("${buildDir}")
+			dir.eachFileRecurse( {
+				if(it.name.startsWith("001_article")){
+					println it
+					it.renameTo(new File(it.parent, it.name.substring(4, it.name.length())))
+				}
+			}
+			)
 		}
 	}
-	outputDir "${buildDir}/"
-
-	attributes	'source-highlighter' : 'coderay',
-				'toc':'left',
-				'icons': 'font',
-				'setanchors':'true',
-				'idprefix':'',
-				'idseparator':'-',
-				'docinfo1':'true'
 }
