@@ -2,20 +2,20 @@ plugins {
 	id 'org.asciidoctor.convert' version '1.5.2'
 }
 
-apply plugin: 'java'
 apply plugin: 'org.asciidoctor.convert'
-
-version = '1.0.0-SNAPSHOT'
 
 asciidoctor {
 	sourceDir file('./AsciiDoc')
+	resources {
+		from(sourceDir) {
+			include 'img/**'
+		}
+	}
 
 	attributes	'build-gradle': file('build.gradle'),
 				'sourcedir': "AsciiDoc",
 				'endpoint-url': 'http://example.org',
-	
 				'source-highlighter' : 'coderay',
-				'imagesdir':'AsciiDoc/img',
 				'toc':'left',
 				'icons': 'font',
 				'setanchors':'true',
