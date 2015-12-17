@@ -1,3 +1,9 @@
+buildscript {
+	dependencies {
+		classpath 'org.asciidoctor:asciidoctorj-pdf:1.5.0-alpha.8'
+	}
+}
+
 plugins {
 	id 'org.asciidoctor.convert' version '1.5.2'
 }
@@ -5,17 +11,20 @@ plugins {
 apply plugin: 'org.asciidoctor.convert'
 
 asciidoctor {
+
+	// simply comment this out, when only html5 is desired, because html5 is the default
+	backends = ['pdf']
 	sourceDir file('./AsciiDoc')
+	sources { include '001_article.adoc' }
+
 	resources {
 		from(sourceDir) {
 			include 'img/**'
 		}
 	}
+	outputDir "${buildDir}/"
 
-	attributes	'build-gradle': file('build.gradle'),
-				'sourcedir': "AsciiDoc",
-				'endpoint-url': 'http://example.org',
-				'source-highlighter' : 'coderay',
+	attributes	'source-highlighter' : 'coderay',
 				'toc':'left',
 				'icons': 'font',
 				'setanchors':'true',
