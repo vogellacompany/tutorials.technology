@@ -1,16 +1,44 @@
 buildscript {
 	repositories { jcenter() }
 	dependencies {
-		classpath 'org.asciidoctor:asciidoctorj-pdf:1.5.0-alpha.8'
 		classpath "org.asciidoctor:asciidoctor-gradle-plugin:1.5.3"
+		classpath 'org.asciidoctor:asciidoctorj-pdf:1.5.0-alpha.8'
+		classpath 'org.asciidoctor:asciidoctorj-epub3:1.5.0-alpha.4'
 	}
 }
 
 subprojects {
 	apply plugin: 'org.asciidoctor.convert'
 
-	task runDoc(type: org.asciidoctor.gradle.AsciidoctorTask) {
-		description = 'Runs the asciidoctor task and renames the the output article file'
+	task runAll(type: org.asciidoctor.gradle.AsciidoctorTask) {
+		description = 'Creates Html 5, PDF and Epub 3 Documentation'
+		group = 'Documentation'
+
+		backends = ['html5', 'pdf', 'epub3']
+		sourceDir file(projectDir)
+		sources { include '001_article.adoc' }
+		resources {
+			from(sourceDir) { include 'img/**' }
+		}
+		outputDir "${buildDir}/"
+
+		options doctype: 'book'
+
+		attributes	'source-highlighter' : 'coderay',
+		'toc':'left',
+		'icons': 'font',
+		'setanchors':'true',
+		'idprefix':'',
+		'idseparator':'-',
+		'docinfo1':'true'
+
+		doLast {
+			renameFile(new File("${buildDir}"))
+		}
+	}
+
+	task runHtml(type: org.asciidoctor.gradle.AsciidoctorTask) {
+		description = 'Creates Html 5 Documentation'
 		group = 'Documentation'
 
 		backends = ['html5', 'pdf']
@@ -22,22 +50,76 @@ subprojects {
 		outputDir "${buildDir}/"
 
 		attributes	'source-highlighter' : 'coderay',
-					'toc':'left',
-					'icons': 'font',
-					'setanchors':'true',
-					'idprefix':'',
-					'idseparator':'-',
-					'docinfo1':'true'
+		'toc':'left',
+		'icons': 'font',
+		'setanchors':'true',
+		'idprefix':'',
+		'idseparator':'-',
+		'docinfo1':'true'
 
 		doLast {
-			def dir = new File("${buildDir}")
-			dir.eachFileRecurse( {
-				if(it.name.startsWith("001_article")){
-					println it
-					it.renameTo(new File(it.parent, it.name.substring(4, it.name.length())))
-				}
-			}
-			)
+			renameFile(new File("${buildDir}"))
 		}
 	}
+
+	task runPdf(type: org.asciidoctor.gradle.AsciidoctorTask) {
+		description = 'Creates PDF Documentation'
+		group = 'Documentation'
+
+		backends = ['pdf']
+		sourceDir file(projectDir)
+		sources { include '001_article.adoc' }
+		resources {
+			from(sourceDir) { include 'img/**' }
+		}
+		outputDir "${buildDir}/"
+
+		attributes	'source-highlighter' : 'coderay',
+		'toc':'left',
+		'icons': 'font',
+		'setanchors':'true',
+		'idprefix':'',
+		'idseparator':'-',
+		'docinfo1':'true'
+
+		doLast {
+			renameFile(new File("${buildDir}"))
+		}
+	}
+
+	task runEpub(type: org.asciidoctor.gradle.AsciidoctorTask) {
+		description = 'Creates Epub 3 Documentation'
+		group = 'Documentation'
+
+		backends = ['epub3']
+		sourceDir file(projectDir)
+		sources { include '001_article.adoc' }
+		resources {
+			from(sourceDir) { include 'img/**' }
+		}
+		outputDir "${buildDir}/"
+
+		options doctype: 'book'
+
+		attributes	'source-highlighter' : 'coderay',
+		'toc':'left',
+		'icons': 'font',
+		'setanchors':'true',
+		'idprefix':'',
+		'idseparator':'-',
+		'docinfo1':'true'
+
+		doLast {
+			renameFile(new File("${buildDir}"))
+		}
+	}
+}
+
+def renameFile(def buildDir) {
+	buildDir.eachFileRecurse( {
+		if(it.name.startsWith("001_article")){
+			it.renameTo(new File(it.parent, it.name.substring(4, it.name.length())))
+		}
+	}
+	)
 }
