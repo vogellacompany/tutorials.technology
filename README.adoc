@@ -1,10 +1,35 @@
 = Technology tutorials from vogella.com
 
-Git repository
+== How to build
 
-https://github.com/vogellacompany/com.vogella.tutorials.technology/
+In the root directory the following commands can be used to build different outputs.
 
-How to build
+[source, terminal]
+----
+// create HTML 5
+./gradlew rH
 
-./gradlew asciidoctor
+// create PDF
+./gradlew rP
 
+// create EPub 3
+./gradlew rE
+
+// create All (HTML 5, PDF, EPub 3)
+./gradlew rA
+----
+
+If these commands are run in the root directory all subprojects will be build.
+
+
+TIP: Single subprojects can be build when navigating into a subproject and for example run `../gradlew rH`
+
+
+NOTE: On Windows OS `./gradlew.bat` must be used +
+See http://www.vogella.com/tutorials/Gradle/article.html[Gradle tutorial]
+
+== Create a new tutorial
+
+1. Create a new project(a sub-directory) in the root directory
+2. Add the new project to the _settings.gradle_ file (`include '{newProjectName}'`)
+3. Open new project in terminal and run `../gradlew iT` to run the `initTemplate` task
