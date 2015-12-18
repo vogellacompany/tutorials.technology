@@ -1,8 +1,9 @@
 package com.vogella
 
+import org.asciidoctor.gradle.AsciidoctorTask
 import org.gradle.api.tasks.TaskAction
 
-class AsciiDoc extends org.asciidoctor.gradle.AsciidoctorTask {
+class AsciiDoc extends AsciidoctorTask {
 
 	public AsciiDoc() {
 		sourceDir = project.file("${project.projectDir}")
@@ -21,7 +22,7 @@ class AsciiDoc extends org.asciidoctor.gradle.AsciidoctorTask {
 	}
 
 	@TaskAction
-	void renameFile() {
+	def renameFile() {
 		renameFile(new File("${project.buildDir}"))
 	}
 

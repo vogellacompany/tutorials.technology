@@ -45,4 +45,9 @@ subprojects {
 
 		backends = ['epub3']
 	}
+
+	task initTemplate(type: com.vogella.Template) {
+		description = 'Creates a vogella tutorial template'
+		group = 'Init'
+	}
 }
