@@ -8,6 +8,8 @@ https://waynebeaton.wordpress.com/2015/08/11/technology-behind-the-new-eclipse-p
 
 http://johnmacfarlane.net/pandoc/[Pandoc - Converter from one Markup format to another]
 
+https://blogs.gnome.org/pmkovar/2015/10/27/converting-docbook-into-asciidoc/[Blog post about converting DocBook to Asciidoc]
+
 https://www.youtube.com/watch?v=MyhiD65qaUI[Youtube video about writing documentation with Asciidoctor]
 
 https://github.com/vogellacompany/asciidoctor-gradle-examples[Asciidoctor with Gradle example]

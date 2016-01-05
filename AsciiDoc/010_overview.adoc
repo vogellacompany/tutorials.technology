@@ -5,18 +5,52 @@ pages and blogs. AsciiDoc files can be translated to many formats including HTML
 
 Any text editor can be used, even Github allows to edit AsciiDoc directly.
 
-== Asciidoc example
+== Asciidoc documents
 
 Asciidoc documents typically ends with the _.adoc_.
-The following is an example for an Asciidoc document.
 
 == Install the Asciidoctor toolchain
+
+If you want to use aciidoctor directly you have to install its toolchain. 
+If you are using Gradle or Maven as build systems it is not required to install Asciidoctor separately.
 
 [source, terminal]
 ----
 sudo apt-get install -y asciidoctor
 ----
 
+== Importing files
+You can import files via the include macro.
+
+DON'T KNOW HOW TO SHOW THE COMMEND FOR AN INCLUDE
+
+
+== Defining references
+
+You can assign meta data to a block. Here’s an example of a quote block that includes all types of metadata:
+....
+.This is the title
+[[yourId]]
+[yourstyle]
+____
+Four score and seven years ago our fathers brought forth
+on this continent a new nation...
+
+Now we are engaged in a great civil war, testing whether
+that nation, or any nation so conceived and so dedicated,
+can long endure. ...
+____
+....
+
+This is the title is the title of the block, yourId is a reference for the block and yourstyle can be used to style the corresponding block.
+You can link to the references via 
+....
+<<yourId>>
+....
+
+Lets see if that works <<test>>.
+
+[[test]]
 == Source code and callouts
 
 To enable syntax highlighting in the output, set the style on the block to source and specify the source language in the second attribute position. 

@@ -9,7 +9,8 @@ Version 0.2, 17.12.2015
 This tutorial contains some notes about AsciiDoc.
 				
 include::010_overview.adoc[]
-include::020_Edit_Tooling.adoc[]
+include::020_edit_tooling.adoc[]
+include::030_generating_output.adoc[]
 include::100_questions.adoc[]
 include::008_resourceslocal.adoc[]
 
