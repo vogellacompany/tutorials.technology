@@ -59,8 +59,7 @@
 		<title>Using git reset to squash commits</title>
 		<indexterm>
 			<primary>git reset</primary>
-			<secondary>squash commits
-			</secondary>
+			<secondary>squash commits</secondary>
 		</indexterm>
 		<para>
 			As a soft reset does not remove your change to your files and index,

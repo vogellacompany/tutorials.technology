@@ -4,8 +4,7 @@
 		<title>Ubuntu, Debian and derived systems</title>
 		<indexterm>
 			<primary>Installation</primary>
-			<secondary>Ubuntu, Debian
-			</secondary>
+			<secondary>Ubuntu, Debian</secondary>
 		</indexterm>
 		<para>
 			On Ubuntu and similar systems you can install the Git command
@@ -23,8 +22,7 @@
 		<title>Fedora, Red Hat and derived systems</title>
 		<indexterm>
 			<primary>Installation</primary>
-			<secondary>Fedora, Red Hat
-			</secondary>
+			<secondary>Fedora, Red Hat</secondary>
 		</indexterm>
 		<para>
 			On Fedora, Red Hat and similar systems you can install the Git
@@ -42,18 +40,15 @@
 		<title>Other Linux systems</title>
 		<indexterm>
 			<primary>Installation</primary>
-			<secondary>Arch Linux
-			</secondary>
+			<secondary>Arch Linux</secondary>
 		</indexterm>
 		<indexterm>
 			<primary>Installation</primary>
-			<secondary>Gentoo
-			</secondary>
+			<secondary>Gentoo</secondary>
 		</indexterm>
 		<indexterm>
 			<primary>Installation</primary>
-			<secondary>SUSE
-			</secondary>
+			<secondary>SUSE</secondary>
 		</indexterm>
 		<para>To install Git on other Linux distributions please check the
 			documentation of your distribution. The following
@@ -71,8 +66,7 @@
 		<title>Windows</title>
 		<indexterm>
 			<primary>Installation</primary>
-			<secondary>Windows
-			</secondary>
+			<secondary>Windows</secondary>
 		</indexterm>
 		<para>
 			A Windows version of Git can be found on the

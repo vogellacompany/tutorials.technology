@@ -33,17 +33,9 @@
 			working tree for your files. This directory structure is depicted in
 			the following screenshot.
 		</para>
-		<para>
-			<mediaobject>
-				<imageobject>
-					<imagedata fileref="images/firstgit-directory10.png"
-						scale="60" />
-				</imageobject>
-				<textobject>
-					<phrase>First Git directory</phrase>
-				</textobject>
-			</mediaobject>
-		</para>
+		
+image::images/firstgit-directory10.png[First Git directory]
+LARSLINEBREAK
 
 	</section>
 </section>

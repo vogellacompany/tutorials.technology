@@ -5,8 +5,7 @@
 	</indexterm>
 	<indexterm>
 		<primary>git diff</primary>
-		<secondary>for branches
-		</secondary>
+		<secondary>for branches</secondary>
 	</indexterm>
 	<para>To see the difference between two branches you can use the
 		following command.

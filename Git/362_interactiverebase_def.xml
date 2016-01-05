@@ -2,8 +2,7 @@
 	<title>Editing history with the interactive rebase</title>
 	<indexterm>
 		<primary>git rebase</primary>
-		<secondary>interactive
-		</secondary>
+		<secondary>interactive</secondary>
 	</indexterm>
 
 	<indexterm>

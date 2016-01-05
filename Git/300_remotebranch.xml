@@ -43,8 +43,7 @@
 		<title>Delete a remote-tracking branch in your local repository</title>
 		<indexterm>
 			<primary>Remote tracking branch</primary>
-			<secondary>delete in local repository
-			</secondary>
+			<secondary>delete in local repository</secondary>
 		</indexterm>
 		<para>It is also safe to delete a remote branch in your local Git
 			repository. You can use the following command for that.
@@ -67,8 +66,7 @@
 		<title>Delete a branch in a remote repository</title>
 		<indexterm>
 			<primary>Remote tracking branch</primary>
-			<secondary>delete in remote repository
-			</secondary>
+			<secondary>delete in remote repository</secondary>
 		</indexterm>
 		<para>To delete the branch in a remote repository use the following
 			command.

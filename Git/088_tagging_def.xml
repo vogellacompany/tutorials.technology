@@ -37,8 +37,7 @@
 			<wordasword>lightweight tag</wordasword>
 			<indexterm>
 				<primary>Tags/Tagging</primary>
-				<secondary>lightweight tag
-				</secondary>
+				<secondary>lightweight tag</secondary>
 			</indexterm>
 			is a pointer to a commit, without any
 			additional information about the
@@ -46,8 +45,7 @@
 			<wordasword>annotated tag</wordasword>
 			<indexterm>
 				<primary>Tags/Tagging</primary>
-				<secondary>annotated tag
-				</secondary>
+				<secondary>annotated tag</secondary>
 			</indexterm>
 			contains additional information about the tag, e.g., the name and email
 			of the person who
@@ -64,8 +62,7 @@
 		<title>Naming conventions for tags</title>
 		<indexterm>
 			<primary>Tags/Tagging</primary>
-			<secondary>naming conventions
-			</secondary>
+			<secondary>naming conventions</secondary>
 		</indexterm>
 		<para>
 			Tags are frequently used to tag the state of a release of the Git

@@ -47,16 +47,9 @@
 			<wordasword>Concurrent Versions System</wordasword>
 			(CVS) don't create snapshots but store file deltas.
 		</para>
-		<para>
-			<mediaobject>
-				<imageobject>
-					<imagedata fileref="images/vcs_state10.png"/>
-				</imageobject>
-				<textobject>
-					<phrase>Creating snapshots</phrase>
-				</textobject>
-			</mediaobject>
-		</para>
+		
+image::images/vcs_state10.png[Creating snapshots]
+LARSLINEBREAK
 
 		<para>
 			VCS are typically used to track changes in
@@ -92,8 +85,7 @@
 		<title>What is a distributed version control system?</title>
 		<indexterm>
 			<primary>Version control system</primary>
-			<secondary>distributed version control system
-			</secondary>
+			<secondary>distributed version control system</secondary>
 		</indexterm>
 		<para>
 			In a distributed version control system each user has a complete local copy of a repository on his individual
@@ -150,16 +142,9 @@
 			of the distributed
 			version control system itself.
 		</para>
-		<para>
-			<mediaobject>
-				<imageobject>
-					<imagedata fileref="images/sharedrepo10.png" scale="30" />
-				</imageobject>
-				<textobject>
-					<phrase>Creating snapshots</phrase>
-				</textobject>
-			</mediaobject>
-		</para>
+		
+image::images/sharedrepo10.png[Creating snapshots]
+LARSLINEBREAK
 
 	</section>
 
@@ -167,8 +152,7 @@
 		<title>What is Git?</title>
 		<indexterm>
 			<primary>Version control system</primary>
-			<secondary>Git
-			</secondary>
+			<secondary>Git</secondary>
 		</indexterm>
 		<para>
 			<wordasword>Git</wordasword>

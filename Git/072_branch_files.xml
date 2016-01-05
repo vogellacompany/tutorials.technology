@@ -4,8 +4,7 @@
 		<title>Switching branches with untracked files</title>
 		<indexterm>
 			<primary>switch branch</primary>
-			<secondary>with untrack files
-			</secondary>
+			<secondary>with untrack files</secondary>
 		</indexterm>
 		<para>Untracked files (never added to the staging area) are unrelated
 			to
@@ -28,8 +27,7 @@
 		<title>Switching branches with uncommitted changes</title>
 		<indexterm>
 			<primary>switch branch</primary>
-			<secondary>with uncommitted changes
-			</secondary>
+			<secondary>with uncommitted changes</secondary>
 		</indexterm>
 		<para>Similar to untracked files you can switch branches with unstaged
 			or staged modifications which are not yet committed.

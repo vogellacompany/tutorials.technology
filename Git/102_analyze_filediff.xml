@@ -11,8 +11,7 @@
 		</indexterm>
 		<indexterm>
 			<primary>git diff</primary>
-			<secondary>unstaged changes
-			</secondary>
+			<secondary>unstaged changes</secondary>
 		</indexterm>
 		<para>
 			The
@@ -45,8 +44,7 @@
 		<title>See differences between staging area and last commit</title>
 		<indexterm>
 			<primary>git diff</primary>
-			<secondary>between staging area and commit
-			</secondary>
+			<secondary>between staging area and commit</secondary>
 		</indexterm>
 		<para>To see which changes you have staged, i.e., you are going to
 			commit with the next commit, use the following command.

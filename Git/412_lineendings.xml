@@ -64,8 +64,7 @@
 		<indexterm>
 			<primary>.gitattributes
 			</primary>
-			<secondary>
-			</secondary>
+			<secondary></secondary>
 		</indexterm>
 		<para>
 			You can also configure the line ending handling per repository

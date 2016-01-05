@@ -19,8 +19,7 @@
 		<title>Remove staged changes from the staging area</title>
 		<indexterm>
 			<primary>Staging area</primary>
-			<secondary>remove staged changes
-			</secondary>
+			<secondary>remove staged changes</secondary>
 		</indexterm>
 
 		<indexterm>
@@ -162,8 +161,7 @@
 		<title>Remove changes in the working tree and the staging area</title>
 		<indexterm>
 			<primary>git checkout</primary>
-			<secondary>undo staged changes
-			</secondary>
+			<secondary>undo staged changes</secondary>
 		</indexterm>
 
 		<indexterm>

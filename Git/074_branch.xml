@@ -68,8 +68,7 @@
 		</indexterm>
 		<indexterm>
 			<primary>git branch</primary>
-			<secondary>create new branch
-			</secondary>
+			<secondary>create new branch</secondary>
 		</indexterm>
 		<para>
 			You can create a new branch via the

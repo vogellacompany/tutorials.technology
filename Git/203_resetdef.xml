@@ -16,16 +16,9 @@
 			for example useful to undo a particular change or to build up a different commit history.
 		</para>
 
-		<para>
-			<mediaobject>
-				<imageobject>
-					<imagedata fileref="images/gitreset10.png" scale="30" />
-				</imageobject>
-				<textobject>
-					<phrase>Git reset</phrase>
-				</textobject>
-			</mediaobject>
-		</para>
+		
+image::images/gitreset10.png[Git reset]
+LARSLINEBREAK
 		<para>
 			All commits which were originally pointed to by the HEAD pointer and the commit pointed to by HEAD after the reset,
 			are

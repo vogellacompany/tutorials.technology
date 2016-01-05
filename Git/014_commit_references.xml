@@ -32,16 +32,9 @@
 			commits have one parent.
 		</para>
 
-		<para>
-			<mediaobject>
-				<imageobject>
-					<imagedata fileref="images/commitreference10.png"/>
-				</imageobject>
-				<textobject>
-					<phrase>Commit reference overview</phrase>
-				</textobject>
-			</mediaobject>
-		</para>
+		
+image::images/commitreference10.png[Commit reference overview]
+LARSLINEBREAK
 
 		<para>In Git you typically need to address certain commits. For
 			example you
@@ -78,14 +71,12 @@
 		<indexterm>
 			<primary>Commit references
 			</primary>
-			<secondary>Branch
-			</secondary>
+			<secondary>Branch</secondary>
 		</indexterm>
 		<indexterm>
 			<primary>Commit references
 			</primary>
-			<secondary>HEAD
-			</secondary>
+			<secondary>HEAD</secondary>
 		</indexterm>
 		<para>A branch points to a specific commit. You can use the branch
 			name as reference to the corresponding commit. You can also use HEAD
@@ -182,16 +173,9 @@
 			more is possible).
 		</para>
 
-		<para>
-			<mediaobject>
-				<imageobject>
-					<imagedata fileref="images/commitreference20.png"/>
-				</imageobject>
-				<textobject>
-					<phrase>Commit reference pointer example</phrase>
-				</textobject>
-			</mediaobject>
-		</para>
+		
+image::images/commitreference20.png[Commit reference pointer example]
+LARSLINEBREAK
 		<para>[reference]^ is an
 			abbreviation for [reference]^1.
 		</para>
@@ -269,8 +253,7 @@
 		<title>Commit ranges with the triple dot operator</title>
 		<indexterm>
 			<primary>Commit ranges</primary>
-			<secondary>triple dot operator
-			</secondary>
+			<secondary>triple dot operator</secondary>
 		</indexterm>
 		<para>The triple dot operator allows you to select all commits
 			which

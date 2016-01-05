@@ -73,8 +73,7 @@
 		</indexterm>
 		<indexterm>
 			<primary>git log</primary>
-			<secondary>file deletion|
-			</secondary>
+			<secondary>file deletion|</secondary>
 		</indexterm>
 		<para>
 			The

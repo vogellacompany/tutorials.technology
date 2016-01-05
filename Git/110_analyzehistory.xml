@@ -23,18 +23,15 @@
 		<title>Helpful parameters for git log</title>
 		<indexterm>
 			<primary>git log</primary>
-			<secondary>oneline
-			</secondary>
+			<secondary>oneline</secondary>
 		</indexterm>
 		<indexterm>
 			<primary>git log</primary>
-			<secondary>abbrev-commit
-			</secondary>
+			<secondary>abbrev-commit</secondary>
 		</indexterm>
 		<indexterm>
 			<primary>git log</primary>
-			<secondary>graph
-			</secondary>
+			<secondary>graph</secondary>
 		</indexterm>
 
 		<para>
@@ -83,8 +80,7 @@
 		<title>View the change history of a file</title>
 		<indexterm>
 			<primary>git log</primary>
-			<secondary>File history
-			</secondary>
+			<secondary>File history</secondary>
 		</indexterm>
 		<indexterm>
 			<primary>
@@ -120,16 +116,9 @@
 			</programlisting>
 		</para>
 		<para>This command creates the output.</para>
-		<para>
-			<mediaobject>
-				<imageobject>
-					<imagedata fileref="images/gitlogpretty10.png" scale="30" />
-				</imageobject>
-				<textobject>
-					<phrase>Git log pretty output</phrase>
-				</textobject>
-			</mediaobject>
-		</para>
+		
+image::images/gitlogpretty10.png[Git log pretty output]
+LARSLINEBREAK
 
 		<para>
 			You can define an alias for such a long command. See
@@ -145,8 +134,7 @@
 		<indexterm>
 			<primary>Search
 			</primary>
-			<secondary>Regular expression
-			</secondary>
+			<secondary>Regular expression</secondary>
 		</indexterm>
 		<para>
 			You can filter the output of the
@@ -189,14 +177,12 @@
 		<indexterm>
 			<primary>Search
 			</primary>
-			<secondary>Commits by Author
-			</secondary>
+			<secondary>Commits by Author</secondary>
 		</indexterm>
 		<indexterm>
 			<primary>Search
 			</primary>
-			<secondary>Commits by Commmitter
-			</secondary>
+			<secondary>Commits by Commmitter</secondary>
 		</indexterm>
 		<para>
 			You can use the

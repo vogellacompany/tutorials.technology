@@ -36,17 +36,9 @@
 			commit points to its
 			predecessor (parent).
 		</para>
-		<para>
-			<mediaobject>
-				<imageobject>
-					<imagedata fileref="images/merge_fastforward10.png"
-						scale="40" />
-				</imageobject>
-				<textobject>
-					<phrase>Fast forward merge starting</phrase>
-				</textobject>
-			</mediaobject>
-		</para>
+		
+image::images/merge_fastforward10.png[Fast forward merge starting]
+LARSLINEBREAK
 		<para>
 			After the fast-forward merge the
 			<wordasword>HEAD</wordasword>
@@ -54,17 +46,9 @@
 			branch
 			points to the same commit.
 		</para>
-		<para>
-			<mediaobject>
-				<imageobject>
-					<imagedata fileref="images/merge_fastforward20.png"
-						scale="30" />
-				</imageobject>
-				<textobject>
-					<phrase>Fast forward merge result</phrase>
-				</textobject>
-			</mediaobject>
-		</para>
+		
+image::images/merge_fastforward20.png[Fast forward merge result]
+LARSLINEBREAK
 	</section>
 	<section id="gitmerge_mergecommit">
 		<title>Merge commit</title>
@@ -79,8 +63,7 @@
 		<indexterm>
 			<primary>Merge strategies
 			</primary>
-			<secondary>Recursive
-			</secondary>
+			<secondary>Recursive</secondary>
 		</indexterm>
 		<para>
 			If commits are merged which are not direct predecessors of the
@@ -98,16 +81,9 @@
 			predecessor of
 			both.
 		</para>
-		<para>
-			<mediaobject>
-				<imageobject>
-					<imagedata fileref="images/merge_commit10.png"/>
-				</imageobject>
-				<textobject>
-					<phrase>Original state before the merge commit</phrase>
-				</textobject>
-			</mediaobject>
-		</para>
+		
+image::images/merge_commit10.png[Original state before the merge commit]
+LARSLINEBREAK
 		<para>
 			As a result a so-called
 			<wordasword>merge commit</wordasword>
@@ -122,16 +98,9 @@
 			its
 			predecessors.
 		</para>
-		<para>
-			<mediaobject>
-				<imageobject>
-					<imagedata fileref="images/merge_commit20.png"/>
-				</imageobject>
-				<textobject>
-					<phrase>Merge commit</phrase>
-				</textobject>
-			</mediaobject>
-		</para>
+		
+image::images/merge_commit20.png[Merge commit]
+LARSLINEBREAK
 
 		<note>
 			<para>
@@ -157,21 +126,18 @@
 		<indexterm>
 			<primary>Merge strategies
 			</primary>
-			<secondary>Octopus
-			</secondary>
+			<secondary>Octopus</secondary>
 		</indexterm>
 
 		<indexterm>
 			<primary>Merge strategies
 			</primary>
-			<secondary>Subtree
-			</secondary>
+			<secondary>Subtree</secondary>
 		</indexterm>
 		<indexterm>
 			<primary>Merge strategies
 			</primary>
-			<secondary>Ours
-			</secondary>
+			<secondary>Ours</secondary>
 		</indexterm>
 
 		<indexterm>

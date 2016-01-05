@@ -4,8 +4,7 @@
 		<title>What are remotes?</title>
 		<indexterm>
 			<primary>Repository</primary>
-			<secondary>remote
-			</secondary>
+			<secondary>remote</secondary>
 		</indexterm>
 		<para>
 			<wordasword>Remotes</wordasword>
@@ -70,16 +69,9 @@
 			is
 			located on a server which is always available.
 		</para>
-		<para>
-			<mediaobject>
-				<imageobject>
-					<imagedata fileref="images/git_remoterepo10.png"/>
-				</imageobject>
-				<textobject>
-					<phrase>Remote Git repositories</phrase>
-				</textobject>
-			</mediaobject>
-		</para>
+		
+image::images/git_remoterepo10.png[Remote Git repositories]
+LARSLINEBREAK
 		<tip>
 			<para>
 				A remote repository can also be hosted in the
@@ -92,13 +84,11 @@
 		<title>Bare repositories</title>
 		<indexterm>
 			<primary>Repository</primary>
-			<secondary>bare
-			</secondary>
+			<secondary>bare</secondary>
 		</indexterm>
 		<indexterm>
 			<primary>Repository</primary>
-			<secondary>create bare repository
-			</secondary>
+			<secondary>create bare repository</secondary>
 		</indexterm>
 		<para>
 			A remote repository on a server typically does not require a

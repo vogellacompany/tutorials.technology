@@ -4,8 +4,7 @@
 		<title>Adding a remote repository</title>
 		<indexterm>
 			<primary>Repository</primary>
-			<secondary>add more remotes
-			</secondary>
+			<secondary>add more remotes</secondary>
 		</indexterm>
 		<para>
 			You add
@@ -56,8 +55,7 @@
 		<title>Show the existing remotes</title>
 		<indexterm>
 			<primary>Repository</primary>
-			<secondary>show existing remotes
-			</secondary>
+			<secondary>show existing remotes</secondary>
 		</indexterm>
 		<para> To see the existing definitions of the remote repositories,
 			use

@@ -28,29 +28,15 @@
 			<code>branch_1</code>
 			onto master.
 		</para>
-		<para>
-			<mediaobject>
-				<imageobject>
-					<imagedata fileref="images/gitrebase10.png" scale="30" />
-				</imageobject>
-				<textobject>
-					<phrase>Rebasing a branch</phrase>
-				</textobject>
-			</mediaobject>
-		</para>
+		
+image::images/gitrebase10.png[Rebasing a branch]
+LARSLINEBREAK
 		<para>Running the rebase command creates a new commit with the changes
 			of the branch on top of the master branch.
 		</para>
-		<para>
-			<mediaobject>
-				<imageobject>
-					<imagedata fileref="images/gitrebase20.png" scale="30" />
-				</imageobject>
-				<textobject>
-					<phrase>Rebasing a branch result</phrase>
-				</textobject>
-			</mediaobject>
-		</para>
+		
+image::images/gitrebase20.png[Rebasing a branch result]
+LARSLINEBREAK
 		<para>Performing a rebase does not
 			create a merge commit.
 			The final

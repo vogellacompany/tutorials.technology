@@ -4,8 +4,7 @@
 		<title>User configuration</title>
 		<indexterm>
 			<primary>Configuration</primary>
-			<secondary>user and email
-			</secondary>
+			<secondary>user and email</secondary>
 		</indexterm>
 		<para> You have to configure at least your user and email address to
 			be able to commit to a Git repository because this information is
@@ -17,8 +16,7 @@
 		<title>Exercise: User configuration</title>
 		<indexterm>
 			<primary>Configuration</primary>
-			<secondary>user and email
-			</secondary>
+			<secondary>user and email</secondary>
 		</indexterm>
 		<para> Configure your user and email for Git via the following
 			command.
@@ -35,8 +33,7 @@
 		<title>Push configuration</title>
 		<indexterm>
 			<primary>Configuration</primary>
-			<secondary>push configuration
-			</secondary>
+			<secondary>push configuration</secondary>
 		</indexterm>
 		<indexterm>
 			<primary>push.default is unset
@@ -106,8 +103,7 @@
 		<title>Color Highlighting</title>
 		<indexterm>
 			<primary>Configuration</primary>
-			<secondary>color highlighting
-			</secondary>
+			<secondary>color highlighting</secondary>
 		</indexterm>
 		<para> The following commands enables color highlighting for Git in
 			the console.
@@ -123,8 +119,7 @@
 		<title>Setting the default editor</title>
 		<indexterm>
 			<primary>Configuration</primary>
-			<secondary>default editor
-			</secondary>
+			<secondary>default editor</secondary>
 		</indexterm>
 		<para>
 			By default Git uses the system default editor which is taken
@@ -148,8 +143,7 @@
 		<title>Setting the default merge tool</title>
 		<indexterm>
 			<primary>Configuration</primary>
-			<secondary>default merge tool
-			</secondary>
+			<secondary>default merge tool</secondary>
 		</indexterm>
 		<para>File conflicts might occur in Git during an operation which
 			combines different versions of the same files. In this case the user
@@ -197,8 +191,7 @@
 		<title>Query Git settings</title>
 		<indexterm>
 			<primary>Configuration</primary>
-			<secondary>query existing configuration
-			</secondary>
+			<secondary>query existing configuration</secondary>
 		</indexterm>
 		<para>To query your Git settings, execute the
 			following command:

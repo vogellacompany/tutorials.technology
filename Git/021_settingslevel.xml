@@ -27,8 +27,7 @@
 		
 		<indexterm>
 			<primary>Configuration</primary>
-			<secondary>System wide configuration
-			</secondary>
+			<secondary>System wide configuration</secondary>
 		</indexterm>
 		<para>
 			You can provide a system wide configuration for your Git
@@ -60,8 +59,7 @@
 		<title>Git user configuration</title>
 		<indexterm>
 			<primary>Configuration</primary>
-			<secondary>User specific configuration
-			</secondary>
+			<secondary>User specific configuration</secondary>
 		</indexterm>
 
 		<indexterm>
@@ -98,8 +96,7 @@
 		</para>
 		<indexterm>
 			<primary>Configuration</primary>
-			<secondary>repository specific configuration
-			</secondary>
+			<secondary>repository specific configuration</secondary>
 		</indexterm>
 	</section>
 
@@ -107,8 +104,7 @@
 		<title>Repository specific configuration</title>
 		<indexterm>
 			<primary>Configuration</primary>
-			<secondary>Repository specific configuration
-			</secondary>
+			<secondary>Repository specific configuration</secondary>
 		</indexterm>
 		<indexterm>
 			<primary>Repository specific Git configuration </primary>

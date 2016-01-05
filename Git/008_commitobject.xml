@@ -80,16 +80,9 @@
 		<para>
 			A commit object is depicted in the following picture.
 		</para>
-		<para>
-			<mediaobject>
-				<imageobject>
-					<imagedata fileref="images/commit_object.png" scale="20" />
-				</imageobject>
-				<textobject>
-					<phrase>Commit object</phrase>
-				</textobject>
-			</mediaobject>
-		</para>
+		
+image::images/commit_object.png[Commit object]
+LARSLINEBREAK
 		<para>
 			The above picture is simplified. Tree objects point to other
 			tree objects and file blobs. Objects which didn't change between

@@ -43,8 +43,7 @@
 		<title>Stop tracking files based on the .gitignore file</title>
 		<indexterm>
 			<primary>.gitignore</primary>
-			<secondary>remove already committed files
-			</secondary>
+			<secondary>remove already committed files</secondary>
 		</indexterm>
 
 		<para>

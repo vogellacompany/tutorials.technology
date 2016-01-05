@@ -4,8 +4,7 @@
 		<title>Cloning a repository</title>
 		<indexterm>
 			<primary>Repository</primary>
-			<secondary>clone
-			</secondary>
+			<secondary>clone</secondary>
 		</indexterm>
 
 		<indexterm>
@@ -30,8 +29,7 @@
 		<title>The remote called "origin"</title>
 		<indexterm>
 			<primary>origin</primary>
-			<secondary>
-			</secondary>
+			<secondary></secondary>
 		</indexterm>
 		<para>
 			If you clone a repository, Git implicitly creates a

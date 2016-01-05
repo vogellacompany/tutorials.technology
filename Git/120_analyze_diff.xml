@@ -5,8 +5,7 @@
 		<title>See the differences introduced by a commit</title>
 		<indexterm>
 			<primary>git diff</primary>
-			<secondary>changes by a commits
-			</secondary>
+			<secondary>changes by a commits</secondary>
 		</indexterm>
 		<para>To see the changes introduced by a commit use the following
 			command.
@@ -24,8 +23,7 @@
 		<title>See the difference between two commits</title>
 		<indexterm>
 			<primary>git diff</primary>
-			<secondary>changes between two commits
-			</secondary>
+			<secondary>changes between two commits</secondary>
 		</indexterm>
 		<para>
 			To see the differences introduced between two commits you use the
@@ -47,8 +45,7 @@
 		<title>See the files changed by a commit</title>
 		<indexterm>
 			<primary>git diff</primary>
-			<secondary>changes in a specific file
-			</secondary>
+			<secondary>changes in a specific file</secondary>
 		</indexterm>
 		<para>
 			To see the files which have been changed in a commit use the

@@ -36,16 +36,9 @@
 
 		</para>
 		<para>This process is depicted in the following graphic. </para>
-		<para>
-			<mediaobject>
-				<imageobject>
-					<imagedata fileref="images/committingprocess10.png"/>
-				</imageobject>
-				<textobject>
-					<phrase>Git commit process</phrase>
-				</textobject>
-			</mediaobject>
-		</para>
+		
+image::images/committingprocess10.png[Git commit process]
+LARSLINEBREAK
 	</section>
 
 
