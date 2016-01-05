@@ -2,9 +2,9 @@
 	<title>Tags in Git</title>
 	<section id="tagging">
 		<title>What are tags?</title>
-		<indexterm>
-			<primary>Tags/Tagging</primary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"Tags/Tagging"LARSPRIMARYINDEX
+		
 		<para>
 			Git has the option to
 			<wordasword>tag</wordasword>
@@ -35,18 +35,18 @@
 		<para>
 			A
 			<wordasword>lightweight tag</wordasword>
-			<indexterm>
-				<primary>Tags/Tagging</primary>
-				<secondary>lightweight tag</secondary>
-			</indexterm>
+			
+				LARSPRIMARYINDEX"Tags/Tagging"LARSPRIMARYINDEX
+				LARSSECONDARY"lightweight tag"LARSSECONDARY
+			
 			is a pointer to a commit, without any
 			additional information about the
 			tag. An
 			<wordasword>annotated tag</wordasword>
-			<indexterm>
-				<primary>Tags/Tagging</primary>
-				<secondary>annotated tag</secondary>
-			</indexterm>
+			
+				LARSPRIMARYINDEX"Tags/Tagging"LARSPRIMARYINDEX
+				LARSSECONDARY"annotated tag"LARSSECONDARY
+			
 			contains additional information about the tag, e.g., the name and email
 			of the person who
 			created the tag, a tagging message and the date of
@@ -60,10 +60,10 @@
 	</section>
 	<section id="tagging_namingconventions">
 		<title>Naming conventions for tags</title>
-		<indexterm>
-			<primary>Tags/Tagging</primary>
-			<secondary>naming conventions</secondary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"Tags/Tagging"LARSPRIMARYINDEX
+			LARSSECONDARY"naming conventions"LARSSECONDARY
+		
 		<para>
 			Tags are frequently used to tag the state of a release of the Git
 			repository. In

@@ -1,16 +1,16 @@
 <section id="interactive_rebase">
 	<title>Editing history with the interactive rebase</title>
-	<indexterm>
-		<primary>git rebase</primary>
-		<secondary>interactive</secondary>
-	</indexterm>
+	
+		LARSPRIMARYINDEX"git rebase"LARSPRIMARYINDEX
+		LARSSECONDARY"interactive"LARSSECONDARY
+	
 
-	<indexterm>
-		<primary>rebase plan</primary>
-	</indexterm>
-	<indexterm>
-		<primary>Interactive rebase</primary>
-	</indexterm>
+	
+		LARSPRIMARYINDEX"rebase plan"LARSPRIMARYINDEX
+	
+	
+		LARSPRIMARYINDEX"Interactive rebase"LARSPRIMARYINDEX
+	
 	<para>
 		Git allows you to edit your commit history with a functionality called
 		<code>interactive rebase</code>

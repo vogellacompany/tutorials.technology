@@ -2,12 +2,12 @@
 	<title>Configure files and directories to ignore</title>
 	<section>
 		<title>Ignoring files and directories with a .gitignore file</title>
-		<indexterm>
-			<primary>Ignore files</primary>
-		</indexterm>
-		<indexterm>
-			<primary>.gitignore</primary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"Ignore files"LARSPRIMARYINDEX
+		
+		
+			LARSPRIMARYINDEX".gitignore"LARSPRIMARYINDEX
+		
 		<para>
 			Git can be configured to ignore certain files and directories for
 			repository operations. This

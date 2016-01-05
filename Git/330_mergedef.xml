@@ -1,11 +1,11 @@
 <section id="gitmerge_definition">
 	<title>Merging</title>
-	<indexterm>
-		<primary>Merging</primary>
-	</indexterm>
-	<indexterm>
-		<primary>git merge</primary>
-	</indexterm>
+	
+		LARSPRIMARYINDEX"Merging"LARSPRIMARYINDEX
+	
+	
+		LARSPRIMARYINDEX"git merge"LARSPRIMARYINDEX
+	
 	<para>
 		Git allows you to combine the changes which were created on two
 		different branches. One way to achieve this is

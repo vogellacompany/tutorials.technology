@@ -2,9 +2,9 @@
 	<title>Git and empty directories</title>
 	<section id="ignorekeep_gitkeep1">
 		<title>Default behaviour of Git for empty directories</title>
-		<indexterm>
-			<primary>Empty directory handling in Git</primary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"Empty directory handling in Git"LARSPRIMARYINDEX
+		
 		<para>
 			Git ignores empty directories, i.e., it does not put them under
 			version control.
@@ -12,9 +12,9 @@
 	</section>
 	<section id="ignorekeep_gitkeep2">
 		<title>Tracking empty directories</title>
-		<indexterm>
-			<primary>Tracking an empty directory in Git</primary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"Tracking an empty directory in Git"LARSPRIMARYINDEX
+		
 		<para>
 			If you want to track an empty directory in your Git repository, it is
 			a good practice

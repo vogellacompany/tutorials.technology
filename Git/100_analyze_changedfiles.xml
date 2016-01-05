@@ -2,9 +2,9 @@
 	<title>Listing changed files before a commit</title>
 	<section id="gitstatus">
 		<title>Listing changed files</title>
-		<indexterm>
-			<primary>git status</primary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"git status"LARSPRIMARYINDEX
+		
 		<para>
 			The
 			<code>git status</code>

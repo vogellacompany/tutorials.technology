@@ -2,12 +2,12 @@
 	<title>Remove untracked files with git clean</title>
 	<section id="gitclean_command">
 		<title>Removing untracked files</title>
-		<indexterm>
-			<primary>git clean</primary>
-		</indexterm>
-		<indexterm>
-			<primary>Removing untracked files</primary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"git clean"LARSPRIMARYINDEX
+		
+		
+			LARSPRIMARYINDEX"Removing untracked files"LARSPRIMARYINDEX
+		
 		<para>
 			If you have untracked files in your working tree which you want to
 			remove, you can use the

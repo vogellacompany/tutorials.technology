@@ -2,10 +2,10 @@
 	<title>Remote repositories</title>
 	<section id="remotes_definition">
 		<title>What are remotes?</title>
-		<indexterm>
-			<primary>Repository</primary>
-			<secondary>remote</secondary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"Repository"LARSPRIMARYINDEX
+			LARSSECONDARY"remote"LARSSECONDARY
+		
 		<para>
 			<wordasword>Remotes</wordasword>
 			are URLs in a Git repository to other
@@ -82,14 +82,14 @@ LARSLINEBREAK
 	</section>
 	<section id="bareremotes_definition">
 		<title>Bare repositories</title>
-		<indexterm>
-			<primary>Repository</primary>
-			<secondary>bare</secondary>
-		</indexterm>
-		<indexterm>
-			<primary>Repository</primary>
-			<secondary>create bare repository</secondary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"Repository"LARSPRIMARYINDEX
+			LARSSECONDARY"bare"LARSSECONDARY
+		
+		
+			LARSPRIMARYINDEX"Repository"LARSPRIMARYINDEX
+			LARSSECONDARY"create bare repository"LARSSECONDARY
+		
 		<para>
 			A remote repository on a server typically does not require a
 			<wordasword>working tree</wordasword>

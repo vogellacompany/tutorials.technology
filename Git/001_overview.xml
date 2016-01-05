@@ -2,9 +2,9 @@
 	<title>Git</title>
 	<section id="versioncontrolssystems">
 		<title>What is a version control system?</title>
-		<indexterm>
-			<primary>Version control system</primary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"Version control system"LARSPRIMARYINDEX
+		
 		<para>
 			A
 			version
@@ -83,10 +83,10 @@ LARSLINEBREAK
 	</section>
 	<section id="dvcs_definition">
 		<title>What is a distributed version control system?</title>
-		<indexterm>
-			<primary>Version control system</primary>
-			<secondary>distributed version control system</secondary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"Version control system"LARSPRIMARYINDEX
+			LARSSECONDARY"distributed version control system"LARSSECONDARY
+		
 		<para>
 			In a distributed version control system each user has a complete local copy of a repository on his individual
 			computer.
@@ -150,10 +150,10 @@ LARSLINEBREAK
 
 	<section id="git_definition">
 		<title>What is Git?</title>
-		<indexterm>
-			<primary>Version control system</primary>
-			<secondary>Git</secondary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"Version control system"LARSPRIMARYINDEX
+			LARSSECONDARY"Git"LARSSECONDARY
+		
 		<para>
 			<wordasword>Git</wordasword>
 			is currently the most popular implementation of a distributed

@@ -3,9 +3,9 @@
 
 	<section id="rebaseconflict_definition">
 		<title>What is a conflict during a rebase operation?</title>
-		<indexterm>
-			<primary>Rebase conflict</primary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"Rebase conflict"LARSPRIMARYINDEX
+		
 		<para>During a rebase operaton, several commits are applied onto a
 			certain commit. If you rebase a branch onto another branch, this
 			commit is the last
@@ -82,14 +82,14 @@
 	</section>
 	<section id="rebaseconflict_theirs">
 		<title>Picking theirs or ours for conflicting file</title>
-		<indexterm>
-			<primary>Rebase conflict</primary>
-			<secondary>theirs parameter</secondary>
-		</indexterm>
-		<indexterm>
-			<primary>Rebase conflict</primary>
-			<secondary>ours parameter</secondary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"Rebase conflict"LARSPRIMARYINDEX
+			LARSSECONDARY"theirs parameter"LARSSECONDARY
+		
+		
+			LARSPRIMARYINDEX"Rebase conflict"LARSPRIMARYINDEX
+			LARSSECONDARY"ours parameter"LARSSECONDARY
+		
 		<para>
 			If a file is in conflict you can instruct Git to take the
 			version from

@@ -13,15 +13,15 @@
 	<section id="gitdefintion_doublehyphens">
 		<title>Separating parameters and file arguments in Git commands
 		</title>
-		<indexterm>
-			<primary>Separating files and parameter arguments in Git
-			</primary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"Separating files and parameter arguments in Git
+			"LARSPRIMARYINDEX
+		
 
-		<indexterm>
-			<primary>Double hyphen (--) usage in Git
-			</primary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"Double hyphen (--) usage in Git
+			"LARSPRIMARYINDEX
+		
 
 		<para> The double hyphens (--) in Git separates out any references or
 			other options from a path

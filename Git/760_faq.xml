@@ -1,13 +1,13 @@
 <section id="gitfaq">
 	<title>Frequently asked questions</title>
-	<indexterm>
-		<primary>FAQ</primary>
-	</indexterm>
+	
+		LARSPRIMARYINDEX"FAQ"LARSPRIMARYINDEX
+	
 	<section id="gitfaq_symlinks">
 		<title>Can Git handle symlinks?</title>
-		<indexterm>
-			<primary>symlinks</primary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"symlinks"LARSPRIMARYINDEX
+		
 		<para>The usage of symlinks requires that the operating
 			system used by
 			the

@@ -2,9 +2,9 @@
 	<title>The process of adding to a Git repository via staging and committing</title>
 	<section id="git_addtorepository">
 		<title>Adding changes to a Git repository</title>
-		<indexterm>
-			<primary>Adding files to the Git repository</primary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"Adding files to the Git repository"LARSPRIMARYINDEX
+		
 		<para>
 			If you modify your
 			<wordasword>working tree</wordasword>
@@ -44,16 +44,16 @@ LARSLINEBREAK
 
 	<section id="git_stagingprocess">
 		<title>Adding to the staging area</title>
-		<indexterm>
-			<primary>Staging process</primary>
-		</indexterm>
-		<indexterm>
-			<primary>Staging area</primary>
-		</indexterm>
-		<indexterm>
-			<primary>Index</primary>
-			<seealso>Staging area</seealso>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"Staging process"LARSPRIMARYINDEX
+		
+		
+			LARSPRIMARYINDEX"Staging area"LARSPRIMARYINDEX
+		
+		
+			LARSPRIMARYINDEX"Index"LARSPRIMARYINDEX
+			
+		
 		<para>
 			You need to
 			mark changes in the working tree
@@ -99,9 +99,9 @@ LARSLINEBREAK
 	</section>
 	<section id="git_commitprocess">
 		<title>Committing to the repository</title>
-		<indexterm>
-			<primary>Commit process</primary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"Commit process"LARSPRIMARYINDEX
+		
 		<para>
 			After adding
 			the selected
@@ -134,9 +134,9 @@ LARSLINEBREAK
 	</section>
 	<section id="commits">
 		<title>Committing changes</title>
-		<indexterm>
-			<primary>Committing</primary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"Committing"LARSPRIMARYINDEX
+		
 		<para>
 			If you commit changes to your Git repository, you create
 			a new

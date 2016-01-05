@@ -1,12 +1,12 @@
 <section id="gitdiffbranches">
 	<title>Differences between branches</title>
-	<indexterm>
-		<primary>difference between branches</primary>
-	</indexterm>
-	<indexterm>
-		<primary>git diff</primary>
-		<secondary>for branches</secondary>
-	</indexterm>
+	
+		LARSPRIMARYINDEX"difference between branches"LARSPRIMARYINDEX
+	
+	
+		LARSPRIMARYINDEX"git diff"LARSPRIMARYINDEX
+		LARSSECONDARY"for branches"LARSSECONDARY
+	
 	<para>To see the difference between two branches you can use the
 		following command.
 	</para>

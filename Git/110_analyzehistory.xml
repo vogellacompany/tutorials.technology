@@ -2,9 +2,9 @@
 	<title>Analyzing the commit history with git log</title>
 	<section id="analyzechanges_log">
 		<title>Using git log</title>
-		<indexterm>
-			<primary>git log</primary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"git log"LARSPRIMARYINDEX
+		
 		<para>
 			The
 			<code>git log</code>
@@ -21,18 +21,18 @@
 	</section>
 	<section id="git_log_options">
 		<title>Helpful parameters for git log</title>
-		<indexterm>
-			<primary>git log</primary>
-			<secondary>oneline</secondary>
-		</indexterm>
-		<indexterm>
-			<primary>git log</primary>
-			<secondary>abbrev-commit</secondary>
-		</indexterm>
-		<indexterm>
-			<primary>git log</primary>
-			<secondary>graph</secondary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"git log"LARSPRIMARYINDEX
+			LARSSECONDARY"oneline"LARSSECONDARY
+		
+		
+			LARSPRIMARYINDEX"git log"LARSPRIMARYINDEX
+			LARSSECONDARY"abbrev-commit"LARSSECONDARY
+		
+		
+			LARSPRIMARYINDEX"git log"LARSPRIMARYINDEX
+			LARSSECONDARY"graph"LARSSECONDARY
+		
 
 		<para>
 			The
@@ -78,15 +78,15 @@
 
 	<section id="analyzechangesg_changesinafile">
 		<title>View the change history of a file</title>
-		<indexterm>
-			<primary>git log</primary>
-			<secondary>File history</secondary>
-		</indexterm>
-		<indexterm>
-			<primary>
+		
+			LARSPRIMARYINDEX"git log"LARSPRIMARYINDEX
+			LARSSECONDARY"File history"LARSSECONDARY
+		
+		
+			LARSPRIMARYINDEX"
 				File history
-			</primary>
-		</indexterm>
+			"LARSPRIMARYINDEX
+		
 		<para>
 			To see changes in a file you can use the
 			<parameter>-p</parameter>
@@ -131,11 +131,11 @@ LARSLINEBREAK
 	</section>
 	<section id="analyzechanges_grep">
 		<title>Filtering based on the commit message via regular expressions</title>
-		<indexterm>
-			<primary>Search
-			</primary>
-			<secondary>Regular expression</secondary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"Search
+			"LARSPRIMARYINDEX
+			LARSSECONDARY"Regular expression"LARSSECONDARY
+		
 		<para>
 			You can filter the output of the
 			<code>git log</code>
@@ -170,20 +170,20 @@ LARSLINEBREAK
 	</section>
 	<section id="analyzechanges_user">
 		<title>Filtering the log output based on author or committer</title>
-		<indexterm>
-			<primary>Changes by a certain author or committer
-			</primary>
-		</indexterm>
-		<indexterm>
-			<primary>Search
-			</primary>
-			<secondary>Commits by Author</secondary>
-		</indexterm>
-		<indexterm>
-			<primary>Search
-			</primary>
-			<secondary>Commits by Commmitter</secondary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"Changes by a certain author or committer
+			"LARSPRIMARYINDEX
+		
+		
+			LARSPRIMARYINDEX"Search
+			"LARSPRIMARYINDEX
+			LARSSECONDARY"Commits by Author"LARSSECONDARY
+		
+		
+			LARSPRIMARYINDEX"Search
+			"LARSPRIMARYINDEX
+			LARSSECONDARY"Commits by Commmitter"LARSSECONDARY
+		
 		<para>
 			You can use the
 			<code><![CDATA[--author=<pattern>]]></code>

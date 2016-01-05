@@ -2,12 +2,12 @@
 	<title>Stashing changes in Git</title>
 	<section id="stash_usage1">
 		<title>The git stash command</title>
-		<indexterm>
-			<primary>stashing in Git</primary>
-		</indexterm>
-		<indexterm>
-			<primary>git stash</primary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"stashing in Git"LARSPRIMARYINDEX
+		
+		
+			LARSPRIMARYINDEX"git stash"LARSPRIMARYINDEX
+		
 		<para>
 			Git provides the
 			<code>git stash</code>

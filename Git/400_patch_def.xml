@@ -1,8 +1,8 @@
 <section id="gitpatch">
 	<title>What is a patch file?</title>
-	<indexterm>
-		<primary>Patch</primary>
-	</indexterm>
+	
+		LARSPRIMARYINDEX"Patch"LARSPRIMARYINDEX
+	
 	<para>
 		A
 		<wordasword>patch</wordasword>

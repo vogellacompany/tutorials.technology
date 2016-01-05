@@ -2,10 +2,10 @@
 	<title>Resetting the working tree based on a commit</title>
 	<section id="undochanges_checkoutcommits1">
 		<title>Checkout based on commits and working tree</title>
-		<indexterm>
-			<primary>git checkout</primary>
-			<secondary>based on commit ID</secondary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"git checkout"LARSPRIMARYINDEX
+			LARSSECONDARY"based on commit ID"LARSSECONDARY
+		
 		<para>
 			You can check out older revisions of your file system via the git
 			checkout command followed by the

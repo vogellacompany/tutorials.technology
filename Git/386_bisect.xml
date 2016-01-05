@@ -2,9 +2,9 @@
 	<title>Error search with git bisect</title>
 	<section id="bisect_definition">
 		<title>Using git bisect</title>
-		<indexterm>
-			<primary>git bisect</primary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"git bisect"LARSPRIMARYINDEX
+		
 		<para>
 			The
 			<code>git bisect</code>

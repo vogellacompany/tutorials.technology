@@ -2,10 +2,10 @@
 	<title>Merging branches</title>
 	<section id="gitmerge_fastforward">
 		<title>Fast-forward merge</title>
-		<indexterm>
-			<primary>Merging</primary>
-			<secondary>fast-forward merge</secondary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"Merging"LARSPRIMARYINDEX
+			LARSSECONDARY"fast-forward merge"LARSSECONDARY
+		
 
 		<para>
 			If the commits which are merged are direct
@@ -52,19 +52,19 @@ LARSLINEBREAK
 	</section>
 	<section id="gitmerge_mergecommit">
 		<title>Merge commit</title>
-		<indexterm>
-			<primary>Merging</primary>
-			<secondary>merge commit</secondary>
-		</indexterm>
-		<indexterm>
-			<primary>Merging</primary>
-			<secondary> three-way-merge</secondary>
-		</indexterm>
-		<indexterm>
-			<primary>Merge strategies
-			</primary>
-			<secondary>Recursive</secondary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"Merging"LARSPRIMARYINDEX
+			LARSSECONDARY"merge commit"LARSSECONDARY
+		
+		
+			LARSPRIMARYINDEX"Merging"LARSPRIMARYINDEX
+			LARSSECONDARY" three-way-merge"LARSSECONDARY
+		
+		
+			LARSPRIMARYINDEX"Merge strategies
+			"LARSPRIMARYINDEX
+			LARSSECONDARY"Recursive"LARSSECONDARY
+		
 		<para>
 			If commits are merged which are not direct predecessors of the
 			current branch, Git performs
@@ -120,35 +120,35 @@ LARSLINEBREAK
 
 	<section id="gitmerge_octopus">
 		<title>Merge strategies - Octopus, Subtree, Ours</title>
-		<indexterm>
-			<primary>Merge strategies</primary>
-		</indexterm>
-		<indexterm>
-			<primary>Merge strategies
-			</primary>
-			<secondary>Octopus</secondary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"Merge strategies"LARSPRIMARYINDEX
+		
+		
+			LARSPRIMARYINDEX"Merge strategies
+			"LARSPRIMARYINDEX
+			LARSSECONDARY"Octopus"LARSSECONDARY
+		
 
-		<indexterm>
-			<primary>Merge strategies
-			</primary>
-			<secondary>Subtree</secondary>
-		</indexterm>
-		<indexterm>
-			<primary>Merge strategies
-			</primary>
-			<secondary>Ours</secondary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"Merge strategies
+			"LARSPRIMARYINDEX
+			LARSSECONDARY"Subtree"LARSSECONDARY
+		
+		
+			LARSPRIMARYINDEX"Merge strategies
+			"LARSPRIMARYINDEX
+			LARSSECONDARY"Ours"LARSSECONDARY
+		
 
-		<indexterm>
-			<primary>Octopus merge strategy</primary>
-		</indexterm>
-		<indexterm>
-			<primary>Subtree merge strategy</primary>
-		</indexterm>
-		<indexterm>
-			<primary>Ours merge strategy</primary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"Octopus merge strategy"LARSPRIMARYINDEX
+		
+		
+			LARSPRIMARYINDEX"Subtree merge strategy"LARSPRIMARYINDEX
+		
+		
+			LARSPRIMARYINDEX"Ours merge strategy"LARSPRIMARYINDEX
+		
 		<para>
 			If a fast-forward merge is not possible, Git uses a merge
 			strategy.

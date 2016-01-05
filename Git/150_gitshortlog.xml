@@ -1,8 +1,8 @@
 <section id="gitshortlog">
 	<title>git shortlog for release announcements</title>
-	<indexterm>
-		<primary>git shortlog</primary>
-	</indexterm>
+	
+		LARSPRIMARYINDEX"git shortlog"LARSPRIMARYINDEX
+	
 	<para>
 		The
 		<code>git shortlog</code>

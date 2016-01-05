@@ -2,12 +2,12 @@
 	<title>Example: Creating patches</title>
 	<section id="gitpatch_createandapply">
 		<title>Create and apply patches</title>
-		<indexterm>
-			<primary>Create patch</primary>
-		</indexterm>
-		<indexterm>
-			<primary>git format-patch</primary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"Create patch"LARSPRIMARYINDEX
+		
+		
+			LARSPRIMARYINDEX"git format-patch"LARSPRIMARYINDEX
+		
 		<para>
 			The following example
 			creates a branch, changes several files and

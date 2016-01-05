@@ -3,9 +3,9 @@
 
 	<section id="mergeconflict_definition">
 		<title>What is a conflict during a merge operation?</title>
-		<indexterm>
-			<primary>Merge conflict</primary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"Merge conflict"LARSPRIMARYINDEX
+		
 		<para>A conflict during a merge operation
 			occurs
 			if two commits from
@@ -42,14 +42,14 @@
 	<section id="mergeconflict_theirs">
 		<title>Keep a version of a file during a merge conflict</title>
 
-		<indexterm>
-			<primary>Merge conflict</primary>
-			<secondary>theirs parameter</secondary>
-		</indexterm>
-		<indexterm>
-			<primary>Merge conflict</primary>
-			<secondary>ours parameter</secondary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"Merge conflict"LARSPRIMARYINDEX
+			LARSSECONDARY"theirs parameter"LARSSECONDARY
+		
+		
+			LARSPRIMARYINDEX"Merge conflict"LARSPRIMARYINDEX
+			LARSSECONDARY"ours parameter"LARSSECONDARY
+		
 		<para>
 			Sometimes if a conflict occurs the developer does not want to
 			solve

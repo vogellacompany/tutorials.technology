@@ -2,10 +2,10 @@
 	<title>Performing the Git configuration</title>
 	<section id="setup_user">
 		<title>User configuration</title>
-		<indexterm>
-			<primary>Configuration</primary>
-			<secondary>user and email</secondary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"Configuration"LARSPRIMARYINDEX
+			LARSSECONDARY"user and email"LARSSECONDARY
+		
 		<para> You have to configure at least your user and email address to
 			be able to commit to a Git repository because this information is
 			stored in each commit.
@@ -14,10 +14,10 @@
 
 	<section id="setup_userexercise">
 		<title>Exercise: User configuration</title>
-		<indexterm>
-			<primary>Configuration</primary>
-			<secondary>user and email</secondary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"Configuration"LARSPRIMARYINDEX
+			LARSSECONDARY"user and email"LARSSECONDARY
+		
 		<para> Configure your user and email for Git via the following
 			command.
 		</para>
@@ -31,14 +31,14 @@
 	</section>
 	<section id="setup_pushconfiguration">
 		<title>Push configuration</title>
-		<indexterm>
-			<primary>Configuration</primary>
-			<secondary>push configuration</secondary>
-		</indexterm>
-		<indexterm>
-			<primary>push.default is unset
-			</primary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"Configuration"LARSPRIMARYINDEX
+			LARSSECONDARY"push configuration"LARSSECONDARY
+		
+		
+			LARSPRIMARYINDEX"push.default is unset
+			"LARSPRIMARYINDEX
+		
 		<para>
 			If your are using Git in a version below 2.0 you should also
 			execute the following command.
@@ -73,10 +73,10 @@
 	</section>
 	<section id="setup_rebase">
 		<title>Avoid merge commits for pulling</title>
-		<indexterm>
-			<primary>Configuration</primary>
-			<secondary>autosetuprebase</secondary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"Configuration"LARSPRIMARYINDEX
+			LARSSECONDARY"autosetuprebase"LARSSECONDARY
+		
 		<para>If you pull in changes from a remote repository, Git by default
 			creates merge commits if you pull in divergent changes. This may not
 			be desired and you can avoid
@@ -101,10 +101,10 @@
 
 	<section id="setup_highlighting">
 		<title>Color Highlighting</title>
-		<indexterm>
-			<primary>Configuration</primary>
-			<secondary>color highlighting</secondary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"Configuration"LARSPRIMARYINDEX
+			LARSSECONDARY"color highlighting"LARSSECONDARY
+		
 		<para> The following commands enables color highlighting for Git in
 			the console.
 		</para>
@@ -117,10 +117,10 @@
 	</section>
 	<section id="setup_editor">
 		<title>Setting the default editor</title>
-		<indexterm>
-			<primary>Configuration</primary>
-			<secondary>default editor</secondary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"Configuration"LARSPRIMARYINDEX
+			LARSSECONDARY"default editor"LARSSECONDARY
+		
 		<para>
 			By default Git uses the system default editor which is taken
 			from the
@@ -141,10 +141,10 @@
 	</section>
 	<section id="setup_mergetool">
 		<title>Setting the default merge tool</title>
-		<indexterm>
-			<primary>Configuration</primary>
-			<secondary>default merge tool</secondary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"Configuration"LARSPRIMARYINDEX
+			LARSSECONDARY"default merge tool"LARSSECONDARY
+		
 		<para>File conflicts might occur in Git during an operation which
 			combines different versions of the same files. In this case the user
 			can
@@ -189,10 +189,10 @@
 	</section>
 	<section id="setup_seesettings">
 		<title>Query Git settings</title>
-		<indexterm>
-			<primary>Configuration</primary>
-			<secondary>query existing configuration</secondary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"Configuration"LARSPRIMARYINDEX
+			LARSSECONDARY"query existing configuration"LARSSECONDARY
+		
 		<para>To query your Git settings, execute the
 			following command:
 		</para>

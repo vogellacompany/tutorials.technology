@@ -2,23 +2,23 @@
 	<title>Commit references</title>
 	<section id="commitreference_whatis">
 		<title>Predecessor commits, parents and commit references</title>
-		<indexterm>
-			<primary>Commit references</primary>
-		</indexterm>
-		<indexterm>
-			<primary>Simple reference</primary>
-		</indexterm>
-		<indexterm>
-			<primary>Simple ref</primary>
+		
+			LARSPRIMARYINDEX"Commit references"LARSPRIMARYINDEX
+		
+		
+			LARSPRIMARYINDEX"Simple reference"LARSPRIMARYINDEX
+		
+		
+			LARSPRIMARYINDEX"Simple ref"LARSPRIMARYINDEX
 			<see>Simple reference</see>
-		</indexterm>
-		<indexterm>
-			<primary>Symbolic reference</primary>
-		</indexterm>
-		<indexterm>
-			<primary>Symbolic ref</primary>
+		
+		
+			LARSPRIMARYINDEX"Symbolic reference"LARSPRIMARYINDEX
+		
+		
+			LARSPRIMARYINDEX"Symbolic ref"LARSPRIMARYINDEX
 			<see>Symbolic reference</see>
-		</indexterm>
+		
 
 
 		<para>
@@ -68,16 +68,16 @@ LARSLINEBREAK
 	</section>
 	<section id="commitreference_branchheadreferences">
 		<title>Branch references and the HEAD reference</title>
-		<indexterm>
-			<primary>Commit references
-			</primary>
-			<secondary>Branch</secondary>
-		</indexterm>
-		<indexterm>
-			<primary>Commit references
-			</primary>
-			<secondary>HEAD</secondary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"Commit references
+			"LARSPRIMARYINDEX
+			LARSSECONDARY"Branch"LARSSECONDARY
+		
+		
+			LARSPRIMARYINDEX"Commit references
+			"LARSPRIMARYINDEX
+			LARSSECONDARY"HEAD"LARSSECONDARY
+		
 		<para>A branch points to a specific commit. You can use the branch
 			name as reference to the corresponding commit. You can also use HEAD
 			to reference the corresponding commit.
@@ -107,9 +107,9 @@ LARSLINEBREAK
 	</section>
 	<section id="commitreference_carettilde">
 		<title>Using caret and tilde for commit references</title>
-		<indexterm>
-			<primary>caret and tilde for predecessor commit references</primary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"caret and tilde for predecessor commit references"LARSPRIMARYINDEX
+		
 
 		<para>
 			[reference]~1 describes the
@@ -183,13 +183,13 @@ LARSLINEBREAK
 	</section>
 	<section id="commitreference_ranges_doubledot">
 		<title>Commit ranges with the double dot operator</title>
-		<indexterm>
-			<primary>Commit ranges</primary>
-			<secondary>double dot operator</secondary>
-		</indexterm>
-		<indexterm>
-			<primary>Commit ranges</primary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"Commit ranges"LARSPRIMARYINDEX
+			LARSSECONDARY"double dot operator"LARSSECONDARY
+		
+		
+			LARSPRIMARYINDEX"Commit ranges"LARSPRIMARYINDEX
+		
 		<para>
 			You can also specify ranges of commits. This is useful for
 			certain Git commands, for example, for seeing the changes between a
@@ -251,10 +251,10 @@ LARSLINEBREAK
 	</section>
 	<section id="commitreference_ranges_tripledot">
 		<title>Commit ranges with the triple dot operator</title>
-		<indexterm>
-			<primary>Commit ranges</primary>
-			<secondary>triple dot operator</secondary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"Commit ranges"LARSPRIMARYINDEX
+			LARSSECONDARY"triple dot operator"LARSSECONDARY
+		
 		<para>The triple dot operator allows you to select all commits
 			which
 			are reachable either from commit

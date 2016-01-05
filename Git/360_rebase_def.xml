@@ -2,9 +2,9 @@
 	<title>Rebasing branches</title>
 	<section id="rebase_branches">
 		<title>Rebasing branches</title>
-		<indexterm>
-			<primary>git rebase</primary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"git rebase"LARSPRIMARYINDEX
+		
 		<para>
 			You can use Git to rebase one branch on another one. As described,
 			the

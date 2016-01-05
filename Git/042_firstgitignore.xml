@@ -3,12 +3,12 @@
 	<section id="usegitignore">
 		<title>Ignore files and directories with the .gitignore file</title>
 
-		<indexterm>
-			<primary>.gitignore</primary>
-		</indexterm>
-		<indexterm>
-			<primary>gitignore file</primary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX".gitignore"LARSPRIMARYINDEX
+		
+		
+			LARSPRIMARYINDEX"gitignore file"LARSPRIMARYINDEX
+		
 		<para>
 			Git allows you to define pattern for files which should not be
 			tracked by the Git repository.
@@ -41,10 +41,10 @@
 	</section>
 	<section id="untrack">
 		<title>Stop tracking files based on the .gitignore file</title>
-		<indexterm>
-			<primary>.gitignore</primary>
-			<secondary>remove already committed files</secondary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX".gitignore"LARSPRIMARYINDEX
+			LARSSECONDARY"remove already committed files"LARSSECONDARY
+		
 
 		<para>
 			Files that are tracked by Git are

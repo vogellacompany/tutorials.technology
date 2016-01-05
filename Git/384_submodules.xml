@@ -2,12 +2,12 @@
 	<title>Submodules - repositories inside other Git repositories</title>
 	<section id="submodules_definition">
 		<title>What are submodules?</title>
-		<indexterm>
-			<primary>Submodules</primary>
-		</indexterm>
-		<indexterm>
-			<primary>git submodules</primary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"Submodules"LARSPRIMARYINDEX
+		
+		
+			LARSPRIMARYINDEX"git submodules"LARSPRIMARYINDEX
+		
 		<para>
 			Git allows you to include other Git repositories into a Git
 			repository. This is useful in case you want to include a certain

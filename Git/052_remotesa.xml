@@ -2,12 +2,12 @@
 	<title>The push and pull commands</title>
 	<section id="cloneremotes_push">
 		<title>Push changes to another repository</title>
-		<indexterm>
-			<primary>push</primary>
-		</indexterm>
-		<indexterm>
-			<primary>git push</primary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"push"LARSPRIMARYINDEX
+		
+		
+			LARSPRIMARYINDEX"git push"LARSPRIMARYINDEX
+		
 		<para>
 			The
 			<code>git push</code>
@@ -37,12 +37,12 @@
 	</section>
 	<section id="cloneremotes_pull">
 		<title>Pull changes</title>
-		<indexterm>
-			<primary>pull</primary>
-		</indexterm>
-		<indexterm>
-			<primary>git pull</primary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"pull"LARSPRIMARYINDEX
+		
+		
+			LARSPRIMARYINDEX"git pull"LARSPRIMARYINDEX
+		
 		<para>
 			The
 			<code>git pull</code>
@@ -72,9 +72,9 @@
 
 	<section id="exercise_cloneremotes_clone">
 		<title>Exercise: Clone your bare repository</title>
-		<indexterm>
-			<primary>Clone repository</primary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"Clone repository"LARSPRIMARYINDEX
+		
 		<para>
 			In this exercise you create a Git repository based on the bare
 			repository you created in

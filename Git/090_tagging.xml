@@ -5,10 +5,10 @@
 		<title>List tags</title>
 		<para>
 			You can list the available tags
-			<indexterm>
-				<primary>Tags/Tagging</primary>
-				<secondary>list available tags</secondary>
-			</indexterm>
+			
+				LARSPRIMARYINDEX"Tags/Tagging"LARSPRIMARYINDEX
+				LARSSECONDARY"list available tags"LARSSECONDARY
+			
 			via the following command:
 		</para>
 		<para>
@@ -37,10 +37,10 @@
 	</section>
 	<section id="tagging_createlightweight">
 		<title>Creating lightweight tags</title>
-		<indexterm>
-			<primary>Tags/Tagging</primary>
-			<secondary>create lightweight tags</secondary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"Tags/Tagging"LARSPRIMARYINDEX
+			LARSSECONDARY"create lightweight tags"LARSSECONDARY
+		
 		<para>
 			To create a lightweight tag don't use the
 			<parameter>-m</parameter>
@@ -78,10 +78,10 @@
 	</section>
 	<section id="tagging_createannoted">
 		<title>Creating annotated tags</title>
-		<indexterm>
-			<primary>Tags/Tagging</primary>
-			<secondary>create annotated tags</secondary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"Tags/Tagging"LARSPRIMARYINDEX
+			LARSSECONDARY"create annotated tags"LARSSECONDARY
+		
 		<para>
 			You can create a new annotated tag via the
 			<code>git tag -a</code>
@@ -109,10 +109,10 @@
 	</section>
 	<section id="tagging_signedtags">
 		<title>Creating signed tags</title>
-		<indexterm>
-			<primary>Tags/Tagging</primary>
-			<secondary>signed tags</secondary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"Tags/Tagging"LARSPRIMARYINDEX
+			LARSSECONDARY"signed tags"LARSSECONDARY
+		
 		<para>
 			You can use the option
 			<parameter>-s</parameter>
@@ -128,10 +128,10 @@
 
 	<section id="tagging_checkout">
 		<title>Checkout tags</title>
-		<indexterm>
-			<primary>Tags/Tagging</primary>
-			<secondary>checkout tags</secondary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"Tags/Tagging"LARSPRIMARYINDEX
+			LARSSECONDARY"checkout tags"LARSSECONDARY
+		
 		<para> If you want to use the code associated with the tag, use:
 		</para>
 
@@ -156,10 +156,10 @@
 	</section>
 	<section id="tagging_pushtags">
 		<title>Push tags</title>
-		<indexterm>
-			<primary>Tags/Tagging</primary>
-			<secondary>push tag</secondary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"Tags/Tagging"LARSPRIMARYINDEX
+			LARSSECONDARY"push tag"LARSSECONDARY
+		
 		<para>
 			By default the
 			<code>git push</code>
@@ -179,10 +179,10 @@
 
 	<section id="tagging_delete">
 		<title>Delete tags</title>
-		<indexterm>
-			<primary>Tags/Tagging</primary>
-			<secondary>delete tag</secondary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"Tags/Tagging"LARSPRIMARYINDEX
+			LARSSECONDARY"delete tag"LARSSECONDARY
+		
 		<para>
 			You can delete tags with the
 			<parameter>-d</parameter>

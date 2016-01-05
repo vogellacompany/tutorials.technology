@@ -2,9 +2,9 @@
 	<title>Summary of Git terminology</title>
 	<section id="gitterminology">
 		<title>Reference table with important Git terminology</title>
-		<indexterm>
-			<primary>Terminology in Git</primary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"Terminology in Git"LARSPRIMARYINDEX
+		
 		<para>
 			The following table provides a summary of important
 			<wordasword>Git</wordasword>
@@ -328,21 +328,21 @@
 	</section>
 	<section id="gitterminology_filelifecycle">
 		<title>File states in the working tree</title>
-		<indexterm>
-			<primary>File states</primary>
-		</indexterm>
-		<indexterm>
-			<primary>Untracked file</primary>
-		</indexterm>
-		<indexterm>
-			<primary>Tracked file</primary>
-		</indexterm>
-		<indexterm>
-            <primary>Dirty file</primary>
-        </indexterm>
-		<indexterm>
-            <primary>Staged file</primary>
-        </indexterm>
+		
+			LARSPRIMARYINDEX"File states"LARSPRIMARYINDEX
+		
+		
+			LARSPRIMARYINDEX"Untracked file"LARSPRIMARYINDEX
+		
+		
+			LARSPRIMARYINDEX"Tracked file"LARSPRIMARYINDEX
+		
+		
+            LARSPRIMARYINDEX"Dirty file"LARSPRIMARYINDEX
+        
+		
+            LARSPRIMARYINDEX"Staged file"LARSPRIMARYINDEX
+        
 		<para>
 			A file in the working tree of a Git repository can have
 			different

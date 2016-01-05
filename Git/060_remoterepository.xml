@@ -2,12 +2,12 @@
 	<title>Working with remote repositories</title>
 	<section id="remote_clone">
 		<title>Cloning remote repositories</title>
-		<indexterm>
-			<primary>clone repository</primary>
-		</indexterm>
-		<indexterm>
-			<primary>protocols supported by Git</primary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"clone repository"LARSPRIMARYINDEX
+		
+		
+			LARSPRIMARYINDEX"protocols supported by Git"LARSPRIMARYINDEX
+		
 		<para>
 			Git supports several transport
 			protocols to connect to other Git
@@ -113,12 +113,12 @@
 
 	<section id="remote_httpprotocol">
 		<title>Remote operations via HTTP</title>
-		<indexterm>
-			<primary>HTTP as Git protocol</primary>
-		</indexterm>
-		<indexterm>
-			<primary>proxy support in Git</primary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"HTTP as Git protocol"LARSPRIMARYINDEX
+		
+		
+			LARSPRIMARYINDEX"proxy support in Git"LARSPRIMARYINDEX
+		
 		<para>
 			It is possible to use the HTTP protocol to clone Git
 			repositories. This

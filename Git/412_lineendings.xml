@@ -4,12 +4,12 @@
 	<section id="line_feedendings_platform">
 		<title>Line endings of the different platforms</title>
 
-		<indexterm>
-			<primary>line endings</primary>
-		</indexterm>
-		<indexterm>
-			<primary>linefeed characters</primary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"line endings"LARSPRIMARYINDEX
+		
+		
+			LARSPRIMARYINDEX"linefeed characters"LARSPRIMARYINDEX
+		
 
 		<para>Every time a developer presses return on the keyboard an
 			invisible character called a line ending is inserted. Unfortunately,
@@ -61,11 +61,11 @@
 
 	<section id="line_feedendings_gitattributes">
 		<title>Configuring line ending settings per repository</title>
-		<indexterm>
-			<primary>.gitattributes
-			</primary>
-			<secondary></secondary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX".gitattributes
+			"LARSPRIMARYINDEX
+			LARSSECONDARY""LARSSECONDARY
+		
 		<para>
 			You can also configure the line ending handling per repository
 			by

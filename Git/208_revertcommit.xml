@@ -3,9 +3,9 @@
 
 	<section id="undochanges_revertcommit1">
 		<title>Reverting a commit</title>
-		<indexterm>
-			<primary>git revert</primary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"git revert"LARSPRIMARYINDEX
+		
 		<para>
 			You can revert commits via the
 			<code>git revert</code>

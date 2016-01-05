@@ -2,9 +2,9 @@
 	<title>Rewriting commit history with git filter-branch</title>
 	<section id="filterbranch_definition">
 		<title>Using git filter-branch</title>
-		<indexterm>
-			<primary>git filter-branch</primary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"git filter-branch"LARSPRIMARYINDEX
+		
 		<para>
 			The
 			<code>git filter-branch</code>

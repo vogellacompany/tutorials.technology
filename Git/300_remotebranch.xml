@@ -2,9 +2,9 @@
 	<title>Remote and local tracking branches</title>
 	<section id="gitremotebranch_overview">
 		<title>Remote tracking branches</title>
-		<indexterm>
-			<primary>Remote-tracking branch</primary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"Remote-tracking branch"LARSPRIMARYINDEX
+		
 		<para>
 			Your local Git repository contains references to the state of
 			the
@@ -41,10 +41,10 @@
 	</section>
 	<section id="gitremotebranch_delete">
 		<title>Delete a remote-tracking branch in your local repository</title>
-		<indexterm>
-			<primary>Remote tracking branch</primary>
-			<secondary>delete in local repository</secondary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"Remote tracking branch"LARSPRIMARYINDEX
+			LARSSECONDARY"delete in local repository"LARSSECONDARY
+		
 		<para>It is also safe to delete a remote branch in your local Git
 			repository. You can use the following command for that.
 		</para>
@@ -64,10 +64,10 @@
 
 	<section id="gitremotebranch_deleteremote">
 		<title>Delete a branch in a remote repository</title>
-		<indexterm>
-			<primary>Remote tracking branch</primary>
-			<secondary>delete in remote repository</secondary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"Remote tracking branch"LARSPRIMARYINDEX
+			LARSSECONDARY"delete in remote repository"LARSSECONDARY
+		
 		<para>To delete the branch in a remote repository use the following
 			command.
 		</para>
@@ -118,9 +118,9 @@
 
 	<section id="git_trackingbranches">
 		<title>Tracking branches</title>
-		<indexterm>
-			<primary>Tracking branch</primary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"Tracking branch"LARSPRIMARYINDEX
+		
 		<para>
 			<wordasword>Branches</wordasword>
 			can track another branch. This is called

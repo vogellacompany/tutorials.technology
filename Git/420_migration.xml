@@ -1,11 +1,11 @@
 <section id="svn_migration">
 	<title>Migrating from SVN</title>
-	<indexterm>
-		<primary>svn</primary>
-	</indexterm>
-	<indexterm>
-		<primary>migration</primary>
-	</indexterm>
+	
+		LARSPRIMARYINDEX"svn"LARSPRIMARYINDEX
+	
+	
+		LARSPRIMARYINDEX"migration"LARSPRIMARYINDEX
+	
 	<para>
 		To convert Subversion projects to Git you can use a RubyGem
 		called <wordasword>svn2git</wordasword>

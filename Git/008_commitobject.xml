@@ -3,12 +3,12 @@
 	
 	<section id="commit_object">
 		<title>Commit object (commit)</title>
-		<indexterm>
-			<primary>Commit object</primary>
-		</indexterm>
-		<indexterm>
-			<primary>Commit</primary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"Commit object"LARSPRIMARYINDEX
+		
+		
+			LARSPRIMARYINDEX"Commit"LARSPRIMARYINDEX
+		
 		<para>
 			Conceptually a
 			commit object (short:commit) represents a version
@@ -92,18 +92,18 @@ LARSLINEBREAK
 
 	<section id="commits_sha_checksum">
 		<title>Hash and abbreviated commit hash</title>
-		<indexterm>
-			<primary>SHA-1 checksum in Git</primary>
-		</indexterm>
-		<indexterm>
-			<primary>Shortened SHA-1</primary>
-		</indexterm>
-		<indexterm>
-			<primary>Hash</primary>
-		</indexterm>
-		<indexterm>
-			<primary>Abbreviated commit hash</primary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"SHA-1 checksum in Git"LARSPRIMARYINDEX
+		
+		
+			LARSPRIMARYINDEX"Shortened SHA-1"LARSPRIMARYINDEX
+		
+		
+			LARSPRIMARYINDEX"Hash"LARSPRIMARYINDEX
+		
+		
+			LARSPRIMARYINDEX"Abbreviated commit hash"LARSPRIMARYINDEX
+		
 		<para>
 			A Git commit object is identified by its hash (SHA-1 checksum).
 			SHA-1 produces a 160-bit (20-byte) hash value. A SHA-1 hash value is

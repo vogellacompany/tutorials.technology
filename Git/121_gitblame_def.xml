@@ -1,8 +1,8 @@
 <section id="git_blame_def">
 	<title>Analyzing line changes with git blame</title>
-	<indexterm>
-		<primary>git blame</primary>
-	</indexterm>
+	
+		LARSPRIMARYINDEX"git blame"LARSPRIMARYINDEX
+	
 	<para>
 		The
 		<code>git blame</code>

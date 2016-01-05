@@ -21,14 +21,14 @@
 	</section>
 	<section id="setup_systemwideconfiguration">
 		<title>Git system-wide configuration</title>
-		<indexterm>
-			<primary>System wide Git configuration </primary>
-		</indexterm>
 		
-		<indexterm>
-			<primary>Configuration</primary>
-			<secondary>System wide configuration</secondary>
-		</indexterm>
+			LARSPRIMARYINDEX"System wide Git configuration "LARSPRIMARYINDEX
+		
+		
+		
+			LARSPRIMARYINDEX"Configuration"LARSPRIMARYINDEX
+			LARSSECONDARY"System wide configuration"LARSSECONDARY
+		
 		<para>
 			You can provide a system wide configuration for your Git
 			settings. A system wide configuration is not very common, most
@@ -57,14 +57,14 @@
 
 	<section id="setup_userconfiguration">
 		<title>Git user configuration</title>
-		<indexterm>
-			<primary>Configuration</primary>
-			<secondary>User specific configuration</secondary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"Configuration"LARSPRIMARYINDEX
+			LARSSECONDARY"User specific configuration"LARSSECONDARY
+		
 
-		<indexterm>
-			<primary>User specific Git configuration </primary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"User specific Git configuration "LARSPRIMARYINDEX
+		
 
 		<para>
 			Git allows you to store user settings in the
@@ -94,21 +94,21 @@
 			<code>git config</code>
 			command.
 		</para>
-		<indexterm>
-			<primary>Configuration</primary>
-			<secondary>repository specific configuration</secondary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"Configuration"LARSPRIMARYINDEX
+			LARSSECONDARY"repository specific configuration"LARSSECONDARY
+		
 	</section>
 
 	<section id="setup_configuration">
 		<title>Repository specific configuration</title>
-		<indexterm>
-			<primary>Configuration</primary>
-			<secondary>Repository specific configuration</secondary>
-		</indexterm>
-		<indexterm>
-			<primary>Repository specific Git configuration </primary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"Configuration"LARSPRIMARYINDEX
+			LARSSECONDARY"Repository specific configuration"LARSSECONDARY
+		
+		
+			LARSPRIMARYINDEX"Repository specific Git configuration "LARSPRIMARYINDEX
+		
 
 		<para>
 			You can also store repository specific settings in the

@@ -1,8 +1,8 @@
 <section id="gitbranch_def">
 	<title>What are branches?</title>
-	<indexterm>
-		<primary>Branches in Git</primary>
-	</indexterm>
+	
+		LARSPRIMARYINDEX"Branches in Git"LARSPRIMARYINDEX
+	
 	<para>
 		Git allows you to create
 		<wordasword>branches</wordasword>

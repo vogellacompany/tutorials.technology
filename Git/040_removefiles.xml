@@ -4,10 +4,10 @@
 
 	<section id="firstgit_deletefile">
 		<title>Remove files</title>
-		<indexterm>
-			<primary>Repository</primary>
-			<secondary>remove files</secondary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"Repository"LARSPRIMARYINDEX
+			LARSSECONDARY"remove files"LARSSECONDARY
+		
 		<para>
 			If you delete a file you use the
 			<code>git add .</code>
@@ -32,12 +32,12 @@
 
 	<section id="firstgit_checkout">
 		<title>Revert changes in files in the working tree</title>
-		<indexterm>
-			<primary>Remove changes in the working tree</primary>
-		</indexterm>
-		<indexterm>
-			<primary>Undo changes in the working tree</primary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"Remove changes in the working tree"LARSPRIMARYINDEX
+		
+		
+			LARSPRIMARYINDEX"Undo changes in the working tree"LARSPRIMARYINDEX
+		
 		<para>
 			Use the
 			<code>git checkout</code>
@@ -85,12 +85,12 @@
 
 	<section id="firstgit_amend">
 		<title>Correct the last commit with git amend</title>
-		<indexterm>
-			<primary>git amend</primary>
-		</indexterm>
-		<indexterm>
-			<primary>change last commit</primary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"git amend"LARSPRIMARYINDEX
+		
+		
+			LARSPRIMARYINDEX"change last commit"LARSPRIMARYINDEX
+		
 		<para>
 			The
 			<code>git commit --amend</code>

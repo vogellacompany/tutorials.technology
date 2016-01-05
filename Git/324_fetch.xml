@@ -3,9 +3,9 @@
 
 	<section id="gitfetch_intro">
 		<title>Fetch</title>
-		<indexterm>
-			<primary>git fetch</primary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"git fetch"LARSPRIMARYINDEX
+		
 		<para>
 			The
 			<code>git fetch</code>
@@ -126,9 +126,9 @@
 	<section id="gitfetch_rebase">
 		<title>Rebase your local branch onto the remote-tracking branch
 		</title>
-		<indexterm>
-			<primary>Rebase based on a remote-tracking branch</primary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"Rebase based on a remote-tracking branch"LARSPRIMARYINDEX
+		
 
 		<para>
 			You can rebase your current local branch onto a
@@ -153,9 +153,9 @@
 
 	<section id="gitremotebranch_fetchpull">
 		<title>Fetch compared with pull</title>
-		<indexterm>
-			<primary>Fetch compared with pull</primary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"Fetch compared with pull"LARSPRIMARYINDEX
+		
 		<para>
 			The
 			<code>git pull</code>

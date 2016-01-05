@@ -2,14 +2,14 @@
 	<title>Cloning repositories and the remote called "origin"</title>
 	<section id="remotes_cloneoperation">
 		<title>Cloning a repository</title>
-		<indexterm>
-			<primary>Repository</primary>
-			<secondary>clone</secondary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"Repository"LARSPRIMARYINDEX
+			LARSSECONDARY"clone"LARSSECONDARY
+		
 
-		<indexterm>
-			<primary>git clone</primary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"git clone"LARSPRIMARYINDEX
+		
 
 		<para>
 			The
@@ -27,10 +27,10 @@
 	</section>
 	<section id="remotes_clone_origin">
 		<title>The remote called "origin"</title>
-		<indexterm>
-			<primary>origin</primary>
-			<secondary></secondary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"origin"LARSPRIMARYINDEX
+			LARSSECONDARY""LARSSECONDARY
+		
 		<para>
 			If you clone a repository, Git implicitly creates a
 			<wordasword>remote</wordasword>

@@ -1,8 +1,8 @@
 <section id="cherrypick_definition">
 	<title>Applying a single commit</title>
-	<indexterm>
-		<primary>git cherry-pick</primary>
-	</indexterm>
+	
+		LARSPRIMARYINDEX"git cherry-pick"LARSPRIMARYINDEX
+	
 	<para>
 		The
 		<code>git cherry-pick</code>

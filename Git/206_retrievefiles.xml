@@ -3,9 +3,9 @@
 
 	<section id="retrievefiles_show">
 		<title>View file in different revision</title>
-		<indexterm>
-			<primary>git show</primary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"git show"LARSPRIMARYINDEX
+		
 		<para>
 			The
 			<code>git show</code>
@@ -65,16 +65,16 @@
 
 	<section id="retrievefiles_finddeletedfile">
 		<title>See which commit deleted a file</title>
-		<indexterm>
-			<primary>Find commit which deleted a file</primary>
-		</indexterm>
-		<indexterm>
-			<primary>File deletion log</primary>
-		</indexterm>
-		<indexterm>
-			<primary>git log</primary>
-			<secondary>file deletion|</secondary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"Find commit which deleted a file"LARSPRIMARYINDEX
+		
+		
+			LARSPRIMARYINDEX"File deletion log"LARSPRIMARYINDEX
+		
+		
+			LARSPRIMARYINDEX"git log"LARSPRIMARYINDEX
+			LARSSECONDARY"file deletion|"LARSSECONDARY
+		
 		<para>
 			The
 			<code>git log</code>

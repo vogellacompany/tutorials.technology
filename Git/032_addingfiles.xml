@@ -29,9 +29,9 @@
 
 	<section id="firstgit_repostatus">
 		<title>See the current status of your repository</title>
-		<indexterm>
-			<primary>git status</primary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"git status"LARSPRIMARYINDEX
+		
 		<para>
 			The
 			<code>git status</code>
@@ -65,9 +65,9 @@
 	</section>
 	<section id="firstgit_repoadd">
 		<title>Add files to the staging area</title>
-		<indexterm>
-			<primary>git add</primary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"git add"LARSPRIMARYINDEX
+		
 		<para>
 			Before committing changes to a Git repository you need to mark
 			the changes that should be committed. This is done by adding the new
@@ -152,9 +152,9 @@
 	</section>
 	<section id="firstgit_repocommit">
 		<title>Commit staged changes to the repository</title>
-		<indexterm>
-			<primary>git commit</primary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"git commit"LARSPRIMARYINDEX
+		
 		<para>
 			After adding the files to the Git staging area, you can commit them
 			to

@@ -57,10 +57,10 @@
 
 	<section id="resettosquash">
 		<title>Using git reset to squash commits</title>
-		<indexterm>
-			<primary>git reset</primary>
-			<secondary>squash commits</secondary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"git reset"LARSPRIMARYINDEX
+			LARSSECONDARY"squash commits"LARSSECONDARY
+		
 		<para>
 			As a soft reset does not remove your change to your files and index,
 			you can use the

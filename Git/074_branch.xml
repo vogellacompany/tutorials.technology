@@ -2,9 +2,9 @@
 	<title>Commands to working with branches</title>
 	<section id="gitbranch_listbranches">
 		<title>List available branches</title>
-		<indexterm>
-			<primary>git branch</primary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"git branch"LARSPRIMARYINDEX
+		
 		<para>
 			The
 			<code>git branch</code>
@@ -63,13 +63,13 @@
 
 	<section id="gitbranch_createnewbranch">
 		<title>Create new branch</title>
-		<indexterm>
-			<primary>create new branch</primary>
-		</indexterm>
-		<indexterm>
-			<primary>git branch</primary>
-			<secondary>create new branch</secondary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"create new branch"LARSPRIMARYINDEX
+		
+		
+			LARSPRIMARYINDEX"git branch"LARSPRIMARYINDEX
+			LARSSECONDARY"create new branch"LARSSECONDARY
+		
 		<para>
 			You can create a new branch via the
 			<code>git branch [newname]</code>
@@ -95,12 +95,12 @@
 
 	<section id="gitbranch_checkout">
 		<title>Checkout branch</title>
-		<indexterm>
-			<primary>checkout branch</primary>
-		</indexterm>
-		<indexterm>
-			<primary>git checkout</primary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"checkout branch"LARSPRIMARYINDEX
+		
+		
+			LARSPRIMARYINDEX"git checkout"LARSPRIMARYINDEX
+		
 		<para>
 			To start working in a branch you have to
 
@@ -147,9 +147,9 @@
 	</section>
 	<section id="git_rename_branch">
 		<title>Rename a branch</title>
-		<indexterm>
-			<primary>rename branch</primary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"rename branch"LARSPRIMARYINDEX
+		
 		<para>Renaming a branch can be done with the following command.
 		</para>
 		<para>
@@ -161,9 +161,9 @@
 	</section>
 	<section id="gitdeletebrach">
 		<title>Delete a branch</title>
-		<indexterm>
-			<primary>delete local branch</primary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"delete local branch"LARSPRIMARYINDEX
+		
 		<para>
 			To delete a branch which is not needed anymore, you can use
 			the following command. You may get an error message that there are
@@ -179,9 +179,9 @@
 		</para>
 	</section>
 	<section id="gitpushbranch">
-		<indexterm>
-			<primary>push branch</primary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"push branch"LARSPRIMARYINDEX
+		
 		<title>Push changes of a branch to a remote repository</title>
 		<para>
 			You can push the changes in the current active branch to a

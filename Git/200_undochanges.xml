@@ -17,14 +17,14 @@
 
 	<section id="undochanges_reset">
 		<title>Remove staged changes from the staging area</title>
-		<indexterm>
-			<primary>Staging area</primary>
-			<secondary>remove staged changes</secondary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"Staging area"LARSPRIMARYINDEX
+			LARSSECONDARY"remove staged changes"LARSSECONDARY
+		
 
-		<indexterm>
-			<primary>Remove staged changes from the staging area</primary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"Remove staged changes from the staging area"LARSPRIMARYINDEX
+		
 
 
 		<para>
@@ -106,16 +106,16 @@
 
 	<section id="undochanges_checkout">
 		<title>Remove changes in the working tree</title>
-		<indexterm>
-			<primary>git checkout</primary>
-		</indexterm>
-		<indexterm>
-			<primary>Checkout version from staging area</primary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"git checkout"LARSPRIMARYINDEX
+		
+		
+			LARSPRIMARYINDEX"Checkout version from staging area"LARSPRIMARYINDEX
+		
 
-		<indexterm>
-			<primary>Undo changes in the working tree</primary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"Undo changes in the working tree"LARSPRIMARYINDEX
+		
 
 		<warning>
 			<para>
@@ -159,14 +159,14 @@
 
 	<section id="undochanges_directorydeletion">
 		<title>Remove changes in the working tree and the staging area</title>
-		<indexterm>
-			<primary>git checkout</primary>
-			<secondary>undo staged changes</secondary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"git checkout"LARSPRIMARYINDEX
+			LARSSECONDARY"undo staged changes"LARSSECONDARY
+		
 
-		<indexterm>
-			<primary>Undo staged changes</primary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"Undo staged changes"LARSPRIMARYINDEX
+		
 		<para>
 			If you want to undo a staged but uncommitted change, you
 			use

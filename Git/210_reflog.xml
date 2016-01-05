@@ -2,9 +2,9 @@
 	<title>Recovering lost commits</title>
 	<section id="detachedheadmode">
 		<title>Detached HEAD</title>
-		<indexterm>
-			<primary>Detached HEAD</primary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"Detached HEAD"LARSPRIMARYINDEX
+		
 		<para>
 			If you checkout a commit or a tag, you are in the so-called
 			<wordasword>detached HEAD mode</wordasword>
@@ -27,9 +27,9 @@
 	</section>
 	<section id="gitreflog_definition">
 		<title>git reflog</title>
-		<indexterm>
-			<primary>git reflog</primary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"git reflog"LARSPRIMARYINDEX
+		
 		<para>
 			Reflog is a mechanism to record the movements of the
 			<wordasword>HEAD</wordasword>

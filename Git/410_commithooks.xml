@@ -2,9 +2,9 @@
 	<title>Git commit and other hooks</title>
 	<section id="gitcommithooks_intro">
 		<title>Usage of Git hooks</title>
-		<indexterm>
-			<primary>commit hooks</primary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"commit hooks"LARSPRIMARYINDEX
+		
 		<para>
 			Git provides commit hooks, e.g., programs which can be executed
 			at

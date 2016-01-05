@@ -1,13 +1,13 @@
 <section id="resetcommitsdef">
 	<title>Use cases for git reset</title>
-	<indexterm>
-		<primary>git reset</primary>
-	</indexterm>
+	
+		LARSPRIMARYINDEX"git reset"LARSPRIMARYINDEX
+	
 	<section id="resetcommit_move">
 		<title>Moving the HEAD and branch pointer</title>
-		<indexterm>
-			<primary>git reset</primary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"git reset"LARSPRIMARYINDEX
+		
 		<para>
 			Sometimes you want to change the commmit your branch pointer is pointing to. The
 			<code>git reset</code>

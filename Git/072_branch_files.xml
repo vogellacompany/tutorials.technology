@@ -2,10 +2,10 @@
 	<title>Working with branches</title>
 	<section id="gitbranch_untrackedfiles">
 		<title>Switching branches with untracked files</title>
-		<indexterm>
-			<primary>switch branch</primary>
-			<secondary>with untrack files</secondary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"switch branch"LARSPRIMARYINDEX
+			LARSSECONDARY"with untrack files"LARSSECONDARY
+		
 		<para>Untracked files (never added to the staging area) are unrelated
 			to
 			any branch. They exist only in
@@ -25,10 +25,10 @@
 	</section>
 	<section id="gitbranch_dirtyfiles">
 		<title>Switching branches with uncommitted changes</title>
-		<indexterm>
-			<primary>switch branch</primary>
-			<secondary>with uncommitted changes</secondary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"switch branch"LARSPRIMARYINDEX
+			LARSSECONDARY"with uncommitted changes"LARSSECONDARY
+		
 		<para>Similar to untracked files you can switch branches with unstaged
 			or staged modifications which are not yet committed.
 		</para>

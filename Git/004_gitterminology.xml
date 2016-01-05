@@ -52,9 +52,9 @@
 
 	<section id="workingtree">
 		<title>Working tree</title>
-		<indexterm>
-			<primary>Working tree in Git</primary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"Working tree in Git"LARSPRIMARYINDEX
+		
 		<para>
 			A local repository provides at least one collection of files which originate from
 			a
@@ -91,9 +91,9 @@
 
 	<section id="gitdefintion_remoterepositories">
 		<title>Synchronization with remote repositories</title>
-		<indexterm>
-			<primary>Remote repositories</primary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"Remote repositories"LARSPRIMARYINDEX
+		
 		<para>
 			Git allows the user to
 			synchronize
@@ -118,12 +118,12 @@
 	</section>
 	<section id="gitdefintion_branching">
 		<title>The concept of branches</title>
-		<indexterm>
-			<primary>Branch</primary>
-		</indexterm>
-		<indexterm>
-			<primary>What is branching in Git?</primary>
-		</indexterm>
+		
+			LARSPRIMARYINDEX"Branch"LARSPRIMARYINDEX
+		
+		
+			LARSPRIMARYINDEX"What is branching in Git?"LARSPRIMARYINDEX
+		
 		<para>
 			Git
 			supports
