@@ -42,12 +42,10 @@
 			<wordasword>HEAD</wordasword>
 			reference.
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/reflog/see.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/reflog/see.txt[]
+----
 		<para>
 			The
 			<code>git reflog</code>
@@ -75,12 +73,10 @@
 			the current local branch to a commit which isn't reachable from
 			the current branch anymore.
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/reflog/remove.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/reflog/remove.txt[]
+----
 	</section>
 
 </section>

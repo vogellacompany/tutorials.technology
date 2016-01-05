@@ -19,12 +19,10 @@
 			Use the following commands to create several new files.
 		</para>
 
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/commandline/first.commands" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/commandline/first.commands[]
+----
 	</section>
 
 	<section id="firstgit_repostatus">
@@ -49,19 +47,15 @@
 			etc.
 		</para>
 		<para>Run it via the following command.</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/commandline/first.status" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/commandline/first.status[]
+----
 		<para>The output looks similar to the following listing.</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/commandline/first.output" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/commandline/first.output[]
+----
 	</section>
 	<section id="firstgit_repoadd">
 		<title>Add files to the staging area</title>
@@ -79,24 +73,20 @@
 			files.
 		</para>
 
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/commandline/gitrepo_add" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/commandline/gitrepo_add[]
+----
 		<para>
 			Afterwards run the
 			<code>git status</code>
 			command again to see the current status.
 		</para>
 
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/commandline/gitrepo_add.result" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/commandline/gitrepo_add.result[]
+----
 
 	</section>
 
@@ -114,40 +104,32 @@
 			new
 			changes must again be staged.
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/commandline/gitrepo_changestaged" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/commandline/gitrepo_changestaged[]
+----
 
 		<para>Validate that the new changes are not yet staged.</para>
 
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/commandline/gitrepo_changestaged.result" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/commandline/gitrepo_changestaged.result[]
+----
 
 		<para>Add the new changes to the staging area.</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/commandline/gitrepo_add" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/commandline/gitrepo_add[]
+----
 		<para>
 			Use the
 			<code>git status</code>
 			command again to see that all changes are staged.
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/commandline/gitrepo_changestaged.finalresult" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/commandline/gitrepo_changestaged.finalresult[]
+----
 
 	</section>
 	<section id="firstgit_repocommit">
@@ -173,11 +155,9 @@
 			message in
 			the editor.
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/commandline/gitrepo_commit" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/commandline/gitrepo_commit[]
+----
 	</section>
 </section>

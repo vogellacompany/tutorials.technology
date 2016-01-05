@@ -39,33 +39,27 @@
 			following
 			command.
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/rebase/rebasecontinue.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/rebase/rebasecontinue.txt[]
+----
 		<para>To see the files which have a rebase conflict use the following
 			command.
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/rebase/conflictingfiles.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/rebase/conflictingfiles.txt[]
+----
 		<para>
 			You solve such a conflict similar to the description in
 			<xref linkend="mergeconflict_examplesolve" />
 			.
 		</para>
 		<para>You can also skip the commit which creates the conflict.</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/rebase/rebaseskip.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/rebase/rebaseskip.txt[]
+----
 	</section>
 
 	<section id="rebaseconflict_abort">
@@ -73,12 +67,10 @@
 		<para>You can also abort a rebase operation with the following
 			command.
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/rebase/rebaseabort.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/rebase/rebaseabort.txt[]
+----
 	</section>
 	<section id="rebaseconflict_theirs">
 		<title>Picking theirs or ours for conflicting file</title>
@@ -111,21 +103,17 @@
 		<para>Therefore to ignore the changes in a commit for a file use the
 			following command.
 		</para>
-		<para>
-			<programlisting language="java">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/rebase/ours.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/rebase/ours.txt[]
+----
 		<para>To take the version of the new commit use the following command.
 		</para>
 
-		<para>
-			<programlisting language="java">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/rebase/theirs.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/rebase/theirs.txt[]
+----
 
 
 	</section>

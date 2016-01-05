@@ -12,11 +12,10 @@
 			of
 			commits.
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/log/log.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/log/log.txt[]
+----
 
 	</section>
 	<section id="git_log_options">
@@ -61,11 +60,10 @@
 			parameter draws a text-based graphical representation of the branches
 			and the merge history of the Git repository.
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/log/logoptions.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/log/logoptions.txt[]
+----
 		<para>
 			For more options on the
 			<code>git log</code>
@@ -94,11 +92,10 @@
 			<code>git log</code>
 			command.
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/changes/filechanges.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/changes/filechanges.txt[]
+----
 
 	</section>
 
@@ -110,11 +107,10 @@
 			<parameter>--pretty </parameter>
 			parameter to configure the output.
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/log/pretty.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/log/pretty.txt[]
+----
 		<para>This command creates the output.</para>
 		
 image::images/gitlogpretty10.png[Git log pretty output]
@@ -154,11 +150,10 @@ LARSLINEBREAK
 			commits which contain the word "workspace"
 			in their commit message.
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/log/grep.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/log/grep.txt[]
+----
 		<para>
 			There is also the
 			<code><![CDATA[--invert-grep=<pattern>]]></code>
@@ -200,11 +195,10 @@ LARSLINEBREAK
 			containing the word "lvogel".
 		</para>
 
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/log/loguser.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/log/loguser.txt[]
+----
 
 		<para>
 			See also

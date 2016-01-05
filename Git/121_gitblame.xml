@@ -6,12 +6,10 @@
 		command.
 	</para>
 
-	<para>
-		<programlisting language="bourne">
-			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-				parse="text" href="./examples/changes/blame.txt" />
-		</programlisting>
-	</para>
+	[source,terminal]
+----
+include::./examples/changes/blame.txt[]
+----
 	<para>
 		The
 		<code>git blame</code>

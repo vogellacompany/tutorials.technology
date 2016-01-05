@@ -21,37 +21,29 @@
 			repository defined.
 		</para>
 
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/merge/createconflict1.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/merge/createconflict1.txt[]
+----
 
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/merge/createconflict2.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/merge/createconflict2.txt[]
+----
 
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/merge/createconflict3.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/merge/createconflict3.txt[]
+----
 
 		<para>As this push would not result in a non-fast-format merge, you
 			receive an error message similar to the following listing.
 		</para>
 
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/merge/createconflict4.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/merge/createconflict4.txt[]
+----
 
 		<para>
 			To solve this, you need to integrate the remote changes into your
@@ -61,22 +53,18 @@
 			<code>git merge</code>
 			command tries to integrate it into your local repository.
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/merge/createconflict5.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/merge/createconflict5.txt[]
+----
 		<para>
 			This creates the conflict and a message similar to the
 			following.
 		</para>
-		<para>
-			<programlisting language="java">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/merge/createconflict7.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/merge/createconflict7.txt[]
+----
 
 
 		<para>
@@ -112,12 +100,10 @@
 			the following
 			listing.
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/merge/mergeconflict.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/merge/mergeconflict.txt[]
+----
 
 		<para>
 			The text above the ======= signs is the conflicting change from
@@ -141,12 +127,10 @@
 			the file manually. The
 			following listing shows a possible result.
 		</para>
-		<para>
-			<programlisting language="java">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/merge/mergeconflictsolved.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/merge/mergeconflictsolved.txt[]
+----
 		<para>
 			Afterwards add the affected file to the staging area and
 			commit
@@ -155,12 +139,10 @@
 			integrated changes now to the remote repository.
 		</para>
 
-		<para>
-			<programlisting language="java">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/merge/createconflict6.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/merge/createconflict6.txt[]
+----
 
 		<para>
 			Instead of using the

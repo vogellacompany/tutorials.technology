@@ -47,47 +47,39 @@
 		<para>In the following example you create a new file and change an
 			existing file. Both changes are staged.
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/deletefile/stageunwantedchanges.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/deletefile/stageunwantedchanges.txt[]
+----
 		<para>
 			The output of
 			<code>git status</code>
 			command should look similar to the following.
 		</para>
 
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/deletefile/stageunwantedchanges_result.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/deletefile/stageunwantedchanges_result.txt[]
+----
 
 
 		<para>Remove the changes from the staging area with the following
 			command.
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/deletefile/unstage.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/deletefile/unstage.txt[]
+----
 		<para>
 			Use the
 			<code>git status</code>
 			command to see the result.
 		</para>
 
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/deletefile/unstage_result.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/deletefile/unstage_result.txt[]
+----
 
 		<para>
 			The
@@ -137,23 +129,19 @@
 			staged version. If there are no staged changes, the latest
 			committed version is used for the restore operation.
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/delete/git_checkoutfile.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/delete/git_checkoutfile.txt[]
+----
 		<para>
 			For example, you can restore the content of a directory called
 			<filename>data</filename>
 			with the following command.
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/delete/restoredir_notstaged.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/delete/restoredir_notstaged.txt[]
+----
 
 	</section>
 
@@ -178,12 +166,10 @@
 		<para>The following demonstrates the usage of this to restore a delete
 			directory.
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/delete/restoredir.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/delete/restoredir.txt[]
+----
 		<para>
 			The additional
 			commit pointer
@@ -204,12 +190,10 @@
 			can
 			also revert the changes in the staging area base on the last commit. 
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/commandline/git_revert" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/commandline/git_revert[]
+----
 
 	</section>
 

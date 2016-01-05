@@ -28,12 +28,10 @@
 			<code>git staged</code>
 			command.
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/alias/staged.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/alias/staged.txt[]
+----
 
 
 		<para>
@@ -48,12 +46,10 @@
 			<wordasword>alias</wordasword>
 			.
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/alias/log.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/alias/log.txt[]
+----
 		<para>
 			You can also run external commands. In this case you start the
 			<wordasword>alias</wordasword>
@@ -67,12 +63,10 @@
 			<code>git commit</code>
 			commands.
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/alias/alias.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/alias/alias.txt[]
+----
 		<warning>
 			<para>
 				In the past <wordasword>msysGit</wordasword>

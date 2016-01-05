@@ -11,11 +11,10 @@
 			line tool via the
 			following command:
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/installation/ubuntu.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/installation/ubuntu.txt[]
+----
 
 	</section>
 	<section id="installation_fedora">
@@ -30,11 +29,10 @@
 			line tool via the
 			following command:
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/installation/fedora.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/installation/fedora.txt[]
+----
 	</section>
 	<section id="installation_linux">
 		<title>Other Linux systems</title>
@@ -56,11 +54,10 @@
 			the commands for the most popular ones.
 		</para>
 
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/installation/linux.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/installation/linux.txt[]
+----
 	</section>
 	<section id="installation_windows">
 		<title>Windows</title>

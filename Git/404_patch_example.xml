@@ -13,19 +13,15 @@
 			creates a branch, changes several files and
 			creates a commit recording these changes.
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/patch/patch1.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/patch/patch1.txt[]
+----
 		<para>The next example creates a patch for these changes. </para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/patch/patch2.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/patch/patch2.txt[]
+----
 
 		<para>
 			To apply this patch to your master branch in a different clone of the
@@ -33,22 +29,18 @@
 			<code>git apply</code>
 			command.
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/patch/patch3.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/patch/patch3.txt[]
+----
 
 		<para>Afterwards you can commit the changes introduced by the patches
 			and delete the patch file.
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/patch/patch4.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/patch/patch4.txt[]
+----
 
 		<tip>
 			<para>
@@ -72,12 +64,10 @@
 			commits based on the HEAD
 			pointer you can use the following commands.
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/patch/patch5.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/patch/patch5.txt[]
+----
 
 	</section>
 

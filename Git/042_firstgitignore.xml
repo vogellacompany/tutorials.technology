@@ -18,12 +18,10 @@
 			directory
 			and file.
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/remove/gitignorecreate.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/remove/gitignorecreate.txt[]
+----
 
 
 		<tip>The above command creates the file via the command line. A more
@@ -32,12 +30,10 @@
 			Ubuntu or Notepad under Windows.
 		</tip>
 		<para>The resulting file looks like the following listing.</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/remove/gitignore.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/remove/gitignore.txt[]
+----
 	</section>
 	<section id="untrack">
 		<title>Stop tracking files based on the .gitignore file</title>
@@ -74,12 +70,10 @@
 			the corresponding files in your example, the command will not work in
 			your Git repository.
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/remove/remove.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/remove/remove.txt[]
+----
 		<para>
 			Adding a file to the
 			<filename>.gitignore</filename>
@@ -104,12 +98,10 @@
 			commands for this.
 		</para>
 
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/remove/gitignoreaddtorepo.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/remove/gitignoreaddtorepo.txt[]
+----
 	</section>
 
 </section>

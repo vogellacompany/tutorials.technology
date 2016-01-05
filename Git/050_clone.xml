@@ -76,12 +76,10 @@
 		<para>Execute the following commands to create a bare repository based
 			on your existing Git repository.
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/commandline/git_remote.commands" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/commandline/git_remote.commands[]
+----
 		<tip>
 			<para>
 				If you receive a warning similar to the following:

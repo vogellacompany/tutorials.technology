@@ -86,12 +86,10 @@
 			via the following
 			commands.
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/commandline/git_clone.commands" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/commandline/git_clone.commands[]
+----
 	</section>
 
 	<section id="exercise_cloneremotes_push">
@@ -106,12 +104,10 @@
 			via the following
 			commands.
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/commandline/git_push.commands" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/commandline/git_push.commands[]
+----
 
 	</section>
 
@@ -137,22 +133,18 @@
 			following
 			commands.
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/commandline/git_pull.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/commandline/git_pull.txt[]
+----
 		<para>You can pull in the changes in your first example repository
 			with the following commands.
 		</para>
 
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/commandline/git_pull2.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/commandline/git_pull2.txt[]
+----
 	</section>
 
 </section>

@@ -7,21 +7,17 @@
 			after
 			some changes.
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/stash/stash1.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/stash/stash1.txt[]
+----
 		<para>It is also possible to keep a list of stashes.</para>
 
 
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/stash/stash2.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/stash/stash2.txt[]
+----
 	</section>
 	<section id="stash_branchexample">
 		<title>Create a branch from  a stash</title>
@@ -33,12 +29,10 @@
 			with the following command.
 		</para>
 
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/stash/stash3.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/stash/stash3.txt[]
+----
 
 	</section>
 

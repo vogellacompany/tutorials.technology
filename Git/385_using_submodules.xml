@@ -12,12 +12,10 @@
 			.
 		</para>
 
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/submodules/pull.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/submodules/pull.txt[]
+----
 		<para>
 			Use the
 			<code>git submodule update
@@ -27,12 +25,10 @@
 			by the main
 			repository.
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/submodules/update1.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/submodules/update1.txt[]
+----
 		<warning>
 			<para>The fact that submodules track commits and not branches
 				frequently leads to
@@ -66,12 +62,10 @@
 			<code>git submodule update</code>
 			command.
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/submodules/branch.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/submodules/branch.txt[]
+----
 
 	</section>
 
@@ -118,21 +112,17 @@
 			The following example shows how to update a submodule to its
 			latest commit in its master branch.
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/submodules/update.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/submodules/update.txt[]
+----
 		<para>Another developer can get the update by pulling in the changes
 			and running the submodules update command.
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/submodules/getupdate.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/submodules/getupdate.txt[]
+----
 		<warning>
 			<para>
 				With this setup you are tracking commits, so if the master

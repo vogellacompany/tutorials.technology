@@ -40,22 +40,18 @@
 			following setting for this.
 		</para>
 
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/linefeed/windows.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/linefeed/windows.txt[]
+----
 
 		<para>On Linux and Mac you can tell Git to convert CRLF  to
 			LF with the following setting. 
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/linefeed/linux.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/linefeed/linux.txt[]
+----
 
 	</section>
 

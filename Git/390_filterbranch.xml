@@ -61,12 +61,10 @@
 			<code>git filter-branch</code>
 			command.
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/filterbranch/replace.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/filterbranch/replace.txt[]
+----
 	</section>
 
 </section>

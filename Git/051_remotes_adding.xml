@@ -22,12 +22,10 @@
 			<wordasword>origin</wordasword>
 			name.
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/remoteadd/gitremoteadd.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/remoteadd/gitremoteadd.txt[]
+----
 
 	</section>
 	<section id="remotes_remote_synchronize">
@@ -42,12 +40,10 @@
 			your remote repository.
 		</para>
 
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/remoteadd/gitremotepush.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/remoteadd/gitremotepush.txt[]
+----
 
 	</section>
 
@@ -63,24 +59,20 @@
 			command.
 		</para>
 
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/remote/show.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/remote/show.txt[]
+----
 		<para>
 			To see the details of the
 			<wordasword>remotes</wordasword>
 			, e.g., the URL use the following
 			command.
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/remote/showdetails.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/remote/showdetails.txt[]
+----
 	</section>
 
 

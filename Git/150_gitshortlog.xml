@@ -18,17 +18,13 @@
 		<parameter>-n</parameter>
 		option sorts the output based on the number of commits by author.
 	</para>
-	<para>
-		<programlisting language="bourne">
-			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-				parse="text" href="./examples/log/shortlog.txt" />
-		</programlisting>
-	</para>
+	[source,terminal]
+----
+include::./examples/log/shortlog.txt[]
+----
 	<para>This command also allows you to see the commits done by a certain author or committer.</para>
-	<para>
-		<programlisting language="bourne">
-			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-				parse="text" href="./examples/log/shortlogauthor.txt" />
-		</programlisting>
-	</para>
+	[source,terminal]
+----
+include::./examples/log/shortlogauthor.txt[]
+----
 </section>

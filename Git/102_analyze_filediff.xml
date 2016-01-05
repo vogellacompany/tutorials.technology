@@ -32,12 +32,10 @@
 			Afterwards
 			commit the changes to the repository.
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/diff/diff_untracked.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/diff/diff_untracked.txt[]
+----
 	</section>
 
 	<section id="gitdiff_index">
@@ -49,11 +47,9 @@
 		<para>To see which changes you have staged, i.e., you are going to
 			commit with the next commit, use the following command.
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/diff/diff_index.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/diff/diff_index.txt[]
+----
 	</section>
 </section>

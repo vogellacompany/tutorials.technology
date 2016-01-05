@@ -21,12 +21,10 @@
 			.
 		</para>
 
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/fetch/fetch.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/fetch/fetch.txt[]
+----
 
 
 		<para>
@@ -94,12 +92,10 @@
 			all your remote repositories you can use the following command.
 		</para>
 
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/remote/gitupdate.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/remote/gitupdate.txt[]
+----
 	</section>
 
 	<section id="gitfetch_compare">
@@ -107,12 +103,10 @@
 		<para>The following code shows a few options how you can compare your
 			branches.
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/remotebranch/compare.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/remotebranch/compare.txt[]
+----
 		<para>
 			The above commands show the changes introduced in HEAD compared
 			to
@@ -136,12 +130,10 @@
 			branch. The
 			following commands demonstrate that.
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/remotebranch/apply.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/remotebranch/apply.txt[]
+----
 		<tip>
 			<para>
 				More information on the rebase command can be found in

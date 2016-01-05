@@ -26,12 +26,10 @@
 			Git
 			repository.
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/commandline/gitrepo_createdirectory" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/commandline/gitrepo_createdirectory[]
+----
 	</section>
 	<section id="firstgit_repository_creation">
 		<title>Create a new Git repository</title>
@@ -71,12 +69,10 @@
 			creates a Git repository in the current
 			directory.
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/commandline/gitrepo_create" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/commandline/gitrepo_create[]
+----
 		<para>
 			All files inside the repository folder excluding the
 			<filename>.git</filename>

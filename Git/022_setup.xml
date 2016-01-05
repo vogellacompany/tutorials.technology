@@ -21,12 +21,10 @@
 		<para> Configure your user and email for Git via the following
 			command.
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/commandline/setup.commands" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/commandline/setup.commands[]
+----
 
 	</section>
 	<section id="setup_pushconfiguration">
@@ -43,12 +41,10 @@
 			If your are using Git in a version below 2.0 you should also
 			execute the following command.
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/commandline/setup_pushmatching.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/commandline/setup_pushmatching.txt[]
+----
 		<para>
 			This configures Git so that the
 			<code>git push</code>
@@ -82,12 +78,10 @@
 			be desired and you can avoid
 			this via the following setting.
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/commandline/setup_useful" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/commandline/setup_useful[]
+----
 		<note>
 			<para>This setting depends on the individual workflow. Some teams
 				prefer to create merge commits, but the author of this $book likes
@@ -108,12 +102,10 @@
 		<para> The following commands enables color highlighting for Git in
 			the console.
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/highlight/color.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/highlight/color.txt[]
+----
 	</section>
 	<section id="setup_editor">
 		<title>Setting the default editor</title>
@@ -132,12 +124,10 @@
 			a different one via the
 			following setting.
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/settings/editor.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/settings/editor.txt[]
+----
 	</section>
 	<section id="setup_mergetool">
 		<title>Setting the default merge tool</title>
@@ -170,12 +160,10 @@
 			default merge
 			tool with the following command.
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/settings/mergetool.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/settings/mergetool.txt[]
+----
 	</section>
 
 	<section id="setup_allsetttings">
@@ -196,22 +184,18 @@
 		<para>To query your Git settings, execute the
 			following command:
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/settings/listsettings.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/settings/listsettings.txt[]
+----
 
 		<para>If you want to query the global settings you can use the
 			following command.
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/settings/listsettingsglobal.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/settings/listsettingsglobal.txt[]
+----
 
 	</section>
 

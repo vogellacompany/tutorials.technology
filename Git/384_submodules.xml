@@ -33,12 +33,10 @@
 			command creates the local configuration file for
 			the submodules if this configuration does not exist.
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/submodules/add.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/submodules/add.txt[]
+----
 
 
 	</section>

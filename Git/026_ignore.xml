@@ -39,12 +39,10 @@
 			<filename>target</filename>
 			directories and all files ending with a ~.
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/ignore/gitignore" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/ignore/gitignore[]
+----
 		<para>
 			You can create the
 			<filename>.gitignore</filename>
@@ -96,12 +94,10 @@
 			code snippet.
 		</para>
 
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/gitignore/global.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/gitignore/global.txt[]
+----
 		<para>
 			The
 			global

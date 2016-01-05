@@ -32,12 +32,10 @@
 		<para> The following commands create some changes in your Git
 			repository.
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/log/status.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/log/status.txt[]
+----
 
 		<para>
 			The
@@ -48,20 +46,16 @@
 			possible
 			actions which the user can perform.
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/log/status2.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/log/status2.txt[]
+----
 
 		<para>The output of the command looks like the following listing.
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/log/status3.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/log/status3.txt[]
+----
 	</section>
 </section>

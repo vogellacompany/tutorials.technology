@@ -102,12 +102,10 @@ LARSLINEBREAK
 			option. The command to create a new empty bare remote repository is
 			displayed below.
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/create/gitinitbare.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/create/gitinitbare.txt[]
+----
 
 		<para>
 			By convention the name of a bare repository should end with the

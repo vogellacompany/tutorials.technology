@@ -39,12 +39,10 @@
 		<para>We use a simple shell script which checks the existence of a
 			file. Ensure that this file is executable.
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/bisect/check.sh" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/bisect/check.sh[]
+----
 
 
 		<para>
@@ -57,19 +55,15 @@
 			to define a commit known to be bad (showing the problem) and a
 			commit known to be good (not showing the problem).
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/bisect/bisect_start.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/bisect/bisect_start.txt[]
+----
 		<para>Afterwards run the bisect command using the shell script.</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/bisect/bisectrun.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/bisect/bisectrun.txt[]
+----
 		<tip>
 			<para>
 				The above commands serve as an example. The existence of a file can be easier

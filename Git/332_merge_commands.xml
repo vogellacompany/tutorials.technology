@@ -17,12 +17,10 @@
 			the
 			following command.
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/commandline/git_merge" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/commandline/git_merge[]
+----
 	</section>
 	<section id="gitmerge_mergeoptionsstrategies">
 		<title>Specifying merge strategies</title>
@@ -42,12 +40,10 @@
 			current branch head, effectively ignoring all changes from all other
 			branches. This is demonstrated with the following command.
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/merge/mergeours.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/merge/mergeours.txt[]
+----
 		<warning>
 			<para>
 				Be careful if you use the
@@ -61,12 +57,10 @@
 			specify more than one reference to merge.
 		</para>
 
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/merge/mergeoctupus.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/merge/mergeoctupus.txt[]
+----
 
 	</section>
 
@@ -114,12 +108,10 @@
 		</para>
 		<para>Both options are demonstrated in the following example code.
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/merge/mergeours2.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/merge/mergeours2.txt[]
+----
 
 		<para>
 			Another useful option is the

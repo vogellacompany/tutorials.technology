@@ -19,12 +19,10 @@
 			remote-tracking branches
 			with the following command.
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/remotebranch/showremotes.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/remotebranch/showremotes.txt[]
+----
 
 		<para>
 			To update remote-tracking branches without changing local branches
@@ -49,12 +47,10 @@
 			repository. You can use the following command for that.
 		</para>
 
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/remotebranch/delete.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/remotebranch/delete.txt[]
+----
 		<para>
 			The next time you run the
 			<code>git fetch</code>
@@ -72,19 +68,15 @@
 			command.
 		</para>
 
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/remotebranch/deleteremotebranch2.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/remotebranch/deleteremotebranch2.txt[]
+----
 		<para>Alternatively you can also use the following command. </para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/remotebranch/deleteremotebranch.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/remotebranch/deleteremotebranch.txt[]
+----
 		<para>
 			For example if you want to delete the branch called
 			<wordasword>testbranch</wordasword>
@@ -94,24 +86,20 @@
 
 		</para>
 
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/remotebranch/deleteremotebranch3.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/remotebranch/deleteremotebranch3.txt[]
+----
 
 		<note>
 			<para>Note you can also specify the remote repository's URL. So the
 				following command also works.
 			</para>
 
-			<para>
-				<programlisting language="bourne">
-					<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-						parse="text" href="./examples/remotebranch/deleteremotebranch4.txt" />
-				</programlisting>
-			</para>
+			[source,terminal]
+----
+include::./examples/remotebranch/deleteremotebranch4.txt[]
+----
 		</note>
 
 	</section>
@@ -166,12 +154,10 @@
 			during the creation of a branch. The following example demonstrates
 			that.
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/remotebranch/trackingbranch.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/remotebranch/trackingbranch.txt[]
+----
 
 
 		<para>
@@ -181,12 +167,10 @@
 			<code>git branch</code>
 			command.
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/remotebranch/create.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/remotebranch/create.txt[]
+----
 
 		<para>
 			The
@@ -196,12 +180,10 @@
 			<code>git branch -u</code>
 			command later.
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/remotebranch/update.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/remotebranch/update.txt[]
+----
 
 
 
@@ -213,19 +195,15 @@
 			remote) you can use the
 			following command.
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/remotebranch/showtrackingbranches.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/remotebranch/showtrackingbranches.txt[]
+----
 		<para>An example output of this might look as follows. </para>
-		<para>
-			<programlisting language="text">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/remotebranch/output.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/remotebranch/output.txt[]
+----
 	</section>
 
 </section>

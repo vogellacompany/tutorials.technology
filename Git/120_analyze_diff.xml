@@ -10,12 +10,10 @@
 		<para>To see the changes introduced by a commit use the following
 			command.
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/changes/diff.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/changes/diff.txt[]
+----
 
 	</section>
 
@@ -33,12 +31,10 @@
 			shows the differences introduced in the last
 			commit.
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/diff/diff_commits.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/diff/diff_commits.txt[]
+----
 	</section>
 
 	<section id="analyzechanges_file">
@@ -56,11 +52,9 @@
 			tells the command to show only the names of the files.
 		</para>
 
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/changes/changedfiles.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/changes/changedfiles.txt[]
+----
 	</section>
 </section>

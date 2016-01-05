@@ -182,12 +182,10 @@ LARSLINEBREAK
 				command and subsequently your colleagues have to use fetch -f to
 				fetch the rewritten commits.
 			</para>
-			<para>
-				<programlisting language="bourne">
-					<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-						parse="text" href="./examples/rebase/forcedpush.txt" />
-				</programlisting>
-			</para>
+			[source,terminal]
+----
+include::./examples/rebase/forcedpush.txt[]
+----
 		</warning>
 	</section>
 </section>

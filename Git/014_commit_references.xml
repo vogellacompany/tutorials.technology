@@ -217,35 +217,29 @@ LARSLINEBREAK
 			For example, you can ask Git to show all commits which happened
 			between HEAD and HEAD~4.
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/ranges/logranges1" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/ranges/logranges1[]
+----
 		<para>This also works for branches. To list all commits which are in
 			the "master" branch but not in the "testing" branch, use the
 			following
 			command.
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/ranges/logranges2" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/ranges/logranges2[]
+----
 
 		<para>
 			You can also list all commits which are in the "testing"
 			but not
 			in the "master" branch.
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/ranges/logranges3" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/ranges/logranges3[]
+----
 
 
 	</section>
@@ -264,12 +258,10 @@ LARSLINEBREAK
 		<para>This is useful to show all commits in two branches which have
 			not yet been combined.
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/ranges/logranges4" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/ranges/logranges4[]
+----
 	</section>
 
 </section>

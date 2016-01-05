@@ -25,34 +25,28 @@
 		</para>
 
 		<para>The following command shows the log.</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/commandline/git_checkout1" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/commandline/git_checkout1[]
+----
 		<para>
 			The following listing shows an example output of a Git log
 			command.
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/commandline/git_checkout2" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/commandline/git_checkout2[]
+----
 	</section>
 	<section id="undochanges_checkoutcommits2">
 		<title>Example: Checkout a commit</title>
 		<para>
 			To checkout a specific commit you can use the following command.
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/commandline/git_checkout3" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/commandline/git_checkout3[]
+----
 		<warning>
 			<para>
 				If you checkout a commit, you are in the

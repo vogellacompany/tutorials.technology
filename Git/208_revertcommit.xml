@@ -25,12 +25,10 @@
 			<code>git revert</code>
 			command.
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/commandline/git_revert_commit" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/commandline/git_revert_commit[]
+----
 
 	</section>
 

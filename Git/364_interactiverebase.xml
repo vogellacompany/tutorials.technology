@@ -5,22 +5,18 @@
 		for
 		the interactive rebase.
 	</para>
-	<para>
-		<programlisting language="bourne">
-			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-				parse="text" href="./examples/rebase/git_rebase_commits" />
-		</programlisting>
-	</para>
+	[source,terminal]
+----
+include::./examples/rebase/git_rebase_commits[]
+----
 	<para> We want to combine the last seven commits. You can do
 		this
 		interactively via the following command.
 	</para>
-	<para>
-		<programlisting language="bourne">
-			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-				parse="text" href="./examples/rebase/rebase_i.txt" />
-		</programlisting>
-	</para>
+	[source,terminal]
+----
+include::./examples/rebase/rebase_i.txt[]
+----
 	<para>
 		This command opens your editor of choice and lets you configure the
 		rebase
@@ -47,11 +43,9 @@
 		) for better readability.
 	</para>
 
-	<para>
-		<programlisting language="text">
-			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-				parse="text" href="./examples/rebase/interactiverebase10.txt" />
-		</programlisting>
-	</para>
+	[source,terminal]
+----
+include::./examples/rebase/interactiverebase10.txt[]
+----
 
 </section>

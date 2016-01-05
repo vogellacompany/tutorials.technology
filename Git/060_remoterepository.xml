@@ -20,35 +20,29 @@
 			Git protocol. The Git protocol uses the port 9148 which might be
 			blocked by firewalls.
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/remote/checkout.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/remote/checkout.txt[]
+----
 		<para>
 			If you have SSH access to a Git repository, you can also use the
 			<code>ssh</code>
 			protocol. The name preceding @ is the user name used for the SSH
 			connection.
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/remote/checkoutssh.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/remote/checkoutssh.txt[]
+----
 		<para>
 			Alternatively you could clone the same repository via the
 			<code>http</code>
 			protocol.
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/remote/checkouthttp.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/remote/checkouthttp.txt[]
+----
 	</section>
 	<section id="remote_add">
 		<title>Add more remote repositories</title>
@@ -89,12 +83,10 @@
 			for the http
 			protocol via the following command.
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/add/addremote.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/add/addremote.txt[]
+----
 	</section>
 	<section id="remote_rename">
 		<title>Rename remote repositories</title>
@@ -103,12 +95,10 @@
 			<code>git remote rename</code>
 			command. This is demonstrated by the following listing.
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/add/renameremote.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/add/renameremote.txt[]
+----
 	</section>
 
 	<section id="remote_httpprotocol">
@@ -125,12 +115,10 @@
 			is especially helpful if your firewall blocks
 			everything except HTTP or HTTPS.
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/proxy/http.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/proxy/http.txt[]
+----
 		<para>
 			For secured SSL encrypted communication you should use the SSH
 			or HTTPS
@@ -157,20 +145,16 @@
 		</para>
 		<para>The following listing configures the proxy via environment variables.
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/proxy/proxy.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/proxy/proxy.txt[]
+----
 		<para>The following listing configures the proxy via Git config settings.
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/proxy/proxy2.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/proxy/proxy2.txt[]
+----
 		<tip>
 			<para>
 				Git is able to store different proxy configurations for

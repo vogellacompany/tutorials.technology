@@ -17,12 +17,10 @@
 			<code>*</code>
 			.
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/commandline/git_brancheslist.commands" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/commandline/git_brancheslist.commands[]
+----
 		<para>
 			If you want to see all branches (including remote-tracking
 			branches),
@@ -35,12 +33,10 @@
 			<xref linkend="gitremotebranch_overview" />
 			for information about remote-tracking branches.
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/commandline/git_brancheslist2.commands" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/commandline/git_brancheslist2.commands[]
+----
 		<para>
 			The
 			<parameter>-v</parameter>
@@ -52,12 +48,10 @@
 			<code>git branch -r</code>
 			command as demonstrated in the following example.
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/commandline/git_brancheslist3.commands" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/commandline/git_brancheslist3.commands[]
+----
 
 	</section>
 
@@ -83,12 +77,10 @@
 			is used to create
 			the branch.
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/branch/git_create_branch" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/branch/git_create_branch[]
+----
 
 
 	</section>
@@ -121,12 +113,10 @@
 			<wordasword>master</wordasword>
 			.
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/branch/git_checkout" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/branch/git_checkout[]
+----
 		<para>
 			To create a branch and to switch to it at the same time you can use
 			the
@@ -136,12 +126,10 @@
 			parameter.
 		</para>
 
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/branch/git_createcheckout" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/branch/git_createcheckout[]
+----
 
 
 	</section>
@@ -152,12 +140,10 @@
 		
 		<para>Renaming a branch can be done with the following command.
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/branch/git_rename_branch" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/branch/git_rename_branch[]
+----
 	</section>
 	<section id="gitdeletebrach">
 		<title>Delete a branch</title>
@@ -171,12 +157,10 @@
 			Use force delete (uppercase <parameter>-D</parameter>) to delete it
 			anyway.
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/branch/git_delete_branch" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/branch/git_delete_branch[]
+----
 	</section>
 	<section id="gitpushbranch">
 		
@@ -188,12 +172,10 @@
 			remote repository by specifying the target branch. This creates the
 			target branch in the remote repository if it does not yet exist.
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/branch/git_pushbranch.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/branch/git_pushbranch.txt[]
+----
 		<para>
 			This way you can decide which branches you want to push to other
 			repositories and which should be local branches. You learn more about

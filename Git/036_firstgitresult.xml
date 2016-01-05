@@ -13,19 +13,15 @@
 			<code>git log</code>
 			command (See <xref linkend="analyzechanges_log"/> for details).
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/gitfirst/gitlog.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/gitfirst/gitlog.txt[]
+----
 		<para>You see an output similar to the following.</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/gitfirst/gitlog-output.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/gitfirst/gitlog-output.txt[]
+----
 	</section>
 	<section id="firstgitresult_directory">
 		<title>Directory structure</title>

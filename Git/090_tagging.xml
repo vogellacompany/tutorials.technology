@@ -11,12 +11,10 @@
 			
 			via the following command:
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/tag/list.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/tag/list.txt[]
+----
 	</section>
 	<section id="tag_searchbypattern">
 		<title>Search by pattern for a tag</title>
@@ -28,12 +26,10 @@
 			<code>git tag</code>
 			command to search for a pattern in the tag.
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/tag/search.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/tag/search.txt[]
+----
 	</section>
 	<section id="tagging_createlightweight">
 		<title>Creating lightweight tags</title>
@@ -69,12 +65,10 @@
 			the
 			timestamp.
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/tag/createlight.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/tag/createlight.txt[]
+----
 	</section>
 	<section id="tagging_createannoted">
 		<title>Creating annotated tags</title>
@@ -92,20 +86,16 @@
 			following
 			command tags the current active HEAD.
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/tag/create.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/tag/create.txt[]
+----
 
 		<para>You can also create tags for a certain commit id. </para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/tag/createid.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/tag/createid.txt[]
+----
 	</section>
 	<section id="tagging_signedtags">
 		<title>Creating signed tags</title>
@@ -135,12 +125,10 @@
 		<para> If you want to use the code associated with the tag, use:
 		</para>
 
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/tag/checkout.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/tag/checkout.txt[]
+----
 		<warning>
 			<para>
 				If you checkout a tag, you are in the
@@ -167,12 +155,10 @@
 			repositories. You explicitly
 			have to push the tag with the following command.
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/tag/push.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/tag/push.txt[]
+----
 
 
 	</section>
@@ -192,12 +178,10 @@
 		</para>
 		<para>The following commands demonstrate how to push a tag deletion.
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/tag/delete.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/tag/delete.txt[]
+----
 
 	</section>
 

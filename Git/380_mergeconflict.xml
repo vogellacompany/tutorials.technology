@@ -73,19 +73,15 @@
 			in, and the second option keeps the version before the merge
 			operation was started.
 		</para>
-		<para>
-			<programlisting language="java">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/rebase/ours.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/rebase/ours.txt[]
+----
 
-		<para>
-			<programlisting language="java">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/rebase/theirs.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/rebase/theirs.txt[]
+----
 
 	</section>
 </section>

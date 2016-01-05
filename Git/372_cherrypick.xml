@@ -4,12 +4,10 @@
 		In the following example you create a new branch and commit two
 		changes.
 	</para>
-	<para>
-		<programlisting language="bourne">
-			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-				parse="text" href="./examples/cherry/step1.txt" />
-		</programlisting>
-	</para>
+	[source,terminal]
+----
+include::./examples/cherry/step1.txt[]
+----
 
 	<para>
 		You can check the commit history, for example, with the
@@ -18,12 +16,10 @@
 		</code>
 		command.
 	</para>
-	<para>
-		<programlisting language="bourne">
-			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-				parse="text" href="./examples/cherry/step2.txt" />
-		</programlisting>
-	</para>
+	[source,terminal]
+----
+include::./examples/cherry/step2.txt[]
+----
 
 	<para>
 		The following command selects the first commit based on the
@@ -34,12 +30,10 @@
 		new commit on
 		the master branch.
 	</para>
-	<para>
-		<programlisting language="bourne">
-			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-				parse="text" href="./examples/cherry/step3.txt" />
-		</programlisting>
-	</para>
+	[source,terminal]
+----
+include::./examples/cherry/step3.txt[]
+----
 	<para>
 		The
 		<code>cherry-pick</code>
@@ -47,12 +41,10 @@
 		<code>git cherry-pick</code>
 		also accepts commit ranges for example in the following command.
 	</para>
-	<para>
-		<programlisting language="bourne">
-			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-				parse="text" href="./examples/cherry/step4.txt" />
-		</programlisting>
-	</para>
+	[source,terminal]
+----
+include::./examples/cherry/step4.txt[]
+----
 	<tip>
 		<para>
 			See
@@ -64,10 +56,8 @@
 		If things go wrong or you change your mind, you can always reset to
 		the previous state using the following command.
 	</para>
-	<para>
-		<programlisting language="bourne">
-			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-				parse="text" href="./examples/cherry/step5.txt" />
-		</programlisting>
-	</para>
+	[source,terminal]
+----
+include::./examples/cherry/step5.txt[]
+----
 </section>

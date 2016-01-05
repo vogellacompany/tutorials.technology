@@ -37,11 +37,10 @@
 			automatically the double hyphens can be avoided.
 		</para>
 
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/double/text.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/double/text.txt[]
+----
 	</section>
 
 	<section id="gitdefintion_tools2">

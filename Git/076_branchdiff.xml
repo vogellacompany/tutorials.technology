@@ -11,12 +11,10 @@
 		following command.
 	</para>
 
-	<para>
-		<programlisting language="bourne">
-			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-				parse="text" href="./examples/branchdiff/diff2.txt" />
-		</programlisting>
-	</para>
+	[source,terminal]
+----
+include::./examples/branchdiff/diff2.txt[]
+----
 
 	<para>
 		You can also use commit ranges as described in
@@ -36,12 +34,10 @@
 		since these branches diverged.
 	</para>
 
-	<para>
-		<programlisting language="bourne">
-			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-				parse="text" href="./examples/branchdiff/diff1.txt" />
-		</programlisting>
-	</para>
+	[source,terminal]
+----
+include::./examples/branchdiff/diff1.txt[]
+----
 	<para>
 		See
 		<xref linkend="gitdiffchapter" />

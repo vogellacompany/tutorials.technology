@@ -33,12 +33,10 @@
 			of the file.
 
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/show/showrev.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/show/showrev.txt[]
+----
 
 	</section>
 	<section id="retrievefiles_fromcommit">
@@ -53,12 +51,10 @@
 			command as demonstrated by the following command.
 		</para>
 
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/restore/restoredeletedfile.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/restore/restoredeletedfile.txt[]
+----
 	</section>
 
 
@@ -87,12 +83,10 @@
 			to see the commit history for a file, even if you have deleted the
 			file.
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/show/delete.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/show/delete.txt[]
+----
 
 	</section>
 

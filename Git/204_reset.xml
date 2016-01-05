@@ -28,12 +28,10 @@
 			command makes the working tree exactly match HEAD.
 		</para>
 
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/delete/cleanworking.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/delete/cleanworking.txt[]
+----
 		<warning>
 			<para>If you have tracked files with modifications, you lose
 				these
@@ -76,12 +74,10 @@
 			from the commits which were resetted are still part of
 			the staging area.
 		</para>
-		<para>
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/delete/squash.txt" />
-			</programlisting>
-		</para>
+		[source,terminal]
+----
+include::./examples/delete/squash.txt[]
+----
 		<para>
 			The interactive rebase adds more flexibility to squashing commits and
 			allows to use the existing commit messages. See
