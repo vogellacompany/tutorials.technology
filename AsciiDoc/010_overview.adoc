@@ -20,10 +20,16 @@ sudo apt-get install -y asciidoctor
 ----
 
 == Importing files
-You can import files via the include macro.
 
-DON'T KNOW HOW TO SHOW THE COMMEND FOR AN INCLUDE
+You can import files via the include macro. This also works for source code includes.
 
+DON'T KNOW HOW TO PRESERE the LINE BREAKS in THE HTML output
+++++++++
+[source,java]
+----
+\include::examples/source.java[]
+----
+++++++++
 
 == Defining references
 
@@ -73,6 +79,25 @@ System.out.println("Hello");  # <1>
 private int a;
 
 <1> Imports the library
+
+== Index
+
+You can add primary index terms to your document via ((yourterm)). A secondary index can be added to your document via (((seconddary term1, secondary term2))). 
+
+
+(((Big cats,Lions)))
+
+++++
+(((Big cats,Lions)))
+++++
+
+Example 
+
+
+== Convert to DocBook
+To convert asciidoc into DocBook use the following command:
+
+asciidoctor -b docbook45 inputfile.adoc.
 
 == Convert Asciidoc to Docbook
 
