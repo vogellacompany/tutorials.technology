@@ -1,0 +1,39 @@
+[[bisect]]
+= Error search with git bisect
+
+[[bisect_definition]]
+== Using git bisect
+
+((git bisect))
+ The `git bisect` command
+allows you to run a binary search through the commit history to identify
+the commit which introduced an issue. You specify a range of commits and
+a script that the `bisect` command uses to identify whether a commit is
+good or bad.
+
+This script must return 0 if the condition is fulfilled and non-zero if
+the condition is not fulfilled.
+
+[[bisect_cloning]]
+== git bisect example
+
+Create a new Git repository, create the `text1.txt` file and commit it
+to the repository. Do a few more changes, remove the file and again do a
+few more changes.
+
+We use a simple shell script which checks the existence of a file.
+Ensure that this file is executable.
+
+[source,terminal] ---- include::./examples/bisect/check.sh[] ----
+Afterwards use the `git bisect` command to find the bad commit. First
+you use the `git bisect start` command to define a commit known to be
+bad (showing the problem) and a commit known to be good (not showing the
+problem).
+
+[source,terminal] ---- include::./examples/bisect/bisect_start.txt[]
+---- Afterwards run the bisect command using the shell script.
+
+[source,terminal] ---- include::./examples/bisect/bisectrun.txt[] ---- >
+*Tip* > > The above commands serve as an example. The existence of a
+file can be > easier verified with the `git bisect` command: >
+`git bisect run test -f test1.txt`

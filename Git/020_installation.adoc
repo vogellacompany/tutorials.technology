@@ -1,0 +1,67 @@
+[[installation]]
+= Installation
+
+[[installation_ubuntu]]
+== Ubuntu, Debian and derived systems
+
+(((Git Installation, Ubuntu, Debian)))
+
+On Ubuntu and similar systems you can install the
+Git command line tool via the following command:
+
+[source,terminal] 
+---- 
+include::./examples/installation/ubuntu.txt[]
+---- 
+[[installation_fedora]]
+
+== Fedora, Red Hat and derived systems
+
+(((Installation, Fedore, Red Hat)))
+
+On Fedora, Red Hat and similar systems you can install
+the Git command line tool via the following command:
+
+[source,terminal] 
+---- 
+include::./examples/installation/fedora.txt[]
+----
+
+[[installation_linux]] 
+== Other Linux systems
+
+(((Installation, Arch, Gentoo, SUSE)))
+
+To install Git on other Linux
+distributions please check the documentation of your distribution. The
+following listing contains the commands for the most popular ones.
+
+[source,terminal] 
+---- 
+include::./examples/installation/linux.txt[] 
+----
+
+[[installation_windows]] 
+## Windows
+
+
+(((Installation, Windows)))
+
+A Windows version of Git can be
+found on the http://git-scm.com/downloads[Git download page]. This
+website provides native installers for each operating system. The
+homepage of the Windows Git project is
+https://git-for-windows.github.io/[git for window].
+
+[[installation_mac]]
+== Mac OS
+
+(((Installation, Mac)))
+ 
+The easiest way to install Git on a Mac is via the
+http://git-scm.com/downloads[Git download page] and to download and run
+the installer for Mac OS X.
+
+Git is also installed by default with the Apple Developer Tools on Mac
+OS X.
+    

@@ -1,0 +1,89 @@
+[[gitbranch]]
+= Commands to working with branches
+
+[[gitbranch_listbranches]]
+== List available branches
+
+((git branch))
+ The `git branch` command
+lists all local branches. The currently active branch is marked with `*`
+.
+
+[source,terminal] ----
+include::./examples/commandline/git_brancheslist.commands[] ---- If you
+want to see all branches (including remote-tracking branches), use the
+`-a` for the `git branch` command. See ? for information about
+remote-tracking branches.
+
+[source,terminal] ----
+include::./examples/commandline/git_brancheslist2.commands[] ---- The
+`-v` option lists more information about the branches.
+
+In order to list branches in a remote repository use the `git branch -r`
+command as demonstrated in the following example.
+
+[source,terminal] ----
+include::./examples/commandline/git_brancheslist3.commands[] ---- ##
+Create new branch \{#gitbranch_createnewbranch}
+
+((create new branch))
+ (((git
+branch)))
+
+ LARSSECONDARY"create new branch"LARSSECONDARY
+You can create a new branch via the `git branch [newname]` command. This
+command allows to specify the starting point (commit id, tag, remote or
+local branch). If not specified the commit to which the HEAD reference
+points is used to create the branch.
+
+[source,terminal] ---- include::./examples/branch/git_create_branch[]
+---- ## Checkout branch \{#gitbranch_checkout}
+
+((checkout branch))
+ (((git
+checkout)))
+
+ To start working in a branch you have to
+_checkout_ the branch. If you _checkout_ a branch, the HEAD pointer
+moves to the last commit in this branch and the files in the working
+tree are set to the state of this commit.
+
+The following commands demonstrate how you switch to the branch called
+_testing_ , perform some changes in this branch and switch back to the
+branch called _master_ .
+
+[source,terminal] ---- include::./examples/branch/git_checkout[] ---- To
+create a branch and to switch to it at the same time you can use the
+`git checkout` command with the `-b` parameter.
+
+[source,terminal] ---- include::./examples/branch/git_createcheckout[]
+---- ## Rename a branch \{#git_rename_branch}
+
+((rename branch))
+ Renaming a branch can be
+done with the following command.
+
+[source,terminal] ---- include::./examples/branch/git_rename_branch[]
+---- ## Delete a branch \{#gitdeletebrach}
+
+((delete local branch))
+ To delete a branch
+which is not needed anymore, you can use the following command. You may
+get an error message that there are uncommited changes if you did the
+previous examples step by step. Use force delete (uppercase `-D`) to
+delete it anyway.
+
+[source,terminal] ---- include::./examples/branch/git_delete_branch[]
+---- ## Push changes of a branch to a remote repository
+\{#gitpushbranch}
+
+((push branch))
+ You can push the changes
+in the current active branch to a remote repository by specifying the
+target branch. This creates the target branch in the remote repository
+if it does not yet exist.
+
+[source,terminal] ---- include::./examples/branch/git_pushbranch.txt[]
+---- This way you can decide which branches you want to push to other
+repositories and which should be local branches. You learn more about
+branches and remote repositories in ? .

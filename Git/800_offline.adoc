@@ -1,0 +1,6 @@
+[[kindleedition]]
+= Get the Book
+
+This tutorial is part of a book available as
+http://www.vogella.com/books/git.html[paper print] and electronic form
+for your http://www.vogella.com/books/git.html[Kindle] .

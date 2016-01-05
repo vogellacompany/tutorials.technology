@@ -29,13 +29,13 @@
 			onto master.
 		</para>
 		
-image::images/gitrebase10.png[Rebasing a branch]
+image::img/gitrebase10.png[Rebasing a branch]
 LARSLINEBREAK
 		<para>Running the rebase command creates a new commit with the changes
 			of the branch on top of the master branch.
 		</para>
 		
-image::images/gitrebase20.png[Rebasing a branch result]
+image::img/gitrebase20.png[Rebasing a branch result]
 LARSLINEBREAK
 		<para>Performing a rebase does not
 			create a merge commit.

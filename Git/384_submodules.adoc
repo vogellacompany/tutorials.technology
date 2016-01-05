@@ -1,0 +1,27 @@
+[[submodules]]
+= Submodules - repositories inside other Git repositories
+
+[[submodules_definition]]
+== What are submodules?
+
+((Submodules))
+ (((git
+submodules)))
+
+ Git allows you to include other Git
+repositories into a Git repository. This is useful in case you want to
+include a certain library in another repository or in case you want to
+aggregate certain Git repositories.
+
+Git calls these included Git repositories _submodules_ . Git allows you
+to commit, pull and push to these repositories independently.
+
+[[submodules_adding]]
+== Adding a submodule to a Git repository
+
+You add a submodule to a Git repository via the `git submodule add`
+command. The `git submodule init` command creates the local
+configuration file for the submodules if this configuration does not
+exist.
+
+[source,terminal] ---- include::./examples/submodules/add.txt[] ----

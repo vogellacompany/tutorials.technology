@@ -81,7 +81,7 @@
 			A commit object is depicted in the following picture.
 		</para>
 		
-image::images/commit_object.png[Commit object]
+image::img/commit_object.png[Commit object]
 LARSLINEBREAK
 		<para>
 			The above picture is simplified. Tree objects point to other

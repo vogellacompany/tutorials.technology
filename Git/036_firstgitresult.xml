@@ -30,7 +30,7 @@ include::./examples/gitfirst/gitlog-output.txt[]
 			the following screenshot.
 		</para>
 		
-image::images/firstgit-directory10.png[First Git directory]
+image::img/firstgit-directory10.png[First Git directory]
 LARSLINEBREAK
 
 	</section>

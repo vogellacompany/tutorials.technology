@@ -37,7 +37,7 @@
 			predecessor (parent).
 		</para>
 		
-image::images/merge_fastforward10.png[Fast forward merge starting]
+image::img/merge_fastforward10.png[Fast forward merge starting]
 LARSLINEBREAK
 		<para>
 			After the fast-forward merge the
@@ -47,7 +47,7 @@ LARSLINEBREAK
 			points to the same commit.
 		</para>
 		
-image::images/merge_fastforward20.png[Fast forward merge result]
+image::img/merge_fastforward20.png[Fast forward merge result]
 LARSLINEBREAK
 	</section>
 	<section id="gitmerge_mergecommit">
@@ -82,7 +82,7 @@ LARSLINEBREAK
 			both.
 		</para>
 		
-image::images/merge_commit10.png[Original state before the merge commit]
+image::img/merge_commit10.png[Original state before the merge commit]
 LARSLINEBREAK
 		<para>
 			As a result a so-called
@@ -99,7 +99,7 @@ LARSLINEBREAK
 			predecessors.
 		</para>
 		
-image::images/merge_commit20.png[Merge commit]
+image::img/merge_commit20.png[Merge commit]
 LARSLINEBREAK
 
 		<note>

@@ -1,0 +1,28 @@
+[[ignorekeep_gitkeep]]
+= Git and empty directories
+
+[[ignorekeep_gitkeep1]]
+== Default behaviour of Git for empty directories
+
+((Empty directory handling in Git))
+ Git
+ignores empty directories, i.e., it does not put them under version
+control.
+
+[[ignorekeep_gitkeep2]]
+== Tracking empty directories
+
+((Tracking an empty directory in Git))
+ If
+you want to track an empty directory in your Git repository, it is a
+good practice to put a file called `.gitignore` in the directory. As the
+directory now contains a file, Git includes it into its version control
+mechanism.
+
+[NOTE]
+====
+The file could be called anything. Others sources recommend to call the
+file `.gitkeep` . One problem with this approach is that `.gitkeep` is
+unlikely to be ignored by build systems, resulting in the `.gitkeep`
+file being copied to the output repository.
+====

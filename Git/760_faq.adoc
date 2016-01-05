@@ -1,0 +1,17 @@
+[[gitfaq]]
+= Frequently asked questions
+
+((FAQ))
+ ## Can Git handle symlinks?
+\{#gitfaq_symlinks}
+
+((symlinks))
+ The usage of symlinks
+requires that the operating system used by the developers supports them.
+
+Git as version control system can handle symlinks.
+
+If the symlink points to a file, then Git stores the path information it
+is symlinking to, and the file type. This is similar to a symlink to a
+directory; Git does not store the contents under the symlinked
+directory.

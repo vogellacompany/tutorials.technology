@@ -1,0 +1,40 @@
+[[firstgit]]
+= Create repository
+
+[[firstgit_createrepotarget]]
+== Target of this chapter
+
+In this chapter you create a local Git repository. The comments (marked
+with #) before the commands explain the specific actions.
+
+Open a command shell for the operations.
+
+[[firstgit_directory]]
+== Create a directory
+
+The following commands create an empty directory which is used later in
+this exercise to contain the working tree and the Git repository.
+
+[source,terminal] ----
+include::./examples/commandline/gitrepo_createdirectory[] ---- ## Create
+a new Git repository \{#firstgit_repository_creation}
+
+((Repository))
+
+LARSSECONDARY"create"LARSSECONDARY (((Create Git
+repository)))
+
+ The following explanation is based on a
+non-bare repository. See ? for the difference between a bare repository
+and a non-bare repository with a _working tree_ .
+
+Every Git repository is stored in the `.git` folder of the directory in
+which the Git repository has been created. This directory contains the
+complete history of the repository. The `.git/config` file contains the
+configuration for the repository.
+
+The following command creates a Git repository in the current directory.
+
+[source,terminal] ---- include::./examples/commandline/gitrepo_create[]
+---- All files inside the repository folder excluding the `.git` folder
+are the _working tree_ for a Git repository.

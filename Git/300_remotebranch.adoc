@@ -1,0 +1,100 @@
+[[gitremotebranch]]
+= Remote and local tracking branches
+
+[[gitremotebranch_overview]]
+== Remote tracking branches
+
+((Remote-tracking branch))
+ Your local Git
+repository contains references to the state of the branches on the
+remote repositories to which it is connected. These local references are
+called _remote-tracking branches_ .
+
+You can see your remote-tracking branches with the following command.
+
+[source,terminal] ----
+include::./examples/remotebranch/showremotes.txt[] ---- To update
+remote-tracking branches without changing local branches you use the
+`git fetch` command which is covered in ? .
+
+[[gitremotebranch_delete]]
+== Delete a remote-tracking branch in your local repository
+
+((Remote tracking branch))
+
+LARSSECONDARY"delete in local repository"LARSSECONDARY It is also safe
+to delete a remote branch in your local Git repository. You can use the
+following command for that.
+
+[source,terminal] ---- include::./examples/remotebranch/delete.txt[]
+---- The next time you run the `git fetch` command the remote branch is
+recreated.
+
+[[gitremotebranch_deleteremote]]
+== Delete a branch in a remote repository
+
+((Remote tracking branch))
+
+LARSSECONDARY"delete in remote repository"LARSSECONDARY To delete the
+branch in a remote repository use the following command.
+
+[source,terminal] ----
+include::./examples/remotebranch/deleteremotebranch2.txt[] ----
+Alternatively you can also use the following command.
+
+[source,terminal] ----
+include::./examples/remotebranch/deleteremotebranch.txt[] ---- For
+example if you want to delete the branch called _testbranch_ in the
+remote repository called _origin_ you can use the following command.
+
+[source,terminal] ----
+include::./examples/remotebranch/deleteremotebranch3.txt[] ---- > *Note*
+> > Note you can also specify the remote repository's URL. So the >
+following command also works. > > [source,terminal] ---- >
+include::./examples/remotebranch/deleteremotebranch4.txt[] ----
+
+[[git_trackingbranches]]
+== Tracking branches
+
+((Tracking branch))
+ _Branches_ can track
+another branch. This is called _to have an upstream branch_ and such
+branches can be referred to as _tracking branches_ .
+
+_Tracking branches_ allow you to use the `git pull` and `git push`
+command directly without specifying the branch and repository.
+
+If you clone a Git repository, your local _master_ branch is created as
+a _tracking branch_ for the _master_ branch of the _origin_ repository
+(short: _origin/master_ ) by Git.
+
+[[git_setting_uptrackingbranches]]
+== Setting up tracking branches
+
+You create new _tracking branches_ by specifying the _remote branch_
+during the creation of a branch. The following example demonstrates
+that.
+
+[source,terminal] ----
+include::./examples/remotebranch/trackingbranch.txt[] ---- Instead of
+using the `git checkout` command you can also use the `git branch`
+command.
+
+[source,terminal] ---- include::./examples/remotebranch/create.txt[]
+---- The `--no-track` allows you to specify that you do not want to
+track a branch. You can explicitly add a tracking branch with the
+`git branch -u` command later.
+
+[source,terminal] ---- include::./examples/remotebranch/update.txt[]
+---- ## See the branch information for a remote repository
+\{#gitremotebranch_seetrackingbranch}
+
+To see the tracking branches for a remote repository (short: remote) you
+can use the following command.
+
+[source,terminal] ----
+include::./examples/remotebranch/showtrackingbranches.txt[] ---- An
+example output of this might look as follows.
+
+[source,terminal] ---- include::./examples/remotebranch/output.txt[]
+----

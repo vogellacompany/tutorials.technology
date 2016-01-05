@@ -1,0 +1,78 @@
+[[remote]]
+= Working with remote repositories
+
+[[remote_clone]]
+== Cloning remote repositories
+
+((clone repository))
+
+((protocols supported by Git))
+ Git
+supports several transport protocols to connect to other Git
+repositories; the native protocol for Git is also called `git` .
+
+The following command clones an existing repository using the Git
+protocol. The Git protocol uses the port 9148 which might be blocked by
+firewalls.
+
+[source,terminal] ---- include::./examples/remote/checkout.txt[] ---- If
+you have SSH access to a Git repository, you can also use the `ssh`
+protocol. The name preceding @ is the user name used for the SSH
+connection.
+
+[source,terminal] ---- include::./examples/remote/checkoutssh.txt[] ----
+Alternatively you could clone the same repository via the `http`
+protocol.
+
+[source,terminal] ---- include::./examples/remote/checkouthttp.txt[]
+---- ## Add more remote repositories \{#remote_add}
+
+As discussed earlier cloning repository creates a _remote_ called
+`origin` pointing to the remote repository which you cloned from. You
+can push changes to this repository via `git push` as Git uses `origin`
+as default. Of course, pushing to a remote repository requires write
+access to this repository.
+
+You can add more _remotes_ via the
+`git                 remote                 add [name] [URL_to_Git_repo]`
+command. For example, if you cloned the repository from above via the
+Git protocol, you could add a new remote with the name _github_http_ for
+the http protocol via the following command.
+
+[source,terminal] ---- include::./examples/add/addremote.txt[] ---- ##
+Rename remote repositories \{#remote_rename}
+
+To rename an existing remote repository use the `git remote rename`
+command. This is demonstrated by the following listing.
+
+[source,terminal] ---- include::./examples/add/renameremote.txt[] ----
+## Remote operations via HTTP \{#remote_httpprotocol}
+
+((HTTP as Git protocol))
+
+((proxy support in Git))
+ It is possible to
+use the HTTP protocol to clone Git repositories. This is especially
+helpful if your firewall blocks everything except HTTP or HTTPS.
+
+[source,terminal] ---- include::./examples/proxy/http.txt[] ---- For
+secured SSL encrypted communication you should use the SSH or HTTPS
+protocol in order to guarantee security.
+
+[[remote_httpproxy]]
+== Using a proxy
+
+Git also provides support for HTTP access via a proxy server. The
+following Git command could, for example, clone a repository via HTTP
+and a proxy. You can either set the proxy variable in general for all
+applications or set it only for Git.
+
+The following listing configures the proxy via environment variables.
+
+[source,terminal] ---- include::./examples/proxy/proxy.txt[] ---- The
+following listing configures the proxy via Git config settings.
+
+[source,terminal] ---- include::./examples/proxy/proxy2.txt[] ---- >
+*Tip* > > Git is able to store different proxy configurations for
+different > domains, see `core.gitProxy` in
+http://git-scm.com/docs/git-config[Git config > manpage] .

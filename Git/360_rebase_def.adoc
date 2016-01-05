@@ -1,0 +1,87 @@
+[[rebase]]
+= Rebasing branches
+
+[[rebase_branches]]
+== Rebasing branches
+
+((git rebase))
+ You can use Git to rebase
+one branch on another one. As described, the `merge` command combines
+the changes of two branches. If you rebase a branch called A onto
+another, the `git` command takes the changes introduced by the commits
+of branch A and applies them based on the HEAD of the other branch. This
+way the changes in the other branch are also available in branch A.
+
+The process is displayed in the following picture. We want to rebase the
+branch called `branch_1` onto master.
+
+image::img/gitrebase10.png[Rebasing a branch] 
+ Running the
+rebase command creates a new commit with the changes of the branch on
+top of the master branch.
+
+image::img/gitrebase20.png[Rebasing a branch result] 
+
+Performing a rebase does not create a merge commit. The final result for
+the source code is the same as with merge but the commit history is
+cleaner; the history appears to be linear.
+
+Rebase can be used to forward-port a feature branch in the local Git
+repository onto the changes of the master branch. This ensures that your
+feature is close to the tip of the upstream branch until it is finally
+published.
+
+If you rewrite more than one commit by rebasing, you may have to solve
+conflicts per commit. In this case the merge operations might be simpler
+to be performed because you only have to solve merge conflicts once.
+
+Also, if your policy requires that all commits result in correct
+software you have to test all the rewritten commits since they are
+"rewritten" by the rebase algorithm. Since merge/rebase/cherry-pick are
+purely text-based and do not understand the semantics of these texts
+they can end up with logically incorrect results. Hence, it might be
+more efficient to merge a long feature branch into upstream instead of
+rebasing it since you only have to review and test the merge commit.
+
+[NOTE]
+====
+You can use the rebase command to change your Git repository history
+commits. This is called _interactive_ rebase, see ? for information
+about this feature.
+====
+
+[[rebase_bestpractice]]
+== Good practice for rebase
+
+You should avoid using the Git rebase operation for changes which have
+been published in other Git repositories. The Git rebase operation
+creates new commit objects, this may confuse other developers using the
+existing commit objects.
+
+Assume that a user has a local feature branch and wants to push it to a
+branch on the remote repository. However, the branch has evolved and
+therefore pushing is not possible. Now it is good practice to fetch the
+latest state of the branch from the remote repository. Afterwards you
+rebase the local feature branch onto the remote tracking branch. This
+avoids an unnecessary merge commit. This rebasing of a local feature
+branch is also useful to incorporate the latest changes from remote into
+the local development, even if the user does not want to push right
+away.
+
+[TIP]
+====
+Rebasing and amending commits is safe as long as you do not push any of
+the changes involved in the rebase. For example, when you cloned a
+repository and worked in this local repository. Rebasing is a great way
+to keep the history clean before contributing back your modifications.
+====
+
+[WARNING]
+====
+In case you want to rewrite history for changes you have shared with
+others you need to use the `-f` parameter in your `git push` command and
+subsequently your colleagues have to use fetch -f to fetch the rewritten
+commits.
+
+[source,terminal] ---- include::./examples/rebase/forcedpush.txt[] ----
+====

@@ -1,0 +1,71 @@
+[[gitmergecommand_branches]]
+= Commands to merge two branches
+
+[[gitmergecommand_branches]]
+== The git merge command
+
+The `git merge` command performs a merge. You can merge changes from one
+branch to the current active one via the following command.
+
+[source,terminal] ---- include::./examples/commandline/git_merge[] ----
+## Specifying merge strategies \{#gitmerge_mergeoptionsstrategies}
+
+The `-s` parameter allows you to specify other merge strategies. This is
+demonstrated with the following command.
+
+For example, you can specify the _ours_ strategy in which the result of
+the merge is always that of the current branch head, effectively
+ignoring all changes from all other branches. This is demonstrated with
+the following command.
+
+[source,terminal] ---- include::./examples/merge/mergeours.txt[] ---- >
+*Warning* > > Be careful if you use the _ours_ merge strategy, it
+ignores everything > from the branch which is merged.
+
+The usage of the octopus merge strategy is triggered if you specify more
+than one reference to merge.
+
+[source,terminal] ---- include::./examples/merge/mergeoctupus.txt[] ----
+## Specifying parameters for the default merge strategy
+\{#gitmerge_mergeoptions}
+
+The recursive merge strategy (default) allows you to specify flags with
+the `-X` parameter. For example you can specify here the `ours` option.
+This option forces conflicting changes to be auto-resolved by favoring
+the local version. Changes from the other branch that do not conflict
+with our local version are reflected to the merge result. For a binary
+file, the entire contents are taken from the local version.
+
+[WARNING]
+====
+The `ours` option for the _recursive_ merge strategy should not be
+confused with the _ours_ merge strategy.
+====
+
+A similar option to `ours` is the `theirs` option. This option prefers
+the version from the branch which is merged.
+
+Both options are demonstrated in the following example code.
+
+[source,terminal] ---- include::./examples/merge/mergeours2.txt[] ----
+Another useful option is the `ignore-space-change` parameter which
+ignores whitespace changes.
+
+For more information about the merge strategies and options see
+https://www.kernel.org/pub/software/scm/git/docs/git-merge.html[Git
+merge manpage] .
+
+[[gitmerge_forcemergecommit]]
+== Enforcing the creation of a merge commit
+
+If you prefer to have merge commits even for situations in which Git
+could perform a fast-forward merge you can use the `git merge --no-ff`
+command.
+
+The `--no-ff` parameter can make sense if you want to record in the
+history at which time you merged from a maintenance branch to the master
+branch.
+
+When pulling from a remote repository, prefer doing a rebase to a merge.
+This will help to keep the history easier to read. A merge commit can be
+helpful to document that functionality was developed in parallel.

@@ -1,0 +1,16 @@
+[[gitpatch]]
+= What is a patch file?
+
+((Patch))
+ A _patch_ is a text file that
+contains changes to the source code. A patch created with the
+`git format-patch` command includes meta-information about the commit
+(committer, date, commit message, etc) and also contains the changes
+introduced in binary data in the commit, for example, an image.
+
+This file can be sent to someone else and this developer can use this
+file to apply the changes to his local repository. The metadata is
+preserved.
+
+Alternatively you could create a diff file with the `git diff` command,
+but this diff file does not contain the metadata information.

@@ -1,0 +1,32 @@
+[[gitdiffchapter]]
+= Viewing changes with git diff and git show
+
+[[analyzechanges_showcommitchanges]]
+== See the differences introduced by a commit
+
+((git diff))
+ LARSSECONDARY"changes by a
+commits"LARSSECONDARY To see the changes introduced by a commit use the
+following command.
+
+[source,terminal] ---- include::./examples/changes/diff.txt[] ---- ##
+See the difference between two commits \{#gitdiff_comparetwocommits}
+
+((git diff))
+ LARSSECONDARY"changes between
+two commits"LARSSECONDARY To see the differences introduced between two
+commits you use the `git diff` command specifying the commits. For
+example, the following command shows the differences introduced in the
+last commit.
+
+[source,terminal] ---- include::./examples/diff/diff_commits.txt[] ----
+## See the files changed by a commit \{#analyzechanges_file}
+
+((git diff))
+ LARSSECONDARY"changes in a
+specific file"LARSSECONDARY To see the files which have been changed in
+a commit use the `git diff-tree` command. The `name-only` tells the
+command to show only the names of the files.
+
+[source,terminal] ---- include::./examples/changes/changedfiles.txt[]
+----

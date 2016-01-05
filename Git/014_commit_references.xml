@@ -33,7 +33,7 @@
 		</para>
 
 		
-image::images/commitreference10.png[Commit reference overview]
+image::img/commitreference10.png[Commit reference overview]
 LARSLINEBREAK
 
 		<para>In Git you typically need to address certain commits. For
@@ -174,7 +174,7 @@ LARSLINEBREAK
 		</para>
 
 		
-image::images/commitreference20.png[Commit reference pointer example]
+image::img/commitreference20.png[Commit reference pointer example]
 LARSLINEBREAK
 		<para>[reference]^ is an
 			abbreviation for [reference]^1.

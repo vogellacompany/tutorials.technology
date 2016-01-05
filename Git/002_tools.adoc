@@ -1,0 +1,43 @@
+[[gitdefintion_tools]]
+= Tools
+
+[[gitdefintion_tools1]]
+== The Git command line tools
+
+The original tooling for Git is based on the command line, i.e., the Git
+development team provides only tooling for the command line. Most of the
+following examples are based on the Git command line tooling which
+offers all capabilities of Git.
+
+[[gitdefintion_doublehyphens]]
+== Separating parameters and file arguments in Git commands
+
+(((Separating files and parameter arguments in Git)))
+(((Double hyphen (--) usage in Git)))
+
+The double hyphens (--) in Git separates out any references or other options from a path (usually file names). 
+For example HEAD has a special meaning in Git. Using double hyphens allows
+you to distinguish between looking at a file called HEAD from a Git
+commit reference called HEAD.
+
+In case Git can determine the correct parameters and options
+automatically the double hyphens can be avoided.
+
+[source,terminal] 
+---- 
+include::./examples/double/text.txt[] 
+---- 
+
+== Graphical tools for Git
+
+You can also use graphical tools see
+http://git-scm.com/downloads/guis[GUI Clients] at the official git
+website for an overview.
+
+For example the https://www.eclipse.org/downloads/[Eclipse IDE] provides
+excellent support for working with Git repositories.
+
+To learn more about the Git integration into Eclipse see the
+http://www.vogella.com/EclipseGit/articles.html[Eclipse Git online
+tutorial] or the http://www.vogella.com/books/eclipseide.html[Eclipse
+IDE book] .

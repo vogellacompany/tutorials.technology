@@ -1,0 +1,65 @@
+[[git]]
+= The details of the commit objects
+
+[[commit_object]]
+== Commit object (commit)
+
+((Commit object))
+
+((Commit))
+ Conceptually a commit object
+(short:commit) represents a version of all files tracked in the
+repository at the time the commit was created. Commits know their
+parent(s) and this way capture the version history of the repository.
+
+[[commit_objects]]
+== Technical details of a commit object
+
+This commit object is addressable via a hash ( _SHA-1 checksum_ ). This
+hash is calculated based on the content of the files, the content of the
+directories, the complete history of up to the new commit, the
+committer, the commit message, and several other factors.
+
+This means that Git is safe, you cannot manipulate a file or the commit
+message in the Git repository without Git noticing that corresponding
+hash does not fit anymore to the content.
+
+The _commit object_ points to the individual files in this commit via a
+_tree_ object. The files are stored in the Git repository as _blob_
+objects and might be packed by Git for better performance and more
+compact storage. Blobs are addressed via their SHA-1 hash.
+
+Packing involves storing changes as deltas, compression and storage of
+many objects in a single _pack file_ . _Pack files_ are accompanied by
+one or multiple index files which speedup access to individual objects
+stored in these packs.
+
+A commit object is depicted in the following picture.
+
+image::img/commit_object.png[Commit object] 
+ The above
+picture is simplified. Tree objects point to other tree objects and file
+blobs. Objects which didn't change between commits are reused by
+multiple commits.
+
+[[commits_sha_checksum]]
+== Hash and abbreviated commit hash
+
+(((SHA-1 checksum in Git)))
+(((Shortened SHA-1)))
+(((Hash)))
+(((Abbreviated commit hash)))
+
+A Git commit object is identified by its
+hash (SHA-1 checksum). SHA-1 produces a 160-bit (20-byte) hash value. A
+SHA-1 hash value is typically rendered as a hexadecimal number, 40
+digits long.
+
+In a typical Git repository you need fewer characters to uniquely
+identify a commit object. As a minimum you need 4 characters and in a
+typical Git repository 5 or 6 are sufficient. This short form is called
+the abbreviated commit hash or abbreviated hash. Sometimes it is also
+called the shortened SHA-1 or abbreviated SHA-1.
+
+Several commands, e.g., the `git log` command can be instructed to use
+the shortened SHA-1 for their output.

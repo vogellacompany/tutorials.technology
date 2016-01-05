@@ -113,7 +113,7 @@ include::./examples/log/pretty.txt[]
 ----
 		<para>This command creates the output.</para>
 		
-image::images/gitlogpretty10.png[Git log pretty output]
+image::img/gitlogpretty10.png[Git log pretty output]
 LARSLINEBREAK
 
 		<para>

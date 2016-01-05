@@ -9,7 +9,7 @@
     <para>In this screenshot we can see all commits of the
 		<filename>ShowViewHandler.java</filename> by using the <code>gitk ShowViewHandler.java</code> command:</para>
 	
-image::images/gitk_showviewhandler.png[gitk command for the ShowViewHandler]
+image::img/gitk_showviewhandler.png[gitk command for the ShowViewHandler]
 LARSLINEBREAK
 	<para>On linux you can easily install gitk by using the <code>sudo apt-get install gitk</code> command in a terminal.</para>
 	<para>See <ulink url="http://git-scm.com/docs/gitk">http://git-scm.com/docs/gitk</ulink> for

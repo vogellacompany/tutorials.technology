@@ -1,0 +1,65 @@
+[[rebaseconflict]]
+= Solving rebase conflicts
+
+[[rebaseconflict_definition]]
+== What is a conflict during a rebase operation?
+
+((Rebase conflict))
+ During a rebase
+operaton, several commits are applied onto a certain commit. If you
+rebase a branch onto another branch, this commit is the last common
+ancestor of the two branches.
+
+For each commit which is applied it is possible that a conflict occurs.
+
+[[rebaseconflict_solving]]
+== Handling a conflict during a rebase operation
+
+If a conflict occurs during a rebase operation, the rebase operation
+stops and the developer needs to resolve the conflict. After he has
+solved the conflicts, the developer instructs Git to continue with the
+rebase operation.
+
+A conflict during a rebase operation is solved similarly to the way a
+conflict during a merge operation is solved. The developer edits the
+conflicts and adds the files to the Git index. Afterwards he continues
+the rebase operation with the following command.
+
+[source,terminal] ---- include::./examples/rebase/rebasecontinue.txt[]
+---- To see the files which have a rebase conflict use the following
+command.
+
+[source,terminal] ---- include::./examples/rebase/conflictingfiles.txt[]
+---- You solve such a conflict similar to the description in ? .
+
+You can also skip the commit which creates the conflict.
+
+[source,terminal] ---- include::./examples/rebase/rebaseskip.txt[] ----
+## Aborting a rebase operation \{#rebaseconflict_abort}
+
+You can also abort a rebase operation with the following command.
+
+[source,terminal] ---- include::./examples/rebase/rebaseabort.txt[] ----
+## Picking theirs or ours for conflicting file \{#rebaseconflict_theirs}
+
+((Rebase conflict))
+ LARSSECONDARY"theirs
+parameter"LARSSECONDARY (((Rebase
+conflict)))
+
+ LARSSECONDARY"ours parameter"LARSSECONDARY If
+a file is in conflict you can instruct Git to take the version from the
+new commit of the version of commit onto which the new changes are
+applied. This is sometimes easier than to solve all conflicts manually.
+For this you can use the `git checkout` with the `--theirs` or `--ours`
+flag. During the conflict `--ours` points to the file in the commit onto
+which the new commit is placed, i.g., using this skips the new changes
+for this file.
+
+Therefore to ignore the changes in a commit for a file use the following
+command.
+
+[source,terminal] ---- include::./examples/rebase/ours.txt[] ---- To
+take the version of the new commit use the following command.
+
+[source,terminal] ---- include::./examples/rebase/theirs.txt[] ----

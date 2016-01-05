@@ -48,7 +48,7 @@
 			(CVS) don't create snapshots but store file deltas.
 		</para>
 		
-image::images/vcs_state10.png[Creating snapshots]
+image::img/vcs_state10.png[Creating snapshots]
 LARSLINEBREAK
 
 		<para>
@@ -143,7 +143,7 @@ LARSLINEBREAK
 			version control system itself.
 		</para>
 		
-image::images/sharedrepo10.png[Creating snapshots]
+image::img/sharedrepo10.png[Creating snapshots]
 LARSLINEBREAK
 
 	</section>

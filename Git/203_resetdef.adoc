@@ -1,0 +1,65 @@
+[[resetcommitsdef]]
+= Use cases for git reset
+
+((git reset))
+ ## Moving the HEAD and
+branch pointer \{#resetcommit_move}
+
+((git reset))
+ Sometimes you want to change
+the commmit your branch pointer is pointing to. The `git reset` command
+allows you to manually set the current HEAD pointer (and its associated
+branch) to a specified commit. This is for example useful to undo a
+particular change or to build up a different commit history.
+
+image::img/gitreset10.png[Git reset] 
+ All commits which
+were originally pointed to by the HEAD pointer and the commit pointed to
+by HEAD after the reset, are _reseted_ , e.g., not directly visible
+anymore from the current HEAD and branch pointer.
+
+Via parameters you can decide what you happen to the changes in the
+working tree and changes which were included in the commits between the
+original commit and the commit now referred to by the HEAD pointer. As a
+reminder, the working tree contains the files and the staging area
+contains the changes which are marked to be included in the next commit.
+Depending on the specified parameters the `git reset` command performs
+the following:
+
+1.  If you specify the `--soft` parameter, the `git reset` command moves
+the HEAD pointer. Changes in the working tree will be left unchanged and
+all changes which were commited included in commits which are reseted
+are staged.
+2.  If you specify the `--mixed` parameter (the default), the
+`git reset` command moves the HEAD pointer and resets the staging area
+to the new HEAD. Any file change between the original commit and the one
+you reset to shows up as modifications (or untracked files) in your
+working tree. Use this option to remove commits but keep all the work
+you have done. You can do additional changes, stage changes and commit
+again. This way you can build up a different commit history.
+3.  If you specify the `--hard` parameter, the `git reset` command moves
+the HEAD pointer and resets the staging area and the working tree to the
+new HEAD. This effectively removes the changes you have done between the
+original commit and the one you reset to.
+
+Via parameters you can define if the staging area and the working tree
+is updated. These parameters are listed in the following table.
+
+.git reset options
+[width="97%",cols="<16%,<28%,<28%,<28%",options="header",]
+|=================================================
+|Reset |Branch pointer |Working tree |Staging area
+|soft |Yes |No |No
+|mixed (default) |Yes |No |Yes
+|hard |Yes |Yes |Yes
+|=================================================
+
+The `git reset` command does not remove untracked files. Use the
+`git clean` command for this.
+
+[[resetcommit_path]]
+== Not moving the HEAD pointer with git reset
+
+If you specify a path via the `git reset [path]` command , Git does not
+move the HEAD pointer. It updates the staging area or also the working
+tree depending on your specified option.

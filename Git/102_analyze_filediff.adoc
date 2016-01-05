@@ -1,0 +1,34 @@
+[[analyzechanges]]
+= Reviewing the changes in the files before a commit
+
+[[gitdiff_changesdiff]]
+== See the differences in the working tree since the last commit
+
+((git diff))
+ (((unstaged
+changes)))
+
+ ((git diff))
+
+LARSSECONDARY"unstaged changes"LARSSECONDARY The `git diff` command
+allows seeing the changes in the working tree compared to the last
+commit.
+
+[[analyzechanges_gitdiffworkingtree]]
+== Example: Using "git diff" to see the file changes in the working tree
+
+In order to test this, make some changes to a file and check what the
+`git diff` command shows to you. Afterwards commit the changes to the
+repository.
+
+[source,terminal] ---- include::./examples/diff/diff_untracked.txt[]
+---- ## See differences between staging area and last commit
+\{#gitdiff_index}
+
+((git diff))
+ LARSSECONDARY"between staging
+area and commit"LARSSECONDARY To see which changes you have staged,
+i.e., you are going to commit with the next commit, use the following
+command.
+
+[source,terminal] ---- include::./examples/diff/diff_index.txt[] ----
