@@ -1,0 +1,8 @@
+
+# set proxy for git globally
+git config --global http.proxy http://proxy:8080
+# to check the proxy settings
+git config --get http.proxy
+# just in case you need to you can also revoke the proxy settings
+git config --global --unset http.proxy
+

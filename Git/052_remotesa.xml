@@ -1,0 +1,158 @@
+<section id="cloneremotes" role="wrapper">
+	<title>The push and pull commands</title>
+	<section id="cloneremotes_push">
+		<title>Push changes to another repository</title>
+		<indexterm>
+			<primary>push</primary>
+		</indexterm>
+		<indexterm>
+			<primary>git push</primary>
+		</indexterm>
+		<para>
+			The
+			<code>git push</code>
+			command allows you to send data to other repositories. By default it
+			sends data from your current branch to the same branch of the
+			remote
+			repository.
+
+		</para>
+		<para>
+			By default you can only push to bare repositories (repositories
+			without working tree). Also you can only push a change to a remote
+			repository which results in a fast-forward merge. See
+			<xref linkend="gitmerge_fastforward" />
+			to learn about fast-forward merges.
+		</para>
+
+		<para>
+			See
+			<xref linkend="gitpushbranch" />
+			for details on pushing branches or the
+			<ulink
+				url="https://www.kernel.org/pub/software/scm/git/docs/git-push.html">Git push manpage</ulink>
+			for general information.
+		</para>
+
+	</section>
+	<section id="cloneremotes_pull">
+		<title>Pull changes</title>
+		<indexterm>
+			<primary>pull</primary>
+		</indexterm>
+		<indexterm>
+			<primary>git pull</primary>
+		</indexterm>
+		<para>
+			The
+			<code>git pull</code>
+			command allows you to get the latest changes from another
+			repository
+			for the current branch.
+		</para>
+
+		<para>
+			The
+			<code>git pull</code>
+			command is actually a shortcut for
+			<code>git fetch</code>
+			followed by the
+			<code>git merge</code>
+			or the
+			<code>git rebase</code>
+			command depending on your configuration. In
+			<xref linkend="setup_rebase" />
+			you configured your Git repository so that
+			<code>git pull</code>
+			is a fetch followed by a rebase. See
+			<xref linkend="gitfetch_intro" />
+			for more information about the fetch command.
+		</para>
+	</section>
+
+	<section id="exercise_cloneremotes_clone">
+		<title>Exercise: Clone your bare repository</title>
+		<indexterm>
+			<primary>Clone repository</primary>
+		</indexterm>
+		<para>
+			In this exercise you create a Git repository based on the bare
+			repository you created in
+			<xref linkend="remotes_setupexercise" />
+			.
+		</para>
+		<para>Clone a repository and checkout a working tree in a new
+			directory
+			via the following
+			commands.
+		</para>
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/commandline/git_clone.commands" />
+			</programlisting>
+		</para>
+	</section>
+
+	<section id="exercise_cloneremotes_push">
+		<title>Exercise: Using the push command</title>
+		<para>
+			Make some
+			changes in your local repository and push them from
+			your first repository to
+			the
+			remote
+			repository
+			via the following
+			commands.
+		</para>
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/commandline/git_push.commands" />
+			</programlisting>
+		</para>
+
+	</section>
+
+
+	<section id="exercise_cloneremotes_pull">
+		<title>Exercise: Using the pull command</title>
+		<para>
+			To test the
+			<code>git pull</code>
+			in your example Git repositories, switch to your
+			second repository,
+			pull in the recent
+			changes from
+			the
+			remote
+			repository,
+			make some changes,
+			push them
+			to
+			your
+			remote
+			repository via the
+			following
+			commands.
+		</para>
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/commandline/git_pull.txt" />
+			</programlisting>
+		</para>
+		<para>You can pull in the changes in your first example repository
+			with the following commands.
+		</para>
+
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/commandline/git_pull2.txt" />
+			</programlisting>
+		</para>
+	</section>
+
+</section>

@@ -1,0 +1,12 @@
+# uses shortend but unique SHA-1 values 
+# for the commit objects 
+git log --abbrev-commit
+
+# show the history of commits in one line
+# with a shortened version of the commit id
+# --online is a shorthand for "--pretty=oneline --abbrev-commit" 
+git log --oneline 
+
+
+# show the history as graph including branches
+git log --graph --oneline

@@ -1,0 +1,4 @@
+# shows the differences between
+# current head of master and your_branch
+
+git diff master your_branch

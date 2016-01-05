@@ -1,0 +1,2 @@
+# list all branches (local and remote branches)
+git branch -a

@@ -1,0 +1,3 @@
+# assumes that the check script
+# is a directory above the current
+git bisect run ../check.sh test1.txt

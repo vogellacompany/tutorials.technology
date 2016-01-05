@@ -1,0 +1,3 @@
+# define that bisect should check
+# the last 5 commits
+git bisect start HEAD HEAD~5 

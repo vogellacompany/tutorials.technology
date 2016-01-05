@@ -1,0 +1,10 @@
+# see change commit history
+
+git log --oneline
+
+# results in the following output
+
+2fc2e55 changes in file
+ebb46b7 adds new file
+[MORE COMMITS]
+330b6a3 initial commit

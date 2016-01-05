@@ -1,0 +1,374 @@
+<section id="gitterminology_section" role="wrapper">
+	<title>Summary of Git terminology</title>
+	<section id="gitterminology">
+		<title>Reference table with important Git terminology</title>
+		<indexterm>
+			<primary>Terminology in Git</primary>
+		</indexterm>
+		<para>
+			The following table provides a summary of important
+			<wordasword>Git</wordasword>
+			terminology.
+		</para>
+		<table frame='all'>
+			<title>Important Git terminology</title>
+			<tgroup cols='2' alwoign='left' colsep='1' rowsep='1'>
+				<colspec colname='c1' colwidth="1*" />
+				<colspec colname='c2' colwidth="3*" />
+				<thead>
+					<row>
+						<entry>Term</entry>
+						<entry>Definition</entry>
+					</row>
+				</thead>
+				<tbody>
+					<row>
+						<entry>Branch</entry>
+						<entry>
+							<para>
+								A
+								<wordasword>branch</wordasword>
+								is a named pointer to a commit. Selecting a branch in Git
+								terminology is
+								called
+								<wordasword>to checkout a branch</wordasword>
+								. If you are working in a certain
+								branch, the creation of a new
+								commit
+								advances
+								this pointer to
+								the
+								newly created commit.
+							</para>
+							<para>
+								Each commit
+								knows their parents
+								(predecessors). Successors
+								are retrieved by traversing the
+								commit
+								graph starting from
+								branches or other refs, symbolic references (for example:
+								HEAD) or
+								explicit commit objects. This way a
+								branch
+								defines its
+								own
+								line
+								of
+								descendants
+								in the overall version graph
+								formed
+								by all commits
+								in
+								the
+								repository.
+							</para>
+							<para>
+
+								You
+								can
+								create a new
+								branch from an
+								existing one and change the
+								code
+								independently from
+								other branches.
+								One
+								of the
+								branches is the
+								default
+								(typically
+								named
+								<wordasword>master</wordasword>
+								). The default branch is the one for which a
+								local branch is
+								automatically created when cloning the repository.
+							</para>
+						</entry>
+					</row>
+
+					<row>
+						<entry>Commit</entry>
+						<entry>
+							<para>
+								When you commit your
+								changes
+								into a repository this creates a new
+								<wordasword>commit object</wordasword>
+								in the Git repository. This
+								<wordasword>commit object</wordasword>
+								uniquely identifies a new revision of
+								the content of the
+								repository.
+
+
+							</para>
+							<para>
+								This
+								revision can be retrieved
+								later,
+								for example, if you
+								want
+								to
+								see the
+								source code of an older
+								version.
+								Each commit object
+								contains
+								the
+								author
+								and the committer,
+								thus making
+								it possible to
+								identify who
+								did the change. The
+								author and
+								committer might be
+								different
+								people.
+								The author did the change and the committer
+								applied the change to
+								the Git repository. This is common for
+								contributions to open source projects.
+							</para>
+						</entry>
+					</row>
+					<row>
+						<entry>HEAD</entry>
+						<entry>
+							<para>
+								<wordasword>HEAD</wordasword>
+								is a symbolic reference most often pointing to the currently
+								checked
+								out
+								branch.
+							</para>
+							<para>
+								Sometimes the
+								<wordasword>HEAD</wordasword>
+								points directly to a commit object, this is called
+								<wordasword>detached HEAD mode</wordasword>
+								.
+								In
+								that state
+								creation of a commit will not move any branch.
+							</para>
+							<para>
+								If you switch branches,
+								the
+								<wordasword>HEAD</wordasword>
+								pointer points to the branch pointer which in turn points to a
+								commit.
+								If
+								you checkout a
+								specific
+								commit, the
+								<wordasword>HEAD</wordasword>
+								points to this
+								commit directly.
+							</para>
+						</entry>
+					</row>
+
+
+					<row>
+						<entry>Index</entry>
+						<entry>
+							<para>
+								<wordasword>Index</wordasword>
+								is an alternative term for the
+								<wordasword>staging area</wordasword>
+								.
+							</para>
+						</entry>
+					</row>
+
+					<row>
+						<entry>Repository</entry>
+						<entry>
+							<para>
+								A
+								<wordasword>repository</wordasword>
+								contains the history, the different versions
+								over time and all
+								different branches and tags. In
+								Git each
+								copy of
+								the repository
+								is a
+								complete repository. If the repository is not a bare
+								repository,
+								it
+								allows you
+								to checkout
+								revisions
+								into your
+								working tree and to
+								capture changes by creating new commits. Bare repositories are
+								only changed by transporting changes from other repositories.
+							</para>
+							<para>
+								This $book uses the term
+								<wordasword>repository</wordasword>
+								to talk about a non-bare
+								repository. If it talks about a bare
+								repository, this is
+								explicitly mentioned.
+							</para>
+						</entry>
+					</row>
+
+
+					<row>
+						<entry>Revision</entry>
+						<entry>
+							<para>
+								Represents a version of the source code. Git implements
+								revisions
+								as
+								<wordasword>commit objects</wordasword>
+								(or short
+								<wordasword>commits</wordasword>
+								). These
+								are identified by an
+								SHA-1 hash.
+							</para>
+						</entry>
+					</row>
+					<row>
+						<entry>Staging area</entry>
+						<entry>
+							<para>
+								The
+								<wordasword>staging area</wordasword>
+								is the place to store changes in the working tree before the
+								commit.
+								The
+								<wordasword>staging area</wordasword>
+								contains a snapshot of the changes in the working tree
+								(changed
+								or new files)
+								relevant
+								to
+								create
+								the next commit and stores
+								their
+								mode (file type,
+								executable bit).
+							</para>
+						</entry>
+					</row>
+					<row>
+						<entry>Tag</entry>
+						<entry>
+							<para>
+								A
+								<wordasword>tag</wordasword>
+								points to a commit which uniquely identifies a version
+								of the
+								Git
+								repository.
+								With a tag, you can have a named point to
+								which you
+								can
+								always
+								revert to. You can revert to any point in a
+								Git
+								repository, but tags make it easier. The benefit of tags is
+								to
+								mark the repository for a specific reason, e.g., with a
+								release.
+							</para>
+							<para>
+								Branches and tags are named pointers, the difference is
+								that
+								branches
+								move
+								when a new commit is created while tags always
+								point
+								to the same
+								commit. Tags can have a timestamp and a message
+								associated with them.
+							</para>
+						</entry>
+					</row>
+
+					<row>
+						<entry>URL</entry>
+						<entry>
+							<para>
+								A URL in Git determines the location of the repository. Git
+								distinguishes between
+								<wordasword>fetchurl</wordasword>
+								for getting new data from other repositories and
+								<wordasword>pushurl</wordasword>
+								for pushing data to another repository.
+							</para>
+						</entry>
+					</row>
+					<row>
+						<entry>Working tree</entry>
+						<entry>
+							<para>
+								The
+								<wordasword>working tree</wordasword>
+								contains the set of working files for the repository. You can
+								modify the content and commit the changes
+								as new commits to the
+								repository.
+							</para>
+						</entry>
+					</row>
+
+
+
+				</tbody>
+			</tgroup>
+		</table>
+	</section>
+	<section id="gitterminology_filelifecycle">
+		<title>File states in the working tree</title>
+		<indexterm>
+			<primary>File states</primary>
+		</indexterm>
+		<indexterm>
+			<primary>Untracked file</primary>
+		</indexterm>
+		<indexterm>
+			<primary>Tracked file</primary>
+		</indexterm>
+		<indexterm>
+            <primary>Dirty file</primary>
+        </indexterm>
+		<indexterm>
+            <primary>Staged file</primary>
+        </indexterm>
+		<para>
+			A file in the working tree of a Git repository can have
+			different
+			states. These states are the following:
+
+			<itemizedlist>
+				<listitem>
+					<para>untracked: the file is not tracked by the Git repository.
+						This means that the file never staged nor committed.
+					</para>
+				</listitem>
+				<listitem>
+					<para>tracked: committed and not staged</para>
+				</listitem>
+				<listitem>
+					<para>staged: staged to be included in the next commit</para>
+				</listitem>
+				<listitem>
+					<para>dirty / modified: the file has changed but the change is not
+						staged
+					</para>
+				</listitem>
+			</itemizedlist>
+		</para>
+
+	</section>
+</section>
+	
+	

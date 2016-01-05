@@ -1,0 +1,140 @@
+<section id="git" role="wrapper">
+	<title>The details of the commit objects</title>
+	
+	<section id="commit_object">
+		<title>Commit object (commit)</title>
+		<indexterm>
+			<primary>Commit object</primary>
+		</indexterm>
+		<indexterm>
+			<primary>Commit</primary>
+		</indexterm>
+		<para>
+			Conceptually a
+			commit object (short:commit) represents a version
+			of all files tracked in the repository
+			at
+			the time the commit was
+			created. Commits know their parent(s) and
+			this way capture the version
+			history of the repository.
+		</para>
+	</section>
+
+
+	<section id="commit_objects">
+		<title>Technical details of a commit object</title>
+		<para>
+			This commit object is addressable via a hash (
+			<wordasword>SHA-1 checksum</wordasword>
+			). 	This
+			hash is calculated based on the content
+			of
+			the files, the content of the directories, the complete
+			history of up
+			to the new commit, the
+			committer, the commit message, and several
+			other
+			factors.
+		</para>
+
+		<para>
+			This means that Git is safe, you cannot manipulate a file or the
+			commit message in the Git
+			repository without Git noticing that
+			corresponding hash
+			does not fit anymore to the content.
+		</para>
+		<para>
+			The
+			<wordasword>commit object</wordasword>
+			points to the individual files in this commit
+			via a
+			<wordasword>tree</wordasword>
+			object.
+			The files are stored
+			in the Git repository as
+			<wordasword>blob</wordasword>
+			objects and might be packed by Git for better performance and
+			more
+			compact storage. Blobs are addressed via their SHA-1 hash.
+		</para>
+		<para>
+			Packing involves storing changes as deltas,
+			compression and
+			storage of
+			many
+			objects in a single
+			<wordasword>pack file</wordasword>
+			.
+			<wordasword>Pack
+				files
+			</wordasword>
+			are
+			accompanied by one or
+			multiple index files which speedup
+			access to
+			individual objects stored
+			in these packs.
+		</para>
+		<para>
+			A commit object is depicted in the following picture.
+		</para>
+		<para>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="images/commit_object.png" scale="20" />
+				</imageobject>
+				<textobject>
+					<phrase>Commit object</phrase>
+				</textobject>
+			</mediaobject>
+		</para>
+		<para>
+			The above picture is simplified. Tree objects point to other
+			tree objects and file blobs. Objects which didn't change between
+			commits are reused by multiple commits.
+		</para>
+	</section>
+
+	<section id="commits_sha_checksum">
+		<title>Hash and abbreviated commit hash</title>
+		<indexterm>
+			<primary>SHA-1 checksum in Git</primary>
+		</indexterm>
+		<indexterm>
+			<primary>Shortened SHA-1</primary>
+		</indexterm>
+		<indexterm>
+			<primary>Hash</primary>
+		</indexterm>
+		<indexterm>
+			<primary>Abbreviated commit hash</primary>
+		</indexterm>
+		<para>
+			A Git commit object is identified by its hash (SHA-1 checksum).
+			SHA-1 produces a 160-bit (20-byte) hash value. A SHA-1 hash value is
+			typically rendered as a hexadecimal number, 40 digits long.
+		</para>
+		<para>
+			In a typical Git repository you need
+			fewer characters
+			to
+			uniquely
+			identify a commit object. As a minimum you need 4 characters and in a
+			typical Git repository 5 or 6 are sufficient.
+			This short form is
+			called the abbreviated commit hash or abbreviated
+			hash. Sometimes
+			it is
+			also called the
+			shortened SHA-1 or abbreviated SHA-1.
+		</para>
+		<para>
+			Several commands, e.g., the
+			<code>git log</code> command
+			can be instructed to use the shortened SHA-1  for their output.
+		</para>
+	</section>
+</section>
+

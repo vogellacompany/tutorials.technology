@@ -1,0 +1,3 @@
+# create a new branch from your stack and 
+# switch to it
+git stash branch newbranchforstash

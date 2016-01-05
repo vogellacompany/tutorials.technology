@@ -1,0 +1,9 @@
+# create a stash with uncommitted changes
+git stash
+
+# do changes to the source, e.g., by pulling
+# new changes from a remote repo
+
+# afterwards, re-apply the stashed changes
+# and delete the stash from the list of stashes
+git stash pop

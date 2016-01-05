@@ -1,0 +1,22 @@
+# create new branch 
+git checkout -b rebasetest
+
+# create a new file and put it under revision control
+touch rebase1.txt
+git add . && git commit -m "work in branch"
+
+# do changes in master
+git checkout master
+
+# make some changes and commit into testing
+echo "rebase this to rebasetest later" > rebasefile.txt
+git add rebasefile.txt
+git commit -m "create new file"
+
+# rebase the rebasetest onto master
+git checkout rebasetest
+git rebase master
+
+# now you can fast forward your branch onto master
+git checkout master
+git merge rebasetest

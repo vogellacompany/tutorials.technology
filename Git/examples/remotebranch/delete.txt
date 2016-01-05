@@ -1,0 +1,3 @@
+# delete remote branch from origin
+
+git branch -d -r origin/[remote_branch]

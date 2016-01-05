@@ -1,0 +1,13 @@
+# switch to your new branch
+git checkout testing
+
+# do some changes
+echo "Cool new feature in this branch" > test01
+git commit -a -m "new feature"
+
+# switch to the master branch
+git checkout master
+
+# check that the content of
+# the test01 file is the old one
+cat test01

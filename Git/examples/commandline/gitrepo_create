@@ -1,0 +1,7 @@
+# you should still be in the repo01 directory
+cd ~/repo01
+
+# initialize the Git repository
+# for the current directory
+git init
+

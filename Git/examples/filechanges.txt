@@ -1,0 +1,9 @@
+# git log filename shows the commits for this file
+git log [filename]
+
+# Use -p to see the diffs of each commit
+git log -p filename
+
+# --follow shows the entire history
+# including renames
+git log --follow -p file

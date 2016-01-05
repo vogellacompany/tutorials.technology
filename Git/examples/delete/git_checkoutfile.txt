@@ -1,0 +1,15 @@
+# delete a file
+rm test01
+
+# revert the deletion
+git checkout -- test01
+
+# note git checkout test01 also works but using
+# two - ensures that Git understands that test01 
+# is a path and not a parameter
+
+# change a file
+echo "override" > test01
+
+# restore the file
+git checkout -- test01

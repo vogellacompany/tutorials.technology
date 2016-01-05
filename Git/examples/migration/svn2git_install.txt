@@ -1,0 +1,3 @@
+sudo apt-get install git-svn ruby rubygems
+
+sudo gem install svn2git

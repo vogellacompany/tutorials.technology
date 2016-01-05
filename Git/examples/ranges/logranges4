@@ -1,0 +1,4 @@
+# show all commits which 
+# can be reached by master or testing
+# but not both
+git log master...testing

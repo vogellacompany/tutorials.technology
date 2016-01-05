@@ -1,0 +1,15 @@
+# show the log entries between the last local commit and the
+# remote branch	
+git log HEAD..origin/master
+
+# show the diff for each patch 
+git log -p HEAD..origin/master  
+
+# show a single diff 
+git diff HEAD...origin/master
+
+# instead of using HEAD you can also
+# specify the branches directly
+git diff master origin/master
+    
+                       

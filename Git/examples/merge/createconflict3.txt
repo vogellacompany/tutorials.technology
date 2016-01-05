@@ -1,0 +1,8 @@
+# switch to the first directory
+cd ~/repo01
+
+# now try to push from the first directory
+# try to push --> assuming that the same remote repository is used,
+# you get an error message
+git push
+

@@ -1,0 +1,14 @@
+# create a demo directory
+mkdir checkoutheaddemo
+touch checkoutheaddemo/myfile
+git add . 
+git commit -m "Adds new directory"
+
+# now delete the directory and add the change to
+# the staging area
+rm -rf checkoutheaddemo
+# Use git add . -A for Git version < 2.0 
+git add . 
+
+# restore the working tree and reset the staging area
+git checkout HEAD -- your_dir_to_restore

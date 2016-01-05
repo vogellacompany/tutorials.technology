@@ -1,0 +1,12 @@
+<section id="rebase_example">
+	<title>Example for a rebase</title>
+	<para>The following demonstrates how to perform a rebase operation.
+	</para>
+	<para>
+		<programlisting language="bourne">
+			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+				parse="text" href="./examples/rebase/git_rebase" />
+		</programlisting>
+	</para>
+
+</section>

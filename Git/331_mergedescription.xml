@@ -1,0 +1,230 @@
+<section id="combinechanges" role="wrapper">
+	<title>Merging branches</title>
+	<section id="gitmerge_fastforward">
+		<title>Fast-forward merge</title>
+		<indexterm>
+			<primary>Merging</primary>
+			<secondary>fast-forward merge</secondary>
+		</indexterm>
+
+		<para>
+			If the commits which are merged are direct
+			successors of the
+			<wordasword>HEAD</wordasword>
+			pointer of the current branch, Git simplifies
+			things by performing
+			a
+			so-called
+			<wordasword>fast forward merge</wordasword>
+			. This
+			<wordasword>fast forward merge</wordasword>
+			simply moves the
+			<wordasword>HEAD</wordasword>
+			pointer of the current branch
+			to the tip of the branch
+			which is being
+			merged. You can also merge based on a tag or a commit.
+		</para>
+		<para>This process is depicted in the following diagram. The first
+			picture assumes that master is checked out and that you want
+			to merge
+			the changes of the branch
+			labeled "branch 1" into your
+			"master"
+			branch.
+			Each
+			commit points to its
+			predecessor (parent).
+		</para>
+		<para>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="images/merge_fastforward10.png"
+						scale="40" />
+				</imageobject>
+				<textobject>
+					<phrase>Fast forward merge starting</phrase>
+				</textobject>
+			</mediaobject>
+		</para>
+		<para>
+			After the fast-forward merge the
+			<wordasword>HEAD</wordasword>
+			points to the master branch pointing to "Commit 3". The "branch 1"
+			branch
+			points to the same commit.
+		</para>
+		<para>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="images/merge_fastforward20.png"
+						scale="30" />
+				</imageobject>
+				<textobject>
+					<phrase>Fast forward merge result</phrase>
+				</textobject>
+			</mediaobject>
+		</para>
+	</section>
+	<section id="gitmerge_mergecommit">
+		<title>Merge commit</title>
+		<indexterm>
+			<primary>Merging</primary>
+			<secondary>merge commit</secondary>
+		</indexterm>
+		<indexterm>
+			<primary>Merging</primary>
+			<secondary> three-way-merge</secondary>
+		</indexterm>
+		<indexterm>
+			<primary>Merge strategies
+			</primary>
+			<secondary>Recursive
+			</secondary>
+		</indexterm>
+		<para>
+			If commits are merged which are not direct predecessors of the
+			current branch, Git performs
+			a so-called
+			<wordasword>three-way-merge</wordasword>
+			between the latest
+			commits of
+			the two
+			branches,
+			based on
+			the
+			most recent
+			common
+			predecessor of
+			both.
+		</para>
+		<para>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="images/merge_commit10.png"/>
+				</imageobject>
+				<textobject>
+					<phrase>Original state before the merge commit</phrase>
+				</textobject>
+			</mediaobject>
+		</para>
+		<para>
+			As a result a so-called
+			<wordasword>merge commit</wordasword>
+			is created on the current branch
+			which combines the respective
+			changes
+			from the two branches being
+			merged.
+			This commit
+			points to both
+			of
+			its
+			predecessors.
+		</para>
+		<para>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="images/merge_commit20.png"/>
+				</imageobject>
+				<textobject>
+					<phrase>Merge commit</phrase>
+				</textobject>
+			</mediaobject>
+		</para>
+
+		<note>
+			<para>
+				If multiple common predecessors exist, Git uses recursion to create
+				a
+				virtual
+				common predecessor. For this Git creates a merged tree of
+				the
+				common ancestors and uses that as the reference for the 3-way
+				merge. This is called the
+				<wordasword>recursive merge</wordasword>
+				strategy
+				and is the default merge strategy.
+			</para>
+		</note>
+	</section>
+
+	<section id="gitmerge_octopus">
+		<title>Merge strategies - Octopus, Subtree, Ours</title>
+		<indexterm>
+			<primary>Merge strategies</primary>
+		</indexterm>
+		<indexterm>
+			<primary>Merge strategies
+			</primary>
+			<secondary>Octopus
+			</secondary>
+		</indexterm>
+
+		<indexterm>
+			<primary>Merge strategies
+			</primary>
+			<secondary>Subtree
+			</secondary>
+		</indexterm>
+		<indexterm>
+			<primary>Merge strategies
+			</primary>
+			<secondary>Ours
+			</secondary>
+		</indexterm>
+
+		<indexterm>
+			<primary>Octopus merge strategy</primary>
+		</indexterm>
+		<indexterm>
+			<primary>Subtree merge strategy</primary>
+		</indexterm>
+		<indexterm>
+			<primary>Ours merge strategy</primary>
+		</indexterm>
+		<para>
+			If a fast-forward merge is not possible, Git uses a merge
+			strategy.
+			The default strategy called
+			<wordasword>recursive merge</wordasword>
+			strategy was described in
+			<xref linkend="gitmerge_mergecommit" />
+			.
+		</para>
+		<para>
+			The Git command line tooling also supports the
+			<wordasword>octopus merge</wordasword>
+			strategy for merges of multiple references. With this operation it
+			can merge
+			multiple branches at once.
+		</para>
+		<para>
+			The
+			<parameter>subtree</parameter>
+			option is useful when you want to merge in another project
+			into a
+			sub-directory of your current project. It is rarely used and you
+			should prefer the usage of Git submodules. See
+			<xref linkend="submodules_definition" />
+			for more information.
+		</para>
+		<para>
+			The
+			<parameter>ours</parameter>
+			strategy merges a branch without looking at the changes introduced in
+			this branch. This keeps the history of the merged branch but ignores
+			the changes introduced in this branch.
+		</para>
+		<para>
+			You typically use the
+			<wordasword>ours</wordasword>
+			merge strategy to document in the Git repository that you have
+			integrated a branch and decided to ignore all changes from this
+			branch.
+		</para>
+
+	</section>
+
+
+</section>

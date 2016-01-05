@@ -1,0 +1,3 @@
+# rename the existing remote repository from 
+# github_http to github_testing
+git remote rename github_http github_testing

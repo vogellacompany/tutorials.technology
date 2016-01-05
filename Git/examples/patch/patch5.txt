@@ -1,0 +1,6 @@
+# create patch for the last commit based on HEAD
+git format-patch -1 HEAD
+
+# create a patch series for the last three commits 
+# based on head
+git format-patch -3 HEAD

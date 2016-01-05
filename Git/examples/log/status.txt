@@ -1,0 +1,9 @@
+# make some changes
+# assumes that the test01 
+# as well as test02 files exist
+# and have been committed in the past 
+echo "This is a new change to the file" > test01
+echo "and this is another new change" > test02
+
+# create a new file
+ls > newfileanalyzis.txt

@@ -1,0 +1,131 @@
+<section id="setup" role="wrapper">
+	<title>Different levels of Git configuration</title>
+	<section id="setup_configurationlevels">
+		<title>Git configuration levels</title>
+		<para>
+			The
+			<code>git config</code>
+			command allows you to configure your Git settings. These settings can
+			be system wide, user or repository specific.
+		</para>
+		<para>
+			A more specific setting
+			overwrites
+			values in the previous level,
+			i.e., a setting the repository
+			overrides the user setting and a user
+			setting overrides a system
+			wide
+			setting.
+		</para>
+	</section>
+	<section id="setup_systemwideconfiguration">
+		<title>Git system-wide configuration</title>
+		<indexterm>
+			<primary>System wide Git configuration </primary>
+		</indexterm>
+		
+		<indexterm>
+			<primary>Configuration</primary>
+			<secondary>System wide configuration
+			</secondary>
+		</indexterm>
+		<para>
+			You can provide a system wide configuration for your Git
+			settings. A system wide configuration is not very common, most
+			settings are user specific or repository specific as described in the
+			next chapters.
+		</para>
+
+		<para>
+			On a Unix based system Git uses the
+			<filename>/etc/gitconfig</filename>
+			file for this system-wide configuration.
+			To set this up, ensure you
+			have
+			sufficient rights,
+			i.e.
+			root
+			rights, in your OS and use the
+			<parameter>--system</parameter>
+			option for the
+			<code>git config</code>
+			command.
+		</para>
+
+	</section>
+
+
+	<section id="setup_userconfiguration">
+		<title>Git user configuration</title>
+		<indexterm>
+			<primary>Configuration</primary>
+			<secondary>User specific configuration
+			</secondary>
+		</indexterm>
+
+		<indexterm>
+			<primary>User specific Git configuration </primary>
+		</indexterm>
+
+		<para>
+			Git allows you to store user settings in the
+			<filename>.gitconfig</filename>
+			file located in the user home directory. This is also called the
+			<wordasword>global</wordasword>
+			Git configuration.
+		</para>
+		<para>
+			For example Git stores
+			the
+			committer and
+			author of a change in each
+			commit. This and
+			additional
+			information
+			can
+			be stored in the Git user
+			settings.
+		</para>
+
+		<para>
+			In each Git repository you can also configure the settings for this
+			repository. User configuration is done if you include the
+			<parameter>--global</parameter>
+			option in the
+			<code>git config</code>
+			command.
+		</para>
+		<indexterm>
+			<primary>Configuration</primary>
+			<secondary>repository specific configuration
+			</secondary>
+		</indexterm>
+	</section>
+
+	<section id="setup_configuration">
+		<title>Repository specific configuration</title>
+		<indexterm>
+			<primary>Configuration</primary>
+			<secondary>Repository specific configuration
+			</secondary>
+		</indexterm>
+		<indexterm>
+			<primary>Repository specific Git configuration </primary>
+		</indexterm>
+
+		<para>
+			You can also store repository specific settings in the
+			<filename>.git/config</filename>
+			file of a repository. Use the
+			<parameter>--local</parameter>
+			or use no flag at all. If neither the
+			<parameter>--system</parameter>
+			not the
+			<parameter>--global</parameter>
+			parameter is used, the setting
+			is specific for the current Git
+			repository.
+		</para>
+	</section>
+</section>

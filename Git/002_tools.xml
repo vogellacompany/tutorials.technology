@@ -1,0 +1,73 @@
+<section id="gitdefintion_tools" role="wrapper">
+	<title>Tools</title>
+	<section id="gitdefintion_tools1">
+		<title>The Git command line tools</title>
+		<para>
+			The original tooling for Git is based on the command line, i.e.,
+			the Git development team provides only tooling
+			for the command line. Most of the following examples are based on the Git command line tooling which
+			offers all
+			capabilities of Git.
+		</para>
+	</section>
+	<section id="gitdefintion_doublehyphens">
+		<title>Separating parameters and file arguments in Git commands
+		</title>
+		<indexterm>
+			<primary>Separating files and parameter arguments in Git
+			</primary>
+		</indexterm>
+
+		<indexterm>
+			<primary>Double hyphen (--) usage in Git
+			</primary>
+		</indexterm>
+
+		<para> The double hyphens (--) in Git separates out any references or
+			other options from a path
+			(usually file names).
+			For example HEAD has a special meaning in Git. Using double hyphens
+			llows you to distinguish between
+			looking
+			at
+			a file called HEAD from a Git commit reference
+			called HEAD.
+		</para>
+		<para>In case Git can determine the correct parameters and options
+			automatically the double hyphens can be avoided.
+		</para>
+
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/double/text.txt" />
+			</programlisting>
+		</para>
+	</section>
+
+	<section id="gitdefintion_tools2">
+		<title>Graphical tools for Git</title>
+		<para>
+			You can also use
+			graphical tools see
+			<ulink url="http://git-scm.com/downloads/guis">GUI Clients</ulink>
+			at the official git website for an overview.
+		</para>
+		<para>
+			For example the
+			<ulink url="https://www.eclipse.org/downloads/">Eclipse IDE</ulink>
+			provides excellent support for
+			working
+			with Git repositories.
+		</para>
+		<para>
+			To learn
+			more about the Git integration into
+			Eclipse see the
+			<ulink url="http://www.vogella.com/EclipseGit/articles.html">Eclipse Git online tutorial</ulink>
+			or the
+			<ulink url="http://www.vogella.com/books/eclipseide.html">Eclipse IDE book</ulink>
+			.
+		</para>
+	</section>
+
+</section>

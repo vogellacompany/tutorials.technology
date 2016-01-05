@@ -1,0 +1,22 @@
+# create a stash with uncommitted changes
+git stash save 
+
+# see the list of available stashes
+git stash list
+# result might be something like:
+stash@{0}: WIP on master: 273e4a0 Resize issue in Dialog
+stash@{1}: WIP on master: 273e4b0 Silly typo in Classname
+stash@{2}: WIP on master: 273e4c0 Silly typo in Javadoc
+
+# you can use the ID to apply a stash
+git stash apply stash@{0}
+
+# or apply the latest stash and delete it afterwards
+git stash pop
+
+# you can also remove a stashed change
+# without applying it
+git stash drop stash@{0}
+
+# or delete all stashes
+git stash clear

@@ -1,0 +1,8 @@
+# add the modified file
+git add .
+
+# creates the merge commit
+git commit -m "Merge changes"
+
+# push the changes to the remote repository
+git push

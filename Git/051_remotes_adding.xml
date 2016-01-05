@@ -1,0 +1,89 @@
+<section id="remotes" role="wrapper">
+	<title>Adding and listing existing remotes</title>
+	<section id="remotes_remoteadd">
+		<title>Adding a remote repository</title>
+		<indexterm>
+			<primary>Repository</primary>
+			<secondary>add more remotes
+			</secondary>
+		</indexterm>
+		<para>
+			You add
+			as many
+			<wordasword>remotes</wordasword>
+			to your repository as desired. For this you use the
+			<code>git remote add</code>
+			command.
+		</para>
+		<para>
+			You created a new Git repository from scratch earlier. Use the
+			following command to add a remote to your new bare
+			repository using
+			the
+			<wordasword>origin</wordasword>
+			name.
+		</para>
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/remoteadd/gitremoteadd.txt" />
+			</programlisting>
+		</para>
+
+	</section>
+	<section id="remotes_remote_synchronize">
+		<title>Synchronizing with remote repositories</title>
+		<indexterm>
+			<primary>Synchronize repositories more remotes</primary>
+		</indexterm>
+		<para>You can synchronize your local Git repository with remote
+			repositories. These commands are covered in detail in later sections
+			but
+			the following command demonstrates how you can send changes to
+			your remote repository.
+		</para>
+
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/remoteadd/gitremotepush.txt" />
+			</programlisting>
+		</para>
+
+	</section>
+
+	<section id="remotes_showremote">
+		<title>Show the existing remotes</title>
+		<indexterm>
+			<primary>Repository</primary>
+			<secondary>show existing remotes
+			</secondary>
+		</indexterm>
+		<para> To see the existing definitions of the remote repositories,
+			use
+			the following
+			command.
+		</para>
+
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/remote/show.txt" />
+			</programlisting>
+		</para>
+		<para>
+			To see the details of the
+			<wordasword>remotes</wordasword>
+			, e.g., the URL use the following
+			command.
+		</para>
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/remote/showdetails.txt" />
+			</programlisting>
+		</para>
+	</section>
+
+
+</section>

@@ -1,0 +1,3 @@
+Auto-merging mergeconflict.txt
+CONFLICT (add/add): Merge conflict in mergeconflict.txt
+Automatic merge failed; fix conflicts and then commit the result.

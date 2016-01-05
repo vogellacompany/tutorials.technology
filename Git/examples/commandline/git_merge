@@ -1,0 +1,3 @@
+# syntax: git merge <branch-name>
+# merges into your currently checked out branch
+git merge testing

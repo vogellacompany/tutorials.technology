@@ -1,0 +1,2 @@
+# pull in the changes from main repo and submodules
+git pull --recurse-submodules

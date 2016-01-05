@@ -1,0 +1,34 @@
+<section id="gitshortlog">
+	<title>git shortlog for release announcements</title>
+	<indexterm>
+		<primary>git shortlog</primary>
+	</indexterm>
+	<para>
+		The
+		<code>git shortlog</code>
+		command summarizes the
+		<code>git log</code>
+		output, it groups all commits by author and includes the first line of
+		the commit message.
+	</para>
+	<para>
+		The
+		<parameter>-s</parameter>
+		option suppresses the commit message and provides a commit count. The
+		<parameter>-n</parameter>
+		option sorts the output based on the number of commits by author.
+	</para>
+	<para>
+		<programlisting language="bourne">
+			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+				parse="text" href="./examples/log/shortlog.txt" />
+		</programlisting>
+	</para>
+	<para>This command also allows you to see the commits done by a certain author or committer.</para>
+	<para>
+		<programlisting language="bourne">
+			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+				parse="text" href="./examples/log/shortlogauthor.txt" />
+		</programlisting>
+	</para>
+</section>

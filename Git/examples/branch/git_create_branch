@@ -1,0 +1,4 @@
+# syntax: git branch <name> <hash>
+# <hash> in the above is optional
+git branch testing
+

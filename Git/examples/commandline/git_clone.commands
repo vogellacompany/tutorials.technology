@@ -1,0 +1,10 @@
+
+# switch to home
+cd ~
+# make new directory
+mkdir repo02
+
+# switch to new directory
+cd ~/repo02
+# clone
+git clone ../remote-repository.git .

@@ -1,0 +1,10 @@
+# add submodule to track master branch
+git submodule add -b master [URL to Git repo]
+
+# update your submodule
+# --remote will also fetch and ensure that
+# the latest commit from the branch is used
+git submodule update --remote
+
+# to avoid fetching use
+git submodule update --remote --no-fetch

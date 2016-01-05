@@ -1,0 +1,2 @@
+# lists the files which have a conflict
+git diff --name-only --diff-filter=U

@@ -1,0 +1,83 @@
+<section id="bisect" role="wrapper">
+	<title>Error search with git bisect</title>
+	<section id="bisect_definition">
+		<title>Using git bisect</title>
+		<indexterm>
+			<primary>git bisect</primary>
+		</indexterm>
+		<para>
+			The
+			<code>git bisect</code>
+			command allows you to run a binary search through the commit history
+			to identify the commit which introduced an issue. You specify a range
+			of commits and a script that the
+			<code>bisect</code>
+			command uses to identify whether a commit is good or bad.
+		</para>
+		<para>
+			This script must return 0 if the
+			condition is fulfilled
+			and
+			non-zero if the condition is not
+			fulfilled.
+		</para>
+
+
+	</section>
+
+	<section id="bisect_cloning">
+		<title>git bisect example</title>
+		<para>
+			Create a new Git repository, create the
+			<filename>text1.txt</filename>
+			file
+			and commit it
+			to the repository. Do a few more changes, remove the
+			file and again
+			do a few more changes.
+		</para>
+		<para>We use a simple shell script which checks the existence of a
+			file. Ensure that this file is executable.
+		</para>
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/bisect/check.sh" />
+			</programlisting>
+		</para>
+
+
+		<para>
+			Afterwards use the
+			<code>git bisect</code>
+			command to find the bad commit. First you
+			use the
+			<parameter>git bisect start</parameter>
+			command
+			to define a commit known to be bad (showing the problem) and a
+			commit known to be good (not showing the problem).
+		</para>
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/bisect/bisect_start.txt" />
+			</programlisting>
+		</para>
+		<para>Afterwards run the bisect command using the shell script.</para>
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/bisect/bisectrun.txt" />
+			</programlisting>
+		</para>
+		<tip>
+			<para>
+				The above commands serve as an example. The existence of a file can be easier
+				verified with the
+				<code>git bisect</code>
+				command:
+				<code>git bisect run test -f test1.txt</code>
+			</para>
+		</tip>
+	</section>
+</section>

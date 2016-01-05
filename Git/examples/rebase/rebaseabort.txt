@@ -1,0 +1,2 @@
+# abort rebase and recreate the situation before the rebase
+git rebase --abort

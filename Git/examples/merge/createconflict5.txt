@@ -1,0 +1,7 @@
+# get the changes via a fetch
+git fetch origin
+
+# now merge origin/master into the local master
+# this creates a merge conflict in your
+# local repository
+git merge origin/master

@@ -1,0 +1,175 @@
+<section id="gitfetch" role="wrapper">
+	<title>Updating your remote-tracking branches with git fetch</title>
+
+	<section id="gitfetch_intro">
+		<title>Fetch</title>
+		<indexterm>
+			<primary>git fetch</primary>
+		</indexterm>
+		<para>
+			The
+			<code>git fetch</code>
+			command updates your
+			remote-tracking branches, i.e., it updates the
+			local copy of branches stored in a remote
+			repository. The following
+			command updates the
+			remote-tracking branches
+			from the repository
+			called
+			<wordasword>origin</wordasword>
+			.
+		</para>
+
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/fetch/fetch.txt" />
+			</programlisting>
+		</para>
+
+
+		<para>
+			The fetch
+			command
+			only
+			updates the
+			<wordasword>remote-tracking branches</wordasword>
+			and none of the local
+			branches
+			and it does not change the working tree
+			of the Git repository.
+			Therefore, you can run the
+			<code>git fetch</code>
+			command
+			at any
+			point in
+			time.
+		</para>
+		<para>
+			After reviewing
+			the changes in
+			the
+			remote
+			tracking
+			branch you can
+			merge the
+			changes into your local branches or
+			rebase your local
+			branches onto
+			the remote-tracking branch.
+		</para>
+		<para>
+			Alternatively you
+			can also
+			use the
+			<code>git cherry-pick commit_id</code>
+			command
+			to take
+			over
+			only
+			selected commits.
+		</para>
+		<para>
+			See
+			<xref linkend="cherrypick_definition" />
+			for information about cherry-pick. See
+			<xref linkend="gitmerge_definition" />
+			for the merge operation and
+			<xref linkend="rebase_branches" />
+			for the rebase command.
+		</para>
+	</section>
+	<section id="gitfetch_updateremotes">
+		<title>Fetch from all remote repositories</title>
+		<para>
+			The
+			<code>git fetch</code>
+			command updates only the
+			remote-tracking branches
+			for one remote
+			repository. In case you want to update the
+			remote-tracking branches
+			of
+			all your remote repositories you can use the following command.
+		</para>
+
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/remote/gitupdate.txt" />
+			</programlisting>
+		</para>
+	</section>
+
+	<section id="gitfetch_compare">
+		<title>Compare remote-tracking branch with local branch</title>
+		<para>The following code shows a few options how you can compare your
+			branches.
+		</para>
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/remotebranch/compare.txt" />
+			</programlisting>
+		</para>
+		<para>
+			The above commands show the changes introduced in HEAD compared
+			to
+			origin. If you want to see the changes in origin compared to HEAD,
+			you
+			can switch the arguments or use the
+			<parameter>-R</parameter>
+			parameter.
+		</para>
+	</section>
+	<section id="gitfetch_rebase">
+		<title>Rebase your local branch onto the remote-tracking branch
+		</title>
+		<indexterm>
+			<primary>Rebase based on a remote-tracking branch</primary>
+		</indexterm>
+
+		<para>
+			You can rebase your current local branch onto a
+			remote-tracking
+			branch. The
+			following commands demonstrate that.
+		</para>
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/remotebranch/apply.txt" />
+			</programlisting>
+		</para>
+		<tip>
+			<para>
+				More information on the rebase command can be found in
+				<xref linkend="rebase_branches" />
+				.
+			</para>
+		</tip>
+	</section>
+
+	<section id="gitremotebranch_fetchpull">
+		<title>Fetch compared with pull</title>
+		<indexterm>
+			<primary>Fetch compared with pull</primary>
+		</indexterm>
+		<para>
+			The
+			<code>git pull</code>
+			command performs a
+			<code>git fetch</code>
+			and
+			<code>git merge</code>
+			(or
+			<code>git rebase</code>
+			based on your Git settings). The
+			<code>git fetch</code>
+			does not perform any operations on your local branches. You can
+			always
+			run the fetch command and review the incoming changes.
+		</para>
+	</section>
+</section>

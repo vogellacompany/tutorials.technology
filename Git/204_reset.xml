@@ -1,0 +1,93 @@
+<section id="resetcommits" role="wrapper">
+	<title>Resetting changes with git reset</title>
+	<section id="findingresettedcommits">
+		<title>Finding commits that are no longer visible on a branch</title>
+		<para>
+			If you reset the branch pointer of a branch to a certain commit, the
+			<code>git log</code>
+			commands does not show the commits which exist after this branch
+			pointer. For example assume you have two commits A-> B, where B is
+			the commit after A. You if you reset your branch pointer to A, the
+			<code>git log</code>
+			command does not include B anymore.
+		</para>
+		<para>
+			Commits like B can still be found via the
+			<code>git reflog</code>
+			command. See
+			<xref linkend="gitreflog" />
+			.
+		</para>
+	</section>
+
+	<section id="cleanworkingdir">
+		<title>Deleting changes in the working tree and staging area for tracked files</title>
+		<para>
+			The
+			<code>git reset --hard</code>
+			command makes the working tree exactly match HEAD.
+		</para>
+
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/delete/cleanworking.txt" />
+			</programlisting>
+		</para>
+		<warning>
+			<para>If you have tracked files with modifications, you lose
+				these
+				changes with the above command.
+			</para>
+		</warning>
+		<note>
+			<para>
+				The reset command
+				does not
+				delete untracked files. If you
+				want
+				to delete
+				them also see
+				<xref linkend="gitclean_command" />
+				.
+			</para>
+		</note>
+
+	</section>
+
+	<section id="resettosquash">
+		<title>Using git reset to squash commits</title>
+		<indexterm>
+			<primary>git reset</primary>
+			<secondary>squash commits
+			</secondary>
+		</indexterm>
+		<para>
+			As a soft reset does not remove your change to your files and index,
+			you can use the
+			<code>git reset --soft</code>
+			command to squash several commits into one commit.
+		</para>
+
+		<para>
+			As the staging area is not changed with a soft reset, you keep
+			it
+			in the desired state for your new commit. This means that all the
+			file changes
+			from the commits which were resetted are still part of
+			the staging area.
+		</para>
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/delete/squash.txt" />
+			</programlisting>
+		</para>
+		<para>
+			The interactive rebase adds more flexibility to squashing commits and
+			allows to use the existing commit messages. See
+			<xref linkend="interactive_rebase" />
+			for details.
+		</para>
+	</section>
+</section>

@@ -1,0 +1,232 @@
+<section id="analyzechanges" role="wrapper">
+	<title>Analyzing the commit history with git log</title>
+	<section id="analyzechanges_log">
+		<title>Using git log</title>
+		<indexterm>
+			<primary>git log</primary>
+		</indexterm>
+		<para>
+			The
+			<code>git log</code>
+			command shows the history of your repository in the current branch, i.e., the list
+			of
+			commits.
+		</para>
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/log/log.txt" />
+			</programlisting>
+		</para>
+
+	</section>
+	<section id="git_log_options">
+		<title>Helpful parameters for git log</title>
+		<indexterm>
+			<primary>git log</primary>
+			<secondary>oneline
+			</secondary>
+		</indexterm>
+		<indexterm>
+			<primary>git log</primary>
+			<secondary>abbrev-commit
+			</secondary>
+		</indexterm>
+		<indexterm>
+			<primary>git log</primary>
+			<secondary>graph
+			</secondary>
+		</indexterm>
+
+		<para>
+			The
+			<parameter>--oneline</parameter>
+			parameter fits the output of the
+			<code>git log</code>
+			command in one line.
+		</para>
+		<para>
+			If you use the
+			<parameter>--abbrev-commit</parameter>
+			parameter,
+			the
+			<code>git log</code>
+			command uses shorter versions of the SHA-1 identifier for a commit
+			object but keeps the SHA-1 unique. This parameter
+			uses 7 characters
+			by
+			default, but you can specify other numbers, e.g.,
+			<code>--abbrev-commit --abbrev=4</code>
+			.
+		</para>
+		<para>
+			The
+			<parameter>graph</parameter>
+			parameter draws a text-based graphical representation of the branches
+			and the merge history of the Git repository.
+		</para>
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/log/logoptions.txt" />
+			</programlisting>
+		</para>
+		<para>
+			For more options on the
+			<code>git log</code>
+			command see the
+			<ulink url="https://www.kernel.org/pub/software/scm/git/docs/git-log.html">Git log manpage</ulink>
+			.
+		</para>
+	</section>
+
+
+	<section id="analyzechangesg_changesinafile">
+		<title>View the change history of a file</title>
+		<indexterm>
+			<primary>git log</primary>
+			<secondary>File history
+			</secondary>
+		</indexterm>
+		<indexterm>
+			<primary>
+				File history
+			</primary>
+		</indexterm>
+		<para>
+			To see changes in a file you can use the
+			<parameter>-p</parameter>
+			option in the
+			<code>git log</code>
+			command.
+		</para>
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/changes/filechanges.txt" />
+			</programlisting>
+		</para>
+
+	</section>
+
+
+	<section id="analyzechanges_output">
+		<title>Configuring output format</title>
+		<para>
+			You can use the
+			<parameter>--pretty </parameter>
+			parameter to configure the output.
+		</para>
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/log/pretty.txt" />
+			</programlisting>
+		</para>
+		<para>This command creates the output.</para>
+		<para>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="images/gitlogpretty10.png" scale="30" />
+				</imageobject>
+				<textobject>
+					<phrase>Git log pretty output</phrase>
+				</textobject>
+			</mediaobject>
+		</para>
+
+		<para>
+			You can define an alias for such a long command. See
+			<xref linkend="alias_definition" />
+			for information how to define an alias.
+		</para>
+
+
+
+	</section>
+	<section id="analyzechanges_grep">
+		<title>Filtering based on the commit message via regular expressions</title>
+		<indexterm>
+			<primary>Search
+			</primary>
+			<secondary>Regular expression
+			</secondary>
+		</indexterm>
+		<para>
+			You can filter the output of the
+			<code>git log</code>
+			command to commits whose commit message, , or reflog entry, respectively, matches the specified
+			regular expression
+			pattern with the
+			<code><![CDATA[--grep=<pattern>]]></code>
+			and
+			<code><![CDATA[--grep-reflog=<pattern>]]></code>
+			option.
+		</para>
+		<para>
+			For
+			example the following command instructs the log command
+			to list all
+			commits which contain the word "workspace"
+			in their commit message.
+		</para>
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/log/grep.txt" />
+			</programlisting>
+		</para>
+		<para>
+			There is also the
+			<code><![CDATA[--invert-grep=<pattern>]]></code>
+			option. When this
+			option is used, git log lists the
+			commits that don't match the specified pattern.
+		</para>
+
+	</section>
+	<section id="analyzechanges_user">
+		<title>Filtering the log output based on author or committer</title>
+		<indexterm>
+			<primary>Changes by a certain author or committer
+			</primary>
+		</indexterm>
+		<indexterm>
+			<primary>Search
+			</primary>
+			<secondary>Commits by Author
+			</secondary>
+		</indexterm>
+		<indexterm>
+			<primary>Search
+			</primary>
+			<secondary>Commits by Commmitter
+			</secondary>
+		</indexterm>
+		<para>
+			You can use the
+			<code><![CDATA[--author=<pattern>]]></code>
+			or
+			<code><![CDATA[--committer=<pattern>]]></code>
+			to filter the log output by author or committer. You do not need
+			to
+			use the full name, if a substring matches, the
+			commit is included
+			in
+			the log output.
+		</para>
+		<para>The following command lists all commits with an author name
+			containing the word "lvogel".
+		</para>
+
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/log/loguser.txt" />
+			</programlisting>
+		</para>
+
+		<para>
+			See also
+			<xref linkend="gitshortlog" />
+			.
+		</para>
+	</section>
+
+
+
+</section>

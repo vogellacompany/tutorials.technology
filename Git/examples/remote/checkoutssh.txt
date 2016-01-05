@@ -1,0 +1,5 @@
+# clone online repository
+git clone ssh://git@github.com/vogella/gitbook.git
+
+# older syntax
+git clone git@github.com:vogella/gitbook.git

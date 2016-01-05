@@ -1,0 +1,5 @@
+# show the existing defined remotes
+git remote
+
+# show details about the remotes
+git remote -v

@@ -1,0 +1,114 @@
+<section id="interactive_rebase">
+	<title>Editing history with the interactive rebase</title>
+	<indexterm>
+		<primary>git rebase</primary>
+		<secondary>interactive
+		</secondary>
+	</indexterm>
+
+	<indexterm>
+		<primary>rebase plan</primary>
+	</indexterm>
+	<indexterm>
+		<primary>Interactive rebase</primary>
+	</indexterm>
+	<para>
+		Git allows you to edit your commit history with a functionality called
+		<code>interactive rebase</code>
+		. For example, you can
+		combine several commits into
+		one commit,
+		reorder
+		or skip commits and
+		edit the commit message.
+	</para>
+
+	<para>
+		This is
+		useful as it allows
+		the user to rewrite
+		some
+		commit
+		history
+		(cleaning it up) before
+		pushing the changes
+		to a
+		remote
+		repository.
+	</para>
+
+	<para>
+		Interactive rebase allows you to quickly edit a series of commits
+		using
+		the following actions:
+
+		<table frame='all'>
+			<title>Interactive rebase actions</title>
+			<tgroup cols='2' align='left' colsep='1' rowsep='1'>
+				<colspec colname='c1' colwidth="1*" />
+				<colspec colname='c2' colwidth="3*" />
+				<thead>
+					<row>
+						<entry>Action</entry>
+						<entry>Description</entry>
+					</row>
+				</thead>
+				<tbody>
+                        <row>
+                            <entry>pick</entry>
+                            <entry>includes the selected commit, moving pick entries enables
+                                reordering of commits
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>skip</entry>
+                            <entry>removes a commit</entry>
+                        </row>
+                        <row>
+                            <entry>edit</entry>
+                            <entry>amends the commit
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>squash</entry>
+                            <entry>combines the changes of the commit with the previous
+                                commit
+                                and combines their commit messages
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>fixup</entry>
+                            <entry>squashes the changes of a commit into the previous
+                                commit discarding the squashed commit's message
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>reword</entry>
+                            <entry>similar to pick but allows modifying the commit message
+                            </entry>
+                        </row>
+                        
+				</tbody>
+			</tgroup>
+		</table>
+
+	</para>
+	<para>
+		The setup for the rebase is called the
+		<wordasword>rebase plan</wordasword>
+		. Based on this plan, the actual interactive rebase can be executed.
+	</para>
+
+	<warning>
+		<para>
+			It is
+			safe
+			to use interactive rebase as long as the commits have
+			not been pushed to another
+			repository. As the interactive rebase
+			creates new commit objects, other developers might be confused if you
+			rebase already published changes.
+		</para>
+	</warning>
+
+</section>

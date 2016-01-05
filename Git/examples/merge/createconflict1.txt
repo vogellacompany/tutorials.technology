@@ -1,0 +1,6 @@
+# switch to the first directory 
+cd ~/repo01
+# make changes
+echo "Change in the first repository" > mergeconflict.txt
+# stage and commit
+git add . && git commit -a -m "Will create conflict 1"

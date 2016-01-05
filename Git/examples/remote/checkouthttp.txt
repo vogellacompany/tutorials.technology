@@ -1,0 +1,2 @@
+# the following will clone via HTTP
+git clone http://github.com/vogella/gitbook.git

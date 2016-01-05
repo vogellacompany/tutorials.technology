@@ -1,0 +1,8 @@
+# seeing the git log for the HEAD file
+git log --HEAD
+
+# seeing the git log for the HEAD reference
+git log HEAD --
+
+# if there is no HEAD file you can use HEAD as commit reference
+git log HEAD

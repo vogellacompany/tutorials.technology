@@ -1,0 +1,11 @@
+# create new branch
+git checkout -b picktest
+
+# create some data and commit
+touch pickfile.txt
+git add pickfile.txt
+git commit -m "adds new file"
+
+# create second commit  
+echo "changes to file" > pickfile.txt
+git commit -a -m "changes in file"

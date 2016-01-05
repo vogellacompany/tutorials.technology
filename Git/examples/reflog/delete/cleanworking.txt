@@ -1,0 +1,9 @@
+# removes staged and working tree changes
+# of committed files
+git reset --hard 
+
+# the above does not remove untracked files therefore 
+# the next command is needed
+
+# removes new files which are still untracked 
+git clean -f -d 

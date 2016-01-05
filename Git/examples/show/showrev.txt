@@ -1,0 +1,17 @@
+# [reference] can be a branch, tag, HEAD or commit ID 
+# [file_path] is the file name including path
+
+git show [reference]:[file_path]
+
+# to make a copy to copiedfile.txt
+
+git show [reference]:[file_path] > copiedfile.txt
+
+# assume you have two pom.xml files. One in the root of the Git
+# repository and one in the current working directory
+
+# address the pom.xml in the git root folder
+git show HEAD:pom.xml
+
+# address the pom in the current directory
+git show HEAD:./pom.xml

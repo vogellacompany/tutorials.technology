@@ -1,0 +1,5 @@
+# define alias
+git config --global alias.act '!git add . -A && git commit'
+
+# to use it
+git act -m "message"

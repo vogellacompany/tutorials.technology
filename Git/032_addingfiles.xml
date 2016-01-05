@@ -1,0 +1,183 @@
+<section id="firstgit_addfiles" role="wrapper">
+	<title>Getting started with Git</title>
+
+	<section id="firstgit_addingfilestarget">
+		<title>Target of this chapter</title>
+
+		<para>
+			In this chapter you create
+			several
+			files and place them under
+			version control.
+		</para>
+
+	</section>
+
+	<section id="firstgit_content">
+		<title>Create new content</title>
+		<para>
+			Use the following commands to create several new files.
+		</para>
+
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/commandline/first.commands" />
+			</programlisting>
+		</para>
+	</section>
+
+	<section id="firstgit_repostatus">
+		<title>See the current status of your repository</title>
+		<indexterm>
+			<primary>git status</primary>
+		</indexterm>
+		<para>
+			The
+			<code>git status</code>
+			command shows the working tree status, i.e. which files have changed,
+			which are staged and which
+			are not part of the staging area. It also
+			shows
+			which files have conflicts and gives an indication what
+			the
+			user
+			can
+			do with these changes, e.g., add them to the staging area
+			or remove
+			them,
+			etc.
+		</para>
+		<para>Run it via the following command.</para>
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/commandline/first.status" />
+			</programlisting>
+		</para>
+		<para>The output looks similar to the following listing.</para>
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/commandline/first.output" />
+			</programlisting>
+		</para>
+	</section>
+	<section id="firstgit_repoadd">
+		<title>Add files to the staging area</title>
+		<indexterm>
+			<primary>git add</primary>
+		</indexterm>
+		<para>
+			Before committing changes to a Git repository you need to mark
+			the changes that should be committed. This is done by adding the new
+			and
+			changed files to
+			the staging area. This creates a
+			snapshot of the
+			affected
+			files.
+		</para>
+
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/commandline/gitrepo_add" />
+			</programlisting>
+		</para>
+		<para>
+			Afterwards run the
+			<code>git status</code>
+			command again to see the current status.
+		</para>
+
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/commandline/gitrepo_add.result" />
+			</programlisting>
+		</para>
+
+	</section>
+
+	<section id="firstgit_changefiles">
+		<title>Change files that are staged</title>
+		<para>
+			In case you change one of the staged
+			files before
+			committing, you
+			need to add it again to the staging area to
+			commit the
+			new
+			changes. This
+			is because Git creates a snapshot of these staged files. All
+			new
+			changes must again be staged.
+		</para>
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/commandline/gitrepo_changestaged" />
+			</programlisting>
+		</para>
+
+		<para>Validate that the new changes are not yet staged.</para>
+
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/commandline/gitrepo_changestaged.result" />
+			</programlisting>
+		</para>
+
+		<para>Add the new changes to the staging area.</para>
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/commandline/gitrepo_add" />
+			</programlisting>
+		</para>
+		<para>
+			Use the
+			<code>git status</code>
+			command again to see that all changes are staged.
+		</para>
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/commandline/gitrepo_changestaged.finalresult" />
+			</programlisting>
+		</para>
+
+	</section>
+	<section id="firstgit_repocommit">
+		<title>Commit staged changes to the repository</title>
+		<indexterm>
+			<primary>git commit</primary>
+		</indexterm>
+		<para>
+			After adding the files to the Git staging area, you can commit them
+			to
+			the
+			Git repository. This creates a new commit object with the staged
+			changes in the Git
+			repository and the HEAD reference points to the new
+			commit. The
+			<parameter>-m</parameter>
+			parameter
+			allows you to specify the commit message.
+			If you leave this
+			parameter
+			out, your default editor is started and you
+			can enter the
+			message in
+			the editor.
+		</para>
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/commandline/gitrepo_commit" />
+			</programlisting>
+		</para>
+	</section>
+</section>

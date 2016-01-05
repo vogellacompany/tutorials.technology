@@ -1,0 +1,39 @@
+<section id="revertcommit" role="wrapper">
+	<title>Revert commits</title>
+
+	<section id="undochanges_revertcommit1">
+		<title>Reverting a commit</title>
+		<indexterm>
+			<primary>git revert</primary>
+		</indexterm>
+		<para>
+			You can revert commits via the
+			<code>git revert</code>
+			command.
+			This command
+			reverts the changes of a commit.
+		</para>
+		<para> Such commits are useful to
+			document that a change was withdrawn.
+		</para>
+	</section>
+
+	<section id="undochanges_revertcommit2">
+		<title>Example: Reverting a commit</title>
+		<para>
+			The following command demonstrates the usage of the
+			<code>git revert</code>
+			command.
+		</para>
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/commandline/git_revert_commit" />
+			</programlisting>
+		</para>
+
+	</section>
+
+
+
+</section>

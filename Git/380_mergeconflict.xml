@@ -1,0 +1,91 @@
+<section id="mergeconflict" role="wrapper">
+	<title>Solving merge conflicts</title>
+
+	<section id="mergeconflict_definition">
+		<title>What is a conflict during a merge operation?</title>
+		<indexterm>
+			<primary>Merge conflict</primary>
+		</indexterm>
+		<para>A conflict during a merge operation
+			occurs
+			if two commits from
+			different
+			branches
+			have modified the same
+			content
+			and Git cannot
+			automatically
+			determine
+			how both changes
+			should be
+			combined when merging
+			these branches.
+		</para>
+		<para>This happens for example if the same line in a file has been
+			replaced by
+			two different commits.
+		</para>
+		<para> If a conflict occurs, Git marks the conflict in the
+			file
+			and the
+			programmer has to resolve the conflict manually.
+		</para>
+		<para>After
+			resolving it, he adds the file to the staging area and
+			commits the
+			change. These steps are required to finish the merge
+			operation.
+		</para>
+
+	</section>
+
+	<section id="mergeconflict_theirs">
+		<title>Keep a version of a file during a merge conflict</title>
+
+		<indexterm>
+			<primary>Merge conflict</primary>
+			<secondary>theirs parameter</secondary>
+		</indexterm>
+		<indexterm>
+			<primary>Merge conflict</primary>
+			<secondary>ours parameter</secondary>
+		</indexterm>
+		<para>
+			Sometimes if a conflict occurs the developer does not want to
+			solve
+			the
+			conflict. He decides that he wants to keep the
+			original
+			version or
+			the new
+			version of the file.
+		</para>
+		<para>
+			For this, there is the
+			<parameter>--theirs</parameter>
+			and the
+			<parameter>--ours</parameter>
+			options on the
+			<code>git checkout</code>
+			command. The first option keeps the version
+			of the file
+			that you merged
+			in, and the second option keeps the version before the merge
+			operation was started.
+		</para>
+		<para>
+			<programlisting language="java">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/rebase/ours.txt" />
+			</programlisting>
+		</para>
+
+		<para>
+			<programlisting language="java">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/rebase/theirs.txt" />
+			</programlisting>
+		</para>
+
+	</section>
+</section>

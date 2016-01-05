@@ -1,0 +1,7 @@
+# switch to the first repository and pull in the changes
+cd ~/repo01
+
+git pull ../remote-repository.git/
+
+# check the changes
+git status

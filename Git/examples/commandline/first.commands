@@ -1,0 +1,10 @@
+# switch to your Git repository
+cd ~/repo01
+
+# create an empty file in a new directory
+touch datafiles/data.txt
+
+# create a few files with content
+ls > test01
+echo "bar" > test02
+echo "foo" > test03

@@ -1,0 +1,6 @@
+# Delete the commit before head
+# ~2 would delete the last two, etc
+git reset --hard HEAD~1
+
+# Delete up to a certain commit
+git reset --hard <SHA-1-commit-id>

@@ -1,0 +1,13 @@
+
+# push current branch to a branch called "testing" to remote repository
+git push origin testing
+
+# switch to the testing branch
+git checkout testing
+
+# some changes
+echo "News for you" > test01
+git commit -a -m "new feature in branch"
+
+# push all including branch
+git push

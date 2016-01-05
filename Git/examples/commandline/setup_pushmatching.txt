@@ -1,0 +1,2 @@
+# set default so that only the current branch is pushed
+git config --global push.default simple

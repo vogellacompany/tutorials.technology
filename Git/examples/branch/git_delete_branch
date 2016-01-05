@@ -1,0 +1,6 @@
+# delete branch testing
+git branch -d testing
+# force delete testing
+git branch -D testing
+# check if branch has been deleted
+git branch

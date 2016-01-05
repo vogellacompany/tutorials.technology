@@ -1,0 +1,2 @@
+# show all remote and tracking branches for origin
+git remote show origin

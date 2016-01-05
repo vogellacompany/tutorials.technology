@@ -1,0 +1,69 @@
+<section id="gitdiffchapter" role="wrapper">
+	<title>Viewing changes with git diff and git show</title>
+
+	<section id="analyzechanges_showcommitchanges">
+		<title>See the differences introduced by a commit</title>
+		<indexterm>
+			<primary>git diff</primary>
+			<secondary>changes by a commits
+			</secondary>
+		</indexterm>
+		<para>To see the changes introduced by a commit use the following
+			command.
+		</para>
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/changes/diff.txt" />
+			</programlisting>
+		</para>
+
+	</section>
+
+	<section id="gitdiff_comparetwocommits">
+		<title>See the difference between two commits</title>
+		<indexterm>
+			<primary>git diff</primary>
+			<secondary>changes between two commits
+			</secondary>
+		</indexterm>
+		<para>
+			To see the differences introduced between two commits you use the
+			<code>git diff</code>
+			command specifying the commits. For example, the
+			following command
+			shows the differences introduced in the last
+			commit.
+		</para>
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/diff/diff_commits.txt" />
+			</programlisting>
+		</para>
+	</section>
+
+	<section id="analyzechanges_file">
+		<title>See the files changed by a commit</title>
+		<indexterm>
+			<primary>git diff</primary>
+			<secondary>changes in a specific file
+			</secondary>
+		</indexterm>
+		<para>
+			To see the files which have been changed in a commit use the
+			<code>git diff-tree</code>
+			command. The
+			<parameter>name-only
+			</parameter>
+			tells the command to show only the names of the files.
+		</para>
+
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/changes/changedfiles.txt" />
+			</programlisting>
+		</para>
+	</section>
+</section>

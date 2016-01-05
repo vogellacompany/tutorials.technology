@@ -1,0 +1,6 @@
+git reflog
+# <output>
+# ... snip ...
+1f1a73a HEAD@{2}: commit: More chaanges - typo in the commit message
+45ca204 HEAD@{3}: commit: These are new changes
+cf616d4 HEAD@{4}: commit (initial): Initial commit

@@ -1,0 +1,8 @@
+# some nonsense change
+echo "change which should be removed later" > test01
+
+# add the file to the staging area
+git add test01
+
+# restores the file based on HEAD in the staging area
+git reset HEAD test01

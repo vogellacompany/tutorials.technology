@@ -1,0 +1,3 @@
+
+# add the HTTPS protocol
+git remote add github_http https://vogella@github.com/vogella/gitbook.git

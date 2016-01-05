@@ -1,0 +1,23 @@
+
+# create a new file
+touch rebase.txt
+
+# add it to git
+git add . && git commit -m "add rebase.txt  to staging area"
+
+# do some silly changes and commit
+echo "content" >> rebase.txt
+git add . && git commit -m "add content"
+echo " more content" >> rebase.txt
+git add . && git commit -m "just testing"
+echo " more content" >> rebase.txt
+git add . && git commit -m "woops"
+echo " more content" >> rebase.txt
+git add . && git commit -m "yes"
+echo " more content" >> rebase.txt
+git add . && git commit -m "add more content"
+echo " more content" >> rebase.txt
+git add . && git commit -m "creation of important configuration file"
+
+# check the git log message
+git log

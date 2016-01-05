@@ -1,0 +1,57 @@
+<section id="interactiverebase_example">
+	<title>Example: Interactive rebase</title>
+	<para>
+		The following commands create several commits which will be used
+		for
+		the interactive rebase.
+	</para>
+	<para>
+		<programlisting language="bourne">
+			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+				parse="text" href="./examples/rebase/git_rebase_commits" />
+		</programlisting>
+	</para>
+	<para> We want to combine the last seven commits. You can do
+		this
+		interactively via the following command.
+	</para>
+	<para>
+		<programlisting language="bourne">
+			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+				parse="text" href="./examples/rebase/rebase_i.txt" />
+		</programlisting>
+	</para>
+	<para>
+		This command opens your editor of choice and lets you configure the
+		rebase
+		operation by defining which commits to
+		<wordasword>pick</wordasword>
+		,
+		<wordasword>squash</wordasword>
+		or
+		<wordasword>fixup</wordasword>
+		.
+	</para>
+	<para>
+		The following listing shows an example of
+		the
+		selection, we pick
+		the last
+		commit, squash 5 commits and fix the
+		sixth
+		commit. The listing uses the
+		long format of the commands (for example
+		<parameter>fixup</parameter>
+		instead of the short form
+		<parameter>f</parameter>
+		) for better readability.
+	</para>
+
+	<para>
+		<programlisting language="text">
+			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+				parse="text" href="./examples/rebase/interactiverebase10.txt" />
+		</programlisting>
+	</para>
+
+</section>

@@ -1,0 +1,1 @@
+git diff-tree --name-only -r <commit_id>

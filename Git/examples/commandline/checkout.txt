@@ -1,0 +1,2 @@
+
+git clone git://dev.eclipse.org/org.eclipse.e4/org.eclipse.e4.ui.git

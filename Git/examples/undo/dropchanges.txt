@@ -1,0 +1,14 @@
+# create a new file with content
+echo "this is trash to be deleted" > test04
+
+# make a dry-run to see what would happen
+# -n is the same as --dry-run 
+git clean -n
+
+# delete, -f is required if 
+# variable clean.requireForce is not set to false
+git clean -f
+
+# use -d flag to delete new directories
+# use -x to delete hidden files, e.g., ".example"
+git clean -fdx

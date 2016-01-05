@@ -1,0 +1,6 @@
+# create branch and switch to it
+git checkout -b bugreport12
+
+# creates a new branch based on the master branch
+# without the last commit
+git checkout -b mybranch master~1

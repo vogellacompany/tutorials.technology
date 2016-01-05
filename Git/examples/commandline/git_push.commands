@@ -1,0 +1,14 @@
+
+# make some changes in the first repository
+cd ~/repo01
+
+# make some changes in the file
+echo "Hello, hello. Turn your radio on" > test01
+echo "Bye, bye. Turn your radio off" > test02
+
+# commit the changes, -a will commit changes for modified files
+# but will not add automatically new files
+git commit -a -m "Some changes"
+
+# push the changes
+git push ../remote-repository.git

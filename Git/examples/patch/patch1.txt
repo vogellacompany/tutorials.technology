@@ -1,0 +1,11 @@
+# create a new branch
+git branch mybranch
+# use this new branch
+git checkout mybranch
+# make some changes
+touch test05
+# change some content in an existing file
+echo "new content for test01" >test01
+# commit this to the branch
+git add .
+git commit -m "first commit in the branch"

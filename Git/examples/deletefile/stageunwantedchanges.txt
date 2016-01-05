@@ -1,0 +1,10 @@
+# do changes 
+touch unwantedstaged.txt
+echo "more.." >> test02
+
+// add changes to staging area
+git add unwantedstaged.txt
+git add test02
+
+# see the status
+git status

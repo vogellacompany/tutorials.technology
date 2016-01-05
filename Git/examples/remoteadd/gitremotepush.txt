@@ -1,0 +1,10 @@
+# do some changes
+echo "I added a remote repo" > test02
+
+# commit
+git commit -a -m "This is a test for the new remote origin"
+
+# to push use the command:
+# git push [target]
+# default for [target] is origin
+git push origin

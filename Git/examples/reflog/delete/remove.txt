@@ -1,0 +1,11 @@
+# create a file and 
+# accidently add it to the index
+touch incorrect.txt
+git add .
+
+#  remove it from the index
+git reset incorrect.txt
+
+# to clean up, delete the file
+# not neccessary, maybe you want to add it later to the index
+rm incorrect.txt

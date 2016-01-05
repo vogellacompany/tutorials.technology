@@ -1,0 +1,9 @@
+# delete tag locally
+git tag -d 1.7.0
+
+# delete tag in remote repository
+# called origin
+git push origin :refs/tags/1.7.0 
+
+
+

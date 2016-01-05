@@ -1,0 +1,6 @@
+# setup kdiff3 as default merge tool (Linux)
+git config --global merge.tool kdiff3
+
+# to install it under Ubuntu use
+sudo apt-get install kdiff3
+

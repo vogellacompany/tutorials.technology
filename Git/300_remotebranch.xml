@@ -1,0 +1,233 @@
+<section id="gitremotebranch" role="wrapper">
+	<title>Remote and local tracking branches</title>
+	<section id="gitremotebranch_overview">
+		<title>Remote tracking branches</title>
+		<indexterm>
+			<primary>Remote-tracking branch</primary>
+		</indexterm>
+		<para>
+			Your local Git repository contains references to the state of
+			the
+			branches on
+			the remote repositories to which it is connected. These
+			local references are called
+			<wordasword>remote-tracking branches</wordasword>
+			.
+		</para>
+		<para>
+			You can see your
+			remote-tracking branches
+			with the following command.
+		</para>
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/remotebranch/showremotes.txt" />
+			</programlisting>
+		</para>
+
+		<para>
+			To update remote-tracking branches without changing local branches
+			you
+			use the
+			<code>git fetch</code>
+			command which is covered in
+			<xref linkend="gitfetch" />
+			.
+		</para>
+
+
+
+	</section>
+	<section id="gitremotebranch_delete">
+		<title>Delete a remote-tracking branch in your local repository</title>
+		<indexterm>
+			<primary>Remote tracking branch</primary>
+			<secondary>delete in local repository
+			</secondary>
+		</indexterm>
+		<para>It is also safe to delete a remote branch in your local Git
+			repository. You can use the following command for that.
+		</para>
+
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/remotebranch/delete.txt" />
+			</programlisting>
+		</para>
+		<para>
+			The next time you run the
+			<code>git fetch</code>
+			command the remote branch is recreated.
+		</para>
+	</section>
+
+	<section id="gitremotebranch_deleteremote">
+		<title>Delete a branch in a remote repository</title>
+		<indexterm>
+			<primary>Remote tracking branch</primary>
+			<secondary>delete in remote repository
+			</secondary>
+		</indexterm>
+		<para>To delete the branch in a remote repository use the following
+			command.
+		</para>
+
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/remotebranch/deleteremotebranch2.txt" />
+			</programlisting>
+		</para>
+		<para>Alternatively you can also use the following command. </para>
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/remotebranch/deleteremotebranch.txt" />
+			</programlisting>
+		</para>
+		<para>
+			For example if you want to delete the branch called
+			<wordasword>testbranch</wordasword>
+			in the remote repository called
+			<wordasword>origin</wordasword>
+			you can use the following command.
+
+		</para>
+
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/remotebranch/deleteremotebranch3.txt" />
+			</programlisting>
+		</para>
+
+		<note>
+			<para>Note you can also specify the remote repository's URL. So the
+				following command also works.
+			</para>
+
+			<para>
+				<programlisting language="bourne">
+					<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+						parse="text" href="./examples/remotebranch/deleteremotebranch4.txt" />
+				</programlisting>
+			</para>
+		</note>
+
+	</section>
+
+	<section id="git_trackingbranches">
+		<title>Tracking branches</title>
+		<indexterm>
+			<primary>Tracking branch</primary>
+		</indexterm>
+		<para>
+			<wordasword>Branches</wordasword>
+			can track another branch. This is called
+			<wordasword>to have an upstream branch</wordasword>
+			and such branches can be referred to as
+			<wordasword>tracking branches</wordasword>
+			.
+		</para>
+
+		<para>
+			<wordasword>Tracking branches</wordasword>
+			allow you to use the
+			<code>git pull</code>
+			and
+			<code>git push</code>
+			command directly without specifying the branch and repository.
+		</para>
+
+
+		<para>
+			If you clone a Git repository, your local
+			<wordasword>master</wordasword>
+			branch
+			is created as a
+			<wordasword>tracking branch</wordasword>
+			for the
+			<wordasword>master</wordasword>
+			branch of the
+			<wordasword>origin</wordasword>
+			repository (short:
+			<wordasword>origin/master</wordasword>
+			)
+			by Git.
+		</para>
+	</section>
+	<section id="git_setting_uptrackingbranches">
+		<title>Setting up tracking branches</title>
+		<para>
+			You create new
+			<wordasword>tracking branches</wordasword>
+			by specifying the
+			<wordasword>remote branch</wordasword>
+			during the creation of a branch. The following example demonstrates
+			that.
+		</para>
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/remotebranch/trackingbranch.txt" />
+			</programlisting>
+		</para>
+
+
+		<para>
+			Instead of using the
+			<code>git checkout</code>
+			command you can also use the
+			<code>git branch</code>
+			command.
+		</para>
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/remotebranch/create.txt" />
+			</programlisting>
+		</para>
+
+		<para>
+			The
+			<code>--no-track</code>
+			allows you to specify that you do not want to track a branch.
+			You can explicitly add a tracking branch with the
+			<code>git branch -u</code>
+			command later.
+		</para>
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/remotebranch/update.txt" />
+			</programlisting>
+		</para>
+
+
+
+
+	</section>
+	<section id="gitremotebranch_seetrackingbranch">
+		<title>See the branch information for a remote repository</title>
+		<para>To see the tracking branches for a remote repository (short:
+			remote) you can use the
+			following command.
+		</para>
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/remotebranch/showtrackingbranches.txt" />
+			</programlisting>
+		</para>
+		<para>An example output of this might look as follows. </para>
+		<para>
+			<programlisting language="text">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/remotebranch/output.txt" />
+			</programlisting>
+		</para>
+	</section>
+
+</section>

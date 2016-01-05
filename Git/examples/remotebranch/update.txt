@@ -1,0 +1,6 @@
+# instruct Git to create a branch which does 
+# not track another branch
+git branch --no-track [new_branch_notrack] origin/master
+
+# update this branch to track the origin/master branch
+git branch -u origin/master [new_branch_notrack] 

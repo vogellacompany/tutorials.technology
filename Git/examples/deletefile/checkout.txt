@@ -1,0 +1,12 @@
+echo "useless data" >> test02
+echo "another unwanted file" >> unwantedfile.txt
+
+# see the status
+git status
+
+# remove unwanted changes from the working tree
+# CAREFUL this deletes the local changes in the tracked file
+git checkout test02
+
+# unwantedstaged.txt is not tracked by Git simply delete it
+rm unwantedfile.txt

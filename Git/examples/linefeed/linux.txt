@@ -1,0 +1,2 @@
+# configure Git on Linux and Mac to properly handle line endings
+git config --global core.autocrlf input

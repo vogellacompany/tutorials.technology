@@ -1,0 +1,8 @@
+# Arch Linux
+sudo pacman -S git
+
+# Gentoo 
+sudo emerge -av git
+
+# SUSE 
+sudo zypper install git

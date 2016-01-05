@@ -1,0 +1,2 @@
+# rebase conflict is fixed, continue with the rebase operation
+git rebase --continue

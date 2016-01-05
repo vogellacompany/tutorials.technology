@@ -1,0 +1,3 @@
+
+# revert a commit
+git revert commit_id

@@ -1,0 +1,102 @@
+<section id="installation" role="wrapper">
+	<title>Installation</title>
+	<section id="installation_ubuntu">
+		<title>Ubuntu, Debian and derived systems</title>
+		<indexterm>
+			<primary>Installation</primary>
+			<secondary>Ubuntu, Debian
+			</secondary>
+		</indexterm>
+		<para>
+			On Ubuntu and similar systems you can install the Git command
+			line tool via the
+			following command:
+		</para>
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/installation/ubuntu.txt" />
+			</programlisting>
+		</para>
+
+	</section>
+	<section id="installation_fedora">
+		<title>Fedora, Red Hat and derived systems</title>
+		<indexterm>
+			<primary>Installation</primary>
+			<secondary>Fedora, Red Hat
+			</secondary>
+		</indexterm>
+		<para>
+			On Fedora, Red Hat and similar systems you can install the Git
+			command
+			line tool via the
+			following command:
+		</para>
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/installation/fedora.txt" />
+			</programlisting>
+		</para>
+	</section>
+	<section id="installation_linux">
+		<title>Other Linux systems</title>
+		<indexterm>
+			<primary>Installation</primary>
+			<secondary>Arch Linux
+			</secondary>
+		</indexterm>
+		<indexterm>
+			<primary>Installation</primary>
+			<secondary>Gentoo
+			</secondary>
+		</indexterm>
+		<indexterm>
+			<primary>Installation</primary>
+			<secondary>SUSE
+			</secondary>
+		</indexterm>
+		<para>To install Git on other Linux distributions please check the
+			documentation of your distribution. The following
+			listing contains
+			the commands for the most popular ones.
+		</para>
+
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/installation/linux.txt" />
+			</programlisting>
+		</para>
+	</section>
+	<section id="installation_windows">
+		<title>Windows</title>
+		<indexterm>
+			<primary>Installation</primary>
+			<secondary>Windows
+			</secondary>
+		</indexterm>
+		<para>
+			A Windows version of Git can be found on the
+			<ulink url="http://git-scm.com/downloads">Git download page</ulink>
+			. This website provides native installers for each operating system. The homepage of the Windows Git project is
+			<ulink url="https://git-for-windows.github.io/">git for window</ulink>
+			.
+		</para>
+	</section>
+
+	<section id="installation_mac">
+		<title>Mac OS</title>
+		<indexterm>
+			<primary>Installation</primary>
+			<secondary>Mac OS</secondary>
+		</indexterm>
+		<para>
+			The easiest way to install Git on a Mac is via the
+			<ulink url="http://git-scm.com/downloads">Git download page</ulink>
+			and to download and run the installer for Mac OS X.
+		</para>
+		<para>
+			Git is also installed by default with the Apple Developer Tools
+			on Mac OS X.
+		</para>
+	</section>
+</section>

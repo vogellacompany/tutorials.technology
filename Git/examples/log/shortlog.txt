@@ -1,0 +1,7 @@
+# gives a summary of the changes by author
+git shortlog
+
+# compressed summary
+# -s summary, provides a commit count summary only
+# -n sorted by number instead of name of the author
+git shortlog -sn

@@ -1,0 +1,11 @@
+# make some changes to the file
+echo "This is a change" > test01
+echo "and this is another change" > test02
+
+# check the changes via the diff command
+git diff
+
+# optional you can also specify a path to filter the displayed changes
+# path can be a file or directory
+git diff [path]
+

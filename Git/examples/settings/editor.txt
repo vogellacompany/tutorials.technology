@@ -1,0 +1,2 @@
+# setup vim as default editor for Git (Linux)
+git config --global core.editor vim

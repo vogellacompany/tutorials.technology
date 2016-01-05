@@ -1,0 +1,3 @@
+# displays the commit history of the repository
+# which contains the commit ID, author, message etc.
+git log

@@ -1,0 +1,20 @@
+
+# create a new branch
+git branch mybranch
+# use this new branch
+git checkout mybranch
+# do some changes
+touch test04
+# commit these to the branch
+git add .
+git commit -a -m "First commit in the branch"
+# switch back to the master (this is always the main branch)
+git checkout master
+# check that you have not test04 file
+ls
+# merge your branch with the master 
+git merge  mybranch
+git add .
+git commit -a -m "Merged branch"
+# delete the branch as it is not needed anymore
+git branch -d  mybranch

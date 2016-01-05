@@ -1,0 +1,6 @@
+# remove the "test03" file
+rm test03
+# add and commit the removal
+git add .
+# if you use Git version < 2.0 use: git add -A .
+git commit -m "Removes the test03 file"

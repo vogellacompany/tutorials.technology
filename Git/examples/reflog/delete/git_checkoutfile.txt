@@ -1,0 +1,10 @@
+# Delete a file
+rm test01
+# Revert the deletion
+git checkout test01
+
+# Change a file
+echo "override" > test01
+# Restore the file
+
+git checkout test01

@@ -1,0 +1,86 @@
+<section id="gitreflog" role="wrapper">
+	<title>Recovering lost commits</title>
+	<section id="detachedheadmode">
+		<title>Detached HEAD</title>
+		<indexterm>
+			<primary>Detached HEAD</primary>
+		</indexterm>
+		<para>
+			If you checkout a commit or a tag, you are in the so-called
+			<wordasword>detached HEAD mode</wordasword>
+			. If you commit changes in this mode, you have no
+			branch
+			which
+			points to
+			this commit. After you checkout a branch you
+			cannot see
+			the commit you
+			did in detached head mode in the
+			<code>git log</code>
+			command.
+		</para>
+		<para>
+			To find such commits you can use the
+			<code>git reflog</code>
+			command.
+		</para>
+	</section>
+	<section id="gitreflog_definition">
+		<title>git reflog</title>
+		<indexterm>
+			<primary>git reflog</primary>
+		</indexterm>
+		<para>
+			Reflog is a mechanism to record the movements of the
+			<wordasword>HEAD</wordasword>
+			and the branches references.
+		</para>
+
+		<para>
+			The Git reflog command gives a history of the complete
+			changes of the
+			<wordasword>HEAD</wordasword>
+			reference.
+		</para>
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/reflog/see.txt" />
+			</programlisting>
+		</para>
+		<para>
+			The
+			<code>git reflog</code>
+			command also list commits which you have removed.
+		</para>
+		<tip>
+			<para>
+				There are multiple reflogs: one per branch and one for HEAD.
+				For
+				branches use the
+				<code>git reflog [branch]</code>
+				command and for
+				HEAD use the
+				<code>git reflog</code>
+				or the
+				<code>git reflog HEAD</code>
+				command.
+			</para>
+		</tip>
+	</section>
+	<section id="gitreflog_example">
+		<title>Example</title>
+		<para>The following example shows how you can use git reflog to
+			reset
+			the current local branch to a commit which isn't reachable from
+			the current branch anymore.
+		</para>
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/reflog/remove.txt" />
+			</programlisting>
+		</para>
+	</section>
+
+</section>

@@ -1,0 +1,209 @@
+<section id="gitbranch" role="wrapper">
+	<title>Commands to working with branches</title>
+	<section id="gitbranch_listbranches">
+		<title>List available branches</title>
+		<indexterm>
+			<primary>git branch</primary>
+		</indexterm>
+		<para>
+			The
+			<code>git branch</code>
+			command lists all
+			local branches. The
+			currently
+			active
+			branch is marked
+			with
+			<code>*</code>
+			.
+		</para>
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/commandline/git_brancheslist.commands" />
+			</programlisting>
+		</para>
+		<para>
+			If you want to see all branches (including remote-tracking
+			branches),
+			use
+			the
+			<parameter>-a</parameter>
+			for the
+			<code>git branch</code>
+			command. See
+			<xref linkend="gitremotebranch_overview" />
+			for information about remote-tracking branches.
+		</para>
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/commandline/git_brancheslist2.commands" />
+			</programlisting>
+		</para>
+		<para>
+			The
+			<parameter>-v</parameter>
+			option lists more information about the branches.
+		</para>
+
+		<para>
+			In order to list branches in a remote repository use the
+			<code>git branch -r</code>
+			command as demonstrated in the following example.
+		</para>
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/commandline/git_brancheslist3.commands" />
+			</programlisting>
+		</para>
+
+	</section>
+
+	<section id="gitbranch_createnewbranch">
+		<title>Create new branch</title>
+		<indexterm>
+			<primary>create new branch</primary>
+		</indexterm>
+		<indexterm>
+			<primary>git branch</primary>
+			<secondary>create new branch
+			</secondary>
+		</indexterm>
+		<para>
+			You can create a new branch via the
+			<code>git branch [newname]</code>
+			command. This command allows to specify the starting
+			point
+			(commit id,
+			tag, remote or local branch). If
+			not specified the
+			commit to which the
+			HEAD reference points
+			is used to create
+			the branch.
+		</para>
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/branch/git_create_branch" />
+			</programlisting>
+		</para>
+
+
+	</section>
+
+	<section id="gitbranch_checkout">
+		<title>Checkout branch</title>
+		<indexterm>
+			<primary>checkout branch</primary>
+		</indexterm>
+		<indexterm>
+			<primary>git checkout</primary>
+		</indexterm>
+		<para>
+			To start working in a branch you have to
+
+			<wordasword>checkout</wordasword>
+			the branch. If you
+			<wordasword>checkout</wordasword>
+			a branch, the HEAD pointer moves to the last commit in this branch
+			and
+			the files in the working tree are set to the state of this commit.
+		</para>
+
+		<para>
+			The following commands demonstrate how you switch to the branch
+			called
+			<wordasword>testing</wordasword>
+			, perform some changes in this branch and switch back to the branch
+			called
+			<wordasword>master</wordasword>
+			.
+		</para>
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/branch/git_checkout" />
+			</programlisting>
+		</para>
+		<para>
+			To create a branch and to switch to it at the same time you can use
+			the
+			<code>git checkout</code>
+			command with the
+			<parameter>-b</parameter>
+			parameter.
+		</para>
+
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/branch/git_createcheckout" />
+			</programlisting>
+		</para>
+
+
+	</section>
+	<section id="git_rename_branch">
+		<title>Rename a branch</title>
+		<indexterm>
+			<primary>rename branch</primary>
+		</indexterm>
+		<para>Renaming a branch can be done with the following command.
+		</para>
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/branch/git_rename_branch" />
+			</programlisting>
+		</para>
+	</section>
+	<section id="gitdeletebrach">
+		<title>Delete a branch</title>
+		<indexterm>
+			<primary>delete local branch</primary>
+		</indexterm>
+		<para>
+			To delete a branch which is not needed anymore, you can use
+			the following command. You may get an error message that there are
+			uncommited changes if you did the previous examples step by step.
+			Use force delete (uppercase <parameter>-D</parameter>) to delete it
+			anyway.
+		</para>
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/branch/git_delete_branch" />
+			</programlisting>
+		</para>
+	</section>
+	<section id="gitpushbranch">
+		<indexterm>
+			<primary>push branch</primary>
+		</indexterm>
+		<title>Push changes of a branch to a remote repository</title>
+		<para>
+			You can push the changes in the current active branch to a
+			remote repository by specifying the target branch. This creates the
+			target branch in the remote repository if it does not yet exist.
+		</para>
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/branch/git_pushbranch.txt" />
+			</programlisting>
+		</para>
+		<para>
+			This way you can decide which branches you want to push to other
+			repositories and which should be local branches. You learn more about
+			branches and remote repositories in
+			<xref linkend="gitremotebranch_overview" />
+			.
+		</para>
+
+
+	</section>
+
+</section>

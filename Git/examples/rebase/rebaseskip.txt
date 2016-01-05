@@ -1,0 +1,2 @@
+# skip commit which creates the conflict
+git rebase --skip

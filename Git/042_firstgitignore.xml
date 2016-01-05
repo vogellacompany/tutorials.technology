@@ -1,0 +1,116 @@
+<section id="adjustgitignore" role="wrapper">
+	<title>Ignoring certain files and directories</title>
+	<section id="usegitignore">
+		<title>Ignore files and directories with the .gitignore file</title>
+
+		<indexterm>
+			<primary>.gitignore</primary>
+		</indexterm>
+		<indexterm>
+			<primary>gitignore file</primary>
+		</indexterm>
+		<para>
+			Git allows you to define pattern for files which should not be
+			tracked by the Git repository.
+			Create the following
+			<filename>.gitignore</filename>
+			file in the root of your Git directory to ignore the specified
+			directory
+			and file.
+		</para>
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/remove/gitignorecreate.txt" />
+			</programlisting>
+		</para>
+
+
+		<tip>The above command creates the file via the command line. A more
+			common approach is to use your favorite text editor to create the
+			file. This editor must save the file as plain text, e.g., gedit under
+			Ubuntu or Notepad under Windows.
+		</tip>
+		<para>The resulting file looks like the following listing.</para>
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/remove/gitignore.txt" />
+			</programlisting>
+		</para>
+	</section>
+	<section id="untrack">
+		<title>Stop tracking files based on the .gitignore file</title>
+		<indexterm>
+			<primary>.gitignore</primary>
+			<secondary>remove already committed files
+			</secondary>
+		</indexterm>
+
+		<para>
+			Files that are tracked by Git are
+			not
+			automatically
+			removed if you add
+			them to a
+			<filename>.gitignore</filename>
+			file. Git never ignores files which are already tracked, so changes
+			in the
+			<filename>.gitignore</filename>
+			file only affect new files.
+
+			If you
+			want to ignore files which are
+			already tracked you need to
+			explicitly remove them.
+		</para>
+		<para>
+			The following
+			command demonstrates how to
+			remove the
+			<filename>.metadata</filename>
+			directory and the
+			<filename>doNotTrackFile.txt</filename>
+			file from being tracked. This is example code, as you did not commit
+			the corresponding files in your example, the command will not work in
+			your Git repository.
+		</para>
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/remove/remove.txt" />
+			</programlisting>
+		</para>
+		<para>
+			Adding a file to the
+			<filename>.gitignore</filename>
+			file does not remove the file from the repository history. If the
+			file
+			should also be removed from the history, have a look at
+			<code>git
+				filter-branch
+			</code>
+			which allows you to rewrite the commit history. See
+			<xref linkend="filterbranch_definition" />
+			for details.
+		</para>
+	</section>
+
+	<section id="commitgitignore">
+		<title>Commit the .gitignore file</title>
+		<para>
+			It is good practice to commit the
+			<filename>.gitignore</filename>
+			file into the Git repository. Use the following
+			commands for this.
+		</para>
+
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/remove/gitignoreaddtorepo.txt" />
+			</programlisting>
+		</para>
+	</section>
+
+</section>

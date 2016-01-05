@@ -1,0 +1,9 @@
+# switch to the second directory
+cd ~/repo02
+# make changes
+touch mergeconflict.txt
+echo "Change in the second repository" > mergeconflict.txt
+# stage and commit
+git add . && git commit -a -m "Will create conflict 2"
+# push to the master repository
+git push

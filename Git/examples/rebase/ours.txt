@@ -1,0 +1,2 @@
+git checkout --ours foo/bar.java
+git add foo/bar.java

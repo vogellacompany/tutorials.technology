@@ -1,0 +1,7 @@
+# create tag
+git tag 1.6.1 -m 'Release 1.6.1'
+
+# show the tag
+git show 1.6.1
+
+

@@ -1,0 +1,2 @@
+# lists all branches including the remote branches
+git branch -a

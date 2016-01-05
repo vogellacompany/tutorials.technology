@@ -1,0 +1,100 @@
+<section id="retrievefiles" role="wrapper">
+	<title>Retrieving files from the history</title>
+
+	<section id="retrievefiles_show">
+		<title>View file in different revision</title>
+		<indexterm>
+			<primary>git show</primary>
+		</indexterm>
+		<para>
+			The
+			<code>git show</code>
+			command allows to see and retrieve files from branches, commits and
+			tags.
+			It allows seeing the status of these files in the selected
+			branch, commit or tag without
+			checking them out into your working
+			tree.
+		</para>
+		<para>
+			By default, this command addresses a file from the root of the
+			repository, not the current
+			directory. If you want the current
+			directory then
+			you have to use the ./ specifier. For example to
+			address the
+			<filename>pom.xml</filename>
+			file the current directory use:
+			<filename>./pom.xml</filename>
+
+		</para>
+		<para>The following commands demonstrate that. You can
+			also make a copy
+			of the file.
+
+		</para>
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/show/showrev.txt" />
+			</programlisting>
+		</para>
+
+	</section>
+	<section id="retrievefiles_fromcommit">
+		<title>Restore a deleted file in a Git repo</title>
+		<para>
+			You can checkout a file from the commit. To find the commit
+			which
+			deleted the file you can use the
+			<code>git log</code>
+			or the
+			<code>git ref-list</code>
+			command as demonstrated by the following command.
+		</para>
+
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/restore/restoredeletedfile.txt" />
+			</programlisting>
+		</para>
+	</section>
+
+
+
+	<section id="retrievefiles_finddeletedfile">
+		<title>See which commit deleted a file</title>
+		<indexterm>
+			<primary>Find commit which deleted a file</primary>
+		</indexterm>
+		<indexterm>
+			<primary>File deletion log</primary>
+		</indexterm>
+		<indexterm>
+			<primary>git log</primary>
+			<secondary>file deletion|
+			</secondary>
+		</indexterm>
+		<para>
+			The
+			<code>git log</code>
+			command allows you to determine which commit deleted a file. You can
+			use
+			the
+			<parameter>--</parameter>
+			option in
+			<code>git log</code>
+			to see the commit history for a file, even if you have deleted the
+			file.
+		</para>
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/show/delete.txt" />
+			</programlisting>
+		</para>
+
+	</section>
+
+</section>

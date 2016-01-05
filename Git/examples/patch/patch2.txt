@@ -1,0 +1,5 @@
+# creates a patch --> git format-patch master
+git format-patch origin/master
+
+# this creates the file:
+# patch 0001-First-commit-in-the-branch.patch

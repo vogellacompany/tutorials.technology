@@ -1,0 +1,9 @@
+# git blame shows the author and commit per 
+# line of a file
+git blame [filename]
+
+# the -L option allows limiting the selection
+# for example by line number
+
+# only show line 1 and 2 in git blame
+git blame -L 1,2 [filename]

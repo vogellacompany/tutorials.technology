@@ -1,0 +1,16 @@
+# syntax: git branch <name> <hash>
+# <hash> in the above is optional
+git branch testing
+
+# switch to your new branch
+git checkout testing
+
+# some changes
+echo "Cool new feature in this branch" > test01
+git commit -a -m "new feature"
+
+# switch to the master branch
+git checkout master
+
+# check that the content of test01 is the old one
+cat test01

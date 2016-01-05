@@ -1,0 +1,6 @@
+# merge changes preferring our version
+git merge -s recursive -X ours [branch_to_merge]
+
+# merge changes preferring the version from 
+# the branch to merge
+git merge -s recursive -X theirs [branch_to_merge]

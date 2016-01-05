@@ -1,0 +1,3 @@
+# merge the branch1 and the branch2 using 
+# changes in the branch
+git merge branch1 branch2</code>

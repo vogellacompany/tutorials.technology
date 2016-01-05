@@ -1,0 +1,3 @@
+# add all files to the index of the Git repository
+git add .
+

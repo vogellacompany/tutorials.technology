@@ -1,0 +1,17 @@
+* remote origin
+  Fetch URL: ssh://test@git.eclipse.org/gitroot/e4/org.eclipse.e4.tools.git
+  Push  URL: ssh://test@git.eclipse.org/gitroot/e4/org.eclipse.e4.tools.git
+  HEAD branch: master
+  Remote branches:
+    integration                tracked
+    interm_rc2                 tracked
+    master                     tracked
+    smcela/HandlerAddonUpdates tracked
+  Local branches configured for 'git pull':
+    integration rebases onto remote integration
+    master      rebases onto remote master
+    testing     rebases onto remote master
+  Local refs configured for 'git push':
+    integration pushes to integration (up to date)
+    master      pushes to master      (up to date)
+

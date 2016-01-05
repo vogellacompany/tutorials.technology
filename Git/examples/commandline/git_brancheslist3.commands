@@ -1,0 +1,2 @@
+# lists branches in the remote repositories 
+git branch -r

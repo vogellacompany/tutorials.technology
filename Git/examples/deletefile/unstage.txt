@@ -1,0 +1,5 @@
+# remove test02 from the staging area
+git reset test02
+
+# remove unwantedstaged.txt from the staging area
+git reset unwantedstaged.txt

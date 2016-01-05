@@ -1,0 +1,5 @@
+# shows the differences in your
+# branch based on the common
+# ancestor for both branches
+
+git diff master...your_branch

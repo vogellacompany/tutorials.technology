@@ -1,0 +1,219 @@
+<section id="undochanges" role="wrapper">
+	<title>Revert uncommitted changes in tracked files</title>
+	<section id="undochanges_usecase">
+		<title>Use cases</title>
+		<para>If you have a tracked file in Git, you can always recreate the
+			file content based on the staging area or based on a previous commit.
+			You
+			can
+			also
+			remove staged changes from the staging area to avoid that
+			these changes are included in the next commit. This
+			chapter explain
+			you how you can do this.
+		</para>
+
+	</section>
+
+	<section id="undochanges_reset">
+		<title>Remove staged changes from the staging area</title>
+		<indexterm>
+			<primary>Staging area</primary>
+			<secondary>remove staged changes
+			</secondary>
+		</indexterm>
+
+		<indexterm>
+			<primary>Remove staged changes from the staging area</primary>
+		</indexterm>
+
+
+		<para>
+			You can use the
+			<code>git reset [paths]</code>
+			command to remove staged changes from the staging area.
+			This means
+			that
+			<code>git reset [paths]</code>
+			is the opposite of
+			<code>git add [paths]</code>
+			. It
+			avoids that the changes are included
+			in
+			the next
+			commit. The changes
+			are still available in the working tree, e.g., you will not lose
+			your changes and can stage and commit them at a later point.
+		</para>
+		<para>In the following example you create a new file and change an
+			existing file. Both changes are staged.
+		</para>
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/deletefile/stageunwantedchanges.txt" />
+			</programlisting>
+		</para>
+		<para>
+			The output of
+			<code>git status</code>
+			command should look similar to the following.
+		</para>
+
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/deletefile/stageunwantedchanges_result.txt" />
+			</programlisting>
+		</para>
+
+
+		<para>Remove the changes from the staging area with the following
+			command.
+		</para>
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/deletefile/unstage.txt" />
+			</programlisting>
+		</para>
+		<para>
+			Use the
+			<code>git status</code>
+			command to see the result.
+		</para>
+
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/deletefile/unstage_result.txt" />
+			</programlisting>
+		</para>
+
+		<para>
+			The
+			<code>git reset</code>
+			behaves differently depending on the options you provide. To learn
+			more about the
+			<code>git reset</code>
+			command see
+			<xref linkend="resetcommitsdef" />
+			.
+		</para>
+
+	</section>
+
+
+
+	<section id="undochanges_checkout">
+		<title>Remove changes in the working tree</title>
+		<indexterm>
+			<primary>git checkout</primary>
+		</indexterm>
+		<indexterm>
+			<primary>Checkout version from staging area</primary>
+		</indexterm>
+
+		<indexterm>
+			<primary>Undo changes in the working tree</primary>
+		</indexterm>
+
+		<warning>
+			<para>
+				Be careful with the following command. It allows you to
+				override the changes in files in your working tree.
+				You will
+				not be
+				able to
+				restore
+				these changes.
+			</para>
+		</warning>
+
+		<para>
+			Changes in the working tree which are not staged can be undone with
+			<code>git checkout</code>
+			command. This command resets the file in the working tree to the
+			latest
+			staged version. If there are no staged changes, the latest
+			committed version is used for the restore operation.
+		</para>
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/delete/git_checkoutfile.txt" />
+			</programlisting>
+		</para>
+		<para>
+			For example, you can restore the content of a directory called
+			<filename>data</filename>
+			with the following command.
+		</para>
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/delete/restoredir_notstaged.txt" />
+			</programlisting>
+		</para>
+
+	</section>
+
+	<section id="undochanges_directorydeletion">
+		<title>Remove changes in the working tree and the staging area</title>
+		<indexterm>
+			<primary>git checkout</primary>
+			<secondary>undo staged changes
+			</secondary>
+		</indexterm>
+
+		<indexterm>
+			<primary>Undo staged changes</primary>
+		</indexterm>
+		<para>
+			If you want to undo a staged but uncommitted change, you
+			use
+			the
+			<code>git checkout [commit-pointer] [paths]</code>
+			command. This version of the command resets the working tree and the
+			staged area.
+		</para>
+		<para>The following demonstrates the usage of this to restore a delete
+			directory.
+		</para>
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/delete/restoredir.txt" />
+			</programlisting>
+		</para>
+		<para>
+			The additional
+			commit pointer
+			parameter instructs the
+			<code>git checkout</code>
+			command to reset the working tree and to also remove the staged
+			changes.
+		</para>
+
+	</section>
+
+
+	<section id="undochanges_indexexisting">
+		<title>Remove staging area based on last commit change</title>
+		<para>
+			When you have added the changes of a file to the staging area,
+			you
+			can
+			also revert the changes in the staging area base on the last commit. 
+		</para>
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/commandline/git_revert" />
+			</programlisting>
+		</para>
+
+	</section>
+
+
+</section>

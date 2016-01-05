@@ -1,0 +1,3 @@
+# removes staged and working tree changes
+# of committed files
+git reset --hard 

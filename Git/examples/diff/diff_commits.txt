@@ -1,0 +1,5 @@
+# directly between two commits
+git diff HEAD~1 HEAD
+
+# using commit ranges
+git diff  HEAD~1..HEAD

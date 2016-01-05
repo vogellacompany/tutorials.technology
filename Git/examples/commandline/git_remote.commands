@@ -1,0 +1,11 @@
+# switch to the first repository
+cd ~/repo01
+
+# create a new bare repository by cloning the first one
+git clone --bare . ../remote-repository.git
+
+# check the content of the git repo, it is similar
+# to the .git directory in repo01
+# files might be packed in the bare repository
+
+ls ~/remote-repository.git

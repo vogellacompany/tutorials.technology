@@ -1,0 +1,3 @@
+# setup a tracking branch called newbrach
+# which tracks origin/newbranch
+git checkout -b newbranch origin/newbranch

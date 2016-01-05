@@ -1,0 +1,8 @@
+# checkout the older revision via 
+git checkout [commit_id]
+
+# based on the example output this could be
+git checkout 046474a52e0ba1f1435ad285eae0d8ef19d529bf
+
+# or you can use the abbreviated version
+git checkout 046474a5

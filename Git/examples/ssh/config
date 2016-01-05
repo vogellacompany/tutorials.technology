@@ -1,0 +1,7 @@
+Host *.eclipse.org
+  IdentityFile ~/.ssh/eclipse.org
+
+Host *.github.com
+  IdentityFile ~/.ssh/github.com
+
+  

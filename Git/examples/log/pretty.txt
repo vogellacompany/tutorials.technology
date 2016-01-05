@@ -1,0 +1,3 @@
+# command must be issued in one line, do not enter the line break
+git log --pretty=format:'%Cred%h%Creset %d%Creset %s %Cgreen(%cr)
+ %C(bold blue)<%an>%Creset' --abbrev-commit

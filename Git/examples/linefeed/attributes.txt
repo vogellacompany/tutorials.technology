@@ -1,0 +1,9 @@
+# set the default behavior, in case people don't have core.autocrlf set.
+# in case you always want to use Linux line endings use * text eol=lf
+* in case you always want to use Windows line endings use * text eol=crlf
+* text=auto
+
+
+# denote all files that are truly binary and should never get converted
+*.png binary
+*.jpg binary

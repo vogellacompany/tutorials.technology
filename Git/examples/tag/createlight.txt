@@ -1,0 +1,5 @@
+# create lightweight tag
+git tag 1.7.1
+
+# see the tag
+git show 1.7.1

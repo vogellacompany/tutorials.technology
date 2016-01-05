@@ -1,0 +1,2 @@
+# squashes the last two commits
+git reset --soft HEAD~1 && git commit -m "new commit message"

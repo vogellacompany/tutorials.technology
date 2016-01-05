@@ -1,0 +1,8 @@
+# push a tag or branch called tagname
+git push origin [tagname]
+
+# to explicitly push a tag and not a branch 
+git push origin tag <tagname>
+
+# push all tags
+git push --tags

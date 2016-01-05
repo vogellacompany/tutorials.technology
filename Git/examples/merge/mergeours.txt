@@ -1,0 +1,3 @@
+# merge branch "obsolete" ignoring all 
+# changes in the branch
+git merge -s ours obsolete

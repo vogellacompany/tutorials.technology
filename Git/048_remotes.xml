@@ -1,0 +1,168 @@
+<section id="remotes" role="wrapper">
+	<title>Remote repositories</title>
+	<section id="remotes_definition">
+		<title>What are remotes?</title>
+		<indexterm>
+			<primary>Repository</primary>
+			<secondary>remote
+			</secondary>
+		</indexterm>
+		<para>
+			<wordasword>Remotes</wordasword>
+			are URLs in a Git repository to other
+			remote repositories
+			that are
+			hosted
+			on the
+			Internet, locally or on the
+			network.
+		</para>
+		<para>
+			Such
+			remotes
+			can be used to
+			synchronize the
+			changes of
+			several Git
+			repositories. A
+			local Git
+			repository can be
+			connected to
+			multiple
+			remote
+			repositories and
+			you
+			can synchronize your
+			local
+			repository with
+			them via
+			Git operations.
+		</para>
+		<note>
+			<para>
+				Think of
+				<wordasword>remotes</wordasword>
+				as shorter bookmarks for repositories. You can always connect to a
+				remote repository if you know its
+				URL and
+				if you have access to it.
+				Without
+				<wordasword>remotes</wordasword>
+				the
+				user would
+				have to
+				type the URL for
+				each and
+				every command which
+				communicates
+				with another
+				repository.
+			</para>
+		</note>
+
+		<para>It is possible that users connect their individual
+			repositories
+			directly, but a typically Git workflow involves one or more
+			remote
+			repositories which are used to synchronize the individual
+			repository.
+			Typically the remote repository which is used for synchronization
+			is
+			located on a server which is always available.
+		</para>
+		<para>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="images/git_remoterepo10.png"/>
+				</imageobject>
+				<textobject>
+					<phrase>Remote Git repositories</phrase>
+				</textobject>
+			</mediaobject>
+		</para>
+		<tip>
+			<para>
+				A remote repository can also be hosted in the
+				local file system.
+			</para>
+		</tip>
+
+	</section>
+	<section id="bareremotes_definition">
+		<title>Bare repositories</title>
+		<indexterm>
+			<primary>Repository</primary>
+			<secondary>bare
+			</secondary>
+		</indexterm>
+		<indexterm>
+			<primary>Repository</primary>
+			<secondary>create bare repository
+			</secondary>
+		</indexterm>
+		<para>
+			A remote repository on a server typically does not require a
+			<wordasword>working tree</wordasword>
+			. A Git repository without a
+			<wordasword>working tree</wordasword>
+			is called a
+			<wordasword>bare repository</wordasword>
+			. You can create such a repository with the
+			<parameter>--bare</parameter>
+			option. The command to create a new empty bare remote repository is
+			displayed below.
+		</para>
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/create/gitinitbare.txt" />
+			</programlisting>
+		</para>
+
+		<para>
+			By convention the name of a bare repository should end with the
+			<filename>.git</filename>
+			extension.
+		</para>
+
+		<para>To create a bare Git repository in the Internet you would, for
+			example,
+			connect to your server via the SSH protocol or you use
+			some
+			Git
+			hosting platform, e.g., GitHub.com.
+		</para>
+
+	</section>
+	<section id="bareremotes_convert">
+		<title>Convert a Git repository to a bare repository</title>
+
+		<para>
+			Converting a normal Git repository to a bare repository is not
+			directly
+			support by Git.
+		</para>
+
+		<para>
+			You can convert it manually by
+			moving
+			the content of the
+			<filename>.git</filename>
+			folder into the root of the repository and by removing all others
+			files
+			from the working tree. Afterwards you need to update the
+			Git
+			repository configuration with the
+			<code>git config core.bare true</code>
+			command.
+		</para>
+		<para>
+			As this is officially not supported, you should prefer
+			cloning a
+			repository with the
+			<parameter>--bare</parameter>
+			option.
+		</para>
+	</section>
+
+</section>

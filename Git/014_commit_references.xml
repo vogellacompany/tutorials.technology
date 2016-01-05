@@ -1,0 +1,293 @@
+<section id="commitreference" role="wrapper">
+	<title>Commit references</title>
+	<section id="commitreference_whatis">
+		<title>Predecessor commits, parents and commit references</title>
+		<indexterm>
+			<primary>Commit references</primary>
+		</indexterm>
+		<indexterm>
+			<primary>Simple reference</primary>
+		</indexterm>
+		<indexterm>
+			<primary>Simple ref</primary>
+			<see>Simple reference</see>
+		</indexterm>
+		<indexterm>
+			<primary>Symbolic reference</primary>
+		</indexterm>
+		<indexterm>
+			<primary>Symbolic ref</primary>
+			<see>Symbolic reference</see>
+		</indexterm>
+
+
+		<para>
+			Each commit has zero or more direct predecessor commits. The
+			first commit
+			has zero
+			parents, merge commits have two or
+			more
+			parents,
+			most
+			commits have one parent.
+		</para>
+
+		<para>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="images/commitreference10.png"/>
+				</imageobject>
+				<textobject>
+					<phrase>Commit reference overview</phrase>
+				</textobject>
+			</mediaobject>
+		</para>
+
+		<para>In Git you typically need to address certain commits. For
+			example you
+			want to tell Git to show you all changes which were done
+			in the last
+			three commits. Or you want to see the differences
+			introduced between two different branches.
+		</para>
+		<para>
+			Git allows addressing commits via
+			<wordasword>commit reference</wordasword>
+			for this purpose.
+		</para>
+		<para>
+			A commit reference can be a
+			<wordasword>simple reference</wordasword>
+			(simple ref), in
+			this case it
+			points directly to a commit. This is the
+			case for a
+			commit hash or a
+			tag. A commit reference can also be
+			<wordasword>symbolic reference</wordasword>
+			(symbolic ref, symref). In this case it points to
+			another reference
+			(either simple or symbolic). For example HEAD is a symbolic ref for a
+			branch, if it points to a branch. HEAD points to the branch
+			pointer and the branch pointer points to a commit.
+		</para>
+		<para></para>
+	</section>
+	<section id="commitreference_branchheadreferences">
+		<title>Branch references and the HEAD reference</title>
+		<indexterm>
+			<primary>Commit references
+			</primary>
+			<secondary>Branch
+			</secondary>
+		</indexterm>
+		<indexterm>
+			<primary>Commit references
+			</primary>
+			<secondary>HEAD
+			</secondary>
+		</indexterm>
+		<para>A branch points to a specific commit. You can use the branch
+			name as reference to the corresponding commit. You can also use HEAD
+			to reference the corresponding commit.
+		</para>
+	</section>
+
+	<section id="commitreference_parentancestor">
+		<title>Parent and ancestor commits</title>
+		<para>
+			You can use ^ (caret) and ~ (tilde) to reference predecessor
+			commit
+			objects
+			from other references. You can also combine the ^
+			and ~
+			operators. See
+			<xref linkend="commitreference_carettilde" />
+			for their usage.
+		</para>
+
+		<para>
+			The Git terminology is
+			<wordasword>parent</wordasword>
+			for ^ and
+			<wordasword>ancestor</wordasword>
+			for ~.
+		</para>
+	</section>
+	<section id="commitreference_carettilde">
+		<title>Using caret and tilde for commit references</title>
+		<indexterm>
+			<primary>caret and tilde for predecessor commit references</primary>
+		</indexterm>
+
+		<para>
+			[reference]~1 describes the
+			first
+			predecessor of the commit object
+			accessed via [reference].
+			[reference]~2
+			is
+			the first predecessor of the
+			first
+			predecessor of the
+			[reference]
+			commit.
+			[reference]~3
+			is
+			the first
+			predecessor
+			of the first
+			predecessor of the first
+			predecessor of the
+			[reference]
+			commit,
+			etc.
+		</para>
+		<para>
+			[reference]~ is an abbreviation for
+			[reference]~1.
+		</para>
+		<para>
+			For
+			example, you can use the
+			<wordasword>HEAD~1</wordasword>
+			or
+			<wordasword>HEAD~</wordasword>
+			reference to access the first parent of the commit to which the
+			<wordasword>HEAD</wordasword>
+			pointer currently points.
+		</para>
+		<para>
+			[reference]^1 also
+			describes the
+			first
+			predecessor
+			of the commit
+			object
+			accessed via
+			[reference].
+		</para>
+		<para>For example HEAD^^^ is the same as HEAD~~~ and is the same as
+            HEAD~3.
+		</para>
+		<para>The
+			difference is that
+			[reference]^2
+			describes the
+			second
+			parent
+			of a commit. A merge commit typically has two
+			predecessors. HEAD^3 means ‘the third parent of a merge’ and in most cases
+			this won’t exist (merges are generally between two commits, though
+			more is possible).
+		</para>
+
+		<para>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="images/commitreference20.png"/>
+				</imageobject>
+				<textobject>
+					<phrase>Commit reference pointer example</phrase>
+				</textobject>
+			</mediaobject>
+		</para>
+		<para>[reference]^ is an
+			abbreviation for [reference]^1.
+		</para>
+
+	</section>
+	<section id="commitreference_ranges_doubledot">
+		<title>Commit ranges with the double dot operator</title>
+		<indexterm>
+			<primary>Commit ranges</primary>
+			<secondary>double dot operator</secondary>
+		</indexterm>
+		<indexterm>
+			<primary>Commit ranges</primary>
+		</indexterm>
+		<para>
+			You can also specify ranges of commits. This is useful for
+			certain Git commands, for example, for seeing the changes between a
+			series of commits.
+		</para>
+		<para>
+			The double dot operator allows you to select all
+			commits which
+			are reachable from a commit c2 but not from commit c1.
+			The syntax for
+			this is "c1..c2". A commit A is reachable from another commit B if A
+			is a direct or indirect parent
+			of B.
+		</para>
+
+		<tip>
+			<para>
+				Think of c1..c2 as
+				<wordasword>all commits as of c1 (not including c1) until commit c2.
+				</wordasword>
+			</para>
+		</tip>
+
+		<para>
+			For example, you can ask Git to show all commits which happened
+			between HEAD and HEAD~4.
+		</para>
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/ranges/logranges1" />
+			</programlisting>
+		</para>
+		<para>This also works for branches. To list all commits which are in
+			the "master" branch but not in the "testing" branch, use the
+			following
+			command.
+		</para>
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/ranges/logranges2" />
+			</programlisting>
+		</para>
+
+		<para>
+			You can also list all commits which are in the "testing"
+			but not
+			in the "master" branch.
+		</para>
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/ranges/logranges3" />
+			</programlisting>
+		</para>
+
+
+	</section>
+	<section id="commitreference_ranges_tripledot">
+		<title>Commit ranges with the triple dot operator</title>
+		<indexterm>
+			<primary>Commit ranges</primary>
+			<secondary>triple dot operator
+			</secondary>
+		</indexterm>
+		<para>The triple dot operator allows you to select all commits
+			which
+			are reachable either from commit
+			c1 or commit c2 but not from both of
+			them.
+		</para>
+		<para>This is useful to show all commits in two branches which have
+			not yet been combined.
+		</para>
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/ranges/logranges4" />
+			</programlisting>
+		</para>
+	</section>
+
+</section>
+	

@@ -1,0 +1,5 @@
+# append a string to the test03 file
+echo "foo2" >> test03 
+
+# see the result
+git status

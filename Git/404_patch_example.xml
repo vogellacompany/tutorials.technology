@@ -1,0 +1,84 @@
+<section id="gitpatch_create" role="wrapper">
+	<title>Example: Creating patches</title>
+	<section id="gitpatch_createandapply">
+		<title>Create and apply patches</title>
+		<indexterm>
+			<primary>Create patch</primary>
+		</indexterm>
+		<indexterm>
+			<primary>git format-patch</primary>
+		</indexterm>
+		<para>
+			The following example
+			creates a branch, changes several files and
+			creates a commit recording these changes.
+		</para>
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/patch/patch1.txt" />
+			</programlisting>
+		</para>
+		<para>The next example creates a patch for these changes. </para>
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/patch/patch2.txt" />
+			</programlisting>
+		</para>
+
+		<para>
+			To apply this patch to your master branch in a different clone of the
+			repository, switch to it and use the
+			<code>git apply</code>
+			command.
+		</para>
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/patch/patch3.txt" />
+			</programlisting>
+		</para>
+
+		<para>Afterwards you can commit the changes introduced by the patches
+			and delete the patch file.
+		</para>
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/patch/patch4.txt" />
+			</programlisting>
+		</para>
+
+		<tip>
+			<para>
+				Use the
+				<code>git am</code>
+				command to apply and commit the changes in a single step. To apply
+				and commit all patch files in the directory use, for example, the
+				<code>git am *.patch</code>
+				command. You specify the order in which the patches are applied by
+				specifying them on the command
+				line.
+			</para>
+		</tip>
+
+	</section>
+	<section id="gitpatch_createforcommit">
+		<title>Create a patch for a selected commit</title>
+		<para>
+			You can specify the commit ID and the number of patches
+			which should be created. For example, to create a patch for selected
+			commits based on the HEAD
+			pointer you can use the following commands.
+		</para>
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/patch/patch5.txt" />
+			</programlisting>
+		</para>
+
+	</section>
+
+</section>

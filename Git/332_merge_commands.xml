@@ -1,0 +1,163 @@
+<section id="gitmergecommand_branches" role="wrapper">
+	<title>Commands to merge two branches</title>
+	<section id="gitmergecommand_branches">
+		<title>The git merge command</title>
+		<para>
+			The
+			<code>git merge</code>
+			command
+			performs a merge.
+			You can merge changes
+			from
+			one
+			branch to the
+			current
+			active one
+			via
+			the
+			following command.
+		</para>
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/commandline/git_merge" />
+			</programlisting>
+		</para>
+	</section>
+	<section id="gitmerge_mergeoptionsstrategies">
+		<title>Specifying merge strategies</title>
+		<para>
+			The
+			<parameter>-s</parameter>
+			parameter allows you to specify other merge strategies.
+			This
+			is
+			demonstrated with the following command.
+		</para>
+		<para>
+			For example,
+			you can specify the
+			<wordasword>ours</wordasword>
+			strategy in which the result of the merge is always that of the
+			current branch head, effectively ignoring all changes from all other
+			branches. This is demonstrated with the following command.
+		</para>
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/merge/mergeours.txt" />
+			</programlisting>
+		</para>
+		<warning>
+			<para>
+				Be careful if you use the
+				<wordasword>ours</wordasword>
+				merge strategy, it ignores
+				everything from the branch which is
+				merged.
+			</para>
+		</warning>
+		<para>The usage of the octopus merge strategy is triggered if you
+			specify more than one reference to merge.
+		</para>
+
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/merge/mergeoctupus.txt" />
+			</programlisting>
+		</para>
+
+	</section>
+
+	<section id="gitmerge_mergeoptions">
+		<title>Specifying parameters for the default merge strategy</title>
+		<para>
+			The recursive merge strategy (default) allows you to specify
+			flags
+			with the
+			<parameter>-X</parameter>
+			parameter. For example you can specify here the
+			<parameter>ours</parameter>
+			option. This option forces conflicting changes to be auto-resolved
+			by favoring the local version. Changes from the other branch
+			that do
+			not conflict with our local version are reflected to the
+			merge
+			result. For a
+			binary file, the entire contents are taken from
+			the
+			local
+			version.
+		</para>
+		<warning>
+			<para>
+				The
+				<parameter>ours</parameter>
+				option for the
+				<wordasword>recursive</wordasword>
+				merge strategy should not be confused with
+				the
+				<wordasword>ours</wordasword>
+				merge strategy.
+			</para>
+		</warning>
+
+		<para>
+			A
+			similar option to
+			<parameter>ours</parameter>
+			is the
+			<parameter>theirs</parameter>
+			option. This option prefers the version from the branch which is
+			merged.
+		</para>
+		<para>Both options are demonstrated in the following example code.
+		</para>
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/merge/mergeours2.txt" />
+			</programlisting>
+		</para>
+
+		<para>
+			Another useful option is the
+			<parameter>ignore-space-change</parameter>
+			parameter which ignores whitespace changes.
+		</para>
+		<para>
+			For more information about the merge strategies and options see
+			<ulink
+				url="https://www.kernel.org/pub/software/scm/git/docs/git-merge.html">Git merge manpage</ulink>
+			.
+		</para>
+	</section>
+	<section id="gitmerge_forcemergecommit">
+		<title>Enforcing the creation of a merge commit</title>
+		<para>
+			If you prefer to have merge commits even for situations in which Git
+			could perform a fast-forward
+			merge you can use the
+			<code>git merge --no-ff</code>
+			command.
+		</para>
+		<para>
+			The
+			<parameter>--no-ff</parameter>
+			parameter can make sense if you want to record in the history at
+			which time you merged from a maintenance branch to the master branch.
+		</para>
+		<para>
+			When pulling from a
+			remote
+			repository, prefer doing a rebase to a
+			merge. This will help to
+			keep the history easier to read. A merge commit can be helpful to
+			document that functionality was developed in parallel.
+		</para>
+	</section>
+
+
+</section>
+

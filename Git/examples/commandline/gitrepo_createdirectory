@@ -1,0 +1,9 @@
+# switch to home
+cd
+
+# create a directory and switch into it
+mkdir repo01
+cd repo01
+
+# create a new directory
+mkdir datafiles

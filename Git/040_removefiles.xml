@@ -1,0 +1,147 @@
+<section id="adjustgit" role="wrapper">
+	<title>Remove files and adjust the last commit</title>
+
+
+	<section id="firstgit_deletefile">
+		<title>Remove files</title>
+		<indexterm>
+			<primary>Repository</primary>
+			<secondary>remove files
+			</secondary>
+		</indexterm>
+		<para>
+			If you delete a file you use the
+			<code>git add .</code>
+			command to add the deletion of a file to the staging area. This is
+			supported as of Git version 2.0.
+		</para>
+
+
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/deletefile/del2.txt" />
+			</programlisting>
+		</para>
+		<para>
+			Alternatively you can use the
+			<code>git rm</code>
+			command to delete the file from your working tree and record the
+			deletion of the file in the staging area.
+		</para>
+	</section>
+
+	<section id="firstgit_checkout">
+		<title>Revert changes in files in the working tree</title>
+		<indexterm>
+			<primary>Remove changes in the working tree</primary>
+		</indexterm>
+		<indexterm>
+			<primary>Undo changes in the working tree</primary>
+		</indexterm>
+		<para>
+			Use the
+			<code>git checkout</code>
+			command to reset a tracked file (a file that was once staged or
+			committed) to its latest
+			staged or commit state. The command removes
+			the changes of the file in the working tree. This command cannot
+			be
+			applied to files which
+			are not yet staged or committed.
+		</para>
+
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/deletefile/checkout.txt" />
+			</programlisting>
+		</para>
+
+		<para>
+			If you use
+			<code>git status</code>
+			command to see that there are no changes left in the working
+			directory.
+		</para>
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/deletefile/checkout_result.txt" />
+			</programlisting>
+		</para>
+		<warning>
+			<para>
+				Use this command carefully. The
+				<code>git checkout</code>
+				command deletes the unstaged and uncommitted changes of tracked
+				files in the working
+				tree and it is not
+				possible
+				to restore this
+				deletion via Git.
+			</para>
+		</warning>
+	</section>
+
+	<section id="firstgit_amend">
+		<title>Correct the last commit with git amend</title>
+		<indexterm>
+			<primary>git amend</primary>
+		</indexterm>
+		<indexterm>
+			<primary>change last commit</primary>
+		</indexterm>
+		<para>
+			The
+			<code>git commit --amend</code>
+			command makes it possible to replace the last
+			commit. This allows you
+			to change the last commit including the
+			commit message.
+		</para>
+		<note>
+			<para>
+				The amended commit is still available until a clean-up job removes
+				it.
+				See
+				<xref linkend="gitreflog_definition" />
+				for details.
+			</para>
+		</note>
+		<para>
+			Assume the last commit message was incorrect as it
+			contained
+			a typo.
+			The
+			following command corrects this via the
+			<code>--amend</code>
+			parameter.
+		</para>
+
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/amend/git_typo.txt" />
+			</programlisting>
+		</para>
+
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/amend/git_amend" />
+			</programlisting>
+		</para>
+		<para>
+			You should use the
+			<code>git --amend</code>
+			command only for commits which have not been pushed to a public
+			branch of another Git repository. The
+			<code>git --amend</code>
+			command creates a new commit ID and people may have based their work
+			already on the existing commit. In this case they would need to
+			migrate their work based on the new commit.
+		</para>
+
+	</section>
+</section>

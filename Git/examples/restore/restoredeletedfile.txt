@@ -1,0 +1,12 @@
+# see history of file
+git log -- <file_path>
+
+# checkout file based on predecessors the last commit which affect it
+# this was the commit which delete the file
+git checkout [commit] ^ -- <file_path>
+
+# alternatively use git rev-list
+git rev-list -n 1 HEAD -- <file_path>
+
+# afterwards, the same checkout based on the predecessors 
+git checkout [commit] ^ -- <file_path>

@@ -1,0 +1,5 @@
+# switch to the master branch
+git checkout master
+
+# apply the patch
+git apply 0001-First-commit-in-the-branch.patch

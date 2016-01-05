@@ -1,0 +1,7 @@
+# patch is applied to master
+# change can be committed
+git add .
+git commit -m "apply patch"
+
+# delete the patch file
+rm 0001-First-commit-in-the-branch.patch

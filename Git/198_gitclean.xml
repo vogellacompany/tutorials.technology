@@ -1,0 +1,44 @@
+<section id="gitclean" role="wrapper">
+	<title>Remove untracked files with git clean</title>
+	<section id="gitclean_command">
+		<title>Removing untracked files</title>
+		<indexterm>
+			<primary>git clean</primary>
+		</indexterm>
+		<indexterm>
+			<primary>Removing untracked files</primary>
+		</indexterm>
+		<para>
+			If you have untracked files in your working tree which you want to
+			remove, you can use the
+			<code>git clean</code>
+			command.
+		</para>
+		<warning>
+			<para>Be careful with this command. All untracked files are
+				removed if you run this command. You will not
+				be
+				able to restore them, as
+				they are not part of
+				your Git
+				repository.
+			</para>
+		</warning>
+	</section>
+	<section id="gitclean_example">
+		<title>Example: Using git clean</title>
+		<para>
+			The following commands demonstrate the usage of the
+			<code>git clean</code>
+			command.
+		</para>
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/undo/dropchanges.txt" />
+			</programlisting>
+		</para>
+	</section>
+
+
+</section>

@@ -1,0 +1,13 @@
+commit 046474a52e0ba1f1435ad285eae0d8ef19d529bf
+Author: Lars Vogel <Lars.Vogel@gmail.com>
+Date:   Wed Jun 5 12:13:04 2013 +0200
+
+    Bug 409373 - Updates version number of e4 tools 
+    
+    Repairs the build
+
+commit 2645d7eef0e24195fc407137200fe7e1795ecf49
+Author: Lars Vogel <Lars.Vogel@gmail.com>
+Date:   Wed Jun 5 12:00:53 2013 +0200
+
+    Bug 409373 - Updates version number of e4 CSS spy features

@@ -1,0 +1,7 @@
+# simplification of the fetch command
+# this runs git fetch for every remote repository
+git remote update
+
+# the same but remove all stale branches which 
+# are not in the remote anymore
+git remote update --prune

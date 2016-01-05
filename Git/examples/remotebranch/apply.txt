@@ -1,0 +1,9 @@
+# assume you want to rebase master based on the latest fetch
+# therefore check it out
+git checkout master
+
+# update your remote-tracking branch
+git fetch
+
+# rebase your master onto origin/master
+git rebase origin/master

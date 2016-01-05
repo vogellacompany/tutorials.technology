@@ -1,0 +1,49 @@
+<section id="firstgitresult" role="wrapper">
+	<title>Looking at the result</title>
+
+	<section id="firstgitresult_results">
+		<title>Viewing the Git commit history</title>
+
+		<para>
+			The Git operations you performed have created a local Git
+			repository
+			in the
+			<filename>.git</filename>
+			folder and added all files to this repository via one commit. Run the
+			<code>git log</code>
+			command (See <xref linkend="analyzechanges_log"/> for details).
+		</para>
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/gitfirst/gitlog.txt" />
+			</programlisting>
+		</para>
+		<para>You see an output similar to the following.</para>
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/gitfirst/gitlog-output.txt" />
+			</programlisting>
+		</para>
+	</section>
+	<section id="firstgitresult_directory">
+		<title>Directory structure</title>
+		<para>Your directory contains the Git repository as well as the Git
+			working tree for your files. This directory structure is depicted in
+			the following screenshot.
+		</para>
+		<para>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="images/firstgit-directory10.png"
+						scale="60" />
+				</imageobject>
+				<textobject>
+					<phrase>First Git directory</phrase>
+				</textobject>
+			</mediaobject>
+		</para>
+
+	</section>
+</section>

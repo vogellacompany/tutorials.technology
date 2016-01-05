@@ -1,0 +1,8 @@
+# origin/master used as example, but can be replaced
+
+# create branch based on remote branch
+git branch [new_branch] origin/master
+
+# use --track, 
+# default when the start point is a remote-tracking branch
+git branch --track [new_branch] origin/master

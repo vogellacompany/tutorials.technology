@@ -1,0 +1,73 @@
+<section id="cherrypick_example">
+	<title>Example: Using cherry-pick</title>
+	<para>
+		In the following example you create a new branch and commit two
+		changes.
+	</para>
+	<para>
+		<programlisting language="bourne">
+			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+				parse="text" href="./examples/cherry/step1.txt" />
+		</programlisting>
+	</para>
+
+	<para>
+		You can check the commit history, for example, with the
+		<code>
+			git log --oneline
+		</code>
+		command.
+	</para>
+	<para>
+		<programlisting language="bourne">
+			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+				parse="text" href="./examples/cherry/step2.txt" />
+		</programlisting>
+	</para>
+
+	<para>
+		The following command selects the first commit based on the
+		commit ID and
+		applies
+		its
+		changes to the master branch. This creates a
+		new commit on
+		the master branch.
+	</para>
+	<para>
+		<programlisting language="bourne">
+			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+				parse="text" href="./examples/cherry/step3.txt" />
+		</programlisting>
+	</para>
+	<para>
+		The
+		<code>cherry-pick</code>
+		command can be used to change the order of commits.
+		<code>git cherry-pick</code>
+		also accepts commit ranges for example in the following command.
+	</para>
+	<para>
+		<programlisting language="bourne">
+			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+				parse="text" href="./examples/cherry/step4.txt" />
+		</programlisting>
+	</para>
+	<tip>
+		<para>
+			See
+			<xref linkend="commitreference_ranges_doubledot" />
+			for more information about commit ranges.
+		</para>
+	</tip>
+	<para>
+		If things go wrong or you change your mind, you can always reset to
+		the previous state using the following command.
+	</para>
+	<para>
+		<programlisting language="bourne">
+			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+				parse="text" href="./examples/cherry/step5.txt" />
+		</programlisting>
+	</para>
+</section>

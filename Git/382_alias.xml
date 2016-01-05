@@ -1,0 +1,90 @@
+<section id="alias" role="wrapper">
+	<title>Define alias</title>
+	<section id="alias_definition">
+		<title>Using an alias</title>
+		<indexterm>
+			<primary>alias</primary>
+		</indexterm>
+		<para>
+			An
+			<wordasword>alias</wordasword>
+			in Git allows you to create a short form of one or several existing Git commands. For
+			example, you can
+			define an alias which is a short form of your own
+			favorite commands or
+			you can
+			combine
+			several commands with an alias.
+		</para>
+
+	</section>
+
+	<section id="alias_example">
+		<title>Alias examples</title>
+		<para>
+			The following defines an
+			<wordasword>alias</wordasword>
+			to see the staged changes with the new
+			<code>git staged</code>
+			command.
+		</para>
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/alias/staged.txt" />
+			</programlisting>
+		</para>
+
+
+		<para>
+			Or you can define an
+			<wordasword>alias</wordasword>
+			for a detailed
+			<code>git log</code>
+			command.
+			The following command defines the
+			<code>git ll
+			</code>
+			<wordasword>alias</wordasword>
+			.
+		</para>
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/alias/log.txt" />
+			</programlisting>
+		</para>
+		<para>
+			You can also run external commands. In this case you start the
+			<wordasword>alias</wordasword>
+			definition with a
+			<code>!</code>
+			character. For example, the following defines the
+			<code>git ac</code>
+			command which combines
+			<code>git add . -A</code>
+			and
+			<code>git commit</code>
+			commands.
+		</para>
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/alias/alias.txt" />
+			</programlisting>
+		</para>
+		<warning>
+			<para>
+				In the past <wordasword>msysGit</wordasword>
+				for Windows had problems with
+				an
+				<wordasword>alias</wordasword>
+				beginning with
+				<code>!</code>,
+				but it has been reported that this now works with
+				<wordasword>msysGit</wordasword>, too
+				.
+			</para>
+		</warning>
+	</section>
+</section>

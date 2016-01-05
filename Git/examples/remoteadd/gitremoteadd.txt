@@ -1,0 +1,2 @@
+# add ../remote-repository.git with the name origin
+git remote add origin ../remote-repository.git

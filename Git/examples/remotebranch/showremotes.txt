@@ -1,0 +1,2 @@
+# list all remote branches
+git branch -r

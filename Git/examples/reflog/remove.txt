@@ -1,0 +1,23 @@
+# assume the  ID for the second commit is
+# 45ca2045be3aeda054c5418ec3c4ce63b5f269f7
+
+# resets the head for your tree to the second commit
+git reset --hard 45ca2045be3aeda054c5418ec3c4ce63b5f269f7
+
+# see the log
+git log
+
+# output shows the history until the 45ca2045be commit
+
+# see all the history including the deletion
+git reflog 
+
+# <output>
+cf616d4 HEAD@{1}: reset: moving to 45ca2045be3aeda054c5418ec3c4ce63b5f269f7
+# ... snip ...
+1f1a73a HEAD@{2}: commit: More chaanges - typo in the commit message
+45ca204 HEAD@{3}: commit: These are new changes
+cf616d4 HEAD@{4}: commit (initial): Initial commit
+
+git reset --hard 1f1a73a
+

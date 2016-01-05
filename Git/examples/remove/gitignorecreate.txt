@@ -1,0 +1,4 @@
+cd ~/repo01
+touch .gitignore
+echo ".metadata/" >> .gitignore
+echo "doNotTrackFile.txt" >> .gitignore

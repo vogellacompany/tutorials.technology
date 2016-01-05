@@ -1,0 +1,15 @@
+# switch to second directory
+cd ~/repo02
+
+# pull in the latest changes of your remote repository
+git pull
+
+# make changes
+echo "A change" > test01
+
+# commit the changes
+git commit -a -m "A change"
+
+# push changes to remote repository
+# origin is automatically created as we cloned original from this repository
+git push origin

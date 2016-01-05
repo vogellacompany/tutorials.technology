@@ -1,0 +1,211 @@
+<section id="tagging" role="wrapper">
+	<title>Working with tags</title>
+
+	<section id="tagging_list">
+		<title>List tags</title>
+		<para>
+			You can list the available tags
+			<indexterm>
+				<primary>Tags/Tagging</primary>
+				<secondary>list available tags
+				</secondary>
+			</indexterm>
+			via the following command:
+		</para>
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/tag/list.txt" />
+			</programlisting>
+		</para>
+	</section>
+	<section id="tag_searchbypattern">
+		<title>Search by pattern for a tag</title>
+
+		<para>
+			You can use the
+			<parameter>-l</parameter>
+			parameter in the
+			<code>git tag</code>
+			command to search for a pattern in the tag.
+		</para>
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/tag/search.txt" />
+			</programlisting>
+		</para>
+	</section>
+	<section id="tagging_createlightweight">
+		<title>Creating lightweight tags</title>
+		<indexterm>
+			<primary>Tags/Tagging</primary>
+			<secondary>create lightweight tags
+			</secondary>
+		</indexterm>
+		<para>
+			To create a lightweight tag don't use the
+			<parameter>-m</parameter>
+			,
+			<parameter>-a</parameter>
+			or
+			<parameter>-s</parameter>
+			option.
+		</para>
+		<para>
+			The term
+			<wordasword>build</wordasword>
+			describes the conversion of your source code into another
+			state, e.g.,
+			converting Java sources to an executable
+			<filename>JAR</filename>
+			file.
+			Lightweight tags in Git are often used to identify the input
+			for
+			a
+			build. Frequently this does not
+			require additional information other
+			than a
+			build
+			identifier or
+			the
+			timestamp.
+		</para>
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/tag/createlight.txt" />
+			</programlisting>
+		</para>
+	</section>
+	<section id="tagging_createannoted">
+		<title>Creating annotated tags</title>
+		<indexterm>
+			<primary>Tags/Tagging</primary>
+			<secondary>create annotated tags
+			</secondary>
+		</indexterm>
+		<para>
+			You can create a new annotated tag via the
+			<code>git tag -a</code>
+			command. An annotated tag can also be created using the
+			<parameter>-m</parameter>
+			parameter, which is used to specify the description of the tag.
+			The
+			following
+			command tags the current active HEAD.
+		</para>
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/tag/create.txt" />
+			</programlisting>
+		</para>
+
+		<para>You can also create tags for a certain commit id. </para>
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/tag/createid.txt" />
+			</programlisting>
+		</para>
+	</section>
+	<section id="tagging_signedtags">
+		<title>Creating signed tags</title>
+		<indexterm>
+			<primary>Tags/Tagging</primary>
+			<secondary>signed tags
+			</secondary>
+		</indexterm>
+		<para>
+			You can use the option
+			<parameter>-s</parameter>
+			to create a signed tag. These tags are signed with
+			<wordasword>GNU Privacy Guard (GPG)</wordasword>
+			and can also be verified with GPG. For details on this please see the
+			following URL:
+			<ulink
+				url="https://www.kernel.org/pub/software/scm/git/docs/git-tag.html"> Git tag manpage</ulink>
+			.
+		</para>
+	</section>
+
+	<section id="tagging_checkout">
+		<title>Checkout tags</title>
+		<indexterm>
+			<primary>Tags/Tagging</primary>
+			<secondary>checkout tags
+			</secondary>
+		</indexterm>
+		<para> If you want to use the code associated with the tag, use:
+		</para>
+
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/tag/checkout.txt" />
+			</programlisting>
+		</para>
+		<warning>
+			<para>
+				If you checkout a tag, you are in the
+				<wordasword>detached head mode</wordasword>
+				and commits created in this mode are harder to find after you
+				checkout a
+				branch again. See
+				<xref linkend="detachedheadmode" />
+				for details.
+			</para>
+		</warning>
+
+	</section>
+	<section id="tagging_pushtags">
+		<title>Push tags</title>
+		<indexterm>
+			<primary>Tags/Tagging</primary>
+			<secondary>push tag
+			</secondary>
+		</indexterm>
+		<para>
+			By default the
+			<code>git push</code>
+			command does not transfer tags to remote
+			repositories. You explicitly
+			have to push the tag with the following command.
+		</para>
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/tag/push.txt" />
+			</programlisting>
+		</para>
+
+
+	</section>
+
+	<section id="tagging_delete">
+		<title>Delete tags</title>
+		<indexterm>
+			<primary>Tags/Tagging</primary>
+			<secondary>delete tag
+			</secondary>
+		</indexterm>
+		<para>
+			You can delete tags with the
+			<parameter>-d</parameter>
+			parameter. This deletes the tag from your local repository. By
+			default Git does not push tag deletions to a remote repository, you
+			have to trigger that explicitly.
+		</para>
+		<para>The following commands demonstrate how to push a tag deletion.
+		</para>
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/tag/delete.txt" />
+			</programlisting>
+		</para>
+
+	</section>
+
+</section>

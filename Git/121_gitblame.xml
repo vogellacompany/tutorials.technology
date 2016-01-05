@@ -1,0 +1,22 @@
+<section id="git_blame_example">
+	<title>Example: git blame</title>
+	<para>
+		The following code snippet demonstrates the usage of the
+		<code>git blame</code>
+		command.
+	</para>
+
+	<para>
+		<programlisting language="bourne">
+			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+				parse="text" href="./examples/changes/blame.txt" />
+		</programlisting>
+	</para>
+	<para>
+		The
+		<code>git blame</code>
+		command can also ignore whitespace changes with the
+		<parameter>-w</parameter> parameter.
+	</para>
+
+</section>

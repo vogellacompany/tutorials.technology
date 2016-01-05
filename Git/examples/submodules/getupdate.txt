@@ -1,0 +1,6 @@
+# another developer wants to get the changes
+git pull
+
+# this updates the submodule to the latest
+# commit in master as set in the last example
+git submodule update

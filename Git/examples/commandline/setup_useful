@@ -1,0 +1,2 @@
+# set default so that you avoid unnecessary commits
+git config --global branch.autosetuprebase always
