@@ -1,0 +1,11 @@
+== Docker setup
+
+Install Docker Toolbox from docker.com. The installation is well described on the getting started page.
+
+Afterwards you can test you installation via the following command.
+----
+docker run hello-world
+----
+
+If you issue the command the first time, it downloads the hello-world image and start it.
+

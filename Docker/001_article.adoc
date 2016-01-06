@@ -1,0 +1,15 @@
+= Docker - Light weight containers - Tutorial
+Lars Vogel
+(C) 2015 vogella GmbH
+Version 0.2, 17.12.2015
+
+[abstract]
+== Using Docker for running light weight container
+
+This tutorial contains some notes about using Docker as container for running virtual environments..
+				
+include::010_overview.adoc[]
+include::020_setup.adoc[]
+include::100_eclipse.adoc[]
+include::100_questions.adoc[]
+include::008_resourceslocal.adoc[]

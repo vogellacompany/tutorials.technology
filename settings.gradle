@@ -2,3 +2,4 @@ rootProject.name = 'com.vogella.tutorials.technology'
 
 include 'AsciiDoc'
 include 'Git'
+include 'Docker'
