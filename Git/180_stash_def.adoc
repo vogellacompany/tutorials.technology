@@ -5,10 +5,9 @@
 == The git stash command
 
 ((stashing in Git))
- (((git
-stash)))
+(((git stash)))
 
- Git provides the `git stash` command which allows
+Git provides the `git stash` command which allows
 you to record the current state of the working directory and the staging
 area and to revert to the last committed revision.
 

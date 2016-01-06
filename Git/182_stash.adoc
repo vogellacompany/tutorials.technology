@@ -7,10 +7,20 @@
 The following commands will save a stash and reapply them after some
 changes.
 
-[source,terminal] ---- include::./examples/stash/stash1.txt[] ---- It is
+[source,terminal]
+----
+include::./examples/stash/stash1.txt[]
+----
+ It is
 also possible to keep a list of stashes.
 
-[source,terminal] ---- include::./examples/stash/stash2.txt[] ---- ##
+[source,terminal]
+----
+include::./examples/stash/stash2.txt[]
+----
+ 
+
+==
 Create a branch from a stash \{#stash_branchexample}
 
 ((Branch from stash))
@@ -18,4 +28,7 @@ Create a branch from a stash \{#stash_branchexample}
 a branch for your stash if you want to continue to work on the stashed
 changes in a branch. This can be done with the following command.
 
-[source,terminal] ---- include::./examples/stash/stash3.txt[] ----
+[source,terminal]
+----
+include::./examples/stash/stash3.txt[]
+----

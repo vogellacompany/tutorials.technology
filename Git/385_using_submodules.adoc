@@ -8,11 +8,17 @@ To pull in changes into a Git repository including the changes in
 submodules, you can use the `--recurse-submodules` parameter in the
 `git pull command` .
 
-[source,terminal] ---- include::./examples/submodules/pull.txt[] ----
+[source,terminal]
+----
+include::./examples/submodules/pull.txt[]
+----
 Use the `git submodule update` command to set the submodules to the
 commit specified by the main repository.
 
-[source,terminal] ---- include::./examples/submodules/update1.txt[] ----
+[source,terminal]
+----
+include::./examples/submodules/update1.txt[]
+----
 > *Warning* > > The fact that submodules track commits and not branches
 frequently > leads to confusion. That is why Git 1.8.2 added the option
 to also > track branches. Read the following sections to learn more
@@ -28,8 +34,13 @@ parameter during the `submodule add` command.
 This allows you use to use `--remote` parameter in the
 `git submodule update` command.
 
-[source,terminal] ---- include::./examples/submodules/branch.txt[] ----
-## Tracking commits \{#submodules_track}
+[source,terminal]
+----
+include::./examples/submodules/branch.txt[]
+----
+
+
+== Tracking commits \{#submodules_track}
 
 Without any additional parameter, submodules are tracked by commit,
 i.e., the main Git repository remembers a certain commit of the
@@ -55,11 +66,16 @@ to in the main repository.
 The following example shows how to update a submodule to its latest
 commit in its master branch.
 
-[source,terminal] ---- include::./examples/submodules/update.txt[] ----
+[source,terminal]
+----
+include::./examples/submodules/update.txt[]
+----
 Another developer can get the update by pulling in the changes and
 running the submodules update command.
 
-[source,terminal] ---- include::./examples/submodules/getupdate.txt[]
+[source,terminal]
+----
+include::./examples/submodules/getupdate.txt[]
 ---- > *Warning* > > With this setup you are tracking commits, so if the
 master branch in > the submodule moves on, you are still pointing to the
 existing commit. > You need to repeat this procedure every time you want

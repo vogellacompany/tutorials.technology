@@ -1,11 +1,14 @@
 [[analyzechanges]]
+
 = Listing changed files before a commit
 
 [[gitstatus]]
+
 == Listing changed files
 
-((git status))
- The `git status` command
+(((git status)))
+
+The `git status` command
 shows the status of the working tree, i.e., which files have changed,
 which are staged and which are not part of the staging area. It also
 shows which files have merge conflicts and gives an indication what the
@@ -13,15 +16,27 @@ user can do with these changes, e.g., add them to the staging area or
 remove them, etc.
 
 [[gitstatus_example]]
+
 == Example: Using git status
 
 The following commands create some changes in your Git repository.
 
-[source,terminal] ---- include::./examples/log/status.txt[] ---- The
-`git status` command shows the current status of your repository and
+[source,terminal]
+----
+include::./examples/log/status.txt[]
+----
+
+The `git status` command shows the current status of your repository and
 suggests possible actions which the user can perform.
 
-[source,terminal] ---- include::./examples/log/status2.txt[] ---- The
-output of the command looks like the following listing.
+[source,terminal]
+----
+include::./examples/log/status2.txt[]
+----
 
-[source,terminal] ---- include::./examples/log/status3.txt[] ----
+The output of the command looks like the following listing.
+
+[source,terminal]
+----
+include::./examples/log/status3.txt[]
+----

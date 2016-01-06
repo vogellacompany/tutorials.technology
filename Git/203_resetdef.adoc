@@ -2,7 +2,9 @@
 = Use cases for git reset
 
 ((git reset))
- ## Moving the HEAD and
+ 
+
+== Moving the HEAD and
 branch pointer \{#resetcommit_move}
 
 ((git reset))

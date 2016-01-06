@@ -1,7 +1,9 @@
 [[gitdefintion_tools]]
+
 = Tools
 
 [[gitdefintion_tools1]]
+
 == The Git command line tools
 
 The original tooling for Git is based on the command line, i.e., the Git
@@ -10,6 +12,7 @@ following examples are based on the Git command line tooling which
 offers all capabilities of Git.
 
 [[gitdefintion_doublehyphens]]
+
 == Separating parameters and file arguments in Git commands
 
 (((Separating files and parameter arguments in Git)))
@@ -23,7 +26,7 @@ commit reference called HEAD.
 In case Git can determine the correct parameters and options
 automatically the double hyphens can be avoided.
 
-[source,terminal] 
+[source,terminal]
 ---- 
 include::./examples/double/text.txt[] 
 ---- 

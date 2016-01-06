@@ -15,15 +15,23 @@ The commit ID is shown if you enter the `git log` command.
 
 The following command shows the log.
 
-[source,terminal] ---- include::./examples/commandline/git_checkout1[]
+[source,terminal]
+----
+include::./examples/commandline/git_checkout1[]
 ---- The following listing shows an example output of a Git log command.
 
-[source,terminal] ---- include::./examples/commandline/git_checkout2[]
----- ## Example: Checkout a commit \{#undochanges_checkoutcommits2}
+[source,terminal]
+----
+include::./examples/commandline/git_checkout2[]
+---- 
+
+== Example: Checkout a commit \{#undochanges_checkoutcommits2}
 
 To checkout a specific commit you can use the following command.
 
-[source,terminal] ---- include::./examples/commandline/git_checkout3[]
+[source,terminal]
+----
+include::./examples/commandline/git_checkout3[]
 ---- > *Warning* > > If you checkout a commit, you are in the _detached
 head mode_ and > commits in this mode are harder to find after you
 checkout another > branch. Before committing it is good practice to

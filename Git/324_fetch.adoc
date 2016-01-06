@@ -10,7 +10,11 @@ updates your remote-tracking branches, i.e., it updates the local copy
 of branches stored in a remote repository. The following command updates
 the remote-tracking branches from the repository called _origin_ .
 
-[source,terminal] ---- include::./examples/fetch/fetch.txt[] ---- The
+[source,terminal]
+----
+include::./examples/fetch/fetch.txt[]
+----
+ The
 fetch command only updates the _remote-tracking branches_ and none of
 the local branches and it does not change the working tree of the Git
 repository. Therefore, you can run the `git fetch` command at any point
@@ -34,13 +38,20 @@ one remote repository. In case you want to update the remote-tracking
 branches of all your remote repositories you can use the following
 command.
 
-[source,terminal] ---- include::./examples/remote/gitupdate.txt[] ----
-## Compare remote-tracking branch with local branch \{#gitfetch_compare}
+[source,terminal]
+----
+include::./examples/remote/gitupdate.txt[]
+----
+
+
+== Compare remote-tracking branch with local branch \{#gitfetch_compare}
 
 The following code shows a few options how you can compare your
 branches.
 
-[source,terminal] ---- include::./examples/remotebranch/compare.txt[]
+[source,terminal]
+----
+include::./examples/remotebranch/compare.txt[]
 ---- The above commands show the changes introduced in HEAD compared to
 origin. If you want to see the changes in origin compared to HEAD, you
 can switch the arguments or use the `-R` parameter.
@@ -54,7 +65,10 @@ branch)))
  You can rebase your current local branch onto a
 remote-tracking branch. The following commands demonstrate that.
 
-[source,terminal] ---- include::./examples/remotebranch/apply.txt[] ----
+[source,terminal]
+----
+include::./examples/remotebranch/apply.txt[]
+----
 > *Tip* > > More information on the rebase command can be found in ? .
 
 [[gitremotebranch_fetchpull]]

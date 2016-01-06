@@ -1,9 +1,13 @@
 [[git_blame_example]]
-= Example: git blame
+== Example: git blame
 
 The following code snippet demonstrates the usage of the `git blame`
 command.
 
-[source,terminal] ---- include::./examples/changes/blame.txt[] ---- The
+[source,terminal]
+----
+include::./examples/changes/blame.txt[]
+----
+ The
 `git blame` command can also ignore whitespace changes with the `-w`
 parameter.

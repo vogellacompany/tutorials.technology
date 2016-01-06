@@ -4,9 +4,9 @@
 [[gitmerge_fastforward]]
 == Fast-forward merge
 
-((Merging))
- LARSSECONDARY"fast-forward
-merge"LARSSECONDARY If the commits which are merged are direct
+(((Merging,fast-forward merge)))
+
+If the commits which are merged are direct
 successors of the _HEAD_ pointer of the current branch, Git simplifies
 things by performing a so-called _fast forward merge_ . This _fast
 forward merge_ simply moves the _HEAD_ pointer of the current branch to
@@ -20,66 +20,55 @@ commit points to its predecessor (parent).
 
 image::img/merge_fastforward10.png[Fast forward merge starting]
 
- After the fast-forward merge the _HEAD_ points to the
+After the fast-forward merge the _HEAD_ points to the
 master branch pointing to "Commit 3". The "branch 1" branch points to
 the same commit.
 
 image::img/merge_fastforward20.png[Fast forward merge result]
 
- ## Merge commit \{#gitmerge_mergecommit}
+ 
 
-((Merging))
- LARSSECONDARY"merge
-commit"LARSSECONDARY ((Merging))
+== Merge commit \{#gitmerge_mergecommit}
 
-LARSSECONDARY" three-way-merge"LARSSECONDARY (((Merge
-strategies )))
+(((Merging, merge commit)))
+(((Merging, three-way-merge)))
+(((Merging, Merge strategies)))
+(((Merging, Recursive)))
 
- LARSSECONDARY"Recursive"LARSSECONDARY If
-commits are merged which are not direct predecessors of the current
+
+If commits are merged which are not direct predecessors of the current
 branch, Git performs a so-called _three-way-merge_ between the latest
 commits of the two branches, based on the most recent common predecessor
 of both.
 
 image::img/merge_commit10.png[Original state before the merge commit]
 
- As a result a so-called _merge commit_ is created on the
+As a result a so-called _merge commit_ is created on the
 current branch which combines the respective changes from the two
 branches being merged. This commit points to both of its predecessors.
 
 image::img/merge_commit20.png[Merge commit] 
- > *Note* > >
-If multiple common predecessors exist, Git uses recursion to create a >
-virtual common predecessor. For this Git creates a merged tree of the >
-common ancestors and uses that as the reference for the 3-way merge. >
-This is called the _recursive merge_ strategy and is the default merge >
+
+If multiple common predecessors exist, Git uses recursion to create a 
+virtual common predecessor. For this Git creates a merged tree of the 
+common ancestors and uses that as the reference for the 3-way merge. 
+This is called the _recursive merge_ strategy and is the default merge
 strategy.
 
 [[gitmerge_octopus]]
 == Merge strategies - Octopus, Subtree, Ours
 
-((Merge strategies))
+(((Merge strategies, Octopus)))
+(((Merge strategies, Subtree)))
+(((Merge strategies, Ours)))
+(((Merge strategies, Ours)))
+(((Octopus merge strategy)))
+(((Subtree merge strategy)))
+(((Ours merge strategy)))
 
-((Merge strategies ))
-
-LARSSECONDARY"Octopus"LARSSECONDARY (((Merge strategies
-)))
-
- LARSSECONDARY"Subtree"LARSSECONDARY
-((Merge strategies ))
-
-LARSSECONDARY"Ours"LARSSECONDARY (((Octopus merge
-strategy)))
-
- (((Subtree merge
-strategy)))
-
- (((Ours merge
-strategy)))
-
- If a fast-forward merge is not possible, Git
+If a fast-forward merge is not possible, Git
 uses a merge strategy. The default strategy called _recursive merge_
-strategy was described in ? .
+strategy was described in <<gitmerge_mergecommit>>.
 
 The Git command line tooling also supports the _octopus merge_ strategy
 for merges of multiple references. With this operation it can merge

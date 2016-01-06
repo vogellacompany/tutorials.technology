@@ -1,82 +1,104 @@
 [[setup]]
+
 = Performing the Git configuration
 
 [[setup_user]]
+
 == User configuration
 
-((Configuration))
- LARSSECONDARY"user and
-email"LARSSECONDARY You have to configure at least your user and email
+(((Configuration, user and email)))
+
+You have to configure at least your user and email
 address to be able to commit to a Git repository because this
 information is stored in each commit.
 
 [[setup_userexercise]]
+
 == Exercise: User configuration
 
-((Configuration))
- LARSSECONDARY"user and
-email"LARSSECONDARY Configure your user and email for Git via the
-following command.
+Configure your user and email for Git via the following command.
 
-[source,terminal] ---- include::./examples/commandline/setup.commands[]
----- ## Push configuration \{#setup_pushconfiguration}
+[source,terminal]
+----
+include::./examples/commandline/setup.commands[]
+---- 
 
-((Configuration))
- LARSSECONDARY"push
-configuration"LARSSECONDARY (((push.default is unset
-)))
+== Push configuration \{#setup_pushconfiguration}
 
- If your are using Git in a version below 2.0 you
+(((Configuration, push configuration)))
+
+If your are using Git in a version below 2.0 you
 should also execute the following command.
 
-[source,terminal] ----
-include::./examples/commandline/setup_pushmatching.txt[] ---- This
-configures Git so that the `git push` command pushes only the active
+[source,terminal]
+----
+include::./examples/commandline/setup_pushmatching.txt[]
+----
+
+This configures Git so that the `git push` command pushes only the active
 branch (in case it is connected to a remote branch, i.e., configured as
 remote-tracking branches) to your Git remote repository. As of Git
 version 2.0 this is the default and therefore it is good practice to
 configure this behavior.
 
-You learn about the push command in ? .
+You learn about the push command in <<cloneremotes_push>>.
 
 [[setup_rebase]]
+
 == Avoid merge commits for pulling
 
-((Configuration))
+(((Configuration, autosetuprebase)))
+(((autosetuprebase)))
 
-LARSSECONDARY"autosetuprebase"LARSSECONDARY If you pull in changes from
-a remote repository, Git by default creates merge commits if you pull in
-divergent changes. This may not be desired and you can avoid this via
-the following setting.
+If you pull in changes from a remote repository, Git by default creates merge commits if you pull in
+divergent changes. This may not be desired and you can avoid this via the following setting.
 
-[source,terminal] ---- include::./examples/commandline/setup_useful[]
----- > *Note* > > This setting depends on the individual workflow. Some
-teams prefer to > create merge commits, but the author of this $book
-likes to avoid > them.
+[source,terminal]
+----
+include::./examples/commandline/setup_useful[]
+---- 
+
+[NOTE]
+====
+This setting depends on the individual workflow. 
+Some teams prefer to create merge commits, but the author of this $book
+likes to avoid them.
+====
 
 [[setup_highlighting]]
+
 == Color Highlighting
 
-((Configuration))
- LARSSECONDARY"color
-highlighting"LARSSECONDARY The following commands enables color
-highlighting for Git in the console.
+(((Configuration, color highlighting)))
 
-[source,terminal] ---- include::./examples/highlight/color.txt[] ---- ##
-Setting the default editor \{#setup_editor}
+The following commands enables color highlighting for Git in the console.
 
-((Configuration))
- LARSSECONDARY"default
-editor"LARSSECONDARY By default Git uses the system default editor which
+[source,terminal]
+----
+include::./examples/highlight/color.txt[]
+----
+ 
+[[setup_editor]]
+==
+Setting the default editor
+
+(((Configuration, default editor)))
+
+By default Git uses the system default editor which
 is taken from the _VISUAL_ or _EDITOR_ environment variables if set. You
 can configure a different one via the following setting.
 
-[source,terminal] ---- include::./examples/settings/editor.txt[] ---- ##
-Setting the default merge tool \{#setup_mergetool}
+[source,terminal]
+----
+include::./examples/settings/editor.txt[]
+----
+ 
 
-((Configuration))
- LARSSECONDARY"default
-merge tool"LARSSECONDARY File conflicts might occur in Git during an
+== Setting the default merge tool \{#setup_mergetool}
+
+(((Configuration, default merge tool)))
+
+File conflicts might occur in Git during an
 operation which combines different versions of the same files. In this
 case the user can directly edit the file to resolve the conflict.
 
@@ -89,24 +111,35 @@ you can always edit the files directly in a text editor.
 Once you have installed them you can set your selected tool as default
 merge tool with the following command.
 
-[source,terminal] ---- include::./examples/settings/mergetool.txt[] ----
-## More settings \{#setup_allsetttings}
+[source,terminal]
+----
+include::./examples/settings/mergetool.txt[] 
+----
+
+
+== More settings \{#setup_allsetttings}
 
 All possible Git settings are described under the following link:
 https://www.kernel.org/pub/software/scm/git/docs/git-config.html[git-config
 manual page]
 
 [[setup_seesettings]]
+
 == Query Git settings
 
-((Configuration))
- LARSSECONDARY"query
-existing configuration"LARSSECONDARY To query your Git settings, execute
-the following command:
+(((Configuration, query existing configuration)))
 
-[source,terminal] ---- include::./examples/settings/listsettings.txt[]
----- If you want to query the global settings you can use the following
+To query your Git settings, execute the following command:
+
+[source,terminal]
+----
+include::./examples/settings/listsettings.txt[]
+---- 
+
+If you want to query the global settings you can use the following
 command.
 
-[source,terminal] ----
-include::./examples/settings/listsettingsglobal.txt[] ----
+[source,terminal]
+----
+include::./examples/settings/listsettingsglobal.txt[] 
+----

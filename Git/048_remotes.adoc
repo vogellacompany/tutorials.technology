@@ -1,12 +1,15 @@
 [[remotes]]
+
 = Remote repositories
 
 [[remotes_definition]]
+
 == What are remotes?
 
-((Repository))
+(((Repository, remote)))
+(((Remote repositories)))
 
-LARSSECONDARY"remote"LARSSECONDARY _Remotes_ are URLs in a Git
+_Remotes_ are URLs in a Git
 repository to other remote repositories that are hosted on the Internet,
 locally or on the network.
 
@@ -30,25 +33,31 @@ Typically the remote repository which is used for synchronization is
 located on a server which is always available.
 
 image::img/git_remoterepo10.png[Remote Git repositories] 
- >
-*Tip* > > A remote repository can also be hosted in the local file
+ 
+[TIP]
+====
+A remote repository can also be hosted in the local file
 system.
+====
 
 [[bareremotes_definition]]
+
 == Bare repositories
 
-((Repository))
+(((Repository, bare)))
+(((Bare repository)))
 
-LARSSECONDARY"bare"LARSSECONDARY
-((Repository))
- LARSSECONDARY"create bare
-repository"LARSSECONDARY A remote repository on a server typically does
-not require a _working tree_ . A Git repository without a _working tree_
-is called a _bare repository_ . You can create such a repository with
+A remote repository on a server typically does
+not require a _working tree_. A Git repository without a _working tree_
+is called a _bare repository_. You can create such a repository with
 the `--bare` option. The command to create a new empty bare remote
 repository is displayed below.
 
-[source,terminal] ---- include::./examples/create/gitinitbare.txt[] ----
+[source,terminal]
+----
+include::./examples/create/gitinitbare.txt[] 
+----
+
 By convention the name of a bare repository should end with the `.git`
 extension.
 
@@ -57,6 +66,7 @@ connect to your server via the SSH protocol or you use some Git hosting
 platform, e.g., GitHub.com.
 
 [[bareremotes_convert]]
+
 == Convert a Git repository to a bare repository
 
 Converting a normal Git repository to a bare repository is not directly

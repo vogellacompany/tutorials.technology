@@ -1,48 +1,64 @@
 [[adjustgit]]
+
 = Remove files and adjust the last commit
 
 [[firstgit_deletefile]]
+
 == Remove files
 
-((Repository))
- LARSSECONDARY"remove
-files"LARSSECONDARY If you delete a file you use the `git add .` command
-to add the deletion of a file to the staging area. This is supported as
+(((Repository, remove files)))
+
+If you delete a file you use the `git add .` command to add the deletion of a file to the staging area. This is supported as
 of Git version 2.0.
 
-[source,terminal] ---- include::./examples/deletefile/del2.txt[] ----
+[source,terminal]
+----
+include::./examples/deletefile/del2.txt[] 
+----
+
 Alternatively you can use the `git rm` command to delete the file from
 your working tree and record the deletion of the file in the staging
 area.
 
 [[firstgit_checkout]]
+
 == Revert changes in files in the working tree
 
 ((Remove changes in the working tree))
 
 ((Undo changes in the working tree))
- Use
-the `git checkout` command to reset a tracked file (a file that was once
+
+Use the `git checkout` command to reset a tracked file (a file that was once
 staged or committed) to its latest staged or commit state. The command
 removes the changes of the file in the working tree. This command cannot
 be applied to files which are not yet staged or committed.
 
-[source,terminal] ---- include::./examples/deletefile/checkout.txt[]
----- If you use `git status` command to see that there are no changes
+[source,terminal]
+----
+include::./examples/deletefile/checkout.txt[]
+----
+
+If you use `git status` command to see that there are no changes
 left in the working directory.
 
-[source,terminal] ----
-include::./examples/deletefile/checkout_result.txt[] ---- > *Warning* >
-> Use this command carefully. The `git checkout` command deletes the >
-unstaged and uncommitted changes of tracked files in the working tree >
+[source,terminal]
+----
+include::./examples/deletefile/checkout_result.txt[]
+----
+
+[WARNING]
+====
+Use this command carefully. The `git checkout` command deletes the 
+unstaged and uncommitted changes of tracked files in the working tree
 and it is not possible to restore this deletion via Git.
+====
 
 [[firstgit_amend]]
+
 == Correct the last commit with git amend
 
 ((git amend))
- (((change last
-commit)))
+(((change last commit)))
 
  The `git commit --amend` command makes it
 possible to replace the last commit. This allows you to change the last
@@ -51,15 +67,23 @@ commit including the commit message.
 [NOTE]
 ====
 The amended commit is still available until a clean-up job removes it.
-See ? for details.
+See <<gitreflog_definition>> for details.
 ====
 
 Assume the last commit message was incorrect as it contained a typo. The
 following command corrects this via the `--amend` parameter.
 
-[source,terminal] ---- include::./examples/amend/git_typo.txt[] ----
-[source,terminal] ---- include::./examples/amend/git_amend[] ---- You
-should use the `git --amend` command only for commits which have not
+[source,terminal]
+----
+include::./examples/amend/git_typo.txt[]
+----
+
+[source,terminal]
+----
+include::./examples/amend/git_amend[]
+----
+
+You should use the `git --amend` command only for commits which have not
 been pushed to a public branch of another Git repository. The
 `git --amend` command creates a new commit ID and people may have based
 their work already on the existing commit. In this case they would need

@@ -7,8 +7,13 @@
 The `git merge` command performs a merge. You can merge changes from one
 branch to the current active one via the following command.
 
-[source,terminal] ---- include::./examples/commandline/git_merge[] ----
-## Specifying merge strategies \{#gitmerge_mergeoptionsstrategies}
+[source,terminal]
+----
+include::./examples/commandline/git_merge[]
+----
+
+
+== Specifying merge strategies \{#gitmerge_mergeoptionsstrategies}
 
 The `-s` parameter allows you to specify other merge strategies. This is
 demonstrated with the following command.
@@ -18,15 +23,24 @@ the merge is always that of the current branch head, effectively
 ignoring all changes from all other branches. This is demonstrated with
 the following command.
 
-[source,terminal] ---- include::./examples/merge/mergeours.txt[] ---- >
+[source,terminal]
+----
+include::./examples/merge/mergeours.txt[]
+----
+ >
 *Warning* > > Be careful if you use the _ours_ merge strategy, it
 ignores everything > from the branch which is merged.
 
 The usage of the octopus merge strategy is triggered if you specify more
 than one reference to merge.
 
-[source,terminal] ---- include::./examples/merge/mergeoctupus.txt[] ----
-## Specifying parameters for the default merge strategy
+[source,terminal]
+----
+include::./examples/merge/mergeoctupus.txt[]
+----
+
+
+== Specifying parameters for the default merge strategy
 \{#gitmerge_mergeoptions}
 
 The recursive merge strategy (default) allows you to specify flags with
@@ -47,13 +61,16 @@ the version from the branch which is merged.
 
 Both options are demonstrated in the following example code.
 
-[source,terminal] ---- include::./examples/merge/mergeours2.txt[] ----
+[source,terminal]
+----
+include::./examples/merge/mergeours2.txt[]
+----
 Another useful option is the `ignore-space-change` parameter which
 ignores whitespace changes.
 
 For more information about the merge strategies and options see
 https://www.kernel.org/pub/software/scm/git/docs/git-merge.html[Git
-merge manpage] .
+merge manpage].
 
 [[gitmerge_forcemergecommit]]
 == Enforcing the creation of a merge commit

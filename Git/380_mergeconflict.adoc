@@ -36,5 +36,11 @@ For this, there is the `--theirs` and the `--ours` options on the
 that you merged in, and the second option keeps the version before the
 merge operation was started.
 
-[source,terminal] ---- include::./examples/rebase/ours.txt[] ----
-[source,terminal] ---- include::./examples/rebase/theirs.txt[] ----
+[source,terminal]
+----
+include::./examples/rebase/ours.txt[]
+----
+[source,terminal]
+----
+include::./examples/rebase/theirs.txt[]
+----

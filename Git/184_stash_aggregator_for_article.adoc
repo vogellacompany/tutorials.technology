@@ -1,2 +1,0 @@
-[[stash]]
-= Stashing committed changes with git stash

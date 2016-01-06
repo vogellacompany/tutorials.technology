@@ -21,7 +21,7 @@
 ----
 include::./examples/commandline/git_brancheslist.commands[]
 ----
-		<para>
+		<para>gitpushbranch
 			If you want to see all branches (including remote-tracking
 			branches),
 			use

@@ -4,7 +4,7 @@
 [[remotes_cloneoperation]]
 == Cloning a repository
 
-((Repository))
+(((Repository)))
 
 LARSSECONDARY"clone"LARSSECONDARY (((git
 clone)))
@@ -17,7 +17,7 @@ from the original repository.
 [[remotes_clone_origin]]
 == The remote called "origin"
 
-((origin))
+(((origin)))
  LARSSECONDARY""LARSSECONDARY If
 you clone a repository, Git implicitly creates a _remote_ named _origin_
 by default. The _origin_ _remote_ links back to the cloned repository.
@@ -35,8 +35,11 @@ filesystem and not on a server in the Internet.
 Execute the following commands to create a bare repository based on your
 existing Git repository.
 
-[source,terminal] ----
-include::./examples/commandline/git_remote.commands[] ---- > *Tip* > >
+[source,terminal]
+----
+include::./examples/commandline/git_remote.commands[]
+----
+ > *Tip* > >
 If you receive a warning similar to the following: >
 `push.default is unset; its implicit >                     value >                     is changing in >                     Git 2.0 >                     from 'matching' to 'simple'`,
 see ? for the > missing configuration.

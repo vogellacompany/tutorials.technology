@@ -4,7 +4,7 @@
 [[submodules_definition]]
 == What are submodules?
 
-((Submodules))
+(((Submodules)))
  (((git
 submodules)))
 
@@ -24,4 +24,7 @@ command. The `git submodule init` command creates the local
 configuration file for the submodules if this configuration does not
 exist.
 
-[source,terminal] ---- include::./examples/submodules/add.txt[] ----
+[source,terminal]
+----
+include::./examples/submodules/add.txt[]
+----

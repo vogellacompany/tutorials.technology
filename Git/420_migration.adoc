@@ -1,24 +1,30 @@
 [[svn_migration]]
 = Migrating from SVN
 
-((svn))
+(((svn)))
 
-((migration))
+(((migration)))
  To convert Subversion
 projects to Git you can use a RubyGem called _svn2git_ which relies on
 `git svn` internally and handles most of the trouble.
 
 To install it (on Ubuntu) simply type:
 
-[source,terminal] ----
-include::./examples/migration/svn2git_install.txt[] ---- Let's say you
+[source,terminal]
+----
+include::./examples/migration/svn2git_install.txt[]
+----
+ Let's say you
 have a repository called `http://svn.example.com/repo` with the default
 layout (trunk, branches, tags) and already prepared a local git
 repository where you want to put everything, then navigate to your git
 directory and use the following commands:
 
-[source,terminal] ----
-include::./examples/migration/svn2git_example.txt[] ---- The parameter
+[source,terminal]
+----
+include::./examples/migration/svn2git_example.txt[]
+----
+ The parameter
 `--verbose` adds detailed output to the commandline so you can see what
 is going on including potential errors. The second `svn2git --rebase`
 command aligns your new git repository with the svn import. You are now

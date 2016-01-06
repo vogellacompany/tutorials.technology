@@ -39,5 +39,7 @@ The following listing shows an example on how to replace the email
 address from one author of all the commits via the `git filter-branch`
 command.
 
-[source,terminal] ---- include::./examples/filterbranch/replace.txt[]
+[source,terminal]
+----
+include::./examples/filterbranch/replace.txt[]
 ----

@@ -1,7 +1,7 @@
 [[gitpatch]]
 = What is a patch file?
 
-((Patch))
+(((Patch)))
  A _patch_ is a text file that
 contains changes to the source code. A patch created with the
 `git format-patch` command includes meta-information about the commit

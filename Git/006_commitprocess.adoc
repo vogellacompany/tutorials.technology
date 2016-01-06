@@ -1,7 +1,9 @@
 [[gitaddingprocess]]
+
 = Adding to a Git repository via staging and committing
 
 [[git_addtorepository]]
+
 == Adding changes to a Git repository
 
 (((Adding files to the Git repository)))
@@ -19,6 +21,7 @@ This process is depicted in the following graphic.
 image::img/committingprocess10.png[Git commit process] 
  
 [[git_stagingprocess]]
+
 == Adding to the staging area
 
 (((Staging process)))
@@ -43,11 +46,12 @@ Staging area is nowadays the preferred term by the Git community. Both
 terms mean the same thing.
 
 [[git_commitprocess]]
+
 == Committing to the repository
 
 (((Commit process)))
- After adding the
-selected files to the staging area, you can _commit_ these files to add
+
+After adding the selected files to the staging area, you can _commit_ these files to add
 them permanently to the Git repository. _Committing_ creates a new
 persistent snapshot (called _commit_ or _commit object_ ) of the staging
 area in the Git repository. A commit object, like all objects in Git, is
@@ -59,9 +63,11 @@ staged changes are committed.
 For committing the staged changes you use the `git commit` command.
 
 [[commits]]
+
 == Committing changes
 
-((Committing))
- If you commit changes to
+(((Committing)))
+
+If you commit changes to
 your Git repository, you create a new _commit object_ in the Git
 repository. See <<commit_object>> for information about the commit object.

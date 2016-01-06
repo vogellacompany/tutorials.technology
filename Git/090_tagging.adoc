@@ -9,19 +9,27 @@ You can list the available tags
  LARSSECONDARY"list
 available tags"LARSSECONDARY via the following command:
 
-[source,terminal] ---- include::./examples/tag/list.txt[] ---- ## Search
-by pattern for a tag \{#tag_searchbypattern}
+[source,terminal]
+----
+include::./examples/tag/list.txt[]
+----
 
-You can use the `-l` parameter in the `git tag` command to search for a
-pattern in the tag.
+[[tag_searchbypattern]]
+== Searchby pattern for a tag
 
-[source,terminal] ---- include::./examples/tag/search.txt[] ---- ##
-Creating lightweight tags \{#tagging_createlightweight}
+You can use the `-l` parameter in the `git tag` command to search for a pattern in the tag.
 
-((Tags/Tagging))
- LARSSECONDARY"create
-lightweight tags"LARSSECONDARY To create a lightweight tag don't use the
-`-m` , `-a` or `-s` option.
+[source,terminal]
+----
+include::./examples/tag/search.txt[]
+----
+
+[[tagging_createlightweight]]
+== Creating lightweight tags
+
+(((Tags/Tagging, create lightweight tags)))
+
+To create a lightweight tag don't use the `-m` , `-a` or `-s` option.
 
 The term _build_ describes the conversion of your source code into
 another state, e.g., converting Java sources to an executable `JAR`
@@ -29,29 +37,43 @@ file. Lightweight tags in Git are often used to identify the input for a
 build. Frequently this does not require additional information other
 than a build identifier or the timestamp.
 
-[source,terminal] ---- include::./examples/tag/createlight.txt[] ---- ##
-Creating annotated tags \{#tagging_createannoted}
+[source,terminal]
+----
+include::./examples/tag/createlight.txt[]
+----
 
-((Tags/Tagging))
- LARSSECONDARY"create
-annotated tags"LARSSECONDARY You can create a new annotated tag via the
+[[tagging_createannoted]]
+== Creating annotated tags
+
+(((Tags/Tagging, create annotated tags)))
+
+You can create a new annotated tag via the
 `git tag -a` command. An annotated tag can also be created using the
 `-m` parameter, which is used to specify the description of the tag. The
 following command tags the current active HEAD.
 
-[source,terminal] ---- include::./examples/tag/create.txt[] ---- You can
-also create tags for a certain commit id.
+[source,terminal]
+----
+include::./examples/tag/create.txt[]
+----
 
-[source,terminal] ---- include::./examples/tag/createid.txt[] ---- ##
-Creating signed tags \{#tagging_signedtags}
+You can also create tags for a certain commit id.
 
-((Tags/Tagging))
- LARSSECONDARY"signed
-tags"LARSSECONDARY You can use the option `-s` to create a signed tag.
+[source,terminal]
+----
+include::./examples/tag/createid.txt[]
+----
+
+[[tagging_signedtags]]
+== Creating signed tags
+
+(((Tags/Tagging, signed tags)))
+
+You can use the option `-s` to create a signed tag.
 These tags are signed with _GNU Privacy Guard (GPG)_ and can also be
 verified with GPG. For details on this please see the following URL:
 https://www.kernel.org/pub/software/scm/git/docs/git-tag.html[Git tag
-manpage] .
+manpage].
 
 [[tagging_checkout]]
 == Checkout tags
@@ -61,7 +83,11 @@ manpage] .
 tags"LARSSECONDARY If you want to use the code associated with the tag,
 use:
 
-[source,terminal] ---- include::./examples/tag/checkout.txt[] ---- >
+[source,terminal]
+----
+include::./examples/tag/checkout.txt[]
+----
+ >
 *Warning* > > If you checkout a tag, you are in the _detached head mode_
 and commits > created in this mode are harder to find after you checkout
 a branch > again. See ? for details.
@@ -75,16 +101,24 @@ tag"LARSSECONDARY By default the `git push` command does not transfer
 tags to remote repositories. You explicitly have to push the tag with
 the following command.
 
-[source,terminal] ---- include::./examples/tag/push.txt[] ---- ## Delete
-tags \{#tagging_delete}
+[source,terminal]
+----
+include::./examples/tag/push.txt[]
+----
 
-((Tags/Tagging))
- LARSSECONDARY"delete
-tag"LARSSECONDARY You can delete tags with the `-d` parameter. This
+[[tagging_delete]]
+== Delete tags
+
+(((Tags/Tagging, delete tag)))
+
+You can delete tags with the `-d` parameter. This
 deletes the tag from your local repository. By default Git does not push
 tag deletions to a remote repository, you have to trigger that
 explicitly.
 
 The following commands demonstrate how to push a tag deletion.
 
-[source,terminal] ---- include::./examples/tag/delete.txt[] ----
+[source,terminal]
+----
+include::./examples/tag/delete.txt[]
+----

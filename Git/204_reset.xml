@@ -1,6 +1,6 @@
 <section id="resetcommits" role="wrapper">
 	<title>Resetting changes with git reset</title>
-	<section id="findingresettedcommits">
+	<section id="findingresetedcommits">
 		<title>Finding commits that are no longer visible on a branch</title>
 		<para>
 			If you reset the branch pointer of a branch to a certain commit, the

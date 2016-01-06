@@ -30,11 +30,20 @@ On Windows systems you can tell Git to convert line endings during a
 checkout to CRLF and to convert them back to LF during commit. Use the
 following setting for this.
 
-[source,terminal] ---- include::./examples/linefeed/windows.txt[] ----
+[source,terminal]
+----
+include::./examples/linefeed/windows.txt[]
+----
 On Linux and Mac you can tell Git to convert CRLF to LF with the
 following setting.
 
-[source,terminal] ---- include::./examples/linefeed/linux.txt[] ---- ##
+[source,terminal]
+----
+include::./examples/linefeed/linux.txt[]
+----
+ 
+
+==
 Configuring line ending settings per repository
 \{#line_feedendings_gitattributes}
 

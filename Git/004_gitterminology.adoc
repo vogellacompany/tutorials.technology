@@ -1,7 +1,9 @@
 [[git]]
+
 = Important terminology in Git
 
 [[gitdefintion_localrepositories]]
+
 == Cloning, creating and deleting a Git repository
 
 The process of copying an existing Git repository is called cloning.
@@ -13,6 +15,7 @@ If you want to delete a Git repository, you can simply delete the folder
 which contains the repository.
 
 [[gitdefintion_bare]]
+
 == Bare repositories and non-bare repositories
 
 If you clone a Git repository, by default, Git assumes that you want to
@@ -28,13 +31,15 @@ changes through modification of files and to create new versions in the
 repository. This is the default type which is created if you do not
 specify any parameter during the clone operation.
 
-A local non-bare Git repository is typically called _local repository_ .
+A local non-bare Git repository is typically called _local repository_.
 
 [[workingtree]]
+
 == Working tree
 
-((Working tree in Git))
- A local repository
+(((Working tree in Git)))
+
+A local repository
 provides at least one collection of files which originate from a certain
 version of the repository. This collection of files is called the
 _working tree_ . It corresponds to a checkout of one version of the
@@ -45,6 +50,7 @@ existing files and by creating and removing files. Afterwards he can add
 these changes to the repository.
 
 [[gitdefintion_localoperations]]
+
 == Local operations
 
 Once the user has his local repository, he can perform modify files in
@@ -66,13 +72,13 @@ also integrate changes from other repositories into their local
 repository via the _fetch_ and _pull_ operation.
 
 [[gitdefintion_branching]]
+
 == The concept of branches
 
-((Branch))
- (((What is
-branching in Git?)))
+(((Branch)))
+(((What is branching in Git?)))
 
- Git supports _branching_ which means
+Git supports _branching_ which means
 that you can work on different versions of your collection of files. A
 branch separates these different versions and allows the user to switch
 between these versions to work on them.

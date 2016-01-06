@@ -1,14 +1,16 @@
 [[configure-files-and-directories-to-ignore]]
+
 = Configure files and directories to ignore
 
 [[ignoring-files-and-directories-with-a-.gitignore-file]]
+
 == Ignoring files and directories with a .gitignore file
 
-((Ignore files))
+(((Ignore files)))
 
 ((.gitignore))
- Git can be configured to
-ignore certain files and directories for repository operations. This is
+
+Git can be configured to ignore certain files and directories for repository operations. This is
 configured via one or several `.gitignore` files. Typically, this file
 is located at the root of your Git repository but it can also be located
 in sub-directories. In the second case the defined rules are only valid
@@ -16,16 +18,20 @@ for the sub-directory and below.
 
 You can use certain wildcards in this file. `*` matches several
 characters. More patterns are possible and described under the following
-URL:
-https://www.kernel.org/pub/software/scm/git/docs/gitignore.html[gitignore
+URL: https://www.kernel.org/pub/software/scm/git/docs/gitignore.html[gitignore
 manpage]
 
 For example, the following `.gitignore` file tells Git to ignore the
 `bin` and `target` directories and all files ending with a ~.
 
-[source,terminal] ---- include::./examples/ignore/gitignore[] ---- You
-can create the `.gitignore` file in the root directory of the working
+[source,terminal]
+----
+include::./examples/ignore/gitignore[]
+----
+
+You can create the `.gitignore` file in the root directory of the working
 tree to make it specific for the Git repository.
+
 
 [TIP]
 ====
@@ -43,16 +49,22 @@ It is good practice to commit the local `.gitignore` file into the Git
 repository so that everyone who clones this repository have it.
 
 [[global-cross-repository-.gitignore-settings]]
+
 == Global (cross-repository) .gitignore settings
 
 You can also setup a global `.gitignore` file valid for all Git
 repositories via the `core.excludesfile` setting. The setup of this
 setting is demonstrated in the following code snippet.
 
-[source,terminal] ---- include::./examples/gitignore/global.txt[] ----
+[source,terminal]
+----
+include::./examples/gitignore/global.txt[] 
+----
+
 The global `.gitignore` file is only locally available.
 
 [[local-per-repository-ignore-rules]]
+
 == Local per-repository ignore rules
 
 You can also create local per-repository rules by editing the

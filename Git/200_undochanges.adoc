@@ -1,7 +1,9 @@
 [[undochanges]]
+
 = Revert uncommitted changes in tracked files
 
 [[undochanges_usecase]]
+
 == Use cases
 
 If you have a tracked file in Git, you can always recreate the file
@@ -11,14 +13,13 @@ changes are included in the next commit. This chapter explain you how
 you can do this.
 
 [[undochanges_reset]]
+
 == Remove staged changes from the staging area
 
-((Staging area))
- LARSSECONDARY"remove
-staged changes"LARSSECONDARY (((Remove staged changes from
-the staging area)))
+((Staging area, remove staged changes))
 
- You can use the `git reset [paths]`
+
+You can use the `git reset [paths]`
 command to remove staged changes from the staging area. This means that
 `git reset [paths]` is the opposite of `git add [paths]` . It avoids
 that the changes are included in the next commit. The changes are still
@@ -28,63 +29,85 @@ can stage and commit them at a later point.
 In the following example you create a new file and change an existing
 file. Both changes are staged.
 
-[source,terminal] ----
-include::./examples/deletefile/stageunwantedchanges.txt[] ---- The
-output of `git status` command should look similar to the following.
+[source,terminal]
+----
+include::./examples/deletefile/stageunwantedchanges.txt[]
+----
 
-[source,terminal] ----
-include::./examples/deletefile/stageunwantedchanges_result.txt[] ----
+The output of `git status` command should look similar to the following.
+
+[source,terminal]
+----
+include::./examples/deletefile/stageunwantedchanges_result.txt[]
+----
+
 Remove the changes from the staging area with the following command.
 
-[source,terminal] ---- include::./examples/deletefile/unstage.txt[] ----
+[source,terminal]
+----
+include::./examples/deletefile/unstage.txt[]
+----
+
 Use the `git status` command to see the result.
 
-[source,terminal] ----
-include::./examples/deletefile/unstage_result.txt[] ---- The `git reset`
+[source,terminal]
+----
+include::./examples/deletefile/unstage_result.txt[]
+----
+
+The `git reset`
 behaves differently depending on the options you provide. To learn more
 about the `git reset` command see ? .
 
 [[undochanges_checkout]]
 == Remove changes in the working tree
 
-((git checkout))
- (((Checkout
-version from staging area)))
+(((git checkout, Checkout version from staging area)))
 
- (((Undo changes
-in the working tree)))
+(((Undo changes in the working tree)))
 
- > *Warning* > > Be careful with the
-following command. It allows you to override the > changes in files in
-your working tree. You will not be able to restore > these changes.
+[WARNING]
+====
+Be careful with the
+following command. It allows you to override the changes in files in
+your working tree. You will not be able to restore these changes.
+====
 
 Changes in the working tree which are not staged can be undone with
 `git checkout` command. This command resets the file in the working tree
 to the latest staged version. If there are no staged changes, the latest
 committed version is used for the restore operation.
 
-[source,terminal] ---- include::./examples/delete/git_checkoutfile.txt[]
----- For example, you can restore the content of a directory called
+[source,terminal]
+----
+include::./examples/delete/git_checkoutfile.txt[]
+---- 
+
+For example, you can restore the content of a directory called
 `data` with the following command.
 
-[source,terminal] ----
-include::./examples/delete/restoredir_notstaged.txt[] ---- ## Remove
-changes in the working tree and the staging area
-\{#undochanges_directorydeletion}
+[source,terminal]
+----
+include::./examples/delete/restoredir_notstaged.txt[]
+----
+ 
+[[undochanges_directorydeletion]]
+== Remove changes in the working tree and the staging area
 
-((git checkout))
- LARSSECONDARY"undo staged
-changes"LARSSECONDARY (((Undo staged
-changes)))
+(((git checkout, undo staged changes)))
 
- If you want to undo a staged but uncommitted
+If you want to undo a staged but uncommitted
 change, you use the `git checkout [commit-pointer] [paths]` command.
 This version of the command resets the working tree and the staged area.
 
 The following demonstrates the usage of this to restore a delete
 directory.
 
-[source,terminal] ---- include::./examples/delete/restoredir.txt[] ----
+[source,terminal]
+----
+include::./examples/delete/restoredir.txt[]
+----
+
 The additional commit pointer parameter instructs the `git checkout`
 command to reset the working tree and to also remove the staged changes.
 
@@ -94,4 +117,7 @@ command to reset the working tree and to also remove the staged changes.
 When you have added the changes of a file to the staging area, you can
 also revert the changes in the staging area base on the last commit.
 
-[source,terminal] ---- include::./examples/commandline/git_revert[] ----
+[source,terminal]
+----
+include::./examples/commandline/git_revert[]
+----

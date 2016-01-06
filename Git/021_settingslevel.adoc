@@ -1,7 +1,9 @@
 [[setup]]
+
 = Different levels of Git configuration
 
 [[setup_configurationlevels]]
+
 == Git configuration levels
 
 The `git config` command allows you to configure your Git settings.
@@ -12,14 +14,14 @@ setting the repository overrides the user setting and a user setting
 overrides a system wide setting.
 
 [[setup_systemwideconfiguration]]
+
 == Git system-wide configuration
 
-((System wide Git configuration ))
+((System wide Git configuration))
 
-((Configuration))
- LARSSECONDARY"System
-wide configuration"LARSSECONDARY You can provide a system wide
-configuration for your Git settings. A system wide configuration is not
+(((Configuration, System wide configuration)))
+
+You can provide a system wide configuration for your Git settings. A system wide configuration is not
 very common, most settings are user specific or repository specific as
 described in the next chapters.
 
@@ -29,14 +31,13 @@ rights, i.e. root rights, in your OS and use the `--system` option for
 the `git config` command.
 
 [[setup_userconfiguration]]
+
 == Git user configuration
 
-((Configuration))
- LARSSECONDARY"User
-specific configuration"LARSSECONDARY (((User specific Git
-configuration )))
+(((Configuration, User specific configuration)))
+(((User specific Git configuration )))
 
- Git allows you to store user settings in
+Git allows you to store user settings in
 the `.gitconfig` file located in the user home directory. This is also
 called the _global_ Git configuration.
 
@@ -48,18 +49,16 @@ In each Git repository you can also configure the settings for this
 repository. User configuration is done if you include the `--global`
 option in the `git config` command.
 
-((Configuration))
- LARSSECONDARY"repository
-specific configuration"LARSSECONDARY ## Repository specific
-configuration \{#setup_configuration}
+(((Configuration, repository specific configuration)))
 
-((Configuration))
- LARSSECONDARY"Repository
-specific configuration"LARSSECONDARY (((Repository
-specific Git configuration )))
+[[setup_configuration]]
 
- You can also store
-repository specific settings in the `.git/config` file of a repository.
+== Repository specific configuration
+
+(((Configuration, Repository specific configuration)))
+(((Repository specific Git configuration )))
+
+You can also store repository specific settings in the `.git/config` file of a repository.
 Use the `--local` or use no flag at all. If neither the `--system` not
 the `--global` parameter is used, the setting is specific for the
 current Git repository.

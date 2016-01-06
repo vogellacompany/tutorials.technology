@@ -1,7 +1,9 @@
 [[git]]
-= Git
+
+= Introduction to version control systems and Git
 
 [[versioncontrolssystems]]
+
 == What is a version control system?
 
 (((Version control system)))
@@ -31,6 +33,7 @@ control, e.g., you may use a VCS to track the different versions of your
 company logo.
 
 [[cvcs_definition]]
+
 == Localized and centralized version control systems
 
 A localized version control system keeps local copies of the files. This
@@ -47,6 +50,7 @@ machine. Both system makes it also harder to work in parallel on
 different features.
 
 [[dvcs_definition]]
+
 == What is a distributed version control system?
 
 (((Version control system, distributed version control system)))
@@ -71,7 +75,7 @@ capabilities of the distributed version control system itself.
 
 image::img/sharedrepo10.png[Creating snapshots] 
 
-## What is Git?
+== What is Git?
 
 (((What is Git)))
 

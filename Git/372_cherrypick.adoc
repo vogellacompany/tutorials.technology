@@ -3,24 +3,43 @@
 
 In the following example you create a new branch and commit two changes.
 
-[source,terminal] ---- include::./examples/cherry/step1.txt[] ---- You
+[source,terminal]
+----
+include::./examples/cherry/step1.txt[]
+----
+ You
 can check the commit history, for example, with the `git log --oneline`
 command.
 
-[source,terminal] ---- include::./examples/cherry/step2.txt[] ---- The
+[source,terminal]
+----
+include::./examples/cherry/step2.txt[]
+----
+ The
 following command selects the first commit based on the commit ID and
 applies its changes to the master branch. This creates a new commit on
 the master branch.
 
-[source,terminal] ---- include::./examples/cherry/step3.txt[] ---- The
+[source,terminal]
+----
+include::./examples/cherry/step3.txt[]
+----
+ The
 `cherry-pick` command can be used to change the order of commits.
 `git cherry-pick` also accepts commit ranges for example in the
 following command.
 
-[source,terminal] ---- include::./examples/cherry/step4.txt[] ---- >
+[source,terminal]
+----
+include::./examples/cherry/step4.txt[]
+----
+ >
 *Tip* > > See ? for more information about commit ranges.
 
 If things go wrong or you change your mind, you can always reset to the
 previous state using the following command.
 
-[source,terminal] ---- include::./examples/cherry/step5.txt[] ----
+[source,terminal]
+----
+include::./examples/cherry/step5.txt[]
+----

@@ -83,5 +83,8 @@ others you need to use the `-f` parameter in your `git push` command and
 subsequently your colleagues have to use fetch -f to fetch the rewritten
 commits.
 
-[source,terminal] ---- include::./examples/rebase/forcedpush.txt[] ----
+[source,terminal]
+----
+include::./examples/rebase/forcedpush.txt[]
+----
 ====

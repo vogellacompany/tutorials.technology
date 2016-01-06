@@ -1,7 +1,7 @@
 [[gitmerge_definition]]
 = Merging
 
-((Merging))
+(((Merging)))
  (((git
 merge)))
 

@@ -11,18 +11,33 @@ format-patch)))
  The following example creates a branch,
 changes several files and creates a commit recording these changes.
 
-[source,terminal] ---- include::./examples/patch/patch1.txt[] ---- The
+[source,terminal]
+----
+include::./examples/patch/patch1.txt[]
+----
+ The
 next example creates a patch for these changes.
 
-[source,terminal] ---- include::./examples/patch/patch2.txt[] ---- To
+[source,terminal]
+----
+include::./examples/patch/patch2.txt[]
+----
+ To
 apply this patch to your master branch in a different clone of the
 repository, switch to it and use the `git apply` command.
 
-[source,terminal] ---- include::./examples/patch/patch3.txt[] ----
+[source,terminal]
+----
+include::./examples/patch/patch3.txt[]
+----
 Afterwards you can commit the changes introduced by the patches and
 delete the patch file.
 
-[source,terminal] ---- include::./examples/patch/patch4.txt[] ---- >
+[source,terminal]
+----
+include::./examples/patch/patch4.txt[]
+----
+ >
 *Tip* > > Use the `git am` command to apply and commit the changes in a
 single > step. To apply and commit all patch files in the directory use,
 for > example, the `git am *.patch` command. You specify the order in
@@ -35,4 +50,7 @@ You can specify the commit ID and the number of patches which should be
 created. For example, to create a patch for selected commits based on
 the HEAD pointer you can use the following commands.
 
-[source,terminal] ---- include::./examples/patch/patch5.txt[] ----
+[source,terminal]
+----
+include::./examples/patch/patch5.txt[]
+----

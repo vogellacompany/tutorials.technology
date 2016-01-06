@@ -1,7 +1,9 @@
 [[installation]]
+
 = Installation
 
 [[installation_ubuntu]]
+
 == Ubuntu, Debian and derived systems
 
 (((Git Installation, Ubuntu, Debian)))
@@ -12,7 +14,8 @@ Git command line tool via the following command:
 [source,terminal] 
 ---- 
 include::./examples/installation/ubuntu.txt[]
----- 
+----
+ 
 [[installation_fedora]]
 
 == Fedora, Red Hat and derived systems
@@ -28,6 +31,7 @@ include::./examples/installation/fedora.txt[]
 ----
 
 [[installation_linux]] 
+
 == Other Linux systems
 
 (((Installation, Arch, Gentoo, SUSE)))
@@ -37,13 +41,13 @@ distributions please check the documentation of your distribution. The
 following listing contains the commands for the most popular ones.
 
 [source,terminal] 
----- 
-include::./examples/installation/linux.txt[] 
+----
+include::./examples/installation/linux.txt[]
 ----
 
 [[installation_windows]] 
-## Windows
 
+== Windows
 
 (((Installation, Windows)))
 

@@ -1,18 +1,21 @@
 [[git]]
+
 = The details of the commit objects
 
 [[commit_object]]
+
 == Commit object (commit)
 
-((Commit object))
+(((Commit object)))
+(((Commit)))
 
-((Commit))
- Conceptually a commit object
+Conceptually a commit object
 (short:commit) represents a version of all files tracked in the
 repository at the time the commit was created. Commits know their
 parent(s) and this way capture the version history of the repository.
 
 [[commit_objects]]
+
 == Technical details of a commit object
 
 This commit object is addressable via a hash ( _SHA-1 checksum_ ). This
@@ -37,12 +40,13 @@ stored in these packs.
 A commit object is depicted in the following picture.
 
 image::img/commit_object.png[Commit object] 
- The above
-picture is simplified. Tree objects point to other tree objects and file
+
+The above picture is simplified. Tree objects point to other tree objects and file
 blobs. Objects which didn't change between commits are reused by
 multiple commits.
 
 [[commits_sha_checksum]]
+
 == Hash and abbreviated commit hash
 
 (((SHA-1 checksum in Git)))

@@ -9,23 +9,37 @@ In the following example you create a conflict during a merge operation.
 The following steps create a merge conflict. It assumes that _repo1_ and
 _repo2_ have the same _origin_ repository defined.
 
-[source,terminal] ---- include::./examples/merge/createconflict1.txt[]
----- [source,terminal] ----
-include::./examples/merge/createconflict2.txt[] ---- [source,terminal]
----- include::./examples/merge/createconflict3.txt[] ---- As this push
+[source,terminal]
+----
+include::./examples/merge/createconflict1.txt[]
+---- [source,terminal]
+----
+include::./examples/merge/createconflict2.txt[]
+----
+ [source,terminal]
+----
+include::./examples/merge/createconflict3.txt[]
+----
+ As this push
 would not result in a non-fast-format merge, you receive an error
 message similar to the following listing.
 
-[source,terminal] ---- include::./examples/merge/createconflict4.txt[]
+[source,terminal]
+----
+include::./examples/merge/createconflict4.txt[]
 ---- To solve this, you need to integrate the remote changes into your
 local repository. In the following listing the `git fetch` command gets
 the changes from the remote repository. The `git merge` command tries to
 integrate it into your local repository.
 
-[source,terminal] ---- include::./examples/merge/createconflict5.txt[]
+[source,terminal]
+----
+include::./examples/merge/createconflict5.txt[]
 ---- This creates the conflict and a message similar to the following.
 
-[source,terminal] ---- include::./examples/merge/createconflict7.txt[]
+[source,terminal]
+----
+include::./examples/merge/createconflict7.txt[]
 ---- The resulting conflict is displayed in ? and solved in ?
 
 [TIP]
@@ -42,7 +56,9 @@ for the global configuration.
 Git marks the conflicts in the affected files. In the example from ? one
 file has a conflict and the file looks like the following listing.
 
-[source,terminal] ---- include::./examples/merge/mergeconflict.txt[]
+[source,terminal]
+----
+include::./examples/merge/mergeconflict.txt[]
 ---- The text above the ======= signs is the conflicting change from
 your current branch and the text below is the conflicting change from
 the branch that you are merging in.
@@ -56,13 +72,18 @@ apply the change to the Git repository.
 To solve the merge conflict you edit the file manually. The following
 listing shows a possible result.
 
-[source,terminal] ----
-include::./examples/merge/mergeconflictsolved.txt[] ---- Afterwards add
+[source,terminal]
+----
+include::./examples/merge/mergeconflictsolved.txt[]
+----
+ Afterwards add
 the affected file to the staging area and commit the result. This
 creates the merge commit. You can also push the integrated changes now
 to the remote repository.
 
-[source,terminal] ---- include::./examples/merge/createconflict6.txt[]
+[source,terminal]
+----
+include::./examples/merge/createconflict6.txt[]
 ---- Instead of using the `-m` option in the above example you can also
 use the `git commit` command without this option. In this case the
 command opens your default editor with the default commit message about

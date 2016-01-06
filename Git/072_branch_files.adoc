@@ -1,7 +1,9 @@
 [[gitbranchfiles]]
+
 = Working with branches
 
 [[gitbranch_untrackedfiles]]
+
 == Switching branches with untracked files
 
 (((switch branch, with untrack files)))
@@ -13,6 +15,7 @@ This allows you to create a branch for unstaged and uncommitted changes
 at any point in time.
 
 [[gitbranch_dirtyfiles]]
+
 == Switching branches with uncommitted changes
 
 (((switch branch,with uncommitted changes)))
