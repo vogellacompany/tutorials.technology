@@ -18,4 +18,4 @@ https://github.com/vogellacompany/asciidoctor-gradle-examples[Asciidoctor with G
 
 https://wiki.eclipse.org/Mylyn/WikiText/AsciiDoc[Eclipse Plugin for Asciidoc]
 
-http://asciidoctor.org/docs/asciidoctor-gradle-plugin/[Gradle Asciidoc plug-in]
+http://asciidoctor.org/docs/asciidoctor-gradle-plugin/[Gradle Asciidoc plug-in documentation]

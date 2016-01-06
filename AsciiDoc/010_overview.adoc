@@ -105,3 +105,6 @@ To convert asciidoc into DocBook use the following command:
 
 asciidoctor -b docbook45 inputfile.adoc.
 
+== Include content into the header of our HTML or Docbook output
+
+You can add content to the header of the HTML output. See http://asciidoctor.org/docs/user-manual/#docinfo-file for details. 
