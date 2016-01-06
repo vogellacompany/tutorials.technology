@@ -3,12 +3,12 @@
 
 (((FAQ)))
  
-
+[[gitfaq_symlinks]]
 == Can Git handle symlinks?
-\{#gitfaq_symlinks}
 
-(((symlinks)))
- The usage of symlinks
+((((symlinks)))
+
+The usage of symlinks
 requires that the operating system used by the developers supports them.
 
 Git as version control system can handle symlinks.

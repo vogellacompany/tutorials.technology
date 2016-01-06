@@ -24,10 +24,11 @@ The `git reset --hard` command makes the working tree exactly match HEAD.
 ----
 include::./examples/delete/cleanworking.txt[]
 ----
+
 [WARNING]
-=====
+====
 If you have tracked files with modifications, you
-lose these changes > with the above command.
+lose these changes with the above command.
 ====
 
 [NOTE]
