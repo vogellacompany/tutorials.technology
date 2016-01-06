@@ -82,13 +82,13 @@ private int a;
 
 == Index
 
-You can add primary index terms to your document via ((yourterm)). A secondary index can be added to your document via (((seconddary term1, secondary term2))). 
+You can add primary index terms to your document via (((yourterm))). A secondary index can be added to your document via (((seconddary term1, secondary term2))). 
 
 
-(((Big cats,Lions)))
+((((Big cats,Lions)))
 
 ++++
-(((Big cats,Lions)))
+((((Big cats,Lions)))
 ++++
 
 Example 

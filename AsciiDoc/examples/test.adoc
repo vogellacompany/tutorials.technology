@@ -30,19 +30,19 @@ deep.
 footnote:[An example footnote.]
 indexterm:[Example index entry]
 
-And now for something completely different: ((monkeys)), lions and
+And now for something completely different: (((monkeys))), lions and
 tigers (Bengal and Siberian) using the alternative syntax index
 entries.
-(((Big cats,Lions)))
+((((Big cats,Lions)))
 (((Big cats,Tigers,Bengal Tiger)))
-(((Big cats,Tigers,Siberian Tiger)))
+((((Big cats,Tigers,Siberian Tiger)))
 Note that multi-entry terms generate separate index entries.
 
-Here are a couple of image examples: an image:images/smallnew.png[]
+Here are a couple of image examples: an image:imgsmallnew.png[]
 example inline image followed by an example block image:
 
 .Tiger block image
-image::images/tiger.png[Tiger image]
+image::imgtiger.png[Tiger image]
 
 Followed by an example table:
 

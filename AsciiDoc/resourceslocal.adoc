@@ -4,6 +4,8 @@ http://www.methods.co.nz/asciidoc/[AsciiDoc homepage]
 
 http://asciidoctor.org/docs/asciidoc-writers-guide/[AsciiDoc writers guide]
 
+http://chimera.labs.oreilly.com/books/1234000001578/ch02.html#_basic_index_entry[How to define an index in Asciidoc]
+
 https://waynebeaton.wordpress.com/2015/08/11/technology-behind-the-new-eclipse-project-handbook/[Eclipse Handbook - Technologies used including Asciidoc]
 
 http://johnmacfarlane.net/pandoc/[Pandoc - Converter from one Markup format to another]
@@ -16,3 +18,4 @@ https://github.com/vogellacompany/asciidoctor-gradle-examples[Asciidoctor with G
 
 https://wiki.eclipse.org/Mylyn/WikiText/AsciiDoc[Eclipse Plugin for Asciidoc]
 
+http://asciidoctor.org/docs/asciidoctor-gradle-plugin/[Gradle Asciidoc plug-in]
