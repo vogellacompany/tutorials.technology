@@ -6,7 +6,7 @@
 
 == View file in different revision
 
-((git show))
+(((git show)))
 
 The `git show` command allows
 to see and retrieve files from branches, commits and tags. It allows

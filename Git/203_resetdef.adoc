@@ -1,21 +1,23 @@
 [[resetcommitsdef]]
 = Use cases for git reset
 
-((git reset))
+(((git reset)))
  
+[[movebranchpointer]]
 
-== Moving the HEAD and
-branch pointer \{#resetcommit_move}
+== Moving the HEAD and branch pointer
 
-((git reset))
- Sometimes you want to change
+(((git reset)))
+
+Sometimes you want to change
 the commmit your branch pointer is pointing to. The `git reset` command
 allows you to manually set the current HEAD pointer (and its associated
 branch) to a specified commit. This is for example useful to undo a
 particular change or to build up a different commit history.
 
 image::img/gitreset10.png[Git reset] 
- All commits which
+
+All commits which
 were originally pointed to by the HEAD pointer and the commit pointed to
 by HEAD after the reset, are _reseted_ , e.g., not directly visible
 anymore from the current HEAD and branch pointer.
@@ -56,10 +58,10 @@ is updated. These parameters are listed in the following table.
 |hard |Yes |Yes |Yes
 |=================================================
 
-The `git reset` command does not remove untracked files. Use the
-`git clean` command for this.
+The `git reset` command does not remove untracked files. See <<gitclean>> command for this purpose.
 
 [[resetcommit_path]]
+
 == Not moving the HEAD pointer with git reset
 
 If you specify a path via the `git reset [path]` command , Git does not
