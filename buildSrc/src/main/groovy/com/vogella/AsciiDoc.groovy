@@ -13,7 +13,7 @@ class AsciiDoc extends AsciidoctorTask {
 		options doctype: 'book'
 
 		attributes	'source-highlighter' : 'coderay',
-		'toc':'left',
+		'toc':'',
 		'icons': 'font',
 		'setanchors':'true',
 		'idprefix':'',
