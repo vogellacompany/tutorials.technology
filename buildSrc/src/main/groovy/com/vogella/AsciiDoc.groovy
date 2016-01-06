@@ -12,10 +12,12 @@ class AsciiDoc extends AsciidoctorTask {
 
 		options doctype: 'book'
 
-		attributes	'source-highlighter' : 'coderay',
+		attributes	
+		'source-highlighter' : 'coderay',
 		'toc':'',
 		'icons': 'font',
 		'setanchors':'true',
+		'docinfo1': '',
 		'idprefix':'',
 		'idseparator':'-',
 		'docinfo1':'true'
