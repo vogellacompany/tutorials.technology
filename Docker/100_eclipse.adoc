@@ -1,4 +1,4 @@
-== Docker support in the Eclipse IDE
+= Docker support in the Eclipse IDE
 
 The Eclipse Linux tooling project also provides Docker tooling for the Eclipse IDE, which allows to use the Eclipse IDE as Docker client.
 

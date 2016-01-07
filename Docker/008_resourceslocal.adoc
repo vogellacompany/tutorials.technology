@@ -1,15 +1,11 @@
-== Asciidoc resources
-
-http://www.methods.co.nz/asciidoc/[AsciiDoc homepage]
+[appendix]
+= Docker resources
 
 http://tools.jboss.org/blog/eclipse-for-docker-has-arrived.html[Docker Tools for Eclipse]
 
-http://asciidoctor.org/docs/asciidoc-writers-guide/[AsciiDoc writers guide]
 
-https://waynebeaton.wordpress.com/2015/08/11/technology-behind-the-new-eclipse-project-handbook/[Eclipse Handbook - Technologies used including Asciidoc]
+https://docs.docker.com/engine/userguide/dockerizing/[Docker user guide]
 
-http://johnmacfarlane.net/pandoc/[Pandoc - Converter from one Markup format to another]
+http://developerblog.redhat.com/2014/05/15/practical-introduction-to-docker-containers/
 
-https://www.youtube.com/watch?v=MyhiD65qaUI[Youtube video about writing documentation with Asciidoctor]
-
-https://github.com/vogellacompany/asciidoctor-gradle-examples[Asciidoctor with Gradle example]
+http://fabiorehm.com/blog/2014/09/11/running-gui-apps-with-docker/[Running GUI applications with Docker]

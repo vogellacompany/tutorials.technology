@@ -1,7 +1,0 @@
-== Questions
-
-How do I mark a certain work in the text as filename?
-
-How do I mark something as command line?
-
-What is the equivalent of of <code> tags in Asciidoc

@@ -1,4 +1,4 @@
-== Docker installation and setup
+== Exercise: Creating a Redhat based Unix system with Java
 
 Install Docker Toolbox from https://www.docker.com/. The installation is well described on the getting started page. 
 For example https://docs.docker.com/linux/step_one/ describes the installation for Linux
