@@ -2,6 +2,7 @@
 :linkcss:
 Lars Vogel (c) 2009-2015 vogella GmbH
 Version 5.8, 10.08.2015
+:keywords: Git command line, Git, rebase, merge
 
 [abstract]
 == Summary of this tutorial
