@@ -11,3 +11,14 @@ sudo docker run hello-world
 
 If you issue the command the first time, it downloads the hello-world image and start it.
 
+To allow your user to run docker commands without the sudo prefix, configure a new group and add you user to it. 
+
+
+----
+sudo usermod -aG docker ubuntu
+----
+
+Afterwards you need to logout and login again. Validate that you can run docker commands without sudo.
+----
+docker run hello-world
+----

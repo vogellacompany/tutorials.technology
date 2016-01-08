@@ -6,4 +6,7 @@
 docker images
 ----
 
+== Create a new container
+
+docker run `image`
 

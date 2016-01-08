@@ -1,13 +1,24 @@
-== Exercise: Creating a Redhat based Unix system with Java
+= Exercise: Creating an Ubuntu based Unix system with Java
 
-Install Docker Toolbox from https://www.docker.com/. The installation is well described on the getting started page. 
-For example https://docs.docker.com/linux/step_one/ describes the installation for Linux
+To run a bash on an Ubuntu 15.04 system, use the following command.
+----
+docker run -t -i ubuntu:15.04 /bin/bash
+----
+This creates a docker container (if not yet present), start the Ubuntu system and runs a shell in this container.
 
-Afterwards you can test you installation as described on the webpage:
+
+You can create your custom Docker images. For this you write a docker file describing your
+image. This file is typically named `Dockerfile`.
+
+See https://docs.docker.com/engine/articles/dockerfile_best-practices/[Dockerfile best practices]/
+
+For example the following is a docker file which describes an image based on Ubuntu 15.10 with Java installed.
 
 ----
-sudo docker run hello-world
+include::examples/ubuntujava/Dockerfile[]
 ----
 
-If you issue the command the first time, it downloads the hello-world image and start it.
+To create an Docker image from this file, enter the `docker build -t [imagename]` command. 
+If you used for example `ubuntujava8` as image name, you can now start the corresponding container with the
+`docker run -t -i ubuntujava8 /bin/bash` command and type in `java` to check if the installation was successfully. 
 
