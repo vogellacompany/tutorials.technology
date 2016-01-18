@@ -1,9 +1,8 @@
 [[git_blame_def]]
 
-= Analyzing line changes with git blame
+== Analyzing line changes with git blame
 
 (((git blame)))
-
 The `git blame` command allows you to see which commit and author modified a file on a per line
 base.
 

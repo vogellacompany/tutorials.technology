@@ -1,10 +1,9 @@
 [[gitshortlog]]
-== git shortlog for release announcements
+=== git shortlog for release announcements
 
 ((git shortlog))
- The `git shortlog`
-command summarizes the `git log` output, it groups all commits by author
-and includes the first line of the commit message.
+The `git shortlog` command summarizes the `git log` output. 
+It groups all commits by author and includes the first line of the commit message.
 
 The `-s` option suppresses the commit message and provides a commit
 count. The `-n` option sorts the output based on the number of commits
@@ -14,9 +13,8 @@ by author.
 ----
 include::./examples/log/shortlog.txt[]
 ----
- This
-command also allows you to see the commits done by a certain author or
-committer.
+
+This command also allows you to see the commits done by a certain author or committer.
 
 [source,terminal]
 ----

@@ -1,2 +1,0 @@
-# make some changes to the file
-git diff --cached

@@ -37,20 +37,22 @@ include::052_exercises_remoterepositories.adoc[]
 
 include::070_branch_def.adoc[]
 include::074_branch.adoc[]
-include::076_branchdiff.adoc[]
 
-== Using tags
+== Using tags in Git
 
-include::088_tagging_def.adoc
-include::090_tagging.adoc
-include::100_analyze_changedfiles.adoc
-include::102_analyze_filediff.adoc
-include::110_analyzehistory.adoc
+include::088_tagging_def.adoc[]
+include::090_tagging.adoc[]
+
+
+include::100_analyze_changedfiles.adoc[]
+include::110_analyzehistory.adoc[]
 include::120_analyze_diff.adoc[]
-include::121_gitblame_def.adoc
-include::121_gitblame.adoc
-include::130_gitk.adoc
-include::150_gitshortlog.adoc
+
+include::121_gitblame_def.adoc[]
+include::121_gitblame.adoc[]
+
+include::130_gitk.adoc[]
+include::150_gitshortlog.adoc[]
 include::180_stash_def.adoc
 include::182_stash.adoc
 include::198_gitclean.adoc

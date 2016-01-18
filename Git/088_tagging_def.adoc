@@ -1,8 +1,5 @@
-[[tags]]
-= Tags in Git
-
 [[tagging]]
-== What are tags?
+=== What are tags?
 
 (((Tags/Tagging)))
 Git has the option to _tag_ a commit in the repository history so that you find it easier at a
@@ -12,7 +9,7 @@ version which has been released.
 If you tag a commit, you create an annotated or lightweight tag.
 
 [[tagging_lightweight_annotated]]
-== Lightweight and annotated tags
+=== Lightweight and annotated tags
 
 (((Tags/Tagging, lightweight tag)))
 (((Tags/Tagging, annotated tag)))
@@ -25,7 +22,7 @@ and the date of the tagging. _Annotated tags_ can also be signed and
 verified with _GNU Privacy Guard (GPG)_ .
 
 [[tagging_namingconventions]]
-== Naming conventions for tags
+=== Naming conventions for tags
 
 (((Tags/Tagging, naming conventions)))
 

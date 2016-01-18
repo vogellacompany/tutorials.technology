@@ -1,14 +1,13 @@
 [[gitfetch]]
-= Updating your remote-tracking branches with git fetch
+== Updating your remote-tracking branches with git fetch
 
 [[gitfetch_intro]]
-== Fetch
+=== Fetch
 
 ((git fetch))
- The `git fetch` command
-updates your remote-tracking branches, i.e., it updates the local copy
+The `git fetch` command updates your remote-tracking branches, i.e., it updates the local copy
 of branches stored in a remote repository. The following command updates
-the remote-tracking branches from the repository called _origin_ .
+the remote-tracking branches from the repository called _origin_.
 
 [source,terminal]
 ----
@@ -31,7 +30,7 @@ See ? for information about cherry-pick. See ? for the merge operation
 and ? for the rebase command.
 
 [[gitfetch_updateremotes]]
-== Fetch from all remote repositories
+=== Fetch from all remote repositories
 
 The `git fetch` command updates only the remote-tracking branches for
 one remote repository. In case you want to update the remote-tracking
@@ -44,7 +43,7 @@ include::./examples/remote/gitupdate.txt[]
 ----
 
 
-== Compare remote-tracking branch with local branch \{#gitfetch_compare}
+=== Compare remote-tracking branch with local branch \{#gitfetch_compare}
 
 The following code shows a few options how you can compare your
 branches.
@@ -57,26 +56,23 @@ origin. If you want to see the changes in origin compared to HEAD, you
 can switch the arguments or use the `-R` parameter.
 
 [[gitfetch_rebase]]
-== Rebase your local branch onto the remote-tracking branch
+=== Rebase your local branch onto the remote-tracking branch
 
-(((Rebase based on a remote-tracking
-branch)))
-
- You can rebase your current local branch onto a
-remote-tracking branch. The following commands demonstrate that.
+(((Rebase based on a remote-tracking branch)))
+You can rebase your current local branch onto a remote-tracking branch. The following commands demonstrate that.
 
 [source,terminal]
 ----
 include::./examples/remotebranch/apply.txt[]
 ----
+
 > *Tip* > > More information on the rebase command can be found in ? .
 
 [[gitremotebranch_fetchpull]]
-== Fetch compared with pull
+=== Fetch compared with pull
 
 ((Fetch compared with pull))
- The
-`git pull` command performs a `git fetch` and `git merge` (or
+The `git pull` command performs a `git fetch` and `git merge` (or
 `git rebase` based on your Git settings). The `git fetch` does not
 perform any operations on your local branches. You can always run the
 fetch command and review the incoming changes.

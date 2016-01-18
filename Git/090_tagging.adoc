@@ -1,13 +1,11 @@
 [[tagging]]
-= Working with tags
+== Working with tags
 
 [[tagging_list]]
-== List tags
+=== List tags
 
-You can list the available tags
-((Tags/Tagging))
- LARSSECONDARY"list
-available tags"LARSSECONDARY via the following command:
+(((Tags/Tagging, list available tags)))
+You can list the available tags via the following command:
 
 [source,terminal]
 ----
@@ -15,7 +13,7 @@ include::./examples/tag/list.txt[]
 ----
 
 [[tag_searchbypattern]]
-== Searchby pattern for a tag
+=== Search by pattern for a tag
 
 You can use the `-l` parameter in the `git tag` command to search for a pattern in the tag.
 
@@ -25,10 +23,9 @@ include::./examples/tag/search.txt[]
 ----
 
 [[tagging_createlightweight]]
-== Creating lightweight tags
+=== Creating lightweight tags
 
 (((Tags/Tagging, create lightweight tags)))
-
 To create a lightweight tag don't use the `-m` , `-a` or `-s` option.
 
 The term _build_ describes the conversion of your source code into
@@ -43,7 +40,7 @@ include::./examples/tag/createlight.txt[]
 ----
 
 [[tagging_createannoted]]
-== Creating annotated tags
+=== Creating annotated tags
 
 (((Tags/Tagging, create annotated tags)))
 
@@ -65,7 +62,7 @@ include::./examples/tag/createid.txt[]
 ----
 
 [[tagging_signedtags]]
-== Creating signed tags
+=== Creating signed tags
 
 (((Tags/Tagging, signed tags)))
 
@@ -76,12 +73,11 @@ https://www.kernel.org/pub/software/scm/git/docs/git-tag.html[Git tag
 manpage].
 
 [[tagging_checkout]]
-== Checkout tags
+=== Checkout tags
 
-((Tags/Tagging))
- LARSSECONDARY"checkout
-tags"LARSSECONDARY If you want to use the code associated with the tag,
-use:
+(((Tags/Tagging, checkout tags)))
+ 
+If you want to use the code associated with the tag, use:
 
 [source,terminal]
 ----
@@ -93,11 +89,11 @@ and commits > created in this mode are harder to find after you checkout
 a branch > again. See ? for details.
 
 [[tagging_pushtags]]
-== Push tags
+=== Push tags
 
-((Tags/Tagging))
- LARSSECONDARY"push
-tag"LARSSECONDARY By default the `git push` command does not transfer
+(((Tags/Tagging, pushtag)))
+
+By default the `git push` command does not transfer
 tags to remote repositories. You explicitly have to push the tag with
 the following command.
 
@@ -107,7 +103,7 @@ include::./examples/tag/push.txt[]
 ----
 
 [[tagging_delete]]
-== Delete tags
+=== Delete tags
 
 (((Tags/Tagging, delete tag)))
 

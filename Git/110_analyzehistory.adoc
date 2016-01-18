@@ -1,15 +1,13 @@
 [[analyzechanges]]
 
-= Analyzing the commit history with git log
+== Analyzing the commit history with git log
 
 [[analyzechanges_log]]
 
-== Using git log
+=== Using git log
 
 ((git log))
- The `git log` command shows
-the history of your repository in the current branch, i.e., the list of
-commits.
+The `git log` command shows the history of your repository in the current branch, i.e., the list of commits.
 
 [source,terminal]
 ----
@@ -17,11 +15,11 @@ include::./examples/log/log.txt[]
 ----
 
 [[git_log_options]]
-== Helpful parameters for git log
+=== Helpful parameters for git log
+
 ((git log, oneline))
 ((git log, abbrev-commit))
 ((git log, graph))
-
 The `--oneline` parameter fits the
 output of the `git log` command in one line.
 
@@ -43,11 +41,10 @@ https://www.kernel.org/pub/software/scm/git/docs/git-log.html[Git log manpage].
 
 [[analyzechangesg_changesinafile]]
 
-== View the change history of a file
+=== View the change history of a file
 
 (((git log, File history)))
 (((File history in Git)))
-
 To see changes in a file you can use the `-p` option in the `git log` command.
 
 [source,terminal]
@@ -55,7 +52,8 @@ To see changes in a file you can use the `-p` option in the `git log` command.
 include::./examples/changes/filechanges.txt[]
 ---- 
 
-== Configuring output format \{#analyzechanges_output}
+[[analyzechanges_output]]
+=== Configuring output format
 
 You can use the `--pretty` parameter to configure the output.
 
@@ -73,7 +71,7 @@ to define an alias.
 
 [[analyzechanges_grep]]
 
-== Filtering based on the commit message via regular expressions
+=== Filtering based on the commit message via regular expressions
 
 (((Search, Regular expression)))
 
@@ -92,12 +90,10 @@ log lists the commits that don't match the specified pattern.
 
 [[analyzechanges_user]]
 
-== Filtering the log output based on author or committer
+=== Filtering the log output based on author or committer
 
 (((Changes by a certain author or committer)))
-
 (((Search, Git commits by author or committer)))
-
 You can use the `--author=<pattern>` or `--committer=<pattern>` to filter
 the log output by author or committer. You do not need to use the full
 name, if a substring matches, the commit is included in the log output.

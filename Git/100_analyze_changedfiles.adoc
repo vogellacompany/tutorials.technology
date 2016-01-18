@@ -1,10 +1,10 @@
 [[analyzechanges]]
 
-= Listing changed files before a commit
+== Listing changed files before a commit
 
 [[gitstatus]]
 
-== Listing changed files
+=== Listing changed files
 
 (((git status)))
 
@@ -17,7 +17,7 @@ remove them, etc.
 
 [[gitstatus_example]]
 
-== Example: Using git status
+=== Example: Using git status
 
 The following commands create some changes in your Git repository.
 
@@ -39,4 +39,43 @@ The output of the command looks like the following listing.
 [source,terminal]
 ----
 include::./examples/log/status3.txt[]
+----
+
+[[gitdiff_changesdiff]]
+=== See the differences in the working tree since the last commit
+
+(((git diff)))
+(((unstaged changes)))
+(((git diff, unstaged changes)))
+The `git diff` command allows seeing the changes in the working tree compared to the last commit. 
+Via an optional third parameter you can specify a path to filter the displayed changes path can be a file or directory
+`git diff [path]`.
+
+[[analyzechanges_gitdiffworkingtree]]
+
+The following example code demonstrate the usage of the `git diff` command.
+
+[source,terminal]
+----
+# make some changes to the file
+echo "This is a change" > test01
+echo "and this is another change" > test02
+
+# check the changes via the diff command
+git diff
+
+---- 
+
+[[gitdiff_index]]
+
+=== See differences between staging area and last commit
+
+
+(((git diff, between staging area and commit)))
+To see which changes you have staged, i.e., you are going to commit with the next commit, use the following command.
+
+[source,terminal]
+----
+# make some changes to the file
+git diff --cached
 ----

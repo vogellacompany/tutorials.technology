@@ -1,10 +1,9 @@
 [[resetcommits]]
 
-= Resetting changes with git reset
+== Resetting changes with git reset
 
 [[findingresettedcommits]]
-
-== Finding commits that are no longer visible on a branch
+=== Finding commits that are no longer visible on a branch
 
 If you reset the branch pointer of a branch to a certain commit, the
 `git log` commands does not show the commits which exist after this
@@ -15,7 +14,6 @@ is the commit after A. You if you reset your branch pointer to A, the
 Commits like B can still be found via the `git reflog` command. See ? .
 
 [[cleanworkingdir]]
-
 == Deleting changes in the working tree and staging area for tracked files
 
 The `git reset --hard` command makes the working tree exactly match HEAD.
@@ -38,11 +36,9 @@ them also see <<gitreflog>>.
 ====
 
 [[resettosquash]]
-
 == Using git reset to squash commits
 
 ((git reset, squash  commits))
-
 As a soft reset does not remove your change to
 your files and index, you can use the `git reset --soft` command to
 squash several commits into one commit.
@@ -56,6 +52,4 @@ from the commits which were reseted are still part of the staging area.
 include::./examples/delete/squash.txt[]
 ----
 
-The
-interactive rebase adds more flexibility to squashing commits and allows
-to use the existing commit messages. See <<interactive_rebase>> for details.
+The interactive rebase adds more flexibility to squashing commits and allows to use the existing commit messages. See <<interactive_rebase>> for details.

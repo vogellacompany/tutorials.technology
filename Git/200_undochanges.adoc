@@ -1,10 +1,10 @@
 [[undochanges]]
 
-= Revert uncommitted changes in tracked files
+== Revert uncommitted changes in tracked files
 
 [[undochanges_usecase]]
 
-== Use cases
+=== Use cases
 
 If you have a tracked file in Git, you can always recreate the file
 content based on the staging area or based on a previous commit. You can
@@ -14,11 +14,9 @@ you can do this.
 
 [[undochanges_reset]]
 
-== Remove staged changes from the staging area
+=== Remove staged changes from the staging area
 
 ((Staging area, remove staged changes))
-
-
 You can use the `git reset [paths]`
 command to remove staged changes from the staging area. This means that
 `git reset [paths]` is the opposite of `git add [paths]` . It avoids
@@ -60,7 +58,7 @@ behaves differently depending on the options you provide. To learn more
 about the `git reset` command see ? .
 
 [[undochanges_checkout]]
-== Remove changes in the working tree
+=== Remove changes in the working tree
 
 (((git checkout, Checkout version from staging area)))
 
@@ -92,10 +90,9 @@ include::./examples/delete/restoredir_notstaged.txt[]
 ----
  
 [[undochanges_directorydeletion]]
-== Remove changes in the working tree and the staging area
+=== Remove changes in the working tree and the staging area
 
 (((git checkout, undo staged changes)))
-
 If you want to undo a staged but uncommitted
 change, you use the `git checkout [commit-pointer] [paths]` command.
 This version of the command resets the working tree and the staged area.
@@ -112,7 +109,7 @@ The additional commit pointer parameter instructs the `git checkout`
 command to reset the working tree and to also remove the staged changes.
 
 [[undochanges_indexexisting]]
-== Remove staging area based on last commit change
+=== Remove staging area based on last commit change
 
 When you have added the changes of a file to the staging area, you can
 also revert the changes in the staging area base on the last commit.
