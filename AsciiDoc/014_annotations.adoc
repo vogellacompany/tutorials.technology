@@ -1,0 +1,19 @@
+=== Annotations, tips and callouts
+
+You can write tips into your document with the following syntax.
+
+----
+[TIP]
+====
+Think of c1..c2 as _all commits as of c1 (not including c1) until commit
+c2._
+====
+----
+
+The output looks like the following.
+
+[TIP]
+====
+Think of c1..c2 as _all commits as of c1 (not including c1) until commit
+c2._
+====

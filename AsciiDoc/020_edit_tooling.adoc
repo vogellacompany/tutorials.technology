@@ -1,4 +1,4 @@
-== Edit Tooling
+== Tooling for writing Asciidoc documents
 
 === Eclipse
 
