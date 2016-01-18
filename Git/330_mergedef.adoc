@@ -2,10 +2,7 @@
 = Merging
 
 (((Merging)))
- (((git
-merge)))
-
- Git allows you to combine the changes which were
-created on two different branches. One way to achieve this is _merging_
-, which is described in this chapter. Other ways are using rebase or
-cherry-pick.
+(((git merge)))
+Git allows you to combine the changes which were created on two different branches.
+One way to achieve this is _merging_, which is described in this chapter. 
+Other ways are using rebase or cherry-pick.

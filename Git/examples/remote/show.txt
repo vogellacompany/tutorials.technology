@@ -1,2 +1,0 @@
-# show the details of the remote repo called origin
-git remote show origin

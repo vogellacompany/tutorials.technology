@@ -44,7 +44,7 @@ configure this behavior.
 
 You learn about the push command in <<cloneremotes_push>>.
 
-[[setup_rebase]]
+[[autosetuprebase]]
 
 === Avoid merge commits for pulling
 

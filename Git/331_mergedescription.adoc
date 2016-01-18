@@ -27,8 +27,8 @@ the same commit.
 image::img/merge_fastforward20.png[Fast forward merge result]
 
  
-
-== Merge commit \{#gitmerge_mergecommit}
+[[gitmerge_mergecommit]]
+== Merge commit
 
 (((Merging, merge commit)))
 (((Merging, three-way-merge)))

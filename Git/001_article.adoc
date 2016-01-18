@@ -29,12 +29,7 @@ include::026_ignore.adoc[]
 include::028_exercise_localgitworkflow.adoc[]
 
 include::048_remotes.adoc[]
-include::050_clone.adoc[]
-
-include::051_remotes_adding.adoc[]
-include::051_remotes_adding.xml[]
-include::052_remotesa.adoc[]
-include::060_remoterepository.adoc[]
+include::052_exercises_remoterepositories.adoc[]
 
 [[branches]]
 == Working with local branches
@@ -50,7 +45,7 @@ include::090_tagging.adoc
 include::100_analyze_changedfiles.adoc
 include::102_analyze_filediff.adoc
 include::110_analyzehistory.adoc
-include::120_analyze_diff.adoc
+include::120_analyze_diff.adoc[]
 include::121_gitblame_def.adoc
 include::121_gitblame.adoc
 include::130_gitk.adoc

@@ -8,7 +8,6 @@
 
 (((Repository, remote)))
 (((Remote repositories)))
-
 _Remotes_ are URLs in a Git
 repository to other remote repositories that are hosted on the Internet,
 locally or on the network.
@@ -46,7 +45,6 @@ system.
 
 (((Repository, bare)))
 (((Bare repository)))
-
 A remote repository on a server typically does
 not require a _working tree_. A Git repository without a _working tree_
 is called a _bare repository_. You can create such a repository with
@@ -78,3 +76,214 @@ configuration with the `git config core.bare true` command.
 
 As this is officially not supported, you should prefer cloning a
 repository with the `--bare` option.
+
+[[remotes_cloneoperation]]
+
+=== Cloning a repository
+
+(((Repository)))
+(((Clone repository with Git)))
+(((Protocols supported by Git)))
+The `((git clone))` command copies an existing Git repository. 
+This copy is a working Git repository with the complete history of the cloned repository. 
+It can be used completely isolated from the original repository.
+
+Git supports several transport protocols to connect to other Git
+repositories; the native protocol for Git is also called `git`.
+
+The following command clones an existing repository using the Git
+protocol. The Git protocol uses the port 9148 which might be blocked by
+firewalls.
+
+[source,terminal]
+----
+include::./examples/remote/checkout.txt[]
+----
+
+If you have SSH access to a Git repository, you can also use the `ssh`
+protocol. The name preceding @ is the user name used for the SSH
+connection.
+
+[source,terminal]
+----
+include::./examples/remote/checkoutssh.txt[] 
+----
+
+Alternatively you could clone the same repository via the `http` protocol.
+
+[source,terminal]
+----
+include::./examples/remote/checkouthttp.txt[]
+---- 
+
+[[remote_add]]
+=== Adding remote repositories
+
+(((origin)))
+If you clone a repository, Git implicitly creates a _remote_ named _origin_ by default. 
+The _origin_ _remote_ links back to the cloned repository.
+
+You can push changes to this repository via `git push` as Git uses `origin`
+as default. Of course, pushing to a remote repository requires write
+access to this repository.
+
+You can add more _remotes_ via the
+`git remote add [name] [URL_to_Git_repo]`
+command. For example, if you cloned the repository from above via the
+Git protocol, you could add a new remote with the name _github_http_ for
+the http protocol via the following command.
+
+[source,terminal]
+----
+include::./examples/add/addremote.txt[]
+----
+
+[[remote_rename]]
+=== Rename remote repositories
+
+To rename an existing remote repository use the `git remote rename`
+command. This is demonstrated by the following listing.
+
+[source,terminal]
+----
+include::./examples/add/renameremote.txt[]
+----
+
+If you create a Git repository from scratch with the `git init` command,
+the _origin_ remote is not created automatically.
+
+[[remote_httpprotocol]]
+=== Remote operations via HTTP
+
+((HTTP as Git protocol))
+((proxy support in Git))
+It is possible to use the HTTP protocol to clone Git repositories. 
+This is especially helpful if your firewall blocks everything except HTTP or HTTPS.
+
+[source,terminal]
+----
+include::./examples/proxy/http.txt[]
+----
+
+For secured SSL encrypted communication you should use the SSH or HTTPS
+protocol in order to guarantee security.
+
+[[remote_httpproxy]]
+
+=== Using a proxy
+
+Git also provides support for HTTP access via a proxy server. The
+following Git command could, for example, clone a repository via HTTP
+and a proxy. You can either set the proxy variable in general for all
+applications or set it only for Git.
+
+The following listing configures the proxy via environment variables.
+
+[source,terminal]
+----
+include::./examples/proxy/proxy.txt[]
+----
+
+The following listing configures the proxy via Git config settings.
+
+[source,terminal]
+----
+include::./examples/proxy/proxy2.txt[]
+----
+
+[TIP]
+====
+Git is able to store different proxy configurations for
+different domains, see `core.gitProxy` in
+http://git-scm.com/docs/git-config[Git config manpage].
+====
+
+=== Adding a remote repository
+
+(((Repository, add more remote repositories)))
+
+You add as many _remotes_ to your repository as
+desired. For this you use the `git remote add` command.
+
+You created a new Git repository from scratch earlier. Use the following
+command to add a remote to your new bare repository using the _origin_
+name.
+
+[source,terminal]
+----
+include::./examples/remoteadd/gitremoteadd.txt[]
+---- 
+
+[[remotes_remote_synchronize]]
+=== Synchronizing with remote repositories
+
+(((Synchronize repositories more remotes)))
+
+You can synchronize your local Git repository with remote repositories.
+These commands are covered in detail in later sections but the following
+command demonstrates how you can send changes to your remote repository.
+
+[source,terminal]
+----
+include::./examples/remoteadd/gitremotepush.txt[]
+---- 
+
+[[remotes_showremote]]
+
+=== Show the existing remotes
+
+(((Repository, show existing remotes)))
+
+To see the existing definitions of the remote repositories, use the following command.
+
+[source,terminal]
+----
+# show the details of the remote repo called origin
+git remote show origin
+----
+
+To see the details of the _remotes_, e.g., the URL use the following command.
+
+[source,terminal]
+----
+# show the existing defined remotes
+git remote
+
+# show details about the remotes
+git remote -v
+----
+
+[[cloneremotes_push]]
+
+=== Push changes to another repository
+
+(((push)))
+(((git push)))
+
+The `git push` command allows you to send data to
+other repositories. By default it sends data from your current branch to
+the same branch of the remote repository.
+
+By default you can only push to bare repositories (repositories without
+working tree). Also you can only push a change to a remote repository
+which results in a fast-forward merge. See <<gitmerge_fastforward>> to learn about fast-forward
+merges.
+
+See <<gitpushbranch>> for details on pushing branches or the
+https://www.kernel.org/pub/software/scm/git/docs/git-push.html[Git push
+manpage] for general information.
+
+[[cloneremotes_pull]]
+
+=== Pull changes from a remote repository
+
+(((pull)))
+(((git pull)))
+The `git pull` command allows you to get the
+latest changes from another repository for the current branch.
+
+The `git pull` command is actually a shortcut for `git fetch` followed
+by the `git merge` or the `git rebase` command depending on your
+configuration. In <<autosetuprebase>> you configured your Git repository so that
+`git pull` is a fetch followed by a rebase. See <<gitfetch_intro>> for more information
+about the fetch command.

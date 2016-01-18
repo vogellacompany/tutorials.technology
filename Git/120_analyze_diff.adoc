@@ -1,10 +1,10 @@
 [[gitdiffchapter]]
 
-= Viewing changes with git diff and git show
+== Viewing changes with git diff and git show
 
 [[analyzechanges_showcommitchanges]]
 
-== See the differences introduced by a commit
+=== See the differences introduced by a commit
 
 (((git diff, changes by a commits)))
 
@@ -16,7 +16,7 @@ include::./examples/changes/diff.txt[]
 ----
  
 
-== See the difference between two commits \{#gitdiff_comparetwocommits}
+=== See the difference between two commits \{#gitdiff_comparetwocommits}
 
 (((git diff, changes between two commits)))
 
@@ -31,7 +31,7 @@ include::./examples/diff/diff_commits.txt[]
 ----
 
 
-== See the files changed by a commit \{#analyzechanges_file}
+=== See the files changed by a commit \{#analyzechanges_file}
 
 (((git diff, changes in a specific file)))
 
