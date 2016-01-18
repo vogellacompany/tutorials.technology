@@ -1,33 +1,29 @@
 [[gitsetup]]
 
 == Performing the Git configuration
-
 [[gitsetup_user]]
 
 === User configuration
 
 (((Configuration, user and email)))
-
 You have to configure at least your user and email
 address to be able to commit to a Git repository because this
 information is stored in each commit.
 
-[[gitsetup_userexercise]]
-
-=== Exercise: User configuration
-
-Configure your user and email for Git via the following command.
-
 [source,terminal]
 ----
-include::./examples/commandline/setup.commands[]
+# configure the user which will be used by Git
+# this should be not an acronym but your full name
+git config --global user.name "Firstname Lastname"
+
+# configure the email address
+git config --global user.email "your.email@example.org"
 ---- 
 
 [[gitsetup_pushconfiguration]]
 === Push configuration
 
 (((Configuration, push configuration)))
-
 If your are using Git in a version below 2.0 you
 should also execute the following command.
 
@@ -50,7 +46,6 @@ You learn about the push command in <<cloneremotes_push>>.
 
 (((Configuration, autosetuprebase)))
 (((autosetuprebase)))
-
 If you pull in changes from a remote repository, Git by default creates merge commits if you pull in
 divergent changes. This may not be desired and you can avoid this via the following setting.
 
@@ -71,7 +66,6 @@ likes to avoid them.
 === Color Highlighting
 
 (((Configuration, color highlighting)))
-
 The following commands enables color highlighting for Git in the console.
 
 [source,terminal]
@@ -83,7 +77,6 @@ include::./examples/highlight/color.txt[]
 === Setting the default editor
 
 (((Configuration, default editor)))
-
 By default Git uses the system default editor which
 is taken from the _VISUAL_ or _EDITOR_ environment variables if set. You
 can configure a different one via the following setting.
@@ -97,7 +90,6 @@ include::./examples/settings/editor.txt[]
 === Setting the default merge tool
 
 (((Configuration, default merge tool)))
-
 File conflicts might occur in Git during an
 operation which combines different versions of the same files. In this
 case the user can directly edit the file to resolve the conflict.
@@ -128,7 +120,6 @@ manual page]
 === Query Git settings
 
 (((Configuration, query existing configuration)))
-
 To query your Git settings, execute the following command:
 
 [source,terminal]

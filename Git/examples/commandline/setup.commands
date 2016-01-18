@@ -1,6 +1,0 @@
-# configure the user which will be used by Git
-# this should be not an acronym but your full name
-git config --global user.name "Firstname Lastname"
-
-# configure the email address
-git config --global user.email "your.email@example.org"
