@@ -1,10 +1,10 @@
 [[gitterminology_section]]
 
-= Summary of Git terminology
+== Summary of Git terminology
 
 [[gitterminology]]
 
-== Reference table with important Git terminology
+=== Reference table with important Git terminology
 
 ((Terminology in Git))
  The following table
@@ -101,7 +101,7 @@ commits to the repository.
 
 [[gitterminology_filelifecycle]]
 
-== File states in the working tree
+=== File states in the working tree
 
 (((File state in Git)))
 

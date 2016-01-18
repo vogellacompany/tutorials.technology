@@ -1,10 +1,10 @@
 [[commitreference]]
 
-= Commit references
+== Commit references
 
 [[commitreference_whatis]]
 
-== Predecessor commits, parents and commit references
+=== Predecessor commits, parents and commit references
 
 (((Commit references)))
 
@@ -18,7 +18,7 @@ one parent.
 
 image::img/commitreference10.png[Commit reference overview]
 
-In Git you frequently want to refer to certain commits. For
+In Git you frequently want to refer to certain commits. Forcommitreference_carettilde
 example you want to tell Git to show you all changes which were done in
 the last three commits. Or you want to see the differences introduced
 between two different branches.
@@ -35,7 +35,7 @@ pointer points to a commit.
 
 [[commitreference_branchheadreferences]]
 
-== Branch references and the HEAD reference
+=== Branch references and the HEAD reference
 
 (((Commit references, Branch)))
 (((Commit references, HEAD)))
@@ -47,17 +47,17 @@ corresponding commit.
 
 [[commitreference_parentancestor]]
 
-== Parent and ancestor commits
+=== Parent and ancestor commits
 
 You can use ^ (caret) and ~ (tilde) to reference predecessor commit
 objects from other references. You can also combine the ^ and ~
-operators. See ? for their usage.
+operators. See <<commitreference_carettilde>> for their usage.
 
 The Git terminology is _parent_ for ^ and _ancestor_ for ~.
 
 [[commitreference_carettilde]]
 
-== Using caret and tilde for commit references
+=== Using caret and tilde for commit references
 
 (((caret and tilde for predecessor commit references)))
 
@@ -88,7 +88,7 @@ image::img/commitreference20.png[Commit reference pointer example]
 
 [[commitreference_ranges_doubledot]]
 
-== Commit ranges with the double dot operator
+=== Commit ranges with the double dot operator
 
 (((Commit ranges, double dot operator)))
 
@@ -132,7 +132,7 @@ include::./examples/ranges/logranges3[]
 
 [[commitreference_ranges_tripledot]]
 
-== Commit ranges with the triple dot operator
+=== Commit ranges with the triple dot operator
 
 (((Commit ranges, triple dot operator)))
 

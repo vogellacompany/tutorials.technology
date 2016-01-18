@@ -1,6 +1,7 @@
 = Git - Tutorial
 :linkcss:
-Lars Vogel (c) 2009-2015 vogella GmbH
+:sectnums:
+Lars Vogel (c) 2009-2016 vogella GmbH
 Version 5.8, 10.08.2015
 :keywords: Git command line, Git, rebase, merge
 
@@ -10,6 +11,7 @@ Version 5.8, 10.08.2015
 This tutorial explains the usage of the distributed version control system Git via the command line.
 The examples were done on Linux (Ubuntu), but should also work on other operating systems like Microsoft Windows.
 
+<<<
                 
 include::001_overview.adoc[]
 include::002_tools.adoc[]
@@ -24,8 +26,6 @@ include::022_setup.adoc[]
 include::026_ignore.adoc[]
 include::027_gitkeep.adoc[]
 include::028_createrepository.adoc[]
-include::032_addingfiles.adoc[]
-include::036_firstgitresult.adoc[]
 include::040_removefiles.adoc[]
 include::042_firstgitignore.adoc[]
 include::048_remotes.adoc[]

@@ -1,10 +1,10 @@
 [[adjustgit]]
 
-= Remove files and adjust the last commit
+== Remove files and adjust the last commit
 
 [[firstgit_deletefile]]
 
-== Remove files
+=== Remove files
 
 (((Repository, remove files)))
 
@@ -22,7 +22,7 @@ area.
 
 [[firstgit_checkout]]
 
-== Revert changes in files in the working tree
+=== Revert changes in files in the working tree
 
 ((Remove changes in the working tree))
 
@@ -55,7 +55,7 @@ and it is not possible to restore this deletion via Git.
 
 [[firstgit_amend]]
 
-== Correct the last commit with git amend
+=== Correct the last commit with git amend
 
 ((git amend))
 (((change last commit)))

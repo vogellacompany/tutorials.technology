@@ -1,10 +1,10 @@
 [[git]]
 
-= Important terminology in Git
+== Important terminology in Git
 
 [[gitdefintion_localrepositories]]
 
-== Cloning, creating and deleting a Git repository
+=== Cloning, creating and deleting a Git repository
 
 The process of copying an existing Git repository is called cloning.
 After cloning a repository the user has the complete repository with its
@@ -16,7 +16,7 @@ which contains the repository.
 
 [[gitdefintion_bare]]
 
-== Bare repositories and non-bare repositories
+=== Bare repositories and non-bare repositories
 
 If you clone a Git repository, by default, Git assumes that you want to
 work in this repository as a user. Git also supports the creation of
@@ -35,23 +35,23 @@ A local non-bare Git repository is typically called _local repository_.
 
 [[workingtree]]
 
-== Working tree
+=== Working tree
 
 (((Working tree in Git)))
 
 A local repository
 provides at least one collection of files which originate from a certain
 version of the repository. This collection of files is called the
-_working tree_ . It corresponds to a checkout of one version of the
+_working tree_. It corresponds to a checkout of one version of the
 repository with potential changes done by the user.
 
 The user can change the files in the _working tree_ by modifying
 existing files and by creating and removing files. Afterwards he can add
 these changes to the repository.
 
-[[gitdefintion_localoperations]]
+[[gitdefinition_localoperations]]
 
-== Local operations
+=== Local operations
 
 Once the user has his local repository, he can perform modify files in
 his working tree and perform version control operations. For example he
@@ -59,7 +59,7 @@ can create new versions for the files in his Git repository, revert the
 files to another version stored in the repository, etc.
 
 [[gitdefintion_remoterepositories]]
-== Synchronization with remote repositories
+=== Synchronization with remote repositories
 
 ((Remote repositories))
  Git allows the
@@ -73,7 +73,7 @@ repository via the _fetch_ and _pull_ operation.
 
 [[gitdefintion_branching]]
 
-== The concept of branches
+=== The concept of branches
 
 (((Branch)))
 (((What is branching in Git?)))
@@ -90,7 +90,7 @@ of your files in another branch.
 Branches in Git are local to the repository. A branch created in a local
 repository, which was cloned from another repository, does not need to
 have a counterpart in the remote repository. Local branches can be
-compared with other local branches and with _remote-tracking branches_ .
+compared with other local branches and with _remote-tracking branches_.
 A remote-tracking branch proxies the state of a branch in another remote
 repository.
 

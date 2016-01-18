@@ -1,10 +1,10 @@
 [[installation]]
 
-= Installation
+== Installation
 
 [[installation_ubuntu]]
 
-== Ubuntu, Debian and derived systems
+=== Ubuntu, Debian and derived systems
 
 (((Git Installation, Ubuntu, Debian)))
 
@@ -18,7 +18,7 @@ include::./examples/installation/ubuntu.txt[]
  
 [[installation_fedora]]
 
-== Fedora, Red Hat and derived systems
+=== Fedora, Red Hat and derived systems
 
 (((Installation, Fedore, Red Hat)))
 
@@ -47,7 +47,7 @@ include::./examples/installation/linux.txt[]
 
 [[installation_windows]] 
 
-== Windows
+=== Windows
 
 (((Installation, Windows)))
 
@@ -58,7 +58,7 @@ homepage of the Windows Git project is
 https://git-for-windows.github.io/[git for window].
 
 [[installation_mac]]
-== Mac OS
+=== Mac OS
 
 (((Installation, Mac)))
  

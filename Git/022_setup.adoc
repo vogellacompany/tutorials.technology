@@ -1,10 +1,10 @@
-[[setup]]
+[[gitsetup]]
 
-= Performing the Git configuration
+== Performing the Git configuration
 
-[[setup_user]]
+[[gitsetup_user]]
 
-== User configuration
+=== User configuration
 
 (((Configuration, user and email)))
 
@@ -12,9 +12,9 @@ You have to configure at least your user and email
 address to be able to commit to a Git repository because this
 information is stored in each commit.
 
-[[setup_userexercise]]
+[[gitsetup_userexercise]]
 
-== Exercise: User configuration
+=== Exercise: User configuration
 
 Configure your user and email for Git via the following command.
 
@@ -23,7 +23,8 @@ Configure your user and email for Git via the following command.
 include::./examples/commandline/setup.commands[]
 ---- 
 
-== Push configuration \{#setup_pushconfiguration}
+[[gitsetup_pushconfiguration]]
+=== Push configuration
 
 (((Configuration, push configuration)))
 
@@ -67,7 +68,7 @@ likes to avoid them.
 
 [[setup_highlighting]]
 
-== Color Highlighting
+=== Color Highlighting
 
 (((Configuration, color highlighting)))
 
@@ -79,8 +80,7 @@ include::./examples/highlight/color.txt[]
 ----
  
 [[setup_editor]]
-==
-Setting the default editor
+=== Setting the default editor
 
 (((Configuration, default editor)))
 
@@ -94,7 +94,7 @@ include::./examples/settings/editor.txt[]
 ----
  
 
-== Setting the default merge tool \{#setup_mergetool}
+=== Setting the default merge tool \{#setup_mergetool}
 
 (((Configuration, default merge tool)))
 
@@ -117,7 +117,7 @@ include::./examples/settings/mergetool.txt[]
 ----
 
 
-== More settings \{#setup_allsetttings}
+=== More settings \{#setup_allsetttings}
 
 All possible Git settings are described under the following link:
 https://www.kernel.org/pub/software/scm/git/docs/git-config.html[git-config
@@ -125,7 +125,7 @@ manual page]
 
 [[setup_seesettings]]
 
-== Query Git settings
+=== Query Git settings
 
 (((Configuration, query existing configuration)))
 
