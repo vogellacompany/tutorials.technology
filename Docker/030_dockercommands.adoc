@@ -6,7 +6,31 @@
 docker images
 ----
 
+== List all available containers
+
+Via the -a flag you list all contains, without you list the running containers.
+
+----
+docker ps -a
+----
+
 == Create a new container
 
 docker run `image`
+
+== Delete a container and an image
+
+Use the following command to remove all your containers.
+
+----
+docker rm $(docker ps -a -q)
+----
+
+Use the following command to remove all your images.
+    
+----
+docker rmi $(docker images -q)
+----
+
+
 

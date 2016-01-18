@@ -11,7 +11,8 @@ were done on Ubuntu, hence they are prefixed with the `sudo` command.
 include::010_overview.adoc[]
 include::020_setup.adoc[]
 include::030_dockercommands.adoc[]
-include::080_creatingalinuxsystem.adoc[]
+include::080_creating_fedore_container.adoc.adoc[]
+include::090_creating_ubuntu_container.adoc[]
 include::100_eclipse.adoc[]
 
 include::../copyright.adoc[]

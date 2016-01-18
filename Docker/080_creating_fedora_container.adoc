@@ -1,0 +1,26 @@
+= Exercise: Creating an Fedora based Unix system with Git
+
+To run a bash on the latest Fedara system, use the following command.
+
+----
+docker run -t -i fedora /bin/bash
+----
+
+This creates a docker container (if not yet present), start the Fedora system and runs a shell in this container. You can now install Git into this
+container.
+
+----
+yum install git
+----
+
+Enter the `exit` command to exit your container and create a new container with the `docker commit` command. 
+This command supports the -m and -a flags. 
+The -m flag allows us to specify a commit message, much like you would with a commit on a version control system. 
+The -a flag allows us to specify an author for our update.
+
+----
+# to get the container ID to use for the new image
+docker ps -a
+# create a new image
+docker commit -m "Adds Git to Fedora" -a "Lars Vogel"  9b14523f9e23  fedorawithgit
+----
