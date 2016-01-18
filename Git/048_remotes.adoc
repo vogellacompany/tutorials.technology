@@ -1,10 +1,10 @@
 [[remotes]]
 
-= Remote repositories
+== Remote repositories
 
 [[remotes_definition]]
 
-== What are remotes?
+=== What are remotes?
 
 (((Repository, remote)))
 (((Remote repositories)))
@@ -42,7 +42,7 @@ system.
 
 [[bareremotes_definition]]
 
-== Bare repositories
+=== Bare repositories
 
 (((Repository, bare)))
 (((Bare repository)))
@@ -67,10 +67,9 @@ platform, e.g., GitHub.com.
 
 [[bareremotes_convert]]
 
-== Convert a Git repository to a bare repository
+=== Convert a Git repository to a bare repository
 
-Converting a normal Git repository to a bare repository is not directly
-support by Git.
+Converting a normal Git repository to a bare repository is not directly support by Git.
 
 You can convert it manually by moving the content of the `.git` folder
 into the root of the repository and by removing all others files from

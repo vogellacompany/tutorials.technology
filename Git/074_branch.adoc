@@ -1,8 +1,6 @@
-[[gitbranch]]
-= Commands to working with branches
 
 [[gitbranch_listbranches]]
-== List available branches
+=== List available branches
 
 (((git branch)))
 
@@ -32,15 +30,14 @@ include::./examples/commandline/git_brancheslist3.commands[]
 ----
 
 [[gitbranch_createnewbranch]]
-== Create new branch
+=== Create new branch
 
 (((Branch, Create new branch)))
 (((git branch)))
 
-You can create a new branch via the `git branch [newname]` command. This
-command allows to specify the starting point (commit id, tag, remote or
-local branch). If not specified the commit to which the HEAD reference
-points is used to create the branch.
+You can create a new branch via the `git branch [newname]` command. 
+This command allows to specify the commit (commit id, tag, remote or local branch) to which the branch pointer original points. 
+If not specified, the commit to which the HEAD reference points is used to create the new branch.
 
 [source,terminal]
 ----
@@ -48,7 +45,7 @@ include::./examples/branch/git_create_branch[]
 ---- 
 
 [[gitbranch_checkout]]
-== Checkout branch
+=== Checkout branch
 
 (((checkout branch)))
 (((git checkout)))
@@ -75,7 +72,7 @@ include::./examples/branch/git_createcheckout[]
 ---- 
 
 [[git_rename_branch]]
-== Rename a branch
+=== Rename a branch
 
 (((rename branch)))
 Renaming a branch can be done with the following command.
@@ -86,7 +83,7 @@ include::./examples/branch/git_rename_branch[]
 ----
 
 [[gitdeletebrach]]
-== Delete a branch
+=== Delete a branch
 
 (((delete local branch)))
 To delete a branch which is not needed anymore, you can use the following command. You may
@@ -100,7 +97,7 @@ include::./examples/branch/git_delete_branch[]
 ---- 
 
 [[gitpushbranch]]
-== Push changes of a branch to a remote repository
+=== Push changes of a branch to a remote repository
 
 (((push branch)))
 
@@ -109,10 +106,40 @@ target branch. This creates the target branch in the remote repository
 if it does not yet exist.
 
 [source,terminal]
-----
+---- 	
 include::./examples/branch/git_pushbranch.txt[]
 ---- 
 
 This way you can decide which branches you want to push to other
 repositories and which should be local branches. You learn more about
 branches and remote repositories in <<gitremotebranch_overview>>.
+
+
+[[gitbranch_untrackedfiles]]
+
+=== Switching branches with untracked files
+
+(((switch branch, with untrack files)))
+
+Untracked files (never added to the staging
+area) are unrelated to any branch. They exist only in the working tree
+and are ignored by Git until they are committed to the Git repository.
+This allows you to create a branch for unstaged and uncommitted changes
+at any point in time.
+
+[[gitbranch_dirtyfiles]]
+
+=== Switching branches with uncommitted changes
+
+(((switch branch,with uncommitted changes)))
+
+Similar to untracked files you can switch branches with unstaged or staged modifications which are not yet committed.
+
+You can switch branches if the modifications do not conflict with the files from the branch.
+
+If Git needs to modify a changed file during the checkout of a branch,
+the checkout fails with a "checkout conflict" error. This avoids that
+you lose changes in your files.
+
+In this case the changes must be committed, reverted or stashed (see <<stash_usage1>>). 
+You can also always create a new branch based on the current HEAD.

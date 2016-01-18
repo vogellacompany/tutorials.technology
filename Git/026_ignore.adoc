@@ -1,14 +1,13 @@
 [[configure-files-and-directories-to-ignore]]
 
-= Configure files and directories to ignore
+== Configure files and directories to ignore
 
 [[ignoring-files-and-directories-with-a-.gitignore-file]]
 
-== Ignoring files and directories with a .gitignore file
+=== Ignoring files and directories with a .gitignore file
 
 (((Ignore files)))
-
-((.gitignore))
+(((.gitignore)))
 
 Git can be configured to ignore certain files and directories for repository operations. This is
 configured via one or several `.gitignore` files. Typically, this file
@@ -50,7 +49,36 @@ repository so that everyone who clones this repository have it.
 
 [[global-cross-repository-.gitignore-settings]]
 
-== Global (cross-repository) .gitignore settings
+
+[[gitignore_untrack]]
+=== Stop tracking files based on the .gitignore file
+
+(((.gitignore, remove already committed files)))
+
+Files that are tracked by Git are not automatically removed if you add them to a `.gitignore` file. 
+Git never ignores files which are already tracked, so changes in the `.gitignore` file only affect new files. 
+If you want to ignore files which are already tracked you need to explicitly remove them.
+
+The following command demonstrates how to remove the `.metadata`
+directory and the `doNotTrackFile.txt` file from being tracked. This is
+example code, as you did not commit the corresponding files in your
+example, the command will not work in your Git repository.
+
+[source,terminal]
+----
+
+# remove directory .metadata from git repo
+git rm -r --cached .metadata
+# remove file test.txt from repo
+git rm --cached doNotTrackFile.txt
+----
+
+Adding a file to the `.gitignore` file does not remove the file from the
+repository history. If the file should also be removed from the history,
+have a look at the `git filter-branch` command which allows you to
+rewrite the commit history. See <<filterbranch_definition>> for details.
+
+=== Global (cross-repository) .gitignore settings
 
 You can also setup a global `.gitignore` file valid for all Git
 repositories via the `core.excludesfile` setting. The setup of this
@@ -65,10 +93,29 @@ The global `.gitignore` file is only locally available.
 
 [[local-per-repository-ignore-rules]]
 
-== Local per-repository ignore rules
+=== Local per-repository ignore rules
 
 You can also create local per-repository rules by editing the
 `.git/info/exclude` file in your repository. These rules are not
 committed with the repository so they are not shared with others.
 
 This allows you to exclude, for example, locally generated files.
+
+
+[[tracking_empty_directories]]
+=== Tracking empty directories with Git
+
+(((Empty directory handling in Git)))
+(((Tracking an empty directory in Git)))
+
+Git ignores empty directories, i.e., it does not put them under version control.
+If you want to track an empty directory in your Git repository, it is a good practice to put a file called `.gitignore` in the directory. 
+As the directory now contains a file, Git includes it into its version control mechanism.
+
+[NOTE]
+====
+The file could be called anything. 
+Some people suggest to call the file `.gitkeep`. 
+One problem with this approach is that `.gitkeep` is unlikely to be ignored by build systems. 
+This may result  in the `.gitkeep` file being copied to the output repository, which is typically not desired.
+====

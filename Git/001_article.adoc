@@ -4,6 +4,7 @@
 Lars Vogel (c) 2009-2016 vogella GmbH
 Version 5.8, 10.08.2015
 :keywords: Git command line, Git, rebase, merge
+:contentidentifier: description
 
 [abstract]
 == Summary of this tutorial
@@ -24,10 +25,9 @@ include::020_installation.adoc[]
 include::021_settingslevel.adoc[]
 include::022_setup.adoc[]
 include::026_ignore.adoc[]
-include::027_gitkeep.adoc[]
-include::028_createrepository.adoc[]
-include::040_removefiles.adoc[]
-include::042_firstgitignore.adoc[]
+
+include::028_exercise_localgitworkflow.adoc[]
+
 include::048_remotes.adoc[]
 include::050_clone.adoc[]
 
@@ -35,11 +35,16 @@ include::051_remotes_adding.adoc[]
 include::051_remotes_adding.xml[]
 include::052_remotesa.adoc[]
 include::060_remoterepository.adoc[]
-include::070_branch_def.adoc[]
 
-include::072_branch_files.adoc[]
-include::074_branch.adoc
-include::076_branchdiff.adoc
+[[branches]]
+== Working with local branches
+
+include::070_branch_def.adoc[]
+include::074_branch.adoc[]
+include::076_branchdiff.adoc[]
+
+== Using tags
+
 include::088_tagging_def.adoc
 include::090_tagging.adoc
 include::100_analyze_changedfiles.adoc

@@ -46,7 +46,7 @@ You learn about the push command in <<cloneremotes_push>>.
 
 [[setup_rebase]]
 
-== Avoid merge commits for pulling
+=== Avoid merge commits for pulling
 
 (((Configuration, autosetuprebase)))
 (((autosetuprebase)))
@@ -62,7 +62,7 @@ include::./examples/commandline/setup_useful[]
 [NOTE]
 ====
 This setting depends on the individual workflow. 
-Some teams prefer to create merge commits, but the author of this $book
+Some teams prefer to create merge commits, but the author of this {contentidentifier}
 likes to avoid them.
 ====
 
@@ -93,8 +93,8 @@ can configure a different one via the following setting.
 include::./examples/settings/editor.txt[]
 ----
  
-
-=== Setting the default merge tool \{#setup_mergetool}
+[[setup_mergetool]]
+=== Setting the default merge tool
 
 (((Configuration, default merge tool)))
 
@@ -116,8 +116,8 @@ merge tool with the following command.
 include::./examples/settings/mergetool.txt[] 
 ----
 
-
-=== More settings \{#setup_allsetttings}
+[[setup_allsetttings]]
+=== More settings
 
 All possible Git settings are described under the following link:
 https://www.kernel.org/pub/software/scm/git/docs/git-config.html[git-config

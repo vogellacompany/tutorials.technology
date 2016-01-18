@@ -1,5 +1,0 @@
-
-# remove directory .metadata from git repo
-git rm -r --cached .metadata
-# remove file test.txt from repo
-git rm --cached doNotTrackFile.txt

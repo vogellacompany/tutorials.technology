@@ -1,4 +1,0 @@
-# add the .gitignore file to the staging area
-git add .gitignore
-# commit the change
-git commit -m "Adds .gitignore file"

@@ -1,2 +1,0 @@
-# assuming you have something to commit
-git commit -m "message with a tpyo here"

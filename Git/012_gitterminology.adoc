@@ -4,7 +4,7 @@
 
 [[gitterminology]]
 
-=== Reference table with important Git terminology
+=== Overview of important Git terminology
 
 ((Terminology in Git))
  The following table
@@ -65,7 +65,7 @@ allows you to checkout revisions into your working tree and to capture
 changes by creating new commits. Bare repositories are only changed by
 transporting changes from other repositories.
 
-This $book uses the term _repository_ to talk about a non-bare
+This {contentidentifier} uses the term _repository_ to talk about a non-bare
 repository. If it talks about a bare repository, this is explicitly
 mentioned.
 

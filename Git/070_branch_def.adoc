@@ -1,8 +1,8 @@
 [[gitbranch_def]]
 
-== What are branches?
+=== What are branches?
 
-((Branches in Git))
+(((Branches in Git)))
 
 Git allows you to create _branches_, i.e. named pointers to commits. 
 You can work on different branches independently from each other. 

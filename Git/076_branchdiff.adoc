@@ -1,6 +1,6 @@
 [[gitdiffbranches]]
 
-= Differences between branches
+== Differences between branches
 
 (((difference between branches)))
 

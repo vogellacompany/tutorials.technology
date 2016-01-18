@@ -1,2 +1,0 @@
-# show the Git log for the change
-git log

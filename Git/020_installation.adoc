@@ -32,7 +32,7 @@ include::./examples/installation/fedora.txt[]
 
 [[installation_linux]] 
 
-== Other Linux systems
+=== Other Linux systems
 
 (((Installation, Arch, Gentoo, SUSE)))
 

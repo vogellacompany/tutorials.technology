@@ -1,10 +1,10 @@
 [[setup]]
 
-= Different levels of Git configuration
+== Different levels of Git configuration
 
 [[setup_configurationlevels]]
 
-== Git configuration levels
+=== Git configuration levels
 
 The `git config` command allows you to configure your Git settings.
 These settings can be system wide, user or repository specific.
@@ -15,9 +15,9 @@ overrides a system wide setting.
 
 [[setup_systemwideconfiguration]]
 
-== Git system-wide configuration
+=== Git system-wide configuration
 
-((System wide Git configuration))
+(((System wide Git configuration)))
 
 (((Configuration, System wide configuration)))
 
@@ -32,7 +32,7 @@ the `git config` command.
 
 [[setup_userconfiguration]]
 
-== Git user configuration
+=== Git user configuration
 
 (((Configuration, User specific configuration)))
 (((User specific Git configuration )))
@@ -53,7 +53,7 @@ option in the `git config` command.
 
 [[setup_configuration]]
 
-== Repository specific configuration
+=== Repository specific configuration
 
 (((Configuration, Repository specific configuration)))
 (((Repository specific Git configuration )))

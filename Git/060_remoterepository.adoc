@@ -1,14 +1,14 @@
 [[remote]]
 
-= Working with remote repositories
+== Working with remote repositories
 
 [[remote_clone]]
 
-== Cloning remote repositories
+=== Cloning remote repositories
 
-((clone repository))
+(((Clone repository with Git)))
 
-((protocols supported by Git))
+(((Protocols supported by Git)))
 
 Git supports several transport protocols to connect to other Git
 repositories; the native protocol for Git is also called `git` .
@@ -39,7 +39,7 @@ include::./examples/remote/checkouthttp.txt[]
 ---- 
 
 [[remote_add]]
-== Add more remote repositories
+=== Add more remote repositories
 
 As discussed earlier cloning repository creates a _remote_ called
 `origin` pointing to the remote repository which you cloned from. You
@@ -59,7 +59,7 @@ include::./examples/add/addremote.txt[]
 ----
 
 [[remote_rename]]
-== Rename remote repositories
+=== Rename remote repositories
 
 To rename an existing remote repository use the `git remote rename`
 command. This is demonstrated by the following listing.
@@ -70,7 +70,7 @@ include::./examples/add/renameremote.txt[]
 ----
 
 
-== Remote operations via HTTP \{#remote_httpprotocol}
+=== Remote operations via HTTP \{#remote_httpprotocol}
 
 ((HTTP as Git protocol))
 
@@ -89,7 +89,7 @@ protocol in order to guarantee security.
 
 [[remote_httpproxy]]
 
-== Using a proxy
+=== Using a proxy
 
 Git also provides support for HTTP access via a proxy server. The
 following Git command could, for example, clone a repository via HTTP

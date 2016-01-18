@@ -1,17 +1,33 @@
-[[gitdefintion_tools]]
+[[git_tools]]
 
-== Tools
 
-[[gitdefintion_tools1]]
-
+[[git_tools_commmandline]]
 === The Git command line tools
 
 The original tooling for Git is based on the command line, i.e., the Git
-development team provides only tooling for the command line. Most of the
-following examples are based on the Git command line tooling which
-offers all capabilities of Git.
+development team provides only tooling for the command line. 
 
-[[gitdefintion_doublehyphens]]
+The usage of Git via the command line involves using the `git` command. 
+Without any arguments, Git lists its options and the most common commands. 
+You can get help for a certain Git command via the help command online option followed by the command. 
+
+----
+git help [command to get help for]
+----
+
+See all possible commands, use the `git help --all` command.
+
+Git supports for several commands a short and a long version, similar to other Unix commands.
+The short version uses a single hyphen and the long version uses two hyphen. 
+The following two commands are equivalent.
+
+----
+git commit -m "This is a message"
+
+git commit --message "This is a message"
+----
+
+[[git_tools_commandline_doublehyphens]]
 
 === Separating parameters and file arguments in Git commands
 
@@ -27,11 +43,18 @@ In case Git can determine the correct parameters and options
 automatically the double hyphens can be avoided.
 
 [source,terminal]
----- 
-include::./examples/double/text.txt[] 
+----
+# seeing the git log for the HEAD file
+git log --HEAD
+
+# seeing the git log for the HEAD reference
+git log HEAD --
+
+# if there is no HEAD file you can use HEAD as commit reference
+git log HEAD
 ---- 
 
-== Graphical tools for Git
+=== Graphical tools for Git
 
 You can also use graphical tools see
 http://git-scm.com/downloads/guis[GUI Clients] at the official git

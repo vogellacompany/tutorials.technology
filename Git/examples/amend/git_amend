@@ -1,2 +1,0 @@
-# amend the last commit
-git commit --amend -m "More changes - now correct"
