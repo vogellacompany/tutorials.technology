@@ -1,9 +1,7 @@
-
 [[gitbranch_listbranches]]
 === List available branches
 
 (((git branch)))
-
 The `git branch` command lists all local branches. The currently active branch is marked with `*`.
 
 [source,terminal]
@@ -34,7 +32,6 @@ include::./examples/commandline/git_brancheslist3.commands[]
 
 (((Branch, Create new branch)))
 (((git branch)))
-
 You can create a new branch via the `git branch [newname]` command. 
 This command allows to specify the commit (commit id, tag, remote or local branch) to which the branch pointer original points. 
 If not specified, the commit to which the HEAD reference points is used to create the new branch.
@@ -49,7 +46,6 @@ include::./examples/branch/git_create_branch[]
 
 (((checkout branch)))
 (((git checkout)))
-
 To start working in a branch you have to _checkout_ the branch. If you _checkout_ a branch, the HEAD pointer
 moves to the last commit in this branch and the files in the working
 tree are set to the state of this commit.
@@ -100,14 +96,38 @@ include::./examples/branch/git_delete_branch[]
 === Push changes of a branch to a remote repository
 
 (((push branch)))
-
-You can push the changes in the current active branch to a remote repository by specifying the
+You can push the changes in a branch to a remote repository by specifying the
 target branch. This creates the target branch in the remote repository
 if it does not yet exist.
 
+If you do not specify the remote repository, the `origin` is used as default
+
 [source,terminal]
----- 	
-include::./examples/branch/git_pushbranch.txt[]
+----
+# push current branch to a branch called "testing" to remote repository
+git push origin testing
+
+# switch to the testing branch
+git checkout testing
+
+# some changes
+echo "News for you" > test01
+git commit -a -m "new feature in branch"
+
+# push current HEAD to origin
+git push
+
+# make new branch
+git branch anewbranch
+# some changes
+echo "More news for you" >> test01
+git commit -a -m "a new commit in a feature branch"
+# push anewbranch to the master in the origin
+git push origin anewbranch:master
+
+# get the changes into your local master
+git checkout master
+git pull
 ---- 
 
 This way you can decide which branches you want to push to other
