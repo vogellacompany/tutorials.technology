@@ -1,0 +1,16 @@
+include::configure-push-to-gerrit.txt[]
+
+include::push-a-change-to-gerrit.txt[]
+
+include::review-a-change.txt[]
+
+include::improve-a-change.txt[]
+
+include::submit-a-change-to-the-codebase.txt[]
+
+include::view-gerrit-review-notes.txt[]
+
+
+
+
+
