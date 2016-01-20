@@ -10,8 +10,9 @@ This creates a docker container (if not yet present), start the Fedora system an
 container.
 
 ----
-yum install git
+dnf install git
 ----
+ex
 
 Enter the `exit` command to exit your container and create a new container with the `docker commit` command. 
 This command supports the -m and -a flags. 
