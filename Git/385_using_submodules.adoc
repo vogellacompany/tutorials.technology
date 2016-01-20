@@ -1,8 +1,8 @@
 [[submodules]]
-= Working with submodules
+== Working with submodules
 
 [[submodules_cloning]]
-== Updating submodules
+=== Updating submodules
 
 To pull in changes into a Git repository including the changes in
 submodules, you can use the `--recurse-submodules` parameter in the
@@ -19,13 +19,17 @@ commit specified by the main repository.
 ----
 include::./examples/submodules/update1.txt[]
 ----
-> *Warning* > > The fact that submodules track commits and not branches
-frequently > leads to confusion. That is why Git 1.8.2 added the option
-to also > track branches. Read the following sections to learn more
+
+[WARNING]
+====
+The fact that submodules track commits and not branches
+frequently can lead to confusion. That is why Git 1.8.2 added the option
+to track branches. Read the following sections to learn more
 about this.
+====
 
 [[submodules_trackbranch]]
-== Tracking branches with submodules
+=== Tracking branches with submodules
 
 Since its 1.8.2 release the Git system allows tracking a branch in a
 submodule. To track branches you specify the branch with the `-b`
@@ -39,8 +43,8 @@ This allows you use to use `--remote` parameter in the
 include::./examples/submodules/branch.txt[]
 ----
 
-
-== Tracking commits \{#submodules_track}
+[[submodules_track]]
+=== Tracking commits
 
 Without any additional parameter, submodules are tracked by commit,
 i.e., the main Git repository remembers a certain commit of the
@@ -76,7 +80,12 @@ running the submodules update command.
 [source,terminal]
 ----
 include::./examples/submodules/getupdate.txt[]
----- > *Warning* > > With this setup you are tracking commits, so if the
-master branch in > the submodule moves on, you are still pointing to the
-existing commit. > You need to repeat this procedure every time you want
-to use new > changes of the submodules. See ? for tracking branches.
+---- 
+
+[WARNING]
+====
+With this setup you are tracking commits, so if the
+master branch in the submodule moves on, you are still pointing to the
+existing commit. You need to repeat this procedure every time you want
+to use new changes of the submodules. See <<submodules_trackbranch>> for tracking branches.
+====

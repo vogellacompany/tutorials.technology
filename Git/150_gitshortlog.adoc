@@ -11,12 +11,26 @@ by author.
 
 [source,terminal]
 ----
-include::./examples/log/shortlog.txt[]
+# gives a summary of the changes by author
+git shortlog
+
+# compressed summary
+# -s summary, provides a commit count summary only
+# -n sorted by number instead of name of the author
+git shortlog -sn
 ----
 
 This command also allows you to see the commits done by a certain author or committer.
 
 [source,terminal]
 ----
-include::./examples/log/shortlogauthor.txt[]
+# see the commits by the author "Lars Vogel"
+git shortlog --author="Lars Vogel"
+
+# see the commits by the author "Lars Vogel" 
+# restricted by the last years
+git shortlog --author="Lars Vogel" --since=2years
+
+# see the number of commits by the author "Lars Vogel" 
+git shortlog -s --author="Lars Vogel" --since=2years
 ----

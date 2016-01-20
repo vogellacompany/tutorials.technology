@@ -22,8 +22,7 @@ include::008_commitobject.adoc[]
 include::012_gitterminology.adoc[]
 include::014_commit_references.adoc[]
 include::020_installation.adoc[]
-include::021_settingslevel.adoc[]
-include::022_setup.adoc[]
+include::021_gitconfiguration.adoc[]
 include::024_exercise_setup.adoc[]
 include::026_ignore.adoc[]
 
@@ -53,8 +52,10 @@ include::121_gitblame.adoc[]
 
 include::130_gitk.adoc[]
 include::150_gitshortlog.adoc[]
+
 include::180_stash_def.adoc
 include::182_stash.adoc
+
 include::198_gitclean.adoc
 include::200_undochanges.adoc[]
 include::203_resetdef.adoc[]
