@@ -17,3 +17,18 @@ The output looks like the following.
 Think of c1..c2 as _all commits as of c1 (not including c1) until commit
 c2._
 ====
+
+Similar to a tip, you can add a warning.
+----
+[WARNING]
+====
+This is a warning
+====
+----
+
+The output looks like the following.
+
+[WARNING]
+====
+This is a warning
+====
