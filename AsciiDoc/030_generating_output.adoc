@@ -1,11 +1,6 @@
 == Generating different output for Asccidoc
 
 === Convert to DocBook
-To convert asciidoc into DocBook use the following command:
-
-asciidoctor -b docbook45 inputfile.adoc.
-
-=== Convert Asciidoc to Docbook
 
 To convert asciidoc into DocBook use the following command:
 

@@ -79,6 +79,20 @@ Result:
 . Application with its configuration
 ====
 
+=== Menus 
+
+You can define menus with the following syntax.
+
+----
+menu:View[Zoom > Reset]
+----
+
+The result looks like the following.
+
+menu:View[Zoom > Reset].
+
+
+
 === Using monospace
 
 Use monospace text formatting to emulate how source code appears in computer terminals, 

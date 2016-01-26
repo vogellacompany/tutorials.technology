@@ -8,9 +8,7 @@ http://chimera.labs.oreilly.com/books/1234000001578/ch02.html#_basic_index_entry
 
 https://waynebeaton.wordpress.com/2015/08/11/technology-behind-the-new-eclipse-project-handbook/[Eclipse Handbook - Technologies used including Asciidoc]
 
-http://johnmacfarlane.net/pandoc/[Pandoc - Converter from one Markup format to another]
-
-https://blogs.gnome.org/pmkovar/2015/10/27/converting-docbook-into-asciidoc/[Blog post about converting DocBook to Asciidoc]
+https://github.com/opendevise/docbookrx[DocBook to Asciidoc conversion tool]
 
 https://www.youtube.com/watch?v=MyhiD65qaUI[Youtube video about writing documentation with Asciidoctor]
 
