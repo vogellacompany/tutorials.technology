@@ -1,0 +1,9 @@
+<section id="resources">
+	<title>Links and Literature</title>
+	<para>
+		<ulink url="http://httpd.apache.org/">
+			http://httpd.apache.org/</ulink>
+		Apache HTTP Homepage
+	</para>
+
+</section>

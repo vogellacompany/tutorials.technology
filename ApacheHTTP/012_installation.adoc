@@ -1,0 +1,26 @@
+== Installation and configuration
+
+=== Installation
+
+On Ubuntu you can install the Apache HTTP server with the following command.
+----
+sudo apt-get install apache2
+----
+
+=== Selecting the multi-processing module
+	
+The Apache HTTP server provides a selection of Multi-Processing Modules (MPMs). 
+These are responsible for binding to network ports on the machine, accepting requests, and dispatching children to handle the requests. 
+On Ubuntu you can select one of them via one of the following commands.
+
+----
+# install the event MPM
+# this is supposted to be less resource intensive
+sudo apt-get install apache2-mpm-event
+
+# install the worker MPM
+sudo apt-get install apache2-mpm-worker
+
+# install the worker MPM
+sudo apt-get install apache2-mpm-prefork
+----

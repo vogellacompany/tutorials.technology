@@ -1,0 +1,127 @@
+== Configuration files in Apache HTTP</title>
+
+The following describes the configuration files and commands for the Apache HTTP web server on Ubuntu.
+
+[[apache_httpcommands]
+=== Important Apache HTTP commands
+
+Use the following command to list the available modules of the Apache HTTP server.
+
+----
+/etc/init.d/apache2 -l
+----
+
+----
+/etc/init.d/apache2 restart
+----
+
+[[apachehttp_conffiles]]
+=== Configuration Files
+
+The main configuration file for the Apache Http server is the `/etc/apache2/apache2.conf` file.
+The error log of Apache is located in the `/var/log/apache2/error.log` file.
+
+[[apachehttp_mpm]]
+=== Multi-Processing-Module (MPMs)
+
+Apache HTTP can be running in different modes. 
+These modes determine how the web requests of users are answered. 
+There are called http://httpd.apache.org/docs/2.4/mpm.html[Multi-Processing-Module (MPMs)].
+
+The selected mode is compiled into the server and can be seen via the following command.
+
+----
+sudo apachectl -V | grep -i mpm
+----
+
+The configuration for the event mpm is stored in `/etc/apache2/mods-available/mpm_event.conf`.
+
+			You find several sections in apache2.conf for configuring
+			the
+			different modules. Configure only the module
+			which your server is
+			using. For example if you see the modul "prefork.c" then you only
+			need to
+			configure the "mpm_prefork_module".
+		</para>
+		<para>The following listing shows a configuration for a high traffic
+			web server using the prefork module
+		</para>
+		<para>
+			<programlisting language="java">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="../examples/snippets/mpm.txt" />
+			</programlisting>
+		</para>
+		<para></para>
+	</section>
+	<section id="apachehttp_problems">
+		<title>Checking for Apache HTTP problems</title>
+		<para>"error.log" contains the error messages of Apache. For example
+			to check for too many simulatanous request you can run.
+		</para>
+
+		<para>
+			<programlisting language="java">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="../examples/snippets/grep.txt" />
+			</programlisting>
+		</para>
+
+	</section>
+
+	<section id="apachehttp_htaccess">
+		<title>Apache Configuration via .htaccess</title>
+		<para> Use the file ".htacess" to configure certain behavior of Apache
+			HTTP. One
+			major application of this file is to redirect URL to
+			other
+			URL's.
+		</para>
+		<para> The following .htacess file reroutes
+			that http://vogella.com to
+			http://www.vogella.com. It also
+			redirect access to a certain webpage
+			(/articles/SpringFramework/article.html) to another webpage via a 301
+			redirect. The 301 redirect will tell search engines that this side
+			has moved and is the recommended way to move webpages.
+		</para>
+		<para>
+			<programlisting>
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="../examples/htaccess_config/htaccess.reroute" />
+			</programlisting>
+		</para>
+
+	</section>
+
+	<section id="apachehttp_compression">
+		<title>Performance - Turn on gzip compression</title>
+		<para> To optimize the download time of your webpages you can turn on
+			gzip
+			compression. This require the Apache module "mod_deflate" which
+			can
+			be installed by the following command:
+		</para>
+		<para>
+			<programlisting>
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="../examples/compress2/compress_module.txt" />
+			</programlisting>
+		</para>
+
+		<para> The compression can be activate via your ".htaccess" file.
+		</para>
+
+		<para>
+			<programlisting>
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="../examples/compress2/htaccess.compress" />
+			</programlisting>
+		</para>
+
+	</section>
+
+
+
+</section>

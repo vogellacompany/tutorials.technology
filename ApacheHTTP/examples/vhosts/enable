@@ -1,0 +1,5 @@
+#enable the vhost
+sudo a2ensite www.vogella.com
+
+#disable the vhost
+sudo a2dissite www.vogella.com

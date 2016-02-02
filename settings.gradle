@@ -4,4 +4,5 @@ include 'AsciiDoc'
 include 'Git'
 include 'Docker'
 include 'Gerrit'
+include 'ApacheHTTP'
 

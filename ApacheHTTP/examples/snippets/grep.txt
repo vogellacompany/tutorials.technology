@@ -1,0 +1,5 @@
+
+grep MaxClients /var/log/apache2/error.log
+
+// If there are problems you might get something like this:
+// server reached MaxClients setting, consider raising the MaxClients setting
