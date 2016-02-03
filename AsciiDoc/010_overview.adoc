@@ -21,15 +21,15 @@ sudo apt-get install -y asciidoctor
 
 === Importing files
 
-You can import files via the include macro. This also works for source code includes.
+You can import files via the include macro. This also works for source code includes. The \ is only there, as I do not know how 
+to include a source file within a source file.
 
-DON'T KNOW HOW TO PRESERE the LINE BREAKS in THE HTML output
-++++
+----
 [source,java]
 \----
 \include::examples/source.java[]
 \----
-++++
+----
 
 === Defining lists
 
