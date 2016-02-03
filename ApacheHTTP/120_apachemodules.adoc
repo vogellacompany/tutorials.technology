@@ -1,7 +1,0 @@
-== Apache modules
-
-Apache provides additional modules for certain tasks.
-* rewrite - allow rewriting of URL, required for example for a wordpress blog
-* pagespeed - module from Google which does performance optimization
-
-To enable such a module use the `a2enmod` command, e.g. `a2enmod rewrite` to enable the rewrite module.

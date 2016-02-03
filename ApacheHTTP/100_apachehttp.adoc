@@ -2,7 +2,7 @@
 
 The following describes the configuration files and commands for the Apache HTTP web server on Ubuntu.
 
-[[apache_httpcommands]
+[[apache_httpcommands]]
 === Important Apache HTTP commands
 
 Use the following command to list the available modules of the Apache HTTP server.
@@ -34,94 +34,127 @@ The selected mode is compiled into the server and can be seen via the following 
 sudo apachectl -V | grep -i mpm
 ----
 
-The configuration for the event mpm is stored in `/etc/apache2/mods-available/mpm_event.conf`.
+The configuration for the event mpm is stored in `/etc/apache2/mods-available/mpm_event.conf`. 
+Configure only the module which your server is using. 
 
-			You find several sections in apache2.conf for configuring
-			the
-			different modules. Configure only the module
-			which your server is
-			using. For example if you see the modul "prefork.c" then you only
-			need to
-			configure the "mpm_prefork_module".
-		</para>
-		<para>The following listing shows a configuration for a high traffic
-			web server using the prefork module
-		</para>
-		<para>
-			<programlisting language="java">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/snippets/mpm.txt" />
-			</programlisting>
-		</para>
-		<para></para>
-	</section>
-	<section id="apachehttp_problems">
-		<title>Checking for Apache HTTP problems</title>
-		<para>"error.log" contains the error messages of Apache. For example
-			to check for too many simulatanous request you can run.
-		</para>
+The following listing shows a configuration for a high traffic web server using the event module
 
-		<para>
-			<programlisting language="java">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/snippets/grep.txt" />
-			</programlisting>
-		</para>
+[source]
+----
+include::examples/snippets/event.txt[]
+----
+	
+=== Checking for Apache HTTP problems
 
-	</section>
+The `error.log` file contains the error messages of the Apache HTTP server. For example to check for too many simultaneous request you can run.
 
-	<section id="apachehttp_htaccess">
-		<title>Apache Configuration via .htaccess</title>
-		<para> Use the file ".htacess" to configure certain behavior of Apache
-			HTTP. One
-			major application of this file is to redirect URL to
-			other
-			URL's.
-		</para>
-		<para> The following .htacess file reroutes
-			that http://vogella.com to
-			http://www.vogella.com. It also
-			redirect access to a certain webpage
-			(/articles/SpringFramework/article.html) to another webpage via a 301
-			redirect. The 301 redirect will tell search engines that this side
-			has moved and is the recommended way to move webpages.
-		</para>
-		<para>
-			<programlisting>
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/htaccess_config/htaccess.reroute" />
-			</programlisting>
-		</para>
+[source]
+----
+grep MaxClients /var/log/apache2/error.log
 
-	</section>
+// If there are problems you might get something like this:
+// server reached MaxClients setting, consider raising the MaxClients setting
+----
 
-	<section id="apachehttp_compression">
-		<title>Performance - Turn on gzip compression</title>
-		<para> To optimize the download time of your webpages you can turn on
-			gzip
-			compression. This require the Apache module "mod_deflate" which
-			can
-			be installed by the following command:
-		</para>
-		<para>
-			<programlisting>
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/compress2/compress_module.txt" />
-			</programlisting>
-		</para>
+[[apachehttp_htaccess]]
+=== Apache Configuration via .htaccess
 
-		<para> The compression can be activate via your ".htaccess" file.
-		</para>
+Use the file ".htacess" to configure certain behavior of Apache HTTP. 
+One major application of this file is to redirect URL to other URL's.
 
-		<para>
-			<programlisting>
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/compress2/htaccess.compress" />
-			</programlisting>
-		</para>
+The following .htacess file reroutes that http://vogella.com to http://www.vogella.com. 
+It also redirect access to a certain webpage (/articles/SpringFramework/article.html) to another webpage via a 301 redirect. 
+The 301 redirect will tell search engines that this side has moved and is the recommended way to move webpages.
 
-	</section>
+[source]
+----
+include::examples/htaccess_config/htaccess.reroute[]
+----
+
+[[apachehttp_modules]]
+=== Using modules on Apache Http
+Apache Http supports the usage of modules. 
+To enable  modules use the `a2enmod` command, e.g. `a2enmod rewrite` to enable the rewrite module.
 
 
 
-</section>
+[[apachehttp_compression]]
+=== Performance - Turn on gzip compression
+
+To optimize the download time of your webpages you can turn on gzip compression. 
+This requires the Apache module "mod_deflate" which can be installed by the following command:
+
+[source]
+----
+include::examples/compress2/compress_module.txt[]
+----
+
+The compression can be activate in the default configuration file for this module located in /etc/apache2/mods-available/deflate.conf or via your ".htaccess" file.
+
+[source]
+----
+include::examples/compress2/htaccess.compress[]
+----
+
+[[Other Apache modules]]
+== Supporting php and wordpress
+
+[source]
+----
+sudo apt-get install libapache2-mod-fcgid
+sudo apt-get install php5-cgi
+----
+
+Afterwards activate the corresponding modules.
+
+[source]
+----
+sudo a2enmod fastcgi
+sudo a2enmod proxy
+# required for wordpress blog
+sudo a2enmod rewrite
+----
+
+In case you want to send out emails from your PHP sides you have to configure an email client. 
+A simple one is exim4, a setup description can be found under the following links: https://help.ubuntu.com/community/Exim4 and https://wiki.debian.org/GmailAndExim4 
+
+[source]
+----
+sudo apt-get install exim4
+----
+
+Here is an example /etc/exim4/update-exim4.conf.conf file
+[source]    
+----
+dc_eximconfig_configtype='smarthost'
+dc_other_hostnames=''
+dc_local_interfaces='127.0.0.1 ; ::1'
+dc_readhost='gilbert.vogella.com'
+dc_relay_domains=''
+dc_minimaldns='false'
+dc_relay_nets=''
+dc_smarthost='smtp.gmail.com:587'
+CFILEMODE='644'
+dc_use_split_config='true'
+dc_hide_mailname='false'
+dc_mailname_in_oh='true'
+----
+
+You need to enter valid user credentials in the passwd.client file in the following format.
+
+----
+*google.com:youruser@gmail.com:yourpassword
+----
+
+[[apachehttp_pagespeed]]
+=== Using the pagespeed module
+
+You should also install he pagespeed module from Google, as this compresses the content of the website and results in a mucher faster download.
+See http://tecadmin.net/install-apache2-with-mod-pagespeed-on-ubuntu/ for the setup.
+
+
+[[apachehttp_migration]]
+=== Migration of servers
+
+In case you are migrating your server from one server to another you can tell your local computer to resolve to the new server, even though you did not yet change the DNS setting. 
+This way you can test if the new server works fine. 

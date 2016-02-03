@@ -1,42 +1,27 @@
-<section id="apachehttp_vhosts">
-	<title>Configuring virtual hosts in Apache</title>
-	<section id="apachehttp_vhostsdefinition">
-		<title>What are virtual hosts in Apache?</title>
-		<para> Virtual Hosts allow Apache2 to be configured
-			for multiple sites
-			that have separate configurations.
-		</para>
-		<para> This allows you to have one Apache HTTP web server running on
-			one IP serving multiple domains. Of course you still need to
-			configure the DNS settings for the domains to map to the server but
-			if you do this, you can
-		</para>
-	</section>
-	<section id="apachehttp_vhostsconfiguration">
-		<title>How to configure vhosts under Ubuntu</title>
-		<para>
-			Under Ubuntu you create a configuration file in the
-			<filename>/etc/apache2/sites-available</filename>
-			folder, for example the
-			<filename>www.vogella.com</filename>
-			.
-		</para>
-		<para>
-			<programlisting language="java">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/vhosts/www.vogella.com" />
-			</programlisting>
-		</para>
+[[apachehttp_vhosts]]
+== Configuring virtual hosts in Apache</title>
 
-		<para>You enable sites (vhosts) with the following command.</para>
+[[[apachehttp_vhostsdefinition]]]	
+=== What are virtual hosts in Apache?
 
-		<para>
-			<programlisting language="java">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/vhosts/enable" />
-			</programlisting>
-		</para>
-		<para>After enabling sites you have to restart your Apache HTTP
-			server. </para>
-	</section>
-</section>
+Virtual hosts allow Apache2 to be configured for multiple sites that have separate configurations.
+
+This allows you to have one Apache HTTP web server running on one IP serving multiple domains. 
+
+[[apachehttp_vhostsconfiguration]]
+=== How to configure vhosts under Ubuntu
+
+Under Ubuntu you create a configuration file in the `/etc/apache2/sites-available` folder, for example the `www.vogella.com</filename`.
+
+[source]
+----
+include::examples/vhosts/www.vogella.com[]
+----
+
+You enable sites (vhosts) with the following command.
+
+[source]
+----
+include::examples/vhosts/enable[]
+----
+After enabling sites you have to restart your Apache HTTP server.
