@@ -1,7 +1,7 @@
 [[apachehttp_vhosts]]
-== Configuring virtual hosts in Apache</title>
+== Configuring virtual hosts in Apache
 
-[[[apachehttp_vhostsdefinition]]]	
+[[apachehttp_vhostsdefinition]]
 === What are virtual hosts in Apache?
 
 Virtual hosts allow Apache2 to be configured for multiple sites that have separate configurations.
@@ -18,10 +18,15 @@ Under Ubuntu you create a configuration file in the `/etc/apache2/sites-availabl
 include::examples/vhosts/www.vogella.com[]
 ----
 
-You enable sites (vhosts) with the following command.
+You enable or disable virtual hosts the following command.
 
 [source]
 ----
-include::examples/vhosts/enable[]
+#enable the vhost
+sudo a2ensite vogella.conf
+
+#disable the vhost
+sudo a2dissite www.vogella.com
 ----
-After enabling sites you have to restart your Apache HTTP server.
+
+After enabling sites you have to reload the Apache HTTP server configuration with the `sudo service apache2 reload` command.

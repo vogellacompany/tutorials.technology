@@ -1,5 +1,0 @@
-#enable the vhost
-sudo a2ensite vogella.conf
-
-#disable the vhost
-sudo a2dissite www.vogella.com

@@ -1,4 +1,4 @@
-== Configuration files in Apache HTTP</title>
+== Configuration files in Apache HTTP
 
 The following describes the configuration files and commands for the Apache HTTP web server on Ubuntu.
 
@@ -115,6 +115,9 @@ sudo a2enmod proxy
 sudo a2enmod rewrite
 ----
 
+[[apachehttp_email]]
+=== Configuring your server to send out emails
+
 In case you want to send out emails from your PHP sides you have to configure an email client. 
 A simple one is exim4, a setup description can be found under the following links: https://help.ubuntu.com/community/Exim4 and https://wiki.debian.org/GmailAndExim4 
 
@@ -124,6 +127,7 @@ sudo apt-get install exim4
 ----
 
 Here is an example /etc/exim4/update-exim4.conf.conf file
+
 [source]    
 ----
 dc_eximconfig_configtype='smarthost'
@@ -146,6 +150,11 @@ You need to enter valid user credentials in the passwd.client file in the follow
 *google.com:youruser@gmail.com:yourpassword
 ----
 
+Afterwards you need to enable the new configuration with the following command.
+
+[source]    
+----
+----
 [[apachehttp_pagespeed]]
 === Using the pagespeed module
 
