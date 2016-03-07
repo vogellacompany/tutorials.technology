@@ -19,7 +19,7 @@ If you are using Gradle or Maven as build systems it is not required to install 
 sudo apt-get install -y asciidoctor
 ----
 
-=== Importing files
+=== Importing files or file includes
 
 You can import files via the include macro. This also works for source code includes. The \ is only there, as I do not know how 
 to include a source file within a source file.
@@ -183,18 +183,21 @@ private int a;
 
 <1> Imports the library
 
+=== Escape special signs
+
+If you need to escape Asciidoc commands, you can use \\{qwe} or \+++{qwe}\+++.
+
 === Index
 
-You can add primary index terms to your document via (((yourterm))). A secondary index can be added to your document via (((seconddary term1, secondary term2))). 
+You can add primary index terms to your document via +++(((yourterm)))+++. 
+A secondary index can be added to your document via +++(((yourterm, secondary term2)))+++. 
+For example:
+
++++((((Big cats)))+++
+
++++((((Big cats, Lions)))+++
 
 
-((((Big cats,Lions)))
-
-++++
-((((Big cats,Lions)))
-++++
-
-Example 
 
 === Custom attributes / variables
 
