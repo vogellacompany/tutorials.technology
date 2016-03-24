@@ -1,10 +1,11 @@
 = Docker support in the Eclipse IDE
 
-The Eclipse Linux tooling project also provides Docker tooling for the Eclipse IDE, which allows to use the Eclipse IDE as Docker client.
+The Eclipse Linux tooling project also provides Docker tooling for the Eclipse IDE, 
+which allows to use the Eclipse IDE as Docker client. The tooling provides also an editor for Docker files.
 
 == Install Eclipse Docker tooling
 
-Install the Eclipse Docker tooling from  http://www.eclipse.org/linuxtools
+Install the Eclipse Docker tooling from  http://download.eclipse.org/linuxtools/updates-docker-nightly/
 
 == Using the Docker tooling in Eclipse
 
