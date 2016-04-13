@@ -10,7 +10,7 @@ buildscript {
 subprojects {
 	apply plugin: 'org.asciidoctor.convert'
 
-	task runAll(type: com.vogella.AsciiDoc) {
+	task createAll(type: com.vogella.AsciiDoc) {
 		description = 'Creates Html 5, PDF and Epub 3 Documentation'
 		group = 'Documentation'
 
@@ -21,7 +21,7 @@ subprojects {
 		}
 	}
 
-	task runHtml(type: com.vogella.AsciiDoc) {
+	task createHtml(type: com.vogella.AsciiDoc) {
 		description = 'Creates Html 5 Documentation'
 		group = 'Documentation'
 
@@ -32,14 +32,14 @@ subprojects {
 		}
 	}
 
-	task runPdf(type: com.vogella.AsciiDoc) {
+	task createPdf(type: com.vogella.AsciiDoc) {
 		description = 'Creates PDF Documentation'
 		group = 'Documentation'
 
 		backends = ['pdf']
 	}
 
-	task runEpub(type: com.vogella.AsciiDoc) {
+	task createEpub(type: com.vogella.AsciiDoc) {
 		description = 'Creates Epub 3 Documentation'
 		group = 'Documentation'
 

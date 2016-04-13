@@ -7,22 +7,22 @@ In the root directory the following commands can be used to build different outp
 [source, terminal]
 ----
 // create HTML 5
-./gradlew rH
+./gradlew cH
 
 // create PDF
-./gradlew rP
+./gradlew cP
 
 // create EPub 3
-./gradlew rE
+./gradlew cE
 
 // create All (HTML 5, PDF, EPub 3)
-./gradlew rA
+./gradlew cA
 ----
 
 If these commands are run in the root directory all subprojects will be build.
 
 
-TIP: Single subprojects can be build when navigating into a subproject and for example run `../gradlew rH`
+TIP: Single subprojects can be build when navigating into a subproject and for example run `../gradlew cH`
 
 
 NOTE: On Windows OS `./gradlew.bat` must be used +
