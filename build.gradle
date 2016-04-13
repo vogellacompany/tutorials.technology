@@ -9,6 +9,7 @@ buildscript {
 
 subprojects {
 	apply plugin: 'org.asciidoctor.convert'
+	
 
 	task createAll(type: com.vogella.AsciiDoc) {
 		description = 'Creates Html 5, PDF and Epub 3 Documentation'
@@ -30,6 +31,11 @@ subprojects {
 		resources {
 			from(sourceDir) { include 'img/**' }
 		}
+	}
+
+	task publishHtml(type: Copy, dependsOn: 'createHtml') {
+		from "${project.buildDir}/html5"
+		into "../../asciidocOutput/${project.name}"
 	}
 
 	task createPdf(type: com.vogella.AsciiDoc) {
