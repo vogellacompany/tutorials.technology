@@ -12,16 +12,23 @@ container.
 ----
 dnf install git
 ----
-ex
 
-Enter the `exit` command to exit your container and create a new container with the `docker commit` command. 
+
+Afterwards you need to create a new container from the running container to persists the changes. 
+Use `docker ps -l` to list the running container. 
+Create a new container with the `docker commit` command. 
 This command supports the -m and -a flags. 
 The -m flag allows us to specify a commit message, much like you would with a commit on a version control system. 
 The -a flag allows us to specify an author for our update.
 
 ----
-# to get the container ID to use for the new image
-docker ps -a
-# create a new image
-docker commit -m "Adds Git to Fedora" -a "Lars Vogel"  9b14523f9e23  fedorawithgit
+docker commit <yourcontainerid> vogella/fedoragit
+# alternatively include the author and use a commit message
+# docker commit -m "Adds Git to Fedora" -a "Lars Vogel"  9b14523f9e23  fedorawithgit
+
 ----
+Then create and run the a new container based on your new image.
+----
+sudo docker run -t -i vogella/fedoragit /bin/bash
+----
+
