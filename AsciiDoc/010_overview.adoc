@@ -26,19 +26,28 @@ sudo apt-get install -y asciidoctor
 
 === Importing files or file includes
 
-You can import files via the include macro. This also works for source code includes. The \ is only there, as I do not know how 
-to include a source file within a source file.
+You can import files via the include macro. This also works for source code includes. To use ---- in your listing use the [listing] style before that. The following example imports a file formatted as Java source code.
 
-----
+
+[listing]
+....
 [source,java]
-\----
+----
 \include::examples/source.java[]
-\----
+----
+....
+
+Result:
+
+[source,java]
+----
+include::examples/source.java[]
 ----
 
 === Defining lists
 
-Lists can be define with the *, sublists and use up to 6 *. Ensure to have a space before the list element. Example:
+Lists can be defined with the * operator at the beginning of a line. You can define up to 6 levels for a list. 
+Ensure to have a space before the list element. Example:
 [source, terminal]
 ....
 Docker allows to package the full stack in a container:
@@ -84,19 +93,20 @@ Result:
 . Application with its configuration
 ====
 
-=== Menus 
+=== Menus and Buttons
 
-You can define menus with the following syntax.
-
+You can define menus and buttons with the following syntax. This requires the activation of an experimental feature in Asciidoctor and I have no idea how to do that.
 ----
 menu:View[Zoom > Reset]
+
+Press the btn:[OK] button when you are finished.
 ----
 
 The result looks like the following.
 
 menu:View[Zoom > Reset].
 
-
+Press the btn:[OK] button when you are finished.
 
 === Using monospace
 
@@ -108,9 +118,9 @@ Enclose a string with ` for this, e.g., \`System.out.println("Hello");` results 
 
 You can assign meta data to a block. Here’s an example of a quote block that includes all types of metadata:
 ....
-.This is the title
-[[yourId]]
-[yourstyle]
+.Topic Titel                                               # <1>
+[[yourId]]                                                 # <2>
+[yourstyle]                                                # <3>
 ____
 Four score and seven years ago our fathers brought forth
 on this continent a new nation...
@@ -121,13 +131,14 @@ can long endure. ...
 ____
 ....
 
-This is the title is the title of the block, yourId is a reference for the block and yourstyle can be used to style the corresponding block.
-You can link to the references via 
-....
-<<yourId>>
-....
+<1> title of the block
+<2> reference for the block 
+<3> can be used to style the corresponding block.
 
-Lets see if that works <<test>>.
+You can link to the references via `<<yourId>>`, for example
+....
+You find more information on this in <<yourId>>.
+....
 
 [[table]]
 === Table
