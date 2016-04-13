@@ -43,6 +43,6 @@ therefore the _publishHtml_ task can be used to create the HTML Tutorials and co
 ----
 	task publishHtml(type: Copy, dependsOn: 'createHtml') {
 		from "${project.buildDir}/html5"
-		into "../../asciidocOutput/${project.name}"
+		into "../build/asciidocOutput/${project.name}"
 	}
 ----

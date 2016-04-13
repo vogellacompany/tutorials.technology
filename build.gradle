@@ -35,7 +35,7 @@ subprojects {
 
 	task publishHtml(type: Copy, dependsOn: 'createHtml') {
 		from "${project.buildDir}/html5"
-		into "../../asciidocOutput/${project.name}"
+		into "../build/${project.name}"
 	}
 
 	task createPdf(type: com.vogella.AsciiDoc) {
