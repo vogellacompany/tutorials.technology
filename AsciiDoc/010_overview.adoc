@@ -1,18 +1,23 @@
-== Asciidoc
+== Introduction into Asciidoc
 
-AsciiDoc is a text document format for writing notes, documentation, articles, books, ebooks, slideshows, web pages, man
-pages and blogs. AsciiDoc files can be translated to many formats including HTML, PDF, EPUB, man page.
+=== What is Asciidoc and Asciidoctor
+AsciiDoc is a text document format for writing notes, documentation, articles, books, ebooks, slideshows, web pages, man pages and blogs. 
+AsciiDoc files can be translated via the Asciidoctor toolchain to many formats including HTML, PDF, EPUB, DocBook and man page.
+Any text editor can be used. Some websites, like Github, render AsciiDoc files directly into HTML.
 
-Any text editor can be used, even Github allows to edit AsciiDoc directly.
+The following listing is an example of a simple Asciidoc file
 
-=== Asciidoc documents
+----
+include::examples/first.adoc[]
+----
 
-Asciidoc documents typically ends with the _.adoc_.
+Asciidoc documents typically ends with the _.adoc_. 
 
 === Install the Asciidoctor toolchain
 
-If you want to use aciidoctor directly you have to install its toolchain. 
-If you are using Gradle or Maven as build systems it is not required to install Asciidoctor separately.
+If you want to use Asciidoctor directly you have to install its toolchain. 
+If you are using Gradle or Maven as build systems, it is not required to install Asciidoctor separately. 
+Both Gradle or Maven provide plug-ins to execute Asciidoctor tasks.
 
 [source, terminal]
 ----

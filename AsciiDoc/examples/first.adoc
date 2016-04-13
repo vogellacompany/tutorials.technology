@@ -1,0 +1,15 @@
+== The First Asciidoc example
+Lars Vogel(c) 2016 vogella GmbH
+Version 0.2, 17.12.2015
+:keywords: AsciiDoc
+
+This is the optional preamble (an untitled section body). Useful for
+writing simple sectionless documents consisting only of a preamble.
+
+== First section
+
+Some text
+
+== Second section
+
+More test
