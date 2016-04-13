@@ -33,3 +33,16 @@ See http://www.vogella.com/tutorials/Gradle/article.html[Gradle tutorial]
 1. Create a new project(a sub-directory) in the root directory
 2. Add the new project to the _settings.gradle_ file (`include '{newProjectName}'`)
 3. Open new project in terminal and run `../gradlew iT` to run the `initTemplate` task
+
+== Publish HTML task for Jenkins
+
+Currently the jenkins build server is used to copy the HTML tutorials from an '/output' folder to the actual webserver,
+therefore the _publishHtml_ task can be used to create the HTML Tutorials and copy the HTML tutorials to a '/asciidocOutput' folder.
+
+[source, groovy]
+----
+	task publishHtml(type: Copy, dependsOn: 'createHtml') {
+		from "${project.buildDir}/html5"
+		into "../../asciidocOutput/${project.name}"
+	}
+----
