@@ -1,59 +1,14 @@
 buildscript {
-	repositories { jcenter() }
+	repositories { 
+		mavenLocal()
+		jcenter()
+		maven{ url 'https://dl.bintray.com/vogellacompany/Gradle-AsciiDoctor-Plugin/' }
+	}
 	dependencies {
-		classpath "org.asciidoctor:asciidoctor-gradle-plugin:1.5.3"
-		classpath 'org.asciidoctor:asciidoctorj-pdf:1.5.0-alpha.8'
-		classpath 'org.asciidoctor:asciidoctorj-epub3:1.5.0-alpha.4'
+		classpath 'com.vogella.gradle:com.vogella.gradle.plugin.asciidoc:0.1.0'
 	}
 }
 
 subprojects {
-	apply plugin: 'org.asciidoctor.convert'
-	
-
-	task createAll(type: com.vogella.AsciiDoc) {
-		description = 'Creates Html 5, PDF and Epub 3 Documentation'
-		group = 'Documentation'
-
-		backends = ['html5', 'pdf', 'epub3']
-
-		resources {
-			from(sourceDir) { include 'img/**' }
-		}
-	}
-
-	task createHtml(type: com.vogella.AsciiDoc) {
-		description = 'Creates Html 5 Documentation'
-		group = 'Documentation'
-
-		backends = ['html5']
-
-		resources {
-			from(sourceDir) { include 'img/**' }
-		}
-	}
-
-	task publishHtml(type: Copy, dependsOn: 'createHtml') {
-		from "${project.buildDir}/html5"
-		into "../build/${project.name}"
-	}
-
-	task createPdf(type: com.vogella.AsciiDoc) {
-		description = 'Creates PDF Documentation'
-		group = 'Documentation'
-
-		backends = ['pdf']
-	}
-
-	task createEpub(type: com.vogella.AsciiDoc) {
-		description = 'Creates Epub 3 Documentation'
-		group = 'Documentation'
-
-		backends = ['epub3']
-	}
-
-	task initTemplate(type: com.vogella.Template) {
-		description = 'Creates a vogella tutorial template'
-		group = 'Init'
-	}
+	apply plugin: 'com.vogella.gradle.plugin'
 }
