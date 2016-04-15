@@ -108,6 +108,18 @@ menu:View[Zoom > Reset].
 
 Press the btn:[OK] button when you are finished.
 
+== Images and Graphics
+
+To reference images in your AsciiDoc with the `image::` macro pointing to a relative file locatin. Use brackets to define a fixed or related size.
+
+-----
+image::img/vogellacompany.jpg[200,200]
+-----
+
+The result looks like the following:
+
+image::img/vogellacompany.jpg[200,200]
+
 === Defining references
 
 You can assign meta data to a block. Here’s an example of a quote block that includes all types of metadata:
