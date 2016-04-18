@@ -13,7 +13,7 @@ include::examples/first.adoc[]
 
 Asciidoc documents typically ends with the _.adoc_. 
 
-=== Install the Asciidoctor toolchain
+=== Install2 the Asciidoctor toolchain
 
 If you want to use Asciidoctor directly you have to install its toolchain. 
 If you are using Gradle or Maven as build systems, it is not required to install Asciidoctor separately. 
@@ -119,6 +119,28 @@ image::img/vogellacompany.jpg[200,200]
 The result looks like the following:
 
 image::img/vogellacompany.jpg[200,200]
+
+=== Using inline icons
+
+You can also add the `:icons: font` directive to the top of your document, which allows you to use the icons from http://fortawesome.github.io/Font-Awesome/icons/
+directory via a marco.
+
+[source]
+----
+icon:comment[] This is a comment icon
+
+icon:file[] And a file icon
+
+icon:battery-full[] And a battery icon
+----
+
+The output looks like the following
+
+icon:comment[] This is a comment icon
+
+icon:file[] And a file icon
+
+icon:battery-full[] And a battery icon
 
 === Defining references
 
