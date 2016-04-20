@@ -19,6 +19,12 @@ In the root directory the following commands can be used to build different outp
 ./gradlew cA
 ----
 
+Alternativly the command can be changed to:
+
+./gradlew -t xx 
+
+this will triger an automatical run of the command once a change is saved in the adoc files.
+
 If these commands are run in the root directory all subprojects will be build.
 
 
