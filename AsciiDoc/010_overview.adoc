@@ -43,6 +43,12 @@ Result:
 ----
 include::examples/source.java[]
 ----
+=== Importing images
+
+You can import images with ´image::´ for the HTML output you can add the ´alt´ text within the brackets []. 
+----
+image::img/committingprocess10.png[Git commit process] 
+----
 
 === Defining lists
 
