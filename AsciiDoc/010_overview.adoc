@@ -177,7 +177,7 @@ You find more information on this in <<yourId>>.
 [[table]]
 === Table
 
-You can create also tables in Asccidoc via the following syntax.
+You can create also tables in Asciidoc via the following syntax.
 
 ----
 .Table Title

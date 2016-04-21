@@ -1,4 +1,4 @@
-== Generating different output for Asccidoc
+== Generating different output for AsciiDoc
 
 === Convert to DocBook
 
