@@ -1,0 +1,6 @@
+= Mathematik
+
+[latexmath]
+++++
+\int_0^1 x^n= \frac{1}{n+1}
+++++

@@ -4,4 +4,5 @@ include 'AsciiDoc'
 include 'Docker'
 include 'Gerrit'
 include 'ApacheHTTP'
+include 'Mathematik'
 
