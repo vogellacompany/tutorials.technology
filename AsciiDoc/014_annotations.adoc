@@ -1,4 +1,4 @@
-=== Annotations, tips and callouts
+=== Annotations for warnings, notes and tips
 
 You can write tips into your document with the following syntax.
 
@@ -32,3 +32,12 @@ The output looks like the following.
 ====
 This is a warning
 ====
+
+
+The following styles are supported:
+
+* NOTE
+* TIP
+* IMPORTANT
+* CAUTION
+* WARNING
