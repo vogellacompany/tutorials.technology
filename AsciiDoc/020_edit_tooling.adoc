@@ -1,6 +1,5 @@
-== Tooling for writing Asciidoc documents
-
-=== Eclipse
+[[asciidocwrittertools]]
+== Using the Eclipse IDE as Asciidoc editor
 
 Different editors for AsciiDoc can be used within the Eclipse IDE. 
 For instance the Mylyn Wiki Text plugin provides this functionality.
