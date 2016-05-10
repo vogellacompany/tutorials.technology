@@ -7,12 +7,9 @@ Version 5.8, 10.08.2015
 :contentidentifier: description
 
 [abstract]
-== Summary of this tutorial
-
 This tutorial explains the usage of the distributed version control system Git via the command line.
 The examples were done on Linux (Ubuntu), but should also work on other operating systems like Microsoft Windows.
 
-<<<
                 
 include::001_overview.adoc[]
 include::002_tools.adoc[]
@@ -53,10 +50,10 @@ include::121_gitblame.adoc[]
 include::130_gitk.adoc[]
 include::150_gitshortlog.adoc[]
 
-include::180_stash_def.adoc
-include::182_stash.adoc
+include::180_stash_def.adoc[]
+include::182_stash.adoc[]
 
-include::198_gitclean.adoc
+include::198_gitclean.adoc[]
 include::200_undochanges.adoc[]
 include::203_resetdef.adoc[]
 include::204_reset.adoc[]
@@ -91,7 +88,6 @@ include::420_migration.adoc[]
 include::760_faq.adoc[]
 include::780_gitseries.adoc[]
 include::800_offline.adoc[]
-
 
 
 

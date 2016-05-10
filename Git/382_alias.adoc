@@ -5,10 +5,9 @@
 == Using an alias
 
 (((alias)))
- An _alias_ in Git allows you to
-create a short form of one or several existing Git commands. For
-example, you can define an alias which is a short form of your own
-favorite commands or you can combine several commands with an alias.
+
+An _alias_ in Git allows you to create a short form of one or several existing Git commands. 
+For example, you can define an alias which is a short form of your own favorite commands or you can combine several commands with an alias.
 
 [[alias_example]]
 == Alias examples
@@ -20,25 +19,22 @@ The following defines an _alias_ to see the staged changes with the new
 ----
 include::./examples/alias/staged.txt[]
 ----
- Or
-you can define an _alias_ for a detailed `git log` command. The
-following command defines the `git ll` _alias_ .
+
+Or you can define an _alias_ for a detailed `git log` command. 
+The following command defines the `git ll` _alias_ .
 
 [source,terminal]
 ----
 include::./examples/alias/log.txt[]
 ----
- You can
-also run external commands. In this case you start the _alias_
-definition with a `!` character. For example, the following defines the
-`git ac` command which combines `git add . -A` and `git commit`
+
+You can also run external commands. 
+In this case you start the _alias_ definition with a `!` character. 
+For example, the following defines the `git ac` command which combines `git add . -A` and `git commit`
 commands.
 
 [source,terminal]
 ----
 include::./examples/alias/alias.txt[]
 ----
- >
-*Warning* > > In the past _msysGit_ for Windows had problems with an
-_alias_ > beginning with `!`, but it has been reported that this now
-works with >====msysGit====, too .
+

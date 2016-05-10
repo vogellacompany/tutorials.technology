@@ -137,7 +137,7 @@ include::./examples/remotebranch/apply.txt[]
 		<tip>
 			<para>
 				More information on the rebase command can be found in
-				<xref linkend="rebase_branches" />
+				<xref linkend="" />
 				.
 			</para>
 		</tip>

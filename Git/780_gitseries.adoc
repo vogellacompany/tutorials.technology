@@ -1,5 +1,5 @@
 [[gitseries]]
-= Git series
+== Futher reading on Git 
 
 This tutorial is part of a series about the Git version control system.
 See the other tutorials for more information.

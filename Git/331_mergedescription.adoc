@@ -1,8 +1,8 @@
 [[combinechanges]]
-= Merging branches
+== Merging branches
 
 [[gitmerge_fastforward]]
-== Fast-forward merge
+=== Fast-forward merge
 
 (((Merging,fast-forward merge)))
 

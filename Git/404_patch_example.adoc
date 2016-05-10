@@ -4,12 +4,10 @@
 [[gitpatch_createandapply]]
 == Create and apply patches
 
-((Create patch))
- (((git
-format-patch)))
+(((Create patch)))
+ (((git format-patch)))
 
- The following example creates a branch,
-changes several files and creates a commit recording these changes.
+The following example creates a branch, changes several files and creates a commit recording these changes.
 
 [source,terminal]
 ----
@@ -37,11 +35,13 @@ delete the patch file.
 ----
 include::./examples/patch/patch4.txt[]
 ----
- >
-*Tip* > > Use the `git am` command to apply and commit the changes in a
-single > step. To apply and commit all patch files in the directory use,
-for > example, the `git am *.patch` command. You specify the order in
-which > the patches are applied by specifying them on the command line.
+
+[TIP]
+====
+Use the `git am` command to apply and commit the changes in a single step. 
+To apply and commit all patch files in the directory use, for example, the `git am *.patch` command. You specify the order in
+which the patches are applied by specifying them on the command line.
+====
 
 [[gitpatch_createforcommit]]
 == Create a patch for a selected commit

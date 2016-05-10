@@ -1,15 +1,12 @@
 [[gitcommithooks]]
-= Git commit and other hooks
+== Git commit and other hooks
 
 [[gitcommithooks_intro]]
-== Usage of Git hooks
+=== Usage of Git hooks
 
-((commit hooks))
- Git provides commit
-hooks, e.g., programs which can be executed at a pre-defined point
-during the work with the repository. For example, you can ensure that
-the commit message has a certain format or trigger an action after a
-push to the server.
+(((commit hooks)))
+Git provides commit hooks, e.g., programs which can be executed at a pre-defined point during the work with the repository. 
+For example, you can ensure that the commit message has a certain format or trigger an action after a push to the server.
 
 These programs are usually scripts and can be written in any language,
 e.g., as shell scripts or in Perl, Python etc. You can also implement a
@@ -17,7 +14,7 @@ hook, for example, in C and use the resulting executables. Git calls the
 scripts based on a naming convention.
 
 [[gitcommithooks_clientserver]]
-== Client and server side commit hooks
+=== Client and server side commit hooks
 
 Git provides hooks for the client and for the server side. On the server
 side you can use the `pre-receive` and `post-receive` script to check
@@ -35,7 +32,7 @@ https://www.kernel.org/pub/software/scm/git/docs/githooks.html[Git hooks
 manual page] .
 
 [[gitcommithooks_restrictions]]
-== Restrictions
+=== Restrictions
 
 Not all Git server implementations support server side commit hooks. For
 example Gerrit (a Git server which also provides the ability to do code

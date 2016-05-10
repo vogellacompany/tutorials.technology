@@ -28,6 +28,7 @@ Ensure that this file is executable.
 ----
 include::./examples/bisect/check.sh[]
 ----
+
 Afterwards use the `git bisect` command to find the bad commit. First
 you use the `git bisect start` command to define a commit known to be
 bad (showing the problem) and a commit known to be good (not showing the
@@ -36,13 +37,18 @@ problem).
 [source,terminal]
 ----
 include::./examples/bisect/bisect_start.txt[]
----- Afterwards run the bisect command using the shell script.
+---- 
+
+Afterwards run the bisect command using the shell script.
 
 [source,terminal]
 ----
 include::./examples/bisect/bisectrun.txt[]
 ----
- >
-*Tip* > > The above commands serve as an example. The existence of a
-file can be > easier verified with the `git bisect` command: >
+
+[TIP]
+====
+The above commands serve as an example. 
+The existence of a file can be easier verified with the `git bisect` command:
 `git bisect run test -f test1.txt`
+====

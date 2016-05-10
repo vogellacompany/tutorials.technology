@@ -4,42 +4,34 @@
 [[rebase_branches]]
 == Rebasing branches
 
-((git rebase))
- You can use Git to rebase
-one branch on another one. As described, the `merge` command combines
-the changes of two branches. If you rebase a branch called A onto
-another, the `git` command takes the changes introduced by the commits
-of branch A and applies them based on the HEAD of the other branch. This
-way the changes in the other branch are also available in branch A.
+(((git rebase)))
 
-The process is displayed in the following picture. We want to rebase the
-branch called `branch_1` onto master.
+You can use Git to rebase one branch on another one. 
+As described, the `merge` command combines the changes of two branches. 
+If you rebase a branch called A onto another, the `git` command takes the changes introduced by the commits
+of branch A and applies them based on the HEAD of the other branch. 
+After this operation the changes in the other branch are also available in branch A.
+
+The process is displayed in the following picture. We want to rebase the branch called `branch_1` onto master.
 
 image::img/gitrebase10.png[Rebasing a branch] 
- Running the
-rebase command creates a new commit with the changes of the branch on
-top of the master branch.
+
+Running the rebase command creates a new commit with the changes of the branch on top of the master branch.
 
 image::img/gitrebase20.png[Rebasing a branch result] 
 
-Performing a rebase does not create a merge commit. The final result for
-the source code is the same as with merge but the commit history is
-cleaner; the history appears to be linear.
+Performing a rebase does not create a merge commit. 
+The final result for the source code is the same as with merge but the commit history is cleaner; the history appears to be linear.
 
-Rebase can be used to forward-port a feature branch in the local Git
-repository onto the changes of the master branch. This ensures that your
-feature is close to the tip of the upstream branch until it is finally
-published.
+Rebase can be used to forward-port a feature branch in the local Git repository onto the changes of the master branch. 
+This ensures that your feature is close to the tip of the upstream branch until it is finally published.
 
-If you rewrite more than one commit by rebasing, you may have to solve
-conflicts per commit. In this case the merge operations might be simpler
-to be performed because you only have to solve merge conflicts once.
+If you rewrite more than one commit by rebasing, you may have to solve conflicts per commit. 
+In this case the merge operations might be simpler to be performed because you only have to solve merge conflicts once.
 
-Also, if your policy requires that all commits result in correct
-software you have to test all the rewritten commits since they are
-"rewritten" by the rebase algorithm. Since merge/rebase/cherry-pick are
-purely text-based and do not understand the semantics of these texts
-they can end up with logically incorrect results. Hence, it might be
+Also, if your policy requires that all commits result in correct software you have to test all the rewritten commits since they are
+"rewritten" by the rebase algorithm. 
+Since merge/rebase/cherry-pick are purely text-based and do not understand the semantics of these texts they can end up with logically incorrect results. Hence, it might be
 more efficient to merge a long feature branch into upstream instead of
 rebasing it since you only have to review and test the merge commit.
 

@@ -3,6 +3,7 @@ rootProject.name = 'com.vogella.tutorials.technology'
 include 'AsciiDoc'
 include 'Docker'
 include 'Gerrit'
+include 'Git'
 include 'ApacheHTTP'
 include 'Mathematik'
 

@@ -41,8 +41,8 @@ include::./examples/commandline/git_checkout3[]
 [WARNING]
 ====
 If you checkout a commit, you are in the _detached
-head mode_ and > commits in this mode are harder to find after you
-checkout another > branch. Before committing it is good practice to
+head mode_ and commits in this mode are harder to find after you
+checkout another branch. Before committing it is good practice to
 create a new branch > to leave the _detached head mode_ . See <<detachedheadmode>> for
 details.
 ====

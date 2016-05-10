@@ -1,18 +1,12 @@
 [[interactive_rebase]]
 = Editing history with the interactive rebase
 
-((git rebase))
+(((git rebase)))
+(((rebase plan)))
+(((Interactive rebase)))
 
-LARSSECONDARY"interactive"LARSSECONDARY (((rebase
-plan)))
-
- (((Interactive
-rebase)))
-
- Git allows you to edit your commit history with
-a functionality called `interactive rebase` . For example, you can
-combine several commits into one commit, reorder or skip commits and
-edit the commit message.
+Git allows you to edit your commit history with  a functionality called `interactive rebase`. 
+For example, you can combine several commits into one commit, reorder or skip commits and edit the commit message.
 
 This is useful as it allows the user to rewrite some commit history
 (cleaning it up) before pushing the changes to a remote repository.

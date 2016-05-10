@@ -1,10 +1,9 @@
 [[cherrypick_definition]]
-= Applying a single commit
+= Applying a single commit with cherry-pick
 
-((git cherry-pick))
- The `git cherry-pick`
-command allows you to select the patch which was introduced with an
-individual commit and apply this patch on another branch. The patch is
+(((git cherry-pick)))
+
+The `git cherry-pick` command allows you to select the patch which was introduced with an individual commit and apply this patch on another branch. The patch is
 captured as a new commit on the other branch.
 
 This way you can select individual changes from one branch and transfer

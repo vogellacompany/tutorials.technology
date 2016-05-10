@@ -43,8 +43,8 @@ You can also skip the commit which creates the conflict.
 include::./examples/rebase/rebaseskip.txt[]
 ----
 
-
-== Aborting a rebase operation \{#rebaseconflict_abort}
+[[rebaseconflict_abort]]
+== Aborting a rebase operation
 
 You can also abort a rebase operation with the following command.
 
@@ -53,8 +53,8 @@ You can also abort a rebase operation with the following command.
 include::./examples/rebase/rebaseabort.txt[]
 ----
 
-
-== Picking theirs or ours for conflicting file \{#rebaseconflict_theirs}
+[[rebaseconflict_theirs]]
+== Picking theirs or ours for conflicting file
 
 ((Rebase conflict))
  LARSSECONDARY"theirs

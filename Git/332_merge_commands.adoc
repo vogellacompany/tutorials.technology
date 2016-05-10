@@ -12,8 +12,8 @@ branch to the current active one via the following command.
 include::./examples/commandline/git_merge[]
 ----
 
-
-== Specifying merge strategies \{#gitmerge_mergeoptionsstrategies}
+[[gitmerge_mergeoptionsstrategies]]
+== Specifying merge strategies
 
 The `-s` parameter allows you to specify other merge strategies. This is
 demonstrated with the following command.
@@ -27,9 +27,12 @@ the following command.
 ----
 include::./examples/merge/mergeours.txt[]
 ----
- >
-*Warning* > > Be careful if you use the _ours_ merge strategy, it
-ignores everything > from the branch which is merged.
+ 
+[WARNING]
+====
+Be careful if you use the _ours_ merge strategy, it
+ignores everything from the branch which is merged.
+====
 
 The usage of the octopus merge strategy is triggered if you specify more
 than one reference to merge.
@@ -39,9 +42,8 @@ than one reference to merge.
 include::./examples/merge/mergeoctupus.txt[]
 ----
 
-
+[[gitmerge_mergeoptions]]]
 == Specifying parameters for the default merge strategy
-\{#gitmerge_mergeoptions}
 
 The recursive merge strategy (default) allows you to specify flags with
 the `-X` parameter. For example you can specify here the `ours` option.

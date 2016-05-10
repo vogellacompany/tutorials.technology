@@ -7,21 +7,20 @@ interactive rebase.
 [source,terminal]
 ----
 include::./examples/rebase/git_rebase_commits[]
----- We want to combine the last seven commits. You can do this
-interactively via the following command.
+---- 
+
+We want to combine the last seven commits. You can do this interactively via the following command.
 
 [source,terminal]
 ----
 include::./examples/rebase/rebase_i.txt[]
 ----
-This command opens your editor of choice and lets you configure the
-rebase operation by defining which commits to _pick_ , _squash_ or
-_fixup_ .
 
-The following listing shows an example of the selection, we pick the
-last commit, squash 5 commits and fix the sixth commit. The listing uses
-the long format of the commands (for example `fixup` instead of the
-short form `f` ) for better readability.
+This command opens your editor of choice and lets you configure the rebase operation by defining which commits to _pick_ , _squash_ or _fixup_ .
+
+The following listing shows an example of the selection. 
+We pick the last commit, squash 5 commits and fix the sixth commit. 
+The listing uses the long format of the commands (for example `fixup` instead of the short form `f` ) for better readability.
 
 [source,terminal]
 ----

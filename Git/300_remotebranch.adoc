@@ -63,60 +63,59 @@ remote repository called _origin_ you can use the following command.
 ----
 include::./examples/remotebranch/deleteremotebranch3.txt[]
 ----
- > *Note*
-> > Note you can also specify the remote repository's URL. So the >
-following command also works. > > [source,terminal]
----- >
+
+[NOTE]
+====
+You can also specify the remote repository's URL. So the 
+following command also works. 
+
+[source,terminal]
+---- 
 include::./examples/remotebranch/deleteremotebranch4.txt[]
 ----
+====
 
 [[git_trackingbranches]]
 == Tracking branches
 
 (((Tracking branch)))
 
-Branches can track
-another branch. This is called _to have an upstream branch_ and such
-branches can be referred to as _tracking branches_ .
+Branches can track another branch. This is called _to have an upstream branch_ and such branches can be referred to as _tracking branches_.
 
-Tracking branches_ allow you to use the `git pull` and `git push`
-command directly without specifying the branch and repository.
+Tracking branches_ allow you to use the `git pull` and `git push` command directly without specifying the branch and repository.
 
-If you clone a Git repository, your local _master_ branch is created as
-a _tracking branch_ for the _master_ branch of the _origin_ repository
+If you clone a Git repository, your local _master_ branch is created as a _tracking branch_ for the _master_ branch of the _origin_ repository
 (short:_origin/master_) by Git.
 
 [[git_setting_uptrackingbranches]]
 == Setting up tracking branches
 
-You create new _tracking branches_ by specifying the _remote branch_
-during the creation of a branch. The following example demonstrates
-that.
+You create new _tracking branches_ by specifying the _remote branch_ during the creation of a branch. The following example demonstrates that.
 
 [source,terminal]
 ----
 include::./examples/remotebranch/trackingbranch.txt[]
 ----
- Instead of
-using the `git checkout` command you can also use the `git branch`
-command.
+
+Instead of using the `git checkout` command you can also use the `git branch` command.
 
 [source,terminal]
 ----
 include::./examples/remotebranch/create.txt[]
----- The `--no-track` allows you to specify that you do not want to
-track a branch. You can explicitly add a tracking branch with the
-`git branch -u` command later.
+---- 
+
+The `--no-track` allows you to specify that you do not want to track a branch. 
+You can explicitly add a tracking branch with the `git branch -u` command later.
 
 [source,terminal]
 ----
 include::./examples/remotebranch/update.txt[]
 ---- 
+
 [[gitremotebranch_seetrackingbranch]]
 == See the branch information for a remote repository
 
-To see the tracking branches for a remote repository (short: remote) you
-can use the following command.
+To see the tracking branches for a remote repository (short: remote) you can use the following command.
 
 [source,terminal]
 ----

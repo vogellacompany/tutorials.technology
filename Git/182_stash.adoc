@@ -19,14 +19,13 @@ also possible to keep a list of stashes.
 include::./examples/stash/stash2.txt[]
 ----
  
+[[stash_branchexample]]
+== Create a branch from a stash 
 
-==
-Create a branch from a stash \{#stash_branchexample}
+(((Branch from stash)))
 
-((Branch from stash))
- You can also create
-a branch for your stash if you want to continue to work on the stashed
-changes in a branch. This can be done with the following command.
+You can also create a branch for your stash if you want to continue to work on the stashed changes in a branch. 
+This can be done with the following command.
 
 [source,terminal]
 ----

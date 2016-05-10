@@ -4,7 +4,7 @@
 [[stash_usage1]]
 == The git stash command
 
-((stashing in Git))
+(((stashing in Git)))
 (((git stash)))
 
 Git provides the `git stash` command which allows
@@ -19,13 +19,9 @@ the changes to the current version of the source code.
 == When to use git stash
 
 In general using the stash command should be the exception in using Git.
-Typically, you would create new branches for new features and switch
-between branches. You can also commit frequently in your local Git
-repository and use interactive rebase to combine these commits later
-before pushing them to another Git repository.
+Typically, you would create new branches for new features and switch between branches. 
+You can also commit frequently in your local Git repository and use interactive rebase to combine these commits later before pushing them to another Git repository.
 
-Even if you prefer not to use branches, you can avoid using the
-`git stash` command. In this case you commit the changes you want to put
-aside and amend the commit with the next commit. If you use the approach
-of creating a commit, you typically put a marker in the commit message
-to mark it as a draft, e.g., "[DRAFT] implement feature x".
+Even if you prefer not to use branches, you can avoid using the `git stash` command. 
+In this case you commit the changes you want to put aside and amend the commit with the next commit. 
+If you use the approach of creating a commit, you typically put a marker in the commit message to mark it as a draft, e.g., "[DRAFT] implement feature x".

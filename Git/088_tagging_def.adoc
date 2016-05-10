@@ -17,18 +17,18 @@ If you tag a commit, you create an annotated or lightweight tag.
 Git supports two different types of tags, lightweight and annotated tags.
 
 A _lightweight tag_ is a pointer to a commit, without any additional information about the tag. 
-An _annotated tag_contains additional information about the tag, e.g., the name and email of the person who created the tag, a tagging message
-and the date of the tagging. _Annotated tags_ can also be signed and
-verified with _GNU Privacy Guard (GPG)_ .
+An _annotated tag_ contains additional information about the tag, e.g., 
+the name and email of the person who created the tag, a tagging message
+and the date of the tagging.
+Annotated tags can also be signed and verified with _GNU Privacy Guard (GPG)_ .
 
 [[tagging_namingconventions]]
 === Naming conventions for tags
 
 (((Tags/Tagging, naming conventions)))
 
-Tags are frequently used to tag the state of a
-release of the Git repository. In this case they are typically called
-_release tags_.
+Tags are frequently used to tag the state of a release of the Git repository. 
+In this case they are typically called _release tags_.
 
 Convention is that release tags are labeled based on the
 [major].[minor].[patch] naming scheme, for example "1.0.0". Several

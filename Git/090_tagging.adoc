@@ -83,10 +83,12 @@ If you want to use the code associated with the tag, use:
 ----
 include::./examples/tag/checkout.txt[]
 ----
- >
-*Warning* > > If you checkout a tag, you are in the _detached head mode_
-and commits > created in this mode are harder to find after you checkout
-a branch > again. See ? for details.
+[WARNING]
+====
+If you checkout a tag, you are in the _detached head mode_
+and commits created in this mode are harder to find after you checkout
+a branch again. See <<detachedheadmode>> for details.
+====
 
 [[tagging_pushtags]]
 === Push tags
