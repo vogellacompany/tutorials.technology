@@ -18,8 +18,8 @@ one parent.
 
 image::img/commitreference10.png[Commit reference overview]
 
-In Git you frequently want to refer to certain commits. Forcommitreference_carettilde
-example you want to tell Git to show you all changes which were done in
+In Git you frequently want to refer to certain commits. For
+example, you want to tell Git to show you all changes which were done in
 the last three commits. Or you want to see the differences introduced
 between two different branches.
 
