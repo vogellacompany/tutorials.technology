@@ -1,6 +1,37 @@
-=== Annotations for warnings, notes and tips
+== Admonition paragraphs and blocks for warnings, notes and tips
 
-You can write tips into your document with the following syntax.
+=== Admonition paragraphs
+
+An admonition paragraph draws the reader's attention to certain information. 
+It can be defined by a predefined label at the beginning of the paragraph or as a block.
+
+----
+Here are the other built-in admonition types:
+
+TIP: Pro tip...
+
+IMPORTANT: Don't forget...
+
+WARNING: Watch out for...
+
+CAUTION: Ensure that...
+----
+
+The result looks like the following:
+
+Here are the other built-in admonition types:
+
+TIP: Pro tip...
+
+IMPORTANT: Don't forget...
+
+WARNING: Watch out for...
+
+CAUTION: Ensure that...
+
+== Admonition blocks
+
+You can also use admonition blocks.
 
 ----
 [TIP]
