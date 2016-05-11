@@ -29,7 +29,7 @@ WARNING: Watch out for...
 
 CAUTION: Ensure that...
 
-== Admonition blocks
+=== Admonition blocks
 
 You can also use admonition blocks.
 
