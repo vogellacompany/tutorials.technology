@@ -1,0 +1,14 @@
+= Virtualization under Ubuntu - Tutorial
+:linkcss:
+(c) 2015 vogella GmbH
+Version 0.1, 12.05.2016
+
+[abstract]
+== Virtualization using gnome-boxes
+
+This tutorial contains notes about the usage of gnome-boxes.
+				
+include::010_overview.adoc[]
+include::008_resourceslocal.adoc[]
+
+
