@@ -1,5 +1,9 @@
 == Using Fedora
 
+=== Downloading Fedora
+
+See https://getfedora.org/en/workstation/download/ for an image to download.
+
 === Installing new software
 
 You can use the `dnf` command to install new software. For example, use the following command to install Git.
