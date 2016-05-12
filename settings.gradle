@@ -1,5 +1,6 @@
 rootProject.name = 'com.vogella.tutorials.technology'
 
+include 'Fedora'
 include 'AsciiDoc'
 include 'Docker'
 include 'Gerrit'

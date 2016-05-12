@@ -1,0 +1,8 @@
+== Using Fedora
+
+=== Installing new software
+
+You can use the `dnf` command to install new software. For example, use the following command to install Git.
+sudo dnf install git
+
+
