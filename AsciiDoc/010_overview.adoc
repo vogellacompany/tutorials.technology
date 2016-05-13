@@ -121,7 +121,19 @@ menu:View[Zoom > Reset].
 
 Press the btn:[OK] button when you are finished.
 
-== Images and Graphics
+=== Keyboard shortcuts
+
+You can also define keyboard shortcuts the the `kbd` macro, as demonstrated via the following macro.
+
+----
+kbd:[Alt+F11] - Toggle Full Screen Mode in the Eclipse IDE
+----
+
+The result is the following:
+
+kbd:[Alt+F11] - Toggle Full Screen Mode in the Eclipse IDE
+
+=== Images and Graphics
 
 To reference images in your AsciiDoc with the `image::` macro pointing to a relative file locatin. Use brackets to define a fixed or related size.
 
