@@ -155,6 +155,24 @@ icon:file[] And a file icon
 
 icon:battery-full[] And a battery icon
 
+
+=== Defining external links
+
+Asciidoc determines automatically links in the content of your document, if the link starts with http:// or https://. 
+You can also define a anchor text via [] directly after the link.
+
+----
+http://www.vogella.com[vogella]
+
+http://www.vogella.com[vogella]
+----
+The result looks like the following.
+
+http://www.vogella.com[vogella]
+
+http://www.vogella.com
+
+
 === Defining references
 
 You can assign meta data to a block. Here’s an example of a quote block that includes all types of metadata:
