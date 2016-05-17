@@ -7,5 +7,6 @@ include 'Gerrit'
 include 'Git'
 include 'ApacheHTTP'
 include 'Virtualization'
+include 'ApacheMaven'
 include 'Mathematik'
 
