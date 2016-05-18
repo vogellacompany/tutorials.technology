@@ -1,6 +1,7 @@
 == Introduction into Asciidoc
 
 === What is Asciidoc and Asciidoctor
+
 AsciiDoc is a text document format for writing notes, documentation, articles, books, ebooks, slideshows, web pages, man pages and blogs. 
 AsciiDoc files can be translated via the Asciidoctor toolchain to many formats including HTML, PDF, EPUB, DocBook and man page.
 Any text editor can be used. Some websites, like Github, render AsciiDoc files directly into HTML.
@@ -30,6 +31,28 @@ sudo apt-get install -y asciidoctor
 ----
 
 == Basic document features
+
+=== Text formatting
+
+Use the following to highlight your text.
+
+----
+*This is bold text*
+
+_This is cursiv text_
+
+`This is mono text`
+
+----
+
+The result looks like the following:
+
+*This is bold text*
+
+_This is cursiv text_
+
+`This is mono text`
+
 
 === Importing files or file includes
 
