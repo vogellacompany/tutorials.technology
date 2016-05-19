@@ -269,7 +269,45 @@ The result looks like the following.
 |Cell in column 3, row 2
 |===
 
-[[test]]
+==== Define column widths
+
+The `[cols="1, 3"]` declaration directly underneath the .Table declaration can be used to specify the column's width.
+
+----
+.Table Title
+[cols="1, 3"]
+|===
+|Name of Column 1 |Name of Column 2 |Name of Column 3 
+
+|Cell in column 1, row 1
+|Cell in column 2, row 1
+|Cell in column 3, row 1
+
+|Cell in column 1, row 2
+|Cell in column 2, row 2
+|Cell in column 3, row 2
+|===
+----
+
+The snippet above will result in the following:
+
+.Table Title
+[cols="1, 3"]
+|===
+|Name of Column 1 |Name of Column 2 |Name of Column 3 
+
+|Cell in column 1, row 1
+|Cell in column 2, row 1
+|Cell in column 3, row 1
+
+|Cell in column 1, row 2
+|Cell in column 2, row 2
+|Cell in column 3, row 2
+|===
+
+Alternatively % values can be used, e.g., [cols="40%, 60%"].
+
+[[source-code]]
 === Source code, using monospace and callouts
 
 Use monospace text formatting to emulate how source code appears in computer terminals, 
