@@ -1,21 +1,19 @@
 [[firstgit]]
-
-== Exercise: Introduction to a local Git workflow
+== Exercise: Performing a local Git workflow
 
 [[firstgit_createrepotarget]]
-
 === Target of this chapter
 
-In this exercise you learn how to create a local Git repository and to place files and their changes under version
-control. It assumes that you follow the given instructions and give some explanations about the commands you are using.
+In this exercise you learn how to create a local Git repository and to place files and their changes under version control. 
+It assumes that you follow the given instructions and give some explanations about the commands you are using.
 
 
 Open a command shell for the operations. 
-Some commands are Linux specific, e.g., appending to a file or creating a directory. Substitute these commands with the commands of your operating system.
+Some commands are Linux specific, e.g., appending to a file or creating a directory. 
+Substitute these commands with the commands of your operating system.
 The comments (marked with #) before the commands explain the specific actions.
 
 [[firstgit_directory]]
-
 === Create a directory
 
 The following commands create an empty directory which is used later in
@@ -35,15 +33,13 @@ mkdir datafiles
 ----
 
 [[firstgit_repository_creation]]
-
 === Create a new Git repository
 
 You now create a new Git repository with a working tree. 
 
-Every Git repository is stored in the `.git` folder of the directory in
-which the Git repository has been created. This directory contains the
-complete history of the repository. The `.git/config` file contains the
-configuration for the repository.
+Every Git repository is stored in the `.git` folder of the directory in which the Git repository has been created. 
+This directory contains the complete history of the repository. 
+The `.git/config` file contains the configuration for the repository.
 
 Use the `git init` command to create a Git repository in the current directory. 
 Git does not care whether you start with an empty directory or if it contains already files.
@@ -58,12 +54,10 @@ cd ~/repo01
 git init
 ---- 
 
-All files inside the repository folder, excluding the `.git` folder,
-are the _working tree_ for a Git repository.
+All files inside the repository folder, excluding the `.git` folder, are the _working tree_ for a Git repository.
 
 
 [[firstgit_content]]
-
 === Create new content
 
 Use the following commands to create several new files.
@@ -98,13 +92,10 @@ include::./examples/commandline/first.output[]
 [[firstgit_repoadd]]
 === Add changes to the staging area
 
-
-
 Before committing changes to a Git repository, you need to mark the changes that should be committed with the `((git add))` command.
 This command allows adding changes in the file system to the staging area.
 It creates a snapshot of the affected files. 
-You can add all changes to the staging area with the `.` option or changes in individual files but
-specifying a file pattern as option.
+You can add all changes to the staging area with the `.` option or changes in individual files but specifying a file pattern as option.
 
 [source,terminal]
 ----
@@ -112,8 +103,8 @@ specifying a file pattern as option.
 git add .
 ---- 
 
-Afterwards run the `git status` command again to see the current
-status.
+Afterwards run the `git status` command again to see the current status. 
+The following listing shows the output of this command.
 
 [source,terminal]
 ----
@@ -123,9 +114,9 @@ include::./examples/commandline/gitrepo_add.result[]
 [[firstgit_changefiles]]
 === Change files that are staged
 
-In case you change one of the staged files before committing, you need
-to add the changes again to the staging area, to commit the new changes. 
-This is because Git creates a snapshot of these staged files. All new changes must again be staged.
+In case you change one of the staged files before committing, you need to add the changes again to the staging area, to commit the new changes. 
+This is because Git creates a snapshot of the content of a staged file. 
+All new changes must again be staged.
 
 [source,terminal]
 ----
@@ -155,7 +146,6 @@ include::./examples/commandline/gitrepo_changestaged.finalresult[]
 ----
 
 [[firstgit_repocommit]]
-
 === Commit staged changes to the repository
 
 After adding the files to the Git staging area, you can commit them to the Git repository with the `((git commit))` command. 
@@ -169,11 +159,9 @@ include::./examples/commandline/gitrepo_commit[]
 ----
 
 [[firstgitresult_results]]
-
 === Viewing the Git commit history
 
-The Git operations you performed have created a local Git repository in
-the `.git` folder and added all files to this repository via one commit.
+The Git operations you performed have created a local Git repository in the `.git` folder and added all files to this repository via one commit.
 Run the `git log` command to see the history.
 
 [source,terminal]
@@ -197,15 +185,13 @@ If you specify a commit reference as third parameter, this is used to determine 
 [[firstgitresult_directory]]
 === Review the resulting directory structure
 
-Review the resulting directory structure. Your directory contains the Git repository as well as the Git working
-tree for your files. This directory structure is depicted in the
-following screenshot.
+Review the resulting directory structure. Your directory contains the Git repository as well as the Git working tree for your files. 
+This directory structure is depicted in the following screenshot.
 
 image::img/firstgit-directory10.png[First Git directory] 
 
 
 [[firstgit_deletefile]]
-
 === Remove files
 
 (((Repository, remove files)))
@@ -222,12 +208,9 @@ git add .
 git commit -m "Removes the test03 file"
 ----
 
-Alternatively you can use the `git rm` command to delete the file from
-your working tree and record the deletion of the file in the staging
-area.
+Alternatively you can use the `git rm` command to delete the file from your working tree and record the deletion of the file in the staging area.
 
 [[firstgit_checkout]]
-
 === Revert changes in files in the working tree
 
 (((Remove changes in the working tree)))
@@ -254,30 +237,28 @@ include::./examples/deletefile/checkout_result.txt[]
 
 [WARNING]
 ====
-Use this command carefully. The `git checkout` command deletes the 
-unstaged and uncommitted changes of tracked files in the working tree
-and it is not possible to restore this deletion via Git.
+Use this command carefully. 
+The `git checkout` command deletes the  unstaged and uncommitted changes of tracked files in the working tree and it is not possible to restore this deletion via Git.
 ====
 
 [[firstgit_amend]]
-
-=== Correct the last commit with git amend
+=== Correct the changes of the commit with git amend
 
 (((git amend)))
 (((change last commit)))
 
-The `git commit --amend` command makes it
-possible to replace the last commit. This allows you to change the last
-commit including the commit message.
+The `git commit --amend` command makes it possible to rework the changes of the last commit.
+It creates a new commit with the adjusted changes.
 
 [NOTE]
 ====
 The amended commit is still available until a clean-up job removes it.
+But it is not included in the `git log` output hence it does not distract the user.
 See <<gitreflog_definition>> for details.
 ====
 
-Assume the last commit message was incorrect as it contained a typo. The
-following command corrects this via the `--amend` parameter.
+Assume the last commit message was incorrect as it contained a typo. 
+The following command corrects this via the `--amend` parameter.
 
 [source,terminal]
 ----
@@ -291,20 +272,16 @@ git commit -m "message with a tpyo here"
 git commit --amend -m "More changes - now correct"
 ----
 
-You should use the `git --amend` command only for commits which have not
-been pushed to a public branch of another Git repository. The
-`git --amend` command creates a new commit ID and people may have based
-their work already on the existing commit. In this case they would need
-to migrate their work based on the new commit.
+You should use the `git --amend` command only for commits which have not been pushed to a public branch of another Git repository. 
+The `git --amend` command creates a new commit ID and people may have based their work already on the existing commit. 
+If that would be the case, they would need to migrate their work based on the new commit.
 
 [[usegitignore]]
-
 === Ignore files and directories with the .gitignore file
 
 (((.gitignore)))
 (((gitignore file)))
 
-You know want to ignore certain files from the Git repository.
 Create the following `.gitignore` file in the root of your Git directory to ignore the specified directory and file.
 
 [source,terminal]
@@ -317,9 +294,9 @@ echo "doNotTrackFile.txt" >> .gitignore
 
 [NOTE]
 ====
-The above command creates the file via the command
-line. A more common approach is to use your favorite text editor to
-create the file. This editor must save the file as plain text. 
+The above command creates the file via the command line. 
+A more common approach is to use your favorite text editor to create the file. 
+This editor must save the file as plain text. 
 Editors which do this are for example _gedit_ under Ubuntu or _Notepad_ under Windows.
 ====
 
@@ -335,8 +312,8 @@ doNotTrackFile.txt
 
 === Commit the .gitignore file
 
-It is good practice to commit the `.gitignore` file into the Git
-repository. Use the following commands for this.
+It is good practice to commit the `.gitignore` file into the Git repository. 
+Use the following commands for this.
 
 [source,terminal]
 ----

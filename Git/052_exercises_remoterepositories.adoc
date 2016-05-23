@@ -5,15 +5,14 @@
 
 === Target of this exercise
 
-In this exercise you create more Git repositories via the clone operation. 
-This is based on <<firstgit>>. 
-Afterwards you pull from and push to your bare repository to synchronize changes between your remote repositories.
+This exercise is based on <<firstgit>>.
+You now create a local bare repository based on your existing Git repository.
+In order to simplify the examples, the Git repository is hosted locally in the filesystem and not on a server in the Internet.
+
+Afterwards you pull from and push to your bare repository to synchronize changes between your repositories.
 
 [[remotes_setupexercise]]
-=== Exercise: Cloning to create a bare Git repository
-
-In this section you create a bare Git repository. 
-In order to simplify the examples, the Git repository is hosted locally in the filesystem and not on a server in the Internet.
+=== Create a bare Git repository via the clone operation
 
 Execute the following commands to create a bare repository based on your existing Git repository.
 
@@ -22,20 +21,10 @@ Execute the following commands to create a bare repository based on your existin
 include::./examples/commandline/git_remote.commands[]
 ----
 
-[TIP]
-====
-If you receive a warning similar to the following: 
-`push.default is unset; its implicit value is changing in Git 2.0 from 'matching' to 'simple'`, 
-see <<gitsetup_pushconfiguration>> for the missing configuration.
-====
-
 [[remotes_remoteadd]]
-
-
 === Exercise: Clone your bare repository
 
-Clone your existing repository and checkout a working tree in a new directory via
-the following commands.
+Clone your bare repository and checkout a working tree in a new directory via the following commands.
 
 [source,terminal]
 ----
@@ -43,11 +32,9 @@ include::./examples/commandline/git_clone.commands[]
 ----
 
 [[exercise_cloneremotes_push]]
-
 === Exercise: Using the push command
 
-Make some changes in your local repository and push them from your first
-repository to the remote repository via the following commands.
+Make some changes in one of your non-bare local repositories and push them to your bare repository via the following commands.
 
 [source,terminal]
 ----
@@ -57,10 +44,9 @@ include::./examples/commandline/git_push.commands[]
 [[exercise_cloneremotes_pull]]
 === Exercise: Using the pull command
 
-To test the `git pull` in your example Git repositories, switch to your
-second repository, pull in the recent changes from the remote
-repository, make some changes, push them to your remote repository via
-the following commands.
+To test the `git pull` in your example Git repositories, switch to other non-bare local repository.
+Pull in the recent changes from the remote repository.
+Afterwards make some changes and push them again to your remote repository.
 
 [source,terminal]
 ----

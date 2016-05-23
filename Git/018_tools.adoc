@@ -1,14 +1,11 @@
-[[git_tools]]
-
+[[git_tooling]]
+== Git tooling
 
 [[git_tools_commmandline]]
 === The Git command line tools
 
-The original tooling for Git is based on the command line, i.e., the Git
-development team provides only tooling for the command line. 
-
-The usage of Git via the command line involves using the `git` command. 
-Without any arguments, Git lists its options and the most common commands. 
+The core Git development team provides tooling for the command line via the the `git` command. 
+Without any arguments, this command lists its options and the most common commands. 
 You can get help for a certain Git command via the help command online option followed by the command. 
 
 ----
@@ -56,13 +53,8 @@ git log HEAD
 
 === Graphical tools for Git
 
-You can also use graphical tools see
-http://git-scm.com/downloads/guis[GUI Clients] at the official git
-website for an overview.
+You can also use graphical tools. 
+For example, the https://www.eclipse.org/downloads/[Eclipse IDE] provides excellent support for working with Git repositories.
 
-For example the https://www.eclipse.org/downloads/[Eclipse IDE] provides
-excellent support for working with Git repositories.
+See http://git-scm.com/downloads/guis[GUI Clients] for an overview of the available tools
 
-To learn more about the Git integration into Eclipse see the
-http://www.vogella.com/EclipseGit/articles.html[Eclipse Git online
-tutorial] or the http://www.vogella.com/books/eclipseide.html[Eclipse IDE book].

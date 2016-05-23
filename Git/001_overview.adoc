@@ -1,6 +1,6 @@
 [[git]]
 
-== Introduction to version control systems and Git
+== Introduction to version control systems
 
 [[versioncontrolssystems]]
 
@@ -8,85 +8,52 @@
 
 (((Version control system)))
 
-A version control system (VCS) allows you to track the history of a collection of
-files. It supports creating different versions of this collection. Each
-version captures a snapshot of the files at a certain point in time and
-the VCS allows you to switch between these versions. These versions are
-stored in a specific place, typically called a _repository_.
+A version control system (VCS) allows you to track the history of a collection of files. 
+It supports creating different versions of this collection. 
+Each version captures a snapshot of the files at a certain point in time and the VCS allows you to switch between these versions. 
+These versions are stored in a specific place, typically called a _repository_.
 
-You may, for example, revert the collection of files to a state from 2
-days ago. Or you may switch between versions of your files for
-experimental features.
+You may, for example, revert the collection of files to a state from 2 days ago. 
+Or you may switch between versions of your files for experimental features.
 
-The process of creating different versions (snapshots) in the repository
-is depicted in the following graphic. Please note that this picture fits
-primarily to Git. Other version control systems like _Concurrent
-Versions System_ (CVS) don't create snapshots but store file deltas.
+The process of creating different versions (snapshots) in the repository is depicted in the following graphic. 
+Please note that this picture fits primarily to Git. 
+Other version control systems like _Concurrent Versions System_ (CVS) don't create snapshots of the files but store file deltas.
 
 image::img/vcs_state10.png[Creating snapshots]
 
-VCS are
-typically used to track changes in _source code_ for a programmingit Tutorial
-language or other text files, like HTML code or configuration files. But
-a typical version control system can put any type of file under version
-control, e.g., you may use a VCS to track the different versions of your
-company logo.
+VCS are typically used to track changes in text files.
+These text files can for example be source code for a programming language, HTML or configuration files. 
+Of course, version control systems are not limited to text files, they can also handle other types of files.
+For example, you may use a VCS to track the different versions of a png file.
 
 [[cvcs_definition]]
-
 === Localized and centralized version control systems
 
-A localized version control system keeps local copies of the files. This
-approach can be as simple as creating a manual copy of the relevant
-files. A centralized version control system provides a server software
-component which stores and manages the different versions of the files
-and let developer copy (checkout) a certain version onto their
-individual computer.
+A localized version control system keeps local copies of the files. 
+This approach can be as simple as creating a manual copy of the relevant files.
+ 
+A centralized version control system provides a server software component which stores and manages the different versions of the files.
+A developer can copy (checkout) a certain version from the central sever onto their individual computer.
 
-Both approaches have the drawback that they have only one single point
-of failure, e.g., in localized version control systems the individual
-computer and in a centralized version control systems the server
-machine. Both system makes it also harder to work in parallel on
-different features.
+Both approaches have the drawback that they have one single point of failure.
+In a localized version control systems it is the individual computer and in a centralized version control systems it is the server machine. 
+Both system makes it also harder to work in parallel on different features.
 
 [[dvcs_definition]]
-
 === What is a distributed version control system?
 
 (((Version control system, distributed version control system)))
 
-In a
-distributed version control system each user has a complete local copy
-of a repository on his individual computer. The user can copy an
-existing repository. This copying process is typically called _cloning_
-and the resulting repository can be referred to as a _clone_ .
+In a distributed version control system each user has a complete local copy of a repository on his individual computer. 
+The user can copy an existing repository. 
+This copying process is typically called _cloning_ and the resulting repository can be referred to as a _clone_ .
 
-Every clone contains the full history of the collection of files and a
-cloned repository has the same functionality as the original repository.
+Every clone contains the full history of the collection of files and a cloned repository has the same functionality as the original repository.
 
-Every repository can exchange versions of the files with other
-repositories by transporting these changes. This is typically done via a
-repository running on a server which is, unlike the local machine of a
-developer, always online. Typically there is a central server for
-keeping a repository but each cloned repository is a full copy of this
-repository. The decision which of the copies is considered to be the
-central server repository is pure convention and not tied to the
-capabilities of the distributed version control system itself.
+Every repository can exchange versions of the files with other repositories by transporting these changes. 
+This is typically done via a repository running on a server which is, unlike the local machine of a developer, always online. 
+Typically, there is a central server for keeping a repository but each cloned repository is a full copy of this repository. 
+The decision which of the copies is considered to be the central server repository is pure convention.
 
 image::img/sharedrepo10.png[Creating snapshots] 
-
-=== What is Git?
-
-(((What is Git)))
-
-_Git_ is currently the most popular
-implementation of a distributed version control system.
-
-Git originates from the Linux kernel development and was founded in 2005
-by Linus Torvalds. Nowadays it is used by many popular open source
-projects, e.g., the Android or the Eclipse developer teams, as well as
-many commercial organizations.
-
-The core of Git was originally written in the programming language _C_ ,
-but Git has also been re-implemented in other languages, e.g., Java,
-Ruby and Python.
