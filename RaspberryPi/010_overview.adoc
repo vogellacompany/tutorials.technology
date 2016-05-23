@@ -1,0 +1,6 @@
+== Raspberry Pi
+
+https://www.raspberrypi.org/downloads/raspbian/[Rasbian] is the official operation system for the Rasberry Pi.
+
+Installation description https://www.raspberrypi.org/documentation/installation/installing-images/linux.md
+
