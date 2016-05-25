@@ -1,5 +1,0 @@
-# see the current status of your repository 
-# (which files are changed / new / deleted)
-git status
-
-

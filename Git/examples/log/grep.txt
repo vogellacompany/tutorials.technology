@@ -1,2 +1,0 @@
-# oneline parameter included for better readability
-git log --oneline --grep="workspace"
