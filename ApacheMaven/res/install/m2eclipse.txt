@@ -1,0 +1,1 @@
+http://download.eclipse.org/technology/m2e/releases

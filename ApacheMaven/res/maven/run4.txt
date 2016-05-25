@@ -1,0 +1,2 @@
+# work offline , i.e. use the local maven repository
+mvn -o clean install

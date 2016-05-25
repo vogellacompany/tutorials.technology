@@ -1,0 +1,74 @@
+<section id="maven_repositories_dependencyresolution">
+	<title>Maven repositories and dependency resolution</title>
+	<section id="maven_repositories">
+		<title>Maven repositories</title>
+		If you run a Maven build, Maven validates if you still have the
+			most recent version of all required artifact dependencies and Maven
+			plug-ins
+			and if required it retrieves them from a Maven repository. A
+			repository is a collection of project artifacts stored
+			in a directory
+			structure similar to the Maven
+			coordinates of the project.
+		
+		
+			Maven downloads these artifacts and plug-in into a local
+			repository.
+			The local repository is located in the home directory of
+			the user in
+			the
+			<filename>.m2/repository</filename>
+			folder. If an artifact or a plug-in is available in the local
+			repository Maven uses it from their.
+		
+		 Maven uses a default remote repository location (http://repo1.maven.org/maven2) from which
+			it downloads the core Maven plugins and dependencies. You can configure Maven to use
+			more repositories and replace the default one. 
+		
+			If you run the
+			<code>mvn install</code>
+			command, the generated artifact is installed into the local Maven
+			repository.
+		
+	</section>
+
+	<section id="maven_dependencyresolution">
+		<title>Maven dependency resolution and Maven reactor</title>
+		Every project can define dependencies using the unique
+			identifier
+			(GAV) of the component it required to compile.
+		
+		
+			<programlisting language="java">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/dependencies/dep.txt" />
+			</programlisting>
+		
+
+		
+			During a build, the Maven system tries to resolve the
+			dependencies of
+			the modules which are build. To resolve dependencies, Maven uses the
+			following sources in the given order:
+			<itemizedlist>
+				<listitem>
+					Project which are included in the same Maven run
+				</listitem>
+				<listitem>
+					local repository
+				</listitem>
+				<listitem>
+					Maven central repository
+				</listitem>
+			</itemizedlist>
+		
+
+		
+			The projects which are included in the same Maven run are also called
+			the Maven
+			<wordasword>reactor</wordasword>
+			.
+		
+	</section>
+
+</section>

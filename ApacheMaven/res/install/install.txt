@@ -1,0 +1,3 @@
+sudo apt-get install mvn
+# if that does not work, try
+sudo apt-get install maven

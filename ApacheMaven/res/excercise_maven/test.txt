@@ -1,0 +1,18 @@
+$ mvn test
+
+....
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.vogella.build.maven.java.AppTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+.....

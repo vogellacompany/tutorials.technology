@@ -1,0 +1,29 @@
+<project>
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.vogella.build.maven.intro</groupId>
+	<artifactId>com.vogella.build.maven.intro</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>mavenintroduction</name>
+	<build>
+		<sourceDirectory>src</sourceDirectory>
+		<plugins>
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.3</version>
+				<configuration>
+					<source>1.8</source>
+					<target>1.8</target>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>exec-maven-plugin</artifactId>
+				<version>1.2.1</version>
+				<configuration>
+					<mainClass>com.vogella.build.maven.intro.Main</mainClass>
+				</configuration>
+			</plugin>
+		</plugins>
+
+	</build>
+</project>

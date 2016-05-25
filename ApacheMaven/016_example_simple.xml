@@ -1,0 +1,194 @@
+<section id="exercise_maven">
+	<title>Exercise: Create and build a Java project with Maven</title>
+	<section id="exercise_maven_target">
+		<title>Target of this exercise</title>
+		
+			In this exercise you create a Java project with the Maven command
+			line and
+			build
+			this project.
+		
+	</section>
+
+	<section id="exercise_maven_generation">
+		<title>Project generation</title>
+		
+			In this project we use the scaffolding functionality of Maven to
+			create a Java project.
+			To avoid the interactive mode (in which Maven
+			asks for the required parameters),
+			all
+			required properties are passed
+			directly to the command. Enter the following into your command shell
+			into one line (the backslash masks the line breaks).
+		
+		
+			<programlisting language="text">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/excercise_maven/generate.txt" />
+			</programlisting>
+		
+		This command results in some output from Maven and a Java
+			project is created.
+		
+		<note>
+			
+				If this is the first time you execute this goal, this may takes
+				some
+				time and produces additional output compared to a second run.
+				This is
+				because
+				Maven first loads all required plug-ins and artifacts
+				for the project generation
+				from
+				the Maven central repository.
+			
+		</note>
+
+	</section>
+	<section id="exercise_maven_review">
+		<title>Review generated project</title>
+		
+			Validate that Maven generated a project on your file system
+			similar to the
+			following structure.
+		
+		
+			<programlisting language="text">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/excercise_maven/filestructure.txt" />
+			</programlisting>
+		
+		
+			Maven created a App.java class in the
+			<filename>./src/main/</filename>
+			folder, which is just a simple "Hello World" program.
+			It also directly
+			created a valid test class in
+			<filename>./src/test/</filename>
+			, with one dumb test.
+			In the root folder there is our
+			<filename>pom.xml</filename>
+			file.
+		
+		
+			<programlisting language="xml">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/excercise_maven/pom.xml" />
+
+			</programlisting>
+		
+	</section>
+
+	<section id="exercise_maven_build">
+		<title>Running the Maven build</title>
+
+		
+			So we have generated a whole project structure with source code
+			and a
+			<filename>pom.xml</filename>
+			file.
+			Now we want to create an executable. For this change into our
+			projects root
+			directory and trigger the following Maven command.
+		
+
+		
+			<programlisting language="xml">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/excercise_maven/compile.txt" />
+			</programlisting>
+		
+
+		
+			As result, Maven has run through all life cycle phases, which
+			were needed by the package phase. It resolved the dependencies,
+			may
+			loaded the JUnit artifact into your local repository and
+			built the
+			sources. It even executed the JUnit test.
+			All the generated files were
+			placed in the target folder in the project root.
+			This folder should
+			look like the following:
+		
+
+		
+			<programlisting language="text">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/excercise_maven/filestructure_after_package.txt" />
+			</programlisting>
+		
+
+		Now you can run the packed program. 
+
+		
+			<programlisting language="text">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/excercise_maven/execute_result.txt" />
+			</programlisting>
+		
+
+	</section>
+	<section id="exercise_maven_other_phases">
+		<title>Run specific phases</title>
+
+		
+			So we have generated a whole project structure with source code
+			and a
+			<filename>pom.xml</filename>
+			file.
+			Now we want to get a executable out of our
+			project. To get this,
+			we have to change into our projects root
+			directory and trigger Maven
+			with the package phase as goal.
+		
+
+		
+			<programlisting language="xml">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/excercise_maven/package.txt" />
+			</programlisting>
+		
+
+		
+			Instead of running a full build with packaging it is also
+			possible to just run single phases of a life cycle.
+		
+
+		For example, if just the test results are needed:
+		
+			<programlisting language="text">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/excercise_maven/test.txt" />
+			</programlisting>
+		
+
+
+		It is also possible to just compile the sources:
+		
+			<programlisting language="text">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/excercise_maven/compile.txt" />
+			</programlisting>
+		
+
+
+		
+			To clean the project and so remove the generated files in the
+			<filename>./target/</filename>
+			folder, run the following command.
+		
+		
+			<programlisting language="text">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/excercise_maven/clean.txt" />
+			</programlisting>
+		
+
+	</section>
+
+
+
+</section>

@@ -1,0 +1,3 @@
+# remove previous build results
+# compiles, build and install the build result
+mvn clean install

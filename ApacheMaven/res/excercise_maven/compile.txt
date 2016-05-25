@@ -1,0 +1,21 @@
+$ mvn compile
+
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building com.vogella.build.maven.java 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) ...
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources..
+[INFO] skip non existing resourceDirectory .....
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.5.1:compile (default-compile)...
+[INFO] Nothing to compile - all classes are up to date
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 0.755s
+[INFO] Finished at: Thu Oct 17 00:59:13 CEST 2013
+[INFO] Final Memory: 7M/106M
+[INFO] ------------------------------------------------------------------------

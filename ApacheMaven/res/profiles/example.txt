@@ -1,0 +1,19 @@
+<profiles>
+ <profile>
+  <id>dev</id>
+   <activation>
+           <activeByDefault>true</activeByDefault>
+        </activation>
+  <properties>
+    <db.location>URL_to_dev_system</db.location>
+    <logo.image>companylogo.png</logo.image>
+  </properties>
+ </profile>
+  <profile>
+    <id>production</id>
+        <properties>
+            <db.location>URL_to_prod_system</db.location>
+            <logo.image>companylogo2.png</logo.image>
+        </properties>
+    </profile>
+ </profiles>

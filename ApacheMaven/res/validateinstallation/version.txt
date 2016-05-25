@@ -1,0 +1,11 @@
+# command
+mvn -version
+
+# output should be similar to
+
+Apache Maven 3.0.5
+Maven home: /usr/share/maven
+Java version: 1.7.0_55, vendor: Oracle Corporation
+Java home: /usr/lib/jvm/java-7-openjdk-amd64/jre
+Default locale: en_US, platform encoding: UTF-8
+OS name: "linux", version: "3.13.0-33-generic", arch: "amd64", family: "unix"

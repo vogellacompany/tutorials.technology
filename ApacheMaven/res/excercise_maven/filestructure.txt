@@ -1,0 +1,19 @@
+com.vogella.build.maven.java/
+├── pom.xml
+└── src
+    ├── main
+    │   └── java
+    │       └── com
+    │           └── vogella
+    │               └── build
+    │                   └── maven
+    │                       └── java
+    │                           └── App.java
+    └── test
+        └── java
+            └── com
+                └── vogella
+                    └── build
+                        └── maven
+                            └── java
+                                └── AppTest.java

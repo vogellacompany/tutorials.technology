@@ -1,0 +1,2 @@
+# Forces an update of the dependencies
+mvn -U install

@@ -1,0 +1,60 @@
+<section id="maven_useful_plugins" role="wrapper">
+	<title>Useful maven plugins to analyse a project</title>
+	<section>
+		<title>Show the dependency tree</title>
+		Maven provides a plugin, which can be used to visualize a dependency tree to either
+			the console or an output file.
+		
+			<programlisting>
+# Show dependencies inside the console
+mvn dependency:tree -Dverbose
+# Write dependency to a file
+mvn dependency:tree -Dverbose -DoutputFile=/home/simon/maven-dependencies</programlisting>
+		
+		
+			<programlisting language="text">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/repositories/dependency-tree-pom.xml"/>
+			</programlisting>
+		
+		In case you have for instance a pom.xml like the one above, and use the <code>mvn
+				dependency:tree -Dverbose</code> command, you will get the following output in the
+			console.
+		
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="images/maven-dependency-tree-plugin.png"/>
+				</imageobject>
+				<textobject>
+					<phrase>Dependency tree of slf4j-log4j12</phrase>
+				</textobject>
+			</mediaobject>
+		
+	</section>
+	<section id="maven_polyglot1">
+		<title>Versions plugin</title>
+		The <code>display-dependency-updates</code> goal of the <wordasword>Versions Maven
+				Plugin</wordasword> can be used to easily figure out, if there are newer versions of
+			a dependency avaible.
+		So running <code>mvn versions:display-dependency-updates</code> for a project, which
+			contains bnd, commons-io, junit and maven-plugin-api, the output might look like
+			this:
+		
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="images/display-dependency-updates.png"/>
+				</imageobject>
+				<textobject>
+					<phrase>﻿The display-dependency-updates goal of the versions maven
+						plugin</phrase>
+				</textobject>
+			</mediaobject>
+		
+		A complete overview of the <wordasword>Versions Maven Plugin</wordasword> has several
+			different goals, which can be found here: <ulink
+				url="http://mojo.codehaus.org/versions-maven-plugin/">Versions Maven
+			Plugin</ulink>.
+	</section>
+
+</section>
+	
+	

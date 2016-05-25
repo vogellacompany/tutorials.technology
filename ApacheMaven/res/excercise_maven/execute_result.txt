@@ -1,0 +1,3 @@
+$ java -cp target/com.vogella.build.maven.java-1.0-SNAPSHOT.jar \
+com.vogella.build.maven.java.App
+Hello World!

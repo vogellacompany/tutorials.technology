@@ -1,0 +1,17 @@
+<project>
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.vogella.build.maven.java</groupId>
+	<artifactId>com.vogella.build.maven.java</artifactId>
+	<packaging>jar</packaging>
+	<version>1.0-SNAPSHOT</version>
+	<name>com.vogella.build.maven.java</name>
+	<url>http://maven.apache.org</url>
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>3.8.1</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+</project>

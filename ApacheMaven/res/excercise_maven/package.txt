@@ -1,0 +1,23 @@
+$ cd com.vogella.build.maven.java
+$ mvn package
+...
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.vogella.build.maven.java.AppTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 sec
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ com.vogella.build.maven.java ---
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.631s
+[INFO] Finished at: Thu Oct 17 01:05:11 CEST 2013
+[INFO] Final Memory: 11M/102M
+[INFO] ------------------------------------------------------------------------

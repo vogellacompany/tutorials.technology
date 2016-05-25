@@ -1,0 +1,18 @@
+<section id="maven_vcs">
+	<title>Maven and version control systems</title>
+
+	
+		Maven generates its output into the
+		<filename>target</filename>
+		folder of each project. This build output should not get included into
+		your version control system.
+	
+	
+		Add this directory to your ignore resources, e.g., in case you are
+		using Git as version control system, add the "target/" entry to your
+		<filename>.gitignore</filename>
+		file in the root of each project.
+	
+
+
+</section>

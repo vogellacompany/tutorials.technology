@@ -1,0 +1,6 @@
+<properties>
+<skipTests>true</skipTests>
+<maven.build.timestamp.format>yyyyMMdd-HHmm</maven.build.timestamp.format>
+<buildTimestamp>${maven.build.timestamp}</buildTimestamp>
+<buildId>${buildType}${buildTimestamp}</buildId>
+</properties>

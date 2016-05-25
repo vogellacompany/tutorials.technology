@@ -1,0 +1,24 @@
+├── pom.xml
+├── src
+...
+└── target
+    ├── classes
+    │   └── com
+    │       └── vogella
+    │           └── build
+    │               └── maven
+    │                   └── java
+    │                       └── App.class
+    ├── com.vogella.build.maven.java-1.0-SNAPSHOT.jar
+    ├── maven-archiver
+    │   └── pom.properties
+    ├── surefire-reports
+    │   ├── TEST-com.vogella.build.maven.java.AppTest.xml
+    │   └── com.vogella.build.maven.java.AppTest.txt
+    └── test-classes
+        └── com
+            └── vogella
+                └── build
+                    └── maven
+                        └── java
+                            └── AppTest.class

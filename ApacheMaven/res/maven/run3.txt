@@ -1,0 +1,4 @@
+# deletes the target folder of the project
+# and runs again the install
+# but re-uses dependencies
+mvn clean install

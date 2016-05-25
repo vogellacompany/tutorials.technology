@@ -1,0 +1,13 @@
+<settings>
+ <proxies>
+  <proxy>
+   <active>true</active>
+   <protocol>http</protocol>
+   <host>proxy</host>
+   <port>8080</port>
+   <username>your_user</username>
+   <password>your_password</password>
+   <nonProxyHosts>www.google.com|*.test.com</nonProxyHosts>
+  </proxy>
+ </proxies>
+</settings>

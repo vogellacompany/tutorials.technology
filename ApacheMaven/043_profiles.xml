@@ -1,0 +1,86 @@
+<section id="maven_profilesproperties">
+	<title>Using profiles and properties in Maven</title>
+	<section id="maven_profiles">
+		<title>Using profiles</title>
+		
+			Maven supports the usage of profiles to define different
+			configurations. If you start Maven, you can instruct it to
+			use
+			a
+			certain profile, i.e., on the command line via the
+			<parameter>-P</parameter>
+			parameter followed directly (without whitespace) by the profile. For example
+			<parameter>-PyourProfile</parameter>
+			.
+		
+		
+			<programlisting language="java">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/profiles/example.txt" />
+			</programlisting>
+		
+	</section>
+	<section id="maven_properties">
+		<title>Using properties</title>
+		
+			You can specify properties in your build files and override them
+			in on the command line with the
+			<parameter>-D</parameter>
+			followed directly (without whitespace) by the parameter. See the next chapter for
+			an example.
+		
+	</section>
+
+	<section id="maven_properties_skiptests">
+		<title>Example for properties: Skipping the tests in a Maven build</title>
+		You can specify via a property that your tests should be skipped during the build. This property (among with
+			several others for demo purposes) is
+			defined in the
+			following snippet.
+		
+		
+			<programlisting language="java">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/properties/test.txt" />
+			</programlisting>
+		
+		On the command line you can override such parameters and
+			demonstrated in the following listing.
+		
+		
+			<programlisting language="java">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/properties/commandline.txt" />
+			</programlisting>
+		
+	</section>
+	<section id="maven_properties_usefulproperties">
+		<title>Useful properties</title>
+
+		<table frame='all'>
+			<title>Useful properties</title>
+			<tgroup cols='2' align='left' colsep='1' rowsep='1'>
+				<colspec colname='c1' colwidth="1*" />
+				<colspec colname='c2' colwidth="2*" />
+				<thead>
+					<row>
+						<entry>Property</entry>
+						<entry>Description</entry>
+					</row>
+				</thead>
+				<tbody>
+					<row>
+						<entry>skipTests</entry>
+						<entry>true or false, specifies if tests should be executed or now</entry>
+					</row>
+					<row>
+						<entry>showWarnings</entry>
+						<entry>true or false, defines if the Maven build shows the compiler warnings</entry>
+					</row>
+					<row>
+						<entry></entry>
+						<entry></entry>
+					</row>
+				</tbody>
+			</tgroup>
+		</table>
+	</section>
+
+</section>
