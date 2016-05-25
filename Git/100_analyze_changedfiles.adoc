@@ -1,6 +1,6 @@
 [[analyzechanges]]
 
-== Listing changed files before a commit
+== Comparing changes
 
 [[gitstatus]]
 
@@ -8,12 +8,17 @@
 
 (((git status)))
 
-The `git status` command
-shows the status of the working tree, i.e., which files have changed,
-which are staged and which are not part of the staging area. It also
-shows which files have merge conflicts and gives an indication what the
-user can do with these changes, e.g., add them to the staging area or
+The `git status` command shows the current status of your repository and possible actions which you can perform.
+
+It shows which files have changed, which are staged and which are not part of the staging area. 
+It also shows which files have merge conflicts and gives an indication what the user can do with these changes, e.g., add them to the staging area or
 remove them, etc.
+
+[TIP]
+====
+`git status -u` shows all untracked files. 
+Otherwise, if you have a new directory with severals files, only the directory is shown.
+====
 
 [[gitstatus_example]]
 
@@ -21,18 +26,25 @@ remove them, etc.
 
 The following commands create some changes in your Git repository.
 
+.Make some changes in your working tree
 [source,terminal]
 ----
-include::./examples/log/status.txt[]
+# assumes that the test01  and test02 files exist
+# and have been committed in the past 
+echo "This is a new change to the file" > test01
+echo "and this is another new change" > test02
+
+# create a new file
+ls > newfileanalyzis.txt
 ----
 
-The `git status` command shows the current status of your repository and
-suggests possible actions which the user can perform.
+Now use the status command.
 
 [source,terminal]
 ----
-include::./examples/log/status2.txt[]
+git status
 ----
+
 
 The output of the command looks like the following listing.
 
@@ -41,13 +53,15 @@ The output of the command looks like the following listing.
 include::./examples/log/status3.txt[]
 ----
 
-[[gitdiff_changesdiff]]
-=== See the differences in the working tree since the last commit
+
+[[gitdiff_using]]
+=== Using git diff
 
 (((git diff)))
 (((unstaged changes)))
 (((git diff, unstaged changes)))
-The `git diff` command allows seeing the changes in the working tree compared to the last commit. 
+
+The `git diff` command allows you to compare changes between commits, the staging area and working tree, etc.
 Via an optional third parameter you can specify a path to filter the displayed changes path can be a file or directory
 `git diff [path]`.
 
@@ -55,27 +69,28 @@ Via an optional third parameter you can specify a path to filter the displayed c
 
 The following example code demonstrate the usage of the `git diff` command.
 
+.Make some changes in your working tree
 [source,terminal]
 ----
-# make some changes to the file
-echo "This is a change" > test01
+echo "This is a change" > test01 
 echo "and this is another change" > test02
+----
 
-# check the changes via the diff command
-git diff
+.Use the git diff command
+[source,terminal]
+----
+git diff # <1>
 
+git diff --cached # <2>
+
+git diff COMMMIT_REF1 COMMMIT_REF2 #<3>
+
+git diff -- [file_reference] # <4>
 ---- 
 
-[[gitdiff_index]]
+<1> shows the changes introduced in the working tree compared with the staging area
+<2> shows the differences  between the staging area and the last commit
+<3> shows the differences introduced between two commits references
+<4> shows the differences introduced in the working tree compared with the staging area for [file_reference]
 
-=== See differences between staging area and last commit
 
-
-(((git diff, between staging area and commit)))
-To see which changes you have staged, i.e., you are going to commit with the next commit, use the following command.
-
-[source,terminal]
-----
-# make some changes to the file
-git diff --cached
-----

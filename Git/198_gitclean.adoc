@@ -1,16 +1,13 @@
 [[gitclean]]
-= Remove untracked files with git clean
+== Remove untracked files with git clean
 
 [[gitclean_command]]
-== Removing untracked files
+=== Removing untracked files
 
-((git clean))
- (((Removing
-untracked files)))
+(((git clean)))
+(((Removing untracked files)))
 
- If you have untracked files in your
-working tree which you want to remove, you can use the `git clean`
-command.
+If you have untracked files in your working tree which you want to remove, you can use the `git clean` command.
 
 [WARNING]
 ====
@@ -20,7 +17,7 @@ of your Git repository.
 ====
 
 [[gitclean_example]]
-== Example: Using git clean
+=== Example: Using git clean
 
 The following commands demonstrate the usage of the `git clean` command.
 

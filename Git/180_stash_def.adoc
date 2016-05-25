@@ -7,8 +7,7 @@
 (((stashing in Git)))
 (((git stash)))
 
-Git provides the `git stash` command which allows
-you to record the current state of the working directory and the staging
+Git provides the `git stash` command which allows you to record the current state of the working directory and the staging
 area and to revert to the last committed revision.
 
 This allows you to pull in the latest changes or to develop an urgent
