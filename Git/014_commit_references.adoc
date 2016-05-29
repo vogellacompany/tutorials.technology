@@ -16,7 +16,7 @@ Each commit has zero or more direct predecessor commits. The first commit has
 zero parents, merge commits have two or more parents, most commits have
 one parent.
 
-image::img/commitreference10.png[Commit reference overview]
+image::commitreference10.png[Commit reference overview]
 
 In Git you frequently want to refer to certain commits. For
 example, you want to tell Git to show you all changes which were done in
@@ -82,7 +82,7 @@ commit. A merge commit typically has two predecessors. HEAD^3 means ‘the
 third parent of a merge’ and in most cases this won’t exist (merges are
 generally between two commits, though more is possible).
 
-image::img/commitreference20.png[Commit reference pointer example]
+image::commitreference20.png[Commit reference pointer example]
 
 [reference]^ is an abbreviation for [reference]^1.
 

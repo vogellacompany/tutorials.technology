@@ -5,6 +5,7 @@ Lars Vogel (c) 2009-2016 vogella GmbH
 Version 5.8, 10.08.2015
 :keywords: Git command line, Git, rebase, merge
 :contentidentifier: description
+:imagesdir: img
 
 [abstract]
 This tutorial explains the usage of the distributed version control system Git via the command line.

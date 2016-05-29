@@ -84,7 +84,7 @@ include::./examples/log/pretty.txt[]
 
 This command creates the output.
 
-image::img/gitlogpretty10.png[Git log pretty output] 
+image::gitlogpretty10.png[Git log pretty output] 
 
 You can define an alias for such a long command. See <<alias_definition>> for information how
 to define an alias.

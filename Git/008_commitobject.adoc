@@ -39,7 +39,7 @@ stored in these packs.
 
 A commit object is depicted in the following picture.
 
-image::img/commit_object.png[Commit object] 
+image::commit_object.png[Commit object] 
 
 The above picture is simplified. Tree objects point to other tree objects and file
 blobs. Objects which didn't change between commits are reused by

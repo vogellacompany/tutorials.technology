@@ -20,7 +20,7 @@ The process of creating different versions (snapshots) in the repository is depi
 Please note that this picture fits primarily to Git. 
 Other version control systems like _Concurrent Versions System_ (CVS) don't create snapshots of the files but store file deltas.
 
-image::img/vcs_state10.png[Creating snapshots]
+image::vcs_state10.png[Creating snapshots]
 
 VCS are typically used to track changes in text files.
 These text files can for example be source code for a programming language, HTML or configuration files. 
@@ -56,4 +56,4 @@ This is typically done via a repository running on a server which is, unlike the
 Typically, there is a central server for keeping a repository but each cloned repository is a full copy of this repository. 
 The decision which of the copies is considered to be the central server repository is pure convention.
 
-image::img/sharedrepo10.png[Creating snapshots] 
+image::sharedrepo10.png[Creating snapshots] 

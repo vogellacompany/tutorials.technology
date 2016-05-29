@@ -14,11 +14,11 @@ After this operation the changes in the other branch are also available in branc
 
 The process is displayed in the following picture. We want to rebase the branch called `branch_1` onto master.
 
-image::img/gitrebase10.png[Rebasing a branch] 
+image::gitrebase10.png[Rebasing a branch] 
 
 Running the rebase command creates a new commit with the changes of the branch on top of the master branch.
 
-image::img/gitrebase20.png[Rebasing a branch result] 
+image::gitrebase20.png[Rebasing a branch result] 
 
 Performing a rebase does not create a merge commit. 
 The final result for the source code is the same as with merge but the commit history is cleaner; the history appears to be linear.

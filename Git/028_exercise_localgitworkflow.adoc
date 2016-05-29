@@ -188,7 +188,7 @@ If you specify a commit reference as third parameter, this is used to determine 
 Review the resulting directory structure. Your directory contains the Git repository as well as the Git working tree for your files. 
 This directory structure is depicted in the following screenshot.
 
-image::img/firstgit-directory10.png[First Git directory] 
+image::firstgit-directory10.png[First Git directory] 
 
 
 [[firstgit_deletefile]]

@@ -80,7 +80,7 @@ After modifying your _working tree_ you need to perform the following two steps 
 
 This process is depicted in the following graphic.
 
-image::img/committingprocess10.png[Git commit process] 
+image::committingprocess10.png[Git commit process] 
  
 
 (((Staging process)))

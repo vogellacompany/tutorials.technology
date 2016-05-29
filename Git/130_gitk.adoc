@@ -13,7 +13,7 @@ to the filelocation in the target git repository and use the
 In this screenshot we can see all commits of the `ShowViewHandler.java`
 by using the `gitk ShowViewHandler.java` command:
 
-image::img/gitk_showviewhandler.png[gitk command for the ShowViewHandler] 
+image::gitk_showviewhandler.png[gitk command for the ShowViewHandler] 
 
 On Linux you can easily install gitk by using the `sudo apt-get install gitk` command in a terminal.
 

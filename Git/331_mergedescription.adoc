@@ -14,13 +14,13 @@ assumes that master is checked out and that you want to merge the
 changes of the branch labeled "branch 1" into your "master" branch. Each
 commit points to its predecessor (parent).
 
-image::img/merge_fastforward10.png[Fast forward merge starting]
+image::merge_fastforward10.png[Fast forward merge starting]
 
 After the fast-forward merge the _HEAD_ points to the
 master branch pointing to "Commit 3". The "branch 1" branch points to
 the same commit.
 
-image::img/merge_fastforward20.png[Fast forward merge result]
+image::merge_fastforward20.png[Fast forward merge result]
 
  
 [[gitmerge_mergecommit]]
@@ -37,13 +37,13 @@ branch, Git performs a so-called _three-way-merge_ between the latest
 commits of the two branches, based on the most recent common predecessor
 of both.
 
-image::img/merge_commit10.png[Original state before the merge commit]
+image::merge_commit10.png[Original state before the merge commit]
 
 As a result a so-called _merge commit_ is created on the current branch. 
 It combines the respective changes from the two branches being merged. 
 This commit points to both of its predecessors.
 
-image::img/merge_commit20.png[Merge commit] 
+image::merge_commit20.png[Merge commit] 
 
 If multiple common predecessors exist, Git uses recursion to create a virtual common predecessor. 
 For this Git creates a merged tree of the common ancestors and uses that as the reference for the 3-way merge. 

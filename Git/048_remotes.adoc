@@ -31,7 +31,7 @@ repositories which are used to synchronize the individual repository.
 Typically the remote repository which is used for synchronization is
 located on a server which is always available.
 
-image::img/git_remoterepo10.png[Remote Git repositories] 
+image::git_remoterepo10.png[Remote Git repositories] 
  
 [TIP]
 ====
