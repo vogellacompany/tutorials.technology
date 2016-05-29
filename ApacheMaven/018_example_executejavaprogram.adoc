@@ -15,4 +15,4 @@ include::res/simple/pom2.xml[]
 include::res/simple/pom2.xml[]
 ----
 
-image:img/mavenexecute10.png[Output of Maven]
+image:mavenexecute10.png[Output of Maven]
