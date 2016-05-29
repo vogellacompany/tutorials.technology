@@ -55,7 +55,6 @@ This is called the _recursive merge_ strategy and is the default merge strategy.
 (((Merge strategies, Octopus)))
 (((Merge strategies, Subtree)))
 (((Merge strategies, Ours)))
-(((Merge strategies, Ours)))
 (((Octopus merge strategy)))
 (((Subtree merge strategy)))
 (((Ours merge strategy)))
