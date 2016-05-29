@@ -5,4 +5,5 @@
 
 Git allows you to combine the changes which were created on two different branches.
 One way to achieve this is _merging_, which is described in this chapter. 
+You can merge based on branches, tags or commits.
 Other ways are using rebase or cherry-pick.

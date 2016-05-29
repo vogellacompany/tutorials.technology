@@ -6,12 +6,8 @@
 
 (((Merging,fast-forward merge)))
 
-If the commits which are merged are direct
-successors of the _HEAD_ pointer of the current branch, Git simplifies
-things by performing a so-called _fast forward merge_ . This _fast
-forward merge_ simply moves the _HEAD_ pointer of the current branch to
-the tip of the branch which is being merged. You can also merge based on
-a tag or a commit.
+If the commits which are merged are direct successors of the _HEAD_ pointer of the current branch, Git performs a so-called _fast forward merge_. 
+This _fast forward merge_ only moves the _HEAD_ pointer of the current branch to the tip of the branch which is being merged. 
 
 This process is depicted in the following diagram. The first picture
 assumes that master is checked out and that you want to merge the
@@ -43,17 +39,15 @@ of both.
 
 image::img/merge_commit10.png[Original state before the merge commit]
 
-As a result a so-called _merge commit_ is created on the
-current branch which combines the respective changes from the two
-branches being merged. This commit points to both of its predecessors.
+As a result a so-called _merge commit_ is created on the current branch. 
+It combines the respective changes from the two branches being merged. 
+This commit points to both of its predecessors.
 
 image::img/merge_commit20.png[Merge commit] 
 
-If multiple common predecessors exist, Git uses recursion to create a 
-virtual common predecessor. For this Git creates a merged tree of the 
-common ancestors and uses that as the reference for the 3-way merge. 
-This is called the _recursive merge_ strategy and is the default merge
-strategy.
+If multiple common predecessors exist, Git uses recursion to create a virtual common predecessor. 
+For this Git creates a merged tree of the common ancestors and uses that as the reference for the 3-way merge. 
+This is called the _recursive merge_ strategy and is the default merge strategy.
 
 [[gitmerge_octopus]]
 == Merge strategies - Octopus, Subtree, Ours
@@ -72,14 +66,10 @@ The default strategy called _recursive merge_ strategy was described in <<gitmer
 The Git command line tooling also supports the _octopus merge_ strategy for merges of multiple references. 
 With this operation it can merge multiple branches at once.
 
-The `subtree` option is useful when you want to merge in another project
-into a sub-directory of your current project. It is rarely used and you
-should prefer the usage of Git submodules. See <<submodules_definition>> for more information.
+The `subtree` option is useful when you want to merge in another project into a sub-directory of your current project. 
+It is rarely used and you should prefer the usage of Git submodules. See <<submodules_definition>> for more information.
 
-The `ours` strategy merges a branch without looking at the changes
-introduced in this branch. This keeps the history of the merged branch
-but ignores the changes introduced in this branch.
+The `ours` strategy merges a branch without looking at the changes introduced in this branch. 
+This keeps the history of the merged branch but ignores the changes introduced in this branch.
 
-You typically use the _ours_ merge strategy to document in the Git
-repository that you have integrated a branch and decided to ignore all
-changes from this branch.
+You can use the _ours_ merge strategy to document that you have integrated a branch and decided to ignore all changes from this branch.
