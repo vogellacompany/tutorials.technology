@@ -1,0 +1,15 @@
+[[maven_parameters]]
+== Useful Maven parameters
+
+The following table lists useful Maven parameters.
+
+.Table Maven build parameters
+|===
+|Parameter |Description
+
+|--log-file log.txt
+|Maven build output is written to the specified file
+
+|--debug
+|Outputs more information during the build process
+|===

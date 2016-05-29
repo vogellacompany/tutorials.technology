@@ -12,6 +12,18 @@ This tutorial describes the usage of Maven for building Java applications.
 include::010_overview.adoc[]
 include::012_installation.adoc[]
 include::014_usage_commandline.adoc[]
+include::016_example_simple.adoc[]
+include::018_example_executejavaprogram.adoc[]
+include::020_configuration.adoc[]
+include::030_lifecycle.adoc[]
+include::040_repositories.adoc[]
+include::042_multi.adoc[]
+include::043_profiles.adoc[]
+include::044_vcs.adoc[]
+include::050_settings.adoc[]
+include::100_parameters.adoc[]
+include::210_useful_maven_plugins.adoc[]
+
 include::008_resourceslocal.adoc[]
 
 

@@ -1,0 +1,36 @@
+[[maven_repositories_dependencyresolution]]
+== Maven repositories and dependency resolution
+
+[[maven_repositories]]
+=== Maven repositories
+
+During the initial phase of a build Maven validates  if you have the specified version of all required artifact dependencies and Maven plug-ins.
+If required, it retrieves them from a Maven repository. 
+A repository is a collection of project artifacts stored in a directory structure similar to the Maven coordinates of the project.
+		
+If necessary, Maven downloads these artifacts and plug-ins into a local repository.
+The default local repository is located in the home directory of the user in the _.m2/repository_ folder. 
+If an artifact or a plug-in is available in the local repository Maven uses it.
+		
+Maven uses a default remote repository location (http://repo1.maven.org/maven2) from which it downloads the core Maven plugins and dependencies. 
+You can configure Maven to use more repositories and replace the default one. 
+		
+If you run the `mvn install` command, the generated artifacts are installed into the local Maven repository.
+		
+[[maven_dependencyresolution]]
+=== Maven dependency resolution and Maven reactor
+
+Every project can define dependencies using the unique	identifier (GAV) of the component it required to compile.
+		
+[source,xml]
+----
+include::res//dependencies/dep.txt[]
+----
+
+During a build, the Maven system tries to resolve the dependencies of the modules which are build. 
+To resolve dependencies, Maven uses the following sources in the given order:
+
+* Project which are included in the same Maven run (the so called Maven _reactor_)
+* local repository
+* Maven central repository
+		

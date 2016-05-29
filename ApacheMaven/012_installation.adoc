@@ -36,6 +36,5 @@ To validate that Maven was correctly installed, open a console and use the follo
 include::res/validateinstallation/version.txt[]
 ----
 
-
 You should receive as output feedback which version of Maven you have installed.
 		

@@ -1,2 +1,0 @@
-# compiles, build and install the build result
-mvn install

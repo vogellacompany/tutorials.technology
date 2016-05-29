@@ -1,0 +1,34 @@
+[[maven_useful_plugins]]
+== Useful maven plugins to analyse a project
+
+=== Show the dependency tree
+
+Maven provides a plugin, which can be used to visualize a dependency tree to either the console or an output file.
+
+[source,terminal]
+----
+# Show dependencies inside the console
+mvn dependency:tree -Dverbose
+# Write dependency to a file
+mvn dependency:tree -Dverbose -DoutputFile=/home/simon/maven-dependencies
+----
+[source,xml]
+----
+include::res/repositories/dependency-tree-pom.xml[]
+----
+		
+The output of the `mvn dependency:tree -Dverbose` command can for example look like the following.
+
+image::img/maven-dependency-tree-plugin.png[Dependency tree of slf4j-log4j12]
+
+[[maven_versionsplugin]]
+=== Versions plugin
+
+The `display-dependency-updates` goal of the _Versions Maven Plugin_ can be used to determine, if there are newer versions of a dependency available.
+
+For example, running `mvn versions:display-dependency-updates` for a project might result in the following output.
+
+image::img/display-dependency-updates.png[﻿The display-dependency-updates goal of the versions maven plugin]
+		
+	
+	

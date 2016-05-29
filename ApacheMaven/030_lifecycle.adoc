@@ -1,0 +1,83 @@
+[[maven_coreconcepts]]
+== Maven plug-ins, goals and the life cycle
+
+[[maven_pluginsgoals]]
+=== Maven Plug-ins and goals
+		
+A Maven plugin is a collection of one or more _goals_. 
+A goal is a “unit of work” in Maven. 
+It is possible to execute goals independently or a part of a larger chain of goals.
+		
+Goals can define parameters, which may have default values.
+Plugin goals can be attached to a life cycle phase. 
+The goals are executed based on the information found in the pom of the project, e.g., the compiler:compile goal checks the POM for relevant parameters.
+		
+[[maven_lifecycle]]
+=== Maven life cycle
+		
+Every build follows a specified	_life cycle_. 
+Maven comes with a default life cycle that includes the most common build _phases_ like compiling,testing and packaging.
+		
+The following lists gives an overview of the important Maven life cycle phases.
+					
+* validate - checks if the project is correct and all information is available
+* compile - compiles source code in binary artifacts
+* test - executes the tests
+* package - takes the compiled code and package it, for example
+* integration-test - takes the packaged result and executes additional tests, which require the packaging
+* verify - performs checks if the package is valid
+* install - install the result of the package phase into the local Maven repository
+* deploy - deploys the package to a target, i.e. remote repository
+		
+For a complete list of the Maven phases see http://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html[Maven life cycle reference].
+		
+If you instruct Maven to execute a phase, it executes all existing phases in the pre-defined sequence until has executed the defined phase.
+All relevant goals are executed during this process. 
+A goal is relevant for a phase if the Maven plug-in or the pom binds this goal to the corresponding life cycle phase.
+
+[[maven_packagesgoalbindings]]
+=== Packages and goal bindings
+		
+Each packaging contains a list of bindings for goals to a particular life cycle phase. 
+For example, the jar packaging binds the following goals to the life cycle phases.
+
+.Table Packaging goal
+|===
+|Life cycle phase |Goal binding
+
+|process-resources
+|resources:resources
+
+|compile
+|compiler:compile
+
+|process-test-resources
+|resources:testResources
+
+|test-compile
+|compiler:testCompile
+
+|test
+|surefire:test
+
+|package
+|jar:jar
+
+|install
+|install:install
+
+|deploy
+|deploy:deploy
+|===
+		
+[[maven_packagesgoalbindings2]]
+=== Adding goals to life cycle phases
+
+You can add goals to life cycle phases by configure more Maven plug-ins and add them to a life cycle in your pom file. 
+You need to specify which goal should be executed. 
+If the plug-in does not specify the default life cycle it should run, you must also specify the life cycle phase it should run.
+		
+[source,xml]
+----
+include::res/plugin/addgoal.txt[]
+----

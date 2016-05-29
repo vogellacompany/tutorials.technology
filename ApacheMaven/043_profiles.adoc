@@ -1,0 +1,55 @@
+[[maven_profilesproperties]]
+== Using profiles and properties in Maven
+
+[[maven_profiles]]
+=== Using profiles
+
+Maven supports the usage of profiles to define different configurations. 
+If you start Maven, you can instruct it to use a certain profile.
+For this you specify the `-P` parameter followed directly (without whitespace) by the profile. 
+For example, `-PyourProfile`.
+
+[source,xml]
+----
+include::res/profiles/example.txt[]
+----
+		
+[[maven_properties]]
+=== Using properties
+		
+You can specify properties in your build files. 
+You can override them via the command line with the `-D` parameter followed directly (without whitespace) by its value. 
+See the next chapter for an example.
+
+[[maven_properties_skiptests]]
+=== Example for properties: Skipping the tests in a Maven build
+
+You can specify via a property that your tests should be skipped during the build. 
+This property (among with several others for demo purposes) is defined in the following snippet.
+
+[source,xml]
+----
+include::res/properties/test.txt[]
+----	
+		
+How to override these parameters via the command line is demonstrated by the following listing.
+		
+[source,xml]
+----
+include::res/properties/commandline.txt[]
+----	
+
+[[maven_properties_usefulproperties]]
+=== Useful properties
+
+.Table Useful properties
+|===
+|Property |Description
+
+|skipTests
+|true or false, specifies if tests should be executed or now
+
+|showWarnings
+|true or false, defines if the Maven build shows the compiler warnings
+|===
+

@@ -1,0 +1,19 @@
+[[maven_settings]]
+== Maven settings
+Maven allows defining settings on a global, user and project level. 
+The common case is to define on a user level settings like a proxy server or passwords to upload build artifacts to a server.
+
+You can view the file locations in the Eclipse IDE via menu:Windows[Preferences>Maven>User settings].
+
+image::img/m2e_settings10.png[Maven settings]
+	
+	
+The following _settings.xml_ file defines a proxy server. 
+If this snippeted is located in the _.m2_ folder of the users home, Maven uses this proxy.
+
+[source,xml]
+----
+include::res/settings/settings.xml[]
+----
+
+

@@ -1,11 +1,13 @@
 [[maven_usage]]
 == Running a Maven build
 
-[[maven_handling commandlinebuild]]
-=== Running a command line build</title>
+[[maven_handling_commandlinebuild]]
+=== Running a command line build
+
 Maven provides a command line tool. 
 
-To build via the command line a Maven project, run `mvn` command from the command line in the directory which contains the relevant pom file.
+To build via the command line a Maven project, run the `mvn` command from the command line. 
+The command should be executed in the directory which contains the relevant pom file.
 You need to provide the `mvn` command with the life cycle phase or goal to execute.
 		
 The Maven tooling reads the pom file and resolves the dependencies of the project. 
@@ -23,27 +25,27 @@ As last step the `install` phase installs the the resulting artifact into the lo
 		
 Maven creates the build result in the _target_ folder.
 		
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/maven/run1.txt" />
-			</programlisting>
-		
+[source,terminal]
+----
+mvn install	# <1>
+----
 
+<1> compiles, build and install the build result
 		
 To ensure that the build target is removed before a new build, add the `clean` target.
-		
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/maven/run1a.txt" />
-			</programlisting>
-		
+	
+[source,terminal]
+----
+mvn clean install	
+----	
 		
 By default, Maven checks online if the dependencies have been changed.
 If you want to use your local repository, you can use the `-o` to tell Maven to work offline.
 		
-		
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/maven/run4.txt" />
-			</programlisting>
-		
+[source,terminal]
+----
+mvn -o clean install	
+----	
 
 [[maven_handling_errors]]
 === Dealing with build failure
@@ -54,7 +56,24 @@ If you are running a complex multi-module project build, you can define how the 
 				
 * -ff, --fail-fast - Stop at first module build failure
 				
-*-fn, --fail-never - NEVER fail the build, regardless of module build result
+* -fn, --fail-never - NEVER fail the build, regardless of module build result
 				
 			
 The -fn and -fae options are useful to verify builds that are running within a continuous integration tool like bJenkins to see all errors in the build.
+
+
+[[maven_scaffolding]]
+=== Scaffolding a project with Maven
+	
+Maven supports project scaffolding, based on project templates (called _archtype_).
+This is provided by the _archetype_	plug-in. 
+Maven provides archetypes for almost anything,  from a simple Java application to a complex web application,.
+
+The goal of this scaffolding is to allow a fast start into the Maven world.
+It provides the "standardized" folder structure of software projects.
+	
+	
+You can create a project by executing the generation _goal_ on the archetype plugin via the following command:
+`mvn archetype:generate`.
+	
+This starts the generation process in the interactive mode and asks you for several settings.

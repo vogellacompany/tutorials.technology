@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <article>
 	<articleinfo>
-		<title></title>
+		<title>
 		<author>
 			<firstname>Lars </firstname>
 			<surname>Vogel</surname>
@@ -24,7 +24,7 @@
 		</releaseinfo>
 		
 		<abstract id="abstract">
-			<title>Maven</title>
+			<title>Maven
 			 
 			
 		</abstract>
