@@ -1,8 +1,8 @@
 [[gitpatch_create]]
-= Example: Creating patches
+== Example: Creating patches
 
 [[gitpatch_createandapply]]
-== Create and apply patches
+=== Create and apply patches
 
 (((Create patch)))
  (((git format-patch)))
@@ -20,16 +20,15 @@ next example creates a patch for these changes.
 ----
 include::./examples/patch/patch2.txt[]
 ----
- To
-apply this patch to your master branch in a different clone of the
-repository, switch to it and use the `git apply` command.
+
+To apply this patch to your master branch in a different clone of the repository, switch to it and use the `git apply` command.
 
 [source,terminal]
 ----
 include::./examples/patch/patch3.txt[]
 ----
-Afterwards you can commit the changes introduced by the patches and
-delete the patch file.
+
+Afterwards you can commit the changes introduced by the patches and delete the patch file.
 
 [source,terminal]
 ----
@@ -44,7 +43,7 @@ which the patches are applied by specifying them on the command line.
 ====
 
 [[gitpatch_createforcommit]]
-== Create a patch for a selected commit
+=== Create a patch for a selected commit
 
 You can specify the commit ID and the number of patches which should be
 created. For example, to create a patch for selected commits based on

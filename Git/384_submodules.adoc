@@ -1,30 +1,86 @@
 [[submodules]]
-= Submodules - repositories inside other Git repositories
+== Submodules - repositories inside other Git repositories
 
 [[submodules_definition]]
-== What are submodules?
+=== What are submodules?
 
 (((Submodules)))
- (((git
-submodules)))
+(((git submodules)))
 
- Git allows you to include other Git
-repositories into a Git repository. This is useful in case you want to
-include a certain library in another repository or in case you want to
-aggregate certain Git repositories.
+Git allows you to include other Git repositories into a repository. 
+This is useful in case you want to include a certain library in another repository or in case you want to track several repositories.
 
-Git calls these included Git repositories _submodules_ . Git allows you
-to commit, pull and push to these repositories independently.
+Git calls these included repositories _submodules_. 
+Git allows you to commit, pull and push to these repositories independently.
 
 [[submodules_adding]]
-== Adding a submodule to a Git repository
+=== Adding a submodule to a Git repository
 
-You add a submodule to a Git repository via the `git submodule add`
-command. The `git submodule init` command creates the local
-configuration file for the submodules if this configuration does not
-exist.
+You add a submodule to a Git repository via the `git submodule add` command. 
+The `git submodule init` command creates the local configuration file for the submodules, if this configuration does not exist.
 
 [source,terminal]
 ----
 include::./examples/submodules/add.txt[]
+----
+
+<1> adds a submodule to the existing Git repository
+<2> initialize submodule configuration
+
+[[submodules_cloning]]
+=== Pulling with submodules
+
+To pull everything including the submodules, use the `--recurse-submodules` parameter in the `git pull command`.
+
+[source,terminal]
+----
+include::./examples/submodules/pull.txt[]
+----
+[[submodules_track]]
+=== Tracking commits
+
+The relevant state for the submodules are defined by the main repository.
+If you commit in your main repository, the state of the submodule is also defined by this commit.
+
+The `git submodule update` command sets the Git repository of the submodule to that particular commit. 
+The submodule repository tracks its own content which is nested into the main repository. 
+The main repository refers to a commit of the nested submodule repository.
+
+Use the `git submodule update` command to set the submodules to the commit specified by the main repository.
+This means that if you pull in new changes into the submodules, you need to create a new commit in your main repository in order to track the updates of the nested submodules.
+
+The following example shows how to update a submodule to its latest commit in its master branch.
+
+[source,terminal]
+----
+include::./examples/submodules/update.txt[]
+----
+Another developer can get the update by pulling in the changes and
+running the submodules update command.
+
+[source,terminal]
+----
+include::./examples/submodules/getupdate.txt[]
+---- 
+
+[WARNING]
+====
+With this setup you need to create a new commit in the master repository, to use a new state in the submodule.
+You need to repeat this procedure every time you want to use another state in one of the submodules. 
+See <<submodules_trackbranch>> for tracking a certain branch of a submodule.
+====
+
+[[submodules_trackbranch]]
+=== Tracking branches with submodules
+
+Since its 1.8.2 release the Git system allows tracking a branch in a submodule.
+While you typically decide which commit in a submodule is relavant, this option allows you to follow a branch.
+For example, you want to follow already the latest development in the master branch.
+To track branches you specify the branch with the `-b` parameter during the `submodule add` command.
+
+This allows you use to use `--remote` parameter in the `git submodule update` command.
+
+[source,terminal]
+----
+include::./examples/submodules/branch.txt[]
 ----

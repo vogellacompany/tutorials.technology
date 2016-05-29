@@ -1,21 +1,17 @@
 [[bisect]]
-= Error search with git bisect
+== Error search with git bisect
 
 [[bisect_definition]]
-== Using git bisect
+=== Using git bisect
 
 ((git bisect))
- The `git bisect` command
-allows you to run a binary search through the commit history to identify
-the commit which introduced an issue. You specify a range of commits and
-a script that the `bisect` command uses to identify whether a commit is
-good or bad.
+The `git bisect` command allows you to run a binary search through the commit history to identify the commit which introduced an issue. 
+You specify a range of commits and a script that the `bisect` command uses to identify whether a commit is good or bad.
 
-This script must return 0 if the condition is fulfilled and non-zero if
-the condition is not fulfilled.
+This script must return 0 if the condition is fulfilled and non-zero if the condition is not fulfilled.
 
 [[bisect_cloning]]
-== git bisect example
+=== git bisect example
 
 Create a new Git repository, create the `text1.txt` file and commit it
 to the repository. Do a few more changes, remove the file and again do a

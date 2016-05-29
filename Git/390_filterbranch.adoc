@@ -1,15 +1,15 @@
 [[filterbranch]]
-= Rewriting commit history with git filter-branch
+== Rewriting commit history with git filter-branch
 
 [[filterbranch_definition]]
-== Using git filter-branch
+=== Using git filter-branch
 
-((git filter-branch))
- The
-`git filter-branch` command allows you to rewrite the Git commit history
-for selected branches and to apply custom filters on each revision. This
-creates different hashes for all modified commits. This implies that you
-get new IDs for all commits based on any rewritten commit.
+(((git filter-branch)))
+
+The `git filter-branch` command allows you to rewrite the Git commit history.
+This can be done for selected branches and you can  apply custom filters on each revision. 
+This creates different hashes for all modified commits. 
+This implies that you get new IDs for all commits based on any rewritten commit.
 
 The command allows you to filter for several values, e.g., the author,
 the message, etc. For details please see the following link:
@@ -26,18 +26,15 @@ stale local branch onto the corresponding rewritten remote-tracking
 branch.
 ====
 
-A practical case for using `git filter-branch` is where you have added a
-file which contains a password or a huge binary file to the Git
-repository, and you want to remove this file from the history. To
-completely remove the file you need to run the `filter-branch` command
-on all branches.
+For example, you can use `git filter-branch` if you want to remove a file which contains a password from the Git history.
+Or you want to remove huge binary files from the history.
+To completely remove such files, you need to run the `filter-branch` command on all branches.
 
 [[filterbranch_example]]
-== filter-branch example
+=== filter-branch example
 
-The following listing shows an example on how to replace the email
-address from one author of all the commits via the `git filter-branch`
-command.
+The following listing shows an example. 
+It replaces the email address from one author of all the commits via the `git filter-branch` command.
 
 [source,terminal]
 ----

@@ -1,2 +1,0 @@
-# setting the submodules to the commit defined by master
-git submodule update

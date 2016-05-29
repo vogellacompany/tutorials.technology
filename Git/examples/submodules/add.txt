@@ -1,5 +1,2 @@
-# add a submodule to your Git repo
-git submodule add [URL to Git repo]
-
-# initialize submodule configuration
-git submodule init
+git submodule add [URL to Git repo] #<1>
+git submodule init #<2>
