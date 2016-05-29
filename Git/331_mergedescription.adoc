@@ -66,17 +66,15 @@ strategy.
 (((Subtree merge strategy)))
 (((Ours merge strategy)))
 
-If a fast-forward merge is not possible, Git
-uses a merge strategy. The default strategy called _recursive merge_
-strategy was described in <<gitmerge_mergecommit>>.
+If a fast-forward merge is not possible, Git uses a merge strategy. 
+The default strategy called _recursive merge_ strategy was described in <<gitmerge_mergecommit>>.
 
-The Git command line tooling also supports the _octopus merge_ strategy
-for merges of multiple references. With this operation it can merge
-multiple branches at once.
+The Git command line tooling also supports the _octopus merge_ strategy for merges of multiple references. 
+With this operation it can merge multiple branches at once.
 
 The `subtree` option is useful when you want to merge in another project
 into a sub-directory of your current project. It is rarely used and you
-should prefer the usage of Git submodules. See ? for more information.
+should prefer the usage of Git submodules. See <<submodules_definition>> for more information.
 
 The `ours` strategy merges a branch without looking at the changes
 introduced in this branch. This keeps the history of the merged branch
