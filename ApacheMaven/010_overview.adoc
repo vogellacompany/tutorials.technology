@@ -5,7 +5,7 @@
 [[maven_whatisit]]
 === The Apache Maven build system
 
-image:maven-logo.png[Maven logo][]
+image:maven-logo.png[Maven logo]
 
 _Apache Maven_ is an advanced build tool to support the developer at the whole process of a software project.
 Typical tasks of a	build tool are the compilation of source code, running the tests and packaging the result into JAR_ files.
