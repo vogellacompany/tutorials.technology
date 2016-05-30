@@ -16,7 +16,7 @@ include::examples/first.adoc[]
 <2> enables experimental features, like button and menu paths
 <3> adds description to the HTML output
 <4> adds keywords to the HTML output
-
+<5> Defines the default image location
 Asciidoc documents typically ends with the _.adoc_. 
 
 === Install2 the Asciidoctor toolchain
@@ -77,7 +77,7 @@ include::examples/source.java[]
 
 You can import images with ´image::´ for the HTML output you can add the ´alt´ text within the brackets []. 
 ----
-image::img/committingprocess10.png[Git commit process] 
+image::committingprocess10.png[Git commit process] 
 ----
 
 === Defining lists
@@ -161,12 +161,12 @@ kbd:[Alt+F11] - Toggle Full Screen Mode in the Eclipse IDE
 To reference images in your AsciiDoc with the `image::` macro pointing to a relative file locatin. Use brackets to define a fixed or related size.
 
 -----
-image::img/vogellacompany.jpg[200,200]
+image::vogellacompany.jpg[200,200]
 -----
 
 The result looks like the following:
 
-image::img/vogellacompany.jpg[200,200]
+image::vogellacompany.jpg[200,200]
 
 === Using inline icons
 

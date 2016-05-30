@@ -9,7 +9,7 @@ Create a new commit based on a branch to which also 'origin/master' points.
 Make sure the 'Compute Change-Id for Gerrit Code Review' button in the commit dialog is selected when you commit the changes. 
 This creates the 'Change-Id: ...' footer in the commit message which is necessary for the Gerrit Code Review.
 
-image::img/commit-changes-with-changeid.png[Commit Changes with Change-Id]
+image::commit-changes-with-changeid.png[Commit Changes with Change-Id]
 
 
 'I0000000000000000000000000000000000000000' is just a placeholder for the Change-Id. 
@@ -19,7 +19,7 @@ The actual Change-Id is generated and inserted during the commit operation.
 
 Right click the Git repository node in the Git Repositories view and chose the 'Push to Upstream' command from the context menu:
 
-image::img/push-to-upstream.png[Push to Upstream]
+image::push-to-upstream.png[Push to Upstream]
 
 If you are pushing over HTTP you are asked to provide user and
 password (if not configured already):
@@ -28,7 +28,7 @@ image::http-login.png[HTTP Login]
 
 After the change is pushed the confirmation dialog will appear:
 
-image::img/push-confirmation.png[Push Confirmation]
+image::push-confirmation.png[Push Confirmation]
 
 From the confirmation dialog we see the URL under which the change is
 exposed in Gerrit. We also see that the numerical ID of the change is
@@ -38,7 +38,7 @@ exposed in Gerrit. We also see that the numerical ID of the change is
 
 Copy the link from the confirmation dialog to the clipboard and paste into you web browser
 
-image::img/change-in-gerrit.png[Change in Gerrit]
+image::change-in-gerrit.png[Change in Gerrit]
 
 * *OR* simply open link:https://git.eclipse.org/r/#/q/status:open,n,z[See all open Gerrit reviews] in
   your web browser and find your change in the list of open changes.
