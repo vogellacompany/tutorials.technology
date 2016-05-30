@@ -29,7 +29,7 @@ The following lists gives an overview of the important Maven life cycle phases.
 * install - install the result of the package phase into the local Maven repository
 * deploy - deploys the package to a target, i.e. remote repository
 		
-For a complete list of the Maven phases see http://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html[Maven life cycle reference].
+For a complete list of the Maven phases see http://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html.
 		
 If you instruct Maven to execute a phase, it executes all existing phases in the pre-defined sequence until has executed the defined phase.
 All relevant goals are executed during this process. 
