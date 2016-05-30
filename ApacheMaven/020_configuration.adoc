@@ -70,7 +70,3 @@ An artifact, for example,can be an executable or an archive of documents.
 
 _Polyglot for Maven_ is a Maven feature that  allows the expression of a pom file in something other than XML.
 For example, you can specify the build information in the Groovy, Ruby or Scala programming language.
-		
-		
-You find more information at https://github.com/takari/maven-polyglot[Polyglot for Maven].
-		
