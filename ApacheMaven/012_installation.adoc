@@ -13,7 +13,7 @@ Extract the downloaded distribution to a selected folder on your computer and ad
 Add `M2_HOME/bin` to your path variable. 
 
 See http://maven.apache.org/download.html#Installation[Maven installation description] for a detailed installation guide.
-		
+	
 [[maven_installationubuntu]]
 === Ubuntu
 		
