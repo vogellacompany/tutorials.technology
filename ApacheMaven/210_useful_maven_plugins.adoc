@@ -19,7 +19,7 @@ include::res/repositories/dependency-tree-pom.xml[]
 		
 The output of the `mvn dependency:tree -Dverbose` command can for example look like the following.
 
-image::img/maven-dependency-tree-plugin.png[Dependency tree of slf4j-log4j12]
+image::maven-dependency-tree-plugin.png[Dependency tree of slf4j-log4j12]
 
 [[maven_versionsplugin]]
 === Versions plugin
@@ -28,7 +28,7 @@ The `display-dependency-updates` goal of the _Versions Maven Plugin_ can be used
 
 For example, running `mvn versions:display-dependency-updates` for a project might result in the following output.
 
-image::img/display-dependency-updates.png[﻿The display-dependency-updates goal of the versions maven plugin]
+image::display-dependency-updates.png[﻿The display-dependency-updates goal of the versions maven plugin]
 		
 	
 	

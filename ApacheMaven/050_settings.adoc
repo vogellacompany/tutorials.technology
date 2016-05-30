@@ -5,7 +5,7 @@ The common case is to define on a user level settings like a proxy server or pas
 
 You can view the file locations in the Eclipse IDE via menu:Windows[Preferences>Maven>User settings].
 
-image::img/m2e_settings10.png[Maven settings]
+image::m2e_settings10.png[Maven settings]
 	
 	
 The following _settings.xml_ file defines a proxy server. 
