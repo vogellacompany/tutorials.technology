@@ -1,15 +1,13 @@
 [[gitremotebranch]]
-= Remote and local tracking branches
+== Remote and local tracking branches
 
 [[gitremotebranch_overview]]
-== Remote tracking branches
+=== Remote tracking branches
 
 (((Remote-tracking branch)))
 
-Your local Git
-repository contains references to the state of the branches on the
-remote repositories to which it is connected. These local references are
-called _remote-tracking branches_ .
+Your local Git repository contains references to the state of the branches on the remote repositories to which it is connected. 
+These local references are called _remote-tracking branches_.
 
 You can see your remote-tracking branches with the following command.
 
@@ -18,24 +16,22 @@ You can see your remote-tracking branches with the following command.
 include::./examples/remotebranch/showremotes.txt[]
 ----
 
-To update
-remote-tracking branches without changing local branches you use the
-`git fetch` command which is covered in <<gitfetch>>.
+To update remote-tracking branches without changing local branches you use the `git fetch` command. 
+See <<gitfetch>> for more information.
 
 [[gitremotebranch_delete]]
-== Delete a remote-tracking branch in your local repository
 
 (((Remote tracking branch, delete in local repository)))
 
-It is safe to delete a remote branch in your local Git repository. You can use the
-following command for that.
+It is safe to delete a remote branch in your local Git repository, this does not affect a remote repository.
+The next time you run the `git fetch` command, the remote branch is recreated.
+You can use the following command for that.
 
 [source,terminal]
 ----
 include::./examples/remotebranch/delete.txt[]
 ---- 
 
-The next time you run the `git fetch` command the remote branch is recreated.
 
 [[gitremotebranch_deleteremote]]
 == Delete a branch in a remote repository
@@ -56,8 +52,7 @@ Alternatively you can also use the following command.
 include::./examples/remotebranch/deleteremotebranch.txt[]
 ----
 
-For example if you want to delete the branch called _testbranch_ in the
-remote repository called _origin_ you can use the following command.
+For example if you want to delete the branch called _testbranch_ in the remote repository called _origin_ you can use the following command.
 
 [source,terminal]
 ----
@@ -87,9 +82,6 @@ Tracking branches_ allow you to use the `git pull` and `git push` command direct
 If you clone a Git repository, your local _master_ branch is created as a _tracking branch_ for the _master_ branch of the _origin_ repository
 (short:_origin/master_) by Git.
 
-[[git_setting_uptrackingbranches]]
-== Setting up tracking branches
-
 You create new _tracking branches_ by specifying the _remote branch_ during the creation of a branch. The following example demonstrates that.
 
 [source,terminal]
@@ -111,9 +103,6 @@ You can explicitly add a tracking branch with the `git branch -u` command later.
 ----
 include::./examples/remotebranch/update.txt[]
 ---- 
-
-[[gitremotebranch_seetrackingbranch]]
-== See the branch information for a remote repository
 
 To see the tracking branches for a remote repository (short: remote) you can use the following command.
 
