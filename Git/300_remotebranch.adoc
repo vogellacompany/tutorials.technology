@@ -34,7 +34,7 @@ include::./examples/remotebranch/delete.txt[]
 
 
 [[gitremotebranch_deleteremote]]
-== Delete a branch in a remote repository
+=== Delete a branch in a remote repository
 
 (((Remote tracking branch, delete in remote repository)))
 
