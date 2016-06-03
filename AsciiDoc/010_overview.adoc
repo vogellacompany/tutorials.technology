@@ -6,7 +6,7 @@ AsciiDoc is a text document format for writing notes, documentation, articles, b
 AsciiDoc files can be translated via the Asciidoctor toolchain to many formats including HTML, PDF, EPUB, DocBook and man page.
 Any text editor can be used. Some websites, like Github, render AsciiDoc files directly into HTML.
 
-The following listing is an example of a simple Asciidoc file
+The following listing is an example of a simple Asciidoc file.
 
 ----
 include::examples/first.adoc[]
@@ -29,6 +29,18 @@ Both Gradle or Maven provide plug-ins to execute Asciidoctor tasks.
 ----
 sudo apt-get install -y asciidoctor
 ----
+
+== Writing tips for great Asciidoc documents
+
+=== One sentence per line
+
+Try to write one sentence per line. 
+This allows you to search this sentence easily and ensure you use concise descriptions which are easy to read.
+This may you can also easily move sentence around in your favorite text editor.
+
+Based on personal experience this rule makes a great difference in the generated text. 
+It helps you to avoid complex sentence structures and this help to reduce redundancy in your text.
+
 
 == Basic document features
 
