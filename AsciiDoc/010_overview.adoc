@@ -324,12 +324,19 @@ Alternatively % values can be used, e.g., [cols="40%, 60%"].
 
 Use monospace text formatting to emulate how source code appears in computer terminals, 
 simple text editors, and integrated development environments (IDEs). 
-Enclose a string with \` for this, e.g., \`System.out.println("Hello");\` results in `System.out.println("Hello");` 
+Enclose the starting hypthen string with \ for this, e.g., \`System.out.println("Hello");` results in `System.out.println("Hello");` 
 
 
 To enable syntax highlighting in the output, set the style on the block to source and specify the source language in the second attribute position. 
-It is also very simple to add callouts, as demonstrated by the following snippet.
 
+....
+[source, java]
+----
+include::res/test.java
+----
+....
+
+It is also very simple to add callouts, as demonstrated by the following snippet.
 	
 ....
 [source, java, numbered]
