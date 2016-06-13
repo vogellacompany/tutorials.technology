@@ -1,6 +1,9 @@
 = Using Gerrit with Eclipse - Tutorial
 :linkcss:
-:sectnums:
+:sectnums:                                                          
+:experimental:
+:icons:
+:imagesdir: ./img
 Lars Vogel (c) 2009-2016 vogella GmbH
 Version 5.8, 10.08.2015
 :keywords: Gerrit, Code review
@@ -11,7 +14,6 @@ Version 5.8, 10.08.2015
 
 This tutorial explains the usage of the Gerrit code review server
 
-<<<
 
 include::010_configure-push-to-gerrit.adoc[]
 
