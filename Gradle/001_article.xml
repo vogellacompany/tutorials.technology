@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<article>
+	<articleinfo>
+		<title>The Gradle build system- Tutorial</title>
+		<author>
+			<firstname>Lars</firstname>
+			<surname>Vogel</surname>
+		</author>
+		<author>
+			<firstname>Simon</firstname>
+			<surname>Scholz</surname>
+		</author>
+		<copyright>
+			<year>2014</year>
+			<year>2015</year>
+			<year>2016</year>
+			<holder>vogella GmbH</holder>
+		</copyright>
+		<pubdate>03.03.2016</pubdate>
+		<releaseinfo>
+			<para>Version 2.1</para>
+		</releaseinfo>
+		
+		<abstract id="abstract">
+			<title>Gradle the build system</title>
+			<para>
+				This tutorial describes how to use
+				the Gradle build tool.
+			</para>
+		</abstract>
+	</articleinfo>
+
+	<?dbhtml-include href="../../web/advertisement/afterTableOfContent"?>
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="010_overview.xml" />
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="012_idesupport.xml" />
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="020_installgradle.xml" />
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="021_exercise_installgradle.xml" />
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="022_exercise_setup_deamon.xml" />
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="030_plug-ins.xml" />
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="034_dependencies.xml" />
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="040_runningabuild.xml" />
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="050_tasks.xml" />
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="051_exercise_tasks.xml" />
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="060_gradle_wrapper.xml" />
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="053_exercise_custom_tasks.xml" />
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="080_building_javaprojects.xml" />
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="090_building_groovyprojects.xml" />
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="100_testing.xml" />
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="105_multiproject_build.xml" />
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="110_deployment.xml" />
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="120_apacheant.xml" />
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="125_apachemaven.xml" />
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="200_eclipse.xml" />
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="300_developingplugins.xml" />
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="350_code_analysis.xml" />
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../10_Include/support.xml" />
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="006_resources.xml" />
+	<?dbhtml-include href="../../web/vgwort/Gradle"?>
+</article>

@@ -1,0 +1,4 @@
+
+# Build release
+ant release
+

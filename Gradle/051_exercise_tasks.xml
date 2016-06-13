@@ -1,0 +1,46 @@
+<section id="exercise_gradle_tasks">
+	<title>Exercise: Gradle Tasks</title>
+	<section id="exercise_gradle_tasks_task">
+		<title>Using the tasks Gradle task</title>
+		<para>
+			The target of this exercise is to get an overview about the
+			default tasks, which are delivered by default.
+		</para>
+		<para>
+			Open a command line and execute the following command:
+		</para>
+		<para>
+			<programlisting language="gradle">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/tasks/tasks_command_line.txt" />
+			</programlisting>
+		</para>
+	</section>
+
+	<section id="exercise_gradle_tasks_help">
+		<title>Using the help task</title>
+		<para>
+			The target of this exercise is to make use of the
+			<code>help</code>
+			task to get more information about other tasks, e.g., the init task.
+		</para>
+		<para>
+			<programlisting language="gradle">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/tasks/help_task_command_line.txt" />
+			</programlisting>
+		</para>
+	</section>
+
+	<section id="exercise_gradle_tasks_init">
+		<title>Create a groovy project</title>
+		<para>The previous exercise informed about the usage of the init task.
+		</para>
+		<para>
+			<programlisting language="gradle">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/tasks/tasks_command_line_init.txt" />
+			</programlisting>
+		</para>
+	</section>
+</section>

@@ -1,0 +1,5 @@
+apply plugin: 'java'
+
+task invokedAfterCompileJava(dependsOn: 'compileJava') << {
+	println 'This will be invoked right after the compileJava task is done'
+}

@@ -1,0 +1,6 @@
+repositories {
+	maven ("https://repository-achartengine.forge.cloudbees.com/snapshot/")
+	jcenter {
+        url "http://jcenter.bintray.com/"
+    }
+}

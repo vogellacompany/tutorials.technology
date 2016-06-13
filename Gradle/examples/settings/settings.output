@@ -1,0 +1,25 @@
+:projects
+
+------------------------------------------------------------
+Root project - 
+Example project for a Gradle build
+
+Project name: com.vogella.gradle.first
+
+More detailed information here... 
+------------------------------------------------------------
+
+Root project 'com.vogella.gradle.first' - 
+Example project for a Gradle build
+
+Project name: com.vogella.gradle.first
+
+More detailed information here... 
+No sub-projects
+
+To see a list of the tasks of a project, run gradle <project-path>:tasks
+For example, try running gradle :tasks
+
+BUILD SUCCESSFUL
+
+Total time: 1.048 secs

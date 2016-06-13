@@ -1,0 +1,3 @@
+test {
+	exclude '**my.package.name/*'
+}

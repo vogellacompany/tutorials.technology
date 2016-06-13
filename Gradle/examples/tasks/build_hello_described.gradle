@@ -1,0 +1,11 @@
+task hello {
+     group 'vogella'
+     description 'The hello task greets Gradle by saying "Hello Gradle"'
+
+     doFirst {
+        println 'Hello Gradle'
+     }
+     doLast {
+        println 'Bye bye Gradle'
+     }
+}

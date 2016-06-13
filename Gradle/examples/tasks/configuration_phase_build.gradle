@@ -1,0 +1,12 @@
+task onlySpecifiesCodeForConfigurationPhase {
+    group 'vogella'
+    description 'Configuration phase task example.'
+
+    println 'I always get printed even though, I am not invoked'
+}
+
+task anotherUnrelatedTask {
+    doLast{
+        println 'I am in the doLast execution phase'
+    }
+}

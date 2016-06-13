@@ -1,0 +1,48 @@
+<section id="gradeintro_plugins">
+	<title>Gradle plug-ins</title>
+	<indexterm>
+		<primary>Gradle
+		</primary>
+		<secondary>Plug-ins</secondary>
+	</indexterm>
+	<para>
+		The Gradle build system uses plug-ins to extend its core
+		functionality. A plug-in is an
+		extension to Gradle which
+		typically adds
+		some preconfigured
+		tasks.
+		Gradle ships with a number
+		of plug-ins, and
+		you can develop your
+		custom plug-ins.
+	</para>
+	<para>
+		One example is the Java plug-in.
+		This
+		plug-in adds
+		tasks to
+		your
+		project which allow compiling
+		Java source code, run
+		unit tests
+		and to create a JAR file.
+	</para>
+	<para>
+		A plug-in is included in a
+		<filename>build.gradle</filename>
+		file with the
+		<code>apply plugin: 'pluginname'</code>
+		statement.
+	</para>
+	<para>
+		For example the entry
+		<code>apply plugin: 'com.android.application'</code>
+		makes the Android plug-in available for a Gradle build.
+	</para>
+	<para>
+		Gradle provides also a registry for plug-ins via
+		<ulink url="http://plugins.gradle.org/">Gradle Plugin search</ulink>
+		.
+	</para>
+</section>

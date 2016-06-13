@@ -1,0 +1,125 @@
+<section id="gradeintro_dependencymanagement">
+	<title>Dependency management for Java projects</title>
+
+	<section id="gradeintro_addingdependencies">
+		<title>Managing dependencies with Gradle</title>
+		<indexterm>
+			<primary>Gradle
+			</primary>
+			<secondary>Dependencies</secondary>
+		</indexterm>
+		<indexterm>
+			<primary>Gradle
+			</primary>
+			<secondary>Specifying dependencies</secondary>
+		</indexterm>
+		<indexterm>
+			<primary>Gradle
+			</primary>
+			<secondary>classpath</secondary>
+		</indexterm>
+		<para>
+			Gradle allows managing the classpath of your projects. It can add JAR files, directories or other projects to
+			the build path of your application. It also
+			supports the automatic download
+			of
+			your
+			Java library dependencies. Simply
+			specify the dependency in your Gradle build
+			file. This triggers Gradle
+			to
+			download
+			the
+			library including its
+			transient
+			dependencies during the build.
+
+		</para>
+		<para>
+			A Java library is identified by Gradle via its project’s
+			<code>groupId:artifactId:version</code>
+			(also known as GAV in Maven). This
+			GAV uniquely identifies a library in a certain version. You can for example
+			<ulink url="http://search.maven.org/">Search Maven</ulink>
+			to search for the GAV of a library in Maven Central.
+		</para>
+
+
+		<para>To add a dependency add an entry to the dependency section in your build.gradle file as demonstrated by the
+			following listing.
+		</para>
+
+		<para>
+			<programlisting language="gradle">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/dependencies/dep.txt" />
+			</programlisting>
+		</para>
+	</section>
+	<section id="gradeintro_addingrepositories">
+		<title>Specifying the repositories to search for dependencies</title>
+		<para>
+			In your build
+			file you specify the remote
+			repositories to look
+			for dependencies. Gradle supports Maven and Ivy
+			repositories to search for dependencies. The following listing shows how to
+			configure
+			Maven
+			central as
+			dependency
+			source.
+		</para>
+		<para>
+			<programlisting language="gradle">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/dependencies/maven1.txt" />
+			</programlisting>
+		</para>
+
+		<para>It is also possible to configure the target as a URL.</para>
+		<para>
+			<programlisting language="gradle">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/dependencies/maven2.txt" />
+			</programlisting>
+		</para>
+
+		<para>You can also specify other targets, for example Bintray as Maven repository.</para>
+		<para>
+			<programlisting language="gradle">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/dependencies/jcenter.txt" />
+			</programlisting>
+		</para>
+		<para>The next listing demonstrates how to define an Ivy dependency. </para>
+		<para>
+			<programlisting language="gradle">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/dependencies/ivy.txt" />
+			</programlisting>
+		</para>
+		<para>You can also add different repositories at once.</para>
+		<para>
+			<programlisting language="gradle">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text"
+					href="./examples/dependencies/multiple_jfrog_maven.txt" />
+			</programlisting>
+		</para>
+		<para>You can also reference artifacts from the file system.</para>
+		<para>
+			<programlisting language="gradle">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/java/build_file_deps.gradle" />
+			</programlisting>
+		</para>
+	</section>
+
+
+	<section id="gradeintro_cache">
+		<title>Gradle cache and deleting the cache</title>
+		<para>
+			You can refresh dependencies in your cache with the command line option
+			<parameter>--refresh-dependencies</parameter>
+			. You
+			can also delete the cached files under
+			<filename>~/.gradle/caches</filename>
+			. With the next build Gradle attempts to download
+			the dependencies again.
+		</para>
+	</section>
+</section>

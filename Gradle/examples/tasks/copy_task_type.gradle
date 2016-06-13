@@ -1,0 +1,4 @@
+task copyFile(type: Copy) {
+	from 'source'
+	into 'destination'
+}

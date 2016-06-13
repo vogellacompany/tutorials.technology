@@ -1,0 +1,78 @@
+<section id="gradle_testing">
+	<title>Testing with Gradle</title>
+	<section id="gradle_junit_namingconventions">
+		<title>Test naming conventions for Gradle</title>
+		<para>
+			If you are using the Gradle build system, the Gradle "test" task
+			scans all compiled classes in the source folder of
+			the project, e.g.,
+			<filename>/src/test/java</filename>
+			or
+			<filename>/src/test/groovy</filename>
+			. JUnit classes
+			are identified
+			by:
+			<itemizedlist>
+				<listitem>
+					<para>Class or a super class extends TestCase or GroovyTestCase
+					</para>
+				</listitem>
+				<listitem>
+					<para>Class or a super class is annotated with @RunWith</para>
+				</listitem>
+				<listitem>
+					<para>Class or a super class contain a method annotated with @Test
+					</para>
+				</listitem>
+			</itemizedlist>
+		</para>
+		<para>
+			You can set the
+			<parameter>scanForTestClasses</parameter>
+			property to false, if you do not want automatic test class detection.
+			In this case, if no additional include /
+			exclude
+			patterns are
+			specified, the default for included classes are **/*Tests.class”,
+			“**/*Test.class” and the
+			default excluded
+			classes are
+			“**/Abstract*.class”.
+		</para>
+	</section>
+	<section>
+		<title>Include and Exclude particular Tests</title>
+		<para>
+			The test configuration in general is described at
+			<ulink
+				url="https://docs.gradle.org/current/dsl/org.gradle.api.tasks.testing.Test.html">https://docs.gradle.org/current/dsl/org.gradle.api.tasks.testing.Test.html
+			</ulink>
+			.
+		</para>
+		<para>
+			The
+			<code>Test</code>
+			class has a
+			<code>include</code>
+			and
+			<code>exclude</code>
+			method. These methods can be used to specify, which tests should
+			actually be run.
+		</para>
+		<para>Only run included tests:</para>
+		<para>
+			<programlisting language="gradle">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/test/include.gradle" />
+			</programlisting>
+		</para>
+		<para>Skip excluded tests:</para>
+		<para>
+			<programlisting language="gradle">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/test/exclude.gradle" />
+			</programlisting>
+		</para>
+	</section>
+</section>
+	

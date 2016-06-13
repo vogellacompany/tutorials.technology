@@ -1,0 +1,4 @@
+gradle hello
+
+# alternative add the -q flag
+gradle -q hello

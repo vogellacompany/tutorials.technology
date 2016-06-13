@@ -1,0 +1,59 @@
+<section id="gradle_deployment" role="wrapper">
+	<title>Deployment with Gradle</title>
+	<section id="gradle_deployment_overview">
+		<title>How to deploy with Gradle</title>
+		<para>
+			Gradle offers several ways to deploy build artifacts to artifact
+			repositories, like
+			<ulink url="https://www.jfrog.com/open-source/">Artifactory</ulink>
+			or
+			<ulink url="http://www.sonatype.org/nexus/">Sonatype Nexus</ulink>
+			.
+		</para>
+	</section>
+	<section id="gradle_deployment_maven">
+		<title>Using the maven-publish plugin</title>
+		<para>
+			The most common way is to use the
+			<code>maven-publish</code>
+			plugin, which is provides by Gradle by default.
+		</para>
+		<para>
+			<programlisting language="gradle">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/deployment/maven_plugin_local.gradle" />
+			</programlisting>
+		</para>
+		<para>
+			There are several publish options, when the
+			<code>java</code>
+			and the
+			<code>maven-publish</code>
+			plugin is applied.
+		</para>
+		<para>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="images/maven-publish-tasks.png" />
+				</imageobject>
+			</mediaobject>
+		</para>
+		<para>
+			The deployment to a remote repository can be done like this:
+		</para>
+		<para>
+			<programlisting language="gradle">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/deployment/maven_plugin_remote.gradle" />
+			</programlisting>
+		</para>
+		<para>
+			More information about the deployment to a Maven artifact repository
+			can be found here:
+			<ulink
+				url="https://docs.gradle.org/current/userguide/publishing_maven.html">https://docs.gradle.org/current/userguide/publishing_maven.html
+			</ulink>
+		</para>
+	</section>
+</section>
+	

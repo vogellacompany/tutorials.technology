@@ -1,0 +1,15 @@
+allprojects {
+ apply plugin: 'java'
+
+ repositories {
+  mavenCentral()
+ }
+
+}
+
+project(':com.example.core').dependencies {
+    compile project(':com.example.model')
+    compile 'log4j:log4j:1.2.17'
+}
+
+
