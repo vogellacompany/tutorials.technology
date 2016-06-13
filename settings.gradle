@@ -9,4 +9,5 @@ include 'Virtualization'
 include 'ApacheMaven'
 include 'RaspberryPi'
 include 'Mathematik'
+include 'GerritExercises'
 
