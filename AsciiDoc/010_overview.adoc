@@ -24,10 +24,12 @@ Asciidoc documents typically ends with the _.adoc_.
 While Asciidoctor is awesome, several outstanding issues make the usage of the PDF output difficult.
 If you want to create PDF from Asciidoc, you most likely need first to create Docbook output and afterwards PDF from it.
 
-Please star the following issues at Github:
+Please vote for the following issues at Github:
 
 * https://github.com/asciidoctor/asciidoctor-pdf/issues/463
 * https://github.com/asciidoctor/asciidoctor-pdf/issues/464
+
+image::vote-asciidoc-issue.png[Vote for issue]
 
 Less important but annoying is:
 
