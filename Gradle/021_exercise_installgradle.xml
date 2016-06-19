@@ -1,41 +1,41 @@
 <section id="exercise_installgradle" role="wrapper">
-	<title>Exercise: Installing Gradle</title>
+	<title>Exercise: Installing Gradle
 	<section id="exercise_installgradle_target">
-		<title>Target</title>
-		<para>In this exercise Gradle will be installed and configured.</para>
+		<title>Target
+		In this exercise Gradle will be installed and configured.
 	</section>
 	<section id="exercise_installgradle_requirements">
-		<title>Requirements</title>
-		<para>The usage of Gradle requires an JDK (Java Development Kit)
+		<title>Requirements
+		The usage of Gradle requires an JDK (Java Development Kit)
 			installation.
-		</para>
+		
 	</section>
 	<section id="exercise_installgradle_download">
-		<title>Download Gradle</title>
-		<para>
+		<title>Download Gradle
+		
 			Download the latest
 			<wordasword>Complete distribution</wordasword>
 			of Gradle from
 			<ulink url="http://gradle.org/gradle-download/">http://gradle.org/gradle-download/</ulink>
-		</para>
-		<para>
+		
+		
 			It is a gradle-${version}-all.zip, where ${version} is a
 			placeholder
 			for the current version, e.g.,
 			<filename>gradle-2.13-all.zip</filename>
 			.
-		</para>
+		
 	</section>
 	<section id="exercise_installgradle_windows">
-		<title>Installing Gradle on Windows</title>
-		<para>
+		<title>Installing Gradle on Windows
+		
 			Extract the contents of the downloaded zip file to
 			<filename>C:\Program Files</filename>
 			or a different location. This will for example result in a
 			<filename>C:\Program Files\gradle-2.13</filename>
 			folder.
-		</para>
-		<para>
+		
+		
 			Afterwards add the
 			<filename>C:\Program Files\${version}</filename>
 			folder, e.g.,
@@ -43,10 +43,10 @@
 			to your
 			<property>PATH</property>
 			environment variable.
-		</para>
-		<para>By pressing Win + Pause the systen settings can be opened.
-		</para>
-		<para>
+		
+		By pressing Win + Pause the systen settings can be opened.
+		
+		
 			<mediaobject>
 				<imageobject>
 					<imagedata fileref="images/system_settings.png" scale="50" />
@@ -55,8 +55,8 @@
 					<phrase>Windows System Settings</phrase>
 				</textobject>
 			</mediaobject>
-		</para>
-		<para>
+		
+		
 			First the
 			<guilabel>Advanced System Settings</guilabel>
 			have to be selected and
@@ -64,8 +64,8 @@
 			the
 			<guilabel>Environment Variables</guilabel>
 			button needs to be pressed.
-		</para>
-		<para>
+		
+		
 			<mediaobject>
 				<imageobject>
 					<imagedata fileref="images/user_and_system_variables.png"
@@ -75,8 +75,8 @@
 					<phrase>Windows User and System Variables</phrase>
 				</textobject>
 			</mediaobject>
-		</para>
-		<para>
+		
+		
 			In the
 			<guilabel>Environment Variables</guilabel>
 			dialog the (1) GRADLE_HOME and
@@ -88,8 +88,8 @@
 			button can be pressed to add the
 			<filename>bin</filename>
 			folder of the Gradle installation to the Path.
-		</para>
-		<para>
+		
+		
 			<mediaobject>
 				<imageobject>
 					<imagedata fileref="images/path_variables.png" scale="50" />
@@ -98,36 +98,36 @@
 					<phrase>Windows Path Variables</phrase>
 				</textobject>
 			</mediaobject>
-		</para>
+		
 	</section>
 	<section id="exercise_installgradle_linux_mac">
-		<title>Installing Gradle on Linux/Mac</title>
-		<para>
+		<title>Installing Gradle on Linux/Mac
+		
 			Extract the contents of the downloaded zip file to
 			<filename>/opt/gradle</filename>
 			or a different location. This will for example result in a
 			<filename>/opt/gradle/gradle-2.13</filename>
 			folder.
-		</para>
-		<para>
+		
+		
 			The
 			<code>JAVA_HOME</code>
 			variable must point to a proper jdk and
 			<code>$JAVA_HOME/bin</code>
 			must be part of the PATH environment variable.
-		</para>
-		<para>
+		
+		
 			Add Gradle to the path by running
 			<code>export PATH=/usr/local/gradle/gradle-2.13/bin:$PATH</code>
 			in a terminal.
-		</para>
+		
 	</section>
 	<section id="exercise_installgradle_validate">
-		<title>Validate</title>
-		<para>
+		<title>Validate
+		
 			Open a command line and type
 			<code>gradle</code>
 			, which will run Gradle's help task by default.
-		</para>
+		
 	</section>
 </section>

@@ -1,12 +1,12 @@
 <section id="gradleintro" role="wrapper">
-	<title>Introduction to the Gradle build system</title>
+	<title>Introduction to the Gradle build system
 	<section id="gradleintro_what">
-		<title>What is the Gradle build system?</title>
+		<title>What is the Gradle build system?
 		<indexterm>
 			<primary>Gradle
 			</primary>
 		</indexterm>
-		<para>
+		
 			<mediaobject>
 				<imageobject>
 					<imagedata fileref="images/gradle-logo.png"/>
@@ -15,8 +15,8 @@
 					<phrase>Gradle logo</phrase>
 				</textobject>
 			</mediaobject>
-		</para>
-		<para>
+		
+		
 			<wordasword>Gradle</wordasword>
 			is an advanced general purpose build management system based
 			on
@@ -32,23 +32,23 @@
 			allows reusing the artifacts of
 			existing
 			build systems.
-		</para>
-		<para>Gradle supports
+		
+		Gradle supports
 			multi-project and
 			multi-artifact
 			builds.
-		</para>
-		<para>
+		
+		
 			Gradle has the notion of
 			<wordasword>projects</wordasword>
 			and
 			<wordasword>tasks</wordasword>
 			.
-		</para>
+		
 
 	</section>
 	<section id="gradle_projectstasks">
-		<title>Projecs and tasks in Gradle</title>
+		<title>Projecs and tasks in Gradle
 		A Gradle build
 		consists of one or more projects. Projects can be
 		something which
@@ -64,11 +64,11 @@
 	</section>
 
 	<section id="gradle_runbuild_buildfile">
-		<title>The Gradle build file - build.gradle</title>
+		<title>The Gradle build file - build.gradle
 		<indexterm>
 			<primary>build.gradle</primary>
 		</indexterm>
-		<para>
+		
 			A
 			project using Gradle describes its build via a
 			<filename>build.gradle</filename>
@@ -83,8 +83,8 @@
 			writing
 			Groovy code
 			whenever you need it. Tasks can also be created dynamically.
-		</para>
-		<para>
+		
+		
 			This build file
 			defines a project and
 			its
@@ -93,24 +93,24 @@
 			file
 			can
 			perform any task. The following listing represents a very simple build file.
-		</para>
-		<para>
+		
+		
 			<programlisting language="gradle">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/starter/build_hello.gradle" />
 			</programlisting>
-		</para>
-		<para>This
+		
+		This
 			build file can also be simplified <![CDATA[<<]]>
 			can be used as shortcut to define the
 			<code>doLast</code>
 			statement.
-		</para>
-		<para>
+		
+		
 			<programlisting language="gradle">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/starter/build_hello2.gradle" />
 			</programlisting>
-		</para>
-		<para>
+		
+		
 			To execute the
 			<parameter>hello</parameter>
 			task in this build file, type
@@ -119,62 +119,62 @@
 			<parameter>-q</parameter>
 			(quite)
 			parameter.
-		</para>
+		
 
-		<para>
+		
 			<programlisting language="gradle">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/starter/runbuild.gradle" />
 			</programlisting>
-		</para>
+		
 	</section>
 
 	<section id="gradle_runbuild_buildfile_comments">
-		<title>Comments in Gradle build files</title>
-		<para>You can use single and multiline comments in Gradle build files.</para>
-		<para>
+		<title>Comments in Gradle build files
+		You can use single and multiline comments in Gradle build files.
+		
 			<programlisting language="java">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/comments/example.gradle" />
 			</programlisting>
-		</para>
+		
 
 
 	</section>
 	<section id="gradle_runbuild_projectinformation">
 
-		<title>Project settings and description</title>
-		<para>
+		<title>Project settings and description
+		
 			By default, Gradle uses the directory name as project name. You can
 			change this by creating a
 			<filename>settings.gradle</filename>
 			file in the directory which specifies the project name.
-		</para>
-		<para>
+		
+		
 			<programlisting language="gradle">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/settings/settings.gradle" />
 			</programlisting>
-		</para>
+		
 
-		<para>
+		
 			You can also add a description to your project via the
 			<filename>build.gradle</filename>
 			file.
-		</para>
-		<para>
+		
+		
 			<programlisting language="gradle">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/settings/build.gradle" />
 			</programlisting>
-		</para>
-		<para>
+		
+		
 			Use the
 			<code>gradle project</code>
 			command to get information about your project. The following listing
 			shows the output.
-		</para>
-		<para>
+		
+		
 			<programlisting language="plain">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/settings/settings.output" />
 			</programlisting>
-		</para>
+		
 	</section>
 
 </section>

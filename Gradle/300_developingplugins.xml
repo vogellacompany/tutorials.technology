@@ -1,116 +1,116 @@
 <section id="gradle_developingplugins" role="wrapper">
-	<title>Developing custom Gradle plug-ins</title>
+	<title>Developing custom Gradle plug-ins
 	<section id="gradle_developingplugins_target">
-		<title>Why creating Gradle plug-ins</title>
-		<para>As a general rule, it is useful to have a build that is as much declarative as possible as this simplifies
+		<title>Why creating Gradle plug-ins
+		As a general rule, it is useful to have a build that is as much declarative as possible as this simplifies
 			future maintenance. Therefore it is adviced to avoid complex code in your Gradle build file. If you need customer
 			logic you should place it, into a custom Gradle plugin.
-		</para>
+		
 	</section>
 
 	<section id="gradle_developingplugins_example">
-		<title>Example: creating a simple Gradle plugin</title>
-		<para>
+		<title>Example: creating a simple Gradle plugin
+		
 			To create a custom Gradle plug-in you have to create the following directories for your Gradle project. The java or
 			groovy directory is only required if you want to use Java or Groovy for writing your plugin.
 			<itemizedlist>
 				<listitem>
-					<para>projectroot/plugin/src/main/java</para>
+					projectroot/plugin/src/main/java
 				</listitem>
 				<listitem>
-					<para>projectroot/plugin/src/main/resources/META-INF/gradle-plugins</para>
+					projectroot/plugin/src/main/resources/META-INF/gradle-plugins
 				</listitem>
 				<listitem>
-					<para>projectroot/plugin/src/main/groovy</para>
+					projectroot/plugin/src/main/groovy
 				</listitem>
 			</itemizedlist>
-		</para>
-		<para>
+		
+		
 			Change your main
 			<filename>build.gradle</filename>
 			build file to the following.
-		</para>
+		
 
-		<para>
+		
 			<programlisting language="java">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/plugin/mainbuild.gradle" />
 			</programlisting>
-		</para>
-		<para>
+		
+		
 			Create a file
 			<filename>vogella.properties</filename>
-		</para>
+		
 		in the
 		<filename>META-INF/gradle-plugins</filename>
 		folder. The name of the properties file defines your plugin name and its content points to the class which implements
 		the plugin.
-		<para>
+		
 			<programlisting language="java">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/plugin/vogella.properties" />
 			</programlisting>
-		</para>
+		
 
-		<para>
+		
 			In the
 			<filename>plugin/src/main/java</filename>
 			folder create the following two classes.
-		</para>
-		<para>
+		
+		
 			<programlisting language="java">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/plugin/MyPlugin.java" />
 			</programlisting>
-		</para>
-		<para>
+		
+		
 			<programlisting language="java">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/plugin/MyTask.java" />
 			</programlisting>
-		</para>
-		<para>
+		
+		
 			In your
 			<filename>plugin</filename>
 			folder, create the following build.gradle file.
-		</para>
-		<para>
+		
+		
 			<programlisting language="java">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/plugin/build.gradle" />
 			</programlisting>
-		</para>
-		<para>
+		
+		
 			In your
 			<filename>plugin</filename>
 			folder, create the following
 			<filename>settings.gradle</filename>
 			file.
-		</para>
-		<para>
+		
+		
 			<programlisting language="java">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/plugin/settings.gradle" />
 			</programlisting>
-		</para>
+		
 
 
 	</section>
 
 	<section id="gradle_developingplugins_example_deploy">
-		<title>Example: deploy your custom Gradle plug-in to your local Maven repository</title>
-		<para>Publish your Gradle plug-in to the Maven repo defined in your plugin/build.gradle file via the following
+		<title>Example: deploy your custom Gradle plug-in to your local Maven repository
+		Publish your Gradle plug-in to the Maven repo defined in your plugin/build.gradle file via the following
 			command.
-		</para>
-		<para>
+		
+		
 			<programlisting language="java">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/plugin/publish.gradle" />
 			</programlisting>
-		</para>
+		
 	</section>
 
 	<section id="gradle_developingplugins_example_usage">
-		<title>Example: Using your new plugin</title>
-		<para>To use your new plug-in, define a dependency to it and a task extending the defined task.</para>
-		<para>
+		<title>Example: Using your new plugin
+		To use your new plug-in, define a dependency to it and a task extending the defined task.
+		
 			<programlisting language="java">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/plugin/consumer.gradle" />
 			</programlisting>
-		</para>
+		
 
 	</section>
 </section>	

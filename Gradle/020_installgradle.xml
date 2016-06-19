@@ -1,37 +1,37 @@
 <section id="building_installgradle" role="wrapper">
-	<title>Installing and configuring Gradle</title>
+	<title>Installing and configuring Gradle
 	<indexterm>
 		<primary>Gradle
 		</primary>
 		<secondary>Installation</secondary>
 	</indexterm>
 	<section id="building_installgradle_requirements">
-		<title>Requirements</title>
-		<para>The usage of Gradle requires an JDK (Java Development Kit)
+		<title>Requirements
+		The usage of Gradle requires an JDK (Java Development Kit)
 			installation.
-		</para>
+		
 	</section>
 	<section id="building_installgradle_commandline">
-		<title>Installing Gradle for the usage on the command line</title>
+		<title>Installing Gradle for the usage on the command line
 
-		<para>
+		
 			The lastest version of Gradle can be found here:
 			<ulink url="http://gradle.org/gradle-download/">http://gradle.org/gradle-download/</ulink>
-		</para>
-		<para>
+		
+		
 			How to properly install Gradle is explained in the next exercise. See
 			<xref linkend="exercise_installgradle" />
-		</para>
-		<para>
+		
+		
 			The configuration can be tested by typing in
 			<parameter>gradle</parameter>
 			into the command line.
-		</para>
+		
 	</section>
 
 	<section id="gradeinstallation_demon">
-		<title>Using the Gradle daemon for improved startup time</title>
-		<para>
+		<title>Using the Gradle daemon for improved startup time
+		
 			Gradle allows to start Gradle as daemon to avoid starting the Java
 			virtual machine for every build. To configure that
 			create a file
@@ -40,73 +40,73 @@
 			in the
 			<filename>${HOME}/.gradle</filename>
 			and add the following line to it.gradle.properties
-		</para>
-		<para>
+		
+		
 			<programlisting language="plain">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
 					parse="text" href="./examples/install/gradle.properties" />
 			</programlisting>
-		</para>
+		
 
-		<para>
+		
 			You can also place the
 			<filename>gradle.properties</filename>
 			file to the root
 			directory of your project and commit it to your
 			version control system.
-		</para>
-		<para>If Gradle is not used for a few hours, the daemon stops
+		
+		If Gradle is not used for a few hours, the daemon stops
 			automatically.
-		</para>
-		<para>
+		
+		
 			Executing gradle with the
 			<parameter>--daemon</parameter>
 			parameter
 			on the command line
 			starts the gradle daemon.
-		</para>
-		<para>
+		
+		
 			To stop the daemon interactively use the
 			<code>gradle --stop</code>
 			command.
-		</para>
+		
 	</section>
 
 	<section id="GRADLE_OPTS">
-		<title>Specify custom JVM settings for Gradle</title>
-		<para>The GRADLE_OPTS environment variable offers the opportunity to
+		<title>Specify custom JVM settings for Gradle
+		The GRADLE_OPTS environment variable offers the opportunity to
 			set specific JVM options for Gradle.
-		</para>
-		<para>
+		
+		
 			In section
 			<xref linkend="gradeinstallation_demon" />
 			the performance for the JVM startup is improved, but another
 			performance killer for large builds can be a too small
 			maximum heap
 			space. Therefore it makes sense to increase it for Gradle.
-		</para>
-		<para>
+		
+		
 			<code>export GRADLE_OPTS=-Xmx1024m</code>
 			defines that Gradle can use 1 GB as maximum heap size.
-		</para>
-		<para>On Windows OS environment variables are usually defined via the
+		
+		On Windows OS environment variables are usually defined via the
 			system property UI.
-		</para>
+		
 	</section>
 	<section id="gradle_git">
-		<title>Typical .gitignore file for Gradle projects</title>
-		<para>
+		<title>Typical .gitignore file for Gradle projects
+		
 			If you are using Git as version control system, you can use the
 			following
 			<filename>.gitignore</filename>
 			file as template for a Gradle project.
-		</para>
-		<para>
+		
+		
 			<programlisting language="java">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
 					parse="text" href="./examples/git/gitignore" />
 			</programlisting>
-		</para>
+		
 	</section>
 
 </section>

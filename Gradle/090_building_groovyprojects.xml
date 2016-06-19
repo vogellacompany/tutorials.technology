@@ -1,42 +1,42 @@
 <section id="gradle_buildgroovy">
-	<title>Building Groovy projects</title>
+	<title>Building Groovy projects
 	<section id="gradle_buildgroovy_plugin">
-		<title>The Groovy plug-in</title>
-		<para>
+		<title>The Groovy plug-in
+		
 			The Groovy plug-in for Gradle extends the Java plug-in and
 			provides tasks for Groovy programs.
-		</para>
+		
 
-		<para>
+		
 			<programlisting language="gradle">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/groovy/build.gradle" />
 			</programlisting>
-		</para>
-		<para>
+		
+		
 			To start the build, type
 			<code>gradle build</code>
 			on the command line.
-		</para>
+		
 
 	</section>
 
 	<section id="gradle_buildgroovy_projectlayout">
-		<title>Default project layout of Groovy projects</title>
-		<para>
+		<title>Default project layout of Groovy projects
+		
 			This plug-ins assume
 			a certain setup of your Groovy project.
 			<itemizedlist>
 				<listitem>
-					<para>src/main/groovy contains the Groovy source code</para>
+					src/main/groovy contains the Groovy source code
 				</listitem>
 				<listitem>
-					<para>src/test/groovy contains the Groovy tests</para>
+					src/test/groovy contains the Groovy tests
 				</listitem>
 				<listitem>
-					<para>src/main/java contains the Java source code</para>
+					src/main/java contains the Java source code
 				</listitem>
 				<listitem>
-					<para>src/test/java contains the Java tests</para>
+					src/test/java contains the Java tests
 				</listitem>
 			</itemizedlist>
 
@@ -45,7 +45,7 @@
 			sufficient to
 			compile,
 			test and bundle a Groovy project.
-		</para>
+		
 	</section>
 </section>
 	

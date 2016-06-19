@@ -1,13 +1,13 @@
 <section id="gradle_tasks">
-	<title>Gradle Tasks</title>
+	<title>Gradle Tasks
 	<section id="gradle_default_tasks">
-		<title>Default Gradle tasks</title>
-		<para>
+		<title>Default Gradle tasks
+		
 			Gradle also offers tasks for introspection of Gradle itself, so
 			a Gradle project can be analyzed by using
 			Gradle's default tasks.
-		</para>
-		<para>
+		
+		
 			A good example is the
 			<parameter>tasks</parameter>
 			task, which shows the available tasks of a project.
@@ -16,15 +16,15 @@
 			, a list of tasks is shown. This command lists the base tasks even without an
 			<filename>build.gradle</filename>
 			file.
-		</para>
-		<para>
+		
+		
 			<mediaobject>
 				<imageobject>
 					<imagedata fileref="images/gradle_tasks_task.png"/>
 				</imageobject>
 			</mediaobject>
-		</para>
-		<para>
+		
+		
 			Gradle also tries to give some guidiance for the usage of
 			invoked
 			tasks, as shown in the bottom of the console output.
@@ -33,8 +33,8 @@
 			command
 			would also list dependent tasks, which are invoked before the
 			actual task.
-		</para>
-		<para>
+		
+		
 			When running
 			<code>gradle tasks --all</code>
 			the output looks quite similar to the one before, except of the
@@ -42,12 +42,12 @@
 			task, which depends on the
 			<parameter>wrapper</parameter>
 			task.
-		</para>
+		
 	</section>
 
 	<section id="creating_gradle_tasks">
-		<title>Creating custom Gradle tasks</title>
-		<para>
+		<title>Creating custom Gradle tasks
+		
 			In the
 			<xref linkend="gradle_runbuild_buildfile" />
 			section the first minimalist task
@@ -55,13 +55,13 @@
 			<filename>build.gradle</filename>
 			file
 			has been created.
-		</para>
-		<para>
+		
+		
 			<programlisting language="gradle">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/starter/build_hello.gradle" />
 			</programlisting>
-		</para>
-		<para>
+		
+		
 			When running the
 			<code>gradle -q tasks</code>
 			task with this
@@ -69,15 +69,15 @@
 			file, the
 			<parameter>hello</parameter>
 			task will be listed under "Other tasks".
-		</para>
-		<para>
+		
+		
 			<mediaobject>
 				<imageobject>
 					<imagedata fileref="images/gradle_starter_hello_task_command_line.png"/>
 				</imageobject>
 			</mediaobject>
-		</para>
-		<para>
+		
+		
 			Tasks without a group are considered as private tasks.
 			For instance
 			the
@@ -89,8 +89,8 @@
 			in the
 			view's
 			menu.
-		</para>
-		<para>
+		
+		
 			Groups can be applied with the
 			<parameter>group</parameter>
 			property and a description can
@@ -100,18 +100,18 @@
 			<parameter>hello</parameter>
 			task is added to it. If the group does not exist, it
 			is created.
-		</para>
-		<para>
+		
+		
 			<programlisting language="gradle">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text"
 					href="./examples/tasks/build_hello_described.gradle" />
 			</programlisting>
-		</para>
+		
 	</section>
 
 	<section id="gradle_task_structure">
-		<title>Task structure</title>
-		<para>
+		<title>Task structure
+		
 			Gradle has different phases, when working with tasks. First of
 			all there is a configuration phase, where the
 			code, which is
@@ -122,8 +122,8 @@
 			task
 			and not only for those tasks,
 			which are later actually executed.
-		</para>
-		<para>
+		
+		
 			After the configuration phase, the execution phase then runs the
 			code inside the
 			<code>doFirst</code>
@@ -131,14 +131,14 @@
 			<code>doLast</code>
 			closures of those tasks,
 			which are actually executed.
-		</para>
-		<para>
+		
+		
 			<programlisting language="gradle">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text"
 					href="./examples/tasks/configuration_phase_build.gradle" />
 			</programlisting>
-		</para>
-		<para>
+		
+		
 			When running
 			<code>&gt; gradle -q anotherUnrelatedTask</code>
 			<quote>I always get printed even though, I am not invoked</quote>
@@ -147,12 +147,12 @@
 			are printed. The first statement comes from the configuration phase in which the task definition of the
 			<code>onlySpecifiesCodeForConfigurationPhase</code>
 			is evaluated.
-		</para>
+		
 	</section>
 
 	<section id="gradle_task_dependencies">
-		<title>Task dependencies</title>
-		<para>Gradle allows the definition of default tasks in the build file. These are
+		<title>Task dependencies
+		Gradle allows the definition of default tasks in the build file. These are
 			executed, if no other tasks are
 			specified.
 			Tasks can also
@@ -160,37 +160,37 @@
 			settings are
 			demonstrated in the
 			following build file.
-		</para>
-		<para>
+		
+		
 			<programlisting language="gradle">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/starter/build.gradle" />
 			</programlisting>
-		</para>
-		<para>
+		
+		
 			<note>
-				<para>&lt;&lt;
+				&lt;&lt;
 					is a just shortcut for the doLast action. So the
 					<parameter>clean</parameter>
 					task could also use &lt;&lt; instead of doLast.
-				</para>
+				
 			</note>
-		</para>
-		<para>
+		
+		
 			Hooking into predefined task executions for default tasks or tasks
 			from plug-ins can also be done by using the
 			<code>dependsOn</code>
 			method.
-		</para>
-		<para>For instance when certain things have to be done right after the
+		
+		For instance when certain things have to be done right after the
 			compilation of java code:
-		</para>
-		<para>
+		
+		
 			<programlisting language="gradle">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text"
 					href="./examples/tasks/compile_java_dep_build.gradle" />
 			</programlisting>
-		</para>
-		<para>
+		
+		
 			An alternative to creating a new task, which depends on the
 			<code>'compileJava'</code>
 			task
@@ -199,42 +199,42 @@
 			task, e.g., the
 			<code>'compileJava'</code>
 			task.
-		</para>
-		<para>
+		
+		
 			<programlisting language="gradle">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text"
 					href="./examples/tasks/add_action_to_existing_task_build.gradle" />
 			</programlisting>
-		</para>
-		<para>When running the javaCompile task all actions, which have been
+		
+		When running the javaCompile task all actions, which have been
 			applied to the javaCompile task, are run one by
 			one according to the
 			order they have been applied to the task.
-		</para>
+		
 	</section>
 
 	<section id="skip_gradle_tasks">
-		<title>Skipping Tasks</title>
-		<para>
+		<title>Skipping Tasks
+		
 			Skipping tasks can be done by passing a predicate closure to the
 			<code>onlyIf</code>
 			method of a task or by throwing a
 			<code>StopExecutionException</code>
 			before the actual work of a task is executed.
-		</para>
-		<para>
+		
+		
 			<programlisting language="gradle">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/tasks/skip_tasks_build.gradle" />
 			</programlisting>
-		</para>
-		<para>
+		
+		
 			<note>
-				<para>
+				
 					Tasks depending on the eclipse task will be run even, if a
 					<code>StopExecutionException</code>
 					is thrown.
-				</para>
+				
 			</note>
-		</para>
+		
 	</section>
 </section>

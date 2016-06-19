@@ -1,50 +1,50 @@
 <section id="exercise_gradle_daemon" role="wrapper">
-	<title>Exercise: Setup the Gradle Daemon</title>
+	<title>Exercise: Setup the Gradle Daemon
 	<section id="exercise_gradle_daemon_target">
-		<title>Target</title>
-		<para>In this exercise the Gradle Daemon will be configured, so that
-			it starts automatically when a build is run.</para>
+		<title>Target
+		In this exercise the Gradle Daemon will be configured, so that
+			it starts automatically when a build is run.
 	</section>
 	<section id="exercise_gradle_daemon_windows">
-		<title>Configuring the Gradle Daemon</title>
-		<para>
+		<title>Configuring the Gradle Daemon
+		
 			When using the Gradle command the first time a
 			<filename>.gradle</filename>
 			folder is created in the ${USER_HOME} directory.
-		</para>
-		<para>On Linux this is usually /home/${yourUserName}/.gradle</para>
-		<para>On Windows this is usually C:\Users\${yourUserName}\.gradle
-		</para>
-		<para>On Mac this is usually /Users/${yourUserName}/.gradle</para>
-		<para>
+		
+		On Linux this is usually /home/${yourUserName}/.gradle
+		On Windows this is usually C:\Users\${yourUserName}\.gradle
+		
+		On Mac this is usually /Users/${yourUserName}/.gradle
+		
 			Inside this
 			<filename>.gradle</filename>
 			folder a
 			<filename>gradle.properties</filename>
 			file with the following contents has to be created.
-		</para>
-		<para>
+		
+		
 			<programlisting language="java">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
 					parse="text" href="./examples/daemon/gradle.properties" />
 			</programlisting>
-		</para>
+		
 	</section>
 	<section id="exercise_gradle_daemon_validate">
-		<title>Validate</title>
-		<para>
+		<title>Validate
+		
 			Open a command line and again run the
 			<code>gradle</code>
 			command.
-		</para>
-		<para>This time the following message should not be present at the end
+		
+		This time the following message should not be present at the end
 			of the build any more.
-		</para>
-		<para>
+		
+		
 			<programlisting language="java">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
 					parse="text" href="./examples/daemon/daemon-notice.txt" />
 			</programlisting>
-		</para>
+		
 	</section>
 </section>

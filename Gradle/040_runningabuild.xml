@@ -1,17 +1,17 @@
 <section id="gradle_runbuild">
-	<title>Running a build</title>
+	<title>Running a build
 	<indexterm>
 		<primary>Gradle</primary>
 		<secondary>Running a build</secondary>
 	</indexterm>
-	<para>
+	
 		When starting a Gradle build via the command line, the
 		<code>gradle</code>
 		command tool looks for a file called
 		<filename>build.gradle</filename>
 		in the current directory.
-	</para>
-	<para>
+	
+	
 		Gradle also supports abbreviation of tasks, e.g,. to start the task
 		<parameter>lars</parameter>
 		using the
@@ -25,8 +25,8 @@
 		<code>gradle vogellaCompany</code>
 		can also be called like this:
 		<code>gradle vC</code>
-	</para>
-	<para>
+	
+	
 		A Gradle build can be triggered via the
 		<code>gradle</code>
 		or
@@ -42,24 +42,24 @@
 		, which runs the "other" task. Alternatively to the
 		<code>gradle</code>
 		command the Gradle wrapper can be used.
-	</para>
-	<para>
+	
+	
 		To define a different build file the
 		<parameter>-b buildFileName</parameter>
 		option can be used.
-	</para>
+	
 
-	<para>
+	
 		In scenarios where no network connection is available the
 		<parameter>--offline</parameter>
 		parameter can be used. This lets Gradle run offline, which means that
 		Gradle does not try to reach resources from the
 		network during a
 		build. (e.g., additional dependencies from an artifact repository like Maven Central or Bintray)
-	</para>
-	<para>
+	
+	
 		To get a detailed output of what Gradle is doing you can specify the
 		<parameter>--info</parameter>
-	</para>
+	
 	parameter.
 </section>

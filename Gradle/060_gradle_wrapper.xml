@@ -1,6 +1,6 @@
 <section id="gradewrapper">
-	<title>Using the Gradle wrapper</title>
-	<para>
+	<title>Using the Gradle wrapper
+	
 		The idea of the Gradle wrapper is that a user should not need to install Gradle to run the build with a predefined
 		version and settings of Gradle.
 		The
@@ -14,8 +14,8 @@
 		Gradle is
 		automatically downloaded and
 		used to run the build.
-	</para>
-	<para>
+	
+	
 		The wrapper is the preferred way of
 		starting a Gradle build, as it make the execution of the build independent of the
 		installed Gradle version.
@@ -23,8 +23,8 @@
 		wrapper script can be created via
 		<code>gradle wrapper</code>
 		.
-	</para>
-	<para>
+	
+	
 		As a result you find a
 		<filename>gradlew</filename>
 		for *nix based systems and
@@ -33,49 +33,49 @@
 		<code>gradle</code>
 		command, and if Gradle is not installed on the machine, Gradle is
 		automatically downloaded and installed.
-	</para>
-	<para>
+	
+	
 		It is
 		also possible to define a task which defines the version of
 		the
 		wrapper. If this task is executed it creates
 		the wrapper and
 		downloads the correct version of Gradle.
-	</para>
-	<para>
+	
+	
 		<programlisting language="gradle">
 			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/wrapper/wrappertask.gradle" />
 		</programlisting>
-	</para>
+	
 
-	<para>The version of the Gradle Wrapper can also be defined, when
+	The version of the Gradle Wrapper can also be defined, when
 		creating it via the command line.
-	</para>
-	<para>
+	
+	
 		<code>&gt; gradle wrapper --gradle-version 2.9</code>
-	</para>
-	<para>Without this explicit version parameter gradle will automatically
+	
+	Without this explicit version parameter gradle will automatically
 		pick the latest version.
-	</para>
+	
 
 	<section id="gradle_opts_for_wrapper">
-		<title>Configure GRADLE_OPTS for the Gradle wrapper</title>
-		<para>
+		<title>Configure GRADLE_OPTS for the Gradle wrapper
+		
 			GRADLE_OPTS can also be defined inside the
 			<filename>gradlew</filename>
 			or
 			<filename>gradlew.bat</filename>
 			file
-		</para>
-		<para>
+		
+		
 			<programlisting language="gradle">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/wrapper/gradlew" />
 			</programlisting>
-		</para>
-		<para>
+		
+		
 			<programlisting language="gradle">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/wrapper/gradlew.bat" />
 			</programlisting>
-		</para>
+		
 	</section>
 </section>

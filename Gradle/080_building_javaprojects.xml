@@ -1,25 +1,25 @@
 <section id="gradle_buildjava">
-	<title>Building Java projects</title>
+	<title>Building Java projects
 	<section id="gradle_buildjava1">
-		<title>The Java plug-in</title>
-		<para>
+		<title>The Java plug-in
+		
 			The Java plug-in provides tasks to compile Java source code, run
 			unit
 			tests, create Javadoc and create a JAR file.
-		</para>
+		
 	</section>
 	<section id="gradle_buildjava_projectlayout">
-		<title>Default project layout of Java projects</title>
-		<para>
+		<title>Default project layout of Java projects
+		
 			This plug-ins assume
 			a certain setup of your Java project (similar to
 			Maven).
 			<itemizedlist>
 				<listitem>
-					<para>src/main/java contains the Java source code</para>
+					src/main/java contains the Java source code
 				</listitem>
 				<listitem>
-					<para>src/test/java contains the Java tests</para>
+					src/test/java contains the Java tests
 				</listitem>
 			</itemizedlist>
 
@@ -28,18 +28,18 @@
 			sufficient to
 			compile,
 			test and bundle a Java project.
-		</para>
-		<para>
+		
+		
 			<programlisting language="gradle">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/java/build.gradle" />
 			</programlisting>
-		</para>
-		<para>
+		
+		
 			To start the build, type
 			<code>gradle build</code>
 			on the command line.
-		</para>
-		<para>
+		
+		
 			<parameter>SourceSets</parameter>
 			can be used to specify a different project structure, e.g., the
 			sources are stored in a
@@ -47,17 +47,17 @@
 			folder rather than in
 			<filename>src/main/java</filename>
 			.
-		</para>
-		<para>
+		
+		
 			<programlisting language="gradle">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/java/sourcesets.gradle" />
 			</programlisting>
-		</para>
+		
 	</section>
 
 	<section id="gradle_init_task">
-		<title>Java project creation with the init task</title>
-		<para>
+		<title>Java project creation with the init task
+		
 			Gradle does not yet support multiple project templates (called archetypes) like Maven. But it offers
 			an
 			<parameter>init</parameter>
@@ -69,8 +69,8 @@
 			and
 			<filename>settings.gradle</filename>
 			file.
-		</para>
-		<para>
+		
+		
 			When adding the
 			<parameter>--type</parameter>
 			parameter with
@@ -78,25 +78,25 @@
 			as value, a java project structure is created and the
 			<filename>build.gradle</filename>
 			file contains a certain Java template with JUnit.
-		</para>
-		<para>
+		
+		
 			<mediaobject>
 				<imageobject>
 					<imagedata fileref="images/gradle_init_java_library.png" />
 				</imageobject>
 			</mediaobject>
-		</para>
-		<para>
+		
+		
 			The
 			<filename>build.gradle</filename>
 			file will look similar to this:
-		</para>
-		<para>
+		
+		
 			<programlisting language="gradle">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/java/build_init_java.gradle" />
 			</programlisting>
-		</para>
-		<para>
+		
+		
 			A project hosted at Github
 			<ulink href="https://github.com/townsfolk/gradle-templates">gradle-templates project</ulink>
 			provides more templates beyond the init task. The
@@ -104,12 +104,12 @@
 			working on this
 			archetype/template
 			topic.
-		</para>
+		
 	</section>
 
 	<section id="gradle_java_artifact_properties">
-		<title>Specifying the Java version in your build file</title>
-		<para>
+		<title>Specifying the Java version in your build file
+		
 			Usually a Java project has a version and a target JRE on which it is compiled.
 			The
 			<parameter>version</parameter>
@@ -118,30 +118,30 @@
 			property can be set in the
 			<filename>build.gradle</filename>
 			file.
-		</para>
-		<para>
+		
+		
 			<programlisting language="gradle">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text"
 					href="./examples/java/build_version_sourceComp.gradle" />
 			</programlisting>
-		</para>
-		<para>
+		
+		
 			When the
 			<parameter>version</parameter>
 			property is set, the name of the resulting artifact will be changed
 			accordingly, e.g.,
 			<filename>{my-lib-name}-0.1.0.jar</filename>
 			.
-		</para>
-		<para>
+		
+		
 			If the artifact is an executable java application the
 			<filename>MANIFEST.MF</filename>
 			file must be aware of the class with the main method.
-		</para>
-		<para>
+		
+		
 			<programlisting language="gradle">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/java/main_class.gradle" />
 			</programlisting>
-		</para>
+		
 	</section>
 </section>

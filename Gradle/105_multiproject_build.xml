@@ -1,13 +1,13 @@
 <section id="gradle_multiproject_build">
-	<title>Building multiple projects with Gradle</title>
+	<title>Building multiple projects with Gradle
 	<section id="gradle_multiproject_build_structure">
-		<title>Creating a multi project build structure</title>
-		<para>
+		<title>Creating a multi project build structure
+		
 			A business application usually does not consist of only one
 			single project/module, but has many projects, which
 			should be build.
-		</para>
-		<para>
+		
+		
 			Gradle has the concept of a root project, which can have many sub
 			projects. The root project is specified by a
 			<filename>build.gradle</filename>
@@ -15,42 +15,42 @@
 			belong to the build a
 			<filename>settings.gradle</filename>
 			file is used.
-		</para>
-		<para>
+		
+		
 			For instance there might be this project structure:
 			<itemizedlist>
 				<listitem>
-					<para>root_project
-					</para>
+					root_project
+					
 					<itemizedlist>
 						<listitem>
-							<para>core</para>
+							core
 						</listitem>
 						<listitem>
-							<para>ui</para>
+							ui
 						</listitem>
 						<listitem>
-							<para>util</para>
+							util
 						</listitem>
 						<listitem>
-							<para>settings.gradle</para>
+							settings.gradle
 						</listitem>
 					</itemizedlist>
 				</listitem>
 			</itemizedlist>
-		</para>
-		<para>
+		
+		
 			Having this project structure the
 			<filename>settings.gradle</filename>
 			file would look like this:
-		</para>
-		<para>
+		
+		
 			<programlisting language="gradle">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text"
 					href="./examples/multiproject/simple_settings.gradle" />
 			</programlisting>
-		</para>
-		<para>
+		
+		
 			Besides the
 			<parameter>tasks</parameter>
 			task Gradle also provides a
@@ -58,53 +58,53 @@
 			help task, which can be run in the
 			<filename>root_project</filename>
 			folder.
-		</para>
-		<para>
+		
+		
 			<programlisting language="gradle">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text"
 					href="./examples/multiproject/projects_task.cmdline" />
 			</programlisting>
-		</para>
-		<para>
+		
+		
 			<mediaobject>
 				<imageobject>
 					<imagedata fileref="images/projects_task.png" />
 				</imageobject>
 			</mediaobject>
-		</para>
+		
 	</section>
 	<section>
-		<title>Specifying a general build configuration</title>
-		<para>
+		<title>Specifying a general build configuration
+		
 			In a
 			<filename>build.gradle</filename>
 			file in the root_project general configurations can be applied to all
 			projects or just to the sub projects.
-		</para>
-		<para>
+		
+		
 			<programlisting language="gradle">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/multiproject/root_build.gradle" />
 			</programlisting>
-		</para>
-		<para>
+		
+		
 			This specifies a common
 			<parameter>com.example.gradle</parameter>
 			group and the
 			<parameter>0.1.0</parameter>
 			version to all projects.
-		</para>
-		<para>
+		
+		
 			The
 			<parameter>subprojects</parameter>
 			closure applies common configurations for all sub projects, but not
 			to the root project, like the
 			<parameter>allprojects</parameter>
 			closure does.
-		</para>
+		
 	</section>
 	<section>
-		<title>Project specific configurations and dependencies</title>
-		<para>
+		<title>Project specific configurations and dependencies
+		
 			The
 			<parameter>core</parameter>
 			,
@@ -115,24 +115,24 @@
 			<filename>build.gradle</filename>
 			file, if they have specific needs, which are not already applied by
 			the general configuration of the root project.
-		</para>
-		<para>
+		
+		
 			For instance the ui project usually has a dependency to the core
 			project. So the ui project needs its own
 			<filename>build.gradle</filename>
 			file to specify this dependency.
-		</para>
-		<para>
+		
+		
 			<programlisting language="gradle">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/multiproject/ui_build.gradle" />
 			</programlisting>
-		</para>
-		<para>
+		
+		
 			Project dependencies are specified with the project method.
-		</para>
-		<para>
+		
+		
 			<note>
-				<para>
+				
 					The
 					<parameter>':'</parameter>
 					before the core project reference is Gradle specific and acts
@@ -140,20 +140,20 @@
 					a slash (
 					<parameter>'/'</parameter>
 					), when referencing a folder structure.
-				</para>
+				
 			</note>
-		</para>
-		<para>Alternatively you can also define the dependencies of a project in the root build.gradle file. But it is
+		
+		Alternatively you can also define the dependencies of a project in the root build.gradle file. But it is
 			considered good practice to define the dependencies in the project specific build.gradle files, hence the following
 			approach is only included for demonstration purpose.
-		</para>
+		
 
-		<para>
+		
 			<programlisting language="gradle">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text"
 					href="./examples/multiproject/ui_build_master.gradle" />
 			</programlisting>
-		</para>
+		
 
 
 	</section>
