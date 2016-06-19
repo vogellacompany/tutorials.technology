@@ -1,0 +1,23 @@
+	<!--sets the path to the plugins we need to checkout a plugin-->
+<path id="svnant.classpath">
+	<fileset dir="c:/svnant-1.2.1/lib">
+		<include name="*.jar" />
+	</fileset>
+</path>
+
+<typedef resource="org/tigris/subversion/svnant/svnantlib.xml"
+	classpathref="svnant.classpath" />
+	<!--
+		this target is used to checkout the required plugins to an fixed
+		location on harddrive. The plugins get copied directly to the
+		build-location. Proxy for sap-network is also set.
+	-->
+
+<target name="checkoutHelloRCP">
+	<!--<setproxy proxyhost="${proxy.host}" proxyport="${proxy.port}" /> -->
+	<svn>
+		<checkout url="${url.main}" destPath="${buildDirectory}/plugins/de.vogella.build.ui" />
+		<checkout url="${url.feature}"
+			destPath="${buildDirectory}/features/de.vogella.build.feature" />
+	</svn>
+</target>

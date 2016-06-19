@@ -1,0 +1,8 @@
+# Need to configure the Git email and user for the Jenkins job
+
+# switch to the job directory
+cd /var/lib/jenkins/jobs/Android/workspace
+
+# setup name and email
+sudo git config user.name "jenkins"
+sudo git config user.email "test@gmail.com"

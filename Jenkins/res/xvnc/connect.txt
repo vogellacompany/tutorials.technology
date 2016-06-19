@@ -1,0 +1,8 @@
+# install vncserver
+apt-get install vnc4server
+
+# switch to jenkins user
+sudo su jenkins
+
+# connect to vncserver which creates the password
+vncserver :10

@@ -1,0 +1,2 @@
+<!--This target defines the run-order of the targets-->
+<target name="build" depends="clean, checkoutHelloRCP, pde-build" />

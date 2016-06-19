@@ -1,0 +1,151 @@
+<section id="jenkinsconfiguration">
+	<title>Configure Jenkins
+	<section id="jenkinsconfiguration_java">
+		<title>Configuration the JDK location
+		
+			Before using Jenkins to build Java applications,
+			you need to configure the location or it where your JDK
+			installation
+			is. Select
+			<guilabel>Manage Jenkins</guilabel>
+			and afterwards
+			<guilabel>Configure System</guilabel>
+			.
+		
+
+		
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="images/jenkins10.png" />
+				</imageobject>
+				<textobject>
+					<phrase>Jenkins at first startup</phrase>
+				</textobject>
+			</mediaobject>
+		
+		
+			Enter the correct path to your JDK, Apache Ant and Maven and
+			press
+			the
+			<guibutton>Save</guibutton>
+			button below. Jenkins can also install these for your automatically.
+		
+		
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="images/jenkins20.png" />
+				</imageobject>
+				<textobject>
+					<phrase>Configuring Jenkins</phrase>
+				</textobject>
+			</mediaobject>
+		
+	</section>
+
+	<section id="jenkinsconfiguration_user">
+		<title>Secure Jenkins
+		
+			It is recommended to secure Jenkins.
+			<guilabel>Manage Jenkins</guilabel>
+			and then
+			<guilabel>Configure Global Security</guilabel>
+			. Select the
+			<guilabel>Enable security</guilabel>
+			flag. The easiest way is to use Jenkins own user database. Create at
+			least the user "Anonymous" with read access. Also
+			create entries for
+			the users you want to add in the next step.
+		
+		
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="images/jenkins30.png" scale="30" />
+				</imageobject>
+				<textobject>
+					<phrase>Access restrictions</phrase>
+				</textobject>
+			</mediaobject>
+		
+		
+			On the login page, select
+			<guilabel>Create an account</guilabel>
+			to create the users you just gave access.
+		
+		
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="images/jenkins40.png" />
+				</imageobject>
+				<textobject>
+					<phrase>Create Jenkins account</phrase>
+				</textobject>
+			</mediaobject>
+		
+
+		
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="images/jenkins50.png" />
+				</imageobject>
+				<textobject>
+					<phrase>Sign up a new Jenkins user</phrase>
+				</textobject>
+			</mediaobject>
+		
+
+		
+			Go to
+			<guilabel>Manage Jenkins</guilabel>
+			,
+			<guilabel>Manage and Assign Roles</guilabel>
+			and then
+			<guilabel>Assign Roles</guilabel>
+			to grant the newly created user additional access rights.
+		
+
+		
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="images/jenkins60.png" />
+				</imageobject>
+				<textobject>
+					<phrase>Sign up a new Jenkins user</phrase>
+				</textobject>
+			</mediaobject>
+		
+		
+			Navigate to
+			<guilabel>Manage Roles</guilabel>
+			to define access restrictions in detail.
+			<guilabel>Pattern</guilabel>
+			is a regex value of the job name.
+			The following grants unregistered users
+			read-only access to your build jobs that
+			start with the
+			<code>C-MASTER</code>
+			or
+			<code>M-MASTER</code>
+			prefix and only those.
+		
+		
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="images/jenkins70.png" />
+				</imageobject>
+				<textobject>
+					<phrase>Sign up a new Jenkins user</phrase>
+				</textobject>
+			</mediaobject>
+		
+	</section>
+	<section id="jenkinsconfiguration_ssh">
+		<title>Generate ssh key for Jenkins user
+		
+			If you want to access a private Git repo, for example at Github, you need to generate an ssh key-pair. Create a SSH
+			key with the following
+			command:
+			<code>sudo -u jenkins ssh-keygen</code>
+			.
+		
+	</section>
+</section>

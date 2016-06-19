@@ -1,0 +1,63 @@
+== Installation of Jenkins
+		
+Jenkins can be started via the command line or can run in a web application server.
+Under Linux you can also install Jenkins as a system service.
+		
+		
+For most platforms you have native packages, see the https://jenkins.io/[Jenkins Homepage].
+
+If you installed Jenkins locally, you find it running under the following URL: http://localhost:8080/
+
+=== Installing of the Jenkins server on Ubuntu
+		
+Jenkins provides Debian/Ubuntu packages which install Jenkins and register Jenkins as start service. 
+See the https://wiki.jenkins-ci.org/display/JENKINS/Installing+Jenkins+on+Ubuntu[Install Jenkins on Ubuntu description]
+The Linux installation creates a _/etc/init.d/jenkins_ script which starts Jenkins automatically at boot time.
+		
+Jenkins stores all the settings, logs and build artifacts in its home directory. 
+The default installation directory is _/var/lib/jenkins_ under Ubuntu.
+		
+
+=== Using the .WAR file of Jenkins
+		
+Download the _jenkins.war_ 	file from https://jenkins.io/[Jenkins Homepage].
+From this file you can start Jenkins directly via the command line with `java -jar jenkins*.war`.
+
+			If you start it locally, you find it running
+			under the following URL:
+			<ulink url="http://localhost:8080/">http://localhost:8080/</ulink>
+		
+		
+			To run it in your Tomcat server, put the .WAR file
+			into the
+			<filename>webapps</filename>
+			directory. If you start
+			Tomcat, your Jenkins installation will be
+			available under
+			<ulink url="http://localhost:8080/jenkins"> http://localhost:8080/jenkins</ulink>
+		
+[NOTE]
+====	
+				
+					If the jenkins.war is deployed in your
+					<filename>webapps</filename>
+					directory,
+					but cannot be started and the tomcat manager says
+					<quote>﻿FAIL - Application at
+						context path /jenkins could not be
+						started
+					</quote>
+					, you may need to grant
+					the permissons for
+					<property>﻿JENKINS_HOME</property>
+					.
+				
+				
+					<programlisting>﻿cd /usr/share/tomcat7
+						﻿sudo mkdir .jenkins
+						﻿sudo
+						chown tomcat7:nogroup .jenkins
+					</programlisting>
+					This
+					makes the .jenkins folder writable and Jenkins can use it.			
+====		

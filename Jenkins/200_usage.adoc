@@ -1,0 +1,111 @@
+<section id="job">
+	<title>Setting up a Jenkins job
+	
+		The build of a project is handled via
+		<wordasword>jobs</wordasword>
+		in Jenkins. Select
+		<guilabel>New Item</guilabel>
+		from the menu
+	
+	
+		<mediaobject>
+			<imageobject>
+				<imagedata fileref="images/jenkins_createjob10.png"/>
+			</imageobject>
+			<textobject>
+				<phrase>Setting up a Jenkins job</phrase>
+			</textobject>
+		</mediaobject>
+	
+	
+		Afterwards enter a name for the job and select
+		<guilabel>Freestyle Job</guilabel>
+		. Press
+		<guibutton>OK</guibutton>
+		to create a
+		new Job in Jenkins.
+	
+	The next page allows you to configure your job. If you for
+		example using Git, enter the URL to the Git repository. If the
+		repository is not public, you may also need to configure the
+		credentials.
+	
+	
+		<mediaobject>
+			<imageobject>
+				<imagedata fileref="images/jenkins_createjob20.png"/>
+			</imageobject>
+			<textobject>
+				<phrase>Setting up a Jenkins job</phrase>
+			</textobject>
+		</mediaobject>
+	
+	Specify when and how your build should be triggered. The
+		following example polls the Git repository every 15 min and triggers a
+		build, if something has changed in the repo.
+	
+
+	
+		<mediaobject>
+			<imageobject>
+				<imagedata fileref="images/jenkins_createjob30.png"/>
+			</imageobject>
+			<textobject>
+				<phrase>Setting up a Jenkins job</phrase>
+			</textobject>
+		</mediaobject>
+	
+
+	I typically delete the workspace before a build to avoid any
+		side-effect. In the Build section you can add a build step, e.g., a
+		Maven build.
+	
+	
+		<mediaobject>
+			<imageobject>
+				<imagedata fileref="images/jenkins_createjob40.png"/>
+			</imageobject>
+			<textobject>
+				<phrase>Setting up a Jenkins job</phrase>
+			</textobject>
+		</mediaobject>
+	
+	
+		Press
+		<guilabel>Save</guilabel>
+		to finish the job definition. Press
+		<guilabel>Build Now </guilabel>
+		on the job page to validate the job works as expected.
+	
+
+	
+		<mediaobject>
+			<imageobject>
+				<imagedata fileref="images/jenkins_createjob50.png"/>
+			</imageobject>
+			<textobject>
+				<phrase>Setting up a Jenkins job</phrase>
+			</textobject>
+		</mediaobject>
+	
+
+	
+		After a while the job should go to green or blue (depending on
+		your
+		configuration), if successful. Click on the job and afterwards on
+		<guilabel>Console Output</guilabel>
+		to see the log file in case of an error or to validate that log looks
+		as expected.
+	
+	
+	
+		<mediaobject>
+			<imageobject>
+				<imagedata fileref="images/jenkins_createjob60.png"/>
+			</imageobject>
+			<textobject>
+				<phrase>Setting up a Jenkins job</phrase>
+			</textobject>
+		</mediaobject>
+	
+</section>
