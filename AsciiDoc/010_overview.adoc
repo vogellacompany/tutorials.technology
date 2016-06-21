@@ -275,20 +275,33 @@ You can create also tables in Asciidoc via the following syntax.
 ----
 .Table Title
 |===
-|Name of Column 1 |Name of Column 2 |Name of Column 3 
+|Name of Column 1 |Name of Column 2
 
 |Cell in column 1, row 1
 |Cell in column 2, row 1
-|Cell in column 3, row 1
 
 |Cell in column 1, row 2
 |Cell in column 2, row 2
-|Cell in column 3, row 2
 |===
 ----
 
-The result looks like the following.
 
+
+The result looks like the following.
+Table Title
+|===
+|Name of Column 1 |Name of Column 2
+
+|Cell in column 1, row 1
+|Cell in column 2, row 1
+
+|Cell in column 1, row 2
+|Cell in column 2, row 2
+|===
+
+Of course you can define tables with more than two columns.
+
+----
 .Table Title
 |===
 |Name of Column 1 |Name of Column 2 |Name of Column 3 
@@ -301,6 +314,8 @@ The result looks like the following.
 |Cell in column 2, row 2
 |Cell in column 3, row 2
 |===
+----
+
 
 ==== Define column widths
 
