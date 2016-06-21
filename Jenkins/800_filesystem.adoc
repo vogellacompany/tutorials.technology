@@ -1,48 +1,22 @@
-<section id="jenkins_filesystem">
-	<title>Jenkins backup and copying files
-	<section id="jenkins_filesystem">
-		<title>Jenkins backup and copying files
-		
-			Jenkins stores all the settings, logs and build artifacts in its home
-			directory, for example, in
-			<filename class="directory">/var/lib/jenkins</filename>
-			under the default install location of Ubuntu.
-		
-		To create a backup of your Jenkins setup, just copy this
-			directory.
-		
-		
-			The
-			<filename class="directory">jobs</filename>
-			directory contains the individual jobs configured in the Jenkins
-			install. You can move a job from one Jenkins installation to another
-			by copying the corresponding job directory. You can also copy a job
-			directory to clone a job or rename the directory.
-		
-		
-			Click
-			<guibutton>reload
-				config
-			</guibutton>
-			button in the Jenkins web user interface
-			to force Jenkins to reload
-			configuration from the disk.
-		
-		
-			See
-			<ulink
-				url="https://wiki.jenkins-ci.org/display/JENKINS/Administering+Jenkins">Adminstration of Jenkins</ulink>
-			for details.
-		
-	</section>
+== Jenkins backup and copying files
 
-	<section id="jenkins_git">
-		<title>Managing Jenkins with Git
-		Jenkins supports the
-			https://wiki.jenkins-ci.org/display/JENKINS/SCM+Sync+configuration+plugin
-			plug-in which allows you to store every change in a Git repo.
+Jenkins stores all the settings, logs and build artifacts in its home directory. 
+For example, in _/var/lib/jenkins_ under the default install location of Ubuntu.
 		
-		It is also possible to manually maintain the Jenkins
-			configuration in a Git repo. 
-	</section>
-</section>
+To create a backup of your Jenkins setup, just copy this directory.
+		
+		
+The <filename class="directory">jobs</filename> directory contains the individual jobs configured in the Jenkins install. 
+You can move a job from one Jenkins installation to another by copying the corresponding job directory. 
+You can also copy a job directory to clone a job or rename the directory.
+		
+Click _reload config_ button in the Jenkins web user interface to force Jenkins to reload configuration from the disk.
+		
+See the following link for details: https://wiki.jenkins-ci.org/display/JENKINS/Administering+Jenkins
+
+=== Managing Jenkins with Git
+	
+Jenkins supports the https://wiki.jenkins-ci.org/display/JENKINS/SCM+Sync+configuration+plugin
+plug-in which allows you to store every change in a Git repo.
+		
+It is also possible to manually maintain the Jenkins configuration in a Git repo. 

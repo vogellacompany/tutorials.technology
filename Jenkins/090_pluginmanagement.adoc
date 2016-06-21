@@ -1,173 +1,165 @@
-<section id="jenkinsmanagement">
-	<title>Jenkins management
-	<section id="jenkins_pluginmanagement">
-		<title>Plug-in management
+[[jenkinsmanagement]]
+== Jenkins management
+
+[[jenkins_pluginmanagement]]
+=== Plug-in management
 		
-			Jenkins can be extended via additional plug-ins with more
-			functionality. You can configure your plug-ins via
-			the
-			<menuchoice>
-				<guimenu>Manage Jenkins</guimenu>
-				<guisubmenu>Manager Plugins</guisubmenu>
-			</menuchoice>
-			link.
-		
-		
-			To install plugins in Jenkins select
-			use the
-			<menuchoice>
-				<guimenu>Manage Jenkins</guimenu>
-				<guisubmenu>Manager Plugins</guisubmenu>
-			</menuchoice>
-			link and search for the plugin you want to install. Select it from the list and select to
-			install it and restart
-			Jenkins.
-		
-
-		
-			The following table is a summary of commonly used plug-ins.
-
-			<table frame='all'>
-				<title>Jenkins plug-ins
-				<tgroup cols='3' align='left' colsep='1' rowsep='1'>
-					<colspec colname='c1' colwidth="1*" />
-					<colspec colname='c2' colwidth="2*" />
-					<colspec colname='c2' colwidth="2*" />
-					<thead>
-						<row>
-							<entry>Plug-in name</entry>
-							<entry>Description</entry>
-							<entry>URL</entry>
-						</row>
-					</thead>
-					<tbody>
-						<row>
-							<entry>Git Plugin</entry>
-							<entry>This plugin allows use of Git as a build SCM. </entry>
-							<entry>https://wiki.jenkins-ci.org/display/JENKINS/Git+Plugin
-							</entry>
-						</row>
-						<row>
-							<entry>
-								Xvnc plugin
-							</entry>
-							<entry>
-								
-									This plugin allows projects to run xvnc during a build.
-									This
-									allows for example to run tests which requires
-									a display to
-									run
-									on a virtual display. To use this plug-in you need to
-									connect
-									once to your vncserver on the
-									command line to provide a
-									password. Use for example the following commands.
-								
-								
-									<programlisting language="java">
-										<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/xvnc/connect.txt" />
-									</programlisting>
-								
-
-							</entry>
-							<entry>wiki.jenkins-ci.org/display/JENKINS/Xvnc+Plugin</entry>
-						</row>
-						<row>
-							<entry>
-								Gradle Plugin
-							</entry>
-							<entry>
-								
-									This plugin allows to run Gradle builds, e.g., as required for Android, via Jenkins.
-								
-
-							</entry>
-							<entry>https://wiki.jenkins-ci.org/display/JENKINS/Gradle+Plugin</entry>
-						</row>
-						<row>
-							<entry>
-								Maven Plugin
-							</entry>
-							<entry>
-								
-									This plugin allows to run Maven builds.
-								
-
-							</entry>
-							<entry>https://wiki.jenkins-ci.org/display/JENKINS/Maven+Project+Plugin</entry>
-						</row>
-						<row>
-							<entry>
-								GitHub plugin
-							</entry>
-							<entry>
-								
-									This plugin integrates Jenkins with Github projects.
-								
-
-							</entry>
-							<entry>https://wiki.jenkins-ci.org/display/JENKINS/Github+Plugin</entry>
-						</row>
-						<row>
-							<entry>
-								Publish Over SSH Plugin
-							</entry>
-							<entry>
-								
-									This plugin allows to publish build artifacts via ssh
-								
-
-							</entry>
-							<entry>https://wiki.jenkins-ci.org/display/JENKINS/Publish+Over+SSH+Plugin</entry>
-						</row>
-						<row>
-							<entry>
-								Workspace Cleanup Plugin
-							</entry>
-							<entry>
-								
-									This plugin allows to delete the workspace before the build or when a build is finished and artifacts saved.
-								
-
-							</entry>
-							<entry>https://wiki.jenkins-ci.org/display/JENKINS/Workspace+Cleanup+Plugin</entry>
-						</row>
-						<row>
-							<entry>
-								Github Pull Request Builder
-							</entry>
-							<entry>
-								
-									This plugin allows to build Github Pull Requests
-								
-
-							</entry>
-							<entry>https://wiki.jenkins-ci.org/display/JENKINS/GitHub+pull+request+builder+plugin</entry>
-						</row>
-					</tbody>
-				</tgroup>
-			</table>
-		
-	</section>
-	<section id="jenkins_pluginmanagement_restart">
-		<title>Restart your Jenkins
-
-		
-			You can manually restart Jenkins by adding
-			<parameter>restart</parameter>
-			as URL parameter.
+Jenkins can be extended via additional plug-ins with more
+functionality. You can configure your plug-ins via
+the
+<menuchoice>
+	<guimenu>Manage Jenkins</guimenu>
+	<guisubmenu>Manager Plugins</guisubmenu>
+</menuchoice>
+link.
 		
 		
-			<mediaobject>
-				<imageobject>
-					<imagedata fileref="images/jenkinsrestart10.png" />
-				</imageobject>
-				<textobject>
-					<phrase>How to manually restart Jenkins</phrase>
-				</textobject>
-			</mediaobject>
+To install plugins in Jenkins select
+use the
+<menuchoice>
+	<guimenu>Manage Jenkins</guimenu>
+	<guisubmenu>Manager Plugins</guisubmenu>
+</menuchoice>
+link and search for the plugin you want to install. Select it from the list and select to
+install it and restart
+Jenkins.
 		
-	</section>
 
-</section>
+		
+The following table is a summary of commonly used plug-ins.
+
+<table frame='all'>
+	<title>Jenkins plug-ins
+	<tgroup cols='3' align='left' colsep='1' rowsep='1'>
+		<colspec colname='c1' colwidth="1*" />
+		<colspec colname='c2' colwidth="2*" />
+		<colspec colname='c2' colwidth="2*" />
+		<thead>
+<row>
+	<entry>Plug-in name</entry>
+	<entry>Description</entry>
+	<entry>URL</entry>
+</row>
+		</thead>
+		<tbody>
+<row>
+	<entry>Git Plugin</entry>
+	<entry>This plugin allows use of Git as a build SCM. </entry>
+	<entry>https://wiki.jenkins-ci.org/display/JENKINS/Git+Plugin
+	</entry>
+</row>
+<row>
+	<entry>
+		Xvnc plugin
+	</entry>
+	<entry>
+		
+This plugin allows projects to run xvnc during a build.
+This
+allows for example to run tests which requires
+a display to
+run
+on a virtual display. To use this plug-in you need to
+connect
+once to your vncserver on the
+command line to provide a
+password. Use for example the following commands.
+		
+		
+<programlisting language="java">
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/xvnc/connect.txt" />
+</programlisting>
+		
+
+	</entry>
+	<entry>wiki.jenkins-ci.org/display/JENKINS/Xvnc+Plugin</entry>
+</row>
+<row>
+	<entry>
+		Gradle Plugin
+	</entry>
+	<entry>
+		
+This plugin allows to run Gradle builds, e.g., as required for Android, via Jenkins.
+		
+
+	</entry>
+	<entry>https://wiki.jenkins-ci.org/display/JENKINS/Gradle+Plugin</entry>
+</row>
+<row>
+	<entry>
+		Maven Plugin
+	</entry>
+	<entry>
+		
+This plugin allows to run Maven builds.
+		
+
+	</entry>
+	<entry>https://wiki.jenkins-ci.org/display/JENKINS/Maven+Project+Plugin</entry>
+</row>
+<row>
+	<entry>
+		GitHub plugin
+	</entry>
+	<entry>
+		
+This plugin integrates Jenkins with Github projects.
+		
+
+	</entry>
+	<entry>https://wiki.jenkins-ci.org/display/JENKINS/Github+Plugin</entry>
+</row>
+<row>
+	<entry>
+		Publish Over SSH Plugin
+	</entry>
+	<entry>
+		
+This plugin allows to publish build artifacts via ssh
+		
+
+	</entry>
+	<entry>https://wiki.jenkins-ci.org/display/JENKINS/Publish+Over+SSH+Plugin</entry>
+</row>
+<row>
+	<entry>
+		Workspace Cleanup Plugin
+	</entry>
+	<entry>
+		
+This plugin allows to delete the workspace before the build or when a build is finished and artifacts saved.
+
+	</entry>
+	<entry>https://wiki.jenkins-ci.org/display/JENKINS/Workspace+Cleanup+Plugin</entry>
+</row>
+<row>
+	<entry>
+		Github Pull Request Builder
+	</entry>
+	<entry>
+		
+This plugin allows to build Github Pull Requests
+
+	</entry>
+	<entry>https://wiki.jenkins-ci.org/display/JENKINS/GitHub+pull+request+builder+plugin</entry>
+</row>
+		</tbody>
+	</tgroup>
+</table>
+		
+[[jenkins_pluginmanagement_restart]]
+=== Restart your Jenkins
+
+		
+You can manually restart Jenkins by adding <parameter>restart</parameter> as URL parameter.
+		
+<mediaobject>
+	<imageobject>
+		<imagedata fileref="images/jenkinsrestart10.png" />
+	</imageobject>
+	<textobject>
+		<phrase>How to manually restart Jenkins</phrase>
+	</textobject>
+</mediaobject>
+		

@@ -1,58 +1,25 @@
-<section id="ci">
-	<title>Using the Jenkins build server
+== Using the Jenkins build server
 	
-		<wordasword>Continuous integration</wordasword>
-		is a process in which all development
-		work is integrated as early as possible and the resulting
-		artifacts are
-		automatically created and tested.
-		This process should
-		identify errors as very early
-		in the process.
+_Continuous integration_ is a process in which all development work is integrated as early as possible. 
+The resulting artifacts are automatically created and tested.
+This process should identify errors as very early in the process.
 	
 	
-		<wordasword>Jenkins</wordasword>
-		is one open source tool to perform continuous integration and build automation. The basic
-		functionality of Jenkins is
-		to execute a
-		predefined list
-		of steps.
-		The trigger for this execution can be time or event based. For
-		example every 20
-		minutes or after a new commit in a Git repository.
+_Jenkins_ is one open source tool to perform continuous integration and build automation. 
+The basic functionality of Jenkins is to execute a predefined list of steps.
+The trigger for this execution can be time or event based. 
+For example, every 20 minutes or after a new commit in a Git repository.
 	
 	
-		The list of steps can, for example, include:
-		<itemizedlist>
-			<listitem>
-				perform a software build with Apache
-					Maven or Gradle
-				
-			</listitem>
-			<listitem>
-				Run a shell script
-			</listitem>
-			<listitem>
-				Archive the build result
-			</listitem>
-			<listitem>
-				Afterwards start the integration tests
-			</listitem>
-		</itemizedlist>
+The list of steps can, for example, include:
 
+* perform a software build with Apache Maven or Gradle
+* Run a shell script
+* Archive the build result
+* Afterwards start the integration tests
+
+Jenkins also monitors the execution of the steps and allows to stop the process if one of the steps fails.
+Jenkins can also send out notification about the build success or failure.
 	
-	
-		Jenkins also monitors the execution of the steps and allows to
-		stop the process if one of the steps fails.
-		Jenkins can also send out notifications
-		about the build success or failure.
-	
-	
-		<wordasword>Jenkins</wordasword>
-		can be extended by additional plug-ins, e.g., for building and
-		testing
-		Android applications or to support the Git
-		version control
-		system.
-	
-</section>
+Jenkins can be extended by additional plug-ins, e.g., for building and testing Android applications or to support the Git version control system.
+
