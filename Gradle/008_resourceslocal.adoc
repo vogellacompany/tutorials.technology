@@ -1,12 +1,12 @@
 <section id="resources_gradle">
-	<title>Gradle
+	<title>Gradle_
 	
 		<ulink url="http://mrhaki.blogspot.de/search/label/Gradle%3AGoodness">Gradle Goodness blog series</ulink>
-	
+	_
 	
 		<ulink url="http://www.vogella.com/tutorials/EclipseGradle/article.html">Eclipse Gradle tooling</ulink>
-	
+	_
 	
 		<ulink url="https://docs.gradle.org/current/userguide/publishing_maven.html">Publish to Maven repositories</ulink>
-	
+	_
 </section>

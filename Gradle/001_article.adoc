@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <article>
 	<articleinfo>
-		<title>The Gradle build system- Tutorial
+		<title>The Gradle build system- Tutorial_
 		<author>
 			<firstname>Lars</firstname>
 			<surname>Vogel</surname>
@@ -18,15 +18,15 @@
 		</copyright>
 		<pubdate>03.03.2016</pubdate>
 		<releaseinfo>
-			Version 2.1
+			Version 2.1_
 		</releaseinfo>
 		
 		<abstract id="abstract">
-			<title>Gradle the build system
+			<title>Gradle the build system_
 			
 				This tutorial describes how to use
 				the Gradle build tool.
-			
+			_
 		</abstract>
 	</articleinfo>
 
