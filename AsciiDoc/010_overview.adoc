@@ -81,6 +81,11 @@ _This is cursiv text_
 
 `This is mono text`
 
+=== Force line breaks
+
+A _+_ (plus) at the end of a line with a following space forces a line break.
+
+kbd:[plus + SPACE]
 
 === Importing files or file includes
 
