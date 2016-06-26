@@ -288,6 +288,7 @@ You can create also tables in Asciidoc via the following syntax.
 
 
 The result looks like the following.
+
 Table Title
 |===
 |Name of Column 1 |Name of Column 2
@@ -298,6 +299,17 @@ Table Title
 |Cell in column 1, row 2
 |Cell in column 2, row 2
 |===
+
+You can also define the relative table width.
+----
+.Table with relative column widths (1,3)
+[cols="1,3"]
+|===
+| Name | Description
+| Testing
+| Table width
+|===
+----
 
 Of course you can define tables with more than two columns.
 
@@ -342,15 +354,13 @@ The snippet above will result in the following:
 .Table Title
 [cols="1, 3"]
 |===
-|Name of Column 1 |Name of Column 2 |Name of Column 3 
+|Name of Column 1 |Name of Column 2
 
 |Cell in column 1, row 1
 |Cell in column 2, row 1
-|Cell in column 3, row 1
 
 |Cell in column 1, row 2
 |Cell in column 2, row 2
-|Cell in column 3, row 2
 |===
 
 Alternatively % values can be used, e.g., [cols="40%, 60%"].
