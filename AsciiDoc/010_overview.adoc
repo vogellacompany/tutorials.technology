@@ -191,7 +191,7 @@ kbd:[Alt+F11] - Toggle Full Screen Mode in the Eclipse IDE
 
 === Images and Graphics
 
-To reference images in your AsciiDoc with the `image::` macro pointing to a relative file locatin. Use brackets to define a fixed or related size.
+To reference images in your AsciiDoc with the `image::` macro pointing to a relative file location. Use brackets to define a fixed or related size.
 
 -----
 image::vogellacompany.jpg[200,200]
@@ -200,6 +200,19 @@ image::vogellacompany.jpg[200,200]
 The result looks like the following:
 
 image::vogellacompany.jpg[200,200]
+
+You can also define a text for the image which is for example used for screenreaders or as placeholder if the image cannot be found.
+
+-----
+image::vogellacompany.jpg[vogella Logo, 200,200]
+-----
+
+If you want to scale the image for the PDF output you can use the `pdfwidth` attribute.
+----
+image::vogellacompany.jpg[vogella Logo,pdfwidth"60%]
+----
+
+Unfortunately it is currently not possible to define a default scale factor, see https://github.com/asciidoctor/asciidoctor-pdf/issues/455.
 
 === Using inline icons
 
