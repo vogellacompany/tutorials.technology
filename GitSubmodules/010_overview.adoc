@@ -1,0 +1,122 @@
+[[submodules]]
+== Submodules - repositories inside other Git repositories
+(((Submodules)))
+(((git submodules)))
+
+Git allows you to include other Git repositories called _submodules_ into a repository. 
+This allows you to track changes in several repositories via  a central one.
+
+Git allows you to commit, pull and push to these repositories independently.
+
+
+[[submodules_trackbranch]]
+== Adding a submodule a Git repository and tracking a branch
+
+Git allows you to add a Git repository can track a branch in this submodule.
+To track branches you specify the branch with the `-b` parameter during the `submodule add` command.
+
+This allows you use to use `--remote` parameter in the `git submodule update` command.
+
+[source,terminal]
+----
+# add submodule and define the master branch as the one you want to track
+git submodule add -b master [URL to Git repo] #<1>
+git submodule init #<2>
+----
+
+<1> adds a submodule to the existing Git repository and defines a branch to track
+<2> initialize submodule configuration
+
+You can update your main repository and update your submodules to the latest commit described by the specified branch via the following command.
+
+[source,terminal]
+----
+# update your submodule --remote fetches new commits in the submodules
+# and updates the working tree to the commit described by the branch
+git submodule update --remote
+----
+
+
+[[submodules_adding]]
+== Adding a submodule to a Git repository and tracking based on commits
+
+=== Adding a submodule
+You add a submodule to a Git repository via the `git submodule add` command. 
+The `git submodule init` command creates the local configuration file for the submodules, if this configuration does not exist.
+
+[source,terminal]
+----
+git submodule add [URL to Git repo] #<1>
+git submodule init #<2>
+----
+
+<1> adds a submodule to the existing Git repository
+<2> initialize submodule configuration
+
+[[submodules_cloning]]
+=== Pulling with submodules
+
+To pull everything including the submodules, use the `--recurse-submodules` and the `--remote` parameter in the `git pull command`.
+
+[source,terminal]
+----
+# pull all changes including submodules in case you are tracking branches
+git pull --remote
+
+# pull all changes including submodules in case you are tracking commits
+git pull --recurse-submodules
+
+----
+[[submodules_track]]
+=== Updating which commit your are tracking
+
+The relevant state for the submodules are defined by the main repository.
+If you commit in your main repository, the state of the submodule is also defined by this commit.
+
+The `git submodule update` command sets the Git repository of the submodule to that particular commit. 
+The submodule repository tracks its own content which is nested into the main repository. 
+The main repository refers to a commit of the nested submodule repository.
+
+Use the `git submodule update` command to set the submodules to the commit specified by the main repository.
+This means that if you pull in new changes into the submodules, you need to create a new commit in your main repository in order to track the updates of the nested submodules.
+
+The following example shows how to update a submodule to its latest commit in its master branch.
+
+[source,terminal]
+----
+# update submodule in the master branch
+# skip this if you use --recurse-submodules 
+# and have the master branch checked out
+cd [submodule directory]
+git checkout master
+git pull
+
+# commit the change in main repo
+# to use the latest commit in master of the submodule
+cd ..
+git add [submodule directory]
+git commit -m "move submodule to latest commit in master"
+
+# share your changes
+git push
+----
+Another developer can get the update by pulling in the changes and
+running the submodules update command.
+
+[source,terminal]
+----
+# another developer wants to get the changes
+git pull
+
+# this updates the submodule to the latest
+# commit in master as set in the last example
+git submodule update
+---- 
+
+[WARNING]
+====
+With this setup you need to create a new commit in the master repository, to use a new state in the submodule.
+You need to repeat this procedure every time you want to use another state in one of the submodules. 
+See <<submodules_trackbranch>> for tracking a certain branch of a submodule.
+====
+
