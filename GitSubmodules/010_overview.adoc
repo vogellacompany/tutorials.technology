@@ -15,8 +15,6 @@ Git allows you to commit, pull and push to these repositories independently.
 Git allows you to add a Git repository can track a branch in this submodule.
 To track branches you specify the branch with the `-b` parameter during the `submodule add` command.
 
-This allows you use to use `--remote` parameter in the `git submodule update` command.
-
 [source,terminal]
 ----
 # add submodule and define the master branch as the one you want to track
@@ -27,7 +25,10 @@ git submodule init #<2>
 <1> adds a submodule to the existing Git repository and defines a branch to track
 <2> initialize submodule configuration
 
-You can update your main repository and update your submodules to the latest commit described by the specified branch via the following command.
+If you have specified that Git should track a branch you can use the `--remote` parameter in the `git submodule update` command.
+This pull in new commits into  the main repository and it the submodules.
+It also changes the working directories of the submodules to the commit of the tracked branch.
+
 
 [source,terminal]
 ----
