@@ -6,9 +6,9 @@
 			If you are using the Gradle build system, the Gradle "test" task
 			scans all compiled classes in the source folder of
 			the project, e.g.,
-			<filename>/src/test/java</filename>
+			_/src/test/java_
 			or
-			<filename>/src/test/groovy</filename>
+			_/src/test/groovy_
 			. JUnit classes
 			are identified
 			by:
@@ -28,7 +28,7 @@
 		
 		
 			You can set the
-			<parameter>scanForTestClasses</parameter>
+			`scanForTestClasses`
 			property to false, if you do not want automatic test class detection.
 			In this case, if no additional include /
 			exclude
@@ -51,11 +51,11 @@
 		
 		
 			The
-			<code>Test</code>
+			`Test`
 			class has a
-			<code>include</code>
+			`include`
 			and
-			<code>exclude</code>
+			`exclude`
 			method. These methods can be used to specify, which tests should
 			actually be run.
 		

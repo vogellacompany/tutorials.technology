@@ -93,7 +93,7 @@ Go to_Manage Jenkins_, _Manage and Assign Roles_ and then _Assign Roles_ to gran
 		
 Navigate to _Manage Roles_ to define access restrictions in detail. 
 _Pattern_ is a regex value of the job name.
-The following grants unregistered users read-only access to your build jobs that start with the <code>C-MASTER</code> or <code>M-MASTER</code> prefix and only those.
+The following grants unregistered users read-only access to your build jobs that start with the `C-MASTER` or `M-MASTER` prefix and only those.
 		
 <mediaobject>
 	<imageobject>
@@ -111,5 +111,5 @@ The following grants unregistered users read-only access to your build jobs that
 If you want to access a private Git repo, for example at Github, you need to generate an ssh key-pair. Create a SSH
 key with the following
 command:
-<code>sudo -u jenkins ssh-keygen</code>
+`sudo -u jenkins ssh-keygen`
 .

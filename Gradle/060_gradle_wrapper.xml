@@ -4,7 +4,7 @@
 		The idea of the Gradle wrapper is that a user should not need to install Gradle to run the build with a predefined
 		version and settings of Gradle.
 		The
-		<wordasword>Gradle Wrapper</wordasword>
+		_Gradle Wrapper_
 		(wrapper) is a batch
 		script on Windows, and
 		a shell script for other
@@ -21,16 +21,16 @@
 		installed Gradle version.
 		The
 		wrapper script can be created via
-		<code>gradle wrapper</code>
+		`gradle wrapper`
 		.
 	
 	
 		As a result you find a
-		<filename>gradlew</filename>
+		_gradlew_
 		for *nix based systems and
-		<filename>gradlew.bat</filename>
+		_gradlew.bat_
 		for window systems. These files can be used instead for the
-		<code>gradle</code>
+		`gradle`
 		command, and if Gradle is not installed on the machine, Gradle is
 		automatically downloaded and installed.
 	
@@ -52,7 +52,7 @@
 		creating it via the command line.
 	
 	
-		<code>&gt; gradle wrapper --gradle-version 2.9</code>
+		`&gt; gradle wrapper --gradle-version 2.9`
 	
 	Without this explicit version parameter gradle will automatically
 		pick the latest version.
@@ -62,9 +62,9 @@
 		<title>Configure GRADLE_OPTS for the Gradle wrapper
 		
 			GRADLE_OPTS can also be defined inside the
-			<filename>gradlew</filename>
+			_gradlew_
 			or
-			<filename>gradlew.bat</filename>
+			_gradlew.bat_
 			file
 		
 		

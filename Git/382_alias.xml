@@ -1,13 +1,13 @@
 <section id="alias" role="wrapper">
-	<title>Define alias</title>
+	<title>Define alias
 	<section id="alias_definition">
-		<title>Using an alias</title>
+		<title>Using an alias
 		
 			LARSPRIMARYINDEX"alias"LARSPRIMARYINDEX
 		
-		<para>
+		
 			An
-			<wordasword>alias</wordasword>
+			_alias_
 			in Git allows you to create a short form of one or several existing Git commands. For
 			example, you can
 			define an alias which is a short form of your own
@@ -15,70 +15,70 @@
 			you can
 			combine
 			several commands with an alias.
-		</para>
+		
 
 	</section>
 
 	<section id="alias_example">
-		<title>Alias examples</title>
-		<para>
+		<title>Alias examples
+		
 			The following defines an
-			<wordasword>alias</wordasword>
+			_alias_
 			to see the staged changes with the new
-			<code>git staged</code>
+			`git staged`
 			command.
-		</para>
+		
 		[source,terminal]
 ----
 include::./examples/alias/staged.txt[]
 ----
 
 
-		<para>
+		
 			Or you can define an
-			<wordasword>alias</wordasword>
+			_alias_
 			for a detailed
-			<code>git log</code>
+			`git log`
 			command.
 			The following command defines the
-			<code>git ll
-			</code>
-			<wordasword>alias</wordasword>
+			`git ll
+			`
+			_alias_
 			.
-		</para>
+		
 		[source,terminal]
 ----
 include::./examples/alias/log.txt[]
 ----
-		<para>
+		
 			You can also run external commands. In this case you start the
-			<wordasword>alias</wordasword>
+			_alias_
 			definition with a
-			<code>!</code>
+			`!`
 			character. For example, the following defines the
-			<code>git ac</code>
+			`git ac`
 			command which combines
-			<code>git add . -A</code>
+			`git add . -A`
 			and
-			<code>git commit</code>
+			`git commit`
 			commands.
-		</para>
+		
 		[source,terminal]
 ----
 include::./examples/alias/alias.txt[]
 ----
 		<warning>
-			<para>
-				In the past <wordasword>msysGit</wordasword>
+			
+				In the past _msysGit_
 				for Windows had problems with
 				an
-				<wordasword>alias</wordasword>
+				_alias_
 				beginning with
-				<code>!</code>,
+				`!`,
 				but it has been reported that this now works with
-				<wordasword>msysGit</wordasword>, too
+				_msysGit_, too
 				.
-			</para>
+			
 		</warning>
 	</section>
 </section>

@@ -1,38 +1,38 @@
 <section id="retrievefiles" role="wrapper">
-	<title>Retrieving files from the history</title>
+	<title>Retrieving files from the history
 
 	<section id="retrievefiles_show">
-		<title>View file in different revision</title>
+		<title>View file in different revision
 		
 			LARSPRIMARYINDEX"git show"LARSPRIMARYINDEX
 		
-		<para>
+		
 			The
-			<code>git show</code>
+			`git show`
 			command allows to see and retrieve files from branches, commits and
 			tags.
 			It allows seeing the status of these files in the selected
 			branch, commit or tag without
 			checking them out into your working
 			tree.
-		</para>
-		<para>
+		
+		
 			By default, this command addresses a file from the root of the
 			repository, not the current
 			directory. If you want the current
 			directory then
 			you have to use the ./ specifier. For example to
 			address the
-			<filename>pom.xml</filename>
+			_pom.xml_
 			file the current directory use:
-			<filename>./pom.xml</filename>
+			_./pom.xml_
 
-		</para>
-		<para>The following commands demonstrate that. You can
+		
+		The following commands demonstrate that. You can
 			also make a copy
 			of the file.
 
-		</para>
+		
 		[source,terminal]
 ----
 include::./examples/show/showrev.txt[]
@@ -40,16 +40,16 @@ include::./examples/show/showrev.txt[]
 
 	</section>
 	<section id="retrievefiles_fromcommit">
-		<title>Restore a deleted file in a Git repo</title>
-		<para>
+		<title>Restore a deleted file in a Git repo
+		
 			You can checkout a file from the commit. To find the commit
 			which
 			deleted the file you can use the
-			<code>git log</code>
+			`git log`
 			or the
-			<code>git ref-list</code>
+			`git ref-list`
 			command as demonstrated by the following command.
-		</para>
+		
 
 		[source,terminal]
 ----
@@ -60,7 +60,7 @@ include::./examples/restore/restoredeletedfile.txt[]
 
 
 	<section id="retrievefiles_finddeletedfile">
-		<title>See which commit deleted a file</title>
+		<title>See which commit deleted a file
 		
 			LARSPRIMARYINDEX"Find commit which deleted a file"LARSPRIMARYINDEX
 		
@@ -71,18 +71,18 @@ include::./examples/restore/restoredeletedfile.txt[]
 			LARSPRIMARYINDEX"git log"LARSPRIMARYINDEX
 			LARSSECONDARY"file deletion|"LARSSECONDARY
 		
-		<para>
+		
 			The
-			<code>git log</code>
+			`git log`
 			command allows you to determine which commit deleted a file. You can
 			use
 			the
-			<parameter>--</parameter>
+			`--`
 			option in
-			<code>git log</code>
+			`git log`
 			to see the commit history for a file, even if you have deleted the
 			file.
-		</para>
+		
 		[source,terminal]
 ----
 include::./examples/show/delete.txt[]

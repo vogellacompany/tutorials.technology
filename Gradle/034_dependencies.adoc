@@ -37,7 +37,7 @@
 		
 		
 			A Java library is identified by Gradle via its project’s
-			<code>groupId:artifactId:version</code>
+			`groupId:artifactId:version`
 			(also known as GAV in Maven). This
 			GAV uniquely identifies a library in a certain version. You can for example
 			<ulink url="http://search.maven.org/">Search Maven</ulink>
@@ -114,10 +114,10 @@
 		<title>Gradle cache and deleting the cache
 		
 			You can refresh dependencies in your cache with the command line option
-			<parameter>--refresh-dependencies</parameter>
+			`--refresh-dependencies`
 			. You
 			can also delete the cached files under
-			<filename>~/.gradle/caches</filename>
+			_~/.gradle/caches_
 			. With the next build Gradle attempts to download
 			the dependencies again.
 		

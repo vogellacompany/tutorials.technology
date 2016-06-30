@@ -1,43 +1,43 @@
 <section id="rebase" role="wrapper">
-	<title>Rebasing branches</title>
+	<title>Rebasing branches
 	<section id="rebase_branches">
-		<title>Rebasing branches</title>
+		<title>Rebasing branches
 		
 			LARSPRIMARYINDEX"git rebase"LARSPRIMARYINDEX
 		
-		<para>
+		
 			You can use Git to rebase one branch on another one. As described,
 			the
-			<code>merge</code>
+			`merge`
 			command
 			combines the changes of two branches. If you rebase a branch
 			called A
 			onto another, the
-			<code>git</code>
+			`git`
 			command takes the
 			changes introduced by the commits of branch A and
 			applies them based on the
 			HEAD of the other branch. This way the
 			changes in the other branch are also available in branch A.
-		</para>
+		
 
-		<para>
+		
 			The process is displayed in the following picture. We want to
 			rebase
 			the branch called
-			<code>branch_1</code>
+			`branch_1`
 			onto master.
-		</para>
+		
 		
 image::img/gitrebase10.png[Rebasing a branch]
 LARSLINEBREAK
-		<para>Running the rebase command creates a new commit with the changes
+		Running the rebase command creates a new commit with the changes
 			of the branch on top of the master branch.
-		</para>
+		
 		
 image::img/gitrebase20.png[Rebasing a branch result]
 LARSLINEBREAK
-		<para>Performing a rebase does not
+		Performing a rebase does not
 			create a merge commit.
 			The final
 			result for the source code
@@ -47,8 +47,8 @@ LARSLINEBREAK
 			cleaner; the
 			history
 			appears to be linear.
-		</para>
-		<para>Rebase can be used to forward-port a feature branch in the local
+		
+		Rebase can be used to forward-port a feature branch in the local
 			Git
 			repository onto the
 			changes of
@@ -58,16 +58,16 @@ LARSLINEBREAK
 			feature is close to the tip of the upstream branch until it is
 			finally
 			published.
-		</para>
-		<para>If you rewrite more than one
+		
+		If you rewrite more than one
 			commit by rebasing, you may have to
 			solve conflicts per commit. In this case the merge
 			operations might be
 			simpler to be performed because you only have to solve
 			merge conflicts
 			once.
-		</para>
-		<para>Also, if your policy requires that all commits result in correct
+		
+		Also, if your policy requires that all commits result in correct
 			software you have to test
 			all the rewritten
 			commits
@@ -94,31 +94,31 @@ LARSLINEBREAK
 			rebasing it since
 			you only have to review and test
 			the merge commit.
-		</para>
+		
 		<note>
-			<para>
+			
 				You can use the rebase command to change your Git repository
 				history
 				commits. This is called
-				<wordasword>interactive</wordasword>
+				_interactive_
 				rebase, see
 				<xref linkend="interactive_rebase" />
 				for information about this feature.
-			</para>
+			
 		</note>
 	</section>
 	<section id="rebase_bestpractice">
-		<title>Good practice for rebase</title>
+		<title>Good practice for rebase
 
 
-		<para>You should avoid using the Git rebase operation for changes
+		You should avoid using the Git rebase operation for changes
 			which have been published in other Git repositories. The Git rebase
 			operation creates new commit objects, this may
 			confuse other
 			developers using the
 			existing commit objects.
-		</para>
-		<para>
+		
+		
 			Assume that a user has a local feature branch and
 			wants to push
 			it to a
@@ -156,9 +156,9 @@ LARSLINEBREAK
 			does not
 			want to push
 			right away.
-		</para>
+		
 		<tip>
-			<para>
+			
 				Rebasing and amending commits is safe as long as you do not
 				push any of the changes
 				involved in the rebase. For example, when you
@@ -168,20 +168,20 @@ LARSLINEBREAK
 				great way to keep the
 				history clean before contributing back your
 				modifications.
-			</para>
+			
 		</tip>
 
 		<warning>
-			<para>
+			
 				In case you want to rewrite history for changes you have shared
 				with
 				others you need to use the
-				<parameter>-f</parameter>
+				`-f`
 				parameter in your
-				<code>git push</code>
+				`git push`
 				command and subsequently your colleagues have to use fetch -f to
 				fetch the rewritten commits.
-			</para>
+			
 			[source,terminal]
 ----
 include::./examples/rebase/forcedpush.txt[]

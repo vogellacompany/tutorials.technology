@@ -1,34 +1,34 @@
 <section id="interactiverebase_example">
-	<title>Example: Interactive rebase</title>
-	<para>
+	<title>Example: Interactive rebase
+	
 		The following commands create several commits which will be used
 		for
 		the interactive rebase.
-	</para>
+	
 	[source,terminal]
 ----
 include::./examples/rebase/git_rebase_commits[]
 ----
-	<para> We want to combine the last seven commits. You can do
+	 We want to combine the last seven commits. You can do
 		this
 		interactively via the following command.
-	</para>
+	
 	[source,terminal]
 ----
 include::./examples/rebase/rebase_i.txt[]
 ----
-	<para>
+	
 		This command opens your editor of choice and lets you configure the
 		rebase
 		operation by defining which commits to
-		<wordasword>pick</wordasword>
+		_pick_
 		,
-		<wordasword>squash</wordasword>
+		_squash_
 		or
-		<wordasword>fixup</wordasword>
+		_fixup_
 		.
-	</para>
-	<para>
+	
+	
 		The following listing shows an example of
 		the
 		selection, we pick
@@ -37,11 +37,11 @@ include::./examples/rebase/rebase_i.txt[]
 		sixth
 		commit. The listing uses the
 		long format of the commands (for example
-		<parameter>fixup</parameter>
+		`fixup`
 		instead of the short form
-		<parameter>f</parameter>
+		`f`
 		) for better readability.
-	</para>
+	
 
 	[source,terminal]
 ----

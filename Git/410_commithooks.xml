@@ -1,18 +1,18 @@
 <section id="gitcommithooks" role="wrapper">
-	<title>Git commit and other hooks</title>
+	<title>Git commit and other hooks
 	<section id="gitcommithooks_intro">
-		<title>Usage of Git hooks</title>
+		<title>Usage of Git hooks
 		
 			LARSPRIMARYINDEX"commit hooks"LARSPRIMARYINDEX
 		
-		<para>
+		
 			Git provides commit hooks, e.g., programs which can be executed
 			at
 			a pre-defined point during the work with the repository. For
 			example, you can ensure that the commit message has a certain format
 			or trigger an action after a push to the server.
-		</para>
-		<para>
+		
+		
 			These programs
 			are usually scripts and can be written in any
 			language, e.g., as
@@ -24,45 +24,45 @@
 			based on
 			a naming
 			convention.
-		</para>
+		
 
 
 	</section>
 	<section id="gitcommithooks_clientserver">
-		<title>Client and server side commit hooks</title>
-		<para>
+		<title>Client and server side commit hooks
+		
 			Git provides hooks for the client and for the server side. On
 			the
 			server side you can use the
-			<filename>pre-receive</filename>
+			_pre-receive_
 			and
-			<filename>post-receive</filename>
+			_post-receive_
 			script to check the input or to trigger actions after the commit. The
 			usage of a server commit hook requires that you have access to the
 			server. Hosting providers like GitHub or Bitbucket do not offer this
 			access.
-		</para>
-		<para>
+		
+		
 			If you create a new Git repository, Git creates example scripts in
 			the
-			<filename>.git/hooks</filename>
+			_.git/hooks_
 			directory. The example scripts end with
-			<filename>.sample</filename>
+			_.sample_
 			.
 			To activate them make them executable and remove the
-			<filename>.sample</filename>
+			_.sample_
 			from the filename.
-		</para>
-		<para>
+		
+		
 			The hooks are documented under the following URL:
 			<ulink
 				url="https://www.kernel.org/pub/software/scm/git/docs/githooks.html">Git hooks manual page</ulink>
 			.
-		</para>
+		
 	</section>
 	<section id="gitcommithooks_restrictions">
-		<title>Restrictions</title>
-		<para>Not all Git server implementations support server side commit
+		<title>Restrictions
+		Not all Git server implementations support server side commit
 			hooks. For example
 			Gerrit (a Git server which also provides the
 			ability to do code
@@ -70,10 +70,10 @@
 			Github and
 			Bitbucket do not support server hooks at the time of this
 			writing.
-		</para>
-		<para>Local hooks in the local repository can be removed by the
+		
+		Local hooks in the local repository can be removed by the
 			developer.
-		</para>
+		
 	</section>
 
 </section>

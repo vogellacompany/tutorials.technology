@@ -1,90 +1,90 @@
 <section id="gitremotebranch" role="wrapper">
-	<title>Remote and local tracking branches</title>
+	<title>Remote and local tracking branches
 	<section id="gitremotebranch_overview">
-		<title>Remote tracking branches</title>
+		<title>Remote tracking branches
 		
 			LARSPRIMARYINDEX"Remote-tracking branch"LARSPRIMARYINDEX
 		
-		<para>
+		
 			Your local Git repository contains references to the state of
 			the
 			branches on
 			the remote repositories to which it is connected. These
 			local references are called
-			<wordasword>remote-tracking branches</wordasword>
+			_remote-tracking branches_
 			.
-		</para>
-		<para>
+		
+		
 			You can see your
 			remote-tracking branches
 			with the following command.
-		</para>
+		
 		[source,terminal]
 ----
 include::./examples/remotebranch/showremotes.txt[]
 ----
 
-		<para>
+		
 			To update remote-tracking branches without changing local branches
 			you
 			use the
-			<code>git fetch</code>
+			`git fetch`
 			command which is covered in
 			<xref linkend="gitfetch" />
 			.
-		</para>
+		
 
 
 
 	</section>
 	<section id="gitremotebranch_delete">
-		<title>Delete a remote-tracking branch in your local repository</title>
+		<title>Delete a remote-tracking branch in your local repository
 		
 			LARSPRIMARYINDEX"Remote tracking branch"LARSPRIMARYINDEX
 			LARSSECONDARY"delete in local repository"LARSSECONDARY
 		
-		<para>It is also safe to delete a remote branch in your local Git
+		It is also safe to delete a remote branch in your local Git
 			repository. You can use the following command for that.
-		</para>
+		
 
 		[source,terminal]
 ----
 include::./examples/remotebranch/delete.txt[]
 ----
-		<para>
+		
 			The next time you run the
-			<code>git fetch</code>
+			`git fetch`
 			command the remote branch is recreated.
-		</para>
+		
 	</section>
 
 	<section id="gitremotebranch_deleteremote">
-		<title>Delete a branch in a remote repository</title>
+		<title>Delete a branch in a remote repository
 		
 			LARSPRIMARYINDEX"Remote tracking branch"LARSPRIMARYINDEX
 			LARSSECONDARY"delete in remote repository"LARSSECONDARY
 		
-		<para>To delete the branch in a remote repository use the following
+		To delete the branch in a remote repository use the following
 			command.
-		</para>
+		
 
 		[source,terminal]
 ----
 include::./examples/remotebranch/deleteremotebranch2.txt[]
 ----
-		<para>Alternatively you can also use the following command. </para>
+		Alternatively you can also use the following command. 
 		[source,terminal]
 ----
 include::./examples/remotebranch/deleteremotebranch.txt[]
 ----
-		<para>
+		
 			For example if you want to delete the branch called
-			<wordasword>testbranch</wordasword>
+			_testbranch_
 			in the remote repository called
-			<wordasword>origin</wordasword>
+			_origin_
 			you can use the following command.
 
-		</para>
+		
 
 		[source,terminal]
 ----
@@ -92,9 +92,9 @@ include::./examples/remotebranch/deleteremotebranch3.txt[]
 ----
 
 		<note>
-			<para>Note you can also specify the remote repository's URL. So the
+			Note you can also specify the remote repository's URL. So the
 				following command also works.
-			</para>
+			
 
 			[source,terminal]
 ----
@@ -105,81 +105,81 @@ include::./examples/remotebranch/deleteremotebranch4.txt[]
 	</section>
 
 	<section id="git_trackingbranches">
-		<title>Tracking branches</title>
+		<title>Tracking branches
 		
 			LARSPRIMARYINDEX"Tracking branch"LARSPRIMARYINDEX
 		
-		<para>
-			<wordasword>Branches</wordasword>
+		
+			_Branches_
 			can track another branch. This is called
-			<wordasword>to have an upstream branch</wordasword>
+			_to have an upstream branch_
 			and such branches can be referred to as
-			<wordasword>tracking branches</wordasword>
+			_tracking branches_
 			.
-		</para>
+		
 
-		<para>
-			<wordasword>Tracking branches</wordasword>
+		
+			_Tracking branches_
 			allow you to use the
-			<code>git pull</code>
+			`git pull`
 			and
-			<code>git push</code>
+			`git push`
 			command directly without specifying the branch and repository.
-		</para>
+		
 
 
-		<para>
+		
 			If you clone a Git repository, your local
-			<wordasword>master</wordasword>
+			_master_
 			branch
 			is created as a
-			<wordasword>tracking branch</wordasword>
+			_tracking branch_
 			for the
-			<wordasword>master</wordasword>
+			_master_
 			branch of the
-			<wordasword>origin</wordasword>
+			_origin_
 			repository (short:
-			<wordasword>origin/master</wordasword>
+			_origin/master_
 			)
 			by Git.
-		</para>
+		
 	</section>
 	<section id="git_setting_uptrackingbranches">
-		<title>Setting up tracking branches</title>
-		<para>
+		<title>Setting up tracking branches
+		
 			You create new
-			<wordasword>tracking branches</wordasword>
+			_tracking branches_
 			by specifying the
-			<wordasword>remote branch</wordasword>
+			_remote branch_
 			during the creation of a branch. The following example demonstrates
 			that.
-		</para>
+		
 		[source,terminal]
 ----
 include::./examples/remotebranch/trackingbranch.txt[]
 ----
 
 
-		<para>
+		
 			Instead of using the
-			<code>git checkout</code>
+			`git checkout`
 			command you can also use the
-			<code>git branch</code>
+			`git branch`
 			command.
-		</para>
+		
 		[source,terminal]
 ----
 include::./examples/remotebranch/create.txt[]
 ----
 
-		<para>
+		
 			The
-			<code>--no-track</code>
+			`--no-track`
 			allows you to specify that you do not want to track a branch.
 			You can explicitly add a tracking branch with the
-			<code>git branch -u</code>
+			`git branch -u`
 			command later.
-		</para>
+		
 		[source,terminal]
 ----
 include::./examples/remotebranch/update.txt[]
@@ -190,16 +190,16 @@ include::./examples/remotebranch/update.txt[]
 
 	</section>
 	<section id="gitremotebranch_seetrackingbranch">
-		<title>See the branch information for a remote repository</title>
-		<para>To see the tracking branches for a remote repository (short:
+		<title>See the branch information for a remote repository
+		To see the tracking branches for a remote repository (short:
 			remote) you can use the
 			following command.
-		</para>
+		
 		[source,terminal]
 ----
 include::./examples/remotebranch/showtrackingbranches.txt[]
 ----
-		<para>An example output of this might look as follows. </para>
+		An example output of this might look as follows. 
 		[source,terminal]
 ----
 include::./examples/remotebranch/output.txt[]

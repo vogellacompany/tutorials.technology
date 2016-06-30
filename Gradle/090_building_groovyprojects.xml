@@ -14,7 +14,7 @@
 		
 		
 			To start the build, type
-			<code>gradle build</code>
+			`gradle build`
 			on the command line.
 		
 

@@ -1,8 +1,8 @@
 <section id="undochanges" role="wrapper">
-	<title>Revert uncommitted changes in tracked files</title>
+	<title>Revert uncommitted changes in tracked files
 	<section id="undochanges_usecase">
-		<title>Use cases</title>
-		<para>If you have a tracked file in Git, you can always recreate the
+		<title>Use cases
+		If you have a tracked file in Git, you can always recreate the
 			file content based on the staging area or based on a previous commit.
 			You
 			can
@@ -11,12 +11,12 @@
 			these changes are included in the next commit. This
 			chapter explain
 			you how you can do this.
-		</para>
+		
 
 	</section>
 
 	<section id="undochanges_reset">
-		<title>Remove staged changes from the staging area</title>
+		<title>Remove staged changes from the staging area
 		
 			LARSPRIMARYINDEX"Staging area"LARSPRIMARYINDEX
 			LARSSECONDARY"remove staged changes"LARSSECONDARY
@@ -27,15 +27,15 @@
 		
 
 
-		<para>
+		
 			You can use the
-			<code>git reset [paths]</code>
+			`git reset [paths]`
 			command to remove staged changes from the staging area.
 			This means
 			that
-			<code>git reset [paths]</code>
+			`git reset [paths]`
 			is the opposite of
-			<code>git add [paths]</code>
+			`git add [paths]`
 			. It
 			avoids that the changes are included
 			in
@@ -43,19 +43,19 @@
 			commit. The changes
 			are still available in the working tree, e.g., you will not lose
 			your changes and can stage and commit them at a later point.
-		</para>
-		<para>In the following example you create a new file and change an
+		
+		In the following example you create a new file and change an
 			existing file. Both changes are staged.
-		</para>
+		
 		[source,terminal]
 ----
 include::./examples/deletefile/stageunwantedchanges.txt[]
 ----
-		<para>
+		
 			The output of
-			<code>git status</code>
+			`git status`
 			command should look similar to the following.
-		</para>
+		
 
 		[source,terminal]
 ----
@@ -63,41 +63,41 @@ include::./examples/deletefile/stageunwantedchanges_result.txt[]
 ----
 
 
-		<para>Remove the changes from the staging area with the following
+		Remove the changes from the staging area with the following
 			command.
-		</para>
+		
 		[source,terminal]
 ----
 include::./examples/deletefile/unstage.txt[]
 ----
-		<para>
+		
 			Use the
-			<code>git status</code>
+			`git status`
 			command to see the result.
-		</para>
+		
 
 		[source,terminal]
 ----
 include::./examples/deletefile/unstage_result.txt[]
 ----
 
-		<para>
+		
 			The
-			<code>git reset</code>
+			`git reset`
 			behaves differently depending on the options you provide. To learn
 			more about the
-			<code>git reset</code>
+			`git reset`
 			command see
 			<xref linkend="resetcommitsdef" />
 			.
-		</para>
+		
 
 	</section>
 
 
 
 	<section id="undochanges_checkout">
-		<title>Remove changes in the working tree</title>
+		<title>Remove changes in the working tree
 		
 			LARSPRIMARYINDEX"git checkout"LARSPRIMARYINDEX
 		
@@ -110,7 +110,7 @@ include::./examples/deletefile/unstage_result.txt[]
 		
 
 		<warning>
-			<para>
+			
 				Be careful with the following command. It allows you to
 				override the changes in files in your working tree.
 				You will
@@ -118,26 +118,26 @@ include::./examples/deletefile/unstage_result.txt[]
 				able to
 				restore
 				these changes.
-			</para>
+			
 		</warning>
 
-		<para>
+		
 			Changes in the working tree which are not staged can be undone with
-			<code>git checkout</code>
+			`git checkout`
 			command. This command resets the file in the working tree to the
 			latest
 			staged version. If there are no staged changes, the latest
 			committed version is used for the restore operation.
-		</para>
+		
 		[source,terminal]
 ----
 include::./examples/delete/git_checkoutfile.txt[]
 ----
-		<para>
+		
 			For example, you can restore the content of a directory called
-			<filename>data</filename>
+			_data_
 			with the following command.
-		</para>
+		
 		[source,terminal]
 ----
 include::./examples/delete/restoredir_notstaged.txt[]
@@ -146,7 +146,7 @@ include::./examples/delete/restoredir_notstaged.txt[]
 	</section>
 
 	<section id="undochanges_directorydeletion">
-		<title>Remove changes in the working tree and the staging area</title>
+		<title>Remove changes in the working tree and the staging area
 		
 			LARSPRIMARYINDEX"git checkout"LARSPRIMARYINDEX
 			LARSSECONDARY"undo staged changes"LARSSECONDARY
@@ -155,41 +155,41 @@ include::./examples/delete/restoredir_notstaged.txt[]
 		
 			LARSPRIMARYINDEX"Undo staged changes"LARSPRIMARYINDEX
 		
-		<para>
+		
 			If you want to undo a staged but uncommitted change, you
 			use
 			the
-			<code>git checkout [commit-pointer] [paths]</code>
+			`git checkout [commit-pointer] [paths]`
 			command. This version of the command resets the working tree and the
 			staged area.
-		</para>
-		<para>The following demonstrates the usage of this to restore a delete
+		
+		The following demonstrates the usage of this to restore a delete
 			directory.
-		</para>
+		
 		[source,terminal]
 ----
 include::./examples/delete/restoredir.txt[]
 ----
-		<para>
+		
 			The additional
 			commit pointer
 			parameter instructs the
-			<code>git checkout</code>
+			`git checkout`
 			command to reset the working tree and to also remove the staged
 			changes.
-		</para>
+		
 
 	</section>
 
 
 	<section id="undochanges_indexexisting">
-		<title>Remove staging area based on last commit change</title>
-		<para>
+		<title>Remove staging area based on last commit change
+		
 			When you have added the changes of a file to the staging area,
 			you
 			can
 			also revert the changes in the staging area base on the last commit. 
-		</para>
+		
 		[source,terminal]
 ----
 include::./examples/commandline/git_revert[]

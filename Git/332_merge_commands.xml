@@ -1,10 +1,10 @@
 <section id="gitmergecommand_branches" role="wrapper">
-	<title>Commands to merge two branches</title>
+	<title>Commands to merge two branches
 	<section id="gitmergecommand_branches">
-		<title>The git merge command</title>
-		<para>
+		<title>The git merge command
+		
 			The
-			<code>git merge</code>
+			`git merge`
 			command
 			performs a merge.
 			You can merge changes
@@ -16,46 +16,46 @@
 			via
 			the
 			following command.
-		</para>
+		
 		[source,terminal]
 ----
 include::./examples/commandline/git_merge[]
 ----
 	</section>
 	<section id="gitmerge_mergeoptionsstrategies">
-		<title>Specifying merge strategies</title>
-		<para>
+		<title>Specifying merge strategies
+		
 			The
-			<parameter>-s</parameter>
+			`-s`
 			parameter allows you to specify other merge strategies.
 			This
 			is
 			demonstrated with the following command.
-		</para>
-		<para>
+		
+		
 			For example,
 			you can specify the
-			<wordasword>ours</wordasword>
+			_ours_
 			strategy in which the result of the merge is always that of the
 			current branch head, effectively ignoring all changes from all other
 			branches. This is demonstrated with the following command.
-		</para>
+		
 		[source,terminal]
 ----
 include::./examples/merge/mergeours.txt[]
 ----
 		<warning>
-			<para>
+			
 				Be careful if you use the
-				<wordasword>ours</wordasword>
+				_ours_
 				merge strategy, it ignores
 				everything from the branch which is
 				merged.
-			</para>
+			
 		</warning>
-		<para>The usage of the octopus merge strategy is triggered if you
+		The usage of the octopus merge strategy is triggered if you
 			specify more than one reference to merge.
-		</para>
+		
 
 		[source,terminal]
 ----
@@ -65,14 +65,14 @@ include::./examples/merge/mergeoctupus.txt[]
 	</section>
 
 	<section id="gitmerge_mergeoptions">
-		<title>Specifying parameters for the default merge strategy</title>
-		<para>
+		<title>Specifying parameters for the default merge strategy
+		
 			The recursive merge strategy (default) allows you to specify
 			flags
 			with the
-			<parameter>-X</parameter>
+			`-X`
 			parameter. For example you can specify here the
-			<parameter>ours</parameter>
+			`ours`
 			option. This option forces conflicting changes to be auto-resolved
 			by favoring the local version. Changes from the other branch
 			that do
@@ -83,71 +83,71 @@ include::./examples/merge/mergeoctupus.txt[]
 			the
 			local
 			version.
-		</para>
+		
 		<warning>
-			<para>
+			
 				The
-				<parameter>ours</parameter>
+				`ours`
 				option for the
-				<wordasword>recursive</wordasword>
+				_recursive_
 				merge strategy should not be confused with
 				the
-				<wordasword>ours</wordasword>
+				_ours_
 				merge strategy.
-			</para>
+			
 		</warning>
 
-		<para>
+		
 			A
 			similar option to
-			<parameter>ours</parameter>
+			`ours`
 			is the
-			<parameter>theirs</parameter>
+			`theirs`
 			option. This option prefers the version from the branch which is
 			merged.
-		</para>
-		<para>Both options are demonstrated in the following example code.
-		</para>
+		
+		Both options are demonstrated in the following example code.
+		
 		[source,terminal]
 ----
 include::./examples/merge/mergeours2.txt[]
 ----
 
-		<para>
+		
 			Another useful option is the
-			<parameter>ignore-space-change</parameter>
+			`ignore-space-change`
 			parameter which ignores whitespace changes.
-		</para>
-		<para>
+		
+		
 			For more information about the merge strategies and options see
 			<ulink
 				url="https://www.kernel.org/pub/software/scm/git/docs/git-merge.html">Git merge manpage</ulink>
 			.
-		</para>
+		
 	</section>
 	<section id="gitmerge_forcemergecommit">
-		<title>Enforcing the creation of a merge commit</title>
-		<para>
+		<title>Enforcing the creation of a merge commit
+		
 			If you prefer to have merge commits even for situations in which Git
 			could perform a fast-forward
 			merge you can use the
-			<code>git merge --no-ff</code>
+			`git merge --no-ff`
 			command.
-		</para>
-		<para>
+		
+		
 			The
-			<parameter>--no-ff</parameter>
+			`--no-ff`
 			parameter can make sense if you want to record in the history at
 			which time you merged from a maintenance branch to the master branch.
-		</para>
-		<para>
+		
+		
 			When pulling from a
 			remote
 			repository, prefer doing a rebase to a
 			merge. This will help to
 			keep the history easier to read. A merge commit can be helpful to
 			document that functionality was developed in parallel.
-		</para>
+		
 	</section>
 
 

@@ -4,14 +4,14 @@
 		Gradle provides an incubating
 		<xref linkend="gradle_init_task" />
 		, which helps with the creation of new Gradle projects. This task can also convert Apache Maven
-		<filename>pom.xml</filename>
+		_pom.xml_
 		files to Gradle
 		build
 		files, if all used Maven plug-ins are known to this task.
 	
 	
 		In this section the following
-		<filename>pom.xml</filename>
+		_pom.xml_
 		maven configuration will be converted to a Gradle project.
 	
 	
@@ -21,7 +21,7 @@
 	
 	
 		Running the
-		<code>gradle init --type pom</code>
+		`gradle init --type pom`
 		command on the command line results in the following Gradle configuration.
 	
 	
@@ -36,7 +36,7 @@
 	
 	
 		The resulting
-		<filename>build.gradle</filename>
+		_build.gradle_
 		file looks similar to this:
 	
 	

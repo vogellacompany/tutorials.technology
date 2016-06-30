@@ -14,7 +14,7 @@
 		<title>Download Gradle
 		
 			Download the latest
-			<wordasword>Complete distribution</wordasword>
+			_Complete distribution_
 			of Gradle from
 			<ulink url="http://gradle.org/gradle-download/">http://gradle.org/gradle-download/</ulink>
 		
@@ -22,7 +22,7 @@
 			It is a gradle-${version}-all.zip, where ${version} is a
 			placeholder
 			for the current version, e.g.,
-			<filename>gradle-2.13-all.zip</filename>
+			_gradle-2.13-all.zip_
 			.
 		
 	</section>
@@ -30,16 +30,16 @@
 		<title>Installing Gradle on Windows
 		
 			Extract the contents of the downloaded zip file to
-			<filename>C:\Program Files</filename>
+			_C:\Program Files_
 			or a different location. This will for example result in a
-			<filename>C:\Program Files\gradle-2.13</filename>
+			_C:\Program Files\gradle-2.13_
 			folder.
 		
 		
 			Afterwards add the
-			<filename>C:\Program Files\${version}</filename>
+			_C:\Program Files\${version}_
 			folder, e.g.,
-			<filename>C:\Program Files\gradle-2.13</filename>
+			_C:\Program Files\gradle-2.13_
 			to your
 			<property>PATH</property>
 			environment variable.
@@ -86,7 +86,7 @@
 			is selected, the
 			<guilabel>modify</guilabel>
 			button can be pressed to add the
-			<filename>bin</filename>
+			_bin_
 			folder of the Gradle installation to the Path.
 		
 		
@@ -104,21 +104,21 @@
 		<title>Installing Gradle on Linux/Mac
 		
 			Extract the contents of the downloaded zip file to
-			<filename>/opt/gradle</filename>
+			_/opt/gradle_
 			or a different location. This will for example result in a
-			<filename>/opt/gradle/gradle-2.13</filename>
+			_/opt/gradle/gradle-2.13_
 			folder.
 		
 		
 			The
-			<code>JAVA_HOME</code>
+			`JAVA_HOME`
 			variable must point to a proper jdk and
-			<code>$JAVA_HOME/bin</code>
+			`$JAVA_HOME/bin`
 			must be part of the PATH environment variable.
 		
 		
 			Add Gradle to the path by running
-			<code>export PATH=/usr/local/gradle/gradle-2.13/bin:$PATH</code>
+			`export PATH=/usr/local/gradle/gradle-2.13/bin:$PATH`
 			in a terminal.
 		
 	</section>
@@ -126,7 +126,7 @@
 		<title>Validate
 		
 			Open a command line and type
-			<code>gradle</code>
+			`gradle`
 			, which will run Gradle's help task by default.
 		
 	</section>

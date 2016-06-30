@@ -1,16 +1,16 @@
 <section id="stash_usage" role="wrapper">
-	<title>Stashing changes in Git</title>
+	<title>Stashing changes in Git
 	<section id="stash_usage1">
-		<title>The git stash command</title>
+		<title>The git stash command
 		
 			LARSPRIMARYINDEX"stashing in Git"LARSPRIMARYINDEX
 		
 		
 			LARSPRIMARYINDEX"git stash"LARSPRIMARYINDEX
 		
-		<para>
+		
 			Git provides the
-			<code>git stash</code>
+			`git stash`
 			command which allows you
 			to record the current state of the working
 			directory and the staging area and to revert
@@ -18,17 +18,17 @@
 			the last
 			committed
 			revision.
-		</para>
-		<para> This allows you to pull in the latest changes or to develop an
+		
+		 This allows you to pull in the latest changes or to develop an
 			urgent fix. Afterwards you can restore the stashed changes, which
 			will
 			reapply
 			the changes to the current version of the source code.
-		</para>
+		
 	</section>
 	<section id="stash_usage2">
-		<title>When to use git stash</title>
-		<para>
+		<title>When to use git stash
+		
 			In general using the stash command should be the exception in
 			using
 			Git. Typically, you would create new branches for new features
@@ -38,10 +38,10 @@
 			Git repository and use interactive rebase to combine these
 			commits
 			later before pushing them to another Git repository.
-		</para>
-		<para>
+		
+		
 			Even if you prefer not to use branches, you can avoid using the
-			<code>git stash</code>
+			`git stash`
 			command. In this case
 			you commit the changes you want to put aside
 			and
@@ -53,6 +53,6 @@
 			mark it as a draft, e.g., "[DRAFT] implement
 			feature
 			x".
-		</para>
+		
 	</section>
 </section>

@@ -24,7 +24,7 @@
 		
 		
 			The configuration can be tested by typing in
-			<parameter>gradle</parameter>
+			`gradle`
 			into the command line.
 		
 	</section>
@@ -36,9 +36,9 @@
 			virtual machine for every build. To configure that
 			create a file
 			called
-			<filename>gradle.properties</filename>
+			_gradle.properties_
 			in the
-			<filename>${HOME}/.gradle</filename>
+			_${HOME}/.gradle_
 			and add the following line to it.gradle.properties
 		
 		
@@ -50,7 +50,7 @@
 
 		
 			You can also place the
-			<filename>gradle.properties</filename>
+			_gradle.properties_
 			file to the root
 			directory of your project and commit it to your
 			version control system.
@@ -60,14 +60,14 @@
 		
 		
 			Executing gradle with the
-			<parameter>--daemon</parameter>
+			`--daemon`
 			parameter
 			on the command line
 			starts the gradle daemon.
 		
 		
 			To stop the daemon interactively use the
-			<code>gradle --stop</code>
+			`gradle --stop`
 			command.
 		
 	</section>
@@ -86,7 +86,7 @@
 			space. Therefore it makes sense to increase it for Gradle.
 		
 		
-			<code>export GRADLE_OPTS=-Xmx1024m</code>
+			`export GRADLE_OPTS=-Xmx1024m`
 			defines that Gradle can use 1 GB as maximum heap size.
 		
 		On Windows OS environment variables are usually defined via the
@@ -98,7 +98,7 @@
 		
 			If you are using Git as version control system, you can use the
 			following
-			<filename>.gitignore</filename>
+			_.gitignore_
 			file as template for a Gradle project.
 		
 		

@@ -17,7 +17,7 @@
 			</mediaobject>
 		
 		
-			<wordasword>Gradle</wordasword>
+			_Gradle_
 			is an advanced general purpose build management system based
 			on
 			Groovy.
@@ -40,9 +40,9 @@
 		
 		
 			Gradle has the notion of
-			<wordasword>projects</wordasword>
+			_projects_
 			and
-			<wordasword>tasks</wordasword>
+			_tasks_
 			.
 		
 
@@ -71,11 +71,11 @@
 		
 			A
 			project using Gradle describes its build via a
-			<filename>build.gradle</filename>
+			_build.gradle_
 			file. This file is located
 			in the root folder of the project.
 			The build file for Gradle builds is based on a
-			<wordasword>Domain Specific Language</wordasword>
+			_Domain Specific Language_
 			(DSL) written in Groovy. In this file you can use a combination of
 			declarative and
 			imperative statements, as
@@ -102,7 +102,7 @@
 		This
 			build file can also be simplified <![CDATA[<<]]>
 			can be used as shortcut to define the
-			<code>doLast</code>
+			`doLast`
 			statement.
 		
 		
@@ -112,11 +112,11 @@
 		
 		
 			To execute the
-			<parameter>hello</parameter>
+			`hello`
 			task in this build file, type
-			<parameter>gradle hello</parameter>
+			`gradle hello`
 			on the command line in the directory of the build file. If the Gradle output should be suppressed, use the
-			<parameter>-q</parameter>
+			`-q`
 			(quite)
 			parameter.
 		
@@ -145,7 +145,7 @@
 		
 			By default, Gradle uses the directory name as project name. You can
 			change this by creating a
-			<filename>settings.gradle</filename>
+			_settings.gradle_
 			file in the directory which specifies the project name.
 		
 		
@@ -156,7 +156,7 @@
 
 		
 			You can also add a description to your project via the
-			<filename>build.gradle</filename>
+			_build.gradle_
 			file.
 		
 		
@@ -166,7 +166,7 @@
 		
 		
 			Use the
-			<code>gradle project</code>
+			`gradle project`
 			command to get information about your project. The following listing
 			shows the output.
 		

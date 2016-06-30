@@ -15,7 +15,7 @@
 		<title>Using the maven-publish plugin
 		
 			The most common way is to use the
-			<code>maven-publish</code>
+			`maven-publish`
 			plugin, which is provides by Gradle by default.
 		
 		
@@ -26,9 +26,9 @@
 		
 		
 			There are several publish options, when the
-			<code>java</code>
+			`java`
 			and the
-			<code>maven-publish</code>
+			`maven-publish`
 			plugin is applied.
 		
 		

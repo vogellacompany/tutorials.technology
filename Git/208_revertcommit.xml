@@ -1,30 +1,30 @@
 <section id="revertcommit" role="wrapper">
-	<title>Revert commits</title>
+	<title>Revert commits
 
 	<section id="undochanges_revertcommit1">
-		<title>Reverting a commit</title>
+		<title>Reverting a commit
 		
 			LARSPRIMARYINDEX"git revert"LARSPRIMARYINDEX
 		
-		<para>
+		
 			You can revert commits via the
-			<code>git revert</code>
+			`git revert`
 			command.
 			This command
 			reverts the changes of a commit.
-		</para>
-		<para> Such commits are useful to
+		
+		 Such commits are useful to
 			document that a change was withdrawn.
-		</para>
+		
 	</section>
 
 	<section id="undochanges_revertcommit2">
-		<title>Example: Reverting a commit</title>
-		<para>
+		<title>Example: Reverting a commit
+		
 			The following command demonstrates the usage of the
-			<code>git revert</code>
+			`git revert`
 			command.
-		</para>
+		
 		[source,terminal]
 ----
 include::./examples/commandline/git_revert_commit[]

@@ -27,7 +27,7 @@
 		
 		
 			Change your main
-			<filename>build.gradle</filename>
+			_build.gradle_
 			build file to the following.
 		
 
@@ -38,10 +38,10 @@
 		
 		
 			Create a file
-			<filename>vogella.properties</filename>
+			_vogella.properties_
 		
 		in the
-		<filename>META-INF/gradle-plugins</filename>
+		_META-INF/gradle-plugins_
 		folder. The name of the properties file defines your plugin name and its content points to the class which implements
 		the plugin.
 		
@@ -52,7 +52,7 @@
 
 		
 			In the
-			<filename>plugin/src/main/java</filename>
+			_plugin/src/main/java_
 			folder create the following two classes.
 		
 		
@@ -67,7 +67,7 @@
 		
 		
 			In your
-			<filename>plugin</filename>
+			_plugin_
 			folder, create the following build.gradle file.
 		
 		
@@ -77,9 +77,9 @@
 		
 		
 			In your
-			<filename>plugin</filename>
+			_plugin_
 			folder, create the following
-			<filename>settings.gradle</filename>
+			_settings.gradle_
 			file.
 		
 		

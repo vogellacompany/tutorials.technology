@@ -36,16 +36,16 @@
 		
 		
 			To start the build, type
-			<code>gradle build</code>
+			`gradle build`
 			on the command line.
 		
 		
-			<parameter>SourceSets</parameter>
+			`SourceSets`
 			can be used to specify a different project structure, e.g., the
 			sources are stored in a
-			<filename>src</filename>
+			_src_
 			folder rather than in
-			<filename>src/main/java</filename>
+			_src/main/java_
 			.
 		
 		
@@ -60,23 +60,23 @@
 		
 			Gradle does not yet support multiple project templates (called archetypes) like Maven. But it offers
 			an
-			<parameter>init</parameter>
+			`init`
 			task create the structure of a new Gradle project. Without additional parameters, this task
 			creates a Gradle project,
 			which contains the
 			gradle wrapper files, a
-			<filename>build.gradle</filename>
+			_build.gradle_
 			and
-			<filename>settings.gradle</filename>
+			_settings.gradle_
 			file.
 		
 		
 			When adding the
-			<parameter>--type</parameter>
+			`--type`
 			parameter with
-			<parameter>'java-library'</parameter>
+			`'java-library'`
 			as value, a java project structure is created and the
-			<filename>build.gradle</filename>
+			_build.gradle_
 			file contains a certain Java template with JUnit.
 		
 		
@@ -88,7 +88,7 @@
 		
 		
 			The
-			<filename>build.gradle</filename>
+			_build.gradle_
 			file will look similar to this:
 		
 		
@@ -112,11 +112,11 @@
 		
 			Usually a Java project has a version and a target JRE on which it is compiled.
 			The
-			<parameter>version</parameter>
+			`version`
 			and
-			<parameter>sourceCompatibility</parameter>
+			`sourceCompatibility`
 			property can be set in the
-			<filename>build.gradle</filename>
+			_build.gradle_
 			file.
 		
 		
@@ -127,15 +127,15 @@
 		
 		
 			When the
-			<parameter>version</parameter>
+			`version`
 			property is set, the name of the resulting artifact will be changed
 			accordingly, e.g.,
-			<filename>{my-lib-name}-0.1.0.jar</filename>
+			_{my-lib-name}-0.1.0.jar_
 			.
 		
 		
 			If the artifact is an executable java application the
-			<filename>MANIFEST.MF</filename>
+			_MANIFEST.MF_
 			file must be aware of the class with the main method.
 		
 		

@@ -30,14 +30,14 @@
 	
 	
 		A plug-in is included in a
-		<filename>build.gradle</filename>
+		_build.gradle_
 		file with the
-		<code>apply plugin: 'pluginname'</code>
+		`apply plugin: 'pluginname'`
 		statement.
 	
 	
 		For example the entry
-		<code>apply plugin: 'com.android.application'</code>
+		`apply plugin: 'com.android.application'`
 		makes the Android plug-in available for a Gradle build.
 	
 	

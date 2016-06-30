@@ -1,20 +1,20 @@
 <section id="git_blame_example">
-	<title>Example: git blame</title>
-	<para>
+	<title>Example: git blame
+	
 		The following code snippet demonstrates the usage of the
-		<code>git blame</code>
+		`git blame`
 		command.
-	</para>
+	
 
 	[source,terminal]
 ----
 include::./examples/changes/blame.txt[]
 ----
-	<para>
+	
 		The
-		<code>git blame</code>
+		`git blame`
 		command can also ignore whitespace changes with the
-		<parameter>-w</parameter> parameter.
-	</para>
+		`-w` parameter.
+	
 
 </section>

@@ -1,65 +1,65 @@
 <section id="undochanges_checkoutcommits" role="wrapper">
-	<title>Resetting the working tree based on a commit</title>
+	<title>Resetting the working tree based on a commit
 	<section id="undochanges_checkoutcommits1">
-		<title>Checkout based on commits and working tree</title>
+		<title>Checkout based on commits and working tree
 		
 			LARSPRIMARYINDEX"git checkout"LARSPRIMARYINDEX
 			LARSSECONDARY"based on commit ID"LARSSECONDARY
 		
-		<para>
+		
 			You can check out older revisions of your file system via the git
 			checkout command followed by the
 			commit
 			ID. This command will reset
 			your
 			complete
-			<wordasword>working tree</wordasword>
+			_working tree_
 			to the status described by this commit.
-		</para>
+		
 
-		<para>
+		
 			The
 			commit ID is shown if you enter the
-			<code>git log</code>
+			`git log`
 			command.
-		</para>
+		
 
-		<para>The following command shows the log.</para>
+		The following command shows the log.
 		[source,terminal]
 ----
 include::./examples/commandline/git_checkout1[]
 ----
-		<para>
+		
 			The following listing shows an example output of a Git log
 			command.
-		</para>
+		
 		[source,terminal]
 ----
 include::./examples/commandline/git_checkout2[]
 ----
 	</section>
 	<section id="undochanges_checkoutcommits2">
-		<title>Example: Checkout a commit</title>
-		<para>
+		<title>Example: Checkout a commit
+		
 			To checkout a specific commit you can use the following command.
-		</para>
+		
 		[source,terminal]
 ----
 include::./examples/commandline/git_checkout3[]
 ----
 		<warning>
-			<para>
+			
 				If you checkout a commit, you are in the
-				<wordasword>detached head mode</wordasword>
+				_detached head mode_
 				and commits in this mode are harder to find after you checkout
 				another
 				branch. Before committing it is good practice to create a new
 				branch to leave the
-				<wordasword>detached head mode</wordasword>
+				_detached head mode_
 				. See
 				<xref linkend="detachedheadmode" />
 				for details.
-			</para>
+			
 		</warning>
 	</section>
 </section>

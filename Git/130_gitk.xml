@@ -1,17 +1,17 @@
 <section id="gitk">
-	<title>Commit history of a repository or certain files</title>
-	<para>
-		<ulink url="http://git-scm.com/docs/gitk">Gitk</ulink> can be used to visualize the history of a repository of certain files.</para>
-	<para> In some cases simply using <code>git blame</code> is not sufficient in order to see all
+	<title>Commit history of a repository or certain files
+	
+		<ulink url="http://git-scm.com/docs/gitk">Gitk</ulink> can be used to visualize the history of a repository of certain files.
+	 In some cases simply using `git blame` is not sufficient in order to see all
 		details of certain changes. Therefore you can for exmaple navigate to the filelocation in
-		the target git repository and use the <code>gitk [filename]</code> command to see all
-		commits of a file in a clear UI.</para>
-    <para>In this screenshot we can see all commits of the
-		<filename>ShowViewHandler.java</filename> by using the <code>gitk ShowViewHandler.java</code> command:</para>
+		the target git repository and use the `gitk [filename]` command to see all
+		commits of a file in a clear UI.
+    In this screenshot we can see all commits of the
+		_ShowViewHandler.java_ by using the `gitk ShowViewHandler.java` command:
 	
 image::img/gitk_showviewhandler.png[gitk command for the ShowViewHandler]
 LARSLINEBREAK
-	<para>On linux you can easily install gitk by using the <code>sudo apt-get install gitk</code> command in a terminal.</para>
-	<para>See <ulink url="http://git-scm.com/docs/gitk">http://git-scm.com/docs/gitk</ulink> for
-		further information.</para>
+	On linux you can easily install gitk by using the `sudo apt-get install gitk` command in a terminal.
+	See <ulink url="http://git-scm.com/docs/gitk">http://git-scm.com/docs/gitk</ulink> for
+		further information.
 </section>

@@ -28,7 +28,7 @@ If you start it locally, you find it running under the following URL: <ulink url
 		
 To run it in your Tomcat server, put the .WAR file
 into the
-<filename>webapps</filename>
+_webapps_
 directory. If you start
 Tomcat, your Jenkins installation will be
 available under
@@ -38,7 +38,7 @@ available under
 ====	
 	
 If the jenkins.war is deployed in your
-<filename>webapps</filename>
+_webapps_
 directory,
 but cannot be started and the tomcat manager says
 <quote>﻿FAIL - Application at

@@ -1,7 +1,7 @@
 
 <project name="de.vogella.build" default="build">
 	<!--sets the path of the properties file-->
-	<property file=<filename>build.properties</filename> />
+	<property file=_build.properties_ />
 
 	<!--
 		This target actually executes the PDE Build process by launching the 

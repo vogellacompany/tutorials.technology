@@ -10,10 +10,10 @@
 		
 			Gradle has the concept of a root project, which can have many sub
 			projects. The root project is specified by a
-			<filename>build.gradle</filename>
+			_build.gradle_
 			file, like the single projects before. To specify, which projects
 			belong to the build a
-			<filename>settings.gradle</filename>
+			_settings.gradle_
 			file is used.
 		
 		
@@ -41,7 +41,7 @@
 		
 		
 			Having this project structure the
-			<filename>settings.gradle</filename>
+			_settings.gradle_
 			file would look like this:
 		
 		
@@ -52,11 +52,11 @@
 		
 		
 			Besides the
-			<parameter>tasks</parameter>
+			`tasks`
 			task Gradle also provides a
-			<parameter>projects</parameter>
+			`projects`
 			help task, which can be run in the
-			<filename>root_project</filename>
+			_root_project_
 			folder.
 		
 		
@@ -77,7 +77,7 @@
 		<title>Specifying a general build configuration
 		
 			In a
-			<filename>build.gradle</filename>
+			_build.gradle_
 			file in the root_project general configurations can be applied to all
 			projects or just to the sub projects.
 		
@@ -88,17 +88,17 @@
 		
 		
 			This specifies a common
-			<parameter>com.example.gradle</parameter>
+			`com.example.gradle`
 			group and the
-			<parameter>0.1.0</parameter>
+			`0.1.0`
 			version to all projects.
 		
 		
 			The
-			<parameter>subprojects</parameter>
+			`subprojects`
 			closure applies common configurations for all sub projects, but not
 			to the root project, like the
-			<parameter>allprojects</parameter>
+			`allprojects`
 			closure does.
 		
 	</section>
@@ -106,20 +106,20 @@
 		<title>Project specific configurations and dependencies
 		
 			The
-			<parameter>core</parameter>
+			`core`
 			,
-			<parameter>ui</parameter>
+			`ui`
 			and
-			<parameter>util</parameter>
+			`util`
 			sub projects can also have their own
-			<filename>build.gradle</filename>
+			_build.gradle_
 			file, if they have specific needs, which are not already applied by
 			the general configuration of the root project.
 		
 		
 			For instance the ui project usually has a dependency to the core
 			project. So the ui project needs its own
-			<filename>build.gradle</filename>
+			_build.gradle_
 			file to specify this dependency.
 		
 		
@@ -134,11 +134,11 @@
 			<note>
 				
 					The
-					<parameter>':'</parameter>
+					`':'`
 					before the core project reference is Gradle specific and acts
 					pretty much like
 					a slash (
-					<parameter>'/'</parameter>
+					`'/'`
 					), when referencing a folder structure.
 				
 			</note>

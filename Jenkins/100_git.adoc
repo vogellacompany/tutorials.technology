@@ -16,7 +16,7 @@ To clone a Git repostory via Jenkins you need to enter the email
 and
 user name for your Jenkins system. For this switch into your job
 directory and run the
-<code>git config</code>
+`git config`
 command.
 	
 	

@@ -1,22 +1,22 @@
 <section id="cherrypick_definition">
-	<title>Applying a single commit</title>
+	<title>Applying a single commit
 	
 		LARSPRIMARYINDEX"git cherry-pick"LARSPRIMARYINDEX
 	
-	<para>
+	
 		The
-		<code>git cherry-pick</code>
+		`git cherry-pick`
 		command allows you to select the patch which was introduced with an
 		individual commit and apply this patch on another branch. The patch
 		is
 		captured as a new commit on the other branch.
-	</para>
-	<para>
+	
+	
 		This way you can select individual changes from one branch and
 		transfer them to another branch.
-	</para>
+	
 	<note>
-		<para>
+		
 			The new commit does not point back to its original commit so
 			do
 			not use
@@ -31,6 +31,6 @@
 			development branch
 			into
 			maintenance branches.
-		</para>
+		
 	</note>
 </section>

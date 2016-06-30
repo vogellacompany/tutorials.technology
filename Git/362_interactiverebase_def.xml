@@ -1,5 +1,5 @@
 <section id="interactive_rebase">
-	<title>Editing history with the interactive rebase</title>
+	<title>Editing history with the interactive rebase
 	
 		LARSPRIMARYINDEX"git rebase"LARSPRIMARYINDEX
 		LARSSECONDARY"interactive"LARSSECONDARY
@@ -11,18 +11,18 @@
 	
 		LARSPRIMARYINDEX"Interactive rebase"LARSPRIMARYINDEX
 	
-	<para>
+	
 		Git allows you to edit your commit history with a functionality called
-		<code>interactive rebase</code>
+		`interactive rebase`
 		. For example, you can
 		combine several commits into
 		one commit,
 		reorder
 		or skip commits and
 		edit the commit message.
-	</para>
+	
 
-	<para>
+	
 		This is
 		useful as it allows
 		the user to rewrite
@@ -34,15 +34,15 @@
 		to a
 		remote
 		repository.
-	</para>
+	
 
-	<para>
+	
 		Interactive rebase allows you to quickly edit a series of commits
 		using
 		the following actions:
 
 		<table frame='all'>
-			<title>Interactive rebase actions</title>
+			<title>Interactive rebase actions
 			<tgroup cols='2' align='left' colsep='1' rowsep='1'>
 				<colspec colname='c1' colwidth="1*" />
 				<colspec colname='c2' colwidth="3*" />
@@ -91,15 +91,15 @@
 			</tgroup>
 		</table>
 
-	</para>
-	<para>
+	
+	
 		The setup for the rebase is called the
-		<wordasword>rebase plan</wordasword>
+		_rebase plan_
 		. Based on this plan, the actual interactive rebase can be executed.
-	</para>
+	
 
 	<warning>
-		<para>
+		
 			It is
 			safe
 			to use interactive rebase as long as the commits have
@@ -107,7 +107,7 @@
 			repository. As the interactive rebase
 			creates new commit objects, other developers might be confused if you
 			rebase already published changes.
-		</para>
+		
 	</warning>
 
 </section>

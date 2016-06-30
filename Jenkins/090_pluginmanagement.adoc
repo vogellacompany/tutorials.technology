@@ -152,7 +152,7 @@ This plugin allows to build Github Pull Requests
 === Restart your Jenkins
 
 		
-You can manually restart Jenkins by adding <parameter>restart</parameter> as URL parameter.
+You can manually restart Jenkins by adding `restart` as URL parameter.
 		
 <mediaobject>
 	<imageobject>

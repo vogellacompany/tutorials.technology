@@ -1,8 +1,8 @@
 <section id="line_feedendings" role="wrapper">
-	<title>Handling line endings on different platforms</title>
+	<title>Handling line endings on different platforms
 
 	<section id="line_feedendings_platform">
-		<title>Line endings of the different platforms</title>
+		<title>Line endings of the different platforms
 
 		
 			LARSPRIMARYINDEX"line endings"LARSPRIMARYINDEX
@@ -11,43 +11,43 @@
 			LARSPRIMARYINDEX"linefeed characters"LARSPRIMARYINDEX
 		
 
-		<para>Every time a developer presses return on the keyboard an
+		Every time a developer presses return on the keyboard an
 			invisible character called a line ending is inserted. Unfortunately,
 			different
 			operating systems handle line endings differently.
-		</para>
-		<para>Linux and Mac use different line endings than Windows. Windows
+		
+		Linux and Mac use different line endings than Windows. Windows
 			uses a carriage-return and a linefeed character (CRLF), while Linux
 			and Mac
 			only uses a linefeed character (LF). This becomes a problem if
 			developers use different operating system to commit changes to a Git
 			repository.
-		</para>
-		<para>To avoid commits because of line ending differences in your Git
+		
+		To avoid commits because of line ending differences in your Git
 			repository you should configure all clients to write the same line
 			ending to the Git repository.
-		</para>
+		
 
 	</section>
 
 	<section id="line_feedendings_convert">
-		<title>Configuring line ending settings as developer</title>
-		<para>On Windows systems you can tell Git to convert line endings
+		<title>Configuring line ending settings as developer
+		On Windows systems you can tell Git to convert line endings
 			during a checkout
 			to CRLF and to convert them back to LF during
 			commit.
 			Use the
 			following setting for this.
-		</para>
+		
 
 		[source,terminal]
 ----
 include::./examples/linefeed/windows.txt[]
 ----
 
-		<para>On Linux and Mac you can tell Git to convert CRLF  to
+		On Linux and Mac you can tell Git to convert CRLF  to
 			LF with the following setting. 
-		</para>
+		
 		[source,terminal]
 ----
 include::./examples/linefeed/linux.txt[]
@@ -56,33 +56,33 @@ include::./examples/linefeed/linux.txt[]
 	</section>
 
 	<section id="line_feedendings_gitattributes">
-		<title>Configuring line ending settings per repository</title>
+		<title>Configuring line ending settings per repository
 		
 			LARSPRIMARYINDEX".gitattributes
 			"LARSPRIMARYINDEX
 			LARSSECONDARY""LARSSECONDARY
 		
-		<para>
+		
 			You can also configure the line ending handling per repository
 			by
 			adding a special
-			<filename>.gitattributes</filename>
+			_.gitattributes_
 			file to the root folder of your Git repository. If this file is
 			committed to the repository, it overrides the
-			<code>core.autocrlf</code>
+			`core.autocrlf`
 			setting of the individual developer.
-		</para>
-		<para>In this file you can configure Git to auto detect the line
+		
+		In this file you can configure Git to auto detect the line
 			endings.
-		</para>
+		
 		<note>
-			<para>
+			
 				Not all graphical Git tools support the
-				<filename>.gitattributes</filename>
+				_.gitattributes_
 				file, for example the Eclipse IDE does currently not support it. See
 				<ulink url="https://bugs.eclipse.org/bugs/show_bug.cgi?id=342372">Eclipse Bug report</ulink>
 				.
-			</para>
+			
 		</note>
 	</section>
 

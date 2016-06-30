@@ -1,15 +1,15 @@
 <section id="gitdiffchapter" role="wrapper">
-	<title>Viewing changes with git diff and git show</title>
+	<title>Viewing changes with git diff and git show
 
 	<section id="analyzechanges_showcommitchanges">
-		<title>See the differences introduced by a commit</title>
+		<title>See the differences introduced by a commit
 		
 			LARSPRIMARYINDEX"git diff"LARSPRIMARYINDEX
 			LARSSECONDARY"changes by a commits"LARSSECONDARY
 		
-		<para>To see the changes introduced by a commit use the following
+		To see the changes introduced by a commit use the following
 			command.
-		</para>
+		
 		[source,terminal]
 ----
 include::./examples/changes/diff.txt[]
@@ -18,19 +18,19 @@ include::./examples/changes/diff.txt[]
 	</section>
 
 	<section id="gitdiff_comparetwocommits">
-		<title>See the difference between two commits</title>
+		<title>See the difference between two commits
 		
 			LARSPRIMARYINDEX"git diff"LARSPRIMARYINDEX
 			LARSSECONDARY"changes between two commits"LARSSECONDARY
 		
-		<para>
+		
 			To see the differences introduced between two commits you use the
-			<code>git diff</code>
+			`git diff`
 			command specifying the commits. For example, the
 			following command
 			shows the differences introduced in the last
 			commit.
-		</para>
+		
 		[source,terminal]
 ----
 include::./examples/diff/diff_commits.txt[]
@@ -38,19 +38,19 @@ include::./examples/diff/diff_commits.txt[]
 	</section>
 
 	<section id="analyzechanges_file">
-		<title>See the files changed by a commit</title>
+		<title>See the files changed by a commit
 		
 			LARSPRIMARYINDEX"git diff"LARSPRIMARYINDEX
 			LARSSECONDARY"changes in a specific file"LARSSECONDARY
 		
-		<para>
+		
 			To see the files which have been changed in a commit use the
-			<code>git diff-tree</code>
+			`git diff-tree`
 			command. The
-			<parameter>name-only
-			</parameter>
+			`name-only
+			`
 			tells the command to show only the names of the files.
-		</para>
+		
 
 		[source,terminal]
 ----

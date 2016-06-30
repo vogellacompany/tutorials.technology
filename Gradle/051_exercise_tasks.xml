@@ -21,7 +21,7 @@
 		<title>Using the help task
 		
 			The target of this exercise is to make use of the
-			<code>help</code>
+			`help`
 			task to get more information about other tasks, e.g., the init task.
 		
 		
