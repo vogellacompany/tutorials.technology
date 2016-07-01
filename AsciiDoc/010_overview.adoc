@@ -437,7 +437,8 @@ For example:
 We can add comments to the Asciidoc markup. 
 The comments are not added to the generated output. 
 You can use both single and multiline comments. 
-Single line comments start with a double slash (//). Multiline comments are enclosed in a block of four forward slashes (////).
+Single line comments start with a double slash (//). 
+Multiline comments are enclosed in a block of four forward slashes (////).
 
 
 === Custom attributes / variables
