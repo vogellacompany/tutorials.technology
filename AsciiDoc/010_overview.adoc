@@ -442,10 +442,9 @@ Single line comments start with a double slash (//). Multiline comments are encl
 
 === Custom attributes / variables
 
-You can define custom variables and use them in your document with \{youridentifier\}. For example the following defines
-the variable `contentidentifier` which can be used with \{contentidentifier\} and Asciidoctor will replace 
-it with the value defined after the second :.
+You can define custom variables and use them in your document. 
+For example the following defines the variable `yourvariable` which can be used with \{yourvariable\} and Asciidoctor will replace it with the value defined after the second :.
 
 -----
-:contentidentifier: description
+:yourvariable: vogella
 -----
