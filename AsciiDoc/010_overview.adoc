@@ -420,7 +420,8 @@ Supported types are java, xml, terminal
 
 === Escape special signs
 
-If you need to escape Asciidoc commands, you can use \\{qwe} or \+++{qwe}\+++.
+If you need to escape Asciidoc commands, you can use `\` before the character that would normally be interpreted by Asciidoc.
+To write for example `|` you would need to write it like this: `\|`.
 
 === Index
 
