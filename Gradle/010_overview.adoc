@@ -99,11 +99,7 @@
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/starter/build_hello.gradle" />
 			</programlisting>
 		
-		This
-			build file can also be simplified <![CDATA[<<]]>
-			can be used as shortcut to define the
-			`doLast`
-			statement.
+This build file can also be simplified << can be used as shortcut to define the `doLast` statement.
 		
 		
 			<programlisting language="gradle">

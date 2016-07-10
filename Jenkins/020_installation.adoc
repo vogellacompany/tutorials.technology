@@ -47,7 +47,7 @@ but cannot be started and the tomcat manager says
 </quote>
 , you may need to grant
 the permissons for
-<property>﻿JENKINS_HOME</property>
+`﻿JENKINS_HOME`
 .
 	
 	

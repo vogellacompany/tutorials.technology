@@ -41,7 +41,7 @@
 			folder, e.g.,
 			_C:\Program Files\gradle-2.13_
 			to your
-			<property>PATH</property>
+			`PATH`
 			environment variable.
 		
 		By pressing Win + Pause the systen settings can be opened.
@@ -58,11 +58,11 @@
 		
 		
 			First the
-			<guilabel>Advanced System Settings</guilabel>
+			_Advanced System Settings_
 			have to be selected and
 			then
 			the
-			<guilabel>Environment Variables</guilabel>
+			_Environment Variables_
 			button needs to be pressed.
 		
 		
@@ -78,13 +78,13 @@
 		
 		
 			In the
-			<guilabel>Environment Variables</guilabel>
+			_Environment Variables_
 			dialog the (1) GRADLE_HOME and
 			JAVA_HOME user variables should be set.
 			After that the (2) Path entry in the
-			<guilabel>system variables</guilabel>
+			_system variables_
 			is selected, the
-			<guilabel>modify</guilabel>
+			_modify_
 			button can be pressed to add the
 			_bin_
 			folder of the Gradle installation to the Path.

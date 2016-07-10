@@ -81,7 +81,7 @@
 			Tasks without a group are considered as private tasks.
 			For instance
 			the
-			<guilabel>Gradle Task View</guilabel>
+			_Gradle Task View_
 			of the Eclipse Gradle Plug-in hides these private tasks by
 			default,
 			but they can be shown by activating the right
