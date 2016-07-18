@@ -34,7 +34,7 @@ include::./examples/remotebranch/delete.txt[]
 
 
 [[gitremotebranch_deleteremote]]
-=== Delete a branch in a remote repository
+=== Delete a remote branch
 
 (((Remote tracking branch, delete in remote repository)))
 
@@ -42,33 +42,8 @@ To delete the branch in a remote repository use the following command.
 
 [source,terminal]
 ----
-include::./examples/remotebranch/deleteremotebranch2.txt[]
-----
-
-Alternatively you can also use the following command.
-
-[source,terminal]
-----
 include::./examples/remotebranch/deleteremotebranch.txt[]
 ----
-
-For example if you want to delete the branch called _testbranch_ in the remote repository called _origin_ you can use the following command.
-
-[source,terminal]
-----
-include::./examples/remotebranch/deleteremotebranch3.txt[]
-----
-
-[NOTE]
-====
-You can also specify the remote repository's URL. So the 
-following command also works. 
-
-[source,terminal]
----- 
-include::./examples/remotebranch/deleteremotebranch4.txt[]
-----
-====
 
 [[git_trackingbranches]]
 == Tracking branches

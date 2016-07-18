@@ -1,8 +1,8 @@
 [[stash_example1]]
-= Using the Git stash command
+== Using the Git stash command
 
 [[stash_example]]
-== Example: Using the git stash command
+=== Example: Using the git stash command
 
 The following commands will save a stash and reapply them after some changes.
 
@@ -19,7 +19,7 @@ include::./examples/stash/stash2.txt[]
 ----
  
 [[stash_branchexample]]
-== Create a branch from a stash 
+=== Create a branch from a stash 
 
 (((Branch from stash)))
 

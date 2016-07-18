@@ -1,2 +1,0 @@
-# delete branch in a remote repository
-git push [remote] :branch
