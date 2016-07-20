@@ -42,7 +42,7 @@ automatically the double hyphens can be avoided.
 [source,terminal]
 ----
 # seeing the git log for the HEAD file
-git log --HEAD
+git log -- HEAD
 
 # seeing the git log for the HEAD reference
 git log HEAD --
