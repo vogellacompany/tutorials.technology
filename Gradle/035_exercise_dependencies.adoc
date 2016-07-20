@@ -1,0 +1,20 @@
+<section id="exercise_dependencymanagement">
+	<title>Exercise: Dependency management
+	
+		The target of this exercise is to analyze the dependencies of the
+		previously created groovy project.
+	
+	
+		<programlisting language="gradle">
+			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+				parse="text" href="./examples/dependencies/dependency_task_command_line.txt" />
+		</programlisting>
+	
+	This command will result in the following output:
+	
+		<mediaobject>
+			<imageobject>
+				<imagedata fileref="images/exercise_dep_mgmt.png" />
+			</imageobject>
+		</mediaobject>
+	
