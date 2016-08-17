@@ -1,0 +1,3 @@
+# connect as root to MySQL server
+mysql -u root -p
+

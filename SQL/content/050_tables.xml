@@ -1,0 +1,37 @@
+<section id="user">
+	<title>Table</title>
+	<para> The following demonstrates how to create and drop (deletes)
+		tables. </para>
+	<table frame='all'>
+		<title>Tables</title>
+		<tgroup cols='2' align='left' colsep='1' rowsep='1'>
+			<colspec colname='c1' />
+			<colspec colname='c2' />
+			<thead>
+				<row>
+					<entry>Command</entry>
+					<entry>Description</entry>
+				</row>
+			</thead>
+			<tbody>
+				<row>
+					<entry> CREATE TABLE TEST (id INT NOT NULL AUTO_INCREMENT,
+						MYTEST
+						VARCHAR(30) NOT NULL, PRIMARY KEY (ID) );
+					</entry>
+					<entry> Creates a table TEST with two columns (id, mytest), both
+						are not allowed to be NULL, id is the primary key.</entry>
+				</row>
+				<row>
+					<entry> CREATE TABLE COMMENTS ( id INT NOT NULL AUTO_INCREMENT,
+						MYUSER VARCHAR(30) NOT NULL, EMAIL VARCHAR(30), WEBPAGE
+						VARCHAR(100) NOT NULL, DATUM DATE NOT NULL, SUMMARY VARCHAR(40)
+						NOT NULL, COMMENTS VARCHAR(400) NOT NULL, PRIMARY KEY (ID) );
+					</entry>
+					<entry> Creates a table with the listed columns.</entry>
+				</row> 
+
+			</tbody>
+		</tgroup>
+	</table>
+</section>

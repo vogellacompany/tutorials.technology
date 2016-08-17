@@ -1,0 +1,17 @@
+<section id="nexus_repository_overview">
+	<title>Nexus Repository Manager</title>
+	<section>
+		<title>What is a Repository Manager</title>
+		<para>An repository manager allows to store and retrieve build artifacts. The most popular examples for repository manager are <ulink
+				url="http://search.maven.org/">Maven Central Repository</ulink> and <ulink url="https://bintray.com/bintray/jcenter">jcenter at Bintray</ulink>,  which you can use to 
+				retrieve your dependencies for a Maven build.</para>
+		</section>
+		<section>
+        <title>What is Nexus?</title>
+		<para>A Nexus installation brings you such a repository for your company. So you can host
+			your own repositories, but also use Nexus as a proxy for public repositories. With such
+			a proxy the time to receive an artifact is reduced and it saves ﻿bandwidth. Nexus allows you to host your private build artifacts.</para>
+		<para>Nexus is avaialable as commercial and Open Source distribution. </para>
+	</section>
+
+</section>

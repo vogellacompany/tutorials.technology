@@ -1,0 +1,27 @@
+<section id="nexus_repository_create_repo">
+	<title>Creating a repository</title>
+	<para>We want to have a separate repository for our p2 artifacts.</para>
+	<para>This can be created like this:</para>
+	<para>
+		<itemizedlist>
+			<listitem>
+				<para>Login to the nexus (http://localhost:8081/nexus/) with User
+						<parameter>admin</parameter> and password
+					<parameter>admin123</parameter>.</para>
+			</listitem>
+			<listitem>
+				<para>Click on Repositories on the right hand side.</para>
+			</listitem>
+			<listitem>
+				<para>Select <guilabel>Add...</guilabel> > <guilabel>Hosted Repository</guilabel>
+					and use the following data:<mediaobject>
+						<imageobject>
+							<imagedata fileref="images/new_nexus_repository.png"/>
+						</imageobject>
+					</mediaobject></para>
+			</listitem>
+		</itemizedlist>
+	</para>
+	<para>Now you got a custom repository, which is hosted on your local nexus installation.</para>
+	
+</section>

@@ -1,0 +1,32 @@
+<section id="read">
+	<title>Read RSS Feeds with Stax</title>
+	<section id="read_stax">
+		<title>Create the XML Reader class</title>
+		<para>Create the following
+			class to read the XML file.
+		</para>
+		<para>
+			<programlisting>
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="../examples/read/RSSFeedParser.java" />
+			</programlisting>
+		</para>
+	</section>
+
+	<section id="read_test">
+		<title>Test the code</title>
+		<para>
+			The following uses a main method to test. You could also use
+			<ulink url="http://www.vogella.com/tutorials/JUnit/article.html"> JUnit</ulink>
+			.
+		</para>
+
+		<para>
+			<programlisting>
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="../examples/read/ReadTest.java" />
+			</programlisting>
+		</para>
+	</section>
+
+</section>

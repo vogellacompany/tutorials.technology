@@ -1,0 +1,2 @@
+# creates a dump of the database vogella_blog
+mysqldump vogella_blog > vogella_blog.sql -p

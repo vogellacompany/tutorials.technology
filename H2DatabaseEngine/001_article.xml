@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<article>
+	<articleinfo>
+		<title>H2 database engine - Tutorial</title>
+		<author>
+			<firstname>Lars</firstname>
+			<surname>Vogel</surname>
+		</author>
+		<copyright>
+			<year>2014</year>
+			<holder>vogella GmbH</holder>
+		</copyright>
+		<pubdate>04.12.2014</pubdate>
+		<releaseinfo>
+			<para>Version 0.1</para>
+		</releaseinfo>
+		
+		<abstract id="abstract">
+			<title>H2 database engine</title>
+			<para> This tutorial explains how to install H2 database engine.
+			</para>
+		</abstract>
+	</articleinfo>
+	<?dbhtml-include href="../../web/advertisement/afterTableOfContent"?>
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="010_overview.xml" />
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="020_installation.xml" />
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../10_Include/support.xml" />
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="resources.xml" />
+	<?dbhtml-include href="../../web/vgwort/H2DatabaseEngine"?>
+</article>

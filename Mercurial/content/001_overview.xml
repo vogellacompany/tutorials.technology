@@ -1,0 +1,57 @@
+<section id="overview">
+	<title>Overview</title>
+	<section id="overview_dvcs">
+		<title>Distributed Version control system</title>
+
+		<para> With a distributed version control system you basically do not
+			have a central code repository but everyone has its own branch. To
+			can
+			clone a branch and you always get the full history of the whole
+			branch
+			on your system. You commit into your own branch and you can
+			push your
+			changes to other repositories and other people can pull from
+			you.
+		</para>
+
+
+		<para>
+			The main advantages of distributed version control systems are
+
+			<itemizedlist>
+				<listitem><para>Speed: As the whole repository is offline available you can
+						much faster search and compare
+					</para>
+				</listitem>
+				<listitem>
+					<para>Commits: Everyone can commit to his own branch
+					</para>
+				</listitem>
+
+			</itemizedlist>
+		</para>
+		<para>
+			Another popular distributed version control systems is
+			<ulink url="http://www.vogella.com/tutorials/Git/article.html">Git</ulink>
+			.
+		</para>
+	</section>
+
+	<section id="overview_mercurial">
+		<title>Mercurial</title>
+		<para>
+			Mercurial is a distributed version control system. Mercurial is
+			used by Oracle for the OpenJDK development and offered as a option by
+			Google in Google
+			hosting.
+		</para>
+		<para>
+			Mercurial is written in Python. Mercurial has a command-line
+			interface.
+			<ulink url="http://www.vogella.com/tutorials/Eclipse/article.html">Eclipse</ulink>
+			provides also a
+		 plug-in to use Mercurial.
+		</para>
+	</section>
+
+</section>

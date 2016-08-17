@@ -1,0 +1,49 @@
+<section id="inkscapesteps">
+	<title>Steps in Inkscape</title>
+	<section id="inkscapesteps_createtransparentbackground">
+		<title>Create a png with transparent background with Inkscape</title>
+		<para>
+			To create a png file with transparent background use the
+			following
+			steps:
+			<itemizedlist>
+				<listitem>
+					<para>
+						Select
+						<menuchoice>
+							<guimenu>File</guimenu>
+							<guisubmenu>Document Properties</guisubmenu>
+						</menuchoice>
+						and select the background color. Set the
+						alpha channel
+						to 0.
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						Ensure that all other elements in the picture have also set
+						their
+						alpha channel to 0 via
+						<menuchoice>
+							<guimenu>Object</guimenu>
+							<guisubmenu>Fill and Stroke</guisubmenu>
+						</menuchoice>
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						Afterwards select
+						<menuchoice>
+							<guimenu>File</guimenu>
+							<guisubmenu>Export Bitmap</guisubmenu>
+						</menuchoice>
+						and save a file with a .png extension.
+					</para>
+				</listitem>
+			</itemizedlist>
+		</para>
+
+
+
+	</section>
+</section>

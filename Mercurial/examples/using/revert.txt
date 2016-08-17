@@ -1,0 +1,2 @@
+
+hg revert de.vogella.mercurial.firstproject/src/de/vogella/mercurial/firstproject/Test.java

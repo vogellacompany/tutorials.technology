@@ -1,0 +1,3 @@
+# vogella_blog.sql is your exported SQL file
+# use option -p to enter your password
+mysql vogella_blog < /var/www/vhosts/vogella.com/vogella_blog.sql -p

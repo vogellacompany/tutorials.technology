@@ -1,0 +1,26 @@
+<section id="installation">
+	<title>Installation</title>
+	<section id="installation_ubuntu">
+		<title>Installation on Ubuntu</title>
+		<para> Install Mercurial on Ubuntu via:</para>
+
+		<para>
+			<programlisting>
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="../examples/install/ubuntu.txt" />
+			</programlisting>
+		</para>
+		<para>
+			The installation of Mercurial for other platforms is described in 
+			<ulink url="http://www.selenic.com/mercurial/wiki/index.cgi/Mercurial">Mercurial installation</ulink>
+			.
+		</para>
+	</section>
+	<section id="installation_windows">
+		<title>Installation on Windows</title>
+		<para>
+			You find binary packages for Mercurial on Window on
+			<ulink url="http://mercurial.berkwood.com/"> Binary packages for Windows.</ulink>
+		</para>
+	</section>
+</section>

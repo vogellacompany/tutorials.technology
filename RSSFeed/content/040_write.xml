@@ -1,0 +1,33 @@
+<section id="write">
+	<title>Write RSS Feeds with Stax</title>
+	<section id="write_stax">
+		<title>Create writer</title>
+		<para>Create the following class to write the XML file.</para>
+		<para>
+			<programlisting>
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="../examples/write/RSSFeedWriter.java" />
+			</programlisting>
+		</para>
+	</section>
+
+	<section id="write_test">
+		<title>Test the code</title>
+		<para>
+			The following uses a main method to test.
+		</para>
+		<para>
+			Run the program to write the
+			<filename>articles.rss</filename>
+			file.
+		</para>
+
+		<para>
+			<programlisting>
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="../examples/write/WriteTest.java" />
+			</programlisting>
+		</para>
+	</section>
+
+</section>

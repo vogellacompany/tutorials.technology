@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<article>
+	<articleinfo>
+		<title>Artifactory Repository Manager - Tutorial</title>
+		<author>
+			<firstname>Simon</firstname>
+			<surname>Scholz</surname>
+		</author>
+		<copyright>
+			<year>2016</year>
+			<holder>vogella GmbH</holder>
+		</copyright>
+		<pubdate>23.03.2016</pubdate>
+		<releaseinfo>
+			<para>Version 0.1</para>
+		</releaseinfo>
+		
+		<abstract id="abstract">
+			<title>Artifactory Repository Manager</title>
+			<para> This article describes how to use and install the Artifactory Repository Manager.
+			</para>
+		</abstract>
+	</articleinfo>
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="010_overview.xml" />
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="020_installation.xml" />
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="030_configuration.xml" />
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="006_resources.xml" />
+	<?dbhtml-include href="../../web/vgwort/ArtifactoryRepositoryManager"?>
+</article>

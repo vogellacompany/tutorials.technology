@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<article>
+	<articleinfo>
+		<title>Using FreeMarker templates (FTL)- Tutorial</title>
+		<author>
+			<firstname>Lars</firstname>
+			<surname>Vogel</surname>
+		</author>
+		<copyright>
+			<year>2012</year>
+			<year>2013</year>
+			<holder>vogella GmbH</holder>
+		</copyright>
+		<pubdate>12.10.2011</pubdate>
+		<releaseinfo>
+			<para>Version 1.3</para>
+		</releaseinfo>
+		
+		<abstract id="abstract">
+			<title>FreeMarker Tutorial</title>
+			<para>
+				This tutorial explains how can you define FreeMarker templates
+				and how can you generate output based on these templates. It also
+				demonstrates the usage of macros.
+			</para>
+		</abstract>
+	</articleinfo>
+	<?dbhtml-include href="../../web/advertisement/afterTableOfContent"?>
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/010_overview.xml" />
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/020_installation.xml" />
+	<?dbhtml-include href="../../web/advertisement/inBetween01"?>
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/030_eclipse.xml" />
+		<?dbhtml-include href="../../web/advertisement/inBetween02"?>
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/100_example.xml" />
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/110_tricks.xml" />
+	<?dbhtml-include href="../../web/advertisement/beforeSupport"?>
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../10_Include/support.xml" />	
+	<?dbhtml-include href="../../web/advertisement/afterSupport"?>
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="resources.xml" />
+	<?dbhtml-include href="../../web/vgwort/FreeMarker"?>
+</article>

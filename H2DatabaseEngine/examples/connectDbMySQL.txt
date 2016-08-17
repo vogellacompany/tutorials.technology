@@ -1,0 +1,1 @@
+mysql db_name -u user -pmypassword

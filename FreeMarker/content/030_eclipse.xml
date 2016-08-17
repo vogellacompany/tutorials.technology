@@ -1,0 +1,34 @@
+<section id="eclipse_integration">
+	<title>Eclipse Integration</title>
+	<para>
+		<wordasword>FreeMarker</wordasword>
+		code completion and syntax highlighting
+		is part of the
+		<wordasword>JBoss Tools</wordasword>.
+		Add the following update site to your
+		Eclipse installation via
+		<menuchoice>
+			<guimenu>Help</guimenu>
+			<guisubmenu>Install New Software...</guisubmenu>
+		</menuchoice>
+	</para>
+
+	<para>
+		<programlisting language="text">
+			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+				parse="text" href="../examples/links/jboss-updatesite.txt" />
+		</programlisting>
+	</para>
+
+	<para>
+		<mediaobject>
+			<imageobject>
+				<imagedata fileref="images/jboss-updatesite.png"/>
+			</imageobject>
+			<textobject>
+				<phrase>Add the JBoss Tools update site and search for FreeMarker</phrase>
+			</textobject>
+		</mediaobject>
+	</para>
+
+</section>

@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<article>
+	<articleinfo>
+		<title>SQL Statements - Overview - Tutorial</title>
+		<author>
+			<firstname>Lars</firstname>
+			<surname>Vogel</surname>
+		</author>
+		<copyright>
+			<year>2008 - 2011</year>
+			<holder>vogella GmbH</holder>
+		</copyright>
+		<pubdate>04.01.2011</pubdate>
+		<releaseinfo>
+			<para>Version 0.6</para>
+		</releaseinfo>
+		
+		<abstract id="abstract">
+			<title>SQL Statements</title>
+			<para> This tutorial lists important SQL statements which you need to
+				use to create, update and read from database tables.
+			</para>
+		</abstract>
+	</articleinfo>
+		<?dbhtml-include href="../../web/advertisement/afterTableOfContent"?>
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/001_overview.xml" />
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/050_tables.xml" />
+	<?dbhtml-include href="../../web/advertisement/inBetween01"?>
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/060_data.xml" />
+	<?dbhtml-include href="../../web/advertisement/inBetween02"?>
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/080_dbsetup.xml" />
+	<?dbhtml-include href="../../web/advertisement/beforeSupport"?>
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../10_Include/support.xml" />	
+	<?dbhtml-include href="../../web/advertisement/afterSupport"?>
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="resources.xml" />
+	<?dbhtml-include href="../../web/vgwort/SQL"?>
+</article>

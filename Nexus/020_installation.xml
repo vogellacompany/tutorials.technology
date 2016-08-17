@@ -1,0 +1,30 @@
+<section id="nexus_repository_install">
+	<title>Installation of Nexus</title>
+	<para>
+		In order to install the open source version of Nexus you need to visit
+		<ulink url="http://www.sonatype.org/nexus/go/">Nexus OSS</ulink>
+		and download the TGZ
+		version or the ZIP version. Currently the latest version is 2.11.4-01.
+	</para>
+	<para>In order to extract the archive use</para>
+	<programlisting>﻿$ tar xvzf nexus-2.11.4-01-bundle.tar.gz</programlisting>
+	<para>
+		To start Nexus, after extracting, the
+		<filename>nexus</filename>
+		script must be
+		executed with a
+		<code>start</code>
+		parameter in the
+		<filename>nexus</filename>
+		folder:
+	</para>
+	<para>
+		<programlisting>﻿﻿cd /NEXUS_FOLDER/nexus
+		./bin/nexus start</programlisting>
+	</para>
+	<para>And in case you want to stop Nexus you just have to write stop instead of start:</para>
+	<para>
+		<programlisting>﻿﻿cd /NEXUS_FOLDER/nexus
+		./bin/nexus stop</programlisting>
+	</para>
+</section>

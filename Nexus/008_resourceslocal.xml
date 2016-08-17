@@ -1,0 +1,19 @@
+<section id="nexus-online" role="wrapper">
+	<title>Nexus online resources</title>
+	<para>
+		<ulink
+			url="http://books.sonatype.com/nexus-book/reference/repoman-sect-repoman.html">
+			Nexus Book
+		</ulink>
+	</para>
+	<para>
+		<ulink url="https://books.sonatype.com/nexus-book/reference/p2-sect-intro.html">
+			Nexus P2 Plugins
+		</ulink>
+	</para>
+	<para>
+		<ulink url="https://wiki.eclipse.org/Tycho/Nexus_Unzip_Plugin">
+			Tycho/Nexus Unzip Plugin
+		</ulink>
+	</para>
+</section>

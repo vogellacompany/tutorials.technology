@@ -1,0 +1,111 @@
+<section id="data">
+	<title>Data maintenance - Select, Insert, Delete, Update</title>
+	<para> The following demonstrates how to insert, updates and deletes
+		entries from a database. </para>
+	<section id="data_select">
+		<title>Select</title>
+		<table frame='all'>
+			<title>Select</title>
+			<tgroup cols='2' align='left' colsep='1' rowsep='1'>
+				<colspec colname='c1' />
+				<colspec colname='c2' />
+				<thead>
+					<row>
+						<entry>Command</entry>
+						<entry>Description</entry>
+					</row>
+				</thead>
+				<tbody>
+					<row>
+						<entry>SELECT * FROM TABLE table_name;</entry>
+						<entry> Selects all the data from table "table_name"</entry>
+					</row>
+				</tbody>
+			</tgroup>
+		</table>
+	</section>
+	<section id="data_insert">
+		<title>Insert</title>
+		<table frame='all'>
+			<title>Insert</title>
+			<tgroup cols='2' align='left' colsep='1' rowsep='1'>
+				<colspec colname='c1' />
+				<colspec colname='c2' />
+				<thead>
+					<row>
+						<entry>Command</entry>
+						<entry>Description</entry>
+					</row>
+				</thead>
+				<tbody>
+					<row>
+						<entry>MISSING</entry>
+						<entry> MISSING</entry>
+					</row>
+				</tbody>
+			</tgroup>
+		</table>
+	</section>
+	<section id="data_update">
+		<title>Update</title>
+		<table frame='all'>
+			<title>Update</title>
+			<tgroup cols='2' align='left' colsep='1' rowsep='1'>
+				<colspec colname='c1' />
+				<colspec colname='c2' />
+				<thead>
+					<row>
+						<entry>Command</entry>
+						<entry>Description</entry>
+					</row>
+				</thead>
+				<tbody>
+					<row>
+						<entry> update table_name SET field = value WHERE condition;
+						</entry>
+						<entry> Updates field with value in table_name given then the
+							where
+							condition is met.
+					</entry>
+					</row>
+				</tbody>
+			</tgroup>
+		</table>
+	</section>
+	<section id="data_delete">
+		<title>Delete</title>
+		<table frame='all'>
+			<title>Delete</title>
+			<tgroup cols='2' align='left' colsep='1' rowsep='1'>
+				<colspec colname='c1' />
+				<colspec colname='c2' />
+				<thead>
+					<row>
+						<entry>Command</entry>
+						<entry>Description</entry>
+					</row>
+				</thead>
+				<tbody>
+					<row>
+						<entry> DELETE FROM table_name WHERE id='8';</entry>
+						<entry> Deletes an entry from table "table_name"which has the id
+							8.
+							Requires that the table has a column "id".
+					</entry>
+					</row>
+					<row>
+						<entry>
+							delete from table_name where id <![CDATA[ <> ]]>
+							1 and id <![CDATA[ <> ]]>
+							29;;
+						</entry>
+						<entry> Deletes all entries from table "table_name" except the
+							entries with the ID "1" and "29". 
+					</entry>
+					</row>
+				</tbody>
+			</tgroup>
+		</table>
+	</section>
+
+</section>
