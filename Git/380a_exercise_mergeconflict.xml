@@ -86,7 +86,7 @@ include::./examples/merge/createconflict7.txt[]
 			
 		</tip>
 
-	</section>
+	
 	<section id="mergeconflict_examplesee">
 		<title>Review the conflict in the file
 		
@@ -111,7 +111,7 @@ include::./examples/merge/mergeconflict.txt[]
 			from
 			the branch that you are merging in.
 		
-	</section>
+	
 	<section id="mergeconflict_examplesolve">
 		<title>Solve a conflict in a file
 		
@@ -169,6 +169,5 @@ include::./examples/merge/createconflict6.txt[]
 			
 		</tip>
 
-	</section>
+	
 
-</section>

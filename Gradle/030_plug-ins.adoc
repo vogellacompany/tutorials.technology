@@ -45,4 +45,4 @@
 		<ulink url="http://plugins.gradle.org/">Gradle Plugin search</ulink>
 		.
 	
-</section>
+

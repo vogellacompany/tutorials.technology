@@ -1,39 +1,38 @@
 <section id="resources">
-	<title>Links and Literature</title>
-	<para>
+	<title>Links and Literature
+	
 		<ulink url="http://www.whatwg.org/specs/web-apps/current-work/">
 			http://www.whatwg.org/specs/web-apps/current-work/</ulink>
 		HTML5 Specification
-	</para>
-	<para>
+	
+	
 		<ulink url="http://html5rocks.com/">
 			http://html5rocks.com/</ulink>
 
-	</para>
-	<para>
+	
+	
 		<ulink url="http://diveintohtml5.org">
 			http://diveintohtml5.org</ulink>
 
-	</para>
-	<para>
+	
+	
 		<ulink url="http://www.ibm.com/developerworks/library/x-html5/">
 			http://www.ibm.com/developerworks/library/x-html5/</ulink>
 		IBM developer works article about HTML5 from Elliotte Rusty Harold
-	</para>
-	<para>
+	
+	
 		<ulink url="http://html5demos.com/">
 			http://html5demos.com/</ulink>
 
 		HTML5 demos
 
-	</para>
+	
 
-	<para>
+	
 		<ulink url="http://validator.w3.org"> http://validator.w3.org</ulink>
 		Checkpage of the WWW
 		Consortium
-	</para>
-	<para>
+	
+	
 		<ulink url="http://www.css4you.de/"> http://www.css4you.de/ CSS Information (in german)</ulink>
-	</para>
-</section>
+	

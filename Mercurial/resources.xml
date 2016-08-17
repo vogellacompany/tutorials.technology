@@ -1,51 +1,50 @@
 <section id="resources">
-	<title>Links and Literature</title>
+	<title>Links and Literature
 	<section id="resources_mercurial">
-		<title>Mercurial Resources</title>
-		<para>
+		<title>Mercurial Resources
+		
 			<ulink url="http://mercurial.selenic.com/"> http://mercurial.selenic.com/</ulink>
 			Mercurial Homepage
-		</para>
-		<para>
+		
+		
 			<ulink url="http://mercurial.selenic.com/wiki/"> http://mercurial.selenic.com/wiki/</ulink>
 			Mercurial Wiki
-		</para>
-		<para>
+		
+		
 			<ulink url="http://hgbook.red-bean.com/"> http://hgbook.red-bean.com/</ulink>
 			Free Online Mercurial Book from http://hgbook.red-bean.com/
-		</para>
+		
 
 
-		<para>
+		
 			<ulink url="http://bitbucket.org/"> http://bitbucket.org/</ulink>
 			Mercurial Hosting service
-		</para>
+		
 
-		<para>
+		
 			<ulink url="http://hgbook.red-bean.com/read/"> http://hgbook.red-bean.com/read/</ulink>
 			Mercurial: The Definitive Guide
-		</para>
-		<para>
+		
+		
 			<ulink url="http://code.google.com/p/support/wiki/ConvertingSvnToHg">
 				http://code.google.com/p/support/wiki/ConvertingSvnToHg</ulink>
 			How to convert svn to Mercurial at Google hosting
-		</para>
-	</section>
+		
+	
 
 	<section id="resources_mercurialeclipse">
-		<title>MercurialEclipse Resources</title>
-		<para>
+		<title>MercurialEclipse Resources
+		
 			<ulink url="http://www.javaforge.com/project/HGE"> http://www.javaforge.com/project/HGE</ulink>
 			EclipseMercurial plug-in homepage
-		</para>
-		<para>
+		
+		
 			<ulink url="http://javaforge.com/wiki/76402">http://javaforge.com/wiki/76402</ulink>
 			EclipseMercurial change logs
-		</para>
-		<para>
+		
+		
 			<ulink url="http://www.javaforge.com/project/HGE/tracker"> http://www.javaforge.com/project/HGE/tracker</ulink>
 			Mercurial Eclipse Bug tracker
-		</para>
-	</section>
+		
+	
 	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../10_Include/resources.xml" />
-</section>

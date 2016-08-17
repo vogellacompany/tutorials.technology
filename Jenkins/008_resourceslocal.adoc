@@ -11,4 +11,3 @@
 		<ulink
 			url="http://www.vogella.com/tutorials/AndroidBuild/article.html">Android Build tutorial</ulink>
 	
-</section>

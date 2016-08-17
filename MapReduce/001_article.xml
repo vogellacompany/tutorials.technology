@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <article>
 	<articleinfo>
-		<title>MapReduce Introduction - Tutorial</title>
+		<title>MapReduce Introduction - Tutorial
 		<author>
 			<firstname>Lars</firstname>
 			<surname>Vogel</surname>
@@ -11,15 +11,15 @@
 			<holder>vogella GmbH</holder>
 		</copyright>
 		<releaseinfo>
-			<para>Version 0.4</para>
+			Version 0.4
 		</releaseinfo>
 		<pubdate>10.10.2010</pubdate>
 		
 		<abstract id="abstract">
-			<title>MapReduce Tutorial</title>
-			<para> This article gives an overview of MapReduce and lists several
+			<title>MapReduce Tutorial
+			 This article gives an overview of MapReduce and lists several
 				resources which describes
-				MapReduce. </para>
+				MapReduce. 
 		</abstract>
 	</articleinfo>
 	<?dbhtml-include href="../../web/advertisement/afterTableOfContent"?>

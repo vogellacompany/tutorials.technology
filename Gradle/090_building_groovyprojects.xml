@@ -18,7 +18,7 @@
 			on the command line.
 		
 
-	</section>
+	
 
 	<section id="gradle_buildgroovy_projectlayout">
 		<title>Default project layout of Groovy projects
@@ -46,6 +46,6 @@
 			compile,
 			test and bundle a Groovy project.
 		
-	</section>
-</section>
+	
+
 	

@@ -10,7 +10,7 @@
 		The usage of Gradle requires an JDK (Java Development Kit)
 			installation.
 		
-	</section>
+	
 	<section id="building_installgradle_commandline">
 		<title>Installing Gradle for the usage on the command line
 
@@ -27,7 +27,7 @@
 			`gradle`
 			into the command line.
 		
-	</section>
+	
 
 	<section id="gradeinstallation_demon">
 		<title>Using the Gradle daemon for improved startup time
@@ -70,7 +70,7 @@
 			`gradle --stop`
 			command.
 		
-	</section>
+	
 
 	<section id="GRADLE_OPTS">
 		<title>Specify custom JVM settings for Gradle
@@ -92,7 +92,7 @@
 		On Windows OS environment variables are usually defined via the
 			system property UI.
 		
-	</section>
+	
 	<section id="gradle_git">
 		<title>Typical .gitignore file for Gradle projects
 		
@@ -107,6 +107,5 @@
 					parse="text" href="./examples/git/gitignore" />
 			</programlisting>
 		
-	</section>
+	
 
-</section>

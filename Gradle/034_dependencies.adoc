@@ -54,7 +54,7 @@
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/dependencies/dep.txt" />
 			</programlisting>
 		
-	</section>
+	
 	<section id="gradeintro_addingrepositories">
 		<title>Specifying the repositories to search for dependencies
 		
@@ -107,7 +107,7 @@
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/java/build_file_deps.gradle" />
 			</programlisting>
 		
-	</section>
+	
 
 
 	<section id="gradeintro_cache">
@@ -121,5 +121,5 @@
 			. With the next build Gradle attempts to download
 			the dependencies again.
 		
-	</section>
-</section>
+	
+

@@ -9,4 +9,4 @@
 		<ulink url="http://www.vogella.com/tutorials/EclipseGradle/article.html">Eclipse Gradle tutorial</ulink>
 		for an introduction into Gradle with the command line.
 	
-</section>
+

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <article>
 	<articleinfo>
-		<title>Nexus Repository Manager - Tutorial</title>
+		<title>Nexus Repository Manager - Tutorial
 		<author>
 			<firstname>Simon</firstname>
 			<surname>Scholz</surname>
@@ -12,13 +12,13 @@
 		</copyright>
 		<pubdate>13.01.2015</pubdate>
 		<releaseinfo>
-			<para>Version 0.1</para>
+			Version 0.1
 		</releaseinfo>
 		
 		<abstract id="abstract">
-			<title>Nexus Repository Manager</title>
-			<para> This article describes how to use and install the Nexus Repository Manager.
-			</para>
+			<title>Nexus Repository Manager
+			 This article describes how to use and install the Nexus Repository Manager.
+			
 		</abstract>
 	</articleinfo>
 	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="010_overview.xml" />

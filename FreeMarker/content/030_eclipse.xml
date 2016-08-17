@@ -1,6 +1,6 @@
 <section id="eclipse_integration">
-	<title>Eclipse Integration</title>
-	<para>
+	<title>Eclipse Integration
+	
 		<wordasword>FreeMarker</wordasword>
 		code completion and syntax highlighting
 		is part of the
@@ -11,16 +11,16 @@
 			<guimenu>Help</guimenu>
 			<guisubmenu>Install New Software...</guisubmenu>
 		</menuchoice>
-	</para>
+	
 
-	<para>
+	
 		<programlisting language="text">
 			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
 				parse="text" href="../examples/links/jboss-updatesite.txt" />
 		</programlisting>
-	</para>
+	
 
-	<para>
+	
 		<mediaobject>
 			<imageobject>
 				<imagedata fileref="images/jboss-updatesite.png"/>
@@ -29,6 +29,6 @@
 				<phrase>Add the JBoss Tools update site and search for FreeMarker</phrase>
 			</textobject>
 		</mediaobject>
-	</para>
+	
 
-</section>
+

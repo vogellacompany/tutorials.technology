@@ -10,7 +10,7 @@
 			<ulink url="http://www.sonatype.org/nexus/">Sonatype Nexus</ulink>
 			.
 		
-	</section>
+	
 	<section id="gradle_deployment_maven">
 		<title>Using the maven-publish plugin
 		
@@ -54,6 +54,6 @@
 				url="https://docs.gradle.org/current/userguide/publishing_maven.html">https://docs.gradle.org/current/userguide/publishing_maven.html
 			</ulink>
 		
-	</section>
-</section>
+	
+
 	

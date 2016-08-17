@@ -1,16 +1,16 @@
 <section id="freemarker_install">
-	<title>Installation of FreeMarker</title>
-	<para>
+	<title>Installation of FreeMarker
+	
 		To use
 		<wordasword>FreeMarker</wordasword>
 		download the latest version of it from the following
 		webpage and add it
 		to the classpath of your Java project.
-	</para>
-	<para>
+	
+	
 		<programlisting language="text">
 			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
 				parse="text" href="../examples/links/freemarkerdownload.txt" />
 		</programlisting>
-	</para>
-</section>
+	
+

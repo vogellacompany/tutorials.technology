@@ -72,7 +72,7 @@
 				</imageobject>
 			</mediaobject>
 		
-	</section>
+	
 	<section>
 		<title>Specifying a general build configuration
 		
@@ -101,7 +101,7 @@
 			`allprojects`
 			closure does.
 		
-	</section>
+	
 	<section>
 		<title>Project specific configurations and dependencies
 		
@@ -156,6 +156,6 @@
 		
 
 
-	</section>
-</section>
+	
+
 	

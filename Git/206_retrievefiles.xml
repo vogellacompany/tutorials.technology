@@ -38,7 +38,7 @@
 include::./examples/show/showrev.txt[]
 ----
 
-	</section>
+	
 	<section id="retrievefiles_fromcommit">
 		<title>Restore a deleted file in a Git repo
 		
@@ -55,7 +55,7 @@ include::./examples/show/showrev.txt[]
 ----
 include::./examples/restore/restoredeletedfile.txt[]
 ----
-	</section>
+	
 
 
 
@@ -88,6 +88,5 @@ include::./examples/restore/restoredeletedfile.txt[]
 include::./examples/show/delete.txt[]
 ----
 
-	</section>
+	
 
-</section>

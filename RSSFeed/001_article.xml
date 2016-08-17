@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <article>
 	<articleinfo>
-		<title>RSS feeds with Java - Tutorial</title>
+		<title>RSS feeds with Java - Tutorial
 		<author>
 			<firstname>Lars</firstname>
 			<surname>Vogel</surname>
@@ -17,17 +17,17 @@
 		</copyright>
 		<pubdate>06.03.2013</pubdate>
 		<releaseinfo>
-			<para>Version 2.1</para>
+			Version 2.1
 		</releaseinfo>
 
 
 		
 		<abstract id="abstract">
-			<title>RSS Feeds with Java</title>
-			<para> This tutorial explains how to read and create RSS feeds with
+			<title>RSS Feeds with Java
+			 This tutorial explains how to read and create RSS feeds with
 				Java. It uses the Stax XML API. Eclipse
 				is used as the Java IDE and Java7 is used.
-			</para>
+			
 		</abstract>
 	</articleinfo>
 	<?dbhtml-include href="../../web/advertisement/afterTableOfContent"?>

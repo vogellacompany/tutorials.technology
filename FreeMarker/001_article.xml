@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <article>
 	<articleinfo>
-		<title>Using FreeMarker templates (FTL)- Tutorial</title>
+		<title>Using FreeMarker templates (FTL)- Tutorial
 		<author>
 			<firstname>Lars</firstname>
 			<surname>Vogel</surname>
@@ -13,16 +13,16 @@
 		</copyright>
 		<pubdate>12.10.2011</pubdate>
 		<releaseinfo>
-			<para>Version 1.3</para>
+			Version 1.3
 		</releaseinfo>
 		
 		<abstract id="abstract">
-			<title>FreeMarker Tutorial</title>
-			<para>
+			<title>FreeMarker Tutorial
+			
 				This tutorial explains how can you define FreeMarker templates
 				and how can you generate output based on these templates. It also
 				demonstrates the usage of macros.
-			</para>
+			
 		</abstract>
 	</articleinfo>
 	<?dbhtml-include href="../../web/advertisement/afterTableOfContent"?>

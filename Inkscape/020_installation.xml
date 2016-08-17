@@ -1,11 +1,10 @@
 <section id="inkscapeinstalation">
-	<title>Installation</title>
+	<title>Installation
 
-	<para>
+	
 		To install Inkscape on Ubunto use the
 		<code>sudo apt-get install inkscape</code>
 		command.
 
-	</para>
+	
 
-</section>

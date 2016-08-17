@@ -1,11 +1,10 @@
 <section id="h2databaseengineoverview">
-	<title>H2 Database Engine</title>
-	<para>
+	<title>H2 Database Engine
+	
 		The
 		<wordasword>H2 Database Engine</wordasword>
 		is an easily embeddable Java-only database engine with a small
 		footprint. Its homepage is
 		<ulink url="http://h2database.com/">H2 Database Engine</ulink>
 		.
-	</para>
-</section>
+	

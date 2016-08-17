@@ -15,7 +15,7 @@
 					parse="text" href="./examples/tasks/tasks_command_line.txt" />
 			</programlisting>
 		
-	</section>
+	
 
 	<section id="exercise_gradle_tasks_help">
 		<title>Using the help task
@@ -30,7 +30,7 @@
 					parse="text" href="./examples/tasks/help_task_command_line.txt" />
 			</programlisting>
 		
-	</section>
+	
 
 	<section id="exercise_gradle_tasks_init">
 		<title>Create a groovy project
@@ -42,5 +42,5 @@
 					parse="text" href="./examples/tasks/tasks_command_line_init.txt" />
 			</programlisting>
 		
-	</section>
-</section>
+	
+

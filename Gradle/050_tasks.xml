@@ -43,7 +43,7 @@
 			`wrapper`
 			task.
 		
-	</section>
+	
 
 	<section id="creating_gradle_tasks">
 		<title>Creating custom Gradle tasks
@@ -107,7 +107,7 @@
 					href="./examples/tasks/build_hello_described.gradle" />
 			</programlisting>
 		
-	</section>
+	
 
 	<section id="gradle_task_structure">
 		<title>Task structure
@@ -148,7 +148,7 @@
 			`onlySpecifiesCodeForConfigurationPhase`
 			is evaluated.
 		
-	</section>
+	
 
 	<section id="gradle_task_dependencies">
 		<title>Task dependencies
@@ -211,7 +211,7 @@
 			one according to the
 			order they have been applied to the task.
 		
-	</section>
+	
 
 	<section id="skip_gradle_tasks">
 		<title>Skipping Tasks
@@ -236,5 +236,5 @@
 				
 			</note>
 		
-	</section>
-</section>
+	
+

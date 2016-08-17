@@ -106,7 +106,7 @@ LARSLINEBREAK
 				for information about this feature.
 			
 		</note>
-	</section>
+	
 	<section id="rebase_bestpractice">
 		<title>Good practice for rebase
 
@@ -187,5 +187,5 @@ LARSLINEBREAK
 include::./examples/rebase/forcedpush.txt[]
 ----
 		</warning>
-	</section>
-</section>
+	
+

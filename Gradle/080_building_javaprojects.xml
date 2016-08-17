@@ -7,7 +7,7 @@
 			unit
 			tests, create Javadoc and create a JAR file.
 		
-	</section>
+	
 	<section id="gradle_buildjava_projectlayout">
 		<title>Default project layout of Java projects
 		
@@ -53,7 +53,7 @@
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/java/sourcesets.gradle" />
 			</programlisting>
 		
-	</section>
+	
 
 	<section id="gradle_init_task">
 		<title>Java project creation with the init task
@@ -105,7 +105,7 @@
 			archetype/template
 			topic.
 		
-	</section>
+	
 
 	<section id="gradle_java_artifact_properties">
 		<title>Specifying the Java version in your build file
@@ -143,5 +143,5 @@
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/java/main_class.gradle" />
 			</programlisting>
 		
-	</section>
-</section>
+	
+

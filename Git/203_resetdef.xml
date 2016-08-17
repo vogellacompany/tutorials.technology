@@ -138,7 +138,7 @@ LARSLINEBREAK
 			`git clean`
 			command for this.
 		
-	</section>
+	
 	<section id="resetcommit_path">
 		<title>Not moving the HEAD pointer with git reset
 		
@@ -153,6 +153,6 @@ LARSLINEBREAK
 			specified option.
 		
 
-	</section>
+	
 
-</section>
+

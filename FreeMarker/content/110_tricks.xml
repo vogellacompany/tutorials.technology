@@ -1,15 +1,15 @@
 <section id="freemarkertricks">
-	<title>Useful FTL tricks</title>
+	<title>Useful FTL tricks
 
 	<section id="freemarkertricks_macro">
-		<title>Reuse common template fragments</title>
+		<title>Reuse common template fragments
 
-		<para>
+		
 			When you find yourself copy-pasting common parts between templates a lot,
 			you should probably use macros.
-		</para>
+		
 
-		<para>
+		
 			Continuing our last example, create a new folder called
 			<filename>lib</filename>
 			inside the
@@ -18,74 +18,74 @@
 			<filename>utils.ftl</filename>
 			, with
 			this content:
-		</para>
+		
 
-		<para>
+		
 			<programlisting language="xml">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
 					parse="text" href="../examples/tricks/macros/utils.ftl" />
 			</programlisting>
-		</para>
+		
 
-		<para>
+		
 			Now you can simplify
 			<filename>helloworld.ftl</filename>
 			like this:
-		</para>
+		
 
-		<para>
+		
 			<programlisting language="xml">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
 					parse="text" href="../examples/tricks/macros/helloworld.ftl" />
 			</programlisting>
-		</para>
+		
 
-		<para>
+		
 			Another way of reusing template fragments is moving the common
 			fragment into
 			its own ftl file. Then just insert it with
 			<code>&lt;#include "lib/myfragment.ftl"></code>
 			. This is less flexible than macros,
 			but simpler in concept: it mimics copy-pasting.
-		</para>
-	</section>
+		
+	
 
 	<section id="freemarkertricks_variables">
-		<title>Variables</title>
-		<para>
+		<title>Variables
+		
 			You can define and assign content to variables inside the FTL files for easy reuse.
-		</para>
-		<para>
+		
+		
 			<programlisting language="xml">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
 					parse="text" href="../examples/tricks/variables.ftl" />
 			</programlisting>
-		</para>
-	</section>
+		
+	
 
 
 	<section id="freemarkertricks_macro">
-		<title>Handling null/undefined values</title>
+		<title>Handling null/undefined values
 
-		<para>
+		
 			FreeMarker requires you to provide an explicit default for variables, so avoid
 			values that are
 			<code>null</code>
 			or undefined:
-		</para>
+		
 
-		<para>
+		
 			<programlisting language="xml">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
 					parse="text" href="../examples/tricks/nulls.ftl" />
 			</programlisting>
-		</para>
+		
 
-	</section>
+	
 
 	<section id="freemarkertricks_escape">
-		<title>Escape</title>
-		<para>
+		<title>Escape
+		
 			When generating HTML, it's important to escape
 			<code>&lt;</code>
 			,
@@ -101,16 +101,16 @@
 			to all
 			<code>${}</code>
 			-s in a section like this:
-		</para>
+		
 
-		<para>
+		
 			<programlisting language="xml">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
 					parse="text" href="../examples/tricks/escaping.ftl" />
 			</programlisting>
-		</para>
+		
 
-		<para>
+		
 			It's important to understand that
 			<code>#escape</code>
 			only affects the
@@ -121,7 +121,7 @@
 			<code>${}</code>
 			embracements which are in other templates or macros
 			called from there, won't be affected.
-		</para>
-	</section>
+		
+	
 
-</section>
+

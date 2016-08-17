@@ -1,5 +1,5 @@
 <!--header.ftl-->
 <!DOCTYPE html>
-<title>FreeMarker hello world with a: ${message}</title>
+<title>FreeMarker hello world with a: ${message}
 
 <body>

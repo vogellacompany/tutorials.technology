@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <article>
 	<articleinfo>
-		<title>H2 database engine - Tutorial</title>
+		<title>H2 database engine - Tutorial
 		<author>
 			<firstname>Lars</firstname>
 			<surname>Vogel</surname>
@@ -12,13 +12,13 @@
 		</copyright>
 		<pubdate>04.12.2014</pubdate>
 		<releaseinfo>
-			<para>Version 0.1</para>
+			Version 0.1
 		</releaseinfo>
 		
 		<abstract id="abstract">
-			<title>H2 database engine</title>
-			<para> This tutorial explains how to install H2 database engine.
-			</para>
+			<title>H2 database engine
+			 This tutorial explains how to install H2 database engine.
+			
 		</abstract>
 	</articleinfo>
 	<?dbhtml-include href="../../web/advertisement/afterTableOfContent"?>

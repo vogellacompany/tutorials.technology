@@ -1,0 +1,8 @@
+== Links and Literature
+	
+http://www.mysql.com[MySQL homepage]
+	
+http://dev.mysql.com/downloads/[Download link for MySQL]
+	
+http://forums.mysql.com[MySQL forum]
+	

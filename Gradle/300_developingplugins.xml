@@ -6,7 +6,7 @@
 			future maintenance. Therefore it is adviced to avoid complex code in your Gradle build file. If you need customer
 			logic you should place it, into a custom Gradle plugin.
 		
-	</section>
+	
 
 	<section id="gradle_developingplugins_example">
 		<title>Example: creating a simple Gradle plugin
@@ -89,7 +89,7 @@
 		
 
 
-	</section>
+	
 
 	<section id="gradle_developingplugins_example_deploy">
 		<title>Example: deploy your custom Gradle plug-in to your local Maven repository
@@ -101,7 +101,7 @@
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/plugin/publish.gradle" />
 			</programlisting>
 		
-	</section>
+	
 
 	<section id="gradle_developingplugins_example_usage">
 		<title>Example: Using your new plugin
@@ -112,5 +112,5 @@
 			</programlisting>
 		
 
-	</section>
-</section>	
+	
+	

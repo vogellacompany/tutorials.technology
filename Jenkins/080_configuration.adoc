@@ -31,7 +31,7 @@ Jenkins can also install these for your automatically.
 	</textobject>
 </mediaobject>
 		
-	</section>
+	
 
 	<section id="jenkinsconfiguration_user">
 		<title>Secure Jenkins
@@ -104,7 +104,7 @@ The following grants unregistered users read-only access to your build jobs that
 	</textobject>
 </mediaobject>
 		
-	</section>
+	
 	<section id="jenkinsconfiguration_ssh">
 		<title>Generate ssh key for Jenkins user
 		

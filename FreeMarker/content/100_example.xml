@@ -1,20 +1,20 @@
 <section id="freemarkertest">
-	<title>Basic example</title>
+	<title>Basic example
 
-	<para>
+	
 		Create a new Java project called
 		<wordasword>com.vogella.freemarker.first</wordasword>
 		. Create a new folder called
 		<filename>lib</filename>
 		and add the Freemarker library to it. Add this library to the
 		classpath for your project.
-	</para>
-	<para>
+	
+	
 		If you don't know how to achieve that, please see the
 		<ulink url="http://www.vogella.com/tutorials/Eclipse/article.html">Eclipse IDE Tutorial</ulink>
 		for instructions on the required steps.
-	</para>
-	<para>
+	
+	
 		Create a new folder called
 		<filename>templates</filename>
 		inside the folder of the
@@ -22,38 +22,37 @@
 		package. Inside that, create the following file with name
 		<filename>helloworld.ftl</filename>
 		.
-	</para>
+	
 
-	<para>
+	
 		<programlisting language="xml">
 			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
 				parse="text" href="../examples/first/helloworld.ftl" />
 		</programlisting>
-	</para>
+	
 
-	<para>
+	
 		Create the following class which demonstrates the usage of Java
 		objects in
 		templates.
-	</para>
+	
 
-	<para>
+	
 		<programlisting language="java">
 			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
 				parse="text" href="../examples/first/ValueExampleObject.java" />
 		</programlisting>
-	</para>
+	
 
-	<para>
+	
 		Create the following class which creates the input for this
 		template and
 		creates the output.
-	</para>
-	<para>
+	
+	
 		<programlisting language="java">
 			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
 				parse="text" href="../examples/first/MainTest.java" />
 		</programlisting>
-	</para>
+	
 
-</section>

@@ -36,7 +36,7 @@ include::./examples/remotebranch/showremotes.txt[]
 
 
 
-	</section>
+	
 	<section id="gitremotebranch_delete">
 		<title>Delete a remote-tracking branch in your local repository
 		
@@ -56,7 +56,7 @@ include::./examples/remotebranch/delete.txt[]
 			`git fetch`
 			command the remote branch is recreated.
 		
-	</section>
+	
 
 	<section id="gitremotebranch_deleteremote">
 		<title>Delete a branch in a remote repository
@@ -102,7 +102,7 @@ include::./examples/remotebranch/deleteremotebranch4.txt[]
 ----
 		</note>
 
-	</section>
+	
 
 	<section id="git_trackingbranches">
 		<title>Tracking branches
@@ -143,7 +143,7 @@ include::./examples/remotebranch/deleteremotebranch4.txt[]
 			)
 			by Git.
 		
-	</section>
+	
 	<section id="git_setting_uptrackingbranches">
 		<title>Setting up tracking branches
 		
@@ -188,7 +188,7 @@ include::./examples/remotebranch/update.txt[]
 
 
 
-	</section>
+	
 	<section id="gitremotebranch_seetrackingbranch">
 		<title>See the branch information for a remote repository
 		To see the tracking branches for a remote repository (short:
@@ -204,6 +204,6 @@ include::./examples/remotebranch/showtrackingbranches.txt[]
 ----
 include::./examples/remotebranch/output.txt[]
 ----
-	</section>
+	
 
-</section>
+

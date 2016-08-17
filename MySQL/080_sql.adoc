@@ -1,0 +1,4 @@
+== Further SQL commands
+
+Please see http://www.vogella.com/tutorials/SQL/article.html[SQL Tutorial] for the usage of SQL commands.
+	

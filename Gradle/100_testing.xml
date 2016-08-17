@@ -39,7 +39,7 @@
 			classes are
 			“**/Abstract*.class”.
 		
-	</section>
+	
 	<section>
 		<title>Include and Exclude particular Tests
 		
@@ -73,6 +73,6 @@
 					parse="text" href="./examples/test/exclude.gradle" />
 			</programlisting>
 		
-	</section>
-</section>
+	
+
 	

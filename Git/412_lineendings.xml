@@ -28,7 +28,7 @@
 			ending to the Git repository.
 		
 
-	</section>
+	
 
 	<section id="line_feedendings_convert">
 		<title>Configuring line ending settings as developer
@@ -53,7 +53,7 @@ include::./examples/linefeed/windows.txt[]
 include::./examples/linefeed/linux.txt[]
 ----
 
-	</section>
+	
 
 	<section id="line_feedendings_gitattributes">
 		<title>Configuring line ending settings per repository
@@ -84,6 +84,5 @@ include::./examples/linefeed/linux.txt[]
 				.
 			
 		</note>
-	</section>
+	
 
-</section>

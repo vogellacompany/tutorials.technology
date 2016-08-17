@@ -37,7 +37,7 @@ include::./examples/commandline/git_checkout1[]
 ----
 include::./examples/commandline/git_checkout2[]
 ----
-	</section>
+	
 	<section id="undochanges_checkoutcommits2">
 		<title>Example: Checkout a commit
 		
@@ -61,5 +61,4 @@ include::./examples/commandline/git_checkout3[]
 				for details.
 			
 		</warning>
-	</section>
-</section>
+	

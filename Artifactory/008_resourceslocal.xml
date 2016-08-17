@@ -1,9 +1,8 @@
 <section id="artifactory-online" role="wrapper">
-	<title>Artifactory online resources</title>
-	<para>
+	<title>Artifactory online resources
+	
 		<ulink
 			url="https://www.jfrog.com/confluence/display/RTF/Welcome+to+Artifactory">
 			Artifactory User Guide
 		</ulink>
-	</para>
-</section>
+	

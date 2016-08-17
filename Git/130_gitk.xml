@@ -14,4 +14,4 @@ LARSLINEBREAK
 	On linux you can easily install gitk by using the `sudo apt-get install gitk` command in a terminal.
 	See <ulink url="http://git-scm.com/docs/gitk">http://git-scm.com/docs/gitk</ulink> for
 		further information.
-</section>
+

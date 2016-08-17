@@ -15,7 +15,7 @@
 include::./examples/changes/diff.txt[]
 ----
 
-	</section>
+	
 
 	<section id="gitdiff_comparetwocommits">
 		<title>See the difference between two commits
@@ -35,7 +35,7 @@ include::./examples/changes/diff.txt[]
 ----
 include::./examples/diff/diff_commits.txt[]
 ----
-	</section>
+	
 
 	<section id="analyzechanges_file">
 		<title>See the files changed by a commit
@@ -56,5 +56,5 @@ include::./examples/diff/diff_commits.txt[]
 ----
 include::./examples/changes/changedfiles.txt[]
 ----
-	</section>
-</section>
+	
+

@@ -1,56 +1,56 @@
 <section id="using">
-	<title>Mercurial usage with the command line</title>
+	<title>Mercurial usage with the command line
 	<section id="using_overview">
-		<title>Overview</title>
-		<para> The following will demonstrate a short development cycle
+		<title>Overview
+		 The following will demonstrate a short development cycle
 			using
 			the
 			command line interface of Mercurial.
-		</para>
-		<para> You will create a new Mercurial repository, create a new
+		
+		 You will create a new Mercurial repository, create a new
 			Java project and commit the changes to your Mercurial repository.
-		</para>
-		<para>The command for using Mercurial on the command line is "hg".</para>
-	</section>
+		
+		The command for using Mercurial on the command line is "hg".
+	
 	<section id="using_prepare">
-		<title>Prepare</title>
-		<para> Check that you are using Mercurial version 1.3 or higher:
-		</para>
-		<para>
+		<title>Prepare
+		 Check that you are using Mercurial version 1.3 or higher:
+		
+		
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
 					parse="text" href="../examples/using/version.txt" />
 			</programlisting>
-		</para>
+		
 
-		<para> Create and switch to your desired work directory . </para>
+		 Create and switch to your desired work directory . 
 
-		<para> Initialize a new Mercurial repository with:
-		</para>
-		<para>
+		 Initialize a new Mercurial repository with:
+		
+		
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
 					parse="text" href="../examples/using/clone.txt" />
 			</programlisting>
-		</para>
+		
 
-		<para>
+		
 			<tip>
 				If you have an existing project you could clone, e.g. create a
 				copy
 				of, your repository
 				via the following command.
 
-				<para>
+				
 					<programlisting>
 						<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
 							parse="text" href="../examples/using/clone.txt" />
 					</programlisting>
-				</para>
+				
 			</tip>
-		</para>
+		
 
-		<para>
+		
 			Eclipse creates a lot of metadata with regards to the current status
 			of the Eclipse workbench. Also Eclipse creates compiled version in
 			the directory bin. This data should not be placed in the
@@ -64,126 +64,126 @@
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
 					parse="text" href="../examples/ignore/hgignore.txt" />
 			</programlisting>
-		</para>
-	</section>
+		
+	
 	<section id="using_javaproject">
-		<title>Create Java Project</title>
+		<title>Create Java Project
 
-		<para>Start Eclipse and use the new directory as workspace. Create a
+		Start Eclipse and use the new directory as workspace. Create a
 			new Java
 			project "de.vogella.mercurial.firstproject". Create the
 			following Java
 			class.
-		</para>
-		<para>
+		
+		
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
 					parse="text" href="../examples/javaproject/Test.java" />
 			</programlisting>
-		</para>
-	</section>
+		
+	
 
 	<section id="using_commit">
-		<title>Add Project to Mercurial and commit</title>
-		<para> Add the project to Mercurial.  </para>
-		<para>
+		<title>Add Project to Mercurial and commit
+		 Add the project to Mercurial.  
+		
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
 					parse="text" href="../examples/using/add.txt" />
 			</programlisting>
-		</para>
-		<para> Commit.  </para>
-		<para>
+		
+		 Commit.  
+		
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
 					parse="text" href="../examples/using/commit.txt" />
 			</programlisting>
-		</para>
+		
 
-		<para> If you have checked out the Mercurial project from another site
+		 If you have checked out the Mercurial project from another site
 			you can push your changes to the repository.
-		</para>
-		<para>
+		
+		
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
 					parse="text" href="../examples/using/push.txt" />
 			</programlisting>
-		</para>
+		
 
-		<para> Check the history via:</para>
-		<para>
+		 Check the history via:
+		
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
 					parse="text" href="../examples/using/log.txt" />
 			</programlisting>
-		</para>
-	</section>
+		
+	
 
 	<section id="using_delta">
-		<title>Making changes</title>
-		<para> Rename your Java class to "TestNewName" and create a new class
+		<title>Making changes
+		 Rename your Java class to "TestNewName" and create a new class
 			"Test2".
-		</para>
+		
 
-		<para>
+		
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
 					parse="text" href="../examples/javaproject/Test2.java" />
 			</programlisting>
-		</para>
-		<para> Add the new files to Mercurial.  </para>
-		<para>
+		
+		 Add the new files to Mercurial.  
+		
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
 					parse="text" href="../examples/using/add.txt" />
 			</programlisting>
-		</para>
-		<para> A rename in Java removes the old file. Mercurial will report
+		
+		 A rename in Java removes the old file. Mercurial will report
 			these files as missing (hg status). You can use the following command
 			to automatically add the new files and remove the deleted.
-		</para>
-		<para> Add the new files to Mercurial.  </para>
-		<para>
+		
+		 Add the new files to Mercurial.  
+		
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
 					parse="text" href="../examples/using/addremove.txt" />
 			</programlisting>
-		</para>
+		
 
-		<para> You can now commit. The -A flag in the commit command would
+		 You can now commit. The -A flag in the commit command would
 			also automatically add and remove new files.
-		</para>
-		<para>
+		
+		
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
 					parse="text" href="../examples/using/commitadd.txt" />
 			</programlisting>
-		</para>
-	</section>
+		
+	
 	<section id="using_diff">
-		<title>See changes</title>
+		<title>See changes
 
-		<para>To see the changes use the status command. diff we show the
+		To see the changes use the status command. diff we show the
 			differences.
-		</para>
-		<para>
+		
+		
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
 					parse="text" href="../examples/using/changes.txt" />
 			</programlisting>
-		</para>
-	</section>
+		
+	
 	<section id="using_revert">
-		<title>Revert</title>
+		<title>Revert
 
-		<para>You can revert the changes via "hg revert". </para>
-		<para>
+		You can revert the changes via "hg revert". 
+		
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
 					parse="text" href="../examples/using/revert.txt" />
 			</programlisting>
-		</para>
+		
 
-	</section>
+	
 
-</section>
+

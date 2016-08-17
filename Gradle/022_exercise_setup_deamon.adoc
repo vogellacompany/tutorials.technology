@@ -4,7 +4,7 @@
 		<title>Target
 		In this exercise the Gradle Daemon will be configured, so that
 			it starts automatically when a build is run.
-	</section>
+	
 	<section id="exercise_gradle_daemon_windows">
 		<title>Configuring the Gradle Daemon
 		
@@ -29,7 +29,7 @@
 					parse="text" href="./examples/daemon/gradle.properties" />
 			</programlisting>
 		
-	</section>
+	
 	<section id="exercise_gradle_daemon_validate">
 		<title>Validate
 		
@@ -46,5 +46,5 @@
 					parse="text" href="./examples/daemon/daemon-notice.txt" />
 			</programlisting>
 		
-	</section>
-</section>
+	
+

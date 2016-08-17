@@ -1,8 +1,7 @@
 <section id="implementation">
-	<title>Implementation in Java</title>
-	<para>
+	<title>Implementation in Java
+	
 		The best known Java implementation of MapReduce is
 		<ulink url="http://www.vogella.com/tutorials/ApacheHadoop/article.html">Apache Hadoop</ulink>
 		.
-	</para>
-</section>
+	

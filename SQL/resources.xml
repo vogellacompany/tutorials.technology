@@ -1,20 +1,19 @@
 <section id="resources">
-	<title>Links and Literature</title>
-	<para>
+	<title>Links and Literature
+	
 		<ulink url="http://www.vogella.com/tutorials/MySQLJava/article.html"> MySQL Tutorial</ulink>
 		Installation and usage of MySQL.
-	</para>
-	<para>
+	
+	
 		<ulink url="http://www.vogella.com/tutorials/ApacheDerby/article.html"> Apache Derby</ulink>
 		Installation and usage of Apache Derby
-	</para>
-	<para>
+	
+	
 		<ulink url="http://www.vogella.com/tutorials/MySQLJava/article.html"> MySQL and Java Tutorial</ulink>
 		Accessing MySQL via Java.
-	</para>
-	<para>
+	
+	
 		<ulink
 			url="http://www.vogella.com/tutorials/EclipseDataToolsPlatform/article.html"> Eclipse DTP Tutorial</ulink>
 		 Eclipse Data Tool Platform Introduction
-	</para>
-</section>
+	

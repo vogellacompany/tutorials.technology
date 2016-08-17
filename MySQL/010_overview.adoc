@@ -1,0 +1,14 @@
+== Overview
+	
+<wordasword>MySQL</wordasword>
+is a popular open source database which can be used free
+of
+charge.
+MySQL is a relational database. Web applications can use
+this database
+to store
+persistence data.
+	
+	
+This tutorial covers theinstallation of MySQL and the usage of the database.
+	

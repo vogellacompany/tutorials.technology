@@ -77,7 +77,7 @@ include::./examples/fetch/fetch.txt[]
 			<xref linkend="rebase_branches" />
 			for the rebase command.
 		
-	</section>
+	
 	<section id="gitfetch_updateremotes">
 		<title>Fetch from all remote repositories
 		
@@ -96,7 +96,7 @@ include::./examples/fetch/fetch.txt[]
 ----
 include::./examples/remote/gitupdate.txt[]
 ----
-	</section>
+	
 
 	<section id="gitfetch_compare">
 		<title>Compare remote-tracking branch with local branch
@@ -116,7 +116,7 @@ include::./examples/remotebranch/compare.txt[]
 			`-R`
 			parameter.
 		
-	</section>
+	
 	<section id="gitfetch_rebase">
 		<title>Rebase your local branch onto the remote-tracking branch
 		
@@ -141,7 +141,7 @@ include::./examples/remotebranch/apply.txt[]
 				.
 			
 		</tip>
-	</section>
+	
 
 	<section id="gitremotebranch_fetchpull">
 		<title>Fetch compared with pull
@@ -163,5 +163,4 @@ include::./examples/remotebranch/apply.txt[]
 			always
 			run the fetch command and review the incoming changes.
 		
-	</section>
-</section>
+	

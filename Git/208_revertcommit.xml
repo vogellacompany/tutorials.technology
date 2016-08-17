@@ -16,7 +16,7 @@
 		 Such commits are useful to
 			document that a change was withdrawn.
 		
-	</section>
+	
 
 	<section id="undochanges_revertcommit2">
 		<title>Example: Reverting a commit
@@ -30,8 +30,8 @@
 include::./examples/commandline/git_revert_commit[]
 ----
 
-	</section>
+	
 
 
 
-</section>
+

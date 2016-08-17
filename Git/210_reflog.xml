@@ -24,7 +24,7 @@
 			`git reflog`
 			command.
 		
-	</section>
+	
 	<section id="gitreflog_definition">
 		<title>git reflog
 		
@@ -65,7 +65,7 @@ include::./examples/reflog/see.txt[]
 				command.
 			
 		</tip>
-	</section>
+	
 	<section id="gitreflog_example">
 		<title>Example
 		The following example shows how you can use git reflog to
@@ -77,6 +77,6 @@ include::./examples/reflog/see.txt[]
 ----
 include::./examples/reflog/remove.txt[]
 ----
-	</section>
+	
 
-</section>
+

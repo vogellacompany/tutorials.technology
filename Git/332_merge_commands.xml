@@ -21,7 +21,7 @@
 ----
 include::./examples/commandline/git_merge[]
 ----
-	</section>
+	
 	<section id="gitmerge_mergeoptionsstrategies">
 		<title>Specifying merge strategies
 		
@@ -62,7 +62,7 @@ include::./examples/merge/mergeours.txt[]
 include::./examples/merge/mergeoctupus.txt[]
 ----
 
-	</section>
+	
 
 	<section id="gitmerge_mergeoptions">
 		<title>Specifying parameters for the default merge strategy
@@ -124,7 +124,7 @@ include::./examples/merge/mergeours2.txt[]
 				url="https://www.kernel.org/pub/software/scm/git/docs/git-merge.html">Git merge manpage</ulink>
 			.
 		
-	</section>
+	
 	<section id="gitmerge_forcemergecommit">
 		<title>Enforcing the creation of a merge commit
 		
@@ -148,8 +148,8 @@ include::./examples/merge/mergeours2.txt[]
 			keep the history easier to read. A merge commit can be helpful to
 			document that functionality was developed in parallel.
 		
-	</section>
+	
 
 
-</section>
+
 

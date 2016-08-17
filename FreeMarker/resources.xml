@@ -1,11 +1,10 @@
 <section id="resources">
-	<title>Links and Literature</title>
+	<title>Links and Literature
 	<section id="resources_freemarker">
-		<title>FreeMarker homepage</title>
-		<para>
+		<title>FreeMarker homepage
+		
 			<ulink url="http://freemarker.org/">
 				FreeMarker homepage</ulink>
-		</para>
-	</section>
+		
+	
 
-</section>

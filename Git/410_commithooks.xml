@@ -27,7 +27,7 @@
 		
 
 
-	</section>
+	
 	<section id="gitcommithooks_clientserver">
 		<title>Client and server side commit hooks
 		
@@ -59,7 +59,7 @@
 				url="https://www.kernel.org/pub/software/scm/git/docs/githooks.html">Git hooks manual page</ulink>
 			.
 		
-	</section>
+	
 	<section id="gitcommithooks_restrictions">
 		<title>Restrictions
 		Not all Git server implementations support server side commit
@@ -74,6 +74,5 @@
 		Local hooks in the local repository can be removed by the
 			developer.
 		
-	</section>
+	
 
-</section>

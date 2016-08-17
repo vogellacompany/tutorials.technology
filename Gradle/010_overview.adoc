@@ -46,7 +46,7 @@
 			.
 		
 
-	</section>
+	
 	<section id="gradle_projectstasks">
 		<title>Projecs and tasks in Gradle
 		A Gradle build
@@ -61,7 +61,7 @@
 		the
 		source code or generate the
 		Javadoc.
-	</section>
+	
 
 	<section id="gradle_runbuild_buildfile">
 		<title>The Gradle build file - build.gradle
@@ -122,7 +122,7 @@ This build file can also be simplified << can be used as shortcut to define the 
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/starter/runbuild.gradle" />
 			</programlisting>
 		
-	</section>
+	
 
 	<section id="gradle_runbuild_buildfile_comments">
 		<title>Comments in Gradle build files
@@ -134,7 +134,7 @@ This build file can also be simplified << can be used as shortcut to define the 
 		
 
 
-	</section>
+	
 	<section id="gradle_runbuild_projectinformation">
 
 		<title>Project settings and description
@@ -171,6 +171,5 @@ This build file can also be simplified << can be used as shortcut to define the 
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/settings/settings.output" />
 			</programlisting>
 		
-	</section>
+	
 
-</section>

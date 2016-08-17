@@ -17,7 +17,7 @@
 			several commands with an alias.
 		
 
-	</section>
+	
 
 	<section id="alias_example">
 		<title>Alias examples
@@ -80,5 +80,5 @@ include::./examples/alias/alias.txt[]
 				.
 			
 		</warning>
-	</section>
-</section>
+	
+

@@ -1,0 +1,23 @@
+== Import and export
+
+The <code>mysql</code> command line interface allows you to export your database and import existing backups.
+The <code>mysqldump</code> command provides the option to create backup of your database, e.g. export your database.
+
+To export the database use the following command.
+
+<programlisting language="java">
+<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+parse="text" href="./examples/backup/export.txt" />
+</programlisting>
+
+To import an existing SQL dump file use the following command.
+
+
+<programlisting language="java">
+<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+parse="text" href="./examples/backup/import.txt" />
+</programlisting>
+
+
+
+ 

@@ -2,4 +2,4 @@
 	<title>Integration with Ant
 	Gradle supports running Ant tasks via the Groovy AntBuilder.
 	
-</section>
+

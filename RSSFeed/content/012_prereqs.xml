@@ -1,14 +1,14 @@
 <section id="rssoverview_java">
-	<title>Prerequisites</title>
-	<para> As an RSS feed is a XML file we can use the Java XML parsers to
+	<title>Prerequisites
+	 As an RSS feed is a XML file we can use the Java XML parsers to
 		read and create
 		RSS feeds. The following will use the Java Stax XML
 		parser.
-	</para>
-	<para>
+	
+	
 		For an introduction into XML and its usage with Java see
 		<ulink url="http://www.vogella.com/tutorials/JavaXML/article.html"> Java XML Tutorial</ulink>
 		.
-	</para>
-</section>
+	
+
 

@@ -1,13 +1,13 @@
 <section id="sql">
-	<title>SQL - Structured Query Language</title>
+	<title>SQL - Structured Query Language
 	<section id="sql_overview">
-		<title>Overview</title>
-		<para>
+		<title>Overview
+		
 			SQL is a query language for relational databases.
 			This article
 			covers the most important
 			SQL statements and can be used to look up
 			example for standard SQL queries.
-	</para>
-	</section>
-</section>
+	
+	
+

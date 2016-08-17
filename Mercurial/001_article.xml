@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <article>
 	<articleinfo>
-		<title>Mercurial - Tutorial</title>
+		<title>Mercurial - Tutorial
 		<author>
 			<firstname>Lars</firstname>
 			<surname>Vogel</surname>
@@ -12,13 +12,13 @@
 		</copyright>
 		<pubdate>27.06.2011</pubdate>
 		<releaseinfo>
-			<para>Version 1.1</para>
+			Version 1.1
 		</releaseinfo>
 		
 		<abstract id="abstract">
-			<title>Mercurial tutorial</title>
-			<para> This article describes the distributed version control system
-				Mercurial.</para>
+			<title>Mercurial tutorial
+			 This article describes the distributed version control system
+				Mercurial.
 		</abstract>
 	</articleinfo>
 	<?dbhtml-include href="../../web/advertisement/afterTableOfContent"?>

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <article>
 	<articleinfo>
-		<title>Google Bigtable Introduction - Tutorial</title>
+		<title>Google Bigtable Introduction - Tutorial
 		<author>
 			<firstname>Lars</firstname>
 			<surname>Vogel</surname>
@@ -12,14 +12,14 @@
 		</copyright>
 		<pubdate>11.01.2010</pubdate>
 		<releaseinfo>
-			<para>Version 0.7</para>
+			Version 0.7
 		</releaseinfo>
 		
 		<abstract id="abstract">
-			<title>Google Bigtable</title>
-			<para> This article gives an overview of Bigtable the Google solution
+			<title>Google Bigtable
+			 This article gives an overview of Bigtable the Google solution
 				for storing data.
-			</para>
+			
 		</abstract>
 	</articleinfo>
 	

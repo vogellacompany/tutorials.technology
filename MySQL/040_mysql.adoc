@@ -1,0 +1,30 @@
+== Connecting to MySQL
+
+MySQL provides the
+<code>mysql</code>
+command line interface for administrative work.
+
+
+To connect to the
+<wordasword>MySQL</wordasword>
+database server use the following command.
+
+
+<programlisting>
+<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+parse="text" href="./examples/connectMySQL.txt" />
+</programlisting>
+
+
+Once you have created a database on this server you can also
+connect directory to the database with the following command.
+
+
+<programlisting>
+<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+parse="text" href="./examples/connectDbMySQL.txt" />
+</programlisting>
+
+The default port of the database server is 3306, e.g., the Java
+JDBC connection string to connect to the iotcloud database would be
+jdbc:mysql://localhost:3306/iotcloud. 

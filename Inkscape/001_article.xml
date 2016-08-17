@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <article>
 	<articleinfo>
-		<title>Inkscape - Tutorial</title>
+		<title>Inkscape - Tutorial
 		<author>
 			<firstname>Lars</firstname>
 			<surname>Vogel</surname>
@@ -11,14 +11,14 @@
 		</copyright>
 		<pubdate>02.01.2014</pubdate>
 		<releaseinfo>
-			<para>Version 0.1</para>
+			Version 0.1
 		</releaseinfo>
 		
 		<abstract id="abstract">
-			<title>Inkscape tutorial</title>
-			<para>This tutorial is a small introduction into the usage of
+			<title>Inkscape tutorial
+			This tutorial is a small introduction into the usage of
 				Inkscape for creating svg graphics.
-			</para>
+			
 		</abstract>
 	</articleinfo>
 	<?dbhtml-include href="../../web/advertisement/afterTableOfContent"?>

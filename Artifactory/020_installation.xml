@@ -1,29 +1,29 @@
 <section id="artifactory_repository_install">
-	<title>Installation of Artifactory</title>
-	<para>
+	<title>Installation of Artifactory
+	
 		In order to install the open source version of Artifactory you need to
 		visit
 		<ulink url="https://www.jfrog.com/open-source/">Artifactory Open Source</ulink>
 		and download the ZIP
 		version or the RPM version. Even a Docker image
 		can be used to run Artifactory.
-	</para>
-	<para>
+	
+	
 		<mediaobject>
 			<imageobject>
 				<imagedata fileref="images/artifactory-download.png" />
 			</imageobject>
 		</mediaobject>
-	</para>
-	<para>
+	
+	
 		The ZIP version can be extracted into an arbitrary
 		folder, e.g.,
 		the
 		user home directory
 		<filename>${user-home}/artifactory</filename>
 		.
-	</para>
-	<para>
+	
+	
 		Inside the extracted folder there is a
 		<filename>bin</filename>
 		folder, which contains startup files suitable for Linux/Mac and
@@ -35,11 +35,10 @@
 		the
 		<filename>artifactory.bat</filename>
 		can be executed.
-	</para>
-	<para>
+	
+	
 		Inside the
 		<filename>bin</filename>
 		folder are other options to run Artifactory, for examples it also can
 		be run as a service.
-	</para>
-</section>
+	

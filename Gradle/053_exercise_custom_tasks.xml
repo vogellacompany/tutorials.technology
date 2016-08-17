@@ -9,7 +9,7 @@
 					parse="text" href="./examples/wrapper/wrappertask.gradle" />
 			</programlisting>
 		
-	</section>
+	
 	<section id="exercise_custom_copy_task">
 		<title>Exercise: Creating a Copy Task
 		The Copy task type can be used to specify a task, which is able
@@ -40,7 +40,7 @@
 			_destination_
 			folder.
 		
-	</section>
+	
 	<section id="exercise_custom_external_file_task">
 		<title>Exercise: Specifying a custom Task in another gradle file
 		
@@ -98,5 +98,5 @@
 					parse="text" href="./examples/tasks/Checkwebsite.gradle" />
 			</programlisting>
 		
-	</section>
-</section>
+	
+

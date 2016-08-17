@@ -1,10 +1,9 @@
 <section id="installation">
-	<title>Installation</title>
+	<title>Installation
 
-	<para>
+	
 		Download the h2.jar from
 		<ulink url="http://h2database.com/html/download.html"></ulink>
 		and place it into the classpath of your Java program to use the
 		database.
-	</para>
-</section>
+	

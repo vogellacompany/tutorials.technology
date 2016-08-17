@@ -1,15 +1,15 @@
 	<section id="dbsetup">
-	<title>Database setup</title>
-	<para> After installation of a database management system you need to
+	<title>Database setup
+	 After installation of a database management system you need to
 		create the database itself, create users and grant access to the
 		database. Some database management system create defaults but it is
-		good to know how to create them yourself. </para>
+		good to know how to create them yourself. 
 	<section id="dbsetup_schema">
-		<title>Database schema</title>
-		<para> The following explains the creation, deletion and usage of
-			database schemas. </para>
+		<title>Database schema
+		 The following explains the creation, deletion and usage of
+			database schemas. 
 		<table frame='all'>
-		<title>Manage your databases</title>
+		<title>Manage your databases
 			<tgroup cols='2' align='left' colsep='1' rowsep='1'>
 				<colspec colname='c1' />
 				<colspec colname='c2' />
@@ -49,14 +49,14 @@
 				</tbody>
 			</tgroup>
 		</table>
-	</section>
+	
 	<section id="db_setup_user">
-		<title>User Maintenance</title>
-		<para>The following demonstrate how to create a user and how to grant
-			access rights to a user. </para>
+		<title>User Maintenance
+		The following demonstrate how to create a user and how to grant
+			access rights to a user. 
 
 		<table frame='all'>
-		<title>User maintenance</title>
+		<title>User maintenance
 			<tgroup cols='2' align='left' colsep='1' rowsep='1'>
 				<colspec colname='c1' />
 				<colspec colname='c2' />
@@ -88,5 +88,4 @@
 			</tgroup>
 		</table>
 
-	</section>
-</section>
+	

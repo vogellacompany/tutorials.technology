@@ -1,12 +1,12 @@
 <section id="freemarker">
-	<title>Introduction to FreeMarker</title>
-	<para>
+	<title>Introduction to FreeMarker
+	
 		<wordasword>FreeMarker</wordasword>
 		is a Java-based template engine which can be used in
 		stand-alone or
 		servlet-based Java programs.
-	</para>
-	<para>
+	
+	
 		In
 		FreeMarker
 		you define templates, which are text files that contain
@@ -22,8 +22,8 @@
 		output is
 		generated based on
 		this input.
-	</para>
-	<para>
+	
+	
 		The input of templates is a bunch of named variables that you usually
 		provide
 		as a
@@ -46,8 +46,8 @@
 		syntax should be used instead of
 		<code>myObject.getMyProperty()</code>
 		.
-	</para>
-	<para>
+	
+	
 		The output of templates is written into a
 		<code>Writer</code>
 		that you provide,
@@ -57,8 +57,8 @@
 		into a
 		<code>String</code>
 		, etc.
-	</para>
-	<para>
+	
+	
 		It is configurable from where FreeMarker reads the templates;
 		commonly
 		used options are
@@ -73,6 +73,6 @@
 		templates directly from
 		<code>String</code>
 		objects.
-	</para>
+	
 
-</section>
+
