@@ -19,8 +19,8 @@
 			<title>Artifactory Repository Manager
 			 This article describes how to use and install the Artifactory Repository Manager.
 			
-		</abstract>
-	</articleinfo>
+		
+	
 	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="010_overview.xml" />
 	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="020_installation.xml" />
 	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="030_configuration.xml" />

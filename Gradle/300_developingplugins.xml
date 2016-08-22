@@ -14,16 +14,16 @@
 			To create a custom Gradle plug-in you have to create the following directories for your Gradle project. The java or
 			groovy directory is only required if you want to use Java or Groovy for writing your plugin.
 			<itemizedlist>
-				<listitem>
+				*
 					projectroot/plugin/src/main/java
-				</listitem>
-				<listitem>
+				
+				*
 					projectroot/plugin/src/main/resources/META-INF/gradle-plugins
-				</listitem>
-				<listitem>
+				
+				*
 					projectroot/plugin/src/main/groovy
-				</listitem>
-			</itemizedlist>
+				
+			
 		
 		
 			Change your main

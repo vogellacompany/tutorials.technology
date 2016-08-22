@@ -13,8 +13,8 @@
 		<mediaobject>
 			<imageobject>
 				<imagedata fileref="images/nexus_default_config.png" />
-			</imageobject>
-		</mediaobject>
+			
+		
 	
 	<section>
 		<title>User Settings
@@ -32,8 +32,8 @@
 			<mediaobject>
 				<imageobject>
 					<imagedata fileref="images/login_link.png" />
-				</imageobject>
-			</mediaobject>
+				
+			
 		
 		
 			After logging in the credentials can be changed in the profile
@@ -43,14 +43,14 @@
 			<mediaobject>
 				<imageobject>
 					<imagedata fileref="images/login_profile.png" />
-				</imageobject>
-			</mediaobject>
+				
+			
 		
 		
 			<mediaobject>
 				<imageobject>
 					<imagedata fileref="images/profile_update_password.png" />
-				</imageobject>
-			</mediaobject>
+				
+			
 		
 	

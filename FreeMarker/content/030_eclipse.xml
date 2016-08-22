@@ -24,11 +24,11 @@
 		<mediaobject>
 			<imageobject>
 				<imagedata fileref="images/jboss-updatesite.png"/>
-			</imageobject>
+			
 			<textobject>
 				<phrase>Add the JBoss Tools update site and search for FreeMarker</phrase>
 			</textobject>
-		</mediaobject>
+		
 	
 
 

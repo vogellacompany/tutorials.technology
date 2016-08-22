@@ -40,7 +40,7 @@ LARSLINEBREAK
 			`git reset`
 			command performs the following:
 			<orderedlist>
-				<listitem>
+				*
 					
 						If you specify the
 						`--soft`
@@ -50,8 +50,8 @@ LARSLINEBREAK
 						commited
 						included in commits which are reseted are staged.
 					
-				</listitem>
-				<listitem>
+				
+				*
 					
 						If you specify the
 						`--mixed`
@@ -63,8 +63,8 @@ LARSLINEBREAK
 						option to remove commits but keep all the work you have done. You can do additional changes, stage changes and
 						commit again. This way you can build up a different commit history.
 					
-				</listitem>
-				<listitem>
+				
+				*
 					
 						If you specify the
 						`--hard`
@@ -76,7 +76,7 @@ LARSLINEBREAK
 						removes the changes you have done between the original
 						commit and the one you reset to.
 					
-				</listitem>
+				
 			</orderedlist>
 		
 

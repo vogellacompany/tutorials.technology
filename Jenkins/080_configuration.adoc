@@ -11,11 +11,11 @@ Select _Manage Jenkins_ and afterwards _Configure System_.
 <mediaobject>
 	<imageobject>
 		<imagedata fileref="images/jenkins10.png" />
-	</imageobject>
+	
 	<textobject>
 		<phrase>Jenkins at first startup</phrase>
 	</textobject>
-</mediaobject>
+
 		
 		
 Enter the correct path to your JDK, Apache Ant and Maven and press the _Save_ button below. 
@@ -25,11 +25,11 @@ Jenkins can also install these for your automatically.
 <mediaobject>
 	<imageobject>
 		<imagedata fileref="images/jenkins20.png" />
-	</imageobject>
+	
 	<textobject>
 		<phrase>Configuring Jenkins</phrase>
 	</textobject>
-</mediaobject>
+
 		
 	
 
@@ -46,11 +46,11 @@ Also create entries for the users you want to add in the next step.
 <mediaobject>
 	<imageobject>
 		<imagedata fileref="images/jenkins30.png" scale="30" />
-	</imageobject>
+	
 	<textobject>
 		<phrase>Access restrictions</phrase>
 	</textobject>
-</mediaobject>
+
 		
 		
 On the login page, select _Create an account_ to create the users you just gave access.
@@ -59,22 +59,22 @@ On the login page, select _Create an account_ to create the users you just gave 
 <mediaobject>
 	<imageobject>
 		<imagedata fileref="images/jenkins40.png" />
-	</imageobject>
+	
 	<textobject>
 		<phrase>Create Jenkins account</phrase>
 	</textobject>
-</mediaobject>
+
 		
 
 		
 <mediaobject>
 	<imageobject>
 		<imagedata fileref="images/jenkins50.png" />
-	</imageobject>
+	
 	<textobject>
 		<phrase>Sign up a new Jenkins user</phrase>
 	</textobject>
-</mediaobject>
+
 		
 
 		
@@ -84,11 +84,11 @@ Go to_Manage Jenkins_, _Manage and Assign Roles_ and then _Assign Roles_ to gran
 <mediaobject>
 	<imageobject>
 		<imagedata fileref="images/jenkins60.png" />
-	</imageobject>
+	
 	<textobject>
 		<phrase>Sign up a new Jenkins user</phrase>
 	</textobject>
-</mediaobject>
+
 		
 		
 Navigate to _Manage Roles_ to define access restrictions in detail. 
@@ -98,11 +98,11 @@ The following grants unregistered users read-only access to your build jobs that
 <mediaobject>
 	<imageobject>
 		<imagedata fileref="images/jenkins70.png" />
-	</imageobject>
+	
 	<textobject>
 		<phrase>Sign up a new Jenkins user</phrase>
 	</textobject>
-</mediaobject>
+
 		
 	
 	<section id="jenkinsconfiguration_ssh">

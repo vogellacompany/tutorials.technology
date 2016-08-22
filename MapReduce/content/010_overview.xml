@@ -87,21 +87,21 @@
 		
 			Other applications are:
 			<itemizedlist>
-				<listitem>
+				*
 					Distributed Grep
 				
-				</listitem>
-				<listitem>Reverse Web-Link Graph: Map function outputs (URL target,
+				
+				*Reverse Web-Link Graph: Map function outputs (URL target,
 						source)
 						from an input webpage (source). The reduce function
 						concatenates the list of all source URLs associated with a give
 						target URL and returns (target, list(sources))
 				
-				</listitem>
-				<listitem>Word count in a number of documents
 				
-				</listitem>
-			</itemizedlist>
+				*Word count in a number of documents
+				
+				
+			
 
 		
 		 MapReduce can also be applied to lots of other problems. For

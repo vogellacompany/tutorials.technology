@@ -35,8 +35,8 @@
 			<mediaobject>
 				<imageobject>
 					<imagedata fileref="images/maven-publish-tasks.png" />
-				</imageobject>
-			</mediaobject>
+				
+			
 		
 		
 			The deployment to a remote repository can be done like this:

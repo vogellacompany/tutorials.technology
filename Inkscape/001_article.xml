@@ -19,8 +19,8 @@
 			This tutorial is a small introduction into the usage of
 				Inkscape for creating svg graphics.
 			
-		</abstract>
-	</articleinfo>
+		
+	
 	<?dbhtml-include href="../../web/advertisement/afterTableOfContent"?>
 	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="./001_overview.xml" />
 	<?dbhtml-include href="../../web/advertisement/inBetween01"?>

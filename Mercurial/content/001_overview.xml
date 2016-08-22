@@ -19,16 +19,16 @@
 			The main advantages of distributed version control systems are
 
 			<itemizedlist>
-				<listitem>Speed: As the whole repository is offline available you can
+				*Speed: As the whole repository is offline available you can
 						much faster search and compare
 					
-				</listitem>
-				<listitem>
+				
+				*
 					Commits: Everyone can commit to his own branch
 					
-				</listitem>
+				
 
-			</itemizedlist>
+			
 		
 		
 			Another popular distributed version control systems is

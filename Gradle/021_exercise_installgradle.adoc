@@ -50,11 +50,11 @@
 			<mediaobject>
 				<imageobject>
 					<imagedata fileref="images/system_settings.png" scale="50" />
-				</imageobject>
+				
 				<textobject>
 					<phrase>Windows System Settings</phrase>
 				</textobject>
-			</mediaobject>
+			
 		
 		
 			First the
@@ -70,11 +70,11 @@
 				<imageobject>
 					<imagedata fileref="images/user_and_system_variables.png"
 						scale="50" />
-				</imageobject>
+				
 				<textobject>
 					<phrase>Windows User and System Variables</phrase>
 				</textobject>
-			</mediaobject>
+			
 		
 		
 			In the
@@ -93,11 +93,11 @@
 			<mediaobject>
 				<imageobject>
 					<imagedata fileref="images/path_variables.png" scale="50" />
-				</imageobject>
+				
 				<textobject>
 					<phrase>Windows Path Variables</phrase>
 				</textobject>
-			</mediaobject>
+			
 		
 	
 	<section id="exercise_installgradle_linux_mac">

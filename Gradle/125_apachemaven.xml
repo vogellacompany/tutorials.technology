@@ -28,8 +28,8 @@
 		<mediaobject>
 			<imageobject>
 				<imagedata fileref="images/gradle_init_pom.png" />
-			</imageobject>
-		</mediaobject>
+			
+		
 	
 	The init task depends on the wrapper task so that also a
 		Gradle wrapper is created.

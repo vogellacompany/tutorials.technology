@@ -20,8 +20,8 @@
 			 This tutorial lists important SQL statements which you need to
 				use to create, update and read from database tables.
 			
-		</abstract>
-	</articleinfo>
+		
+	
 		<?dbhtml-include href="../../web/advertisement/afterTableOfContent"?>
 	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/001_overview.xml" />
 	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/050_tables.xml" />

@@ -10,11 +10,11 @@
 			<mediaobject>
 				<imageobject>
 					<imagedata fileref="images/gradle-logo.png"/>
-				</imageobject>
+				
 				<textobject>
 					<phrase>Gradle logo</phrase>
 				</textobject>
-			</mediaobject>
+			
 		
 		
 			_Gradle_

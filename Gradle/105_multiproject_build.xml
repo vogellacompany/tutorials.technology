@@ -19,25 +19,25 @@
 		
 			For instance there might be this project structure:
 			<itemizedlist>
-				<listitem>
+				*
 					root_project
 					
 					<itemizedlist>
-						<listitem>
+						*
 							core
-						</listitem>
-						<listitem>
+						
+						*
 							ui
-						</listitem>
-						<listitem>
+						
+						*
 							util
-						</listitem>
-						<listitem>
+						
+						*
 							settings.gradle
-						</listitem>
-					</itemizedlist>
-				</listitem>
-			</itemizedlist>
+						
+					
+				
+			
 		
 		
 			Having this project structure the
@@ -69,8 +69,8 @@
 			<mediaobject>
 				<imageobject>
 					<imagedata fileref="images/projects_task.png" />
-				</imageobject>
-			</mediaobject>
+				
+			
 		
 	
 	<section>

@@ -26,19 +26,19 @@
 			This plug-ins assume
 			a certain setup of your Groovy project.
 			<itemizedlist>
-				<listitem>
+				*
 					src/main/groovy contains the Groovy source code
-				</listitem>
-				<listitem>
+				
+				*
 					src/test/groovy contains the Groovy tests
-				</listitem>
-				<listitem>
+				
+				*
 					src/main/java contains the Java source code
-				</listitem>
-				<listitem>
+				
+				*
 					src/test/java contains the Java tests
-				</listitem>
-			</itemizedlist>
+				
+			
 
 			If you
 			follow this setup, the following build file is

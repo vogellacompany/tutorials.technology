@@ -27,8 +27,8 @@
 				This tutorial describes how to use
 				the Gradle build tool.
 			_
-		</abstract>
-	</articleinfo>
+		
+	
 
 	<?dbhtml-include href="../../web/advertisement/afterTableOfContent"?>
 	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="010_overview.xml" />

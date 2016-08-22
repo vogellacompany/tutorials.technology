@@ -28,8 +28,8 @@
 				Java. It uses the Stax XML API. Eclipse
 				is used as the Java IDE and Java7 is used.
 			
-		</abstract>
-	</articleinfo>
+		
+	
 	<?dbhtml-include href="../../web/advertisement/afterTableOfContent"?>
 	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/010_overview.xml" />
 	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/012_prereqs.xml" />

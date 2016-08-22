@@ -12,8 +12,8 @@
 		<mediaobject>
 			<imageobject>
 				<imagedata fileref="images/artifactory-download.png" />
-			</imageobject>
-		</mediaobject>
+			
+		
 	
 	
 		The ZIP version can be extracted into an arbitrary

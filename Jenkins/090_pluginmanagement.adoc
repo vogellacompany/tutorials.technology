@@ -157,9 +157,9 @@ You can manually restart Jenkins by adding `restart` as URL parameter.
 <mediaobject>
 	<imageobject>
 		<imagedata fileref="images/jenkinsrestart10.png" />
-	</imageobject>
+	
 	<textobject>
 		<phrase>How to manually restart Jenkins</phrase>
 	</textobject>
-</mediaobject>
+
 		

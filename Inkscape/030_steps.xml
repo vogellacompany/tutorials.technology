@@ -7,7 +7,7 @@
 			following
 			steps:
 			<itemizedlist>
-				<listitem>
+				*
 					
 						Select
 						<menuchoice>
@@ -18,8 +18,8 @@
 						alpha channel
 						to 0.
 					
-				</listitem>
-				<listitem>
+				
+				*
 					
 						Ensure that all other elements in the picture have also set
 						their
@@ -29,8 +29,8 @@
 							<guisubmenu>Fill and Stroke</guisubmenu>
 						</menuchoice>
 					
-				</listitem>
-				<listitem>
+				
+				*
 					
 						Afterwards select
 						<menuchoice>
@@ -39,8 +39,8 @@
 						</menuchoice>
 						and save a file with a .png extension.
 					
-				</listitem>
-			</itemizedlist>
+				
+			
 		
 
 

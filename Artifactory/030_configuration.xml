@@ -26,8 +26,8 @@
 			<mediaobject>
 				<imageobject>
 					<imagedata fileref="images/artifactory-artifacts-ui.png" />
-				</imageobject>
-			</mediaobject>
+				
+			
 		
 		
 			The
@@ -39,8 +39,8 @@
 			<mediaobject>
 				<imageobject>
 					<imagedata fileref="images/artifactory-ui-set-me-up.png" />
-				</imageobject>
-			</mediaobject>
+				
+			
 		
 		
 			But concerning build tool configuration refer to the <ulink url="http://www.vogella.com/tutorials/ApacheMaven/article.html">Maven</ulink> and <ulink url="http://www.vogella.com/tutorials/Gradle/article.html">Gradle</ulink> tutorials.

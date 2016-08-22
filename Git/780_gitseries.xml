@@ -4,35 +4,35 @@
 		This tutorial is part of a series about the Git version control
 		system. See the other tutorials for more information.
 		<itemizedlist>
-			<listitem>
+			*
 				
 					<ulink url="http://www.vogella.com/tutorials/Git/article.html">
 						Introduction to Git</ulink>
 				
-			</listitem>
-			<listitem>
+			
+			*
 				
 					<ulink url="http://www.vogella.com/tutorials/GitHub/article.html">
 						Using Github</ulink>
 				
-			</listitem>
-			<listitem>
+			
+			*
 				
 					<ulink url="http://www.vogella.com/tutorials/GitHosting/article.html">
 						Hosting Git repositories at Bitbucket or on your own server</ulink>
 				
-			</listitem>
-			<listitem>
+			
+			*
 				
 					<ulink url="http://www.vogella.com/tutorials/GitWorkflows/article.html">
 						Typical workflows with Git</ulink>
 				
-			</listitem>
-			<listitem>
+			
+			*
 				
 					<ulink url="http://www.vogella.com/tutorials/EclipseGit/article.html">EGit - Teamprovider for Eclipse</ulink>
 				
-			</listitem>
-		</itemizedlist>
+			
+		
 	
 

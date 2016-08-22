@@ -19,8 +19,8 @@
 			<title>H2 database engine
 			 This tutorial explains how to install H2 database engine.
 			
-		</abstract>
-	</articleinfo>
+		
+	
 	<?dbhtml-include href="../../web/advertisement/afterTableOfContent"?>
 	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="010_overview.xml" />
 	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="020_installation.xml" />

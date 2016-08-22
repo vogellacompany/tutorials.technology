@@ -15,13 +15,13 @@
 			a certain setup of your Java project (similar to
 			Maven).
 			<itemizedlist>
-				<listitem>
+				*
 					src/main/java contains the Java source code
-				</listitem>
-				<listitem>
+				
+				*
 					src/test/java contains the Java tests
-				</listitem>
-			</itemizedlist>
+				
+			
 
 			If you
 			follow this setup, the following build file is
@@ -83,8 +83,8 @@
 			<mediaobject>
 				<imageobject>
 					<imagedata fileref="images/gradle_init_java_library.png" />
-				</imageobject>
-			</mediaobject>
+				
+			
 		
 		
 			The

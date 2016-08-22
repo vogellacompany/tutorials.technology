@@ -20,8 +20,8 @@
 			 This article gives an overview of Bigtable the Google solution
 				for storing data.
 			
-		</abstract>
-	</articleinfo>
+		
+	
 	
 	<?dbhtml-include href="../../web/advertisement/afterTableOfContent"?>
 	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/010_overview.xml" />

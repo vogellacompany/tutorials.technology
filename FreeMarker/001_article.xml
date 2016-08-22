@@ -23,8 +23,8 @@
 				and how can you generate output based on these templates. It also
 				demonstrates the usage of macros.
 			
-		</abstract>
-	</articleinfo>
+		
+	
 	<?dbhtml-include href="../../web/advertisement/afterTableOfContent"?>
 	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/010_overview.xml" />
 	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/020_installation.xml" />

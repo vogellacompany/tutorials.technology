@@ -21,8 +21,8 @@
 			<mediaobject>
 				<imageobject>
 					<imagedata fileref="images/gradle_tasks_task.png"/>
-				</imageobject>
-			</mediaobject>
+				
+			
 		
 		
 			Gradle also tries to give some guidiance for the usage of
@@ -74,8 +74,8 @@
 			<mediaobject>
 				<imageobject>
 					<imagedata fileref="images/gradle_starter_hello_task_command_line.png"/>
-				</imageobject>
-			</mediaobject>
+				
+			
 		
 		
 			Tasks without a group are considered as private tasks.

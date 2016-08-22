@@ -4,23 +4,23 @@
 	This can be created like this:
 	
 		<itemizedlist>
-			<listitem>
+			*
 				Login to the nexus (http://localhost:8081/nexus/) with User
 						<parameter>admin</parameter> and password
 					<parameter>admin123</parameter>.
-			</listitem>
-			<listitem>
+			
+			*
 				Click on Repositories on the right hand side.
-			</listitem>
-			<listitem>
+			
+			*
 				Select <guilabel>Add...</guilabel> > <guilabel>Hosted Repository</guilabel>
 					and use the following data:<mediaobject>
 						<imageobject>
 							<imagedata fileref="images/new_nexus_repository.png"/>
-						</imageobject>
-					</mediaobject>
-			</listitem>
-		</itemizedlist>
+						
+					
+			
+		
 	
 	Now you got a custom repository, which is hosted on your local nexus installation.
 	

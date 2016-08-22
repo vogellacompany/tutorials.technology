@@ -25,8 +25,8 @@
 			<mediaobject>
 				<imageobject>
 					<imagedata fileref="./images/mvncentral_p2_repo.png" />
-				</imageobject>
-			</mediaobject>
+				
+			
 		
 		
 			These two downloaded
@@ -47,8 +47,8 @@
 			<mediaobject>
 				<imageobject>
 					<imagedata fileref="./images/plugin_console_with_p2_plugins.png" />
-				</imageobject>
-			</mediaobject>
+				
+			
 		
 	
 	<section>
@@ -62,8 +62,8 @@
 			<mediaobject>
 				<imageobject>
 					<imagedata fileref="./images/create_proxy_repo.png" />
-				</imageobject>
-			</mediaobject>
+				
+			
 		
 		
 			A
@@ -87,8 +87,8 @@
 			<mediaobject>
 				<imageobject>
 					<imagedata fileref="./images/new_p2_proxy_repo.png" />
-				</imageobject>
-			</mediaobject>
+				
+			
 		
 		Finally this must be saved and then the new proxy will be
 			created.
@@ -96,8 +96,8 @@
 			<mediaobject>
 				<imageobject>
 					<imagedata fileref="./images/final_p2_proxy_repo.png" />
-				</imageobject>
-			</mediaobject>
+				
+			
 		
 		
 			After settings this up, a target definition can make use of this
@@ -108,7 +108,7 @@
 			<mediaobject>
 				<imageobject>
 					<imagedata fileref="./images/nexus_updatesite_consumer.png" />
-				</imageobject>
-			</mediaobject>
+				
+			
 		
 	

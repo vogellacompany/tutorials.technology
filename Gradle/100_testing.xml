@@ -13,18 +13,18 @@
 			are identified
 			by:
 			<itemizedlist>
-				<listitem>
+				*
 					Class or a super class extends TestCase or GroovyTestCase
 					
-				</listitem>
-				<listitem>
+				
+				*
 					Class or a super class is annotated with @RunWith
-				</listitem>
-				<listitem>
+				
+				*
 					Class or a super class contain a method annotated with @Test
 					
-				</listitem>
-			</itemizedlist>
+				
+			
 		
 		
 			You can set the
