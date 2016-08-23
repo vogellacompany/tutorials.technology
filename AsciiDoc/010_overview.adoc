@@ -96,7 +96,7 @@ You can import files via the include macro. This also works for source code incl
 ....
 [source,java]
 ----
-\include::examples/source.java[]
+\include::res/source.java[]
 ----
 ....
 
@@ -104,7 +104,7 @@ Result:
 
 [source,java]
 ----
-include::examples/source.java[]
+include::res/source.java[]
 ----
 === Importing images
 
@@ -112,6 +112,12 @@ You can import images with ´image::´ for the HTML output you can add the ´alt
 ----
 image::committingprocess10.png[Git commit process] 
 ----
+
+NOTE: If the images are located in a certain directory, you can specify this folder in the header of your document via the following:
+
+....
+:imagesdir: ./img
+....
 
 === Defining lists
 
