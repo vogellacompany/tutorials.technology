@@ -1,0 +1,5 @@
+
+sudo apt-get install kubuntu-desktop
+Select kdm as dm
+sudo apt-get remove ubuntu-desktop
+sudo apt-get autoremove

@@ -1,0 +1,3 @@
+
+sudo apt-get install subversion libapache2-svn 
+	

@@ -1,0 +1,5 @@
+
+# Search hello in all files and
+# subdirectories of the current directory
+grep -r "hello" .
+

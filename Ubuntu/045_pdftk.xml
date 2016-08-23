@@ -1,0 +1,45 @@
+<section id="pdf">
+	<title>PDF files
+	<section id="pdftk">
+		<title>Command line tool pdftk
+		
+			The "pdftk" command line tool allows to rework existing pdf
+			files, e.g., extract pages or change the orientation of the pdf file.
+		
+		You can install it via the following command.
+		
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/pdf/install.txt" />
+			</programlisting>
+		
+		
+			For example, to extract pages from a pdf document you can use
+			the
+			"cat" option.
+		
+
+		
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/pdf/extract.txt" />
+			</programlisting>
+		
+	</section>
+	<section id="pdf_soffice">
+		<title>Converting .odp file to pdf in batch
+		
+			If you have LibreOffice installed, you can convert .odp files on
+			the command line to pdf files.
+		
+
+		
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/pdf/soffice.txt" />
+			</programlisting>
+		
+
+
+	</section>
+</section>

@@ -1,0 +1,2 @@
+# parameter -H defines that the input is an XML file
+hunspell -d en_US -H -l input.xml

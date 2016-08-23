@@ -1,0 +1,2 @@
+
+find . -name "*.java" -print0 | xargs -0 grep -i ".*Legacy.*xmi"

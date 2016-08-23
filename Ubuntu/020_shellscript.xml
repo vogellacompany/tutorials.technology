@@ -1,0 +1,45 @@
+== ShellScript
+
+=== Writing a shell script
+
+Shell scripts are short programs that are written in a shell programming language and interpreted by a shell process in the console. 
+You can create these programs via a text editor and execute them in a terminal window.
+
+Create for example the following text file.
+
+	<programlisting language="bourne">
+<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+	parse="text" href="./examples/shell/example.sh" />
+	</programlisting>
+
+You also have to make this file executable via:
+Create for example the following text file "yourScript".
+
+	<programlisting language="bourne">
+<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+	parse="text" href="./examples/shell/chmod.txt" />
+	</programlisting>
+
+
+Now you can call the shell script via `./yourScript`.
+It should print "Hello, world" to the console.
+
+
+=== Batch renaming files
+
+The following is an example how to recursively rename all files called "article.xml" to "001_article.xml" from the current home directory.
+
+[source,terminal]
+----
+include::res/shell/renamefiles.sh[]
+----
+
+For to rename all extensions from ".xml" to ".adoc" you can use:
+
+[source,terminal]
+----
+find . -name "*.xml" -exec rename 's/xml/adoc/;' '{}' \;
+----
+	
+
+

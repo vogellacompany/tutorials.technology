@@ -1,0 +1,242 @@
+== Using the console
+	
+To open a console open the
+<wordasword>Dash</wordasword>
+and type in
+<guilabel>Terminal</guilabel>
+. Alternatively you can use the shortcut
+<keycombo>
+	<keycap>Ctrl</keycap>
+	<keycap>Alt</keycap>
+	<keycap>T</keycap>
+</keycombo>
+.
+This will open a console window which allows you to issue commands.
+	
+	<section id="commands_editor">
+<title>Editor
+
+	Ubuntu offers several editors which are installed by default.
+	The most
+	common command line editor is
+	<wordasword>vim</wordasword>
+	.
+
+
+	To install
+	<wordasword>vim</wordasword>
+	on your Ubuntu machine use the following command.
+
+
+	<programlisting language="bourne">
+<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+	parse="text" href="./examples/vim/install.txt" />
+	</programlisting>
+
+
+
+
+	Start
+	<wordasword>vim</wordasword>
+	from the
+	command line. vim has two modes, one editing
+	mode
+	and other
+	mode in
+	which you can move within the file. To
+	start
+	editing
+	the file,
+	use
+	the
+	"i" key.
+	Once you want to save
+	press the
+	escape button
+	and
+	write
+	":wq".
+	If you
+	want to exit without
+	saving, use ":q!".
+
+
+A simple editor with a graphical user interface is gedit. 
+	</section>
+
+
+
+	<section id="commands_find">
+<title>Find files
+The following demonstrates the usage of the find command.
+
+	<table frame='all'>
+<tgroup cols='2' align='left' colsep='1' rowsep='1'>
+	<colspec colname='c1' />
+	<colspec colname='c2' />
+	<thead>
+<row>
+	<entry>Command</entry>
+	<entry>Description</entry>
+</row>
+	</thead>
+	<tbody>
+
+<row>
+	<entry>
+find dir -name "pattern" 2>/dev/null
+	</entry>
+	<entry>
+Finds all files which recursively apply to the
+pattern
+"pattern" starting from the
+directory "dir". The 2> sends all
+error
+messages to the null device.
+	</entry>
+</row>
+
+<row>
+	<entry>
+find . -name '*.java' -newer build.xml -print
+	</entry>
+	<entry>Search for all java files newer then the file build.xml
+	</entry>
+</row>
+
+<row>
+	<entry>
+find . -name '*.java' -mtime +7 -print
+	</entry>
+	<entry>Search for all java files newer then 7 dates
+	</entry>
+</row>
+
+<row>
+	<entry>
+find . -name '*.java' -mtime +7 -print0 | xargs -0 grep
+'swt'
+	</entry>
+	<entry>Search for all java files newer then 7 dates using
+"swt".
+The -0 options is used for files and folders with spaces.
+	</entry>
+</row>
+
+
+
+
+
+	</tbody>
+</tgroup>
+	</table>
+
+
+	The
+	<code>find</code>
+	command can also be combined with the grep command. See
+	<ulink url="http://www.vogella.com/tutorials/UnixGrep/article.html">Using the grep command</ulink>
+	.
+
+	</section>
+	<section id="commands_foldersize">
+<title>Calculate the size of a folder
+
+	The following calculates the size (disk usage))of a folder
+	"folder1" in
+	megabyte.
+
+
+	<programlisting language="bourne">
+<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+	parse="text" href="./examples/du/du.txt" />
+	</programlisting>
+
+	</section>
+	<section id="commands_rm">
+<title>Remove files
+
+	Use the command
+	<code>rm pattern</code>
+	to delete files. Be careful with the usage of this command. There is
+	no way to undo deletions.
+
+
+
+	<programlisting language="bourne">
+<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+	parse="text" href="./examples/rm/rm.txt" />
+	</programlisting>
+
+
+	</section>
+	<section id="commands_ps">
+<title>Processes
+To see all running processes on your system use
+
+	<programlisting language="bourne">
+<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+	parse="text" href="./examples/process/process" />
+	</programlisting>
+
+	</section>
+
+	<section id="commands_chown">
+<title>Change owner of files and directories
+<table frame='all'>
+	<tgroup cols='2' align='left' colsep='1' rowsep='1'>
+<colspec colname='c1' />
+<colspec colname='c2' />
+<thead>
+	<row>
+<entry>Command</entry>
+<entry>Description</entry>
+	</row>
+</thead>
+<tbody>
+	<row>
+<entry>chown -R www-data:www-data mydir</entry>
+<entry> Change recursively the owner and the group of the
+	directory "mydir" and its subdirectories.
+</entry>
+	</row>
+</tbody>
+	</tgroup>
+</table>
+	</section>
+	<section id="commands_link">
+<title>Creating links
+
+	You can create a soft link to a file or directory using the
+	following command.
+
+
+
+	<programlisting language="bourne">
+<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+	parse="text" href="./examples/link/soft.txt" />
+	</programlisting>
+
+	</section>
+
+	<section id="commands_zip">
+<title>Zipping files
+
+	To zip or unzip files on the command line you can use the following
+	commands.
+	
+<programlisting language="bourne">
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+parse="text" href="./examples/zip/zip.txt" />
+</programlisting>
+	
+=== Remove tailing whitespace from files
+        
+To remove tailing whitespace from existing files you can use the following command.
+
+[source,terminal]
+----
+include::res/ack/whitespace.txt[]
+----
+
+        

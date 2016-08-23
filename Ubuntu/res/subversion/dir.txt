@@ -1,0 +1,3 @@
+
+sudo svnadmin create /home/svn
+sudo mkdir /home/svn

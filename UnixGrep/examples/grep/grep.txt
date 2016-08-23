@@ -1,0 +1,2 @@
+
+echo "hallo hallo" | grep -P --color "h\w"

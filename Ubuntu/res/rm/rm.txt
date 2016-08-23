@@ -1,0 +1,6 @@
+
+# Remove all files which ends with .class in the current directory
+rm *.class
+# find all files which ends with .class recursive in all directories below the current one and delete them
+find . -type f -name "*.class" -exec rm -vf {} \;
+ 

@@ -1,0 +1,67 @@
+<section id="grepflags">
+<title>Important flags for using grep
+
+	
+		The most important flags of the grep command are listed in the
+		following table.
+		<table frame='all'>
+			<title>Flags for the grep command
+			<tgroup cols='2' align='left' colsep='1' rowsep='1'>
+				<colspec colname='c1' colwidth="1*" />
+				<colspec colname='c1' colwidth="1*" />
+				<colspec colname='c3' colwidth="2*" />
+				<thead>
+					<row>
+						<entry>Flag</entry>
+						<entry>Example</entry>
+						<entry>Description</entry>
+					</row>
+				</thead>
+				<tbody>
+					<row>
+						<entry>-r</entry>
+						<entry>grep -r text filepattern</entry>
+						<entry>Searches also in subdirectories of the specified
+							filepattern.
+						</entry>
+					</row>
+					<row>
+						<entry>-n</entry>
+						<entry>grep -n text filepattern</entry>
+						<entry>Prints the line number of output.
+						</entry>
+					</row>
+					<row>
+						<entry>-H</entry>
+						<entry>
+							grep -H text filepattern
+						</entry>
+						<entry>Includes the filename always in the output. By default the
+							filename is only included if several files are
+							searched.
+						</entry>
+					</row>
+					<row>
+						<entry>-c</entry>
+						<entry>grep -c text filepattern</entry>
+						<entry>Counts the occurrences of the search term in the specified
+							files.
+						</entry>
+					</row>
+					<row>
+						<entry>-l</entry>
+						<entry>grep -l text filepattern</entry>
+						<entry>Lists the files which includes the search term.</entry>
+					</row>
+					<row>
+						<entry>-L</entry>
+						<entry>grep -L text filepattern</entry>
+						<entry>Lists the files which do not include the search term.
+						</entry>
+					</row>
+				</tbody>
+			</tgroup>
+		</table>
+	
+
+</section>

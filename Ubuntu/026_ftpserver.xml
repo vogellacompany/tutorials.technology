@@ -1,0 +1,15 @@
+<section id="ftpserver">
+	<title>Installing a FTP server
+	
+		To install an easy to use and configure ftp server use the
+		following
+		command.
+	
+	
+		<programlisting language="bourne">
+			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+				parse="text" href="./examples/ftpserver/install.txt" />
+		</programlisting>
+	
+
+</section>

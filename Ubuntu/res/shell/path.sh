@@ -1,0 +1,1 @@
+export PATH=$PATH:/home/vogella/bin

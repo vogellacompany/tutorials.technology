@@ -1,0 +1,5 @@
+# delete the user with the name "userName"
+userdel userName
+
+# delete the user and its home directory
+userdel -r userName

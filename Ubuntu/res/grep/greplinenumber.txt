@@ -1,0 +1,5 @@
+
+# Search for test in file.txt
+# Output includes the line number
+grep -n "test" file.txt
+

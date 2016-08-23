@@ -1,0 +1,2 @@
+
+grep -c "abc" file.txt

@@ -1,0 +1,220 @@
+<section id="network">
+	<title>Network
+	<section id="network_status">
+		<title>See all open ports on your machine
+		You see all listeners on your machine via the following
+			command.
+			Port which listen to 127.0.0.1 cannot get accessed from
+			external.
+		
+		
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/network/openports.txt" />
+			</programlisting>
+		
+	</section>
+	<section id="network_ssh">
+		<title>SSH access to the server
+		
+			The
+			<code>ssh</code>
+			command provides secure, encrypted access to a server. Use
+			<code>ssh IP-address</code> or <code>ssh your_hostname</code>
+			to access the server.
+		
+		
+			You can also assign a shortname for an IP address via the
+			<filename>config</filename>
+			file in your
+			<filename>~/.ssh</filename>
+			director.
+		
+
+		
+			For example, to
+			create an alias called
+			<wordasword>foo</wordasword>
+			for the IP address 144.76.74.162 and to use the user called
+			<wordasword>testing</wordasword>
+			switch to
+			your
+			<filename>~/.ssh</filename>
+			directory, create the
+			<filename>config</filename>
+			file if it does not exists and enter the following.
+		
+		
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/hosts/config" />
+			</programlisting>
+		
+
+		
+			To upload your public ssh key which allows you to login
+			automatically into a server use the following command.
+		
+		
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/hosts/uploadpublicssh" />
+			</programlisting>
+		
+	</section>
+
+	<section id="network_firewall">
+		<title>Firewall
+		Ubuntu provides a uncomplicated firewall (ufw). To install it
+			and
+			only allow SSH, FTP, and webtraffic use the following command.
+		
+		
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/ufw/setup.txt" />
+			</programlisting>
+		
+
+	</section>
+
+	<section id="network_commands">
+		<title>Network commands
+		 The following commands give you an overview of your network
+			connections.
+		
+		<table frame='all'>
+			<tgroup cols='2' align='left' colsep='1' rowsep='1'>
+				<colspec colname='c1' />
+				<colspec colname='c2' />
+				<thead>
+					<row>
+						<entry>Command</entry>
+						<entry>Description</entry>
+					</row>
+				</thead>
+				<tbody>
+					<row>
+						<entry>lspci -nn | grep -i net
+						</entry>
+						<entry>
+						</entry>
+					</row>
+					<row>
+						<entry>lsusb
+
+						</entry>
+						<entry>
+						</entry>
+					</row>
+					<row>
+						<entry>iwconfig
+
+						</entry>
+						<entry>
+						</entry>
+					</row>
+					<row>
+						<entry>ifconfig
+
+						</entry>
+						<entry> Shows the network connections
+						</entry>
+					</row>
+					<row>
+						<entry>lsmod</entry>
+						<entry></entry>
+					</row>
+					<row>
+						<entry>python -m SimpleHTTPServer</entry>
+						<entry>Start web server serving current directory tree at
+							http://localhost:8000/
+						</entry>
+					</row>
+				</tbody>
+			</tgroup>
+		</table>
+	</section>
+	<section id="network_curl">
+		<title>HTTP debugging with curl
+		
+			curl is a command line tool to issue and receive http (and
+			other) request. For example, if you want to see the HTTP output of a
+			webpage, use the following command.
+		
+		
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/network/curlgetpage.txt" />
+			</programlisting>
+		
+		 If you want to the HTTPrequest header (including the HTTP
+			status
+			codes, use the following command. This is for example nice to
+			see if
+			your server delivers a 404 return code for your self-defined
+			error page.
+		
+		
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/network/curlinfo.txt" />
+			</programlisting>
+		
+		
+			You can set HTTP header information with the -h flag. For
+			example, to request a certain MIME type use the -H'Accept:MIME'
+			option.
+		
+		
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/network/curlheader.txt" />
+			</programlisting>
+		
+
+		To use curl behind a proxy.
+		
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/network/curlproxy.txt" />
+			</programlisting>
+		
+		
+			<tip>
+				If you are using Microsoft Windows, see
+				<ulink url="http://curl.haxx.se/download.html">curl for Windows</ulink>
+				.
+			</tip>
+		
+	</section>
+	<section id="network_irc">
+		<title>IRC
+		
+			For IRC communication you can use the tool xchat. To install it,
+			use "sudo apt-get install xchat".
+		
+	</section>
+
+	<section id="network_ftp">
+		<title>FTP
+		
+			For FTP access you can install filezilla via
+			<code>sudo apt-get install filezilla</code>
+			or map the ftp access to a virtual device.
+		
+
+		
+			To map the device select your desktop. Select the file menu and
+			the entry "Connect to server".
+		
+		
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="images/ftp_menu.png" />
+				</imageobject>
+			</mediaobject>
+		
+
+	</section>
+</section>

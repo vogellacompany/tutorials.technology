@@ -1,0 +1,21 @@
+<section id="grepchain">
+	<title>Chaining the grep
+	
+		Grep is frequently used together with the find command. For
+		example the following will case-insensitive search for the
+		pattern
+		<filename>".*Legacy.*.xml"</filename>
+		.
+		through the content of all files
+		which ends with
+		<filename>".java"</filename>
+		and lists them.
+	
+	
+		<programlisting>
+			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/grep/grepfind.txt" />
+		</programlisting>
+	
+	
+
+</section>

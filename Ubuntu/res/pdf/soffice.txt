@@ -1,0 +1,2 @@
+
+soffice --nologo --invisible --convert-to pdf --outdir ./pdf *.odp

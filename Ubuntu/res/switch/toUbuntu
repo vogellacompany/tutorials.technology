@@ -1,0 +1,5 @@
+
+sudo apt-get install ubuntu-desktop
+Select gdm as dm
+sudo apt-get remove kubuntu-desktop kubuntu-artwork-usplash
+sudo apt-get autoremove

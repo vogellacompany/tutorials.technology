@@ -1,0 +1,6 @@
+# Zip all pdf files in the ~/tmp/pdf/ diretory
+zip ~/targetdir/myzip.zip ~/tmp/pdf/*.pdf
+
+
+# Unzip the zip file
+unzip ~/targetdir/myzip.zip

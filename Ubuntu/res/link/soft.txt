@@ -1,0 +1,5 @@
+# Create a new soft link via
+# ln -s target link
+
+# For example
+ln -s ~/workspace/e4-dev e4tools

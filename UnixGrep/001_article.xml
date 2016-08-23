@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<article>
+	<articleinfo>
+		<title>Using the grep command line command - Tutorial
+		<author>
+			<firstname>Lars</firstname>
+			<surname>Vogel</surname>
+		</author>
+		<copyright>
+			<year>2008</year>
+			<year>2009</year>
+			<year>2010</year>
+			<year>2011</year>
+			<year>2012</year>
+			<year>2013</year>
+			<year>2014</year>
+			<year>2015</year>
+			<holder>vogella GmbH</holder>
+		</copyright>
+		<pubdate>15.10.2015</pubdate>
+		<releaseinfo>
+			Version 3.3
+		</releaseinfo>
+
+		
+
+
+		<abstract id="abstract">
+			<title>The grep command
+			 This tutorial explains the usage of the grep command for
+				searching for regular expressions in files.
+			
+		</abstract>
+	</articleinfo>
+
+	<?dbhtml-include href="../../web/advertisement/afterTableOfContent"?>
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="001_grep.xml" />
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="010_flags.xml" />
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="020_chain.xml" />
+	<?dbhtml-include href="../../web/advertisement/beforeSupport"?>
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../10_Include/support.xml" />
+	<?dbhtml-include href="../../web/advertisement/afterSupport"?>	
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="resources.xml" />
+	<?dbhtml-include href="../../web/vgwort/UnixGrep"?>
+</article>

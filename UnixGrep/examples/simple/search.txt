@@ -1,0 +1,6 @@
+# search for Strings
+grep searchterm filename
+grep searchterm /etc/*
+
+# if you want to use regular expression uses quotes
+grep "e*tools" /home/vogella/

@@ -1,0 +1,82 @@
+<section id="tips">
+	<title>Tips
+	<section id="tipcs_bootdisk">
+		<title>Creating a bootable USB disk with unetbootin
+		
+			The default program for creating a bootable USB disk is
+			<wordasword>Startup Disk Creator</wordasword>
+			. This crashes frequently during the creation of a boot disk. The
+			program
+			<wordasword>unetbootin</wordasword>
+			is much more stable. You can install it via the following command and
+			start it on the command line.
+		
+		
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/unity/menu.txt" />
+			</programlisting>
+		
+		
+			To open this type "Menu Manager" in the Dash. Choose
+			"programming" in the left panel. Press "New item" button then. Choose
+			name, command, icon
+		
+		 In the panel click and hold Alt to quick switch/launch apps.
+		
+	</section>
+	<section id="tipcs_numble">
+		<title>Chat applications
+		
+			The
+			<wordasword>mumble</wordasword>
+			application
+			allows online chats.
+		
+
+		
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/tools/mumble-install.txt" />
+			</programlisting>
+		
+
+	</section>
+
+	<section id="tipcs_teamviewer">
+		<title>Sharing desktop
+		
+			The
+			<wordasword>Teamviewer</wordasword>
+			application
+			allows to share desktop and online chats. It can be
+			installed from
+			http://www.teamviewer.com/.
+		
+
+	</section>
+	<section id="tipcs_remotexserver">
+		<title>Remote xserver
+		
+			The
+			<wordasword>x2go</wordasword>
+			server allows to install a X-server on a remote server and access it
+			via a client from a different machine.
+			More information can be found on
+			http://wiki.x2go.org/.
+		
+
+	</section>
+	<section id="tipcs_eclipse">
+		<title>Eclipse IDE configuration
+		
+			See
+			<ulink
+				url="http://devblog.virtage.com/2013/06/eclipse-and-eclipse-based-apps-on-ubuntu-13-04-desktop-hacks/">Eclipse and Ubuntu</ulink>
+			for an introduction into the configuration of the Eclipse IDE under
+			Ubuntu.
+		
+
+	</section>
+
+</section>

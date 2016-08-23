@@ -1,0 +1,40 @@
+<section id="files">
+	<title>Important files
+
+	<table frame='all'>
+		<tgroup cols='2' align='left' colsep='1' rowsep='1'>
+			<colspec colname='c1' />
+			<colspec colname='c2' />
+			<thead>
+				<row>
+					<entry>File</entry>
+					<entry>Description</entry>
+				</row>
+			</thead>
+			<tbody>
+				<row>
+					<entry>/etc/issue</entry>
+					<entry> Contains the Ubuntu version you are running</entry>
+				</row>
+				<row>
+					<entry>lsb_release -a</entry>
+					<entry> Prints out the Ubuntu version you are running</entry>
+				</row>
+				<row>
+					<entry>/etc/apt/sources.list</entry>
+					<entry> Contains the available sources for software installation
+					</entry>
+				</row>
+				<row>
+					<entry>/usr/share/tomcat</entry>
+					<entry>Installation directory for tomcat</entry>
+				</row>
+				<row>
+					<entry>/var/www/vhosts/domain1</entry>
+					<entry> Contains on my v-server the user directory for a specific
+						domain which is hosted on this server</entry>
+				</row>
+			</tbody>
+		</tgroup>
+	</table>
+</section>

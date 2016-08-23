@@ -1,0 +1,6 @@
+# alternatively to using the -m option
+# you could create the
+# home directory manually
+sudo mkdir /home/newuser
+sudo chown newuser /home/newuser
+sudo chgrp newuser /home/newuser

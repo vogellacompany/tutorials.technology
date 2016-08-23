@@ -1,0 +1,11 @@
+# search the "hello" string in all files and
+# subdirectories of the current directory
+grep -r "hello" .
+
+# same as above but only list the file names
+grep -rl "hello" .
+
+# you can exclude directories from the search
+# the following excludes all directories called ".git" from the seach
+grep -r --exclude-dir='.git' "hello" .
+

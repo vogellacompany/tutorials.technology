@@ -1,0 +1,11 @@
+# add admin rights to the user "newuser"
+sudo adduser newuser admin
+
+# alternative "newuser" can be added to the sudo group
+sudo adduser newuser sudo
+
+# afterwards to may want to lock
+# the root user
+# CAREFUL!!!
+
+sudo passwd -l root

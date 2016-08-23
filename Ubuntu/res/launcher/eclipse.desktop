@@ -1,0 +1,23 @@
+
+[Desktop Entry]
+Icon=application-x-executable
+Name=eclipse
+Type=Application
+Exec=/home/vogella/Eclipse37/eclipse
+
+X-Ayatana-Desktop-Shortcuts=Docu;vogella;business
+ 
+[Docu Shortcut Group]
+Name=Docu
+Exec=/home/vogella/Eclipse37/eclipse -data /home/vogella/workspace/docu
+TargetEnvironment=Unity
+
+[vogella Shortcut Group]
+Name=vogella
+Exec=/home/vogella/Eclipse37/eclipse -data /home/vogella/workspace/vogella
+TargetEnvironment=Unity
+
+[business Shortcut Group]
+Name=business
+Exec=/home/vogella/Eclipse37/eclipse -data /home/vogella/workspace/business
+TargetEnvironment=Unity

@@ -1,0 +1,33 @@
+<section id="connect">
+	<title>Connection
+	<section id="connect_remove">
+		<title>Telnet / ssh client for Windows
+		
+			To connect to your Linux system via telnet or via ssh from Windows
+			you can use
+			<ulink url="http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html"
+			>putty</ulink>
+		
+	</section>
+	<section id="connect_terminal">
+		<title>Switch to Console mode from Graphical User Interface
+		
+			In case your Linux system is running under a graphical user
+			interface (KDE, GNOME, ...) and you need access to the console, use
+			the
+			<keycombo>
+				<keycap>Ctrl</keycap>
+				<keycap>Alt</keycap>
+				<keycap>F1</keycap>
+			</keycombo>
+			shortcut keys to switch to the first console. To
+			switch back to Desktop mode, use the
+			<keycombo>
+				<keycap>Ctrl</keycap>
+				<keycap>Alt</keycap>
+				<keycap>F7</keycap>
+			</keycombo>
+			shortcut keys.
+		
+	</section>
+</section>

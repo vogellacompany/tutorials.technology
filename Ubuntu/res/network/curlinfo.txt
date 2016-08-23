@@ -1,0 +1,2 @@
+
+curl -I http://www.vogella.com

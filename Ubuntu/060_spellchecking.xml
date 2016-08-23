@@ -1,0 +1,34 @@
+<section id="spellchecking">
+	<title>Spell checking with hunspell
+	
+		The command line tool hunspell allows you to check the spelling
+		of a document. For example, you can check an XML document written in
+		English called
+		"input.xml" with the command.
+	
+	
+		<programlisting language="bourne">
+			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+				parse="text" href="./examples/hunspell/check.txt" />
+		</programlisting>
+	
+	
+		The following trigger an interactive session for spell checking.
+		With
+		(i) you can add a word to your local hunspell directory, which is
+		located in your home directory under
+		<filename>.hunspell_en_US</filename>
+		in case you using the US en checker.
+	
+	
+		You can also check all words in a batch mode with the
+		<parameter>-l</parameter>
+		parameter.
+	
+	
+		<programlisting language="bourne">
+			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+				parse="text" href="./examples/hunspell/checkbatch.txt" />
+		</programlisting>
+	
+</section>

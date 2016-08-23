@@ -1,0 +1,1 @@
+find . -type f -name '*' -exec sed --in-place 's/[[:space:]]\+$//' {} \+

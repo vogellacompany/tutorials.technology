@@ -1,0 +1,4 @@
+
+# Extract certain pages from a pdf document
+# "dont_ask" will override existing files without warning 
+pdftk Eclipse4book-20120429.pdf cat 25-27 87-91 95 output Eclipse4-Exercise.pdf dont_ask

@@ -1,0 +1,93 @@
+
+<section id="environ">
+	<title>Environment Variables
+	<table frame='all'>
+		<tgroup cols='2' align='left' colsep='1' rowsep='1'>
+			<colspec colname='c1' />
+			<colspec colname='c2' />
+			<thead>
+				<row>
+					<entry>Command</entry>
+					<entry>Description</entry>
+				</row>
+			</thead>
+			<tbody>
+				<row>
+					<entry>echo $VARIABLE</entry>
+					<entry>
+						Prints the content of the environment
+						variable
+					</entry>
+				</row>
+
+
+
+				<row>
+					<entry>
+						sudo /etc/init.d/tomcat5 start/stop
+					</entry>
+					<entry>Start / stops the tomcat server</entry>
+				</row>
+
+
+				<row>
+					<entry>
+						sudo -i
+					</entry>
+					<entry>Switches to root</entry>
+				</row>
+
+
+			</tbody>
+		</tgroup>
+	</table>
+
+	<section id="environ_path">
+		<title>Add a directory to the path
+
+		
+			The
+			<parameter>PATH</parameter>
+			environment variable is where the system will look for
+			executable
+			files. To temporary add the
+			<filename>/home/vogella/bin</filename>
+			directory
+			to the
+			<parameter>PATH</parameter>
+			use the following command.
+		
+		
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/shell/path.sh" />
+			</programlisting>
+		
+		
+			If you want to add a directory permanently to the path, you can
+			edit /
+			create the file
+			<filename>.bashrc</filename>
+			and add the following line to
+			the
+			file. Every new directory in the path
+			must start with
+			<parameter>:</parameter>
+			.
+		
+
+		
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/path/bash_profile" />
+			</programlisting>
+		
+		
+			Open a new shell to make the changes in the
+			<filename>.bashrc</filename>
+			file active.
+		
+	</section>
+
+
+</section>

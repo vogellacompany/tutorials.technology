@@ -1,0 +1,2 @@
+
+convert -units PixelsPerInch -density 300 input.png output.png

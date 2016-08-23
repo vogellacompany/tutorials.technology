@@ -1,0 +1,11 @@
+# see existing groups for the user
+groups newuser
+
+sudo addgroup gerrit
+sudo adduser newuser gerrit
+
+# alternative you can also use the usermod
+# command but without -a this removes the user
+# from existing groups
+
+# sudo usermod -aG gerrit newuser

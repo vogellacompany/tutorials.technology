@@ -1,0 +1,2 @@
+
+curl -x proxy:8080 -G http://www.vogella.com

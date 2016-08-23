@@ -1,0 +1,5 @@
+# create user called "newuser" with home directory
+sudo useradd -m -s /bin/bash newuser
+
+# assign password to the "newuser" user
+sudo passwd newuser

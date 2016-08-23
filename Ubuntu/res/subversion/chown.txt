@@ -1,0 +1,2 @@
+
+sudo chown -R www-data /home/svn
