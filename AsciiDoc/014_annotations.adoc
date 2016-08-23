@@ -8,6 +8,8 @@ It can be defined by a predefined label at the beginning of the paragraph or as 
 ----
 Here are the other built-in admonition types:
 
+NOTE: Some additional info...
+
 TIP: Pro tip...
 
 IMPORTANT: Don't forget...
@@ -20,6 +22,8 @@ CAUTION: Ensure that...
 The result looks like the following:
 
 Here are the other built-in admonition types:
+
+NOTE: Some additional info..
 
 TIP: Pro tip...
 
