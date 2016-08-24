@@ -123,7 +123,8 @@ NOTE: If the images are located in a certain directory, you can specify this fol
 
 Lists can be defined with the * operator at the beginning of a line. You can define up to 6 levels for a list. 
 Ensure to have a space before the list element. Example:
-[source, terminal]
+
+[source]
 ....
 Docker allows to package the full stack in a container:
 
@@ -148,8 +149,8 @@ Result:
 
 Numbered lists start with the .
 
+[source]
 ....
-[source, terminal]
 . OS
 .. Windows
 .. Ubuntu
@@ -400,6 +401,12 @@ To enable syntax highlighting in the output, set the style on the block to sourc
 include::res/test.java
 ----
 ....
+
+The supported languages depends on your renderer but your can for example use:
+
+* console - for terminal output
+* java - for Java source files
+
 
 It is also very simple to add callouts, as demonstrated by the following snippet.
 	
