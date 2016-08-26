@@ -1,10 +1,10 @@
 == Apache Maven resources
 
-http://www.ibm.com/developerworks/library/j-5things13/ - Five things you did not know about Maven
+http://www.ibm.com/developerworks/library/j-5things13[Five things you did not know about Maven]
 
-http://maven.apache.org/plugins/maven-deploy-plugin/examples/deploy-ftp.html - Maven deployment artifact
+http://maven.apache.org/plugins/maven-deploy-plugin/examples/deploy-ftp.html[Maven deployment artifact]
 
-https://support.sonatype.com/entries/20894498.html - What is Central?
+https://support.sonatype.com/entries/20894498.html[What is Maven Central?]
 
-https://github.com/pkainulainen/maven-examples - Maven tools examples on GitHub
+https://github.com/pkainulainen/maven-examples[Maven tools examples on GitHub]
 
