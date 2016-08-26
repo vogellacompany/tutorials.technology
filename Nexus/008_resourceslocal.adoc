@@ -1,0 +1,9 @@
+== Nexus online resources
+	
+
+http://books.sonatype.com/nexus-book/reference/repoman-sect-repoman.html[Nexus Book]
+	
+https://books.sonatype.com/nexus-book/reference/p2-sect-intro.html[Nexus P2 Plugins]
+	
+https://wiki.eclipse.org/Tycho/Nexus_Unzip_Plugin[Tycho/Nexus Unzip Plugin]
+	

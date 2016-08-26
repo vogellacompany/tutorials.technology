@@ -1,5 +1,4 @@
-<section id="nexus_repository_install">
-	<title>Installation of Nexus
+== Installation of Nexus
 	
 		In order to install the open source version of Nexus you need to visit
 		<ulink url="http://www.sonatype.org/nexus/go/">Nexus OSS</ulink>
@@ -10,7 +9,7 @@
 	<programlisting>﻿$ tar xvzf nexus-2.11.4-01-bundle.tar.gz</programlisting>
 	
 		To start Nexus, after extracting, the
-		<filename>nexus</filename>
+		`nexus`
 		script must be
 		executed with a
 		<code>start</code>
