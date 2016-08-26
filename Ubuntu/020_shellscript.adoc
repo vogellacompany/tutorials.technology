@@ -7,19 +7,18 @@ You can create these programs via a text editor and execute them in a terminal w
 
 Create for example the following text file.
 
-	<programlisting language="bourne">
-<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-	parse="text" href="./examples/shell/example.sh" />
-	</programlisting>
+[source,console]
+----
+include::res/shell/example.sh[]
+----
 
 You also have to make this file executable via:
 Create for example the following text file "yourScript".
 
-	<programlisting language="bourne">
-<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-	parse="text" href="./examples/shell/chmod.txt" />
-	</programlisting>
-
+[source,console]
+----
+include::res/shell/chmod.txt[]
+----
 
 Now you can call the shell script via `./yourScript`.
 It should print "Hello, world" to the console.
@@ -40,6 +39,6 @@ For to rename all extensions from ".xml" to ".adoc" you can use:
 ----
 find . -name "*.xml" -exec rename 's/xml/adoc/;' '{}' \;
 ----
-	
+
 
 
