@@ -105,7 +105,7 @@ LARSLINEBREAK
 				<xref linkend="interactive_rebase" />
 				for information about this feature.
 			
-		</note>
+		
 	
 	<section id="rebase_bestpractice">
 		<title>Good practice for rebase
@@ -169,7 +169,7 @@ LARSLINEBREAK
 				history clean before contributing back your
 				modifications.
 			
-		</tip>
+		
 
 		<warning>
 			
@@ -186,6 +186,6 @@ LARSLINEBREAK
 ----
 include::./examples/rebase/forcedpush.txt[]
 ----
-		</warning>
+		
 	
 

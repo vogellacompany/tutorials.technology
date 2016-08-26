@@ -12,7 +12,7 @@
 			without a change in Gerrit. Administrators are allowed to do
 			this.
 		</para>
-	</note>
+	
 	<para>
 		Afterwards
 		push the local Git

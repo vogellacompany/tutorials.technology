@@ -74,7 +74,7 @@
 				spell checking
 				dictionary and additional rules.
 			</para>
-		</warning>
+		
 	</section>
 	<section id="languagetool_rules">
 		<title>Developing custom LanguageTools rules</title>

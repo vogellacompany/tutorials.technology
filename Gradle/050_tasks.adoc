@@ -173,7 +173,7 @@
 					<parameter>clean</parameter>
 					task could also use &lt;&lt; instead of doLast.
 				
-			</note>
+			
 		
 		
 			Hooking into predefined task executions for default tasks or tasks
@@ -234,7 +234,7 @@
 					`StopExecutionException`
 					is thrown.
 				
-			</note>
+			
 		
 	
 

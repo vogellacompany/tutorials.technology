@@ -130,7 +130,7 @@
 				link in the web interface which allows you to login and to create a
 				new account.
 			</para>
-		</tip>
+		
 
 		<para>
 			After a successful installation Gerrit starts automatically. You
@@ -172,7 +172,7 @@
 				<filename class="directory">./review_site/etc/</filename>
 				folder.
 			</para>
-		</tip>
+		
 
 	</section>
 </section>

@@ -52,7 +52,7 @@ include::./examples/merge/mergeours.txt[]
 				everything from the branch which is
 				merged.
 			
-		</warning>
+		
 		The usage of the octopus merge strategy is triggered if you
 			specify more than one reference to merge.
 		
@@ -95,7 +95,7 @@ include::./examples/merge/mergeoctupus.txt[]
 				_ours_
 				merge strategy.
 			
-		</warning>
+		
 
 		
 			A

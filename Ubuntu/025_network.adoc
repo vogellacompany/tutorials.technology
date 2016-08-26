@@ -185,7 +185,7 @@
 				If you are using Microsoft Windows, see
 				<ulink url="http://curl.haxx.se/download.html">curl for Windows</ulink>
 				.
-			</tip>
+			
 		
 	</section>
 	<section id="network_irc">

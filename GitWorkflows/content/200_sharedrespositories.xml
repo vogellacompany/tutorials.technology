@@ -76,7 +76,7 @@
 			<para>Git emphasizes the creation of branches for feature development
 				or to create bug fixes.
 			</para>
-		</note>
+		
 		<para>
 			During this development he may fetch and merge or rebase the changes
 			from

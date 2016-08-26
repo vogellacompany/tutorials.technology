@@ -140,7 +140,7 @@ include::./examples/remotebranch/apply.txt[]
 				<xref linkend="" />
 				.
 			
-		</tip>
+		
 	
 
 	<section id="gitremotebranch_fetchpull">

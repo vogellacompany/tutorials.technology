@@ -84,7 +84,7 @@ include::./examples/merge/createconflict7.txt[]
 				<xref linkend="setup_rebase" />
 				for the global configuration.
 			
-		</tip>
+		
 
 	
 	<section id="mergeconflict_examplesee">
@@ -167,7 +167,7 @@ include::./examples/merge/createconflict6.txt[]
 				screen. Some operating systems may come with a suitable merge tool
 				already installed or configured for Git.
 			
-		</tip>
+		
 
 	
 

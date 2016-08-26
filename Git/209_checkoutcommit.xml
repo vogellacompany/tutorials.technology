@@ -60,5 +60,5 @@ include::./examples/commandline/git_checkout3[]
 				<xref linkend="detachedheadmode" />
 				for details.
 			
-		</warning>
+		
 	

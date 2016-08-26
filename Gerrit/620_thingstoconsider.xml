@@ -103,7 +103,7 @@
 				review your commit
 				message.
 			</para>
-		</tip>
+		
 	</section>
 	<section id="contribution_copyrightheader">
 		<title>Copyright header update</title>
@@ -296,7 +296,7 @@
 				not fit into the design of
 				the software.
 			</para>
-		</tip>
+		
 	</section>
 
 	<section id="contribution_validuserpassword">

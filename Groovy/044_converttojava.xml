@@ -96,7 +96,7 @@
 		<title>Replace the toString and equals/hashCode method</title>
 		<note>
 			<para>This exercise is optional.</para>
-		</note>
+		
 		<para>
 			Use
 			<code>@EqualsAndHashCode</code>

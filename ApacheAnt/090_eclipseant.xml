@@ -15,6 +15,6 @@
 	<para>
 		<tip> By default Eclipse uses the ant version which ships with
 			Eclipse. Via the preference Ant -> Runtime -> Ant Home you can
-			configure the version of Ant Eclipse should be using.</tip>
+			configure the version of Ant Eclipse should be using.
 	</para>
 </section>

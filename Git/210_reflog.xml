@@ -64,7 +64,7 @@ include::./examples/reflog/see.txt[]
 				`git reflog HEAD`
 				command.
 			
-		</tip>
+		
 	
 	<section id="gitreflog_example">
 		<title>Example

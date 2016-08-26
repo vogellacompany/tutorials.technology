@@ -108,6 +108,6 @@
 			creates new commit objects, other developers might be confused if you
 			rebase already published changes.
 		
-	</warning>
+	
 
 

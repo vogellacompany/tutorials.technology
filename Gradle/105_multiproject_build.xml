@@ -141,7 +141,7 @@
 					`'/'`
 					), when referencing a folder structure.
 				
-			</note>
+			
 		
 		Alternatively you can also define the dependencies of a project in the root build.gradle file. But it is
 			considered good practice to define the dependencies in the project specific build.gradle files, hence the following

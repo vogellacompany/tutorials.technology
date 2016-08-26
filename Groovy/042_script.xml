@@ -53,7 +53,7 @@
 		<title>Decompile the Groovy class file</title>
 		<note>
 			<para>This exercise is optional.</para>
-		</note>
+		
 		<para>If you are familiar with a Java decompiler, like the JadClipse
 			plug-in, decompile the class
 			file generated from

@@ -33,7 +33,7 @@
 						parse="text" href="../examples/service/removeservice.txt" />
 				</programlisting>
 			</para>
-		</tip>
+		
 	</para>
 
 	<para> Run Regedt32.exe and locate the following subkey

@@ -13,7 +13,7 @@
 				administrator, you ask the administrator to create a user for you,
 				but in your test installation you create your own users.
 			</para>
-		</tip>
+		
 		<para>
 			Login to Gerrit via
 			<ulink url="http://localhost:8080/login/">http://localhost:8080/login/</ulink>

@@ -51,7 +51,7 @@ include::./examples/cherry/step4.txt[]
 			<xref linkend="commitreference_ranges_doubledot" />
 			for more information about commit ranges.
 		
-	</tip>
+	
 	
 		If things go wrong or you change your mind, you can always reset to
 		the previous state using the following command.

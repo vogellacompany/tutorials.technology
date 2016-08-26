@@ -60,7 +60,7 @@
 			on your repository to see the details of your repository
 			configuration.
 		</para>
-	</tip>
+	
 	<para>
 		<mediaobject>
 			<imageobject>
@@ -92,5 +92,5 @@
 				</programlisting>
 			</para>
 		</para>
-	</tip>
+	
 </section>
