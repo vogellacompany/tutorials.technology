@@ -65,9 +65,7 @@
 
 	<section id="gradle_runbuild_buildfile">
 		<title>The Gradle build file - build.gradle
-		<indexterm>
-			<primary>build.gradle</primary>
-		</indexterm>
+		
 		
 			A
 			project using Gradle describes its build via a
