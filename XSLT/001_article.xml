@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<article>
+	<articleinfo>
+		<title>XSLT - Extensible Stylesheet Language for Transformations - Tutorial</title>
+		<author>
+			<firstname>Lars</firstname>
+			<surname>Vogel</surname>
+		</author>
+		<copyright>
+			<year>2009</year>
+			<year>2010</year>
+			<year>2011</year>
+			<year>2012</year>
+			<year>2013</year>
+			<year>2014</year>
+			<year>2015</year>
+			<holder>vogella GmbH</holder>
+		</copyright>
+		<pubdate>26.03.2015</pubdate>
+		<releaseinfo>
+			<para>Version 0.7</para>
+
+		</releaseinfo>
+
+		<abstract id="abstract">
+			<title>XSLT with Eclipse</title>
+			<para> This articles explains how to do a XSLT transformations on the
+				command line or via
+				the Eclipse XSL project.
+			</para>
+		</abstract>
+	</articleinfo>
+
+	<?dbhtml-include href="../../web/advertisement/afterTableOfContent"?>
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/010_overview.xml" />
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/020_installation.xml" />
+	<?dbhtml-include href="../../web/advertisement/inBetween01"?>
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/030_copy.xml" />		
+	<?dbhtml-include href="../../web/advertisement/inBetween02"?>
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/040_transformations.xml" />
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/200_eclipse.xml" />
+	<?dbhtml-include href="../../web/advertisement/beforeSupport"?>
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../10_Include/support.xml" />	
+	<?dbhtml-include href="../../web/advertisement/afterSupport"?>
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="resources.xml" />
+	<?dbhtml-include href="../../web/vgwort/XSLT"?>
+</article>

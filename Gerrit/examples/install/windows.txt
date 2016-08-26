@@ -1,0 +1,2 @@
+cd gerrit_site
+java -jar bin/gerrit.war daemon -d

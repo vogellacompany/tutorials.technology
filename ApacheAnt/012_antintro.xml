@@ -1,0 +1,102 @@
+<section id="antoverview">
+	<title>Apache Ant Overview</title>
+	<section id="antoverview_definition">
+		<title>What is Apache Ant?</title>
+		<para>
+			<wordasword>Apache Ant</wordasword>
+			(Ant) is a general purpose build tool. Ant is an abbreviation for
+			<wordasword>Another Neat Tool</wordasword>
+			.
+		</para>
+
+		<para>
+			Ant
+			is primarily used for building and deploying
+			Java
+			projects but
+			can be
+			used for every possible repetitive tasks, e.g. generating
+			documentation.
+		</para>
+	</section>
+
+	<section id="antoverview_definition">
+		<title>Configuring Apache Ant</title>
+		<para>
+			A Java build
+			process typically includes:
+			<itemizedlist>
+				<listitem> the compilation of the Java source code into Java
+					bytecode
+				</listitem>
+				<listitem> creation of the .jar file for the distribution of the
+					code
+				</listitem>
+				<listitem> creation of the Javadoc documentation</listitem>
+			</itemizedlist>
+		</para>
+		<para>
+			Ant
+			uses an
+			<filename>xml</filename>
+			file for its configuration. The default file name is
+			<filename>build.xml</filename>
+			.
+			Ant
+			builds are based on three blocks:
+			<wordasword>tasks</wordasword>
+			,
+			<wordasword>targets</wordasword>
+			and
+			<wordasword>extension points</wordasword>
+			.
+		</para>
+		<para>
+			A
+			task
+			is a unit of work which should be performed and
+			are small,
+			atomic
+			steps,
+			for example compile source code or create
+			Javadoc.
+			Tasks
+			can be grouped into
+			targets.
+		</para>
+
+		<para>
+			A
+			target
+			can be directly invoked via Ant.
+			Targets
+			can
+			specify their
+			dependencies.
+			Ant
+			will automatically execute all dependent
+			targets.
+		</para>
+		<para>
+			For example if
+			target
+			A
+			depends on
+			B and Ant is instructed to run A,
+			it first runs B before running A.
+		</para>
+		<para>
+			In your
+			<filename>build.xml</filename>
+			file you can
+			specify
+			the default
+			target.
+			Ant
+			executes
+			this target, if no
+			explicit target
+			is specified.
+		</para>
+	</section>
+</section>

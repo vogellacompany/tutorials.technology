@@ -1,0 +1,53 @@
+
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "../docbook-xml-4.5/docbookx.dtd">
+<book>
+	<title>Docbook Book Example</title>
+	
+	<bookinfo>
+		<title>DocBook Intro</title>
+		<author>
+			<firstname>Lars</firstname>
+			<surname>Vogel</surname>
+		</author>
+	</bookinfo>
+	
+	<chapter>
+		<title>This is the first chapter</title>
+		<section>
+			<title>First section in the chapter</title>
+			<para>Random text.
+			</para>
+			<para>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="images/vogella_current_logo.png"/>
+				</imageobject>
+				<textobject>
+				<phrase></phrase>
+			</textobject>
+			</mediaobject>
+		</para>
+		</section>
+		<section>
+			<title>Second section in the chapter</title>
+			<para>Other random text
+			</para>
+		</section>
+		
+	</chapter>
+
+	<chapter>
+		<title>This is the second chapter</title>
+		<section>
+			<title>My Title</title>
+			<para>More...
+			</para>
+		</section>
+		<section>
+			<title>Other title</title>
+			<para>Blabla
+			</para>
+		</section>
+	</chapter>
+</book>

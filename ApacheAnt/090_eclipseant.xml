@@ -1,0 +1,20 @@
+﻿<section id="eclipseant">
+	<title>Eclipse Ant Editor</title>
+	<para> Eclipse has an ant editor which make the editing of ant file
+		very easy by providing syntax checking of the build file. Eclipse has
+		also a ant view. In this view you execute ant files via
+		double-clicking on the target.</para>
+	<para>
+		<mediaobject>
+			<imageobject>
+				<imagedata fileref="images/antview10.gif" />
+				
+			</imageobject>
+		</mediaobject>
+	</para>
+	<para>
+		<tip> By default Eclipse uses the ant version which ships with
+			Eclipse. Via the preference Ant -> Runtime -> Ant Home you can
+			configure the version of Ant Eclipse should be using.</tip>
+	</para>
+</section>

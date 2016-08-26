@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<article>
+	<articleinfo>
+		<title>Apache Hadoop - Tutorial</title>
+		<author>
+			<firstname>Lars</firstname>
+			<surname>Vogel</surname>
+		</author>
+		<copyright>
+			<year>2010</year>
+			<holder>vogella GmbH</holder>
+		</copyright>
+		<releaseinfo>
+			<para>Version 0.3</para>
+		</releaseinfo>
+		<pubdate>03.04.2010</pubdate>
+		
+		<abstract id="abstract">
+			<title>Apache Hadoop</title>
+			<para> This article describes how to use Apache Hadoop.
+			</para>
+		</abstract>
+	</articleinfo>
+
+<?dbhtml-include href="../../web/advertisement/afterTableOfContent"?>
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/010_overview.xml" />
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/020_hdsf.xml" />
+	<?dbhtml-include href="../../web/advertisement/inBetween01"?>
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/030_mapreduce.xml" />
+	<?dbhtml-include href="../../web/advertisement/inBetween02"?>
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/040_installation.xml" />
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/050_gettingstarted.xml" />
+	<?dbhtml-include href="../../web/advertisement/beforeSupport"?>
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../10_Include/support.xml" />	
+	<?dbhtml-include href="../../web/advertisement/afterSupport"?>
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="resources.xml" />
+	<?dbhtml-include href="../../web/vgwort/ApacheHadoop"?>
+</article>

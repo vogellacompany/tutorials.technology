@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<article>
+	<articleinfo>
+		<title>Collection of Helpful Programs</title>
+		<author>
+			<firstname>Lars</firstname>
+			<surname>Vogel</surname>
+		</author>
+		<copyright>
+			<year>2007 - 2010</year>
+			<holder>vogella GmbH</holder>
+		</copyright>
+		<pubdate>15.10.2010</pubdate>
+		<releaseinfo>
+			<para>Version 1.2</para>
+		</releaseinfo>
+		
+		<abstract id="abstract">
+			<title>Helpful programs</title>
+			<para> This articles lists useful programs which I like to use. The
+				article is not intended to contain any useful information for other
+				users then myself.
+			</para>
+		</abstract>
+	</articleinfo>
+	<?dbhtml-include href="../../web/advertisement/afterTableOfContent"?>
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/001_gmail.xml" />
+	<?dbhtml-include href="../../web/advertisement/beforeSupport"?>
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../10_Include/support.xml" />	
+	<?dbhtml-include href="../../web/advertisement/afterSupport"?>
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="resources.xml" />
+	<?dbhtml-include href="../../web/vgwort/Gmail"?>
+</article>

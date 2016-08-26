@@ -1,0 +1,52 @@
+<section id="hosting_bickbucket" role="wrapper">
+	<title>Bitbucket</title>
+	<section id="hosting_bickbucket_what">
+		<title>What is Bitbucket?</title>
+		<indexterm>
+			<primary>Bitbucket</primary>
+		</indexterm>
+		<para>
+			<ulink url="https://bitbucket.org/">Bitbucket</ulink>
+			offers free hosting of public and private
+			Git
+			repositories.
+		</para>
+		<para>
+			Bitbucket allows unlimited public and
+			private repositories.
+			The
+			number of participants for a free private
+			repository is currently
+			limited to 5 collaborators, i.e., if you have
+			more than 5 developers
+			which need access to a private repository you
+			have to pay money to
+			BitBucket.
+		</para>
+	</section>
+	<section id="hosting_bickbucket_creating">
+		<title>Creating a repository</title>
+		<para>
+			You need to create a user via the web interface of Bitbucket.
+			After creating this user you can create new repositories via the web
+			interface.
+		</para>
+		<para>
+			After creating a new repository on BitBucket, you can use the
+			following
+			instructions connect a local Git repository with the
+			BitBucket
+			repository.
+		</para>
+		<para>
+			These instructions will be similar to the following commands.
+		</para>
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/bitbucket/example.txt" />
+			</programlisting>
+		</para>
+
+	</section>
+</section>

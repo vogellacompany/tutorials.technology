@@ -1,0 +1,21 @@
+<section id="hdfs">
+	<title>Hadoop file system</title>
+	<para>
+		The Hadoop file system (HDSF) is a distribute file system. It use
+		an
+		existing file system of the operating system but extends this with
+		redundancy and distribution. HSDF hides the complexity of distributed
+		storage and redundancy from the programmer. 
+	</para>
+	<para> In the standard configuration HDFS saves all files three times
+		on different nodes. The "name node" (server) has the information where
+		the files are stored.  </para>
+	<para> Harddisks are very effective
+		in reading large files sequentially
+		but getting much slower during random access. HDFS is therefore
+		optimized for large files.  </para>
+	<para> To improve performance Hadoop also tries to move the computation
+		to the nodes which store the data and not vice versa. Especially if
+		you have very large data this helps to improve the performance as you
+		can avoid that the network becomes the bottleneck. </para>
+</section>

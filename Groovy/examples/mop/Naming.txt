@@ -1,0 +1,3 @@
+// define an instance of Metaclass in such a package
+// Groovy will register it a MetaClass
+groovy.runtime.metaclass.[thePackage].[theClassName]MetaClass

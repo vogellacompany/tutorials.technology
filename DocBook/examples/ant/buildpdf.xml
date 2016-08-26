@@ -1,0 +1,219 @@
+
+<?xml version="1.0"?>
+<!--
+	- Author: Lars Vogel
+-->
+<project name="docbook-src" default="all">
+
+	<description>
+		This Ant build.xml file is used to transform DocBook XML to
+		various output formats
+	</description>
+
+	<!--
+		- Defines the ant task for xinclude
+	-->
+
+	<taskdef name="xinclude" classname="de.vogella.xinclude.XIncludeTask" />
+
+	<!--
+		- Defines the ant task for xinclude
+	-->
+	<taskdef name="fop" classname="org.apache.fop.tools.anttasks.Fop" />
+
+	<!--
+		- Configure basic properties that will be used in the file.
+	-->
+
+
+	<property name="javahelp.dir" value="${basedir}/../Documentation/output/vogella/javahelp" />
+	<property name="src" value="${basedir}/documentation" />
+	<property name="output.dir" value="${basedir}/../Documentation/output/vogella/articles" />
+	<property name="output.tmp" value="${basedir}/output.tmp" />
+	<property name="lib" value="${basedir}/lib/" />
+	<property name="docbook.xsl.dir" value="${basedir}/docbook-xsl-1.72.0" />
+	<property name="xinclude.lib.dir" value="${basedir}/lib/" />
+
+	<!--
+		- Usage of the differect style sheets which will be used for the transformation
+	-->
+	<property name="eclipse.stylesheet" value="${docbook.xsl.dir}/eclipse/eclipse.xsl" />
+	<property name="html.stylesheet" value="${docbook.xsl.dir}/html/docbook.xsl" />
+	<property name="fo.stylesheet" value="${docbook.xsl.dir}/fo/docbook.xsl" />
+	<property name="javahelp.stylesheet" value="${docbook.xsl.dir}/javahelp/javahelp.xsl" />
+
+
+
+	<property name="chunk-html.stylesheet" value="${docbook.xsl.dir}/html/chunk.xsl" />
+
+
+
+
+	<!--
+		- target: usage
+	-->
+	<target name="usage" description="Prints the Ant build.xml usage">
+		<echo message="Use -projecthelp to get a list of the available targets." />
+	</target>
+
+	<!--
+		- target: clean
+	-->
+	<target name="clean" description="Cleans up generated files.">
+		<delete dir="${output.dir}" />
+	</target>
+
+	<!--
+		- target: depends
+	-->
+	<target name="depends">
+		<mkdir dir="${output.dir}" />
+	</target>
+
+	<!--
+		- target: copy
+		- Copies the images from the subdirectories to the target folder
+	-->
+	<target name="copy">
+		<echo message="Copy the images" />
+		<copy todir="${output.dir}">
+			<fileset dir="${src}">
+				<include name="**/images/*.*" />
+			</fileset>
+		</copy>
+	</target>
+
+
+	<!--
+		- target: xinclude
+		- description: Creates one combined temporary files for the different inputs files.
+		- The combined file will then be processed via different ant tasks
+	-->
+	<target name="xinclude">
+
+		<xinclude in="${src}/DocBook/article.xml" out="${output.tmp}/DocBook/article.xml" />
+
+		<xinclude in="${src}/JavaConventions/article.xml" out="${output.tmp}/JavaConventions/article.xml" />
+
+		<xinclude in="${src}/JUnit/article.xml" out="${output.tmp}/JUnit/article.xml" />
+
+		<xinclude in="${src}/EclipseReview/article.xml" out="${output.tmp}/EclipseReview/article.xml" />
+
+		<xinclude in="${src}/HTML/article.xml" out="${output.tmp}/HTML/article.xml" />
+
+		<xinclude in="${src}/Eclipse/article.xml" out="${output.tmp}/Eclipse/article.xml" />
+
+		<xinclude in="${src}/Logging/article.xml" out="${output.tmp}/Logging/article.xml" />
+		<!--
+		<xinclude in="${src}/ant/article.xml" out="${src.tmp}/ant/article.xml" />
+		-->
+
+	</target>
+
+
+	<!--
+		- target: build-html
+		- description: Iterates through a directory and transforms
+		- .xml files into .html files using the DocBook XSL.
+	-->
+	<target name="build-html" depends="depends, xinclude" description="Generates HTML files from DocBook XML">
+		<xslt style="${html.stylesheet}" extension=".html" basedir="${output.tmp}" destdir="${output.dir}">
+			<include name="**/*book.xml" />
+			<include name="**/*article.xml" />
+			<param name="html.stylesheet" expression="styles.css" />
+			<param name="section.autolabel" expression="1" />
+			<param name="html.cleanup" expression="1" />
+			<outputproperty name="indent" value="yes" />
+		</xslt>
+		<!-- Copy the stylesheet to the same directory as the HTML files -->
+		<copy todir="${output.dir}">
+			<fileset dir="lib">
+				<include name="styles.css" />
+			</fileset>
+		</copy>
+	</target>
+
+	<!--
+		- target: build-javahelp
+		- description: Iterates through a directory and transforms
+		- .xml files into .html files using the DocBook XSL.
+		-->
+	<target name="build-javahelp" depends="depends, xinclude" description="JavaHelp from DocBook XML">
+		<xslt style="${javahelp.stylesheet}" extension=".html" basedir="${output.tmp}" destdir="${javahelp.dir}">
+			<include name="**/*book.xml" />
+			<include name="**/*article.xml" />
+			<outputproperty name="indent" value="yes" />
+		</xslt>
+	</target>
+
+
+
+
+
+	<!--
+		- target: chunks-html
+		- description: Iterates through a directory and transforms
+		- .xml files into seperate .html files using the DocBook XSL.
+	-->
+	<target name="build-chunks" depends="depends, xinclude" description="chunk HTML from DocBook XML">
+		<xslt style="${html.stylesheet}" extension=".html" basedir="${output.tmp}" destdir="${output.dir}">
+			<include name="**/*book.xml" />
+			<include name="**/*article.xml" />
+			<param name="html.stylesheet" expression="styles.css" />
+			<param name="section.autolabel" expression="1" />
+			<param name="html.cleanup" expression="1" />
+			<param name="chunk.first.selection" expression="1" />
+		</xslt>
+		<!-- Copy the stylesheet to the same directory as the HTML files -->
+		<copy todir="${output.dir}">
+			<fileset dir="lib">
+				<include name="styles.css" />
+			</fileset>
+		</copy>
+	</target>
+
+
+	<!-- Transformation into pdf
+		- Two steps
+		- 1.) First create the FO files
+		- 2.) Then transform the FO files into pdf files
+	-->
+
+	<!--
+		- target: build-pdf
+		- description: Iterates through a directory and transforms
+		- .xml files into fo files using the DocBook XSL.
+		- Relativebase is set to true to enable FOP to find the graphics which are included
+		- in the images directory
+	-->
+	<target name="build-pdf" depends="depends, xinclude" description="PDF from DocBook XML">
+		<!-- Convert DocBook Files into FO -->
+		<xslt style="${fo.stylesheet}" extension=".fo" basedir="${output.tmp}" destdir="${output.tmp}">
+			<include name="**/*book.xml" />
+			<include name="**/*article.xml" />
+			<param name="section.autolabel" expression="1" />
+		</xslt>
+		<!-- Convert FO Files into pdf -->
+		<fop format="application/pdf" outdir="${output.dir}" relativebase="true">
+			<fileset dir="${output.tmp}">
+				<include name="**/*.fo" />
+			</fileset>
+		</fop>
+	</target>
+
+	<!--
+		- target: chunks-html
+		- description: Iterates through a directory and transforms
+		- .xml files into seperate .html files using the DocBook XSL.
+	-->
+	<target name="build-eclipse" depends="depends, xinclude" description="Eclipse help from DocBook XML">
+		<xslt style="${eclipse.stylesheet}" basedir="${output.tmp}" destdir="${output.dir}">
+			<include name="**/*book.xml" />
+			<include name="**/*article.xml" />
+		</xslt>
+	</target>
+
+	<target name="all" depends="copy, build-html, build-pdf, build-chunks, build-eclipse">
+	</target>
+
+</project>

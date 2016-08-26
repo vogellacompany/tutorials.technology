@@ -1,0 +1,11 @@
+<figure>
+	<title>Logo</title>
+	<mediaobject>
+		<imageobject>
+			<imagedata fileref="images/logo.png"/>
+		</imageobject>
+		<textobject>
+			<phrase>Our Company Logo</phrase>
+		</textobject>
+	</mediaobject>
+</figure>

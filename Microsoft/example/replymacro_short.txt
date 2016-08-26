@@ -1,0 +1,113 @@
+
+Sub Generic(greeting, byebye, myname, includeCC, category, delay, text)
+    
+    Dim olApp As Outlook.Application
+   
+    Set olApp = Outlook.Application
+
+    If TypeName(Application.ActiveInspector.CurrentItem) = "MailItem" Then
+        Call mailreply(greeting, byebye, myname, includeCC, category, delay, text)
+    End If
+    
+End Sub
+
+
+Sub mailreply(greeting, byebye, myname, includeCC, category, delay, text)
+    
+    Dim objMail As Outlook.MailItem
+    
+    Set objMail = Application.ActiveInspector.CurrentItem
+   
+    With objMail
+       'Set body format to HTML
+       Dim arry As String
+       Dim help As String
+       
+       Dim email, vorname As Variant
+  
+       
+       Dim cced As Variant
+       Dim anrede As Variant
+       Dim size As Integer
+       
+       cced = Split(.CC, ";")
+
+       
+       email = Split(.To, ";")
+       Dim Anzahl As Integer
+       
+       ' Now get the names of the persons which are in the email
+       
+       Anzahl = UBound(email)
+       
+        first = True
+        For I = 0 To Anzahl
+        
+            'If Not email(i) = "Vogel, Lars;" Then
+            
+             vorname = Split(email(I), ",")
+             
+           'If size(vorname()) <> 0 Then
+             
+            If UBound(vorname) > 0 Then
+            If first Then
+            anrede = vorname(1)
+            first = False
+            Else
+            anrede = anrede & " / " & vorname(1)
+        End If
+
+        End If
+       ' End If
+       
+       
+        
+       Next I
+       
+       If includeCC = "1" Then
+       
+       ' Now get the names of the persons which are cc'ed
+       
+       Anzahl = UBound(cced)
+       
+        first = True
+       For I = 0 To Anzahl
+       If Not email(I) = "Vogel, Lars" Then
+        vorname = Split(cced(I), ",")
+        
+        If UBound(vorname) > 0 Then
+        If first Then
+        anrede = anrede & " ," & vbNewLine & "cc:" & vorname(1)
+        first = False
+        
+         Else
+        anrede = anrede & " / " & vorname(1)
+        End If
+
+        End If
+        End If
+        
+       Next I
+        
+        Else
+             anrede = anrede & " ,"
+        End If
+        
+       .Body = greeting & anrede & vbNewLine & vbNewLine & text & vbNewLine & vbNewLine & byebye & myname & vbNewLine & vbNewLine & "---------------------------------------" & vbNewLine & .Body
+       
+       .Display
+       
+       
+    End With
+    objMail.Categories = category
+       
+    'End If
+    SendKeys "{DOWN}"
+    SendKeys "{DOWN}"
+    
+End Sub
+
+Sub Reply_Text_English_Urgent()
+    Call Generic("Hi", "Best regards, ", "Lars", 0, "Business", False, "")
+End Sub
+

@@ -1,0 +1,72 @@
+<section id="gerritsetup_repository">
+	<title>Administrator: upload Git repository</title>
+	<para>
+		This part is only relevant for the administrator. Create a new
+		Git
+		repository called
+		<wordasword>gerrittest</wordasword>
+		via EGit or the Git command line.
+	</para>
+	<para>
+		Create a the new Git repository in Gerrit via the following
+		command.
+	</para>
+	<para>
+		<programlisting language="bourne">
+			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+				parse="text" href="./examples/projectsetup/createproject.txt" />
+		</programlisting>
+	</para>
+	<para>
+		Since version 2.6.1 you can also click
+		<menuchoice>
+			<guimenu>Projects</guimenu>
+			<guisubmenu>Create New Project</guisubmenu>
+		</menuchoice>
+		in the web interface.
+	</para>
+	<para>
+		The new project can be found in the Gerrit web interface under
+		<menuchoice>
+			<guimenu>Projects</guimenu>
+			<guisubmenu>List</guisubmenu>
+		</menuchoice>
+		.
+	</para>
+	<para>
+		<mediaobject>
+			<imageobject>
+				<imagedata fileref="images/gerrit_reposetup10.png"/>
+			</imageobject>
+			<textobject>
+				<phrase>Viewing the list of Gerrit repositories</phrase>
+				<guisubmenu>Remote</guisubmenu>
+			</textobject>
+		</mediaobject>
+	</para>
+	<para>
+		Select your project and
+		<menuchoice>
+			<guimenu>Access</guimenu>
+		</menuchoice>
+		. For testing give push rights to all registered users, which is the
+		default after
+		a fresh installation. In a productive
+		environment you can
+		configure
+		Gerrit to be more restrictive.
+		Especially the access right <parameter>Push Merge Commit</parameter>
+		for feature branches named <parameter>refs/heads/*</parameter>
+		is something only trusted and experienced committers should be allowed to do.
+	</para>
+	<para>
+		<mediaobject>
+			<imageobject>
+				<imagedata fileref="images/gerrit_reposetup20.png"/>
+			</imageobject>
+			<textobject>
+				<phrase>Viewing the list of Gerrit repositories</phrase>
+			</textobject>
+		</mediaobject>
+	</para>
+</section>

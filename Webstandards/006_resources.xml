@@ -1,0 +1,47 @@
+<section id="resources">
+	<title>Links and Literature</title>
+	<para>
+		<ulink url="http://de.selfhtml.org/">
+			http://de.selfhtml.org/</ulink>
+		Selfhtml - German
+	</para>
+	<para>
+		<ulink url="http://www.whatwg.org/specs/web-apps/current-work/">
+			http://www.whatwg.org/specs/web-apps/current-work/</ulink>
+		HTML5 Specification
+	</para>
+	<para>
+		<ulink url="http://www.ibm.com/developerworks/library/x-html5/">
+			http://www.ibm.com/developerworks/library/x-html5/</ulink>
+		IBM developer works article about HTML5 from Elliotte Rusty Harold
+	</para>
+	<para>
+		<ulink url="http://html5demos.com/">
+			http://html5demos.com/</ulink>
+
+		HTML5 demos
+
+	</para>
+	<para>
+		<ulink
+			url="http://eclipse-info.blogspot.com/2010/01/new-web-of-life-html-5.html">
+			http://eclipse-info.blogspot.com/2010/01/new-web-of-life-html-5.html</ulink>
+
+		Blog about HTML5 and Eclipse
+
+	</para>
+
+	<para>
+		<ulink url="http://validator.w3.org"> http://validator.w3.org</ulink>
+		Checkpage of the WWW
+		Consortium
+	</para>
+	<para>
+		<ulink url="http://htmlhelp.com/tools/valet"> http://htmlhelp.com/tools/valet</ulink>
+		Check is links are
+		valid
+	</para>
+	<para>
+		<ulink url="http://www.css4you.de/"> http://www.css4you.de/ CSS Information (in german)</ulink>
+	</para>
+</section>

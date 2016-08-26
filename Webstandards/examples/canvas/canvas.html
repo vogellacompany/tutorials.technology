@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Canvas Example</title>
+  </head>
+
+<script>
+window.onload = function () {
+   var canvas = document.getElementById('mycanvas');
+	if (canvas.getContext){
+      var ctx = canvas.getContext('2d');
+      ctx.fillStyle = "rgb(100,200,200)";
+      ctx.fillRect (10, 10, 80, 80);
+   }
+}
+</script>
+<style>
+</style>
+</head>
+
+<body>
+<canvas id="mycanvas" width="600" height="600">
+   Your browser doesn't support canvas
+</canvas>
+</body>
+</html>
+</html>

@@ -1,0 +1,38 @@
+<section id="eclipsercp">
+	<title>Eclipse RCP</title>
+	<para>
+		It is possible to use Groovy code within Eclipse RCP
+		applications. For
+		this install the Groovy tooling into your Eclipse
+		IDE and make them
+		available in your target platform. Afterwards:
+		<itemizedlist>
+			<listitem>
+				<para>
+					Add the Groovy nature to the plug-in which should contain Groovy
+					code via right-mouse click on the project and by selecting
+					<menuchoice>
+						<guimenu> Configure</guimenu>
+						<guisubmenu>Convert to Groovy Project</guisubmenu>
+					</menuchoice>
+					. This adds the Groovy libraries to the project.
+				</para>
+				<para>
+					Add the
+					<code>org.codehaus.groovy</code>
+					plug-in to the dependencies of
+					the plug-in that contains
+					Groovy code.
+				</para>
+			</listitem>
+			<listitem>
+				<para>Develop some Groovy code</para>
+			</listitem>
+			<listitem>
+				<para>Add <code>org.codehaus.groovy</code> and its dependencies to your Eclipse RCP product configuration file.</para>
+			</listitem>
+		</itemizedlist>
+	</para>
+	<para>That is sufficient create an RCP application which uses Groovy. </para>
+
+</section>

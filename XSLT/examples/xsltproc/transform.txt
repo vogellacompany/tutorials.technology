@@ -1,0 +1,1 @@
+xsltproc --output result.xml files/transform.xsl files/sources.xml

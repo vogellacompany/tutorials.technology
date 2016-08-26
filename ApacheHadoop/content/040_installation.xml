@@ -1,0 +1,17 @@
+<section id="installation">
+	<title>Installation</title>
+	<para>
+		Apache Hadoop can be downloaded from
+		<ulink url="http://hadoop.apache.org/"> Hadoop Homepage</ulink>
+		. To get started with Hadoop you require the following sub-projects:
+
+		<itemizedlist>
+			<listitem><para>Hadoop Common    </para>
+			</listitem>
+			<listitem><para>MapReduce    </para>
+			</listitem>
+			<listitem><para>HDFS     </para>
+			</listitem>
+		</itemizedlist>
+	</para>
+</section>

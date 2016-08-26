@@ -1,0 +1,51 @@
+<section id="files" role="wrapper">
+	<title>File and network I/O with Groovy</title>
+	<section id="files1">
+		<title>Groovy and processing files </title>
+		<para>
+			Groovy adds several convenient methods the
+			<code>File</code>
+			class from Java. The following example
+			demonstrates how to print out every line to the console and and also how to
+			change the output of a line by adding a prefix.
+		</para>
+		<para>
+			<programlisting>
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/file/MyFileExample.groovy" />
+			</programlisting>
+		</para>
+		<para>
+			The
+			<code>File</code>
+			object provides methods like
+			<code>eachFile</code>
+			,
+			<code>eachDir</code>
+			and
+			<code>earchFileRecursively</code>
+			which takes an closure as argument.
+		</para>
+	</section>
+	<section id="files3">
+		<title>Writing to files</title>
+		<para>Groovy also provides API to write to a file and append to it.</para>
+
+		<para>
+			<programlisting>
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/file/WriteFileExample.groovy" />
+			</programlisting>
+		</para>
+	</section>
+	<section id="files2">
+		<title>Groovy and processing HTTP get requests</title>
+
+		<para>Reading an HTTP page is similar to reading a text file. </para>
+		<para>
+			<programlisting>
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/http/ReadWebsite.groovy" />
+			</programlisting>
+		</para>
+
+	</section>
+
+</section>

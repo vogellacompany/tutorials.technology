@@ -1,0 +1,66 @@
+<section id="regularexpressions" role="wrapper">
+	<section id="regularexpressions_groovy">
+		<title>Regular expressions</title>
+		<para>
+			Groovy is based on Java regular expression support and add the
+			addition support operators to make the usage of
+			regular expressions easier.
+		</para>
+		<para>
+			Groovy adds the Slashy string as String declaration. Slashy
+			strings are Strings between two "/" signs. They don't need
+			escape backslashes in regular
+			expressions.
+			<table frame='all'>
+				<tgroup cols='2' align='left' colsep='1' rowsep='1'>
+					<colspec colname='c1' colwidth="1*" />
+					<colspec colname='c2' colwidth="5*" />
+					<thead>
+						<row>
+							<entry>Construct</entry>
+							<entry>Description</entry>
+						</row>
+					</thead>
+					<tbody>
+						<row>
+							<entry>str =~ pattern</entry>
+							<entry>Creates a Matcher from a regex and a string. Same as Pattern.compile(pattern).matcher(str). If you call
+								the find method it returns true if
+								the pattern is contained in the str variable.
+							</entry>
+						</row>
+						<row>
+							<entry>==~</entry>
+							<entry>Returns a boolean if pattern matches str. Same as Pattern.matches(pattern, str).
+							</entry>
+						</row>
+						<row>
+							<entry>~String</entry>
+							<entry>Creates a Pattern object from a string. Equivalent to Pattern.compile(str) in Java. </entry>
+						</row>
+					</tbody>
+				</tgroup>
+			</table>
+		</para>
+		<para>
+			If you use the ~ operator such a string turns into a regular
+			expression which can be used for pattern matching.
+			You can use
+			special
+			sign (escape characters) in Strings if you put them between
+			slashes.
+		</para>
+		<para>
+			<programlisting>
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text"
+					href="./examples/datatypes/RegularExpressionTest.groovy" />
+			</programlisting>
+		</para>
+		<para>
+			Groovy also provides the
+			<code>replaceAll</code>
+			method, which allows to define a closure for the replacement.
+		</para>
+	</section>
+
+</section>

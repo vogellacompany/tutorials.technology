@@ -1,0 +1,2 @@
+// firstName is null, if user is null. No NPE
+def firstName = user?.firstName 

@@ -1,0 +1,3 @@
+
+# This will remove a service installed with the name ApacheDerby
+instsrv ApacheDerby REMOVE

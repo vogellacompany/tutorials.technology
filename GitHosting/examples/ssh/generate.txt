@@ -1,0 +1,18 @@
+
+# Switch to your .ssh directory
+cd ~/.ssh
+
+# If the directory
+# does not exist, create it via:
+# mkdir .ssh 
+
+# Manually backup all existing content of this dir!!!
+
+# Afterwards generate the ssh key
+ssh-keygen -t rsa -C "your_email@youremail.com"
+
+# Press enter to select the default directory
+# You will be prompted for an optional passphrase 
+# A passphrase protects your private key 
+# but you  have to enter it manually during ssh operations
+

@@ -1,0 +1,23 @@
+<section id="resources">
+	<title>Links and Literature</title>
+	<section id="resources_tomcat">
+		<title>Apache Tomcat</title>
+		<para>
+			<ulink url="http://tomcat.apache.org/"> http://tomcat.apache.org/</ulink>
+			Apache Tomcat Homepage
+		</para>
+		<para>
+			<ulink url="http://www.vogella.com/tutorials/EclipseWTP/article.html"> Java Webdevelopment with Eclipse WTP - Tutorial</ulink>
+		</para>
+		<para>
+			<ulink url="http://wiki.eclipse.org/WTP_Tomcat_FAQ"> http://wiki.eclipse.org/WTP_Tomcat_FAQ</ulink>
+			Eclipse WTP and Tomcat FAQ
+		</para>
+		<para>
+			<ulink
+				url="http://tomcat.apache.org/tomcat-6.0-doc/security-manager-howto.html"
+			> http://tomcat.apache.org/tomcat-6.0-doc/security-manager-howto.html</ulink>
+			Apache Tomcat Sercurity Manager How-to
+		</para>
+	</section>
+</section>

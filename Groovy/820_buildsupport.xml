@@ -1,0 +1,40 @@
+<section id="usingmaventobuildgroovy" role="wrapper">
+	<title>Using Groovy in a Maven or Gradle build</title>
+	<section id="using_groovy_maventobuild">
+		<title>Using Groovy in a Maven build</title>
+		<para>
+			Maven is a well established build tool in the Java world.
+			Integrating Gradle in the build is trivial. You basically
+			only have
+			to add one dependency to your pom file.
+			To use Groovy code in your plug-in simply add the following
+			dependency to your
+			<filename>pom.xml</filename>
+			file.
+		</para>
+		<para>
+			<programlisting language="xml">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/maven/pomaddition.xml" />
+			</programlisting>
+		</para>
+
+
+	</section>
+
+	<section id="using_groovy_gradlebuild">
+		<title>Using Groovy in a Gradle build</title>
+		<para>
+			To use Groovy code in your Gradle build, simply add the following
+			dependency to your
+			<filename>pom.xml</filename>
+			file.
+		</para>
+		<para>
+			<programlisting language="java">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/gradle/build.gradle" />
+			</programlisting>
+		</para>
+
+
+	</section>
+</section>

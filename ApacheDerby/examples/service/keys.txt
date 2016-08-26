@@ -1,0 +1,13 @@
+
+Value Name: Application
+Data Type : REG_SZ
+String : C:\db-derby\bin\startNetworkServer.bat
+
+Value Name: AppDirectory
+Data Type : REG_SZ
+String : C:\db-derby\bin\
+
+Value Name: AppParameters
+Data Type : REG_SZ
+String : -h 0.0.0.0
+

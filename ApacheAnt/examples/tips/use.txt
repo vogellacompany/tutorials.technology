@@ -1,0 +1,2 @@
+
+<param name="highlight.xslthl.config" expression="${my.config.url}"/>

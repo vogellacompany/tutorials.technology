@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<article>
+	<articleinfo>
+		<title>Using GitHub - Tutorial</title>
+		<author>
+			<firstname>Lars</firstname>
+			<surname>Vogel</surname>
+		</author>
+		<copyright>
+			<year>2009</year>
+			<year>2010</year>
+			<year>2011</year>
+			<year>2012</year>
+			<year>2013</year>
+			<year>2014</year>
+			<year>2015</year>
+			<holder>vogella GmbH</holder>
+		</copyright>
+
+		<pubdate>28.10.2015</pubdate>
+		<releaseinfo>
+			<para>Version 5.6</para>
+		</releaseinfo>
+
+		<abstract id="abstract">
+			<title>Using Github tutorial</title>
+			<para> This tutorial explains how to use GitHub.</para>
+		</abstract>
+
+	</articleinfo>
+
+	<?dbhtml-include href="../../web/kindle/git.txt"?>
+	<?dbhtml-include href="../../web/advertisement/afterTableOfContent"?>
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="100_github.xml" />
+	<?dbhtml-include href="../../web/advertisement/beforeSupport"?>
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../10_Include/support.xml" />	
+	<?dbhtml-include href="../../web/advertisement/afterSupport"?>
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="resources.xml" />
+	<?dbhtml-include href="../../web/vgwort/GitHosting"?>
+</article>

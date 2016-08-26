@@ -1,0 +1,190 @@
+<section id="datatypes" role="wrapper">
+	<title>Groovy data types</title>
+	<section id="groovyobjects_optinaltypes">
+		<title>Optional typed variables</title>
+		<para>
+			Variables and fields can be typed as in Java or your can use the
+			<code>def</code>
+			keyword to define a variable. As a rule of thumb, use the type if it
+			adds clarity to your code otherwise use
+			<code>def</code>
+			.
+		</para>
+		<para>
+			<programlisting>
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/explained/Type.groovy" />
+			</programlisting>
+		</para>
+		<para>At runtime variables and fields are always typed, Groovy infers
+			the type based on your source code. This means
+			that at runtime you
+			receive an error if you try to assign a non fitting type to a
+			variable.
+		</para>
+		<para>Variables which are not declared can be used in Groovy scripts
+			to indicate that they can be set from outside.
+			Such declarations are
+			only valid in scripts and become part of the scripts binding.
+		</para>
+	</section>
+	<section id="groovyobjects_generics">
+		<title>Groovy and generics</title>
+		<para>
+			Groovy supports the syntax of generics but does not enforce it. For example, you can put any type into a
+			<code><![CDATA[List<Integer>]]></code>
+			collection. To enforce type checking in Groovy you can use AST transformations. See
+			<xref linkend="asttransformations" />
+			to learn more about AST transformations.
+		</para>
+	</section>
+	<section id="datatypes_overview">
+		<title>All types are objects</title>
+		<para> All variables in Groovy are objects (reference variables),
+			Groovy does not use primitive variables. Groovy still
+			allows to use
+			the primitives types as a short form for the variable declaration but
+			the compiler
+			translates this into
+			the object.
+		</para>
+	</section>
+
+	<section id="datatypes_numbers">
+		<title>Numbers</title>
+
+		<para>Numbers are objects in Groovy, as well as variables defined as
+			int, float, double, etc. If you use numbers in
+			your code Groovy
+			assigns a
+			type
+			to it
+			and performs automatically the down- and
+			upcasting
+			for you.
+		</para>
+		<para>
+			As numbers are object they have also methods for example the
+			<code>times</code>
+			method which executes a block of code the number of times defined by
+			the number.
+		</para>
+		<para>
+			Create the following class called
+			<code>TypesTest</code>
+			to play with numbers.
+		</para>
+		<para>
+			<programlisting>
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/datatypes/TypesTest.groovy" />
+			</programlisting>
+		</para>
+
+		<para>The operators, like + or - are also mapped to methods by Groovy.
+		</para>
+		<para>
+			<table frame='all'>
+				<tgroup cols='3' align='left' colsep='1' rowsep='1'>
+					<colspec colname='c1' />
+					<colspec colname='c2' />
+					<colspec colname='c3' />
+					<thead>
+						<row>
+							<entry>Operator</entry>
+							<entry>Name</entry>
+							<entry>Method</entry>
+						</row>
+					</thead>
+					<tbody>
+						<row>
+							<entry>a+b</entry>
+							<entry>plus</entry>
+							<entry>a.plus(b)</entry>
+						</row>
+						<row>
+							<entry>a-b</entry>
+							<entry>minus</entry>
+							<entry>a.minus(b)</entry>
+						</row>
+						<row>
+							<entry>a*b</entry>
+							<entry>star</entry>
+							<entry>a.multiply(b)</entry>
+						</row>
+						<row>
+							<entry>a/b</entry>
+							<entry>divide</entry>
+							<entry>a.div(b)</entry>
+						</row>
+						<row>
+							<entry>a%b</entry>
+							<entry>modulo</entry>
+							<entry>a.mod(b)</entry>
+						</row>
+						<row>
+							<entry>a--, --a</entry>
+							<entry>decrement</entry>
+							<entry>a.previous()</entry>
+						</row>
+						<row>
+							<entry>a++, ++a</entry>
+							<entry>increment</entry>
+							<entry>a.next()</entry>
+						</row>
+						<row>
+							<entry>a**b</entry>
+							<entry>power</entry>
+							<entry>a.power(b)</entry>
+						</row>
+						<row>
+							<entry>a-b</entry>
+							<entry>minus</entry>
+							<entry>a.minus(b)</entry>
+						</row>
+						<row>
+							<entry>a-b</entry>
+							<entry>minus</entry>
+							<entry>a.minus(b)</entry>
+						</row>
+
+					</tbody>
+				</tgroup>
+			</table>
+		</para>
+
+	</section>
+
+	<section id="datatypes_ranges">
+		<title>Ranges</title>
+		<para>
+			Groovy supports the
+			<code>Range</code>
+			data type is a
+			<code>Collection</code>
+			. Ranges consists of two values separated by two dots. Ranges can for
+			example be used to define a loop statement.
+		</para>
+
+		<para>
+			<programlisting>
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/datatypes/RangesTest.groovy" />
+			</programlisting>
+		</para>
+		<para>You can use Strings for the definition of ranges, these ranges
+			follow the alphabet.
+		</para>
+
+		<para>
+			Every object can be used as
+			<code>Range</code>
+			long as it
+			implements the
+			<code>previous()</code>
+			and
+			<code>next()</code>
+			methods and the
+			<code>java.util.Comparable</code>
+			interface. The methods map to the
+			++ and -- operators.
+		</para>
+	</section>
+</section>

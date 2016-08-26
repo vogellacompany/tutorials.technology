@@ -1,0 +1,9 @@
+<section id="resources_groovytestingsupport">
+	<title>Groovy testing links</title>
+	<para>
+		<ulink url="http://www.groovy-lang.org/testing.html">Groovy testing guide</ulink>
+	</para>
+	<para>
+		<ulink url="https://github.com/spockframework/spock">Spock homepage</ulink>
+	</para>
+</section>

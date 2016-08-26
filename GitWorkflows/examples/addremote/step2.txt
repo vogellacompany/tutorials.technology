@@ -1,0 +1,3 @@
+# create a new branch which will be used 
+# to merge changes coming from repository 1 
+git checkout -b <newbranch>

@@ -1,0 +1,30 @@
+﻿<section id="usefulanttasks">
+	<title>Useful Ant tasks</title>
+	<section id="usefulanttasks_fail">
+		<title>fail</title>
+		<para>
+			Ant provides the
+			<parameter>fail</parameter>
+			task which allows to fail the build if a condition is not met. For
+			example the following task would check for the existing of a file and
+			if this file is present the build would fail.
+		</para>
+
+		<para>
+			<programlisting language="java">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/fail/fail1.txt" />
+			</programlisting>
+		</para>
+
+
+		<para>Or you can check for the number of files generated. </para>
+
+		<para>
+			<programlisting language="java">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/fail/fail2.txt" />
+			</programlisting>
+		</para>
+	</section>
+</section>

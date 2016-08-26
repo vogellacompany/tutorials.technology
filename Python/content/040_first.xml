@@ -1,0 +1,80 @@
+<section id="firstpython_program">
+	<title>Your first Python program in Eclipse</title>
+	<para> Select File -> New -> Project. Select Pydev -> Pydev Project.
+	</para>
+
+	<para>
+		<mediaobject>
+			<imageobject>
+				<imagedata fileref="images/pydev10.gif" />
+				
+			</imageobject>
+		</mediaobject>
+	</para>
+
+	<para> Create a new project with the name "de.vogella.python.first".
+		Select Python version 2.6 and your interpreter.
+	</para>
+
+	<para>
+		<mediaobject>
+			<imageobject>
+				<imagedata fileref="images/pydev20.gif" />
+				
+			</imageobject>
+		</mediaobject>
+	</para>
+	<para>Press finish.</para>
+
+	<para> Select Window->Open Perspective ->Other. Select the PyDev
+		perspective.</para>
+	<para>
+		<mediaobject>
+			<imageobject>
+				<imagedata fileref="images/pydev30.gif" />
+				
+			</imageobject>
+		</mediaobject>
+	</para>
+
+	<para> Select the "src" folder of your project, right-click it and
+		select New
+		-> PyDev Modul. Create a module "FirstModule".</para>
+	<para>
+		<mediaobject>
+			<imageobject>
+				<imagedata fileref="images/pydev40.gif" />
+				
+			</imageobject>
+		</mediaobject>
+	</para>
+
+	<para>
+		<mediaobject>
+			<imageobject>
+				<imagedata fileref="images/pydev50.gif" />
+				
+			</imageobject>
+		</mediaobject>
+	</para>
+	<para> Create the following source code.</para>
+
+	<para>
+		<programlisting>
+			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+				parse="text" href="../examples/first/FirstModule.py" />
+		</programlisting>
+	</para>
+	<para>Right-click your model and select Run As -> Python run.</para>
+	<para>
+		<mediaobject>
+			<imageobject>
+				<imagedata fileref="images/pydev60.gif" />
+				
+			</imageobject>
+		</mediaobject>
+	</para>
+	<para>Congratulations! You created your first (little) Python modul and
+		ran it!</para>
+
+</section>

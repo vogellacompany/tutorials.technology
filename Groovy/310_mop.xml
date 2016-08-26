@@ -1,0 +1,68 @@
+<section id="mop">
+	<title>Meta Object Protocol</title>
+	<section id="mop_purpose">
+		<title>What is the Meta Object Protocol_</title>
+		<para>
+			The
+			<wordasword>Meta-Object Protocol (MOP)</wordasword>
+			is the underlying layer in Groovy which allows you to add methods and properties to an object at runtime.
+			Using MOP
+			you can
+			methods and properties at runtime to existing objects.
+		</para>
+	</section>
+
+	<section id="mop_methodandpropertyacces">
+		<title>Calling methods or accessing properties on a Groovy object</title>
+		<para>
+			If a method is called or a property is accessed in a class and this
+			class does not define this method / property then
+			pre-defined methods
+			are called which can be used to handle this call.
+			<itemizedlist>
+				<listitem>
+					<para>def methodMissing (String name, args) - Called for missing
+						method
+					</para>
+				</listitem>
+				<listitem>
+					<para>void setProperty (String property, Object o ) - called for
+						non
+						existing setter of a property
+					</para>
+				</listitem>
+				<listitem>
+					<para>Object getProperty (String property) - called for non
+						existing
+						getter of a property
+					</para>
+				</listitem>
+			</itemizedlist>
+		</para>
+		<para>Instances of Groovy object have default implementations of these
+			methods, but an Groovy object can override these
+			methods. The
+			Groovy
+			framework calls the methods at runtime if a method or property cannot
+			be found. This approach is for
+			example used by the Groovy builder
+			pattern,
+			it pretends to have certain method.
+		</para>
+
+	</section>
+	<section id="mop_addingpropertiesandmethods">
+		<title>Adding methods and properties</title>
+		<para>
+			Using the
+			<code>.metaclass</code>
+			access you can add properties and methods to an existing class.
+		</para>
+		<para>
+			<programlisting>
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/mop/AddMethods.groovy" />
+			</programlisting>
+		</para>
+	</section>
+
+</section>

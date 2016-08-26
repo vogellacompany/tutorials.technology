@@ -1,0 +1,4 @@
+
+grant codeBase "file:${catalina.home}/webapps/performance/-"  {
+java.io.FilePermission "c:\temp\wstest\<<ALL FILES>>", "read,write,execute,delete";
+};

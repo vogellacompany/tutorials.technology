@@ -1,0 +1,6 @@
+# add remote
+# syntax: git remote add <remote_name> <url_of_gitrepo>
+# git remote add mysecondrepo <url_of_gitrepo>
+
+git remote -v
+# see all repos

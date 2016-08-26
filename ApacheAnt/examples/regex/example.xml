@@ -1,0 +1,10 @@
+<target name="regular-expressions">
+	<!-- Replace tabs with two spaces -->
+	<replaceregexp flags="gs">
+		<regexp pattern="(\t)" />
+		<substitution expression="  " />
+		<fileset dir="${outputtmp.dir}/">
+			<include name="**/*" />
+		</fileset>
+	</replaceregexp>
+</target>

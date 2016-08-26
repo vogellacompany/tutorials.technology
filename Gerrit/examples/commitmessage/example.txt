@@ -1,0 +1,7 @@
+Bug 434846 - Update the system default Locale if the -nl Locale is invalid
+
+An incorrect locale value causes the IEclipseContext to run the conversion frequently. 
+The patch ensures that only valid values are saved in Eclipse context.
+
+Change-Id: I6099172a5986e9678a830f84d78b2cdb8c161dc6
+Signed-off-by: Dirk Fauth <dirk.fauth@fake.com>

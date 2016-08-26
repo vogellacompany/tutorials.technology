@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+
+<article>
+	<articleinfo>
+		<title>MQTT - Tutorial</title>
+
+		<author>
+			<firstname>Lars</firstname>
+			<surname>Vogel</surname>
+			<affiliation>
+				<address>
+					<email>lars.vogel@vogella.com</email>
+				</address>
+			</affiliation>
+		</author>
+		<copyright>
+			<year>2014</year>
+			<holder role="mailto:lars.vogel@vogella.com">
+				Lars Vogel
+			</holder>
+		</copyright>
+
+		<pubdate>02.06.2014</pubdate>
+
+		<releaseinfo>
+			<para>Version 0.1</para>
+		</releaseinfo>
+
+		<abstract id="abstract">
+			<title>Abstract</title>
+			<para>
+				TODO
+			</para>
+
+		</abstract>
+	</articleinfo>
+	<?dbhtml-include href="../../web/advertisement/afterTableOfContent"?>
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="010_overview.xml" />
+	<?dbhtml-include href="../../web/advertisement/inBetween01"?>
+	<?dbhtml-include href="../../web/advertisement/beforeSupport"?>
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../10_Include/support.xml" />	
+	<?dbhtml-include href="../../web/advertisement/afterSupport"?>
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="resources.xml" />
+	<?dbhtml-include href="../../web/vgwort/Lucene"?>
+</article>

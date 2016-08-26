@@ -1,0 +1,5 @@
+# Restart
+sudo /etc/init.d/tomcat7 restart
+
+# Stop 
+sudo /etc/init.d/tomcat7 stop

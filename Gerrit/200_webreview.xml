@@ -1,0 +1,356 @@
+<section id="webreview" role="wrapper">
+	<title>Using the Gerrit web interface</title>
+	<section id="webreview_reviewchangerequest">
+		<title>Reviewing a change request</title>
+		<para>
+			Click on one change request to see the
+			details of the Gerrit
+			change request. Click on the commit message of the
+			file name
+			(highlighted in the
+			screenshot)
+			to see the changes in the file.
+		</para>
+		<para>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="images/webreview08.png" scale="30" />
+				</imageobject>
+				<textobject>
+					<phrase>Web review</phrase>
+				</textobject>
+			</mediaobject>
+		</para>
+		<para>
+			You can
+			double-click on
+			a line to comment on the change.
+		</para>
+		<para>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="images/webreview10.png"/>
+				</imageobject>
+				<textobject>
+					<phrase>Web review</phrase>
+				</textobject>
+			</mediaobject>
+		</para>
+
+		<para>
+			Clicking on
+			<guilabel>Up to change</guilabel>
+			brings you back to the change.
+		</para>
+		<para>
+			Gerrit allows you to review the commit
+			message, which appears at
+			the top of the
+			file
+			list. To understand the history
+			of the repository
+			it is important to provide a good commit message.
+		</para>
+	</section>
+	<section id="webreview_reviewresult">
+		<title>Publishing your review result</title>
+		<para>
+			Click on
+			<guilabel>Reply</guilabel>
+			button
+			to give feedback on the change.
+		</para>
+
+		<para>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="images/webreview12.png" scale="30" />
+				</imageobject>
+				<textobject>
+					<phrase>Web review</phrase>
+				</textobject>
+			</mediaobject>
+		</para>
+
+		<para>
+			You can give a summary of your feedback and return a review
+			number between -2 and +2 (if you are a committer) or
+			between
+			-1 and
+			+1 (if you are not a committer). If you vote -1 or
+			-2, you respectively indicate that the patch still
+			requires
+			rework
+			or that you
+			disagree with the suggested change. See
+			<xref linkend="gerrit_voting" />
+			for details of the default voting rules.
+		</para>
+		<para>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="images/webreview30.png"/>
+				</imageobject>
+				<textobject>
+					<phrase>Web review</phrase>
+				</textobject>
+			</mediaobject>
+		</para>
+
+
+	</section>
+	<section id="webreview_adjustingthechange">
+		<title>Improve a change based on review feedback</title>
+		<para>
+			If the review process has resulted review comments explaining
+			how to
+			improve the proposed patch, the author of the
+			patch (or someone
+			else)
+			can adjust the
+			patch. The developer
+			amends the
+			commit in his local
+			repository and
+			pushes the
+			improved commit
+			to Gerrit. He can
+			also
+			adjust
+			the
+			commit
+			message while amending the commit.
+		</para>
+		<para>
+			As the developer amends the commit, the same
+			<wordasword>Change-Id</wordasword>
+			is used and the
+			Gerrit review system identifies the change as update
+			of the existing change.
+		</para>
+
+		<para>
+			The
+			<guilabel>Git Staging</guilabel>
+			view allows amending the last commit by clicking the amend button
+			shown in the screenshot.
+		</para>
+		<para>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="images/amendwithstagingview32.png"/>
+				</imageobject>
+				<textobject>
+					<phrase>Amend flag in Git Staging view</phrase>
+				</textobject>
+			</mediaobject>
+		</para>
+		<tip>
+			<para>
+				Gerrit allows you to select which patch sets you want to compare in
+				<guilabel>Comparison</guilabel>
+				view. Typically you compare the base version with the latest patch
+				set, but if e.g. you already reviewed patch set 3
+				you may want to
+				just see what the author changed between patchset 3 and patchset 5.
+			</para>
+			<para>
+				<mediaobject>
+					<imageobject>
+						<imagedata fileref="images/patchsets10.png" scale="60" />
+					</imageobject>
+					<textobject>
+						<phrase>Patch set comparison view</phrase>
+					</textobject>
+				</mediaobject>
+			</para>
+		</tip>
+		<para>
+			Once the change has reached the required quality, the
+			reviewer
+			can give
+			a +2
+			evaluation of the
+			change.
+		</para>
+
+
+		<para>Depending on the settings of the Gerrit repository, the Gerrit
+			review might have to be rebased. If you conflict
+			happens during this
+			rebase operation you can trigger this rebase directly from the web
+			interface. If a change
+			is
+			rebased, it
+			needs to be reviewed again.
+		</para>
+		<para>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="images/webreview40.png"/>
+				</imageobject>
+				<textobject>
+					<phrase>Web review</phrase>
+				</textobject>
+			</mediaobject>
+		</para>
+
+		<para>Afterwards a developer with commit rights can submit the
+			change.
+			This is typically done by the same committer who
+			voted +2.
+			Depending
+			on the Gerrit configuration for the project, this
+			may only work
+			if the
+			change is based on the
+			current
+			origin/master branch. Gerrit
+			allows the
+			committer and
+			contributor to
+			rebase the change if
+			that is not
+			the case.
+
+		</para>
+
+		<para>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="images/webreview50.png"/>
+				</imageobject>
+				<textobject>
+					<phrase>Web review</phrase>
+				</textobject>
+			</mediaobject>
+		</para>
+	</section>
+	<section id="webreview_keyboardshortcuts">
+		<title>Keyboard shortcuts in Gerrit</title>
+
+		<para>
+			Press the "?" key in the Gerrit web user interface to see the
+			actions you
+			can trigger via shortcuts. The available
+			shortcuts depend
+			on there you are in the user interface.
+		</para>
+
+		<para>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="images/gerrit_shortcuts10.png" scale="25" />
+				</imageobject>
+				<textobject>
+					<phrase>Gerrit shortcuts</phrase>
+				</textobject>
+			</mediaobject>
+		</para>
+		<para>The available shortcuts are different, depending on the page
+			your are.
+		</para>
+
+	</section>
+	<section id="webreview_getting">
+		<title>Fetching a remote change into a local Git repository</title>
+		<para>
+			It is possible to fetch the changes from the Gerrit review into
+			another local Git
+			repository. The Gerrit page
+			lists the
+			commands for
+			downloading the change. This is depicted in the following screenshot.
+		</para>
+		<para>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="images/webreviewpull10.png"/>
+				</imageobject>
+				<textobject>
+					<phrase>Pulling in the change</phrase>
+				</textobject>
+			</mediaobject>
+		</para>
+		<para>
+			After fetching a change, the developer can adjust the change and
+			amend the commit.
+			If he pushes it to Gerrit, the
+			change is updated.
+			Such a
+			procedure
+			should be coordinated by the author of the original
+			change
+			to avoid
+			that two developers
+			do the same work.
+		</para>
+	</section>
+
+	<section id="webreview_gettingeclpise">
+		<title>Fetching a remote change with Eclipse Git</title>
+
+		<tip>
+			<para>
+				The Git tooling in Eclipse allows you to fetch a change from Gerrit.
+				For this, right-click on
+				the project
+				<menuchoice>
+					<guimenu>Team</guimenu>
+					<guisubmenu>Remote</guisubmenu>
+					<guisubmenu>Fetch from Gerrit</guisubmenu>
+				</menuchoice>
+				.
+				When working with many projects, it is often easier to right-click
+				on the repository instead and access
+				<guibutton>Fetch from Gerrit</guibutton>
+				from there.
+				You can paste the change's number (shown in the change's
+				URL) and use
+				<keycombo>
+					<keycap>Ctrl</keycap>
+					<keycap>Space</keycap>
+				</keycombo>
+				to expand the change number to the list of patch sets, select the
+				one you want to download and fetch it into a new
+				local branch.
+				Afterwards you can
+				to test the changes in isolation.
+			</para>
+			<para>
+				<mediaobject>
+					<imageobject>
+						<imagedata fileref="images/webreviewpull20.png" scale="35" />
+					</imageobject>
+					<textobject>
+						<phrase>Pulling in the change</phrase>
+					</textobject>
+				</mediaobject>
+			</para>
+		</tip>
+	</section>
+
+	<section id="webreview_editintheweb">
+		<title>Edit a change directly via the web interface</title>
+		<para>You can also edit directly in Gerrit. Press the edit button for this.</para>
+		<para>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="images/editingerrit10.png"/>
+				</imageobject>
+				<textobject>
+					<phrase>Edit in Gerrit</phrase>
+				</textobject>
+			</mediaobject>
+		</para>
+		<para>
+			Afterwards select the file or the commit message you want to edit. Press save and close once you are done. After
+			you
+			are done with all your edits, press the
+			<guilabel>Publish Edit</guilabel>
+			.
+		</para>
+
+	</section>
+
+</section>

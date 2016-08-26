@@ -1,0 +1,77 @@
+<section id="xinclude">
+	<title>Using XInclude with Eclipse XSL</title>
+	<section id="xinclude_overview">
+		<title>Overview</title>
+		<para>
+			<code>XInclude</code> can be used to structure the DocBook source files so
+			that you have one file per chapter / section and one master file
+			which includes these files. Via <code>XInclude</code> these
+			separate files
+			can be
+			combined into one file.
+		</para>
+		<para>
+			You can, for example, include a file <filename>foo.xml</filename>
+			into another one via the
+			following statement
+			<programlisting language="xml">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/xincludeexample1.xml" />
+			</programlisting>
+			In case this file should be treated as text:
+			<programlisting language="xml">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/xincludeexample2.xml" />
+			</programlisting>
+		</para>
+		<para>
+			Am XInclude ant task is provided by the Eclipse XSL project. I
+			can proudly say that this ant task was contributed by me to the
+			Eclipse XLS project. :-)
+		</para>
+	</section>
+	<section id="xinclude_eclipsexsl">
+		<title>Eclipse XSL Tools</title>
+		<para>
+			Eclipse XSL Tools provide support for XSLT transformations. It
+			supports XSL editing and debugging support. We will only use the
+			XInclude task, but you have to install the whole package.
+	</para>
+		<para>
+			Install the XSL tools via the update manager from the standard
+			Eclipse update site. See
+			<ulink
+				url="http://www.vogella.com/tutorials/Eclipse/article.html#updatemanager">
+				Using the Eclipse update manager</ulink>
+			for details.
+		</para>
+		<para>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="images/installxsl10.gif" />
+				</imageobject>
+			</mediaobject>
+		</para>
+	</section>
+	<section id="xinclude_using">
+		<title>Using the XInclude ant task</title>
+		<para>
+			From your Eclipse installation take the
+			<filename>org.eclipse.wst.xsl.core.jar</filename> and add this JAR file to your ant
+			classpath. Put the new JAR into your Ant classpath. See
+			<ulink
+				url="http://www.vogella.com/tutorials/ApacheAnt/article.html#classpath">
+				Apache Ant Tutorial - Classpath</ulink>
+			for details.
+		</para>
+		<para>
+			You should now be able to create and run the xinclude task.
+			Below an example ant build.xml file.</para>
+		<para>
+			<programlisting language="xml">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/ant/buildxinclude.xml" />
+			</programlisting>
+		</para>
+	</section>
+</section>

@@ -1,0 +1,7 @@
+
+# Login to server
+# to test use localhost
+ssh git@IP_ADDRESS_OF_SERVER
+
+# Create repository
+git init --bare example.git

@@ -1,0 +1,26 @@
+<section id="shortcuts">
+	<title>Define shortcuts for your macros</title>
+	<para> To define a shortcut for your macro, select View -> Toolbars ->
+		Customize and select Macros.</para>
+	<para>
+		<mediaobject>
+			<imageobject>
+				<imagedata fileref="images/button10.gif" />
+				
+			</imageobject>
+		</mediaobject>
+	</para>
+	<para> Drag the macro into your toolbar. Right-click it to change its
+		properties, e.g. the name. Use <![CDATA[  & ]]>
+	number to assign a hotkey to your
+	macro. For example the following sets the hotkey for the Move macro to
+	Alt+1. </para>
+	<para>
+		<mediaobject>
+			<imageobject>
+				<imagedata fileref="images/button20.gif" />
+				
+			</imageobject>
+		</mediaobject>
+	</para>
+</section>

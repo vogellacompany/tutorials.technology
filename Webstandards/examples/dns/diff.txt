@@ -1,0 +1,2 @@
+# return the IP address of vogella.com from the named nameserver
+dig @robotns3.second-ns.com vogella.com

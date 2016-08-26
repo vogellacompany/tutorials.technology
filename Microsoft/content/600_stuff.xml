@@ -1,0 +1,96 @@
+<section id="stuff">
+	<title>Appendix: Additional Windows Settings</title>
+	<section id="stuff_language">
+		<title>Language Settings for Office</title>
+		<para> To change the language in which office works, select the
+			following.</para>
+		<para>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="images/languagesettingsoffice.gif"/>
+					
+				</imageobject>
+			</mediaobject>
+		</para>
+		<para>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="images/languagesettingsoffice20.gif"/>
+					
+				</imageobject>
+			</mediaobject>
+		</para>
+	</section>
+	<section id="stuff_languagegeneral">
+		<title>Language Settings</title>
+		<para> Control Panel -> Regional and Language Settings -> Languages
+			Click on Details and then Key Settings</para>
+	</section>
+	
+	<section id="stuff_networkdrive">
+		<title>Map a network drive</title>
+		<para> You can map a network driver to a local driver which make it
+			easier to access it.</para>
+		<para>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="images/mapnetworkdriver10.gif"/>
+					
+				</imageobject>
+			</mediaobject>
+		</para>
+		<para>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="images/mapnetworkdriver20.gif"/>
+					
+				</imageobject>
+			</mediaobject>
+		</para>
+	</section>
+	<section id="stuff_linktoolbar">
+		<title>Create a link toolbar</title>
+		<para> If you want to have quick access to your folders / network
+			drivers you can create your own toolbar and put your links into it.
+		</para>
+		<para> Right-click on the toolbar and select toolbar -> own toolbar.
+		</para>
+		<para>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="images/owntoolbar10.gif" />
+					
+				</imageobject>
+			</mediaobject>
+		</para>
+		<para> Right-click on the toolbar and select toolbar -> own toolbar.
+		</para>
+		<para>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="images/owntoolbar20.gif" />
+					
+				</imageobject>
+			</mediaobject>
+		</para>
+		<para> You can now pull the new toolbar on your desktop and then
+			position it for example at the top of your screen. Fill the folder
+			with links and you will have easy access to your folders.</para>
+		<para>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="images/owntoolbar30.gif" />
+					
+				</imageobject>
+			</mediaobject>
+		</para>
+		<para>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="images/owntoolbar40.gif" />
+					
+				</imageobject>
+			</mediaobject>
+		</para>
+	</section>
+</section>

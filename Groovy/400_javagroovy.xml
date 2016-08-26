@@ -1,0 +1,57 @@
+<section id="javagroovy">
+	<title>Using Groovy classes in Java</title>
+	<section id="javagroovy1">
+		<title>Calling Groovy classes directly</title>
+		<para> To use Groovy classes in Java classes you need to add the
+			Groovy
+			runtime to the Java classpath.
+		</para>
+		<para> Create a new Java project "de.vogella.groovy.java". Create
+			package "de.vogella.groovy.java"
+		</para>
+		<para> Create the following Groovy class.</para>
+		<para>
+			<programlisting>
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/javagroovy/Person.groovy" />
+			</programlisting>
+		</para>
+		<para> Create the following Java class.</para>
+		<para>
+			<programlisting>
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/javagroovy/Main.java" />
+			</programlisting>
+		</para>
+		<para> You should be able to run this Java program.</para>
+		<para>Right-click your project, select "Properties" and
+			check that the
+			build path includes the Groovy libraries.
+		</para>
+		<para>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="images/javagroovy10.gif" />
+
+				</imageobject>
+			</mediaobject>
+		</para>
+	</section>
+	<section id="script">
+		<title>Calling a script</title>
+		<para>
+			<programlisting language="java">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/script/ExecuteGroovyViaJSR223.java" />
+			</programlisting>
+		</para>
+		<para>
+			<programlisting language="java">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/script/hello.groovy" />
+			</programlisting>
+		</para>
+
+
+	</section>
+</section>

@@ -1,0 +1,13 @@
+<section id="resources">
+	<title>Links and Literature</title>
+		<para>
+			<ulink url="http://db.apache.org/derby/"> http://db.apache.org/derby/</ulink>
+			Apache Derby Homepage
+		</para>
+		<para>
+			<ulink url="http://support.microsoft.com/kb/q137890/"> http://support.microsoft.com/kb/q137890/</ulink>
+			Microsoft Help - How To Create a User-Defined Service
+		</para>
+		
+		
+</section>

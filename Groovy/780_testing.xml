@@ -1,0 +1,72 @@
+<section id="grooygtests">
+	<title>Asserts and testing with Groovy</title>
+	<section id="grooygtests_asserts">
+		<title>Asserts </title>
+		<para>
+			Groovy provides the
+			<code>assert</code>
+			keyword which takes a boolean expression as an argu-
+			ment.
+			If the
+			expression is true, nothing is returned,
+			but if it
+			evaluates to
+			false a
+			detailed
+			error message is
+			printed to the console.
+			<code>assert</code>
+			is enabled by
+			default.
+		</para>
+		<para>
+			<programlisting language="java">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/testing/assert.java" />
+			</programlisting>
+		</para>
+	</section>
+	<section id="grooygtests_unittests">
+		<title>Unit tests </title>
+
+		<para>
+			Groovy can be used to write JUnit 4 test cases without any
+			restrictions. The
+			<code>groovy.test.GroovyAssert</code>
+			holds various static assert
+			methods that can be used as replacement
+			for
+			the JUnit assert statements.
+		</para>
+		<para>
+			You also have the static import for
+			<code>shouldFail</code>
+			. This method validates if the inner block is false or throws can
+			exception.
+		</para>
+
+		<para>
+			<programlisting language="java">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/testing/shouldfail.java" />
+			</programlisting>
+		</para>
+
+		<para>
+			The
+			<code>MockFor</code>
+			and
+			<code>StubFor</code>
+			classes in
+			the Groovy library, which are great
+			ways to build mock objects and
+			also
+			provide
+			some insight into Groovy
+			metaprogramming.
+		</para>
+		<para>
+			See
+			<ulink url="http://beta.groovy-lang.org/docs/groovy-2.3.0/html/documentation/core-testing-guide.html">Groovy testing guide</ulink>
+			.
+		</para>
+	</section>
+</section>

@@ -1,0 +1,103 @@
+<section id="overview">
+	<title>Introduction to DocBook</title>
+	<section id="overview_defintion">
+		<title>Overview</title>
+		<para>
+			<wordasword>DocBook</wordasword>
+			is a standard for creating well-formated plain text
+			documents.
+			DocBook
+			files are written as plain text.
+		</para>
+		<para>
+			For further processing
+			<wordasword>DocBook</wordasword>
+			files are transformed into
+			other
+			output
+			formats. This is typically done
+			via
+			<wordasword>XSLT</wordasword>
+			(<wordasword>
+				Extensible Stylesheet Language Transformation
+			</wordasword>).
+		</para>
+		<para>
+			<wordasword>XSLT</wordasword>
+			sheets
+			for converting DocBook
+			into common output, e.g. HTML or PDF,
+			are
+			available,
+		</para>
+	</section>
+	<section id="overview_types">
+		<title>Documents classes</title>
+		<para>
+			DocBook has two main document classes, the
+			<wordasword>book</wordasword>
+			class and the
+			<wordasword>article</wordasword>
+			class.
+		</para>
+		<para>
+			<itemizedlist>
+				<listitem>
+					<para>Article:
+						Used for writing technical articles. The main tag
+						is <![CDATA[<article>]]>.
+						Article is used in the following example.
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						Book: Used for longer description. The main tags is book. In
+						addition to sections in articles you have also the
+						<![CDATA[<chapter>]]> tag
+						and the <![CDATA[<part>]]>
+						tag.
+					</para>
+				</listitem>
+			</itemizedlist>
+		</para>
+	</section>
+	<section id="overview_versions">
+		<title>DocBook versions</title>
+		<para>
+			<wordasword>DocBook</wordasword>
+			is currently available in two versions. The
+			<parameter>4.5</parameter>
+			version and the
+			<parameter>5.0</parameter>
+			version. This tutorial is based on the
+			<parameter>4.5</parameter>
+			version which seems to be the version that is still heavily used.
+		</para>
+	</section>
+
+	<section id="overview_example">
+		<title>DocBook Example</title>
+		<para>
+			The following listing shows an example of a DocBook article.
+			<programlisting language="xml">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/firstdocbook/article.xml" />
+			</programlisting>
+		</para>
+
+		<para>
+			The following listing shows an example of a DocBook book.
+			<programlisting language="xml">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/firstdocbook/book.xml" />
+			</programlisting>
+		</para>
+
+		<para>
+			The header in the file points to the location of the
+			DTD file of
+			the docbook download.
+		</para>
+	</section>
+
+</section>

@@ -1,0 +1,96 @@
+<section id="gerritreview_configuration">
+	<title>Developer: Gerrit configuration for the Git repository</title>
+	<para>
+		After you cloned the repository from Gerrit, right-click in the
+		<guilabel>Git Repositories</guilabel>
+		view
+		on the
+		<wordasword>origin</wordasword>
+		remote and select
+		<guilabel>Gerrit Configuration...</guilabel>
+		.
+	</para>
+	<para>
+		<mediaobject>
+			<imageobject>
+				<imagedata fileref="images/remotegerritconfiguration10.png"
+					scale="40" />
+			</imageobject>
+			<textobject>
+				<phrase>Configure a remote for Gerrit</phrase>
+			</textobject>
+		</mediaobject>
+	</para>
+	<para>
+		The default values in this dialog should be okay. Press the
+		finish
+		button.
+	</para>
+
+	<para>
+		<mediaobject>
+			<imageobject>
+				<imagedata fileref="images/remotegerritconfiguration20.png"
+					scale="40" />
+			</imageobject>
+			<textobject>
+				<phrase>Configure a remote for Gerrit</phrase>
+			</textobject>
+		</mediaobject>
+	</para>
+	<para>
+		This sets your push configuration for this remote to
+		<wordasword>refs/for/*</wordasword>
+		which tells Gerrit that you created or updated a change.
+		To
+		valid the
+		push configuration, right-click on your remote and select
+		<guilabel>Configure push</guilabel>
+		and ensure that the setting is similar to the
+		following screenshot. It
+		also adds a flag to your repository to tell the Eclipse Git tooling to
+		create a
+		Gerrit Change-id.
+	</para>
+	<tip>
+		<para>
+			Use the
+			<guilabel>Properties</guilabel>
+			view
+			on your repository to see the details of your repository
+			configuration.
+		</para>
+	</tip>
+	<para>
+		<mediaobject>
+			<imageobject>
+				<imagedata fileref="images/gerrit_remoteconfiguration40.png"
+					scale="40" />
+			</imageobject>
+			<textobject>
+				<phrase>Gerrit remote configuration</phrase>
+			</textobject>
+		</mediaobject>
+	</para>
+	<para>
+		The
+		<wordasword>refs/for/*</wordasword>
+		ensures that every push is handled by Gerrit. If you use the
+		<wordasword>refs/heads/master</wordasword>
+		ref mapping, you can directly push to the Git repository. This
+		option
+		is typically restricted to administrators.
+	</para>
+
+	<tip>
+		<para>
+			You can also do this setup directly via the Git command line.
+			<para>
+				<programlisting language="bourne">
+					<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+						parse="text" href="./examples/pushrefspec/refspec.txt" />
+				</programlisting>
+			</para>
+		</para>
+	</tip>
+</section>

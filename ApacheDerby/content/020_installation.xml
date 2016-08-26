@@ -1,0 +1,19 @@
+<section id="installation">
+	<title>Installation of Derby</title>
+	<para>
+		Download the latest Derby version from the Apache website
+		<ulink url="http://db.apache.org/derby/"> http://db.apache.org/derby/</ulink>
+		. Choose the bin distribution and extract this zip to a directory of
+		your choice. Also make the Derby tools available in your path via the 
+		following:
+		<itemizedlist>
+			<listitem>
+				<para>Set the environment variable DERBY_HOME to the Derby
+					installation directory</para>
+			</listitem>
+			<listitem>
+				<para>Add DERBY_HOME/bin to the "path" environment variable</para>
+			</listitem>
+		</itemizedlist>
+	</para>
+</section>

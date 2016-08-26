@@ -1,0 +1,11 @@
+<section id="resources">
+	<title>Links and Literature</title>
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../10_Include/sourcejava.xml" />
+	<section id="ant_links">
+		<title>General</title>
+		<ulink url="http://ant.apache.org/"> http://ant.apache.org/</ulink>
+		Apache Ant Homepage
+		<ulink url="http://subclipse.tigris.org/svnant.html"> http://subclipse.tigris.org/svnant.html</ulink>
+		Subversion Ant Task
+	</section>
+</section>

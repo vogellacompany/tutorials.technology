@@ -1,0 +1,13 @@
+# reminder: your active branch is newbranch
+
+# pull remote_name and merge
+git pull mysecondrepo
+
+# or fetch and merge in two steps
+git fetch mysecondrepo
+git merge mysecondrepo/newbranch
+
+# afterwards push to first repository
+# -u sets the tracking branch 
+# for the current branch
+git push -u origin master

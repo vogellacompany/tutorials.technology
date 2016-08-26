@@ -1,0 +1,2 @@
+
+connect 'jdbc:derby://localhost:1527/c:\temp\db\FAQ\db;create=true';

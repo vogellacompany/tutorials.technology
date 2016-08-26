@@ -1,0 +1,19 @@
+<section id="resources">
+	<title>Links and Literature</title>
+
+	<para>
+		<ulink url="http://git-scm.com/"> Git homepage</ulink>
+	</para>
+	<para>
+		<ulink url="http://www.vogella.com/tutorials/EclipseGit/article.html"> EGit - Teamprovider for Eclipse</ulink>
+	</para>
+
+	<para>
+		<ulink url="http://www.youtube.com/watch?v=4XpnKHJAok8"> Video with Linus Torvalds on Git</ulink>
+	</para>
+	<para>
+		<ulink url="http://code.google.com/p/msysgit/"> Git on Windows</ulink>
+	</para>
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../10_Include/resources.xml" />
+
+</section>

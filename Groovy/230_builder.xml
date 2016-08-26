@@ -1,0 +1,17 @@
+<section id="groovybuilder">
+	<title>Groovy builders</title>
+	<para>
+		Groovy supports the builder pattern to create tree-like data
+		structures. The base class for the builder support is
+		<code>BuilderSupport</code>
+		and its subclasses are
+		<code>NodeBuilder</code>
+		,
+		<code>MarkupBuilder</code>
+		,
+		<code>AntBuilder</code>
+		and
+		<code>SwingBuilder</code>
+		.
+	</para>
+</section>

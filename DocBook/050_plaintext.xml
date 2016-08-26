@@ -1,0 +1,15 @@
+<section id="plaintext">
+	<title>Convert Docbook to plain text</title>
+	<para>
+		The best way to convert Docbook files to plain text is first to
+		convert them to HTML and then use the text browser Lynx to convert it
+		to text with the following command.
+	</para>
+	<para>
+		<programlisting language="bourne">
+			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+				parse="text" href="./examples/text/plaintext.sh" />
+		</programlisting>
+	</para>
+	<para>This way the text is well structured, e.g., tables are looking nice.</para>
+</section>

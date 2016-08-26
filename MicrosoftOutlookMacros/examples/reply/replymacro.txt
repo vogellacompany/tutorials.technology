@@ -1,0 +1,579 @@
+
+Sub Generic(greeting, byebye, myname, includeCC, category, delay, text)
+    
+    Dim olApp As Outlook.Application
+   
+    Set olApp = Outlook.Application
+
+    If TypeName(Application.ActiveInspector.CurrentItem) = "MailItem" Then
+        Call mailreply(greeting, byebye, myname, includeCC, category, delay, text)
+    End If
+
+    
+    If TypeName(Application.ActiveInspector.CurrentItem) = "AppointmentItem" Then
+        Call appointmentreply(greeting, byebye, myname, includeCC, category, delay, text)
+    End If
+    
+    If TypeName(Application.ActiveInspector.CurrentItem) = "MeetingItem" Then
+        Call meetingreply(greeting, byebye, myname, includeCC, category, delay, text)
+    End If
+    
+End Sub
+
+Sub removedeplay()
+    
+    Dim olApp As Outlook.Application
+   
+    Set olApp = Outlook.Application
+
+    If TypeName(Application.ActiveInspector.CurrentItem) = "MailItem" Then
+        Dim objMail As Outlook.MailItem
+        Set objMail = Application.ActiveInspector.CurrentItem
+        objMail.DeferredDeliveryTime = Date + Time
+         
+        
+    End If
+    
+    If TypeName(Application.ActiveInspector.CurrentItem) = "AppointmentItem" Then
+        Dim objAppointment As Outlook.AppointmentItem
+        Set objAppointment = Application.ActiveInspector.CurrentItem
+        objAppointment.DeferredDeliveryTime = Date + Time
+        
+    End If
+    
+    If TypeName(Application.ActiveInspector.CurrentItem) = "MeetingItem" Then
+       ' Call meetingreply(greeting, byebye, myname, includeCC, category, delay, text)
+    End If
+    
+    
+End Sub
+
+
+Sub mailreply(greeting, byebye, myname, includeCC, category, delay, text)
+    
+    
+
+    Dim objMail As Outlook.MailItem
+    
+    Set objMail = Application.ActiveInspector.CurrentItem
+    
+    
+    
+    With objMail
+       'Set body format to HTML
+       Dim arry As String
+       Dim help As String
+       
+       Dim email, vorname As Variant
+  
+       
+       Dim cced As Variant
+       Dim anrede As Variant
+       Dim size As Integer
+       
+       cced = Split(.CC, ";")
+
+       
+       email = Split(.To, ";")
+       Dim Anzahl As Integer
+       
+       ' Now get the names of the persons which are in the email
+       
+       Anzahl = UBound(email)
+       
+        first = True
+        For I = 0 To Anzahl
+        
+            'If Not email(i) = "Vogel, Lars;" Then
+            
+             vorname = Split(email(I), ",")
+             
+           'If size(vorname()) <> 0 Then
+           
+           
+            
+             ' Debug.Print
+             If UBound(vorname) >= 1 Then ' Check the size of the vorname array
+             
+             If LenB(vorname(1)) >= 0 Then
+             If (StrComp(vorname(1), " Arno Diego") = 0) Then
+                 'Debug.Print (vorname(1))
+                 vorname(1) = " Arno"
+                'Debug.Print (vorname(1))
+             End If
+             
+         
+             
+                   If (StrComp(vorname(1), " Svetozar") = 0) Then
+                 'Debug.Print (vorname(1))
+                 vorname(1) = " Sale"
+                'Debug.Print (vorname(1))
+             End If
+             
+            If (StrComp(vorname(1), " Joerg Thomas") = 0) Then
+                 'Debug.Print (vorname(1))
+                 vorname(1) = " Jörg"
+                'Debug.Print (vorname(1))
+             End If
+             
+              If (StrComp(vorname(1), " Regina Anette") = 0) Then
+                 'Debug.Print (vorname(1))
+                 vorname(1) = " Regina"
+                'Debug.Print (vorname(1))
+             End If
+             
+             
+                
+            If (StrComp(vorname(1), " Moniq Ratnademita") = 0) Then
+                 'Debug.Print (vorname(1))
+                 vorname(1) = " Moniq"
+                'Debug.Print (vorname(1))
+             End If
+             
+             
+            If (StrComp(vorname(1), " Spyridon") = 0) Then
+                 'Debug.Print (vorname(1))
+                 vorname(1) = " Spyros"
+                'Debug.Print (vorname(1))
+             End If
+             
+             
+            If (StrComp(vorname(1), " Juan Gabriel") = 0) Then
+                 'Debug.Print (vorname(1))
+                 vorname(1) = " Gabriel"
+                'Debug.Print (vorname(1))
+            End If
+             
+            If (StrComp(vorname(1), " Patricia") = 0) Then
+                 'Debug.Print (vorname(1))
+                 vorname(1) = " Patti"
+                'Debug.Print (vorname(1))
+            End If
+             
+            If (StrComp(vorname(1), " Mirjam") = 0) Then
+                 'Debug.Print (vorname(1))
+                 vorname(1) = " Miri"
+                'Debug.Print (vorname(1))
+            End If
+            
+              
+            If (StrComp(vorname(1), " Hans-Juergen") = 0) Then
+                 'Debug.Print (vorname(1))
+                 vorname(1) = " Jürgen"
+                'Debug.Print (vorname(1))
+            End If
+             
+             
+            If (StrComp(vorname(1), " Deborah") = 0) Then
+                 vorname(1) = " Debbi"
+            End If
+                
+            If (StrComp(vorname(1), " Bjoern") = 0) Then
+                 vorname(1) = " Björn"
+             End If
+            
+            If (StrComp(vorname(1), " Timothy") = 0) Then
+                 vorname(1) = " Tim"
+            End If
+            
+            If (StrComp(vorname(1), " Ruediger") = 0) Then
+                 vorname(1) = " Rüdiger"
+            End If
+             If (StrComp(vorname(1), " CHRISTIAN") = 0) Then
+                 vorname(1) = " Christian"
+             End If
+             End If
+             End If
+             
+            If UBound(vorname) > 0 Then
+            If first Then
+            anrede = vorname(1)
+            first = False
+            Else
+            anrede = anrede & " / " & vorname(1)
+        End If
+
+        End If
+       ' End If
+       
+       
+        
+       Next I
+       
+       If includeCC = "1" Then
+       
+       ' Now get the names of the persons which are cc'ed
+       
+       Anzahl = UBound(cced)
+       
+        first = True
+       For I = 0 To Anzahl
+       If Not email(I) = "Vogel, Lars" Then
+        vorname = Split(cced(I), ",")
+        
+        If UBound(vorname) > 0 Then
+        If first Then
+        anrede = anrede & " ," & vbNewLine & "cc:" & vorname(1)
+        first = False
+        
+         Else
+        anrede = anrede & " / " & vorname(1)
+        End If
+
+        End If
+        End If
+        
+       Next I
+        
+        Else
+             anrede = anrede & " ,"
+        End If
+        
+       .Body = greeting & anrede & vbNewLine & vbNewLine & text & vbNewLine & vbNewLine & byebye & myname & vbNewLine & vbNewLine & "---------------------------------------" & vbNewLine & .Body
+       
+       .Display
+       
+          If delay = True Then
+       .DeferredDeliveryTime = Date + Time + TimeValue("06:00:00")
+       Else
+       .DeferredDeliveryTime = Date + Time + TimeValue("00:30:00")
+      End If
+      
+       
+    End With
+    objMail.Categories = category
+       
+   
+        
+
+    'End If
+    SendKeys "{DOWN}"
+    SendKeys "{DOWN}"
+    
+End Sub
+
+Sub appointmentreply(greeting, byebye, myname, includeCC, category, delay, text)
+    Dim objAppointment As Outlook.AppointmentItem
+     Dim first As Boolean
+     
+    Set objAppointment = Application.ActiveInspector.CurrentItem
+    
+    
+    
+    With objAppointment
+       'Set body format to HTML
+       Dim arry As String
+       
+       Dim email, vorname As Variant
+       Dim cced As Variant
+       Dim anrede As Variant
+       Dim size As Integer
+       
+       ' .Recipients
+       
+       cced = Split(.OptionalAttendees, ";")
+       
+       
+       email = Split(.RequiredAttendees, ";")
+       Dim Anzahl As Integer
+       
+       ' Now get the names of the persons which are in the email
+       
+       Anzahl = UBound(email)
+       
+      
+       first = True
+       For I = 0 To Anzahl
+        If Not email(I) = "Vogel, Lars" Then
+   
+    
+        vorname = Split(email(I), ",")
+        
+        If UBound(vorname) > 0 Then
+        If first Then
+        anrede = vorname(1)
+        first = False
+         Else
+        anrede = anrede & " / " & vorname(1)
+        End If
+
+        End If
+        End If
+    
+       Next I
+       
+       
+       If includeCC = "1" Then
+       
+       ' Now get the names of the persons which are cc'ed
+       
+       Anzahl = UBound(cced)
+       
+       first = True
+       For I = 0 To Anzahl
+       If Not cced(I) = "Vogel, Lars" Then
+   
+        vorname = Split(cced(I), ",")
+        
+        If UBound(vorname) > 0 Then
+        If first Then
+            anrede = anrede & " ," & vbNewLine & "cc:" & vorname(1)
+            first = False
+         Else
+        anrede = anrede & " / " & vorname(1)
+        End If
+
+        End If
+        End If
+       Next I
+        
+        Else
+             anrede = anrede & " ,"
+        End If
+        
+       .Body = greeting & anrede & vbNewLine & vbNewLine & text & vbNewLine & vbNewLine & byebye & myname & vbNewLine & vbNewLine & "---------------------------------------" & vbNewLine & .Body
+       
+       .Display
+       
+         If delay = True Then
+            '.DeferredDeliveryTime = Date + Time + TimeValue("06:00:00")
+        Else
+        '.DeferredDeliveryTime = Date + Time + TimeValue("00:30:00")
+        End If
+        
+    End With
+   ' objAppointment.Categories = category
+    
+    
+
+    'End If
+    SendKeys "{DOWN}"
+    SendKeys "{DOWN}"
+    
+End Sub
+
+
+Sub meetingreply(greeting, byebye, myname, includeCC, category, delay, text)
+    Dim objMeeting As Outlook.MeetingItem
+     Dim first As Boolean
+     
+    Set objMeeting = Application.ActiveInspector.CurrentItem
+    
+    
+    
+    With objMeeting
+       'Set body format to HTML
+       Dim arry As String
+       
+       Dim email, vorname As Variant
+       Dim cced As Variant
+       Dim anrede As Variant
+       Dim size As Integer
+       
+       'cced = Split(.CC, ";")
+        
+        first = True
+       For I = 1 To .Recipients.Count
+        email = .Recipients.Item(I)
+         vorname = Split(email, ",")
+           If first Then
+            anrede = vorname(1)
+            first = False
+            Else
+            anrede = anrede & " / " & vorname(1)
+        End If
+       Next I
+       
+       
+        
+       .Body = greeting & anrede & vbNewLine & vbNewLine & text & vbNewLine & vbNewLine & byebye & myname & vbNewLine & vbNewLine & "---------------------------------------" & vbNewLine & .Body
+       
+       .Display
+       
+
+      
+       
+    End With
+    objMeeting.Categories = category
+       
+   
+        
+
+    'End If
+    SendKeys "{DOWN}"
+    SendKeys "{DOWN}"
+    
+End Sub
+
+
+Sub Reply_Text_Germany()
+   Call Generic("Hallo", "Viele Grüße, ", "Lars", 0, "", True, "")
+End Sub
+
+
+Sub Reply_Text_Germany_Urgent()
+    Call Generic("Hallo", "Viele Grüße, ", "Lars", 0, "Business", False, "")
+End Sub
+
+
+Sub Reply_Text_English()
+     Call Generic("Hi", "Best regards, ", "Lars", 0, "", True, "")
+End Sub
+
+
+Sub Reply_Text_English_Urgent()
+    Call Generic("Hi", "Best regards, ", "Lars", 0, "Business", False, "")
+End Sub
+
+Sub Reply_Meeting_Germany()
+   Call Generic("Hallo", "Viele Grüße, ", "Lars", 0, "", False, "Leider habe ich an dem Termin schon einen existierenden Termin.")
+End Sub
+
+Sub Reply_Meeting_Englisch()
+   Call Generic("Dear", "Best regards, ", "Lars", 0, "", False, "Unfortunately I already have an appointment at the suggested meeting time.")
+End Sub
+
+
+
+
+
+
+Sub MoveSelectedMessagesToToDo()
+
+On Error Resume Next
+    Dim objFolder As Outlook.MAPIFolder, objInbox As Outlook.MAPIFolder
+
+    Dim objNS As Outlook.NameSpace, objItem As Outlook.MailItem
+
+    Set objNS = Application.GetNamespace("MAPI")
+
+    Set objInbox = objNS.GetDefaultFolder(olFolderInbox)
+
+   ' MUST CHANGE THE OUTPUT FOLDER
+   ' Assume this is a mail folder
+    Set objFolder = GetFolder("10_Offline\_00_to_do")
+    ' In case you would like to move to a subfolder in the inbox
+    'Set objFolder = objInbox.Folders.Item("Done")
+
+
+    If objFolder Is Nothing Then
+        MsgBox "This folder doesn't exist!", vbOKOnly + vbExclamation, "INVALID FOLDER"
+    End If
+
+    If Application.ActiveExplorer.Selection.Count = 0 Then
+        'Require that this procedure be called only when a message is selected
+        Exit Sub
+    End If
+
+ 
+    For Each objItem In Application.ActiveExplorer.Selection
+        If objFolder.DefaultItemType = olMailItem Then
+            If objItem.Class = olMail Then
+                objItem.Move objFolder
+            End If
+        End If
+    Next
+
+    Set objItem = Nothing
+    Set objFolder = Nothing
+    Set objInbox = Nothing
+    Set objNS = Nothing
+
+End Sub
+
+
+
+Sub MoveSelectedMessagesToFolder()
+
+On Error Resume Next
+    Dim objFolder As Outlook.MAPIFolder, objInbox As Outlook.MAPIFolder
+
+    Dim objNS As Outlook.NameSpace, objItem As Outlook.MailItem
+
+    Set objNS = Application.GetNamespace("MAPI")
+
+    Set objInbox = objNS.GetDefaultFolder(olFolderInbox)
+
+   ' MUST CHANGE THE OUTPUT FOLDER
+   ' Assume this is a mail folder
+    Set objFolder = GetFolder("2007\Q3")
+    
+
+
+    If objFolder Is Nothing Then
+        MsgBox "This folder doesn't exist!", vbOKOnly + vbExclamation, "INVALID FOLDER"
+    End If
+
+    If Application.ActiveExplorer.Selection.Count = 0 Then
+         MsgBox "Nothing selected", vbOKOnly + vbExclamation, "No message selected"
+        Exit Sub
+    End If
+
+ 
+    For Each objItem In Application.ActiveExplorer.Selection
+        If objFolder.DefaultItemType = olMailItem Then
+            If objItem.Class = olMail Then
+                objItem.Move objFolder
+            End If
+        End If
+    Next
+
+    Set objItem = Nothing
+    Set objFolder = Nothing
+    Set objInbox = Nothing
+    Set objNS = Nothing
+
+End Sub
+
+
+Public Function GetFolder(strFolderPath As String) As MAPIFolder
+  ' folder path needs to be something like
+  '   "Public Folders\All Public Folders\Company\Sales"
+  Dim objApp As Outlook.Application
+  Dim objNS As Outlook.NameSpace
+  Dim colFolders As Outlook.Folders
+  Dim objFolder As Outlook.MAPIFolder
+  Dim arrFolders() As String
+  Dim I As Long
+  On Error Resume Next
+
+  strFolderPath = Replace(strFolderPath, "/", "\")
+  arrFolders() = Split(strFolderPath, "\")
+  Set objApp = CreateObject("Outlook.Application")
+  Set objNS = objApp.GetNamespace("MAPI")
+  Set objFolder = objNS.Folders.Item(arrFolders(0))
+  If Not objFolder Is Nothing Then
+    For I = 1 To UBound(arrFolders)
+      Set colFolders = objFolder.Folders
+      Set objFolder = Nothing
+      Set objFolder = colFolders.Item(arrFolders(I))
+      If objFolder Is Nothing Then
+        Exit For
+      End If
+    Next
+  End If
+
+  Set GetFolder = objFolder
+  Set colFolders = Nothing
+  Set objNS = Nothing
+  Set objApp = Nothing
+End Function
+
+
+Sub lars()
+    For Each objItem In Application.ActiveExplorer.Selection
+        'If objFolder.DefaultItemType = olMailItem Then
+            If objItem.Class = olMail Then
+                objItem.ReplyAll
+                 MsgBox "This folder doesn't exist!", vbOKOnly + vbExclamation, "INVALID FOLDER"
+         '   End If
+         Else
+          MsgBox "This folder doesn't exist!", vbOKOnly + vbExclamation, "INVALID FOLDER"
+        End If
+    Next
+
+End Sub
+
+
+
+

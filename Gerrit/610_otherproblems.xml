@@ -1,0 +1,89 @@
+<section id="gerrit_problems" role="wrapper">
+	<title>More infos on trouble shooting</title>
+	<section id="gerrit_problems_removecommit">
+		<title>Remove a bad commit from a series of commits</title>
+		<para>
+			If you create a series
+			of dependent commits, it might happen that
+			one of the commits
+			is rejected during the review
+			process.
+		</para>
+
+		<para>
+			In this
+			case you
+			cannot merge the
+			other commits as they still
+			have a
+			dependency to the
+			"bad" commit.
+		</para>
+
+		<para>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="images/gerritissue_problem20.png"
+						scale="30" />
+				</imageobject>
+				<textobject>
+					<phrase>Non-fast forward</phrase>
+				</textobject>
+			</mediaobject>
+		</para>
+		<para>During the review process commit 2 are rejected.
+			The commit 3 and
+			commit 4 are still good and do not depend on the changes in commit 2.
+		</para>
+		<para>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="images/gerritissue_problem22.png"
+						scale="30" />
+				</imageobject>
+				<textobject>
+					<phrase>Non-fast forward</phrase>
+				</textobject>
+			</mediaobject>
+		</para>
+
+
+		<para>
+			The solution is to use interactive rebase to skip the bad
+			commit.
+		</para>
+		<para>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="images/gerritissue_solution20.png"
+						scale="30" />
+				</imageobject>
+				<textobject>
+					<phrase>Rebase as solution</phrase>
+				</textobject>
+			</mediaobject>
+		</para>
+
+		<tip>
+			<para>The Gerrit user interface does show "depends on" and "needed
+				by" fields
+				when it knows that a Gerrit review depends on another
+				review. This
+				helps you
+				manage your dependency trail.
+			</para>
+		</tip>
+
+
+	</section>
+
+
+	<section id="gerrit_problems_more">
+		<title>More error messages and their solution</title>
+		<para>
+			See
+			<ulink url="https://git.eclipse.org/r/Documentation/error-messages.html">Gerrit error message</ulink>
+			for more error messages and their solutions.
+		</para>
+	</section>
+</section>

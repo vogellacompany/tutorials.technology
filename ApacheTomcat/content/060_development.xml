@@ -1,0 +1,9 @@
+<section id="development">
+	<title>Developing Java web applications</title>
+	<para>
+		After going through the setup you probably want to learn how to
+		develop servlets and JSP on installation directory. Please
+		see
+		<ulink url="http://www.vogella.com/tutorials/EclipseWTP/article.html"> Servlets and JSP development - Tutorial</ulink>
+	</para>
+</section>

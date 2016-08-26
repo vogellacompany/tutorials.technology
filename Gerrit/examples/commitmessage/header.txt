@@ -1,0 +1,6 @@
+Bug XXXXXXXX - bug title
+
+Short description of what the fix contains, or the direction of the fix
+
+Change-Id: I0000000000000000000000000000000000000000
+Signed-off-by: email-from-the-CLA

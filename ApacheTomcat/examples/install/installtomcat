@@ -1,0 +1,4 @@
+sudo apt-get install tomcat7
+sudo apt-get install tomcat7-admin
+sudo apt-get install tomcat7-docs
+sudo apt-get install tomcat7-examples

@@ -1,0 +1,45 @@
+<section id="excel">
+	<title>Excel</title>
+	<section id="excel_team">
+		<title>Simultaneously editing of one excel spreadsheet</title>
+		<para>
+			Excel allows to edit it with several persons at the same time.
+			To activate this, select the following.
+		</para>
+		<para>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="images/share10.png" />
+					
+				</imageobject>
+			</mediaobject>
+		</para>
+		<para>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="images/share20.png" />
+					
+				</imageobject>
+			</mediaobject>
+		</para>
+	</section>
+	<section id="excel_dropdownlist">
+		<title>Dropdown List</title>
+		<para>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="images/excel10.gif" />
+					
+				</imageobject>
+			</mediaobject>
+		</para>
+		<para>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="images/excel20.gif" />
+					
+				</imageobject>
+			</mediaobject>
+		</para>
+	</section>
+</section>

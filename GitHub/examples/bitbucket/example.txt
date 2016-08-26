@@ -1,0 +1,22 @@
+
+# Global setup:
+# Set up git
+  git config --global user.name "Your Name"
+  git config --global user.email your.email@gmail.com
+      
+# Next steps for a new repository
+  mkdir gitbook 
+  cd gitbook
+  git init
+  touch README
+  git add README
+  git commit -m 'first commit'
+  git remote add origin ssh://git@bitbucket.org/vogella/gitbook.git
+  git push -u origin master
+      
+# alternatively for an existing Git repo
+# add remote and push
+  cd existing_git_repo
+  git remote add origin ssh://git@bitbucket.org/vogella/gitbook.git
+  git push -u origin master
+  

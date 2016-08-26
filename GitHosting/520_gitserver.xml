@@ -1,0 +1,110 @@
+<section id="gitserver" role="wrapper">
+	<title>Own Git server</title>
+	<section id="gitserver_install">
+		<title>Hosting your own Git server</title>
+		<indexterm>
+			<primary>Git server</primary>
+			<secondary>configuration</secondary>
+		</indexterm>
+
+		<para>
+			As described before, you do not need a server. You can just use
+			a
+			file
+			system or
+			a public Git provider, such as
+			GitHub or Bitbucket.
+			Sometimes, however,
+			it is convenient to have your own server, and
+			installing it under
+			Ubuntu is relatively easy.
+		</para>
+		<para> First make sure you have installed the SSH tooling.</para>
+
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/server/ssh_install.txt" />
+			</programlisting>
+		</para>
+		<para> If you have not yet installed Git on your server, you need to
+			do
+			this too.
+		</para>
+
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/server/installgit.txt" />
+			</programlisting>
+		</para>
+		<para> Create a new user and set a password for the Git system. </para>
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/server/user.txt" />
+			</programlisting>
+		</para>
+		<para>Now log in with your Git user and create a bare repository.
+		</para>
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/server/repo.txt" />
+			</programlisting>
+		</para>
+
+		<para> Now you can push to the remote repository. </para>
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/server/commit.txt" />
+			</programlisting>
+		</para>
+
+
+	</section>
+
+	<section id="gitserver_access">
+		<title>Give write access to a Git repository</title>
+		<indexterm>
+			<primary>Git server</primary>
+			<secondary>write access</secondary>
+		</indexterm>
+		<para>
+			The typical setup based on the created "git" user from above is
+			that
+			the
+			public SSH key of each user is added to the
+			<filename>~/.ssh/authorized_keys</filename>
+			file of the "git" user. Afterwards everyone can access the system
+			using the "git" user.
+		</para>
+		<para>Alternatively you could use LDAP authentication or other special
+			configurations.
+		</para>
+
+	</section>
+
+	<section id="gitserver_security">
+		<title>Security setup for the git user</title>
+		<indexterm>
+			<primary>Git server</primary>
+			<secondary>security</secondary>
+		</indexterm>
+		<indexterm>
+			<primary>Git server</primary>
+			<secondary>git-shell</secondary>
+		</indexterm>
+		<para>
+			The Git installation provides a specialized shell, which can be
+			assigned to the user. Typically this shell is located under in
+			<filename>/usr/bin/git-shell</filename>
+			and can be assigned to the user via the
+			<filename>/etc/passwd</filename>
+			configuration file to the Git user. If you assign this shell to the
+			Git user, this user can also perform git commands which add safety to
+			your Git setup.
+		</para>
+	</section>
+</section>

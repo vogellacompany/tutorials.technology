@@ -1,0 +1,275 @@
+<section id="development">
+	<title>Programming in Python</title>
+	<section id="development_comments">
+		<title>Comments</title>
+		<para>The following create a single line comment.</para>
+		<para>
+			<programlisting>
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="../examples/comments/comments.txt" />
+			</programlisting>
+		</para>
+	</section>
+	<section id="development_variables">
+		<title>Variables</title>
+		<para>Python provides dynamic typing of its variables, e.g. you do not
+			have to define a type of the variable Python will take care of this
+			for you.</para>
+		<para>
+			<programlisting>
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="../examples/variables/variables.txt" />
+			</programlisting>
+		</para>
+	</section>
+	<section id="development_assertions">
+		<title>Assertions</title>
+		<para>Python provides assertions. These assertions are always
+			called.
+		</para>
+		<para>
+			<programlisting>
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="../examples/assertions/assertions.txt" />
+			</programlisting>
+		</para>
+	</section>
+	<section id="development_methods">
+		<title>Methods / Functions in Python</title>
+		<para> Python allows to define methods via the keyword def. As the
+			language is interpreted the methods need to be defined before using
+			it.</para>
+		<para>
+			<programlisting>
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="../examples/methods/methodtester.py" />
+			</programlisting>
+		</para>
+	</section>
+	<section id="development_conditionals">
+		<title>Loops and if clauses</title>
+		<para> The following demonstrates a loop the usage of an if-clause.
+		</para>
+
+		<para>
+			<programlisting>
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="../examples/conditional/IfTest.py" />
+			</programlisting>
+		</para>
+	</section>
+
+	<section id="development_strings">
+		<title>String manipulation</title>
+		<para> Python allows the following String operations.
+		</para>
+		<para>
+			<table frame='all'>
+				<tgroup cols='2' align='left' colsep='1' rowsep='1'>
+					<colspec colname='c1' />
+					<colspec colname='c2' />
+					<thead>
+						<row>
+							<entry>Operations</entry>
+							<entry>Description</entry>
+						</row>
+					</thead>
+					<tbody>
+						<row>
+							<entry>len(s)</entry>
+							<entry>Returns the length of string s</entry>
+						</row>
+						<row>
+							<entry>s[i]</entry>
+							<entry>Gets the element on position i in String s, position
+								start
+								with zero</entry>
+						</row>
+						<row>
+							<entry>s[-i]</entry>
+							<entry>Get the i-tes Sign of the string from behind the
+								string,
+								e.g. -1 returns the last element in the string</entry>
+						</row>
+						<row>
+							<entry>"abcdefg"[0:4]</entry>
+							<entry>Gets the first 4 elements (abcd)</entry>
+						</row>
+						<row>
+							<entry>"abcdefg"[4:]</entry>
+							<entry>Gets the elements after the first 4 elements (abcd)
+							</entry>
+						</row>
+						<row>
+							<entry>`a`+`b` + `c`</entry>
+							<entry>Concatenates the int varibles a, b,c, e.g. if
+								a=1, b=2,
+								c=3
+								then the result is 123.</entry>
+						</row>
+						<row>
+							<entry>s.lower()</entry>
+							<entry>Result will be s in lower cases</entry>
+						</row>
+						<row>
+							<entry>s.upper()</entry>
+							<entry>Result will be s in upper cases</entry>
+						</row>
+						<row>
+							<entry>s.startswith(t)</entry>
+							<entry>True, if s startsWith t</entry>
+						</row>
+						<row>
+							<entry>s.rstrip()</entry>
+							<entry>Removes the end of line sign from the string</entry>
+						</row>
+					</tbody>
+				</tgroup>
+			</table>
+		</para>
+		<para>For example:</para>
+		<para>
+			<programlisting>
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="../examples/string/stringTester.py" />
+			</programlisting>
+		</para>
+	</section>
+	<section id="development_concatenate">
+		<title>Concatenate strings and numbers</title>
+		<para> Python does not allow to concatenate a string directly with a
+			number. It requires you to turn the number first into a string with
+			the str() function. 
+		</para>
+		<para> If you do not use str() you will get "TypeError: cannot
+			concatenate 'str' and 'int' objects".</para>
+
+		<para>For example:</para>
+		<para>
+			<programlisting>
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="../examples/string/stringNumberConcatenate.py" />
+			</programlisting>
+		</para>
+	</section>
+	<section id="development_lists">
+		<title>Lists</title>
+		<para> Python has good support for lists. See the following example
+			how to create a list, how to access individual elements or
+			sublists
+			and how to add elements to a list.
+		</para>
+		<para>
+			<programlisting>
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="../examples/list/List.py" />
+			</programlisting>
+		</para>
+		<para> If you want to remove the duplicates from a list you can use:
+		</para>
+		<para>
+			<programlisting>
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="../examples/list/ListDuplicates.py" />
+			</programlisting>
+		</para>
+
+
+	</section>
+	<section id="textfiles">
+		<title>Processing files in Python</title>
+		<para> The following example is contained in the project
+			"de.vogella.python.files".</para>
+		<para> The following reads a file, strips out the end of line sign and
+			prints
+			each line to the console.</para>
+		<para>
+			<programlisting>
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="../examples/file/Readfile.py" />
+			</programlisting>
+		</para>
+
+		<para> The following reads the same file but write the output to
+			another file.</para>
+		<para>
+			<programlisting>
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="../examples/file/ReadWriteFile.py" />
+			</programlisting>
+		</para>
+	</section>
+
+	<section id="splitstring">
+		<title>Splitting strings and comparing lists.</title>
+		<para> The following example is contained in the project
+			"de.vogella.python.files". It reads to files which contain one long
+			comma separated string. This string is splitted into lists and the
+			lists are compared. </para>
+		<para>
+			<programlisting>
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="../examples/split/CompareFiles.py" />
+			</programlisting>
+		</para>
+
+	</section>
+	<section id="unicode">
+		<title>Writing Python Scripts in Unicode</title>
+		<para> If you read special non ASCII sign, e.g. ö, ä. ü or ß, you have
+			to tell Python which character set to use. Include the following in
+			the first or second line of your script.  </para>
+			
+			<para>
+			<programlisting>
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="../examples/utf/example.txt" />
+			</programlisting>
+		</para>
+			
+	</section>
+	<section id="classes">
+		<title>Classes in Python</title>
+		<para> The following is a defined class in Python. Python uses the
+			naming convension __name__ for internal functions.</para>
+		<para> Python allows operator overloading, e.g. you can define what
+			the
+			operator + will to for a specific class.</para>
+		<para>
+			<table frame='all'>
+				<tgroup cols='2' align='left' colsep='1' rowsep='1'>
+					<colspec colname='c1' />
+					<colspec colname='c2' />
+					<thead>
+						<row>
+							<entry>__init__</entry>
+							<entry>Constructor of the class</entry>
+						</row>
+					</thead>
+					<tbody>
+						<row>
+							<entry>__str__</entry>
+							<entry>The method which is called if print is applied to this
+								object</entry>
+						</row>
+						<row>
+							<entry>__add__</entry>
+							<entry>+ Operator</entry>
+						</row>
+						<row>
+							<entry>__mul__</entry>
+							<entry>* Operator</entry>
+						</row>
+					</tbody>
+				</tgroup>
+			</table>
+		</para>
+		<para>The empty object (null) is called <wordasword>None</wordasword> in Python.</para>
+		<para>
+			<programlisting>
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="../examples/classes/Point.py" />
+			</programlisting>
+		</para>
+	</section>
+</section>

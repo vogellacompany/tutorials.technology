@@ -1,0 +1,2 @@
+<role rolename="manager-gui" />
+<user username="tomcat" password="s3cret" roles="manager-gui" />

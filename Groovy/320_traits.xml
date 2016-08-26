@@ -1,0 +1,37 @@
+<section id="groovy_traits">
+	<title>Traits</title>
+	<para>
+		Traits are reusable components of behavior that your classes can
+		implement, and are an additional Object-Oriented concept alongside
+		classes and interfaces. Replaced
+		<code>@Mixin</code>
+		.
+	</para>
+
+	<para>
+		<programlisting>
+			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+				parse="text" href="./examples/traits/MyNotifier.groovy" />
+		</programlisting>
+	</para>
+	<para>A trait can have properties, unlike Java 8 default methods for
+		interfaces.
+	</para>
+
+
+	<para>
+		<programlisting>
+			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+				parse="text" href="./examples/traits/MyTester.groovy" />
+		</programlisting>
+	</para>
+
+	<para>A class can implements several traits. To avoid multiple
+		inheritance the last inherited trait wins, unless the class overrides
+		the method or property directly.
+	</para>
+	<para>Traits support inheritance, e.g., a trait can extend another
+		trait
+		or implement an interface.
+	</para>
+</section>

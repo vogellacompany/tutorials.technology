@@ -1,0 +1,110 @@
+<section id="examples_xml">
+	<title>Groovy and Markup like XML or HTML</title>
+	<section id="examples_readingxml">
+		<title>Parsing XML with XmlSlurper</title>
+		<para>
+			Groovy allows to process XML very easily. Groovy provide the
+			<code>XmlSlurper</code>
+			class for this purpose. There are other options but the
+			<code>XmlSlurper</code>
+			is usually considered to be the more efficient in terms of speed and
+			flexibility. XmlSlurper can also be used to transform the XML white
+			parsing it.
+		</para>
+		<para>
+			<code>XmlSlurper</code>
+			allows to parse an XML document and
+			returns an
+			<code>GPathResult</code>
+			object.
+			You can use
+			<code>GPath</code>
+			expressions to access nodes in the XML tree.
+		</para>
+
+		<para>
+			XMLParser allows to parse an XML document and returns an
+			<code>groovy.util.Node</code>
+			object. You can use
+			<code>GPath</code>
+			expressions to access nodes in the XML tree. Dots traverse from
+			parent elements to children, and @ signs
+			represent attribute values.
+		</para>
+		<para>
+			<programlisting>
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/explained/XmlTest.groovy" />
+			</programlisting>
+		</para>
+
+	</section>
+	<section id="generating_markuptemplateengine">
+		<title>Using the MarkupTemplateEngine to generated Markup</title>
+		<para>
+			Introduce in Groovy 2.3 the
+			<code>MarkupTemplateEngine</code>
+			which supports
+			generating XML-like markup (XML, XHTML, HTML5, etc),
+			but it can be
+			used to
+			generate any text based content.
+		</para>
+		<para>
+			It is
+			compiled statically to be very
+			fast and supports
+			internationalization.
+			It also supports templates as
+			input.
+		</para>
+		<para>
+			<programlisting language="java">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/builder/MarkupTemplateEngineExample.groovy" />
+			</programlisting>
+		</para>
+		<para>Templates support includes.</para>
+	</section>
+	<section id="examples_markupBuilder">
+		<title>Creating Markup (XML) files with the MarkupBuilder</title>
+		<para>
+			The usage of the
+			<code>MarkupBuilder</code>
+			as "old" builder
+			is demonstrated by the following snippet.
+		</para>
+		<para>
+			<programlisting language="java">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/builder/TestMarkupWriter.groovy" />
+			</programlisting>
+		</para>
+		<para>The builder in Groovy uses the method names to construct the
+			node
+			and node names. These methods are not defined on the
+			MarkupBuilder
+			class but constructed at runtime.
+		</para>
+		<para>It is possible to use maps MarkupBuilderin the builder</para>
+		<para>
+			<programlisting language="java">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/builder/TestMarkupWriterMap.groovy" />
+			</programlisting>
+		</para>
+
+
+		<para>You can also use the builder to create valid HTML.</para>
+
+		<para>
+			<programlisting language="java">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/builder/TestMarkupHtml.groovy" />
+			</programlisting>
+		</para>
+	</section>
+
+
+
+</section>

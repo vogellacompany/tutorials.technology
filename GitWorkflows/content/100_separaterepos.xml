@@ -1,0 +1,149 @@
+<section id="gitworkflows" role="wrapper">
+	<title>Typical Git workflow using separate repositories</title>
+	<para> The following description highlights typical Git workflows.
+	</para>
+	<section id="gitworkflow_patch">
+		<title>Providing a patch</title>
+		<indexterm>
+			<primary>Git workflow</primary>
+			<secondary>providing patches</secondary>
+		</indexterm>
+		<para> Git emphasizes the creation of branches for feature development
+			or
+			to create
+			bug fixes. The following description lists a typical Git
+			workflow for
+			fixing a bug in your source code (files) and providing a
+			patch for it. This patch contains the changes and can be used by
+			another person to apply the changes to his local Git repository.
+		</para>
+		<para>This description assumes that the developer who creates the
+			changes cannot push changes directly to the remote repository. For
+			example you solve an issue in the source code of an open source
+			project and want that the maintainer of the project to
+			integrate this change into this repository.
+		</para>
+		<para>
+			<orderedlist>
+				<listitem>
+					<para>Clone the repository, in case you have not done that.</para>
+				</listitem>
+				<listitem>
+					<para>Create a new branch for the bug fix</para>
+				</listitem>
+				<listitem>
+					<para>Modify the files (source code)</para>
+				</listitem>
+
+				<listitem>
+					<para>Commit changes to your branch </para>
+				</listitem>
+				<listitem>
+					<para>Create patch </para>
+				</listitem>
+				<listitem>
+					<para>Send patch to another person or attach it to a bug report, so
+						that is can be applied to the other Git repository
+					</para>
+				</listitem>
+			</orderedlist>
+		</para>
+		<para>You may also want to commit several times during 3. and 4. and
+			rebase your commits afterwards.
+		</para>
+
+	</section>
+
+	<section id="gitworkflows_workingwithtworepositories">
+		<title>Working with two repositories</title>
+		<indexterm>
+			<primary>Git workflow</primary>
+			<secondary>using two repositories</secondary>
+		</indexterm>
+		<para>Sometimes you want to add a second remote repository to your
+			local Git repository and pull from and push to both repositories.
+			The
+			following example describes how to add another remote
+			repository
+			and
+			exchange commits with both repositories.
+		</para>
+		<para>
+			You can add another remote repository called
+			<wordasword>remote_name</wordasword>
+			via the following command.
+		</para>
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="../examples/addremote/step1.txt" />
+			</programlisting>
+		</para>
+
+		<para>
+			For merging the changes in
+			<wordasword>mysecondrepo</wordasword>
+			create a new branch called
+			<wordasword>newbranch</wordasword>
+			.
+		</para>
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="../examples/addremote/step2.txt" />
+			</programlisting>
+		</para>
+		<para>
+			Afterwards you can pull from your new repository called
+			<wordasword>mysecondrepo</wordasword>
+			and push to your original repository, e.g., origin.
+		</para>
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="../examples/addremote/step3.txt" />
+			</programlisting>
+		</para>
+
+	</section>
+	<section id="gitworkflows_pullrequests">
+		<title>Using pull requests</title>
+		<indexterm>
+			<primary>Git workflow</primary>
+			<secondary>providing pull requests</secondary>
+		</indexterm>
+		<para>Another very common Git workflow is the usage of pull requests.
+			In this workflow a developer clones a repository and once he thinks
+			he
+			has something useful for another clone or the origin repository he
+			sends the owner a pull request asking to merge his changes.
+		</para>
+		<para>A pull request can be seen as a notification which includes
+			the
+			information from which branch and URL the changes can be pulled
+			and
+			also the information to which URL and branch these changes should
+			be
+			pulled too.
+		</para>
+		<para>This workflow is actively promoted by the GitHub.com
+			hosting
+			platform but you can also provide the required information to
+			someone
+			via email.
+		</para>
+		<tip>
+			<para>
+				You can use the
+				<code>git request-pull</code>
+				command to generate a generic pull request which you may include
+				into an email.
+				See
+				<ulink
+					url="https://www.kernel.org/pub/software/scm/git/docs/git-request-pull.html">Git request-pull</ulink>
+				for details.
+			</para>
+		</tip>
+	</section>
+
+</section>

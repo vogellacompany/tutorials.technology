@@ -1,0 +1,5 @@
+# run the build
+ant -f build.xml
+
+# run ant with defaults (build.xml file and the default target)
+ant 

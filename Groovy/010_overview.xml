@@ -1,0 +1,236 @@
+<section id="groovy" role="wrapper">
+	<title>Groovy</title>
+	<section id="groovy_overview">
+		<title>What is Groovy?</title>
+		<para>
+			<ulink url="http://www.groovy-lang.org/">Groovy</ulink> is an optionally typed, dynamic language that runs on
+			the JVM. It is
+			tightly integrated with the Java
+			programming language. Groovy describes itself as feature-rich and Java-friendly
+			language.
+		</para>
+		<para>
+			Groovy
+			source code is compiled into Java byte-code by the Groovy compiler. To run Groovy code in
+			a Java
+			virtual machine,
+			only the Groovy
+			<filename>JAR</filename>
+			file must be present in the classpath at runtime.
+
+		</para>
+		<para>Groovy
+			supports standard
+			Java constructs including
+			annotations,
+			generics,
+			static imports,
+			enums, varargs and lambda
+			expression. It provides lots of
+			simplifications
+			compared to the Java
+			programming language
+			and
+			advanced language
+			features as
+			properties,
+			closures, dynamic methods, the Meta Object Protocol (MOP), native
+			support
+			for
+			lists,
+			maps,
+			regular
+			expressions,
+			duck typing
+			and the
+			elvis
+			operator.
+		</para>
+	</section>
+	<section id="groovy_types">
+		<title>Groovy classes and scripts </title>
+		<para>
+			A Groovy source files ends with the
+			<filename>.groovy</filename>
+			extension. This file can contain a Groovy script or a Groovy class. A
+			Groovy script is a code listing which does not
+			include a class
+			definition. Groovy scripts are converted at compile time to a class
+			which extends the
+			<code>groovy.lang.Script</code>
+			class.
+		</para>
+		<para>The classical "Hello world" program can be written as a short
+			Groovy
+			script.
+		</para>
+		<para>
+			<programlisting language="java">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/first/HelloWorld.groovy" />
+			</programlisting>
+		</para>
+
+
+
+	</section>
+
+	<section id="groovy_compatibility">
+		<title>Compatibility with Java</title>
+		<para>
+			Groovy runs inside the JVM and can use Java libraries. Every Groovy
+			type is a subclass of
+			<code>java.lang.Object</code>
+			.
+		</para>
+		<para>
+			Groovy code can call Java code and Java code can call Groovy
+			code.
+			Every Groovy class is compiled into a Java class and
+			you can use the
+			<code>new</code>
+			operator in Java to create instances of the Groovy class. This
+			instance can be used to call methods or to pass as
+			parameter to a
+			fitting Java method. Groovy classes can extend Java classes and Java
+			classes can also extend Groovy
+			classes.
+		</para>
+
+		<para> Groovy is
+			almost compatible with the Java 7 sytax, e.g., almost every valid Java 7
+			construct
+			is valid
+			Groovy code. This
+			makes the
+			migration to Groovy
+			for
+			a
+			Java
+			programmer
+			relatively smooth.
+		</para>
+		<para>Groovy does currently not support Java 8 lambda expressions.</para>
+	</section>
+	<section id="groovy_feature">
+		<title>Reasons to use Groovy</title>
+		<para>
+			Groovy focus on simplicity and ease of use as its leading
+			principle.
+			This makes using Groovy very productive.
+		</para>
+		<para>
+			The enhancements of Groovy compared to Java can be classified as:
+			<itemizedlist>
+				<listitem>
+					<para>Groovy language features</para>
+				</listitem>
+				<listitem>
+					<para>Groovy specific libraries</para>
+				</listitem>
+				<listitem>
+					<para>Additional methods to existing Java classes by the Groovy
+						Developer
+						Kit, this is commonly known as the Groovy
+						JDK.
+					</para>
+				</listitem>
+			</itemizedlist>
+		</para>
+		<para>
+			The following list contains
+			some of the example how Groovy archives
+			this.
+			<itemizedlist>
+
+				<listitem>
+					<para>
+						Simplification - Groovy does not require semicolons at the end of
+						statements. The
+						<code>return</code>
+						keyword can be left out, by default Groovy returns the last
+						expression of the method, top
+						level parentheses can be
+						left out,
+						the
+						<code>public</code>
+						keyword can be left out, it is the default in Groovy. It also
+						allows
+						optional typing.
+					</para>
+				</listitem>
+
+				<listitem>
+					<para>Flexibility - Groovy allows to change classes and methods at
+						runtime, e.g.
+						if a method is called which does not
+						exist on a
+						class, the class
+						can intercept this call and react to it. This
+						allows for example
+						that Groovy provides a
+						very flexible builder
+						pattern.
+					</para>
+				</listitem>
+
+				<listitem>
+					<para>Ease of use - Groovy has list, maps and regular expressions
+						directly
+						build
+						into
+						the language.
+					</para>
+				</listitem>
+				<listitem>
+					<para>Simplification in I/O - parsing and creating XML, JSON and
+						files is very simple with
+						Groovy.
+					</para>
+				</listitem>
+
+			</itemizedlist>
+
+		</para>
+
+	</section>
+
+	<section id="groovy_imports">
+		<title>Imports in Groovy </title>
+		<para>
+			Groovy automatically imports the following packages and classes which
+			can be used in Groovy without specifying the
+			package name.
+			<itemizedlist>
+				<listitem>
+					<para>groovy.lang.*</para>
+				</listitem>
+				<listitem>
+					<para>groovy.util.*</para>
+				</listitem>
+				<listitem>
+					<para>java.lang.*</para>
+				</listitem>
+				<listitem>
+					<para>java.util.*</para>
+				</listitem>
+				<listitem>
+					<para>java.net.*</para>
+				</listitem>
+				<listitem>
+					<para>java.io.*</para>
+				</listitem>
+				<listitem>
+					<para>java.math.BigInteger</para>
+				</listitem>
+				<listitem>
+					<para>java.math.BigDecimal</para>
+				</listitem>
+			</itemizedlist>
+		</para>
+		<para>
+			Groovy allows that an import is shortened for later access, e.g.,
+			<code>import javax.swing.WindowConstants as WC</code>
+			.
+		</para>
+	</section>
+</section>

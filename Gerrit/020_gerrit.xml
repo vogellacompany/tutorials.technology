@@ -1,0 +1,337 @@
+<section id="gerrit_overview" role="wrapper">
+	<title>The Gerrit code review system</title>
+
+	<section id="gerrit_explanation">
+		<title>What is Gerrit?</title>
+		<indexterm>
+			<primary>Gerrit</primary>
+			<secondary>definition</secondary>
+		</indexterm>
+
+		<indexterm>
+			<primary>Gerrit</primary>
+			<secondary>Change
+			</secondary>
+		</indexterm>
+		<para>
+			Gerrit is a web based code review system, facilitating online
+			code reviews for projects using the Git version
+			control system.
+			Gerrit is a Git server which adds a fine grained access control
+			system
+			and a
+			code
+			review
+			system and
+			workflow.
+		</para>
+		<para>
+			The code review system is web based, facilitating online
+			code
+			reviews
+			for projects using the Git version control system.
+			The
+			user
+			interface
+			of Gerrit is based on
+			<wordasword>Google Web Toolkit</wordasword>
+			and its Git
+			implementation is JGit.
+		</para>
+
+		<para>
+			A developer can use Gerrit to suggest a change. Other
+			developers
+			can review the change and suggest improvements.
+			If a
+			Gerrit change
+			needs improvement, it is possible to update it
+			with a new commit. Once
+			the suggested
+			changes are
+			accepted by
+			the
+			reviewers,
+			they
+			can be merged to
+			the target branch in the Git
+			repository via Gerrit.
+		</para>
+
+		<para>
+			Gerrit makes code reviews easier by showing changes in a
+			side-by-side
+			display. It also supports to display the
+			change as a
+			unified diff which is often
+			easier to read on smaller screens.
+
+		</para>
+
+		<para>
+			A reviewer can add comments to
+			every single line
+			changed.
+		</para>
+		<para>
+			The main entry point for Gerrit is the
+			<ulink url="https://www.gerritcodereview.com/">Gerrit code review homepage</ulink>
+			.
+		</para>
+		<para>Gerrit is licensed under the Apache 2.0 license.</para>
+
+
+		<para>
+
+			The Gerrit review system
+			uses the term
+			<wordasword>change</wordasword>
+			, to define a code review / review request. Each change is based on one commit.
+		</para>
+	</section>
+
+	<section id="gerrit_centralinfo">
+		<title>How does Gerrit work?</title>
+		<para>
+			Gerrit can
+			prevent
+			users from pushing directly to the Git repository.
+			If you
+			push to
+			Gerrit, you use a certain path (
+			<wordasword>ref specification</wordasword>
+			) which tells
+			Gerrit
+			that you want to create a change. This push ref
+			specification is
+			<wordasword>refs/for/master</wordasword>
+			if the target of the change under review is the master branch. You
+			can also push to
+			<wordasword>refs/for/xyz</wordasword>
+			to put a commit into the review queue
+			for the xyz branch.
+		</para>
+		<para>
+			If you push to this ref specification, Gerrit creates a new change
+			or
+			makes an update of an existing one.
+			Gerrit uses
+			the
+			<wordasword>Change-Id</wordasword>
+			information in the commit message to identify if the push is a new
+			commit or an update of an existing change.
+		</para>
+		<para>
+			A change consists of one or more patch sets which are used to
+			improve the first proposal based on review
+			comments. One patch set
+			corresponds to one Git commit.
+		</para>
+		<para>
+			It is still possible to bypass code review by pushing directly to
+			<wordasword>refs/heads/master</wordasword>
+			if sufficient rights have been
+			granted.
+		</para>
+	</section>
+	<section id="gerrit_votingcategories">
+		<title>Review categories - Verified and Code-Review</title>
+		<para>
+			Gerrit supports different categories (also known as labels) for
+			review feedback. In
+			its
+			default configuration it
+			supports the
+			<wordasword>Code-Review</wordasword>
+			category.
+		</para>
+		<para>
+			In typical installations also the
+			<wordasword>Verified</wordasword>
+			category is installed.
+		</para>
+
+		<para>
+			The
+			"Verified"
+			category typically means you
+			were
+			able to build and
+			test
+			the
+			change
+			introduced with the Gerrit change.
+			Typically, this is
+			done by
+			an
+			automated process such as a Jenkins / Hudson
+			build server.
+		</para>
+
+		<para>The "Code-Review" category is typically used to
+			vote on the
+			quality of the implementation, code style,
+			code
+			conformity
+			and that the
+			overall design of
+			the code is
+			designed
+			to
+			the
+			standards
+			desired by the
+			project.
+		</para>
+		<para>Committers and contributors can vote in these categories. </para>
+	</section>
+	<section id="gerrit_voting">
+		<title>Voting in Gerrit</title>
+		<para>
+			The rules for voting in Gerrit is:
+			<orderedlist>
+				<listitem>
+					<para>Highest vote (+2 in Code-Review and +1 in Verified) enables
+						submitting
+					</para>
+				</listitem>
+				<listitem>
+					<para>Lowest vote (-2 in Code-Review) is a veto blocking that the
+						change can be submitted and
+						can't be overruled by
+						other reviewers
+					</para>
+				</listitem>
+				<listitem>
+					<para>You cannot submit the changes to the Git repository until
+						there is the highest vote in all
+						categories
+					</para>
+				</listitem>
+			</orderedlist>
+		</para>
+		<para>
+			Typically Gerrit instances uses the
+			<wordasword>Verified</wordasword>
+			and the
+			<wordasword>Code-Review </wordasword>
+			category.
+
+		</para>
+		<para>
+
+			If you did
+			some
+			manual
+			testing and the code works as you
+			desire then
+			it is
+			good to
+			+1
+			in the "Verified" category, or
+			-1
+			if it failed some of
+			your
+			use
+			cases that must be
+			resolved
+			in order
+			to merge. Otherwise, leave
+			it as
+			0
+			if you did not test
+			the
+			code.
+		</para>
+		<para>
+
+			Non-committers
+			of the project can
+			typically
+			vote with -1 and +1
+			in
+			Code-Review to
+			indicate an
+			opinion in either
+			way
+			but
+			ultimately it is up
+			to the
+			decision of those
+			with +2 power to
+			make
+			the overall decision. You
+			may
+			want to -2 vote to
+			block the
+			submission
+			of
+			the code if it is not up to
+			par with your
+			project's
+			standards or
+			+2
+			vote
+			to indicate that you approve
+			that the
+			contribution is
+			merged
+			into the
+			Git repository.
+		</para>
+	</section>
+
+	<section id="gerrit_documentation">
+		<title>Gerrit online documentation</title>
+
+		<para>
+			You find a quick introduction about
+			Gerrit at:
+			<ulink url="https://gerrit-review.googlesource.com/Documentation/intro-quick.html">
+				Gerrit Code Review - A Quick Introduction
+			</ulink>
+			and detailed information in the
+			<ulink url=" https://gerrit-review.googlesource.com/Documentation/index.html">Gerrit documentation</ulink>
+			.
+		</para>
+
+		<para>
+			Eclipse specific information can be found on the
+			<ulink url="http://wiki.eclipse.org/Gerrit">
+				Gerrit at Eclipse
+			</ulink>
+			webpage.
+		</para>
+	</section>
+
+
+	<section id="gerrit_drafts">
+		<title>Posting draft reviews</title>
+		<para>
+			There is also a special
+			<wordasword>refs/drafts/master</wordasword>
+			refspec which you can
+			use to push changes to for private review before
+			publishing them to all developers.
+		</para>
+		<para>
+			This is useful if
+			your work is in
+			progress and not ready for
+			public
+			review. You can also
+			CC specific
+			people to review this
+			private change.
+			Once it is ready for
+			public
+			review there is a
+			<guilabel>Publish</guilabel>
+			button
+			to convert the draft into a
+			change
+			review.
+		</para>
+
+	</section>
+</section>

@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<article>
+	<articleinfo>
+		<title>Apache Derby Database - Tutorial</title>
+		<author>
+			<firstname>Lars</firstname>
+			<surname>Vogel</surname>
+		</author>
+		<copyright>
+			<year>2009</year>
+			<year>2010</year>
+			<year>2011</year>
+			<holder>vogella GmbH</holder>
+		</copyright>
+		<pubdate>28.11.2011</pubdate>
+		<releaseinfo>
+			<para>Version 0.8</para>
+		</releaseinfo>
+		
+		<abstract id="abstract">
+			<title>Apache Derby</title>
+			<para> This articles explains how to install the Apache Derby
+				database,
+				how to start the Derby server, how to connect via Java to
+				Derby and
+				how to use the Derby command line tool to issue SQL
+				statements. The installation of Apache Derby as Windows Service is
+				also explained. 
+			</para>
+		</abstract>
+	</articleinfo>
+	<?dbhtml-include href="../../web/advertisement/afterTableOfContent"?>
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/010_overview.xml" />
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/020_installation.xml" />
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/030_server.xml" />
+	<?dbhtml-include href="../../web/advertisement/inBetween01"?>
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/040_usage.xml" />
+	<?dbhtml-include href="../../web/advertisement/inBetween02"?>
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/050_windowsservice.xml" />
+	<?dbhtml-include href="../../web/advertisement/beforeSupport"?>
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../10_Include/support.xml" />	
+	<?dbhtml-include href="../../web/advertisement/afterSupport"?>
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="resources.xml" />
+	<?dbhtml-include href="../../web/vgwort/ApacheDerby"?>
+</article>

@@ -1,0 +1,29 @@
+<section id="gerrit_usernewchangescreen">
+	<title>Activate new change screen</title>
+	<para>At the time of this writing you can activate a new change screen
+		in your setting. In Gerrit 2.9 which was released June 2014 the new
+		screen is the default. This change screen shows the Gerrit changes in
+		a
+		more condense form.
+	</para>
+	<para>
+		<mediaobject>
+			<imageobject>
+				<imagedata fileref="images/gerritsetup_screen.png"/>
+			</imageobject>
+			<textobject>
+				<phrase>SSH public key setting in Gerrit</phrase>
+			</textobject>
+		</mediaobject>
+	</para>
+
+	<para>By the time you read this, the "new" change screen might
+		already
+		be the default.
+	</para>
+	<para>Screenshots of the change screen in this $book are based on
+		the
+		new change screen and might be slightly different in the system you
+		are using.
+	</para>
+</section>

@@ -1,0 +1,4 @@
+# assumes that Gerrit runs on port 29418
+# on localhost
+
+ssh -p 29418 <userid>@localhost gerrit create-project demo/gerrittest

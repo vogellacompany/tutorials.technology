@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<article>
+	<articleinfo>
+		<title>Gerrit code review - Tutorial</title>
+		<author>
+			<firstname>Lars</firstname>
+			<surname>Vogel</surname>
+		</author>
+		<copyright>
+			<year>2012</year>
+			<year>2013</year>
+			<year>2014</year>
+			<year>2014</year>
+			<year>2015</year>
+			<year>2016</year>
+			<holder>vogella GmbH</holder>
+		</copyright>
+		<pubdate>18.01.2016</pubdate>
+		<releaseinfo>
+			<para>Version 2.2</para>
+		</releaseinfo>
+		
+		<abstract id="abstract">
+			<title>Gerrit tutorial</title>
+			<para> This tutorial explains the usage of the Gerrit code review
+				system. It describes the setup of Eclipse (with EGit) as well as the
+				command line setup. Contributing to an Eclipse.org project via Gerrit is also described.
+			</para>
+		</abstract>
+	</articleinfo>
+
+	<?dbhtml-include href="../../web/advertisement/afterTableOfContent"?>
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="010_codereview.xml" />
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="020_gerrit.xml" />
+	<?dbhtml-include href="../../web/advertisement/inBetween01"?>
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="020_installation.xml" />
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="030_workflow.xml" />
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="040_user_setup.xml" />
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="044_user_newchangescreen.xml" />
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="060_setuprepo.xml" />
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="070_prepareexampleproject.xml" />
+	<?dbhtml-include href="../../web/advertisement/inBetween02"?>
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="080_developer_prepare.xml" />
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="084_developer_setup.xml" />
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="100_createchangerequest.xml" />
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="180_reviewurl.xml" />
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="200_webreview.xml" />
+	<?dbhtml-include href="../../web/advertisement/inBetween03"?>
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="600_gerritproblems.xml" />
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="610_otherproblems.xml" />
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="620_thingstoconsider.xml" />
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="800_eclipse_gerrit.xml" />
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="900_contributing_to_eclipse.xml" />
+	<?dbhtml-include href="../../web/advertisement/beforeSupport"?>
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../10_Include/support.xml" />	
+	<?dbhtml-include href="../../web/advertisement/afterSupport"?>
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="006_resources.xml" />
+	<?dbhtml-include href="../../web/vgwort/Gerrit"?>
+</article>

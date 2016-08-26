@@ -1,0 +1,9 @@
+<section id="spocktesting">
+	<title>Testing with Spock</title>
+
+	<para>Spock is a testing and specification framework for Java and
+		Groovy applications. You use a DSL (called Spock specification) as
+		Groovy class. Spock can be used for unit, integration or BDD
+		(behavior-driven-development) testing
+	</para>
+</section>

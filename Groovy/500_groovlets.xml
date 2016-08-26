@@ -1,0 +1,125 @@
+<section id="groovlets">
+	<title>Developing Java EE servlets with Groovy - Groovlets</title>
+	<section id="groovlets1">
+		<title>Using Groovy on the server</title>
+		<para>
+			Java EE defines the servlet API for implementing web
+			applications. Groovlets are the servlet equivalent for Groovy.
+		</para>
+		<para>Groovlets, or Groovy Pages, are typically processed by a Groovy
+			Servlet.
+		</para>
+		<para>
+			A Groovlet has automatically access to the following information:
+			<itemizedlist>
+				<listitem>
+					<para>application, context - Gives access to
+						javax.servlet.ServletContext
+					</para>
+				</listitem>
+				<listitem>
+					<para>session – Gives access to javax.servlet.HttpSession</para>
+				</listitem>
+				<listitem>
+					<para>request –s Gives access to javax.servlet.HttpServlet</para>
+				</listitem>
+				<listitem>
+					<para>response –> Gives access to javax.servlet.HttpResponse</para>
+				</listitem>
+				<listitem>
+					<para>out –> Gives access to response.getWriter()</para>
+				</listitem>
+			</itemizedlist>
+		</para>
+
+	</section>
+	<section id="groovlets_downloadgroovy">
+		<title>Download the groovy-all.jar</title>
+		<para>To use Groovy on the server you need to deploy Groovy on the
+			application server or with your application.
+		</para>
+		<para>
+			The easiest way to download Groovy is via
+			<ulink url="http://search.maven.org/">Search Maven</ulink>
+			. Search here for
+			<code>org.codehaus.groovy</code>
+			and identify the
+			<code>groovy-all</code>
+			and download the JAR file of the latest release.
+		</para>
+	</section>
+	<section id="groovlets_example">
+		<title>Exercise: Using Groovy on the server</title>
+		<para>
+			The following description assume that you are familiar with Java
+			Web
+			development, if not see the
+			<ulink url="http://www.vogella.com/tutorials/EclipseWTP/article.html">Java web development tutorial</ulink>
+			.
+		</para>
+		<para>
+			Create a new Dynamic Web Project in Eclipse called
+			<code>com.vogella.groovy.web.groovelets</code>
+			.
+		</para>
+		<para>
+			Add the
+			<filename>groovy-all.jar</filename>
+			to the
+			<filename>WebContent</filename>
+			folder
+		</para>
+		<para>
+			Add a file called
+			<filename>test.groovy</filename>
+			to the
+			<filename>WebContent</filename>
+			folder with the following content. This is a Groovy page using the
+			Html builder to create a HTML page.
+		</para>
+		<para>
+			<programlisting language="java">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/groovlets/test.groovy" />
+			</programlisting>
+		</para>
+
+		<para>
+			Change the
+			<filename>WebContent/WEB-INF/web.xml</filename>
+			to the following.
+		</para>
+		<para>
+			<programlisting language="java">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/groovlets/web.xml" />
+			</programlisting>
+		</para>
+
+
+	</section>
+	<section id="groovlets_validate">
+		<title>Validate that it run on the server</title>
+		<para>Start your web application and validates that you can access the
+			Groovlet. Also inspect the source of the HTML and validate that it
+			really is HTML code.
+		</para>
+	</section>
+
+	<section id="groovlets_extend">
+		<title>Exercise: Extend your Groovlet</title>
+		<para>
+			Use some of the implicit available variables, e.g.,
+			<code>request</code>
+			to display information in your Groovlet.
+		</para>
+		
+		  <para>
+            <programlisting language="java">
+                <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                    parse="text" href="./examples/groovlets/test2.groovy" />
+            </programlisting>
+        </para>
+	</section>
+
+</section>

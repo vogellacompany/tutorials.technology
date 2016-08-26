@@ -1,0 +1,11 @@
+<section id="groovydsl">
+	<title>Domain specific language in Groovy</title>
+	<para>
+		Groovy allow to define domain specific languages by leaving out the
+		top level parentheses. Instead of writing
+		<code>read(file)</code>
+		you can write
+		<code>read file</code>
+		which is much more accessible to non-technical users.
+	</para>
+</section>

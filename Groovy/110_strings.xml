@@ -1,0 +1,107 @@
+<section id="groovy_strings">
+	<title>Strings in Groovy</title>
+	<section id="groovy_strings1">
+		<title>Strings and GStrings</title>
+		<para>
+			Groovy allows to use two different types of String, the
+			<code>java.lang.String</code>
+			and the
+			<code>groovy.lang.GString</code>
+			class. You can also define a single line or a multi-line string in
+			Groovy.
+		</para>
+
+		<para>
+			Strings which
+			are quoted in by "" are of type
+			<code>GString</code>
+			(short for
+			Groovy
+			Strings). In GStrings you can
+			directly use
+			variables or
+			call Groovy code. The Groovy runtime evaluates the variables and
+			method calls. An instance of
+			<code>GString</code>
+			is automatically converted to a
+			<code>java.lang.String</code>
+			whenever needed.
+		</para>
+		<para>
+			<programlisting>
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/datatypes/StringTesting.groovy" />
+			</programlisting>
+		</para>
+		<para>
+			The definition of these different types of Strings is
+			demonstrated in
+			the following table.
+			<table frame='all'>
+				<title>Define Strings in Groovy</title>
+				<tgroup cols='2' align='left' colsep='1' rowsep='1'>
+					<colspec colname='c1' colwidth="1*" />
+					<colspec colname='c2' colwidth="2*" />
+					<thead>
+						<row>
+							<entry>String example</entry>
+							<entry>Description</entry>
+						</row>
+					</thead>
+					<tbody>
+						<row>
+							<entry>'This is a String'</entry>
+							<entry>Standard Java String</entry>
+						</row>
+						<row>
+							<entry>"This is a GString"</entry>
+							<entry>Groovy GString, allows variable substitution and method
+								calls
+							</entry>
+						</row>
+						<row>
+							<entry>''' Multiline string (with line breaks)'''</entry>
+							<entry>A multi line string</entry>
+						</row>
+						<row>
+							<entry>""" Multiline string (with line breaks)"""</entry>
+							<entry>A multi line GString</entry>
+						</row>
+						<row>
+							<entry>/regularexpression/</entry>
+							<entry>Forward Slash – Escape backslashes ignored, makes Regular
+								Expressions more readable</entry>
+						</row>
+					</tbody>
+				</tgroup>
+			</table>
+		</para>
+
+		<para>
+			The
+			<code>tokenize()</code>
+			method tokenize the String into a list of String with a whitespace as
+			the delimiter.
+		</para>
+		<para>
+			The Groovy JDK adds the
+			<code>toURL()</code>
+			method to String, which allows to convert a String to a URL.
+		</para>
+		<para>
+			The
+			<code>trim</code>
+			method removes is applied to remove leading and trailing whitespace.
+		</para>
+	</section>
+
+	<section id="groovy_strings2">
+		<title>Operator overloading in Strings</title>
+		<para>
+			String support operator overloading. You can use + to concatenate
+			strings, - to substract strings and the
+			<wordasword>left-shift operator</wordasword>
+			to add to a String.
+		</para>
+	</section>
+</section>

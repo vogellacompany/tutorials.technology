@@ -1,0 +1,22 @@
+<section id="resources">
+	<title>Links and Literature</title>
+	<para>
+		<ulink url="http://www.omg.org/uml ">www.omg.org/uml</ulink>
+		Home of the standard body for UML
+	</para>
+
+
+	<para>
+		<ulink url="http://wiki.eclipse.org/MDT-UML2Tools">
+			http://wiki.eclipse.org/MDT-UML2Tools</ulink>
+		Wiki about the UML2 Tool project
+	</para>
+
+	<para>
+		<ulink url="http://www.eclipse.org/modeling/">
+			http://www.eclipse.org/modeling/</ulink>
+		Eclipse Modeling Project
+	</para>
+
+
+</section>

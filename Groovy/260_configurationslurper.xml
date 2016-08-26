@@ -1,0 +1,15 @@
+<section id="groovy_configurationslurper">
+	<title>Reading configuration files with Groovy</title>
+	<para>
+		The
+		<code>ConfigSlurper</code>
+		class can be used to parse
+		configuration information defined via
+		Groovy. The configuration can be supplied as String, file or URL. You
+		can add an
+		<wordasword>environment</wordasword>
+		section in your configuration script, which allows to specify the
+		 environment dependent configuration.
+	</para>
+	
+</section>

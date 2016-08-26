@@ -1,0 +1,179 @@
+<section id="ssh_authentication" role="wrapper">
+	<title>Authentication via SSH</title>
+	<section id="ssh_authentication">
+		<title>The concept of SSH</title>
+		<indexterm>
+			<primary>SSH key pair</primary>
+		</indexterm>
+		<para>
+			Most Git (and Gerrit) servers support SSH based authentication. This
+			requires a
+			<wordasword>SSH key pair</wordasword>
+			for
+			automatic authentication.
+		</para>
+		<para>An SSH key par consists of a public and private key. The public
+			key is
+			uploaded to the application you want to authenticate with. The
+			application has
+			no
+			access
+			to
+			the private key. If you interact with
+			the
+			hosting
+			provider via
+			the
+			ssh
+			protocol, the public key is used to
+			identify
+			a
+			user
+			who encrypted
+			the
+			data
+			during communication with the
+			corresponding
+			private key.
+		</para>
+	</section>
+	<section id="ssh_keygeneration">
+		<title>SSH key pair generation</title>
+
+		<para>
+			To create an SSH key under Linux (or Windows / Mac with OpenSSH
+			installed) switch to the command line and
+			execute
+			the following
+			commands.
+			The generated SSH
+			key is by default
+			located in the
+			<filename class="directory">.ssh</filename>
+			directory of the user home directory. Ensure that you backup existing
+			keys in
+			this directory
+			before running the following commands.
+		</para>
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/ssh/generate.txt" />
+			</programlisting>
+		</para>
+
+		<para>
+			The Eclipse IDE allows you to create an SSH key pair via
+			<menuchoice>
+				<guimenu>Window</guimenu>
+				<guisubmenu>Preferences</guisubmenu>
+				<guisubmenu>General</guisubmenu>
+				<guisubmenu>Network Connection</guisubmenu>
+				<guisubmenu>SSH2</guisubmenu>
+			</menuchoice>
+			.
+		</para>
+		<para>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="images/eclipseide_sshgen.png" scale="30" />
+				</imageobject>
+				<textobject>
+					<phrase>Generating a SSH key via the Eclipse IDE</phrase>
+				</textobject>
+			</mediaobject>
+		</para>
+
+		<para>
+			It is good practice to use a
+			passphrase to protect your
+			private key. It
+			is also good practice to
+			use
+			operating system level permission settings
+			to ensure that only
+			the
+			owning user can access the
+			<filename>~/.ssh</filename>
+			folder and its content.
+		</para>
+
+		<note>
+			<para>
+				In the above
+				<code>ssh-keygen</code>
+				command the -C parameter is a comment. Using your email is good
+				practice so that
+				someone looking at your public key can contact you
+				in
+				case they have
+				questions. Including the email enables system
+				administrators
+				to contact the person in case of questions.
+			</para>
+		</note>
+
+		<para>
+			The result will be two files,
+			<filename>id_rsa</filename>
+			which is your private key and
+			<filename>id_rsa.pub</filename>
+			which is your public key.
+		</para>
+
+		<para>
+			You find more details for the generation of an SSH key on the
+			following
+			webpages:
+			<ulink url="https://help.github.com/articles/generating-ssh-keys">
+				GitHub Help: description of SSH key creation
+			</ulink>
+			or
+			<ulink url="http://www.openssh.com/manual.html">OpenSSH manual</ulink>
+			.
+		</para>
+		<tip>
+			<para>
+				You can specify alternative key names with the
+				<parameter>-f</parameter>
+				parameter on the
+				command line.
+				This is helpful if you have multiple
+				different
+				repositories and you
+				want to have a different key for each
+				one. For
+				example, you can name
+				your SSH keys in domain
+				name format,
+				e.g.,
+				<filename>eclipse.org</filename>
+				and
+				<filename>eclipse.org.pub</filename>
+				as well as
+				<filename>github.com</filename>
+				and
+				<filename>github.com.pub</filename>
+				.
+			</para>
+			<para>
+				You need
+				additional configuration in the
+				<filename>.ssh/config</filename>
+				file, because
+				only
+				the
+				<filename>id_rsa</filename>
+				will be picked up by
+				default. The following code shows an
+				example.
+				<para>
+					<programlisting language="text">
+						<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+							parse="text" href="./examples/ssh/config" />
+					</programlisting>
+				</para>
+			</para>
+		</tip>
+	</section>
+</section>

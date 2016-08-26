@@ -1,0 +1,13 @@
+<section id="resources">
+	<title>Links and Literature</title>
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../10_Include/sourcejava.xml" />
+	<section id="ant_links">
+		<title>Hadoop</title>
+		<ulink url="http://hadoop.apache.org/"> Apache Hadoop Homepage</ulink>
+		<ulink url="http://hadoop.apache.org/common/docs/current/quickstart.html"> Apache Hadoop Quickstart</ulink>
+		<ulink
+			url="http://www.heise.de/developer/artikel/Verarbeiten-grosser-verteilter-Datenmengen-mit-Hadoop-964755.html"> Heise Intro into Hadoop (German)</ulink>
+
+
+	</section>
+</section>

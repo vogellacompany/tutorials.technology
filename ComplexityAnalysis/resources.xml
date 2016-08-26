@@ -1,0 +1,14 @@
+<section id="resources">
+	<title>Links and Literature</title>
+	
+	<section id="resources_jdt">
+		<title>Resources</title>
+		<para>
+			<ulink url="http://en.wikipedia.org/wiki/Big_O_notation">
+				http://en.wikipedia.org/wiki/Big_O_notation</ulink>
+			Big O Notation - Wiki
+		</para>
+		
+	</section>
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../10_Include/resources.xml" />
+</section>

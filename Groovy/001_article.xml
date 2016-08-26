@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<article>
+	<articleinfo>
+		<title>Groovy with Eclipse - Tutorial</title>
+		<author>
+			<firstname>Lars</firstname>
+			<surname>Vogel</surname>
+		</author>
+		<copyright>
+			<year>2008</year>
+			<year>2009</year>
+			<year>2010</year>
+			<year>2011</year>
+			<year>2012</year>
+			<year>2013</year>
+			<year>2014</year>
+			<year>2015</year>
+			<holder>vogella GmbH</holder>
+		</copyright>
+		<pubdate>29.01.2015</pubdate>
+
+		<releaseinfo>
+			<para>Version 2.2</para>
+		</releaseinfo>
+		
+		<abstract id="abstract">
+			<title>Groovy</title>
+
+			<para>This article gives a short overview of the Groovy language
+				including collections, loops, gstrings, MOP, closures, operator
+				overloading, XML
+				handing and using Groovy together with Java class.
+				It also
+				describes how to
+				use the
+				Eclipse IDE for developing Groovy.
+			</para>
+			<para> This article assumes that you have already Eclipse installed
+				and that you have used Eclipse for Java development. This article
+				was written using Groovy 2.4, Eclipse 4.4 (Luna) and Java 1.8.
+			</para>
+		</abstract>
+
+	</articleinfo>
+	<?dbhtml-include href="../../web/advertisement/afterTableOfContent"?>
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="010_overview.xml" />
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="020_installation.xml" />
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="022_commandlineusage.xml" />
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="040_firstgroovy.xml" />
+	<?dbhtml-include href="../../web/advertisement/inBetween01"?>
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="050_groovyobjects.xml" />
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="060_gpaths.xml" />
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="100_datatypes.xml" />
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="104_operatoroverloading.xml" />
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="110_strings.xml" />
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="114_regularexpressions.xml" />
+
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="120_lists.xml" />
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="130_maps.xml" />
+	
+	<?dbhtml-include href="../../web/advertisement/inBetween02"?>
+
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="160_controlstructures.xml" />
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="180_loops.xml" />
+
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="190_closures.xml" />
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="170_gpars.xml" />
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="220_files.xml" />
+	
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="228_templateengines.xml" />
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="230_builder.xml" />
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="240_xml.xml" />
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="250_json.xml" />
+
+
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="300_asttransformations.xml" />
+    
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="310_mop.xml" />
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="314_mop_exercise.xml" />
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="400_javagroovy.xml" />
+	<?dbhtml-include href="../../web/advertisement/inBetween03"?>
+
+
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="820_buildsupport.xml" />
+	<?dbhtml-include href="../../web/advertisement/beforeSupport"?>
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../10_Include/support.xml" />	
+	<?dbhtml-include href="../../web/advertisement/afterSupport"?>
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="006_resources.xml" />
+	<?dbhtml-include href="../../web/vgwort/Groovy"?>
+</article>

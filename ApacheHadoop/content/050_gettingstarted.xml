@@ -1,0 +1,8 @@
+<section id="gettingstarted">
+	<title>Getting started</title>
+	<para>
+		See
+		<ulink url="http://hadoop.apache.org/common/docs/current/quickstart.html">Apache Hadoop Quickstart Guide</ulink>
+		.
+	</para>
+</section>

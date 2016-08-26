@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<article>
+	<articleinfo>
+		<title>DocBook - Tutorial</title>
+		<author>
+			<firstname>Lars</firstname>
+			<surname>Vogel</surname>
+		</author>
+		<copyright>
+			<year>2007</year>
+			<year>2008</year>
+			<year>2009</year>
+			<year>2010</year>
+			<year>2011</year>
+			<year>2012</year>
+			<year>2013</year>
+			<year>2014</year>
+			<year>2015</year>
+			<holder>vogella GmbH</holder>
+		</copyright>
+		<pubdate>13.01.2015</pubdate>
+		<releaseinfo>
+			<para>Version 3.8</para>
+		</releaseinfo>
+		
+		<abstract id="abstract">
+			<title>DocBook</title>
+			<para>
+				This tutorial explains how to write DocBook files in Eclipse
+				and how to convert these files into various output formats, e.g., to
+				HTML and PDF. It also explains how to configure XInclude to divide
+				the information into different source files.
+			</para>
+
+			<para>
+				This tutorial uses Docbook 4.5, the Saxon XLST processor in
+				version 6.5.5, Eclipse 4.3 and the XLST stylesheets in version
+				1.77.1.
+			</para>
+		</abstract>
+	</articleinfo>
+	<?dbhtml-include href="../../web/advertisement/afterTableOfContent"?>
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="010_overview.xml" />
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="012_tools.xml" />
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="020_installation.xml" />
+	<?dbhtml-include href="../../web/advertisement/inBetween01"?>
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="040_html.xml" />
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="050_plaintext.xml" />
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="060_docbooktags.xml" />
+	<?dbhtml-include href="../../web/advertisement/inBetween02"?>
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="072_epub.xml" />
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="080_pdfoutput.xml" />
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="090_xsltparameters.xml" />
+	<?dbhtml-include href="../../web/advertisement/inBetween03"?>
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="200_advanced.xml" />
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="210_vex.xml" />
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="220_languagetool.xml" />
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="600_xinclude.xml" />
+	<?dbhtml-include href="../../web/advertisement/beforeSupport"?>
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../10_Include/support.xml" />
+	<?dbhtml-include href="../../web/advertisement/afterSupport"?>
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="resources.xml" />
+	<?dbhtml-include href="../../web/vgwort/DocBook"?>
+</article>

@@ -1,0 +1,3 @@
+
+# This assumes the "srvmgr" tools are installed in c:\Windows\system32\
+instsrv ApacheDerby c:\Windows\system32\srvany.exe

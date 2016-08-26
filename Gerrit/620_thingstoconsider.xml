@@ -1,0 +1,378 @@
+<section id="eclipsegerritcontribution_pushsetup">
+	<title>Things to consider if you want to contribute to an existing project</title>
+	<section id="contribution_whattofix">
+		<title>How to start contributing?</title>
+		<para>It is typically a good approach to fix something really simple
+			as the
+			first
+			step. Search for a few warning messages
+			in the code, or a
+			typo
+			in the
+			documentation, and prepare a fix for it.
+		</para>
+		<para>
+			Once you get familiar with the contribution process start
+			contributing something more difficult.
+		</para>
+	</section>
+	<section id="contribution_scope">
+		<title>Scope of a Gerrit change / commit</title>
+		<para>
+			A Gerrit change (== one commit) should address only one issue.
+		</para>
+		<para>
+			Avoid going "off topic" with your patches. If you would like to
+			clean up some code, or fix something out of the
+			scope of your patch,
+			create additional patches. This will make your patches
+			more
+			concise,
+			easier to review and
+			easier to
+			revert if something go wrong.
+		</para>
+		<para>
+			In many open source projects smaller patches tend to be reviewed
+			faster
+			and merged faster as it is easier for the
+			committer to
+			review.
+			With this in mind, try to break your contributions into small
+			concise
+			Gerrit changes. It is more
+			likely that these get reviewed and
+			accepted.
+		</para>
+		<para>It also helps to reach a clean history. Imagine you are chasing
+			a bug in code which was introduced 2 years back.
+			If the history is
+			built from small concise commits, it is easier to find the commit
+			which introduced the problem and
+			understand the motivation why it was
+			done in the way it was implemented.
+		</para>
+	</section>
+	<section id="contribution_commitmessagegerrit">
+		<title>Commit message</title>
+		<para>Most project handles the required commit message a bit
+			differently. For example, the Eclipse Platform project
+			prefers the
+			following
+			format:
+		</para>
+		<para>
+			<programlisting language="java">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/commitmessage/header.txt" />
+			</programlisting>
+		</para>
+		<para>The text in the header must match the title in Bugzilla. The Eclipse Git tooling complains about commit headers
+			longer than 80, but
+			you can ignore this warning. For
+			example the following is a valid commit message for
+			the Eclipse
+			platform project. The
+			description in the body of the commit message
+			can take as
+			many lines as necessary and
+			should be
+			descriptive of what
+			is
+			going
+			into the patch. For more complex patches you should provide
+			implementation
+			details and enough
+			notes to allow the
+			reviewer to
+			understand what your fix provides.
+		</para>
+		<para>
+			<programlisting language="text">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/commitmessage/example.txt" />
+			</programlisting>
+		</para>
+		<para>It is important to explain in the commit body, why the change
+			was done. Also explain why you have chosen a
+			certain
+			implementation method, if there was something special about it.
+		</para>
+		<tip>
+			<para>Don't worry too much about the correct commit message format,
+				the project you
+				are contributing to will also
+				review your commit
+				message.
+			</para>
+		</tip>
+	</section>
+	<section id="contribution_copyrightheader">
+		<title>Copyright header update</title>
+		<para>In some projects the source file contains a copyright header. If you modify the
+			file you should also update the
+			copyright header. Different project might use different standards here. Have a look at existing commits and the
+			header in the
+			existing files and try to adapt the style preferred by the existing developers.
+		</para>
+	</section>
+	<section id="contribution_copyrightheader_platformui">
+		<title>Example: Copyright header in Eclipse Platform UI</title>
+
+		<para>
+			The Eclipse platform project for example requires you to update the copyright header with the last modified
+			year. Optionally you can also
+			add
+			yourself to the copyright
+			with a reference to the
+			bug. The following
+			listing
+			shows an
+			example for this standard.
+		</para>
+
+		<para>
+			<programlisting language="plain">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/copyright/header.txt" />
+			</programlisting>
+		</para>
+
+		<para>
+			The above file was created in 2008 and last modified in 2015. It
+			was
+			originally created by employees of IBM and
+			also
+			modified by John
+			Doe
+			and he fixed Bug 429728 with it. The additional entry in the
+			<wordasword>Contributors</wordasword>
+			section is
+			typically considered
+			optional, but this depends on the
+			individual project.
+		</para>
+
+		<para>
+			If you work for an organization the Foundation recommends
+			adding the
+			organization name in parentheses. See:
+			<ulink url="http://www.eclipse.org/legal/copyrightandlicensenotice.php">Copyright info from eclipse.org
+			</ulink>
+			.
+			For
+			example:
+		</para>
+		<para>
+			<code>
+				John Doe (vogella GmbH) <![CDATA[<John.Doe@fake.com>]]>
+				- Bug 429728 - Fixed compiler warnings
+			</code>
+		</para>
+		<para>If you add a new file don't forget to add the copyright header
+			using the project's license. For new files, list
+			"yourself and
+			others"
+			instead of "IBM and
+			others" in the first line.
+		</para>
+
+
+		<para>If you fix several bugs in the same file, you should list the
+			bug separately as in the following example listing.
+			In case you find
+			yourself changing the same file over
+			and over again, you could also
+			use "ongoing maintenance" instead
+			of
+			listing every bug number.
+		</para>
+		<para>
+			<programlisting language="plain">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/copyright/header2.txt" />
+			</programlisting>
+		</para>
+
+
+		<para>In most cases you should avoid putting in the bug number into
+			the source code (except the header). Only if you
+			have to implement a
+			workaround for an existing bug, you should add a reference in the
+			source to this bug.
+		</para>
+	</section>
+
+	<section id="contribution_polite">
+		<title>Stay polite</title>
+		<para>The best way to get your contribution accepted is to stay
+			polite
+			and to follow the guidance of the existing
+			committers. For the first few contributions it is best to stay with the
+			current processes and guidelines.
+			If you
+			continue to contribute, you will gain more trust and
+			responsibility
+			and
+			you may be able to improve also the
+			processes
+			used
+			by
+			the
+			project.
+		</para>
+
+
+	</section>
+
+	<section id="contribution_formatting">
+		<title>Avoid unnecessary formatting changes</title>
+		<para>
+			Typically open source projects dislike if you re-format unchanged
+			lines,
+			as this makes the review process much harder.
+			Avoid pressing the
+			<guilabel>Format source code</guilabel>
+			shortcut in your editor. Instead, only select the changes lines and
+			then press the format source code shortcut (this
+			is also an
+			auto-save
+			preference).
+		</para>
+		<para>Unnecessary format changes makes it really hard to review a
+			Gerrit change. The following screenshot shows a file
+			which was
+			reformatted, it is unnecessary hard for the reviewer to find the
+			real
+			change.
+		</para>
+		<para>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="images/unnecessaryformatingchanges10.png" scale="20" />
+				</imageobject>
+				<textobject>
+					<phrase>Demonstrates unnecessary formatting changes</phrase>
+				</textobject>
+			</mediaobject>
+		</para>
+
+	</section>
+
+	<section id="contribution_whitespace">
+		<title>Avoid unnecessary whitespace changes</title>
+		<para>Typically projects dislike unnecessary whitespace in
+			the
+			contributed code. Ensure that you remove trailing
+			whitespaces from
+			your contributed code.
+		</para>
+		<para>Unfortunately lots of project have unnecessary whitespace
+			included in the source code, most committers also don't
+			like if you
+			remove them as it changes the history.
+		</para>
+	</section>
+
+	<section id="contribution_pushunfinished">
+		<title>Pushing unfinished features</title>
+		<para>For most projects it is OK to push an initial
+			(unfinished)
+			implementation
+			concept to Gerrit and to ask for
+			feedback.
+		</para>
+		<para>Mark unfinished commits with [RFC] (request for comments) or
+			[WIP] (work in progress) in the commit message
+			header to avoid
+			frustrating reviewers who typically want to know if the change is
+			considered to be ready by the author
+			or not.
+		</para>
+		<tip>
+			<para>
+				In general you should develop
+				in the open as much as possible to
+				avoid the unpleasant
+				surprise that your perfect
+				contribution is
+				rejected because it does
+				not fit into the design of
+				the software.
+			</para>
+		</tip>
+	</section>
+
+	<section id="contribution_validuserpassword">
+		<title>Valid user and email</title>
+		<para>Some project uses additional validation plug-ins. For example the Eclipse foundation uses a server-side Gerrit
+			plugin which
+			checks for
+			conformity
+			with
+			the CLA. When you push a change to Gerrit
+			this plugin verifies if your
+			contribution
+			passes
+			all the CLA
+			requirements from the Eclipse
+			foundation.
+		</para>
+		<para>
+			This means that
+			the author field must be a valid Eclipse user. If
+			the
+			author is not
+			a committer it requires that the
+			author also
+			"Sign-off" their
+			contribution. Eclipse Git provides a preference to
+			always sign-off changes.
+		</para>
+		<para>
+			See:
+			<ulink url="https://wiki.eclipse.org/Development_Resources/Handling_Git_Contributions">Wiki for Git contributions
+			</ulink>
+
+		</para>
+	</section>
+
+
+
+
+	<section id="contribution_nofeedback">
+		<title>Not getting feedback</title>
+		<para>If everything works perfectly, the developers of the project you are contributing to will
+			accept
+			your contribution
+			and help you to solve all your open
+			questions.
+		</para>
+		<para>If you don't get feedback there are different possible reasons:
+			maybe all committers are busy or in vacation. Or
+			your change is
+			extremely large (hard to review) or it ignores all the rules
+			explained in the project's contributor
+			guide.
+		</para>
+		<para>If your contribution is
+			ignored, feel
+			free to ask in
+			the Bug report
+			for feedback or to send
+			email to the
+			project
+			mailing
+			list.
+		</para>
+
+	</section>
+	<section id="contribution_rudefeedback">
+		<title>Dealing with negative feedback</title>
+		<para>
+			Don't get
+			frustrated by negative feedback, as the collaboration
+			almost
+			always
+			results in a better commit that
+			benefits everyone.
+		</para>
+	</section>
+
+</section>

@@ -1,0 +1,12 @@
+<section id="githosting_overview">
+	<title>Git Hosting Provider</title>
+	<para>
+		<para>Git allows you to host your own Git server. Instead of setting
+			up your own server, you can also use a
+			hosting service. The most
+			popular Git hosting sites are GitHub and
+			Bitbucket. Both offer free
+			hosting with certain limitations.
+		</para>
+	</para>
+</section>

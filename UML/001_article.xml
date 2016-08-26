@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<article>
+	<articleinfo>
+		<title>UML - Tutorial</title>
+		<author>
+			<firstname>Lars</firstname>
+			<surname>Vogel</surname>
+		</author>
+		<copyright>
+			<year>2008 - 2014</year>
+			<holder>vogella GmbH</holder>
+		</copyright>
+		<pubdate>09.08.2014</pubdate>
+		<releaseinfo>
+			<para>Version 1.2</para>
+		</releaseinfo>
+		
+		<abstract id="abstract">
+			<title>UML modelling</title>
+			<para> This article gives a short overview of UML2.
+			</para>
+		</abstract>
+	</articleinfo>
+	<?dbhtml-include href="../../web/advertisement/afterTableOfContent"?>
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="100_uml_intro.xml" />
+	<?dbhtml-include href="../../web/advertisement/inBetween01"?>
+	<?dbhtml-include href="../../web/advertisement/inBetween02"?>
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="600_class_diagrams.xml" />
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="700_mda.xml" />
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="800_tooling.xml" />
+	<?dbhtml-include href="../../web/advertisement/beforeSupport"?>
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../10_Include/support.xml" />	
+	<?dbhtml-include href="../../web/advertisement/afterSupport"?>
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="resources.xml" />
+	<?dbhtml-include href="../../web/vgwort/UML"?>
+</article>

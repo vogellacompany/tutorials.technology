@@ -1,0 +1,55 @@
+<section id="msword">
+	<title>Winword</title>
+	<section id="msword_s1s2a">
+		<title>Add Macrobuttons</title>
+		<para>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="images/macrobutton10.gif"
+						/>
+					
+				</imageobject>
+			</mediaobject>
+		</para>
+		<para>
+	
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="images/macrobutton20.gif"
+						/>
+					
+				</imageobject>
+			</mediaobject>
+		</para>
+		<para>
+			Go to the menu entry Macro and click on it. Select the macro
+			you want to assign to a push button, hold left mouse button
+			and drag it to the menu.
+		</para>
+		<para>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="images/macrobutton30.gif"
+						/>
+					
+				</imageobject>
+			</mediaobject>
+		</para>
+
+
+
+		<para>
+			In customizing click on the macro button and press the right
+			mouse button. Rename the button to a reasonable name.
+		</para>
+		<para>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="images/macrobutton40.gif"
+						/>
+					
+				</imageobject>
+			</mediaobject>
+		</para>
+	</section>
+</section>

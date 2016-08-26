@@ -1,0 +1,43 @@
+<section id="msoutlook">
+	<title>Outlook Macros</title>
+	<section id="msoutlook_hellomacro">
+		<title>Create automatically greetings for email receiver</title>
+		<para> The following macro describes how you can extract information
+			from the email and create a corresponding message in your email text.
+			For example if you are writting to Jim.Test@example.com you can
+			create a text in your email "Hi Jim,....Best regards, Lars" and place
+			the cursor in the right place to start typing.
+		</para>
+		<para> The following macro reads all email addresses in the To part of
+			the email. Then is extracts the part before the first "." assumes that
+			this is the first name and writes Hello firstname1, firstname2,...
+		</para>
+		<para> It also puts in "Best regards, Lars" and places the cursor on
+			the right position to reply. The macro allows also to set a defined
+			delay in sending out the email.</para>
+		<para>
+			<programlisting>
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="../examples/reply/replymacro_short.txt" />
+			</programlisting>
+		</para>
+	</section>
+	<section id="msoutlook_movemail">
+		<title>Macro for moving email to specified folder</title>
+		<para> I gave up on sorting manually my email a long time ago. Now I
+			move all my email to a quarterly folder. I search mails is done via a
+			desktop search engine, e.g. Google desktop search. </para>
+		<para> 	
+			 The following macro will move one or more
+			selected email to a specified folder. This folder must exists.</para>
+		<para>
+			<programlisting>
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="../examples/move/movemacro.txt" />
+			</programlisting>
+		</para>
+	</section>
+	
+	
+
+</section>

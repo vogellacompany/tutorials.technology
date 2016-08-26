@@ -1,0 +1,148 @@
+<section id="epub">
+	<title>Creating epub</title>
+	<section id="epub_overview">
+		<title>Overview of EPUB</title>
+		<para>
+			EPUB is a format for electronic book defined by the
+			International
+			Digital Publishing Forum (IDPF). EPUB is based on XHTML
+			and supports
+			styling via CSS. An EPUB file is a ZP file with a
+			predefined content.
+			The ZIP file must contain a folder
+			<filename>META-INF</filename>
+			which contains a file
+			<filename>container.xml</filename>.
+			This file contains a pointer
+			to
+			the
+			<filename>OEBPS/content.opf</filename>
+			file. The
+			<filename>content.opf</filename>
+			contains the
+			meta
+			information about the book and points to the
+			content pages which
+			are
+			defined as HTML pages.
+		</para>
+		<para>
+			The Docbook XLST stylesheets support a conversion into EPUB.
+			This
+			conversion is based on the XHTML stylesheets and therefore
+			supports the
+			same parameter as in HTML. The final EPUB document
+			also requries an
+			additonal file mimetype with a predefined content and
+			the content of
+			<filename>OEBPS</filename>
+			and
+			<filename>META-INF</filename>.
+			The XSLT transformation will not
+			automatically
+			create the mimetype
+			file nor the ZIP file. We will use
+			Apache Ant to
+			create them for us.
+		</para>
+		<para>
+			To validate an EPUB file, you can use the JAR file from the
+			<ulink url="https://github.com/IDPF/epubcheck">
+				EPubCheck Validation Tool</ulink>.
+			Download the latest 1.x version and put it into the classpath of
+			your Ant file. Make sure that you also extract the
+			<filename class="directory">lib</filename>
+			folder
+			included in the ZIP file
+			relative
+			to the
+			<filename>epub*.jar</filename>.
+			After the
+			conversion you can validate your
+			EPUB file via
+			the following
+			command.
+			We will include the check also in our Ant task.
+		</para>
+		<para>
+			<programlisting language="bourne">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/epubvalidate/validate.sh" />
+			</programlisting>
+		</para>
+	</section>
+
+	<section id="epub_ant">
+		<title>Creating EPUB files with Apache Ant</title>
+		<para>
+			The following example is based on the same file and directory
+			structure as the other examples. Create the following
+			<filename>book.xml</filename> file
+			in your <filename class="directory">input</filename> directory.
+		</para>
+		<para>
+			<programlisting language="xml">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/epub/book.xml" />
+			</programlisting>
+		</para>
+		<para>
+			This book refers to the
+			<filename>vogella_current_logo.png</filename>
+			image in the
+			<filename class="directory">image</filename>
+			folder. Either create
+			such an image or delete the part.
+		</para>
+		<para>
+			Create also a folder
+			<filename class="directory">epubinput</filename>
+			with a file
+			<filename>mimetype</filename>.
+			This
+			file should have only the following content:
+		</para>
+
+		<para>
+			<programlisting>
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/epub/mimetype" />
+			</programlisting>
+		</para>
+		<para>
+			The following Ant <filename>build.xml</filename> file will create EPUB
+			output.
+		</para>
+		<para>
+			<programlisting language="xml">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/epub/buildepub.xml" />
+			</programlisting>
+		</para>
+		<para>
+			I personally see the following issues. Please let me know if you have
+			a
+			solution for it.
+			<itemizedlist>
+				<listitem>
+					<para>
+						Target location of <filename class="directory">META-INF/</filename>
+						can be specified via
+						<property>epub.metainf.dir</property>,
+						but if you do so this path is also used in the
+						<filename>container.xml</filename>.
+					</para>
+				</listitem>
+				<listitem>
+					<para>Same issue with <property>epub.oebps.dir</property>.</para>
+				</listitem>
+			</itemizedlist>
+		</para>
+		<para>
+			You find another example Ant file in
+			<ulink url="http://inasmuch.as/2010/12/10/ant-for-epub/">
+				Ant for EPUB Blog Entry</ulink>
+			from Tony Graham.
+		</para>
+	</section>
+</section>

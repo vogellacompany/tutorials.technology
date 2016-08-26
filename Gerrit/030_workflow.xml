@@ -1,0 +1,94 @@
+<section id="gerrit_workflow" role="wrapper">
+	<title>Gerrit workflow</title>
+
+	<section id="gerritsetup_workflow3">
+		<title>A typical Gerrit workflow</title>
+
+		<para>The following describes a typical workflow of a developer who
+			uploads a Gerrit review and a reviewer.
+		</para>
+		<para>
+			<orderedlist>
+				<listitem>
+					<para>The developer fetches or pulls in the latest changes from the
+						Git repository
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						The developer create a new local branch based on the
+						<code>origin/master</code>
+						branch. This step
+						is
+						optional but it is considered a good practice
+						to
+						create an
+						independent branch
+						per change to avoid unnecessary
+						dependencies
+						between commits (Gerrit
+						reviews).
+					</para>
+				</listitem>
+				<listitem>
+					<para>The developer implements a change(new feature, bug fix,
+						documentation change) and create a commit in his local repository
+						with
+						these modifications.
+					</para>
+				</listitem>
+				<listitem>
+					<para>The developer implements (if necessary) more changes and
+						amends the existing commit,
+						until he is
+						satisfied with the change.
+					</para>
+				</listitem>
+			</orderedlist>
+		</para>
+		<para>
+			Afterwards you perform the following steps.
+			<orderedlist>
+				<listitem>
+					<para>
+						Push the change to the Gerrit review system to the
+						<code>refs/for/master</code>
+						refspec to create a change for the master branch.
+					</para>
+				</listitem>
+				<listitem>
+					<para>If you receive improvement suggestions, fetch the latest
+						changes and rebase your patch onto origin/master
+					</para>
+				</listitem>
+			</orderedlist>
+
+		</para>
+		<para>Repeat the last three steps until the patch is finally accepted
+			and merged into the codebase (or until the change is completely
+			rejected). Finally you can delete your
+			local branch.
+		</para>
+
+	</section>
+
+	<section id="gerritsetup_workflow1">
+		<title>Gerrit vs. Git workflow</title>
+		<para>In the Gerrit scenario amending a commit
+			is used to update
+			the
+			Gerrit change request. Using the amend operation on a published
+			commit is usually
+			discouraged in Git, in Gerrit it is the normal
+			process.
+		</para>
+	</section>
+	<section id="gerritsetup_workflow2">
+		<title>Gerrit vs. GitHub workflow</title>
+		The Gerrit review system is based on the assumption that each commit
+		is reviewed separately, while
+		at GitHub, a complete
+		branch is reviewed
+		and merging with the pull request.
+	</section>
+</section>

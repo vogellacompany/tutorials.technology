@@ -1,0 +1,25 @@
+<section id="gerritreview_url">
+	<title>URL for reviews</title>
+	<para>
+		To see the reviews on your Gerrit server, open the link to your Gerrit
+		instance. For
+		example if you have Gerrit locally
+		installed use
+		http://localhost:8080/ which is the default port for a local Gerrit
+		installation.
+		Or if you want to see the
+		Gerrit reviews for the Eclipse
+		project
+		use
+		<ulink url="https://git.eclipse.org/r/">Eclipse Gerrit instance</ulink>
+		.
+		You see
+		all change requests, if you login into the Gerrit instance you
+		see Gerrit changes you are involved with.
+	</para>
+	<para>
+		You can use the Search field to search for review see
+		<ulink url="https://git.eclipse.org/r/Documentation/user-search.html">Search options in Gerrit</ulink>
+		for available search options.
+	</para>
+</section>

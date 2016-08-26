@@ -1,0 +1,7 @@
+<fail message="PDF file was not created.">
+   <condition>
+      <not>
+          <available file="${pdf.dir}/path/book.pdf" />
+      </not>
+    </condition>
+</fail>

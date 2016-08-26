@@ -1,0 +1,8 @@
+
+<!-- Write the classpath to the console. Helpful for debugging -->
+<!-- Create one line per classpath element-->
+<pathconvert pathsep="${line.separator}" property="echo.classpath" refid="junit.class.path">
+</pathconvert>
+<!-- Write the result to the console -->
+<echo message="The following classpath is associated with junit.class.path " />
+<echo message="${echo.classpath}" />

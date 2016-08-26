@@ -1,0 +1,116 @@
+<section id="converttogroovy" role="wrapper">
+	<title>Exercise: Convert a Java project to Groovy</title>
+	<section id="converttogroovy_project">
+		<title>Create a Java project script</title>
+		<para>
+			Use the Eclipse wizard to create a new
+			<guilabel>Java project</guilabel>
+			called
+			<code>com.vogella.groovy.fromjava</code>
+			and create a package called
+			<code>fromjava</code>
+			.
+		</para>
+	</section>
+	<section id="converttogroovy_javabean">
+		<title>Create a Java class</title>
+		<para>
+			Create a Java bean in this project called
+			<code>Task</code>
+			with two properties.
+		</para>
+		<para>
+			<programlisting>
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/first/Task1.java" />
+			</programlisting>
+		</para>
+		<para>
+			Use the code generation capacities of the Eclipse IDE to
+			generate getter and setter, the constructor, the
+			<code>toString</code>
+			and
+			<code>equals</code>
+			and
+			<code>hashcode</code>
+			method.
+		</para>
+
+		<para>
+			<programlisting>
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/first/Task.java" />
+			</programlisting>
+		</para>
+
+	</section>
+	<section id="converttogroovy_main">
+		<title>Main method</title>
+		<para>
+			Create a new class with a main method In this method construct at
+			least one instance of
+			<code>Task</code>
+			.
+		</para>
+
+		<para>
+			<programlisting>
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/first/MainTest.java" />
+			</programlisting>
+		</para>
+	</section>
+	<section id="converttogroovy_convert">
+		<title>Convert to Groovy</title>
+		<para>
+			Right-click on your project and select
+			<menuchoice>
+				<guimenu>Configure</guimenu>
+				<guisubmenu>Convert to Groovy Project</guisubmenu>
+			</menuchoice>
+			. This adds the Groovy libraries to the project classpath and adds
+			the Groovy builder.
+		</para>
+		<para>
+			Right-click on your
+			<code>Task</code>
+			class and select
+			<menuchoice>
+				<guimenu>Convert</guimenu>
+				<guisubmenu>Convert file extension to Groovy </guisubmenu>
+			</menuchoice>
+			.
+		</para>
+	</section>
+	<section id="converttogroovy_project_validate">
+		<title>Simplify the Task class</title>
+		<para>
+			Simplify the
+			<code>Task</code>
+			class and ensure that the Java main program still can use it.
+		</para>
+
+		<para> Congratulation! You converted your first object to Groovy and
+			used it in an Java program.
+		</para>
+
+	</section>
+	<section id="converttogroovy_project_asttransformation">
+		<title>Replace the toString and equals/hashCode method</title>
+		<note>
+			<para>This exercise is optional.</para>
+		</note>
+		<para>
+			Use
+			<code>@EqualsAndHashCode</code>
+			and the
+			<code>@ToString</code>
+			to allow the Groovy compiler to create these methods during its
+			compile phase.
+
+		</para>
+		<para>
+			These annotations triggers a so called AST (Abstract Syntax Tree) transformation during
+			compilation. See
+			<xref linkend="asttransformations" />
+			for more details.
+		</para>
+	</section>
+</section>

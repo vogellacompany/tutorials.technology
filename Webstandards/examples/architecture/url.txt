@@ -1,0 +1,12 @@
+
+protocol:server:[port:][path][resource]
+
+For example: 
+
+http://www.vogella.com:80/articles/HTML/article.html
+
+protocol: http://
+server: www.vogella.com
+[port:] 80 (optional)
+path: articles/HTML/
+resource: article.html

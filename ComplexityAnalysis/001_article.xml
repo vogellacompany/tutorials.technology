@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<article>
+	<articleinfo>
+		<title>Complexity Analysis of Algorithms - Tutorial</title>
+		<author>
+			<firstname>Lars</firstname>
+			<surname>Vogel</surname>
+		</author>
+		<copyright>
+			<year> 2009</year>
+			<holder>vogella GmbH</holder>
+		</copyright>
+		<pubdate>31.08.2009</pubdate>
+		<releaseinfo>
+			<para>Version 0.2</para>
+		</releaseinfo>
+		
+		<abstract id="abstract">
+			<title>Complexity Analysis</title>
+			<para> The following article describes the
+				theoretical background on
+				evaluating the performance of algorithms
+				and programs.
+			</para>
+
+		</abstract>
+	</articleinfo>
+	<?dbhtml-include href="../../web/advertisement/afterTableOfContent"?>
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/100_introduction.xml" />
+	<?dbhtml-include href="../../web/advertisement/inBetween01"?>
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/200_bigo.xml" />
+	<?dbhtml-include href="../../web/advertisement/beforeSupport"?>
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../10_Include/support.xml" />	
+	<?dbhtml-include href="../../web/advertisement/afterSupport"?>
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="resources.xml" />
+	<?dbhtml-include href="../../web/vgwort/ComplexityAnalysis"?>
+</article>

@@ -1,0 +1,2 @@
+
+select * from SCHEMA1.USERS where NUMBER='lars'

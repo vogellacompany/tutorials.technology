@@ -1,0 +1,22 @@
+<project name="Run java program" basedir="." default="default">
+
+     <property name="outputdir.property" value="../../output/"/>
+     <property name="inputdir.property" value="../../output/"/>
+     <property name="classpath.property" value="${basedir}/../com.vogella.website.repository/target/repository/plugins/"/>
+
+
+    <target name="default">
+	
+	<path id="runtime.path">
+    		<fileset dir="${classpath.property}" includes="*.jar"/>
+	</path>
+		<echo message = "Ant output directory: ${outputdir.property}"/>
+		<echo message = "Ant input directory for tutorials: ${inputdir.property}"/>
+		<echo message = "Ant classpath directory: ${classpath.property}"/>
+		<java classname="com.vogella.test.Mail" fork="false" classpathref="runtime.path">
+    			<arg value="${outputdir.property}"/>
+                <arg value="${inputdir.property}"/>
+		</java>
+    </target>
+
+</project>

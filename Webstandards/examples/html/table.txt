@@ -1,0 +1,18 @@
+
+<table>
+<tr>
+<th>Header 1</th>
+<th>Header 2</th>
+<th>Header 3</th>
+</tr>
+<tr>
+<th>Java</th>
+<td>C++</td>
+<td>.NET</td>
+</tr>
+<tr>
+<th>Hundefutter</th>
+<td>Dogfog</td>
+<td>Something</td>
+</tr>
+</table>

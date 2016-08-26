@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<article>
+	<articleinfo>
+		<title>Publish EBooks - Tutorial</title>
+		<author>
+			<firstname>Lars</firstname>
+			<surname>Vogel</surname>
+		</author>
+		<copyright>
+			<year>2011</year>
+			<holder>vogella GmbH</holder>
+		</copyright>
+		<pubdate>15.09.2011</pubdate>
+		<releaseinfo>
+			<para>Version 0.1</para>
+		</releaseinfo>
+
+		
+
+
+		<abstract id="abstract">
+			<title>Short description how to publish EBooks</title>
+			<para> This is currently a collection of notes for me. </para>
+		</abstract>
+	</articleinfo>
+
+	<?dbhtml-include href="../../web/advertisement/afterTableOfContent"?>
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/001_introduction.xml" />
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="resources.xml" />
+	<?dbhtml-include href="../../web/vgwort/PublishEBooks"?>
+</article>

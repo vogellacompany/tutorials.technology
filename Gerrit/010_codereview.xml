@@ -1,0 +1,144 @@
+<section id="codereview" role="wrapper">
+	<title>Code review</title>
+	<section id="codereview_process">
+		<title>The code review process</title>
+		<indexterm>
+			<primary>Code review</primary>
+		</indexterm>
+		<para>
+			During a code review process a proposed change
+			is reviewed by
+			other developers. Every contributor can
+			suggest
+			changes and update the
+			suggested changes. Once the change is
+			accepted
+			by a committer,
+			it is
+			merged into the code base.
+		</para>
+		<para>
+			For an efficient process it is important that the code review is
+			conducted in a supportive environment where constructive feedback
+			is
+			given to enhance the change.
+		</para>
+		<para>
+			While a code review process can be implemented without any tool
+			support, it is typically more efficient if a structured code review
+			system is used. Gerrit is a code review system developed for the Git
+			version control system.
+		</para>
+		<para>
+			It is also common practice to do an automated test build of the
+			proposed merge
+			using continuous integration tools like Jenkins or
+			Hudson to check
+			for compile time errors and to run a test suite.
+		</para>
+	</section>
+	<section id="codereview_advantages">
+		<title>Advantages of code review</title>
+		<indexterm>
+			<primary>Advantages of code review</primary>
+		</indexterm>
+		<para>
+			In general a structured code review process has the following
+			advantages:
+			<orderedlist>
+				<listitem>
+					<para>
+						Early error detection:
+						<itemizedlist>
+							<listitem>Build problems are detected
+								immediately
+								by automatic test
+								builds.
+							</listitem>
+							<listitem>Logical
+								flaws can be spotted by the human reviewer
+								before any code
+								is
+								merged.
+							</listitem>
+						</itemizedlist>
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						Conformation to the source code standards:
+						<itemizedlist>
+							<listitem>
+								Allows the
+								team
+								to identify early in the process any
+								violations with
+								the team code
+								standards.
+							</listitem>
+							<listitem>
+								Helps to keep code
+								readable and easier
+								to
+								maintain.
+							</listitem>
+							<listitem>
+								<para>
+									In some projects the continuous integration system also
+									checks for code
+									standard conformity automatically as part of the
+									build process.
+								</para>
+							</listitem>
+						</itemizedlist>
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+
+						Knowledge exchange:
+						<itemizedlist>
+							<listitem>The code review process allows newcomers
+								to see the code
+								of other
+								more experienced developers.
+							</listitem>
+							<listitem>Developers get fast feedback on their
+								suggested changes.
+							</listitem>
+							<listitem>Experienced developers can help to evaluate the impact
+								on
+								the whole code.
+							</listitem>
+						</itemizedlist>
+
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						Shared code ownership: by reviewing code of other developers
+						the whole team gets a solid knowledge of the complete code base.
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						Easy entry to contribution: People
+						without write
+						permission to
+						a repository have an easy way to start contributing and to get
+						feedback.
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						Enables review before a change is submitted: Iteration based
+						on review comments / build results happen before a change is
+						merged into
+						the target branch. This result in a cleaner history of
+						the repository.
+					</para>
+				</listitem>
+			</orderedlist>
+		</para>
+	</section>
+</section>

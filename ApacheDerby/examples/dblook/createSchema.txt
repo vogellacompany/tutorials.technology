@@ -1,0 +1,2 @@
+
+dblook -d 'jdbc:derby:c:\temp\db\FAQ\db' -z myschema -o lars.sql

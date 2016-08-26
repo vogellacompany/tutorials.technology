@@ -1,0 +1,95 @@
+<section id="installgroovy" role="wrapper">
+	<title>Installation of Groovy</title>
+	<section id="install_groovy">
+		<title>Install Groovy for the command line</title>
+		<para>
+			To be able to run Groovy code from the command line download the
+			latest version from Groovy from the
+			<ulink url="http://www.groovy-lang.org/download.html">Groovy download website</ulink>
+			.
+		</para>
+
+
+		<para> Download at least the binary zip file and extract it to a
+			directory on your
+			hard disk. Afterwards set the
+			GROOVY_HOME
+			environment variable
+			and
+			%GROOVY_HOME%/bin to your path.
+		</para>
+		<para>
+			If you are
+			using MS Windows you can
+			use the Windows installer.
+			This installer
+			configured the environment
+			variables
+			automatically for
+			you.
+		</para>
+		<para>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="images/downloadgroovycommandline.png"/>
+				</imageobject>
+				<textobject>
+					<phrase>Download Groovz command line</phrase>
+				</textobject>
+			</mediaobject>
+		</para>
+	</section>
+
+	<section id="install_springgroovytools">
+		<title>Installation of the Groovy tools for the Eclipse IDE</title>
+		<para>
+			You can download a pre-configured version of the Eclipse IDE with Groovy and Gradle support from the following
+			website:
+			<ulink url="http://spring.io/tools">Spring tools download side</ulink>
+			.
+		</para>
+		<para>
+			Alternatively you can also install the Groovy tooling into an existing Eclipse
+			installation.
+			Open the Eclipse Update
+			manager via the
+			<menuchoice>
+				<guimenu>Help</guimenu>
+				<guisubmenu>Install New Software...</guisubmenu>
+			</menuchoice>
+			menu entry
+			to install the Groovy Eclipse plug-in. Enter the following
+			URL in this dialog:
+		</para>
+		<para>
+			<programlisting language="java">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/install/updatesite.txt" />
+			</programlisting>
+		</para>
+
+		<para>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="images/eclipsegroovyinstallation10.png"/>
+				</imageobject>
+				<textobject>
+					<phrase>Install Groovy support for Eclipse</phrase>
+				</textobject>
+			</mediaobject>
+		</para>
+
+		<para>
+			The update site is Eclipse version dependent, see
+			<ulink url="https://github.com/groovy/groovy-eclipse/wiki">Groovy/Grails Tool Suite™ Downloads</ulink>
+			if you use a different release than Eclipse 4.5.
+		</para>
+	</section>
+	<section id="install_intellij">
+		<title>Installation of the Groovy tools for the IntelliJ IDE</title>
+		<para>
+			You can also download the
+			<ulink url="https://www.jetbrains.com/idea/download/">IntelliJ IDEA Community edition</ulink>
+			for free which includes support for Groovy.
+		</para>
+	</section>
+</section>

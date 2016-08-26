@@ -1,0 +1,121 @@
+
+Sub MoveSelectedMessagesToToDo()
+
+On Error Resume Next
+    Dim objFolder As Outlook.MAPIFolder, objInbox As Outlook.MAPIFolder
+
+    Dim objNS As Outlook.NameSpace, objItem As Outlook.MailItem
+
+    Set objNS = Application.GetNamespace("MAPI")
+
+    Set objInbox = objNS.GetDefaultFolder(olFolderInbox)
+
+   ' MUST CHANGE THE OUTPUT FOLDER
+   ' Assume this is a mail folder
+    Set objFolder = GetFolder("10_Offline\_00_to_do")
+    ' In case you would like to move to a subfolder in the inbox
+    'Set objFolder = objInbox.Folders.Item("Done")
+
+
+    If objFolder Is Nothing Then
+        MsgBox "This folder doesn't exist!", vbOKOnly + vbExclamation, "INVALID FOLDER"
+    End If
+
+    If Application.ActiveExplorer.Selection.Count = 0 Then
+        'Require that this procedure be called only when a message is selected
+        Exit Sub
+    End If
+
+ 
+    For Each objItem In Application.ActiveExplorer.Selection
+        If objFolder.DefaultItemType = olMailItem Then
+            If objItem.Class = olMail Then
+                objItem.Move objFolder
+            End If
+        End If
+    Next
+
+    Set objItem = Nothing
+    Set objFolder = Nothing
+    Set objInbox = Nothing
+    Set objNS = Nothing
+
+End Sub
+
+
+
+Sub MoveSelectedMessagesToFolder()
+
+On Error Resume Next
+    Dim objFolder As Outlook.MAPIFolder, objInbox As Outlook.MAPIFolder
+
+    Dim objNS As Outlook.NameSpace, objItem As Outlook.MailItem
+
+    Set objNS = Application.GetNamespace("MAPI")
+
+    Set objInbox = objNS.GetDefaultFolder(olFolderInbox)
+
+   ' MUST CHANGE THE OUTPUT FOLDER
+   ' Assume this is a mail folder
+    Set objFolder = GetFolder("2009\Q4")
+    
+
+
+    If objFolder Is Nothing Then
+        MsgBox "This folder doesn't exist!", vbOKOnly + vbExclamation, "INVALID FOLDER"
+    End If
+
+    If Application.ActiveExplorer.Selection.Count = 0 Then
+         MsgBox "Nothing selected", vbOKOnly + vbExclamation, "No message selected"
+        Exit Sub
+    End If
+
+ 
+    For Each objItem In Application.ActiveExplorer.Selection
+        If objFolder.DefaultItemType = olMailItem Then
+            If objItem.Class = olMail Then
+                objItem.Move objFolder
+            End If
+        End If
+    Next
+
+    Set objItem = Nothing
+    Set objFolder = Nothing
+    Set objInbox = Nothing
+    Set objNS = Nothing
+
+End Sub
+
+
+Public Function GetFolder(strFolderPath As String) As MAPIFolder
+  ' folder path needs to be something like
+  '   "Public Folders\All Public Folders\Company\Sales"
+  Dim objApp As Outlook.Application
+  Dim objNS As Outlook.NameSpace
+  Dim colFolders As Outlook.Folders
+  Dim objFolder As Outlook.MAPIFolder
+  Dim arrFolders() As String
+  Dim I As Long
+  On Error Resume Next
+
+  strFolderPath = Replace(strFolderPath, "/", "\")
+  arrFolders() = Split(strFolderPath, "\")
+  Set objApp = CreateObject("Outlook.Application")
+  Set objNS = objApp.GetNamespace("MAPI")
+  Set objFolder = objNS.Folders.Item(arrFolders(0))
+  If Not objFolder Is Nothing Then
+    For I = 1 To UBound(arrFolders)
+      Set colFolders = objFolder.Folders
+      Set objFolder = Nothing
+      Set objFolder = colFolders.Item(arrFolders(I))
+      If objFolder Is Nothing Then
+        Exit For
+      End If
+    Next
+  End If
+
+  Set GetFolder = objFolder
+  Set colFolders = Nothing
+  Set objNS = Nothing
+  Set objApp = Nothing
+End Function

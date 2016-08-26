@@ -1,0 +1,53 @@
+<section id="docbookpdf">
+	<title>Create pdf output</title>
+	<section id="docbookpdf_overview">
+		<title>Overview</title>
+		<para>
+			You can convert DocBook to XML-FO via the DocBook XSL
+			Stylesheets. XML FO stands for XML Formating Objects and is an XML
+			standard
+			which is optimized for print media. XML-FO can then be
+			tranlated into PDF via the Apache FOP library.
+		</para>
+	</section>
+	<section id="docbookpdf_installation">
+		<title>Installation</title>
+		<para>
+			In addition to the existing setup you also require the Apache
+			FOP
+			library. Download the binary FOP distribution from
+			<ulink
+				url="http://xmlgraphics.apache.org/fop/">
+				http://xmlgraphics.apache.org/fop/</ulink>.
+		</para>
+		<para>
+			Copy all the JAR files from the FOP distribution in your library
+			directory
+			and add the libs to the ant build path. See
+			<ulink
+				url="http://www.vogella.com/tutorials/ApacheAnt/article.html#classpath">
+				Apache Ant Tutorial</ulink>
+			on how to modify the ant build path.
+		</para>
+	</section>
+	<section id="docbookpdf_">
+		<title>Define the Ant Task</title>
+		<para>
+			You have to add the task to your ant build file and then call
+			the task. The following snippet shows how to define the task and how to call
+			it. The second listing is then a full example ant <filename>build.xml</filename> file.
+		</para>
+		<para>
+			<programlisting language="xml">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/ant/pdftask.xml" />
+			</programlisting>
+		</para>
+		<para>
+			<programlisting language="xml">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/ant/buildpdf.xml" />
+			</programlisting>
+		</para>
+	</section>
+</section>

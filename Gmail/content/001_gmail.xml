@@ -1,0 +1,77 @@
+<section id="gmail">
+	<title>Gmail</title>
+	<section id="gmailsearch">
+		<title>Advanced search features</title>
+		<para>
+			Gmail allows to search via pre-defined values. For example:
+
+			<itemizedlist>
+				<listitem>
+					<para>has:attachement - search email with an attachment    </para>
+				</listitem>
+				<listitem>
+					<para>from: Paul- search emails from Paul     </para>
+				</listitem>
+			</itemizedlist>
+		</para>
+	</section>
+	<section id="gmaillabels">
+		<title>Assign automatic labels to emails</title>
+		<para>
+			If you register to a mailing list you can put the message
+			automatically
+			into a
+			separate folder / label. This following explains
+			how
+			you can do this.
+			For example if you are part of the derby mailing
+			list you can put these emails automatically flag with a label via the
+			following.
+		</para>
+		<para>
+			Create a label named, for example, "Derby"
+		</para>
+		<para>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="images/gmaillabel1.jpg" />
+
+				</imageobject>
+
+			</mediaobject>
+		</para>
+
+		<para>
+			Create a filter and add the mail address
+			derby-user@db.apache.org to the To field.
+			In the "next step" of the
+			filter, tick the "Skip
+			the Inbox
+			(archive it)" check box and the "Apply
+			label" checkbox and choose
+			"Derby" from the
+			dropdown.
+			That's it and now
+			when you look at your labels list, the
+			Derby
+			list has it's
+			own inbox.
+		</para>
+
+	</section>
+	<section id="gmail_emailtemplates">
+		<title>Email templates</title>
+		<para>
+			To activate templates select
+			<menuchoice>
+				<guimenu>Settings</guimenu>
+				<guisubmenu>Labs</guisubmenu>
+				<guisubmenu>Channed Responsess</guisubmenu>
+			</menuchoice>
+			and select
+			<guilabel>Activate</guilabel>
+			. Afterwards you have a new line under your subject which allows you
+			to create or use a template.
+		</para>
+	</section>
+</section>

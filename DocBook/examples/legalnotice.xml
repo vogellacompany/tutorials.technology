@@ -1,0 +1,25 @@
+<bookinfo>
+	<title>Docbook Book Example</title>
+	<subtitle>Demonstrating Copyright Information</subtitle>
+	<author>
+		<firstname>Lars</firstname>
+		<surname>Vogel</surname>
+	</author>
+	<copyright>
+		<year>2013</year>
+		<holder>vogella GmbH</holder>
+	</copyright>
+	<pubdate>01.10.2013</pubdate>
+	<releaseinfo>Version 1.0</releaseinfo>
+	<legalnotice>
+		<para>
+			ALL RIGHTS RESERVED. This book contains material protected
+			under International and Federal Copyright Laws and Treaties. Any
+			unauthorized reprint or use of this material is prohibited. No part
+			of this book may be reproduced or transmitted in any form or by any
+			means, electronic or mechanical, including photocopying, recording,
+			or by any information storage and retrieval system without express
+			written permission from the author.
+		</para>
+	</legalnotice>
+</bookinfo>

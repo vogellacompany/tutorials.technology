@@ -1,0 +1,39 @@
+﻿<section id="classpath">
+	<title>Apache Ant classpath</title>
+	<section id="classpath_setting">
+		<title>Setting the Ant classpath</title>
+		<para>
+			Ant allows to create classpath containers and use them in
+			tasks. The
+			following
+			<filename>build.xml</filename>
+			from a project called
+			<wordasword>de.vogella.build.ant.classpath</wordasword>
+			demonstrates this.
+		</para>
+		<para>
+			<programlisting language="xml">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/classpath/build.xml" />
+			</programlisting>
+		</para>
+	</section>
+	<section id="classpath_print">
+		<title>Print</title>
+		<para>You can
+			use
+			the following statements to write the full classpath
+			to the
+			console. You can
+			use this to
+			easily verify if the classpath is
+			correct.
+		</para>
+		<para>
+			<programlisting>
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/classpath/classpath.txt" />
+			</programlisting>
+		</para>
+	</section>
+</section>

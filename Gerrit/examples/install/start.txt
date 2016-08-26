@@ -1,0 +1,8 @@
+# assumes you installed Gerrit in 
+# the home directory under gerrit
+
+# start if not running
+~/gerrit/review_site/bin/gerrit.sh start
+
+# stop it again
+~/gerrit/review_site/bin/gerrit.sh stop

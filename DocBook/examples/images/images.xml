@@ -1,0 +1,11 @@
+
+<para>
+	<mediaobject>
+		<imageobject>
+			<imagedata fileref="images/antview10.gif"/>
+		</imageobject>
+		<textobject>
+			<phrase>A text for the graphic</phrase>
+		</textobject>
+	</mediaobject>
+</para>

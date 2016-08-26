@@ -1,0 +1,21 @@
+<section id="resources">
+	<title>Links and Literature</title>
+	<para>
+		<ulink
+			url="http://www.hosteurope.de/faq/index.php?cpid=13918">
+			http://www.hosteurope.de/faq/index.php?cpid=13918</ulink>
+		Java 1.5 on Virtual Server (German), (Could not create the Java
+		virtual machine.).
+	</para>
+	
+		<para>
+		<ulink
+			url="http://blixtra.org/blog/2006/07/14/setting-up-tomcat-5-on-ubuntu-606/">
+			http://blixtra.org/blog/2006/07/14/setting-up-tomcat-5-on-ubuntu-606/</ulink>
+		Setting up Tomcat and Java on Ubuntu
+	</para>
+	
+	
+
+
+</section>

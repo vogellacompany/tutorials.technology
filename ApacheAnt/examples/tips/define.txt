@@ -1,0 +1,4 @@
+
+<!-- Location of a configuration -->
+<property name="my.config" value="../my-config.xml"/>
+<makeurl file="${my.config}" property="my.config.url"/>

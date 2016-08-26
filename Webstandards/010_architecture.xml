@@ -1,0 +1,109 @@
+<section id="architecture">
+	<title>Web Architecture</title>
+	<para> In a web server architecture you have a web client (browser)
+		taking to a web server.
+	</para>
+	<section id="architecture_web server">
+		<title>Web Server</title>
+		<para> A web server takes a client request, process the request and
+			send the result back to the client. The web server may return a HTML
+			page, a picture or an error message.
+		</para>
+
+		<para> Web server and web client communicate over a protocol usually
+			the HTTP protocol.
+		</para>
+
+		<para> Popular web servers are the Apache HTTP web server. </para>
+	</section>
+	<section id="architecture_webclient">
+		<title>Web Client</title>
+		<para> A web client issues requests (via the user) to the web server
+			and displays (renders) the result. A web client is typically a
+			browser, e.g. Firefox.
+		</para>
+	</section>
+
+	<section id="architecture_html">
+		<title>HTML</title>
+		<para> HTML is a markup language which contains content and describes
+			the structure how this content will be displayed. The current version
+			of HTML is HTML5 (which is still work in process). The article
+			explains how to develop HTML5 pages.
+		</para>
+	</section>
+
+	<section id="architecture_http">
+		<title>HTTP</title>
+		<para> HTTP (HyperText Transfer Protocol) is the protocol usually used
+			for the communication between web server and web client. HTTP is
+			based on TCP/IP. TCP is responsible for making sure that a file is
+			received as a whole and IP is responsible for moving the individual
+			data packages between within the network.
+		</para>
+		<para> A HTTP conversion follow a Request / Response sequence. The web
+			client issues a request to the web server and the web server
+			responses to this request.
+		</para>
+		<para>
+			The HTTP request
+			support methods,
+			e.g. HEAD, GET, PUT, DELETE etc.
+			Via
+			these methods the web client indicates what the web server should
+			do. For example the method GET indicates that the web client would
+			like to receive a resource, e.g. file from the web server without any
+			modification. The PUT method indicates that the web server should
+			change something.
+		</para>
+
+		<para> The HTTP response consists of a response header, and a
+			response
+			body. The HTTP header contains the status of the response,
+			e.g. Ok and
+			indicates what type of data is included in the body. The
+			type of data
+			is also called "Content-Type" or "MIME-type". For
+			example the
+			"Content-Type: text/htmL" indicates that the response
+			body contains
+			text or HTML.
+		</para>
+	</section>
+	<section id="architecture_url">
+		<title>URL - Uniform Resource Locator</title>
+		<para> A resource in the web (and on the web server) can get
+			identified via the URL. A URL is what is usually displayed in the
+			browser, e.g. http://www.vogella.com is a URL.
+		</para>
+
+		<para> A URL consists of the following parts:</para>
+
+		<para>
+			<programlisting>
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/architecture/url.txt" />
+			</programlisting>
+		</para>
+	</section>
+	<section id="architecture_dns">
+		<title>DNS - Dynamic name server and entries</title>
+		<para> A DNS server is responsible for identifying resources in the
+			Internet based on domain names. The provide which hosts and URL can
+			specify which DNS server should be used and if someone requests a
+			resource with this URL, the name server is contacted to which IP
+			address the domain belongs.
+		</para>
+
+		<para>To check which entries for a certain domain name is returned, you can use the <code>digg</code> command on the command line. f</para>
+
+		<para>
+			<programlisting>
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/dns/diff.txt" />
+			</programlisting>
+		</para>
+	</section>
+
+
+</section>
