@@ -12,7 +12,7 @@ This tutorial contains some notes about writing documentation with AsciiDoc and 
 include::010_overview.adoc[]
 include::014_annotations.adoc[]
 include::020_edit_tooling.adoc[]
+include::020_pdfoutput.adoc[]
 include::030_generating_output.adoc[]
-include::100_questions.adoc[]
 include::index.adoc[]
 include::resourceslocal.adoc[]
