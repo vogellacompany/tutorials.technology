@@ -3,6 +3,8 @@
 (((Submodules)))
 (((git submodules)))
 
+=== Using Git repositories inside other Git repositories
+
 Git allows you to include other Git repositories called _submodules_ into a repository. 
 This allows you to track changes in several repositories via  a central one.
 
@@ -10,10 +12,10 @@ Git allows you to commit, pull and push to these repositories independently.
 
 
 [[submodules_trackbranch]]
-== Adding a submodule a Git repository and tracking a branch
+=== Adding a submodule to a Git repository and tracking a branch
 
-Git allows you to add a Git repository can track a branch in this submodule.
-To track branches you specify the branch with the `-b` parameter during the `submodule add` command.
+If you add a submodule, you can specify which branch should be tracked via the `-b` parameter of the `submodule add` command.
+The `git submodule init` command creates the local configuration file for the submodules, if this configuration does not exist.
 
 [source,terminal]
 ----
@@ -22,11 +24,11 @@ git submodule add -b master [URL to Git repo] #<1>
 git submodule init #<2>
 ----
 
-<1> adds a submodule to the existing Git repository and defines a branch to track
+<1> adds a new submodule to an existing Git repository and defines that the master branch should be tracked
 <2> initialize submodule configuration
 
-If you have specified that Git should track a branch you can use the `--remote` parameter in the `git submodule update` command.
-This pull in new commits into  the main repository and it the submodules.
+If you track branches in your submodules, you can update them via the `--remote` parameter of the `git submodule update` command.
+This pull in new commits into the main repository and its submodules.
 It also changes the working directories of the submodules to the commit of the tracked branch.
 
 
@@ -41,9 +43,9 @@ git submodule update --remote
 [[submodules_adding]]
 == Adding a submodule to a Git repository and tracking based on commits
 
-=== Adding a submodule
+=== Adding a submodule and tracking commits
+Alternatively to the tracking of a branch, you can also control which commit of the submodule should be used.
 You add a submodule to a Git repository via the `git submodule add` command. 
-The `git submodule init` command creates the local configuration file for the submodules, if this configuration does not exist.
 
 [source,terminal]
 ----
