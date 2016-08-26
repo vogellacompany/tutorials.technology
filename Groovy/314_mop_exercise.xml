@@ -1,14 +1,14 @@
 <section id="mop_exercise">
-	<title>Exercise: Meta Object Protocol</title>
+== Exercise: Meta Object Protocol</title>
 	<section id="mop_exercise_target">
-		<title>Target of this exercise</title>
+=== Target of this exercise</title>
 		<para>
 			In this exercise you learn how to extend a Groovy class using
 			the Meta Object Protocol.
 		</para>
 	</section>
 	<section id="mop_exercise_anycall">
-		<title>Making a Groovy object responding to all methods and property
+=== Making a Groovy object responding to all methods and property
 			calls
 		</title>
 		<para>
@@ -33,7 +33,7 @@
 	</section>
 
 	<section id="mop_exercise_json">
-		<title>Exercise: Adding JSON output to Groovy class, the ugly and the smart way</title>
+=== Exercise: Adding JSON output to Groovy class, the ugly and the smart way</title>
 		<para>Create the following Groovy class. </para>
 
 		<para>
@@ -43,9 +43,9 @@
 		</para>
 		<para>
 			Is uses the
-			<code>methodMissing</code>
+			`methodMissing`
 			to respond to a
-			<code>toJson</code>
+			`toJson`
 			method call. This implementation is a bit ugly as it "pollutes" our
 			domain model with "framework" code.
 		</para>
@@ -58,7 +58,7 @@
 
 		<para>
 			Groovy allows to created an instance of
-			<code>MetaClass</code>
+			`MetaClass`
 			and register it automatic for a certain class. This registration is
 			based on a package naming conversion:
 		</para>
@@ -67,7 +67,7 @@
 		</programlisting>
 		<para>
 			Create the following class in the listed package to register it as
-			<code>MetaClass</code>
+			`MetaClass`
 			for your class.
 		</para>
 
@@ -95,7 +95,7 @@
 	</section>
 
 	<section id="mop_exercise_addingmethodtostring">
-		<title>Exercise: Adding a method to String</title>
+=== Exercise: Adding a method to String</title>
 		<para>The following example demonstrates how you can add a method to the String class using closures. </para>
 
 		<para>

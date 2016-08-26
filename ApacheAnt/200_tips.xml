@@ -1,7 +1,7 @@
 ﻿<section id="tips">
-	<title>Ant tips</title>
+== Ant tips</title>
 	<section id="tips_path">
-		<title>Converting Paths</title>
+=== Converting Paths</title>
 		<para>Apache Ant allows to convert relative paths to absolute paths.
 			The following example demonstrates that.
 		</para>
@@ -22,7 +22,7 @@
 		</para>
 	</section>
 	<section id="tips_regularexpressions">
-		<title>Regular expressions</title>
+=== Regular expressions</title>
 		<para>
 			Ant can be used to replace text based on regular expressions. The
 			following

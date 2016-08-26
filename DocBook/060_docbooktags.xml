@@ -1,5 +1,5 @@
 <section id="docbooktags">
-	<title>DocBook Tags</title>
+== DocBook Tags</title>
 	<para>
 		So far you have used a very limited set of
 		<wordasword>DocBook</wordasword>
@@ -10,10 +10,10 @@
 		document.
 	</para>
 	<section id="docbooktags_text">
-		<title>Markup</title>
+=== Markup</title>
 		<para>
 			<table frame='all'>
-				<title>Important Docbook tags</title>
+		=== Important Docbook tags</title>
 				<tgroup cols='2' align='left' colsep='1' rowsep='1'>
 					<colspec colname='c1' />
 					<colspec colname='c2' />
@@ -54,10 +54,10 @@
 						</row>
 						<row>
 							<entry>
-								<![CDATA[ <parameter class='command'>/w</parameter> ]]>
+								<![CDATA[ <parameter class='command'>/w` ]]>
 							</entry>
 							<entry>
-								Describes a parameter; <code>class</code> can be command, function,
+								Describes a parameter; `class` can be command, function,
 								option
 							</entry>
 						</row>
@@ -75,7 +75,7 @@
 						</row>
 						<row>
 							<entry>
-								<![CDATA[ <filename class="directory">/usr/bin</filename>, <filename>db2html</filename> ]]>
+								<![CDATA[ <filename class="directory">/usr/bin`, `db2html` ]]>
 							</entry>
 							<entry>Directory or filename</entry>
 						</row>
@@ -90,13 +90,13 @@
 								<![CDATA[ <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="example1.txt" /> ]]>
 							</entry>
 							<entry>
-								Includes <filename>example1.xml</filename> as text,
+								Includes `example1.xml` as text,
 								so the file can contain tags, etc.
 							</entry>
 						</row>
 						<row>
 							<entry>
-								<![CDATA[ <ulink url="http://www.heise.de/newsticker">German IT News</ulink>. ]]>
+								<![CDATA[ http://www.heise.de/newsticker">German IT News</ulink>. ]]>
 							</entry>
 							<entry>Paste a hypertext link into the document.</entry>
 						</row>
@@ -117,7 +117,7 @@
 	</section>
 
 	<section id="docbooktags_warnings">
-		<title>Warnings</title>
+=== Warnings</title>
 		<para>
 			To define warning messages, DocBook provides several tags. The
 			following list gives an overview of them.
@@ -149,7 +149,7 @@
 	</section>
 
 	<section id="docbooktags_linebreak">
-		<title>Line break</title>
+=== Line break</title>
 		<para>
 			You
 			can create an explicit line break with the <![CDATA[<sbr/> ]]>
@@ -158,7 +158,7 @@
 	</section>
 
 	<section id="docbooktags_link">
-		<title>References to other elements</title>
+=== References to other elements</title>
 		<para>
 			You link to different elements in Docbook with
 			<![CDATA[<xref linkend="id_of_the_element"/> ]]>.
@@ -166,7 +166,7 @@
 	</section>
 
 	<section id="docbooktags_legal">
-		<title>Legal Notice</title>
+=== Legal Notice</title>
 		<para>
 			You can define legal notices where you state the conditions
 			for reproduction like traditional copyright or an open
@@ -181,7 +181,7 @@
 	</section>
 
 	<section id="docbooktags_index">
-		<title>Index</title>
+=== Index</title>
 		<para>
 			You
 			create an index in your document with the <![CDATA[<index/>]]>
@@ -211,7 +211,7 @@
 	</section>
 
 	<section id="docbooktags_table">
-		<title>Tables</title>
+=== Tables</title>
 		<para>You can create a table via the following coding.</para>
 		<para>
 			<programlisting language="xml">
@@ -222,7 +222,7 @@
 	</section>
 
 	<section id="docbooktags_lists">
-		<title>Lists</title>
+=== Lists</title>
 		<para>You can create non-numbered lists like this:</para>
 		<para>
 			<programlisting language="xml">
@@ -241,7 +241,7 @@
 	</section>
 
 	<section id="docbooktags_links">
-		<title>Links</title>
+=== Links</title>
 		<para>You can create links like this</para>
 
 		<programlisting language="xml">
@@ -251,7 +251,7 @@
 	</section>
 
 	<section id="docbooktags_graphics">
-		<title>Graphics</title>
+=== Graphics</title>
 		<para>
 			DocBook has no restrictions what kind of graphic format you
 			use,
@@ -261,10 +261,10 @@
 			tag.
 			The
 			optional
-			<parameter>"phrase"</parameter>
+			`"phrase"`
 			is used in HTML output to define the
 			mandatory
-			<parameter>"alt"</parameter>
+			`"alt"`
 			attribute of image.
 		</para>
 		<programlisting language="xml">
@@ -287,7 +287,7 @@
 	</section>
 
 	<section id="docbooktags_menu">
-		<title>Menus</title>
+=== Menus</title>
 		<para>
 			To define menu paths, as, for example,
 			<menuchoice>
@@ -303,7 +303,7 @@
 	</section>
 
 	<section id="docbooktags_shortcuts">
-		<title>Keyboard Shortcuts</title>
+=== Keyboard Shortcuts</title>
 		<para>
 			To define keyboard as, for example,
 			<shortcut>

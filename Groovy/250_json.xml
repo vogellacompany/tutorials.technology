@@ -1,11 +1,11 @@
 <section id="groovy_json">
-	<title>Groovy and JSON</title>
+== Groovy and JSON</title>
 
 	<para>
 		Similar to the
-		<code>XmlSlurper</code>
+		`XmlSlurper`
 		class for parsing XML, Groovy provides the
-		<code>JsonSlurper</code>
+		`JsonSlurper`
 		for parsing JSON.
 	</para>
 	<para>
@@ -16,7 +16,7 @@
 	</para>
 	<para>
 		You can use the
-		<code>setType(LAX)</code>
+		`setType(LAX)`
 		method to parse partially invalid JSON files. With this mode the JSON
 		file can contain // comments, Strings can use '' for quotes can be
 		forgotten.

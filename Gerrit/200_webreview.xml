@@ -1,7 +1,7 @@
 <section id="webreview" role="wrapper">
-	<title>Using the Gerrit web interface</title>
+== Using the Gerrit web interface</title>
 	<section id="webreview_reviewchangerequest">
-		<title>Reviewing a change request</title>
+=== Reviewing a change request</title>
 		<para>
 			Click on one change request to see the
 			details of the Gerrit
@@ -12,9 +12,7 @@
 			to see the changes in the file.
 		</para>
 		<para>
-			<mediaobject>
-				<imageobject>
-					<imagedata fileref="images/webreview08.png" scale="30" />
+image::webreview08.png" scale="30" />
 				</imageobject>
 				<textobject>
 					<phrase>Web review</phrase>
@@ -27,9 +25,7 @@
 			a line to comment on the change.
 		</para>
 		<para>
-			<mediaobject>
-				<imageobject>
-					<imagedata fileref="images/webreview10.png"/>
+image::webreview10.png[]
 				</imageobject>
 				<textobject>
 					<phrase>Web review</phrase>
@@ -53,7 +49,7 @@
 		</para>
 	</section>
 	<section id="webreview_reviewresult">
-		<title>Publishing your review result</title>
+=== Publishing your review result</title>
 		<para>
 			Click on
 			<guilabel>Reply</guilabel>
@@ -62,9 +58,7 @@
 		</para>
 
 		<para>
-			<mediaobject>
-				<imageobject>
-					<imagedata fileref="images/webreview12.png" scale="30" />
+image::webreview12.png" scale="30" />
 				</imageobject>
 				<textobject>
 					<phrase>Web review</phrase>
@@ -87,9 +81,7 @@
 			for details of the default voting rules.
 		</para>
 		<para>
-			<mediaobject>
-				<imageobject>
-					<imagedata fileref="images/webreview30.png"/>
+image::webreview30.png[]
 				</imageobject>
 				<textobject>
 					<phrase>Web review</phrase>
@@ -100,7 +92,7 @@
 
 	</section>
 	<section id="webreview_adjustingthechange">
-		<title>Improve a change based on review feedback</title>
+=== Improve a change based on review feedback</title>
 		<para>
 			If the review process has resulted review comments explaining
 			how to
@@ -136,9 +128,7 @@
 			shown in the screenshot.
 		</para>
 		<para>
-			<mediaobject>
-				<imageobject>
-					<imagedata fileref="images/amendwithstagingview32.png"/>
+image::amendwithstagingview32.png[]
 				</imageobject>
 				<textobject>
 					<phrase>Amend flag in Git Staging view</phrase>
@@ -185,9 +175,7 @@
 			needs to be reviewed again.
 		</para>
 		<para>
-			<mediaobject>
-				<imageobject>
-					<imagedata fileref="images/webreview40.png"/>
+image::webreview40.png[]
 				</imageobject>
 				<textobject>
 					<phrase>Web review</phrase>
@@ -216,9 +204,7 @@
 		</para>
 
 		<para>
-			<mediaobject>
-				<imageobject>
-					<imagedata fileref="images/webreview50.png"/>
+image::webreview50.png[]
 				</imageobject>
 				<textobject>
 					<phrase>Web review</phrase>
@@ -227,7 +213,7 @@
 		</para>
 	</section>
 	<section id="webreview_keyboardshortcuts">
-		<title>Keyboard shortcuts in Gerrit</title>
+=== Keyboard shortcuts in Gerrit</title>
 
 		<para>
 			Press the "?" key in the Gerrit web user interface to see the
@@ -238,9 +224,7 @@
 		</para>
 
 		<para>
-			<mediaobject>
-				<imageobject>
-					<imagedata fileref="images/gerrit_shortcuts10.png" scale="25" />
+image::gerrit_shortcuts10.png" scale="25" />
 				</imageobject>
 				<textobject>
 					<phrase>Gerrit shortcuts</phrase>
@@ -253,7 +237,7 @@
 
 	</section>
 	<section id="webreview_getting">
-		<title>Fetching a remote change into a local Git repository</title>
+=== Fetching a remote change into a local Git repository</title>
 		<para>
 			It is possible to fetch the changes from the Gerrit review into
 			another local Git
@@ -263,9 +247,7 @@
 			downloading the change. This is depicted in the following screenshot.
 		</para>
 		<para>
-			<mediaobject>
-				<imageobject>
-					<imagedata fileref="images/webreviewpull10.png"/>
+image::webreviewpull10.png[]
 				</imageobject>
 				<textobject>
 					<phrase>Pulling in the change</phrase>
@@ -288,7 +270,7 @@
 	</section>
 
 	<section id="webreview_gettingeclpise">
-		<title>Fetching a remote change with Eclipse Git</title>
+=== Fetching a remote change with Eclipse Git</title>
 
 		<tip>
 			<para>
@@ -331,12 +313,10 @@
 	</section>
 
 	<section id="webreview_editintheweb">
-		<title>Edit a change directly via the web interface</title>
+=== Edit a change directly via the web interface</title>
 		<para>You can also edit directly in Gerrit. Press the edit button for this.</para>
 		<para>
-			<mediaobject>
-				<imageobject>
-					<imagedata fileref="images/editingerrit10.png"/>
+image::editingerrit10.png[]
 				</imageobject>
 				<textobject>
 					<phrase>Edit in Gerrit</phrase>

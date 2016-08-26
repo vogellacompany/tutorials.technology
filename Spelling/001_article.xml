@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <article>
 	<articleinfo>
-		<title>Spelling - Tutorial</title>
+=== Spelling - Tutorial</title>
 		<author>
 			<firstname>Lars</firstname>
 			<surname>Vogel</surname>
@@ -17,7 +17,7 @@
 		</releaseinfo>
 		
 		<abstract id="abstract">
-			<title>Typical errors I do in spelling</title>
+	=== Typical errors I do in spelling</title>
 			<para> Reminder for Lars.
 			</para>
 		</abstract>

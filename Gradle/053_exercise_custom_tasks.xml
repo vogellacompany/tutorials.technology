@@ -1,7 +1,7 @@
 <section id="exercise_custom_gradle_tasks">
-	<title>Exercise: Create Custom Gradle Tasks
+== Exercise: Create Custom Gradle Tasks
 	<section id="exercise_custom_wrapper_task">
-		<title>Exercise: Specifying a Wrapper Task
+=== Exercise: Specifying a Wrapper Task
 		Gradle's Wrapper Task can be implemented like this:
 		
 			<programlisting language="gradle">
@@ -11,7 +11,7 @@
 		
 	
 	<section id="exercise_custom_copy_task">
-		<title>Exercise: Creating a Copy Task
+=== Exercise: Creating a Copy Task
 		The Copy task type can be used to specify a task, which is able
 			to copy files.
 		
@@ -42,15 +42,13 @@
 		
 	
 	<section id="exercise_custom_external_file_task">
-		<title>Exercise: Specifying a custom Task in another gradle file
+=== Exercise: Specifying a custom Task in another gradle file
 		
 		Create a new Gradle project, which contains the following
 			structure.
 		
 		
-			<mediaobject>
-				<imageobject>
-					<imagedata fileref="images/buildSrc_Tasks.png" />
+image::buildSrc_Tasks.png[]
 				
 			
 		

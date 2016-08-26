@@ -1,5 +1,5 @@
 <section id="gerritsetup_repository">
-	<title>Administrator: upload Git repository</title>
+== Administrator: upload Git repository</title>
 	<para>
 		This part is only relevant for the administrator. Create a new
 		Git
@@ -34,9 +34,7 @@
 		.
 	</para>
 	<para>
-		<mediaobject>
-			<imageobject>
-				<imagedata fileref="images/gerrit_reposetup10.png"/>
+image::gerrit_reposetup10.png[]
 			</imageobject>
 			<textobject>
 				<phrase>Viewing the list of Gerrit repositories</phrase>
@@ -55,14 +53,12 @@
 		environment you can
 		configure
 		Gerrit to be more restrictive.
-		Especially the access right <parameter>Push Merge Commit</parameter>
-		for feature branches named <parameter>refs/heads/*</parameter>
+		Especially the access right `Push Merge Commit`
+		for feature branches named `refs/heads/*`
 		is something only trusted and experienced committers should be allowed to do.
 	</para>
 	<para>
-		<mediaobject>
-			<imageobject>
-				<imagedata fileref="images/gerrit_reposetup20.png"/>
+image::gerrit_reposetup20.png[]
 			</imageobject>
 			<textobject>
 				<phrase>Viewing the list of Gerrit repositories</phrase>

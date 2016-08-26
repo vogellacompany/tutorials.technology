@@ -1,5 +1,5 @@
 <section id="sonarqube_overview">
-	<title>What is SonarQube
+== What is SonarQube
 	
 		SonarQube (formerly Sonar) is an open source platform for continuous inspection of code quality. It provides
 		a
@@ -13,7 +13,7 @@
 	
 	
 		To see an example you can use the
-		<ulink url="https://dev.eclipse.org/sonar/">Eclise Sonar server</ulink>
+		https://dev.eclipse.org/sonar/">Eclise Sonar server</ulink>
 		.
 	
 

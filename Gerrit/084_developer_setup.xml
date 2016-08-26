@@ -1,5 +1,5 @@
 <section id="gerritreview_configuration">
-	<title>Developer: Gerrit configuration for the Git repository</title>
+== Developer: Gerrit configuration for the Git repository</title>
 	<para>
 		After you cloned the repository from Gerrit, right-click in the
 		<guilabel>Git Repositories</guilabel>
@@ -11,9 +11,7 @@
 		.
 	</para>
 	<para>
-		<mediaobject>
-			<imageobject>
-				<imagedata fileref="images/remotegerritconfiguration10.png"
+image::remotegerritconfiguration10.png"
 					scale="40" />
 			</imageobject>
 			<textobject>
@@ -28,9 +26,7 @@
 	</para>
 
 	<para>
-		<mediaobject>
-			<imageobject>
-				<imagedata fileref="images/remotegerritconfiguration20.png"
+image::remotegerritconfiguration20.png"
 					scale="40" />
 			</imageobject>
 			<textobject>
@@ -62,9 +58,7 @@
 		</para>
 	
 	<para>
-		<mediaobject>
-			<imageobject>
-				<imagedata fileref="images/gerrit_remoteconfiguration40.png"
+image::gerrit_remoteconfiguration40.png"
 					scale="40" />
 			</imageobject>
 			<textobject>

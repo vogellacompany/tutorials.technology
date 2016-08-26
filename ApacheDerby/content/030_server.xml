@@ -1,7 +1,7 @@
 <section id="servermode">
-	<title>Server mode</title>
+== Server mode</title>
 	<section id="servermode_start">
-		<title>Starting Derby in server mode</title>
+=== Starting Derby in server mode</title>
 		<para> Use the following command in the command line to start the
 			Derby network server
 			(located in the Derby installation
@@ -19,7 +19,7 @@
 		</para>
 		<para> This will start the network server which can serve an unlimited
 			number of database. By default the server will be listening on port
-			1527 but this can be changed via the <parameter>-p</parameter> option.
+			1527 but this can be changed via the `-p` option.
 		</para>
 		<para>
 			<programlisting language="bourne">
@@ -52,7 +52,7 @@
 		</para>
 	</section>
 	<section id="servermode_java">
-		<title>Connect to the Derby Server via Java</title>
+=== Connect to the Derby Server via Java</title>
 		<para>To connect to the network server via Java code you need to have
 			the derbyclient.jar in your classpath. The network connection string
 			to this database is the IP

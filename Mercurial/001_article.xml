@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <article>
 	<articleinfo>
-		<title>Mercurial - Tutorial
+=== Mercurial - Tutorial
 		<author>
 			<firstname>Lars</firstname>
 			<surname>Vogel</surname>
@@ -16,7 +16,7 @@
 		</releaseinfo>
 		
 		<abstract id="abstract">
-			<title>Mercurial tutorial
+	=== Mercurial tutorial
 			 This article describes the distributed version control system
 				Mercurial.
 		

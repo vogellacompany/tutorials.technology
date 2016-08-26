@@ -1,11 +1,11 @@
 <section id="firstgroovy" role="wrapper">
-	<title>Exercise: Create a Groovy program with the Eclipse IDE</title>
+== Exercise: Create a Groovy program with the Eclipse IDE</title>
 	<section id="firstgroovy_target">
-		<title>Target of this exercise</title>
+=== Target of this exercise</title>
 		<para>In this exercise you learn how to create Groovy program with the Eclipse IDE.</para>
 	</section>
 	<section id="firstgroovy_project">
-		<title>Create a new Groovy project</title>
+=== Create a new Groovy project</title>
 		<para>
 			The following example assumes you have Groovy and the Eclipse
 			IDE
@@ -25,9 +25,7 @@
 			.
 		</para>
 		<para>
-			<mediaobject>
-				<imageobject>
-					<imagedata fileref="images/groovyfirst10.png"/>
+image::groovyfirst10.png[]
 				</imageobject>
 				<textobject>
 					<phrase>Creating a Groovy project</phrase>
@@ -36,9 +34,7 @@
 		</para>
 
 		<para>
-			<mediaobject>
-				<imageobject>
-					<imagedata fileref="images/groovyfirst20.png"/>
+image::groovyfirst20.png[]
 				</imageobject>
 				<textobject>
 					<phrase>Creating a Groovy project</phrase>
@@ -52,9 +48,7 @@
 			project but with the required Groovy libraries.
 		</para>
 		<para>
-			<mediaobject>
-				<imageobject>
-					<imagedata fileref="images/groovyfirst30.png"/>
+image::groovyfirst30.png[]
 				</imageobject>
 				<textobject>
 					<phrase>Creating a Groovy project</phrase>
@@ -68,12 +62,12 @@
 				<guisubmenu>Package</guisubmenu>
 			</menuchoice>
 			from the context menu. Create a new package called
-			<code>first</code>
+			`first`
 			.
 		</para>
 		<para>
 			Create a new Groovy class called
-			<code>FirstGroovy</code>
+			`FirstGroovy`
 			via
 			<menuchoice>
 				<guimenu>File</guimenu>
@@ -85,9 +79,7 @@
 			.
 		</para>
 		<para>
-			<mediaobject>
-				<imageobject>
-					<imagedata fileref="images/groovyfirst40.png"/>
+image::groovyfirst40.png[]
 				</imageobject>
 				<textobject>
 					<phrase>Creating a Groovy class Part 1</phrase>
@@ -102,7 +94,7 @@
 		</para>
 	</section>
 	<section id="firstgroovy_project_run">
-		<title>Run the Groovy class</title>
+=== Run the Groovy class</title>
 		<para>
 			Right-click the Groovy class, and select
 			<menuchoice>
@@ -113,7 +105,7 @@
 		</para>
 	</section>
 	<section id="firstgroovy_project_validate">
-		<title>Validate the Groovy class</title>
+=== Validate the Groovy class</title>
 		<para>
 			The above menu entry triggers the execution of the main method in
 			your Groovy class and prints output

@@ -1,8 +1,8 @@
 <section id="gradeintro_dependencymanagement">
-	<title>Dependency management for Java projects
+== Dependency management for Java projects
 
 	<section id="gradeintro_addingdependencies">
-		<title>Managing dependencies with Gradle
+=== Managing dependencies with Gradle
 		<indexterm>
 			<primary>Gradle
 			</primary>
@@ -40,7 +40,7 @@
 			`groupId:artifactId:version`
 			(also known as GAV in Maven). This
 			GAV uniquely identifies a library in a certain version. You can for example
-			<ulink url="http://search.maven.org/">Search Maven</ulink>
+			http://search.maven.org/">Search Maven</ulink>
 			to search for the GAV of a library in Maven Central.
 		
 
@@ -56,7 +56,7 @@
 		
 	
 	<section id="gradeintro_addingrepositories">
-		<title>Specifying the repositories to search for dependencies
+=== Specifying the repositories to search for dependencies
 		
 			In your build
 			file you specify the remote
@@ -111,7 +111,7 @@
 
 
 	<section id="gradeintro_cache">
-		<title>Gradle cache and deleting the cache
+=== Gradle cache and deleting the cache
 		
 			You can refresh dependencies in your cache with the command line option
 			`--refresh-dependencies`

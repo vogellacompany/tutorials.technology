@@ -1,7 +1,7 @@
 <section id="gitworkflows_sharedrepo" role="wrapper">
-	<title>Git workflows using one shared repository</title>
+== Git workflows using one shared repository</title>
 	<section id="gitworkflow_sharedrepository">
-		<title>A shared repository between developers</title>
+=== A shared repository between developers</title>
 		<para>A very typical Git workflow is that the developers integrate
 			their work via a shared remote repository.
 			The following section
@@ -17,7 +17,7 @@
 			The developers push to this remote repository, typically they use
 			the
 			remote
-			<code>master</code>
+			`master`
 			branch on the remote repository to integrate their work. They may
 			also use different remote branches for shared feature development or
 			maintenance releases.
@@ -30,7 +30,7 @@
 		</para>
 	</section>
 	<section id="gitworkflow_pullpush">
-		<title>Workflow</title>
+=== Workflow</title>
 		<indexterm>
 			<primary>Git workflow</primary>
 			<secondary>shared repository</secondary>
@@ -82,16 +82,16 @@
 			from
 			the remote repository at any point in time. The developer may use
 			the
-			<code>pull</code>
+			`pull`
 			command instead of the
-			<code>fetch</code>
+			`fetch`
 			command.
 		</para>
 
 	</section>
 
 	<section id="gitworkflows_workingbranches">
-		<title>Using branches</title>
+=== Using branches</title>
 		<indexterm>
 			<primary>Git workflow</primary>
 			<secondary>using branches</secondary>

@@ -1,9 +1,9 @@
 <section id="inkscapeinstalation">
-	<title>Installation
+== Installation
 
 	
 		To install Inkscape on Ubunto use the
-		<code>sudo apt-get install inkscape</code>
+		`sudo apt-get install inkscape`
 		command.
 
 	

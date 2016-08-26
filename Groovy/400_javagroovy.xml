@@ -1,7 +1,7 @@
 <section id="javagroovy">
-	<title>Using Groovy classes in Java</title>
+== Using Groovy classes in Java</title>
 	<section id="javagroovy1">
-		<title>Calling Groovy classes directly</title>
+=== Calling Groovy classes directly</title>
 		<para> To use Groovy classes in Java classes you need to add the
 			Groovy
 			runtime to the Java classpath.
@@ -29,16 +29,14 @@
 			build path includes the Groovy libraries.
 		</para>
 		<para>
-			<mediaobject>
-				<imageobject>
-					<imagedata fileref="images/javagroovy10.gif" />
+image::javagroovy10.gif" />
 
 				</imageobject>
 			</mediaobject>
 		</para>
 	</section>
 	<section id="script">
-		<title>Calling a script</title>
+=== Calling a script</title>
 		<para>
 			<programlisting language="java">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"

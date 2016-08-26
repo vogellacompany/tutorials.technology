@@ -1,8 +1,8 @@
 <section id="gerrit_overview" role="wrapper">
-	<title>The Gerrit code review system</title>
+== The Gerrit code review system</title>
 
 	<section id="gerrit_explanation">
-		<title>What is Gerrit?</title>
+=== What is Gerrit?</title>
 		<indexterm>
 			<primary>Gerrit</primary>
 			<secondary>definition</secondary>
@@ -75,7 +75,7 @@
 		</para>
 		<para>
 			The main entry point for Gerrit is the
-			<ulink url="https://www.gerritcodereview.com/">Gerrit code review homepage</ulink>
+			https://www.gerritcodereview.com/">Gerrit code review homepage</ulink>
 			.
 		</para>
 		<para>Gerrit is licensed under the Apache 2.0 license.</para>
@@ -91,7 +91,7 @@
 	</section>
 
 	<section id="gerrit_centralinfo">
-		<title>How does Gerrit work?</title>
+=== How does Gerrit work?</title>
 		<para>
 			Gerrit can
 			prevent
@@ -135,7 +135,7 @@
 		</para>
 	</section>
 	<section id="gerrit_votingcategories">
-		<title>Review categories - Verified and Code-Review</title>
+=== Review categories - Verified and Code-Review</title>
 		<para>
 			Gerrit supports different categories (also known as labels) for
 			review feedback. In
@@ -186,7 +186,7 @@
 		<para>Committers and contributors can vote in these categories. </para>
 	</section>
 	<section id="gerrit_voting">
-		<title>Voting in Gerrit</title>
+=== Voting in Gerrit</title>
 		<para>
 			The rules for voting in Gerrit is:
 			<orderedlist>
@@ -282,22 +282,22 @@
 	</section>
 
 	<section id="gerrit_documentation">
-		<title>Gerrit online documentation</title>
+=== Gerrit online documentation</title>
 
 		<para>
 			You find a quick introduction about
 			Gerrit at:
-			<ulink url="https://gerrit-review.googlesource.com/Documentation/intro-quick.html">
+			https://gerrit-review.googlesource.com/Documentation/intro-quick.html">
 				Gerrit Code Review - A Quick Introduction
 			</ulink>
 			and detailed information in the
-			<ulink url=" https://gerrit-review.googlesource.com/Documentation/index.html">Gerrit documentation</ulink>
+			 https://gerrit-review.googlesource.com/Documentation/index.html">Gerrit documentation</ulink>
 			.
 		</para>
 
 		<para>
 			Eclipse specific information can be found on the
-			<ulink url="http://wiki.eclipse.org/Gerrit">
+			http://wiki.eclipse.org/Gerrit">
 				Gerrit at Eclipse
 			</ulink>
 			webpage.
@@ -306,7 +306,7 @@
 
 
 	<section id="gerrit_drafts">
-		<title>Posting draft reviews</title>
+=== Posting draft reviews</title>
 		<para>
 			There is also a special
 			<wordasword>refs/drafts/master</wordasword>

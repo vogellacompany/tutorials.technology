@@ -1,7 +1,7 @@
 == Import and export
 
-The <code>mysql</code> command line interface allows you to export your database and import existing backups.
-The <code>mysqldump</code> command provides the option to create backup of your database, e.g. export your database.
+The `mysql` command line interface allows you to export your database and import existing backups.
+The `mysqldump` command provides the option to create backup of your database, e.g. export your database.
 
 To export the database use the following command.
 

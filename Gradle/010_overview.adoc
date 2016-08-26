@@ -1,15 +1,13 @@
 <section id="gradleintro" role="wrapper">
-	<title>Introduction to the Gradle build system
+== Introduction to the Gradle build system
 	<section id="gradleintro_what">
-		<title>What is the Gradle build system?
+=== What is the Gradle build system?
 		<indexterm>
 			<primary>Gradle
 			</primary>
 		</indexterm>
 		
-			<mediaobject>
-				<imageobject>
-					<imagedata fileref="images/gradle-logo.png"/>
+image::gradle-logo.png[]
 				
 				<textobject>
 					<phrase>Gradle logo</phrase>
@@ -48,7 +46,7 @@
 
 	
 	<section id="gradle_projectstasks">
-		<title>Projecs and tasks in Gradle
+=== Projecs and tasks in Gradle
 		A Gradle build
 		consists of one or more projects. Projects can be
 		something which
@@ -64,7 +62,7 @@
 	
 
 	<section id="gradle_runbuild_buildfile">
-		<title>The Gradle build file - build.gradle
+=== The Gradle build file - build.gradle
 		
 		
 			A
@@ -123,7 +121,7 @@ This build file can also be simplified << can be used as shortcut to define the 
 	
 
 	<section id="gradle_runbuild_buildfile_comments">
-		<title>Comments in Gradle build files
+=== Comments in Gradle build files
 		You can use single and multiline comments in Gradle build files.
 		
 			<programlisting language="java">
@@ -135,7 +133,7 @@ This build file can also be simplified << can be used as shortcut to define the 
 	
 	<section id="gradle_runbuild_projectinformation">
 
-		<title>Project settings and description
+=== Project settings and description
 		
 			By default, Gradle uses the directory name as project name. You can
 			change this by creating a

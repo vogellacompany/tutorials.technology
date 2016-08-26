@@ -1,12 +1,12 @@
 ﻿<section id="classpath">
-	<title>Apache Ant classpath</title>
+== Apache Ant classpath</title>
 	<section id="classpath_setting">
-		<title>Setting the Ant classpath</title>
+=== Setting the Ant classpath</title>
 		<para>
 			Ant allows to create classpath containers and use them in
 			tasks. The
 			following
-			<filename>build.xml</filename>
+			`build.xml`
 			from a project called
 			<wordasword>de.vogella.build.ant.classpath</wordasword>
 			demonstrates this.
@@ -19,7 +19,7 @@
 		</para>
 	</section>
 	<section id="classpath_print">
-		<title>Print</title>
+=== Print</title>
 		<para>You can
 			use
 			the following statements to write the full classpath

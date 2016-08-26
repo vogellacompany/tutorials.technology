@@ -1,8 +1,8 @@
 <section id="hosting_github" role="wrapper">
-	<title>GitHub</title>
+== GitHub</title>
 
 	<section id="hosting_github_what">
-		<title>What is GitHub?</title>
+=== What is GitHub?</title>
 		<indexterm>
 			<primary>GitHub</primary>
 		</indexterm>
@@ -54,7 +54,7 @@
 			URL.
 		</para>
 		<para>
-			<ulink url="https://github.com">
+			https://github.com">
 				GitHub
 			</ulink>
 		</para>
@@ -90,7 +90,7 @@
 	</section>
 
 	<section id="github_createrepo">
-		<title>Create repository in GitHub</title>
+=== Create repository in GitHub</title>
 		<para>
 			Once you create a user at Github, you can create a new public
 			repository. For example the following screenshots demonstrate the
@@ -101,9 +101,7 @@
 		</para>
 
 		<para>
-			<mediaobject>
-				<imageobject>
-					<imagedata fileref="images/github10.png" scale="30" />
+image::github10.png" scale="30" />
 
 				</imageobject>
 				<textobject>
@@ -113,9 +111,7 @@
 
 		</para>
 		<para>
-			<mediaobject>
-				<imageobject>
-					<imagedata fileref="images/github20.png" scale="30" />
+image::github20.png" scale="30" />
 
 				</imageobject>
 				<textobject>
@@ -136,7 +132,7 @@
 		</para>
 	</section>
 	<section id="hosting_github_mergingpullrequests">
-		<title>Merging pull request at GitHub</title>
+=== Merging pull request at GitHub</title>
 		<indexterm>
 			<primary>GitHub</primary>
 			<secondary>Merging pull requests</secondary>
@@ -158,9 +154,7 @@
 			button of a repository of your choice.
 		</para>
 		<para>
-			<mediaobject>
-				<imageobject>
-					<imagedata fileref="images/github_pullrequest10.png"
+image::github_pullrequest10.png"
 						scale="40" />
 				</imageobject>
 				<textobject>
@@ -182,9 +176,7 @@
 			to see existing and create new pull requests.
 		</para>
 		<para>
-			<mediaobject>
-				<imageobject>
-					<imagedata fileref="images/github_pullrequest20.png"
+image::github_pullrequest20.png"
 						scale="30" />
 				</imageobject>
 				<textobject>
@@ -199,9 +191,7 @@
 			to create a new one.
 		</para>
 		<para>
-			<mediaobject>
-				<imageobject>
-					<imagedata fileref="images/github_pullrequest30.png"
+image::github_pullrequest30.png"
 						scale="30" />
 				</imageobject>
 				<textobject>
@@ -216,9 +206,7 @@
 			button.
 		</para>
 		<para>
-			<mediaobject>
-				<imageobject>
-					<imagedata fileref="images/github_pullrequest40.png"
+image::github_pullrequest40.png"
 						scale="30" />
 				</imageobject>
 				<textobject>

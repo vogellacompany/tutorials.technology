@@ -1,7 +1,7 @@
 <section id="gradle_tasks">
-	<title>Gradle Tasks
+== Gradle Tasks
 	<section id="gradle_default_tasks">
-		<title>Default Gradle tasks
+=== Default Gradle tasks
 		
 			Gradle also offers tasks for introspection of Gradle itself, so
 			a Gradle project can be analyzed by using
@@ -18,9 +18,7 @@
 			file.
 		
 		
-			<mediaobject>
-				<imageobject>
-					<imagedata fileref="images/gradle_tasks_task.png"/>
+image::gradle_tasks_task.png[]
 				
 			
 		
@@ -46,7 +44,7 @@
 	
 
 	<section id="creating_gradle_tasks">
-		<title>Creating custom Gradle tasks
+=== Creating custom Gradle tasks
 		
 			In the
 			<xref linkend="gradle_runbuild_buildfile" />
@@ -71,9 +69,7 @@
 			task will be listed under "Other tasks".
 		
 		
-			<mediaobject>
-				<imageobject>
-					<imagedata fileref="images/gradle_starter_hello_task_command_line.png"/>
+image::gradle_starter_hello_task_command_line.png[]
 				
 			
 		
@@ -110,7 +106,7 @@
 	
 
 	<section id="gradle_task_structure">
-		<title>Task structure
+=== Task structure
 		
 			Gradle has different phases, when working with tasks. First of
 			all there is a configuration phase, where the
@@ -151,7 +147,7 @@
 	
 
 	<section id="gradle_task_dependencies">
-		<title>Task dependencies
+=== Task dependencies
 		Gradle allows the definition of default tasks in the build file. These are
 			executed, if no other tasks are
 			specified.
@@ -214,7 +210,7 @@
 	
 
 	<section id="skip_gradle_tasks">
-		<title>Skipping Tasks
+=== Skipping Tasks
 		
 			Skipping tasks can be done by passing a predicate closure to the
 			`onlyIf`

@@ -1,7 +1,7 @@
 <section id="gerrit_problems" role="wrapper">
-	<title>More infos on trouble shooting</title>
+== More infos on trouble shooting</title>
 	<section id="gerrit_problems_removecommit">
-		<title>Remove a bad commit from a series of commits</title>
+=== Remove a bad commit from a series of commits</title>
 		<para>
 			If you create a series
 			of dependent commits, it might happen that
@@ -21,9 +21,7 @@
 		</para>
 
 		<para>
-			<mediaobject>
-				<imageobject>
-					<imagedata fileref="images/gerritissue_problem20.png"
+image::gerritissue_problem20.png"
 						scale="30" />
 				</imageobject>
 				<textobject>
@@ -36,9 +34,7 @@
 			commit 4 are still good and do not depend on the changes in commit 2.
 		</para>
 		<para>
-			<mediaobject>
-				<imageobject>
-					<imagedata fileref="images/gerritissue_problem22.png"
+image::gerritissue_problem22.png"
 						scale="30" />
 				</imageobject>
 				<textobject>
@@ -53,9 +49,7 @@
 			commit.
 		</para>
 		<para>
-			<mediaobject>
-				<imageobject>
-					<imagedata fileref="images/gerritissue_solution20.png"
+image::gerritissue_solution20.png"
 						scale="30" />
 				</imageobject>
 				<textobject>
@@ -79,10 +73,10 @@
 
 
 	<section id="gerrit_problems_more">
-		<title>More error messages and their solution</title>
+=== More error messages and their solution</title>
 		<para>
 			See
-			<ulink url="https://git.eclipse.org/r/Documentation/error-messages.html">Gerrit error message</ulink>
+			https://git.eclipse.org/r/Documentation/error-messages.html">Gerrit error message</ulink>
 			for more error messages and their solutions.
 		</para>
 	</section>

@@ -130,9 +130,9 @@ The -0 options is used for files and folders with spaces.
 
 
 The
-<code>find</code>
+`find`
 command can also be combined with the grep command. See
-<ulink url="http://www.vogella.com/tutorials/UnixGrep/article.html">Using the grep command</ulink>
+http://www.vogella.com/tutorials/UnixGrep/article.html">Using the grep command</ulink>
 .
 
 </section>
@@ -154,7 +154,7 @@ parse="text" href="./examples/du/du.txt" />
 <title>Remove files
 
 Use the command
-<code>rm pattern</code>
+`rm pattern`
 to delete files. Be careful with the usage of this command. There is
 no way to undo deletions.
 

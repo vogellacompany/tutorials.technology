@@ -1,56 +1,27 @@
-<section id="nexus_repository_config">
-	<title>Configuration of Nexus
+== Configuration of Nexus
 	
-		Once the nexus repository manager has been started, its web
-		interface
-		can be accessed under this URL:
-		<ulink url="http://localhost:8081/nexus/">http://localhost:8081/nexus/</ulink>
+Once the nexus repository manager has been started, its web interface
+can be accessed under this URL:
+http://localhost:8081/nexus/[http://localhost:8081/nexus/]
 	
+The Nexus contains some repositories by default:
 	
-		The Nexus contains some repositories by default:
-	
-	
-		<mediaobject>
-			<imageobject>
-				<imagedata fileref="images/nexus_default_config.png" />
-			
-		
-	
-	<section>
-		<title>User Settings
-		
-			The default user is
-			<parameter>admin</parameter>
-			and the password is
-			<parameter>admin123</parameter>
-			.
-		
-		
-			The login can be found in the top right corner.
-		
-		
-			<mediaobject>
-				<imageobject>
-					<imagedata fileref="images/login_link.png" />
-				
-			
-		
-		
-			After logging in the credentials can be changed in the profile
-			settings.
-		
-		
-			<mediaobject>
-				<imageobject>
-					<imagedata fileref="images/login_profile.png" />
-				
-			
-		
-		
-			<mediaobject>
-				<imageobject>
-					<imagedata fileref="images/profile_update_password.png" />
-				
-			
-		
+image::nexus_default_config.png[]
+
+=== User Settings
+
+The default user is
+`admin`
+and the password is
+`admin123`.
+
+The login can be found in the top right corner.
+
+image::login_link.png[]
+
+After logging in the credentials can be changed in the profile settings.
+
+image::login_profile.png[]
+
+image::profile_update_password.png[]
 	

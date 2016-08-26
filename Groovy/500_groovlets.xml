@@ -1,7 +1,7 @@
 <section id="groovlets">
-	<title>Developing Java EE servlets with Groovy - Groovlets</title>
+== Developing Java EE servlets with Groovy - Groovlets</title>
 	<section id="groovlets1">
-		<title>Using Groovy on the server</title>
+=== Using Groovy on the server</title>
 		<para>
 			Java EE defines the servlet API for implementing web
 			applications. Groovlets are the servlet equivalent for Groovy.
@@ -34,46 +34,46 @@
 
 	</section>
 	<section id="groovlets_downloadgroovy">
-		<title>Download the groovy-all.jar</title>
+=== Download the groovy-all.jar</title>
 		<para>To use Groovy on the server you need to deploy Groovy on the
 			application server or with your application.
 		</para>
 		<para>
 			The easiest way to download Groovy is via
-			<ulink url="http://search.maven.org/">Search Maven</ulink>
+			http://search.maven.org/">Search Maven</ulink>
 			. Search here for
-			<code>org.codehaus.groovy</code>
+			`org.codehaus.groovy`
 			and identify the
-			<code>groovy-all</code>
+			`groovy-all`
 			and download the JAR file of the latest release.
 		</para>
 	</section>
 	<section id="groovlets_example">
-		<title>Exercise: Using Groovy on the server</title>
+=== Exercise: Using Groovy on the server</title>
 		<para>
 			The following description assume that you are familiar with Java
 			Web
 			development, if not see the
-			<ulink url="http://www.vogella.com/tutorials/EclipseWTP/article.html">Java web development tutorial</ulink>
+			http://www.vogella.com/tutorials/EclipseWTP/article.html">Java web development tutorial</ulink>
 			.
 		</para>
 		<para>
 			Create a new Dynamic Web Project in Eclipse called
-			<code>com.vogella.groovy.web.groovelets</code>
+			`com.vogella.groovy.web.groovelets`
 			.
 		</para>
 		<para>
 			Add the
-			<filename>groovy-all.jar</filename>
+			`groovy-all.jar`
 			to the
-			<filename>WebContent</filename>
+			`WebContent`
 			folder
 		</para>
 		<para>
 			Add a file called
-			<filename>test.groovy</filename>
+			`test.groovy`
 			to the
-			<filename>WebContent</filename>
+			`WebContent`
 			folder with the following content. This is a Groovy page using the
 			Html builder to create a HTML page.
 		</para>
@@ -86,7 +86,7 @@
 
 		<para>
 			Change the
-			<filename>WebContent/WEB-INF/web.xml</filename>
+			`WebContent/WEB-INF/web.xml`
 			to the following.
 		</para>
 		<para>
@@ -99,7 +99,7 @@
 
 	</section>
 	<section id="groovlets_validate">
-		<title>Validate that it run on the server</title>
+=== Validate that it run on the server</title>
 		<para>Start your web application and validates that you can access the
 			Groovlet. Also inspect the source of the HTML and validate that it
 			really is HTML code.
@@ -107,10 +107,10 @@
 	</section>
 
 	<section id="groovlets_extend">
-		<title>Exercise: Extend your Groovlet</title>
+=== Exercise: Extend your Groovlet</title>
 		<para>
 			Use some of the implicit available variables, e.g.,
-			<code>request</code>
+			`request`
 			to display information in your Groovlet.
 		</para>
 		

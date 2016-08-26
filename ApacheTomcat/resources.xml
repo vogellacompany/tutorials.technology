@@ -1,16 +1,16 @@
 <section id="resources">
-	<title>Links and Literature</title>
+== Links and Literature</title>
 	<section id="resources_tomcat">
-		<title>Apache Tomcat</title>
+=== Apache Tomcat</title>
 		<para>
-			<ulink url="http://tomcat.apache.org/"> http://tomcat.apache.org/</ulink>
+			http://tomcat.apache.org/"> http://tomcat.apache.org/</ulink>
 			Apache Tomcat Homepage
 		</para>
 		<para>
-			<ulink url="http://www.vogella.com/tutorials/EclipseWTP/article.html"> Java Webdevelopment with Eclipse WTP - Tutorial</ulink>
+			http://www.vogella.com/tutorials/EclipseWTP/article.html"> Java Webdevelopment with Eclipse WTP - Tutorial</ulink>
 		</para>
 		<para>
-			<ulink url="http://wiki.eclipse.org/WTP_Tomcat_FAQ"> http://wiki.eclipse.org/WTP_Tomcat_FAQ</ulink>
+			http://wiki.eclipse.org/WTP_Tomcat_FAQ"> http://wiki.eclipse.org/WTP_Tomcat_FAQ</ulink>
 			Eclipse WTP and Tomcat FAQ
 		</para>
 		<para>

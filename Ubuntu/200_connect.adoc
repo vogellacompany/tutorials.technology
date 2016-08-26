@@ -1,16 +1,16 @@
 <section id="connect">
-	<title>Connection
+== Connection
 	<section id="connect_remove">
-		<title>Telnet / ssh client for Windows
+=== Telnet / ssh client for Windows
 		
 			To connect to your Linux system via telnet or via ssh from Windows
 			you can use
-			<ulink url="http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html"
+			http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html"
 			>putty</ulink>
 		
 	</section>
 	<section id="connect_terminal">
-		<title>Switch to Console mode from Graphical User Interface
+=== Switch to Console mode from Graphical User Interface
 		
 			In case your Linux system is running under a graphical user
 			interface (KDE, GNOME, ...) and you need access to the console, use

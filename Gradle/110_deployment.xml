@@ -1,18 +1,18 @@
 <section id="gradle_deployment" role="wrapper">
-	<title>Deployment with Gradle
+== Deployment with Gradle
 	<section id="gradle_deployment_overview">
-		<title>How to deploy with Gradle
+=== How to deploy with Gradle
 		
 			Gradle offers several ways to deploy build artifacts to artifact
 			repositories, like
-			<ulink url="https://www.jfrog.com/open-source/">Artifactory</ulink>
+			https://www.jfrog.com/open-source/">Artifactory</ulink>
 			or
-			<ulink url="http://www.sonatype.org/nexus/">Sonatype Nexus</ulink>
+			http://www.sonatype.org/nexus/">Sonatype Nexus</ulink>
 			.
 		
 	
 	<section id="gradle_deployment_maven">
-		<title>Using the maven-publish plugin
+=== Using the maven-publish plugin
 		
 			The most common way is to use the
 			`maven-publish`
@@ -32,9 +32,7 @@
 			plugin is applied.
 		
 		
-			<mediaobject>
-				<imageobject>
-					<imagedata fileref="images/maven-publish-tasks.png" />
+image::maven-publish-tasks.png[]
 				
 			
 		

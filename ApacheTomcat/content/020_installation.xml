@@ -1,7 +1,7 @@
 <section id="installation">
-	<title>Installation</title>
+== Installation</title>
 	<section id="installation_ubuntu">
-		<title>Ubuntu Linux</title>
+=== Ubuntu Linux</title>
 		<para>For Ubuntu you can install Tomcat via the following commands.
 		</para>
 		<para>
@@ -12,10 +12,10 @@
 		</para>
 	</section>
 	<section id="installation_windows">
-		<title>Windows</title>
+=== Windows</title>
 		<para>
 			Download the Windows installer for Tomcat7 from the
-			<ulink url="http://tomcat.apache.org/"> Apache Tomcat Homepage</ulink>
+			http://tomcat.apache.org/"> Apache Tomcat Homepage</ulink>
 			and run the installer.
 		</para>
 

@@ -1,5 +1,5 @@
 <section id="eclipseautobuilder">
-	<title>Eclipse Autobuilder</title>
+== Eclipse Autobuilder</title>
 	<para>
 		You can now also use Eclipse to automatically create your
 		DocBook output.
@@ -8,7 +8,7 @@
 		On your project right-click with the mouse. Select <guibutton>Properties</guibutton>.
 		Go to <guibutton>Builder</guibutton> and press <guibutton>New</guibutton>.
 		Select <guilabel>Ant build</guilabel> and select your existing
-		ant <filename>build.xml</filename> file.
+		ant `build.xml` file.
 	</para>
 	<para>
 		Under targets select <guilabel>Select-targets</guilabel>

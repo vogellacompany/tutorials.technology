@@ -1,69 +1,69 @@
 <section id="resources">
-	<title>Links and Literature</title>
+== Links and Literature</title>
 
 	<para>
-		<ulink url="http://sourceforge.net/projects/docbook/">
+		http://sourceforge.net/projects/docbook/">
 			The XSLT stylesheets</ulink>
 	</para>
 	
 	<para>
-		<ulink url="http://www.sagehill.net/docbookxsl/index.html">
+		http://www.sagehill.net/docbookxsl/index.html">
 			DocBook XSL Online Book from Bob Stayton</ulink>
 	</para>
 	
 	
 	<para>
-		<ulink url="http://www.vogella.com/tutorials/XSLT/article.html">
+		http://www.vogella.com/tutorials/XSLT/article.html">
 			Eclipse XSLT</ulink>
 	</para>
 
 	<para>
-		<ulink url="http://wiki.docbook.org/DocBookAppsMailingList">
+		http://wiki.docbook.org/DocBookAppsMailingList">
 			XSLT mailing list</ulink>
 	</para>
 
 	<para>
-		<ulink url="http://fedoraproject.org/wiki/Publican">
+		http://fedoraproject.org/wiki/Publican">
 			Publican</ulink>
 	</para>
 
 	<para>
-		<ulink url="http://www.oxygenxml.com/">
+		http://www.oxygenxml.com/">
 			oXygen XML Editor</ulink>
 	</para>
 	
 	<para>
-		<ulink url="http://www.eclipse.org/vex/">
+		http://www.eclipse.org/vex/">
 			Vex - A Visual Editor for XML</ulink>
 	</para>
 
 	<para>
-		<ulink url="http://www.xmlmind.com/xmleditor/">
+		http://www.xmlmind.com/xmleditor/">
 			XMLmind XML Editor</ulink>
 	</para>
 	
 	<para>
-		<ulink url="https://github.com/docbook/docbook.github.com">
+		https://github.com/docbook/docbook.github.com">
 			XSLT 2.0 Stylesheets</ulink>
 	</para>
 
 	<para>
-		<ulink url="http://docbook.sourceforge.net/release/xsl/current/doc/">
+		http://docbook.sourceforge.net/release/xsl/current/doc/">
 			Reference of the XSLT stylesheet parameters</ulink>
 	</para>
 
 	<para>
-		<ulink url="http://sourceforge.net/apps/mediawiki/xslthl/index.php?title=Main_Page">
+		http://sourceforge.net/apps/mediawiki/xslthl/index.php?title=Main_Page">
 			Syntax Highlighting with XSLTHL</ulink>
 	</para>
 
 	<para>
-		<ulink url="http://www.docbook.org/tdg/en/html/docbook.html">
+		http://www.docbook.org/tdg/en/html/docbook.html">
 			Reference of the DocBook parameters</ulink>
 	</para>
 
 	<para>
-		<ulink url="http://xmlgraphics.apache.org/fop/">
+		http://xmlgraphics.apache.org/fop/">
 			The Apache FOP Distribution</ulink>
 	</para>
 

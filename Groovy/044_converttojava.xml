@@ -1,22 +1,22 @@
 <section id="converttogroovy" role="wrapper">
-	<title>Exercise: Convert a Java project to Groovy</title>
+== Exercise: Convert a Java project to Groovy</title>
 	<section id="converttogroovy_project">
-		<title>Create a Java project script</title>
+=== Create a Java project script</title>
 		<para>
 			Use the Eclipse wizard to create a new
 			<guilabel>Java project</guilabel>
 			called
-			<code>com.vogella.groovy.fromjava</code>
+			`com.vogella.groovy.fromjava`
 			and create a package called
-			<code>fromjava</code>
+			`fromjava`
 			.
 		</para>
 	</section>
 	<section id="converttogroovy_javabean">
-		<title>Create a Java class</title>
+=== Create a Java class</title>
 		<para>
 			Create a Java bean in this project called
-			<code>Task</code>
+			`Task`
 			with two properties.
 		</para>
 		<para>
@@ -27,11 +27,11 @@
 		<para>
 			Use the code generation capacities of the Eclipse IDE to
 			generate getter and setter, the constructor, the
-			<code>toString</code>
+			`toString`
 			and
-			<code>equals</code>
+			`equals`
 			and
-			<code>hashcode</code>
+			`hashcode`
 			method.
 		</para>
 
@@ -43,11 +43,11 @@
 
 	</section>
 	<section id="converttogroovy_main">
-		<title>Main method</title>
+=== Main method</title>
 		<para>
 			Create a new class with a main method In this method construct at
 			least one instance of
-			<code>Task</code>
+			`Task`
 			.
 		</para>
 
@@ -58,7 +58,7 @@
 		</para>
 	</section>
 	<section id="converttogroovy_convert">
-		<title>Convert to Groovy</title>
+=== Convert to Groovy</title>
 		<para>
 			Right-click on your project and select
 			<menuchoice>
@@ -70,7 +70,7 @@
 		</para>
 		<para>
 			Right-click on your
-			<code>Task</code>
+			`Task`
 			class and select
 			<menuchoice>
 				<guimenu>Convert</guimenu>
@@ -80,10 +80,10 @@
 		</para>
 	</section>
 	<section id="converttogroovy_project_validate">
-		<title>Simplify the Task class</title>
+=== Simplify the Task class</title>
 		<para>
 			Simplify the
-			<code>Task</code>
+			`Task`
 			class and ensure that the Java main program still can use it.
 		</para>
 
@@ -93,15 +93,15 @@
 
 	</section>
 	<section id="converttogroovy_project_asttransformation">
-		<title>Replace the toString and equals/hashCode method</title>
+=== Replace the toString and equals/hashCode method</title>
 		<note>
 			<para>This exercise is optional.</para>
 		
 		<para>
 			Use
-			<code>@EqualsAndHashCode</code>
+			`@EqualsAndHashCode`
 			and the
-			<code>@ToString</code>
+			`@ToString`
 			to allow the Groovy compiler to create these methods during its
 			compile phase.
 

@@ -1,7 +1,7 @@
 <section id="tomcatconf">
-	<title>Apache Tomcat
+== Apache Tomcat
 	<section id="tomcatconfs2a">
-		<title>Important Files
+=== Important Files
 		<table frame='all'>
 			<tgroup cols='2' align='left' colsep='1' rowsep='1'>
 				<colspec colname='c1' />
@@ -40,7 +40,7 @@
 		</table>
 	</section>
 	<section id="tomcatconfs2a">
-		<title>Important Commands
+=== Important Commands
 		<table frame='all'>
 			<tgroup cols='2' align='left' colsep='1' rowsep='1'>
 				<colspec colname='c1' />

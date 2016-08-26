@@ -1,12 +1,12 @@
 <section id="exercise_gradle_daemon" role="wrapper">
-	<title>Exercise: Setup the Gradle Daemon
+== Exercise: Setup the Gradle Daemon
 	<section id="exercise_gradle_daemon_target">
-		<title>Target
+=== Target
 		In this exercise the Gradle Daemon will be configured, so that
 			it starts automatically when a build is run.
 	
 	<section id="exercise_gradle_daemon_windows">
-		<title>Configuring the Gradle Daemon
+=== Configuring the Gradle Daemon
 		
 			When using the Gradle command the first time a
 			_.gradle_
@@ -31,7 +31,7 @@
 		
 	
 	<section id="exercise_gradle_daemon_validate">
-		<title>Validate
+=== Validate
 		
 			Open a command line and again run the
 			`gradle`

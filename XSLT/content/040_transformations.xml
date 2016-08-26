@@ -1,8 +1,8 @@
 <section id="transform">
-	<title>Your first transformation</title>
+== Your first transformation</title>
 	<para>
 		We want to do a real transformation. Create the following
-		<filename>transform2.xsl</filename>
+		`transform2.xsl`
 		and run it with the same input file.
 	</para>
 	<para>

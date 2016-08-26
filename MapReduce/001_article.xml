@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <article>
 	<articleinfo>
-		<title>MapReduce Introduction - Tutorial
+=== MapReduce Introduction - Tutorial
 		<author>
 			<firstname>Lars</firstname>
 			<surname>Vogel</surname>
@@ -16,7 +16,7 @@
 		<pubdate>10.10.2010</pubdate>
 		
 		<abstract id="abstract">
-			<title>MapReduce Tutorial
+	=== MapReduce Tutorial
 			 This article gives an overview of MapReduce and lists several
 				resources which describes
 				MapReduce. 

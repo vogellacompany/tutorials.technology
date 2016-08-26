@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <article>
 	<articleinfo>
-		<title>Gerrit code review - Tutorial</title>
+=== Gerrit code review - Tutorial</title>
 		<author>
 			<firstname>Lars</firstname>
 			<surname>Vogel</surname>
@@ -21,7 +21,7 @@
 		</releaseinfo>
 		
 		<abstract id="abstract">
-			<title>Gerrit tutorial</title>
+	=== Gerrit tutorial</title>
 			<para> This tutorial explains the usage of the Gerrit code review
 				system. It describes the setup of Eclipse (with EGit) as well as the
 				command line setup. Contributing to an Eclipse.org project via Gerrit is also described.

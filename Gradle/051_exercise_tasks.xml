@@ -1,7 +1,7 @@
 <section id="exercise_gradle_tasks">
-	<title>Exercise: Gradle Tasks
+== Exercise: Gradle Tasks
 	<section id="exercise_gradle_tasks_task">
-		<title>Using the tasks Gradle task
+=== Using the tasks Gradle task
 		
 			The target of this exercise is to get an overview about the
 			default tasks, which are delivered by default.
@@ -18,7 +18,7 @@
 	
 
 	<section id="exercise_gradle_tasks_help">
-		<title>Using the help task
+=== Using the help task
 		
 			The target of this exercise is to make use of the
 			`help`
@@ -33,7 +33,7 @@
 	
 
 	<section id="exercise_gradle_tasks_init">
-		<title>Create a groovy project
+=== Create a groovy project
 		The previous exercise informed about the usage of the init task.
 		
 		

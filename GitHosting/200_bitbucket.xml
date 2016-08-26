@@ -1,12 +1,12 @@
 <section id="hosting_bickbucket" role="wrapper">
-	<title>Bitbucket</title>
+== Bitbucket</title>
 	<section id="hosting_bickbucket_what">
-		<title>What is Bitbucket?</title>
+=== What is Bitbucket?</title>
 		<indexterm>
 			<primary>Bitbucket</primary>
 		</indexterm>
 		<para>
-			<ulink url="https://bitbucket.org/">Bitbucket</ulink>
+			https://bitbucket.org/">Bitbucket</ulink>
 			offers free hosting of public and private
 			Git
 			repositories.
@@ -25,7 +25,7 @@
 		</para>
 	</section>
 	<section id="hosting_bickbucket_creating">
-		<title>Creating a repository</title>
+=== Creating a repository</title>
 		<para>
 			You need to create a user via the web interface of Bitbucket.
 			After creating this user you can create new repositories via the web

@@ -1,8 +1,8 @@
 <section id="controlstructures" role="wrapper">
-	<title>Control structures</title>
+== Control structures</title>
 
 	<section id="datatypes_evaluation">
-		<title>Groovy evaluation of conditions - The Groovy truth</title>
+=== Groovy evaluation of conditions - The Groovy truth</title>
 		<para>
 			Groovy evaluates a condition defined in a control statement
 			differently
@@ -10,11 +10,11 @@
 			the same as
 			in Java, but
 			empty collections or null evaluates to
-			<code>false</code>
+			`false`
 			. The number "0" evaluates to
-			<code>true</code>
+			`true`
 			, all other numbers evaluates to
-			<code>true</code>
+			`true`
 			.
 		</para>
 		<para>
@@ -31,36 +31,36 @@
 
 	</section>
 	<section id="controlstructures_if">
-		<title>if statements</title>
+=== if statements</title>
 		<para>
 			The
-			<code>if</code>
+			`if`
 			and
-			<code>switch</code>
+			`switch`
 			are supported, the if statement supports the Groovy truth, e.g., you
 			can use for example a list as parameter in
-			<code>if</code>
+			`if`
 			and Groovy will evaluate this Groovy truth value.
 		</para>
 	</section>
 	<section id="controlstructures_switch">
-		<title>switch statement and the isCase method</title>
+=== switch statement and the isCase method</title>
 
 		<para>
 			The switch statement is very flexible, everything which implements
 			the
-			<code>isCase</code>
+			`isCase`
 			method can be used as classifier.Groovy provides an
 			implementation of
 			the
-			<code>isCase()</code>
+			`isCase()`
 			method to
-			<code>Class</code>
+			`Class`
 			(using isInstance),
-			<code>Object</code>
+			`Object`
 			(using
 			(equals),
-			<code>Collections</code>
+			`Collections`
 			(using contains) and regular expressions (using
 			matches). You can also
 			specify a closure, which is evaluated to a
@@ -73,12 +73,12 @@
 		</para>
 		<para>
 			If several conditions fit, the first
-			<code>case</code>
+			`case`
 			statement is selected.
 		</para>
 		<para>
 			To use your custom class in a switch statement implement the
-			<code>isCase</code>
+			`isCase`
 			method.
 		</para>
 
@@ -86,13 +86,13 @@
 	</section>
 
 	<section id="controlstructuress_safenull">
-		<title>Safe navigation operator</title>
+=== Safe navigation operator</title>
 		<para>
 			You can use safe navigation operator to check safety for null via the
-			<code>?.</code>
+			`?.`
 			operator.
 			This will avoid a
-			<code>NullPointerException</code>
+			`NullPointerException`
 			if you access
 			properties of an object
 			which is null.
@@ -104,10 +104,10 @@
 		</para>
 	</section>
 	<section id="controlstructures_elvis">
-		<title>Elvis operator</title>
+=== Elvis operator</title>
 		<para>
 			The
-			<code>?:</code>
+			`?:`
 			(called the Elvis operator) is a short form for the Java ternary
 			operator. You can use this to set a default if an
 			expression resolves

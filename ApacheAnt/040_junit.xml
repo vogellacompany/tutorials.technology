@@ -1,15 +1,15 @@
 ﻿<section id="junit4">
-	<title>Running JUnit Tests via Ant</title>
+== Running JUnit Tests via Ant</title>
 	<para>
 		Ant allows to run
-		<ulink url="http://www.vogella.com/tutorials/JUnit/article.html">JUnit</ulink>
+		http://www.vogella.com/tutorials/JUnit/article.html">JUnit</ulink>
 		tests. Ant defines
 		<guilabel>junit</guilabel>
 		task. You only need to include the
 		junit.jar and the compiled classes
 		into the classpath for Ant and then
 		you can run JUnit tests. See
-		<ulink url="http://www.vogella.com/tutorials/JUnit/article.html">JUnit Tutorial</ulink>
+		http://www.vogella.com/tutorials/JUnit/article.html">JUnit Tutorial</ulink>
 		for an introduction into JUnit.
 
 	</para>

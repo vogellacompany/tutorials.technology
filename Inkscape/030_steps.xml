@@ -1,7 +1,7 @@
 <section id="inkscapesteps">
-	<title>Steps in Inkscape
+== Steps in Inkscape
 	<section id="inkscapesteps_createtransparentbackground">
-		<title>Create a png with transparent background with Inkscape
+=== Create a png with transparent background with Inkscape
 		
 			To create a png file with transparent background use the
 			following

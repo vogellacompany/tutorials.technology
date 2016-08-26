@@ -1,11 +1,9 @@
 <section id="shortcuts">
-	<title>Define shortcuts for your macros</title>
+== Define shortcuts for your macros</title>
 	<para> To define a shortcut for your macro, select View -> Toolbars ->
 		Customize and select Macros.</para>
 	<para>
-		<mediaobject>
-			<imageobject>
-				<imagedata fileref="images/button10.gif" />
+image::button10.gif" />
 				
 			</imageobject>
 		</mediaobject>
@@ -16,9 +14,7 @@
 	macro. For example the following sets the hotkey for the Move macro to
 	Alt+1. </para>
 	<para>
-		<mediaobject>
-			<imageobject>
-				<imagedata fileref="images/button20.gif" />
+image::button20.gif" />
 				
 			</imageobject>
 		</mediaobject>

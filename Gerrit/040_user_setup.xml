@@ -1,12 +1,12 @@
 <section id="gerrit_usersetup">
-	<title>User setup</title>
+== User setup</title>
 	<indexterm>
 		<primary>Gerrit</primary>
 		<secondary>User setup
 		</secondary>
 	</indexterm>
 	<section id="gerrit_usersetupcreate">
-		<title>Create user</title>
+=== Create user</title>
 		<para>You require a valid Gerrit user to work with Gerrit.</para>
 		<tip>
 			<para>In a Gerrit installation in which you are not the
@@ -16,7 +16,7 @@
 		
 		<para>
 			Login to Gerrit via
-			<ulink url="http://localhost:8080/login/">http://localhost:8080/login/</ulink>
+			http://localhost:8080/login/">http://localhost:8080/login/</ulink>
 			. The
 			first user to login automatically gets the administrator
 			status.
@@ -24,7 +24,7 @@
 
 	</section>
 	<section id="gerrit_usersetup_ssh">
-		<title>SSH setup</title>
+=== SSH setup</title>
 		<para>
 			If you want to use SSH you have to upload your SSH key. If you prefer
 			to use HTTPS, skip this step and go to
@@ -39,9 +39,7 @@
 			to upload your public SSH key.
 		</para>
 		<para>
-			<mediaobject>
-				<imageobject>
-					<imagedata fileref="images/gerritsetup10.png"/>
+image::gerritsetup10.png[]
 				</imageobject>
 				<textobject>
 					<phrase>Settings in Gerrit</phrase>
@@ -50,9 +48,7 @@
 		</para>
 
 		<para>
-			<mediaobject>
-				<imageobject>
-					<imagedata fileref="images/gerritsetup20.png"/>
+image::gerritsetup20.png[]
 				</imageobject>
 				<textobject>
 					<phrase>SSH public key setting in Gerrit</phrase>
@@ -71,9 +67,7 @@
 		</para>
 
 		<para>
-			<mediaobject>
-				<imageobject>
-					<imagedata fileref="images/gerritsetup30.png"/>
+image::gerritsetup30.png[]
 				</imageobject>
 				<textobject>
 					<phrase>SSH public key setting in Gerrit</phrase>
@@ -82,12 +76,10 @@
 		</para>
 	</section>
 	<section id="gerrit_usersetup_https">
-		<title>HTTPS setup</title>
+=== HTTPS setup</title>
 		<para>You can also enter a password for HTTPS access.</para>
 		<para>
-			<mediaobject>
-				<imageobject>
-					<imagedata fileref="images/gerritsetuphttpspw.png"/>
+image::gerritsetuphttpspw.png[]
 				</imageobject>
 				<textobject>
 					<phrase>HTTP user setup</phrase>

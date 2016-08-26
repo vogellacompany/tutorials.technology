@@ -49,7 +49,7 @@
 		<!-- Copy the images to the same directory as the HTML files -->
 		<copy todir="${output.dir}\images">
 			<fileset dir="${input.dir}\images">
-				<include name="title.png" />
+				<include name="title.png[]
 			</fileset>
 		</copy>
 		<!-- Transfer to HTML -->

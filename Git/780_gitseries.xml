@@ -1,36 +1,36 @@
 <section id="gitseries">
-	<title>Git series
+== Git series
 	
 		This tutorial is part of a series about the Git version control
 		system. See the other tutorials for more information.
 		<itemizedlist>
 			*
 				
-					<ulink url="http://www.vogella.com/tutorials/Git/article.html">
+					http://www.vogella.com/tutorials/Git/article.html">
 						Introduction to Git</ulink>
 				
 			
 			*
 				
-					<ulink url="http://www.vogella.com/tutorials/GitHub/article.html">
+					http://www.vogella.com/tutorials/GitHub/article.html">
 						Using Github</ulink>
 				
 			
 			*
 				
-					<ulink url="http://www.vogella.com/tutorials/GitHosting/article.html">
+					http://www.vogella.com/tutorials/GitHosting/article.html">
 						Hosting Git repositories at Bitbucket or on your own server</ulink>
 				
 			
 			*
 				
-					<ulink url="http://www.vogella.com/tutorials/GitWorkflows/article.html">
+					http://www.vogella.com/tutorials/GitWorkflows/article.html">
 						Typical workflows with Git</ulink>
 				
 			
 			*
 				
-					<ulink url="http://www.vogella.com/tutorials/EclipseGit/article.html">EGit - Teamprovider for Eclipse</ulink>
+					http://www.vogella.com/tutorials/EclipseGit/article.html">EGit - Teamprovider for Eclipse</ulink>
 				
 			
 		

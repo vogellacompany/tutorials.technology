@@ -1,12 +1,10 @@
 <section id="firstpython_program">
-	<title>Your first Python program in Eclipse</title>
+== Your first Python program in Eclipse</title>
 	<para> Select File -> New -> Project. Select Pydev -> Pydev Project.
 	</para>
 
 	<para>
-		<mediaobject>
-			<imageobject>
-				<imagedata fileref="images/pydev10.gif" />
+image::pydev10.gif" />
 				
 			</imageobject>
 		</mediaobject>
@@ -17,9 +15,7 @@
 	</para>
 
 	<para>
-		<mediaobject>
-			<imageobject>
-				<imagedata fileref="images/pydev20.gif" />
+image::pydev20.gif" />
 				
 			</imageobject>
 		</mediaobject>
@@ -29,9 +25,7 @@
 	<para> Select Window->Open Perspective ->Other. Select the PyDev
 		perspective.</para>
 	<para>
-		<mediaobject>
-			<imageobject>
-				<imagedata fileref="images/pydev30.gif" />
+image::pydev30.gif" />
 				
 			</imageobject>
 		</mediaobject>
@@ -41,18 +35,14 @@
 		select New
 		-> PyDev Modul. Create a module "FirstModule".</para>
 	<para>
-		<mediaobject>
-			<imageobject>
-				<imagedata fileref="images/pydev40.gif" />
+image::pydev40.gif" />
 				
 			</imageobject>
 		</mediaobject>
 	</para>
 
 	<para>
-		<mediaobject>
-			<imageobject>
-				<imagedata fileref="images/pydev50.gif" />
+image::pydev50.gif" />
 				
 			</imageobject>
 		</mediaobject>
@@ -67,9 +57,7 @@
 	</para>
 	<para>Right-click your model and select Run As -> Python run.</para>
 	<para>
-		<mediaobject>
-			<imageobject>
-				<imagedata fileref="images/pydev60.gif" />
+image::pydev60.gif" />
 				
 			</imageobject>
 		</mediaobject>

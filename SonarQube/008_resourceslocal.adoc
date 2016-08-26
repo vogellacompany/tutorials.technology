@@ -1,5 +1,5 @@
 <section id="sonarqube-online" role="wrapper">
-	<title>SonarQube
+== SonarQube
 	
 		<ulink
 			url="https://www.javacodegeeks.com/2016/03/3-steps-analyzing-gradle-project-sonarqube-using-docker.html">

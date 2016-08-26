@@ -1,10 +1,10 @@
 <section id="installation">
-	<title>Installation</title>
+== Installation</title>
 	<section id="installation_python">
-		<title>Python</title>
+=== Python</title>
 		<para>
 			Download Python from
-			<ulink url="http://www.python.org">http://www.python.org</ulink>
+			http://www.python.org">http://www.python.org</ulink>
 			. Download the version 3.3.1 or higher of Python. If you are using
 			Windows
 			you can
@@ -14,13 +14,13 @@
 	</section>
 
 	<section id="installation_eclipse">
-		<title>Eclipse Python plugin</title>
+=== Eclipse Python plugin</title>
 		<para>
 			The following assume that you have already
-			<ulink url="http://www.vogella.com/tutorials/Eclipse/article.html"> Eclipse</ulink>
+			http://www.vogella.com/tutorials/Eclipse/article.html"> Eclipse</ulink>
 			installed. For an
 			installation description of Eclipse please see
-			<ulink url="http://www.vogella.com/tutorials/Eclipse/article.html"> Eclipse IDE for Java</ulink>
+			http://www.vogella.com/tutorials/Eclipse/article.html"> Eclipse IDE for Java</ulink>
 			.
 		</para>
 		<para>
@@ -35,7 +35,7 @@
 	</section>
 
 	<section id="configuration">
-		<title>Configuration of Eclipse</title>
+=== Configuration of Eclipse</title>
 		<para>
 			You also have to maintain in Eclipse the location of your
 			Python
@@ -50,9 +50,7 @@
 		</para>
 
 		<para>
-			<mediaobject>
-				<imageobject>
-					<imagedata fileref="images/pydev02.gif" />
+image::pydev02.gif" />
 
 				</imageobject>
 			</mediaobject>
@@ -63,16 +61,14 @@
 			<guibutton>New</guibutton>
 			button
 			and enter the path to
-			<filename>python.exe</filename>
+			`python.exe`
 			in your
 			Python installation directory. For Linux and Mac OS X users
 			this is
 			normally /usr/bin/python.
 		</para>
 		<para>
-			<mediaobject>
-				<imageobject>
-					<imagedata fileref="images/pydev04.gif" />
+image::pydev04.gif" />
 
 				</imageobject>
 			</mediaobject>
@@ -86,9 +82,7 @@
 		
 		<para>The result should look like the following.</para>
 		<para>
-			<mediaobject>
-				<imageobject>
-					<imagedata fileref="images/pydev06.gif" />
+image::pydev06.gif" />
 
 				</imageobject>
 			</mediaobject>

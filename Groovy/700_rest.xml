@@ -1,5 +1,5 @@
 <section id="groovyrestcall">
-	<title>Groovy and RESTful webservices</title>
+== Groovy and RESTful webservices</title>
 	<para> Groovy allows to process XML very easily.</para>
 	<para>
 		<programlisting>

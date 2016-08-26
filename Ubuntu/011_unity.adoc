@@ -1,7 +1,7 @@
 <section id="unity">
-	<title>Using the Ubuntu desktop
+== Using the Ubuntu desktop
 	<section id="unity_overview">
-		<title>Unity as desktop manager
+=== Unity as desktop manager
 		
 			Unity is the default windows manager on Ubuntu. It introduced
 			the
@@ -21,9 +21,7 @@
 			. Here you can type in commands to open programs and files.
 		
 		
-			<mediaobject>
-				<imageobject>
-					<imagedata fileref="images/dash10.png"/>
+image::dash10.png[]
 				</imageobject>
 				<textobject>
 					<phrase>Dash in Action</phrase>
@@ -33,12 +31,10 @@
 	</section>
 
 	<section id="unity_fileexplorer">
-		<title>Nautilus as file explorer
+=== Nautilus as file explorer
 		Ubuntu uses Nautilus as file explorer. Use the Dash or click on the icon in the task manager to start it.
 		
-			<mediaobject>
-				<imageobject>
-					<imagedata fileref="images/nautilus10.png"/>
+image::nautilus10.png[]
 				</imageobject>
 				<textobject>
 					<phrase>Starting Nautilus</phrase>
@@ -54,9 +50,7 @@
 			.
 		
 		
-			<mediaobject>
-				<imageobject>
-					<imagedata fileref="images/nautilus20.png"/>
+image::nautilus20.png[]
 				</imageobject>
 				<textobject>
 					<phrase>Starting Nautilus</phrase>
@@ -66,10 +60,10 @@
 
 	</section>
 	<section id="unity_newentries">
-		<title>Adding entries to the launcher
+=== Adding entries to the launcher
 		
 			To add new entries to the launcher you can create an
-			<filename>.desktop</filename>
+			`.desktop`
 			file and drag file on the launcher. For example, the following creates
 			an entry to start Eclipse with different
 			shortcuts for different
@@ -84,13 +78,13 @@
 
 
 	<section id="unity_shortcuts">
-		<title>Useful shortcuts
+=== Useful shortcuts
 		
 			The following lists a few useful shortcuts for the Unity window
 			manager.
 
 			<table frame='all'>
-				<title>Window Shortcuts
+		=== Window Shortcuts
 				<tgroup cols='2' align='left' colsep='1' rowsep='1'>
 					<colspec colname='c1' />
 					<colspec colname='c2' />

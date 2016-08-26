@@ -1,7 +1,7 @@
 ﻿<section id="antexample">
-	<title>Tutorial: Using Apache Ant</title>
+== Tutorial: Using Apache Ant</title>
 	<section id="antexample_overview">
-		<title>Using Ant for Java development</title>
+=== Using Ant for Java development</title>
 		<para>
 			The following describes how you compile Java classes, create an
 			executable JAR file and create Javadoc for your project with Apache
@@ -11,7 +11,7 @@
 		</para>
 	</section>
 	<section id="antexample_javaproject">
-		<title>Create Java project</title>
+=== Create Java project</title>
 		<para>
 			Create a Java project called
 			<wordasword>de.vogella.build.ant.first</wordasword>
@@ -28,7 +28,7 @@
 		</para>
 		<para>
 			Create the
-			<code>test</code>
+			`test`
 			package and the following class.
 		</para>
 		<para>
@@ -39,7 +39,7 @@
 		</para>
 	</section>
 	<section id="antexample_buildxml">
-		<title>Create build.xml</title>
+=== Create build.xml</title>
 		<para>
 			Create a new File through the
 			<menuchoice>
@@ -48,7 +48,7 @@
 				<guisubmenu>File</guisubmenu>
 			</menuchoice>
 			menu and create the
-			<filename>build.xml</filename>
+			`build.xml`
 			file. Implement the following code to this file.
 		</para>
 		<para>
@@ -64,32 +64,28 @@
 		</para>
 	</section>
 	<section id="antexample_eclipserun">
-		<title>Run your Ant build from Eclipse</title>
+=== Run your Ant build from Eclipse</title>
 		<para>
 			Run the
-			<filename>build.xml</filename>
+			`build.xml`
 			file as an
 			<guilabel>Ant Build</guilabel>
 			in Eclipse.
-			<mediaobject>
-				<imageobject>
-					<imagedata fileref="images/anttest20.gif" />
+image::anttest20.gif" />
 
 				</imageobject>
 			</mediaobject>
 		</para>
 		<para>
 			After this process your data structure should look like this:
-			<mediaobject>
-				<imageobject>
-					<imagedata fileref="images/anttest30.gif" />
+image::anttest30.gif" />
 
 				</imageobject>
 			</mediaobject>
 		</para>
 	</section>
 	<section id="antexample_run">
-		<title>Run your Ant build from the command line</title>
+=== Run your Ant build from the command line</title>
 		<para> Open a command line and switch to your project directory. Type
 			in the following commands.
 		</para>

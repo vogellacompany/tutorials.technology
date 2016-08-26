@@ -1,20 +1,20 @@
 <section id="xsltparameters">
-	<title>Influencing the output result</title>
+== Influencing the output result</title>
 	<para>
 		The XSLT stylesheets have several parameters which can influence
 		the result of the conversion.
 	</para>
 	<section id="xsltparameterss1as2a">
-		<title>HTML Parameters</title>
+=== HTML Parameters</title>
 		<para>
 			You find all HTML relevant parameters at
-			<ulink url="http://docbook.sourceforge.net/release/xsl/current/doc/html/">
+			http://docbook.sourceforge.net/release/xsl/current/doc/html/">
 				http://docbook.sourceforge.net/release/xsl/current/doc/html/</ulink>.
 		</para>
 
 		<para>
 			<table frame='all'>
-				<title>HTML Parameters</title>
+		=== HTML Parameters</title>
 				<tgroup cols='2' align='left' colsep='1' rowsep='1'>
 					<colspec colname='c1' />
 					<colspec colname='c2' />
@@ -60,15 +60,15 @@
 	</section>
 
 	<section id="xsltparameterss1as2b">
-		<title>PDF Parameters</title>
+=== PDF Parameters</title>
 		<para>
 			You find all FO / PDF relevant parameters at
-			<ulink url="http://docbook.sourceforge.net/release/xsl/current/doc/fo/">
+			http://docbook.sourceforge.net/release/xsl/current/doc/fo/">
 				http://docbook.sourceforge.net/release/xsl/current/doc/fo/</ulink>.
 		</para>
 		<para>
 			<table frame='all'>
-				<title>PDF Parameters</title>
+		=== PDF Parameters</title>
 				<tgroup cols='2' align='left' colsep='1' rowsep='1'>
 					<colspec colname='c1' />
 					<colspec colname='c2' />
@@ -103,7 +103,7 @@
 		</para>
 	</section>
 	<section id="xsltparameters_includehtml">
-		<title>Add content into the HTML output</title>
+=== Add content into the HTML output</title>
 		<para>
 			DocBook allows you to include external HTML files into the HTML
 			output. For example, you could use this to add JavaScript into your

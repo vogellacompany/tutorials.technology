@@ -1,25 +1,25 @@
 <section id="resources_s1">
-	<title>Groovy Links</title>
+== Groovy Links</title>
 	<para>
-		<ulink url="http://www.groovy-lang.org/">Groovy Homepage</ulink>
+		http://www.groovy-lang.org/">Groovy Homepage</ulink>
 	</para>
 	<para>
-		<ulink url="http://docs.groovy-lang.org/latest/html/gapi/"> Groovy API page</ulink>
+		http://docs.groovy-lang.org/latest/html/gapi/"> Groovy API page</ulink>
 		Groovy documentation
 	</para>
 	<para>
-		<ulink url="http://mrhaki.blogspot.de/search/label/Groovy">Groovy Goodness blog series from Hubert Klein Ikkink</ulink>
+		http://mrhaki.blogspot.de/search/label/Groovy">Groovy Goodness blog series from Hubert Klein Ikkink</ulink>
 	</para>
 	<para>
-		<ulink url="https://github.com/martofeld/groovykoans-master-resolve">Groovy Koans from Nadav Cohen partially reused in this description</ulink>
+		https://github.com/martofeld/groovykoans-master-resolve">Groovy Koans from Nadav Cohen partially reused in this description</ulink>
 	</para>
 	<para>
-		<ulink url="http://www.vogella.com/articles/JavaRegularExpressions/article.html">Java regular expression tutorial</ulink>
+		http://www.vogella.com/articles/JavaRegularExpressions/article.html">Java regular expression tutorial</ulink>
 	</para>
 	<para>
-		<ulink url="http://docs.groovy-lang.org/latest/html/documentation/index.html#_regular_expression_operators">Regular expressions in Groovy</ulink>
+		http://docs.groovy-lang.org/latest/html/documentation/index.html#_regular_expression_operators">Regular expressions in Groovy</ulink>
 		
-		<ulink url="http://www.groovy-lang.org/json.html">Groovy JSonSlurper documentation</ulink>
+		http://www.groovy-lang.org/json.html">Groovy JSonSlurper documentation</ulink>
 	</para>
 
 </section>

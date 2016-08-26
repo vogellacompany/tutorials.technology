@@ -1,7 +1,7 @@
 <section id="eclipsegerritcontribution_pushsetup">
-	<title>Things to consider if you want to contribute to an existing project</title>
+== Things to consider if you want to contribute to an existing project</title>
 	<section id="contribution_whattofix">
-		<title>How to start contributing?</title>
+=== How to start contributing?</title>
 		<para>It is typically a good approach to fix something really simple
 			as the
 			first
@@ -17,7 +17,7 @@
 		</para>
 	</section>
 	<section id="contribution_scope">
-		<title>Scope of a Gerrit change / commit</title>
+=== Scope of a Gerrit change / commit</title>
 		<para>
 			A Gerrit change (== one commit) should address only one issue.
 		</para>
@@ -54,7 +54,7 @@
 		</para>
 	</section>
 	<section id="contribution_commitmessagegerrit">
-		<title>Commit message</title>
+=== Commit message</title>
 		<para>Most project handles the required commit message a bit
 			differently. For example, the Eclipse Platform project
 			prefers the
@@ -106,7 +106,7 @@
 		
 	</section>
 	<section id="contribution_copyrightheader">
-		<title>Copyright header update</title>
+=== Copyright header update</title>
 		<para>In some projects the source file contains a copyright header. If you modify the
 			file you should also update the
 			copyright header. Different project might use different standards here. Have a look at existing commits and the
@@ -115,7 +115,7 @@
 		</para>
 	</section>
 	<section id="contribution_copyrightheader_platformui">
-		<title>Example: Copyright header in Eclipse Platform UI</title>
+=== Example: Copyright header in Eclipse Platform UI</title>
 
 		<para>
 			The Eclipse platform project for example requires you to update the copyright header with the last modified
@@ -154,17 +154,17 @@
 			If you work for an organization the Foundation recommends
 			adding the
 			organization name in parentheses. See:
-			<ulink url="http://www.eclipse.org/legal/copyrightandlicensenotice.php">Copyright info from eclipse.org
+			http://www.eclipse.org/legal/copyrightandlicensenotice.php">Copyright info from eclipse.org
 			</ulink>
 			.
 			For
 			example:
 		</para>
 		<para>
-			<code>
+			`
 				John Doe (vogella GmbH) <![CDATA[<John.Doe@fake.com>]]>
 				- Bug 429728 - Fixed compiler warnings
-			</code>
+			`
 		</para>
 		<para>If you add a new file don't forget to add the copyright header
 			using the project's license. For new files, list
@@ -200,7 +200,7 @@
 	</section>
 
 	<section id="contribution_polite">
-		<title>Stay polite</title>
+=== Stay polite</title>
 		<para>The best way to get your contribution accepted is to stay
 			polite
 			and to follow the guidance of the existing
@@ -222,7 +222,7 @@
 	</section>
 
 	<section id="contribution_formatting">
-		<title>Avoid unnecessary formatting changes</title>
+=== Avoid unnecessary formatting changes</title>
 		<para>
 			Typically open source projects dislike if you re-format unchanged
 			lines,
@@ -243,9 +243,7 @@
 			change.
 		</para>
 		<para>
-			<mediaobject>
-				<imageobject>
-					<imagedata fileref="images/unnecessaryformatingchanges10.png" scale="20" />
+image::unnecessaryformatingchanges10.png" scale="20" />
 				</imageobject>
 				<textobject>
 					<phrase>Demonstrates unnecessary formatting changes</phrase>
@@ -256,7 +254,7 @@
 	</section>
 
 	<section id="contribution_whitespace">
-		<title>Avoid unnecessary whitespace changes</title>
+=== Avoid unnecessary whitespace changes</title>
 		<para>Typically projects dislike unnecessary whitespace in
 			the
 			contributed code. Ensure that you remove trailing
@@ -271,7 +269,7 @@
 	</section>
 
 	<section id="contribution_pushunfinished">
-		<title>Pushing unfinished features</title>
+=== Pushing unfinished features</title>
 		<para>For most projects it is OK to push an initial
 			(unfinished)
 			implementation
@@ -300,7 +298,7 @@
 	</section>
 
 	<section id="contribution_validuserpassword">
-		<title>Valid user and email</title>
+=== Valid user and email</title>
 		<para>Some project uses additional validation plug-ins. For example the Eclipse foundation uses a server-side Gerrit
 			plugin which
 			checks for
@@ -327,7 +325,7 @@
 		</para>
 		<para>
 			See:
-			<ulink url="https://wiki.eclipse.org/Development_Resources/Handling_Git_Contributions">Wiki for Git contributions
+			https://wiki.eclipse.org/Development_Resources/Handling_Git_Contributions">Wiki for Git contributions
 			</ulink>
 
 		</para>
@@ -337,7 +335,7 @@
 
 
 	<section id="contribution_nofeedback">
-		<title>Not getting feedback</title>
+=== Not getting feedback</title>
 		<para>If everything works perfectly, the developers of the project you are contributing to will
 			accept
 			your contribution
@@ -364,7 +362,7 @@
 
 	</section>
 	<section id="contribution_rudefeedback">
-		<title>Dealing with negative feedback</title>
+=== Dealing with negative feedback</title>
 		<para>
 			Don't get
 			frustrated by negative feedback, as the collaboration

@@ -1,7 +1,7 @@
 <section id="sql">
-	<title>SQL - Structured Query Language
+== SQL - Structured Query Language
 	<section id="sql_overview">
-		<title>Overview
+=== Overview
 		
 			SQL is a query language for relational databases.
 			This article

@@ -1,7 +1,7 @@
 <section id="docbookpdf">
-	<title>Create pdf output</title>
+== Create pdf output</title>
 	<section id="docbookpdf_overview">
-		<title>Overview</title>
+=== Overview</title>
 		<para>
 			You can convert DocBook to XML-FO via the DocBook XSL
 			Stylesheets. XML FO stands for XML Formating Objects and is an XML
@@ -11,7 +11,7 @@
 		</para>
 	</section>
 	<section id="docbookpdf_installation">
-		<title>Installation</title>
+=== Installation</title>
 		<para>
 			In addition to the existing setup you also require the Apache
 			FOP
@@ -31,11 +31,11 @@
 		</para>
 	</section>
 	<section id="docbookpdf_">
-		<title>Define the Ant Task</title>
+=== Define the Ant Task</title>
 		<para>
 			You have to add the task to your ant build file and then call
 			the task. The following snippet shows how to define the task and how to call
-			it. The second listing is then a full example ant <filename>build.xml</filename> file.
+			it. The second listing is then a full example ant `build.xml` file.
 		</para>
 		<para>
 			<programlisting language="xml">

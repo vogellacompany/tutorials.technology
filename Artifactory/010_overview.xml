@@ -1,20 +1,20 @@
 <section id="artifactory_repository_overview">
-	<title>Artifactory Repository Manager
+== Artifactory Repository Manager
 	<section>
-		<title>What is a Repository Manager
+=== What is a Repository Manager
 		
 			An repository manager allows to store and retrieve build artifacts.
 			The most popular examples for repository manager are
-			<ulink url="http://search.maven.org/">Maven Central Repository</ulink>
+			http://search.maven.org/">Maven Central Repository</ulink>
 			and
-			<ulink url="https://bintray.com/bintray/jcenter">jcenter at Bintray</ulink>
+			https://bintray.com/bintray/jcenter">jcenter at Bintray</ulink>
 			, which you can use to
 			retrieve your dependencies for example a Gradle
 			or Maven build.
 		
 	
 	<section>
-		<title>What is Artifactory?
+=== What is Artifactory?
 		A Artifactory installation brings such a repository for your
 			company. So you can host
 			your own repositories, but also use
@@ -26,9 +26,9 @@
 		
 		
 			Artifactory is avaialable as
-			<ulink url="https://www.jfrog.com/artifactory/free-trial/">commercial</ulink>
+			https://www.jfrog.com/artifactory/free-trial/">commercial</ulink>
 			and
-			<ulink url="https://www.jfrog.com/open-source/">Open Source distribution</ulink>
+			https://www.jfrog.com/open-source/">Open Source distribution</ulink>
 			.
 		
 	

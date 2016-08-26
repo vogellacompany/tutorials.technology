@@ -1,22 +1,22 @@
 <section id="resources">
-	<title>Links and Literature
+== Links and Literature
 
 	
-		<ulink url="http://git-scm.com/">Git homepage</ulink>
+		http://git-scm.com/">Git homepage</ulink>
 	
 
 	
-		<ulink url="https://github.com/blog/1994-git-2-4-atomic-pushes-push-to-deploy-and-more">Blog post about Git 2.4 news</ulink>
+		https://github.com/blog/1994-git-2-4-atomic-pushes-push-to-deploy-and-more">Blog post about Git 2.4 news</ulink>
 	
 	
-		<ulink url="https://github.com/blog/2042-git-2-5-including-multiple-worktrees-and-triangular-workflows">Blog post about Git 2.5 news</ulink>
+		https://github.com/blog/2042-git-2-5-including-multiple-worktrees-and-triangular-workflows">Blog post about Git 2.5 news</ulink>
 	
 	
-		<ulink url="https://github.com/blog/2066-git-2-6-including-flexible-fsck-and-improved-status">Blog post about Git 2.6 news</ulink>
+		https://github.com/blog/2066-git-2-6-including-flexible-fsck-and-improved-status">Blog post about Git 2.6 news</ulink>
 	
 	
-		<ulink url="http://www.youtube.com/watch?v=4XpnKHJAok8">Video with Linus Torvalds on Git</ulink>
+		http://www.youtube.com/watch?v=4XpnKHJAok8">Video with Linus Torvalds on Git</ulink>
 	
 	
-		<ulink url="https://git-for-windows.github.io/">Git on Windows</ulink>
+		https://git-for-windows.github.io/">Git on Windows</ulink>
 	

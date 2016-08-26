@@ -1,8 +1,8 @@
 <section id="expando">
-	<title>Expando</title>
+== Expando</title>
 	<para>
 		The
-		<code>Expando</code>
+		`Expando`
 		class allows that
 		properties and new methods are added
 		at runtime to an instance of it. The new method must be defined

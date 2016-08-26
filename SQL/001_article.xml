@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <article>
 	<articleinfo>
-		<title>SQL Statements - Overview - Tutorial
+=== SQL Statements - Overview - Tutorial
 		<author>
 			<firstname>Lars</firstname>
 			<surname>Vogel</surname>
@@ -16,7 +16,7 @@
 		</releaseinfo>
 		
 		<abstract id="abstract">
-			<title>SQL Statements
+	=== SQL Statements
 			 This tutorial lists important SQL statements which you need to
 				use to create, update and read from database tables.
 			

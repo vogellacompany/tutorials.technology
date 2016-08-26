@@ -1,5 +1,5 @@
 <section id="githosting_overview">
-	<title>Git Hosting Provider</title>
+== Git Hosting Provider</title>
 	<para>
 		<para>Git allows you to host your own Git server. Instead of setting
 			up your own server, you can also use a

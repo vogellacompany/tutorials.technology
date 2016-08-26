@@ -1,5 +1,5 @@
 <section id="spocktesting">
-	<title>Testing with Spock</title>
+== Testing with Spock</title>
 
 	<para>Spock is a testing and specification framework for Java and
 		Groovy applications. You use a DSL (called Spock specification) as

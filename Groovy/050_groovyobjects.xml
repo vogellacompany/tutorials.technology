@@ -1,10 +1,10 @@
 <section id="groovyobjects" role="wrapper">
-	<title>Groovy classes, objects and methods</title>
+== Groovy classes, objects and methods</title>
 	<section id="groovycode_class">
-		<title>A Groovy class and default access modifier</title>
+=== A Groovy class and default access modifier</title>
 		<para>
 			A Groovy class is defined with the
-			<code>class</code>
+			`class`
 			keyword, similar to Java.
 			All
 			Groovy classes and methods are by default
@@ -13,7 +13,7 @@
 
 		<para>
 			The following is an example Groovy class called
-			<code>Task.groovy</code>
+			`Task.groovy`
 			.
 		</para>
 		<para>
@@ -24,10 +24,10 @@
 	</section>
 
 	<section id="groovyobjects_fields">
-		<title>Groovy objects (Plain Old Groovy Objects) and fields</title>
+=== Groovy objects (Plain Old Groovy Objects) and fields</title>
 		<para>
 			In Groovy all fields of a class have by default the
-			<code>private</code>
+			`private`
 			access
 			modifier. Groovy creates automatically getter and
 			setter
@@ -35,9 +35,9 @@
 			for the
 			fields. If you annotate the class or a
 			property with the
-			<code>@Bindable</code>
+			`@Bindable`
 			annotation, Groovy also adds
-			<code>PropertyChangeSupport</code>
+			`PropertyChangeSupport`
 			to the class or property.
 			Such a Groovy classes fits to the
 			<wordasword>Java beans</wordasword>
@@ -60,7 +60,7 @@
 			directly use the name of the
 			field. If a field should not be
 			changeable define it as
-			<code>final</code>
+			`final`
 			, in this case Groovy will not provide a setter.
 		</para>
 
@@ -68,7 +68,7 @@
 
 
 	<section id="groovyobjects_constructors">
-		<title>Constructors</title>
+=== Constructors</title>
 		<para>
 			Groovy provides
 			<wordasword>constructors with named parameters</wordasword>
@@ -79,7 +79,7 @@
 			construction. This constructor is also called
 			<wordasword>map based constructor</wordasword>
 			, as it uses the
-			<code>property:value</code>
+			`property:value`
 			map syntax.
 		</para>
 		<para>
@@ -111,7 +111,7 @@
 		</para>
 	</section>
 	<section id="groovyobjects_equals">
-		<title>Equals, == and the method is()</title>
+=== Equals, == and the method is()</title>
 		<para> One difference between Java and Groovy is that the == operator
 			will check for equality and not for identity.
 			Java checks if both
@@ -127,15 +127,15 @@
 			same object it is also true. If
 			an object implements
 			the
-			<code>compareTo</code>
+			`compareTo`
 			method, Comparable
 			this method is used, otherwise the
-			<code>equals</code>
+			`equals`
 			method.
 		</para>
 	</section>
 	<section id="groovyobjects_parameter">
-		<title>Optional parameters in methods</title>
+=== Optional parameters in methods</title>
 		<para> Groovy allows to have optional parameter values. Optional
 			parameter values are indicated by =0.
 		</para>
@@ -148,7 +148,7 @@
 
 
 	<section id="groovyobjects_default_parameter">
-		<title>Default parameters in methods</title>
+=== Default parameters in methods</title>
 		<para>In Groovy you assign default values to parameters in a
 			method. If
 			a default value for a parameter is defined,

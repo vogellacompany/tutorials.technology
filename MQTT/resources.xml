@@ -1,9 +1,9 @@
 <section id="resources">
-	<title>Links and Literature</title>
+== Links and Literature</title>
 	<section id="resources_s1">
-		<title>Apache Lucene Links</title>
+=== Apache Lucene Links</title>
 		<para>
-			<ulink url="http://lucene.apache.org/">
+			http://lucene.apache.org/">
 				http://lucene.apache.org/</ulink>
 		</para>
 	</section>

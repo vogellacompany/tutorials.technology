@@ -1,7 +1,7 @@
 <section id="undochanges_checkoutcommits" role="wrapper">
-	<title>Resetting the working tree based on a commit
+== Resetting the working tree based on a commit
 	<section id="undochanges_checkoutcommits1">
-		<title>Checkout based on commits and working tree
+=== Checkout based on commits and working tree
 		
 			LARSPRIMARYINDEX"git checkout"LARSPRIMARYINDEX
 			LARSSECONDARY"based on commit ID"LARSSECONDARY
@@ -39,7 +39,7 @@ include::./examples/commandline/git_checkout2[]
 ----
 	
 	<section id="undochanges_checkoutcommits2">
-		<title>Example: Checkout a commit
+=== Example: Checkout a commit
 		
 			To checkout a specific commit you can use the following command.
 		

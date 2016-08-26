@@ -1,5 +1,5 @@
 <section id="tomcat_httpserver">
-	<title>Tomcat as HTTP Server</title>
+== Tomcat as HTTP Server</title>
 	<para>
 		contains also a HTTP connector which can be used
 		to serve static HTML
@@ -7,16 +7,16 @@
 		served is below the
 		<wordasword>Tomcat</wordasword>
 
-		<filename>webapps/ROOT</filename>
+		`webapps/ROOT`
 		below the installation directory. Place static content
 		into this directory.
 	</para>
 	<para>
 		To allow directory browsing via Apache Tomcat change the
-		<parameter>listings</parameter>
+		`listings`
 		parameter
 		in the file
-		<filename>conf/web.xml</filename>
+		`conf/web.xml`
 		from false to true.
 		<para>
 			<programlisting>

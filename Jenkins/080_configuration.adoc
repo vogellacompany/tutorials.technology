@@ -10,7 +10,7 @@ Select _Manage Jenkins_ and afterwards _Configure System_.
 		
 <mediaobject>
 	<imageobject>
-		<imagedata fileref="images/jenkins10.png" />
+		<imagedata fileref="images/jenkins10.png[]
 	
 	<textobject>
 		<phrase>Jenkins at first startup</phrase>
@@ -24,7 +24,7 @@ Jenkins can also install these for your automatically.
 		
 <mediaobject>
 	<imageobject>
-		<imagedata fileref="images/jenkins20.png" />
+		<imagedata fileref="images/jenkins20.png[]
 	
 	<textobject>
 		<phrase>Configuring Jenkins</phrase>
@@ -34,7 +34,7 @@ Jenkins can also install these for your automatically.
 	
 
 	<section id="jenkinsconfiguration_user">
-		<title>Secure Jenkins
+=== Secure Jenkins
 		
 It is recommended to secure Jenkins. _Manage Jenkins_ and then _Configure Global Security_. 
 Select the _Enable security_ flag. 
@@ -58,7 +58,7 @@ On the login page, select _Create an account_ to create the users you just gave 
 		
 <mediaobject>
 	<imageobject>
-		<imagedata fileref="images/jenkins40.png" />
+		<imagedata fileref="images/jenkins40.png[]
 	
 	<textobject>
 		<phrase>Create Jenkins account</phrase>
@@ -69,7 +69,7 @@ On the login page, select _Create an account_ to create the users you just gave 
 		
 <mediaobject>
 	<imageobject>
-		<imagedata fileref="images/jenkins50.png" />
+		<imagedata fileref="images/jenkins50.png[]
 	
 	<textobject>
 		<phrase>Sign up a new Jenkins user</phrase>
@@ -83,7 +83,7 @@ Go to_Manage Jenkins_, _Manage and Assign Roles_ and then _Assign Roles_ to gran
 		
 <mediaobject>
 	<imageobject>
-		<imagedata fileref="images/jenkins60.png" />
+		<imagedata fileref="images/jenkins60.png[]
 	
 	<textobject>
 		<phrase>Sign up a new Jenkins user</phrase>
@@ -97,7 +97,7 @@ The following grants unregistered users read-only access to your build jobs that
 		
 <mediaobject>
 	<imageobject>
-		<imagedata fileref="images/jenkins70.png" />
+		<imagedata fileref="images/jenkins70.png[]
 	
 	<textobject>
 		<phrase>Sign up a new Jenkins user</phrase>
@@ -106,7 +106,7 @@ The following grants unregistered users read-only access to your build jobs that
 		
 	
 	<section id="jenkinsconfiguration_ssh">
-		<title>Generate ssh key for Jenkins user
+=== Generate ssh key for Jenkins user
 		
 If you want to access a private Git repo, for example at Github, you need to generate an ssh key-pair. Create a SSH
 key with the following

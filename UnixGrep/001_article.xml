@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <article>
 	<articleinfo>
-		<title>Using the grep command line command - Tutorial
+=== Using the grep command line command - Tutorial
 		<author>
 			<firstname>Lars</firstname>
 			<surname>Vogel</surname>
@@ -26,7 +26,7 @@
 
 
 		<abstract id="abstract">
-			<title>The grep command
+	=== The grep command
 			 This tutorial explains the usage of the grep command for
 				searching for regular expressions in files.
 			

@@ -1,5 +1,5 @@
 <section id="hdfs">
-	<title>Hadoop file system</title>
+== Hadoop file system</title>
 	<para>
 		The Hadoop file system (HDSF) is a distribute file system. It use
 		an

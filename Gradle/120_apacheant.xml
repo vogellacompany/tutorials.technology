@@ -1,5 +1,5 @@
 <section id="gradle_runbuild_ant">
-	<title>Integration with Ant
+== Integration with Ant
 	Gradle supports running Ant tasks via the Groovy AntBuilder.
 	
 

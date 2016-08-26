@@ -1,26 +1,26 @@
 <section id="freemarkertest">
-	<title>Basic example
+== Basic example
 
 	
 		Create a new Java project called
 		<wordasword>com.vogella.freemarker.first</wordasword>
 		. Create a new folder called
-		<filename>lib</filename>
+		`lib`
 		and add the Freemarker library to it. Add this library to the
 		classpath for your project.
 	
 	
 		If you don't know how to achieve that, please see the
-		<ulink url="http://www.vogella.com/tutorials/Eclipse/article.html">Eclipse IDE Tutorial</ulink>
+		http://www.vogella.com/tutorials/Eclipse/article.html">Eclipse IDE Tutorial</ulink>
 		for instructions on the required steps.
 	
 	
 		Create a new folder called
-		<filename>templates</filename>
+		`templates`
 		inside the folder of the
 		<wordasword>com.vogella.freemarker.first</wordasword>
 		package. Inside that, create the following file with name
-		<filename>helloworld.ftl</filename>
+		`helloworld.ftl`
 		.
 	
 

@@ -1,8 +1,8 @@
 <section id="groovy_configurationslurper">
-	<title>Reading configuration files with Groovy</title>
+== Reading configuration files with Groovy</title>
 	<para>
 		The
-		<code>ConfigSlurper</code>
+		`ConfigSlurper`
 		class can be used to parse
 		configuration information defined via
 		Groovy. The configuration can be supplied as String, file or URL. You

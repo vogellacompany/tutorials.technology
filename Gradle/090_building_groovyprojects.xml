@@ -1,7 +1,7 @@
 <section id="gradle_buildgroovy">
-	<title>Building Groovy projects
+== Building Groovy projects
 	<section id="gradle_buildgroovy_plugin">
-		<title>The Groovy plug-in
+=== The Groovy plug-in
 		
 			The Groovy plug-in for Gradle extends the Java plug-in and
 			provides tasks for Groovy programs.
@@ -21,7 +21,7 @@
 	
 
 	<section id="gradle_buildgroovy_projectlayout">
-		<title>Default project layout of Groovy projects
+=== Default project layout of Groovy projects
 		
 			This plug-ins assume
 			a certain setup of your Groovy project.

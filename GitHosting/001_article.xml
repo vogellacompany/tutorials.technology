@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <article>
 	<articleinfo>
-		<title>Git hosting on Bitbucket or on your own server -
+=== Git hosting on Bitbucket or on your own server -
 			Tutorial</title>
 		<author>
 			<firstname>Lars</firstname>
@@ -23,7 +23,7 @@
 		</releaseinfo>
 		
 		<abstract id="abstract">
-			<title>Hosting your Git repositories</title>
+	=== Hosting your Git repositories</title>
 			<para> This tutorial explains how to use Bitbucket as hosting
 				provider for your Git repository and how you can install a Git
 				server on your own machine.

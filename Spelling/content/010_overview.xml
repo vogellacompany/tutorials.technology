@@ -1,7 +1,7 @@
 <section id="words">
-	<title>Words</title>
+== Words</title>
 	<table frame='all'>
-	<title>Misspelled words</title>
+== Misspelled words</title>
 	<tgroup cols='2' align='left' colsep='1' rowsep='1'>
 		<colspec colname='c1' />
 		<colspec colname='c2' />

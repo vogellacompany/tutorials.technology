@@ -1,7 +1,7 @@
 <section id="mop">
-	<title>Meta Object Protocol</title>
+== Meta Object Protocol</title>
 	<section id="mop_purpose">
-		<title>What is the Meta Object Protocol_</title>
+=== What is the Meta Object Protocol_</title>
 		<para>
 			The
 			<wordasword>Meta-Object Protocol (MOP)</wordasword>
@@ -13,7 +13,7 @@
 	</section>
 
 	<section id="mop_methodandpropertyacces">
-		<title>Calling methods or accessing properties on a Groovy object</title>
+=== Calling methods or accessing properties on a Groovy object</title>
 		<para>
 			If a method is called or a property is accessed in a class and this
 			class does not define this method / property then
@@ -52,10 +52,10 @@
 
 	</section>
 	<section id="mop_addingpropertiesandmethods">
-		<title>Adding methods and properties</title>
+=== Adding methods and properties</title>
 		<para>
 			Using the
-			<code>.metaclass</code>
+			`.metaclass`
 			access you can add properties and methods to an existing class.
 		</para>
 		<para>

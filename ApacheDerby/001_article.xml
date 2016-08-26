@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <article>
 	<articleinfo>
-		<title>Apache Derby Database - Tutorial</title>
+=== Apache Derby Database - Tutorial</title>
 		<author>
 			<firstname>Lars</firstname>
 			<surname>Vogel</surname>
@@ -18,7 +18,7 @@
 		</releaseinfo>
 		
 		<abstract id="abstract">
-			<title>Apache Derby</title>
+	=== Apache Derby</title>
 			<para> This articles explains how to install the Apache Derby
 				database,
 				how to start the Derby server, how to connect via Java to

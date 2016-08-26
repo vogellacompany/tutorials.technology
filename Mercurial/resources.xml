@@ -1,49 +1,49 @@
 <section id="resources">
-	<title>Links and Literature
+== Links and Literature
 	<section id="resources_mercurial">
-		<title>Mercurial Resources
+=== Mercurial Resources
 		
-			<ulink url="http://mercurial.selenic.com/"> http://mercurial.selenic.com/</ulink>
+			http://mercurial.selenic.com/"> http://mercurial.selenic.com/</ulink>
 			Mercurial Homepage
 		
 		
-			<ulink url="http://mercurial.selenic.com/wiki/"> http://mercurial.selenic.com/wiki/</ulink>
+			http://mercurial.selenic.com/wiki/"> http://mercurial.selenic.com/wiki/</ulink>
 			Mercurial Wiki
 		
 		
-			<ulink url="http://hgbook.red-bean.com/"> http://hgbook.red-bean.com/</ulink>
+			http://hgbook.red-bean.com/"> http://hgbook.red-bean.com/</ulink>
 			Free Online Mercurial Book from http://hgbook.red-bean.com/
 		
 
 
 		
-			<ulink url="http://bitbucket.org/"> http://bitbucket.org/</ulink>
+			http://bitbucket.org/"> http://bitbucket.org/</ulink>
 			Mercurial Hosting service
 		
 
 		
-			<ulink url="http://hgbook.red-bean.com/read/"> http://hgbook.red-bean.com/read/</ulink>
+			http://hgbook.red-bean.com/read/"> http://hgbook.red-bean.com/read/</ulink>
 			Mercurial: The Definitive Guide
 		
 		
-			<ulink url="http://code.google.com/p/support/wiki/ConvertingSvnToHg">
+			http://code.google.com/p/support/wiki/ConvertingSvnToHg">
 				http://code.google.com/p/support/wiki/ConvertingSvnToHg</ulink>
 			How to convert svn to Mercurial at Google hosting
 		
 	
 
 	<section id="resources_mercurialeclipse">
-		<title>MercurialEclipse Resources
+=== MercurialEclipse Resources
 		
-			<ulink url="http://www.javaforge.com/project/HGE"> http://www.javaforge.com/project/HGE</ulink>
+			http://www.javaforge.com/project/HGE"> http://www.javaforge.com/project/HGE</ulink>
 			EclipseMercurial plug-in homepage
 		
 		
-			<ulink url="http://javaforge.com/wiki/76402">http://javaforge.com/wiki/76402</ulink>
+			http://javaforge.com/wiki/76402">http://javaforge.com/wiki/76402</ulink>
 			EclipseMercurial change logs
 		
 		
-			<ulink url="http://www.javaforge.com/project/HGE/tracker"> http://www.javaforge.com/project/HGE/tracker</ulink>
+			http://www.javaforge.com/project/HGE/tracker"> http://www.javaforge.com/project/HGE/tracker</ulink>
 			Mercurial Eclipse Bug tracker
 		
 	

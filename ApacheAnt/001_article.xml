@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <article>
 	<articleinfo>
-		<title>Apache Ant - Tutorial</title>
+=== Apache Ant - Tutorial</title>
 		<author>
 			<firstname>Lars</firstname>
 			<surname>Vogel</surname>
@@ -23,7 +23,7 @@
 		<pubdate>02.03.2014</pubdate>
 		
 		<abstract id="abstract">
-			<title>Apache Ant Tutorial</title>
+	=== Apache Ant Tutorial</title>
 			<para> This tutorial describes the usage of Ant as a build tool to
 				compile Java
 				code, pack this code into

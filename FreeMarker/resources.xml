@@ -1,9 +1,9 @@
 <section id="resources">
-	<title>Links and Literature
+== Links and Literature
 	<section id="resources_freemarker">
-		<title>FreeMarker homepage
+=== FreeMarker homepage
 		
-			<ulink url="http://freemarker.org/">
+			http://freemarker.org/">
 				FreeMarker homepage</ulink>
 		
 	

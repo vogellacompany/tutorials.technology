@@ -1,5 +1,5 @@
 <section id="introduction">
-	<title>Introduction</title>
+== Introduction</title>
 	<para> Choosing the fastest algorithm for a certain task require
 		that you can estimate the runtime of an algorithm. </para>
 	<para>

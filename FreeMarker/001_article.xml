@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <article>
 	<articleinfo>
-		<title>Using FreeMarker templates (FTL)- Tutorial
+=== Using FreeMarker templates (FTL)- Tutorial
 		<author>
 			<firstname>Lars</firstname>
 			<surname>Vogel</surname>
@@ -17,7 +17,7 @@
 		</releaseinfo>
 		
 		<abstract id="abstract">
-			<title>FreeMarker Tutorial
+	=== FreeMarker Tutorial
 			
 				This tutorial explains how can you define FreeMarker templates
 				and how can you generate output based on these templates. It also

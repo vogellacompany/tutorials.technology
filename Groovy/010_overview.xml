@@ -1,9 +1,9 @@
 <section id="groovy" role="wrapper">
-	<title>Groovy</title>
+== Groovy</title>
 	<section id="groovy_overview">
-		<title>What is Groovy?</title>
+=== What is Groovy?</title>
 		<para>
-			<ulink url="http://www.groovy-lang.org/">Groovy</ulink> is an optionally typed, dynamic language that runs on
+			http://www.groovy-lang.org/">Groovy</ulink> is an optionally typed, dynamic language that runs on
 			the JVM. It is
 			tightly integrated with the Java
 			programming language. Groovy describes itself as feature-rich and Java-friendly
@@ -15,7 +15,7 @@
 			a Java
 			virtual machine,
 			only the Groovy
-			<filename>JAR</filename>
+			`JAR`
 			file must be present in the classpath at runtime.
 
 		</para>
@@ -48,16 +48,16 @@
 		</para>
 	</section>
 	<section id="groovy_types">
-		<title>Groovy classes and scripts </title>
+=== Groovy classes and scripts </title>
 		<para>
 			A Groovy source files ends with the
-			<filename>.groovy</filename>
+			`.groovy`
 			extension. This file can contain a Groovy script or a Groovy class. A
 			Groovy script is a code listing which does not
 			include a class
 			definition. Groovy scripts are converted at compile time to a class
 			which extends the
-			<code>groovy.lang.Script</code>
+			`groovy.lang.Script`
 			class.
 		</para>
 		<para>The classical "Hello world" program can be written as a short
@@ -75,11 +75,11 @@
 	</section>
 
 	<section id="groovy_compatibility">
-		<title>Compatibility with Java</title>
+=== Compatibility with Java</title>
 		<para>
 			Groovy runs inside the JVM and can use Java libraries. Every Groovy
 			type is a subclass of
-			<code>java.lang.Object</code>
+			`java.lang.Object`
 			.
 		</para>
 		<para>
@@ -87,7 +87,7 @@
 			code.
 			Every Groovy class is compiled into a Java class and
 			you can use the
-			<code>new</code>
+			`new`
 			operator in Java to create instances of the Groovy class. This
 			instance can be used to call methods or to pass as
 			parameter to a
@@ -112,7 +112,7 @@
 		<para>Groovy does currently not support Java 8 lambda expressions.</para>
 	</section>
 	<section id="groovy_feature">
-		<title>Reasons to use Groovy</title>
+=== Reasons to use Groovy</title>
 		<para>
 			Groovy focus on simplicity and ease of use as its leading
 			principle.
@@ -146,13 +146,13 @@
 					<para>
 						Simplification - Groovy does not require semicolons at the end of
 						statements. The
-						<code>return</code>
+						`return`
 						keyword can be left out, by default Groovy returns the last
 						expression of the method, top
 						level parentheses can be
 						left out,
 						the
-						<code>public</code>
+						`public`
 						keyword can be left out, it is the default in Groovy. It also
 						allows
 						optional typing.
@@ -195,7 +195,7 @@
 	</section>
 
 	<section id="groovy_imports">
-		<title>Imports in Groovy </title>
+=== Imports in Groovy </title>
 		<para>
 			Groovy automatically imports the following packages and classes which
 			can be used in Groovy without specifying the
@@ -229,7 +229,7 @@
 		</para>
 		<para>
 			Groovy allows that an import is shortened for later access, e.g.,
-			<code>import javax.swing.WindowConstants as WC</code>
+			`import javax.swing.WindowConstants as WC`
 			.
 		</para>
 	</section>

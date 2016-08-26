@@ -1,48 +1,34 @@
-<section id="nexus_unzip_plugin">
-	<title>Tycho/Nexus Unzip Plugin
+== Tycho/Nexus Unzip Plugin
 	
-		The
-		<ulink url="https://wiki.eclipse.org/Tycho/Nexus_Unzip_Plugin">Tycho/Nexus Unzip Plugin</ulink>
-		can be used to create virtual
-		repositories for unzipped versions of
-		zipped p2 update site.
+The
+https://wiki.eclipse.org/Tycho/Nexus_Unzip_Plugin[Tycho/Nexus Unzip Plugin]
+can be used to create virtual
+repositories for unzipped versions of
+zipped p2 update site.
 	
-	<section id="nexus_unzip_plugin_install">
-		<title>Installing the Tycho/Nexus Unzip Plugin
-		
-			Download the
-			<filename>bundle.zip</filename>
-			of the
-			<ulink
-				url="http://repo1.maven.apache.org/maven2/org/eclipse/tycho/nexus/unzip-repository-plugin/0.14.0/unzip-repository-plugin-0.14.0-bundle.zip">Tycho/Nexus Unzip Plugin</ulink>
-		
-		
-			The downloaded
-			<filename>bundle.zip</filename>
-			file, which contains the nexus plugins has to be extracted into the
-			<filename>sonatype-work/nexus/plugin-repository</filename>
-			folder of the Nexus installation.
-		
-		
-			The nexus server has to be restarted to install the plugins.
-			<code>./bin/nexus restart</code>
-		
-		
-			To validate that these plugins are properly installed the plugin
-			console can be used.
-		
-		
-			<mediaobject>
-				<imageobject>
-					<imagedata fileref="./images/plugin_console_with_unzip_plugin.png" />
-				
-			
-		
+=== Installing the Tycho/Nexus Unzip Plugin
+
+Download the
+`bundle.zip`
+of the
+http://repo1.maven.apache.org/maven2/org/eclipse/tycho/nexus/unzip-repository-plugin/0.14.0/unzip-repository-plugin-0.14.0-bundle.zip[Tycho/Nexus Unzip Plugin]
+
+The downloaded
+`bundle.zip`
+file, which contains the nexus plugins has to be extracted into the
+`sonatype-work/nexus/plugin-repository`
+folder of the Nexus installation.
+
+The nexus server has to be restarted to install the plugins.
+`./bin/nexus restart`
+
+To validate that these plugins are properly installed the plugin
+console can be used.
+
+image::plugin_console_with_unzip_plugin.png[]
 	
-	<section>
-		<title>Setting up an unzip repository
-		
-			See
-			<ulink url="https://wiki.eclipse.org/Tycho/Nexus_Unzip_Plugin">Tycho/Nexus Unzip Plugin</ulink>
-		
+=== Setting up an unzip repository
+
+See
+https://wiki.eclipse.org/Tycho/Nexus_Unzip_Plugin[Tycho/Nexus Unzip Plugin]
 	

@@ -1,19 +1,19 @@
 <section id="languagetool">
-	<title>Language Tool</title>
+== Language Tool</title>
 	<section id="languagetool_about">
-		<title>What is Language Tool?</title>
+=== What is Language Tool?</title>
 		<para>
-			<ulink url="https://www.languagetool.org">Language Tool</ulink>
+			https://www.languagetool.org">Language Tool</ulink>
 			is an Open Source tool for checking the style and the grammar of a text. It is written in Java. Language Tool
 			contains
 			thousands of rules to
 			detect
 			grammar and style pitfalls as well
 			as common typos. It is hosted at
-			<ulink url="https://github.com/languagetool-org/languagetool">Github Languagetools</ulink>.
+			https://github.com/languagetool-org/languagetool">Github Languagetools</ulink>.
 		</para>
 		<para>
-			<ulink url="https://github.com/vogellacompany/languagetool-eclipse-plugin">Eclipse plug-in for Language Tool</ulink>
+			https://github.com/vogellacompany/languagetool-eclipse-plugin">Eclipse plug-in for Language Tool</ulink>
 			provides integration of this spell checker into the Eclipse IDE.
 			This plug-in allows replacing the default
 			spell-checker with an enhanced
@@ -29,16 +29,14 @@
 			underlines.
 		</para>
 		<para>
-			<mediaobject>
-				<imageobject>
-					<imagedata fileref="images/languagetool-eclipse-editor.png" />
+image::languagetool-eclipse-editor.png[]
 				</imageobject>
 			</mediaobject>
 		</para>
 	</section>
 
 	<section id="languagetool_installation">
-		<title>Installation</title>
+=== Installation</title>
 		<para>You can install LanguageTool via an Eclipse update site:</para>
 		<para>
 			<programlisting language="text">
@@ -49,7 +47,7 @@
 	</section>
 
 	<section id="languagetool_usage">
-		<title>Usage</title>
+=== Usage</title>
 		<para>
 			To enable LanguageTool click
 			<menuchoice>
@@ -59,14 +57,12 @@
 			and select LanguageTool in the drop-down box.
 		</para>
 		<para>
-			<mediaobject>
-				<imageobject>
-					<imagedata fileref="images/languagetool-eclipse-preferences.png" />
+image::languagetool-eclipse-preferences.png[]
 				</imageobject>
 			</mediaobject>
 		</para>
 		<warning>
-			<title>Spell Checking</title>
+	=== Spell Checking</title>
 			<para>
 				Be sure to specify a language variant, i.e.,
 				American English
@@ -77,43 +73,43 @@
 		
 	</section>
 	<section id="languagetool_rules">
-		<title>Developing custom LanguageTools rules</title>
+=== Developing custom LanguageTools rules</title>
 		<para>
 			LanguageTool development takes place on GitHub at
-			<ulink url="https://github.com/languagetool-org/languagetool">LanguageTool project</ulink>
+			https://github.com/languagetool-org/languagetool">LanguageTool project</ulink>
 			. Contributing new rules for undetected errors is easy and only
 			requires
 			editing XML files which can be developed using
 			a
 			web-based
-			<ulink url="http://community.languagetool.org/ruleEditor2">Rule Editor</ulink>
+			http://community.languagetool.org/ruleEditor2">Rule Editor</ulink>
 			.
 
 		</para>
 		<para>
 			The Eclipse plug-in is available on
-			<ulink url="https://github.com/vogellacompany/languagetool-eclipse-plugin">LanguageTool Eclipse plug-in Github site</ulink>
+			https://github.com/vogellacompany/languagetool-eclipse-plugin">LanguageTool Eclipse plug-in Github site</ulink>
 			.
 
 		</para>
 		<para>
 			You can also write your own detection algorithms in Java or use the
-			<ulink url="http://wiki.languagetool.org/java-api">LanguageTool API</ulink>
+			http://wiki.languagetool.org/java-api">LanguageTool API</ulink>
 			to embed the functionality in your own Java projects.
 		</para>
 	</section>
 	<section id="languagetool_words">
-		<title>Reporting new words</title>
+=== Reporting new words</title>
 		<para>New words missing in the directory should be reported in https://github.com/kevina/wordlist/issues. Please check
 			if these words are already in the following directory: https://github.com/marcoagpinto/aoo-mozilla-en-dict
 		</para>
 	</section>
 	<section id="languagetool_onlineresources">
-		<title>Language tools forum</title>
+=== Language tools forum</title>
 
 		<para>
 			You find the public forum of Language Tool here
-			<ulink url="http://languagetool-user-forum.2306527.n4.nabble.com/">Language Tool forum</ulink>
+			http://languagetool-user-forum.2306527.n4.nabble.com/">Language Tool forum</ulink>
 			.
 		</para>
 	</section>

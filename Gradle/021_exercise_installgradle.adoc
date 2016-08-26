@@ -1,22 +1,22 @@
 <section id="exercise_installgradle" role="wrapper">
-	<title>Exercise: Installing Gradle
+== Exercise: Installing Gradle
 	<section id="exercise_installgradle_target">
-		<title>Target
+=== Target
 		In this exercise Gradle will be installed and configured.
 	
 	<section id="exercise_installgradle_requirements">
-		<title>Requirements
+=== Requirements
 		The usage of Gradle requires an JDK (Java Development Kit)
 			installation.
 		
 	
 	<section id="exercise_installgradle_download">
-		<title>Download Gradle
+=== Download Gradle
 		
 			Download the latest
 			_Complete distribution_
 			of Gradle from
-			<ulink url="http://gradle.org/gradle-download/">http://gradle.org/gradle-download/</ulink>
+			http://gradle.org/gradle-download/">http://gradle.org/gradle-download/</ulink>
 		
 		
 			It is a gradle-${version}-all.zip, where ${version} is a
@@ -27,7 +27,7 @@
 		
 	
 	<section id="exercise_installgradle_windows">
-		<title>Installing Gradle on Windows
+=== Installing Gradle on Windows
 		
 			Extract the contents of the downloaded zip file to
 			_C:\Program Files_
@@ -47,9 +47,7 @@
 		By pressing Win + Pause the systen settings can be opened.
 		
 		
-			<mediaobject>
-				<imageobject>
-					<imagedata fileref="images/system_settings.png" scale="50" />
+image::system_settings.png" scale="50" />
 				
 				<textobject>
 					<phrase>Windows System Settings</phrase>
@@ -66,9 +64,7 @@
 			button needs to be pressed.
 		
 		
-			<mediaobject>
-				<imageobject>
-					<imagedata fileref="images/user_and_system_variables.png"
+image::user_and_system_variables.png"
 						scale="50" />
 				
 				<textobject>
@@ -90,9 +86,7 @@
 			folder of the Gradle installation to the Path.
 		
 		
-			<mediaobject>
-				<imageobject>
-					<imagedata fileref="images/path_variables.png" scale="50" />
+image::path_variables.png" scale="50" />
 				
 				<textobject>
 					<phrase>Windows Path Variables</phrase>
@@ -101,7 +95,7 @@
 		
 	
 	<section id="exercise_installgradle_linux_mac">
-		<title>Installing Gradle on Linux/Mac
+=== Installing Gradle on Linux/Mac
 		
 			Extract the contents of the downloaded zip file to
 			_/opt/gradle_
@@ -123,7 +117,7 @@
 		
 	
 	<section id="exercise_installgradle_validate">
-		<title>Validate
+=== Validate
 		
 			Open a command line and type
 			`gradle`

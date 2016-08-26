@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <article>
 	<articleinfo>
-		<title>Google Bigtable Introduction - Tutorial
+=== Google Bigtable Introduction - Tutorial
 		<author>
 			<firstname>Lars</firstname>
 			<surname>Vogel</surname>
@@ -16,7 +16,7 @@
 		</releaseinfo>
 		
 		<abstract id="abstract">
-			<title>Google Bigtable
+	=== Google Bigtable
 			 This article gives an overview of Bigtable the Google solution
 				for storing data.
 			

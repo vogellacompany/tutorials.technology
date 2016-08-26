@@ -1,114 +1,69 @@
-<section id="nexus_p2_plugins">
-	<title>P2 Nexus Plugins
-	
-		With the
-		<ulink
-			url="http://search.maven.org/#search|ga|1|a%3A%22nexus-p2-bridge-plugin%22%20AND%20l%3A%22bundle%22">Nexus P2 Bridge Plugin</ulink>
-		and
-		<ulink
-			url="http://search.maven.org/#search|ga|1|a%3A%22nexus-p2-repository-plugin%22%20AND%20l%3A%22bundle%22">Nexus P2 Repository Plugin</ulink>
-		it is possible to create a proxy repository for p2 update sites.
-	
-	<section id="nexus_p2_plugins_install">
-		<title>Installing p2 Plugins
-		
-			Download the
-			<filename>bundle.zip</filename>
-			of
-			<ulink
-				url="http://search.maven.org/#search|ga|1|a%3A%22nexus-p2-bridge-plugin%22%20AND%20l%3A%22bundle%22">Nexus P2 Bridge Plugin</ulink>
-			and
-			<ulink
-				url="http://search.maven.org/#search|ga|1|a%3A%22nexus-p2-repository-plugin%22%20AND%20l%3A%22bundle%22">Nexus P2 Repository Plugin</ulink>
-		
-		
-			<mediaobject>
-				<imageobject>
-					<imagedata fileref="./images/mvncentral_p2_repo.png" />
-				
-			
-		
-		
-			These two downloaded
-			<filename>bundle.zip</filename>
-			files, which contain the nexus plugins have to be extracted into the
-			<filename>sonatype-work/nexus/plugin-repository</filename>
-			folder of the Nexus installation.
-		
-		
-			The nexus server has to be restarted to install the plugins.
-			<code>./bin/nexus restart</code>
-		
-		
-			To validate that these plugins are properly installed the plugin
-			console can be used.
-		
-		
-			<mediaobject>
-				<imageobject>
-					<imagedata fileref="./images/plugin_console_with_p2_plugins.png" />
-				
-			
-		
-	
-	<section>
-		<title>Creating a proxy for p2 update sites
-		
-			In the repositories tab a
-			<guilabel>Proxy Repository</guilabel>
-			can be created.
-		
-		
-			<mediaobject>
-				<imageobject>
-					<imagedata fileref="./images/create_proxy_repo.png" />
-				
-			
-		
-		
-			A
-			<guilabel>Repository ID</guilabel>
-			and a
-			<guilabel>Repository Name</guilabel>
-			has to be specifed. (1)
-		
-		
-			The previously installed p2 plugins offer additional providers like
-			<guilabel>p2</guilabel>
-			. (2)
-		
-		
-			The
-			<guilabel>Remote Storage Location</guilabel>
-			is the p2 update site url, e.g.,
-			http://download.eclipse.org/eclipse/updates/4.6milestones.
-		
-		
-			<mediaobject>
-				<imageobject>
-					<imagedata fileref="./images/new_p2_proxy_repo.png" />
-				
-			
-		
-		Finally this must be saved and then the new proxy will be
-			created.
-		
-			<mediaobject>
-				<imageobject>
-					<imagedata fileref="./images/final_p2_proxy_repo.png" />
-				
-			
-		
-		
-			After settings this up, a target definition can make use of this
-			proxy, but using the given URL:
-			http://localhost:8081/nexus/content/repositories/Eclipse-Neon-Milestones/
-		
-		
-			<mediaobject>
-				<imageobject>
-					<imagedata fileref="./images/nexus_updatesite_consumer.png" />
-				
-			
-		
-	
+== P2 Nexus Plugins
+
+With the
+http://search.maven.org/#search|ga|1|a%3A%22nexus-p2-bridge-plugin%22%20AND%20l%3A%22bundle%22[Nexus P2 Bridge Plugin]
+and
+http://search.maven.org/#search|ga|1|a%3A%22nexus-p2-repository-plugin%22%20AND%20l%3A%22bundle%22[Nexus P2 Repository Plugin]
+it is possible to create a proxy repository for p2 update sites.
+
+=== Installing p2 Plugins
+
+Download the
+`bundle.zip`
+of
+http://search.maven.org/#search|ga|1|a%3A%22nexus-p2-bridge-plugin%22%20AND%20l%3A%22bundle%22[Nexus P2 Bridge Plugin]
+and
+http://search.maven.org/#search|ga|1|a%3A%22nexus-p2-repository-plugin%22%20AND%20l%3A%22bundle%22[Nexus P2 Repository Plugin]
+
+image::mvncentral_p2_repo.png[]
+
+These two downloaded
+`bundle.zip`
+files, which contain the nexus plugins have to be extracted into the
+`sonatype-work/nexus/plugin-repository`
+folder of the Nexus installation.
+
+The nexus server has to be restarted to install the plugins.
+`./bin/nexus restart`
+
+To validate that these plugins are properly installed the plugin
+console can be used.
+
+image::plugin_console_with_p2_plugins.png[]
+
+=== Creating a proxy for p2 update sites
+
+In the repositories tab a
+_Proxy Repository_
+can be created.
+
+image::create_proxy_repo.png[]
+
+A
+_Repository ID_
+and a
+_Repository Name_
+has to be specifed. (1)
+
+The previously installed p2 plugins offer additional providers like
+_p2_
+. (2)
+
+The
+_Remote Storage Location_
+is the p2 update site url, e.g.,
+http://download.eclipse.org/eclipse/updates/4.6milestones.
+
+image::new_p2_proxy_repo.png[]
+
+Finally this must be saved and then the new proxy will be
+created.
+
+image::final_p2_proxy_repo.png[]
+
+After settings this up, a target definition can make use of this
+proxy, but using the given URL:
+http://localhost:8081/nexus/content/repositories/Eclipse-Neon-Milestones/
+
+image::nexus_updatesite_consumer.png[]
+

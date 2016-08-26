@@ -1,5 +1,5 @@
 <section id="gradeintro_plugins">
-	<title>Gradle plug-ins
+== Gradle plug-ins
 	<indexterm>
 		<primary>Gradle
 		</primary>
@@ -42,7 +42,7 @@
 	
 	
 		Gradle provides also a registry for plug-ins via
-		<ulink url="http://plugins.gradle.org/">Gradle Plugin search</ulink>
+		http://plugins.gradle.org/">Gradle Plugin search</ulink>
 		.
 	
 

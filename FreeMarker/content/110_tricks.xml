@@ -1,8 +1,8 @@
 <section id="freemarkertricks">
-	<title>Useful FTL tricks
+== Useful FTL tricks
 
 	<section id="freemarkertricks_macro">
-		<title>Reuse common template fragments
+=== Reuse common template fragments
 
 		
 			When you find yourself copy-pasting common parts between templates a lot,
@@ -11,11 +11,11 @@
 
 		
 			Continuing our last example, create a new folder called
-			<filename>lib</filename>
+			`lib`
 			inside the
-			<filename>templates</filename>
+			`templates`
 			directory, and there create a file called
-			<filename>utils.ftl</filename>
+			`utils.ftl`
 			, with
 			this content:
 		
@@ -29,7 +29,7 @@
 
 		
 			Now you can simplify
-			<filename>helloworld.ftl</filename>
+			`helloworld.ftl`
 			like this:
 		
 
@@ -44,14 +44,14 @@
 			Another way of reusing template fragments is moving the common
 			fragment into
 			its own ftl file. Then just insert it with
-			<code>&lt;#include "lib/myfragment.ftl"></code>
+			`&lt;#include "lib/myfragment.ftl">`
 			. This is less flexible than macros,
 			but simpler in concept: it mimics copy-pasting.
 		
 	
 
 	<section id="freemarkertricks_variables">
-		<title>Variables
+=== Variables
 		
 			You can define and assign content to variables inside the FTL files for easy reuse.
 		
@@ -65,12 +65,12 @@
 
 
 	<section id="freemarkertricks_macro">
-		<title>Handling null/undefined values
+=== Handling null/undefined values
 
 		
 			FreeMarker requires you to provide an explicit default for variables, so avoid
 			values that are
-			<code>null</code>
+			`null`
 			or undefined:
 		
 
@@ -84,22 +84,22 @@
 	
 
 	<section id="freemarkertricks_escape">
-		<title>Escape
+=== Escape
 		
 			When generating HTML, it's important to escape
-			<code>&lt;</code>
+			`&lt;`
 			,
-			<code>&amp;</code>
+			`&amp;`
 			,
 			etc. in values that were not meant to store HTML and can contain these
 			problematic characters.
 			You can apply such escaping like
-			<code>${message?html}</code>
+			`${message?html}`
 			.
 			You can also ask FreeMarker to add
-			<code>?html</code>
+			`?html`
 			to all
-			<code>${}</code>
+			`${}`
 			-s in a section like this:
 		
 
@@ -112,13 +112,13 @@
 
 		
 			It's important to understand that
-			<code>#escape</code>
+			`#escape`
 			only affects the
-			<code>${}</code>
+			`${}`
 			bits that are inside the enclosed section in the template file when you
 			look
 			at it in a text editor. That means,
-			<code>${}</code>
+			`${}`
 			embracements which are in other templates or macros
 			called from there, won't be affected.
 		

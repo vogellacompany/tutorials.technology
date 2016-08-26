@@ -1,13 +1,13 @@
 <section id="grep">
-	<title>Grep
+== Grep
 	
 		Grep is a command line tool to search for
-		<ulink url="http://www.vogella.com/tutorials/JavaRegularExpressions/article.html"> regular expressions</ulink>
+		http://www.vogella.com/tutorials/JavaRegularExpressions/article.html"> regular expressions</ulink>
 		.
 		Grep will print the
 		matching
 		line to the output and with the
-		<parameter>--color</parameter>
+		`--color`
 		flag
 		you can highlight the
 		matching strings.
@@ -22,7 +22,7 @@
 	
 	
 		Use the
-		<parameter>-r</parameter>
+		`-r`
 		"recursive" option to search a directory and all
 		files
 		included within it.

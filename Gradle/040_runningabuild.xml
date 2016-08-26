@@ -1,5 +1,5 @@
 <section id="gradle_runbuild">
-	<title>Running a build
+== Running a build
 	<indexterm>
 		<primary>Gradle</primary>
 		<secondary>Running a build</secondary>

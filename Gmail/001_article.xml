@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <article>
 	<articleinfo>
-		<title>Collection of Helpful Programs</title>
+=== Collection of Helpful Programs</title>
 		<author>
 			<firstname>Lars</firstname>
 			<surname>Vogel</surname>
@@ -16,7 +16,7 @@
 		</releaseinfo>
 		
 		<abstract id="abstract">
-			<title>Helpful programs</title>
+	=== Helpful programs</title>
 			<para> This articles lists useful programs which I like to use. The
 				article is not intended to contain any useful information for other
 				users then myself.

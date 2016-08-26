@@ -1,11 +1,11 @@
 <section id="overview">
-	<title>Apache Hadoop</title>
+== Apache Hadoop</title>
 	<section id="overview">
-		<title>Overview</title>
+=== Overview</title>
 		<para>
 			Apache Hadoop is a software solution for distributed computing of
 			large datasets. Hadoop provides a distributed filesystem (HDFS) and a
-			<ulink url="http://www.vogella.com/tutorials/MapReduce/article.html">MapReduce</ulink>
+			http://www.vogella.com/tutorials/MapReduce/article.html">MapReduce</ulink>
 			implementation.
 		</para>
 		<para>A special computer acts as the "name node". This computer saves
@@ -15,7 +15,7 @@
 			Hadoop project is working on solutions for this. </para>
 	</section>
 	<section id="tasks">
-		<title>Typical tasks</title>
+=== Typical tasks</title>
 		<para> Apache Hadoop can be used to filter and aggregate data, e.g. a
 			typical use case would be the analysis of web server logs file to find
 			the most visited pages. But MapReduce has been use to transverse the
@@ -24,7 +24,7 @@
 
 
 	<section id="functions">
-		<title>Writing the map and reduce functions</title>
+=== Writing the map and reduce functions</title>
 		<para>
 			Hadoop allow that map and reduce functions are written in Java.
 			Hadoop provides also linker so that map and reduce functions can be

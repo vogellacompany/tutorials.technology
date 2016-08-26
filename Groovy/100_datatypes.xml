@@ -1,13 +1,13 @@
 <section id="datatypes" role="wrapper">
-	<title>Groovy data types</title>
+== Groovy data types</title>
 	<section id="groovyobjects_optinaltypes">
-		<title>Optional typed variables</title>
+=== Optional typed variables</title>
 		<para>
 			Variables and fields can be typed as in Java or your can use the
-			<code>def</code>
+			`def`
 			keyword to define a variable. As a rule of thumb, use the type if it
 			adds clarity to your code otherwise use
-			<code>def</code>
+			`def`
 			.
 		</para>
 		<para>
@@ -28,17 +28,17 @@
 		</para>
 	</section>
 	<section id="groovyobjects_generics">
-		<title>Groovy and generics</title>
+=== Groovy and generics</title>
 		<para>
 			Groovy supports the syntax of generics but does not enforce it. For example, you can put any type into a
-			<code><![CDATA[List<Integer>]]></code>
+			`<![CDATA[List<Integer>]]>`
 			collection. To enforce type checking in Groovy you can use AST transformations. See
 			<xref linkend="asttransformations" />
 			to learn more about AST transformations.
 		</para>
 	</section>
 	<section id="datatypes_overview">
-		<title>All types are objects</title>
+=== All types are objects</title>
 		<para> All variables in Groovy are objects (reference variables),
 			Groovy does not use primitive variables. Groovy still
 			allows to use
@@ -50,7 +50,7 @@
 	</section>
 
 	<section id="datatypes_numbers">
-		<title>Numbers</title>
+=== Numbers</title>
 
 		<para>Numbers are objects in Groovy, as well as variables defined as
 			int, float, double, etc. If you use numbers in
@@ -64,13 +64,13 @@
 		</para>
 		<para>
 			As numbers are object they have also methods for example the
-			<code>times</code>
+			`times`
 			method which executes a block of code the number of times defined by
 			the number.
 		</para>
 		<para>
 			Create the following class called
-			<code>TypesTest</code>
+			`TypesTest`
 			to play with numbers.
 		</para>
 		<para>
@@ -154,12 +154,12 @@
 	</section>
 
 	<section id="datatypes_ranges">
-		<title>Ranges</title>
+=== Ranges</title>
 		<para>
 			Groovy supports the
-			<code>Range</code>
+			`Range`
 			data type is a
-			<code>Collection</code>
+			`Collection`
 			. Ranges consists of two values separated by two dots. Ranges can for
 			example be used to define a loop statement.
 		</para>
@@ -175,14 +175,14 @@
 
 		<para>
 			Every object can be used as
-			<code>Range</code>
+			`Range`
 			long as it
 			implements the
-			<code>previous()</code>
+			`previous()`
 			and
-			<code>next()</code>
+			`next()`
 			methods and the
-			<code>java.util.Comparable</code>
+			`java.util.Comparable`
 			interface. The methods map to the
 			++ and -- operators.
 		</para>

@@ -1,7 +1,7 @@
 <section id="alias" role="wrapper">
-	<title>Define alias
+== Define alias
 	<section id="alias_definition">
-		<title>Using an alias
+=== Using an alias
 		
 			LARSPRIMARYINDEX"alias"LARSPRIMARYINDEX
 		
@@ -20,7 +20,7 @@
 	
 
 	<section id="alias_example">
-		<title>Alias examples
+=== Alias examples
 		
 			The following defines an
 			_alias_

@@ -23,7 +23,7 @@ The default installation directory is _/var/lib/jenkins_ under Ubuntu.
 Download the _jenkins.war_ 	file from https://jenkins.io/[Jenkins Homepage].
 From this file you can start Jenkins directly via the command line with `java -jar jenkins*.war`.
 
-If you start it locally, you find it running under the following URL: <ulink url="http://localhost:8080/">http://localhost:8080/</ulink>
+If you start it locally, you find it running under the following URL: http://localhost:8080/">http://localhost:8080/</ulink>
 		
 		
 To run it in your Tomcat server, put the .WAR file
@@ -32,7 +32,7 @@ _webapps_
 directory. If you start
 Tomcat, your Jenkins installation will be
 available under
-<ulink url="http://localhost:8080/jenkins"> http://localhost:8080/jenkins</ulink>
+http://localhost:8080/jenkins"> http://localhost:8080/jenkins</ulink>
 		
 [NOTE]
 ====	

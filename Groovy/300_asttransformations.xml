@@ -1,7 +1,7 @@
 <section id="asttransformations">
-	<title>Compile-time meta programming and AST transformations</title>
+== Compile-time meta programming and AST transformations</title>
 	<section id="asttransformations1">
-		<title>What are AST transformations?</title>
+=== What are AST transformations?</title>
 		<para>
 			An
 			<wordasword>Abstract Syntax Tree</wordasword>
@@ -20,24 +20,24 @@
 	</section>
 
 	<section id="asttransformations_tupleConstructor">
-		<title>@TupleConstructor</title>
+=== @TupleConstructor</title>
 		<para>
 			If a class is annotated with
-			<code>@TupleConstructor</code>
+			`@TupleConstructor`
 			Groovy generates a constructor using all fields.
 		</para>
 	</section>
 	<section id="asttransformations_equals">
-		<title>@EqualsAndHashCode</title>
+=== @EqualsAndHashCode</title>
 		<para>
 			The
-			<code>@EqualsAndHashCode</code>
+			`@EqualsAndHashCode`
 			annotation
 			can be
 			applied to a class, creates the
-			<code>equals</code>
+			`equals`
 			and
-			<code>hashCode</code>
+			`hashCode`
 			method. Includes fields can be customized.
 		</para>
 		<para>
@@ -49,10 +49,10 @@
 
 	</section>
 	<section id="asttransformations_toString">
-		<title>@ToString for beans</title>
+=== @ToString for beans</title>
 		<para>
 			The
-			<code>@ToString</code>
+			`@ToString`
 			annotation
 			can be
 			applied to a class, generates a toString method,
@@ -68,9 +68,9 @@
 		<para>
 			This annotation typically only considers properties (non-private
 			fields) but you can include them via
-			<code>@ToString(includeFields=true)</code>
+			`@ToString(includeFields=true)`
 			. Via
-			<code>@ToString(excludes=list)</code>
+			`@ToString(excludes=list)`
 			we can exclude a list of fields and properties.
 		</para>
 
@@ -82,32 +82,32 @@
 
 	</section>
 	<section id="asttransformations_canonical">
-		<title>@Canonical </title>
+=== @Canonical </title>
 		<para>Combines @ToString, @EqualsAndHashCode and
 			@TupleConstructor.
 		</para>
 	</section>
 	<section id="asttransformations_immutable">
-		<title>@Immutable for immutable Java beans</title>
+=== @Immutable for immutable Java beans</title>
 		<para>This annotation marks all fields in a class as final and ensure that there are no setters generate for the
 			fields. It also creates a constructor for all fields, marks the class as final.
 		</para>
 	</section>
 
 	<section id="asttransformations_delegate">
-		<title>@Delegate</title>
+=== @Delegate</title>
 		<para>@Delegate can be used on a field. All methods on the delegate are also available on the class with defines the
 			delegate. If several delegates define the same method, it is recommended to override the method. If you do not
 			override Groovy will use the first method it finds.
 		</para>
 	</section>
 	<section id="asttransformations_sort">
-		<title>@Sortable for beans</title>
+=== @Sortable for beans</title>
 		<para>
 			You can automatically created a
-			<code>Comparator</code>
+			`Comparator`
 			for a Groovy bean by annotating it with
-			<code>@Sortable</code>
+			`@Sortable`
 			. Fields are used in the order of declaration.
 		</para>
 		<para>You can also include/exclude fields.</para>
@@ -118,10 +118,10 @@
 		</para>
 	</section>
 	<section id="asttransformations_memoize">
-		<title>@Memoize for methods</title>
+=== @Memoize for methods</title>
 		<para>
 			If the
-			<code>@Memoize</code>
+			`@Memoize`
 			annotation is to a method the Groovy runtime caches the result for
 			invocations with the same parameters. If the
 			annotated method is
@@ -146,12 +146,12 @@
 
 	</section>
 	<section id="asttransformations_annotationCollector">
-		<title>@AnnotationCollector for combining AST Transformations
+=== @AnnotationCollector for combining AST Transformations
 			annotations
 		</title>
 		<para>
 			The
-			<code>AnnotationCollector</code>
+			`AnnotationCollector`
 			allows to combine other AST Transformations annotations.
 		</para>
 
@@ -179,24 +179,24 @@
 	</section>
 
 	<section id="asttransformations_bindable">
-		<title>@Bindable observable Properties</title>
+=== @Bindable observable Properties</title>
 		<para>
 			The Java beans specification requires that Java beans support
-			<code>PropertyChangeSupport</code>
+			`PropertyChangeSupport`
 			for all fields.
 		</para>
 		<para>
 			The
-			<code>@groovy.beans.Bindable</code>
+			`@groovy.beans.Bindable`
 			annotation can be applied to a whole class or a method. If the
 			property is applied to a
 			class, all methods will be
 			treated as having
 			the
-			<code>@Bindable</code>
+			`@Bindable`
 			annotation. This will trigger Groovy to generated
 			a
-			<code>java.beans.PropertyChangeSupport</code>
+			`java.beans.PropertyChangeSupport`
 			property in the class and generate methods so that listeners can
 			register and deregister. Also all setter methods
 			will
@@ -210,10 +210,10 @@
 	</section>
 
 	<section id="asttransformations_builder">
-		<title>@Builder</title>
+=== @Builder</title>
 		<para>
 			The
-			<code>@Builder</code>
+			`@Builder`
 			can be applied to a class and generates transparently a builder for
 			this class.
 		</para>
@@ -231,13 +231,13 @@
 	</section>
 
 	<section id="groovy_grapes">
-		<title>@Grab for dependency management</title>
+=== @Grab for dependency management</title>
 		<para>
 			Groovy allows to add Maven dependencies to your Groovy script or
 			Groovy class using the
-			<code>@Grab</code>
+			`@Grab`
 			annotation. Before a Groovy program is executed it reads the
-			<code>@Grab</code>
+			`@Grab`
 			annotation, resolves the Maven dependencies, downloads them and adds
 			them to the classpath of the program.
 		</para>
@@ -250,23 +250,23 @@
 		<para>
 			Using the @GrabResolver annotation you can specify the Maven
 			repository you want to use. For example
-			<code>@GrabResolver(name='myrepo',
+			`@GrabResolver(name='myrepo',
 				root='http://myrepo.my-company.com/')
-			</code>
+			`
 			.
 		</para>
 
 
 	</section>
 	<section id="asttransformations_others">
-		<title>Other AST Transformations</title>
+=== Other AST Transformations</title>
 		<para>
 			The following table lists other commonly used annotations in
 			Groovy
 			code:
 
 			<table frame='all'>
-				<title>AST transformation annotations</title>
+		=== AST transformation annotations</title>
 				<tgroup cols='2' align='left' colsep='1' rowsep='1'>
 					<colspec colname='c1' colwidth="1*" />
 					<colspec colname='c2' colwidth="2*" />
@@ -297,7 +297,7 @@
 		</para>
 	</section>
 	<section id="asttransformations2">
-		<title>Writing custom transformations</title>
+=== Writing custom transformations</title>
 		<para>You can also define you custom local or global transformations.
 			For a local transformation you would write your
 			own annotation and

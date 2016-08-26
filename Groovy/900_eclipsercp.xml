@@ -1,5 +1,5 @@
 <section id="eclipsercp">
-	<title>Eclipse RCP</title>
+== Eclipse RCP</title>
 	<para>
 		It is possible to use Groovy code within Eclipse RCP
 		applications. For
@@ -19,7 +19,7 @@
 				</para>
 				<para>
 					Add the
-					<code>org.codehaus.groovy</code>
+					`org.codehaus.groovy`
 					plug-in to the dependencies of
 					the plug-in that contains
 					Groovy code.
@@ -29,7 +29,7 @@
 				<para>Develop some Groovy code</para>
 			</listitem>
 			<listitem>
-				<para>Add <code>org.codehaus.groovy</code> and its dependencies to your Eclipse RCP product configuration file.</para>
+				<para>Add `org.codehaus.groovy` and its dependencies to your Eclipse RCP product configuration file.</para>
 			</listitem>
 		</itemizedlist>
 	</para>

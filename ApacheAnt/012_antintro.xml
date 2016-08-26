@@ -1,7 +1,7 @@
 <section id="antoverview">
-	<title>Apache Ant Overview</title>
+== Apache Ant Overview</title>
 	<section id="antoverview_definition">
-		<title>What is Apache Ant?</title>
+=== What is Apache Ant?</title>
 		<para>
 			<wordasword>Apache Ant</wordasword>
 			(Ant) is a general purpose build tool. Ant is an abbreviation for
@@ -21,7 +21,7 @@
 	</section>
 
 	<section id="antoverview_definition">
-		<title>Configuring Apache Ant</title>
+=== Configuring Apache Ant</title>
 		<para>
 			A Java build
 			process typically includes:
@@ -38,9 +38,9 @@
 		<para>
 			Ant
 			uses an
-			<filename>xml</filename>
+			`xml`
 			file for its configuration. The default file name is
-			<filename>build.xml</filename>
+			`build.xml`
 			.
 			Ant
 			builds are based on three blocks:
@@ -87,7 +87,7 @@
 		</para>
 		<para>
 			In your
-			<filename>build.xml</filename>
+			`build.xml`
 			file you can
 			specify
 			the default

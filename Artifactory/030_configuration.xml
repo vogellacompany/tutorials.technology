@@ -1,31 +1,29 @@
 <section id="artifactory_repository_config">
-	<title>Configuration of Artifactory
+== Configuration of Artifactory
 	
 		Once an Artifactory instance is running its web
 		interface
 		can be
 		accessed under this URL:
-		<ulink url="http://localhost:8081/artifactory/webapp/">http://localhost:8081/artifactory/webapp/</ulink>
+		http://localhost:8081/artifactory/webapp/">http://localhost:8081/artifactory/webapp/</ulink>
 	
 	<section id="artifactory_user_settings">
-		<title>User Settings
+=== User Settings
 		
 			The default user is
-			<parameter>admin</parameter>
+			`admin`
 			and the password is
-			<parameter>password</parameter>
+			`password`
 			.
 		
 	
 	<section id="artifactory_repos">
-		<title>Repositories in Artifactory
+=== Repositories in Artifactory
 		
 			Artifactory contains some repositories by default:
 		
 		
-			<mediaobject>
-				<imageobject>
-					<imagedata fileref="images/artifactory-artifacts-ui.png" />
+image::artifactory-artifacts-ui.png[]
 				
 			
 		
@@ -36,13 +34,11 @@
 			Gradle.
 		
 		
-			<mediaobject>
-				<imageobject>
-					<imagedata fileref="images/artifactory-ui-set-me-up.png" />
+image::artifactory-ui-set-me-up.png[]
 				
 			
 		
 		
-			But concerning build tool configuration refer to the <ulink url="http://www.vogella.com/tutorials/ApacheMaven/article.html">Maven</ulink> and <ulink url="http://www.vogella.com/tutorials/Gradle/article.html">Gradle</ulink> tutorials.
+			But concerning build tool configuration refer to the http://www.vogella.com/tutorials/ApacheMaven/article.html">Maven</ulink> and http://www.vogella.com/tutorials/Gradle/article.html">Gradle</ulink> tutorials.
 		
 	

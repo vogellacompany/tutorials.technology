@@ -1,7 +1,7 @@
 <section id="gradle_multiproject_build">
-	<title>Building multiple projects with Gradle
+== Building multiple projects with Gradle
 	<section id="gradle_multiproject_build_structure">
-		<title>Creating a multi project build structure
+=== Creating a multi project build structure
 		
 			A business application usually does not consist of only one
 			single project/module, but has many projects, which
@@ -66,15 +66,13 @@
 			</programlisting>
 		
 		
-			<mediaobject>
-				<imageobject>
-					<imagedata fileref="images/projects_task.png" />
+image::projects_task.png[]
 				
 			
 		
 	
 	<section>
-		<title>Specifying a general build configuration
+=== Specifying a general build configuration
 		
 			In a
 			_build.gradle_
@@ -103,7 +101,7 @@
 		
 	
 	<section>
-		<title>Project specific configurations and dependencies
+=== Project specific configurations and dependencies
 		
 			The
 			`core`

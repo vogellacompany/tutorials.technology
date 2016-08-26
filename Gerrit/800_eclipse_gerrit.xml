@@ -1,5 +1,5 @@
 <section id="eclipsegerrit_push">
-	<title>Gerrit support in Eclipse</title>
+== Gerrit support in Eclipse</title>
 	<para>The Gerrit support in Eclipse is very good, that even customers which use a different IDE, use Eclipse as Gerrit
 		client.</para>
 	<para>
@@ -17,7 +17,7 @@
 		change
 		the configuration to push the
 		local master to
-		<code>refs/for/master</code>
+		`refs/for/master`
 		instead.
 	</para>
 	<para>
@@ -31,9 +31,7 @@
 		.
 	</para>
 	<para>
-		<mediaobject>
-			<imageobject>
-				<imagedata fileref="images/gerrit_pushconfiguration10.png" />
+image::gerrit_pushconfiguration10.png[]
 			</imageobject>
 			<textobject>
 				<phrase>Gerrit configuration in the Git repository view</phrase>

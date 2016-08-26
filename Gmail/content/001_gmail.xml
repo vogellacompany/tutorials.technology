@@ -1,7 +1,7 @@
 <section id="gmail">
-	<title>Gmail</title>
+== Gmail</title>
 	<section id="gmailsearch">
-		<title>Advanced search features</title>
+=== Advanced search features</title>
 		<para>
 			Gmail allows to search via pre-defined values. For example:
 
@@ -16,7 +16,7 @@
 		</para>
 	</section>
 	<section id="gmaillabels">
-		<title>Assign automatic labels to emails</title>
+=== Assign automatic labels to emails</title>
 		<para>
 			If you register to a mailing list you can put the message
 			automatically
@@ -32,9 +32,7 @@
 			Create a label named, for example, "Derby"
 		</para>
 		<para>
-			<mediaobject>
-				<imageobject>
-					<imagedata fileref="images/gmaillabel1.jpg" />
+image::gmaillabel1.jpg" />
 
 				</imageobject>
 
@@ -60,7 +58,7 @@
 
 	</section>
 	<section id="gmail_emailtemplates">
-		<title>Email templates</title>
+=== Email templates</title>
 		<para>
 			To activate templates select
 			<menuchoice>

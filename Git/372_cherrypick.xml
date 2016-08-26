@@ -1,5 +1,5 @@
 <section id="cherrypick_example">
-	<title>Example: Using cherry-pick
+== Example: Using cherry-pick
 	
 		In the following example you create a new branch and commit two
 		changes.

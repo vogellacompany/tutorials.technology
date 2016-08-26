@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <article>
 	<articleinfo>
-		<title>H2 database engine - Tutorial
+=== H2 database engine - Tutorial
 		<author>
 			<firstname>Lars</firstname>
 			<surname>Vogel</surname>
@@ -16,7 +16,7 @@
 		</releaseinfo>
 		
 		<abstract id="abstract">
-			<title>H2 database engine
+	=== H2 database engine
 			 This tutorial explains how to install H2 database engine.
 			
 		

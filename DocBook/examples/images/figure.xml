@@ -1,8 +1,8 @@
 <figure>
-	<title>Logo</title>
+== Logo</title>
 	<mediaobject>
 		<imageobject>
-			<imagedata fileref="images/logo.png"/>
+			<imagedata fileref="images/logo.png[]
 		</imageobject>
 		<textobject>
 			<phrase>Our Company Logo</phrase>

@@ -1,10 +1,10 @@
 <section id="kindle">
-	<title>Kindle Publishing</title>
+== Kindle Publishing</title>
 	<section id="kindle_intro">
-		<title>Kindle Publishing</title>
+=== Kindle Publishing</title>
 		<para>
 			See
-			<ulink url="https://kdp.amazon.com/self-publishing/help"> https://kdp.amazon.com/self-publishing/help</ulink>
+			https://kdp.amazon.com/self-publishing/help"> https://kdp.amazon.com/self-publishing/help</ulink>
 		</para>
 		.
 		<para> "Kindle Previewer" can be used to view mobipocket.</para>
@@ -31,7 +31,7 @@ Calibre to preview Ebooks
 	</section>
 
 	<section id="kindle_publisher">
-		<title>Amazon Publisher Page</title>
+=== Amazon Publisher Page</title>
 		<para>
 			https://authorcentral.amazon.de
 			https://authorcentral.amazon.co.uk
@@ -41,7 +41,7 @@ Calibre to preview Ebooks
 	</section>
 
 	<section id="print">
-		<title>Print Books</title>
+=== Print Books</title>
 		<para>
 		CreateSpace
 		</para>

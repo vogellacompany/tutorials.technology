@@ -1,8 +1,8 @@
 <section id="retrievefiles" role="wrapper">
-	<title>Retrieving files from the history
+== Retrieving files from the history
 
 	<section id="retrievefiles_show">
-		<title>View file in different revision
+=== View file in different revision
 		
 			LARSPRIMARYINDEX"git show"LARSPRIMARYINDEX
 		
@@ -40,7 +40,7 @@ include::./examples/show/showrev.txt[]
 
 	
 	<section id="retrievefiles_fromcommit">
-		<title>Restore a deleted file in a Git repo
+=== Restore a deleted file in a Git repo
 		
 			You can checkout a file from the commit. To find the commit
 			which
@@ -60,7 +60,7 @@ include::./examples/restore/restoredeletedfile.txt[]
 
 
 	<section id="retrievefiles_finddeletedfile">
-		<title>See which commit deleted a file
+=== See which commit deleted a file
 		
 			LARSPRIMARYINDEX"Find commit which deleted a file"LARSPRIMARYINDEX
 		

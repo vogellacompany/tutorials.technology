@@ -1,6 +1,6 @@
 
 <section id="environ">
-	<title>Environment Variables
+== Environment Variables
 	<table frame='all'>
 		<tgroup cols='2' align='left' colsep='1' rowsep='1'>
 			<colspec colname='c1' />
@@ -43,18 +43,18 @@
 	</table>
 
 	<section id="environ_path">
-		<title>Add a directory to the path
+=== Add a directory to the path
 
 		
 			The
-			<parameter>PATH</parameter>
+			`PATH`
 			environment variable is where the system will look for
 			executable
 			files. To temporary add the
-			<filename>/home/vogella/bin</filename>
+			`/home/vogella/bin`
 			directory
 			to the
-			<parameter>PATH</parameter>
+			`PATH`
 			use the following command.
 		
 		
@@ -67,12 +67,12 @@
 			If you want to add a directory permanently to the path, you can
 			edit /
 			create the file
-			<filename>.bashrc</filename>
+			`.bashrc`
 			and add the following line to
 			the
 			file. Every new directory in the path
 			must start with
-			<parameter>:</parameter>
+			`:`
 			.
 		
 
@@ -84,7 +84,7 @@
 		
 		
 			Open a new shell to make the changes in the
-			<filename>.bashrc</filename>
+			`.bashrc`
 			file active.
 		
 	</section>

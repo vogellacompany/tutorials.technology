@@ -1,7 +1,7 @@
 <section id="python">
-	<title>Overview</title>
+== Overview</title>
 	<section id="python_overview">
-		<title>What is Python</title>
+=== What is Python</title>
 		<para>
 			<wordasword>Python</wordasword>
 			is an interpreted programming language and claims to be a
@@ -59,7 +59,7 @@
 
 	</section>
 	<section id="python_blocks">
-		<title>Block concept in
+=== Block concept in
 			<wordasword>Python</wordasword>
 			via indentation</title>
 		<para>
@@ -85,7 +85,7 @@
 		</para>
 	</section>
 	<section id="python_tutorial">
-		<title>About this tutorial</title>
+=== About this tutorial</title>
 		<para>This tutorial will first explain how to install Python and the
 			Python plugins for Eclipse. It will then create a small Python
 			project to show the usage of the plugin. Afterwards the general

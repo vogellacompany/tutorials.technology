@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <article>
 	<articleinfo>
-		<title>Webstandards - Overview - Tutorial</title>
+=== Webstandards - Overview - Tutorial</title>
 		<author>
 			<firstname>Lars</firstname>
 			<surname>Vogel</surname>
@@ -15,7 +15,7 @@
 		</releaseinfo>
 		
 		<abstract id="abstract">
-			<title>Webstandards</title>
+	=== Webstandards</title>
 			<para>Short overview of web standards, e.g. web server, HTML, HTTP
 				and
 				URL's.

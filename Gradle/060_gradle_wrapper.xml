@@ -1,5 +1,5 @@
 <section id="gradewrapper">
-	<title>Using the Gradle wrapper
+== Using the Gradle wrapper
 	
 		The idea of the Gradle wrapper is that a user should not need to install Gradle to run the build with a predefined
 		version and settings of Gradle.
@@ -59,7 +59,7 @@
 	
 
 	<section id="gradle_opts_for_wrapper">
-		<title>Configure GRADLE_OPTS for the Gradle wrapper
+=== Configure GRADLE_OPTS for the Gradle wrapper
 		
 			GRADLE_OPTS can also be defined inside the
 			_gradlew_

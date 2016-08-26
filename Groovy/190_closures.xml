@@ -1,7 +1,7 @@
 <section id="groovyclosures" role="wrapper">
-	<title>Using lambdas and closures in Groovy</title>
+== Using lambdas and closures in Groovy</title>
 	<section id="groovyclosures1">
-		<title>Defining closures</title>
+=== Defining closures</title>
 		<para>
 			Closures are
 			<wordasword>code fragments</wordasword>
@@ -13,10 +13,10 @@
 		</para>
 		<para>
 			A closure in Groovy is defined via the following construct:
-			<code>{list of parameters-> closure body}</code>
+			`{list of parameters-> closure body}`
 			.
 			The values before the
-			<code>-></code>
+			`->`
 			sign define the parameters of the closure.
 
 		</para>
@@ -25,10 +25,10 @@
 			For the case that only one
 			parameter is used you can use the implicit
 			defined
-			<code>it</code>
+			`it`
 			variable. The last statement of a closure is implicitly used to define the return value, if no return statement is
 			defined. The usage of
-			<code>it</code>
+			`it`
 			variable on the automatic return statement is demonstrates in the following example.
 		</para>
 
@@ -41,7 +41,7 @@
 	</section>
 
 	<section id="groovyclosures_defaultvalues">
-		<title>Defining default values in a closure</title>
+=== Defining default values in a closure</title>
 		<para>If you define a closure you can also define default values for
 			its parameters.
 		</para>
@@ -56,7 +56,7 @@
 
 	</section>
 	<section id="groovyclosures2">
-		<title>Example: Using closures in the each method</title>
+=== Example: Using closures in the each method</title>
 
 		<para> The Groovy collections have several methods which accept a
 			closure as parameter, for example the each method.
@@ -68,7 +68,7 @@
 		</para>
 	</section>
 	<section id="groovyclosures_sortlist">
-		<title>Example: Sort a list by lenght of the string</title>
+=== Example: Sort a list by lenght of the string</title>
 
 		<para> The Groovy collections have several methods which accept a
 			closure as parameter, for example the each method.
@@ -81,13 +81,13 @@
 	</section>
 
 	<section id="groovyclosures_with">
-		<title>Using the with method</title>
+=== Using the with method</title>
 		<para>
 			Every Groovy object has a
-			<code>with</code>
+			`with`
 			method which allows to group method and property calls to an object.
 			The
-			<code>with</code>
+			`with`
 			method gets a closure as parameter and every method call or property
 			access in this closure is applied to the object.
 		</para>

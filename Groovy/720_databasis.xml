@@ -1,5 +1,5 @@
 <section id="groovydatabase">
-	<title>Groovy data databases</title>
+== Groovy data databases</title>
 	<para> Groovy simplifies JDBC access to database.</para>
 	<para>
 		<programlisting>

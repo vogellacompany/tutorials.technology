@@ -1,7 +1,7 @@
 <section id="rebase" role="wrapper">
-	<title>Rebasing branches
+== Rebasing branches
 	<section id="rebase_branches">
-		<title>Rebasing branches
+=== Rebasing branches
 		
 			LARSPRIMARYINDEX"git rebase"LARSPRIMARYINDEX
 		
@@ -108,7 +108,7 @@ LARSLINEBREAK
 		
 	
 	<section id="rebase_bestpractice">
-		<title>Good practice for rebase
+=== Good practice for rebase
 
 
 		You should avoid using the Git rebase operation for changes

@@ -1,9 +1,9 @@
 <section id="mapreduce">
-	<title>MapReduce</title>
+== MapReduce</title>
 	<para>
 		Apache Hadoop jobs are working according to the MapRecude principle.
 		See
-		<ulink url="http://www.vogella.com/tutorials/MapReduce/article.html"> MapReduce</ulink>
+		http://www.vogella.com/tutorials/MapReduce/article.html"> MapReduce</ulink>
 		for details. 
 	</para>
 </section>

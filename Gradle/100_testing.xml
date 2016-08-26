@@ -1,7 +1,7 @@
 <section id="gradle_testing">
-	<title>Testing with Gradle
+== Testing with Gradle
 	<section id="gradle_junit_namingconventions">
-		<title>Test naming conventions for Gradle
+=== Test naming conventions for Gradle
 		
 			If you are using the Gradle build system, the Gradle "test" task
 			scans all compiled classes in the source folder of
@@ -41,7 +41,7 @@
 		
 	
 	<section>
-		<title>Include and Exclude particular Tests
+=== Include and Exclude particular Tests
 		
 			The test configuration in general is described at
 			<ulink

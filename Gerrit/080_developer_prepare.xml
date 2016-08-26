@@ -1,5 +1,5 @@
 <section id="gerritreview_clonerepo">
-	<title>Clone repository from Gerrit</title>
+== Clone repository from Gerrit</title>
 	<para>
 		In this exercise you act as a
 		developer who wants to upload a
@@ -19,7 +19,7 @@
 		view
 		and select that you want to clone an existing repository. Enter
 		the URL from the Git repository hosted at Gerrit, for example:
-		<code>ssh://<![CDATA[<user-id>]]>@localhost:29418/demo/gerrittest.git
-		</code>
+		`ssh://<![CDATA[<user-id>]]>@localhost:29418/demo/gerrittest.git
+		`
 	</para>
 </section>

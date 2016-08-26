@@ -2,7 +2,7 @@
 
 <article>
 	<articleinfo>
-		<title>MQTT - Tutorial</title>
+=== MQTT - Tutorial</title>
 
 		<author>
 			<firstname>Lars</firstname>
@@ -27,7 +27,7 @@
 		</releaseinfo>
 
 		<abstract id="abstract">
-			<title>Abstract</title>
+	=== Abstract</title>
 			<para>
 				TODO
 			</para>

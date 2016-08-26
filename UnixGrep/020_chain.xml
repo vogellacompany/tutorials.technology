@@ -1,14 +1,14 @@
 <section id="grepchain">
-	<title>Chaining the grep
+== Chaining the grep
 	
 		Grep is frequently used together with the find command. For
 		example the following will case-insensitive search for the
 		pattern
-		<filename>".*Legacy.*.xml"</filename>
+		`".*Legacy.*.xml"`
 		.
 		through the content of all files
 		which ends with
-		<filename>".java"</filename>
+		`".java"`
 		and lists them.
 	
 	

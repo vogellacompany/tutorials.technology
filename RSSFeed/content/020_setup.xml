@@ -1,6 +1,6 @@
 
 <section id="setup_model">
-	<title>Project and Domain model
+== Project and Domain model
 	
 		Create the Java project called
 		<wordasword>de.vogella.rss</wordasword>

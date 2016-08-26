@@ -2,7 +2,7 @@
 
 <article>
 	<articleinfo>
-		<title>Microsoft Outlook Macros - Tutorial</title>
+=== Microsoft Outlook Macros - Tutorial</title>
 		<author>
 			<firstname>Lars</firstname>
 			<surname>Vogel</surname>
@@ -20,7 +20,7 @@
 		
 
 		<abstract id="abstract">
-			<title>Microsoft Outlook Macros</title>
+	=== Microsoft Outlook Macros</title>
 			<para> This article describes how to create macros in Visual Basic
 				for the email
 				client Microsoft Outlook. </para>

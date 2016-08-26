@@ -1,9 +1,9 @@
 <section id="uom_tooling">
-	<title>Tooling</title>
+== Tooling</title>
 	<para>The Eclipse Modeling Framework</para>
 	<para>
 		See
-		<ulink url="http://www.vogella.com/tutorials/EclipseEMF/article.html">EMF tutorial</ulink>
+		http://www.vogella.com/tutorials/EclipseEMF/article.html">EMF tutorial</ulink>
 		to learn how the Eclipse IDE provides support for getting logical
 		models and UML representations of it.
 	</para>

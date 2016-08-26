@@ -1,5 +1,5 @@
 <section id="interactive_rebase">
-	<title>Editing history with the interactive rebase
+== Editing history with the interactive rebase
 	
 		LARSPRIMARYINDEX"git rebase"LARSPRIMARYINDEX
 		LARSSECONDARY"interactive"LARSSECONDARY
@@ -42,7 +42,7 @@
 		the following actions:
 
 		<table frame='all'>
-			<title>Interactive rebase actions
+	=== Interactive rebase actions
 			<tgroup cols='2' align='left' colsep='1' rowsep='1'>
 				<colspec colname='c1' colwidth="1*" />
 				<colspec colname='c2' colwidth="3*" />

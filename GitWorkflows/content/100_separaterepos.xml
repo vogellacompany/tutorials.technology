@@ -1,9 +1,9 @@
 <section id="gitworkflows" role="wrapper">
-	<title>Typical Git workflow using separate repositories</title>
+== Typical Git workflow using separate repositories</title>
 	<para> The following description highlights typical Git workflows.
 	</para>
 	<section id="gitworkflow_patch">
-		<title>Providing a patch</title>
+=== Providing a patch</title>
 		<indexterm>
 			<primary>Git workflow</primary>
 			<secondary>providing patches</secondary>
@@ -55,7 +55,7 @@
 	</section>
 
 	<section id="gitworkflows_workingwithtworepositories">
-		<title>Working with two repositories</title>
+=== Working with two repositories</title>
 		<indexterm>
 			<primary>Git workflow</primary>
 			<secondary>using two repositories</secondary>
@@ -107,7 +107,7 @@
 
 	</section>
 	<section id="gitworkflows_pullrequests">
-		<title>Using pull requests</title>
+=== Using pull requests</title>
 		<indexterm>
 			<primary>Git workflow</primary>
 			<secondary>providing pull requests</secondary>
@@ -135,7 +135,7 @@
 		<tip>
 			<para>
 				You can use the
-				<code>git request-pull</code>
+				`git request-pull`
 				command to generate a generic pull request which you may include
 				into an email.
 				See

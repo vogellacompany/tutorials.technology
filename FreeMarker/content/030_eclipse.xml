@@ -1,5 +1,5 @@
 <section id="eclipse_integration">
-	<title>Eclipse Integration
+== Eclipse Integration
 	
 		<wordasword>FreeMarker</wordasword>
 		code completion and syntax highlighting
@@ -21,9 +21,7 @@
 	
 
 	
-		<mediaobject>
-			<imageobject>
-				<imagedata fileref="images/jboss-updatesite.png"/>
+image::jboss-updatesite.png[]
 			
 			<textobject>
 				<phrase>Add the JBoss Tools update site and search for FreeMarker</phrase>

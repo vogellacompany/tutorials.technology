@@ -1,5 +1,5 @@
 <section id="gradle_convert_maven">
-	<title>Convert Maven Projects to Gradle
+== Convert Maven Projects to Gradle
 	
 		Gradle provides an incubating
 		<xref linkend="gradle_init_task" />
@@ -25,9 +25,7 @@
 		command on the command line results in the following Gradle configuration.
 	
 	
-		<mediaobject>
-			<imageobject>
-				<imagedata fileref="images/gradle_init_pom.png" />
+image::gradle_init_pom.png[]
 			
 		
 	

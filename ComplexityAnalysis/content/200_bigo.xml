@@ -1,5 +1,5 @@
 <section id="bigo">
-	<title>The Big O notations</title>
+== The Big O notations</title>
 	<para>
 		It is common
 		practice to compare the runtime of

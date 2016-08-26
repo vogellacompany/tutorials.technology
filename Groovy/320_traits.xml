@@ -1,10 +1,10 @@
 <section id="groovy_traits">
-	<title>Traits</title>
+== Traits</title>
 	<para>
 		Traits are reusable components of behavior that your classes can
 		implement, and are an additional Object-Oriented concept alongside
 		classes and interfaces. Replaced
-		<code>@Mixin</code>
+		`@Mixin`
 		.
 	</para>
 

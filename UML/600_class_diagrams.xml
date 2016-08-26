@@ -1,7 +1,7 @@
 <section id="classModel-Driven Architecture (MDA) development_diagrams">
-	<title>Appendix: Class diagrams</title>
+== Appendix: Class diagrams</title>
 	<section id="class_diagramss1s2a">
-		<title>Overview</title>
+=== Overview</title>
 		<para>
 			A class diagram captures the static relationships of your
 			software.
@@ -9,7 +9,7 @@
 	</section>
 
 	<section id="class_diagramss1s2b">
-		<title>Classes</title>
+=== Classes</title>
 		<para>
 			A class is represented by a rectangular box divided into
 			compartments.
@@ -25,9 +25,7 @@
 		</para>
 
 		<para>
-			<mediaobject>
-				<imageobject>
-					<imagedata fileref="images/UML10.gif" />
+image::UML10.gif" />
 				</imageobject>
 			</mediaobject>
 		</para>
@@ -57,7 +55,7 @@
 	</section>
 
 	<section id="class_diagramss1s2c">
-		<title>Attributes</title>
+=== Attributes</title>
 		<para>
 			Attributes specifies details of a class and can be simple
 			types
@@ -69,7 +67,7 @@
 			the diagram of the class) or as relationship.
 		</para>
 		<section id="class_diagramss1s2bs3a">
-			<title>Inlined Attributes</title>
+	=== Inlined Attributes</title>
 			<para>
 				Inlined attributes are placed in the second compartment
 				of the
@@ -163,7 +161,7 @@
 		</section>
 
 		<section id="class_diagramss1s2bs3b">
-			<title>Attributes by Relationship</title>
+	=== Attributes by Relationship</title>
 			<para>
 				To model attributes by relationship you use an
 				association
@@ -184,7 +182,7 @@
 		</section>
 
 		<section id="class_diagramss1s2bs3c">
-			<title>Static Attributes</title>
+	=== Static Attributes</title>
 			<para>
 				Static attributes (attributes that are part of the class
 				and not
@@ -197,16 +195,14 @@
 	</section>
 
 	<section id="class_diagramss1s2d">
-		<title>Interfaces</title>
+=== Interfaces</title>
 		<para>
 			Interfaces are indicated via the stereotype
 			<![CDATA[ <<interface>> ]]>.
 		</para>
 
 		<para>
-			<mediaobject>
-				<imageobject>
-					<imagedata fileref="images/UMLInterface20.gif" />
+image::UMLInterface20.gif" />
 
 				</imageobject>
 			</mediaobject>
@@ -216,9 +212,7 @@
 			notation.
 		</para>
 		<para>
-			<mediaobject>
-				<imageobject>
-					<imagedata fileref="images/UMLInterface30.gif" />
+image::UMLInterface30.gif" />
 
 				</imageobject>
 			</mediaobject>
@@ -227,7 +221,7 @@
 
 	</section>
 	<section id="class_diagramss1s2e">
-		<title>Relationships</title>
+=== Relationships</title>
 		<para>
 			UML defines several ways of representing relationships
 			between
@@ -236,7 +230,7 @@
 
 
 		<section id="class_diagramss1s2es3a">
-			<title>Association</title>
+	=== Association</title>
 			<para>
 				Read as "..has a.." association between classes. Drawn
 				as a
@@ -256,7 +250,7 @@
 		</section>
 
 		<section id="class_diagramss1s2es3b">
-			<title>Aggregation</title>
+	=== Aggregation</title>
 			<para>
 				Read as "..owns a ..". Not as strong as a composite.
 			</para>
@@ -272,7 +266,7 @@
 		</section>
 
 		<section id="class_diagramss1s2es3c">
-			<title>Composition</title>
+	=== Composition</title>
 			<para>
 				Strong relationship between classes to the point of
 				containment. Read as "..is part of..". If the owning
@@ -293,7 +287,7 @@
 		</section>
 
 		<section id="class_diagramss1s2es3d">
-			<title>Generalisation</title>
+	=== Generalisation</title>
 			<para>
 				Read as ".. is a..". Use to express inheritance.
 				Represented by
@@ -325,15 +319,13 @@
 		</section>
 	</section>
 	<section id="class_export">
-		<title>Export your class diagram as image</title>
+=== Export your class diagram as image</title>
 		<para> To export your diagram as image / graphic, right-click on your
 			diagram and select File -> Save as Image File.
 		</para>
 
 		<para>
-			<mediaobject>
-				<imageobject>
-					<imagedata fileref="images/ExportImage10.gif" />
+image::ExportImage10.gif" />
 
 				</imageobject>
 			</mediaobject>

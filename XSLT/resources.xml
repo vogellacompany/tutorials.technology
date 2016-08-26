@@ -1,17 +1,17 @@
 <section id="resources">
-	<title>Links and Literature</title>
+== Links and Literature</title>
 	<para>
-		<ulink url="http://wiki.eclipse.org/XSLT_Project">
+		http://wiki.eclipse.org/XSLT_Project">
 			http://wiki.eclipse.org/XSLT_Project</ulink>
 		Eclipse XSL Wiki
 	</para>
 	<para>
-		<ulink url="http://www.dpawson.co.uk/xsl/sect2/sect21.html">
+		http://www.dpawson.co.uk/xsl/sect2/sect21.html">
 			http://www.dpawson.co.uk/xsl/sect2/sect21.html</ulink>
 		XSLT FAQ 
 	</para>
 	<para>
-		<ulink url="http://www.zvon.org/xxl/XSLTutorial/Books/Book1/index.html">
+		http://www.zvon.org/xxl/XSLTutorial/Books/Book1/index.html">
 			http://www.zvon.org/xxl/XSLTutorial/Books/Book1/index.html</ulink>
 		XSLT Tutorial
 	</para>

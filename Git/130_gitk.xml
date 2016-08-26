@@ -1,7 +1,7 @@
 <section id="gitk">
-	<title>Commit history of a repository or certain files
+== Commit history of a repository or certain files
 	
-		<ulink url="http://git-scm.com/docs/gitk">Gitk</ulink> can be used to visualize the history of a repository of certain files.
+		http://git-scm.com/docs/gitk">Gitk</ulink> can be used to visualize the history of a repository of certain files.
 	 In some cases simply using `git blame` is not sufficient in order to see all
 		details of certain changes. Therefore you can for exmaple navigate to the filelocation in
 		the target git repository and use the `gitk [filename]` command to see all
@@ -12,6 +12,6 @@
 image::img/gitk_showviewhandler.png[gitk command for the ShowViewHandler]
 LARSLINEBREAK
 	On linux you can easily install gitk by using the `sudo apt-get install gitk` command in a terminal.
-	See <ulink url="http://git-scm.com/docs/gitk">http://git-scm.com/docs/gitk</ulink> for
+	See http://git-scm.com/docs/gitk">http://git-scm.com/docs/gitk</ulink> for
 		further information.
 

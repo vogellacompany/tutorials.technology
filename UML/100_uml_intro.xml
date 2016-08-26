@@ -1,13 +1,13 @@
 <section id="uml">
-	<title>UML</title>
+== UML</title>
 	<section id="uml_overview">
-		<title>Overview</title>
+=== Overview</title>
 		<para> Eclipse supports the creation of UML2 diagrams via UML2 Tools
 			project. UML2 Tools is a set of GMF-based editors for viewing and
 			editing UML models.</para>
 	</section>
 	<section id="uml_definition">
-		<title>Definition</title>
+=== Definition</title>
 		<para>
 			The Unified Modeling Language (UML) is a visual language for
 			capturing software designs and patterns. The first version
@@ -39,7 +39,7 @@
 	</section>
 
 	<section id="uml_profiles">
-		<title>UML Profiles</title>
+=== UML Profiles</title>
 		<para>
 			UML is intended to be extended. The formal way to extending
 			a UML

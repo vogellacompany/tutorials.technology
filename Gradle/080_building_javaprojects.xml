@@ -1,7 +1,7 @@
 <section id="gradle_buildjava">
-	<title>Building Java projects
+== Building Java projects
 	<section id="gradle_buildjava1">
-		<title>The Java plug-in
+=== The Java plug-in
 		
 			The Java plug-in provides tasks to compile Java source code, run
 			unit
@@ -9,7 +9,7 @@
 		
 	
 	<section id="gradle_buildjava_projectlayout">
-		<title>Default project layout of Java projects
+=== Default project layout of Java projects
 		
 			This plug-ins assume
 			a certain setup of your Java project (similar to
@@ -56,7 +56,7 @@
 	
 
 	<section id="gradle_init_task">
-		<title>Java project creation with the init task
+=== Java project creation with the init task
 		
 			Gradle does not yet support multiple project templates (called archetypes) like Maven. But it offers
 			an
@@ -80,9 +80,7 @@
 			file contains a certain Java template with JUnit.
 		
 		
-			<mediaobject>
-				<imageobject>
-					<imagedata fileref="images/gradle_init_java_library.png" />
+image::gradle_init_java_library.png[]
 				
 			
 		
@@ -108,7 +106,7 @@
 	
 
 	<section id="gradle_java_artifact_properties">
-		<title>Specifying the Java version in your build file
+=== Specifying the Java version in your build file
 		
 			Usually a Java project has a version and a target JRE on which it is compiled.
 			The

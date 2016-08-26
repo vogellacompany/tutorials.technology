@@ -1,7 +1,7 @@
 <section id="tools">
-	<title>Derby tools</title>
+== Derby tools</title>
 	<section id="tools_commandline">
-		<title>Using Derby from the command line (ij)</title>
+=== Using Derby from the command line (ij)</title>
 		<para> ij is Derby's interactive JDBC scripting tool. It is a simple
 			utility for running scripts or interactive queries against a Derby
 			database. To start the tool open a command shell and type in "ij". This
@@ -55,7 +55,7 @@
 		</para>
 	</section>
 	<section id="usage_sqldump">
-		<title>SQL dump for the database schema</title>
+=== SQL dump for the database schema</title>
 		<para> Use the tool dblook. Type dblook on the console to see the
 			options, the tool is really easy to use. For example to write the
 			schema "myschema" to the file "lars.sql".</para>

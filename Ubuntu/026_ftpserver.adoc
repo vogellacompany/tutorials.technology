@@ -1,5 +1,5 @@
 <section id="ftpserver">
-	<title>Installing a FTP server
+== Installing a FTP server
 	
 		To install an easy to use and configure ftp server use the
 		following

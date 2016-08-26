@@ -1,7 +1,7 @@
 <section id="shortcuts">
-	<title>Shortcuts</title>
+== Shortcuts</title>
 	<section id="shortcuts_windows">
-		<title>Windows</title>
+=== Windows</title>
 		<itemizedlist>
 			<listitem>
 				<para>WindowsKey + d - Hide / restore all applications</para>
@@ -20,10 +20,10 @@
 	</section>
 	
 		<section id="shortcuts_msoutlook">
-		<title>Outlook</title>
+=== Outlook</title>
 		<para>
 			<table frame='all'>
-				<title>Shortcuts</title>
+		=== Shortcuts</title>
 				<tgroup cols='2' align='left' colsep='1' rowsep='1'>
 					<colspec colname='c1' />
 					<colspec colname='c2' />

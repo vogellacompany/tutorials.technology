@@ -1,5 +1,5 @@
 <section id="spellchecking">
-	<title>Spell checking with hunspell
+== Spell checking with hunspell
 	
 		The command line tool hunspell allows you to check the spelling
 		of a document. For example, you can check an XML document written in
@@ -17,12 +17,12 @@
 		With
 		(i) you can add a word to your local hunspell directory, which is
 		located in your home directory under
-		<filename>.hunspell_en_US</filename>
+		`.hunspell_en_US`
 		in case you using the US en checker.
 	
 	
 		You can also check all words in a batch mode with the
-		<parameter>-l</parameter>
+		`-l`
 		parameter.
 	
 	

@@ -1,7 +1,7 @@
 <section id="write">
-	<title>Write RSS Feeds with Stax
+== Write RSS Feeds with Stax
 	<section id="write_stax">
-		<title>Create writer
+=== Create writer
 		Create the following class to write the XML file.
 		
 			<programlisting>
@@ -12,13 +12,13 @@
 	
 
 	<section id="write_test">
-		<title>Test the code
+=== Test the code
 		
 			The following uses a main method to test.
 		
 		
 			Run the program to write the
-			<filename>articles.rss</filename>
+			`articles.rss`
 			file.
 		
 

@@ -1,7 +1,7 @@
 <section id="gradle_developingplugins" role="wrapper">
-	<title>Developing custom Gradle plug-ins
+== Developing custom Gradle plug-ins
 	<section id="gradle_developingplugins_target">
-		<title>Why creating Gradle plug-ins
+=== Why creating Gradle plug-ins
 		As a general rule, it is useful to have a build that is as much declarative as possible as this simplifies
 			future maintenance. Therefore it is adviced to avoid complex code in your Gradle build file. If you need customer
 			logic you should place it, into a custom Gradle plugin.
@@ -9,7 +9,7 @@
 	
 
 	<section id="gradle_developingplugins_example">
-		<title>Example: creating a simple Gradle plugin
+=== Example: creating a simple Gradle plugin
 		
 			To create a custom Gradle plug-in you have to create the following directories for your Gradle project. The java or
 			groovy directory is only required if you want to use Java or Groovy for writing your plugin.
@@ -92,7 +92,7 @@
 	
 
 	<section id="gradle_developingplugins_example_deploy">
-		<title>Example: deploy your custom Gradle plug-in to your local Maven repository
+=== Example: deploy your custom Gradle plug-in to your local Maven repository
 		Publish your Gradle plug-in to the Maven repo defined in your plugin/build.gradle file via the following
 			command.
 		
@@ -104,7 +104,7 @@
 	
 
 	<section id="gradle_developingplugins_example_usage">
-		<title>Example: Using your new plugin
+=== Example: Using your new plugin
 		To use your new plug-in, define a dependency to it and a task extending the defined task.
 		
 			<programlisting language="java">

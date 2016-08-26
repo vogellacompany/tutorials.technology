@@ -1,9 +1,9 @@
 <section id="resources">
-	<title>Links and Literature</title>
+== Links and Literature</title>
 	
 
 	<section id="resources_databinding">
-		<title>Android Resources</title>
+=== Android Resources</title>
 		<para>
 			<ulink
 				url="http://www.vogella.com/tutorials/Android/article.html">

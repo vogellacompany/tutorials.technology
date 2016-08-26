@@ -1,11 +1,11 @@
 <section id="htmlconvert">
-	<title>Tutorial: convert Docbook to HTML5</title>
+== Tutorial: convert Docbook to HTML5</title>
 	<para>
 		The following tutorial describes how you can use Eclipse to
 		convert a Docbook input file into an HTML output using Apache Ant.
 	</para>
 	<section id="htmlconvert_project">
-		<title>Project Setup</title>
+=== Project Setup</title>
 		<para>
 			In Eclipse select from the menu the
 			<menuchoice>
@@ -57,22 +57,22 @@
 		</para>
 		<para>
 			Copy the
-			<filename>jar</filename>
+			`jar`
 			files from your
 			<wordasword>Saxon</wordasword>
 			download into the
-			<filename class="directory">lib</filename>
+			<filename class="directory">lib`
 			folder.
 		</para>
 	</section>
 
 	<section id="htmlconvert_docbook">
-		<title>Write your first DocBook document</title>
+=== Write your first DocBook document</title>
 		<para>
 			In your
-			<filename class="directory">input</filename>
+			<filename class="directory">input`
 			folder create a file called
-			<filename>book.xml</filename>
+			`book.xml`
 			with the following content.
 		</para>
 		<para>
@@ -84,13 +84,13 @@
 		<para>
 			We also want to use images in our example.
 			Place in the
-			<filename class="directory">input/images</filename>
+			<filename class="directory">input/images`
 			a graphic of type PNG called
-			<filename>title.png</filename>.
+			`title.png`.
 		</para>
 		<para>
 			The
-			<filename>../docbook-xml-4.5/docbookx.dtd</filename>
+			`../docbook-xml-4.5/docbookx.dtd`
 			corresponds to the
 			directory you
 			have created earlier in your project
@@ -98,9 +98,9 @@
 		</para>
 		<para>
 			Create the following CSS file called
-			<filename>style.css</filename>
+			`style.css`
 			in the
-			<filename class="directory">css</filename>
+			<filename class="directory">css`
 			folder.
 		</para>
 		<para>
@@ -112,10 +112,10 @@
 	</section>
 
 	<section id="htmlconvert_convert">
-		<title>Use Ant to convert DocBook to HTML5</title>
+=== Use Ant to convert DocBook to HTML5</title>
 		<para>
 			Create the following
-			<filename>buildhtml.xml</filename>
+			`buildhtml.xml`
 			file in your project directory.
 		</para>
 		<programlisting language="xml">
@@ -123,7 +123,7 @@
 				parse="text" href="./examples/ant/buildhtml.xml" />
 		</programlisting>
 		<para>
-			Run the <filename>build.xml</filename> file
+			Run the `build.xml` file
 			via right-click on it and by selecting
 			<menuchoice>
 				<guimenu>Run as</guimenu>
@@ -133,9 +133,9 @@
 		<para>
 			Afterwards, check the output directory. You should find
 			an
-			<filename class="directory">Example</filename>
+			<filename class="directory">Example`
 			directory, with the
-			<filename>book.html</filename>
+			`book.html`
 			file.
 		</para>
 		<para>

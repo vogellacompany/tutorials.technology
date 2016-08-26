@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <article>
 	<articleinfo>
-		<title>Testing with Groovy - Tutorial</title>
+=== Testing with Groovy - Tutorial</title>
 		<author>
 			<firstname>Lars</firstname>
 			<surname>Vogel</surname>
@@ -24,7 +24,7 @@
 		</releaseinfo>
 
 		<abstract id="abstract">
-			<title>Testing with Groovy</title>
+	=== Testing with Groovy</title>
 
 			<para>This article gives a short overview of the additional testing support the Groovy language
 				bring to devlopers.

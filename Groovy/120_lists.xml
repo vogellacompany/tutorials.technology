@@ -1,13 +1,13 @@
 <section id="datatypes_list">
-	<title>Lists</title>
+== Lists</title>
 	<section id="datatypes_list1">
-		<title>Defining and accessing lists</title>
+=== Defining and accessing lists</title>
 		<para>
 			Groovy treads lists as first class constructs in the
 			language.
 			You
 			define a list via
-			<code>List list = new List[]</code>
+			`List list = new List[]`
 			. You can also
 			use
 			generics. To access element i in a list you can
@@ -39,7 +39,7 @@
 
 	</section>
 	<section id="datatypes_list_arrayconvert">
-		<title>Convert a list to an array and vice versa</title>
+=== Convert a list to an array and vice versa</title>
 
 		<para>Groovy converts automatically an Array to a List and vice versa. This is demonstrated by the following snippet.</para>
 		<para>
@@ -52,7 +52,7 @@
 		
 	</section>
 	<section id="datatypes_list_methods">
-		<title>List methods</title>
+=== List methods</title>
 		<para>
 			The following lists the most useful methods on List.
 			<itemizedlist>
@@ -97,14 +97,14 @@
 		</para>
 		<para>
 			The
-			<code>grep</code>
+			`grep`
 			method can be used to filter elements in a collection.
 		</para>
 	</section>
 
 
 	<section id="datatypes_list_operatoroverloading">
-		<title>Operator overloading in Lists</title>
+=== Operator overloading in Lists</title>
 		<para>
 			List support operator overloading. You can use + to concatenate
 			strings, - to substract lists and the
@@ -113,10 +113,10 @@
 		</para>
 	</section>
 	<section id="datatypes_list_spreaddotoperator">
-		<title>Spreaddot operator</title>
+=== Spreaddot operator</title>
 		<para>
 			The spread dot operator (spread-dot operator)
-			<code>*.</code>
+			`*.`
 			is used to invoke a method on all members
 			of a Collection. The result
 			of this operation
@@ -133,7 +133,7 @@
 	</section>
 
 	<section id="datatypes_list_search">
-		<title>Searching in a list with find, findall and grep</title>
+=== Searching in a list with find, findall and grep</title>
 		<para>
 			You can search in a list.
 			<itemizedlist>

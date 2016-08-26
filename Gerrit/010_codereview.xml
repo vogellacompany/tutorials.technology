@@ -1,7 +1,7 @@
 <section id="codereview" role="wrapper">
-	<title>Code review</title>
+== Code review</title>
 	<section id="codereview_process">
-		<title>The code review process</title>
+=== The code review process</title>
 		<indexterm>
 			<primary>Code review</primary>
 		</indexterm>
@@ -38,7 +38,7 @@
 		</para>
 	</section>
 	<section id="codereview_advantages">
-		<title>Advantages of code review</title>
+=== Advantages of code review</title>
 		<indexterm>
 			<primary>Advantages of code review</primary>
 		</indexterm>

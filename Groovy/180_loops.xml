@@ -1,26 +1,26 @@
 <section id="groovyloops" role="wrapper">
-	<title>Loops</title>
+== Loops</title>
 	<section id="groovyloops1">
-		<title>For and while loops</title>
+=== For and while loops</title>
 		<para>
 			Groovy supports the standard Java
-			<code>for</code>
+			`for`
 			, the
-			<code>for-each</code>
+			`for-each`
 			and the
-			<code>while</code>
+			`while`
 			loop. Groovy does
 			not support the
-			<code>do while</code>
+			`do while`
 			loop.
 		</para>
 	</section>
 	<section id="groovyloops?each">
-		<title>Using the each method</title>
+=== Using the each method</title>
 		<para>
 			While for and while loops are supported the Groovy way of iterating
 			throw a list is using the
-			<code>each()</code>
+			`each()`
 			method. Groovy provides this method on several objects include lists,
 			maps and ranges.
 		</para>
@@ -49,23 +49,23 @@
 		</para>
 		<para>
 			Groovy provides also the
-			<code>eachWithIndex</code>
+			`eachWithIndex`
 			method which provides two parameters, the first is the element and
 			the second it the index.
 		</para>
 	</section>
 	<section id="groovyloops_numbers">
-		<title>Iterative with numbers </title>
+=== Iterative with numbers </title>
 
 		<para>
 			In additional
 			your
 			have the methods
-			<code>upto()</code>
+			`upto()`
 			,
-			<code>downto()</code>
+			`downto()`
 			,
-			<code>times()</code>
+			`times()`
 			on
 			number variables.
 			Also

@@ -1,13 +1,13 @@
 <section id="firstgroovyscript" role="wrapper">
-	<title>Exercise: Create and run a Groovy script with the Eclipse IDE</title>
+== Exercise: Create and run a Groovy script with the Eclipse IDE</title>
 
 	<section id="firstgroovyscript_target">
-		<title>Target of this exercise</title>
+=== Target of this exercise</title>
 		<para>In this exercise you learn how to create a Groovy script with the Eclipse IDE.</para>
 	</section>
 
 	<section id="firstgroovyscript_project">
-		<title>Create a new Groovy script</title>
+=== Create a new Groovy script</title>
 		<para>
 			Use the Eclipse wizard to create a new
 			<guilabel>Groovy class</guilabel>
@@ -25,7 +25,7 @@
 		</para>
 	</section>
 	<section id="firstgroovyscript_project_run">
-		<title>Run the Groovy class</title>
+=== Run the Groovy class</title>
 		<para>
 			Right-click your Groovy script, and select
 			<menuchoice>
@@ -36,7 +36,7 @@
 		</para>
 	</section>
 	<section id="firstgroovyscript_project_validate">
-		<title>Validate the Groovy script</title>
+=== Validate the Groovy script</title>
 		<para>
 			The above menu entry triggers the execution of the script and prints
 			output
@@ -50,7 +50,7 @@
 
 	</section>
 	<section id="firstgroovyscript_project_decompile">
-		<title>Decompile the Groovy class file</title>
+=== Decompile the Groovy class file</title>
 		<note>
 			<para>This exercise is optional.</para>
 		
@@ -62,7 +62,7 @@
 		</para>
 		<para>
 			Ensure that it is an instance of
-			<code>groovy.lang.Script</code>
+			`groovy.lang.Script`
 			.
 		</para>
 	</section>

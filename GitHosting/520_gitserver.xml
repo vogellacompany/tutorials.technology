@@ -1,7 +1,7 @@
 <section id="gitserver" role="wrapper">
-	<title>Own Git server</title>
+== Own Git server</title>
 	<section id="gitserver_install">
-		<title>Hosting your own Git server</title>
+=== Hosting your own Git server</title>
 		<indexterm>
 			<primary>Git server</primary>
 			<secondary>configuration</secondary>
@@ -66,7 +66,7 @@
 	</section>
 
 	<section id="gitserver_access">
-		<title>Give write access to a Git repository</title>
+=== Give write access to a Git repository</title>
 		<indexterm>
 			<primary>Git server</primary>
 			<secondary>write access</secondary>
@@ -76,7 +76,7 @@
 			that
 			the
 			public SSH key of each user is added to the
-			<filename>~/.ssh/authorized_keys</filename>
+			`~/.ssh/authorized_keys`
 			file of the "git" user. Afterwards everyone can access the system
 			using the "git" user.
 		</para>
@@ -87,7 +87,7 @@
 	</section>
 
 	<section id="gitserver_security">
-		<title>Security setup for the git user</title>
+=== Security setup for the git user</title>
 		<indexterm>
 			<primary>Git server</primary>
 			<secondary>security</secondary>
@@ -99,9 +99,9 @@
 		<para>
 			The Git installation provides a specialized shell, which can be
 			assigned to the user. Typically this shell is located under in
-			<filename>/usr/bin/git-shell</filename>
+			`/usr/bin/git-shell`
 			and can be assigned to the user via the
-			<filename>/etc/passwd</filename>
+			`/etc/passwd`
 			configuration file to the Git user. If you assign this shell to the
 			Git user, this user can also perform git commands which add safety to
 			your Git setup.

@@ -1,11 +1,11 @@
 <section id="data">
-	<title>Data maintenance - Select, Insert, Delete, Update
+== Data maintenance - Select, Insert, Delete, Update
 	 The following demonstrates how to insert, updates and deletes
 		entries from a database. 
 	<section id="data_select">
-		<title>Select
+=== Select
 		<table frame='all'>
-			<title>Select
+	=== Select
 			<tgroup cols='2' align='left' colsep='1' rowsep='1'>
 				<colspec colname='c1' />
 				<colspec colname='c2' />
@@ -25,9 +25,9 @@
 		</table>
 	
 	<section id="data_insert">
-		<title>Insert
+=== Insert
 		<table frame='all'>
-			<title>Insert
+	=== Insert
 			<tgroup cols='2' align='left' colsep='1' rowsep='1'>
 				<colspec colname='c1' />
 				<colspec colname='c2' />
@@ -47,9 +47,9 @@
 		</table>
 	
 	<section id="data_update">
-		<title>Update
+=== Update
 		<table frame='all'>
-			<title>Update
+	=== Update
 			<tgroup cols='2' align='left' colsep='1' rowsep='1'>
 				<colspec colname='c1' />
 				<colspec colname='c2' />
@@ -73,9 +73,9 @@
 		</table>
 	
 	<section id="data_delete">
-		<title>Delete
+=== Delete
 		<table frame='all'>
-			<title>Delete
+	=== Delete
 			<tgroup cols='2' align='left' colsep='1' rowsep='1'>
 				<colspec colname='c1' />
 				<colspec colname='c2' />

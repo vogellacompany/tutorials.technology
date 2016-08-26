@@ -1,7 +1,7 @@
 <section id="resources">
-	<title>Links and Literature
+== Links and Literature
 	
-		<ulink url="https://www.ibm.com/developerworks/linux/tutorials/l-vi/">vim editor reference</ulink>
+		https://www.ibm.com/developerworks/linux/tutorials/l-vi/">vim editor reference</ulink>
 	
 	
 		<ulink

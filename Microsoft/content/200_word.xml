@@ -1,11 +1,9 @@
 <section id="msword">
-	<title>Winword</title>
+== Winword</title>
 	<section id="msword_s1s2a">
-		<title>Add Macrobuttons</title>
+=== Add Macrobuttons</title>
 		<para>
-			<mediaobject>
-				<imageobject>
-					<imagedata fileref="images/macrobutton10.gif"
+image::macrobutton10.gif"
 						/>
 					
 				</imageobject>
@@ -13,9 +11,7 @@
 		</para>
 		<para>
 	
-			<mediaobject>
-				<imageobject>
-					<imagedata fileref="images/macrobutton20.gif"
+image::macrobutton20.gif"
 						/>
 					
 				</imageobject>
@@ -27,9 +23,7 @@
 			and drag it to the menu.
 		</para>
 		<para>
-			<mediaobject>
-				<imageobject>
-					<imagedata fileref="images/macrobutton30.gif"
+image::macrobutton30.gif"
 						/>
 					
 				</imageobject>
@@ -43,9 +37,7 @@
 			mouse button. Rename the button to a reasonable name.
 		</para>
 		<para>
-			<mediaobject>
-				<imageobject>
-					<imagedata fileref="images/macrobutton40.gif"
+image::macrobutton40.gif"
 						/>
 					
 				</imageobject>

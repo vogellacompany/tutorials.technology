@@ -1,9 +1,9 @@
 <section id="user">
-	<title>Table
+== Table
 	 The following demonstrates how to create and drop (deletes)
 		tables. 
 	<table frame='all'>
-		<title>Tables
+=== Tables
 		<tgroup cols='2' align='left' colsep='1' rowsep='1'>
 			<colspec colname='c1' />
 			<colspec colname='c2' />

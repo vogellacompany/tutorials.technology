@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <article>
 	<articleinfo>
-		<title>Complexity Analysis of Algorithms - Tutorial</title>
+=== Complexity Analysis of Algorithms - Tutorial</title>
 		<author>
 			<firstname>Lars</firstname>
 			<surname>Vogel</surname>
@@ -16,7 +16,7 @@
 		</releaseinfo>
 		
 		<abstract id="abstract">
-			<title>Complexity Analysis</title>
+	=== Complexity Analysis</title>
 			<para> The following article describes the
 				theoretical background on
 				evaluating the performance of algorithms

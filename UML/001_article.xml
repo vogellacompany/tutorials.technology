@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <article>
 	<articleinfo>
-		<title>UML - Tutorial</title>
+=== UML - Tutorial</title>
 		<author>
 			<firstname>Lars</firstname>
 			<surname>Vogel</surname>
@@ -16,7 +16,7 @@
 		</releaseinfo>
 		
 		<abstract id="abstract">
-			<title>UML modelling</title>
+	=== UML modelling</title>
 			<para> This article gives a short overview of UML2.
 			</para>
 		</abstract>

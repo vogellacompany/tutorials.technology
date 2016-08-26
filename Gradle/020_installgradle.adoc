@@ -1,22 +1,22 @@
 <section id="building_installgradle" role="wrapper">
-	<title>Installing and configuring Gradle
+== Installing and configuring Gradle
 	<indexterm>
 		<primary>Gradle
 		</primary>
 		<secondary>Installation</secondary>
 	</indexterm>
 	<section id="building_installgradle_requirements">
-		<title>Requirements
+=== Requirements
 		The usage of Gradle requires an JDK (Java Development Kit)
 			installation.
 		
 	
 	<section id="building_installgradle_commandline">
-		<title>Installing Gradle for the usage on the command line
+=== Installing Gradle for the usage on the command line
 
 		
 			The lastest version of Gradle can be found here:
-			<ulink url="http://gradle.org/gradle-download/">http://gradle.org/gradle-download/</ulink>
+			http://gradle.org/gradle-download/">http://gradle.org/gradle-download/</ulink>
 		
 		
 			How to properly install Gradle is explained in the next exercise. See
@@ -30,7 +30,7 @@
 	
 
 	<section id="gradeinstallation_demon">
-		<title>Using the Gradle daemon for improved startup time
+=== Using the Gradle daemon for improved startup time
 		
 			Gradle allows to start Gradle as daemon to avoid starting the Java
 			virtual machine for every build. To configure that
@@ -73,7 +73,7 @@
 	
 
 	<section id="GRADLE_OPTS">
-		<title>Specify custom JVM settings for Gradle
+=== Specify custom JVM settings for Gradle
 		The GRADLE_OPTS environment variable offers the opportunity to
 			set specific JVM options for Gradle.
 		
@@ -94,7 +94,7 @@
 		
 	
 	<section id="gradle_git">
-		<title>Typical .gitignore file for Gradle projects
+=== Typical .gitignore file for Gradle projects
 		
 			If you are using Git as version control system, you can use the
 			following

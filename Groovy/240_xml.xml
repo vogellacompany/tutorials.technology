@@ -1,32 +1,32 @@
 <section id="examples_xml">
-	<title>Groovy and Markup like XML or HTML</title>
+== Groovy and Markup like XML or HTML</title>
 	<section id="examples_readingxml">
-		<title>Parsing XML with XmlSlurper</title>
+=== Parsing XML with XmlSlurper</title>
 		<para>
 			Groovy allows to process XML very easily. Groovy provide the
-			<code>XmlSlurper</code>
+			`XmlSlurper`
 			class for this purpose. There are other options but the
-			<code>XmlSlurper</code>
+			`XmlSlurper`
 			is usually considered to be the more efficient in terms of speed and
 			flexibility. XmlSlurper can also be used to transform the XML white
 			parsing it.
 		</para>
 		<para>
-			<code>XmlSlurper</code>
+			`XmlSlurper`
 			allows to parse an XML document and
 			returns an
-			<code>GPathResult</code>
+			`GPathResult`
 			object.
 			You can use
-			<code>GPath</code>
+			`GPath`
 			expressions to access nodes in the XML tree.
 		</para>
 
 		<para>
 			XMLParser allows to parse an XML document and returns an
-			<code>groovy.util.Node</code>
+			`groovy.util.Node`
 			object. You can use
-			<code>GPath</code>
+			`GPath`
 			expressions to access nodes in the XML tree. Dots traverse from
 			parent elements to children, and @ signs
 			represent attribute values.
@@ -40,10 +40,10 @@
 
 	</section>
 	<section id="generating_markuptemplateengine">
-		<title>Using the MarkupTemplateEngine to generated Markup</title>
+=== Using the MarkupTemplateEngine to generated Markup</title>
 		<para>
 			Introduce in Groovy 2.3 the
-			<code>MarkupTemplateEngine</code>
+			`MarkupTemplateEngine`
 			which supports
 			generating XML-like markup (XML, XHTML, HTML5, etc),
 			but it can be
@@ -67,10 +67,10 @@
 		<para>Templates support includes.</para>
 	</section>
 	<section id="examples_markupBuilder">
-		<title>Creating Markup (XML) files with the MarkupBuilder</title>
+=== Creating Markup (XML) files with the MarkupBuilder</title>
 		<para>
 			The usage of the
-			<code>MarkupBuilder</code>
+			`MarkupBuilder`
 			as "old" builder
 			is demonstrated by the following snippet.
 		</para>

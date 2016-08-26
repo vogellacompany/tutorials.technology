@@ -1,8 +1,8 @@
 <section id="gerrit_problems" role="wrapper">
-	<title>Solving typical Gerrit problems</title>
+== Solving typical Gerrit problems</title>
 
 	<section id="gerrit_problems_squashcommits">
-		<title>You forgot to amend the commit</title>
+=== You forgot to amend the commit</title>
 		<indexterm>
 			<primary>squash commits first</primary>
 		</indexterm>
@@ -26,9 +26,7 @@
 
 
 		<para>
-			<mediaobject>
-				<imageobject>
-					<imagedata fileref="images/gerritissue_problem30.png" scale="30" />
+image::gerritissue_problem30.png" scale="30" />
 				</imageobject>
 				<textobject>
 					<phrase>Rebase as solution</phrase>
@@ -42,9 +40,7 @@
 			the result of squashing "Commit 2" and "Commit 3" into one commit.
 		</para>
 		<para>
-			<mediaobject>
-				<imageobject>
-					<imagedata fileref="images/gerritissue_solution30.png" scale="30" />
+image::gerritissue_solution30.png" scale="30" />
 				</imageobject>
 				<textobject>
 					<phrase>Rebase as solution</phrase>
@@ -80,7 +76,7 @@
 
 	</section>
 	<section id="gerrit_problems_mergeconflicts">
-		<title>Handling merge conflicts</title>
+=== Handling merge conflicts</title>
 		<para>
 			The submit step may fail due to merge conflicts, depending on
 			the Gerrit project configuration.
@@ -94,9 +90,7 @@
 		</para>
 
 		<para>
-			<mediaobject>
-				<imageobject>
-					<imagedata fileref="images/gerrit_rebasebutton10.png"/>
+image::gerrit_rebasebutton10.png[]
 				</imageobject>
 				<textobject>
 					<phrase>Rebase button in Gerrit</phrase>
@@ -118,7 +112,7 @@
 				<listitem>
 					<para>
 						Rebase your local branch onto the latest state of
-						<parameter>origin/master</parameter>
+						`origin/master`
 					</para>
 				</listitem>
 				<listitem>
@@ -156,7 +150,7 @@
 
 
 	<section id="gerrit_problems_nonfastforward">
-		<title>non-fast forward</title>
+=== non-fast forward</title>
 		<para>
 			You get this error message if you try to submit a commit in
 			Gerrit to the Git repository and the change would
@@ -184,9 +178,7 @@
 			graphic.
 		</para>
 		<para>
-			<mediaobject>
-				<imageobject>
-					<imagedata fileref="images/gerritissue_problem10.png"/>
+image::gerritissue_problem10.png[]
 				</imageobject>
 				<textobject>
 					<phrase>Non-fast forward</phrase>
@@ -196,16 +188,14 @@
 
 		<para>
 			The solution is to rebase your commit onto
-			<parameter>origin/master</parameter>
+			`origin/master`
 			. This updates your change onto changes which reached origin/master
 			while you were working on your change. Afterwards
 			you push the commit
 			again to Gerrit.
 		</para>
 		<para>
-			<mediaobject>
-				<imageobject>
-					<imagedata fileref="images/gerritissue_solution10.png"/>
+image::gerritissue_solution10.png[]
 				</imageobject>
 				<textobject>
 					<phrase>Rebase as solution</phrase>
@@ -214,7 +204,7 @@
 		</para>
 		<para>
 			See
-			<ulink url="https://git.eclipse.org/r/Documentation/error-non-fast-forward.html">non-fast forward</ulink>
+			https://git.eclipse.org/r/Documentation/error-non-fast-forward.html">non-fast forward</ulink>
 			for details.
 		</para>
 	</section>

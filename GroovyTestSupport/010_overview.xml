@@ -1,10 +1,10 @@
 <section id="grooygtests" role="wrapper">
-	<title>Assert statements and unit tests with Groovy</title>
+== Assert statements and unit tests with Groovy</title>
 	<section id="grooygtests_asserts">
-		<title>Asserts </title>
+=== Asserts </title>
 		<para>
 			Groovy provides the
-			<code>assert</code>
+			`assert`
 			keyword which takes a boolean expression as an argument.
 			If the
 			expression is true, nothing is returned,
@@ -14,7 +14,7 @@
 			detailed
 			error message is
 			printed to the console.
-			<code>assert</code>
+			`assert`
 			is enabled by
 			default.
 		</para>
@@ -25,11 +25,11 @@
 		</para>
 	</section>
 	<section id="grooygtests_unittests">
-		<title>Unit tests </title>
+=== Unit tests </title>
 		<para>
 			Groovy can be used to write JUnit 4 test cases without any
 			restrictions. The
-			<code>groovy.test.GroovyAssert</code>
+			`groovy.test.GroovyAssert`
 			holds various static assert
 			methods that can be used as replacement
 			for
@@ -37,7 +37,7 @@
 		</para>
 		<para>
 			You also have the static import for
-			<code>shouldFail</code>
+			`shouldFail`
 			. This method validates if the inner block is false or throws can
 			exception.
 		</para>
@@ -50,9 +50,9 @@
 
 		<para>
 			The
-			<code>MockFor</code>
+			`MockFor`
 			and
-			<code>StubFor</code>
+			`StubFor`
 			classes in
 			the Groovy library, which are great
 			ways to build mock objects and
@@ -63,7 +63,7 @@
 		</para>
 		<para>
 			See
-			<ulink url="http://beta.groovy-lang.org/docs/groovy-2.3.0/html/documentation/core-testing-guide.html">Groovy testing guide</ulink>
+			http://beta.groovy-lang.org/docs/groovy-2.3.0/html/documentation/core-testing-guide.html">Groovy testing guide</ulink>
 			.
 		</para>
 	</section>

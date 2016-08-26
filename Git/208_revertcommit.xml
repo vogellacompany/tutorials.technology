@@ -1,8 +1,8 @@
 <section id="revertcommit" role="wrapper">
-	<title>Revert commits
+== Revert commits
 
 	<section id="undochanges_revertcommit1">
-		<title>Reverting a commit
+=== Reverting a commit
 		
 			LARSPRIMARYINDEX"git revert"LARSPRIMARYINDEX
 		
@@ -19,7 +19,7 @@
 	
 
 	<section id="undochanges_revertcommit2">
-		<title>Example: Reverting a commit
+=== Example: Reverting a commit
 		
 			The following command demonstrates the usage of the
 			`git revert`

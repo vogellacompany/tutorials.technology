@@ -1,5 +1,5 @@
 <section id="record_screen">
-	<title>Command line tool for recording the screen
+== Command line tool for recording the screen
 	
 		byzanz allows to record a specified area on the screen with different
 		output formats and custom settings.
@@ -18,7 +18,7 @@
 	
 	
 		This example creates an animated
-		<filename>output.gif</filename>
+		`output.gif`
 		file of the screen in the area of (x=0, y=0, width=400, height=400)
 		with the duration of 10 seconds.
 	

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <article>
 	<articleinfo>
-		<title>Python Development with PyDev and Eclipse - Tutorial</title>
+=== Python Development with PyDev and Eclipse - Tutorial</title>
 		<author>
 			<firstname>Lars</firstname>
 			<surname>Vogel</surname>
@@ -20,7 +20,7 @@
 		<pubdate>01.08.2013</pubdate>
 		
 		<abstract id="abstract">
-			<title>Python, Pydev and Eclipse</title>
+	=== Python, Pydev and Eclipse</title>
 			<para> This article describes how to write
 				and debug
 				Python programs

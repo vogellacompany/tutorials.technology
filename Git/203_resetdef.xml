@@ -1,10 +1,10 @@
 <section id="resetcommitsdef">
-	<title>Use cases for git reset
+== Use cases for git reset
 	
 		LARSPRIMARYINDEX"git reset"LARSPRIMARYINDEX
 	
 	<section id="resetcommit_move">
-		<title>Moving the HEAD and branch pointer
+=== Moving the HEAD and branch pointer
 		
 			LARSPRIMARYINDEX"git reset"LARSPRIMARYINDEX
 		
@@ -94,7 +94,7 @@ LARSLINEBREAK
 		
 		
 			<table frame='all'>
-				<title>git reset options
+		=== git reset options
 				<tgroup cols='4' align='left' colsep='1' rowsep='1'>
 					<colspec colname='c1' colwidth="1*" />
 					<colspec colname='c2' colwidth="2*" />
@@ -140,7 +140,7 @@ LARSLINEBREAK
 		
 	
 	<section id="resetcommit_path">
-		<title>Not moving the HEAD pointer with git reset
+=== Not moving the HEAD pointer with git reset
 		
 			If you specify a path via the
 			`git reset [path]`

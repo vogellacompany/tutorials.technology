@@ -1,8 +1,8 @@
 <section id="gerrit_workflow" role="wrapper">
-	<title>Gerrit workflow</title>
+== Gerrit workflow</title>
 
 	<section id="gerritsetup_workflow3">
-		<title>A typical Gerrit workflow</title>
+=== A typical Gerrit workflow</title>
 
 		<para>The following describes a typical workflow of a developer who
 			uploads a Gerrit review and a reviewer.
@@ -17,7 +17,7 @@
 				<listitem>
 					<para>
 						The developer create a new local branch based on the
-						<code>origin/master</code>
+						`origin/master`
 						branch. This step
 						is
 						optional but it is considered a good practice
@@ -52,7 +52,7 @@
 				<listitem>
 					<para>
 						Push the change to the Gerrit review system to the
-						<code>refs/for/master</code>
+						`refs/for/master`
 						refspec to create a change for the master branch.
 					</para>
 				</listitem>
@@ -73,7 +73,7 @@
 	</section>
 
 	<section id="gerritsetup_workflow1">
-		<title>Gerrit vs. Git workflow</title>
+=== Gerrit vs. Git workflow</title>
 		<para>In the Gerrit scenario amending a commit
 			is used to update
 			the
@@ -84,7 +84,7 @@
 		</para>
 	</section>
 	<section id="gerritsetup_workflow2">
-		<title>Gerrit vs. GitHub workflow</title>
+=== Gerrit vs. GitHub workflow</title>
 		The Gerrit review system is based on the assumption that each commit
 		is reviewed separately, while
 		at GitHub, a complete

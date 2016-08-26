@@ -1,10 +1,10 @@
 <section id="architecture">
-	<title>Web Architecture</title>
+== Web Architecture</title>
 	<para> In a web server architecture you have a web client (browser)
 		taking to a web server.
 	</para>
 	<section id="architecture_web server">
-		<title>Web Server</title>
+=== Web Server</title>
 		<para> A web server takes a client request, process the request and
 			send the result back to the client. The web server may return a HTML
 			page, a picture or an error message.
@@ -17,7 +17,7 @@
 		<para> Popular web servers are the Apache HTTP web server. </para>
 	</section>
 	<section id="architecture_webclient">
-		<title>Web Client</title>
+=== Web Client</title>
 		<para> A web client issues requests (via the user) to the web server
 			and displays (renders) the result. A web client is typically a
 			browser, e.g. Firefox.
@@ -25,7 +25,7 @@
 	</section>
 
 	<section id="architecture_html">
-		<title>HTML</title>
+=== HTML</title>
 		<para> HTML is a markup language which contains content and describes
 			the structure how this content will be displayed. The current version
 			of HTML is HTML5 (which is still work in process). The article
@@ -34,7 +34,7 @@
 	</section>
 
 	<section id="architecture_http">
-		<title>HTTP</title>
+=== HTTP</title>
 		<para> HTTP (HyperText Transfer Protocol) is the protocol usually used
 			for the communication between web server and web client. HTTP is
 			based on TCP/IP. TCP is responsible for making sure that a file is
@@ -71,7 +71,7 @@
 		</para>
 	</section>
 	<section id="architecture_url">
-		<title>URL - Uniform Resource Locator</title>
+=== URL - Uniform Resource Locator</title>
 		<para> A resource in the web (and on the web server) can get
 			identified via the URL. A URL is what is usually displayed in the
 			browser, e.g. http://www.vogella.com is a URL.
@@ -87,7 +87,7 @@
 		</para>
 	</section>
 	<section id="architecture_dns">
-		<title>DNS - Dynamic name server and entries</title>
+=== DNS - Dynamic name server and entries</title>
 		<para> A DNS server is responsible for identifying resources in the
 			Internet based on domain names. The provide which hosts and URL can
 			specify which DNS server should be used and if someone requests a
@@ -95,7 +95,7 @@
 			address the domain belongs.
 		</para>
 
-		<para>To check which entries for a certain domain name is returned, you can use the <code>digg</code> command on the command line. f</para>
+		<para>To check which entries for a certain domain name is returned, you can use the `digg` command on the command line. f</para>
 
 		<para>
 			<programlisting>

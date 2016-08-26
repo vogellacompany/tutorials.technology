@@ -1,10 +1,10 @@
 <section id="files" role="wrapper">
-	<title>File and network I/O with Groovy</title>
+== File and network I/O with Groovy</title>
 	<section id="files1">
-		<title>Groovy and processing files </title>
+=== Groovy and processing files </title>
 		<para>
 			Groovy adds several convenient methods the
-			<code>File</code>
+			`File`
 			class from Java. The following example
 			demonstrates how to print out every line to the console and and also how to
 			change the output of a line by adding a prefix.
@@ -16,18 +16,18 @@
 		</para>
 		<para>
 			The
-			<code>File</code>
+			`File`
 			object provides methods like
-			<code>eachFile</code>
+			`eachFile`
 			,
-			<code>eachDir</code>
+			`eachDir`
 			and
-			<code>earchFileRecursively</code>
+			`earchFileRecursively`
 			which takes an closure as argument.
 		</para>
 	</section>
 	<section id="files3">
-		<title>Writing to files</title>
+=== Writing to files</title>
 		<para>Groovy also provides API to write to a file and append to it.</para>
 
 		<para>
@@ -37,7 +37,7 @@
 		</para>
 	</section>
 	<section id="files2">
-		<title>Groovy and processing HTTP get requests</title>
+=== Groovy and processing HTTP get requests</title>
 
 		<para>Reading an HTTP page is similar to reading a text file. </para>
 		<para>

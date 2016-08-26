@@ -1,7 +1,7 @@
 <section id="hudsonlinks">
-	<title>Jenkins links
+== Jenkins links
 	
-		<ulink url="https://jenkins-ci.org">Homepage of the Jenkins project</ulink>
+		https://jenkins-ci.org">Homepage of the Jenkins project</ulink>
 	
 	
 		<ulink

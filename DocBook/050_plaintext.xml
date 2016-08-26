@@ -1,5 +1,5 @@
 <section id="plaintext">
-	<title>Convert Docbook to plain text</title>
+== Convert Docbook to plain text</title>
 	<para>
 		The best way to convert Docbook files to plain text is first to
 		convert them to HTML and then use the text browser Lynx to convert it

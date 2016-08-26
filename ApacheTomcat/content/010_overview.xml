@@ -1,5 +1,5 @@
 <section id="tomcatoverview">
-	<title>Apache Tomcat</title>
+== Apache Tomcat</title>
 	<para> Apache Tomcat is a webcontainer which allows to run servlet and
 		JavaServer Pages (JSP) based web applications. Most of the modern Java
 		web

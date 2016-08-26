@@ -1,7 +1,7 @@
 <section id="gitmergecommand_branches" role="wrapper">
-	<title>Commands to merge two branches
+== Commands to merge two branches
 	<section id="gitmergecommand_branches">
-		<title>The git merge command
+=== The git merge command
 		
 			The
 			`git merge`
@@ -23,7 +23,7 @@ include::./examples/commandline/git_merge[]
 ----
 	
 	<section id="gitmerge_mergeoptionsstrategies">
-		<title>Specifying merge strategies
+=== Specifying merge strategies
 		
 			The
 			`-s`
@@ -65,7 +65,7 @@ include::./examples/merge/mergeoctupus.txt[]
 	
 
 	<section id="gitmerge_mergeoptions">
-		<title>Specifying parameters for the default merge strategy
+=== Specifying parameters for the default merge strategy
 		
 			The recursive merge strategy (default) allows you to specify
 			flags
@@ -126,7 +126,7 @@ include::./examples/merge/mergeours2.txt[]
 		
 	
 	<section id="gitmerge_forcemergecommit">
-		<title>Enforcing the creation of a merge commit
+=== Enforcing the creation of a merge commit
 		
 			If you prefer to have merge commits even for situations in which Git
 			could perform a fast-forward

@@ -1,5 +1,5 @@
 <section id="git_blame_example">
-	<title>Example: git blame
+== Example: git blame
 	
 		The following code snippet demonstrates the usage of the
 		`git blame`

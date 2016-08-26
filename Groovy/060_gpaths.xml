@@ -1,5 +1,5 @@
 <section id="gpath">
-	<title>GPath</title>
+== GPath</title>
 	<para>GPath is a path expression language integrated into Groovy which
 		allows parts of nested structured data to be identified. In this
 		sense, it has similar aims and scope as XPath does for XML. The two
@@ -8,9 +8,9 @@
 	</para>
 	<para>
 		For example the
-		<code>a.b.c</code>
+		`a.b.c`
 		statement is equivalent to
-		<code>a.getB().getC()</code>
+		`a.getB().getC()`
 		.
 	</para>
 	<para>GPath navigation works also in complex structures like XML or

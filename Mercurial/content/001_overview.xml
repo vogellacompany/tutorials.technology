@@ -1,7 +1,7 @@
 <section id="overview">
-	<title>Overview
+== Overview
 	<section id="overview_dvcs">
-		<title>Distributed Version control system
+=== Distributed Version control system
 
 		 With a distributed version control system you basically do not
 			have a central code repository but everyone has its own branch. To
@@ -32,13 +32,13 @@
 		
 		
 			Another popular distributed version control systems is
-			<ulink url="http://www.vogella.com/tutorials/Git/article.html">Git</ulink>
+			http://www.vogella.com/tutorials/Git/article.html">Git</ulink>
 			.
 		
 	
 
 	<section id="overview_mercurial">
-		<title>Mercurial
+=== Mercurial
 		
 			Mercurial is a distributed version control system. Mercurial is
 			used by Oracle for the OpenJDK development and offered as a option by
@@ -48,7 +48,7 @@
 		
 			Mercurial is written in Python. Mercurial has a command-line
 			interface.
-			<ulink url="http://www.vogella.com/tutorials/Eclipse/article.html">Eclipse</ulink>
+			http://www.vogella.com/tutorials/Eclipse/article.html">Eclipse</ulink>
 			provides also a
 		 plug-in to use Mercurial.
 		

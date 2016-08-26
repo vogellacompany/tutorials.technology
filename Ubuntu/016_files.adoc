@@ -1,5 +1,5 @@
 <section id="files">
-	<title>Important files
+== Important files
 
 	<table frame='all'>
 		<tgroup cols='2' align='left' colsep='1' rowsep='1'>

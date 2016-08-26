@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <article>
 	<articleinfo>
-		<title>Apache Tomcat - Tutorial</title>
+=== Apache Tomcat - Tutorial</title>
 		<author>
 			<firstname>Lars</firstname>
 			<surname>Vogel</surname>
@@ -22,7 +22,7 @@
 		<pubdate>20.08.2014</pubdate>
 		
 		<abstract id="abstract">
-			<title>Apache Tomcat</title>
+	=== Apache Tomcat</title>
 			<para> This article describes the installation and usage of Apache
 				Tomcat for Java web development. Tomcat version 7.x is used in this
 				tutorial.

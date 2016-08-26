@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <article>
 	<articleinfo>
-		<title>XSLT - Extensible Stylesheet Language for Transformations - Tutorial</title>
+=== XSLT - Extensible Stylesheet Language for Transformations - Tutorial</title>
 		<author>
 			<firstname>Lars</firstname>
 			<surname>Vogel</surname>
@@ -23,7 +23,7 @@
 		</releaseinfo>
 
 		<abstract id="abstract">
-			<title>XSLT with Eclipse</title>
+	=== XSLT with Eclipse</title>
 			<para> This articles explains how to do a XSLT transformations on the
 				command line or via
 				the Eclipse XSL project.

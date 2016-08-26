@@ -1,10 +1,10 @@
 <section id="resources">
-	<title>Links and Literature</title>
+== Links and Literature</title>
 	
 	<section id="resources_jdt">
-		<title>Resources</title>
+=== Resources</title>
 		<para>
-			<ulink url="http://en.wikipedia.org/wiki/Big_O_notation">
+			http://en.wikipedia.org/wiki/Big_O_notation">
 				http://en.wikipedia.org/wiki/Big_O_notation</ulink>
 			Big O Notation - Wiki
 		</para>

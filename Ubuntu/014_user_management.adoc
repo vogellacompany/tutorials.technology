@@ -1,7 +1,7 @@
 <section id="usermanagement">
-	<title>User management
+== User management
 	<section id="usermanagement_create">
-		<title>Creating new users
+=== Creating new users
 		
 			To create a new user via the console use the following
 			commands.
@@ -10,7 +10,7 @@
 			home directory
 			for
 			the user. The
-			<parameter>-m</parameter>
+			`-m`
 			parameter is responsible for creating the home directory of the user.
 		
 		
@@ -32,7 +32,7 @@
 	</section>
 	
 	<section id="usermanagement_root">
-		<title>Giving root access
+=== Giving root access
 		 Careful: The following command allows the user to execute sudo
 			commands (root).
 		
@@ -46,7 +46,7 @@
 			To change the default shell of the user to
 			<wordasword>bash</wordasword>
 			set the last entry of the corresponding user in the
-			<filename>/usr/passwd</filename>
+			`/usr/passwd`
 			file to the
 			<wordasword>/bin/bash</wordasword>
 			following as in the following example.
@@ -77,7 +77,7 @@
 	
 	
 	<section id="usermanagement_delete">
-		<title>Deleting users
+=== Deleting users
 		To delete a user use the following command.
 		
 			<programlisting language="bourne">

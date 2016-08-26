@@ -1,7 +1,7 @@
 <section id="tips">
-	<title>Tips
+== Tips
 	<section id="tipcs_bootdisk">
-		<title>Creating a bootable USB disk with unetbootin
+=== Creating a bootable USB disk with unetbootin
 		
 			The default program for creating a bootable USB disk is
 			<wordasword>Startup Disk Creator</wordasword>
@@ -26,7 +26,7 @@
 		
 	</section>
 	<section id="tipcs_numble">
-		<title>Chat applications
+=== Chat applications
 		
 			The
 			<wordasword>mumble</wordasword>
@@ -44,7 +44,7 @@
 	</section>
 
 	<section id="tipcs_teamviewer">
-		<title>Sharing desktop
+=== Sharing desktop
 		
 			The
 			<wordasword>Teamviewer</wordasword>
@@ -56,7 +56,7 @@
 
 	</section>
 	<section id="tipcs_remotexserver">
-		<title>Remote xserver
+=== Remote xserver
 		
 			The
 			<wordasword>x2go</wordasword>
@@ -68,7 +68,7 @@
 
 	</section>
 	<section id="tipcs_eclipse">
-		<title>Eclipse IDE configuration
+=== Eclipse IDE configuration
 		
 			See
 			<ulink

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <article>
 	<articleinfo>
-		<title>Inkscape - Tutorial
+=== Inkscape - Tutorial
 		<author>
 			<firstname>Lars</firstname>
 			<surname>Vogel</surname>
@@ -15,7 +15,7 @@
 		</releaseinfo>
 		
 		<abstract id="abstract">
-			<title>Inkscape tutorial
+	=== Inkscape tutorial
 			This tutorial is a small introduction into the usage of
 				Inkscape for creating svg graphics.
 			

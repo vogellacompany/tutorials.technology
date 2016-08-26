@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <article>
 	<articleinfo>
-		<title>Using GitHub - Tutorial</title>
+=== Using GitHub - Tutorial</title>
 		<author>
 			<firstname>Lars</firstname>
 			<surname>Vogel</surname>
@@ -23,7 +23,7 @@
 		</releaseinfo>
 
 		<abstract id="abstract">
-			<title>Using Github tutorial</title>
+	=== Using Github tutorial</title>
 			<para> This tutorial explains how to use GitHub.</para>
 		</abstract>
 

@@ -1,7 +1,7 @@
 <section id="epub">
-	<title>Creating epub</title>
+== Creating epub</title>
 	<section id="epub_overview">
-		<title>Overview of EPUB</title>
+=== Overview of EPUB</title>
 		<para>
 			EPUB is a format for electronic book defined by the
 			International
@@ -10,15 +10,15 @@
 			styling via CSS. An EPUB file is a ZP file with a
 			predefined content.
 			The ZIP file must contain a folder
-			<filename>META-INF</filename>
+			`META-INF`
 			which contains a file
-			<filename>container.xml</filename>.
+			`container.xml`.
 			This file contains a pointer
 			to
 			the
-			<filename>OEBPS/content.opf</filename>
+			`OEBPS/content.opf`
 			file. The
-			<filename>content.opf</filename>
+			`content.opf`
 			contains the
 			meta
 			information about the book and points to the
@@ -35,9 +35,9 @@
 			also requries an
 			additonal file mimetype with a predefined content and
 			the content of
-			<filename>OEBPS</filename>
+			`OEBPS`
 			and
-			<filename>META-INF</filename>.
+			`META-INF`.
 			The XSLT transformation will not
 			automatically
 			create the mimetype
@@ -47,16 +47,16 @@
 		</para>
 		<para>
 			To validate an EPUB file, you can use the JAR file from the
-			<ulink url="https://github.com/IDPF/epubcheck">
+			https://github.com/IDPF/epubcheck">
 				EPubCheck Validation Tool</ulink>.
 			Download the latest 1.x version and put it into the classpath of
 			your Ant file. Make sure that you also extract the
-			<filename class="directory">lib</filename>
+			<filename class="directory">lib`
 			folder
 			included in the ZIP file
 			relative
 			to the
-			<filename>epub*.jar</filename>.
+			`epub*.jar`.
 			After the
 			conversion you can validate your
 			EPUB file via
@@ -73,12 +73,12 @@
 	</section>
 
 	<section id="epub_ant">
-		<title>Creating EPUB files with Apache Ant</title>
+=== Creating EPUB files with Apache Ant</title>
 		<para>
 			The following example is based on the same file and directory
 			structure as the other examples. Create the following
-			<filename>book.xml</filename> file
-			in your <filename class="directory">input</filename> directory.
+			`book.xml` file
+			in your <filename class="directory">input` directory.
 		</para>
 		<para>
 			<programlisting language="xml">
@@ -88,17 +88,17 @@
 		</para>
 		<para>
 			This book refers to the
-			<filename>vogella_current_logo.png</filename>
+			`vogella_current_logo.png`
 			image in the
-			<filename class="directory">image</filename>
+			<filename class="directory">image`
 			folder. Either create
 			such an image or delete the part.
 		</para>
 		<para>
 			Create also a folder
-			<filename class="directory">epubinput</filename>
+			<filename class="directory">epubinput`
 			with a file
-			<filename>mimetype</filename>.
+			`mimetype`.
 			This
 			file should have only the following content:
 		</para>
@@ -110,7 +110,7 @@
 			</programlisting>
 		</para>
 		<para>
-			The following Ant <filename>build.xml</filename> file will create EPUB
+			The following Ant `build.xml` file will create EPUB
 			output.
 		</para>
 		<para>
@@ -126,11 +126,11 @@
 			<itemizedlist>
 				<listitem>
 					<para>
-						Target location of <filename class="directory">META-INF/</filename>
+						Target location of <filename class="directory">META-INF/`
 						can be specified via
 						<property>epub.metainf.dir</property>,
 						but if you do so this path is also used in the
-						<filename>container.xml</filename>.
+						`container.xml`.
 					</para>
 				</listitem>
 				<listitem>
@@ -140,7 +140,7 @@
 		</para>
 		<para>
 			You find another example Ant file in
-			<ulink url="http://inasmuch.as/2010/12/10/ant-for-epub/">
+			http://inasmuch.as/2010/12/10/ant-for-epub/">
 				Ant for EPUB Blog Entry</ulink>
 			from Tony Graham.
 		</para>

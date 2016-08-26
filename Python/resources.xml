@@ -1,15 +1,15 @@
 <section id="resources">
-	<title>Links and Literature</title>
+== Links and Literature</title>
 	<para>
-		<ulink url="http://www.python.org/"> http://www.python.org/</ulink>
+		http://www.python.org/"> http://www.python.org/</ulink>
 		Python Homepage
 	</para>
 	<para>
-		<ulink url="http://www.pydev.org/"> http://www.pydev.org/</ulink>
+		http://www.pydev.org/"> http://www.pydev.org/</ulink>
 		PyDev Homepage
 	</para>
 	<para>
-		<ulink url="http://docs.python.org/tutorial/"> http://docs.python.org/tutorial/</ulink>
+		http://docs.python.org/tutorial/"> http://docs.python.org/tutorial/</ulink>
 		Python Tutorial
 	</para>
 </section>

@@ -1,7 +1,7 @@
 <section id="development">
-	<title>Programming in Python</title>
+== Programming in Python</title>
 	<section id="development_comments">
-		<title>Comments</title>
+=== Comments</title>
 		<para>The following create a single line comment.</para>
 		<para>
 			<programlisting>
@@ -11,7 +11,7 @@
 		</para>
 	</section>
 	<section id="development_variables">
-		<title>Variables</title>
+=== Variables</title>
 		<para>Python provides dynamic typing of its variables, e.g. you do not
 			have to define a type of the variable Python will take care of this
 			for you.</para>
@@ -23,7 +23,7 @@
 		</para>
 	</section>
 	<section id="development_assertions">
-		<title>Assertions</title>
+=== Assertions</title>
 		<para>Python provides assertions. These assertions are always
 			called.
 		</para>
@@ -35,7 +35,7 @@
 		</para>
 	</section>
 	<section id="development_methods">
-		<title>Methods / Functions in Python</title>
+=== Methods / Functions in Python</title>
 		<para> Python allows to define methods via the keyword def. As the
 			language is interpreted the methods need to be defined before using
 			it.</para>
@@ -47,7 +47,7 @@
 		</para>
 	</section>
 	<section id="development_conditionals">
-		<title>Loops and if clauses</title>
+=== Loops and if clauses</title>
 		<para> The following demonstrates a loop the usage of an if-clause.
 		</para>
 
@@ -60,7 +60,7 @@
 	</section>
 
 	<section id="development_strings">
-		<title>String manipulation</title>
+=== String manipulation</title>
 		<para> Python allows the following String operations.
 		</para>
 		<para>
@@ -136,7 +136,7 @@
 		</para>
 	</section>
 	<section id="development_concatenate">
-		<title>Concatenate strings and numbers</title>
+=== Concatenate strings and numbers</title>
 		<para> Python does not allow to concatenate a string directly with a
 			number. It requires you to turn the number first into a string with
 			the str() function. 
@@ -153,7 +153,7 @@
 		</para>
 	</section>
 	<section id="development_lists">
-		<title>Lists</title>
+=== Lists</title>
 		<para> Python has good support for lists. See the following example
 			how to create a list, how to access individual elements or
 			sublists
@@ -177,7 +177,7 @@
 
 	</section>
 	<section id="textfiles">
-		<title>Processing files in Python</title>
+=== Processing files in Python</title>
 		<para> The following example is contained in the project
 			"de.vogella.python.files".</para>
 		<para> The following reads a file, strips out the end of line sign and
@@ -201,7 +201,7 @@
 	</section>
 
 	<section id="splitstring">
-		<title>Splitting strings and comparing lists.</title>
+=== Splitting strings and comparing lists.</title>
 		<para> The following example is contained in the project
 			"de.vogella.python.files". It reads to files which contain one long
 			comma separated string. This string is splitted into lists and the
@@ -215,7 +215,7 @@
 
 	</section>
 	<section id="unicode">
-		<title>Writing Python Scripts in Unicode</title>
+=== Writing Python Scripts in Unicode</title>
 		<para> If you read special non ASCII sign, e.g. ö, ä. ü or ß, you have
 			to tell Python which character set to use. Include the following in
 			the first or second line of your script.  </para>
@@ -229,7 +229,7 @@
 			
 	</section>
 	<section id="classes">
-		<title>Classes in Python</title>
+=== Classes in Python</title>
 		<para> The following is a defined class in Python. Python uses the
 			naming convension __name__ for internal functions.</para>
 		<para> Python allows operator overloading, e.g. you can define what

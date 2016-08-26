@@ -1,7 +1,7 @@
 <section id="using">
-	<title>Mercurial usage with the command line
+== Mercurial usage with the command line
 	<section id="using_overview">
-		<title>Overview
+=== Overview
 		 The following will demonstrate a short development cycle
 			using
 			the
@@ -13,7 +13,7 @@
 		The command for using Mercurial on the command line is "hg".
 	
 	<section id="using_prepare">
-		<title>Prepare
+=== Prepare
 		 Check that you are using Mercurial version 1.3 or higher:
 		
 		
@@ -67,7 +67,7 @@
 		
 	
 	<section id="using_javaproject">
-		<title>Create Java Project
+=== Create Java Project
 
 		Start Eclipse and use the new directory as workspace. Create a
 			new Java
@@ -84,7 +84,7 @@
 	
 
 	<section id="using_commit">
-		<title>Add Project to Mercurial and commit
+=== Add Project to Mercurial and commit
 		 Add the project to Mercurial.  
 		
 			<programlisting>
@@ -120,7 +120,7 @@
 	
 
 	<section id="using_delta">
-		<title>Making changes
+=== Making changes
 		 Rename your Java class to "TestNewName" and create a new class
 			"Test2".
 		
@@ -161,7 +161,7 @@
 		
 	
 	<section id="using_diff">
-		<title>See changes
+=== See changes
 
 		To see the changes use the status command. diff we show the
 			differences.
@@ -174,7 +174,7 @@
 		
 	
 	<section id="using_revert">
-		<title>Revert
+=== Revert
 
 		You can revert the changes via "hg revert". 
 		

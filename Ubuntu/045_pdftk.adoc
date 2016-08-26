@@ -1,7 +1,7 @@
 <section id="pdf">
-	<title>PDF files
+== PDF files
 	<section id="pdftk">
-		<title>Command line tool pdftk
+=== Command line tool pdftk
 		
 			The "pdftk" command line tool allows to rework existing pdf
 			files, e.g., extract pages or change the orientation of the pdf file.
@@ -27,7 +27,7 @@
 		
 	</section>
 	<section id="pdf_soffice">
-		<title>Converting .odp file to pdf in batch
+=== Converting .odp file to pdf in batch
 		
 			If you have LibreOffice installed, you can convert .odp files on
 			the command line to pdf files.

@@ -1,5 +1,5 @@
 <section id="exercise_dependencymanagement">
-	<title>Exercise: Dependency management
+== Exercise: Dependency management
 	
 		The target of this exercise is to analyze the dependencies of the
 		previously created groovy project.
@@ -12,9 +12,7 @@
 	
 	This command will result in the following output:
 	
-		<mediaobject>
-			<imageobject>
-				<imagedata fileref="images/exercise_dep_mgmt.png" />
+image::exercise_dep_mgmt.png[]
 			
 		
 	

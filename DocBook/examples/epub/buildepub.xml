@@ -57,7 +57,7 @@
 		</copy>
 		<copy todir="${output.dir}/tmp/OEBPS/images">
 			<fileset dir="images">
-				<include name="vogella_current_logo.png" />
+				<include name="vogella_current_logo.png[]
 			</fileset>
 		</copy>
 	</target>

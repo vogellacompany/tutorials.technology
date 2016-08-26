@@ -1,7 +1,7 @@
 <section id="ssh_authentication" role="wrapper">
-	<title>Authentication via SSH</title>
+== Authentication via SSH</title>
 	<section id="ssh_authentication">
-		<title>The concept of SSH</title>
+=== The concept of SSH</title>
 		<indexterm>
 			<primary>SSH key pair</primary>
 		</indexterm>
@@ -38,7 +38,7 @@
 		</para>
 	</section>
 	<section id="ssh_keygeneration">
-		<title>SSH key pair generation</title>
+=== SSH key pair generation</title>
 
 		<para>
 			To create an SSH key under Linux (or Windows / Mac with OpenSSH
@@ -49,7 +49,7 @@
 			The generated SSH
 			key is by default
 			located in the
-			<filename class="directory">.ssh</filename>
+			<filename class="directory">.ssh`
 			directory of the user home directory. Ensure that you backup existing
 			keys in
 			this directory
@@ -74,9 +74,7 @@
 			.
 		</para>
 		<para>
-			<mediaobject>
-				<imageobject>
-					<imagedata fileref="images/eclipseide_sshgen.png" scale="30" />
+image::eclipseide_sshgen.png" scale="30" />
 				</imageobject>
 				<textobject>
 					<phrase>Generating a SSH key via the Eclipse IDE</phrase>
@@ -94,14 +92,14 @@
 			to ensure that only
 			the
 			owning user can access the
-			<filename>~/.ssh</filename>
+			`~/.ssh`
 			folder and its content.
 		</para>
 
 		<note>
 			<para>
 				In the above
-				<code>ssh-keygen</code>
+				`ssh-keygen`
 				command the -C parameter is a comment. Using your email is good
 				practice so that
 				someone looking at your public key can contact you
@@ -115,9 +113,9 @@
 
 		<para>
 			The result will be two files,
-			<filename>id_rsa</filename>
+			`id_rsa`
 			which is your private key and
-			<filename>id_rsa.pub</filename>
+			`id_rsa.pub`
 			which is your public key.
 		</para>
 
@@ -125,17 +123,17 @@
 			You find more details for the generation of an SSH key on the
 			following
 			webpages:
-			<ulink url="https://help.github.com/articles/generating-ssh-keys">
+			https://help.github.com/articles/generating-ssh-keys">
 				GitHub Help: description of SSH key creation
 			</ulink>
 			or
-			<ulink url="http://www.openssh.com/manual.html">OpenSSH manual</ulink>
+			http://www.openssh.com/manual.html">OpenSSH manual</ulink>
 			.
 		</para>
 		<tip>
 			<para>
 				You can specify alternative key names with the
-				<parameter>-f</parameter>
+				`-f`
 				parameter on the
 				command line.
 				This is helpful if you have multiple
@@ -147,23 +145,23 @@
 				your SSH keys in domain
 				name format,
 				e.g.,
-				<filename>eclipse.org</filename>
+				`eclipse.org`
 				and
-				<filename>eclipse.org.pub</filename>
+				`eclipse.org.pub`
 				as well as
-				<filename>github.com</filename>
+				`github.com`
 				and
-				<filename>github.com.pub</filename>
+				`github.com.pub`
 				.
 			</para>
 			<para>
 				You need
 				additional configuration in the
-				<filename>.ssh/config</filename>
+				`.ssh/config`
 				file, because
 				only
 				the
-				<filename>id_rsa</filename>
+				`id_rsa`
 				will be picked up by
 				default. The following code shows an
 				example.

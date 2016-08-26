@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <article>
 	<articleinfo>
-		<title>The Gradle build system- Tutorial_
+=== The Gradle build system- Tutorial_
 		<author>
 			<firstname>Lars</firstname>
 			<surname>Vogel</surname>
@@ -22,7 +22,7 @@
 		</releaseinfo>
 		
 		<abstract id="abstract">
-			<title>Gradle the build system_
+	=== Gradle the build system_
 			
 				This tutorial describes how to use
 				the Gradle build tool.

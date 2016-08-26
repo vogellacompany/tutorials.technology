@@ -1,7 +1,7 @@
 <section id="network">
-	<title>Network
+== Network
 	<section id="network_status">
-		<title>See all open ports on your machine
+=== See all open ports on your machine
 		You see all listeners on your machine via the following
 			command.
 			Port which listen to 127.0.0.1 cannot get accessed from
@@ -15,19 +15,19 @@
 		
 	</section>
 	<section id="network_ssh">
-		<title>SSH access to the server
+=== SSH access to the server
 		
 			The
-			<code>ssh</code>
+			`ssh`
 			command provides secure, encrypted access to a server. Use
-			<code>ssh IP-address</code> or <code>ssh your_hostname</code>
+			`ssh IP-address` or `ssh your_hostname`
 			to access the server.
 		
 		
 			You can also assign a shortname for an IP address via the
-			<filename>config</filename>
+			`config`
 			file in your
-			<filename>~/.ssh</filename>
+			`~/.ssh`
 			director.
 		
 
@@ -39,9 +39,9 @@
 			<wordasword>testing</wordasword>
 			switch to
 			your
-			<filename>~/.ssh</filename>
+			`~/.ssh`
 			directory, create the
-			<filename>config</filename>
+			`config`
 			file if it does not exists and enter the following.
 		
 		
@@ -64,7 +64,7 @@
 	</section>
 
 	<section id="network_firewall">
-		<title>Firewall
+=== Firewall
 		Ubuntu provides a uncomplicated firewall (ufw). To install it
 			and
 			only allow SSH, FTP, and webtraffic use the following command.
@@ -79,7 +79,7 @@
 	</section>
 
 	<section id="network_commands">
-		<title>Network commands
+=== Network commands
 		 The following commands give you an overview of your network
 			connections.
 		
@@ -136,7 +136,7 @@
 		</table>
 	</section>
 	<section id="network_curl">
-		<title>HTTP debugging with curl
+=== HTTP debugging with curl
 		
 			curl is a command line tool to issue and receive http (and
 			other) request. For example, if you want to see the HTTP output of a
@@ -183,13 +183,13 @@
 		
 			<tip>
 				If you are using Microsoft Windows, see
-				<ulink url="http://curl.haxx.se/download.html">curl for Windows</ulink>
+				http://curl.haxx.se/download.html">curl for Windows</ulink>
 				.
 			
 		
 	</section>
 	<section id="network_irc">
-		<title>IRC
+=== IRC
 		
 			For IRC communication you can use the tool xchat. To install it,
 			use "sudo apt-get install xchat".
@@ -197,10 +197,10 @@
 	</section>
 
 	<section id="network_ftp">
-		<title>FTP
+=== FTP
 		
 			For FTP access you can install filezilla via
-			<code>sudo apt-get install filezilla</code>
+			`sudo apt-get install filezilla`
 			or map the ftp access to a virtual device.
 		
 
@@ -209,9 +209,7 @@
 			the entry "Connect to server".
 		
 		
-			<mediaobject>
-				<imageobject>
-					<imagedata fileref="images/ftp_menu.png" />
+image::ftp_menu.png[]
 				</imageobject>
 			</mediaobject>
 		

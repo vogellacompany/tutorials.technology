@@ -1,7 +1,7 @@
 <section id="gitreflog" role="wrapper">
-	<title>Recovering lost commits
+== Recovering lost commits
 	<section id="detachedheadmode">
-		<title>Detached HEAD
+=== Detached HEAD
 		
 			LARSPRIMARYINDEX"Detached HEAD"LARSPRIMARYINDEX
 		
@@ -26,7 +26,7 @@
 		
 	
 	<section id="gitreflog_definition">
-		<title>git reflog
+=== git reflog
 		
 			LARSPRIMARYINDEX"git reflog"LARSPRIMARYINDEX
 		
@@ -67,7 +67,7 @@ include::./examples/reflog/see.txt[]
 		
 	
 	<section id="gitreflog_example">
-		<title>Example
+=== Example
 		The following example shows how you can use git reflog to
 			reset
 			the current local branch to a commit which isn't reachable from

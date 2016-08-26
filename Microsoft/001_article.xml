@@ -2,7 +2,7 @@
 
 <article>
 	<articleinfo>
-		<title>Microsoft Applications - Tutorial</title>
+=== Microsoft Applications - Tutorial</title>
 		<author>
 			<firstname>Lars</firstname>
 			<surname>Vogel</surname>
@@ -22,7 +22,7 @@
 		
 
 		<abstract id="abstract">
-			<title>Using Microsoft</title>
+	=== Using Microsoft</title>
 			<para>
 				This article captures
 				some

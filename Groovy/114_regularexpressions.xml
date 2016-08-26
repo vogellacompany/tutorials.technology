@@ -1,6 +1,6 @@
 <section id="regularexpressions" role="wrapper">
 	<section id="regularexpressions_groovy">
-		<title>Regular expressions</title>
+=== Regular expressions</title>
 		<para>
 			Groovy is based on Java regular expression support and add the
 			addition support operators to make the usage of
@@ -58,7 +58,7 @@
 		</para>
 		<para>
 			Groovy also provides the
-			<code>replaceAll</code>
+			`replaceAll`
 			method, which allows to define a closure for the replacement.
 		</para>
 	</section>

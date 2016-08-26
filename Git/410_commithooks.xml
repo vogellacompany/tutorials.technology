@@ -1,7 +1,7 @@
 <section id="gitcommithooks" role="wrapper">
-	<title>Git commit and other hooks
+== Git commit and other hooks
 	<section id="gitcommithooks_intro">
-		<title>Usage of Git hooks
+=== Usage of Git hooks
 		
 			LARSPRIMARYINDEX"commit hooks"LARSPRIMARYINDEX
 		
@@ -29,7 +29,7 @@
 
 	
 	<section id="gitcommithooks_clientserver">
-		<title>Client and server side commit hooks
+=== Client and server side commit hooks
 		
 			Git provides hooks for the client and for the server side. On
 			the
@@ -61,7 +61,7 @@
 		
 	
 	<section id="gitcommithooks_restrictions">
-		<title>Restrictions
+=== Restrictions
 		Not all Git server implementations support server side commit
 			hooks. For example
 			Gerrit (a Git server which also provides the

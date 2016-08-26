@@ -1,5 +1,5 @@
 <section id="service">
-	<title>Running Derby Server as Windows Service</title>
+== Running Derby Server as Windows Service</title>
 	<para> The Derby Server is started via a batch program. In an server
 		environment this batch program should be automatically started if the
 		server is rebooted / started. The windows program "srvmgr" can be used

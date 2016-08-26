@@ -1,14 +1,14 @@
 <section id="windows">
-	<title>Windows Settings</title>
+== Windows Settings</title>
 	<section id="windows_environmentvariables">
-		<title>Environment Variables</title>
+=== Environment Variables</title>
 		<para> To set the windows environment variables, select Control Panel
 			-> System -> Advanced ->Button "Environment Variables".</para>
 		<para> To check the content of a variable, open a command shell
 			(Start-> Run-> cmd) and type echo%VARIABLE_NAME% </para>
 	</section>
 	<section id="windows_search">
-		<title>Search (Microsoft and Google)</title>
+=== Search (Microsoft and Google)</title>
 		<para>
 			The following search term will work on Microsoft search and
 			may
@@ -16,7 +16,7 @@
 		</para>
 		<para>
 			<table frame='all'>
-				<title>Search</title>
+		=== Search</title>
 				<tgroup cols='2' align='left' colsep='1' rowsep='1'>
 					<colspec colname='c1' />
 					<colspec colname='c2' />
@@ -68,15 +68,13 @@
 	</section>
 
 	<section id="windows_dynamicmenus">
-		<title>Turn of the dynamic menus</title>
+=== Turn of the dynamic menus</title>
 
 		<para> If you do not what dynamic menus in Windows -> Programs,
 			select Settings -> Taskbar and Start Menu -> Tab Start Menu ->
 			Classic and press Customize.</para>
 		<para>
-			<mediaobject>
-				<imageobject>
-					<imagedata fileref="images/turnoffdynamicmenu02.gif"
+image::turnoffdynamicmenu02.gif"
 						/>
 					
 				</imageobject>
@@ -86,18 +84,14 @@
 			powerpoint, select tools -> customize and then select "Always show
 			full path name".</para>
 		<para>
-			<mediaobject>
-				<imageobject>
-					<imagedata fileref="images/turnoffdynamicmenu10.gif"
+image::turnoffdynamicmenu10.gif"
 						/>
 					
 				</imageobject>
 			</mediaobject>
 		</para>
 		<para>
-			<mediaobject>
-				<imageobject>
-					<imagedata fileref="images/turnoffdynamicmenu20.gif"
+image::turnoffdynamicmenu20.gif"
 						/>
 					
 				</imageobject>
