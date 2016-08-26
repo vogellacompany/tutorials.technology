@@ -1,0 +1,28 @@
+<section id="resources">
+	<title>Links and Literature</title>
+	
+
+	<section id="resources_databinding">
+		<title>Android Resources</title>
+		<para>
+			<ulink
+				url="http://www.vogella.com/tutorials/Android/article.html">
+				Android Tutorial</ulink>
+		</para>
+		<para>
+			<ulink
+				url="http://www.vogella.com/tutorials/AndroidLocationAPI/article.html">
+				Android Location API and Google Maps</ulink>
+		</para>
+		<para>
+			<ulink
+				url="http://www.vogella.com/tutorials/AndroidNetworking/article.html">
+				Android and Networking</ulink>
+		</para>
+
+	</section>
+
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../10_Include/resources.xml" />
+
+
+</section>

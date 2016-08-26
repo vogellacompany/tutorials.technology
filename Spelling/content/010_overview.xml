@@ -1,0 +1,50 @@
+<section id="words">
+	<title>Words</title>
+	<table frame='all'>
+	<title>Misspelled words</title>
+	<tgroup cols='2' align='left' colsep='1' rowsep='1'>
+		<colspec colname='c1' />
+		<colspec colname='c2' />
+		<thead>
+			<row>
+				<entry>primarily</entry>
+				<entry>Wrong: primary</entry>
+			</row>
+		</thead>
+		<tbody>
+			<row>
+				<entry>consist of</entry>
+				<entry>Wrong consist out of</entry>
+			</row>
+			<row>
+				<entry>Double words</entry>
+				<entry>Build regular expression to find double words</entry>
+			</row>
+			<row>
+				<entry>Done vs made</entry>
+				<entry>Changes are made in </entry>
+			</row>
+			<row>
+				<entry>hierarchy</entry>
+				<entry>Wrong: hierachy </entry>
+			</row>
+				<row>
+				<entry>By default</entry>
+				<entry>Wrong: By default </entry>
+			</row>
+			</row>
+				<row>
+				<entry>turn off</entry>
+				<entry>Wrong: turn of </entry>
+			</row>
+			</row>
+                <row>
+                <entry>on vacation</entry>
+                <entry>Wrong: in vacation</entry>
+            </row>
+		</tbody>
+	</tgroup>
+</table>
+
+
+</section>

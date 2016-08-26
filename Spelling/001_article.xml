@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<article>
+	<articleinfo>
+		<title>Spelling - Tutorial</title>
+		<author>
+			<firstname>Lars</firstname>
+			<surname>Vogel</surname>
+		</author>
+		<copyright>
+			<year>2011</year>
+			<year>2012</year>
+			<holder>vogella GmbH</holder>
+		</copyright>
+		<pubdate>22.01.2012</pubdate>
+		<releaseinfo>
+			<para>Version 1.1	</para>
+		</releaseinfo>
+		
+		<abstract id="abstract">
+			<title>Typical errors I do in spelling</title>
+			<para> Reminder for Lars.
+			</para>
+		</abstract>
+	</articleinfo>
+	
+	<?dbhtml-include href="../../web/advertisement/afterTableOfContent"?>
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/010_overview.xml" />
+	<?dbhtml-include href="../../web/advertisement/beforeSupport"?>
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../10_Include/support.xml" />	
+	<?dbhtml-include href="../../web/advertisement/afterSupport"?>
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="resources.xml" />
+	<?dbhtml-include href="../../web/vgwort/Spelling"?>
+</article>
