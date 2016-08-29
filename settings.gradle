@@ -15,4 +15,5 @@ include 'Jenkins'
 include 'Ubuntu'
 include 'Nexus'
 include 'SonarQube'
+include 'Artifactory'
 
