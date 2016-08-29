@@ -5,7 +5,7 @@
 
 Maven provides a plugin, which can be used to visualize a dependency tree to either the console or an output file.
 
-[source,terminal]
+[source,console]
 ----
 # Show dependencies inside the console
 mvn dependency:tree -Dverbose

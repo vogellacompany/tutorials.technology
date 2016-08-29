@@ -14,7 +14,7 @@ To avoid the interactive mode, all required properties are passed directly to th
 Otherwise Maven asks for all the required parameters.
 Enter the following into your command shell into one line (the backslash masks the line breaks).
 
-[source,terminal]
+[source,console]
 ----
 include::res/excercise_maven/generate.txt[]
 ----
@@ -33,7 +33,7 @@ This is because Maven first loads all required plug-ins and artifacts for the pr
 		
 Validate that Maven generated a project on your file system similar to the following structure.
 		
-[source,terminal]
+[source,console]
 ----
 include::res/excercise_maven/filestructure.txt[]
 ----
@@ -43,75 +43,71 @@ Maven created a App.java class in the _./src/main/_ folder, which is just a simp
 It also created an example test class in _./src/test/_.
 In the root folder there is a _pom.xml_	file.
 
-[source,terminal]
+[source,console]
 ----
 include::res/excercise_maven/pom.xml[]
 ----	
 
-[[exercise_maven_build]]
-=== Running the Maven build
+[[exercise_maven_compile]]
+=== Compile your sources
 
-		
 
-Now you want to create an executable. 
+Now you want to compile your Java sources. 
 For this switch on the command line into our projects root directory and trigger the following Maven command.
 
-[source,terminal]
+[source,console]
 ----
 include::res/excercise_maven/compile.txt[]
 ----	
 
 		
-Maven now run through all life cycle phases, which were needed by the package phase. 
+Maven now run through all life cycle phases, which were needed by the `compile` phase. 
 It resolves the dependencies, loads the JUnit artifact and built the sources. 
 It even executed the JUnit test.
-All the generated files placed in the target folder in the project root.
-This folder should look like the following:
+
+[[exercise_maven_package]]
+=== Create a JAR file
+
+
+Now you want to create an executable JAR file out of our project. 
+The `package` goal creates a deployable JAR file.
+
+To ensure previous build artifacts are removed, you can use the `clean` goal.
 		
-[source,terminal]
+[source,console]
 ----
-include::res/excercise_maven/filestructure_after_package.txt[]
+mvn clean package
 ----
 		
 
-Now you can run the packed program. 
+Afterwards you can run the packed program. 
 
-[source,terminal]
+[source,console]
 ----
 include::res/excercise_maven/execute_result.txt[]
 ----
 
-[[exercise_maven_other_phases]]
-=== Run specific phases
-
-Now you want to create an executable JAR file out of our project. 
-For this trigger Maven with the package phase as goal.
 		
-[source,terminal]
+[source,console]
 ----
 include::res/excercise_maven/package.txt[]
 ----
 	
-Instead of running a full build with packaging it is also possible to just run single phases of a life cycle.
-		
+	
+=== Running the test 
 
-For example, if just the test results are needed:
+Instead of running a full build with packaging, it is also possible to just run the test phases of the Maven life cycle.
 		
-[source,terminal]
+[source,console]
 ----
 include::res/excercise_maven/test.txt[]
 ----
 
-It is also possible to just compile the sources:
-
-[source,terminal]
-----
-include::res/excercise_maven/compile.txt[]
-----		
+=== Remove all build results / Clean the project 
 
 To clean the project and so remove the generated files in the _./target/_ folder, run the following command.
 
-[source,terminal]
+[source,console]
 ----
 include::res/excercise_maven/clean.txt[]
 ----		
