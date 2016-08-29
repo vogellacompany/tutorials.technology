@@ -1,29 +1,18 @@
 == P2 Nexus Plugins
 
-With the
-http://search.maven.org/#search|ga|1|a%3A%22nexus-p2-bridge-plugin%22%20AND%20l%3A%22bundle%22[Nexus P2 Bridge Plugin]
-and
-http://search.maven.org/#search|ga|1|a%3A%22nexus-p2-repository-plugin%22%20AND%20l%3A%22bundle%22[Nexus P2 Repository Plugin]
-it is possible to create a proxy repository for p2 update sites.
+With the Nexus P2 Bridge Plugin and the Nexus P2 Repository Plugin it is possible to create a proxy repository for p2 update sites.
+Use the http://search.maven.org[Search Maven] to find these plugins.
 
 === Installing p2 Plugins
 
-Download the
-`bundle.zip`
-of
-http://search.maven.org/#search|ga|1|a%3A%22nexus-p2-bridge-plugin%22%20AND%20l%3A%22bundle%22[Nexus P2 Bridge Plugin]
-and
-http://search.maven.org/#search|ga|1|a%3A%22nexus-p2-repository-plugin%22%20AND%20l%3A%22bundle%22[Nexus P2 Repository Plugin]
+Download the `bundle.zip` of your search result.
 
 image::mvncentral_p2_repo.png[]
 
-These two downloaded
-`bundle.zip`
-files, which contain the nexus plugins have to be extracted into the
-`sonatype-work/nexus/plugin-repository`
-folder of the Nexus installation.
+These two downloaded `bundle.zip` files, which contain the nexus plugins have to be extracted into the `sonatype-work/nexus/plugin-repository` folder of the Nexus installation.
 
 The nexus server has to be restarted to install the plugins.
+
 `./bin/nexus restart`
 
 To validate that these plugins are properly installed the plugin

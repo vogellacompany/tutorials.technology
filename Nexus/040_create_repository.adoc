@@ -6,6 +6,7 @@ This can be created like this:
 * Login to the nexus (http://localhost:8081/nexus/) with User `admin` and password `admin123`.
 * Click on Repositories on the right hand side.
 * Select menu:Add..[Hosted Repository] and use the following data:
+
 image::new_nexus_repository.png[]
 
 Now you got a custom repository, which is hosted on your local nexus installation.

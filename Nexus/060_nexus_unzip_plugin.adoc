@@ -29,6 +29,5 @@ image::plugin_console_with_unzip_plugin.png[]
 	
 === Setting up an unzip repository
 
-See
-https://wiki.eclipse.org/Tycho/Nexus_Unzip_Plugin[Tycho/Nexus Unzip Plugin]
+See https://wiki.eclipse.org/Tycho/Nexus_Unzip_Plugin[Tycho/Nexus Unzip Plugin] for information how to setup the unzip plug-in.
 	
