@@ -7,33 +7,16 @@
 Before using Jenkins to build Java applications, you need to configure the location or it where your JDK installation is. 
 Select _Manage Jenkins_ and afterwards _Configure System_.
 
-		
-<mediaobject>
-	<imageobject>
-		<imagedata fileref="images/jenkins10.png[]
-	
-	<textobject>
-		<phrase>Jenkins at first startup</phrase>
-	</textobject>
+image::jenkins10.png[Jenkins at first startup]
 
 		
 		
 Enter the correct path to your JDK, Apache Ant and Maven and press the _Save_ button below. 
 Jenkins can also install these for your automatically.
 		
-		
-<mediaobject>
-	<imageobject>
-		<imagedata fileref="images/jenkins20.png[]
-	
-	<textobject>
-		<phrase>Configuring Jenkins</phrase>
-	</textobject>
-
-		
+image::jenkins20.png[Configuring Jenkins]
 	
 
-	<section id="jenkinsconfiguration_user">
 === Secure Jenkins
 		
 It is recommended to secure Jenkins. _Manage Jenkins_ and then _Configure Global Security_. 
@@ -43,73 +26,38 @@ Create at least the user "Anonymous" with read access.
 Also create entries for the users you want to add in the next step.
 		
 		
-<mediaobject>
-	<imageobject>
-		<imagedata fileref="images/jenkins30.png" scale="30" />
-	
-	<textobject>
-		<phrase>Access restrictions</phrase>
-	</textobject>
+image::jenkins30.png[Access restrictions]
 
-		
-		
 On the login page, select _Create an account_ to create the users you just gave access.
 		
 		
-<mediaobject>
-	<imageobject>
-		<imagedata fileref="images/jenkins40.png[]
+image::jenkins40.png[Create Jenkins account]
 	
-	<textobject>
-		<phrase>Create Jenkins account</phrase>
-	</textobject>
 
-		
-
-		
-<mediaobject>
-	<imageobject>
-		<imagedata fileref="images/jenkins50.png[]
+image::jenkins50.png[Sign up a new Jenkins user]
 	
-	<textobject>
-		<phrase>Sign up a new Jenkins user</phrase>
-	</textobject>
-
-		
-
 		
 Go to_Manage Jenkins_, _Manage and Assign Roles_ and then _Assign Roles_ to grant the newly created user additional access rights.
 		
 		
-<mediaobject>
-	<imageobject>
-		<imagedata fileref="images/jenkins60.png[]
+image::jenkins50.png[Sign up a new Jenkins user]
 	
-	<textobject>
-		<phrase>Sign up a new Jenkins user</phrase>
-	</textobject>
-
-		
 		
 Navigate to _Manage Roles_ to define access restrictions in detail. 
 _Pattern_ is a regex value of the job name.
 The following grants unregistered users read-only access to your build jobs that start with the `C-MASTER` or `M-MASTER` prefix and only those.
 		
-<mediaobject>
-	<imageobject>
-		<imagedata fileref="images/jenkins70.png[]
+image::jenkins70.png[Sign up a new Jenkins user]
 	
-	<textobject>
-		<phrase>Sign up a new Jenkins user</phrase>
-	</textobject>
-
-		
 	
-	<section id="jenkinsconfiguration_ssh">
+[[jenkinsconfiguration_ssh]]
 === Generate ssh key for Jenkins user
 		
-If you want to access a private Git repo, for example at Github, you need to generate an ssh key-pair. Create a SSH
-key with the following
-command:
-`sudo -u jenkins ssh-keygen`
-.
+If you want to access a private Git repo, for example at Github, you need to generate an ssh key-pair. 
+Create a SSH key with the following command.
+
+[source,console]
+----
+sudo -u jenkins ssh-keygen
+----
+

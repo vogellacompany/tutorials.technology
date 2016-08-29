@@ -4,19 +4,12 @@
 [[jenkins_pluginmanagement]]
 === Plug-in management
 		
-Jenkins can be extended via additional plug-ins with more
-functionality. You can configure your plug-ins via
-the
-menu:Manage Jenkins[Manager Plugins]
-link.
+Jenkins can be extended via additional plug-ins with more functionality. 
+You can configure your plug-ins via the menu:Manage Jenkins[Manager Plugins] link.
 		
 		
-To install plugins in Jenkins select
-use the
-menu:Manage Jenkins[Manager Plugins]
-link and search for the plugin you want to install. Select it from the list and select to
-install it and restart
-Jenkins.
+To install plugins in Jenkins select use the menu:Manage Jenkins[Manager Plugins] link and search for the plugin you want to install. 
+Select it from the list and select to install it and restart Jenkins.
 		
 
 		
