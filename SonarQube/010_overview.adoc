@@ -1,19 +1,12 @@
-<section id="sonarqube_overview">
 == What is SonarQube
 	
-		SonarQube (formerly Sonar) is an open source platform for continuous inspection of code quality. It provides
-		a
-		server component with a bug dashboard which allows to view and analyse reported problems in your source code.
+SonarQube (formerly Sonar) is an open source platform for continuous inspection of code quality. 
+It provides a server component with a bug dashboard which allows to view and analyse reported problems in your source code.
 	
 	
-		Using SonarQube via Maven or
-		Gradle
-		is very simple and very well described on the SonarQube homepage. See
-		http://docs.sonarqube.org/display/SCAN/Analyzing+Source+Code and its links for Maven or Gradle.
+Using SonarQube via Maven or Gradle is very simple and very well described on the SonarQube homepage.
+See http://docs.sonarqube.org/display/SCAN/Analyzing+Source+Code and its links for Maven or Gradle.
 	
 	
-		To see an example you can use the
-		https://dev.eclipse.org/sonar/">Eclise Sonar server</ulink>
-		.
-	
+To see an example you can use the https://dev.eclipse.org/sonar[Eclise Sonar server].
 

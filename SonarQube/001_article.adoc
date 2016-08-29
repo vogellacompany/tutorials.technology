@@ -1,28 +1,20 @@
-<?xml version="1.0"?>
-<article>
-	<articleinfo>
-=== SonarQube - Tutorial
-		<author>
-			<firstname>Lars</firstname>
-			<surname>Vogel</surname>
-		</author>
-		<copyright>
-			<year>2016</year>
-			<holder>vogella GmbH</holder>
-		</copyright>
-		<pubdate>23.03.2016</pubdate>
-		<releaseinfo>
-			Version 0.1
-		</releaseinfo>
-		
-		<abstract id="abstract">
-	=== Using SonarQube
-			 This article describes how to use and install the SonarQube. It is currently in DRAFT mode.
+= Using SonarQube
+:linkcss:
+:sectnums:
+Simon Scholz (c) 2016 vogella GmbH
+Version 0.3, 03.09.2016
+:keywords: Gradle, Groovy
+:contentidentifier: description
+:imagesdir: img
+
+[abstract]
+This article describes how to use and install the SonarQube. 
+It is currently in DRAFT mode.
 			
 		
 	
 include::010_overview.adoc[]
 include::020_installation.adoc[]
-include::006_resources.adoc[]
+include::008_resourceslocal.adoc[]
 
 
