@@ -1,10 +1,4 @@
 == SonarQube Links
 	
-<<<<<<< Upstream, based on branch 'master' of https://github.com/vogellacompany/com.vogella.tutorials.technology
 https://www.javacodegeeks.com/2016/03/3-steps-analyzing-gradle-project-sonarqube-using-docker.html[3 Steps For Analyzing a Gradle Project With SonarQube Using Docker]
-=======
-https://www.javacodegeeks.com/2016/03/3-steps-analyzing-gradle-project-sonarqube-using-docker.html">
-			3 Steps For Analyzing a Gradle Project With SonarQube Using Docker
-		</ulink>
->>>>>>> af099c2 Mass changes
 	
