@@ -6,3 +6,10 @@ To see the links in the generated output use the following attribute in the head
 ----
 :showlinks:
 ----
+
+Also you can configure the label for a chapter via the `chapter-label` attribute, e.g. if you do not want any label you can use:
+
+[source,console]
+----
+:chapter-label:
+----
