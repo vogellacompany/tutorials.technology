@@ -12,3 +12,8 @@ This article describes how to use the Jenkins continuous integration build serve
                 
 include::010_overview.adoc[]
 include::020_installation.adoc[]
+include::080_configuration.adoc[]
+include::090_pluginmanagement.adoc[]
+include::100_git.adoc[]
+include::200_usage.adoc[]
+include::800_filesystem.adoc[]
