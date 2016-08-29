@@ -21,16 +21,18 @@
 			
 		</abstract>
 	</articleinfo>
-	<?dbhtml-include href="../../web/advertisement/afterTableOfContent"?>
-	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="100_uml_intro.xml" />
-	<?dbhtml-include href="../../web/advertisement/inBetween01"?>
-	<?dbhtml-include href="../../web/advertisement/inBetween02"?>
-	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="600_class_diagrams.xml" />
-	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="700_mda.xml" />
-	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="800_tooling.xml" />
-	<?dbhtml-include href="../../web/advertisement/beforeSupport"?>
-	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../10_Include/support.xml" />	
-	<?dbhtml-include href="../../web/advertisement/afterSupport"?>
-	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="resources.xml" />
-	<?dbhtml-include href="../../web/vgwort/UML"?>
-</article>
+include::../web/advertisement/afterTableOfContent.adoc[]
+include::100_uml_intro.adoc[]
+include::../web/advertisement/inBetween01.adoc[]
+include::../web/advertisement/inBetween02.adoc[]
+include::600_class_diagrams.adoc[]
+include::700_mda.adoc[]
+include::800_tooling.adoc[]
+
+include::../support.adoc[]
+include::008_resourceslocal.adoc[]
+include::../copyright.adoc[]	
+
+
+
+

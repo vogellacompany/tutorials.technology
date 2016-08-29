@@ -24,8 +24,8 @@
 		</abstract>
 	</articleinfo>
 
-	<?dbhtml-include href="../../web/advertisement/afterTableOfContent"?>
-	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/001_introduction.xml" />
-	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="resources.xml" />
-	<?dbhtml-include href="../../web/vgwort/PublishEBooks"?>
-</article>
+include::../web/advertisement/afterTableOfContent.adoc[]
+include::content/001_introduction.adoc[]
+
+
+

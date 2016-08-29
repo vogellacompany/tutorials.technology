@@ -29,31 +29,33 @@
 		</abstract>
 	</articleinfo>
 
-	<?dbhtml-include href="../../web/advertisement/afterTableOfContent"?>
-	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="010_codereview.xml" />
-	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="020_gerrit.xml" />
-	<?dbhtml-include href="../../web/advertisement/inBetween01"?>
-	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="020_installation.xml" />
-    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="030_workflow.xml" />
-	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="040_user_setup.xml" />
-	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="044_user_newchangescreen.xml" />
-	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="060_setuprepo.xml" />
-	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="070_prepareexampleproject.xml" />
-	<?dbhtml-include href="../../web/advertisement/inBetween02"?>
-	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="080_developer_prepare.xml" />
-	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="084_developer_setup.xml" />
-	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="100_createchangerequest.xml" />
-	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="180_reviewurl.xml" />
-	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="200_webreview.xml" />
-	<?dbhtml-include href="../../web/advertisement/inBetween03"?>
-	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="600_gerritproblems.xml" />
-	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="610_otherproblems.xml" />
-	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="620_thingstoconsider.xml" />
-	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="800_eclipse_gerrit.xml" />
-	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="900_contributing_to_eclipse.xml" />
-	<?dbhtml-include href="../../web/advertisement/beforeSupport"?>
-	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../10_Include/support.xml" />	
-	<?dbhtml-include href="../../web/advertisement/afterSupport"?>
-	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="006_resources.xml" />
-	<?dbhtml-include href="../../web/vgwort/Gerrit"?>
-</article>
+include::../web/advertisement/afterTableOfContent.adoc[]
+include::010_codereview.adoc[]
+include::020_gerrit.adoc[]
+include::../web/advertisement/inBetween01.adoc[]
+include::020_installation.adoc[]
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="030_workflow.adoc[]
+include::040_user_setup.adoc[]
+include::044_user_newchangescreen.adoc[]
+include::060_setuprepo.adoc[]
+include::070_prepareexampleproject.adoc[]
+include::../web/advertisement/inBetween02.adoc[]
+include::080_developer_prepare.adoc[]
+include::084_developer_setup.adoc[]
+include::100_createchangerequest.adoc[]
+include::180_reviewurl.adoc[]
+include::200_webreview.adoc[]
+include::../web/advertisement/inBetween03.adoc[]
+include::600_gerritproblems.adoc[]
+include::610_otherproblems.adoc[]
+include::620_thingstoconsider.adoc[]
+include::800_eclipse_gerrit.adoc[]
+include::900_contributing_to_eclipse.adoc[]
+
+include::../support.adoc[]
+include::008_resourceslocal.adoc[]
+include::../copyright.adoc[]	
+
+include::006_resources.adoc[]
+
+

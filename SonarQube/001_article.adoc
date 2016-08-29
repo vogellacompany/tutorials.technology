@@ -21,8 +21,8 @@
 			
 		
 	
-	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="010_overview.xml" />
-	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="020_installation.xml" />
-	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="006_resources.xml" />
-	<?dbhtml-include href="../../web/vgwort/ArtifactoryRepositoryManager"?>
-</article>
+include::010_overview.adoc[]
+include::020_installation.adoc[]
+include::006_resources.adoc[]
+
+

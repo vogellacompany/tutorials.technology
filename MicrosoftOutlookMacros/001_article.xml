@@ -29,16 +29,18 @@
 	</articleinfo>
 
 <?dbhtml-include href="../../web/advertisement/afterTableOfContent"?>
-	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/010_overview.xml" />
-	<?dbhtml-include href="../../web/advertisement/inBetween01"?>
-	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/100_outlook.xml" />
-	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/120_shortcut.xml" />
-	<?dbhtml-include href="../../web/advertisement/inBetween02"?>
-	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/200_outlook.xml" />
-	<?dbhtml-include href="../../web/advertisement/beforeSupport"?>
-	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../10_Include/support.xml" />
-	<?dbhtml-include href="../../web/advertisement/afterSupport"?>	
-	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="resources.xml" />
-	<?dbhtml-include href="../../web/vgwort/MicrosoftOutlookMacros"?>
+include::content/010_overview.adoc[]
+include::../web/advertisement/inBetween01.adoc[]
+include::content/100_outlook.adoc[]
+include::content/120_shortcut.adoc[]
+include::../web/advertisement/inBetween02.adoc[]
+include::content/200_outlook.adoc[]
 
-</article>
+include::../support.adoc[]
+include::008_resourceslocal.adoc[]
+include::../copyright.adoc[]
+
+
+
+
+

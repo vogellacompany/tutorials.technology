@@ -35,19 +35,20 @@
 		</abstract>
 	</articleinfo>
 
-	<?dbhtml-include href="../../web/advertisement/afterTableOfContent"?>
-	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/010_shortcuts.xml" />
-	<?dbhtml-include href="../../web/advertisement/inBetween01"?>
-	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/100_windows.xml" />
-	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/120_excel.xml" />
-	<?dbhtml-include href="../../web/advertisement/inBetween02"?>
-	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/200_word.xml" />
-	<?dbhtml-include href="../../web/advertisement/inBetween03"?>
-	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/300_powerpoint.xml" />
-	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/600_stuff.xml" />
-	<?dbhtml-include href="../../web/advertisement/beforeSupport"?>
-	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../10_Include/support.xml" />	
-	<?dbhtml-include href="../../web/advertisement/afterSupport"?>
-	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="resources.xml" />
-	<?dbhtml-include href="../../web/vgwort/Microsoft"?>
-</article>
+include::../web/advertisement/afterTableOfContent.adoc[]
+include::content/010_shortcuts.adoc[]
+include::../web/advertisement/inBetween01.adoc[]
+include::content/100_windows.adoc[]
+include::content/120_excel.adoc[]
+include::../web/advertisement/inBetween02.adoc[]
+include::content/200_word.adoc[]
+include::../web/advertisement/inBetween03.adoc[]
+include::content/300_powerpoint.adoc[]
+include::content/600_stuff.adoc[]
+
+include::../support.adoc[]
+include::008_resourceslocal.adoc[]
+include::../copyright.adoc[]	
+
+
+

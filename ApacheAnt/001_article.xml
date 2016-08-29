@@ -36,22 +36,21 @@
 			
 		</abstract>
 	</articleinfo>
-	<?dbhtml-include href="../../web/advertisement/afterTableOfContent"?>
-	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="010_buildtools.xml" />
-	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="012_antintro.xml" />
-	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="020_installation.xml" />
-	<?dbhtml-include href="../../web/advertisement/inBetween01"?>
-	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="030_ant.xml" />
-	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="035_classpath.xml" />
-	<?dbhtml-include href="../../web/advertisement/inBetween02"?>
-	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="038_javaprogram.xml" />
-		<?dbhtml-include href="../../web/advertisement/inBetween03"?>
-	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="040_junit.xml" />
-	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="050_usefultasks.xml" />
-	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="090_eclipseant.xml" />
-	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="200_tips.xml" />
-	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../10_Include/support.xml" />	
-	<?dbhtml-include href="../../web/advertisement/afterSupport"?>
-	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="resources.xml" />
-	<?dbhtml-include href="../../web/vgwort/ApacheAnt"?>
-</article>
+include::../web/advertisement/afterTableOfContent.adoc[]
+include::010_buildtools.adoc[]
+include::012_antintro.adoc[]
+include::020_installation.adoc[]
+include::../web/advertisement/inBetween01.adoc[]
+include::030_ant.adoc[]
+include::035_classpath.adoc[]
+include::../web/advertisement/inBetween02.adoc[]
+include::038_javaprogram.adoc[]
+include::../web/advertisement/inBetween03.adoc[]
+include::040_junit.adoc[]
+include::050_usefultasks.adoc[]
+include::090_eclipseant.adoc[]
+include::200_tips.adoc[]
+include::../support.adoc[]
+include::008_resourceslocal.adoc[]
+include::../copyright.adoc[]
+
