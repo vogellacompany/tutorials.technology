@@ -1,1 +1,0 @@
-byzanz-record --duration=10 --x=0 --y=0 --width=400 --height=400 output.gif

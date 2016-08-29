@@ -1,34 +1,23 @@
-<section id="record_screen">
 == Command line tool for recording the screen
-	
-		byzanz allows to record a specified area on the screen with different
-		output formats and custom settings.
-	
-	It can be installed with this command:
-	
-		<programlisting language="bourne">
-			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-				parse="text" href="./examples/byzanz/install.txt[]
+
+byzanz allows to record a specified area on the screen with different output formats and custom settings.
+
+It can be installed with this command:
+
+[source,console]
 ----
-	
-	
-		See
-		<ulink
-			url="http://manpages.ubuntu.com/manpages/natty/man1/byzanz-record.1.html">byzanz command line options</ulink> for details about the usage.
-	
-	
-		This example creates an animated
-		`output.gif`
-		file of the screen in the area of (x=0, y=0, width=400, height=400)
-		with the duration of 10 seconds.
-	
-	
-		<programlisting language="bourne">
-			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-				parse="text" href="./examples/byzanz/record.txt[]
+include::res/byzanz/install.txt[]
 ----
-	
-	Besides the gif format also flv, ogg, ogv and byzanz formats are
-		supported.
-	
-</section>
+
+
+See http://manpages.ubuntu.com/manpages/natty/man1/byzanz-record.1.html[byzanz command line options]for details about the usage.
+
+
+The following example creates an animated `output.gif` file of the screen in the area of (x=0, y=0, width=800, height=1024) with the duration of 20 seconds.
+
+[source,console]
+----
+byzanz-record --duration=20 --x=0 --y=0 --width=800 --height=1024 output.gif
+----
+
+Besides the gif format also flv, ogg, ogv and byzanz formats are supported.
