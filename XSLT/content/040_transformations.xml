@@ -1,23 +1,23 @@
 <section id="transform">
-== Your first transformation</title>
-	<para>
+== Your first transformation
+	
 		We want to do a real transformation. Create the following
 		`transform2.xsl`
 		and run it with the same input file.
-	</para>
-	<para>
+	
+	
 		<programlisting language="xml">
 			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-				parse="text" href="../examples/second/transform2.xsl" />
-		</programlisting>
-	</para>
+				parse="text" href="../examples/second/transform2.xsl[]
+----
+	
 
-	<para>The result should look like the following.</para>
-	<para>
+	The result should look like the following.
+	
 		<programlisting language="xml">
 			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-				parse="text" href="../examples/second/source.out.xml" />
-		</programlisting>
-	</para>
+				parse="text" href="../examples/second/source.out.xml[]
+----
+	
 
 </section>

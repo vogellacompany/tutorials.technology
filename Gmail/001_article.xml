@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <article>
 	<articleinfo>
-=== Collection of Helpful Programs</title>
+=== Collection of Helpful Programs
 		<author>
 			<firstname>Lars</firstname>
 			<surname>Vogel</surname>
@@ -12,15 +12,15 @@
 		</copyright>
 		<pubdate>15.10.2010</pubdate>
 		<releaseinfo>
-			<para>Version 1.2</para>
+			Version 1.2
 		</releaseinfo>
 		
 		<abstract id="abstract">
-	=== Helpful programs</title>
-			<para> This articles lists useful programs which I like to use. The
+	=== Helpful programs
+			 This articles lists useful programs which I like to use. The
 				article is not intended to contain any useful information for other
 				users then myself.
-			</para>
+			
 		</abstract>
 	</articleinfo>
 	<?dbhtml-include href="../../web/advertisement/afterTableOfContent"?>

@@ -1,6 +1,6 @@
 <section id="gerritreview_configuration">
-== Developer: Gerrit configuration for the Git repository</title>
-	<para>
+== Developer: Gerrit configuration for the Git repository
+	
 		After you cloned the repository from Gerrit, right-click in the
 		<guilabel>Git Repositories</guilabel>
 		view
@@ -9,8 +9,8 @@
 		remote and select
 		<guilabel>Gerrit Configuration...</guilabel>
 		.
-	</para>
-	<para>
+	
+	
 image::remotegerritconfiguration10.png"
 					scale="40" />
 			</imageobject>
@@ -18,14 +18,14 @@ image::remotegerritconfiguration10.png"
 				<phrase>Configure a remote for Gerrit</phrase>
 			</textobject>
 		</mediaobject>
-	</para>
-	<para>
+	
+	
 		The default values in this dialog should be okay. Press the
 		finish
 		button.
-	</para>
+	
 
-	<para>
+	
 image::remotegerritconfiguration20.png"
 					scale="40" />
 			</imageobject>
@@ -33,8 +33,8 @@ image::remotegerritconfiguration20.png"
 				<phrase>Configure a remote for Gerrit</phrase>
 			</textobject>
 		</mediaobject>
-	</para>
-	<para>
+	
+	
 		This sets your push configuration for this remote to
 		<wordasword>refs/for/*</wordasword>
 		which tells Gerrit that you created or updated a change.
@@ -47,17 +47,17 @@ image::remotegerritconfiguration20.png"
 		also adds a flag to your repository to tell the Eclipse Git tooling to
 		create a
 		Gerrit Change-id.
-	</para>
+	
 	<tip>
-		<para>
+		
 			Use the
 			<guilabel>Properties</guilabel>
 			view
 			on your repository to see the details of your repository
 			configuration.
-		</para>
+		
 	
-	<para>
+	
 image::gerrit_remoteconfiguration40.png"
 					scale="40" />
 			</imageobject>
@@ -65,8 +65,8 @@ image::gerrit_remoteconfiguration40.png"
 				<phrase>Gerrit remote configuration</phrase>
 			</textobject>
 		</mediaobject>
-	</para>
-	<para>
+	
+	
 		The
 		<wordasword>refs/for/*</wordasword>
 		ensures that every push is handled by Gerrit. If you use the
@@ -74,17 +74,17 @@ image::gerrit_remoteconfiguration40.png"
 		ref mapping, you can directly push to the Git repository. This
 		option
 		is typically restricted to administrators.
-	</para>
+	
 
 	<tip>
-		<para>
+		
 			You can also do this setup directly via the Git command line.
-			<para>
+			
 				<programlisting language="bourne">
 					<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
 						parse="text" href="./examples/pushrefspec/refspec.txt" />
 				</programlisting>
-			</para>
-		</para>
+			
+		
 	
 </section>

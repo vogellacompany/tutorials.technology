@@ -1,6 +1,6 @@
 <section id="docbooktags">
-== DocBook Tags</title>
-	<para>
+== DocBook Tags
+	
 		So far you have used a very limited set of
 		<wordasword>DocBook</wordasword>
 		attributes. The
@@ -8,12 +8,12 @@
 		need in a
 		<wordasword>DocBook</wordasword>
 		document.
-	</para>
+	
 	<section id="docbooktags_text">
-=== Markup</title>
-		<para>
+=== Markup
+		
 			<table frame='all'>
-		=== Important Docbook tags</title>
+		=== Important Docbook tags
 				<tgroup cols='2' align='left' colsep='1' rowsep='1'>
 					<colspec colname='c1' />
 					<colspec colname='c2' />
@@ -113,146 +113,146 @@
 					</tbody>
 				</tgroup>
 			</table>
-		</para>
+		
 	</section>
 
 	<section id="docbooktags_warnings">
-=== Warnings</title>
-		<para>
+=== Warnings
+		
 			To define warning messages, DocBook provides several tags. The
 			following list gives an overview of them.
 			<itemizedlist>
 				<listitem>
-					<para>tip</para>
+					tip
 				</listitem>
 				<listitem>
-					<para>note</para>
+					note
 				</listitem>
 				<listitem>
-					<para>important</para>
+					important
 				</listitem>
 				<listitem>
-					<para>warning</para>
+					warning
 				</listitem>
 				<listitem>
-					<para>caution</para>
+					caution
 				</listitem>
 			</itemizedlist>
-		</para>
-		<para>The following snippet shows how to use these.</para>
-		<para>
+		
+		The following snippet shows how to use these.
+		
 			<programlisting language="xml">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
 					parse="text" href="./examples/warning/warning.xml" />
 			</programlisting>
-		</para>
+		
 	</section>
 
 	<section id="docbooktags_linebreak">
-=== Line break</title>
-		<para>
+=== Line break
+		
 			You
 			can create an explicit line break with the <![CDATA[<sbr/> ]]>
 			command.
-		</para>
+		
 	</section>
 
 	<section id="docbooktags_link">
-=== References to other elements</title>
-		<para>
+=== References to other elements
+		
 			You link to different elements in Docbook with
 			<![CDATA[<xref linkend="id_of_the_element"/> ]]>.
-		</para>
+		
 	</section>
 
 	<section id="docbooktags_legal">
-=== Legal Notice</title>
-		<para>
+=== Legal Notice
+		
 			You can define legal notices where you state the conditions
 			for reproduction like traditional copyright or an open
 			content license. These tags are confined to meta-information.
-		</para>
-		<para>
+		
+		
 			<programlisting language="xml">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
 					parse="text" href="./examples/legalnotice.xml" />
 			</programlisting>
-		</para>
+		
 	</section>
 
 	<section id="docbooktags_index">
-=== Index</title>
-		<para>
+=== Index
+		
 			You
 			create an index in your document with the <![CDATA[<index/>]]>
 			entry.
-		</para>
-		<para>To create index elements, you can use the following:</para>
-		<para>
+		
+		To create index elements, you can use the following:
+		
 			<programlisting language="xml">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
 					parse="text" href="./examples/indexelement1.xml" />
 			</programlisting>
-		</para>
-		<para>You can add a secondary index term.</para>
-		<para>
+		
+		You can add a secondary index term.
+		
 			<programlisting language="xml">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
 					parse="text" href="./examples/indexelement2.xml" />
 			</programlisting>
-		</para>
-		<para>You can also place a reference to another index term.</para>
-		<para>
+		
+		You can also place a reference to another index term.
+		
 			<programlisting language="xml">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
 					parse="text" href="./examples/indexelement3.xml" />
 			</programlisting>
-		</para>
+		
 	</section>
 
 	<section id="docbooktags_table">
-=== Tables</title>
-		<para>You can create a table via the following coding.</para>
-		<para>
+=== Tables
+		You can create a table via the following coding.
+		
 			<programlisting language="xml">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
 					parse="text" href="./examples/exampletable.xml" />
 			</programlisting>
-		</para>
+		
 	</section>
 
 	<section id="docbooktags_lists">
-=== Lists</title>
-		<para>You can create non-numbered lists like this:</para>
-		<para>
+=== Lists
+		You can create non-numbered lists like this:
+		
 			<programlisting language="xml">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
 					parse="text" href="./examples/simplelist.xml" />
 			</programlisting>
-		</para>
+		
 
-		<para>You can create numbered lists like this:</para>
-		<para>
+		You can create numbered lists like this:
+		
 			<programlisting language="xml">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
 					parse="text" href="./examples/numberedlist.xml" />
 			</programlisting>
-		</para>
+		
 	</section>
 
 	<section id="docbooktags_links">
-=== Links</title>
-		<para>You can create links like this</para>
+=== Links
+		You can create links like this
 
 		<programlisting language="xml">
 			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-				parse="text" href="./examples/link/examplelink.xml" />
-		</programlisting>
+				parse="text" href="./examples/link/examplelink.xml[]
+----
 	</section>
 
 	<section id="docbooktags_graphics">
-=== Graphics</title>
-		<para>
+=== Graphics
+		
 			DocBook has no restrictions what kind of graphic format you
 			use,
 			e.g.
@@ -266,45 +266,45 @@
 			mandatory
 			`"alt"`
 			attribute of image.
-		</para>
+		
 		<programlisting language="xml">
 			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-				parse="text" href="./examples/images/images.xml" />
-		</programlisting>
-		<para>
+				parse="text" href="./examples/images/images.xml[]
+----
+		
 			You can also specify different graphics for different output
 			formats.
-		</para>
+		
 		<programlisting language="xml">
 			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-				parse="text" href="./examples/images/images2.xml" />
-		</programlisting>
-		<para>You can also embed a figure with enumeration and header.</para>
+				parse="text" href="./examples/images/images2.xml[]
+----
+		You can also embed a figure with enumeration and header.
 		<programlisting language="xml">
 			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-				parse="text" href="./examples/images/figure.xml" />
-		</programlisting>
+				parse="text" href="./examples/images/figure.xml[]
+----
 	</section>
 
 	<section id="docbooktags_menu">
-=== Menus</title>
-		<para>
+=== Menus
+		
 			To define menu paths, as, for example,
 			<menuchoice>
 				<guimenu>File</guimenu>
 				<guisubmenu>New Project</guisubmenu>
 			</menuchoice>,
 			use the following
-		</para>
+		
 		<programlisting language="xml">
 			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-				parse="text" href="./examples/gui/menu.xml" />
-		</programlisting>
+				parse="text" href="./examples/gui/menu.xml[]
+----
 	</section>
 
 	<section id="docbooktags_shortcuts">
-=== Keyboard Shortcuts</title>
-		<para>
+=== Keyboard Shortcuts
+		
 			To define keyboard as, for example,
 			<shortcut>
 				<keycombo>
@@ -313,10 +313,10 @@
 				</keycombo>
 			</shortcut>,
 			use the following
-		</para>
+		
 		<programlisting language="xml">
 			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-				parse="text" href="./examples/gui/shortcut.xml" />
-		</programlisting>
+				parse="text" href="./examples/gui/shortcut.xml[]
+----
 	</section>
 </section>

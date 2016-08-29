@@ -1,39 +1,39 @@
 <section id="debugging">
-== Debugging</title>
-	<para> Just right-click in the source code and add a breakpoint.</para>
+== Debugging
+	 Just right-click in the source code and add a breakpoint.
 
-	<para>
+	
 image::debug10.gif" />
 				
 			</imageobject>
 		</mediaobject>
-	</para>
-	<para> Then select Debug as -> Python Run</para>
-	<para>
+	
+	 Then select Debug as -> Python Run
+	
 image::debug20.gif" />
 				
 			</imageobject>
 		</mediaobject>
-	</para>
-	<para>You can now inspect and modify the variables in the variables
-		view.</para>
+	
+	You can now inspect and modify the variables in the variables
+		view.
 
-	<para>
+	
 image::debug30.gif" />
 				
 			</imageobject>
 		</mediaobject>
-	</para>
-	<para>
+	
+	
 		Via the debug buttons (or shortcuts F5, F6, F7, F8) you can move in
 		your program.
 
-		<para>
+		
 			You can use F5 / F6, F7 and F8 to step through your coding.
-		</para>
+		
 
 		<table frame='all'>
-	=== Debugging Key bindings</title>
+	=== Debugging Key bindings
 			<tgroup cols='2' align='left' colsep='1' rowsep='1'>
 				<colspec colname='c1' />
 				<colspec colname='c2' />
@@ -76,16 +76,16 @@ image::debug30.gif" />
 			</tgroup>
 		</table>
 
-		<para> You can of course use the ui to debug. The following displays
-			the key bindings for the debug buttons. </para>
-	</para>
+		 You can of course use the ui to debug. The following displays
+			the key bindings for the debug buttons. 
+	
 
-	<para>
+	
 image::debug40.gif" />
 				
 			</imageobject>
 		</mediaobject>
-	</para>
+	
 
 
 

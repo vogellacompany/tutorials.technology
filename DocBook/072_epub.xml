@@ -1,8 +1,8 @@
 <section id="epub">
-== Creating epub</title>
+== Creating epub
 	<section id="epub_overview">
-=== Overview of EPUB</title>
-		<para>
+=== Overview of EPUB
+		
 			EPUB is a format for electronic book defined by the
 			International
 			Digital Publishing Forum (IDPF). EPUB is based on XHTML
@@ -25,8 +25,8 @@
 			content pages which
 			are
 			defined as HTML pages.
-		</para>
-		<para>
+		
+		
 			The Docbook XLST stylesheets support a conversion into EPUB.
 			This
 			conversion is based on the XHTML stylesheets and therefore
@@ -44,8 +44,8 @@
 			file nor the ZIP file. We will use
 			Apache Ant to
 			create them for us.
-		</para>
-		<para>
+		
+		
 			To validate an EPUB file, you can use the JAR file from the
 			https://github.com/IDPF/epubcheck">
 				EPubCheck Validation Tool</ulink>.
@@ -63,86 +63,86 @@
 			the following
 			command.
 			We will include the check also in our Ant task.
-		</para>
-		<para>
+		
+		
 			<programlisting language="bourne">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
 					parse="text" href="./examples/epubvalidate/validate.sh" />
 			</programlisting>
-		</para>
+		
 	</section>
 
 	<section id="epub_ant">
-=== Creating EPUB files with Apache Ant</title>
-		<para>
+=== Creating EPUB files with Apache Ant
+		
 			The following example is based on the same file and directory
 			structure as the other examples. Create the following
 			`book.xml` file
 			in your <filename class="directory">input` directory.
-		</para>
-		<para>
+		
+		
 			<programlisting language="xml">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
 					parse="text" href="./examples/epub/book.xml" />
 			</programlisting>
-		</para>
-		<para>
+		
+		
 			This book refers to the
 			`vogella_current_logo.png`
 			image in the
 			<filename class="directory">image`
 			folder. Either create
 			such an image or delete the part.
-		</para>
-		<para>
+		
+		
 			Create also a folder
 			<filename class="directory">epubinput`
 			with a file
 			`mimetype`.
 			This
 			file should have only the following content:
-		</para>
+		
 
-		<para>
+		
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
 					parse="text" href="./examples/epub/mimetype" />
 			</programlisting>
-		</para>
-		<para>
+		
+		
 			The following Ant `build.xml` file will create EPUB
 			output.
-		</para>
-		<para>
+		
+		
 			<programlisting language="xml">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
 					parse="text" href="./examples/epub/buildepub.xml" />
 			</programlisting>
-		</para>
-		<para>
+		
+		
 			I personally see the following issues. Please let me know if you have
 			a
 			solution for it.
 			<itemizedlist>
 				<listitem>
-					<para>
+					
 						Target location of <filename class="directory">META-INF/`
 						can be specified via
 						<property>epub.metainf.dir</property>,
 						but if you do so this path is also used in the
 						`container.xml`.
-					</para>
+					
 				</listitem>
 				<listitem>
-					<para>Same issue with <property>epub.oebps.dir</property>.</para>
+					Same issue with <property>epub.oebps.dir</property>.
 				</listitem>
 			</itemizedlist>
-		</para>
-		<para>
+		
+		
 			You find another example Ant file in
 			http://inasmuch.as/2010/12/10/ant-for-epub/">
 				Ant for EPUB Blog Entry</ulink>
 			from Tony Graham.
-		</para>
+		
 	</section>
 </section>

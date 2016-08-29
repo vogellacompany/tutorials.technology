@@ -1,20 +1,20 @@
 <section id="gerrit_problems" role="wrapper">
-== Solving typical Gerrit problems</title>
+== Solving typical Gerrit problems
 
 	<section id="gerrit_problems_squashcommits">
-=== You forgot to amend the commit</title>
+=== You forgot to amend the commit
 		<indexterm>
 			<primary>squash commits first</primary>
 		</indexterm>
-		<para>
+		
 			If you try to push a commit which contains the same ChangeId as
 			a
 			predecessor commit, Gerrit will reject it and
 			responds with the error
 			message:
 			"squash commits first".
-		</para>
-		<para>
+		
+		
 			In this case you probably forgot to
 			amend the existing
 			commit but
@@ -22,32 +22,32 @@
 			the same Gerrit Change-ID. This is depicted
 			in the following
 			graphic.
-		</para>
+		
 
 
-		<para>
+		
 image::gerritissue_problem30.png" scale="30" />
 				</imageobject>
 				<textobject>
 					<phrase>Rebase as solution</phrase>
 				</textobject>
 			</mediaobject>
-		</para>
-		<para>In this case you need to squash the commits. This results in a
+		
+		In this case you need to squash the commits. This results in a
 			new commit which can be pushed to Gerrit. As you
 			use the same
 			Change-ID this pushed commit will update the Gerrit review. In the following diagram the "Commit 2'" is
 			the result of squashing "Commit 2" and "Commit 3" into one commit.
-		</para>
-		<para>
+		
+		
 image::gerritissue_solution30.png" scale="30" />
 				</imageobject>
 				<textobject>
 					<phrase>Rebase as solution</phrase>
 				</textobject>
 			</mediaobject>
-		</para>
-		<para>An easy solution to handle this is, to do a soft reset in Git to
+		
+		An easy solution to handle this is, to do a soft reset in Git to
 			the
 			previous commit and commit the change files
 			again, this time with
@@ -55,11 +55,11 @@ image::gerritissue_solution30.png" scale="30" />
 			need to generate a new
 			changeId in the second commit which was
 			rejected.
-		</para>
+		
 
 
 		<tip>
-			<para>
+			
 				The Git tooling in Eclipse allows squashing commits via the
 				<guilabel>Git Interactive Rebase</guilabel>
 				view. A simple way of doing this is by selecting the adjacent
@@ -71,33 +71,33 @@ image::gerritissue_solution30.png" scale="30" />
 					<guisubmenu>Squash</guisubmenu>
 				</menuchoice>
 				from the context menu.
-			</para>
+			
 		
 
 	</section>
 	<section id="gerrit_problems_mergeconflicts">
-=== Handling merge conflicts</title>
-		<para>
+=== Handling merge conflicts
+		
 			The submit step may fail due to merge conflicts, depending on
 			the Gerrit project configuration.
-		</para>
-		<para>
+		
+		
 			The easiest way to do so is via the
 			<guibutton>Rebase</guibutton>
 			button
 			in the Gerrit web interface, if there are no conflicts.
 
-		</para>
+		
 
-		<para>
+		
 image::gerrit_rebasebutton10.png[]
 				</imageobject>
 				<textobject>
 					<phrase>Rebase button in Gerrit</phrase>
 				</textobject>
 			</mediaobject>
-		</para>
-		<para>
+		
+		
 			In
 			case you
 			have
@@ -110,30 +110,30 @@ image::gerrit_rebasebutton10.png[]
 			conflict are:
 			<itemizedlist>
 				<listitem>
-					<para>
+					
 						Rebase your local branch onto the latest state of
 						`origin/master`
-					</para>
+					
 				</listitem>
 				<listitem>
-					<para>Resolve all conflicts</para>
+					Resolve all conflicts
 				</listitem>
 				<listitem>
-					<para>
+					
 						Commit them using
 						<menuchoice>
 							<guimenu>Rebase</guimenu>
 							<guisubmenu>Continue</guisubmenu>
 						</menuchoice>
 						.
-					</para>
+					
 				</listitem>
 				<listitem>
-					<para>Push your change again to Gerrit for review</para>
+					Push your change again to Gerrit for review
 				</listitem>
 			</itemizedlist>
-		</para>
-		<para>
+		
+		
 			This creates a new
 			patch set for the
 			change. The
@@ -145,13 +145,13 @@ image::gerrit_rebasebutton10.png[]
 			set change to
 			merge it
 			into the master branch.
-		</para>
+		
 	</section>
 
 
 	<section id="gerrit_problems_nonfastforward">
-=== non-fast forward</title>
-		<para>
+=== non-fast forward
+		
 			You get this error message if you try to submit a commit in
 			Gerrit to the Git repository and the change would
 			result in a
@@ -163,8 +163,8 @@ image::gerrit_rebasebutton10.png[]
 			in
 			Gerrit is
 			"Merge if necessary".
-		</para>
-		<para>
+		
+		
 			This
 			is the
 			case if
@@ -176,36 +176,36 @@ image::gerrit_rebasebutton10.png[]
 			aim to merge your
 			change into this branch.. This problem is depicted in the following
 			graphic.
-		</para>
-		<para>
+		
+		
 image::gerritissue_problem10.png[]
 				</imageobject>
 				<textobject>
 					<phrase>Non-fast forward</phrase>
 				</textobject>
 			</mediaobject>
-		</para>
+		
 
-		<para>
+		
 			The solution is to rebase your commit onto
 			`origin/master`
 			. This updates your change onto changes which reached origin/master
 			while you were working on your change. Afterwards
 			you push the commit
 			again to Gerrit.
-		</para>
-		<para>
+		
+		
 image::gerritissue_solution10.png[]
 				</imageobject>
 				<textobject>
 					<phrase>Rebase as solution</phrase>
 				</textobject>
 			</mediaobject>
-		</para>
-		<para>
+		
+		
 			See
 			https://git.eclipse.org/r/Documentation/error-non-fast-forward.html">non-fast forward</ulink>
 			for details.
-		</para>
+		
 	</section>
 </section>

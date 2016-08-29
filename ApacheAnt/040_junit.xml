@@ -1,6 +1,6 @@
 ﻿<section id="junit4">
-== Running JUnit Tests via Ant</title>
-	<para>
+== Running JUnit Tests via Ant
+	
 		Ant allows to run
 		http://www.vogella.com/tutorials/JUnit/article.html">JUnit</ulink>
 		tests. Ant defines
@@ -12,25 +12,25 @@
 		http://www.vogella.com/tutorials/JUnit/article.html">JUnit Tutorial</ulink>
 		for an introduction into JUnit.
 
-	</para>
-	<para>
+	
+	
 		The following is a JUnit test for the
 		previous example.
-	</para>
-	<para>
+	
+	
 		<programlisting>
 			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-				parse="text" href="./examples/junit/MyMathTest.java" />
-		</programlisting>
-	</para>
-	<para> You can run this JUnit unit test via the following build.xml.
+				parse="text" href="./examples/junit/MyMathTest.java[]
+----
+	
+	 You can run this JUnit unit test via the following build.xml.
 		This example assumes that the JUnit jar "junit.jar" is in folder
 		"lib".
-	</para>
-	<para>
+	
+	
 		<programlisting language="xml">
 			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-				parse="text" href="./examples/junit/build.xml" />
-		</programlisting>
-	</para>
+				parse="text" href="./examples/junit/build.xml[]
+----
+	
 </section>

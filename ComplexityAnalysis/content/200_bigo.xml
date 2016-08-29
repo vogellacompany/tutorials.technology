@@ -1,6 +1,6 @@
 <section id="bigo">
-== The Big O notations</title>
-	<para>
+== The Big O notations
+	
 		It is common
 		practice to compare the runtime of
 		algorithms by
@@ -15,9 +15,9 @@
 		if I double the
 		number of
 		input elements?
-		</para>
+		
 
-	<para> With this notation an algorithm is said to have a O(n) runtime
+	 With this notation an algorithm is said to have a O(n) runtime
 		if the runtime increases linear with the number of input elements. It
-		has O(n^2) if the runtime increases quadratic, etc. </para>
+		has O(n^2) if the runtime increases quadratic, etc. 
 </section>

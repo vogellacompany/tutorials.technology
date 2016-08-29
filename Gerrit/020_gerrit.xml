@@ -1,8 +1,8 @@
 <section id="gerrit_overview" role="wrapper">
-== The Gerrit code review system</title>
+== The Gerrit code review system
 
 	<section id="gerrit_explanation">
-=== What is Gerrit?</title>
+=== What is Gerrit?
 		<indexterm>
 			<primary>Gerrit</primary>
 			<secondary>definition</secondary>
@@ -13,7 +13,7 @@
 			<secondary>Change
 			</secondary>
 		</indexterm>
-		<para>
+		
 			Gerrit is a web based code review system, facilitating online
 			code reviews for projects using the Git version
 			control system.
@@ -24,8 +24,8 @@
 			review
 			system and
 			workflow.
-		</para>
-		<para>
+		
+		
 			The code review system is web based, facilitating online
 			code
 			reviews
@@ -37,9 +37,9 @@
 			<wordasword>Google Web Toolkit</wordasword>
 			and its Git
 			implementation is JGit.
-		</para>
+		
 
-		<para>
+		
 			A developer can use Gerrit to suggest a change. Other
 			developers
 			can review the change and suggest improvements.
@@ -56,9 +56,9 @@
 			can be merged to
 			the target branch in the Git
 			repository via Gerrit.
-		</para>
+		
 
-		<para>
+		
 			Gerrit makes code reviews easier by showing changes in a
 			side-by-side
 			display. It also supports to display the
@@ -66,33 +66,33 @@
 			unified diff which is often
 			easier to read on smaller screens.
 
-		</para>
+		
 
-		<para>
+		
 			A reviewer can add comments to
 			every single line
 			changed.
-		</para>
-		<para>
+		
+		
 			The main entry point for Gerrit is the
 			https://www.gerritcodereview.com/">Gerrit code review homepage</ulink>
 			.
-		</para>
-		<para>Gerrit is licensed under the Apache 2.0 license.</para>
+		
+		Gerrit is licensed under the Apache 2.0 license.
 
 
-		<para>
+		
 
 			The Gerrit review system
 			uses the term
 			<wordasword>change</wordasword>
 			, to define a code review / review request. Each change is based on one commit.
-		</para>
+		
 	</section>
 
 	<section id="gerrit_centralinfo">
-=== How does Gerrit work?</title>
-		<para>
+=== How does Gerrit work?
+		
 			Gerrit can
 			prevent
 			users from pushing directly to the Git repository.
@@ -110,8 +110,8 @@
 			<wordasword>refs/for/xyz</wordasword>
 			to put a commit into the review queue
 			for the xyz branch.
-		</para>
-		<para>
+		
+		
 			If you push to this ref specification, Gerrit creates a new change
 			or
 			makes an update of an existing one.
@@ -120,23 +120,23 @@
 			<wordasword>Change-Id</wordasword>
 			information in the commit message to identify if the push is a new
 			commit or an update of an existing change.
-		</para>
-		<para>
+		
+		
 			A change consists of one or more patch sets which are used to
 			improve the first proposal based on review
 			comments. One patch set
 			corresponds to one Git commit.
-		</para>
-		<para>
+		
+		
 			It is still possible to bypass code review by pushing directly to
 			<wordasword>refs/heads/master</wordasword>
 			if sufficient rights have been
 			granted.
-		</para>
+		
 	</section>
 	<section id="gerrit_votingcategories">
-=== Review categories - Verified and Code-Review</title>
-		<para>
+=== Review categories - Verified and Code-Review
+		
 			Gerrit supports different categories (also known as labels) for
 			review feedback. In
 			its
@@ -144,14 +144,14 @@
 			supports the
 			<wordasword>Code-Review</wordasword>
 			category.
-		</para>
-		<para>
+		
+		
 			In typical installations also the
 			<wordasword>Verified</wordasword>
 			category is installed.
-		</para>
+		
 
-		<para>
+		
 			The
 			"Verified"
 			category typically means you
@@ -166,9 +166,9 @@
 			an
 			automated process such as a Jenkins / Hudson
 			build server.
-		</para>
+		
 
-		<para>The "Code-Review" category is typically used to
+		The "Code-Review" category is typically used to
 			vote on the
 			quality of the implementation, code style,
 			code
@@ -182,43 +182,43 @@
 			standards
 			desired by the
 			project.
-		</para>
-		<para>Committers and contributors can vote in these categories. </para>
+		
+		Committers and contributors can vote in these categories. 
 	</section>
 	<section id="gerrit_voting">
-=== Voting in Gerrit</title>
-		<para>
+=== Voting in Gerrit
+		
 			The rules for voting in Gerrit is:
 			<orderedlist>
 				<listitem>
-					<para>Highest vote (+2 in Code-Review and +1 in Verified) enables
+					Highest vote (+2 in Code-Review and +1 in Verified) enables
 						submitting
-					</para>
+					
 				</listitem>
 				<listitem>
-					<para>Lowest vote (-2 in Code-Review) is a veto blocking that the
+					Lowest vote (-2 in Code-Review) is a veto blocking that the
 						change can be submitted and
 						can't be overruled by
 						other reviewers
-					</para>
+					
 				</listitem>
 				<listitem>
-					<para>You cannot submit the changes to the Git repository until
+					You cannot submit the changes to the Git repository until
 						there is the highest vote in all
 						categories
-					</para>
+					
 				</listitem>
 			</orderedlist>
-		</para>
-		<para>
+		
+		
 			Typically Gerrit instances uses the
 			<wordasword>Verified</wordasword>
 			and the
 			<wordasword>Code-Review </wordasword>
 			category.
 
-		</para>
-		<para>
+		
+		
 
 			If you did
 			some
@@ -242,8 +242,8 @@
 			if you did not test
 			the
 			code.
-		</para>
-		<para>
+		
+		
 
 			Non-committers
 			of the project can
@@ -278,13 +278,13 @@
 			merged
 			into the
 			Git repository.
-		</para>
+		
 	</section>
 
 	<section id="gerrit_documentation">
-=== Gerrit online documentation</title>
+=== Gerrit online documentation
 
-		<para>
+		
 			You find a quick introduction about
 			Gerrit at:
 			https://gerrit-review.googlesource.com/Documentation/intro-quick.html">
@@ -293,28 +293,28 @@
 			and detailed information in the
 			 https://gerrit-review.googlesource.com/Documentation/index.html">Gerrit documentation</ulink>
 			.
-		</para>
+		
 
-		<para>
+		
 			Eclipse specific information can be found on the
 			http://wiki.eclipse.org/Gerrit">
 				Gerrit at Eclipse
 			</ulink>
 			webpage.
-		</para>
+		
 	</section>
 
 
 	<section id="gerrit_drafts">
-=== Posting draft reviews</title>
-		<para>
+=== Posting draft reviews
+		
 			There is also a special
 			<wordasword>refs/drafts/master</wordasword>
 			refspec which you can
 			use to push changes to for private review before
 			publishing them to all developers.
-		</para>
-		<para>
+		
+		
 			This is useful if
 			your work is in
 			progress and not ready for
@@ -331,7 +331,7 @@
 			to convert the draft into a
 			change
 			review.
-		</para>
+		
 
 	</section>
 </section>

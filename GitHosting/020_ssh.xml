@@ -1,18 +1,18 @@
 <section id="ssh_authentication" role="wrapper">
-== Authentication via SSH</title>
+== Authentication via SSH
 	<section id="ssh_authentication">
-=== The concept of SSH</title>
+=== The concept of SSH
 		<indexterm>
 			<primary>SSH key pair</primary>
 		</indexterm>
-		<para>
+		
 			Most Git (and Gerrit) servers support SSH based authentication. This
 			requires a
 			<wordasword>SSH key pair</wordasword>
 			for
 			automatic authentication.
-		</para>
-		<para>An SSH key par consists of a public and private key. The public
+		
+		An SSH key par consists of a public and private key. The public
 			key is
 			uploaded to the application you want to authenticate with. The
 			application has
@@ -35,12 +35,12 @@
 			during communication with the
 			corresponding
 			private key.
-		</para>
+		
 	</section>
 	<section id="ssh_keygeneration">
-=== SSH key pair generation</title>
+=== SSH key pair generation
 
-		<para>
+		
 			To create an SSH key under Linux (or Windows / Mac with OpenSSH
 			installed) switch to the command line and
 			execute
@@ -54,15 +54,15 @@
 			keys in
 			this directory
 			before running the following commands.
-		</para>
-		<para>
+		
+		
 			<programlisting language="bourne">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
 					parse="text" href="./examples/ssh/generate.txt" />
 			</programlisting>
-		</para>
+		
 
-		<para>
+		
 			The Eclipse IDE allows you to create an SSH key pair via
 			<menuchoice>
 				<guimenu>Window</guimenu>
@@ -72,17 +72,17 @@
 				<guisubmenu>SSH2</guisubmenu>
 			</menuchoice>
 			.
-		</para>
-		<para>
+		
+		
 image::eclipseide_sshgen.png" scale="30" />
 				</imageobject>
 				<textobject>
 					<phrase>Generating a SSH key via the Eclipse IDE</phrase>
 				</textobject>
 			</mediaobject>
-		</para>
+		
 
-		<para>
+		
 			It is good practice to use a
 			passphrase to protect your
 			private key. It
@@ -94,10 +94,10 @@ image::eclipseide_sshgen.png" scale="30" />
 			owning user can access the
 			`~/.ssh`
 			folder and its content.
-		</para>
+		
 
 		<note>
-			<para>
+			
 				In the above
 				`ssh-keygen`
 				command the -C parameter is a comment. Using your email is good
@@ -108,18 +108,18 @@ image::eclipseide_sshgen.png" scale="30" />
 				questions. Including the email enables system
 				administrators
 				to contact the person in case of questions.
-			</para>
+			
 		
 
-		<para>
+		
 			The result will be two files,
 			`id_rsa`
 			which is your private key and
 			`id_rsa.pub`
 			which is your public key.
-		</para>
+		
 
-		<para>
+		
 			You find more details for the generation of an SSH key on the
 			following
 			webpages:
@@ -129,9 +129,9 @@ image::eclipseide_sshgen.png" scale="30" />
 			or
 			http://www.openssh.com/manual.html">OpenSSH manual</ulink>
 			.
-		</para>
+		
 		<tip>
-			<para>
+			
 				You can specify alternative key names with the
 				`-f`
 				parameter on the
@@ -153,8 +153,8 @@ image::eclipseide_sshgen.png" scale="30" />
 				and
 				`github.com.pub`
 				.
-			</para>
-			<para>
+			
+			
 				You need
 				additional configuration in the
 				`.ssh/config`
@@ -165,13 +165,13 @@ image::eclipseide_sshgen.png" scale="30" />
 				will be picked up by
 				default. The following code shows an
 				example.
-				<para>
+				
 					<programlisting language="text">
 						<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
 							parse="text" href="./examples/ssh/config" />
 					</programlisting>
-				</para>
-			</para>
+				
+			
 		
 	</section>
 </section>

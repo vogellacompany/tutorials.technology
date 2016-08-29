@@ -1,17 +1,17 @@
 <section id="hosting_bickbucket" role="wrapper">
-== Bitbucket</title>
+== Bitbucket
 	<section id="hosting_bickbucket_what">
-=== What is Bitbucket?</title>
+=== What is Bitbucket?
 		<indexterm>
 			<primary>Bitbucket</primary>
 		</indexterm>
-		<para>
+		
 			https://bitbucket.org/">Bitbucket</ulink>
 			offers free hosting of public and private
 			Git
 			repositories.
-		</para>
-		<para>
+		
+		
 			Bitbucket allows unlimited public and
 			private repositories.
 			The
@@ -22,31 +22,31 @@
 			which need access to a private repository you
 			have to pay money to
 			BitBucket.
-		</para>
+		
 	</section>
 	<section id="hosting_bickbucket_creating">
-=== Creating a repository</title>
-		<para>
+=== Creating a repository
+		
 			You need to create a user via the web interface of Bitbucket.
 			After creating this user you can create new repositories via the web
 			interface.
-		</para>
-		<para>
+		
+		
 			After creating a new repository on BitBucket, you can use the
 			following
 			instructions connect a local Git repository with the
 			BitBucket
 			repository.
-		</para>
-		<para>
+		
+		
 			These instructions will be similar to the following commands.
-		</para>
-		<para>
+		
+		
 			<programlisting language="bourne">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
 					parse="text" href="./examples/bitbucket/example.txt" />
 			</programlisting>
-		</para>
+		
 
 	</section>
 </section>

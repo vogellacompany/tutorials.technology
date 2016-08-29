@@ -1,26 +1,26 @@
 <section id="groovy_json">
-== Groovy and JSON</title>
+== Groovy and JSON
 
-	<para>
+	
 		Similar to the
 		`XmlSlurper`
 		class for parsing XML, Groovy provides the
 		`JsonSlurper`
 		for parsing JSON.
-	</para>
-	<para>
+	
+	
 		<programlisting>
 			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-				parse="text" href="./examples/json/JsonSlurperExample.groovy" />
-		</programlisting>
-	</para>
-	<para>
+				parse="text" href="./examples/json/JsonSlurperExample.groovy[]
+----
+	
+	
 		You can use the
 		`setType(LAX)`
 		method to parse partially invalid JSON files. With this mode the JSON
 		file can contain // comments, Strings can use '' for quotes can be
 		forgotten.
-	</para>
+	
 
 
 

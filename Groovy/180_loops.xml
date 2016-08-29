@@ -1,8 +1,8 @@
 <section id="groovyloops" role="wrapper">
-== Loops</title>
+== Loops
 	<section id="groovyloops1">
-=== For and while loops</title>
-		<para>
+=== For and while loops
+		
 			Groovy supports the standard Java
 			`for`
 			, the
@@ -13,19 +13,19 @@
 			not support the
 			`do while`
 			loop.
-		</para>
+		
 	</section>
 	<section id="groovyloops?each">
-=== Using the each method</title>
-		<para>
+=== Using the each method
+		
 			While for and while loops are supported the Groovy way of iterating
 			throw a list is using the
 			`each()`
 			method. Groovy provides this method on several objects include lists,
 			maps and ranges.
-		</para>
+		
 
-		<para>
+		
 			This method takes as argument a closure, a block of code which
 			can directly get
 			executed. You
@@ -39,25 +39,25 @@
 			using the
 			implicit available
 			variable "it".
-		</para>
+		
 
-		<para>
+		
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
 					parse="text" href="./examples/loop/PrintLoop.groovy" />
 			</programlisting>
-		</para>
-		<para>
+		
+		
 			Groovy provides also the
 			`eachWithIndex`
 			method which provides two parameters, the first is the element and
 			the second it the index.
-		</para>
+		
 	</section>
 	<section id="groovyloops_numbers">
-=== Iterative with numbers </title>
+=== Iterative with numbers 
 
-		<para>
+		
 			In additional
 			your
 			have the methods
@@ -76,12 +76,12 @@
 			This is demonstrated by the
 			following
 			example.
-		</para>
-		<para>
+		
+		
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
 					parse="text" href="./examples/loop/LoopTest.groovy" />
 			</programlisting>
-		</para>
+		
 	</section>
 </section>

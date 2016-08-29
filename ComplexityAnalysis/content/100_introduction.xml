@@ -1,35 +1,35 @@
 <section id="introduction">
-== Introduction</title>
-	<para> Choosing the fastest algorithm for a certain task require
-		that you can estimate the runtime of an algorithm. </para>
-	<para>
+== Introduction
+	 Choosing the fastest algorithm for a certain task require
+		that you can estimate the runtime of an algorithm. 
+	
 		The absolute runtime of an algorithm is determined by several things,
 		for example:
 		<itemizedlist>
-			<listitem><para>The Hardware it is running upon 
-				</para>
+			<listitem>The Hardware it is running upon 
+				
 			</listitem>
 			<listitem>
-				<para>The programming language your are using
-				</para>
+				The programming language your are using
+				
 			</listitem>
 			<listitem>
-				<para>The compiler / runtime environment you are using 
-				</para>
+				The compiler / runtime environment you are using 
+				
 			</listitem>
 		</itemizedlist>
-	</para>
+	
 
-	<para>All these factors influence the actual runtime of a algorithm.
-	</para>
+	All these factors influence the actual runtime of a algorithm.
+	
 
-	<para>
+	
 		To compare the runtime behavior of algorithms is important
 		to
 		have a
 		mean to eliminate all these factors and to find a common
 		description
 		of the runtime.
-	</para>
+	
 
 </section>

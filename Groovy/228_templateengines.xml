@@ -1,6 +1,6 @@
 <section id="groovytemplatesengines">
-== Using template engines in Groovy</title>
-	<para>
+== Using template engines in Groovy
+	
 		A template is some text with predefined places for modificatoins.
 		This
 		template can contain variable reference and Groovy code. The templates
@@ -9,8 +9,8 @@
 		methods for Strings, Files, Readers or URL and create a
 		`Template`
 		object based on their input.
-	</para>
-	<para>
+	
+	
 		Template objects are used to create the final text. A map of
 		key values
 		is passed to the
@@ -18,11 +18,11 @@
 		method of the template which return a
 		`Writable`
 		.
-	</para>
-	<para>
+	
+	
 		<programlisting language="java">
 			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-				parse="text" href="./examples/templates/TestTemplates.groovy" />
-		</programlisting>
-	</para>
+				parse="text" href="./examples/templates/TestTemplates.groovy[]
+----
+	
 </section>

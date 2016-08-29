@@ -1,19 +1,19 @@
 <section id="gitworkflows_sharedrepo" role="wrapper">
-== Git workflows using one shared repository</title>
+== Git workflows using one shared repository
 	<section id="gitworkflow_sharedrepository">
-=== A shared repository between developers</title>
-		<para>A very typical Git workflow is that the developers integrate
+=== A shared repository between developers
+		A very typical Git workflow is that the developers integrate
 			their work via a shared remote repository.
 			The following section
 			describes
 			a typical
 			Git
 			workflow for this scenario.
-		</para>
-		<para>The shared repository is located on a server so that it can
+		
+		The shared repository is located on a server so that it can
 			easily be reached by each developer.
-		</para>
-		<para>
+		
+		
 			The developers push to this remote repository, typically they use
 			the
 			remote
@@ -21,63 +21,63 @@
 			branch on the remote repository to integrate their work. They may
 			also use different remote branches for shared feature development or
 			maintenance releases.
-		</para>
-		<para>
+		
+		
 			The initial setup requires that every developer clones the
 			remote
 			repository or adds the remote repository as additional remote
 			to his local repository.
-		</para>
+		
 	</section>
 	<section id="gitworkflow_pullpush">
-=== Workflow</title>
+=== Workflow
 		<indexterm>
 			<primary>Git workflow</primary>
 			<secondary>shared repository</secondary>
 		</indexterm>
-		<para>
+		
 			To develop a change and integrate it into the shared repository,
 			the
 			developer would:
-		</para>
-		<para>
+		
+		
 			<orderedlist>
 				<listitem>
-					<para>Create a new local branch for the development</para>
+					Create a new local branch for the development
 				</listitem>
 				<listitem>
-					<para>Change content in the working tree and add and commit his
+					Change content in the working tree and add and commit his
 						changes
-					</para>
+					
 				</listitem>
 
 				<listitem>
-					<para>If required he switches to other branches to do other work
-					</para>
+					If required he switches to other branches to do other work
+					
 				</listitem>
 				<listitem>
-					<para>Once the development in the branch is complete he rebases (or
+					Once the development in the branch is complete he rebases (or
 						merges) the
 						commit history onto the relevant remote-tracking branch
 						to allow a
 						fast-forward merge for this development
-					</para>
+					
 				</listitem>
 				<listitem>
-					<para>Pushes
+					Pushes
 						his changes to the remote repository; this results
 						in a
 						fast-forward merge in the remote repository
-					</para>
+					
 				</listitem>
 			</orderedlist>
-		</para>
-		<note>
-			<para>Git emphasizes the creation of branches for feature development
-				or to create bug fixes.
-			</para>
 		
-		<para>
+		<note>
+			Git emphasizes the creation of branches for feature development
+				or to create bug fixes.
+			
+		
+		
 			During this development he may fetch and merge or rebase the changes
 			from
 			the remote repository at any point in time. The developer may use
@@ -86,25 +86,25 @@
 			command instead of the
 			`fetch`
 			command.
-		</para>
+		
 
 	</section>
 
 	<section id="gitworkflows_workingbranches">
-=== Using branches</title>
+=== Using branches
 		<indexterm>
 			<primary>Git workflow</primary>
 			<secondary>using branches</secondary>
 		</indexterm>
-		<para>Even if you have the rights to push to master in a remote
+		Even if you have the rights to push to master in a remote
 			repository,
 			creating a local branch for
 			every
 			feature or bug fix is a
 			good
 			practice.
-		</para>
-		<para>
+		
+		
 			Once your development is
 			finished you merge your changes to
 			your
@@ -112,7 +112,7 @@
 			push the changes
 			from master to the shared remote Git
 			repository.
-		</para>
+		
 
 	</section>
 

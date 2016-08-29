@@ -1,69 +1,69 @@
 <section id="firstgroovyscript" role="wrapper">
-== Exercise: Create and run a Groovy script with the Eclipse IDE</title>
+== Exercise: Create and run a Groovy script with the Eclipse IDE
 
 	<section id="firstgroovyscript_target">
-=== Target of this exercise</title>
-		<para>In this exercise you learn how to create a Groovy script with the Eclipse IDE.</para>
+=== Target of this exercise
+		In this exercise you learn how to create a Groovy script with the Eclipse IDE.
 	</section>
 
 	<section id="firstgroovyscript_project">
-=== Create a new Groovy script</title>
-		<para>
+=== Create a new Groovy script
+		
 			Use the Eclipse wizard to create a new
 			<guilabel>Groovy class</guilabel>
 			in your existing project.
-		</para>
+		
 
-		<para>
+		
 			Remove everything from it and replace it with the following
 			code.
-		</para>
-		<para>
+		
+		
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/first/HelloWorld.groovy" />
 			</programlisting>
-		</para>
+		
 	</section>
 	<section id="firstgroovyscript_project_run">
-=== Run the Groovy class</title>
-		<para>
+=== Run the Groovy class
+		
 			Right-click your Groovy script, and select
 			<menuchoice>
 				<guimenu>Run As</guimenu>
 				<guisubmenu>Groovy Script</guisubmenu>
 			</menuchoice>
 			from the context menu.
-		</para>
+		
 	</section>
 	<section id="firstgroovyscript_project_validate">
-=== Validate the Groovy script</title>
-		<para>
+=== Validate the Groovy script
+		
 			The above menu entry triggers the execution of the script and prints
 			output
 			to
 			<wordasword>Console</wordasword>
 			view of the Eclipse IDE.
-		</para>
+		
 
-		<para> Congratulation! You created and ran your first Groovy script.
-		</para>
+		 Congratulation! You created and ran your first Groovy script.
+		
 
 	</section>
 	<section id="firstgroovyscript_project_decompile">
-=== Decompile the Groovy class file</title>
+=== Decompile the Groovy class file
 		<note>
-			<para>This exercise is optional.</para>
+			This exercise is optional.
 		
-		<para>If you are familiar with a Java decompiler, like the JadClipse
+		If you are familiar with a Java decompiler, like the JadClipse
 			plug-in, decompile the class
 			file generated from
 			your Groovy source
 			file and review it.
-		</para>
-		<para>
+		
+		
 			Ensure that it is an instance of
 			`groovy.lang.Script`
 			.
-		</para>
+		
 	</section>
 </section>

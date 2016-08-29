@@ -1,42 +1,42 @@
 <section id="overview">
-== Overview</title>
-	<para> Microsoft Outlook allow the user to define macros written in
-		Visual Basis to automate certain activities. </para>
-	<para>To create a macro select Tools -> Macro -> Macros </para>
+== Overview
+	 Microsoft Outlook allow the user to define macros written in
+		Visual Basis to automate certain activities. 
+	To create a macro select Tools -> Macro -> Macros 
 
-	<para>
+	
 image::create10.gif" />
 				
 			</imageobject>
 		</mediaobject>
-	</para>
-	<para> Type in the name of your desired macro and press "Create".
-	</para>
+	
+	 Type in the name of your desired macro and press "Create".
+	
 
-	<para>
+	
 image::create20.gif" />
 				
 			</imageobject>
 		</mediaobject>
-	</para>
+	
 
-	<para> You can now write your macro. 
-	</para>
-	<para>
+	 You can now write your macro. 
+	
+	
 image::create30.gif" />
 				
 			</imageobject>
 		</mediaobject>
-	</para>
-	<para>
+	
+	
 		<programlisting>
 			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-				parse="text" href="../examples/hello/HelloOutlook.txt" />
-		</programlisting>
-	</para>
+				parse="text" href="../examples/hello/HelloOutlook.txt[]
+----
+	
 
-	<para> To run your macro, open Tools -> Macro -> Macros, select your
-		macro and press Run.</para>
+	 To run your macro, open Tools -> Macro -> Macros, select your
+		macro and press Run.
 
 
 </section>

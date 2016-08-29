@@ -1,58 +1,58 @@
 <section id="datatypes" role="wrapper">
-== Groovy data types</title>
+== Groovy data types
 	<section id="groovyobjects_optinaltypes">
-=== Optional typed variables</title>
-		<para>
+=== Optional typed variables
+		
 			Variables and fields can be typed as in Java or your can use the
 			`def`
 			keyword to define a variable. As a rule of thumb, use the type if it
 			adds clarity to your code otherwise use
 			`def`
 			.
-		</para>
-		<para>
+		
+		
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/explained/Type.groovy" />
 			</programlisting>
-		</para>
-		<para>At runtime variables and fields are always typed, Groovy infers
+		
+		At runtime variables and fields are always typed, Groovy infers
 			the type based on your source code. This means
 			that at runtime you
 			receive an error if you try to assign a non fitting type to a
 			variable.
-		</para>
-		<para>Variables which are not declared can be used in Groovy scripts
+		
+		Variables which are not declared can be used in Groovy scripts
 			to indicate that they can be set from outside.
 			Such declarations are
 			only valid in scripts and become part of the scripts binding.
-		</para>
+		
 	</section>
 	<section id="groovyobjects_generics">
-=== Groovy and generics</title>
-		<para>
+=== Groovy and generics
+		
 			Groovy supports the syntax of generics but does not enforce it. For example, you can put any type into a
 			`<![CDATA[List<Integer>]]>`
 			collection. To enforce type checking in Groovy you can use AST transformations. See
 			<xref linkend="asttransformations" />
 			to learn more about AST transformations.
-		</para>
+		
 	</section>
 	<section id="datatypes_overview">
-=== All types are objects</title>
-		<para> All variables in Groovy are objects (reference variables),
+=== All types are objects
+		 All variables in Groovy are objects (reference variables),
 			Groovy does not use primitive variables. Groovy still
 			allows to use
 			the primitives types as a short form for the variable declaration but
 			the compiler
 			translates this into
 			the object.
-		</para>
+		
 	</section>
 
 	<section id="datatypes_numbers">
-=== Numbers</title>
+=== Numbers
 
-		<para>Numbers are objects in Groovy, as well as variables defined as
+		Numbers are objects in Groovy, as well as variables defined as
 			int, float, double, etc. If you use numbers in
 			your code Groovy
 			assigns a
@@ -61,27 +61,27 @@
 			and performs automatically the down- and
 			upcasting
 			for you.
-		</para>
-		<para>
+		
+		
 			As numbers are object they have also methods for example the
 			`times`
 			method which executes a block of code the number of times defined by
 			the number.
-		</para>
-		<para>
+		
+		
 			Create the following class called
 			`TypesTest`
 			to play with numbers.
-		</para>
-		<para>
+		
+		
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/datatypes/TypesTest.groovy" />
 			</programlisting>
-		</para>
+		
 
-		<para>The operators, like + or - are also mapped to methods by Groovy.
-		</para>
-		<para>
+		The operators, like + or - are also mapped to methods by Groovy.
+		
+		
 			<table frame='all'>
 				<tgroup cols='3' align='left' colsep='1' rowsep='1'>
 					<colspec colname='c1' />
@@ -149,31 +149,31 @@
 					</tbody>
 				</tgroup>
 			</table>
-		</para>
+		
 
 	</section>
 
 	<section id="datatypes_ranges">
-=== Ranges</title>
-		<para>
+=== Ranges
+		
 			Groovy supports the
 			`Range`
 			data type is a
 			`Collection`
 			. Ranges consists of two values separated by two dots. Ranges can for
 			example be used to define a loop statement.
-		</para>
+		
 
-		<para>
+		
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/datatypes/RangesTest.groovy" />
 			</programlisting>
-		</para>
-		<para>You can use Strings for the definition of ranges, these ranges
+		
+		You can use Strings for the definition of ranges, these ranges
 			follow the alphabet.
-		</para>
+		
 
-		<para>
+		
 			Every object can be used as
 			`Range`
 			long as it
@@ -185,6 +185,6 @@
 			`java.util.Comparable`
 			interface. The methods map to the
 			++ and -- operators.
-		</para>
+		
 	</section>
 </section>

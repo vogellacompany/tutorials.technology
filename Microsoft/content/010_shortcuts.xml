@@ -1,29 +1,29 @@
 <section id="shortcuts">
-== Shortcuts</title>
+== Shortcuts
 	<section id="shortcuts_windows">
-=== Windows</title>
+=== Windows
 		<itemizedlist>
 			<listitem>
-				<para>WindowsKey + d - Hide / restore all applications</para>
+				WindowsKey + d - Hide / restore all applications
 			</listitem>
 			<listitem>
-				<para>WindowsKey + m - Minimize all applications</para>
+				WindowsKey + m - Minimize all applications
 			</listitem>
 			<listitem>
-				<para>WindowsKey + r - Open the run dialog</para>
+				WindowsKey + r - Open the run dialog
 			</listitem>
 			<listitem>
-				<para>WindowsKey + Pause - Opens the settings dialog</para>
+				WindowsKey + Pause - Opens the settings dialog
 			</listitem>
 		</itemizedlist>
-		<para> .</para>
+		 .
 	</section>
 	
 		<section id="shortcuts_msoutlook">
-=== Outlook</title>
-		<para>
+=== Outlook
+		
 			<table frame='all'>
-		=== Shortcuts</title>
+		=== Shortcuts
 				<tgroup cols='2' align='left' colsep='1' rowsep='1'>
 					<colspec colname='c1' />
 					<colspec colname='c2' />
@@ -69,7 +69,7 @@
 					</tbody>
 				</tgroup>
 			</table>
-		</para>
+		
 	</section>
 	
 </section>

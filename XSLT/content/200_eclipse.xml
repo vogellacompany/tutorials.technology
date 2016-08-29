@@ -1,16 +1,16 @@
 <section id="eclipse">
-== Using Eclipse</title>
+== Using Eclipse
 	<section id="installation_eclipse">
-=== Eclipse XSLT installation</title>
-		<para>
+=== Eclipse XSLT installation
+		
 			The Eclipse XSL
 			Project allows to edit XSLT files
 			and
 			perform
 			interactive XSL
 			transformations in Eclipse.
-		</para>
-		<para>
+		
+		
 			In case you want to use Eclipse to perform your transformation you
 			can
 			install the
@@ -22,12 +22,12 @@
 			http://www.vogella.com/tutorials/Eclipse/article.html">
 				Eclipse update manager</ulink>
 			.
-		</para>
+		
 	</section>
 
 	<section id="installation_eclipse">
-=== XSLT transformations with Eclipse</title>
-		<para>
+=== XSLT transformations with Eclipse
+		
 			This chapter explains how to use the Eclipse tooling to do your XLS
 			transformation. We again use the simplest transformation
 			of just
@@ -39,56 +39,56 @@
 			folder
 			<filename class="directory">files`
 			.
-		</para>
+		
 
-		<para>
+		
 			Create the following XML file
 			`source.xml`
 			in the folder
 			<filename class="directory">files`
 			.
-		</para>
-		<para>
+		
+		
 			<programlisting language="xml">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
 					parse="text" href="../examples/first/source.xml" />
 			</programlisting>
-		</para>
+		
 
-		<para>
+		
 			Create the following
 			`transform.xsl`
 			file
 			in the
 			<filename class="directory">files`
 			folder.
-		</para>
+		
 
-		<para>
+		
 			<programlisting language="xml">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
 					parse="text" href="../examples/first/transform.xsl" />
 			</programlisting>
-		</para>
+		
 
-		<para>Select your xsl file and run it as XSL application.</para>
-		<para>
+		Select your xsl file and run it as XSL application.
+		
 image::first10.gif" />
 				</imageobject>
 			</mediaobject>
-		</para>
+		
 
-		<para>
+		
 			Select <guibutton>Open Files...</guibutton> and select
 			`source.xml`
 			. Press <guibutton>OK</guibutton> to run
 			it.
-		</para>
-		<para>
+		
+		
 image::first20.gif" />
 				</imageobject>
 			</mediaobject>
-		</para>
-		<para>Review the result `source.out.xml`</para>
+		
+		Review the result `source.out.xml`
 	</section>
 </section>

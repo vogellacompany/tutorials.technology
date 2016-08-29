@@ -2,7 +2,7 @@
 
 <article>
 	<articleinfo>
-=== Microsoft Applications - Tutorial</title>
+=== Microsoft Applications - Tutorial
 		<author>
 			<firstname>Lars</firstname>
 			<surname>Vogel</surname>
@@ -16,21 +16,21 @@
 		<pubdate>07.08.2011</pubdate>
 
 		<releaseinfo>
-			<para>Version 1.1</para>
+			Version 1.1
 		</releaseinfo>
 
 		
 
 		<abstract id="abstract">
-	=== Using Microsoft</title>
-			<para>
+	=== Using Microsoft
+			
 				This article captures
 				some
 				settings / features in Microsoft
 				Windows which I find useful.
-			</para>
+			
 
-			<para></para>
+			
 
 		</abstract>
 	</articleinfo>

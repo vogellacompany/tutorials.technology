@@ -1,17 +1,17 @@
 <section id="installation">
-== XSLT installation under Linux</title>
-		<para>
+== XSLT installation under Linux
+		
 			Under Linux the
 			`xsltproc`
 			command line tool is available. If it is missing in your
 			installation, you can install it via the following command under
 			Ubuntu.
-		</para>
-		<para>
+		
+		
 			<programlisting language="bourne">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
 					parse="text" href="../examples/install/install.txt" />
 			</programlisting>
-		</para>
+		
 	
 </section>

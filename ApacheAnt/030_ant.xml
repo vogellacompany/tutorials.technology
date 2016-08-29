@@ -1,46 +1,46 @@
 ﻿<section id="antexample">
-== Tutorial: Using Apache Ant</title>
+== Tutorial: Using Apache Ant
 	<section id="antexample_overview">
-=== Using Ant for Java development</title>
-		<para>
+=== Using Ant for Java development
+		
 			The following describes how you compile Java classes, create an
 			executable JAR file and create Javadoc for your project with Apache
 			Ant. The following example assumes that your are using the Eclipse
 			IDE to manage your
 			Java project and your Ant build.
-		</para>
+		
 	</section>
 	<section id="antexample_javaproject">
-=== Create Java project</title>
-		<para>
+=== Create Java project
+		
 			Create a Java project called
 			<wordasword>de.vogella.build.ant.first</wordasword>
 			in
 			Eclipse. Create a package called
 			<wordasword>math</wordasword>
 			and the following class.
-		</para>
-		<para>
+		
+		
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
 					parse="text" href="./examples/ant/MyMath.java" />
 			</programlisting>
-		</para>
-		<para>
+		
+		
 			Create the
 			`test`
 			package and the following class.
-		</para>
-		<para>
+		
+		
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
 					parse="text" href="./examples/ant/Main.java" />
 			</programlisting>
-		</para>
+		
 	</section>
 	<section id="antexample_buildxml">
-=== Create build.xml</title>
-		<para>
+=== Create build.xml
+		
 			Create a new File through the
 			<menuchoice>
 				<guimenu>File</guimenu>
@@ -50,22 +50,22 @@
 			menu and create the
 			`build.xml`
 			file. Implement the following code to this file.
-		</para>
-		<para>
+		
+		
 
 			<programlisting language="xml">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
 					parse="text" href="./examples/ant/build.xml" />
 			</programlisting>
-		</para>
-		<para> The code is documented, you should be able to determine the
+		
+		 The code is documented, you should be able to determine the
 			purpose of the different ant tasks via the documentation in the
 			coding.
-		</para>
+		
 	</section>
 	<section id="antexample_eclipserun">
-=== Run your Ant build from Eclipse</title>
-		<para>
+=== Run your Ant build from Eclipse
+		
 			Run the
 			`build.xml`
 			file as an
@@ -75,29 +75,29 @@ image::anttest20.gif" />
 
 				</imageobject>
 			</mediaobject>
-		</para>
-		<para>
+		
+		
 			After this process your data structure should look like this:
 image::anttest30.gif" />
 
 				</imageobject>
 			</mediaobject>
-		</para>
+		
 	</section>
 	<section id="antexample_run">
-=== Run your Ant build from the command line</title>
-		<para> Open a command line and switch to your project directory. Type
+=== Run your Ant build from the command line
+		 Open a command line and switch to your project directory. Type
 			in the following commands.
-		</para>
-		<para>
+		
+		
 			<programlisting language="bourne">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
 					parse="text" href="./examples/ant/run.txt" />
 			</programlisting>
-		</para>
+		
 
-		<para>The build should finish successfully and generate the build
+		The build should finish successfully and generate the build
 			artifacts.
-		</para>
+		
 	</section>
 </section>

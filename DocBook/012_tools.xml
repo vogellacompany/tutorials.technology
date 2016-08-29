@@ -1,32 +1,32 @@
 <section id="overview_tools">
-== The required toolset</title>
-	<para>
+== The required toolset
+	
 		To create
 		<wordasword>DocBook</wordasword>
 		files and to convert them into other formats, you need the following
 		tools.
 		<itemizedlist>
 			<listitem>
-				<para>
+				
 					The DocBook DTD which defines the structure of a
 					<wordasword>DocBook</wordasword>
 					document.
-				</para>
+				
 			</listitem>
 			<listitem>
-				<para>
+				
 					An XSLT stylesheet to convert your
 					<wordasword>DocBook</wordasword>
 					file into another
 					format.
-				</para>
+				
 			</listitem>
 			<listitem>
-				<para>An XSLT parser</para>
+				An XSLT parser
 			</listitem>
 		</itemizedlist>
-	</para>
-	<para>
+	
+	
 		In this tutorial you use the
 		Eclipse IDE
 		as an XML editor,
@@ -38,5 +38,5 @@
 		Apache Ant
 		for the XSLT
 		transformation.
-	</para>
+	
 </section>

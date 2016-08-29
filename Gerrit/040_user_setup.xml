@@ -1,91 +1,91 @@
 <section id="gerrit_usersetup">
-== User setup</title>
+== User setup
 	<indexterm>
 		<primary>Gerrit</primary>
 		<secondary>User setup
 		</secondary>
 	</indexterm>
 	<section id="gerrit_usersetupcreate">
-=== Create user</title>
-		<para>You require a valid Gerrit user to work with Gerrit.</para>
+=== Create user
+		You require a valid Gerrit user to work with Gerrit.
 		<tip>
-			<para>In a Gerrit installation in which you are not the
+			In a Gerrit installation in which you are not the
 				administrator, you ask the administrator to create a user for you,
 				but in your test installation you create your own users.
-			</para>
+			
 		
-		<para>
+		
 			Login to Gerrit via
 			http://localhost:8080/login/">http://localhost:8080/login/</ulink>
 			. The
 			first user to login automatically gets the administrator
 			status.
-		</para>
+		
 
 	</section>
 	<section id="gerrit_usersetup_ssh">
-=== SSH setup</title>
-		<para>
+=== SSH setup
+		
 			If you want to use SSH you have to upload your SSH key. If you prefer
 			to use HTTPS, skip this step and go to
 			<xref linkend="gerrit_usersetup_https" />
 			.
-		</para>
-		<para>
+		
+		
 			From the user drop down menu select
 			<guilabel>Settings</guilabel>
 			and select
 			<guilabel>SSH Public Keys</guilabel>
 			to upload your public SSH key.
-		</para>
-		<para>
+		
+		
 image::gerritsetup10.png[]
 				</imageobject>
 				<textobject>
 					<phrase>Settings in Gerrit</phrase>
 				</textobject>
 			</mediaobject>
-		</para>
+		
 
-		<para>
+		
 image::gerritsetup20.png[]
 				</imageobject>
 				<textobject>
 					<phrase>SSH public key setting in Gerrit</phrase>
 				</textobject>
 			</mediaobject>
-		</para>
-		<para>Based on your SSH key you are now able to exchange data with the
+		
+		Based on your SSH key you are now able to exchange data with the
 			Gerrit server.
-		</para>
-		<para>
+		
+		
 			Select
 			<guilabel>Profile</guilabel>
 			to assign a
 			<guilabel>Username</guilabel>
 			to your user.
-		</para>
+		
 
-		<para>
+		
 image::gerritsetup30.png[]
 				</imageobject>
 				<textobject>
 					<phrase>SSH public key setting in Gerrit</phrase>
 				</textobject>
 			</mediaobject>
-		</para>
+		
 	</section>
 	<section id="gerrit_usersetup_https">
-=== HTTPS setup</title>
-		<para>You can also enter a password for HTTPS access.</para>
-		<para>
+=== HTTPS setup
+		You can also enter a password for HTTPS access.
+		
 image::gerritsetuphttpspw.png[]
 				</imageobject>
 				<textobject>
 					<phrase>HTTP user setup</phrase>
 				</textobject>
 			</mediaobject>
-		</para>
+		
 
 	</section>
 </section>

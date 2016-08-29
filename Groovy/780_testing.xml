@@ -1,8 +1,8 @@
 <section id="grooygtests">
-== Asserts and testing with Groovy</title>
+== Asserts and testing with Groovy
 	<section id="grooygtests_asserts">
-=== Asserts </title>
-		<para>
+=== Asserts 
+		
 			Groovy provides the
 			`assert`
 			keyword which takes a boolean expression as an argu-
@@ -18,17 +18,17 @@
 			`assert`
 			is enabled by
 			default.
-		</para>
-		<para>
+		
+		
 			<programlisting language="java">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/testing/assert.java" />
 			</programlisting>
-		</para>
+		
 	</section>
 	<section id="grooygtests_unittests">
-=== Unit tests </title>
+=== Unit tests 
 
-		<para>
+		
 			Groovy can be used to write JUnit 4 test cases without any
 			restrictions. The
 			`groovy.test.GroovyAssert`
@@ -36,21 +36,21 @@
 			methods that can be used as replacement
 			for
 			the JUnit assert statements.
-		</para>
-		<para>
+		
+		
 			You also have the static import for
 			`shouldFail`
 			. This method validates if the inner block is false or throws can
 			exception.
-		</para>
+		
 
-		<para>
+		
 			<programlisting language="java">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/testing/shouldfail.java" />
 			</programlisting>
-		</para>
+		
 
-		<para>
+		
 			The
 			`MockFor`
 			and
@@ -62,11 +62,11 @@
 			provide
 			some insight into Groovy
 			metaprogramming.
-		</para>
-		<para>
+		
+		
 			See
 			http://beta.groovy-lang.org/docs/groovy-2.3.0/html/documentation/core-testing-guide.html">Groovy testing guide</ulink>
 			.
-		</para>
+		
 	</section>
 </section>

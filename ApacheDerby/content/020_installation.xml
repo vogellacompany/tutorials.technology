@@ -1,6 +1,6 @@
 <section id="installation">
-== Installation of Derby</title>
-	<para>
+== Installation of Derby
+	
 		Download the latest Derby version from the Apache website
 		http://db.apache.org/derby/"> http://db.apache.org/derby/</ulink>
 		. Choose the bin distribution and extract this zip to a directory of
@@ -8,12 +8,12 @@
 		following:
 		<itemizedlist>
 			<listitem>
-				<para>Set the environment variable DERBY_HOME to the Derby
-					installation directory</para>
+				Set the environment variable DERBY_HOME to the Derby
+					installation directory
 			</listitem>
 			<listitem>
-				<para>Add DERBY_HOME/bin to the "path" environment variable</para>
+				Add DERBY_HOME/bin to the "path" environment variable
 			</listitem>
 		</itemizedlist>
-	</para>
+	
 </section>

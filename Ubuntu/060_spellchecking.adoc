@@ -9,8 +9,8 @@
 	
 		<programlisting language="bourne">
 			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-				parse="text" href="./examples/hunspell/check.txt" />
-		</programlisting>
+				parse="text" href="./examples/hunspell/check.txt[]
+----
 	
 	
 		The following trigger an interactive session for spell checking.
@@ -28,7 +28,7 @@
 	
 		<programlisting language="bourne">
 			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-				parse="text" href="./examples/hunspell/checkbatch.txt" />
-		</programlisting>
+				parse="text" href="./examples/hunspell/checkbatch.txt[]
+----
 	
 </section>

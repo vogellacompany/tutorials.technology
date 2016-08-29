@@ -1,24 +1,24 @@
 <section id="resources">
-== Links and Literature</title>
+== Links and Literature
 	
 
 	<section id="resources_databinding">
-=== Android Resources</title>
-		<para>
+=== Android Resources
+		
 			<ulink
 				url="http://www.vogella.com/tutorials/Android/article.html">
 				Android Tutorial</ulink>
-		</para>
-		<para>
+		
+		
 			<ulink
 				url="http://www.vogella.com/tutorials/AndroidLocationAPI/article.html">
 				Android Location API and Google Maps</ulink>
-		</para>
-		<para>
+		
+		
 			<ulink
 				url="http://www.vogella.com/tutorials/AndroidNetworking/article.html">
 				Android and Networking</ulink>
-		</para>
+		
 
 	</section>
 

@@ -1,14 +1,14 @@
 <section id="installation">
-== Installation</title>
+== Installation
 	<section id="installation_eclipse">
-=== Eclipse</title>
-		<para>
+=== Eclipse
+		
 			Install Eclipse. See
 			http://www.vogella.com/tutorials/Eclipse/article.html">
 				Eclipse IDE</ulink>
 			for installing and using Eclipse.
-		</para>
-		<para>
+		
+		
 			Eclipse has
 			http://www.vogella.com/tutorials/ApacheAnt/article.html">
 				Apache Ant</ulink>
@@ -16,67 +16,67 @@
 			installation for Ant
 			is
 			required.
-		</para>
+		
 	</section>
 
 	<section id="installation_sheets">
-=== Docbook and Stylesheets</title>
-		<para>
+=== Docbook and Stylesheets
+		
 			Download the Docbook DTD in version 4.5 and the latest version
 			of the XSLT stylesheets.
-		</para>
-		<para>
+		
+		
 			http://www.oasis-open.org/docbook/xml/4.5">
 				DocBook DTD in version 4.5</ulink>
-		</para>
-		<para>
+		
+		
 			http://sourceforge.net/projects/docbook/files/docbook-xsl/">
 				XSLT stylesheets</ulink>
-		</para>
+		
 	</section>
 
 	<section id="installation_xslprocessor">
-=== XSL processor</title>
-		<para>
+=== XSL processor
+		
 			The download link for Saxon is:
 			http://saxon.sourceforge.net/">
 				http://saxon.sourceforge.net/</ulink>.
-		</para>
-		<para>
+		
+		
 			Download the version 6.5.5 as newer Saxon versions do not work
 			well
 			with DocBook 4.5. Saxon 9 is an XSLT 2.0 processor and the
 			current
 			official version of the XSL stylesheets are XSLT 1.0 based.
-		</para>
-		<para>
+		
+		
 			Download the
 			`saxon.zip`
 			file. The
 			`saxon.jar`
 			is later needed.
-		</para>
+		
 	</section>
 
 	<section id="installation_issues">
-=== Issues</title>
-		<para>
+=== Issues
+		
 			Sometimes running the XSLT conversion results in the following
 			error message.
-		</para>
-		<para>
+		
+		
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
 					parse="text" href="./examples/error/error.txt" />
 			</programlisting>
-		</para>
-		<para>
+		
+		
 			In this case try adding the
 			<wordasword>xerces-j</wordasword>
 			XML parser to your build path
 			and see if that resolves the
 			error.
-		</para>
+		
 	</section>
 
 </section>

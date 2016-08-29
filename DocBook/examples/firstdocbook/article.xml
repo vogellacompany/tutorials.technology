@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "../docbook-xml-4.5/docbookx.dtd">
 <article>
-== Docbook Article Example</title>
+== Docbook Article Example
 
 	<articleinfo>
-=== DocBook Intro</title>
+=== DocBook Intro
 		<author>
 			<firstname>Lars</firstname>
 			<surname>Vogel</surname>
@@ -13,23 +13,23 @@
 	</articleinfo>
 
 	<chapter>
-=== This is the first chapter</title>
+=== This is the first chapter
 		<section>
-	=== First section in the chapter</title>
-			<para>Test</para>
+	=== First section in the chapter
+			Test
 			<section>
-		=== First sub section</title>
-				<para>Subsection1</para>
+		=== First sub section
+				Subsection1
 			</section>
 			<section>
-		=== second sub section</title>
-				<para> Subsection2</para>
+		=== second sub section
+				 Subsection2
 			</section>
 		</section>
 		<section>
-	=== Second section in the chapter</title>
-			<para>Other random text</para>
-			<para>
+	=== Second section in the chapter
+			Other random text
+			
 				<mediaobject>
 					<imageobject>
 						<imagedata fileref="images/title.png[]
@@ -38,19 +38,19 @@
 						<phrase>Image description</phrase>
 					</textobject>
 			</mediaobject>
-			</para>
+			
 		</section>
 	</chapter>
 
 	<chapter>
-=== This is the second chapter</title>
+=== This is the second chapter
 		<section>
-	=== My Title</title>
-			<para>More...</para>
+	=== My Title
+			More...
 		</section>
 		<section>
-	=== Other title</title>
-			<para>Blabla</para>
+	=== Other title
+			Blabla
 		</section>
 	</chapter>
 </article>

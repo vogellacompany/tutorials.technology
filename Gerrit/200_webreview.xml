@@ -1,8 +1,8 @@
 <section id="webreview" role="wrapper">
-== Using the Gerrit web interface</title>
+== Using the Gerrit web interface
 	<section id="webreview_reviewchangerequest">
-=== Reviewing a change request</title>
-		<para>
+=== Reviewing a change request
+		
 			Click on one change request to see the
 			details of the Gerrit
 			change request. Click on the commit message of the
@@ -10,35 +10,35 @@
 			(highlighted in the
 			screenshot)
 			to see the changes in the file.
-		</para>
-		<para>
+		
+		
 image::webreview08.png" scale="30" />
 				</imageobject>
 				<textobject>
 					<phrase>Web review</phrase>
 				</textobject>
 			</mediaobject>
-		</para>
-		<para>
+		
+		
 			You can
 			double-click on
 			a line to comment on the change.
-		</para>
-		<para>
+		
+		
 image::webreview10.png[]
 				</imageobject>
 				<textobject>
 					<phrase>Web review</phrase>
 				</textobject>
 			</mediaobject>
-		</para>
+		
 
-		<para>
+		
 			Clicking on
 			<guilabel>Up to change</guilabel>
 			brings you back to the change.
-		</para>
-		<para>
+		
+		
 			Gerrit allows you to review the commit
 			message, which appears at
 			the top of the
@@ -46,27 +46,27 @@ image::webreview10.png[]
 			list. To understand the history
 			of the repository
 			it is important to provide a good commit message.
-		</para>
+		
 	</section>
 	<section id="webreview_reviewresult">
-=== Publishing your review result</title>
-		<para>
+=== Publishing your review result
+		
 			Click on
 			<guilabel>Reply</guilabel>
 			button
 			to give feedback on the change.
-		</para>
+		
 
-		<para>
+		
 image::webreview12.png" scale="30" />
 				</imageobject>
 				<textobject>
 					<phrase>Web review</phrase>
 				</textobject>
 			</mediaobject>
-		</para>
+		
 
-		<para>
+		
 			You can give a summary of your feedback and return a review
 			number between -2 and +2 (if you are a committer) or
 			between
@@ -79,21 +79,21 @@ image::webreview12.png" scale="30" />
 			disagree with the suggested change. See
 			<xref linkend="gerrit_voting" />
 			for details of the default voting rules.
-		</para>
-		<para>
+		
+		
 image::webreview30.png[]
 				</imageobject>
 				<textobject>
 					<phrase>Web review</phrase>
 				</textobject>
 			</mediaobject>
-		</para>
+		
 
 
 	</section>
 	<section id="webreview_adjustingthechange">
-=== Improve a change based on review feedback</title>
-		<para>
+=== Improve a change based on review feedback
+		
 			If the review process has resulted review comments explaining
 			how to
 			improve the proposed patch, the author of the
@@ -112,39 +112,39 @@ image::webreview30.png[]
 			the
 			commit
 			message while amending the commit.
-		</para>
-		<para>
+		
+		
 			As the developer amends the commit, the same
 			<wordasword>Change-Id</wordasword>
 			is used and the
 			Gerrit review system identifies the change as update
 			of the existing change.
-		</para>
+		
 
-		<para>
+		
 			The
 			<guilabel>Git Staging</guilabel>
 			view allows amending the last commit by clicking the amend button
 			shown in the screenshot.
-		</para>
-		<para>
+		
+		
 image::amendwithstagingview32.png[]
 				</imageobject>
 				<textobject>
 					<phrase>Amend flag in Git Staging view</phrase>
 				</textobject>
 			</mediaobject>
-		</para>
+		
 		<tip>
-			<para>
+			
 				Gerrit allows you to select which patch sets you want to compare in
 				<guilabel>Comparison</guilabel>
 				view. Typically you compare the base version with the latest patch
 				set, but if e.g. you already reviewed patch set 3
 				you may want to
 				just see what the author changed between patchset 3 and patchset 5.
-			</para>
-			<para>
+			
+			
 				<mediaobject>
 					<imageobject>
 						<imagedata fileref="images/patchsets10.png" scale="60" />
@@ -153,19 +153,19 @@ image::amendwithstagingview32.png[]
 						<phrase>Patch set comparison view</phrase>
 					</textobject>
 				</mediaobject>
-			</para>
+			
 		
-		<para>
+		
 			Once the change has reached the required quality, the
 			reviewer
 			can give
 			a +2
 			evaluation of the
 			change.
-		</para>
+		
 
 
-		<para>Depending on the settings of the Gerrit repository, the Gerrit
+		Depending on the settings of the Gerrit repository, the Gerrit
 			review might have to be rebased. If you conflict
 			happens during this
 			rebase operation you can trigger this rebase directly from the web
@@ -173,17 +173,17 @@ image::amendwithstagingview32.png[]
 			is
 			rebased, it
 			needs to be reviewed again.
-		</para>
-		<para>
+		
+		
 image::webreview40.png[]
 				</imageobject>
 				<textobject>
 					<phrase>Web review</phrase>
 				</textobject>
 			</mediaobject>
-		</para>
+		
 
-		<para>Afterwards a developer with commit rights can submit the
+		Afterwards a developer with commit rights can submit the
 			change.
 			This is typically done by the same committer who
 			voted +2.
@@ -201,60 +201,60 @@ image::webreview40.png[]
 			that is not
 			the case.
 
-		</para>
+		
 
-		<para>
+		
 image::webreview50.png[]
 				</imageobject>
 				<textobject>
 					<phrase>Web review</phrase>
 				</textobject>
 			</mediaobject>
-		</para>
+		
 	</section>
 	<section id="webreview_keyboardshortcuts">
-=== Keyboard shortcuts in Gerrit</title>
+=== Keyboard shortcuts in Gerrit
 
-		<para>
+		
 			Press the "?" key in the Gerrit web user interface to see the
 			actions you
 			can trigger via shortcuts. The available
 			shortcuts depend
 			on there you are in the user interface.
-		</para>
+		
 
-		<para>
+		
 image::gerrit_shortcuts10.png" scale="25" />
 				</imageobject>
 				<textobject>
 					<phrase>Gerrit shortcuts</phrase>
 				</textobject>
 			</mediaobject>
-		</para>
-		<para>The available shortcuts are different, depending on the page
+		
+		The available shortcuts are different, depending on the page
 			your are.
-		</para>
+		
 
 	</section>
 	<section id="webreview_getting">
-=== Fetching a remote change into a local Git repository</title>
-		<para>
+=== Fetching a remote change into a local Git repository
+		
 			It is possible to fetch the changes from the Gerrit review into
 			another local Git
 			repository. The Gerrit page
 			lists the
 			commands for
 			downloading the change. This is depicted in the following screenshot.
-		</para>
-		<para>
+		
+		
 image::webreviewpull10.png[]
 				</imageobject>
 				<textobject>
 					<phrase>Pulling in the change</phrase>
 				</textobject>
 			</mediaobject>
-		</para>
-		<para>
+		
+		
 			After fetching a change, the developer can adjust the change and
 			amend the commit.
 			If he pushes it to Gerrit, the
@@ -266,14 +266,14 @@ image::webreviewpull10.png[]
 			to avoid
 			that two developers
 			do the same work.
-		</para>
+		
 	</section>
 
 	<section id="webreview_gettingeclpise">
-=== Fetching a remote change with Eclipse Git</title>
+=== Fetching a remote change with Eclipse Git
 
 		<tip>
-			<para>
+			
 				The Git tooling in Eclipse allows you to fetch a change from Gerrit.
 				For this, right-click on
 				the project
@@ -298,8 +298,8 @@ image::webreviewpull10.png[]
 				local branch.
 				Afterwards you can
 				to test the changes in isolation.
-			</para>
-			<para>
+			
+			
 				<mediaobject>
 					<imageobject>
 						<imagedata fileref="images/webreviewpull20.png" scale="35" />
@@ -308,28 +308,28 @@ image::webreviewpull10.png[]
 						<phrase>Pulling in the change</phrase>
 					</textobject>
 				</mediaobject>
-			</para>
+			
 		
 	</section>
 
 	<section id="webreview_editintheweb">
-=== Edit a change directly via the web interface</title>
-		<para>You can also edit directly in Gerrit. Press the edit button for this.</para>
-		<para>
+=== Edit a change directly via the web interface
+		You can also edit directly in Gerrit. Press the edit button for this.
+		
 image::editingerrit10.png[]
 				</imageobject>
 				<textobject>
 					<phrase>Edit in Gerrit</phrase>
 				</textobject>
 			</mediaobject>
-		</para>
-		<para>
+		
+		
 			Afterwards select the file or the commit message you want to edit. Press save and close once you are done. After
 			you
 			are done with all your edits, press the
 			<guilabel>Publish Edit</guilabel>
 			.
-		</para>
+		
 
 	</section>
 

@@ -1,46 +1,46 @@
 <section id="mda_overview">
-== Appendix: Model-Driven Architecture (MDA)</title>
+== Appendix: Model-Driven Architecture (MDA)
 	<section id="mda_overview_s1s2a">
-=== Overview</title>
-		<para>
+=== Overview
+		
 			MDA is the approach in which models are automatically
 			translated into complete, deployable, running applications.
-		</para>
-		<para>
+		
+		
 			MDA defines several levels for these models, Platform
 			independent models, platform specific models and code
 			models.
-		</para>
+		
 	</section>
 	<section id="mda_overview_s1s2b">
-=== Platform Independent Model (PIM)</title>
-		<para>
+=== Platform Independent Model (PIM)
+		
 			Represents the business model to be implemented and can be
 			described via UML. The PIM describes the processes of the
 			business model and the structure of the system. The PIM does
 			not specific operating system, programming language and
 			hardware.
-		</para>
+		
 	</section>
 
 	<section id="mda_overview_s1s2c">
-=== Platform Specific Model (PSM)</title>
-		<para>
+=== Platform Specific Model (PSM)
+		
 			The PSM is responsible to specify the technical details to
 			implement the PIM, e.g. the operating system, the
 			programming language. In case several realizations /
 			implementations for a PIM are possible then several PSM are
 			formulated.
-		</para>
+		
 	</section>
 
 	<section id="mda_overview_s1s2d">
-=== Code Mode</title>
-		<para>
+=== Code Mode
+		
 			Represents the deployable code. In an ideal MDA scenario
 			this code could be directly compiled and deployed without
 			human interaction.
-		</para>
+		
 	</section>
 
 </section>

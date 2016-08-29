@@ -1,23 +1,23 @@
 <section id="gmail">
-== Gmail</title>
+== Gmail
 	<section id="gmailsearch">
-=== Advanced search features</title>
-		<para>
+=== Advanced search features
+		
 			Gmail allows to search via pre-defined values. For example:
 
 			<itemizedlist>
 				<listitem>
-					<para>has:attachement - search email with an attachment    </para>
+					has:attachement - search email with an attachment    
 				</listitem>
 				<listitem>
-					<para>from: Paul- search emails from Paul     </para>
+					from: Paul- search emails from Paul     
 				</listitem>
 			</itemizedlist>
-		</para>
+		
 	</section>
 	<section id="gmaillabels">
-=== Assign automatic labels to emails</title>
-		<para>
+=== Assign automatic labels to emails
+		
 			If you register to a mailing list you can put the message
 			automatically
 			into a
@@ -27,19 +27,19 @@
 			For example if you are part of the derby mailing
 			list you can put these emails automatically flag with a label via the
 			following.
-		</para>
-		<para>
+		
+		
 			Create a label named, for example, "Derby"
-		</para>
-		<para>
+		
+		
 image::gmaillabel1.jpg" />
 
 				</imageobject>
 
 			</mediaobject>
-		</para>
+		
 
-		<para>
+		
 			Create a filter and add the mail address
 			derby-user@db.apache.org to the To field.
 			In the "next step" of the
@@ -54,12 +54,12 @@ image::gmaillabel1.jpg" />
 			Derby
 			list has it's
 			own inbox.
-		</para>
+		
 
 	</section>
 	<section id="gmail_emailtemplates">
-=== Email templates</title>
-		<para>
+=== Email templates
+		
 			To activate templates select
 			<menuchoice>
 				<guimenu>Settings</guimenu>
@@ -70,6 +70,6 @@ image::gmaillabel1.jpg" />
 			<guilabel>Activate</guilabel>
 			. Afterwards you have a new line under your subject which allows you
 			to create or use a template.
-		</para>
+		
 	</section>
 </section>

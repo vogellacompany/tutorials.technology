@@ -1,25 +1,25 @@
 <section id="resources_s1">
-== Groovy Links</title>
-	<para>
+== Groovy Links
+	
 		http://www.groovy-lang.org/">Groovy Homepage</ulink>
-	</para>
-	<para>
+	
+	
 		http://docs.groovy-lang.org/latest/html/gapi/"> Groovy API page</ulink>
 		Groovy documentation
-	</para>
-	<para>
+	
+	
 		http://mrhaki.blogspot.de/search/label/Groovy">Groovy Goodness blog series from Hubert Klein Ikkink</ulink>
-	</para>
-	<para>
+	
+	
 		https://github.com/martofeld/groovykoans-master-resolve">Groovy Koans from Nadav Cohen partially reused in this description</ulink>
-	</para>
-	<para>
+	
+	
 		http://www.vogella.com/articles/JavaRegularExpressions/article.html">Java regular expression tutorial</ulink>
-	</para>
-	<para>
+	
+	
 		http://docs.groovy-lang.org/latest/html/documentation/index.html#_regular_expression_operators">Regular expressions in Groovy</ulink>
 		
 		http://www.groovy-lang.org/json.html">Groovy JSonSlurper documentation</ulink>
-	</para>
+	
 
 </section>

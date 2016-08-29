@@ -2,28 +2,28 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE bookarticlearticlearticlearticle PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "../docbook-xml-4.5/docbookx.dtd">
 <book>
-== Docbook Book Example</title>
+== Docbook Book Example
 	<chapter>
-=== This is the first chapter</title>
+=== This is the first chapter
 		<section>
-	=== First section in the chapter</title>
-			<para>Random text.</para>
+	=== First section in the chapter
+			Random text.
 		</section>
 		<section>
-	=== Second section in the chapter</title>
-			<para>Other random text</para>
+	=== Second section in the chapter
+			Other random text
 		</section>
 	</chapter>
 
 	<chapter>
-=== This is the second chapter</title>
+=== This is the second chapter
 		<section>
-	=== My Title</title>
-			<para>More...</para>
+	=== My Title
+			More...
 		</section>
 		<section>
-	=== Other title</title>
-			<para>Blabla</para>
+	=== Other title
+			Blabla
 		</section>
 	</chapter>
 </book>

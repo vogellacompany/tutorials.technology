@@ -1,69 +1,69 @@
 <section id="development">
-== Programming in Python</title>
+== Programming in Python
 	<section id="development_comments">
-=== Comments</title>
-		<para>The following create a single line comment.</para>
-		<para>
+=== Comments
+		The following create a single line comment.
+		
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
 					parse="text" href="../examples/comments/comments.txt" />
 			</programlisting>
-		</para>
+		
 	</section>
 	<section id="development_variables">
-=== Variables</title>
-		<para>Python provides dynamic typing of its variables, e.g. you do not
+=== Variables
+		Python provides dynamic typing of its variables, e.g. you do not
 			have to define a type of the variable Python will take care of this
-			for you.</para>
-		<para>
+			for you.
+		
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
 					parse="text" href="../examples/variables/variables.txt" />
 			</programlisting>
-		</para>
+		
 	</section>
 	<section id="development_assertions">
-=== Assertions</title>
-		<para>Python provides assertions. These assertions are always
+=== Assertions
+		Python provides assertions. These assertions are always
 			called.
-		</para>
-		<para>
+		
+		
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
 					parse="text" href="../examples/assertions/assertions.txt" />
 			</programlisting>
-		</para>
+		
 	</section>
 	<section id="development_methods">
-=== Methods / Functions in Python</title>
-		<para> Python allows to define methods via the keyword def. As the
+=== Methods / Functions in Python
+		 Python allows to define methods via the keyword def. As the
 			language is interpreted the methods need to be defined before using
-			it.</para>
-		<para>
+			it.
+		
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
 					parse="text" href="../examples/methods/methodtester.py" />
 			</programlisting>
-		</para>
+		
 	</section>
 	<section id="development_conditionals">
-=== Loops and if clauses</title>
-		<para> The following demonstrates a loop the usage of an if-clause.
-		</para>
+=== Loops and if clauses
+		 The following demonstrates a loop the usage of an if-clause.
+		
 
-		<para>
+		
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
 					parse="text" href="../examples/conditional/IfTest.py" />
 			</programlisting>
-		</para>
+		
 	</section>
 
 	<section id="development_strings">
-=== String manipulation</title>
-		<para> Python allows the following String operations.
-		</para>
-		<para>
+=== String manipulation
+		 Python allows the following String operations.
+		
+		
 			<table frame='all'>
 				<tgroup cols='2' align='left' colsep='1' rowsep='1'>
 					<colspec colname='c1' />
@@ -126,116 +126,116 @@
 					</tbody>
 				</tgroup>
 			</table>
-		</para>
-		<para>For example:</para>
-		<para>
+		
+		For example:
+		
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
 					parse="text" href="../examples/string/stringTester.py" />
 			</programlisting>
-		</para>
+		
 	</section>
 	<section id="development_concatenate">
-=== Concatenate strings and numbers</title>
-		<para> Python does not allow to concatenate a string directly with a
+=== Concatenate strings and numbers
+		 Python does not allow to concatenate a string directly with a
 			number. It requires you to turn the number first into a string with
 			the str() function. 
-		</para>
-		<para> If you do not use str() you will get "TypeError: cannot
-			concatenate 'str' and 'int' objects".</para>
+		
+		 If you do not use str() you will get "TypeError: cannot
+			concatenate 'str' and 'int' objects".
 
-		<para>For example:</para>
-		<para>
+		For example:
+		
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
 					parse="text" href="../examples/string/stringNumberConcatenate.py" />
 			</programlisting>
-		</para>
+		
 	</section>
 	<section id="development_lists">
-=== Lists</title>
-		<para> Python has good support for lists. See the following example
+=== Lists
+		 Python has good support for lists. See the following example
 			how to create a list, how to access individual elements or
 			sublists
 			and how to add elements to a list.
-		</para>
-		<para>
+		
+		
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
 					parse="text" href="../examples/list/List.py" />
 			</programlisting>
-		</para>
-		<para> If you want to remove the duplicates from a list you can use:
-		</para>
-		<para>
+		
+		 If you want to remove the duplicates from a list you can use:
+		
+		
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
 					parse="text" href="../examples/list/ListDuplicates.py" />
 			</programlisting>
-		</para>
+		
 
 
 	</section>
 	<section id="textfiles">
-=== Processing files in Python</title>
-		<para> The following example is contained in the project
-			"de.vogella.python.files".</para>
-		<para> The following reads a file, strips out the end of line sign and
+=== Processing files in Python
+		 The following example is contained in the project
+			"de.vogella.python.files".
+		 The following reads a file, strips out the end of line sign and
 			prints
-			each line to the console.</para>
-		<para>
+			each line to the console.
+		
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
 					parse="text" href="../examples/file/Readfile.py" />
 			</programlisting>
-		</para>
+		
 
-		<para> The following reads the same file but write the output to
-			another file.</para>
-		<para>
+		 The following reads the same file but write the output to
+			another file.
+		
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
 					parse="text" href="../examples/file/ReadWriteFile.py" />
 			</programlisting>
-		</para>
+		
 	</section>
 
 	<section id="splitstring">
-=== Splitting strings and comparing lists.</title>
-		<para> The following example is contained in the project
+=== Splitting strings and comparing lists.
+		 The following example is contained in the project
 			"de.vogella.python.files". It reads to files which contain one long
 			comma separated string. This string is splitted into lists and the
-			lists are compared. </para>
-		<para>
+			lists are compared. 
+		
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
 					parse="text" href="../examples/split/CompareFiles.py" />
 			</programlisting>
-		</para>
+		
 
 	</section>
 	<section id="unicode">
-=== Writing Python Scripts in Unicode</title>
-		<para> If you read special non ASCII sign, e.g. ö, ä. ü or ß, you have
+=== Writing Python Scripts in Unicode
+		 If you read special non ASCII sign, e.g. ö, ä. ü or ß, you have
 			to tell Python which character set to use. Include the following in
-			the first or second line of your script.  </para>
+			the first or second line of your script.  
 			
-			<para>
+			
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
 					parse="text" href="../examples/utf/example.txt" />
 			</programlisting>
-		</para>
+		
 			
 	</section>
 	<section id="classes">
-=== Classes in Python</title>
-		<para> The following is a defined class in Python. Python uses the
-			naming convension __name__ for internal functions.</para>
-		<para> Python allows operator overloading, e.g. you can define what
+=== Classes in Python
+		 The following is a defined class in Python. Python uses the
+			naming convension __name__ for internal functions.
+		 Python allows operator overloading, e.g. you can define what
 			the
-			operator + will to for a specific class.</para>
-		<para>
+			operator + will to for a specific class.
+		
 			<table frame='all'>
 				<tgroup cols='2' align='left' colsep='1' rowsep='1'>
 					<colspec colname='c1' />
@@ -263,13 +263,13 @@
 					</tbody>
 				</tgroup>
 			</table>
-		</para>
-		<para>The empty object (null) is called <wordasword>None</wordasword> in Python.</para>
-		<para>
+		
+		The empty object (null) is called <wordasword>None</wordasword> in Python.
+		
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
 					parse="text" href="../examples/classes/Point.py" />
 			</programlisting>
-		</para>
+		
 	</section>
 </section>

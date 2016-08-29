@@ -1,8 +1,8 @@
 <section id="python">
-== Overview</title>
+== Overview
 	<section id="python_overview">
-=== What is Python</title>
-		<para>
+=== What is Python
+		
 			<wordasword>Python</wordasword>
 			is an interpreted programming language and claims to be a
 			very
@@ -10,8 +10,8 @@
 			<wordasword>Python</wordasword>
 			was develop by Guido van
 			Rossum.
-		</para>
-		<para>
+		
+		
 			The name Python is
 			based on the TV show called
 			<wordasword>Monty Python's Flying Circus</wordasword>
@@ -28,41 +28,41 @@
 			case you
 			are using
 			Jython.
-		</para>
-		<para>
+		
+		
 			Key features of
 			<wordasword>Python</wordasword>
 			are:
 			<itemizedlist>
 				<listitem>
-					<para>high-level data types, as for example extensible
+					high-level data types, as for example extensible
 						lists
-					</para>
+					
 				</listitem>
 				<listitem>
-					<para>statement grouping is done by indentation instead of
+					statement grouping is done by indentation instead of
 						brackets
-					</para>
+					
 				</listitem>
 				<listitem>
-					<para>variable or argument declaration is not necessary </para>
+					variable or argument declaration is not necessary 
 				</listitem>
 				<listitem>
-					<para>supports for object-orientated, procedural and
+					supports for object-orientated, procedural and
 						functional
 						programming style
-					</para>
+					
 				</listitem>
 			</itemizedlist>
-		</para>
+		
 
 
 	</section>
 	<section id="python_blocks">
 === Block concept in
 			<wordasword>Python</wordasword>
-			via indentation</title>
-		<para>
+			via indentation
+		
 			<wordasword>Python</wordasword>
 			identify
 			blocks of code by
@@ -82,15 +82,15 @@
 			per
 			indentation
 			level.
-		</para>
+		
 	</section>
 	<section id="python_tutorial">
-=== About this tutorial</title>
-		<para>This tutorial will first explain how to install Python and the
+=== About this tutorial
+		This tutorial will first explain how to install Python and the
 			Python plugins for Eclipse. It will then create a small Python
 			project to show the usage of the plugin. Afterwards the general
 			constructs of Python are explained.
-		</para>
+		
 	</section>
 
 </section>

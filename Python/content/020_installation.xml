@@ -1,29 +1,29 @@
 <section id="installation">
-== Installation</title>
+== Installation
 	<section id="installation_python">
-=== Python</title>
-		<para>
+=== Python
+		
 			Download Python from
 			http://www.python.org">http://www.python.org</ulink>
 			. Download the version 3.3.1 or higher of Python. If you are using
 			Windows
 			you can
 			use the native installer for Python.
-		</para>
+		
 
 	</section>
 
 	<section id="installation_eclipse">
-=== Eclipse Python plugin</title>
-		<para>
+=== Eclipse Python plugin
+		
 			The following assume that you have already
 			http://www.vogella.com/tutorials/Eclipse/article.html"> Eclipse</ulink>
 			installed. For an
 			installation description of Eclipse please see
 			http://www.vogella.com/tutorials/Eclipse/article.html"> Eclipse IDE for Java</ulink>
 			.
-		</para>
-		<para>
+		
+		
 			For Python development under Eclipse you can use the PyDev
 			Plugin
 			which is an open source project. Install PyDev via the
@@ -31,12 +31,12 @@
 			update manager
 			via the
 			following update site: http://pydev.org/updates
-		</para>
+		
 	</section>
 
 	<section id="configuration">
-=== Configuration of Eclipse</title>
-		<para>
+=== Configuration of Eclipse
+		
 			You also have to maintain in Eclipse the location of your
 			Python
 			installation. Open in the
@@ -47,16 +47,16 @@
 				<guisubmenu>Interpreter Python</guisubmenu>
 			</menuchoice>
 			menu.
-		</para>
+		
 
-		<para>
+		
 image::pydev02.gif" />
 
 				</imageobject>
 			</mediaobject>
-		</para>
+		
 
-		<para>
+		
 			Press the
 			<guibutton>New</guibutton>
 			button
@@ -66,27 +66,27 @@ image::pydev02.gif" />
 			Python installation directory. For Linux and Mac OS X users
 			this is
 			normally /usr/bin/python.
-		</para>
-		<para>
+		
+		
 image::pydev04.gif" />
 
 				</imageobject>
 			</mediaobject>
-		</para>
+		
 
 		<warning>
-			<para>Note that on MAC OS X the python libraries are not installed by
+			Note that on MAC OS X the python libraries are not installed by
 				default. Please use Google to find out, how to install them on a Mac
 				OS X system, the author of this text only uses Linux.
-			</para>
+			
 		
-		<para>The result should look like the following.</para>
-		<para>
+		The result should look like the following.
+		
 image::pydev06.gif" />
 
 				</imageobject>
 			</mediaobject>
-		</para>
+		
 
 	</section>
 </section>

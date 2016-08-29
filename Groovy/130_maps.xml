@@ -1,11 +1,11 @@
 <section id="datatypes_maps">
-== Maps in Groovy</title>
+== Maps in Groovy
 	<section id="datatypes_maps1">
-=== Map declaration and access</title>
-		<para> Groovy treads maps as first class constructs in the
+=== Map declaration and access
+		 Groovy treads maps as first class constructs in the
 			language.
-		</para>
-		<para>
+		
+		
 			The items of maps are key–value pairs
 			that are delimited by
 			colons. An
@@ -15,14 +15,14 @@
 			type. If the keys are of type String, you can avoid
 			the single or
 			double quotes in the map declaration.
-		</para>
-		<para>
+		
+		
 			<programlisting language="java">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
 					parse="text" href="./examples/maps/MapTest.groovy" />
 			</programlisting>
-		</para>
-		<para>
+		
+		
 			The values of a mapped value can
 			get
 			accessed
@@ -38,25 +38,25 @@
 			(key,default) pair
 			is added to the
 			map.
-		</para>
+		
 
-		<para>
+		
 			<programlisting language="java">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
 					parse="text" href="./examples/maps/MapTest.groovy" />
 			</programlisting>
-		</para>
-		<para>
+		
+		
 			The
 			`keySet()`
 			method returns a set of
 			keys, a collection without duplicate entries
 			and no guaranteed ordering.
-		</para>
+		
 	</section>
 	<section id="datatypes_maps2">
-=== Each, any and the every method</title>
-		<para>
+=== Each, any and the every method
+		
 			You can call closures on the elements, via the
 			`each()`
 			,
@@ -69,56 +69,56 @@
 			`every()`
 			methods return a boolean depending whether any or every entry in the
 			map satisfies a condition defined by a closure.
-		</para>
-		<para>
+		
+		
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
 					parse="text" href="./examples/maps/CallMethods.groovy" />
 			</programlisting>
-		</para>
-		<para>As you can see in the above example you can iterate in different
+		
+		As you can see in the above example you can iterate in different
 			ways through a map. The parameter for each can by one parameter and
 			than it is the map entry or two in which case it is the key, value
 			combination.
-		</para>
+		
 
 
 	</section>
 
 	<section id="datatypes_map_search">
-=== Searching in a map</title>
-		<para>
+=== Searching in a map
+		
 			You can also use the following methods:
 
 			<itemizedlist>
 				<listitem>
-					<para>findAll(closure) - Finds all entries satisfying the condition
+					findAll(closure) - Finds all entries satisfying the condition
 						defined by the closure
-					</para>
+					
 				</listitem>
 				<listitem>
-					<para>find(closure) - Find the first entry satisfying the condition
+					find(closure) - Find the first entry satisfying the condition
 						defined by the closure
-					</para>
+					
 				</listitem>
 				<listitem>
-					<para>collect(closure) - Returns a list based on the map with the
+					collect(closure) - Returns a list based on the map with the
 						values returned by the closure
-					</para>
+					
 				</listitem>
 				<listitem>
-					<para>submap('key1', 'key2', ) - returns a map based on the entries
+					submap('key1', 'key2', ) - returns a map based on the entries
 						of the listed
 						keys
-					</para>
+					
 				</listitem>
 			</itemizedlist>
-		</para>
+		
 	</section>
 
 	<section id="datatypes_map_adding">
-=== Getting and adding defaults values via the get method</title>
-		<para>
+=== Getting and adding defaults values via the get method
+		
 			The
 			`get(key, default_value)`
 			allows to add the "default_value" to the map and return it to the
@@ -126,21 +126,21 @@
 			The
 			`get(key)`
 			method, does not add automatically to the map.
-		</para>
+		
 	</section>
 
 	<section id="datatypes_map_namedparameters">
-=== Named arguments for method invocation</title>
-		<para>It is possible to use named arguments in method invocation.
-		</para>
-		<para>
+=== Named arguments for method invocation
+		It is possible to use named arguments in method invocation.
+		
+		
 			<programlisting language="java">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
 					parse="text" href="./examples/namedarguments/TestNamedArgument.groovy" />
 			</programlisting>
-		</para>
+		
 
-		<para>
+		
 			All named arguments are used are converted by Groovy them a map
 			and passed into
 			the
@@ -151,27 +151,27 @@
 			from the
 			map and
 			perform its setup.
-		</para>
-		<para>
+		
+		
 			<programlisting language="java">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
 					parse="text" href="./examples/namedarguments/Person.groovy" />
 			</programlisting>
-		</para>
+		
 	</section>
 	<section id="datatypes_map_converttolist">
-=== Convert a list to a map</title>
-		<para>
+=== Convert a list to a map
+		
 			To convert a list to a map you can use the
 			`collectEntries`
 			method.
-		</para>
-		<para>
+		
+		
 			<programlisting language="java">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
 					parse="text" href="./examples/maps/ConvertListToMap.groovy" />
 			</programlisting>
-		</para>
+		
 
 
 

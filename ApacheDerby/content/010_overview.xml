@@ -1,9 +1,9 @@
 <section id="derby">
-== Apache Derby</title>
+== Apache Derby
 
 	<section id="derby_overview">
-=== Overview</title>
-		<para> Apache Derby is an open source database written in Java. It is
+=== Overview
+		 Apache Derby is an open source database written in Java. It is
 			free and performs well. Apache Derby is used in the JDK and is
 			called
 			Java DB.
@@ -13,12 +13,12 @@
 			ANSI-SQL.
 			JDBC
 			is the Java interface to connect to databases.
-		</para>
+		
 	</section>
 
 	<section id="derby_modes">
-=== Server vs. embedded mode</title>
-		<para>
+=== Server vs. embedded mode
+		
 			Derby can be used in a
 			server mode and in so-called
 			<wordasword>embedded mode</wordasword>
@@ -46,6 +46,6 @@
 			application will not be able
 			to access
 			the database.
-		</para>
+		
 	</section>
 </section>

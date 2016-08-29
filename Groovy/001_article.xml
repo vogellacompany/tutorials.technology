@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <article>
 	<articleinfo>
-=== Groovy with Eclipse - Tutorial</title>
+=== Groovy with Eclipse - Tutorial
 		<author>
 			<firstname>Lars</firstname>
 			<surname>Vogel</surname>
@@ -20,13 +20,13 @@
 		<pubdate>29.01.2015</pubdate>
 
 		<releaseinfo>
-			<para>Version 2.2</para>
+			Version 2.2
 		</releaseinfo>
 		
 		<abstract id="abstract">
-	=== Groovy</title>
+	=== Groovy
 
-			<para>This article gives a short overview of the Groovy language
+			This article gives a short overview of the Groovy language
 				including collections, loops, gstrings, MOP, closures, operator
 				overloading, XML
 				handing and using Groovy together with Java class.
@@ -34,11 +34,11 @@
 				describes how to
 				use the
 				Eclipse IDE for developing Groovy.
-			</para>
-			<para> This article assumes that you have already Eclipse installed
+			
+			 This article assumes that you have already Eclipse installed
 				and that you have used Eclipse for Java development. This article
 				was written using Groovy 2.4, Eclipse 4.4 (Luna) and Java 1.8.
-			</para>
+			
 		</abstract>
 
 	</articleinfo>

@@ -1,17 +1,17 @@
 <section id="groovy_strings">
-== Strings in Groovy</title>
+== Strings in Groovy
 	<section id="groovy_strings1">
-=== Strings and GStrings</title>
-		<para>
+=== Strings and GStrings
+		
 			Groovy allows to use two different types of String, the
 			`java.lang.String`
 			and the
 			`groovy.lang.GString`
 			class. You can also define a single line or a multi-line string in
 			Groovy.
-		</para>
+		
 
-		<para>
+		
 			Strings which
 			are quoted in by "" are of type
 			`GString`
@@ -26,19 +26,19 @@
 			is automatically converted to a
 			`java.lang.String`
 			whenever needed.
-		</para>
-		<para>
+		
+		
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
 					parse="text" href="./examples/datatypes/StringTesting.groovy" />
 			</programlisting>
-		</para>
-		<para>
+		
+		
 			The definition of these different types of Strings is
 			demonstrated in
 			the following table.
 			<table frame='all'>
-		=== Define Strings in Groovy</title>
+		=== Define Strings in Groovy
 				<tgroup cols='2' align='left' colsep='1' rowsep='1'>
 					<colspec colname='c1' colwidth="1*" />
 					<colspec colname='c2' colwidth="2*" />
@@ -75,33 +75,33 @@
 					</tbody>
 				</tgroup>
 			</table>
-		</para>
+		
 
-		<para>
+		
 			The
 			`tokenize()`
 			method tokenize the String into a list of String with a whitespace as
 			the delimiter.
-		</para>
-		<para>
+		
+		
 			The Groovy JDK adds the
 			`toURL()`
 			method to String, which allows to convert a String to a URL.
-		</para>
-		<para>
+		
+		
 			The
 			`trim`
 			method removes is applied to remove leading and trailing whitespace.
-		</para>
+		
 	</section>
 
 	<section id="groovy_strings2">
-=== Operator overloading in Strings</title>
-		<para>
+=== Operator overloading in Strings
+		
 			String support operator overloading. You can use + to concatenate
 			strings, - to substract strings and the
 			<wordasword>left-shift operator</wordasword>
 			to add to a String.
-		</para>
+		
 	</section>
 </section>

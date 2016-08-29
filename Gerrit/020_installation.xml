@@ -1,5 +1,5 @@
 <section id="gerrit_installation" role="wrapper">
-== Installation of Gerrit</title>
+== Installation of Gerrit
 
 	<section id="gerrit_installation_download">
 		<indexterm>
@@ -7,31 +7,31 @@
 			<secondary>Installation
 			</secondary>
 		</indexterm>
-=== Download Gerrit</title>
-		<para>
+=== Download Gerrit
+		
 			Download the latest Gerrit release from
 			http://gerrit-releases.storage.googleapis.com/index.html">Gerrit download page</ulink>
 			. The download is a
 			`.war`
 			file which you can directly add to your servlet container, for
 			example, a Jetty or Tomcat installation.
-		</para>
-		<para>
+		
+		
 			The
 			`.war`
 			file also contains a Jetty web server and can be started directly for
 			testing or rapid deployment. The following
 			description uses this approach.
-		</para>
+		
 	</section>
 	<section id="gerrit_installation_setup">
-=== Setup of Gerrit</title>
-		<para>
+=== Setup of Gerrit
+		
 			Copy the
 			`.war`
 			file into an empty directory.
-		</para>
-		<para>
+		
+		
 			Switch on the command line to the location of the directory to which
 			you extracted the
 			`.war`
@@ -39,27 +39,27 @@
 			Install and start
 			Gerrit with
 			the following command.
-		</para>
-		<para>
+		
+		
 			<programlisting language="bourne">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/install/install.txt" />
 			</programlisting>
-		</para>
-		<para>
+		
+		
 			The installation procedure allows you to configure your Gerrit
 			installation. The installation is done in the folder
 			specified with
 			the
 			`-d`
 			parameter, in this example "review_site".
-		</para>
-		<para>
+		
+		
 			The installation procedure asks a few question, pressing enter uses
 			the default value which is typically fine for a
 			test installation. A
 			few of these options are discussed in the following table.
 			<table frame='all'>
-		=== Gerrit setup options</title>
+		=== Gerrit setup options
 				<tgroup cols='2' align='left' colsep='1' rowsep='1'>
 					<colspec colname='c1' colwidth="1*" />
 					<colspec colname='c2' colwidth="2*" />
@@ -119,9 +119,9 @@
 				</tgroup>
 			</table>
 
-		</para>
+		
 		<tip>
-			<para>
+			
 				Use
 				<wordasword>development_become_any_account</wordasword>
 				to enable general access to Gerrit. This is a nice setting for
@@ -129,33 +129,33 @@
 				<guilabel>Become</guilabel>
 				link in the web interface which allows you to login and to create a
 				new account.
-			</para>
+			
 		
 
-		<para>
+		
 			After a successful installation Gerrit starts automatically. You
 			can start and stop it again with the following
 			commands on Linux
 			based systems.
-		</para>
-		<para>
+		
+		
 			<programlisting language="bourne">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/install/start.txt" />
 			</programlisting>
-		</para>
-		<para>
+		
+		
 			On Microsoft Windows based systems you need to invoke the
 			daemon directly. From a command shell switch to the folder
 			<filename class="directory">gerrit_site`
 			and
 			run the following command to start the server.
-		</para>
-		<para>
+		
+		
 			<programlisting language="batch">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/install/windows.txt" />
 			</programlisting>
-		</para>
-		<para>
+		
+		
 			This starts Gerrit.
 			To stop it again, kill the running process using
 			<keycombo>
@@ -165,13 +165,13 @@
 			If something goes wrong, look into the
 			<filename class="directory">logs`
 			folder.
-		</para>
+		
 		<tip>
-			<para>
+			
 				The local Gerrit configuration is stored in the
 				<filename class="directory">./review_site/etc/`
 				folder.
-			</para>
+			
 		
 
 	</section>

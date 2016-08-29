@@ -1,68 +1,68 @@
 <section id="firstpython_program">
-== Your first Python program in Eclipse</title>
-	<para> Select File -> New -> Project. Select Pydev -> Pydev Project.
-	</para>
+== Your first Python program in Eclipse
+	 Select File -> New -> Project. Select Pydev -> Pydev Project.
+	
 
-	<para>
+	
 image::pydev10.gif" />
 				
 			</imageobject>
 		</mediaobject>
-	</para>
+	
 
-	<para> Create a new project with the name "de.vogella.python.first".
+	 Create a new project with the name "de.vogella.python.first".
 		Select Python version 2.6 and your interpreter.
-	</para>
+	
 
-	<para>
+	
 image::pydev20.gif" />
 				
 			</imageobject>
 		</mediaobject>
-	</para>
-	<para>Press finish.</para>
+	
+	Press finish.
 
-	<para> Select Window->Open Perspective ->Other. Select the PyDev
-		perspective.</para>
-	<para>
+	 Select Window->Open Perspective ->Other. Select the PyDev
+		perspective.
+	
 image::pydev30.gif" />
 				
 			</imageobject>
 		</mediaobject>
-	</para>
+	
 
-	<para> Select the "src" folder of your project, right-click it and
+	 Select the "src" folder of your project, right-click it and
 		select New
-		-> PyDev Modul. Create a module "FirstModule".</para>
-	<para>
+		-> PyDev Modul. Create a module "FirstModule".
+	
 image::pydev40.gif" />
 				
 			</imageobject>
 		</mediaobject>
-	</para>
+	
 
-	<para>
+	
 image::pydev50.gif" />
 				
 			</imageobject>
 		</mediaobject>
-	</para>
-	<para> Create the following source code.</para>
+	
+	 Create the following source code.
 
-	<para>
+	
 		<programlisting>
 			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-				parse="text" href="../examples/first/FirstModule.py" />
-		</programlisting>
-	</para>
-	<para>Right-click your model and select Run As -> Python run.</para>
-	<para>
+				parse="text" href="../examples/first/FirstModule.py[]
+----
+	
+	Right-click your model and select Run As -> Python run.
+	
 image::pydev60.gif" />
 				
 			</imageobject>
 		</mediaobject>
-	</para>
-	<para>Congratulations! You created your first (little) Python modul and
-		ran it!</para>
+	
+	Congratulations! You created your first (little) Python modul and
+		ran it!
 
 </section>

@@ -1,16 +1,16 @@
 <section id="classModel-Driven Architecture (MDA) development_diagrams">
-== Appendix: Class diagrams</title>
+== Appendix: Class diagrams
 	<section id="class_diagramss1s2a">
-=== Overview</title>
-		<para>
+=== Overview
+		
 			A class diagram captures the static relationships of your
 			software.
-		</para>
+		
 	</section>
 
 	<section id="class_diagramss1s2b">
-=== Classes</title>
-		<para>
+=== Classes
+		
 			A class is represented by a rectangular box divided into
 			compartments.
 			A Compartment is an area in the box to write
@@ -22,58 +22,58 @@
 			and the third is used for the
 			<emphasis>operations</emphasis>
 			.
-		</para>
+		
 
-		<para>
+		
 image::UML10.gif" />
 				</imageobject>
 			</mediaobject>
-		</para>
-		<para>
+		
+		
 			Any compartment can be hidden to improve readability of the
 			diagram.
-		</para>
-		<para>
+		
+		
 			UML suggests that a class name:
 
 			<itemizedlist>
 				<listitem>
-					<para>Starts with a capital letter</para>
+					Starts with a capital letter
 				</listitem>
 				<listitem>
-					<para>is centered in the top compartment</para>
+					is centered in the top compartment
 				</listitem>
 				<listitem>
-					<para>is written in a boldface font</para>
+					is written in a boldface font
 				</listitem>
 				<listitem>
-					<para>is written in italics if the class is abstract
-					</para>
+					is written in italics if the class is abstract
+					
 				</listitem>
 			</itemizedlist>
-		</para>
+		
 	</section>
 
 	<section id="class_diagramss1s2c">
-=== Attributes</title>
-		<para>
+=== Attributes
+		
 			Attributes specifies details of a class and can be simple
 			types
 			or objects.
-		</para>
-		<para>
+		
+		
 			Attributes can be defined inlined (as part second
 			compartment of
 			the diagram of the class) or as relationship.
-		</para>
+		
 		<section id="class_diagramss1s2bs3a">
-	=== Inlined Attributes</title>
-			<para>
+	=== Inlined Attributes
+			
 				Inlined attributes are placed in the second compartment
 				of the
 				class. The notation for inline attribute is:
-			</para>
-			<para>
+			
+			
 				<emphasis>
 					visibility name: type {multiplicity} {=default}
 				</emphasis>
@@ -94,16 +94,16 @@ image::UML10.gif" />
 							<row>
 								<entry>visibility</entry>
 								<entry>
-									<para>+</para>
-									<para>-</para>
-									<para>#</para>
-									<para>~</para>
+									+
+									-
+									#
+									~
 								</entry>
 								<entry>
-									<para>public Attribute</para>
-									<para>private Attribute</para>
-									<para>protected Attribute</para>
-									<para>package Attribute</para>
+									public Attribute
+									private Attribute
+									protected Attribute
+									package Attribute
 								</entry>
 							</row>
 							<row>
@@ -148,187 +148,187 @@ image::UML10.gif" />
 						</tbody>
 					</tgroup>
 				</table>
-			</para>
-			<para>
+			
+			
 				<mediaobject>
 					<imageobject>
 						<imagedata fileref="images/UML20.gif" />
 
 					</imageobject>
 				</mediaobject>
-			</para>
+			
 
 		</section>
 
 		<section id="class_diagramss1s2bs3b">
-	=== Attributes by Relationship</title>
-			<para>
+	=== Attributes by Relationship
+			
 				To model attributes by relationship you use an
 				association
 				relationship between the class which
 				represents the attribute and the
 				class containing the
 				attribute.
-			</para>
-			<para>
+			
+			
 				<mediaobject>
 					<imageobject>
 						<imagedata fileref="images/UML30.gif" />
 
 					</imageobject>
 				</mediaobject>
-			</para>
+			
 
 		</section>
 
 		<section id="class_diagramss1s2bs3c">
-	=== Static Attributes</title>
-			<para>
+	=== Static Attributes
+			
 				Static attributes (attributes that are part of the class
 				and not
 				part of the instance of the class) are displayed
 				via underlining the
 				name of the relationship.
-			</para>
+			
 		</section>
 
 	</section>
 
 	<section id="class_diagramss1s2d">
-=== Interfaces</title>
-		<para>
+=== Interfaces
+		
 			Interfaces are indicated via the stereotype
 			<![CDATA[ <<interface>> ]]>.
-		</para>
+		
 
-		<para>
+		
 image::UMLInterface20.gif" />
 
 				</imageobject>
 			</mediaobject>
-		</para>
-		<para>
+		
+		
 			Relationships can be expressed via the ball-and-socket
 			notation.
-		</para>
-		<para>
+		
+		
 image::UMLInterface30.gif" />
 
 				</imageobject>
 			</mediaobject>
-		</para>
+		
 
 
 	</section>
 	<section id="class_diagramss1s2e">
-=== Relationships</title>
-		<para>
+=== Relationships
+		
 			UML defines several ways of representing relationships
 			between
 			classes.
-		</para>
+		
 
 
 		<section id="class_diagramss1s2es3a">
-	=== Association</title>
-			<para>
+	=== Association
+			
 				Read as "..has a.." association between classes. Drawn
 				as a
 				straight line between the two classes. Does not
 				mean that the classes
 				are owned by one, other classes
 				may use the connected class too.
-			</para>
-			<para>
+			
+			
 				<mediaobject>
 					<imageobject>
 						<imagedata fileref="images/UML30.gif" />
 
 					</imageobject>
 				</mediaobject>
-			</para>
+			
 		</section>
 
 		<section id="class_diagramss1s2es3b">
-	=== Aggregation</title>
-			<para>
+	=== Aggregation
+			
 				Read as "..owns a ..". Not as strong as a composite.
-			</para>
+			
 
-			<para>
+			
 				<mediaobject>
 					<imageobject>
 						<imagedata fileref="images/UML50.gif" />
 
 					</imageobject>
 				</mediaobject>
-			</para>
+			
 		</section>
 
 		<section id="class_diagramss1s2es3c">
-	=== Composition</title>
-			<para>
+	=== Composition
+			
 				Strong relationship between classes to the point of
 				containment. Read as "..is part of..". If the owning
 				instance is
 				destroyed then normally (not necessarily)
 				the linked object is
 				destroyed too.
-			</para>
+			
 
-			<para>
+			
 				<mediaobject>
 					<imageobject>
 						<imagedata fileref="images/UML60.gif" />
 
 					</imageobject>
 				</mediaobject>
-			</para>
+			
 		</section>
 
 		<section id="class_diagramss1s2es3d">
-	=== Generalisation</title>
-			<para>
+	=== Generalisation
+			
 				Read as ".. is a..". Use to express inheritance.
 				Represented by
 				a solid line and a hollow triangular
 				arrow. For example the following
 				code could be expressed
 				with the following diagram.
-			</para>
-			<para>
+			
+			
 				<programlisting>
 					<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
 						parse="text" href="./examples/Animal.java" />
 				</programlisting>
-			</para>
-			<para>
+			
+			
 				<programlisting>
 					<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
 						parse="text" href="./examples/Frog.java" />
 				</programlisting>
-			</para>
-			<para>
+			
+			
 				<mediaobject>
 					<imageobject>
 						<imagedata fileref="images/UML70.gif" />
 
 					</imageobject>
 				</mediaobject>
-			</para>
+			
 		</section>
 	</section>
 	<section id="class_export">
-=== Export your class diagram as image</title>
-		<para> To export your diagram as image / graphic, right-click on your
+=== Export your class diagram as image
+		 To export your diagram as image / graphic, right-click on your
 			diagram and select File -> Save as Image File.
-		</para>
+		
 
-		<para>
+		
 image::ExportImage10.gif" />
 
 				</imageobject>
 			</mediaobject>
-		</para>
+		
 	</section>
 </section>

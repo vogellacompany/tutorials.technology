@@ -1,5 +1,5 @@
 
-<para>
+
 	<mediaobject>
 		<imageobject role="html">
 			<imagedata fileref="images/antview10.gif" />
@@ -11,4 +11,3 @@
 			<phrase>A text for the graphic</phrase>
 		</textobject>
 	</mediaobject>
-</para>

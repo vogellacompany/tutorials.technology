@@ -1,8 +1,8 @@
 <section id="datatypes_list">
-== Lists</title>
+== Lists
 	<section id="datatypes_list1">
-=== Defining and accessing lists</title>
-		<para>
+=== Defining and accessing lists
+		
 			Groovy treads lists as first class constructs in the
 			language.
 			You
@@ -13,157 +13,157 @@
 			generics. To access element i in a list you can
 			either use
 			list.get(i) or list[i].
-		</para>
-		<para>
+		
+		
 			<programlisting language="java">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/datatypes/Person.groovy" />
 			</programlisting>
-		</para>
-		<para>
+		
+		
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/datatypes/ListTest.groovy" />
 			</programlisting>
-		</para>
+		
 
-		<para>Groovy allows direct property access for a list of items. This
+		Groovy allows direct property access for a list of items. This
 			is
 			demonstrated by the following snippet.
-		</para>
-		<para>
+		
+		
 			<programlisting language="java">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text"
 					href="./examples/datatypes/ListPropertyAccess.groovy" />
 			</programlisting>
-		</para>
+		
 
 
 	</section>
 	<section id="datatypes_list_arrayconvert">
-=== Convert a list to an array and vice versa</title>
+=== Convert a list to an array and vice versa
 
-		<para>Groovy converts automatically an Array to a List and vice versa. This is demonstrated by the following snippet.</para>
-		<para>
+		Groovy converts automatically an Array to a List and vice versa. This is demonstrated by the following snippet.
+		
 			<programlisting language="java">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text"
 					href="./examples/datatypes/ConvertArrayToList.groovy" />
 			</programlisting>
-		</para>
+		
 		
 		
 	</section>
 	<section id="datatypes_list_methods">
-=== List methods</title>
-		<para>
+=== List methods
+		
 			The following lists the most useful methods on List.
 			<itemizedlist>
 				<listitem>
-					<para>reverse()</para>
+					reverse()
 				</listitem>
 				<listitem>
-					<para>sort()</para>
+					sort()
 				</listitem>
 				<listitem>
-					<para>remove(index)</para>
+					remove(index)
 				</listitem>
 				<listitem>
-					<para>findAll{closure} - returns all list elements for which the
+					findAll{closure} - returns all list elements for which the
 						closure validates to true
-					</para>
+					
 				</listitem>
 				<listitem>
-					<para>first()</para>
+					first()
 				</listitem>
 				<listitem>
-					<para>last()</para>
+					last()
 				</listitem>
 				<listitem>
-					<para>max()</para>
+					max()
 				</listitem>
 				<listitem>
-					<para>min()</para>
+					min()
 				</listitem>
 				<listitem>
-					<para>join("string") - combines all list elements, calling the
+					join("string") - combines all list elements, calling the
 						toString method and using the string for
 						concatenation.
-					</para>
+					
 				</listitem>
 				<listitem>
-					<para> <![CDATA[<<]]>
+					 <![CDATA[<<]]>
 						e - appends element e to the list
-					</para>
+					
 				</listitem>
 			</itemizedlist>
-		</para>
-		<para>
+		
+		
 			The
 			`grep`
 			method can be used to filter elements in a collection.
-		</para>
+		
 	</section>
 
 
 	<section id="datatypes_list_operatoroverloading">
-=== Operator overloading in Lists</title>
-		<para>
+=== Operator overloading in Lists
+		
 			List support operator overloading. You can use + to concatenate
 			strings, - to substract lists and the
 			<wordasword>left-shift operator</wordasword>
 			to add elements to a list.
-		</para>
+		
 	</section>
 	<section id="datatypes_list_spreaddotoperator">
-=== Spreaddot operator</title>
-		<para>
+=== Spreaddot operator
+		
 			The spread dot operator (spread-dot operator)
 			`*.`
 			is used to invoke a method on all members
 			of a Collection. The result
 			of this operation
 			is another Collection object.
-		</para>
-		<para>
+		
+		
 			<programlisting language="java">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/datatypes/SpreadDot.groovy" />
 			</programlisting>
-		</para>
+		
 
 
 
 	</section>
 
 	<section id="datatypes_list_search">
-=== Searching in a list with find, findall and grep</title>
-		<para>
+=== Searching in a list with find, findall and grep
+		
 			You can search in a list.
 			<itemizedlist>
 				<listitem>
-					<para>findAll{closure} - returns all list elements for which the
+					findAll{closure} - returns all list elements for which the
 						closure validates to true
-					</para>
+					
 				</listitem>
 				<listitem>
-					<para>find{closure} - returns the list element for which the
+					find{closure} - returns the list element for which the
 						closure validates to true
-					</para>
+					
 				</listitem>
 				<listitem>
-					<para>grep(Object filter) - Iterates over the collection of items
+					grep(Object filter) - Iterates over the collection of items
 						and returns each item that matches the given
 						filter - calling the
 						Object#isCase. This method can be used with different kinds of
 						filters like regular
 						expressions, classes, ranges etc.
-					</para>
+					
 				</listitem>
 			</itemizedlist>
-		</para>
+		
 
-		<para>
+		
 			<programlisting language="java">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/grep/GrepExample.groovy" />
 			</programlisting>
-		</para>
+		
 
 	</section>
 </section>

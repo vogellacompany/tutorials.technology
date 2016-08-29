@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <article>
 	<articleinfo>
-=== Apache Ant - Tutorial</title>
+=== Apache Ant - Tutorial
 		<author>
 			<firstname>Lars</firstname>
 			<surname>Vogel</surname>
@@ -18,13 +18,13 @@
 			<holder>vogella GmbH</holder>
 		</copyright>
 		<releaseinfo>
-			<para>Version 2.7</para>
+			Version 2.7
 		</releaseinfo>
 		<pubdate>02.03.2014</pubdate>
 		
 		<abstract id="abstract">
-	=== Apache Ant Tutorial</title>
-			<para> This tutorial describes the usage of Ant as a build tool to
+	=== Apache Ant Tutorial
+			 This tutorial describes the usage of Ant as a build tool to
 				compile Java
 				code, pack this code into
 				an executable jar and how to
@@ -33,7 +33,7 @@
 				demonstrated within Eclipse and
 				from the command line. This tutorial
 				is based on Apache Ant 1.8.x.
-			</para>
+			
 		</abstract>
 	</articleinfo>
 	<?dbhtml-include href="../../web/advertisement/afterTableOfContent"?>

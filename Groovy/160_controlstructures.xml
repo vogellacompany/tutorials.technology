@@ -1,9 +1,9 @@
 <section id="controlstructures" role="wrapper">
-== Control structures</title>
+== Control structures
 
 	<section id="datatypes_evaluation">
-=== Groovy evaluation of conditions - The Groovy truth</title>
-		<para>
+=== Groovy evaluation of conditions - The Groovy truth
+		
 			Groovy evaluates a condition defined in a control statement
 			differently
 			from Java. A boolean expression is evaluated
@@ -16,13 +16,13 @@
 			, all other numbers evaluates to
 			`true`
 			.
-		</para>
-		<para>
+		
+		
 			<programlisting language="java">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text"
 					href="./examples/controlstructure/GroovyTruth.groovy" />
 			</programlisting>
-		</para>
+		
 		<note>
 			This evaluation is commonly known in the Groovy worlds as
 			<wordasword>the Groovy truth</wordasword>
@@ -31,8 +31,8 @@
 
 	</section>
 	<section id="controlstructures_if">
-=== if statements</title>
-		<para>
+=== if statements
+		
 			The
 			`if`
 			and
@@ -41,12 +41,12 @@
 			can use for example a list as parameter in
 			`if`
 			and Groovy will evaluate this Groovy truth value.
-		</para>
+		
 	</section>
 	<section id="controlstructures_switch">
-=== switch statement and the isCase method</title>
+=== switch statement and the isCase method
 
-		<para>
+		
 			The switch statement is very flexible, everything which implements
 			the
 			`isCase`
@@ -65,29 +65,29 @@
 			matches). You can also
 			specify a closure, which is evaluated to a
 			boolean value.
-		</para>
-		<para>
+		
+		
 			<programlisting language="java">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/switch/SwitchTest.groovy" />
 			</programlisting>
-		</para>
-		<para>
+		
+		
 			If several conditions fit, the first
 			`case`
 			statement is selected.
-		</para>
-		<para>
+		
+		
 			To use your custom class in a switch statement implement the
 			`isCase`
 			method.
-		</para>
+		
 
 
 	</section>
 
 	<section id="controlstructuress_safenull">
-=== Safe navigation operator</title>
-		<para>
+=== Safe navigation operator
+		
 			You can use safe navigation operator to check safety for null via the
 			`?.`
 			operator.
@@ -96,28 +96,28 @@
 			if you access
 			properties of an object
 			which is null.
-		</para>
-		<para>
+		
+		
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/safenull/safenull.txt" />
 			</programlisting>
-		</para>
+		
 	</section>
 	<section id="controlstructures_elvis">
-=== Elvis operator</title>
-		<para>
+=== Elvis operator
+		
 			The
 			`?:`
 			(called the Elvis operator) is a short form for the Java ternary
 			operator. You can use this to set a default if an
 			expression resolves
 			to false or null.
-		</para>
-		<para>
+		
+		
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/elvis/elvis.txt" />
 			</programlisting>
-		</para>
+		
 
 	</section>
 

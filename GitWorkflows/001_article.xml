@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <article>
 	<articleinfo>
-=== Git typical workflows - Tutorial</title>
+=== Git typical workflows - Tutorial
 		<author>
 			<firstname>Lars</firstname>
 			<surname>Vogel</surname>
@@ -17,13 +17,13 @@
 		</copyright>
 		<pubdate>14.12.2014</pubdate>
 		<releaseinfo>
-			<para>Version 5.5</para>
+			Version 5.5
 		</releaseinfo>
 		
 		<abstract id="abstract">
-	=== Git typical workflows</title>
-			<para> This tutorial explains typical workflows for using Git.
-			</para>
+	=== Git typical workflows
+			 This tutorial explains typical workflows for using Git.
+			
 		</abstract>
 	</articleinfo>
 

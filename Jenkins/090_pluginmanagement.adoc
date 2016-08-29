@@ -7,19 +7,13 @@
 Jenkins can be extended via additional plug-ins with more
 functionality. You can configure your plug-ins via
 the
-<menuchoice>
-	<guimenu>Manage Jenkins</guimenu>
-	<guisubmenu>Manager Plugins</guisubmenu>
-</menuchoice>
+menu:Manage Jenkins[Manager Plugins]
 link.
 		
 		
 To install plugins in Jenkins select
 use the
-<menuchoice>
-	<guimenu>Manage Jenkins</guimenu>
-	<guisubmenu>Manager Plugins</guisubmenu>
-</menuchoice>
+menu:Manage Jenkins[Manager Plugins]
 link and search for the plugin you want to install. Select it from the list and select to
 install it and restart
 Jenkins.

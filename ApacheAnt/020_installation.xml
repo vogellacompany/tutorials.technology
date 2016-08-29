@@ -1,36 +1,36 @@
 <section id="installation">
-== Installation</title>
+== Installation
 	<section id="antinstallation_prerequisites">
-=== Prerequisites</title>
-		<para>
+=== Prerequisites
+		
 			Ant
 			requires the installation of the Java Development Kit
 			(JDK). See
 			<ulink
 				url="http://www.vogella.com/tutorials/JavaIntroduction/article.html"> Java introduction</ulink>
 			for a description how to install Java.
-		</para>
+		
 	</section>
 
 	<section id="installation_ubuntu">
-=== Ubuntu</title>
-		<para>
+=== Ubuntu
+		
 			On Ubuntu use the
 			`apt-get install ant`
 			command to install Ant.
 			For other distributions please check the
 			documentation of your
 			vendor.
-		</para>
+		
 	</section>
 	<section id="installation_windows">
-=== Windows</title>
-		<para>
+=== Windows
+		
 			Download Apache Ant from
 			http://ant.apache.org/">http://ant.apache.org/</ulink>
 			.
-		</para>
-		<para>
+		
+		
 			Extract the zip file into a directory structure of your choice.
 			Set
 			the
@@ -39,16 +39,16 @@
 			the
 			`ANT_HOME/bin`
 			directory in your path.
-		</para>
-		<para>
+		
+		
 			Make sure that also the JAVA_HOME environment variable is
 			set to
 			the
 			JDK. This is required for running
 			<wordasword>Ant</wordasword>
 			.
-		</para>
-		<para>
+		
+		
 			Check your installation by opening a command line and typing
 			`ant
 				-version
@@ -60,7 +60,7 @@
 			the version number of your installed
 			<wordasword>Ant</wordasword>
 			version.
-		</para>
+		
 
 
 	</section>

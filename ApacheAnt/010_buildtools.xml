@@ -1,6 +1,6 @@
 <section id="antoverview">
-== Build tools</title>
-	<para>
+== Build tools
+	
 		In software development the term
 		<wordasword>building</wordasword>
 		usually means the conversion of source code and other artifacts, like images or configuration files, into another
@@ -9,8 +9,8 @@
 		be shared with
 		users of the
 		software or used only internally.
-	</para>
-	<para>
+	
+	
 		A
 		<wordasword>build tools</wordasword>
 		is"EclipseTycho/001_article.xml"
@@ -28,22 +28,22 @@
 		for the
 		software
 		deployment.
-	</para>
-	<para>
+	
+	
 		Build
 		tools typically run without a graphical user interface
 		directly from the command line. As a user interface is not
 		required to such builds, these builds are called
 		<wordasword>headless</wordasword>
 		.
-	</para>
-	<para>
+	
+	
 		Popular build tools in the Java space are
 		<wordasword>Maven</wordasword>
 		and
 		<wordasword>Gradle</wordasword>
 		and <wordasword>Apache Ant</wordasword>.
-	</para>
+	
 
 
 </section>

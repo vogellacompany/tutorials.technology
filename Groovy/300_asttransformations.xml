@@ -1,8 +1,8 @@
 <section id="asttransformations">
-== Compile-time meta programming and AST transformations</title>
+== Compile-time meta programming and AST transformations
 	<section id="asttransformations1">
-=== What are AST transformations?</title>
-		<para>
+=== What are AST transformations?
+		
 			An
 			<wordasword>Abstract Syntax Tree</wordasword>
 			(AST)
@@ -13,23 +13,23 @@
 			sometimes
 			called
 			compile-time metaprogramming.
-		</para>
-		<para>Groovy provides several AST transformations which allows you to
+		
+		Groovy provides several AST transformations which allows you to
 			reduce the amount of code you have to write.
-		</para>
+		
 	</section>
 
 	<section id="asttransformations_tupleConstructor">
-=== @TupleConstructor</title>
-		<para>
+=== @TupleConstructor
+		
 			If a class is annotated with
 			`@TupleConstructor`
 			Groovy generates a constructor using all fields.
-		</para>
+		
 	</section>
 	<section id="asttransformations_equals">
-=== @EqualsAndHashCode</title>
-		<para>
+=== @EqualsAndHashCode
+		
 			The
 			`@EqualsAndHashCode`
 			annotation
@@ -39,18 +39,18 @@
 			and
 			`hashCode`
 			method. Includes fields can be customized.
-		</para>
-		<para>
+		
+		
 			<programlisting language="java">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text"
 					href="./examples/ast/TaskEqualsAndHashCode.groovy" />
 			</programlisting>
-		</para>
+		
 
 	</section>
 	<section id="asttransformations_toString">
-=== @ToString for beans</title>
-		<para>
+=== @ToString for beans
+		
 			The
 			`@ToString`
 			annotation
@@ -64,62 +64,62 @@
 			exclude a
 			list of
 			fields.
-		</para>
-		<para>
+		
+		
 			This annotation typically only considers properties (non-private
 			fields) but you can include them via
 			`@ToString(includeFields=true)`
 			. Via
 			`@ToString(excludes=list)`
 			we can exclude a list of fields and properties.
-		</para>
+		
 
-		<para>
+		
 			<programlisting language="java">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/ast/TaskToString.groovy" />
 			</programlisting>
-		</para>
+		
 
 	</section>
 	<section id="asttransformations_canonical">
-=== @Canonical </title>
-		<para>Combines @ToString, @EqualsAndHashCode and
+=== @Canonical 
+		Combines @ToString, @EqualsAndHashCode and
 			@TupleConstructor.
-		</para>
+		
 	</section>
 	<section id="asttransformations_immutable">
-=== @Immutable for immutable Java beans</title>
-		<para>This annotation marks all fields in a class as final and ensure that there are no setters generate for the
+=== @Immutable for immutable Java beans
+		This annotation marks all fields in a class as final and ensure that there are no setters generate for the
 			fields. It also creates a constructor for all fields, marks the class as final.
-		</para>
+		
 	</section>
 
 	<section id="asttransformations_delegate">
-=== @Delegate</title>
-		<para>@Delegate can be used on a field. All methods on the delegate are also available on the class with defines the
+=== @Delegate
+		@Delegate can be used on a field. All methods on the delegate are also available on the class with defines the
 			delegate. If several delegates define the same method, it is recommended to override the method. If you do not
 			override Groovy will use the first method it finds.
-		</para>
+		
 	</section>
 	<section id="asttransformations_sort">
-=== @Sortable for beans</title>
-		<para>
+=== @Sortable for beans
+		
 			You can automatically created a
 			`Comparator`
 			for a Groovy bean by annotating it with
 			`@Sortable`
 			. Fields are used in the order of declaration.
-		</para>
-		<para>You can also include/exclude fields.</para>
-		<para>
+		
+		You can also include/exclude fields.
+		
 			<programlisting language="java">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/ast/TaskSortable.groovy" />
 			</programlisting>
-		</para>
+		
 	</section>
 	<section id="asttransformations_memoize">
-=== @Memoize for methods</title>
-		<para>
+=== @Memoize for methods
+		
 			If the
 			`@Memoize`
 			annotation is to a method the Groovy runtime caches the result for
@@ -129,63 +129,63 @@
 			and the result is cached. If
 			the method is called again with the same
 			parameters, the result is returned from the cache.
-		</para>
+		
 
 
-		<para>
+		
 			<programlisting language="java">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/ast/MemoizedExample.groovy" />
 			</programlisting>
-		</para>
+		
 
-		<para>
+		
 			<programlisting language="java">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/ast/CallMemoizedExample.groovy" />
 			</programlisting>
-		</para>
+		
 
 	</section>
 	<section id="asttransformations_annotationCollector">
 === @AnnotationCollector for combining AST Transformations
 			annotations
-		</title>
-		<para>
+		
+		
 			The
 			`AnnotationCollector`
 			allows to combine other AST Transformations annotations.
-		</para>
+		
 
-		<para>
+		
 			<programlisting language="java">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/ast/Pojo.groovy" />
 			</programlisting>
-		</para>
+		
 
-		<para>You can use this annotation, it is also possible to override
+		You can use this annotation, it is also possible to override
 			parameters in them.
-		</para>
-		<para>
+		
+		
 			<programlisting language="java">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/ast/Person.groovy" />
 			</programlisting>
-		</para>
+		
 
-		<para>
+		
 			<programlisting language="java">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text"
 					href="./examples/ast/TestPojoAnnotationCollector.groovy" />
 			</programlisting>
-		</para>
+		
 	</section>
 
 	<section id="asttransformations_bindable">
-=== @Bindable observable Properties</title>
-		<para>
+=== @Bindable observable Properties
+		
 			The Java beans specification requires that Java beans support
 			`PropertyChangeSupport`
 			for all fields.
-		</para>
-		<para>
+		
+		
 			The
 			`@groovy.beans.Bindable`
 			annotation can be applied to a whole class or a method. If the
@@ -202,37 +202,37 @@
 			will
 			notfiy the
 			property change listener.
-		</para>
-		<para>The following listing shows the Java version of a Java Bean with
+		
+		The following listing shows the Java version of a Java Bean with
 			one property.
-		</para>
+		
 
 	</section>
 
 	<section id="asttransformations_builder">
-=== @Builder</title>
-		<para>
+=== @Builder
+		
 			The
 			`@Builder`
 			can be applied to a class and generates transparently a builder for
 			this class.
-		</para>
+		
 
-		<para>
+		
 			<programlisting language="java">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/ast/TaskWithBuilder.groovy" />
 			</programlisting>
-		</para>
-		<para>
+		
+		
 			<programlisting language="java">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/ast/TestBuilder.groovy" />
 			</programlisting>
-		</para>
+		
 	</section>
 
 	<section id="groovy_grapes">
-=== @Grab for dependency management</title>
-		<para>
+=== @Grab for dependency management
+		
 			Groovy allows to add Maven dependencies to your Groovy script or
 			Groovy class using the
 			`@Grab`
@@ -240,33 +240,33 @@
 			`@Grab`
 			annotation, resolves the Maven dependencies, downloads them and adds
 			them to the classpath of the program.
-		</para>
-		<para>
+		
+		
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/grap/grapexample.gradle" />
 			</programlisting>
-		</para>
+		
 
-		<para>
+		
 			Using the @GrabResolver annotation you can specify the Maven
 			repository you want to use. For example
 			`@GrabResolver(name='myrepo',
 				root='http://myrepo.my-company.com/')
 			`
 			.
-		</para>
+		
 
 
 	</section>
 	<section id="asttransformations_others">
-=== Other AST Transformations</title>
-		<para>
+=== Other AST Transformations
+		
 			The following table lists other commonly used annotations in
 			Groovy
 			code:
 
 			<table frame='all'>
-		=== AST transformation annotations</title>
+		=== AST transformation annotations
 				<tgroup cols='2' align='left' colsep='1' rowsep='1'>
 					<colspec colname='c1' colwidth="1*" />
 					<colspec colname='c2' colwidth="2*" />
@@ -294,22 +294,22 @@
 					</tbody>
 				</tgroup>
 			</table>
-		</para>
+		
 	</section>
 	<section id="asttransformations2">
-=== Writing custom transformations</title>
-		<para>You can also define you custom local or global transformations.
+=== Writing custom transformations
+		You can also define you custom local or global transformations.
 			For a local transformation you would write your
 			own annotation and
 			write a processors for that and use the annotation on an element in
 			your Groovy class. The Groovy
 			compiler calls your processors to
 			transform the input into something else.
-		</para>
-		<para>Global transformations are applied to every single source unit
+		
+		Global transformations are applied to every single source unit
 			in the
 			compilation without the need for additional
 			customization.
-		</para>
+		
 	</section>
 </section>

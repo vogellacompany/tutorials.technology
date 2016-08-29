@@ -1,20 +1,20 @@
 <section id="hosting_github" role="wrapper">
-== GitHub</title>
+== GitHub
 
 	<section id="hosting_github_what">
-=== What is GitHub?</title>
+=== What is GitHub?
 		<indexterm>
 			<primary>GitHub</primary>
 		</indexterm>
 
-		<para>
+		
 			GitHub
 			is a popular hosting provider for Git repositories. GitHub
 			provides also additional services around these repositories, for
 			example an issue tracker for each repository, build server
 			integration and more.
-		</para>
-		<para>
+		
+		
 			GitHub supports that repositories can be cloned
 			to a new Git
 			repository hosted at Github. GitHub uses the term
@@ -22,8 +22,8 @@
 			or
 			<wordasword>forking</wordasword>
 			for creating such clones.
-		</para>
-		<para>
+		
+		
 			GitHub
 			provides
 			free hosting for publicly visible
@@ -35,8 +35,8 @@
 			at
 			any point in
 			time.
-		</para>
-		<para>
+		
+		
 			If the repository should not be visible to everyone, Git allows
 			to create private repositories, but you must pay for this service a
 			monthly rate.
@@ -47,19 +47,19 @@
 			to the
 			repository and to define their access
 			rights.
-		</para>
-		<para>
+		
+		
 			GitHub can be found
 			under the following
 			URL.
-		</para>
-		<para>
+		
+		
 			https://github.com">
 				GitHub
 			</ulink>
-		</para>
+		
 
-		<para>
+		
 			If you create an account at GitHub, you can create a repository.
 			After
 			creating a repository at GitHub, you will get a description of
@@ -69,38 +69,38 @@
 			Follow
 			the
 			instructions below.
-		</para>
-		<para>
+		
+		
 			These instructions will be similar to the following commands.
-		</para>
-		<para>
+		
+		
 			<programlisting language="bourne">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
 					parse="text" href="./examples/github/example.txt" />
 			</programlisting>
-		</para>
+		
 
-		<para>
+		
 			GitHub allows you to use SSH based or HTTPS based authentication
 			to
 			access your
 			repositories. To clone, pull or fetch from a public
 			available repository no authentication is required.
-		</para>
+		
 	</section>
 
 	<section id="github_createrepo">
-=== Create repository in GitHub</title>
-		<para>
+=== Create repository in GitHub
+		
 			Once you create a user at Github, you can create a new public
 			repository. For example the following screenshots demonstrate the
 			creation of
 			the
 			<wordasword>de.vogella.git.github</wordasword>
 			repository.
-		</para>
+		
 
-		<para>
+		
 image::github10.png" scale="30" />
 
 				</imageobject>
@@ -109,8 +109,8 @@ image::github10.png" scale="30" />
 				</textobject>
 			</mediaobject>
 
-		</para>
-		<para>
+		
+		
 image::github20.png" scale="30" />
 
 				</imageobject>
@@ -119,41 +119,41 @@ image::github20.png" scale="30" />
 				</textobject>
 			</mediaobject>
 
-		</para>
+		
 
 
-		<para>After creation of your new repository GitHub displays the
+		After creation of your new repository GitHub displays the
 			information what you have to
 			do if you want to connect to this
 			repository via the command line. As
 			we are going to use
 			EGit you can
 			ignore this information.
-		</para>
+		
 	</section>
 	<section id="hosting_github_mergingpullrequests">
-=== Merging pull request at GitHub</title>
+=== Merging pull request at GitHub
 		<indexterm>
 			<primary>GitHub</primary>
 			<secondary>Merging pull requests</secondary>
 		</indexterm>
-		<para>
+		
 			GitHub uses
 			<wordasword>Pull requests</wordasword>
 			for contributions.
-		</para>
-		<para>The typical workflow in GitHub is to fork a repository, create
+		
+		The typical workflow in GitHub is to fork a repository, create
 			changes in your fort and send a pull request to the origin repository
 			via the
 			GitHub webinterface.
-		</para>
-		<para>
+		
+		
 			GitHub makes is easy to fork a repository via its web interface.
 			Simply click the
 			<guibutton>Fork</guibutton>
 			button of a repository of your choice.
-		</para>
-		<para>
+		
+		
 image::github_pullrequest10.png"
 						scale="40" />
 				</imageobject>
@@ -161,12 +161,12 @@ image::github_pullrequest10.png"
 					<phrase>Forking a GitHub repository</phrase>
 				</textobject>
 			</mediaobject>
-		</para>
-		<para>
+		
+		
 			You can now clone this fork to your local development
 			environment and push the changes to this fork at GitHub.
-		</para>
-		<para>
+		
+		
 			Afterwards you can create a pull request for the repository you
 			forked
 			from. Your
@@ -174,8 +174,8 @@ image::github_pullrequest10.png"
 			screenshot. Press
 			<guilabel>Pull Requests</guilabel>
 			to see existing and create new pull requests.
-		</para>
-		<para>
+		
+		
 image::github_pullrequest20.png"
 						scale="30" />
 				</imageobject>
@@ -183,14 +183,14 @@ image::github_pullrequest20.png"
 					<phrase>Creating a pull request for Github, Part 1</phrase>
 				</textobject>
 			</mediaobject>
-		</para>
+		
 
-		<para>
+		
 			Click
 			<guilabel>New pull request</guilabel>
 			to create a new one.
-		</para>
-		<para>
+		
+		
 image::github_pullrequest30.png"
 						scale="30" />
 				</imageobject>
@@ -198,14 +198,14 @@ image::github_pullrequest30.png"
 					<phrase>Creating a pull request for Github, Part 2</phrase>
 				</textobject>
 			</mediaobject>
-		</para>
-		<para>
+		
+		
 			On the next screen you can specify the direction of the pull request
 			and the branches if you select the
 			<guilabel>Edit</guilabel>
 			button.
-		</para>
-		<para>
+		
+		
 image::github_pullrequest40.png"
 						scale="30" />
 				</imageobject>
@@ -213,12 +213,12 @@ image::github_pullrequest40.png"
 					<phrase>Creating a pull request from Github, Part 3</phrase>
 				</textobject>
 			</mediaobject>
-		</para>
+		
 
-		<para>If the owner of the repository accepts your pull request
+		If the owner of the repository accepts your pull request
 			your
 			changes are integrated into the original repository.
-		</para>
+		
 	</section>
 
 </section>

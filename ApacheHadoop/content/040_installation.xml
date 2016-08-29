@@ -1,17 +1,17 @@
 <section id="installation">
-== Installation</title>
-	<para>
+== Installation
+	
 		Apache Hadoop can be downloaded from
 		http://hadoop.apache.org/"> Hadoop Homepage</ulink>
 		. To get started with Hadoop you require the following sub-projects:
 
 		<itemizedlist>
-			<listitem><para>Hadoop Common    </para>
+			<listitem>Hadoop Common    
 			</listitem>
-			<listitem><para>MapReduce    </para>
+			<listitem>MapReduce    
 			</listitem>
-			<listitem><para>HDFS     </para>
+			<listitem>HDFS     
 			</listitem>
 		</itemizedlist>
-	</para>
+	
 </section>

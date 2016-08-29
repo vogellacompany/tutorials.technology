@@ -1,6 +1,6 @@
 <section id="copy">
-== Your first transformation - copy</title>
-	<para>
+== Your first transformation - copy
+	
 		We start first with the simplest transformation possible; no
 		transformation at all. Create a new directory called
 		<filename class="directory">com.vogella.xslt.first`
@@ -8,55 +8,55 @@
 		folder
 		<filename class="directory">files`
 		.
-	</para>
+	
 
-	<para>
+	
 		Create the following XML file
 		`source.xml`
 		in the
 		<filename class="directory">files`
 		folder
 		.
-	</para>
-	<para>
+	
+	
 		<programlisting language="xml">
 			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-				parse="text" href="../examples/first/source.xml" />
-		</programlisting>
-	</para>
+				parse="text" href="../examples/first/source.xml[]
+----
+	
 
-	<para>
+	
 		Create the following
 		`transform.xsl`
 		file
 		in the
 		<filename class="directory">files`
 		folder.
-	</para>
+	
 
-	<para>
+	
 		<programlisting language="xml">
 			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-				parse="text" href="../examples/first/transform.xsl" />
-		</programlisting>
-	</para>
+				parse="text" href="../examples/first/transform.xsl[]
+----
+	
 
-	<para>
+	
 		To run the transformation, use the following command on the
 		command line.
-	</para>
+	
 
-	<para>
+	
 		<programlisting language="bourne">
 			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-				parse="text" href="../examples/xsltproc/transform.txt" />
-		</programlisting>
-	</para>
+				parse="text" href="../examples/xsltproc/transform.txt[]
+----
+	
 
-	<para>
+	
 		Review the generated
 		`result.xml`
 		file. It should be a copy of the input file.
-	</para>
+	
 
 </section>

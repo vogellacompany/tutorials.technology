@@ -1,17 +1,17 @@
 <section id="firstgroovy" role="wrapper">
-== Exercise: Create a Groovy program with the Eclipse IDE</title>
+== Exercise: Create a Groovy program with the Eclipse IDE
 	<section id="firstgroovy_target">
-=== Target of this exercise</title>
-		<para>In this exercise you learn how to create Groovy program with the Eclipse IDE.</para>
+=== Target of this exercise
+		In this exercise you learn how to create Groovy program with the Eclipse IDE.
 	</section>
 	<section id="firstgroovy_project">
-=== Create a new Groovy project</title>
-		<para>
+=== Create a new Groovy project
+		
 			The following example assumes you have Groovy and the Eclipse
 			IDE
 			installed and configured.
-		</para>
-		<para>
+		
+		
 			Create a new Groovy project called
 			<wordasword>com.vogella.groovy.first</wordasword>
 			the
@@ -23,39 +23,39 @@
 				<guisubmenu>Groovy Project</guisubmenu>
 			</menuchoice>
 			.
-		</para>
-		<para>
+		
+		
 image::groovyfirst10.png[]
 				</imageobject>
 				<textobject>
 					<phrase>Creating a Groovy project</phrase>
 				</textobject>
 			</mediaobject>
-		</para>
+		
 
-		<para>
+		
 image::groovyfirst20.png[]
 				</imageobject>
 				<textobject>
 					<phrase>Creating a Groovy project</phrase>
 				</textobject>
 			</mediaobject>
-		</para>
-		<para>
+		
+		
 			After entering the project name, press the
 			<guilabel>Finish</guilabel>
 			button. This creates a new Groovy project similar to a new Java
 			project but with the required Groovy libraries.
-		</para>
-		<para>
+		
+		
 image::groovyfirst30.png[]
 				</imageobject>
 				<textobject>
 					<phrase>Creating a Groovy project</phrase>
 				</textobject>
 			</mediaobject>
-		</para>
-		<para>
+		
+		
 			Right click on the source folder and
 			<menuchoice>
 				<guimenu>New</guimenu>
@@ -64,8 +64,8 @@ image::groovyfirst30.png[]
 			from the context menu. Create a new package called
 			`first`
 			.
-		</para>
-		<para>
+		
+		
 			Create a new Groovy class called
 			`FirstGroovy`
 			via
@@ -77,44 +77,44 @@ image::groovyfirst30.png[]
 				<guisubmenu>Groovy Class</guisubmenu>
 			</menuchoice>
 			.
-		</para>
-		<para>
+		
+		
 image::groovyfirst40.png[]
 				</imageobject>
 				<textobject>
 					<phrase>Creating a Groovy class Part 1</phrase>
 				</textobject>
 			</mediaobject>
-		</para>
-		<para>Create the following code.</para>
-		<para>
+		
+		Create the following code.
+		
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/first/FirstGroovy.groovy" />
 			</programlisting>
-		</para>
+		
 	</section>
 	<section id="firstgroovy_project_run">
-=== Run the Groovy class</title>
-		<para>
+=== Run the Groovy class
+		
 			Right-click the Groovy class, and select
 			<menuchoice>
 				<guimenu>Run As</guimenu>
 				<guisubmenu>Groovy Script</guisubmenu>
 			</menuchoice>
 			from the context menu.
-		</para>
+		
 	</section>
 	<section id="firstgroovy_project_validate">
-=== Validate the Groovy class</title>
-		<para>
+=== Validate the Groovy class
+		
 			The above menu entry triggers the execution of the main method in
 			your Groovy class and prints output
 			to
 			<wordasword>Console</wordasword>
 			view of the Eclipse IDE.
-		</para>
+		
 
-		<para> Congratulation! You created and ran your first Groovy class.</para>
+		 Congratulation! You created and ran your first Groovy class.
 	</section>
 	
 </section>

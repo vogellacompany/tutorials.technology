@@ -1,23 +1,23 @@
 <section id="visualeditors">
-== Visual editor support for Docbook in Eclipse</title>
+== Visual editor support for Docbook in Eclipse
 	<section id="vex">
-=== Oxygen</title>
-		<para>
+=== Oxygen
+		
 			<wordasword>Oxygen</wordasword>
 			is a commercial set of plug-ins for working with XML and XLST. It
 			provides also a visual editor for editing Docbook files.
-		</para>
-		<para>The Oxygen editor can be installed via the following update
+		
+		The Oxygen editor can be installed via the following update
 			site: http://www.oxygenxml.com/InstData/Editor/Eclipse/site.xml
-		</para>
-		<para>You require a license to use Oxygen, see the Oxygen for details.
-		</para>
+		
+		You require a license to use Oxygen, see the Oxygen for details.
+		
 	</section>
 	<section id="vex">
-=== Visual Editor for XML (Vex)</title>
+=== Visual Editor for XML (Vex)
 		<section id="vex_1">
-	=== What is Vex</title>
-			<para>
+	=== What is Vex
+			
 				Vex is an Open Source plug-in for the
 				Eclipse
 				that augments the
@@ -26,39 +26,39 @@
 				the
 				plugin is part of
 				the Eclipse project.
-			</para>
+			
 		</section>
 		<section id="vex_2">
-	=== Installation</title>
-			<para>You can install Vex via an Eclipse update site:</para>
-			<para>
+	=== Installation
+			You can install Vex via an Eclipse update site:
+			
 				<programlisting language="text">
 					<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
 						parse="text" href="./examples/vex/updatesites.txt" />
 				</programlisting>
-			</para>
+			
 		</section>
 		<section id="vex_3">
-	=== Usage</title>
-			<para>
+	=== Usage
+			
 				To switch between the standard Eclipse XML editor and Vex, do a
 				right-click on the file in the Project Explorer and select Visual
 				XML
 				Editor.
-			</para>
-			<para>
+			
+			
 				<mediaobject>
 					<imageobject>
 						<imagedata fileref="images/vex-example.png[]
 					</imageobject>
 				</mediaobject>
-			</para>
-			<para>
+			
+			
 				The plug-in is helpful as a quick preview, but still a work in
 				progress. At the time of writing, embedded text via
 				`XInclude`
 				is just ignored.
-			</para>
+			
 		</section>
 
 	</section>

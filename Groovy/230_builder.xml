@@ -1,6 +1,6 @@
 <section id="groovybuilder">
-== Groovy builders</title>
-	<para>
+== Groovy builders
+	
 		Groovy supports the builder pattern to create tree-like data
 		structures. The base class for the builder support is
 		`BuilderSupport`
@@ -13,5 +13,5 @@
 		and
 		`SwingBuilder`
 		.
-	</para>
+	
 </section>

@@ -1,31 +1,31 @@
 <section id="groovyobjects" role="wrapper">
-== Groovy classes, objects and methods</title>
+== Groovy classes, objects and methods
 	<section id="groovycode_class">
-=== A Groovy class and default access modifier</title>
-		<para>
+=== A Groovy class and default access modifier
+		
 			A Groovy class is defined with the
 			`class`
 			keyword, similar to Java.
 			All
 			Groovy classes and methods are by default
 			public.
-		</para>
+		
 
-		<para>
+		
 			The following is an example Groovy class called
 			`Task.groovy`
 			.
-		</para>
-		<para>
+		
+		
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/explained/SumItUp.groovy" />
 			</programlisting>
-		</para>
+		
 	</section>
 
 	<section id="groovyobjects_fields">
-=== Groovy objects (Plain Old Groovy Objects) and fields</title>
-		<para>
+=== Groovy objects (Plain Old Groovy Objects) and fields
+		
 			In Groovy all fields of a class have by default the
 			`private`
 			access
@@ -42,13 +42,13 @@
 			Such a Groovy classes fits to the
 			<wordasword>Java beans</wordasword>
 			specification.
-		</para>
-		<para>
+		
+		
 			Groovy objects are frequently referred to as
 			<wordasword>Plain Old Groovy Objects (POGO)</wordasword>
 			.
-		</para>
-		<para>
+		
+		
 			You can use the getter and setter directly or use the name of
 			the
 			field for access. Groovy also supports the array
@@ -62,14 +62,14 @@
 			changeable define it as
 			`final`
 			, in this case Groovy will not provide a setter.
-		</para>
+		
 
 	</section>
 
 
 	<section id="groovyobjects_constructors">
-=== Constructors</title>
-		<para>
+=== Constructors
+		
 			Groovy provides
 			<wordasword>constructors with named parameters</wordasword>
 
@@ -81,8 +81,8 @@
 			, as it uses the
 			`property:value`
 			map syntax.
-		</para>
-		<para>
+		
+		
 			If such a
 			constructor is used, Groovy calls the default
 			constructor and then
@@ -100,27 +100,27 @@
 			Java class and then
 			the methods to set the
 			properties.
-		</para>
-		<para>The usage of the constructors with named parameters is
+		
+		The usage of the constructors with named parameters is
 			demonstrated by the following example.
-		</para>
-		<para>
+		
+		
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/explained/Person.groovy" />
 			</programlisting>
-		</para>
+		
 	</section>
 	<section id="groovyobjects_equals">
-=== Equals, == and the method is()</title>
-		<para> One difference between Java and Groovy is that the == operator
+=== Equals, == and the method is()
+		 One difference between Java and Groovy is that the == operator
 			will check for equality and not for identity.
 			Java checks if both
 			variables points to the same object while Groovy checks if both
 			variables are equals. To check for
 			identify you can use in Groovy the
 			is() method.
-		</para>
-		<para>
+		
+		
 			In Groovy null == null returns
 			true. If two references point to
 			the
@@ -132,24 +132,24 @@
 			this method is used, otherwise the
 			`equals`
 			method.
-		</para>
+		
 	</section>
 	<section id="groovyobjects_parameter">
-=== Optional parameters in methods</title>
-		<para> Groovy allows to have optional parameter values. Optional
+=== Optional parameters in methods
+		 Groovy allows to have optional parameter values. Optional
 			parameter values are indicated by =0.
-		</para>
-		<para>
+		
+		
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/explained/DefaultValues.groovy" />
 			</programlisting>
-		</para>
+		
 	</section>
 
 
 	<section id="groovyobjects_default_parameter">
-=== Default parameters in methods</title>
-		<para>In Groovy you assign default values to parameters in a
+=== Default parameters in methods
+		In Groovy you assign default values to parameters in a
 			method. If
 			a default value for a parameter is defined,
 			Groovy
@@ -163,7 +163,7 @@
 			values then the right most parameter with a
 			default value is first
 			eliminated then the next, etc.
-		</para>
+		
 
 	</section>
 </section>

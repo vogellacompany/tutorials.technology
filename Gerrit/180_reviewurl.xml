@@ -1,6 +1,6 @@
 <section id="gerritreview_url">
-== URL for reviews</title>
-	<para>
+== URL for reviews
+	
 		To see the reviews on your Gerrit server, open the link to your Gerrit
 		instance. For
 		example if you have Gerrit locally
@@ -16,10 +16,10 @@
 		You see
 		all change requests, if you login into the Gerrit instance you
 		see Gerrit changes you are involved with.
-	</para>
-	<para>
+	
+	
 		You can use the Search field to search for review see
 		https://git.eclipse.org/r/Documentation/user-search.html">Search options in Gerrit</ulink>
 		for available search options.
-	</para>
+	
 </section>

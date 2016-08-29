@@ -16,8 +16,8 @@
 	
 	
 		<programlisting language="xml">
-			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/maven/pom.xml" />
-		</programlisting>
+			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/maven/pom.xml[]
+----
 	
 	
 		Running the
@@ -39,7 +39,7 @@ image::gradle_init_pom.png[]
 	
 	
 		<programlisting language="gradle">
-			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/maven/build.gradle" />
-		</programlisting>
+			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/maven/build.gradle[]
+----
 	
 

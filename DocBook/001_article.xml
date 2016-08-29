@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <article>
 	<articleinfo>
-=== DocBook - Tutorial</title>
+=== DocBook - Tutorial
 		<author>
 			<firstname>Lars</firstname>
 			<surname>Vogel</surname>
@@ -20,23 +20,23 @@
 		</copyright>
 		<pubdate>13.01.2015</pubdate>
 		<releaseinfo>
-			<para>Version 3.8</para>
+			Version 3.8
 		</releaseinfo>
 		
 		<abstract id="abstract">
-	=== DocBook</title>
-			<para>
+	=== DocBook
+			
 				This tutorial explains how to write DocBook files in Eclipse
 				and how to convert these files into various output formats, e.g., to
 				HTML and PDF. It also explains how to configure XInclude to divide
 				the information into different source files.
-			</para>
+			
 
-			<para>
+			
 				This tutorial uses Docbook 4.5, the Saxon XLST processor in
 				version 6.5.5, Eclipse 4.3 and the XLST stylesheets in version
 				1.77.1.
-			</para>
+			
 		</abstract>
 	</articleinfo>
 	<?dbhtml-include href="../../web/advertisement/afterTableOfContent"?>

@@ -1,40 +1,40 @@
 ﻿<section id="tips">
-== Ant tips</title>
+== Ant tips
 	<section id="tips_path">
-=== Converting Paths</title>
-		<para>Apache Ant allows to convert relative paths to absolute paths.
+=== Converting Paths
+		Apache Ant allows to convert relative paths to absolute paths.
 			The following example demonstrates that.
-		</para>
+		
 
-		<para>
+		
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
 					parse="text" href="./examples/tips/define.txt" />
 			</programlisting>
-		</para>
-		<para> This property can later be used for example as a parameter.
-		</para>
-		<para>
+		
+		 This property can later be used for example as a parameter.
+		
+		
 			<programlisting language="xml">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
 					parse="text" href="./examples/tips/use.txt" />
 			</programlisting>
-		</para>
+		
 	</section>
 	<section id="tips_regularexpressions">
-=== Regular expressions</title>
-		<para>
+=== Regular expressions
+		
 			Ant can be used to replace text based on regular expressions. The
 			following
 			<wordasword>Ant Target</wordasword>
 			replaces tabs with double spaces.
-		</para>
-		<para>
+		
+		
 			<programlisting language="xml">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
 					parse="text" href="./examples/regex/example.xml" />
 			</programlisting>
-		</para>
+		
 
 
 

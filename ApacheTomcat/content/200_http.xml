@@ -1,6 +1,6 @@
 <section id="tomcat_httpserver">
-== Tomcat as HTTP Server</title>
-	<para>
+== Tomcat as HTTP Server
+	
 		contains also a HTTP connector which can be used
 		to serve static HTML
 		pages. The standard directory which will be
@@ -10,21 +10,21 @@
 		`webapps/ROOT`
 		below the installation directory. Place static content
 		into this directory.
-	</para>
-	<para>
+	
+	
 		To allow directory browsing via Apache Tomcat change the
 		`listings`
 		parameter
 		in the file
 		`conf/web.xml`
 		from false to true.
-		<para>
+		
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
 					parse="text" href="../examples/httpserver/listings.txt" />
 			</programlisting>
-		</para>
-	</para>
+		
+	
 
 
 </section>

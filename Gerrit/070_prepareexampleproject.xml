@@ -1,19 +1,19 @@
 <section id="gerritsetup_project">
-== Administrator: create example project</title>
-	<para>
+== Administrator: create example project
+	
 		Also for testing create a new Java project called
 		<wordasword>com.vogella.gerrit.example</wordasword>
 		in Eclipse that gets stored in a local
 		Git repository. Add a few
 		classes to it.
-	</para>
+	
 	<note>
-		<para>The following pushes the changes directly to the Git repository
+		The following pushes the changes directly to the Git repository
 			without a change in Gerrit. Administrators are allowed to do
 			this.
-		</para>
+		
 	
-	<para>
+	
 		Afterwards
 		push the local Git
 		repository
@@ -27,8 +27,8 @@
 		in the wizard and press the
 		<guilabel>Next</guilabel>
 		button.
-	</para>
-	<para>
+	
+	
 image::gerrit_initialpush10.png"
 					scale="40" />
 			</imageobject>
@@ -36,13 +36,13 @@ image::gerrit_initialpush10.png"
 				<phrase>Initial push to Gerrit</phrase>
 			</textobject>
 		</mediaobject>
-	</para>
-	<para>
+	
+	
 		On the next page, click the
 		<guilabel>Add All Branches Spec</guilabel>
 		button.
-	</para>
-	<para>
+	
+	
 image::gerrit_initialpush20.png"
 					scale="40" />
 			</imageobject>
@@ -50,12 +50,12 @@ image::gerrit_initialpush20.png"
 				<phrase>Initial push to Gerrit</phrase>
 			</textobject>
 		</mediaobject>
-	</para>
-	<para>
+	
+	
 		Press the
 		<guilabel>Next</guilabel>
 		button and on the last wizard page the
 		<guilabel>Finish</guilabel>
 		button.
-	</para>
+	
 </section>

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <article>
 	<articleinfo>
-=== Publish EBooks - Tutorial</title>
+=== Publish EBooks - Tutorial
 		<author>
 			<firstname>Lars</firstname>
 			<surname>Vogel</surname>
@@ -12,15 +12,15 @@
 		</copyright>
 		<pubdate>15.09.2011</pubdate>
 		<releaseinfo>
-			<para>Version 0.1</para>
+			Version 0.1
 		</releaseinfo>
 
 		
 
 
 		<abstract id="abstract">
-	=== Short description how to publish EBooks</title>
-			<para> This is currently a collection of notes for me. </para>
+	=== Short description how to publish EBooks
+			 This is currently a collection of notes for me. 
 		</abstract>
 	</articleinfo>
 

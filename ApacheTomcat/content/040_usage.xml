@@ -1,8 +1,8 @@
 <section id="tomcat">
-== Managing Apache Tomcat</title>
+== Managing Apache Tomcat
 	<section id="tomcat_startubuntu">
-=== Start Tomcat on Ubuntu (Linux)</title>
-		<para>
+=== Start Tomcat on Ubuntu (Linux)
+		
 			In Ubuntu the
 			<wordasword>Tomcat</wordasword>
 			server
@@ -10,36 +10,36 @@
 			<wordasword>Tomcat</wordasword>
 			use the following
 			command.
-		</para>
+		
 
-		<para>
+		
 			<programlisting language="java">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
 					parse="text" href="../examples/start/start.txt" />
 			</programlisting>
-		</para>
+		
 
 
 	</section>
 	<section id="tomcat_start">
-=== Start Tomcat on Windows</title>
-		<para>
+=== Start Tomcat on Windows
+		
 			To start Tomcat use
 			`tomcat7.exe`
 			in the bin directory.
 
-		</para>
+		
 	</section>
 
 	<section id="tomcat_test">
-=== Test Tomcat</title>
-		<para> The default port for Tomcat is 8080. After starting Tomcat
+=== Test Tomcat
+		 The default port for Tomcat is 8080. After starting Tomcat
 			on
 			your local machine, you can validate if Tomcat is running the URL:
 			http://localhost:8080
-		</para>
-		<para>This should show a web page similar to the following. </para>
-		<para>
+		
+		This should show a web page similar to the following. 
+		
 image::tomcat_initialpage10.png"
 						scale="40" />
 				</imageobject>
@@ -47,24 +47,24 @@ image::tomcat_initialpage10.png"
 					<phrase>Tomcat initial page</phrase>
 				</textobject>
 			</mediaobject>
-		</para>
+		
 	</section>
 
 	<section id="tomcat_admin">
-=== Admin console</title>
-		<para>Tomcat provides a webbased adminstration console which can be
+=== Admin console
+		Tomcat provides a webbased adminstration console which can be
 			started via the following link: http://localhost:8080/manager/html
-		</para>
+		
 
 
-		<para>
+		
 			The available users can be found in the
 			`tomcat-users.xml`
 			file of the Tomcat configuration directory, i.e., the
 			`/etc/tomcat/tomcat-users.xml`
 			file under Ubuntu.
-		</para>
-		<para>
+		
+		
 			On Ubuntu the user for the administrator console is not created
 			automatically,
 			you have to add the
@@ -76,29 +76,29 @@ image::tomcat_initialpage10.png"
 			information try to login and see the resulting error message. Once
 			you entered a user and a password, restart the Tomcat server to
 			ensure your new users is activated.
-		</para>
+		
 
-		<para>
+		
 			<programlisting language="java">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
 					parse="text" href="../examples/install/user.txt" />
 			</programlisting>
-		</para>
-		<para>
+		
+		
 			The default user for the Tomcat administration console under Windows
 			is
 			<wordasword>admin</wordasword>
 			with the
 			<wordasword>admin</wordasword>
 			password.
-		</para>
+		
 
 
 
 	</section>
 	<section id="tomcat_deploy">
-=== Deployment</title>
-		<para>
+=== Deployment
+		
 			The standard deployment format for webapplications is a
 			`.war`
 			file.
@@ -112,9 +112,9 @@ image::tomcat_initialpage10.png"
 			war
 			and make the
 			application available.
-		</para>
+		
 
-		<para> Web applications may require external libraries. Typically, web
+		 Web applications may require external libraries. Typically, web
 			application contain their own libraries but if you want to make
 			certain libraries available for all applications you can put them
 			into
@@ -124,7 +124,7 @@ image::tomcat_initialpage10.png"
 			then available
 			for all web
 			applications.
-		</para>
+		
 	</section>
 
 

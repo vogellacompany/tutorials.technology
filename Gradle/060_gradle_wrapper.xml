@@ -44,8 +44,8 @@
 	
 	
 		<programlisting language="gradle">
-			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/wrapper/wrappertask.gradle" />
-		</programlisting>
+			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/wrapper/wrappertask.gradle[]
+----
 	
 
 	The version of the Gradle Wrapper can also be defined, when

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <article>
 	<articleinfo>
-=== XSLT - Extensible Stylesheet Language for Transformations - Tutorial</title>
+=== XSLT - Extensible Stylesheet Language for Transformations - Tutorial
 		<author>
 			<firstname>Lars</firstname>
 			<surname>Vogel</surname>
@@ -18,16 +18,16 @@
 		</copyright>
 		<pubdate>26.03.2015</pubdate>
 		<releaseinfo>
-			<para>Version 0.7</para>
+			Version 0.7
 
 		</releaseinfo>
 
 		<abstract id="abstract">
-	=== XSLT with Eclipse</title>
-			<para> This articles explains how to do a XSLT transformations on the
+	=== XSLT with Eclipse
+			 This articles explains how to do a XSLT transformations on the
 				command line or via
 				the Eclipse XSL project.
-			</para>
+			
 		</abstract>
 	</articleinfo>
 

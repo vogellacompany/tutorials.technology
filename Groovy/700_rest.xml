@@ -1,12 +1,12 @@
 <section id="groovyrestcall">
-== Groovy and RESTful webservices</title>
-	<para> Groovy allows to process XML very easily.</para>
-	<para>
+== Groovy and RESTful webservices
+	 Groovy allows to process XML very easily.
+	
 		<programlisting>
 			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-				parse="text" href="./examples/explained/XmlTest.groovy" />
-		</programlisting>
-	</para>
+				parse="text" href="./examples/explained/XmlTest.groovy[]
+----
+	
 
 
 

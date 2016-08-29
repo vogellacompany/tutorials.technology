@@ -1,12 +1,12 @@
 <section id="htmlconvert">
-== Tutorial: convert Docbook to HTML5</title>
-	<para>
+== Tutorial: convert Docbook to HTML5
+	
 		The following tutorial describes how you can use Eclipse to
 		convert a Docbook input file into an HTML output using Apache Ant.
-	</para>
+	
 	<section id="htmlconvert_project">
-=== Project Setup</title>
-		<para>
+=== Project Setup
+		
 			In Eclipse select from the menu the
 			<menuchoice>
 				<guimenu>File</guimenu>
@@ -19,43 +19,43 @@
 				<guisubmenu>Projects</guisubmenu>
 			</menuchoice>
 			entry.
-		</para>
-		<para>
+		
+		
 			The new project is called
 			<wordasword>de.vogella.docbook.first</wordasword>.
-		</para>
-		<para>
+		
+		
 			Create the following folder structure:
 			<itemizedlist>
 				<listitem>
-					<para>input</para>
+					input
 				</listitem>
 				<listitem>
-					<para>input/images</para>
+					input/images
 				</listitem>
 				<listitem>
-					<para>css</para>
+					css
 				</listitem>
 				<listitem>
-					<para>output</para>
+					output
 				</listitem>
 				<listitem>
-					<para>docbook-xml-4.5</para>
+					docbook-xml-4.5
 				</listitem>
 				<listitem>
-					<para>docbook-xsl</para>
+					docbook-xsl
 				</listitem>
 				<listitem>
-					<para>lib</para>
+					lib
 				</listitem>
 			</itemizedlist>
-		</para>
-		<para>
+		
+		
 			Place the DocBook DTD and the XSLT stylesheets into the
 			corresponding
 			directories.
-		</para>
-		<para>
+		
+		
 			Copy the
 			`jar`
 			files from your
@@ -63,84 +63,84 @@
 			download into the
 			<filename class="directory">lib`
 			folder.
-		</para>
+		
 	</section>
 
 	<section id="htmlconvert_docbook">
-=== Write your first DocBook document</title>
-		<para>
+=== Write your first DocBook document
+		
 			In your
 			<filename class="directory">input`
 			folder create a file called
 			`book.xml`
 			with the following content.
-		</para>
-		<para>
+		
+		
 			<programlisting language="xml">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
 					parse="text" href="./examples/firstdocbook/book.xml" />
 			</programlisting>
-		</para>
-		<para>
+		
+		
 			We also want to use images in our example.
 			Place in the
 			<filename class="directory">input/images`
 			a graphic of type PNG called
 			`title.png`.
-		</para>
-		<para>
+		
+		
 			The
 			`../docbook-xml-4.5/docbookx.dtd`
 			corresponds to the
 			directory you
 			have created earlier in your project
 			setup.
-		</para>
-		<para>
+		
+		
 			Create the following CSS file called
 			`style.css`
 			in the
 			<filename class="directory">css`
 			folder.
-		</para>
-		<para>
+		
+		
 			<programlisting language="css">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
 					parse="text" href="./examples/firstdocbook/style.css" />
 			</programlisting>
-		</para>
+		
 	</section>
 
 	<section id="htmlconvert_convert">
-=== Use Ant to convert DocBook to HTML5</title>
-		<para>
+=== Use Ant to convert DocBook to HTML5
+		
 			Create the following
 			`buildhtml.xml`
 			file in your project directory.
-		</para>
+		
 		<programlisting language="xml">
 			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-				parse="text" href="./examples/ant/buildhtml.xml" />
-		</programlisting>
-		<para>
+				parse="text" href="./examples/ant/buildhtml.xml[]
+----
+		
 			Run the `build.xml` file
 			via right-click on it and by selecting
 			<menuchoice>
 				<guimenu>Run as</guimenu>
 				<guisubmenu>Ant Build</guisubmenu>
 			</menuchoice>.
-		</para>
-		<para>
+		
+		
 			Afterwards, check the output directory. You should find
 			an
 			<filename class="directory">Example`
 			directory, with the
 			`book.html`
 			file.
-		</para>
-		<para>
+		
+		
 			Congratulations, you created your first DocBook and converted it
 			into an HTLM document.
-		</para>
+		
 	</section>
 </section>

@@ -1,5 +1,2 @@
 
-<menuchoice>
-	<guimenu>File</guimenu>
-	<guisubmenu>New Project</guisubmenu>
-</menuchoice>
+menu:File[New Project]

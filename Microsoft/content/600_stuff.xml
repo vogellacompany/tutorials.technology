@@ -1,80 +1,80 @@
 <section id="stuff">
-== Appendix: Additional Windows Settings</title>
+== Appendix: Additional Windows Settings
 	<section id="stuff_language">
-=== Language Settings for Office</title>
-		<para> To change the language in which office works, select the
-			following.</para>
-		<para>
+=== Language Settings for Office
+		 To change the language in which office works, select the
+			following.
+		
 image::languagesettingsoffice.gif"/>
 					
 				</imageobject>
 			</mediaobject>
-		</para>
-		<para>
+		
+		
 image::languagesettingsoffice20.gif"/>
 					
 				</imageobject>
 			</mediaobject>
-		</para>
+		
 	</section>
 	<section id="stuff_languagegeneral">
-=== Language Settings</title>
-		<para> Control Panel -> Regional and Language Settings -> Languages
-			Click on Details and then Key Settings</para>
+=== Language Settings
+		 Control Panel -> Regional and Language Settings -> Languages
+			Click on Details and then Key Settings
 	</section>
 	
 	<section id="stuff_networkdrive">
-=== Map a network drive</title>
-		<para> You can map a network driver to a local driver which make it
-			easier to access it.</para>
-		<para>
+=== Map a network drive
+		 You can map a network driver to a local driver which make it
+			easier to access it.
+		
 image::mapnetworkdriver10.gif"/>
 					
 				</imageobject>
 			</mediaobject>
-		</para>
-		<para>
+		
+		
 image::mapnetworkdriver20.gif"/>
 					
 				</imageobject>
 			</mediaobject>
-		</para>
+		
 	</section>
 	<section id="stuff_linktoolbar">
-=== Create a link toolbar</title>
-		<para> If you want to have quick access to your folders / network
+=== Create a link toolbar
+		 If you want to have quick access to your folders / network
 			drivers you can create your own toolbar and put your links into it.
-		</para>
-		<para> Right-click on the toolbar and select toolbar -> own toolbar.
-		</para>
-		<para>
+		
+		 Right-click on the toolbar and select toolbar -> own toolbar.
+		
+		
 image::owntoolbar10.gif" />
 					
 				</imageobject>
 			</mediaobject>
-		</para>
-		<para> Right-click on the toolbar and select toolbar -> own toolbar.
-		</para>
-		<para>
+		
+		 Right-click on the toolbar and select toolbar -> own toolbar.
+		
+		
 image::owntoolbar20.gif" />
 					
 				</imageobject>
 			</mediaobject>
-		</para>
-		<para> You can now pull the new toolbar on your desktop and then
+		
+		 You can now pull the new toolbar on your desktop and then
 			position it for example at the top of your screen. Fill the folder
-			with links and you will have easy access to your folders.</para>
-		<para>
+			with links and you will have easy access to your folders.
+		
 image::owntoolbar30.gif" />
 					
 				</imageobject>
 			</mediaobject>
-		</para>
-		<para>
+		
+		
 image::owntoolbar40.gif" />
 					
 				</imageobject>
 			</mediaobject>
-		</para>
+		
 	</section>
 </section>

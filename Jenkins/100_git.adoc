@@ -3,10 +3,7 @@
 Jenkins supports the Git version control system via a plugin.
 Select
 the
-<menuchoice>
-	<guimenu>Manage Jenkins</guimenu>
-	<guisubmenu>Manager Plugins</guisubmenu>
-</menuchoice>
+menu:Manage Jenkins[Manager Plugins]
 link. Here you have to install the
 _Git Plugin_
 .

@@ -1,22 +1,22 @@
 <section id="windows">
-== Windows Settings</title>
+== Windows Settings
 	<section id="windows_environmentvariables">
-=== Environment Variables</title>
-		<para> To set the windows environment variables, select Control Panel
-			-> System -> Advanced ->Button "Environment Variables".</para>
-		<para> To check the content of a variable, open a command shell
-			(Start-> Run-> cmd) and type echo%VARIABLE_NAME% </para>
+=== Environment Variables
+		 To set the windows environment variables, select Control Panel
+			-> System -> Advanced ->Button "Environment Variables".
+		 To check the content of a variable, open a command shell
+			(Start-> Run-> cmd) and type echo%VARIABLE_NAME% 
 	</section>
 	<section id="windows_search">
-=== Search (Microsoft and Google)</title>
-		<para>
+=== Search (Microsoft and Google)
+		
 			The following search term will work on Microsoft search and
 			may
 			work on Google Desktop search.
-		</para>
-		<para>
+		
+		
 			<table frame='all'>
-		=== Search</title>
+		=== Search
 				<tgroup cols='2' align='left' colsep='1' rowsep='1'>
 					<colspec colname='c1' />
 					<colspec colname='c2' />
@@ -64,39 +64,39 @@
 					</tbody>
 				</tgroup>
 			</table>
-		</para>
+		
 	</section>
 
 	<section id="windows_dynamicmenus">
-=== Turn of the dynamic menus</title>
+=== Turn of the dynamic menus
 
-		<para> If you do not what dynamic menus in Windows -> Programs,
+		 If you do not what dynamic menus in Windows -> Programs,
 			select Settings -> Taskbar and Start Menu -> Tab Start Menu ->
-			Classic and press Customize.</para>
-		<para>
+			Classic and press Customize.
+		
 image::turnoffdynamicmenu02.gif"
 						/>
 					
 				</imageobject>
 			</mediaobject>
-		</para>
-		<para> If you do not like the dynamic menus in winword / excel /
+		
+		 If you do not like the dynamic menus in winword / excel /
 			powerpoint, select tools -> customize and then select "Always show
-			full path name".</para>
-		<para>
+			full path name".
+		
 image::turnoffdynamicmenu10.gif"
 						/>
 					
 				</imageobject>
 			</mediaobject>
-		</para>
-		<para>
+		
+		
 image::turnoffdynamicmenu20.gif"
 						/>
 					
 				</imageobject>
 			</mediaobject>
-		</para>
+		
 	</section>
 
 </section>

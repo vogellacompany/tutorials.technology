@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <article>
 	<articleinfo>
-=== UML - Tutorial</title>
+=== UML - Tutorial
 		<author>
 			<firstname>Lars</firstname>
 			<surname>Vogel</surname>
@@ -12,13 +12,13 @@
 		</copyright>
 		<pubdate>09.08.2014</pubdate>
 		<releaseinfo>
-			<para>Version 1.2</para>
+			Version 1.2
 		</releaseinfo>
 		
 		<abstract id="abstract">
-	=== UML modelling</title>
-			<para> This article gives a short overview of UML2.
-			</para>
+	=== UML modelling
+			 This article gives a short overview of UML2.
+			
 		</abstract>
 	</articleinfo>
 	<?dbhtml-include href="../../web/advertisement/afterTableOfContent"?>

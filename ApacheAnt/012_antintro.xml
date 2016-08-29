@@ -1,15 +1,15 @@
 <section id="antoverview">
-== Apache Ant Overview</title>
+== Apache Ant Overview
 	<section id="antoverview_definition">
-=== What is Apache Ant?</title>
-		<para>
+=== What is Apache Ant?
+		
 			<wordasword>Apache Ant</wordasword>
 			(Ant) is a general purpose build tool. Ant is an abbreviation for
 			<wordasword>Another Neat Tool</wordasword>
 			.
-		</para>
+		
 
-		<para>
+		
 			Ant
 			is primarily used for building and deploying
 			Java
@@ -17,12 +17,12 @@
 			can be
 			used for every possible repetitive tasks, e.g. generating
 			documentation.
-		</para>
+		
 	</section>
 
 	<section id="antoverview_definition">
-=== Configuring Apache Ant</title>
-		<para>
+=== Configuring Apache Ant
+		
 			A Java build
 			process typically includes:
 			<itemizedlist>
@@ -34,8 +34,8 @@
 				</listitem>
 				<listitem> creation of the Javadoc documentation</listitem>
 			</itemizedlist>
-		</para>
-		<para>
+		
+		
 			Ant
 			uses an
 			`xml`
@@ -50,8 +50,8 @@
 			and
 			<wordasword>extension points</wordasword>
 			.
-		</para>
-		<para>
+		
+		
 			A
 			task
 			is a unit of work which should be performed and
@@ -63,9 +63,9 @@
 			Tasks
 			can be grouped into
 			targets.
-		</para>
+		
 
-		<para>
+		
 			A
 			target
 			can be directly invoked via Ant.
@@ -76,16 +76,16 @@
 			Ant
 			will automatically execute all dependent
 			targets.
-		</para>
-		<para>
+		
+		
 			For example if
 			target
 			A
 			depends on
 			B and Ant is instructed to run A,
 			it first runs B before running A.
-		</para>
-		<para>
+		
+		
 			In your
 			`build.xml`
 			file you can
@@ -97,6 +97,6 @@
 			this target, if no
 			explicit target
 			is specified.
-		</para>
+		
 	</section>
 </section>

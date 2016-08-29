@@ -1,8 +1,8 @@
 <section id="vex">
-== Visual Editor for XML (Vex)</title>
+== Visual Editor for XML (Vex)
 	<section id="vex_1">
-=== What is Vex</title>
-		<para>
+=== What is Vex
+		
 			Vex is an Open Source plug-in for the
 			http://www.vogella.com/tutorials/Eclipse/article.html">
 				Eclipse
@@ -10,36 +10,36 @@
 			that augments the IDE with a WYSIWYG XML
 			editor. Since August 2008 the
 			plug-in is part of the Eclipse project.
-		</para>
+		
 	</section>
 	<xinclude in="${tutorials}/82_Book_Eclipse_IDE/book.xml" out="${outputtmp.dir}/82_Book_Eclipse_IDE/book.xml" />
 	<section id="vex_2">
-=== Installation</title>
-		<para>You can install Vex via an Eclipse update site:</para>
-		<para>
+=== Installation
+		You can install Vex via an Eclipse update site:
+		
 			<programlisting language="text">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
 					parse="text" href="../examples/vex/updatesites.txt" />
 			</programlisting>
-		</para>
+		
 	</section>
 	<section id="vex_3">
-=== Usage</title>
-		<para>
+=== Usage
+		
 			To switch between the standard Eclipse XML editor and Vex, do a
 			right-click on the file in the Project Explorer and select Visual XML
 			Editor.
-		</para>
-		<para>
+		
+		
 image::vex-example.png[]
 				</imageobject>
 			</mediaobject>
-		</para>
-		<para>
+		
+		
 			The plug-in is helpful as a quick preview, but still a work in
 			progress. At the time of writing, embedded text via
 			`XInclude`
 			is just ignored.
-		</para>
+		
 	</section>
 </section>

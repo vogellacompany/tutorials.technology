@@ -1,12 +1,12 @@
 <section id="regularexpressions" role="wrapper">
 	<section id="regularexpressions_groovy">
-=== Regular expressions</title>
-		<para>
+=== Regular expressions
+		
 			Groovy is based on Java regular expression support and add the
 			addition support operators to make the usage of
 			regular expressions easier.
-		</para>
-		<para>
+		
+		
 			Groovy adds the Slashy string as String declaration. Slashy
 			strings are Strings between two "/" signs. They don't need
 			escape backslashes in regular
@@ -41,26 +41,26 @@
 					</tbody>
 				</tgroup>
 			</table>
-		</para>
-		<para>
+		
+		
 			If you use the ~ operator such a string turns into a regular
 			expression which can be used for pattern matching.
 			You can use
 			special
 			sign (escape characters) in Strings if you put them between
 			slashes.
-		</para>
-		<para>
+		
+		
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text"
 					href="./examples/datatypes/RegularExpressionTest.groovy" />
 			</programlisting>
-		</para>
-		<para>
+		
+		
 			Groovy also provides the
 			`replaceAll`
 			method, which allows to define a closure for the replacement.
-		</para>
+		
 	</section>
 
 </section>

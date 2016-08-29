@@ -1,8 +1,8 @@
 <section id="eclipsegerrit_push">
-== Gerrit support in Eclipse</title>
-	<para>The Gerrit support in Eclipse is very good, that even customers which use a different IDE, use Eclipse as Gerrit
-		client.</para>
-	<para>
+== Gerrit support in Eclipse
+	The Gerrit support in Eclipse is very good, that even customers which use a different IDE, use Eclipse as Gerrit
+		client.
+	
 		To use Gerrit in Eclipse, clone the repository as seen before, and
 		import
 		your projects. By
@@ -19,8 +19,8 @@
 		local master to
 		`refs/for/master`
 		instead.
-	</para>
-	<para>
+	
+	
 		After cloning the repository you can configure Gerrit in the
 		<guilabel>Git repositories</guilabel>
 		view
@@ -29,17 +29,17 @@
 		remote and selecting
 		<guilabel>Gerrit Configuration</guilabel>
 		.
-	</para>
-	<para>
+	
+	
 image::gerrit_pushconfiguration10.png[]
 			</imageobject>
 			<textobject>
 				<phrase>Gerrit configuration in the Git repository view</phrase>
 			</textobject>
 		</mediaobject>
-	</para>
+	
 
-	<para>
+	
 		You can see the Gerrit review notes in Eclipse. Select
 		<menuchoice>
 			<guimenu>Open in
@@ -52,5 +52,5 @@ image::gerrit_pushconfiguration10.png[]
 		<guilabel>Notes</guilabel>
 		. Here you see the data which was created by
 		the Gerrit reviewer.
-	</para>
+	
 </section>

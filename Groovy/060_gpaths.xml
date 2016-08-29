@@ -1,18 +1,18 @@
 <section id="gpath">
-== GPath</title>
-	<para>GPath is a path expression language integrated into Groovy which
+== GPath
+	GPath is a path expression language integrated into Groovy which
 		allows parts of nested structured data to be identified. In this
 		sense, it has similar aims and scope as XPath does for XML. The two
 		main places where you use GPath expressions is when dealing with
 		nested POJOs or when dealing with XML.
-	</para>
-	<para>
+	
+	
 		For example the
 		`a.b.c`
 		statement is equivalent to
 		`a.getB().getC()`
 		.
-	</para>
-	<para>GPath navigation works also in complex structures like XML or
-		JSON. </para>
+	
+	GPath navigation works also in complex structures like XML or
+		JSON. 
 </section>

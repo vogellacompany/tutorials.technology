@@ -1,39 +1,39 @@
 <section id="gerritsetup_repository">
-== Administrator: upload Git repository</title>
-	<para>
+== Administrator: upload Git repository
+	
 		This part is only relevant for the administrator. Create a new
 		Git
 		repository called
 		<wordasword>gerrittest</wordasword>
 		via EGit or the Git command line.
-	</para>
-	<para>
+	
+	
 		Create a the new Git repository in Gerrit via the following
 		command.
-	</para>
-	<para>
+	
+	
 		<programlisting language="bourne">
 			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-				parse="text" href="./examples/projectsetup/createproject.txt" />
-		</programlisting>
-	</para>
-	<para>
+				parse="text" href="./examples/projectsetup/createproject.txt[]
+----
+	
+	
 		Since version 2.6.1 you can also click
 		<menuchoice>
 			<guimenu>Projects</guimenu>
 			<guisubmenu>Create New Project</guisubmenu>
 		</menuchoice>
 		in the web interface.
-	</para>
-	<para>
+	
+	
 		The new project can be found in the Gerrit web interface under
 		<menuchoice>
 			<guimenu>Projects</guimenu>
 			<guisubmenu>List</guisubmenu>
 		</menuchoice>
 		.
-	</para>
-	<para>
+	
+	
 image::gerrit_reposetup10.png[]
 			</imageobject>
 			<textobject>
@@ -41,8 +41,8 @@ image::gerrit_reposetup10.png[]
 				<guisubmenu>Remote</guisubmenu>
 			</textobject>
 		</mediaobject>
-	</para>
-	<para>
+	
+	
 		Select your project and
 		<menuchoice>
 			<guimenu>Access</guimenu>
@@ -56,13 +56,13 @@ image::gerrit_reposetup10.png[]
 		Especially the access right `Push Merge Commit`
 		for feature branches named `refs/heads/*`
 		is something only trusted and experienced committers should be allowed to do.
-	</para>
-	<para>
+	
+	
 image::gerrit_reposetup20.png[]
 			</imageobject>
 			<textobject>
 				<phrase>Viewing the list of Gerrit repositories</phrase>
 			</textobject>
 		</mediaobject>
-	</para>
+	
 </section>

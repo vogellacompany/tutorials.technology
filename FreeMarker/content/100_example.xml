@@ -27,8 +27,8 @@
 	
 		<programlisting language="xml">
 			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-				parse="text" href="../examples/first/helloworld.ftl" />
-		</programlisting>
+				parse="text" href="../examples/first/helloworld.ftl[]
+----
 	
 
 	
@@ -40,8 +40,8 @@
 	
 		<programlisting language="java">
 			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-				parse="text" href="../examples/first/ValueExampleObject.java" />
-		</programlisting>
+				parse="text" href="../examples/first/ValueExampleObject.java[]
+----
 	
 
 	
@@ -52,7 +52,7 @@
 	
 		<programlisting language="java">
 			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-				parse="text" href="../examples/first/MainTest.java" />
-		</programlisting>
+				parse="text" href="../examples/first/MainTest.java[]
+----
 	
 
