@@ -1,8 +1,7 @@
 <figure>
 == Logo
-	<mediaobject>
-		<imageobject>
-			<imagedata fileref="images/logo.png[]
+
+image::logo.png[]
 		</imageobject>
 		<textobject>
 			<phrase>Our Company Logo</phrase>

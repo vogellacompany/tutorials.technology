@@ -13,11 +13,10 @@
 			generics. To access element i in a list you can
 			either use
 			list.get(i) or list[i].
-		
-		
-			<programlisting language="java">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/datatypes/Person.groovy" />
-			</programlisting>
+[source,java]
+-----
+include::res/datatypes/Person.groovy[]
+----
 		
 		
 			<programlisting>
@@ -121,11 +120,10 @@
 			of a Collection. The result
 			of this operation
 			is another Collection object.
-		
-		
-			<programlisting language="java">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/datatypes/SpreadDot.groovy" />
-			</programlisting>
+[source,java]
+-----
+include::res/datatypes/SpreadDot.groovy[]
+----
 		
 
 
@@ -157,12 +155,10 @@
 					
 				</listitem>
 			</itemizedlist>
-		
-
-		
-			<programlisting language="java">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/grep/GrepExample.groovy" />
-			</programlisting>
+[source,java]
+-----
+include::res/grep/GrepExample.groovy[]
+----
 		
 
 	</section>

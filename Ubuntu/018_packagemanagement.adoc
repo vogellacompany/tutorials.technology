@@ -2,83 +2,85 @@
 == Package management
 	 On the command line Ubuntu allows to install / remove and search
 		for packages via the following commands.
-	
-	<table frame='all'>
+
+.Table Title
+|===
+
 		<tgroup cols='2' align='left' colsep='1' rowsep='1'>
 			<colspec colname='c1' />
 			<colspec colname='c2' />
-			<thead>
-				<row>
-					<entry>Command</entry>
-					<entry>Description</entry>
-				</row>
-			</thead>
-			<tbody>
-				<row>
-					<entry>sudo apt-get install paketname</entry>
-					<entry>Installs a package</entry>
-				</row>
-				<row>
-					<entry>apt-cache search openjdk</entry>
-					<entry>Search for all packages which contain openjdk. The found
-						package can get installed via the "apt-get install" command.
-					</entry>
-				</row>
-
-				<row>
-					<entry>apt-cache show eclipse</entry>
-					<entry>Write down the meta-data of a package, e.g., the package
-						description and the package maintainer
-					</entry>
-				</row>
-				<row>
-					<entry>sudo apt-get remove package</entry>
-					<entry>Removes a package but leave the configuration data active
-					</entry>
-				</row>
-				<row>
-					<entry>sudo apt-get purge package </entry>
-					<entry>Removes a package and orphaned dependencies and its
-						configuration files
-					</entry>
-				</row>
+			
 				
-				<row>
-					<entry>sudo apt-get update</entry>
-					<entry>Update the local package list</entry>
-				</row>
-				<row>
-					<entry>sudo apt-get upgrade</entry>
-					<entry> Updates any installed packages for which an update is
+|Command
+|Description
+				
+			
+			
+				
+|sudo apt-get install paketname
+|Installs a package
+				
+				
+|apt-cache search openjdk
+|Search for all packages which contain openjdk. The found
+						package can get installed via the "apt-get install" command.
+					
+				
+
+				
+|apt-cache show eclipse
+|Write down the meta-data of a package, e.g., the package
+						description and the package maintainer
+					
+				
+				
+|sudo apt-get remove package
+|Removes a package but leave the configuration data active
+					
+				
+				
+|sudo apt-get purge package 
+|Removes a package and orphaned dependencies and its
+						configuration files
+					
+				
+				
+				
+|sudo apt-get update
+|Update the local package list
+				
+				
+|sudo apt-get upgrade
+| Updates any installed packages for which an update is
 						available. Will not install new packages or remove packages to
 						satisfy dependencies.
-					</entry>
-				</row>
-				<row>
-					<entry>sudo apt-get dist-upgrade</entry>
-					<entry>Install available updates for the Ubuntu release you already
+					
+				
+				
+|sudo apt-get dist-upgrade
+|Install available updates for the Ubuntu release you already
 						have installed. Also installs new packages or removes existing
 						packages to satisfy dependencies.
-					</entry>
-				</row>
+					
+				
 
-				<row>
-					<entry>
+				
+|
 						dpkg -L
 						packagename
-					</entry>
-					<entry>Lists all files and their location in a package</entry>
-				</row>
-				<row>
-					<entry>sudo updatedb; locate javac</entry>
-					<entry> Updates the installation database and locates the javac
+					
+|Lists all files and their location in a package
+				
+				
+|sudo updatedb; locate javac
+| Updates the installation database and locates the javac
 						command.
-					</entry>
-				</row>
+					
+				
 
-			</tbody>
-		</tgroup>
-	</table>
+			
+		
+	|===
 
 
 	To search for the installed packages use the following command.

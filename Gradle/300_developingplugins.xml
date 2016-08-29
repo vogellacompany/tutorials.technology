@@ -29,12 +29,10 @@
 			Change your main
 			_build.gradle_
 			build file to the following.
-		
-
-		
-			<programlisting language="java">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/plugin/mainbuild.gradle" />
-			</programlisting>
+[source,java]
+-----
+include::res/plugin/mainbuild.gradle[]
+----
 		
 		
 			Create a file
@@ -44,36 +42,33 @@
 		_META-INF/gradle-plugins_
 		folder. The name of the properties file defines your plugin name and its content points to the class which implements
 		the plugin.
-		
-			<programlisting language="java">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/plugin/vogella.properties" />
-			</programlisting>
+[source,java]
+-----
+include::res/plugin/vogella.properties[]
+----
 		
 
 		
 			In the
 			_plugin/src/main/java_
 			folder create the following two classes.
-		
-		
-			<programlisting language="java">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/plugin/MyPlugin.java" />
-			</programlisting>
-		
-		
-			<programlisting language="java">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/plugin/MyTask.java" />
-			</programlisting>
+[source,java]
+-----
+include::res/plugin/MyPlugin.java[]
+----
+[source,java]
+-----
+include::res/plugin/MyTask.java[]
+----
 		
 		
 			In your
 			_plugin_
 			folder, create the following build.gradle file.
-		
-		
-			<programlisting language="java">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/plugin/build.gradle" />
-			</programlisting>
+[source,java]
+-----
+include::res/plugin/build.gradle[]
+----
 		
 		
 			In your
@@ -81,11 +76,10 @@
 			folder, create the following
 			_settings.gradle_
 			file.
-		
-		
-			<programlisting language="java">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/plugin/settings.gradle" />
-			</programlisting>
+[source,java]
+-----
+include::res/plugin/settings.gradle[]
+----
 		
 
 
@@ -95,21 +89,20 @@
 === Example: deploy your custom Gradle plug-in to your local Maven repository
 		Publish your Gradle plug-in to the Maven repo defined in your plugin/build.gradle file via the following
 			command.
-		
-		
-			<programlisting language="java">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/plugin/publish.gradle" />
-			</programlisting>
+[source,java]
+-----
+include::res/plugin/publish.gradle[]
+----
 		
 	
 
 	<section id="gradle_developingplugins_example_usage">
 === Example: Using your new plugin
 		To use your new plug-in, define a dependency to it and a task extending the defined task.
-		
-			<programlisting language="java">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/plugin/consumer.gradle" />
-			</programlisting>
+[source,java]
+-----
+include::res/plugin/consumer.gradle[]
+----
 		
 
 	

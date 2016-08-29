@@ -2,62 +2,68 @@
 == Apache Tomcat
 	<section id="tomcatconfs2a">
 === Important Files
-		<table frame='all'>
+
+.Table Title
+|===
+
 			<tgroup cols='2' align='left' colsep='1' rowsep='1'>
 				<colspec colname='c1' />
 				<colspec colname='c2' />
-				<thead>
-					<row>
-						<entry>File</entry>
-						<entry>Description</entry>
-					</row>
-				</thead>
-				<tbody>
-					<row>
-						<entry>/usr/share/tomcat5/</entry>
-						<entry>Installation directory of Tomcat</entry>
-					</row>
-					<row>
-						<entry>psa-webapps</entry>
-						<entry> Installation directory for webapps in a vhost environment
-						</entry>
-					</row>
-					<row>
-						<entry>/usr/share/tomcat5/conf</entry>
-						<entry> Configuration Directory for Tomcat</entry>
-					</row>
-					<row>
-						<entry>/etc/default/tomcat5</entry>
-						<entry> Contains default settings for tomcat. Most important the
-							used java version (jdk).</entry>
-					</row>
-					<row>
-						<entry>/var/log/tomcat5</entry>
-						<entry> Log files of tomcat</entry>
-					</row>
-				</tbody>
-			</tgroup>
-		</table>
+				
+					
+|File
+|Description
+					
+				
+				
+					
+|/usr/share/tomcat5/
+|Installation directory of Tomcat
+					
+					
+|psa-webapps
+| Installation directory for webapps in a vhost environment
+						
+					
+					
+|/usr/share/tomcat5/conf
+| Configuration Directory for Tomcat
+					
+					
+|/etc/default/tomcat5
+| Contains default settings for tomcat. Most important the
+							used java version (jdk).
+					
+					
+|/var/log/tomcat5
+| Log files of tomcat
+					
+				
+			
+		|===
 	</section>
 	<section id="tomcatconfs2a">
 === Important Commands
-		<table frame='all'>
+
+.Table Title
+|===
+
 			<tgroup cols='2' align='left' colsep='1' rowsep='1'>
 				<colspec colname='c1' />
 				<colspec colname='c2' />
-				<thead>
-					<row>
-						<entry>Command</entry>
-						<entry>Description</entry>
-					</row>
-				</thead>
-				<tbody>
-					<row>
-						<entry>/etc/init.d/tomcat5 restart</entry>
-						<entry>Restart the tomcat web server</entry>
-					</row>
-				</tbody>
-			</tgroup>
-		</table>
+				
+					
+|Command
+|Description
+					
+				
+				
+					
+|/etc/init.d/tomcat5 restart
+|Restart the tomcat web server
+					
+				
+			
+		|===
 	</section>
 </section>

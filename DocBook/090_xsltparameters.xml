@@ -10,52 +10,52 @@
 			You find all HTML relevant parameters at
 			http://docbook.sourceforge.net/release/xsl/current/doc/html/">
 				http://docbook.sourceforge.net/release/xsl/current/doc/html/</ulink>.
-		
 
-		
-			<table frame='all'>
+.Table Title
+|===
+
 		=== HTML Parameters
 				<tgroup cols='2' align='left' colsep='1' rowsep='1'>
 					<colspec colname='c1' />
 					<colspec colname='c2' />
-					<thead>
-						<row>
-							<entry>Parameter</entry>
-							<entry>Description</entry>
-						</row>
-					</thead>
-					<tbody>
-						<row>
-							<entry>name="section.autolabel" expression="1"</entry>
-							<entry>
+					
+						
+|Parameter
+|Description
+						
+					
+					
+						
+|name="section.autolabel" expression="1"
+|
 								Turns on the autolabeling for sections (1. Title, 1.1.
 								Subtitle, etc.
-							</entry>
-						</row>
-						<row>
-							<entry>name="chapter.autolabel" expression="1"</entry>
-							<entry>Turns on the autolabeling for chapters</entry>
-						</row>
-						<row>
-							<entry>name="html.stylesheet" expression="styles.css"</entry>
-							<entry>Define the stylesheet which should be used.</entry>
-						</row>
-						<row>
-							<entry>name="html.cleanup" expression="1"</entry>
-							<entry>
+							
+						
+						
+|name="chapter.autolabel" expression="1"
+|Turns on the autolabeling for chapters
+						
+						
+|name="html.stylesheet" expression="styles.css"
+|Define the stylesheet which should be used.
+						
+						
+|name="html.cleanup" expression="1"
+|
 								Will try to clean-up the html code for better readability
-							</entry>
-						</row>
-						<row>
-							<entry>name="chunk.first.sections" expression="0"</entry>
-							<entry>
+							
+						
+						
+|name="chunk.first.sections" expression="0"
+|
 								Will try to clean-up the html code for better readability
 								[TODO: Does not work yet]
-							</entry>
-						</row>
-					</tbody>
-				</tgroup>
-			</table>
+							
+						
+					
+				
+			|===
 		
 	</section>
 
@@ -65,41 +65,42 @@
 			You find all FO / PDF relevant parameters at
 			http://docbook.sourceforge.net/release/xsl/current/doc/fo/">
 				http://docbook.sourceforge.net/release/xsl/current/doc/fo/</ulink>.
-		
-		
-			<table frame='all'>
+
+.Table Title
+|===
+
 		=== PDF Parameters
 				<tgroup cols='2' align='left' colsep='1' rowsep='1'>
 					<colspec colname='c1' />
 					<colspec colname='c2' />
-					<thead>
-						<row>
-							<entry>Parameter</entry>
-							<entry>Description</entry>
-						</row>
-					</thead>
-					<tbody>
-						<row>
-							<entry>name="section.autolabel" expression="1"</entry>
-							<entry>
+					
+						
+|Parameter
+|Description
+						
+					
+					
+						
+|name="section.autolabel" expression="1"
+|
 								Turns on the autolabeling for sections (1. Title, 1.1.
-								Subtitle, etc.</entry>
-						</row>
-						<row>
-							<entry>name="chapter.autolabel" expression="1"</entry>
-							<entry>Turns on the autolabeling for chapters</entry>
-						</row>
-						<row>
-							<entry>name="html.stylesheet" expression="styles.css"</entry>
-							<entry>Define the stylesheet which should be used.</entry>
-						</row>
-						<row>
-							<entry>name="html.cleanup" expression="1"</entry>
-							<entry>Will try to clean-up the html code for better readability</entry>
-						</row>
-					</tbody>
-				</tgroup>
-			</table>
+								Subtitle, etc.
+						
+						
+|name="chapter.autolabel" expression="1"
+|Turns on the autolabeling for chapters
+						
+						
+|name="html.stylesheet" expression="styles.css"
+|Define the stylesheet which should be used.
+						
+						
+|name="html.cleanup" expression="1"
+|Will try to clean-up the html code for better readability
+						
+					
+				
+			|===
 		
 	</section>
 	<section id="xsltparameters_includehtml">

@@ -80,75 +80,76 @@
 		
 
 		The operators, like + or - are also mapped to methods by Groovy.
-		
-		
-			<table frame='all'>
+
+.Table Title
+|===
+
 				<tgroup cols='3' align='left' colsep='1' rowsep='1'>
 					<colspec colname='c1' />
 					<colspec colname='c2' />
 					<colspec colname='c3' />
-					<thead>
-						<row>
-							<entry>Operator</entry>
-							<entry>Name</entry>
-							<entry>Method</entry>
-						</row>
-					</thead>
-					<tbody>
-						<row>
-							<entry>a+b</entry>
-							<entry>plus</entry>
-							<entry>a.plus(b)</entry>
-						</row>
-						<row>
-							<entry>a-b</entry>
-							<entry>minus</entry>
-							<entry>a.minus(b)</entry>
-						</row>
-						<row>
-							<entry>a*b</entry>
-							<entry>star</entry>
-							<entry>a.multiply(b)</entry>
-						</row>
-						<row>
-							<entry>a/b</entry>
-							<entry>divide</entry>
-							<entry>a.div(b)</entry>
-						</row>
-						<row>
-							<entry>a%b</entry>
-							<entry>modulo</entry>
-							<entry>a.mod(b)</entry>
-						</row>
-						<row>
-							<entry>a--, --a</entry>
-							<entry>decrement</entry>
-							<entry>a.previous()</entry>
-						</row>
-						<row>
-							<entry>a++, ++a</entry>
-							<entry>increment</entry>
-							<entry>a.next()</entry>
-						</row>
-						<row>
-							<entry>a**b</entry>
-							<entry>power</entry>
-							<entry>a.power(b)</entry>
-						</row>
-						<row>
-							<entry>a-b</entry>
-							<entry>minus</entry>
-							<entry>a.minus(b)</entry>
-						</row>
-						<row>
-							<entry>a-b</entry>
-							<entry>minus</entry>
-							<entry>a.minus(b)</entry>
-						</row>
+					
+						
+|Operator
+|Name
+|Method
+						
+					
+					
+						
+|a+b
+|plus
+|a.plus(b)
+						
+						
+|a-b
+|minus
+|a.minus(b)
+						
+						
+|a*b
+|star
+|a.multiply(b)
+						
+						
+|a/b
+|divide
+|a.div(b)
+						
+						
+|a%b
+|modulo
+|a.mod(b)
+						
+						
+|a--, --a
+|decrement
+|a.previous()
+						
+						
+|a++, ++a
+|increment
+|a.next()
+						
+						
+|a**b
+|power
+|a.power(b)
+						
+						
+|a-b
+|minus
+|a.minus(b)
+						
+						
+|a-b
+|minus
+|a.minus(b)
+						
 
-					</tbody>
-				</tgroup>
-			</table>
+					
+				
+			|===
 		
 
 	</section>

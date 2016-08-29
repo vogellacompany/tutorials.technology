@@ -58,11 +58,10 @@ image::downloadgroovycommandline.png[]
 			menu entry
 			to install the Groovy Eclipse plug-in. Enter the following
 			URL in this dialog:
-		
-		
-			<programlisting language="java">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/install/updatesite.txt" />
-			</programlisting>
+[source,java]
+-----
+include::res/install/updatesite.txt[]
+----
 		
 
 		

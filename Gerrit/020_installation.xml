@@ -39,11 +39,10 @@
 			Install and start
 			Gerrit with
 			the following command.
-		
-		
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/install/install.txt" />
-			</programlisting>
+[source,console]
+-----
+include::res/install/install.txt[]
+----
 		
 		
 			The installation procedure allows you to configure your Gerrit
@@ -58,53 +57,56 @@
 			the default value which is typically fine for a
 			test installation. A
 			few of these options are discussed in the following table.
-			<table frame='all'>
+
+.Table Title
+|===
+
 		=== Gerrit setup options
 				<tgroup cols='2' align='left' colsep='1' rowsep='1'>
 					<colspec colname='c1' colwidth="1*" />
 					<colspec colname='c2' colwidth="2*" />
-					<thead>
-						<row>
-							<entry>Option</entry>
-							<entry>Description</entry>
-						</row>
-					</thead>
-					<tbody>
-						<row>
-							<entry>Location of Git repositories</entry>
-							<entry>
+					
+						
+|Option
+|Description
+						
+					
+					
+						
+|Location of Git repositories
+|
 								Location of Git repositories, default is the
 								`git`
 								directory
 								in the installation folder of your Gerrit installation.
-							</entry>
-						</row>
-						<row>
-							<entry>Database server type</entry>
-							<entry>Gerrit supports several databases, by default it uses a
+							
+						
+						
+|Database server type
+|Gerrit supports several databases, by default it uses a
 								preconfigured H2 database.
-							</entry>
-						</row>
+							
+						
 
-						<row>
-							<entry>Run as user </entry>
-							<entry>Select that Gerrits runs as "root" user.
-							</entry>
-						</row>
-						<row>
-							<entry>Listen on port </entry>
-							<entry>Allows you to configure the port Gerrit is listening to,
+						
+|Run as user 
+|Select that Gerrits runs as "root" user.
+							
+						
+						
+|Listen on port 
+|Allows you to configure the port Gerrit is listening to,
 								Gerrit by default listens on
 								port 29418 for SSH
 								access and on
 								port 8080 for web access. This can
 								be changed if the ports are
 								already used.
-							</entry>
-						</row>
-						<row>
-							<entry>Authentication method </entry>
-							<entry>
+							
+						
+						
+|Authentication method 
+|
 								The easiest way of
 								configuring access to Gerrit is to use
 								<wordasword>OpenID Single Sign-on</wordasword>
@@ -112,12 +114,12 @@
 								settings for this option. For testing
 								"development_become_any_account" is
 								a valid option, this setting allows to
-							</entry>
-						</row>
+							
+						
 
-					</tbody>
-				</tgroup>
-			</table>
+					
+				
+			|===
 
 		
 		<tip>
@@ -137,11 +139,11 @@
 			can start and stop it again with the following
 			commands on Linux
 			based systems.
-		
-		
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/install/start.txt" />
-			</programlisting>
+			
+[source,console]
+-----
+include::res/install/start.txt[]
+----
 		
 		
 			On Microsoft Windows based systems you need to invoke the

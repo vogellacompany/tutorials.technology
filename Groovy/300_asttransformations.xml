@@ -72,12 +72,10 @@
 			. Via
 			`@ToString(excludes=list)`
 			we can exclude a list of fields and properties.
-		
-
-		
-			<programlisting language="java">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/ast/TaskToString.groovy" />
-			</programlisting>
+[source,java]
+-----
+include::res/ast/TaskToString.groovy[]
+----
 		
 
 	</section>
@@ -111,10 +109,10 @@
 			. Fields are used in the order of declaration.
 		
 		You can also include/exclude fields.
-		
-			<programlisting language="java">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/ast/TaskSortable.groovy" />
-			</programlisting>
+[source,java]
+-----
+include::res/ast/TaskSortable.groovy[]
+----
 		
 	</section>
 	<section id="asttransformations_memoize">
@@ -129,19 +127,14 @@
 			and the result is cached. If
 			the method is called again with the same
 			parameters, the result is returned from the cache.
-		
-
-
-		
-			<programlisting language="java">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/ast/MemoizedExample.groovy" />
-			</programlisting>
-		
-
-		
-			<programlisting language="java">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/ast/CallMemoizedExample.groovy" />
-			</programlisting>
+[source,java]
+-----
+include::res/ast/MemoizedExample.groovy[]
+----
+[source,java]
+-----
+include::res/ast/CallMemoizedExample.groovy[]
+----
 		
 
 	</section>
@@ -153,21 +146,18 @@
 			The
 			`AnnotationCollector`
 			allows to combine other AST Transformations annotations.
-		
-
-		
-			<programlisting language="java">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/ast/Pojo.groovy" />
-			</programlisting>
+[source,java]
+-----
+include::res/ast/Pojo.groovy[]
+----
 		
 
 		You can use this annotation, it is also possible to override
 			parameters in them.
-		
-		
-			<programlisting language="java">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/ast/Person.groovy" />
-			</programlisting>
+[source,java]
+-----
+include::res/ast/Person.groovy[]
+----
 		
 
 		
@@ -216,17 +206,14 @@
 			`@Builder`
 			can be applied to a class and generates transparently a builder for
 			this class.
-		
-
-		
-			<programlisting language="java">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/ast/TaskWithBuilder.groovy" />
-			</programlisting>
-		
-		
-			<programlisting language="java">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/ast/TestBuilder.groovy" />
-			</programlisting>
+[source,java]
+-----
+include::res/ast/TaskWithBuilder.groovy[]
+----
+[source,java]
+-----
+include::res/ast/TestBuilder.groovy[]
+----
 		
 	</section>
 
@@ -265,35 +252,37 @@
 			Groovy
 			code:
 
-			<table frame='all'>
+.Table Title
+|===
+
 		=== AST transformation annotations
 				<tgroup cols='2' align='left' colsep='1' rowsep='1'>
 					<colspec colname='c1' colwidth="1*" />
 					<colspec colname='c2' colwidth="2*" />
-					<thead>
-						<row>
-							<entry>Annotation</entry>
-							<entry>Description</entry>
-						</row>
-					</thead>
-					<tbody>
-						<row>
-							<entry>@Singleton</entry>
-							<entry>Makes annotated class a Singleton, access via
+					
+						
+|Annotation
+|Description
+						
+					
+					
+						
+|@Singleton
+|Makes annotated class a Singleton, access via
 								ClassName.instance.
-							</entry>
-						</row>
-						<row>
-							<entry>@PackageScope</entry>
-							<entry>
+							
+						
+						
+|@PackageScope
+|
 								Defines fields, methods or class as package scope, which
 								is
 								the default access modifier in Java.
-							</entry>
-						</row>
-					</tbody>
-				</tgroup>
-			</table>
+							
+						
+					
+				
+			|===
 		
 	</section>
 	<section id="asttransformations2">

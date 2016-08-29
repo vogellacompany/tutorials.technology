@@ -123,10 +123,10 @@ This build file can also be simplified << can be used as shortcut to define the 
 	<section id="gradle_runbuild_buildfile_comments">
 === Comments in Gradle build files
 		You can use single and multiline comments in Gradle build files.
-		
-			<programlisting language="java">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/comments/example.gradle" />
-			</programlisting>
+[source,java]
+-----
+include::res/comments/example.gradle[]
+----
 		
 
 

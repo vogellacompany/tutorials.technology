@@ -7,85 +7,90 @@
 	<section id="dbsetup_schema">
 === Database schema
 		 The following explains the creation, deletion and usage of
-			database schemas. 
-		<table frame='all'>
+			database schemas.
+
+.Table Title
+|===
+
 === Manage your databases
 			<tgroup cols='2' align='left' colsep='1' rowsep='1'>
 				<colspec colname='c1' />
 				<colspec colname='c2' />
-				<thead>
-					<row>
-						<entry>Command</entry>
-						<entry>Description</entry>
-					</row>
-				</thead>
-				<tbody>
-					<row>
-						<entry>show databases;</entry>
-						<entry> List all the databases on the SQL server</entry>
-					</row>
-					<row>
-						<entry>create database my_database;</entry>
-						<entry> Creates a new database with the name my_database</entry>
-					</row>
-					<row>
-						<entry>drop database my_database;</entry>
-						<entry>Deletes database my_database</entry>
-					</row>
-					<row>
-						<entry>use my_database;</entry>
-						<entry>Switches to my_database</entry>
-					</row>
-					<row>
-						<entry>show schemas;</entry>
-						<entry>Show all schemas in this database</entry>
-					</row>
-					<row>
-						<entry> SELECT * FROM INFORMATION_SCHEMA.TABLES where
-							table_schema='myschema';</entry>
-						<entry> Shows all tables for the database schema "myschema".
-						</entry>
-					</row>
-				</tbody>
-			</tgroup>
-		</table>
+				
+					
+|Command
+|Description
+					
+				
+				
+					
+|show databases;
+| List all the databases on the SQL server
+					
+					
+|create database my_database;
+| Creates a new database with the name my_database
+					
+					
+|drop database my_database;
+|Deletes database my_database
+					
+					
+|use my_database;
+|Switches to my_database
+					
+					
+|show schemas;
+|Show all schemas in this database
+					
+					
+| SELECT * FROM INFORMATION_SCHEMA.TABLES where
+							table_schema='myschema';
+| Shows all tables for the database schema "myschema".
+						
+					
+				
+			
+		|===
 	
 	<section id="db_setup_user">
 === User Maintenance
 		The following demonstrate how to create a user and how to grant
-			access rights to a user. 
+			access rights to a user.
 
-		<table frame='all'>
+.Table Title
+|===
+
 === User maintenance
 			<tgroup cols='2' align='left' colsep='1' rowsep='1'>
 				<colspec colname='c1' />
 				<colspec colname='c2' />
-				<thead>
-					<row>
-						<entry>Command</entry>
-						<entry>Description</entry>
-					</row>
-				</thead>
-				<tbody>
-					<row>
-						<entry> CREATE USER my_user IDENTIFIED BY 'my_password';</entry>
-						<entry> Creates a user my_user on the database with the password
-							my_password;</entry>
-					</row>
-					<row>
-						<entry> grant usage on *.* to my_user@localhost identified by
-							'my_password';</entry>
-						<entry> Allows the user my_user to connect to the database.
-						</entry>
-					</row>
-					<row>
-						<entry> grant all privileges on my_database.* to
-							my_user@localhost;</entry>
-						<entry> Allows the user my_user from the localhost full access to
-							my_database</entry>
-					</row>
-				</tbody>
-			</tgroup>
-		</table>
+				
+					
+|Command
+|Description
+					
+				
+				
+					
+| CREATE USER my_user IDENTIFIED BY 'my_password';
+| Creates a user my_user on the database with the password
+							my_password;
+					
+					
+| grant usage on *.* to my_user@localhost identified by
+							'my_password';
+| Allows the user my_user to connect to the database.
+						
+					
+					
+| grant all privileges on my_database.* to
+							my_user@localhost;
+| Allows the user my_user from the localhost full access to
+							my_database
+					
+				
+			
+		|===
 
 	

@@ -29,10 +29,8 @@
 		<section>
 	=== Second section in the chapter
 			Other random text
-			
-				<mediaobject>
-					<imageobject>
-						<imagedata fileref="images/title.png[]
+
+image::title.png[]
 					</imageobject>
 					<textobject>
 						<phrase>Image description</phrase>

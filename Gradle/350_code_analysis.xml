@@ -3,99 +3,100 @@
 	
 		Gradle provides several plugins for analyzing the code base,
 		which is being built.
-	
-	
-		<table frame='all'>
+
+.Table Title
+|===
+
 	=== Gradle Code Analysis Tools
 			<tgroup cols='3' align='left' colsep='1' rowsep='1'>
 				<colspec colname='c1' colwidth="1*" />
 				<colspec colname='c2' colwidth="1*" />
 				<colspec colname='c3' colwidth="2*" />
-				<thead>
-					<row>
-						<entry>Tool</entry>
-						<entry>Plugin</entry>
-						<entry>Description</entry>
-					</row>
-				</thead>
-				<tbody>
-					<row>
-						<entry>
+				
+					
+|Tool
+|Plugin
+|Description
+					
+				
+				
+					
+|
 							<ulink
 								url="https://docs.gradle.org/current/userguide/checkstyle_plugin.html">
 								Checkstyle
 							</ulink>
-						</entry>
-						<entry>
+						
+|
 							checkstyle
-						</entry>
-						<entry>
+						
+|
 							Validates checkstyle rules, which are applied for a project
-						</entry>
-					</row>
-					<row>
-						<entry>
+						
+					
+					
+|
 							<ulink
 								url="https://docs.gradle.org/current/userguide/jacoco_plugin.html">Jacoco</ulink>
-						</entry>
-						<entry>
+						
+|
 							jacoco
-						</entry>
-						<entry>
+						
+|
 							Checks for test coverage of the code being built
-						</entry>
-					</row>
-					<row>
-						<entry>
+						
+					
+					
+|
 							<ulink
 								url="https://docs.gradle.org/current/userguide/findbugs_plugin.html">FindBugs</ulink>
-						</entry>
-						<entry>
+						
+|
 							findbugs
-						</entry>
-						<entry>
+						
+|
 							Static Code Analysis for Java
-						</entry>
-					</row>
-					<row>
-						<entry>
+						
+					
+					
+|
 							<ulink
 								url="https://docs.gradle.org/current/userguide/codenarc_plugin.html">CodeNarc</ulink>
-						</entry>
-						<entry>
+						
+|
 							codenarc
-						</entry>
-						<entry>
+						
+|
 							Static Code Analysis for Groovy
-						</entry>
-					</row>
-					<row>
-						<entry>
+						
+					
+					
+|
 							<ulink
 								url="https://docs.gradle.org/current/userguide/pmd_plugin.html">PMD</ulink>
-						</entry>
-						<entry>
+						
+|
 							pmd
-						</entry>
-						<entry>
+						
+|
 							Adds code quality checks for several programming languages
 							to the build
-						</entry>
-					</row>
-					<row>
-						<entry>
+						
+					
+					
+|
 							<ulink
 								url="https://docs.gradle.org/current/userguide/jdepend_plugin.html">JDepend</ulink>
-						</entry>
-						<entry>
+						
+|
 							jdepend
-						</entry>
-						<entry>
+						
+|
 							Another code analysis tool for analyzing dependencies in
 							Java code
-						</entry>
-					</row>
-				</tbody>
-			</tgroup>
-		</table>
+						
+					
+				
+			
+		|===
 	

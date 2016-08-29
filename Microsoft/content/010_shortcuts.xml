@@ -21,54 +21,56 @@
 	
 		<section id="shortcuts_msoutlook">
 === Outlook
-		
-			<table frame='all'>
+
+.Table Title
+|===
+
 		=== Shortcuts
 				<tgroup cols='2' align='left' colsep='1' rowsep='1'>
 					<colspec colname='c1' />
 					<colspec colname='c2' />
-					<thead>
-						<row>
-							<entry>Shortcut</entry>
-							<entry>Description</entry>
-						</row>
-					</thead>
-					<tbody>
-						<row>
-							<entry> Ctrl+1 / Ctrl+2 / Ctrl+3 /Ctrl+4</entry>
-							<entry> Switch to Mail / Calendar / Contacts / Tasks</entry>
-						</row>
-						<row>
-							<entry>Ctrl+n</entry>
-							<entry>Neu Email</entry>
-						</row>
-						<row>
-							<entry>Ctrl+Enter</entry>
-							<entry>Send Email</entry>
-						</row>
-						<row>
-							<entry>Ctrl+r</entry>
-							<entry>Reply Email</entry>
-						</row>
-						<row>
-							<entry>Alt+F4</entry>
-							<entry>Close Email</entry>
-						</row>
-						<row>
-							<entry>Ctrl+Shift+r</entry>
-							<entry>Reply to all</entry>
-						</row>
-						<row>
-							<entry>Ctrl + Q</entry>
-							<entry>Mark as read</entry>
-						</row>
-						<row>
-							<entry>Ctrl + U</entry>
-							<entry>Mark as unread</entry>
-						</row>
-					</tbody>
-				</tgroup>
-			</table>
+					
+						
+|Shortcut
+|Description
+						
+					
+					
+						
+| Ctrl+1 / Ctrl+2 / Ctrl+3 /Ctrl+4
+| Switch to Mail / Calendar / Contacts / Tasks
+						
+						
+|Ctrl+n
+|Neu Email
+						
+						
+|Ctrl+Enter
+|Send Email
+						
+						
+|Ctrl+r
+|Reply Email
+						
+						
+|Alt+F4
+|Close Email
+						
+						
+|Ctrl+Shift+r
+|Reply to all
+						
+						
+|Ctrl + Q
+|Mark as read
+						
+						
+|Ctrl + U
+|Mark as unread
+						
+					
+				
+			|===
 		
 	</section>
 	

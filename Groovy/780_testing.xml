@@ -18,11 +18,10 @@
 			`assert`
 			is enabled by
 			default.
-		
-		
-			<programlisting language="java">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/testing/assert.java" />
-			</programlisting>
+[source,java]
+-----
+include::res/testing/assert.java[]
+----
 		
 	</section>
 	<section id="grooygtests_unittests">
@@ -42,12 +41,10 @@
 			`shouldFail`
 			. This method validates if the inner block is false or throws can
 			exception.
-		
-
-		
-			<programlisting language="java">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/testing/shouldfail.java" />
-			</programlisting>
+[source,java]
+-----
+include::res/testing/shouldfail.java[]
+----
 		
 
 		

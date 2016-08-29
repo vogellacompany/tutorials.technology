@@ -1,30 +1,33 @@
 
-<table frame='all'>
+
+.Table Title
+|===
+
 == Sample Table
 	<tgroup cols='2' align='left' colsep='1' rowsep='1'>
 		<colspec colname='c1'  colwidth="1*"/>
 		<colspec colname='c2'  colwidth="1*"/>
-		<thead>
-			<row>
-				<entry>a4</entry>
-				<entry>a5</entry>
-			</row>
-		</thead>
+		
+			
+|a4
+|a5
+			
+		
 		<tfoot>
-			<row>
-				<entry>f4</entry>
-				<entry>f5</entry>
-			</row>
+			
+|f4
+|f5
+			
 		</tfoot>
-		<tbody>
-			<row>
-				<entry>b1</entry>
-				<entry>b2</entry>
-			</row>
-			<row>
-				<entry>d1</entry>
-				<entry>d5</entry>
-			</row>
-		</tbody>
-	</tgroup>
-</table>
+		
+			
+|b1
+|b2
+			
+			
+|d1
+|d5
+			
+		
+	
+|===

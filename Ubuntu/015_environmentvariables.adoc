@@ -1,46 +1,49 @@
 
 <section id="environ">
 == Environment Variables
-	<table frame='all'>
+
+.Table Title
+|===
+
 		<tgroup cols='2' align='left' colsep='1' rowsep='1'>
 			<colspec colname='c1' />
 			<colspec colname='c2' />
-			<thead>
-				<row>
-					<entry>Command</entry>
-					<entry>Description</entry>
-				</row>
-			</thead>
-			<tbody>
-				<row>
-					<entry>echo $VARIABLE</entry>
-					<entry>
+			
+				
+|Command
+|Description
+				
+			
+			
+				
+|echo $VARIABLE
+|
 						Prints the content of the environment
 						variable
-					</entry>
-				</row>
+					
+				
 
 
 
-				<row>
-					<entry>
+				
+|
 						sudo /etc/init.d/tomcat5 start/stop
-					</entry>
-					<entry>Start / stops the tomcat server</entry>
-				</row>
+					
+|Start / stops the tomcat server
+				
 
 
-				<row>
-					<entry>
+				
+|
 						sudo -i
-					</entry>
-					<entry>Switches to root</entry>
-				</row>
+					
+|Switches to root
+				
 
 
-			</tbody>
-		</tgroup>
-	</table>
+			
+		
+	|===
 
 	<section id="environ_path">
 === Add a directory to the path

@@ -28,11 +28,10 @@
 			dependency to your
 			`pom.xml`
 			file.
-		
-		
-			<programlisting language="java">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/gradle/build.gradle" />
-			</programlisting>
+[source,java]
+-----
+include::res/gradle/build.gradle[]
+----
 		
 
 

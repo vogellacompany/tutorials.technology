@@ -65,11 +65,10 @@
 			matches). You can also
 			specify a closure, which is evaluated to a
 			boolean value.
-		
-		
-			<programlisting language="java">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/switch/SwitchTest.groovy" />
-			</programlisting>
+[source,java]
+-----
+include::res/switch/SwitchTest.groovy[]
+----
 		
 		
 			If several conditions fit, the first

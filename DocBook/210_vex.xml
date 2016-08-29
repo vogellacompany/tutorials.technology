@@ -45,11 +45,8 @@
 				right-click on the file in the Project Explorer and select Visual
 				XML
 				Editor.
-			
-			
-				<mediaobject>
-					<imageobject>
-						<imagedata fileref="images/vex-example.png[]
+
+image::vex-example.png[]
 					</imageobject>
 				</mediaobject>
 			

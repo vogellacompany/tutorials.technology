@@ -82,58 +82,60 @@
 === Network commands
 		 The following commands give you an overview of your network
 			connections.
-		
-		<table frame='all'>
+
+.Table Title
+|===
+
 			<tgroup cols='2' align='left' colsep='1' rowsep='1'>
 				<colspec colname='c1' />
 				<colspec colname='c2' />
-				<thead>
-					<row>
-						<entry>Command</entry>
-						<entry>Description</entry>
-					</row>
-				</thead>
-				<tbody>
-					<row>
-						<entry>lspci -nn | grep -i net
-						</entry>
-						<entry>
-						</entry>
-					</row>
-					<row>
-						<entry>lsusb
+				
+					
+|Command
+|Description
+					
+				
+				
+					
+|lspci -nn | grep -i net
+						
+|
+						
+					
+					
+|lsusb
 
-						</entry>
-						<entry>
-						</entry>
-					</row>
-					<row>
-						<entry>iwconfig
+						
+|
+						
+					
+					
+|iwconfig
 
-						</entry>
-						<entry>
-						</entry>
-					</row>
-					<row>
-						<entry>ifconfig
+						
+|
+						
+					
+					
+|ifconfig
 
-						</entry>
-						<entry> Shows the network connections
-						</entry>
-					</row>
-					<row>
-						<entry>lsmod</entry>
-						<entry></entry>
-					</row>
-					<row>
-						<entry>python -m SimpleHTTPServer</entry>
-						<entry>Start web server serving current directory tree at
+						
+| Shows the network connections
+						
+					
+					
+|lsmod
+|
+					
+					
+|python -m SimpleHTTPServer
+|Start web server serving current directory tree at
 							http://localhost:8000/
-						</entry>
-					</row>
-				</tbody>
-			</tgroup>
-		</table>
+						
+					
+				
+			
+		|===
 	</section>
 	<section id="network_curl">
 === HTTP debugging with curl

@@ -62,70 +62,71 @@
 	<section id="development_strings">
 === String manipulation
 		 Python allows the following String operations.
-		
-		
-			<table frame='all'>
+
+.Table Title
+|===
+
 				<tgroup cols='2' align='left' colsep='1' rowsep='1'>
 					<colspec colname='c1' />
 					<colspec colname='c2' />
-					<thead>
-						<row>
-							<entry>Operations</entry>
-							<entry>Description</entry>
-						</row>
-					</thead>
-					<tbody>
-						<row>
-							<entry>len(s)</entry>
-							<entry>Returns the length of string s</entry>
-						</row>
-						<row>
-							<entry>s[i]</entry>
-							<entry>Gets the element on position i in String s, position
+					
+						
+|Operations
+|Description
+						
+					
+					
+						
+|len(s)
+|Returns the length of string s
+						
+						
+|s[i]
+|Gets the element on position i in String s, position
 								start
-								with zero</entry>
-						</row>
-						<row>
-							<entry>s[-i]</entry>
-							<entry>Get the i-tes Sign of the string from behind the
+								with zero
+						
+						
+|s[-i]
+|Get the i-tes Sign of the string from behind the
 								string,
-								e.g. -1 returns the last element in the string</entry>
-						</row>
-						<row>
-							<entry>"abcdefg"[0:4]</entry>
-							<entry>Gets the first 4 elements (abcd)</entry>
-						</row>
-						<row>
-							<entry>"abcdefg"[4:]</entry>
-							<entry>Gets the elements after the first 4 elements (abcd)
-							</entry>
-						</row>
-						<row>
-							<entry>`a`+`b` + `c`</entry>
-							<entry>Concatenates the int varibles a, b,c, e.g. if
+								e.g. -1 returns the last element in the string
+						
+						
+|"abcdefg"[0:4]
+|Gets the first 4 elements (abcd)
+						
+						
+|"abcdefg"[4:]
+|Gets the elements after the first 4 elements (abcd)
+							
+						
+						
+|`a`+`b` + `c`
+|Concatenates the int varibles a, b,c, e.g. if
 								a=1, b=2,
 								c=3
-								then the result is 123.</entry>
-						</row>
-						<row>
-							<entry>s.lower()</entry>
-							<entry>Result will be s in lower cases</entry>
-						</row>
-						<row>
-							<entry>s.upper()</entry>
-							<entry>Result will be s in upper cases</entry>
-						</row>
-						<row>
-							<entry>s.startswith(t)</entry>
-							<entry>True, if s startsWith t</entry>
-						</row>
-						<row>
-							<entry>s.rstrip()</entry>
-							<entry>Removes the end of line sign from the string</entry>
-						</row>
-					</tbody>
-				</tgroup>
-			</table>
+								then the result is 123.
+						
+						
+|s.lower()
+|Result will be s in lower cases
+						
+						
+|s.upper()
+|Result will be s in upper cases
+						
+						
+|s.startswith(t)
+|True, if s startsWith t
+						
+						
+|s.rstrip()
+|Removes the end of line sign from the string
+						
+					
+				
+			|===
 		
 		For example:
 		
@@ -235,34 +236,36 @@
 		 Python allows operator overloading, e.g. you can define what
 			the
 			operator + will to for a specific class.
-		
-			<table frame='all'>
+
+.Table Title
+|===
+
 				<tgroup cols='2' align='left' colsep='1' rowsep='1'>
 					<colspec colname='c1' />
 					<colspec colname='c2' />
-					<thead>
-						<row>
-							<entry>__init__</entry>
-							<entry>Constructor of the class</entry>
-						</row>
-					</thead>
-					<tbody>
-						<row>
-							<entry>__str__</entry>
-							<entry>The method which is called if print is applied to this
-								object</entry>
-						</row>
-						<row>
-							<entry>__add__</entry>
-							<entry>+ Operator</entry>
-						</row>
-						<row>
-							<entry>__mul__</entry>
-							<entry>* Operator</entry>
-						</row>
-					</tbody>
-				</tgroup>
-			</table>
+					
+						
+|__init__
+|Constructor of the class
+						
+					
+					
+						
+|__str__
+|The method which is called if print is applied to this
+								object
+						
+						
+|__add__
+|+ Operator
+						
+						
+|__mul__
+|* Operator
+						
+					
+				
+			|===
 		
 		The empty object (null) is called <wordasword>None</wordasword> in Python.
 		

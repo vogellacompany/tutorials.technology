@@ -67,22 +67,24 @@ A simple editor with a graphical user interface is gedit.
 <title>Find files
 The following demonstrates the usage of the find command.
 
-<table frame='all'>
+.Table Title
+|===
+
 <tgroup cols='2' align='left' colsep='1' rowsep='1'>
 <colspec colname='c1' />
 <colspec colname='c2' />
-<thead>
-<row>
-<entry>Command</entry>
-<entry>Description</entry>
-</row>
-</thead>
-<tbody>
 
-<row>
+
+<entry>Command
+<entry>Description
+
+
+
+
+
 <entry>
 find dir -name "pattern" 2>/dev/null
-</entry>
+
 <entry>
 Finds all files which recursively apply to the
 pattern
@@ -90,43 +92,43 @@ pattern
 directory "dir". The 2> sends all
 error
 messages to the null device.
-</entry>
-</row>
 
-<row>
+
+
+
 <entry>
 find . -name '*.java' -newer build.xml -print
-</entry>
-<entry>Search for all java files newer then the file build.xml
-</entry>
-</row>
 
-<row>
+<entry>Search for all java files newer then the file build.xml
+
+
+
+
 <entry>
 find . -name '*.java' -mtime +7 -print
-</entry>
-<entry>Search for all java files newer then 7 dates
-</entry>
-</row>
 
-<row>
+<entry>Search for all java files newer then 7 dates
+
+
+
+
 <entry>
 find . -name '*.java' -mtime +7 -print0 | xargs -0 grep
 'swt'
-</entry>
+
 <entry>Search for all java files newer then 7 dates using
 "swt".
 The -0 options is used for files and folders with spaces.
-</entry>
-</row>
 
 
 
 
 
-</tbody>
-</tgroup>
-</table>
+
+
+
+
+|===
 
 
 The
@@ -180,26 +182,29 @@ parse="text" href="./examples/process/process" />
 
 <section id="commands_chown">
 <title>Change owner of files and directories
-<table frame='all'>
+
+.Table Title
+|===
+
 <tgroup cols='2' align='left' colsep='1' rowsep='1'>
 <colspec colname='c1' />
 <colspec colname='c2' />
-<thead>
-<row>
-<entry>Command</entry>
-<entry>Description</entry>
-</row>
-</thead>
-<tbody>
-<row>
-<entry>chown -R www-data:www-data mydir</entry>
+
+
+<entry>Command
+<entry>Description
+
+
+
+
+<entry>chown -R www-data:www-data mydir
 <entry> Change recursively the owner and the group of the
 directory "mydir" and its subdirectories.
-</entry>
-</row>
-</tbody>
-</tgroup>
-</table>
+
+
+
+
+|===
 </section>
 <section id="commands_link">
 <title>Creating links

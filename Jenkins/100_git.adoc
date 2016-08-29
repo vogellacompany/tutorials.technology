@@ -1,24 +1,16 @@
 == Support for the Git version control systems
 	
 Jenkins supports the Git version control system via a plugin.
-Select
-the
-menu:Manage Jenkins[Manager Plugins]
-link. Here you have to install the
-_Git Plugin_
-.
+Select the menu:Manage Jenkins[Manager Plugins] link. 
+Here you have to install the _Git Plugin_.
 	
 	
-To clone a Git repostory via Jenkins you need to enter the email
-and
-user name for your Jenkins system. For this switch into your job
-directory and run the
-`git config`
-command.
+To clone a Git repostory via Jenkins you need to enter the email and user name for your Jenkins system. 
+For this switch into your job directory and run the `git config` command.
 	
 	
-<programlisting language="bourne">
-	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-parse="text" href="./examples/git/config.txt" />
-</programlisting>
+[source,console]
+-----
+include::res/git/config.txt[]
+----	
 	

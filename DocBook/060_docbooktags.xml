@@ -11,108 +11,110 @@
 	
 	<section id="docbooktags_text">
 === Markup
-		
-			<table frame='all'>
+
+.Table Title
+|===
+
 		=== Important Docbook tags
 				<tgroup cols='2' align='left' colsep='1' rowsep='1'>
 					<colspec colname='c1' />
 					<colspec colname='c2' />
-					<thead>
-						<row>
-							<entry>Tag</entry>
-							<entry>Explanation</entry>
-						</row>
-					</thead>
-					<tbody>
-						<row>
-							<entry>
+					
+						
+|Tag
+|Explanation
+						
+					
+					
+						
+|
 								<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
 									parse="text" href="./examples/CDATA" />
-							</entry>
-							<entry>
+							
+|
 								Allows you to enter special signs into the text which would
 								be otherwise interpreted by DocBook.
-							</entry>
-						</row>
-						<row>
-							<entry>
+							
+						
+						
+|
 								<![CDATA[ <programlisting> </programlisting> ]]>
-							</entry>
-							<entry>
+							
+|
 								Highlights the text as coding. You can also specify the
 								programming language of this listing, e.g., language="java" or
 								language="xml". This
 								information can, for example, be used for
 								syntax highlighting.
-							</entry>
-						</row>
-						<row>
-							<entry>
+							
+						
+						
+|
 								<![CDATA[ <wordasword></wordasword> ]]>
-							</entry>
-							<entry>Indicates a special word</entry>
-						</row>
-						<row>
-							<entry>
+							
+|Indicates a special word
+						
+						
+|
 								<![CDATA[ <parameter class='command'>/w` ]]>
-							</entry>
-							<entry>
+							
+|
 								Describes a parameter; `class` can be command, function,
 								option
-							</entry>
-						</row>
-						<row>
-							<entry>
+							
+						
+						
+|
 								<![CDATA[ <guilabel> </guilabel> ]]>
-							</entry>
-							<entry>Label on a GUI</entry>
-						</row>
-						<row>
-							<entry>
+							
+|Label on a GUI
+						
+						
+|
 								<![CDATA[ <guibutton> </guibutton> ]]>
-							</entry>
-							<entry> Button on a GUI</entry>
-						</row>
-						<row>
-							<entry>
+							
+| Button on a GUI
+						
+						
+|
 								<![CDATA[ <filename class="directory">/usr/bin`, `db2html` ]]>
-							</entry>
-							<entry>Directory or filename</entry>
-						</row>
-						<row>
-							<entry>
+							
+|Directory or filename
+						
+						
+|
 								<![CDATA[ <emphasis> </emphasis> ]]>
-							</entry>
-							<entry>Highlights the text</entry>
-						</row>
-						<row>
-							<entry>
+							
+|Highlights the text
+						
+						
+|
 								<![CDATA[ <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="example1.txt" /> ]]>
-							</entry>
-							<entry>
+							
+|
 								Includes `example1.xml` as text,
 								so the file can contain tags, etc.
-							</entry>
-						</row>
-						<row>
-							<entry>
+							
+						
+						
+|
 								<![CDATA[ http://www.heise.de/newsticker">German IT News</ulink>. ]]>
-							</entry>
-							<entry>Paste a hypertext link into the document.</entry>
-						</row>
-						<row>
-							<entry>
+							
+|Paste a hypertext link into the document.
+						
+						
+|
 								<![CDATA[ &amp; ]]>
-							</entry>
-							<entry>
+							
+|
 								Creates the ampersand (&amp;) sign. Can,
 								for example, be used in
 								links.
-							</entry>
-						</row>
-					</tbody>
-				</tgroup>
-			</table>
+							
+						
+					
+				
+			|===
 		
 	</section>
 

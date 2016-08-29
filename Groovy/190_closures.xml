@@ -30,12 +30,10 @@
 			defined. The usage of
 			`it`
 			variable on the automatic return statement is demonstrates in the following example.
-		
-
-		
-			<programlisting language="java">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/closures/Tiny.groovy" />
-			</programlisting>
+[source,java]
+-----
+include::res/closures/Tiny.groovy[]
+----
 		
 
 	</section>
@@ -90,11 +88,10 @@
 			`with`
 			method gets a closure as parameter and every method call or property
 			access in this closure is applied to the object.
-		
-		
-			<programlisting language="java">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/closures/WithExample.groovy" />
-			</programlisting>
+[source,java]
+-----
+include::res/closures/WithExample.groovy[]
+----
 		
 
 	</section>

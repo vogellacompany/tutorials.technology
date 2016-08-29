@@ -83,26 +83,28 @@ image::nautilus20.png[]
 			The following lists a few useful shortcuts for the Unity window
 			manager.
 
-			<table frame='all'>
+.Table Title
+|===
+
 		=== Window Shortcuts
 				<tgroup cols='2' align='left' colsep='1' rowsep='1'>
 					<colspec colname='c1' />
 					<colspec colname='c2' />
-					<thead>
-						<row>
-							<entry>Long press on Super (Windows key)</entry>
-							<entry>Opens up help for the most common keyboard shortcuts
-							</entry>
-						</row>
-					</thead>
-					<tbody>
-						<row>
-							<entry>Alt+Left Mouse Click</entry>
-							<entry>Allows to moves the current window</entry>
-						</row>
-					</tbody>
-				</tgroup>
-			</table>
+					
+						
+|Long press on Super (Windows key)
+|Opens up help for the most common keyboard shortcuts
+							
+						
+					
+					
+						
+|Alt+Left Mouse Click
+|Allows to moves the current window
+						
+					
+				
+			|===
 		
 	</section>
 

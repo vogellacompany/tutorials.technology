@@ -60,11 +60,10 @@
 			prefers the
 			following
 			format:
-		
-		
-			<programlisting language="java">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/commitmessage/header.txt" />
-			</programlisting>
+[source,java]
+-----
+include::res/commitmessage/header.txt[]
+----
 		
 		The text in the header must match the title in Bugzilla. The Eclipse Git tooling complains about commit headers
 			longer than 80, but

@@ -63,11 +63,10 @@
 		The classical "Hello world" program can be written as a short
 			Groovy
 			script.
-		
-		
-			<programlisting language="java">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/first/HelloWorld.groovy" />
-			</programlisting>
+[source,java]
+-----
+include::res/first/HelloWorld.groovy[]
+----
 		
 
 

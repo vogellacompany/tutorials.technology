@@ -78,76 +78,78 @@ image::UML10.gif" />
 					visibility name: type {multiplicity} {=default}
 				</emphasis>
 
-				<table frame='all'>
+.Table Title
+|===
+
 					<tgroup cols='3' align='left' colsep='1' rowsep='1'>
 						<colspec colname='c1' />
 						<colspec colname='c2' />
 						<colspec colname='c3' />
-						<thead>
-							<row>
-								<entry>Element</entry>
-								<entry>Values</entry>
-								<entry>Description</entry>
-							</row>
-						</thead>
-						<tbody>
-							<row>
-								<entry>visibility</entry>
-								<entry>
+						
+							
+|Element
+|Values
+|Description
+							
+						
+						
+							
+|visibility
+|
 									+
 									-
 									#
 									~
-								</entry>
-								<entry>
+								
+|
 									public Attribute
 									private Attribute
 									protected Attribute
 									package Attribute
-								</entry>
-							</row>
-							<row>
-								<entry>name</entry>
-								<entry>myName</entry>
-								<entry>
+								
+							
+							
+|name
+|myName
+|
 									Name of the attribute following the
 									camelCase notation
-								</entry>
-							</row>
-							<row>
-								<entry>type</entry> and
+								
+							
+							
+|type and
                 explains the
                 usage of the Eclipse UML2 Tools for modelling UML 2 diagrams
-								<entry></entry>
-								<entry>
+|
+|
 									Class name, interface or primitive
 									types, e.g. int
-								</entry>
-							</row>
+								
+							
 
-							<row>
-								<entry>multiplicity</entry>
-								<entry></entry>
-								<entry>
+							
+|multiplicity
+|
+|
 									Optional, if not specified then it
 									is assumed to be 1, *
 									for any value,
 									1,..,* for ranges.
-								</entry>
-							</row>
+								
+							
 
 
-							<row>
-								<entry>default</entry>
-								<entry></entry>
-								<entry>
+							
+|default
+|
+|
 									Optional, default value of the
 									attribute
-								</entry>
-							</row>
-						</tbody>
-					</tgroup>
-				</table>
+								
+							
+						
+					
+				|===
 			
 			
 				<mediaobject>

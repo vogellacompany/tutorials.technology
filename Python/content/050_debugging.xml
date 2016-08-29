@@ -30,51 +30,52 @@ image::debug30.gif" />
 
 		
 			You can use F5 / F6, F7 and F8 to step through your coding.
-		
 
-		<table frame='all'>
+.Table Title
+|===
+
 	=== Debugging Key bindings
 			<tgroup cols='2' align='left' colsep='1' rowsep='1'>
 				<colspec colname='c1' />
 				<colspec colname='c2' />
-				<thead>
-					<row>
-						<entry>Command</entry>
-						<entry>Description</entry>
-					</row>
-				</thead>
-				<tbody>
-					<row>
-						<entry>F5 </entry>
-						<entry>Goes to the next step in your program. If the next step is
+				
+					
+|Command
+|Description
+					
+				
+				
+					
+|F5 
+|Goes to the next step in your program. If the next step is
 							a method / function this command will jump into the
 							associated
-							code. </entry>
-					</row>
-					<row>
-						<entry>F6 </entry>
-						<entry>F6 will
+							code. 
+					
+					
+|F6 
+|F6 will
 							step over the call, e.g. it will call a method /
 							function without
-							entering the associated code.  </entry>
-					</row>
-					<row>
-						<entry>F7</entry>
-						<entry>F7 will go to the caller of the
+							entering the associated code.  
+					
+					
+|F7
+|F7 will go to the caller of the
 							method/ function. So this
 							will leave the current code and go to the
-							calling code.  </entry>
-					</row>
-					<row>
-						<entry>F8</entry>
-						<entry>Use F8 to go to the next breakpoint. If no further
+							calling code.  
+					
+					
+|F8
+|Use F8 to go to the next breakpoint. If no further
 							breakpoint is encountered then the program will normally run.
-						</entry>
-					</row>
+						
+					
 
-				</tbody>
-			</tgroup>
-		</table>
+				
+			
+		|===
 
 		 You can of course use the ui to debug. The following displays
 			the key bindings for the debug buttons. 
