@@ -4,7 +4,7 @@
 The following code snippet demonstrates the usage of the `git blame`
 command.
 
-[source,terminal]
+[source,console]
 ----
 include::./examples/changes/blame.txt[]
 ----

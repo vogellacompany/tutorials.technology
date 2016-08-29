@@ -236,7 +236,7 @@ parse="text" href="./examples/zip/zip.txt" />
         
 To remove tailing whitespace from existing files you can use the following command.
 
-[source,terminal]
+[source,console]
 ----
 include::res/ack/whitespace.txt[]
 ----

@@ -6,7 +6,7 @@
 		command.
 	
 
-	[source,terminal]
+	[source,console]
 ----
 include::./examples/changes/blame.txt[]
 ----

@@ -110,7 +110,7 @@ c2._
 For example, you can ask Git to show all commits which happened between
 HEAD and HEAD~4.
 
-[source,terminal]
+[source,console]
 ----
 include::./examples/ranges/logranges1[]
 ----
@@ -118,14 +118,14 @@ include::./examples/ranges/logranges1[]
 This also works for branches. To list all commits which are in the "master"
 branch but not in the "testing" branch, use the following command.
 
-[source,terminal]
+[source,console]
 ----
 include::./examples/ranges/logranges2[]
 ----
 
 You can also list all commits which are in the "testing" but not in the "master" branch.
 
-[source,terminal]
+[source,console]
 ----
 include::./examples/ranges/logranges3[]
 ----
@@ -143,7 +143,7 @@ from both of them.
 This is useful to show all commits in two branches which have not yet
 been combined.
 
-[source,terminal]
+[source,console]
 ----
 include::./examples/ranges/logranges4[] 
 ----

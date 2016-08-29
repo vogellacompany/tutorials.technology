@@ -21,17 +21,17 @@
 			repository defined.
 		
 
-		[source,terminal]
+		[source,console]
 ----
 include::./examples/merge/createconflict1.txt[]
 ----
 
-		[source,terminal]
+		[source,console]
 ----
 include::./examples/merge/createconflict2.txt[]
 ----
 
-		[source,terminal]
+		[source,console]
 ----
 include::./examples/merge/createconflict3.txt[]
 ----
@@ -40,7 +40,7 @@ include::./examples/merge/createconflict3.txt[]
 			receive an error message similar to the following listing.
 		
 
-		[source,terminal]
+		[source,console]
 ----
 include::./examples/merge/createconflict4.txt[]
 ----
@@ -53,7 +53,7 @@ include::./examples/merge/createconflict4.txt[]
 			`git merge`
 			command tries to integrate it into your local repository.
 		
-		[source,terminal]
+		[source,console]
 ----
 include::./examples/merge/createconflict5.txt[]
 ----
@@ -61,7 +61,7 @@ include::./examples/merge/createconflict5.txt[]
 			This creates the conflict and a message similar to the
 			following.
 		
-		[source,terminal]
+		[source,console]
 ----
 include::./examples/merge/createconflict7.txt[]
 ----
@@ -100,7 +100,7 @@ include::./examples/merge/createconflict7.txt[]
 			the following
 			listing.
 		
-		[source,terminal]
+		[source,console]
 ----
 include::./examples/merge/mergeconflict.txt[]
 ----
@@ -127,7 +127,7 @@ include::./examples/merge/mergeconflict.txt[]
 			the file manually. The
 			following listing shows a possible result.
 		
-		[source,terminal]
+		[source,console]
 ----
 include::./examples/merge/mergeconflictsolved.txt[]
 ----
@@ -139,7 +139,7 @@ include::./examples/merge/mergeconflictsolved.txt[]
 			integrated changes now to the remote repository.
 		
 
-		[source,terminal]
+		[source,console]
 ----
 include::./examples/merge/createconflict6.txt[]
 ----

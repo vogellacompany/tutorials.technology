@@ -42,7 +42,7 @@
 			_HEAD_
 			reference.
 		
-		[source,terminal]
+		[source,console]
 ----
 include::./examples/reflog/see.txt[]
 ----
@@ -73,7 +73,7 @@ include::./examples/reflog/see.txt[]
 			the current local branch to a commit which isn't reachable from
 			the current branch anymore.
 		
-		[source,terminal]
+		[source,console]
 ----
 include::./examples/reflog/remove.txt[]
 ----

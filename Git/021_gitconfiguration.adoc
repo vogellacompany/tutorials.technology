@@ -50,7 +50,7 @@ If neither the `--system` not the `--global` parameter is used, the setting is s
 
 You have to configure at least your user and email address to be able to commit to a Git repository because this information is stored in each commit.
 
-[source,terminal]
+[source,console]
 ----
 # configure the user which will be used by Git
 # this should be not an acronym but your full name
@@ -66,7 +66,7 @@ git config --global user.email "your.email@example.org"
 (((Configuration, push configuration)))
 If your are using Git in a version below 2.0 you should also execute the following command.
 
-[source,terminal]
+[source,console]
 ----
 include::./examples/commandline/setup_pushmatching.txt[]
 ----
@@ -86,7 +86,7 @@ You learn about the push command in <<cloneremotes_push>>.
 By default, Git runs the `git fetch`  followed by the `git merge` command if you use the `git pull` command. 
 You can configure git to use `git rebase` instead of `git merge` for the pull command via the following setting.
 
-[source,terminal]
+[source,console]
 ----
 include::./examples/commandline/setup_useful[]
 ---- 
@@ -104,7 +104,7 @@ The author of this {contentidentifier} always uses this setting for his Git repo
 (((Configuration, color highlighting)))
 The following commands enables color highlighting for Git in the console.
 
-[source,terminal]
+[source,console]
 ----
 include::./examples/highlight/color.txt[]
 ----
@@ -117,7 +117,7 @@ By default Git uses the system default editor which
 is taken from the _VISUAL_ or _EDITOR_ environment variables if set. You
 can configure a different one via the following setting.
 
-[source,terminal]
+[source,console]
 ----
 include::./examples/settings/editor.txt[]
 ----
@@ -139,7 +139,7 @@ you can always edit the files directly in a text editor.
 Once you have installed them you can set your selected tool as default
 merge tool with the following command.
 
-[source,terminal]
+[source,console]
 ----
 include::./examples/settings/mergetool.txt[] 
 ----
@@ -158,7 +158,7 @@ manual page]
 (((Configuration, query existing configuration)))
 To query your Git settings, execute the following command:
 
-[source,terminal]
+[source,console]
 ----
 include::./examples/settings/listsettings.txt[]
 ---- 
@@ -166,7 +166,7 @@ include::./examples/settings/listsettings.txt[]
 If you want to query the global settings you can use the following
 command.
 
-[source,terminal]
+[source,console]
 ----
 include::./examples/settings/listsettingsglobal.txt[] 
 ----

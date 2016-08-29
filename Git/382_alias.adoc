@@ -15,7 +15,7 @@ For example, you can define an alias which is a short form of your own favorite 
 The following defines an _alias_ to see the staged changes with the new
 `git staged` command.
 
-[source,terminal]
+[source,console]
 ----
 include::./examples/alias/staged.txt[]
 ----
@@ -23,7 +23,7 @@ include::./examples/alias/staged.txt[]
 Or you can define an _alias_ for a detailed `git log` command. 
 The following command defines the `git ll` _alias_ .
 
-[source,terminal]
+[source,console]
 ----
 include::./examples/alias/log.txt[]
 ----
@@ -33,7 +33,7 @@ In this case you start the _alias_ definition with a `!` character.
 For example, the following defines the `git ac` command which combines `git add . -A` and `git commit`
 commands.
 
-[source,terminal]
+[source,console]
 ----
 include::./examples/alias/alias.txt[]
 ----

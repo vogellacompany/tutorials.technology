@@ -21,7 +21,7 @@ of your Git repository.
 
 The following commands demonstrate the usage of the `git clean` command.
 
-[source,terminal]
+[source,console]
 ----
 include::./examples/undo/dropchanges.txt[]
 ----

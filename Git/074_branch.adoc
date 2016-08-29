@@ -4,7 +4,7 @@
 (((git branch)))
 The `git branch` command lists all local branches. The currently active branch is marked with `*`.
 
-[source,terminal]
+[source,console]
 ----
 include::./examples/commandline/git_brancheslist.commands[]
 ----
@@ -13,7 +13,7 @@ If you want to see all branches (including remote-tracking branches), use the
 `-a` for the `git branch` command. See <<gitremotebranch_overview>> for information about
 remote-tracking branches.
 
-[source,terminal]
+[source,console]
 ----    
 include::./examples/commandline/git_brancheslist2.commands[]
 ----
@@ -22,7 +22,7 @@ The `-v` option lists more information about the branches.
 
 In order to list branches in a remote repository use the `git branch -r` command as demonstrated in the following example.
 
-[source,terminal]
+[source,console]
 ----
 include::./examples/commandline/git_brancheslist3.commands[]
 ----
@@ -36,7 +36,7 @@ You can create a new branch via the `git branch [newname]` command.
 This command allows to specify the commit (commit id, tag, remote or local branch) to which the branch pointer original points. 
 If not specified, the commit to which the HEAD reference points is used to create the new branch.
 
-[source,terminal]
+[source,console]
 ----
 include::./examples/branch/git_create_branch[]
 ---- 
@@ -54,7 +54,7 @@ The following commands demonstrate how you switch to the branch called
 _testing_ , perform some changes in this branch and switch back to the
 branch called _master_.
 
-[source,terminal]
+[source,console]
 ----
 include::./examples/branch/git_checkout[]
 ----
@@ -62,7 +62,7 @@ include::./examples/branch/git_checkout[]
 To create a branch and to switch to it at the same time you can use the
 `git checkout` command with the `-b` parameter.
 
-[source,terminal]
+[source,console]
 ----
 include::./examples/branch/git_createcheckout[]
 ---- 
@@ -73,7 +73,7 @@ include::./examples/branch/git_createcheckout[]
 (((rename branch)))
 Renaming a branch can be done with the following command.
 
-[source,terminal]
+[source,console]
 ----
 include::./examples/branch/git_rename_branch[]
 ----
@@ -87,7 +87,7 @@ get an error message that there are uncommited changes if you did the
 previous examples step by step. Use force delete (uppercase `-D`) to
 delete it anyway.
 
-[source,terminal]
+[source,console]
 ----
 include::./examples/branch/git_delete_branch[]
 ---- 
@@ -102,7 +102,7 @@ if it does not yet exist.
 
 If you do not specify the remote repository, the `origin` is used as default
 
-[source,terminal]
+[source,console]
 ----
 # push current branch to a branch called "testing" to remote repository
 git push origin testing
@@ -172,7 +172,7 @@ You can also always create a new branch based on the current HEAD.
 (((git diff, for branches)))
 To see the difference between two branches you can use the following command.
 
-[source,terminal]
+[source,console]
 ----
 # shows the differences between
 # current head of master and your_branch
@@ -185,7 +185,7 @@ For example, if you compare a branch called _your_branch_ with the _master_ bran
 following command shows the changes in _your_branch_ and _master_ since
 these branches diverged.
 
-[source,terminal]
+[source,console]
 ----
 include::./examples/branchdiff/diff1.txt[] 
 ----

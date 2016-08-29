@@ -18,7 +18,7 @@ Commits like B can still be found via the `git reflog` command. See ? .
 
 The `git reset --hard` command makes the working tree exactly match HEAD.
 
-[source,terminal]
+[source,console]
 ----
 include::./examples/delete/cleanworking.txt[]
 ----
@@ -47,7 +47,7 @@ As the staging area is not changed with a soft reset, you keep it in the
 desired state for your new commit. This means that all the file changes
 from the commits which were reseted are still part of the staging area.
 
-[source,terminal]
+[source,console]
 ----
 include::./examples/delete/squash.txt[]
 ----

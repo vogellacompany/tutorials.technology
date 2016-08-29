@@ -40,7 +40,7 @@
 			following setting for this.
 		
 
-		[source,terminal]
+		[source,console]
 ----
 include::./examples/linefeed/windows.txt[]
 ----
@@ -48,7 +48,7 @@ include::./examples/linefeed/windows.txt[]
 		On Linux and Mac you can tell Git to convert CRLF  to
 			LF with the following setting. 
 		
-		[source,terminal]
+		[source,console]
 ----
 include::./examples/linefeed/linux.txt[]
 ----

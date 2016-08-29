@@ -10,7 +10,7 @@ This tool relies on `git svn` internally and handles most of the trouble.
 
 To install it (on Ubuntu) simply type:
 
-[source,terminal]
+[source,console]
 ----
 include::./examples/migration/svn2git_install.txt[]
 ----
@@ -19,7 +19,7 @@ Let's say you have a repository called `http://svn.example.com/repo` with the de
 layout (trunk, branches, tags) and already prepared a local git
 repository where you want to put everything, then navigate to your git directory and use the following commands:
 
-[source,terminal]
+[source,console]
 ----
 include::./examples/migration/svn2git_example.txt[]
 ----

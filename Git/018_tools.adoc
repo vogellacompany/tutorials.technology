@@ -39,7 +39,7 @@ commit reference called HEAD.
 In case Git can determine the correct parameters and options
 automatically the double hyphens can be avoided.
 
-[source,terminal]
+[source,console]
 ----
 # seeing the git log for the HEAD file
 git log -- HEAD

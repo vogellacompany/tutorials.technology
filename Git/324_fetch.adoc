@@ -9,7 +9,7 @@ The `git fetch` command updates your remote-tracking branches, i.e., it updates 
 of branches stored in a remote repository. The following command updates
 the remote-tracking branches from the repository called _origin_.
 
-[source,terminal]
+[source,console]
 ----
 include::./examples/fetch/fetch.txt[]
 ----
@@ -31,7 +31,7 @@ and <<rebase_branches>>. for the rebase command.
 The `git fetch` command updates only the remote-tracking branches for one remote repository. 
 In case you want to update the remote-tracking branches of all your remote repositories you can use the following command.
 
-[source,terminal]
+[source,console]
 ----
 include::./examples/remote/gitupdate.txt[]
 ----
@@ -42,7 +42,7 @@ include::./examples/remote/gitupdate.txt[]
 The following code shows a few options how you can compare your
 branches.
 
-[source,terminal]
+[source,console]
 ----
 include::./examples/remotebranch/compare.txt[]
 ---- 
@@ -56,7 +56,7 @@ If you want to see the changes in origin compared to HEAD, you can switch the ar
 
 You can rebase your current local branch onto a remote-tracking branch. The following commands demonstrate that.
 
-[source,terminal]
+[source,console]
 ----
 include::./examples/remotebranch/apply.txt[]
 ----

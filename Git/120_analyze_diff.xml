@@ -10,7 +10,7 @@
 		To see the changes introduced by a commit use the following
 			command.
 		
-		[source,terminal]
+		[source,console]
 ----
 include::./examples/changes/diff.txt[]
 ----
@@ -31,7 +31,7 @@ include::./examples/changes/diff.txt[]
 			shows the differences introduced in the last
 			commit.
 		
-		[source,terminal]
+		[source,console]
 ----
 include::./examples/diff/diff_commits.txt[]
 ----
@@ -52,7 +52,7 @@ include::./examples/diff/diff_commits.txt[]
 			tells the command to show only the names of the files.
 		
 
-		[source,terminal]
+		[source,console]
 ----
 include::./examples/changes/changedfiles.txt[]
 ----

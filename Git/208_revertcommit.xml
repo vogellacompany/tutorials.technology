@@ -25,7 +25,7 @@
 			`git revert`
 			command.
 		
-		[source,terminal]
+		[source,console]
 ----
 include::./examples/commandline/git_revert_commit[]
 ----

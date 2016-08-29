@@ -10,7 +10,7 @@
 On Ubuntu and similar systems you can install the
 Git command line tool via the following command:
 
-[source,terminal] 
+[source,console] 
 ---- 
 include::./examples/installation/ubuntu.txt[]
 ----
@@ -23,7 +23,7 @@ include::./examples/installation/ubuntu.txt[]
 On Fedora, Red Hat and similar systems you can install
 the Git command line tool via the following command:
 
-[source,terminal] 
+[source,console] 
 ---- 
 include::./examples/installation/fedora.txt[]
 ----
@@ -37,7 +37,7 @@ To install Git on other Linux
 distributions please check the documentation of your distribution. The
 following listing contains the commands for the most popular ones.
 
-[source,terminal] 
+[source,console] 
 ----
 include::./examples/installation/linux.txt[]
 ----

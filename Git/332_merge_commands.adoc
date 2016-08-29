@@ -7,7 +7,7 @@
 The `git merge` command performs a merge. You can merge changes from one
 branch to the current active one via the following command.
 
-[source,terminal]
+[source,console]
 ----
 include::./examples/commandline/git_merge[]
 ----
@@ -23,7 +23,7 @@ the merge is always that of the current branch head, effectively
 ignoring all changes from all other branches. This is demonstrated with
 the following command.
 
-[source,terminal]
+[source,console]
 ----
 include::./examples/merge/mergeours.txt[]
 ----
@@ -37,7 +37,7 @@ ignores everything from the branch which is merged.
 The usage of the octopus merge strategy is triggered if you specify more
 than one reference to merge.
 
-[source,terminal]
+[source,console]
 ----
 include::./examples/merge/mergeoctupus.txt[]
 ----
@@ -63,7 +63,7 @@ the version from the branch which is merged.
 
 Both options are demonstrated in the following example code.
 
-[source,terminal]
+[source,console]
 ----
 include::./examples/merge/mergeours2.txt[]
 ----

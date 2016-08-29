@@ -19,7 +19,7 @@
 			remote-tracking branches
 			with the following command.
 		
-		[source,terminal]
+		[source,console]
 ----
 include::./examples/remotebranch/showremotes.txt[]
 ----
@@ -47,7 +47,7 @@ include::./examples/remotebranch/showremotes.txt[]
 			repository. You can use the following command for that.
 		
 
-		[source,terminal]
+		[source,console]
 ----
 include::./examples/remotebranch/delete.txt[]
 ----
@@ -68,12 +68,12 @@ include::./examples/remotebranch/delete.txt[]
 			command.
 		
 
-		[source,terminal]
+		[source,console]
 ----
 include::./examples/remotebranch/deleteremotebranch2.txt[]
 ----
 		Alternatively you can also use the following command. 
-		[source,terminal]
+		[source,console]
 ----
 include::./examples/remotebranch/deleteremotebranch.txt[]
 ----
@@ -86,7 +86,7 @@ include::./examples/remotebranch/deleteremotebranch.txt[]
 
 		
 
-		[source,terminal]
+		[source,console]
 ----
 include::./examples/remotebranch/deleteremotebranch3.txt[]
 ----
@@ -96,7 +96,7 @@ include::./examples/remotebranch/deleteremotebranch3.txt[]
 				following command also works.
 			
 
-			[source,terminal]
+			[source,console]
 ----
 include::./examples/remotebranch/deleteremotebranch4.txt[]
 ----
@@ -154,7 +154,7 @@ include::./examples/remotebranch/deleteremotebranch4.txt[]
 			during the creation of a branch. The following example demonstrates
 			that.
 		
-		[source,terminal]
+		[source,console]
 ----
 include::./examples/remotebranch/trackingbranch.txt[]
 ----
@@ -167,7 +167,7 @@ include::./examples/remotebranch/trackingbranch.txt[]
 			`git branch`
 			command.
 		
-		[source,terminal]
+		[source,console]
 ----
 include::./examples/remotebranch/create.txt[]
 ----
@@ -180,7 +180,7 @@ include::./examples/remotebranch/create.txt[]
 			`git branch -u`
 			command later.
 		
-		[source,terminal]
+		[source,console]
 ----
 include::./examples/remotebranch/update.txt[]
 ----
@@ -195,12 +195,12 @@ include::./examples/remotebranch/update.txt[]
 			remote) you can use the
 			following command.
 		
-		[source,terminal]
+		[source,console]
 ----
 include::./examples/remotebranch/showtrackingbranches.txt[]
 ----
 		An example output of this might look as follows. 
-		[source,terminal]
+		[source,console]
 ----
 include::./examples/remotebranch/output.txt[]
 ----

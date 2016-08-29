@@ -20,7 +20,7 @@ few more changes.
 We use a simple shell script which checks the existence of a file.
 Ensure that this file is executable.
 
-[source,terminal]
+[source,console]
 ----
 include::./examples/bisect/check.sh[]
 ----
@@ -30,14 +30,14 @@ you use the `git bisect start` command to define a commit known to be
 bad (showing the problem) and a commit known to be good (not showing the
 problem).
 
-[source,terminal]
+[source,console]
 ----
 include::./examples/bisect/bisect_start.txt[]
 ---- 
 
 Afterwards run the bisect command using the shell script.
 
-[source,terminal]
+[source,console]
 ----
 include::./examples/bisect/bisectrun.txt[]
 ----

@@ -11,7 +11,7 @@ These local references are called _remote-tracking branches_.
 
 You can see your remote-tracking branches with the following command.
 
-[source,terminal]
+[source,console]
 ----
 include::./examples/remotebranch/showremotes.txt[]
 ----
@@ -27,7 +27,7 @@ It is safe to delete a remote branch in your local Git repository, this does not
 The next time you run the `git fetch` command, the remote branch is recreated.
 You can use the following command for that.
 
-[source,terminal]
+[source,console]
 ----
 include::./examples/remotebranch/delete.txt[]
 ---- 
@@ -40,7 +40,7 @@ include::./examples/remotebranch/delete.txt[]
 
 To delete the branch in a remote repository use the following command.
 
-[source,terminal]
+[source,console]
 ----
 include::./examples/remotebranch/deleteremotebranch.txt[]
 ----
@@ -59,14 +59,14 @@ If you clone a Git repository, your local _master_ branch is created as a _track
 
 You create new _tracking branches_ by specifying the _remote branch_ during the creation of a branch. The following example demonstrates that.
 
-[source,terminal]
+[source,console]
 ----
 include::./examples/remotebranch/trackingbranch.txt[]
 ----
 
 Instead of using the `git checkout` command you can also use the `git branch` command.
 
-[source,terminal]
+[source,console]
 ----
 include::./examples/remotebranch/create.txt[]
 ---- 
@@ -74,21 +74,21 @@ include::./examples/remotebranch/create.txt[]
 The `--no-track` allows you to specify that you do not want to track a branch. 
 You can explicitly add a tracking branch with the `git branch -u` command later.
 
-[source,terminal]
+[source,console]
 ----
 include::./examples/remotebranch/update.txt[]
 ---- 
 
 To see the tracking branches for a remote repository (short: remote) you can use the following command.
 
-[source,terminal]
+[source,console]
 ----
 include::./examples/remotebranch/showtrackingbranches.txt[]
 ----
 
 An example output of this might look as follows.
 
-[source,terminal]
+[source,console]
 ----
 include::./examples/remotebranch/output.txt[]
 ----

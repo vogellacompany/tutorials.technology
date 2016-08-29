@@ -17,7 +17,7 @@ Git allows you to commit, pull and push to these repositories independently.
 If you add a submodule, you can specify which branch should be tracked via the `-b` parameter of the `submodule add` command.
 The `git submodule init` command creates the local configuration file for the submodules, if this configuration does not exist.
 
-[source,terminal]
+[source,console]
 ----
 # add submodule and define the master branch as the one you want to track
 git submodule add -b master [URL to Git repo] #<1>
@@ -32,7 +32,7 @@ This pull in new commits into the main repository and its submodules.
 It also changes the working directories of the submodules to the commit of the tracked branch.
 
 
-[source,terminal]
+[source,console]
 ----
 # update your submodule --remote fetches new commits in the submodules
 # and updates the working tree to the commit described by the branch
@@ -47,7 +47,7 @@ git submodule update --remote
 Alternatively to the tracking of a branch, you can also control which commit of the submodule should be used.
 You add a submodule to a Git repository via the `git submodule add` command. 
 
-[source,terminal]
+[source,console]
 ----
 git submodule add [URL to Git repo] #<1>
 git submodule init #<2>
@@ -61,7 +61,7 @@ git submodule init #<2>
 
 To pull everything including the submodules, use the `--recurse-submodules` and the `--remote` parameter in the `git pull command`.
 
-[source,terminal]
+[source,console]
 ----
 # pull all changes including submodules in case you are tracking branches
 git pull --remote
@@ -85,7 +85,7 @@ This means that if you pull in new changes into the submodules, you need to crea
 
 The following example shows how to update a submodule to its latest commit in its master branch.
 
-[source,terminal]
+[source,console]
 ----
 # update submodule in the master branch
 # skip this if you use --recurse-submodules 
@@ -106,7 +106,7 @@ git push
 Another developer can get the update by pulling in the changes and
 running the submodules update command.
 
-[source,terminal]
+[source,console]
 ----
 # another developer wants to get the changes
 git pull

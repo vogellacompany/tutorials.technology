@@ -9,7 +9,7 @@ The `-s` option suppresses the commit message and provides a commit
 count. The `-n` option sorts the output based on the number of commits
 by author.
 
-[source,terminal]
+[source,console]
 ----
 # gives a summary of the changes by author
 git shortlog
@@ -22,7 +22,7 @@ git shortlog -sn
 
 This command also allows you to see the commits done by a certain author or committer.
 
-[source,terminal]
+[source,console]
 ----
 # see the commits by the author "Lars Vogel"
 git shortlog --author="Lars Vogel"

@@ -25,7 +25,7 @@
 		
 
 		The following command shows the log.
-		[source,terminal]
+		[source,console]
 ----
 include::./examples/commandline/git_checkout1[]
 ----
@@ -33,7 +33,7 @@ include::./examples/commandline/git_checkout1[]
 			The following listing shows an example output of a Git log
 			command.
 		
-		[source,terminal]
+		[source,console]
 ----
 include::./examples/commandline/git_checkout2[]
 ----
@@ -43,7 +43,7 @@ include::./examples/commandline/git_checkout2[]
 		
 			To checkout a specific commit you can use the following command.
 		
-		[source,terminal]
+		[source,console]
 ----
 include::./examples/commandline/git_checkout3[]
 ----

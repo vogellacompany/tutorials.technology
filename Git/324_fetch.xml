@@ -21,7 +21,7 @@
 			.
 		
 
-		[source,terminal]
+		[source,console]
 ----
 include::./examples/fetch/fetch.txt[]
 ----
@@ -92,7 +92,7 @@ include::./examples/fetch/fetch.txt[]
 			all your remote repositories you can use the following command.
 		
 
-		[source,terminal]
+		[source,console]
 ----
 include::./examples/remote/gitupdate.txt[]
 ----
@@ -103,7 +103,7 @@ include::./examples/remote/gitupdate.txt[]
 		The following code shows a few options how you can compare your
 			branches.
 		
-		[source,terminal]
+		[source,console]
 ----
 include::./examples/remotebranch/compare.txt[]
 ----
@@ -130,7 +130,7 @@ include::./examples/remotebranch/compare.txt[]
 			branch. The
 			following commands demonstrate that.
 		
-		[source,terminal]
+		[source,console]
 ----
 include::./examples/remotebranch/apply.txt[]
 ----

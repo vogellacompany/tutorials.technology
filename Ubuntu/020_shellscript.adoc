@@ -28,14 +28,14 @@ It should print "Hello, world" to the console.
 
 The following is an example how to recursively rename all files called "article.xml" to "001_article.xml" from the current home directory.
 
-[source,terminal]
+[source,console]
 ----
 include::res/shell/renamefiles.sh[]
 ----
 
 For to rename all extensions from ".xml" to ".adoc" you can use:
 
-[source,terminal]
+[source,console]
 ----
 find . -name "*.xml" -exec rename 's/xml/adoc/;' '{}' \;
 ----

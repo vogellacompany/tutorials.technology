@@ -33,7 +33,7 @@
 			of the file.
 
 		
-		[source,terminal]
+		[source,console]
 ----
 include::./examples/show/showrev.txt[]
 ----
@@ -51,7 +51,7 @@ include::./examples/show/showrev.txt[]
 			command as demonstrated by the following command.
 		
 
-		[source,terminal]
+		[source,console]
 ----
 include::./examples/restore/restoredeletedfile.txt[]
 ----
@@ -83,7 +83,7 @@ include::./examples/restore/restoredeletedfile.txt[]
 			to see the commit history for a file, even if you have deleted the
 			file.
 		
-		[source,terminal]
+		[source,console]
 ----
 include::./examples/show/delete.txt[]
 ----

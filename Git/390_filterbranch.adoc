@@ -36,7 +36,7 @@ To completely remove such files, you need to run the `filter-branch` command on 
 The following listing shows an example. 
 It replaces the email address from one author of all the commits via the `git filter-branch` command.
 
-[source,terminal]
+[source,console]
 ----
 include::./examples/filterbranch/replace.txt[]
 ----

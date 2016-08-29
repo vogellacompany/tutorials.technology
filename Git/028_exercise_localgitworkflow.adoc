@@ -19,7 +19,7 @@ The comments (marked with #) before the commands explain the specific actions.
 The following commands create an empty directory which is used later in
 this exercise to contain the working tree and the Git repository.
 
-[source,terminal]
+[source,console]
 ----
 # switch to the home directory
 cd
@@ -44,7 +44,7 @@ The `.git/config` file contains the configuration for the repository.
 Use the `git init` command to create a Git repository in the current directory. 
 Git does not care whether you start with an empty directory or if it contains already files.
 
-[source,terminal]
+[source,console]
 ----
 # you should still be in the repo01 directory
 cd ~/repo01
@@ -62,7 +62,7 @@ All files inside the repository folder, excluding the `.git` folder, are the _wo
 
 Use the following commands to create several new files.
 
-[source,terminal]
+[source,console]
 ----
 include::./examples/commandline/first.commands[]
 ---- 
@@ -77,14 +77,14 @@ these changes, e.g., add them to the staging area or remove them, etc.
 
 Run it via the following command.
 
-[source,terminal]
+[source,console]
 ----
 include::./examples/commandline/first.status[]
 ---- 
 
 The output looks similar to the following listing.
 
-[source,terminal]
+[source,console]
 ----
 include::./examples/commandline/first.output[]
 ---- 
@@ -97,7 +97,7 @@ This command allows adding changes in the file system to the staging area.
 It creates a snapshot of the affected files. 
 You can add all changes to the staging area with the `.` option or changes in individual files but specifying a file pattern as option.
 
-[source,terminal]
+[source,console]
 ----
 # add all files to the index of the Git repository
 git add .
@@ -106,7 +106,7 @@ git add .
 Afterwards run the `git status` command again to see the current status. 
 The following listing shows the output of this command.
 
-[source,terminal]
+[source,console]
 ----
 include::./examples/commandline/gitrepo_add.result[]
 ----
@@ -118,21 +118,21 @@ In case you change one of the staged files before committing, you need to add th
 This is because Git creates a snapshot of the content of a staged file. 
 All new changes must again be staged.
 
-[source,terminal]
+[source,console]
 ----
 include::./examples/commandline/gitrepo_changestaged[]
 ----
 
 Validate that the new changes are not yet staged.
 
-[source,terminal]
+[source,console]
 ----
 include::./examples/commandline/gitrepo_changestaged.result[]
 ----
 
 Add the new changes to the staging area.
 
-[source,terminal]
+[source,console]
 ----
 # add all files to the index of the Git repository
 git add .
@@ -140,7 +140,7 @@ git add .
 
 Use the `git status` command again to see that all changes are staged.
 
-[source,terminal]
+[source,console]
 ----
 include::./examples/commandline/gitrepo_changestaged.finalresult[] 
 ----
@@ -153,7 +153,7 @@ This creates a new commit object with the staged changes in the Git repository a
 The `-m` parameter (or its long version: ``--message``) allows you to specify the commit message. 
 If you leave this parameter out, your default editor is started and you can enter the message in the editor.
 
-[source,terminal]
+[source,console]
 ----
 include::./examples/commandline/gitrepo_commit[]
 ----
@@ -164,7 +164,7 @@ include::./examples/commandline/gitrepo_commit[]
 The Git operations you performed have created a local Git repository in the `.git` folder and added all files to this repository via one commit.
 Run the `git log` command to see the history.
 
-[source,terminal]
+[source,console]
 ----
 # show the Git log for the change
 git log
@@ -172,7 +172,7 @@ git log
 
 You see an output similar to the following.
 
-[source,terminal]
+[source,console]
 ----
 include::./examples/gitfirst/gitlog-output.txt[]
 ---- 
@@ -198,7 +198,7 @@ image::firstgit-directory10.png[First Git directory]
 
 If you delete a file, you use the `git add .` command to add the deletion of a file to the staging area. 
 
-[source,terminal]
+[source,console]
 ----
 # remove the "test03" file
 rm test03
@@ -222,7 +222,7 @@ staged or committed) to its latest staged or commit state. The command
 removes the changes of the file in the working tree. This command cannot
 be applied to files which are not yet staged or committed.
 
-[source,terminal]
+[source,console]
 ----
 include::./examples/deletefile/checkout.txt[]
 ----
@@ -230,7 +230,7 @@ include::./examples/deletefile/checkout.txt[]
 If you use `git status` command to see that there are no changes
 left in the working directory.
 
-[source,terminal]
+[source,console]
 ----
 include::./examples/deletefile/checkout_result.txt[]
 ----
@@ -260,13 +260,13 @@ See <<gitreflog_definition>> for details.
 Assume the last commit message was incorrect as it contained a typo. 
 The following command corrects this via the `--amend` parameter.
 
-[source,terminal]
+[source,console]
 ----
 # assuming you have something to commit
 git commit -m "message with a tpyo here"
 ----
 
-[source,terminal]
+[source,console]
 ----
 # amend the last commit
 git commit --amend -m "More changes - now correct"
@@ -284,7 +284,7 @@ If that would be the case, they would need to migrate their work based on the ne
 
 Create the following `.gitignore` file in the root of your Git directory to ignore the specified directory and file.
 
-[source,terminal]
+[source,console]
 ----
 cd ~/repo01
 touch .gitignore
@@ -302,7 +302,7 @@ Editors which do this are for example _gedit_ under Ubuntu or _Notepad_ under Wi
 
 The resulting file looks like the following listing.
 
-[source,terminal]
+[source,console]
 ----
 .metadata/
 doNotTrackFile.txt
@@ -315,7 +315,7 @@ doNotTrackFile.txt
 It is good practice to commit the `.gitignore` file into the Git repository. 
 Use the following commands for this.
 
-[source,terminal]
+[source,console]
 ----
 # add the .gitignore file to the staging area
 git add .gitignore

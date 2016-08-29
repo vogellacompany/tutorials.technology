@@ -17,7 +17,7 @@
 			the
 			following command.
 		
-		[source,terminal]
+		[source,console]
 ----
 include::./examples/commandline/git_merge[]
 ----
@@ -40,7 +40,7 @@ include::./examples/commandline/git_merge[]
 			current branch head, effectively ignoring all changes from all other
 			branches. This is demonstrated with the following command.
 		
-		[source,terminal]
+		[source,console]
 ----
 include::./examples/merge/mergeours.txt[]
 ----
@@ -57,7 +57,7 @@ include::./examples/merge/mergeours.txt[]
 			specify more than one reference to merge.
 		
 
-		[source,terminal]
+		[source,console]
 ----
 include::./examples/merge/mergeoctupus.txt[]
 ----
@@ -108,7 +108,7 @@ include::./examples/merge/mergeoctupus.txt[]
 		
 		Both options are demonstrated in the following example code.
 		
-		[source,terminal]
+		[source,console]
 ----
 include::./examples/merge/mergeours2.txt[]
 ----

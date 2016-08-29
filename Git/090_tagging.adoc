@@ -7,7 +7,7 @@
 (((Tags/Tagging, list available tags)))
 You can list the available tags via the following command:
 
-[source,terminal]
+[source,console]
 ----
 include::./examples/tag/list.txt[]
 ----
@@ -17,7 +17,7 @@ include::./examples/tag/list.txt[]
 
 You can use the `-l` parameter in the `git tag` command to search for a pattern in the tag.
 
-[source,terminal]
+[source,console]
 ----
 include::./examples/tag/search.txt[]
 ----
@@ -34,7 +34,7 @@ file. Lightweight tags in Git are often used to identify the input for a
 build. Frequently this does not require additional information other
 than a build identifier or the timestamp.
 
-[source,terminal]
+[source,console]
 ----
 include::./examples/tag/createlight.txt[]
 ----
@@ -49,14 +49,14 @@ You can create a new annotated tag via the
 `-m` parameter, which is used to specify the description of the tag. The
 following command tags the current active HEAD.
 
-[source,terminal]
+[source,console]
 ----
 include::./examples/tag/create.txt[]
 ----
 
 You can also create tags for a certain commit id.
 
-[source,terminal]
+[source,console]
 ----
 include::./examples/tag/createid.txt[]
 ----
@@ -79,7 +79,7 @@ manpage].
  
 If you want to use the code associated with the tag, use:
 
-[source,terminal]
+[source,console]
 ----
 include::./examples/tag/checkout.txt[]
 ----
@@ -99,7 +99,7 @@ By default the `git push` command does not transfer
 tags to remote repositories. You explicitly have to push the tag with
 the following command.
 
-[source,terminal]
+[source,console]
 ----
 include::./examples/tag/push.txt[]
 ----
@@ -116,7 +116,7 @@ explicitly.
 
 The following commands demonstrate how to push a tag deletion.
 
-[source,terminal]
+[source,console]
 ----
 include::./examples/tag/delete.txt[]
 ----

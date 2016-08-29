@@ -21,7 +21,7 @@ then you have to use the ./ specifier. For example to address the
 The following commands demonstrate that. You can also make a copy of the
 file.
 
-[source,terminal]
+[source,console]
 ----
 include::./examples/show/showrev.txt[]
 ----
@@ -34,7 +34,7 @@ You can checkout a file from the commit. To find the commit which
 deleted the file you can use the `git log` or the `git ref-list` command
 as demonstrated by the following command.
 
-[source,terminal]
+[source,console]
 ----
 include::./examples/restore/restoredeletedfile.txt[]
 ----
@@ -50,7 +50,7 @@ The `git log` command allows you to determine which commit deleted a file.
 You can use the `--` option in `git log` to see the commit history for a
 file, even if you have deleted the file.
 
-[source,terminal]
+[source,console]
 ----
 include::./examples/show/delete.txt[]
 ----

@@ -18,7 +18,7 @@ manpage]
 For example, the following `.gitignore` file tells Git to ignore the
 `bin` and `target` directories and all files ending with a ~.
 
-[source,terminal]
+[source,console]
 ----
 include::./examples/ignore/gitignore[]
 ----
@@ -55,7 +55,7 @@ directory and the `doNotTrackFile.txt` file from being tracked. This is
 example code, as you did not commit the corresponding files in your
 example, the command will not work in your Git repository.
 
-[source,terminal]
+[source,console]
 ----
 
 # remove directory .metadata from git repo
@@ -76,7 +76,7 @@ You can also setup a global `.gitignore` file valid for all Git
 repositories via the `core.excludesfile` setting. The setup of this
 setting is demonstrated in the following code snippet.
 
-[source,terminal]
+[source,console]
 ----
 include::./examples/gitignore/global.txt[] 
 ----

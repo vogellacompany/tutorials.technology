@@ -73,12 +73,12 @@
 			in, and the second option keeps the version before the merge
 			operation was started.
 		
-		[source,terminal]
+		[source,console]
 ----
 include::./examples/rebase/ours.txt[]
 ----
 
-		[source,terminal]
+		[source,console]
 ----
 include::./examples/rebase/theirs.txt[]
 ----

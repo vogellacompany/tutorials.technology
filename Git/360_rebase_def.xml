@@ -182,7 +182,7 @@ LARSLINEBREAK
 				command and subsequently your colleagues have to use fetch -f to
 				fetch the rewritten commits.
 			
-			[source,terminal]
+			[source,console]
 ----
 include::./examples/rebase/forcedpush.txt[]
 ----

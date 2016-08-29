@@ -16,7 +16,7 @@ Afterwards you pull from and push to your bare repository to synchronize changes
 
 Execute the following commands to create a bare repository based on your existing Git repository.
 
-[source,terminal]
+[source,console]
 ----
 include::./examples/commandline/git_remote.commands[]
 ----
@@ -26,7 +26,7 @@ include::./examples/commandline/git_remote.commands[]
 
 Clone your bare repository and checkout a working tree in a new directory via the following commands.
 
-[source,terminal]
+[source,console]
 ----
 include::./examples/commandline/git_clone.commands[]
 ----
@@ -36,7 +36,7 @@ include::./examples/commandline/git_clone.commands[]
 
 Make some changes in one of your non-bare local repositories and push them to your bare repository via the following commands.
 
-[source,terminal]
+[source,console]
 ----
 include::./examples/commandline/git_push.commands[]
 ----
@@ -48,14 +48,14 @@ To test the `git pull` in your example Git repositories, switch to other non-bar
 Pull in the recent changes from the remote repository.
 Afterwards make some changes and push them again to your remote repository.
 
-[source,terminal]
+[source,console]
 ----
 include::./examples/commandline/git_pull.txt[]
 ---- 
 
 You can pull in the changes in your first example repository with the following commands.
 
-[source,terminal]
+[source,console]
 ----
 include::./examples/commandline/git_pull2.txt[]
 ----

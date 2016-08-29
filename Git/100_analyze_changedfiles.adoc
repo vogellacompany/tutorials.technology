@@ -27,7 +27,7 @@ Otherwise, if you have a new directory with severals files, only the directory i
 The following commands create some changes in your Git repository.
 
 .Make some changes in your working tree
-[source,terminal]
+[source,console]
 ----
 # assumes that the test01  and test02 files exist
 # and have been committed in the past 
@@ -40,7 +40,7 @@ ls > newfileanalyzis.txt
 
 Now use the status command.
 
-[source,terminal]
+[source,console]
 ----
 git status
 ----
@@ -48,7 +48,7 @@ git status
 
 The output of the command looks like the following listing.
 
-[source,terminal]
+[source,console]
 ----
 include::./examples/log/status3.txt[]
 ----
@@ -70,14 +70,14 @@ Via an optional third parameter you can specify a path to filter the displayed c
 The following example code demonstrate the usage of the `git diff` command.
 
 .Make some changes in your working tree
-[source,terminal]
+[source,console]
 ----
 echo "This is a change" > test01 
 echo "and this is another change" > test02
 ----
 
 .Use the git diff command
-[source,terminal]
+[source,console]
 ----
 git diff # <1>
 

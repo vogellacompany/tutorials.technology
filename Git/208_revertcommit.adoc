@@ -19,7 +19,7 @@ Such commits are useful to document that a change was withdrawn.
 The following command demonstrates the usage of the `git revert`
 command.
 
-[source,terminal]
+[source,console]
 ----
 include::./examples/commandline/git_revert_commit[]
 ----

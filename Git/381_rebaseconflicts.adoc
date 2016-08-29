@@ -24,14 +24,14 @@ conflict during a merge operation is solved. The developer edits the
 conflicts and adds the files to the Git index. Afterwards he continues
 the rebase operation with the following command.
 
-[source,terminal]
+[source,console]
 ----
 include::./examples/rebase/rebasecontinue.txt[]
 ----
 
 To see the files which have a rebase conflict use the following command.
 
-[source,terminal]
+[source,console]
 ----
 include::./examples/rebase/conflictingfiles.txt[]
 ---- 
@@ -40,7 +40,7 @@ You solve such a conflict the same way as you would solve a merge conflict.
 
 You can also skip the commit which creates the conflict.
 
-[source,terminal]
+[source,console]
 ----
 include::./examples/rebase/rebaseskip.txt[]
 ----
@@ -50,7 +50,7 @@ include::./examples/rebase/rebaseskip.txt[]
 
 You can also abort a rebase operation with the following command.
 
-[source,terminal]
+[source,console]
 ----
 include::./examples/rebase/rebaseabort.txt[]
 ----
@@ -69,13 +69,13 @@ for this file.
 
 Therefore to ignore the changes in a commit for a file use the following command.
 
-[source,terminal]
+[source,console]
 ----
 include::./examples/rebase/ours.txt[]
 ----
 To take the version of the new commit use the following command.
 
-[source,terminal]
+[source,console]
 ----
 include::./examples/rebase/theirs.txt[]
 ----

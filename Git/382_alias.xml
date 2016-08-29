@@ -28,7 +28,7 @@
 			`git staged`
 			command.
 		
-		[source,terminal]
+		[source,console]
 ----
 include::./examples/alias/staged.txt[]
 ----
@@ -46,7 +46,7 @@ include::./examples/alias/staged.txt[]
 			_alias_
 			.
 		
-		[source,terminal]
+		[source,console]
 ----
 include::./examples/alias/log.txt[]
 ----
@@ -63,7 +63,7 @@ include::./examples/alias/log.txt[]
 			`git commit`
 			commands.
 		
-		[source,terminal]
+		[source,console]
 ----
 include::./examples/alias/alias.txt[]
 ----

@@ -4,7 +4,7 @@
 		In the following example you create a new branch and commit two
 		changes.
 	
-	[source,terminal]
+	[source,console]
 ----
 include::./examples/cherry/step1.txt[]
 ----
@@ -16,7 +16,7 @@ include::./examples/cherry/step1.txt[]
 		`
 		command.
 	
-	[source,terminal]
+	[source,console]
 ----
 include::./examples/cherry/step2.txt[]
 ----
@@ -30,7 +30,7 @@ include::./examples/cherry/step2.txt[]
 		new commit on
 		the master branch.
 	
-	[source,terminal]
+	[source,console]
 ----
 include::./examples/cherry/step3.txt[]
 ----
@@ -41,7 +41,7 @@ include::./examples/cherry/step3.txt[]
 		`git cherry-pick`
 		also accepts commit ranges for example in the following command.
 	
-	[source,terminal]
+	[source,console]
 ----
 include::./examples/cherry/step4.txt[]
 ----
@@ -56,7 +56,7 @@ include::./examples/cherry/step4.txt[]
 		If things go wrong or you change your mind, you can always reset to
 		the previous state using the following command.
 	
-	[source,terminal]
+	[source,console]
 ----
 include::./examples/cherry/step5.txt[]
 ----

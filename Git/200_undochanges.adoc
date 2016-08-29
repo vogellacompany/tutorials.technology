@@ -27,28 +27,28 @@ can stage and commit them at a later point.
 In the following example you create a new file and change an existing
 file. Both changes are staged.
 
-[source,terminal]
+[source,console]
 ----
 include::./examples/deletefile/stageunwantedchanges.txt[]
 ----
 
 The output of `git status` command should look similar to the following.
 
-[source,terminal]
+[source,console]
 ----
 include::./examples/deletefile/stageunwantedchanges_result.txt[]
 ----
 
 Remove the changes from the staging area with the following command.
 
-[source,terminal]
+[source,console]
 ----
 include::./examples/deletefile/unstage.txt[]
 ----
 
 Use the `git status` command to see the result.
 
-[source,terminal]
+[source,console]
 ----
 include::./examples/deletefile/unstage_result.txt[]
 ----
@@ -76,7 +76,7 @@ Changes in the working tree which are not staged can be undone with
 to the latest staged version. If there are no staged changes, the latest
 committed version is used for the restore operation.
 
-[source,terminal]
+[source,console]
 ----
 include::./examples/delete/git_checkoutfile.txt[]
 ---- 
@@ -84,7 +84,7 @@ include::./examples/delete/git_checkoutfile.txt[]
 For example, you can restore the content of a directory called
 `data` with the following command.
 
-[source,terminal]
+[source,console]
 ----
 include::./examples/delete/restoredir_notstaged.txt[]
 ----
@@ -100,7 +100,7 @@ This version of the command resets the working tree and the staged area.
 The following demonstrates the usage of this to restore a delete
 directory.
 
-[source,terminal]
+[source,console]
 ----
 include::./examples/delete/restoredir.txt[]
 ----
@@ -114,7 +114,7 @@ command to reset the working tree and to also remove the staged changes.
 When you have added the changes of a file to the staging area, you can
 also revert the changes in the staging area base on the last commit.
 
-[source,terminal]
+[source,console]
 ----
 include::./examples/commandline/git_revert[]
 ----
