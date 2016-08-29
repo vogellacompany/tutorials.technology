@@ -15,7 +15,7 @@
 			Once you get familiar with the contribution process start
 			contributing something more difficult.
 		
-	</section>
+
 	<section id="contribution_scope">
 === Scope of a Gerrit change / commit
 		
@@ -52,7 +52,7 @@
 			understand the motivation why it was
 			done in the way it was implemented.
 		
-	</section>
+
 	<section id="contribution_commitmessagegerrit">
 === Commit message
 		Most project handles the required commit message a bit
@@ -87,8 +87,8 @@ include::res/commitmessage/header.txt[]
 		
 		
 			<programlisting language="text">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/commitmessage/example.txt" />
-			</programlisting>
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/commitmessage/example.txt[]
+----
 		
 		It is important to explain in the commit body, why the change
 			was done. Also explain why you have chosen a
@@ -103,7 +103,7 @@ include::res/commitmessage/header.txt[]
 				message.
 			
 		
-	</section>
+
 	<section id="contribution_copyrightheader">
 === Copyright header update
 		In some projects the source file contains a copyright header. If you modify the
@@ -112,7 +112,7 @@ include::res/commitmessage/header.txt[]
 			header in the
 			existing files and try to adapt the style preferred by the existing developers.
 		
-	</section>
+
 	<section id="contribution_copyrightheader_platformui">
 === Example: Copyright header in Eclipse Platform UI
 
@@ -130,8 +130,8 @@ include::res/commitmessage/header.txt[]
 
 		
 			<programlisting language="plain">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/copyright/header.txt" />
-			</programlisting>
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/copyright/header.txt[]
+----
 		
 
 		
@@ -185,8 +185,8 @@ include::res/commitmessage/header.txt[]
 		
 		
 			<programlisting language="plain">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/copyright/header2.txt" />
-			</programlisting>
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/copyright/header2.txt[]
+----
 		
 
 
@@ -196,7 +196,7 @@ include::res/commitmessage/header.txt[]
 			workaround for an existing bug, you should add a reference in the
 			source to this bug.
 		
-	</section>
+
 
 	<section id="contribution_polite">
 === Stay polite
@@ -218,7 +218,7 @@ include::res/commitmessage/header.txt[]
 		
 
 
-	</section>
+
 
 	<section id="contribution_formatting">
 === Avoid unnecessary formatting changes
@@ -250,7 +250,7 @@ image::unnecessaryformatingchanges10.png" scale="20" />
 			</mediaobject>
 		
 
-	</section>
+
 
 	<section id="contribution_whitespace">
 === Avoid unnecessary whitespace changes
@@ -265,7 +265,7 @@ image::unnecessaryformatingchanges10.png" scale="20" />
 			like if you
 			remove them as it changes the history.
 		
-	</section>
+
 
 	<section id="contribution_pushunfinished">
 === Pushing unfinished features
@@ -294,7 +294,7 @@ image::unnecessaryformatingchanges10.png" scale="20" />
 				the software.
 			
 		
-	</section>
+
 
 	<section id="contribution_validuserpassword">
 === Valid user and email
@@ -328,7 +328,7 @@ image::unnecessaryformatingchanges10.png" scale="20" />
 			</ulink>
 
 		
-	</section>
+
 
 
 
@@ -359,7 +359,7 @@ image::unnecessaryformatingchanges10.png" scale="20" />
 			list.
 		
 
-	</section>
+
 	<section id="contribution_rudefeedback">
 === Dealing with negative feedback
 		
@@ -370,6 +370,6 @@ image::unnecessaryformatingchanges10.png" scale="20" />
 			results in a better commit that
 			benefits everyone.
 		
-	</section>
 
-</section>
+
+

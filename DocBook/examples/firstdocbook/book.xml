@@ -8,11 +8,11 @@
 		<section>
 	=== First section in the chapter
 			Random text.
-		</section>
+	
 		<section>
 	=== Second section in the chapter
 			Other random text
-		</section>
+	
 	</chapter>
 
 	<chapter>
@@ -20,10 +20,10 @@
 		<section>
 	=== My Title
 			More...
-		</section>
+	
 		<section>
 	=== Other title
 			Blabla
-		</section>
+	
 	</chapter>
 </book>

@@ -23,7 +23,7 @@
 			have to pay money to
 			BitBucket.
 		
-	</section>
+
 	<section id="hosting_bickbucket_creating">
 === Creating a repository
 		
@@ -44,9 +44,9 @@
 		
 			<programlisting language="bourne">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/bitbucket/example.txt" />
-			</programlisting>
+					parse="text" href="./examples/bitbucket/example.txt[]
+----
 		
 
-	</section>
-</section>
+
+

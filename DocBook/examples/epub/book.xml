@@ -26,12 +26,12 @@ image::vogella_current_logo.png[]
 			</textobject>
 			</mediaobject>
 		
-		</section>
+	
 		<section>
 	=== Second section in the chapter
 			Other random text
 			
-		</section>
+	
 		
 	</chapter>
 
@@ -41,11 +41,11 @@ image::vogella_current_logo.png[]
 	=== My Title
 			More...
 			
-		</section>
+	
 		<section>
 	=== Other title
 			Blabla
 			
-		</section>
+	
 	</chapter>
 </book>

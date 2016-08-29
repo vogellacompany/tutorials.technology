@@ -16,20 +16,20 @@
 			following statement
 			<programlisting language="xml">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/xincludeexample1.xml" />
-			</programlisting>
+					parse="text" href="./examples/xincludeexample1.xml[]
+----
 			In case this file should be treated as text:
 			<programlisting language="xml">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/xincludeexample2.xml" />
-			</programlisting>
+					parse="text" href="./examples/xincludeexample2.xml[]
+----
 		
 		
 			Am XInclude ant task is provided by the Eclipse XSL project. I
 			can proudly say that this ant task was contributed by me to the
 			Eclipse XLS project. :-)
 		
-	</section>
+
 	<section id="xinclude_eclipsexsl">
 === Eclipse XSL Tools
 		
@@ -40,25 +40,21 @@
 		
 			Install the XSL tools via the update manager from the standard
 			Eclipse update site. See
-			<ulink
-				url="http://www.vogella.com/tutorials/Eclipse/article.html#updatemanager">
+http://www.vogella.com/tutorials/Eclipse/article.html#updatemanager">
 				Using the Eclipse update manager</ulink>
 			for details.
 		
 		
-image::installxsl10.gif" />
-				</imageobject>
-			</mediaobject>
+image::installxsl10.gif[]
 		
-	</section>
+
 	<section id="xinclude_using">
 === Using the XInclude ant task
 		
 			From your Eclipse installation take the
 			`org.eclipse.wst.xsl.core.jar` and add this JAR file to your ant
 			classpath. Put the new JAR into your Ant classpath. See
-			<ulink
-				url="http://www.vogella.com/tutorials/ApacheAnt/article.html#classpath">
+http://www.vogella.com/tutorials/ApacheAnt/article.html#classpath">
 				Apache Ant Tutorial - Classpath</ulink>
 			for details.
 		
@@ -68,8 +64,7 @@ image::installxsl10.gif" />
 		
 			<programlisting language="xml">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/ant/buildxinclude.xml" />
-			</programlisting>
+					parse="text" href="./examples/ant/buildxinclude.xml[]
+----
 		
-	</section>
-</section>
+

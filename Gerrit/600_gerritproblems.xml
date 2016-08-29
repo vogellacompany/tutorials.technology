@@ -74,7 +74,7 @@ image::gerritissue_solution30.png" scale="30" />
 			
 		
 
-	</section>
+
 	<section id="gerrit_problems_mergeconflicts">
 === Handling merge conflicts
 		
@@ -146,7 +146,7 @@ image::gerrit_rebasebutton10.png[]
 			merge it
 			into the master branch.
 		
-	</section>
+
 
 
 	<section id="gerrit_problems_nonfastforward">
@@ -207,5 +207,4 @@ image::gerritissue_solution10.png[]
 			https://git.eclipse.org/r/Documentation/error-non-fast-forward.html">non-fast forward</ulink>
 			for details.
 		
-	</section>
-</section>
+

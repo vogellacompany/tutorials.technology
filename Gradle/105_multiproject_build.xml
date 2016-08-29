@@ -47,8 +47,8 @@
 		
 			<programlisting language="gradle">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text"
-					href="./examples/multiproject/simple_settings.gradle" />
-			</programlisting>
+					href="./examples/multiproject/simple_settings.gradle[]
+----
 		
 		
 			Besides the
@@ -62,8 +62,8 @@
 		
 			<programlisting language="gradle">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text"
-					href="./examples/multiproject/projects_task.cmdline" />
-			</programlisting>
+					href="./examples/multiproject/projects_task.cmdline[]
+----
 		
 		
 image::projects_task.png[]
@@ -81,8 +81,8 @@ image::projects_task.png[]
 		
 		
 			<programlisting language="gradle">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/multiproject/root_build.gradle" />
-			</programlisting>
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/multiproject/root_build.gradle[]
+----
 		
 		
 			This specifies a common
@@ -122,8 +122,8 @@ image::projects_task.png[]
 		
 		
 			<programlisting language="gradle">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/multiproject/ui_build.gradle" />
-			</programlisting>
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/multiproject/ui_build.gradle[]
+----
 		
 		
 			Project dependencies are specified with the project method.
@@ -149,8 +149,8 @@ image::projects_task.png[]
 		
 			<programlisting language="gradle">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text"
-					href="./examples/multiproject/ui_build_master.gradle" />
-			</programlisting>
+					href="./examples/multiproject/ui_build_master.gradle[]
+----
 		
 
 

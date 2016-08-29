@@ -56,8 +56,8 @@ image::gradle_tasks_task.png[]
 		
 		
 			<programlisting language="gradle">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/starter/build_hello.gradle" />
-			</programlisting>
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/starter/build_hello.gradle[]
+----
 		
 		
 			When running the
@@ -100,8 +100,8 @@ image::gradle_starter_hello_task_command_line.png[]
 		
 			<programlisting language="gradle">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text"
-					href="./examples/tasks/build_hello_described.gradle" />
-			</programlisting>
+					href="./examples/tasks/build_hello_described.gradle[]
+----
 		
 	
 
@@ -131,8 +131,8 @@ image::gradle_starter_hello_task_command_line.png[]
 		
 			<programlisting language="gradle">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text"
-					href="./examples/tasks/configuration_phase_build.gradle" />
-			</programlisting>
+					href="./examples/tasks/configuration_phase_build.gradle[]
+----
 		
 		
 			When running
@@ -159,8 +159,8 @@ image::gradle_starter_hello_task_command_line.png[]
 		
 		
 			<programlisting language="gradle">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/starter/build.gradle" />
-			</programlisting>
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/starter/build.gradle[]
+----
 		
 		
 			<note>
@@ -183,8 +183,8 @@ image::gradle_starter_hello_task_command_line.png[]
 		
 			<programlisting language="gradle">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text"
-					href="./examples/tasks/compile_java_dep_build.gradle" />
-			</programlisting>
+					href="./examples/tasks/compile_java_dep_build.gradle[]
+----
 		
 		
 			An alternative to creating a new task, which depends on the
@@ -199,8 +199,8 @@ image::gradle_starter_hello_task_command_line.png[]
 		
 			<programlisting language="gradle">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text"
-					href="./examples/tasks/add_action_to_existing_task_build.gradle" />
-			</programlisting>
+					href="./examples/tasks/add_action_to_existing_task_build.gradle[]
+----
 		
 		When running the javaCompile task all actions, which have been
 			applied to the javaCompile task, are run one by
@@ -220,8 +220,8 @@ image::gradle_starter_hello_task_command_line.png[]
 		
 		
 			<programlisting language="gradle">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/tasks/skip_tasks_build.gradle" />
-			</programlisting>
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/tasks/skip_tasks_build.gradle[]
+----
 		
 		
 			<note>

@@ -4,7 +4,7 @@
 	<section id="firstgroovyscript_target">
 === Target of this exercise
 		In this exercise you learn how to create a Groovy script with the Eclipse IDE.
-	</section>
+
 
 	<section id="firstgroovyscript_project">
 === Create a new Groovy script
@@ -20,21 +20,18 @@
 		
 		
 			<programlisting>
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/first/HelloWorld.groovy" />
-			</programlisting>
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/first/HelloWorld.groovy[]
+----
 		
-	</section>
+
 	<section id="firstgroovyscript_project_run">
 === Run the Groovy class
 		
 			Right-click your Groovy script, and select
-			<menuchoice>
-				<guimenu>Run As</guimenu>
-				<guisubmenu>Groovy Script</guisubmenu>
-			</menuchoice>
+menu:Run As[Groovy Script]
 			from the context menu.
 		
-	</section>
+
 	<section id="firstgroovyscript_project_validate">
 === Validate the Groovy script
 		
@@ -48,7 +45,7 @@
 		 Congratulation! You created and ran your first Groovy script.
 		
 
-	</section>
+
 	<section id="firstgroovyscript_project_decompile">
 === Decompile the Groovy class file
 		<note>
@@ -65,5 +62,4 @@
 			`groovy.lang.Script`
 			.
 		
-	</section>
-</section>
+

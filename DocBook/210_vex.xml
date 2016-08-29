@@ -12,7 +12,7 @@
 		
 		You require a license to use Oxygen, see the Oxygen for details.
 		
-	</section>
+
 	<section id="vex">
 === Visual Editor for XML (Vex)
 		<section id="vex_1">
@@ -27,7 +27,7 @@
 				plugin is part of
 				the Eclipse project.
 			
-		</section>
+	
 		<section id="vex_2">
 	=== Installation
 			You can install Vex via an Eclipse update site:
@@ -37,7 +37,7 @@
 						parse="text" href="./examples/vex/updatesites.txt" />
 				</programlisting>
 			
-		</section>
+	
 		<section id="vex_3">
 	=== Usage
 			
@@ -56,7 +56,6 @@ image::vex-example.png[]
 				`XInclude`
 				is just ignored.
 			
-		</section>
+	
 
-	</section>
-</section>
+

@@ -12,8 +12,8 @@
 		
 			<programlisting language="gradle">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/tasks/tasks_command_line.txt" />
-			</programlisting>
+					parse="text" href="./examples/tasks/tasks_command_line.txt[]
+----
 		
 	
 
@@ -27,8 +27,8 @@
 		
 			<programlisting language="gradle">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/tasks/help_task_command_line.txt" />
-			</programlisting>
+					parse="text" href="./examples/tasks/help_task_command_line.txt[]
+----
 		
 	
 
@@ -39,8 +39,8 @@
 		
 			<programlisting language="gradle">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/tasks/tasks_command_line_init.txt" />
-			</programlisting>
+					parse="text" href="./examples/tasks/tasks_command_line_init.txt[]
+----
 		
 	
 

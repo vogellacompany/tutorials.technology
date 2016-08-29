@@ -20,8 +20,8 @@
 		
 			<programlisting language="java">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text"
-					href="./examples/controlstructure/GroovyTruth.groovy" />
-			</programlisting>
+					href="./examples/controlstructure/GroovyTruth.groovy[]
+----
 		
 		<note>
 			This evaluation is commonly known in the Groovy worlds as
@@ -29,7 +29,7 @@
 			.
 		
 
-	</section>
+
 	<section id="controlstructures_if">
 === if statements
 		
@@ -42,7 +42,7 @@
 			`if`
 			and Groovy will evaluate this Groovy truth value.
 		
-	</section>
+
 	<section id="controlstructures_switch">
 === switch statement and the isCase method
 
@@ -82,7 +82,7 @@ include::res/switch/SwitchTest.groovy[]
 		
 
 
-	</section>
+
 
 	<section id="controlstructuress_safenull">
 === Safe navigation operator
@@ -98,10 +98,10 @@ include::res/switch/SwitchTest.groovy[]
 		
 		
 			<programlisting>
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/safenull/safenull.txt" />
-			</programlisting>
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/safenull/safenull.txt[]
+----
 		
-	</section>
+
 	<section id="controlstructures_elvis">
 === Elvis operator
 		
@@ -114,10 +114,9 @@ include::res/switch/SwitchTest.groovy[]
 		
 		
 			<programlisting>
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/elvis/elvis.txt" />
-			</programlisting>
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/elvis/elvis.txt[]
+----
 		
 
-	</section>
 
-</section>
+

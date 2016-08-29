@@ -47,7 +47,7 @@ image::webreview10.png[]
 			of the repository
 			it is important to provide a good commit message.
 		
-	</section>
+
 	<section id="webreview_reviewresult">
 === Publishing your review result
 		
@@ -90,7 +90,7 @@ image::webreview30.png[]
 		
 
 
-	</section>
+
 	<section id="webreview_adjustingthechange">
 === Improve a change based on review feedback
 		
@@ -211,7 +211,7 @@ image::webreview50.png[]
 				</textobject>
 			</mediaobject>
 		
-	</section>
+
 	<section id="webreview_keyboardshortcuts">
 === Keyboard shortcuts in Gerrit
 
@@ -235,7 +235,7 @@ image::gerrit_shortcuts10.png" scale="25" />
 			your are.
 		
 
-	</section>
+
 	<section id="webreview_getting">
 === Fetching a remote change into a local Git repository
 		
@@ -267,7 +267,7 @@ image::webreviewpull10.png[]
 			that two developers
 			do the same work.
 		
-	</section>
+
 
 	<section id="webreview_gettingeclpise">
 === Fetching a remote change with Eclipse Git
@@ -310,7 +310,7 @@ image::webreviewpull10.png[]
 				</mediaobject>
 			
 		
-	</section>
+
 
 	<section id="webreview_editintheweb">
 === Edit a change directly via the web interface
@@ -331,6 +331,5 @@ image::editingerrit10.png[]
 			.
 		
 
-	</section>
 
-</section>
+

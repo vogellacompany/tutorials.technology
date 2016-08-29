@@ -11,7 +11,7 @@
 			`fromjava`
 			.
 		
-	</section>
+
 	<section id="converttogroovy_javabean">
 === Create a Java class
 		
@@ -21,8 +21,8 @@
 		
 		
 			<programlisting>
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/first/Task1.java" />
-			</programlisting>
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/first/Task1.java[]
+----
 		
 		
 			Use the code generation capacities of the Eclipse IDE to
@@ -37,11 +37,11 @@
 
 		
 			<programlisting>
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/first/Task.java" />
-			</programlisting>
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/first/Task.java[]
+----
 		
 
-	</section>
+
 	<section id="converttogroovy_main">
 === Main method
 		
@@ -53,18 +53,15 @@
 
 		
 			<programlisting>
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/first/MainTest.java" />
-			</programlisting>
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/first/MainTest.java[]
+----
 		
-	</section>
+
 	<section id="converttogroovy_convert">
 === Convert to Groovy
 		
 			Right-click on your project and select
-			<menuchoice>
-				<guimenu>Configure</guimenu>
-				<guisubmenu>Convert to Groovy Project</guisubmenu>
-			</menuchoice>
+menu:Configure[Convert to Groovy Project]
 			. This adds the Groovy libraries to the project classpath and adds
 			the Groovy builder.
 		
@@ -72,13 +69,10 @@
 			Right-click on your
 			`Task`
 			class and select
-			<menuchoice>
-				<guimenu>Convert</guimenu>
-				<guisubmenu>Convert file extension to Groovy </guisubmenu>
-			</menuchoice>
+menu:Convert[Convert file extension to Groovy ]
 			.
 		
-	</section>
+
 	<section id="converttogroovy_project_validate">
 === Simplify the Task class
 		
@@ -91,7 +85,7 @@
 			used it in an Java program.
 		
 
-	</section>
+
 	<section id="converttogroovy_project_asttransformation">
 === Replace the toString and equals/hashCode method
 		<note>
@@ -112,5 +106,4 @@
 			<xref linkend="asttransformations" />
 			for more details.
 		
-	</section>
-</section>
+

@@ -6,8 +6,8 @@
 		
 			<programlisting language="gradle">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/wrapper/wrappertask.gradle" />
-			</programlisting>
+					parse="text" href="./examples/wrapper/wrappertask.gradle[]
+----
 		
 	
 	<section id="exercise_custom_copy_task">
@@ -23,8 +23,8 @@
 		
 			<programlisting language="gradle">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/tasks/copy_task_type.gradle" />
-			</programlisting>
+					parse="text" href="./examples/tasks/copy_task_type.gradle[]
+----
 		
 		
 			Create a
@@ -60,8 +60,8 @@ image::buildSrc_Tasks.png[]
 		
 			<programlisting language="gradle">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/tasks/CheckWebsite.groovy" />
-			</programlisting>
+					parse="text" href="./examples/tasks/CheckWebsite.groovy[]
+----
 		
 		
 			Since this class has external dependencies to jsoup, a
@@ -80,8 +80,8 @@ image::buildSrc_Tasks.png[]
 		
 			<programlisting language="gradle">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/tasks/buildSrcCheckWebsite.gradle" />
-			</programlisting>
+					parse="text" href="./examples/tasks/buildSrcCheckWebsite.gradle[]
+----
 		
 		
 			Finally the main
@@ -93,8 +93,8 @@ image::buildSrc_Tasks.png[]
 		
 			<programlisting language="gradle">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/tasks/Checkwebsite.gradle" />
-			</programlisting>
+					parse="text" href="./examples/tasks/Checkwebsite.gradle[]
+----
 		
 	
 

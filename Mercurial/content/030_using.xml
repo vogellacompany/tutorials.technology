@@ -19,8 +19,8 @@
 		
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/using/version.txt" />
-			</programlisting>
+					parse="text" href="../examples/using/version.txt[]
+----
 		
 
 		 Create and switch to your desired work directory . 
@@ -30,8 +30,8 @@
 		
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/using/clone.txt" />
-			</programlisting>
+					parse="text" href="../examples/using/clone.txt[]
+----
 		
 
 		
@@ -62,8 +62,8 @@
 
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/ignore/hgignore.txt" />
-			</programlisting>
+					parse="text" href="../examples/ignore/hgignore.txt[]
+----
 		
 	
 	<section id="using_javaproject">
@@ -78,8 +78,8 @@
 		
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/javaproject/Test.java" />
-			</programlisting>
+					parse="text" href="../examples/javaproject/Test.java[]
+----
 		
 	
 
@@ -89,15 +89,15 @@
 		
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/using/add.txt" />
-			</programlisting>
+					parse="text" href="../examples/using/add.txt[]
+----
 		
 		 Commit.  
 		
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/using/commit.txt" />
-			</programlisting>
+					parse="text" href="../examples/using/commit.txt[]
+----
 		
 
 		 If you have checked out the Mercurial project from another site
@@ -106,16 +106,16 @@
 		
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/using/push.txt" />
-			</programlisting>
+					parse="text" href="../examples/using/push.txt[]
+----
 		
 
 		 Check the history via:
 		
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/using/log.txt" />
-			</programlisting>
+					parse="text" href="../examples/using/log.txt[]
+----
 		
 	
 
@@ -128,15 +128,15 @@
 		
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/javaproject/Test2.java" />
-			</programlisting>
+					parse="text" href="../examples/javaproject/Test2.java[]
+----
 		
 		 Add the new files to Mercurial.  
 		
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/using/add.txt" />
-			</programlisting>
+					parse="text" href="../examples/using/add.txt[]
+----
 		
 		 A rename in Java removes the old file. Mercurial will report
 			these files as missing (hg status). You can use the following command
@@ -146,8 +146,8 @@
 		
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/using/addremove.txt" />
-			</programlisting>
+					parse="text" href="../examples/using/addremove.txt[]
+----
 		
 
 		 You can now commit. The -A flag in the commit command would
@@ -156,8 +156,8 @@
 		
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/using/commitadd.txt" />
-			</programlisting>
+					parse="text" href="../examples/using/commitadd.txt[]
+----
 		
 	
 	<section id="using_diff">
@@ -169,8 +169,8 @@
 		
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/using/changes.txt" />
-			</programlisting>
+					parse="text" href="../examples/using/changes.txt[]
+----
 		
 	
 	<section id="using_revert">
@@ -180,8 +180,8 @@
 		
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/using/revert.txt" />
-			</programlisting>
+					parse="text" href="../examples/using/revert.txt[]
+----
 		
 
 	

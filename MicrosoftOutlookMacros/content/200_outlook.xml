@@ -8,7 +8,7 @@
 			with
 			the cleanviews switch helps. Start-> Run -> outlook /cleanviews
 		
-	</section>
+
 	<section id="msoutlook_signature">
 === Signature for macros
 		 If you want to use macros automatically in Outlook you need to
@@ -20,7 +20,7 @@
 			warning but the macro should run. You might have to change your
 			security settings under "Tools -> Trust Center on the tab macros".
 		
-	</section>
+
 	<section id="msoutlook_security">
 === A program is trying to access e-mail addresses you have stored
 			in Outlook
@@ -32,5 +32,4 @@
 			http://www.mapilab.com/de/outlook/security/"> Advanced Security for Outlook</ulink>
 			from MAPILab will solve this problem.
 		
-	</section>
-</section>
+

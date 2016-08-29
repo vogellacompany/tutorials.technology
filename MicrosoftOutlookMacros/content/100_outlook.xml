@@ -18,10 +18,10 @@
 		
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/reply/replymacro_short.txt" />
-			</programlisting>
+					parse="text" href="../examples/reply/replymacro_short.txt[]
+----
 		
-	</section>
+
 	<section id="msoutlook_movemail">
 === Macro for moving email to specified folder
 		 I gave up on sorting manually my email a long time ago. Now I
@@ -33,11 +33,10 @@
 		
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/move/movemacro.txt" />
-			</programlisting>
+					parse="text" href="../examples/move/movemacro.txt[]
+----
 		
-	</section>
+
 	
 	
 
-</section>

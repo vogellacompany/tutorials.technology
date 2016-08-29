@@ -11,8 +11,8 @@
 		
 			<programlisting language="bourne">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/server/startNetworkServer" />
-			</programlisting>
+					parse="text" href="../examples/server/startNetworkServer[]
+----
 		
 		
 
@@ -24,8 +24,8 @@
 		
 			<programlisting language="bourne">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/server/startNetworkServer2" />
-			</programlisting>
+					parse="text" href="../examples/server/startNetworkServer2[]
+----
 		
 		By default Derby will only accept connections from the
 			localhost. To make the Derby server accept connections also from
@@ -38,8 +38,8 @@
 		
 			<programlisting language="bourne">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/server/startNetworkServer3" />
-			</programlisting>
+					parse="text" href="../examples/server/startNetworkServer3[]
+----
 		
 		If connections should be allowed from localhost and any other
 			server use the following.
@@ -47,10 +47,10 @@
 		
 			<programlisting language="bourne">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/server/startNetworkServer4" />
-			</programlisting>
+					parse="text" href="../examples/server/startNetworkServer4[]
+----
 		
-	</section>
+
 	<section id="servermode_java">
 === Connect to the Derby Server via Java
 		To connect to the network server via Java code you need to have
@@ -65,8 +65,8 @@
 		
 			<programlisting language="bourne">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/server/connect" />
-			</programlisting>
+					parse="text" href="../examples/server/connect[]
+----
 		
 		If you want to connect to an existing database you can use the
 			following string.
@@ -74,8 +74,8 @@
 		
 			<programlisting language="bourne">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/server/connectExisting.txt" />
-			</programlisting>
+					parse="text" href="../examples/server/connectExisting.txt[]
+----
 		
 		 For example a small Java client might look like the following.
 			This assumes that you have already created a schema called a table
@@ -84,8 +84,7 @@
 		
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/server/DerbyTest.java" />
-			</programlisting>
+					parse="text" href="../examples/server/DerbyTest.java[]
+----
 		
-	</section>
-</section>
+

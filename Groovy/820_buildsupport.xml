@@ -14,12 +14,12 @@
 		
 		
 			<programlisting language="xml">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/maven/pomaddition.xml" />
-			</programlisting>
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/maven/pomaddition.xml[]
+----
 		
 
 
-	</section>
+
 
 	<section id="using_groovy_gradlebuild">
 === Using Groovy in a Gradle build
@@ -35,5 +35,4 @@ include::res/gradle/build.gradle[]
 		
 
 
-	</section>
-</section>
+

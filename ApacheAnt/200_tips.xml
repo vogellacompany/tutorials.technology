@@ -9,18 +9,18 @@
 		
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/tips/define.txt" />
-			</programlisting>
+					parse="text" href="./examples/tips/define.txt[]
+----
 		
 		 This property can later be used for example as a parameter.
 		
 		
 			<programlisting language="xml">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/tips/use.txt" />
-			</programlisting>
+					parse="text" href="./examples/tips/use.txt[]
+----
 		
-	</section>
+
 	<section id="tips_regularexpressions">
 === Regular expressions
 		
@@ -32,12 +32,11 @@
 		
 			<programlisting language="xml">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/regex/example.xml" />
-			</programlisting>
+					parse="text" href="./examples/regex/example.xml[]
+----
 		
 
 
 
-	</section>
 
-</section>
+

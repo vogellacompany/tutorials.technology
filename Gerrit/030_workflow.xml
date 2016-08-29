@@ -70,7 +70,7 @@
 			local branch.
 		
 
-	</section>
+
 
 	<section id="gerritsetup_workflow1">
 === Gerrit vs. Git workflow
@@ -82,7 +82,7 @@
 			discouraged in Git, in Gerrit it is the normal
 			process.
 		
-	</section>
+
 	<section id="gerritsetup_workflow2">
 === Gerrit vs. GitHub workflow
 		The Gerrit review system is based on the assumption that each commit
@@ -90,5 +90,4 @@
 		at GitHub, a complete
 		branch is reviewed
 		and merging with the pull request.
-	</section>
-</section>
+

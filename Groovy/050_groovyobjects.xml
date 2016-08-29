@@ -18,10 +18,10 @@
 		
 		
 			<programlisting>
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/explained/SumItUp.groovy" />
-			</programlisting>
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/explained/SumItUp.groovy[]
+----
 		
-	</section>
+
 
 	<section id="groovyobjects_fields">
 === Groovy objects (Plain Old Groovy Objects) and fields
@@ -64,7 +64,7 @@
 			, in this case Groovy will not provide a setter.
 		
 
-	</section>
+
 
 
 	<section id="groovyobjects_constructors">
@@ -106,10 +106,10 @@
 		
 		
 			<programlisting>
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/explained/Person.groovy" />
-			</programlisting>
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/explained/Person.groovy[]
+----
 		
-	</section>
+
 	<section id="groovyobjects_equals">
 === Equals, == and the method is()
 		 One difference between Java and Groovy is that the == operator
@@ -133,7 +133,7 @@
 			`equals`
 			method.
 		
-	</section>
+
 	<section id="groovyobjects_parameter">
 === Optional parameters in methods
 		 Groovy allows to have optional parameter values. Optional
@@ -141,10 +141,10 @@
 		
 		
 			<programlisting>
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/explained/DefaultValues.groovy" />
-			</programlisting>
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/explained/DefaultValues.groovy[]
+----
 		
-	</section>
+
 
 
 	<section id="groovyobjects_default_parameter">
@@ -165,5 +165,4 @@
 			eliminated then the next, etc.
 		
 
-	</section>
-</section>
+

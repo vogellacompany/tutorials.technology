@@ -10,7 +10,7 @@
 			you can
 			methods and properties at runtime to existing objects.
 		
-	</section>
+
 
 	<section id="mop_methodandpropertyacces">
 === Calling methods or accessing properties on a Groovy object
@@ -50,7 +50,7 @@
 			it pretends to have certain method.
 		
 
-	</section>
+
 	<section id="mop_addingpropertiesandmethods">
 === Adding methods and properties
 		
@@ -60,9 +60,8 @@
 		
 		
 			<programlisting>
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/mop/AddMethods.groovy" />
-			</programlisting>
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/mop/AddMethods.groovy[]
+----
 		
-	</section>
 
-</section>
+

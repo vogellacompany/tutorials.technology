@@ -1,8 +1,7 @@
 <section id="introduction">
-	<title>Ubuntu
+== Ubuntu
 	Ubuntu Linux is a full fledged Linux system trailed for the
 		desktop.
 		Ubuntu builds a unique user interface and offers the users a
 		solid choice of tools.
 	
-</section>

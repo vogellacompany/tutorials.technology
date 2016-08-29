@@ -44,8 +44,7 @@
 === Include and Exclude particular Tests
 		
 			The test configuration in general is described at
-			<ulink
-				url="https://docs.gradle.org/current/dsl/org.gradle.api.tasks.testing.Test.html">https://docs.gradle.org/current/dsl/org.gradle.api.tasks.testing.Test.html
+https://docs.gradle.org/current/dsl/org.gradle.api.tasks.testing.Test.html">https://docs.gradle.org/current/dsl/org.gradle.api.tasks.testing.Test.html
 			</ulink>
 			.
 		
@@ -63,15 +62,15 @@
 		
 			<programlisting language="gradle">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/test/include.gradle" />
-			</programlisting>
+					parse="text" href="./examples/test/include.gradle[]
+----
 		
 		Skip excluded tests:
 		
 			<programlisting language="gradle">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/test/exclude.gradle" />
-			</programlisting>
+					parse="text" href="./examples/test/exclude.gradle[]
+----
 		
 	
 

@@ -36,7 +36,7 @@ image::downloadgroovycommandline.png[]
 				</textobject>
 			</mediaobject>
 		
-	</section>
+
 
 	<section id="install_springgroovytools">
 === Installation of the Groovy tools for the Eclipse IDE
@@ -51,10 +51,7 @@ image::downloadgroovycommandline.png[]
 			installation.
 			Open the Eclipse Update
 			manager via the
-			<menuchoice>
-				<guimenu>Help</guimenu>
-				<guisubmenu>Install New Software...</guisubmenu>
-			</menuchoice>
+menu:Help[Install New Software...]
 			menu entry
 			to install the Groovy Eclipse plug-in. Enter the following
 			URL in this dialog:
@@ -78,7 +75,7 @@ image::eclipsegroovyinstallation10.png[]
 			https://github.com/groovy/groovy-eclipse/wiki">Groovy/Grails Tool Suite™ Downloads</ulink>
 			if you use a different release than Eclipse 4.5.
 		
-	</section>
+
 	<section id="install_intellij">
 === Installation of the Groovy tools for the IntelliJ IDE
 		
@@ -86,5 +83,5 @@ image::eclipsegroovyinstallation10.png[]
 			https://www.jetbrains.com/idea/download/">IntelliJ IDEA Community edition</ulink>
 			for free which includes support for Groovy.
 		
-	</section>
-</section>
+
+

@@ -16,8 +16,8 @@
 		
 			<programlisting language="bourne">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/user/createuser" />
-			</programlisting>
+					parse="text" href="./examples/user/createuser[]
+----
 		
 		You can create new user groups and add the user to the
 			new group with the following command.
@@ -26,10 +26,10 @@
 		
 			<programlisting language="bourne">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/user/group.txt" />
-			</programlisting>
+					parse="text" href="./examples/user/group.txt[]
+----
 		
-	</section>
+
 	
 	<section id="usermanagement_root">
 === Giving root access
@@ -39,8 +39,8 @@
 		
 			<programlisting language="bourne">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/user/sudouser" />
-			</programlisting>
+					parse="text" href="./examples/user/sudouser[]
+----
 		
 		
 			To change the default shell of the user to
@@ -54,10 +54,10 @@
 		
 			<programlisting language="bourne">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/user/shell" />
-			</programlisting>
+					parse="text" href="./examples/user/shell[]
+----
 		
-	</section>
+
 	
 	<section id="usermanagement_home">
         <title>Manually creating the home directory
@@ -73,7 +73,7 @@
                     parse="text" href="./examples/user/home" />
             </programlisting>
         
-    </section>
+    
 	
 	
 	<section id="usermanagement_delete">
@@ -82,8 +82,7 @@
 		
 			<programlisting language="bourne">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/user/delete.txt" />
-			</programlisting>
+					parse="text" href="./examples/user/delete.txt[]
+----
 		
-	</section>
-</section>
+

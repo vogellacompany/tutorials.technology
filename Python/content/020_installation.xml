@@ -11,7 +11,7 @@
 			use the native installer for Python.
 		
 
-	</section>
+
 
 	<section id="installation_eclipse">
 === Eclipse Python plugin
@@ -32,7 +32,7 @@
 			via the
 			following update site: http://pydev.org/updates
 		
-	</section>
+
 
 	<section id="configuration">
 === Configuration of Eclipse
@@ -40,20 +40,12 @@
 			You also have to maintain in Eclipse the location of your
 			Python
 			installation. Open in the
-			<menuchoice>
-				<guimenu>Window</guimenu>
-				<guisubmenu>Preference</guisubmenu>
-				<guisubmenu>Pydev</guisubmenu>
-				<guisubmenu>Interpreter Python</guisubmenu>
-			</menuchoice>
+menu:Window[Preference > Pydev > Interpreter Python]
 			menu.
 		
 
 		
-image::pydev02.gif" />
-
-				</imageobject>
-			</mediaobject>
+image::pydev02.gif[]
 		
 
 		
@@ -68,10 +60,7 @@ image::pydev02.gif" />
 			normally /usr/bin/python.
 		
 		
-image::pydev04.gif" />
-
-				</imageobject>
-			</mediaobject>
+image::pydev04.gif[]
 		
 
 		<warning>
@@ -82,11 +71,7 @@ image::pydev04.gif" />
 		
 		The result should look like the following.
 		
-image::pydev06.gif" />
-
-				</imageobject>
-			</mediaobject>
+image::pydev06.gif[]
 		
 
-	</section>
-</section>
+

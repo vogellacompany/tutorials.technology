@@ -13,8 +13,8 @@
 		
 			<programlisting language="java">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/fail/fail1.txt" />
-			</programlisting>
+					parse="text" href="./examples/fail/fail1.txt[]
+----
 		
 
 
@@ -23,8 +23,7 @@
 		
 			<programlisting language="java">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/fail/fail2.txt" />
-			</programlisting>
+					parse="text" href="./examples/fail/fail2.txt[]
+----
 		
-	</section>
-</section>
+

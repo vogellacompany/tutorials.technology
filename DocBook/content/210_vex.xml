@@ -11,7 +11,7 @@
 			editor. Since August 2008 the
 			plug-in is part of the Eclipse project.
 		
-	</section>
+
 	<xinclude in="${tutorials}/82_Book_Eclipse_IDE/book.xml" out="${outputtmp.dir}/82_Book_Eclipse_IDE/book.xml" />
 	<section id="vex_2">
 === Installation
@@ -19,10 +19,10 @@
 		
 			<programlisting language="text">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/vex/updatesites.txt" />
-			</programlisting>
+					parse="text" href="../examples/vex/updatesites.txt[]
+----
 		
-	</section>
+
 	<section id="vex_3">
 === Usage
 		
@@ -41,5 +41,5 @@ image::vex-example.png[]
 			`XInclude`
 			is just ignored.
 		
-	</section>
-</section>
+
+

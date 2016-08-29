@@ -11,7 +11,7 @@
 			independent models, platform specific models and code
 			models.
 		
-	</section>
+
 	<section id="mda_overview_s1s2b">
 === Platform Independent Model (PIM)
 		
@@ -21,7 +21,7 @@
 			not specific operating system, programming language and
 			hardware.
 		
-	</section>
+
 
 	<section id="mda_overview_s1s2c">
 === Platform Specific Model (PSM)
@@ -32,7 +32,7 @@
 			implementations for a PIM are possible then several PSM are
 			formulated.
 		
-	</section>
+
 
 	<section id="mda_overview_s1s2d">
 === Code Mode
@@ -41,6 +41,6 @@
 			this code could be directly compiled and deployed without
 			human interaction.
 		
-	</section>
 
-</section>
+
+

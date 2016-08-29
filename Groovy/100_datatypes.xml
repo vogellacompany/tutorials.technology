@@ -12,8 +12,8 @@
 		
 		
 			<programlisting>
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/explained/Type.groovy" />
-			</programlisting>
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/explained/Type.groovy[]
+----
 		
 		At runtime variables and fields are always typed, Groovy infers
 			the type based on your source code. This means
@@ -26,7 +26,7 @@
 			Such declarations are
 			only valid in scripts and become part of the scripts binding.
 		
-	</section>
+
 	<section id="groovyobjects_generics">
 === Groovy and generics
 		
@@ -36,7 +36,7 @@
 			<xref linkend="asttransformations" />
 			to learn more about AST transformations.
 		
-	</section>
+
 	<section id="datatypes_overview">
 === All types are objects
 		 All variables in Groovy are objects (reference variables),
@@ -47,7 +47,7 @@
 			translates this into
 			the object.
 		
-	</section>
+
 
 	<section id="datatypes_numbers">
 === Numbers
@@ -75,8 +75,8 @@
 		
 		
 			<programlisting>
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/datatypes/TypesTest.groovy" />
-			</programlisting>
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/datatypes/TypesTest.groovy[]
+----
 		
 
 		The operators, like + or - are also mapped to methods by Groovy.
@@ -152,7 +152,7 @@
 			|===
 		
 
-	</section>
+
 
 	<section id="datatypes_ranges">
 === Ranges
@@ -167,8 +167,8 @@
 
 		
 			<programlisting>
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/datatypes/RangesTest.groovy" />
-			</programlisting>
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/datatypes/RangesTest.groovy[]
+----
 		
 		You can use Strings for the definition of ranges, these ranges
 			follow the alphabet.
@@ -187,5 +187,4 @@
 			interface. The methods map to the
 			++ and -- operators.
 		
-	</section>
-</section>
+

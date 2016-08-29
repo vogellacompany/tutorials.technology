@@ -17,7 +17,7 @@
 		Groovy provides several AST transformations which allows you to
 			reduce the amount of code you have to write.
 		
-	</section>
+
 
 	<section id="asttransformations_tupleConstructor">
 === @TupleConstructor
@@ -26,7 +26,7 @@
 			`@TupleConstructor`
 			Groovy generates a constructor using all fields.
 		
-	</section>
+
 	<section id="asttransformations_equals">
 === @EqualsAndHashCode
 		
@@ -43,11 +43,11 @@
 		
 			<programlisting language="java">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text"
-					href="./examples/ast/TaskEqualsAndHashCode.groovy" />
-			</programlisting>
+					href="./examples/ast/TaskEqualsAndHashCode.groovy[]
+----
 		
 
-	</section>
+
 	<section id="asttransformations_toString">
 === @ToString for beans
 		
@@ -78,19 +78,19 @@ include::res/ast/TaskToString.groovy[]
 ----
 		
 
-	</section>
+
 	<section id="asttransformations_canonical">
 === @Canonical 
 		Combines @ToString, @EqualsAndHashCode and
 			@TupleConstructor.
 		
-	</section>
+
 	<section id="asttransformations_immutable">
 === @Immutable for immutable Java beans
 		This annotation marks all fields in a class as final and ensure that there are no setters generate for the
 			fields. It also creates a constructor for all fields, marks the class as final.
 		
-	</section>
+
 
 	<section id="asttransformations_delegate">
 === @Delegate
@@ -98,7 +98,7 @@ include::res/ast/TaskToString.groovy[]
 			delegate. If several delegates define the same method, it is recommended to override the method. If you do not
 			override Groovy will use the first method it finds.
 		
-	</section>
+
 	<section id="asttransformations_sort">
 === @Sortable for beans
 		
@@ -114,7 +114,7 @@ include::res/ast/TaskToString.groovy[]
 include::res/ast/TaskSortable.groovy[]
 ----
 		
-	</section>
+
 	<section id="asttransformations_memoize">
 === @Memoize for methods
 		
@@ -137,7 +137,7 @@ include::res/ast/CallMemoizedExample.groovy[]
 ----
 		
 
-	</section>
+
 	<section id="asttransformations_annotationCollector">
 === @AnnotationCollector for combining AST Transformations
 			annotations
@@ -163,10 +163,10 @@ include::res/ast/Person.groovy[]
 		
 			<programlisting language="java">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text"
-					href="./examples/ast/TestPojoAnnotationCollector.groovy" />
-			</programlisting>
+					href="./examples/ast/TestPojoAnnotationCollector.groovy[]
+----
 		
-	</section>
+
 
 	<section id="asttransformations_bindable">
 === @Bindable observable Properties
@@ -197,7 +197,7 @@ include::res/ast/Person.groovy[]
 			one property.
 		
 
-	</section>
+
 
 	<section id="asttransformations_builder">
 === @Builder
@@ -215,7 +215,7 @@ include::res/ast/TaskWithBuilder.groovy[]
 include::res/ast/TestBuilder.groovy[]
 ----
 		
-	</section>
+
 
 	<section id="groovy_grapes">
 === @Grab for dependency management
@@ -230,8 +230,8 @@ include::res/ast/TestBuilder.groovy[]
 		
 		
 			<programlisting>
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/grap/grapexample.gradle" />
-			</programlisting>
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/grap/grapexample.gradle[]
+----
 		
 
 		
@@ -244,7 +244,7 @@ include::res/ast/TestBuilder.groovy[]
 		
 
 
-	</section>
+
 	<section id="asttransformations_others">
 === Other AST Transformations
 		
@@ -284,7 +284,7 @@ include::res/ast/TestBuilder.groovy[]
 				
 			|===
 		
-	</section>
+
 	<section id="asttransformations2">
 === Writing custom transformations
 		You can also define you custom local or global transformations.
@@ -300,5 +300,4 @@ include::res/ast/TestBuilder.groovy[]
 			compilation without the need for additional
 			customization.
 		
-	</section>
-</section>
+

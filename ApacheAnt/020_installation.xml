@@ -6,11 +6,10 @@
 			Ant
 			requires the installation of the Java Development Kit
 			(JDK). See
-			<ulink
-				url="http://www.vogella.com/tutorials/JavaIntroduction/article.html"> Java introduction</ulink>
+http://www.vogella.com/tutorials/JavaIntroduction/article.html"> Java introduction</ulink>
 			for a description how to install Java.
 		
-	</section>
+
 
 	<section id="installation_ubuntu">
 === Ubuntu
@@ -22,7 +21,7 @@
 			documentation of your
 			vendor.
 		
-	</section>
+
 	<section id="installation_windows">
 === Windows
 		
@@ -63,5 +62,4 @@
 		
 
 
-	</section>
-</section>
+

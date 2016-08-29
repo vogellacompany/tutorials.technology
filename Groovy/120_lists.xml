@@ -20,8 +20,8 @@ include::res/datatypes/Person.groovy[]
 		
 		
 			<programlisting>
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/datatypes/ListTest.groovy" />
-			</programlisting>
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/datatypes/ListTest.groovy[]
+----
 		
 
 		Groovy allows direct property access for a list of items. This
@@ -31,12 +31,12 @@ include::res/datatypes/Person.groovy[]
 		
 			<programlisting language="java">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text"
-					href="./examples/datatypes/ListPropertyAccess.groovy" />
-			</programlisting>
+					href="./examples/datatypes/ListPropertyAccess.groovy[]
+----
 		
 
 
-	</section>
+
 	<section id="datatypes_list_arrayconvert">
 === Convert a list to an array and vice versa
 
@@ -44,12 +44,12 @@ include::res/datatypes/Person.groovy[]
 		
 			<programlisting language="java">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text"
-					href="./examples/datatypes/ConvertArrayToList.groovy" />
-			</programlisting>
+					href="./examples/datatypes/ConvertArrayToList.groovy[]
+----
 		
 		
 		
-	</section>
+
 	<section id="datatypes_list_methods">
 === List methods
 		
@@ -99,7 +99,7 @@ include::res/datatypes/Person.groovy[]
 			`grep`
 			method can be used to filter elements in a collection.
 		
-	</section>
+
 
 
 	<section id="datatypes_list_operatoroverloading">
@@ -110,7 +110,7 @@ include::res/datatypes/Person.groovy[]
 			<wordasword>left-shift operator</wordasword>
 			to add elements to a list.
 		
-	</section>
+
 	<section id="datatypes_list_spreaddotoperator">
 === Spreaddot operator
 		
@@ -128,7 +128,7 @@ include::res/datatypes/SpreadDot.groovy[]
 
 
 
-	</section>
+
 
 	<section id="datatypes_list_search">
 === Searching in a list with find, findall and grep
@@ -161,5 +161,5 @@ include::res/grep/GrepExample.groovy[]
 ----
 		
 
-	</section>
-</section>
+
+

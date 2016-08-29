@@ -10,10 +10,10 @@
 		
 			<programlisting language="bourne">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/network/openports.txt" />
-			</programlisting>
+					parse="text" href="./examples/network/openports.txt[]
+----
 		
-	</section>
+
 	<section id="network_ssh">
 === SSH access to the server
 		
@@ -47,8 +47,8 @@
 		
 			<programlisting language="bourne">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/hosts/config" />
-			</programlisting>
+					parse="text" href="./examples/hosts/config[]
+----
 		
 
 		
@@ -58,10 +58,10 @@
 		
 			<programlisting language="bourne">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/hosts/uploadpublicssh" />
-			</programlisting>
+					parse="text" href="./examples/hosts/uploadpublicssh[]
+----
 		
-	</section>
+
 
 	<section id="network_firewall">
 === Firewall
@@ -72,11 +72,11 @@
 		
 			<programlisting language="bourne">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/ufw/setup.txt" />
-			</programlisting>
+					parse="text" href="./examples/ufw/setup.txt[]
+----
 		
 
-	</section>
+
 
 	<section id="network_commands">
 === Network commands
@@ -136,7 +136,7 @@
 				
 			
 		|===
-	</section>
+
 	<section id="network_curl">
 === HTTP debugging with curl
 		
@@ -147,8 +147,8 @@
 		
 			<programlisting language="bourne">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/network/curlgetpage.txt" />
-			</programlisting>
+					parse="text" href="./examples/network/curlgetpage.txt[]
+----
 		
 		 If you want to the HTTPrequest header (including the HTTP
 			status
@@ -160,8 +160,8 @@
 		
 			<programlisting language="bourne">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/network/curlinfo.txt" />
-			</programlisting>
+					parse="text" href="./examples/network/curlinfo.txt[]
+----
 		
 		
 			You can set HTTP header information with the -h flag. For
@@ -171,16 +171,16 @@
 		
 			<programlisting language="bourne">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/network/curlheader.txt" />
-			</programlisting>
+					parse="text" href="./examples/network/curlheader.txt[]
+----
 		
 
 		To use curl behind a proxy.
 		
 			<programlisting language="bourne">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/network/curlproxy.txt" />
-			</programlisting>
+					parse="text" href="./examples/network/curlproxy.txt[]
+----
 		
 		
 			<tip>
@@ -189,14 +189,14 @@
 				.
 			
 		
-	</section>
+
 	<section id="network_irc">
 === IRC
 		
 			For IRC communication you can use the tool xchat. To install it,
 			use "sudo apt-get install xchat".
 		
-	</section>
+
 
 	<section id="network_ftp">
 === FTP
@@ -216,5 +216,4 @@ image::ftp_menu.png[]
 			</mediaobject>
 		
 
-	</section>
-</section>
+

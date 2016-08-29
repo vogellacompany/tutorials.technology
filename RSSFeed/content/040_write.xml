@@ -6,8 +6,8 @@
 		
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/write/RSSFeedWriter.java" />
-			</programlisting>
+					parse="text" href="../examples/write/RSSFeedWriter.java[]
+----
 		
 	
 
@@ -25,8 +25,8 @@
 		
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/write/WriteTest.java" />
-			</programlisting>
+					parse="text" href="../examples/write/WriteTest.java[]
+----
 		
 	
 

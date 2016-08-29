@@ -116,7 +116,7 @@
 				
 			|===
 		
-	</section>
+
 
 	<section id="docbooktags_warnings">
 === Warnings
@@ -145,10 +145,10 @@
 		
 			<programlisting language="xml">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/warning/warning.xml" />
-			</programlisting>
+					parse="text" href="./examples/warning/warning.xml[]
+----
 		
-	</section>
+
 
 	<section id="docbooktags_linebreak">
 === Line break
@@ -157,7 +157,7 @@
 			can create an explicit line break with the <![CDATA[<sbr/> ]]>
 			command.
 		
-	</section>
+
 
 	<section id="docbooktags_link">
 === References to other elements
@@ -165,7 +165,7 @@
 			You link to different elements in Docbook with
 			<![CDATA[<xref linkend="id_of_the_element"/> ]]>.
 		
-	</section>
+
 
 	<section id="docbooktags_legal">
 === Legal Notice
@@ -177,10 +177,10 @@
 		
 			<programlisting language="xml">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/legalnotice.xml" />
-			</programlisting>
+					parse="text" href="./examples/legalnotice.xml[]
+----
 		
-	</section>
+
 
 	<section id="docbooktags_index">
 === Index
@@ -193,24 +193,24 @@
 		
 			<programlisting language="xml">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/indexelement1.xml" />
-			</programlisting>
+					parse="text" href="./examples/indexelement1.xml[]
+----
 		
 		You can add a secondary index term.
 		
 			<programlisting language="xml">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/indexelement2.xml" />
-			</programlisting>
+					parse="text" href="./examples/indexelement2.xml[]
+----
 		
 		You can also place a reference to another index term.
 		
 			<programlisting language="xml">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/indexelement3.xml" />
-			</programlisting>
+					parse="text" href="./examples/indexelement3.xml[]
+----
 		
-	</section>
+
 
 	<section id="docbooktags_table">
 === Tables
@@ -218,10 +218,10 @@
 		
 			<programlisting language="xml">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/exampletable.xml" />
-			</programlisting>
+					parse="text" href="./examples/exampletable.xml[]
+----
 		
-	</section>
+
 
 	<section id="docbooktags_lists">
 === Lists
@@ -229,18 +229,18 @@
 		
 			<programlisting language="xml">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/simplelist.xml" />
-			</programlisting>
+					parse="text" href="./examples/simplelist.xml[]
+----
 		
 
 		You can create numbered lists like this:
 		
 			<programlisting language="xml">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/numberedlist.xml" />
-			</programlisting>
+					parse="text" href="./examples/numberedlist.xml[]
+----
 		
-	</section>
+
 
 	<section id="docbooktags_links">
 === Links
@@ -250,7 +250,7 @@
 			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
 				parse="text" href="./examples/link/examplelink.xml[]
 ----
-	</section>
+
 
 	<section id="docbooktags_graphics">
 === Graphics
@@ -286,23 +286,20 @@
 			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
 				parse="text" href="./examples/images/figure.xml[]
 ----
-	</section>
+
 
 	<section id="docbooktags_menu">
 === Menus
 		
 			To define menu paths, as, for example,
-			<menuchoice>
-				<guimenu>File</guimenu>
-				<guisubmenu>New Project</guisubmenu>
-			</menuchoice>,
+menu:File[New Project],
 			use the following
 		
 		<programlisting language="xml">
 			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
 				parse="text" href="./examples/gui/menu.xml[]
 ----
-	</section>
+
 
 	<section id="docbooktags_shortcuts">
 === Keyboard Shortcuts
@@ -320,5 +317,5 @@
 			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
 				parse="text" href="./examples/gui/shortcut.xml[]
 ----
-	</section>
-</section>
+
+

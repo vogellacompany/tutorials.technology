@@ -36,7 +36,7 @@ include::res/closures/Tiny.groovy[]
 ----
 		
 
-	</section>
+
 
 	<section id="groovyclosures_defaultvalues">
 === Defining default values in a closure
@@ -46,13 +46,13 @@ include::res/closures/Tiny.groovy[]
 		
 			<programlisting language="java">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text"
-					href="./examples/closures/ClosureDefaultValue.groovy" />
-			</programlisting>
+					href="./examples/closures/ClosureDefaultValue.groovy[]
+----
 		
 
 
 
-	</section>
+
 	<section id="groovyclosures2">
 === Example: Using closures in the each method
 
@@ -61,10 +61,10 @@ include::res/closures/Tiny.groovy[]
 		
 		
 			<programlisting>
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/closures/ClosureEachTest.groovy" />
-			</programlisting>
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/closures/ClosureEachTest.groovy[]
+----
 		
-	</section>
+
 	<section id="groovyclosures_sortlist">
 === Example: Sort a list by lenght of the string
 
@@ -73,10 +73,10 @@ include::res/closures/Tiny.groovy[]
 		
 		
 			<programlisting>
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/closures/ClosureTest.groovy" />
-			</programlisting>
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/closures/ClosureTest.groovy[]
+----
 		
-	</section>
+
 
 	<section id="groovyclosures_with">
 === Using the with method
@@ -94,5 +94,4 @@ include::res/closures/WithExample.groovy[]
 ----
 		
 
-	</section>
-</section>
+

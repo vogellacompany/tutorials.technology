@@ -22,7 +22,7 @@
 				</listitem>
 			</itemizedlist>
 		
-	</section>
+
 	
 	<section id="commandline_console">
         <title>The Groovy Console
@@ -37,7 +37,7 @@
                 </imageobject>
             </mediaobject>
         
-    </section>
+    
     
 	<section id="commandline_groovyshell">
 === The Groovy shell
@@ -52,11 +52,11 @@
 		
 		
 			<programlisting>
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/helloworld/hello" />
-			</programlisting>
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/helloworld/hello[]
+----
 		
 		 Press enter-> the system will execute your code.
-	</section>
+
 	
 
 	<section id="groovycode_compile">
@@ -71,5 +71,4 @@
 			`groovyc Hello.groovy`
 			command.
 		
-	</section>
-</section>
+

@@ -57,7 +57,7 @@
 		
 
 
-	</section>
+
 	<section id="python_blocks">
 === Block concept in
 			<wordasword>Python</wordasword>
@@ -83,7 +83,7 @@
 			indentation
 			level.
 		
-	</section>
+
 	<section id="python_tutorial">
 === About this tutorial
 		This tutorial will first explain how to install Python and the
@@ -91,6 +91,5 @@
 			project to show the usage of the plugin. Afterwards the general
 			constructs of Python are explained.
 		
-	</section>
 
-</section>
+

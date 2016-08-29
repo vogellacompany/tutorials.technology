@@ -20,4 +20,3 @@
 	 With this notation an algorithm is said to have a O(n) runtime
 		if the runtime increases linear with the number of input elements. It
 		has O(n^2) if the runtime increases quadratic, etc. 
-</section>

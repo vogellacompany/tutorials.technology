@@ -22,7 +22,7 @@
 			status.
 		
 
-	</section>
+
 	<section id="gerrit_usersetup_ssh">
 === SSH setup
 		
@@ -74,7 +74,7 @@ image::gerritsetup30.png[]
 				</textobject>
 			</mediaobject>
 		
-	</section>
+
 	<section id="gerrit_usersetup_https">
 === HTTPS setup
 		You can also enter a password for HTTPS access.
@@ -87,5 +87,4 @@ image::gerritsetuphttpspw.png[]
 			</mediaobject>
 		
 
-	</section>
-</section>
+

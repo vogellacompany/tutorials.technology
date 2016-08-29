@@ -18,7 +18,7 @@
 			used for every possible repetitive tasks, e.g. generating
 			documentation.
 		
-	</section>
+
 
 	<section id="antoverview_definition">
 === Configuring Apache Ant
@@ -98,5 +98,4 @@
 			explicit target
 			is specified.
 		
-	</section>
-</section>
+

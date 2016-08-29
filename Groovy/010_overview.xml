@@ -46,7 +46,7 @@
 			elvis
 			operator.
 		
-	</section>
+
 	<section id="groovy_types">
 === Groovy classes and scripts 
 		
@@ -71,7 +71,7 @@ include::res/first/HelloWorld.groovy[]
 
 
 
-	</section>
+
 
 	<section id="groovy_compatibility">
 === Compatibility with Java
@@ -109,7 +109,7 @@ include::res/first/HelloWorld.groovy[]
 			relatively smooth.
 		
 		Groovy does currently not support Java 8 lambda expressions.
-	</section>
+
 	<section id="groovy_feature">
 === Reasons to use Groovy
 		
@@ -191,7 +191,7 @@ include::res/first/HelloWorld.groovy[]
 
 		
 
-	</section>
+
 
 	<section id="groovy_imports">
 === Imports in Groovy 
@@ -231,5 +231,4 @@ include::res/first/HelloWorld.groovy[]
 			`import javax.swing.WindowConstants as WC`
 			.
 		
-	</section>
-</section>
+

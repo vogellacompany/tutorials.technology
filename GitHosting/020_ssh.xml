@@ -36,7 +36,7 @@
 			corresponding
 			private key.
 		
-	</section>
+
 	<section id="ssh_keygeneration">
 === SSH key pair generation
 
@@ -58,19 +58,13 @@
 		
 			<programlisting language="bourne">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/ssh/generate.txt" />
-			</programlisting>
+					parse="text" href="./examples/ssh/generate.txt[]
+----
 		
 
 		
 			The Eclipse IDE allows you to create an SSH key pair via
-			<menuchoice>
-				<guimenu>Window</guimenu>
-				<guisubmenu>Preferences</guisubmenu>
-				<guisubmenu>General</guisubmenu>
-				<guisubmenu>Network Connection</guisubmenu>
-				<guisubmenu>SSH2</guisubmenu>
-			</menuchoice>
+menu:Window[Preferences > General > Network Connection > SSH2]
 			.
 		
 		
@@ -173,5 +167,4 @@ image::eclipseide_sshgen.png" scale="30" />
 				
 			
 		
-	</section>
-</section>
+

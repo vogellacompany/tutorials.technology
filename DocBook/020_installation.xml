@@ -17,7 +17,7 @@
 			is
 			required.
 		
-	</section>
+
 
 	<section id="installation_sheets">
 === Docbook and Stylesheets
@@ -33,7 +33,7 @@
 			http://sourceforge.net/projects/docbook/files/docbook-xsl/">
 				XSLT stylesheets</ulink>
 		
-	</section>
+
 
 	<section id="installation_xslprocessor">
 === XSL processor
@@ -56,7 +56,7 @@
 			`saxon.jar`
 			is later needed.
 		
-	</section>
+
 
 	<section id="installation_issues">
 === Issues
@@ -67,8 +67,8 @@
 		
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/error/error.txt" />
-			</programlisting>
+					parse="text" href="./examples/error/error.txt[]
+----
 		
 		
 			In this case try adding the
@@ -77,6 +77,5 @@
 			and see if that resolves the
 			error.
 		
-	</section>
 
-</section>
+

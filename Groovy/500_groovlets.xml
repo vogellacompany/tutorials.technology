@@ -32,7 +32,7 @@
 			</itemizedlist>
 		
 
-	</section>
+
 	<section id="groovlets_downloadgroovy">
 === Download the groovy-all.jar
 		To use Groovy on the server you need to deploy Groovy on the
@@ -47,7 +47,7 @@
 			`groovy-all`
 			and download the JAR file of the latest release.
 		
-	</section>
+
 	<section id="groovlets_example">
 === Exercise: Using Groovy on the server
 		
@@ -80,8 +80,8 @@
 		
 			<programlisting language="java">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/groovlets/test.groovy" />
-			</programlisting>
+					parse="text" href="./examples/groovlets/test.groovy[]
+----
 		
 
 		
@@ -92,19 +92,19 @@
 		
 			<programlisting language="java">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/groovlets/web.xml" />
-			</programlisting>
+					parse="text" href="./examples/groovlets/web.xml[]
+----
 		
 
 
-	</section>
+
 	<section id="groovlets_validate">
 === Validate that it run on the server
 		Start your web application and validates that you can access the
 			Groovlet. Also inspect the source of the HTML and validate that it
 			really is HTML code.
 		
-	</section>
+
 
 	<section id="groovlets_extend">
 === Exercise: Extend your Groovlet
@@ -120,6 +120,5 @@
                     parse="text" href="./examples/groovlets/test2.groovy" />
             </programlisting>
         
-	</section>
 
-</section>
+

@@ -7,8 +7,8 @@
 		
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/install/ubuntu.txt" />
-			</programlisting>
+					parse="text" href="../examples/install/ubuntu.txt[]
+----
 		
 		
 			The installation of Mercurial for other platforms is described in 

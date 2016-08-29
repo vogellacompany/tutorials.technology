@@ -14,8 +14,8 @@
 		
 			<programlisting language="bourne">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/unity/menu.txt" />
-			</programlisting>
+					parse="text" href="./examples/unity/menu.txt[]
+----
 		
 		
 			To open this type "Menu Manager" in the Dash. Choose
@@ -24,7 +24,7 @@
 		
 		 In the panel click and hold Alt to quick switch/launch apps.
 		
-	</section>
+
 	<section id="tipcs_numble">
 === Chat applications
 		
@@ -37,11 +37,11 @@
 		
 			<programlisting language="bourne">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/tools/mumble-install.txt" />
-			</programlisting>
+					parse="text" href="./examples/tools/mumble-install.txt[]
+----
 		
 
-	</section>
+
 
 	<section id="tipcs_teamviewer">
 === Sharing desktop
@@ -54,7 +54,7 @@
 			http://www.teamviewer.com/.
 		
 
-	</section>
+
 	<section id="tipcs_remotexserver">
 === Remote xserver
 		
@@ -66,17 +66,15 @@
 			http://wiki.x2go.org/.
 		
 
-	</section>
+
 	<section id="tipcs_eclipse">
 === Eclipse IDE configuration
 		
 			See
-			<ulink
-				url="http://devblog.virtage.com/2013/06/eclipse-and-eclipse-based-apps-on-ubuntu-13-04-desktop-hacks/">Eclipse and Ubuntu</ulink>
+http://devblog.virtage.com/2013/06/eclipse-and-eclipse-based-apps-on-ubuntu-13-04-desktop-hacks/">Eclipse and Ubuntu</ulink>
 			for an introduction into the configuration of the Eclipse IDE under
 			Ubuntu.
 		
 
-	</section>
 
-</section>
+

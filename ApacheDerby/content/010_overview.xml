@@ -14,7 +14,7 @@
 			JDBC
 			is the Java interface to connect to databases.
 		
-	</section>
+
 
 	<section id="derby_modes">
 === Server vs. embedded mode
@@ -47,5 +47,4 @@
 			to access
 			the database.
 		
-	</section>
-</section>
+

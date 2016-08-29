@@ -52,7 +52,7 @@
 			rebase your commits afterwards.
 		
 
-	</section>
+
 
 	<section id="gitworkflows_workingwithtworepositories">
 === Working with two repositories
@@ -76,8 +76,8 @@
 		
 			<programlisting language="bourne">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/addremote/step1.txt" />
-			</programlisting>
+					parse="text" href="../examples/addremote/step1.txt[]
+----
 		
 
 		
@@ -90,8 +90,8 @@
 		
 			<programlisting language="bourne">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/addremote/step2.txt" />
-			</programlisting>
+					parse="text" href="../examples/addremote/step2.txt[]
+----
 		
 		
 			Afterwards you can pull from your new repository called
@@ -101,11 +101,11 @@
 		
 			<programlisting language="bourne">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/addremote/step3.txt" />
-			</programlisting>
+					parse="text" href="../examples/addremote/step3.txt[]
+----
 		
 
-	</section>
+
 	<section id="gitworkflows_pullrequests">
 === Using pull requests
 		<indexterm>
@@ -144,6 +144,6 @@
 				for details.
 			
 		
-	</section>
 
-</section>
+
+

@@ -16,12 +16,12 @@ image::languagesettingsoffice20.gif"/>
 				</imageobject>
 			</mediaobject>
 		
-	</section>
+
 	<section id="stuff_languagegeneral">
 === Language Settings
 		 Control Panel -> Regional and Language Settings -> Languages
 			Click on Details and then Key Settings
-	</section>
+
 	
 	<section id="stuff_networkdrive">
 === Map a network drive
@@ -39,7 +39,7 @@ image::mapnetworkdriver20.gif"/>
 				</imageobject>
 			</mediaobject>
 		
-	</section>
+
 	<section id="stuff_linktoolbar">
 === Create a link toolbar
 		 If you want to have quick access to your folders / network
@@ -76,5 +76,4 @@ image::owntoolbar40.gif" />
 				</imageobject>
 			</mediaobject>
 		
-	</section>
-</section>
+

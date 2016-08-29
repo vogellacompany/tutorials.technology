@@ -30,7 +30,7 @@
 			are
 			available,
 		
-	</section>
+
 	<section id="overview_types">
 === Documents classes
 		
@@ -60,7 +60,7 @@
 				</listitem>
 			</itemizedlist>
 		
-	</section>
+
 	<section id="overview_versions">
 === DocBook versions
 		
@@ -73,7 +73,7 @@
 			`4.5`
 			version which seems to be the version that is still heavily used.
 		
-	</section>
+
 
 	<section id="overview_example">
 === DocBook Example
@@ -81,16 +81,16 @@
 			The following listing shows an example of a DocBook article.
 			<programlisting language="xml">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/firstdocbook/article.xml" />
-			</programlisting>
+					parse="text" href="./examples/firstdocbook/article.xml[]
+----
 		
 
 		
 			The following listing shows an example of a DocBook book.
 			<programlisting language="xml">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/firstdocbook/book.xml" />
-			</programlisting>
+					parse="text" href="./examples/firstdocbook/book.xml[]
+----
 		
 
 		
@@ -98,6 +98,5 @@
 			DTD file of
 			the docbook download.
 		
-	</section>
 
-</section>
+

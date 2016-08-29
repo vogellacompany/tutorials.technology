@@ -13,15 +13,15 @@
 		
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/javagroovy/Person.groovy" />
-			</programlisting>
+					parse="text" href="./examples/javagroovy/Person.groovy[]
+----
 		
 		 Create the following Java class.
 		
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/javagroovy/Main.java" />
-			</programlisting>
+					parse="text" href="./examples/javagroovy/Main.java[]
+----
 		
 		 You should be able to run this Java program.
 		Right-click your project, select "Properties" and
@@ -29,27 +29,23 @@
 			build path includes the Groovy libraries.
 		
 		
-image::javagroovy10.gif" />
-
-				</imageobject>
-			</mediaobject>
+image::javagroovy10.gif[]
 		
-	</section>
+
 	<section id="script">
 === Calling a script
 		
 			<programlisting language="java">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/script/ExecuteGroovyViaJSR223.java" />
-			</programlisting>
+					parse="text" href="./examples/script/ExecuteGroovyViaJSR223.java[]
+----
 		
 		
 			<programlisting language="java">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/script/hello.groovy" />
-			</programlisting>
+					parse="text" href="./examples/script/hello.groovy[]
+----
 		
 
 
-	</section>
-</section>
+

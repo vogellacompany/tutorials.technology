@@ -59,7 +59,7 @@ saving, use ":q!".
 
 
 A simple editor with a graphical user interface is gedit. 
-</section>
+
 
 
 
@@ -137,7 +137,7 @@ command can also be combined with the grep command. See
 http://www.vogella.com/tutorials/UnixGrep/article.html">Using the grep command</ulink>
 .
 
-</section>
+
 <section id="commands_foldersize">
 <title>Calculate the size of a folder
 
@@ -151,7 +151,7 @@ megabyte.
 parse="text" href="./examples/du/du.txt" />
 </programlisting>
 
-</section>
+
 <section id="commands_rm">
 <title>Remove files
 
@@ -168,7 +168,7 @@ parse="text" href="./examples/rm/rm.txt" />
 </programlisting>
 
 
-</section>
+
 <section id="commands_ps">
 <title>Processes
 To see all running processes on your system use
@@ -178,7 +178,7 @@ To see all running processes on your system use
 parse="text" href="./examples/process/process" />
 </programlisting>
 
-</section>
+
 
 <section id="commands_chown">
 <title>Change owner of files and directories
@@ -205,7 +205,7 @@ directory "mydir" and its subdirectories.
 
 
 |===
-</section>
+
 <section id="commands_link">
 <title>Creating links
 
@@ -219,7 +219,7 @@ following command.
 parse="text" href="./examples/link/soft.txt" />
 </programlisting>
 
-</section>
+
 
 <section id="commands_zip">
 <title>Zipping files

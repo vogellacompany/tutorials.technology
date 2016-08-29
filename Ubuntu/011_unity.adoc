@@ -28,7 +28,7 @@ image::dash10.png[]
 				</textobject>
 			</mediaobject>
 		
-	</section>
+
 
 	<section id="unity_fileexplorer">
 === Nautilus as file explorer
@@ -58,7 +58,7 @@ image::nautilus20.png[]
 			</mediaobject>
 		
 
-	</section>
+
 	<section id="unity_newentries">
 === Adding entries to the launcher
 		
@@ -71,10 +71,10 @@ image::nautilus20.png[]
 		
 		
 			<programlisting language="desktop">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/launcher/eclipse.desktop" />
-			</programlisting>
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/launcher/eclipse.desktop[]
+----
 		
-	</section>
+
 
 
 	<section id="unity_shortcuts">
@@ -106,6 +106,5 @@ image::nautilus20.png[]
 				
 			|===
 		
-	</section>
 
-</section>
+

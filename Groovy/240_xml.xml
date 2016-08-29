@@ -34,11 +34,11 @@
 		
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/explained/XmlTest.groovy" />
-			</programlisting>
+					parse="text" href="./examples/explained/XmlTest.groovy[]
+----
 		
 
-	</section>
+
 	<section id="generating_markuptemplateengine">
 === Using the MarkupTemplateEngine to generated Markup
 		
@@ -61,11 +61,11 @@
 		
 			<programlisting language="java">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/builder/MarkupTemplateEngineExample.groovy" />
-			</programlisting>
+					parse="text" href="./examples/builder/MarkupTemplateEngineExample.groovy[]
+----
 		
 		Templates support includes.
-	</section>
+
 	<section id="examples_markupBuilder">
 === Creating Markup (XML) files with the MarkupBuilder
 		
@@ -77,8 +77,8 @@
 		
 			<programlisting language="java">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/builder/TestMarkupWriter.groovy" />
-			</programlisting>
+					parse="text" href="./examples/builder/TestMarkupWriter.groovy[]
+----
 		
 		The builder in Groovy uses the method names to construct the
 			node
@@ -90,8 +90,8 @@
 		
 			<programlisting language="java">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/builder/TestMarkupWriterMap.groovy" />
-			</programlisting>
+					parse="text" href="./examples/builder/TestMarkupWriterMap.groovy[]
+----
 		
 
 
@@ -100,11 +100,10 @@
 		
 			<programlisting language="java">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/builder/TestMarkupHtml.groovy" />
-			</programlisting>
+					parse="text" href="./examples/builder/TestMarkupHtml.groovy[]
+----
 		
-	</section>
 
 
 
-</section>
+

@@ -8,7 +8,7 @@
 			http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html"
 			>putty</ulink>
 		
-	</section>
+
 	<section id="connect_terminal">
 === Switch to Console mode from Graphical User Interface
 		
@@ -29,5 +29,4 @@
 			</keycombo>
 			shortcut keys.
 		
-	</section>
-</section>
+

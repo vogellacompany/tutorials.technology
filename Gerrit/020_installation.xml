@@ -23,7 +23,7 @@
 			testing or rapid deployment. The following
 			description uses this approach.
 		
-	</section>
+
 	<section id="gerrit_installation_setup">
 === Setup of Gerrit
 		
@@ -154,8 +154,8 @@ include::res/install/start.txt[]
 		
 		
 			<programlisting language="batch">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/install/windows.txt" />
-			</programlisting>
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/install/windows.txt[]
+----
 		
 		
 			This starts Gerrit.
@@ -176,5 +176,4 @@ include::res/install/start.txt[]
 			
 		
 
-	</section>
-</section>
+

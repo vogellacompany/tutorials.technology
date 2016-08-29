@@ -7,10 +7,10 @@
 		
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/install/installtomcat" />
-			</programlisting>
+					parse="text" href="../examples/install/installtomcat[]
+----
 		
-	</section>
+
 	<section id="installation_windows">
 === Windows
 		
@@ -19,5 +19,4 @@
 			and run the installer.
 		
 
-	</section>
-</section>
+

@@ -5,7 +5,7 @@
 		 Eclipse supports the creation of UML2 diagrams via UML2 Tools
 			project. UML2 Tools is a set of GMF-based editors for viewing and
 			editing UML models.
-	</section>
+
 	<section id="uml_definition">
 === Definition
 		
@@ -36,7 +36,7 @@
 			create automatically a software program
 			from several models.
 		
-	</section>
+
 
 	<section id="uml_profiles">
 === UML Profiles
@@ -52,5 +52,5 @@
 			can be used to
 			support the modeling of J2EE software components.
 		
-	</section>
-</section>
+
+

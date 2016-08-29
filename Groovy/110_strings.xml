@@ -30,8 +30,8 @@
 		
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/datatypes/StringTesting.groovy" />
-			</programlisting>
+					parse="text" href="./examples/datatypes/StringTesting.groovy[]
+----
 		
 		
 			The definition of these different types of Strings is
@@ -96,7 +96,7 @@
 			`trim`
 			method removes is applied to remove leading and trailing whitespace.
 		
-	</section>
+
 
 	<section id="groovy_strings2">
 === Operator overloading in Strings
@@ -106,5 +106,5 @@
 			<wordasword>left-shift operator</wordasword>
 			to add to a String.
 		
-	</section>
-</section>
+
+

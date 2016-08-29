@@ -6,10 +6,10 @@
 		
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/comments/comments.txt" />
-			</programlisting>
+					parse="text" href="../examples/comments/comments.txt[]
+----
 		
-	</section>
+
 	<section id="development_variables">
 === Variables
 		Python provides dynamic typing of its variables, e.g. you do not
@@ -18,10 +18,10 @@
 		
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/variables/variables.txt" />
-			</programlisting>
+					parse="text" href="../examples/variables/variables.txt[]
+----
 		
-	</section>
+
 	<section id="development_assertions">
 === Assertions
 		Python provides assertions. These assertions are always
@@ -30,10 +30,10 @@
 		
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/assertions/assertions.txt" />
-			</programlisting>
+					parse="text" href="../examples/assertions/assertions.txt[]
+----
 		
-	</section>
+
 	<section id="development_methods">
 === Methods / Functions in Python
 		 Python allows to define methods via the keyword def. As the
@@ -42,10 +42,10 @@
 		
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/methods/methodtester.py" />
-			</programlisting>
+					parse="text" href="../examples/methods/methodtester.py[]
+----
 		
-	</section>
+
 	<section id="development_conditionals">
 === Loops and if clauses
 		 The following demonstrates a loop the usage of an if-clause.
@@ -54,10 +54,10 @@
 		
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/conditional/IfTest.py" />
-			</programlisting>
+					parse="text" href="../examples/conditional/IfTest.py[]
+----
 		
-	</section>
+
 
 	<section id="development_strings">
 === String manipulation
@@ -132,10 +132,10 @@
 		
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/string/stringTester.py" />
-			</programlisting>
+					parse="text" href="../examples/string/stringTester.py[]
+----
 		
-	</section>
+
 	<section id="development_concatenate">
 === Concatenate strings and numbers
 		 Python does not allow to concatenate a string directly with a
@@ -149,10 +149,10 @@
 		
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/string/stringNumberConcatenate.py" />
-			</programlisting>
+					parse="text" href="../examples/string/stringNumberConcatenate.py[]
+----
 		
-	</section>
+
 	<section id="development_lists">
 === Lists
 		 Python has good support for lists. See the following example
@@ -163,20 +163,20 @@
 		
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/list/List.py" />
-			</programlisting>
+					parse="text" href="../examples/list/List.py[]
+----
 		
 		 If you want to remove the duplicates from a list you can use:
 		
 		
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/list/ListDuplicates.py" />
-			</programlisting>
+					parse="text" href="../examples/list/ListDuplicates.py[]
+----
 		
 
 
-	</section>
+
 	<section id="textfiles">
 === Processing files in Python
 		 The following example is contained in the project
@@ -187,8 +187,8 @@
 		
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/file/Readfile.py" />
-			</programlisting>
+					parse="text" href="../examples/file/Readfile.py[]
+----
 		
 
 		 The following reads the same file but write the output to
@@ -196,10 +196,10 @@
 		
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/file/ReadWriteFile.py" />
-			</programlisting>
+					parse="text" href="../examples/file/ReadWriteFile.py[]
+----
 		
-	</section>
+
 
 	<section id="splitstring">
 === Splitting strings and comparing lists.
@@ -210,11 +210,11 @@
 		
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/split/CompareFiles.py" />
-			</programlisting>
+					parse="text" href="../examples/split/CompareFiles.py[]
+----
 		
 
-	</section>
+
 	<section id="unicode">
 === Writing Python Scripts in Unicode
 		 If you read special non ASCII sign, e.g. ö, ä. ü or ß, you have
@@ -224,11 +224,11 @@
 			
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/utf/example.txt" />
-			</programlisting>
+					parse="text" href="../examples/utf/example.txt[]
+----
 		
 			
-	</section>
+
 	<section id="classes">
 === Classes in Python
 		 The following is a defined class in Python. Python uses the
@@ -271,8 +271,7 @@
 		
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/classes/Point.py" />
-			</programlisting>
+					parse="text" href="../examples/classes/Point.py[]
+----
 		
-	</section>
-</section>
+

@@ -31,8 +31,8 @@
 		
 		
 			<programlisting language="gradle">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/java/build.gradle" />
-			</programlisting>
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/java/build.gradle[]
+----
 		
 		
 			To start the build, type
@@ -50,8 +50,8 @@
 		
 		
 			<programlisting language="gradle">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/java/sourcesets.gradle" />
-			</programlisting>
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/java/sourcesets.gradle[]
+----
 		
 	
 
@@ -91,8 +91,8 @@ image::gradle_init_java_library.png[]
 		
 		
 			<programlisting language="gradle">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/java/build_init_java.gradle" />
-			</programlisting>
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/java/build_init_java.gradle[]
+----
 		
 		
 			A project hosted at Github
@@ -120,8 +120,8 @@ image::gradle_init_java_library.png[]
 		
 			<programlisting language="gradle">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text"
-					href="./examples/java/build_version_sourceComp.gradle" />
-			</programlisting>
+					href="./examples/java/build_version_sourceComp.gradle[]
+----
 		
 		
 			When the
@@ -138,8 +138,8 @@ image::gradle_init_java_library.png[]
 		
 		
 			<programlisting language="gradle">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/java/main_class.gradle" />
-			</programlisting>
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/java/main_class.gradle[]
+----
 		
 	
 

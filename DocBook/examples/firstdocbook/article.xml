@@ -20,12 +20,12 @@
 			<section>
 		=== First sub section
 				Subsection1
-			</section>
+		
 			<section>
 		=== second sub section
 				 Subsection2
-			</section>
-		</section>
+		
+	
 		<section>
 	=== Second section in the chapter
 			Other random text
@@ -37,7 +37,7 @@ image::title.png[]
 					</textobject>
 			</mediaobject>
 			
-		</section>
+	
 	</chapter>
 
 	<chapter>
@@ -45,9 +45,9 @@ image::title.png[]
 		<section>
 	=== My Title
 			More...
-		</section>
+	
 		<section>
 	=== Other title
 			Blabla
-		</section>
+	
 	</chapter>

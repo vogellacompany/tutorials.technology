@@ -18,4 +18,3 @@
 		to the nodes which store the data and not vice versa. Especially if
 		you have very large data this helps to improve the performance as you
 		can avoid that the network becomes the bottleneck. 
-</section>

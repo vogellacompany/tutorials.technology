@@ -3,7 +3,7 @@
 	<section id="firstgroovy_target">
 === Target of this exercise
 		In this exercise you learn how to create Groovy program with the Eclipse IDE.
-	</section>
+
 	<section id="firstgroovy_project">
 === Create a new Groovy project
 		
@@ -15,13 +15,7 @@
 			Create a new Groovy project called
 			<wordasword>com.vogella.groovy.first</wordasword>
 			the
-			<menuchoice>
-				<guimenu>File</guimenu>
-				<guisubmenu>New</guisubmenu>
-				<guisubmenu>Other</guisubmenu>
-				<guisubmenu>Groovy</guisubmenu>
-				<guisubmenu>Groovy Project</guisubmenu>
-			</menuchoice>
+menu:File[New > Other > Groovy > Groovy Project]
 			.
 		
 		
@@ -57,10 +51,7 @@ image::groovyfirst30.png[]
 		
 		
 			Right click on the source folder and
-			<menuchoice>
-				<guimenu>New</guimenu>
-				<guisubmenu>Package</guisubmenu>
-			</menuchoice>
+menu:New[Package]
 			from the context menu. Create a new package called
 			`first`
 			.
@@ -69,13 +60,7 @@ image::groovyfirst30.png[]
 			Create a new Groovy class called
 			`FirstGroovy`
 			via
-			<menuchoice>
-				<guimenu>File</guimenu>
-				<guisubmenu>New</guisubmenu>
-				<guisubmenu>Other</guisubmenu>
-				<guisubmenu>Groovy</guisubmenu>
-				<guisubmenu>Groovy Class</guisubmenu>
-			</menuchoice>
+menu:File[New > Other > Groovy > Groovy Class]
 			.
 		
 		
@@ -89,21 +74,18 @@ image::groovyfirst40.png[]
 		Create the following code.
 		
 			<programlisting>
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/first/FirstGroovy.groovy" />
-			</programlisting>
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/first/FirstGroovy.groovy[]
+----
 		
-	</section>
+
 	<section id="firstgroovy_project_run">
 === Run the Groovy class
 		
 			Right-click the Groovy class, and select
-			<menuchoice>
-				<guimenu>Run As</guimenu>
-				<guisubmenu>Groovy Script</guisubmenu>
-			</menuchoice>
+menu:Run As[Groovy Script]
 			from the context menu.
 		
-	</section>
+
 	<section id="firstgroovy_project_validate">
 === Validate the Groovy class
 		
@@ -115,6 +97,5 @@ image::groovyfirst40.png[]
 		
 
 		 Congratulation! You created and ran your first Groovy class.
-	</section>
+
 	
-</section>

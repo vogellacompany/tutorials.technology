@@ -5,24 +5,20 @@
 	<section id="resources_databinding">
 === Android Resources
 		
-			<ulink
-				url="http://www.vogella.com/tutorials/Android/article.html">
+http://www.vogella.com/tutorials/Android/article.html">
 				Android Tutorial</ulink>
 		
 		
-			<ulink
-				url="http://www.vogella.com/tutorials/AndroidLocationAPI/article.html">
+http://www.vogella.com/tutorials/AndroidLocationAPI/article.html">
 				Android Location API and Google Maps</ulink>
 		
 		
-			<ulink
-				url="http://www.vogella.com/tutorials/AndroidNetworking/article.html">
+http://www.vogella.com/tutorials/AndroidNetworking/article.html">
 				Android and Networking</ulink>
 		
 
-	</section>
+
 
 	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../10_Include/resources.xml" />
 
 
-</section>

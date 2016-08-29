@@ -56,14 +56,13 @@
 		
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text"
-					href="./examples/datatypes/RegularExpressionTest.groovy" />
-			</programlisting>
+					href="./examples/datatypes/RegularExpressionTest.groovy[]
+----
 		
 		
 			Groovy also provides the
 			`replaceAll`
 			method, which allows to define a closure for the replacement.
 		
-	</section>
 
-</section>
+

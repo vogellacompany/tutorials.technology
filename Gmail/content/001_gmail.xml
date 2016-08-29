@@ -14,7 +14,7 @@
 				</listitem>
 			</itemizedlist>
 		
-	</section>
+
 	<section id="gmaillabels">
 === Assign automatic labels to emails
 		
@@ -56,20 +56,16 @@ image::gmaillabel1.jpg" />
 			own inbox.
 		
 
-	</section>
+
 	<section id="gmail_emailtemplates">
 === Email templates
 		
 			To activate templates select
-			<menuchoice>
-				<guimenu>Settings</guimenu>
-				<guisubmenu>Labs</guisubmenu>
-				<guisubmenu>Channed Responsess</guisubmenu>
-			</menuchoice>
+menu:Settings[Labs > Channed Responsess]
 			and select
 			<guilabel>Activate</guilabel>
 			. Afterwards you have a new line under your subject which allows you
 			to create or use a template.
 		
-	</section>
-</section>
+
+

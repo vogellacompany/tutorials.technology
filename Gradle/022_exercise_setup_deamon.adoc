@@ -26,8 +26,8 @@
 		
 			<programlisting language="java">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/daemon/gradle.properties" />
-			</programlisting>
+					parse="text" href="./examples/daemon/gradle.properties[]
+----
 		
 	
 	<section id="exercise_gradle_daemon_validate">
@@ -43,8 +43,8 @@
 		
 			<programlisting language="java">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/daemon/daemon-notice.txt" />
-			</programlisting>
+					parse="text" href="./examples/daemon/daemon-notice.txt[]
+----
 		
 	
 

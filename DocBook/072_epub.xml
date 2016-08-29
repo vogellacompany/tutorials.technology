@@ -67,10 +67,10 @@
 		
 			<programlisting language="bourne">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/epubvalidate/validate.sh" />
-			</programlisting>
+					parse="text" href="./examples/epubvalidate/validate.sh[]
+----
 		
-	</section>
+
 
 	<section id="epub_ant">
 === Creating EPUB files with Apache Ant
@@ -83,8 +83,8 @@
 		
 			<programlisting language="xml">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/epub/book.xml" />
-			</programlisting>
+					parse="text" href="./examples/epub/book.xml[]
+----
 		
 		
 			This book refers to the
@@ -106,8 +106,8 @@
 		
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/epub/mimetype" />
-			</programlisting>
+					parse="text" href="./examples/epub/mimetype[]
+----
 		
 		
 			The following Ant `build.xml` file will create EPUB
@@ -116,8 +116,8 @@
 		
 			<programlisting language="xml">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/epub/buildepub.xml" />
-			</programlisting>
+					parse="text" href="./examples/epub/buildepub.xml[]
+----
 		
 		
 			I personally see the following issues. Please let me know if you have
@@ -144,5 +144,4 @@
 				Ant for EPUB Blog Entry</ulink>
 			from Tony Graham.
 		
-	</section>
-</section>
+

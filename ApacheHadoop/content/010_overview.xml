@@ -13,14 +13,14 @@
 			clients (computers) are called nodes. 
 		 The "name node" is currently a single point of failure. The
 			Hadoop project is working on solutions for this. 
-	</section>
+
 	<section id="tasks">
 === Typical tasks
 		 Apache Hadoop can be used to filter and aggregate data, e.g. a
 			typical use case would be the analysis of web server logs file to find
 			the most visited pages. But MapReduce has been use to transverse the
 			graphs and other tasks.
-	</section>
+
 
 
 	<section id="functions">
@@ -30,6 +30,5 @@
 			Hadoop provides also linker so that map and reduce functions can be
 			written in other languages, e.g. C++, Python, Per, etc. 
 	
-	</section>
 
-</section>
+

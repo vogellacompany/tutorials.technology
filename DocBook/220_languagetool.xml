@@ -33,27 +33,24 @@ image::languagetool-eclipse-editor.png[]
 				</imageobject>
 			</mediaobject>
 		
-	</section>
+
 
 	<section id="languagetool_installation">
 === Installation
 		You can install LanguageTool via an Eclipse update site:
 		
 			<programlisting language="text">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/languagetool/updatesite.txt" />
-			</programlisting>
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/languagetool/updatesite.txt[]
+----
 		
 
-	</section>
+
 
 	<section id="languagetool_usage">
 === Usage
 		
 			To enable LanguageTool click
-			<menuchoice>
-				<guimenu>Window</guimenu>
-				<guisubmenu>Preferences</guisubmenu>
-			</menuchoice>
+menu:Window[Preferences]
 			and select LanguageTool in the drop-down box.
 		
 		
@@ -71,7 +68,7 @@ image::languagetool-eclipse-preferences.png[]
 				dictionary and additional rules.
 			
 		
-	</section>
+
 	<section id="languagetool_rules">
 === Developing custom LanguageTools rules
 		
@@ -97,13 +94,13 @@ image::languagetool-eclipse-preferences.png[]
 			http://wiki.languagetool.org/java-api">LanguageTool API</ulink>
 			to embed the functionality in your own Java projects.
 		
-	</section>
+
 	<section id="languagetool_words">
 === Reporting new words
 		New words missing in the directory should be reported in https://github.com/kevina/wordlist/issues. Please check
 			if these words are already in the following directory: https://github.com/marcoagpinto/aoo-mozilla-en-dict
 		
-	</section>
+
 	<section id="languagetool_onlineresources">
 === Language tools forum
 
@@ -112,6 +109,6 @@ image::languagetool-eclipse-preferences.png[]
 			http://languagetool-user-forum.2306527.n4.nabble.com/">Language Tool forum</ulink>
 			.
 		
-	</section>
 
-</section>
+
+

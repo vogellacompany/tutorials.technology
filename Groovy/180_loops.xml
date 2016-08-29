@@ -14,7 +14,7 @@
 			`do while`
 			loop.
 		
-	</section>
+
 	<section id="groovyloops?each">
 === Using the each method
 		
@@ -44,8 +44,8 @@
 		
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/loop/PrintLoop.groovy" />
-			</programlisting>
+					parse="text" href="./examples/loop/PrintLoop.groovy[]
+----
 		
 		
 			Groovy provides also the
@@ -53,7 +53,7 @@
 			method which provides two parameters, the first is the element and
 			the second it the index.
 		
-	</section>
+
 	<section id="groovyloops_numbers">
 === Iterative with numbers 
 
@@ -80,8 +80,7 @@
 		
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/loop/LoopTest.groovy" />
-			</programlisting>
+					parse="text" href="./examples/loop/LoopTest.groovy[]
+----
 		
-	</section>
-</section>
+

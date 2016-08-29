@@ -92,4 +92,3 @@
 				parse="text" href="./examples/package/search.txt[]
 ----
 	
-</section>

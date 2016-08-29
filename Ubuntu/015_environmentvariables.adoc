@@ -63,8 +63,8 @@
 		
 			<programlisting language="bourne">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/shell/path.sh" />
-			</programlisting>
+					parse="text" href="./examples/shell/path.sh[]
+----
 		
 		
 			If you want to add a directory permanently to the path, you can
@@ -82,15 +82,15 @@
 		
 			<programlisting language="bourne">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/path/bash_profile" />
-			</programlisting>
+					parse="text" href="./examples/path/bash_profile[]
+----
 		
 		
 			Open a new shell to make the changes in the
 			`.bashrc`
 			file active.
 		
-	</section>
 
 
-</section>
+
+

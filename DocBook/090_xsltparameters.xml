@@ -57,7 +57,7 @@
 				
 			|===
 		
-	</section>
+
 
 	<section id="xsltparameterss1as2b">
 === PDF Parameters
@@ -102,7 +102,7 @@
 				
 			|===
 		
-	</section>
+
 	<section id="xsltparameters_includehtml">
 === Add content into the HTML output
 		
@@ -117,15 +117,13 @@
 		
 			<programlisting language="html">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/additionalhtml.html" />
-			</programlisting>
+					parse="text" href="./examples/additionalhtml.html[]
+----
 		
 		
 			See
-			<ulink
-				url="http://www.sagehill.net/docbookxsl/InsertExtHtml.html#CodeInPage">
+http://www.sagehill.net/docbookxsl/InsertExtHtml.html#CodeInPage">
 				Inserting external HTML code</ulink>
 			for details.
 		
-	</section>
-</section>
+

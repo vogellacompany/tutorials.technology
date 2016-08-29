@@ -15,12 +15,12 @@
 		
 			<programlisting language="java">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/start/start.txt" />
-			</programlisting>
+					parse="text" href="../examples/start/start.txt[]
+----
 		
 
 
-	</section>
+
 	<section id="tomcat_start">
 === Start Tomcat on Windows
 		
@@ -29,7 +29,7 @@
 			in the bin directory.
 
 		
-	</section>
+
 
 	<section id="tomcat_test">
 === Test Tomcat
@@ -48,7 +48,7 @@ image::tomcat_initialpage10.png"
 				</textobject>
 			</mediaobject>
 		
-	</section>
+
 
 	<section id="tomcat_admin">
 === Admin console
@@ -81,8 +81,8 @@ image::tomcat_initialpage10.png"
 		
 			<programlisting language="java">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/install/user.txt" />
-			</programlisting>
+					parse="text" href="../examples/install/user.txt[]
+----
 		
 		
 			The default user for the Tomcat administration console under Windows
@@ -95,7 +95,7 @@ image::tomcat_initialpage10.png"
 
 
 
-	</section>
+
 	<section id="tomcat_deploy">
 === Deployment
 		
@@ -125,8 +125,7 @@ image::tomcat_initialpage10.png"
 			for all web
 			applications.
 		
-	</section>
 
 
 
-</section>
+

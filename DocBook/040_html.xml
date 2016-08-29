@@ -8,16 +8,9 @@
 === Project Setup
 		
 			In Eclipse select from the menu the
-			<menuchoice>
-				<guimenu>File</guimenu>
-				<guisubmenu>New</guisubmenu>
-				<guisubmenu>Project</guisubmenu>
-			</menuchoice>
+menu:File[New > Project]
 			entry and select from the proposed list the
-			<menuchoice>
-				<guimenu>General</guimenu>
-				<guisubmenu>Projects</guisubmenu>
-			</menuchoice>
+menu:General[Projects]
 			entry.
 		
 		
@@ -64,7 +57,7 @@
 			<filename class="directory">lib`
 			folder.
 		
-	</section>
+
 
 	<section id="htmlconvert_docbook">
 === Write your first DocBook document
@@ -78,8 +71,8 @@
 		
 			<programlisting language="xml">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/firstdocbook/book.xml" />
-			</programlisting>
+					parse="text" href="./examples/firstdocbook/book.xml[]
+----
 		
 		
 			We also want to use images in our example.
@@ -106,10 +99,10 @@
 		
 			<programlisting language="css">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/firstdocbook/style.css" />
-			</programlisting>
+					parse="text" href="./examples/firstdocbook/style.css[]
+----
 		
-	</section>
+
 
 	<section id="htmlconvert_convert">
 === Use Ant to convert DocBook to HTML5
@@ -125,10 +118,7 @@
 		
 			Run the `build.xml` file
 			via right-click on it and by selecting
-			<menuchoice>
-				<guimenu>Run as</guimenu>
-				<guisubmenu>Ant Build</guisubmenu>
-			</menuchoice>.
+menu:Run as[Ant Build].
 		
 		
 			Afterwards, check the output directory. You should find
@@ -142,5 +132,4 @@
 			Congratulations, you created your first DocBook and converted it
 			into an HTLM document.
 		
-	</section>
-</section>
+

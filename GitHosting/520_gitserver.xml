@@ -24,8 +24,8 @@
 		
 			<programlisting language="bourne">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/server/ssh_install.txt" />
-			</programlisting>
+					parse="text" href="./examples/server/ssh_install.txt[]
+----
 		
 		 If you have not yet installed Git on your server, you need to
 			do
@@ -35,35 +35,35 @@
 		
 			<programlisting language="bourne">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/server/installgit.txt" />
-			</programlisting>
+					parse="text" href="./examples/server/installgit.txt[]
+----
 		
 		 Create a new user and set a password for the Git system. 
 		
 			<programlisting language="bourne">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/server/user.txt" />
-			</programlisting>
+					parse="text" href="./examples/server/user.txt[]
+----
 		
 		Now log in with your Git user and create a bare repository.
 		
 		
 			<programlisting language="bourne">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/server/repo.txt" />
-			</programlisting>
+					parse="text" href="./examples/server/repo.txt[]
+----
 		
 
 		 Now you can push to the remote repository. 
 		
 			<programlisting language="bourne">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/server/commit.txt" />
-			</programlisting>
+					parse="text" href="./examples/server/commit.txt[]
+----
 		
 
 
-	</section>
+
 
 	<section id="gitserver_access">
 === Give write access to a Git repository
@@ -84,7 +84,7 @@
 			configurations.
 		
 
-	</section>
+
 
 	<section id="gitserver_security">
 === Security setup for the git user
@@ -106,5 +106,4 @@
 			Git user, this user can also perform git commands which add safety to
 			your Git setup.
 		
-	</section>
-</section>
+

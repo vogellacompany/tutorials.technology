@@ -23,7 +23,7 @@
 include::res/testing/assert.java[]
 ----
 		
-	</section>
+
 	<section id="grooygtests_unittests">
 === Unit tests 
 
@@ -65,5 +65,4 @@ include::res/testing/shouldfail.java[]
 			http://beta.groovy-lang.org/docs/groovy-2.3.0/html/documentation/core-testing-guide.html">Groovy testing guide</ulink>
 			.
 		
-	</section>
-</section>
+

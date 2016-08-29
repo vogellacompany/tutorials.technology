@@ -88,7 +88,7 @@
 			<wordasword>change</wordasword>
 			, to define a code review / review request. Each change is based on one commit.
 		
-	</section>
+
 
 	<section id="gerrit_centralinfo">
 === How does Gerrit work?
@@ -133,7 +133,7 @@
 			if sufficient rights have been
 			granted.
 		
-	</section>
+
 	<section id="gerrit_votingcategories">
 === Review categories - Verified and Code-Review
 		
@@ -184,7 +184,7 @@
 			project.
 		
 		Committers and contributors can vote in these categories. 
-	</section>
+
 	<section id="gerrit_voting">
 === Voting in Gerrit
 		
@@ -279,7 +279,7 @@
 			into the
 			Git repository.
 		
-	</section>
+
 
 	<section id="gerrit_documentation">
 === Gerrit online documentation
@@ -302,7 +302,7 @@
 			</ulink>
 			webpage.
 		
-	</section>
+
 
 
 	<section id="gerrit_drafts">
@@ -333,5 +333,4 @@
 			review.
 		
 
-	</section>
-</section>
+

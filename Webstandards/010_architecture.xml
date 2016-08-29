@@ -15,14 +15,14 @@
 		
 
 		 Popular web servers are the Apache HTTP web server. 
-	</section>
+
 	<section id="architecture_webclient">
 === Web Client
 		 A web client issues requests (via the user) to the web server
 			and displays (renders) the result. A web client is typically a
 			browser, e.g. Firefox.
 		
-	</section>
+
 
 	<section id="architecture_html">
 === HTML
@@ -31,7 +31,7 @@
 			of HTML is HTML5 (which is still work in process). The article
 			explains how to develop HTML5 pages.
 		
-	</section>
+
 
 	<section id="architecture_http">
 === HTTP
@@ -69,7 +69,7 @@
 			body contains
 			text or HTML.
 		
-	</section>
+
 	<section id="architecture_url">
 === URL - Uniform Resource Locator
 		 A resource in the web (and on the web server) can get
@@ -82,10 +82,10 @@
 		
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/architecture/url.txt" />
-			</programlisting>
+					parse="text" href="./examples/architecture/url.txt[]
+----
 		
-	</section>
+
 	<section id="architecture_dns">
 === DNS - Dynamic name server and entries
 		 A DNS server is responsible for identifying resources in the
@@ -100,10 +100,9 @@
 		
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/dns/diff.txt" />
-			</programlisting>
+					parse="text" href="./examples/dns/diff.txt[]
+----
 		
-	</section>
 
 
-</section>
+

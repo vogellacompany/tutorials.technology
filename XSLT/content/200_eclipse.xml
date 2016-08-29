@@ -23,7 +23,7 @@
 				Eclipse update manager</ulink>
 			.
 		
-	</section>
+
 
 	<section id="installation_eclipse">
 === XSLT transformations with Eclipse
@@ -51,8 +51,8 @@
 		
 			<programlisting language="xml">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/first/source.xml" />
-			</programlisting>
+					parse="text" href="../examples/first/source.xml[]
+----
 		
 
 		
@@ -67,15 +67,13 @@
 		
 			<programlisting language="xml">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/first/transform.xsl" />
-			</programlisting>
+					parse="text" href="../examples/first/transform.xsl[]
+----
 		
 
 		Select your xsl file and run it as XSL application.
 		
-image::first10.gif" />
-				</imageobject>
-			</mediaobject>
+image::first10.gif[]
 		
 
 		
@@ -85,10 +83,7 @@ image::first10.gif" />
 			it.
 		
 		
-image::first20.gif" />
-				</imageobject>
-			</mediaobject>
+image::first20.gif[]
 		
 		Review the result `source.out.xml`
-	</section>
-</section>
+

@@ -92,15 +92,15 @@ image::gradle-logo.png[]
 		
 		
 			<programlisting language="gradle">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/starter/build_hello.gradle" />
-			</programlisting>
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/starter/build_hello.gradle[]
+----
 		
 This build file can also be simplified << can be used as shortcut to define the `doLast` statement.
 		
 		
 			<programlisting language="gradle">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/starter/build_hello2.gradle" />
-			</programlisting>
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/starter/build_hello2.gradle[]
+----
 		
 		
 			To execute the
@@ -115,8 +115,8 @@ This build file can also be simplified << can be used as shortcut to define the 
 
 		
 			<programlisting language="gradle">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/starter/runbuild.gradle" />
-			</programlisting>
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/starter/runbuild.gradle[]
+----
 		
 	
 
@@ -142,8 +142,8 @@ include::res/comments/example.gradle[]
 		
 		
 			<programlisting language="gradle">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/settings/settings.gradle" />
-			</programlisting>
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/settings/settings.gradle[]
+----
 		
 
 		
@@ -153,8 +153,8 @@ include::res/comments/example.gradle[]
 		
 		
 			<programlisting language="gradle">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/settings/build.gradle" />
-			</programlisting>
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/settings/build.gradle[]
+----
 		
 		
 			Use the
@@ -164,8 +164,8 @@ include::res/comments/example.gradle[]
 		
 		
 			<programlisting language="plain">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/settings/settings.output" />
-			</programlisting>
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/settings/settings.output[]
+----
 		
 	
 

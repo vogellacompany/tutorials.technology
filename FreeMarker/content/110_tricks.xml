@@ -23,8 +23,8 @@
 		
 			<programlisting language="xml">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/tricks/macros/utils.ftl" />
-			</programlisting>
+					parse="text" href="../examples/tricks/macros/utils.ftl[]
+----
 		
 
 		
@@ -36,8 +36,8 @@
 		
 			<programlisting language="xml">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/tricks/macros/helloworld.ftl" />
-			</programlisting>
+					parse="text" href="../examples/tricks/macros/helloworld.ftl[]
+----
 		
 
 		
@@ -58,8 +58,8 @@
 		
 			<programlisting language="xml">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/tricks/variables.ftl" />
-			</programlisting>
+					parse="text" href="../examples/tricks/variables.ftl[]
+----
 		
 	
 
@@ -77,8 +77,8 @@
 		
 			<programlisting language="xml">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/tricks/nulls.ftl" />
-			</programlisting>
+					parse="text" href="../examples/tricks/nulls.ftl[]
+----
 		
 
 	
@@ -106,8 +106,8 @@
 		
 			<programlisting language="xml">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/tricks/escaping.ftl" />
-			</programlisting>
+					parse="text" href="../examples/tricks/escaping.ftl[]
+----
 		
 
 		

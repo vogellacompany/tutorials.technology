@@ -9,8 +9,8 @@
 
 		
 			<programlisting language="gradle">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/groovy/build.gradle" />
-			</programlisting>
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/groovy/build.gradle[]
+----
 		
 		
 			To start the build, type

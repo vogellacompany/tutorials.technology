@@ -6,7 +6,7 @@
 			A class diagram captures the static relationships of your
 			software.
 		
-	</section>
+
 
 	<section id="class_diagramss1s2b">
 === Classes
@@ -25,9 +25,7 @@
 		
 
 		
-image::UML10.gif" />
-				</imageobject>
-			</mediaobject>
+image::UML10.gif[]
 		
 		
 			Any compartment can be hidden to improve readability of the
@@ -52,7 +50,7 @@ image::UML10.gif" />
 				</listitem>
 			</itemizedlist>
 		
-	</section>
+
 
 	<section id="class_diagramss1s2c">
 === Attributes
@@ -160,7 +158,7 @@ image::UML10.gif" />
 				</mediaobject>
 			
 
-		</section>
+	
 
 		<section id="class_diagramss1s2bs3b">
 	=== Attributes by Relationship
@@ -181,7 +179,7 @@ image::UML10.gif" />
 				</mediaobject>
 			
 
-		</section>
+	
 
 		<section id="class_diagramss1s2bs3c">
 	=== Static Attributes
@@ -192,9 +190,9 @@ image::UML10.gif" />
 				via underlining the
 				name of the relationship.
 			
-		</section>
+	
 
-	</section>
+
 
 	<section id="class_diagramss1s2d">
 === Interfaces
@@ -204,24 +202,18 @@ image::UML10.gif" />
 		
 
 		
-image::UMLInterface20.gif" />
-
-				</imageobject>
-			</mediaobject>
+image::UMLInterface20.gif[]
 		
 		
 			Relationships can be expressed via the ball-and-socket
 			notation.
 		
 		
-image::UMLInterface30.gif" />
-
-				</imageobject>
-			</mediaobject>
+image::UMLInterface30.gif[]
 		
 
 
-	</section>
+
 	<section id="class_diagramss1s2e">
 === Relationships
 		
@@ -249,7 +241,7 @@ image::UMLInterface30.gif" />
 					</imageobject>
 				</mediaobject>
 			
-		</section>
+	
 
 		<section id="class_diagramss1s2es3b">
 	=== Aggregation
@@ -265,7 +257,7 @@ image::UMLInterface30.gif" />
 					</imageobject>
 				</mediaobject>
 			
-		</section>
+	
 
 		<section id="class_diagramss1s2es3c">
 	=== Composition
@@ -286,7 +278,7 @@ image::UMLInterface30.gif" />
 					</imageobject>
 				</mediaobject>
 			
-		</section>
+	
 
 		<section id="class_diagramss1s2es3d">
 	=== Generalisation
@@ -318,8 +310,8 @@ image::UMLInterface30.gif" />
 					</imageobject>
 				</mediaobject>
 			
-		</section>
-	</section>
+	
+
 	<section id="class_export">
 === Export your class diagram as image
 		 To export your diagram as image / graphic, right-click on your
@@ -327,10 +319,7 @@ image::UMLInterface30.gif" />
 		
 
 		
-image::ExportImage10.gif" />
-
-				</imageobject>
-			</mediaobject>
+image::ExportImage10.gif[]
 		
-	</section>
-</section>
+
+

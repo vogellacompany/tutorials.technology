@@ -7,8 +7,7 @@
 			a
 			customization stylesheet layer, the usage of an external lib and
 			configuration file. Please see
-			<ulink
-				url="http://docbook.sourceforge.net/release/xsl/current/doc/fo/highlight.source.html">
+http://docbook.sourceforge.net/release/xsl/current/doc/fo/highlight.source.html">
 				Source Code Syntax Highlighting with DocBook</ulink>
 			for a description of the setup.
 		
@@ -31,8 +30,8 @@
 		
 			<programlisting language="xml">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/syntaxhighlighting/bourne-hl.xml" />
-			</programlisting>
+					parse="text" href="./examples/syntaxhighlighting/bourne-hl.xml[]
+----
 		
 
 		
@@ -43,11 +42,11 @@
 		
 			<programlisting language="xml">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/syntaxhighlighting/xslthl-config.xml" />
-			</programlisting>
+					parse="text" href="./examples/syntaxhighlighting/xslthl-config.xml[]
+----
 		
 
-	</section>
+
 	<section id="advanced_removepart">
 === Remove certain parts
 		
@@ -64,10 +63,10 @@
 		
 			<programlisting language="xml">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/advanced/remove_sections_for_book.xsl" />
-			</programlisting>
+					parse="text" href="./examples/advanced/remove_sections_for_book.xsl[]
+----
 		
-	</section>
+
 
 	<section id="advanced_own">
 === Using own stylesheets
@@ -83,8 +82,7 @@
 		
 			<programlisting language="xml">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/own/style.xsl" />
-			</programlisting>
+					parse="text" href="./examples/own/style.xsl[]
+----
 		
-	</section>
-</section>
+

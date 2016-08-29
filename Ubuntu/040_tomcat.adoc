@@ -41,7 +41,7 @@
 				
 			
 		|===
-	</section>
+
 	<section id="tomcatconfs2a">
 === Important Commands
 
@@ -65,5 +65,4 @@
 				
 			
 		|===
-	</section>
-</section>
+

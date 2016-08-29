@@ -9,7 +9,7 @@
 			IDE to manage your
 			Java project and your Ant build.
 		
-	</section>
+
 	<section id="antexample_javaproject">
 === Create Java project
 		
@@ -23,8 +23,8 @@
 		
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/ant/MyMath.java" />
-			</programlisting>
+					parse="text" href="./examples/ant/MyMath.java[]
+----
 		
 		
 			Create the
@@ -34,19 +34,15 @@
 		
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/ant/Main.java" />
-			</programlisting>
+					parse="text" href="./examples/ant/Main.java[]
+----
 		
-	</section>
+
 	<section id="antexample_buildxml">
 === Create build.xml
 		
 			Create a new File through the
-			<menuchoice>
-				<guimenu>File</guimenu>
-				<guisubmenu>New</guisubmenu>
-				<guisubmenu>File</guisubmenu>
-			</menuchoice>
+menu:File[New > File]
 			menu and create the
 			`build.xml`
 			file. Implement the following code to this file.
@@ -55,14 +51,14 @@
 
 			<programlisting language="xml">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/ant/build.xml" />
-			</programlisting>
+					parse="text" href="./examples/ant/build.xml[]
+----
 		
 		 The code is documented, you should be able to determine the
 			purpose of the different ant tasks via the documentation in the
 			coding.
 		
-	</section>
+
 	<section id="antexample_eclipserun">
 === Run your Ant build from Eclipse
 		
@@ -71,19 +67,13 @@
 			file as an
 			<guilabel>Ant Build</guilabel>
 			in Eclipse.
-image::anttest20.gif" />
-
-				</imageobject>
-			</mediaobject>
+image::anttest20.gif[]
 		
 		
 			After this process your data structure should look like this:
-image::anttest30.gif" />
-
-				</imageobject>
-			</mediaobject>
+image::anttest30.gif[]
 		
-	</section>
+
 	<section id="antexample_run">
 === Run your Ant build from the command line
 		 Open a command line and switch to your project directory. Type
@@ -92,12 +82,11 @@ image::anttest30.gif" />
 		
 			<programlisting language="bourne">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/ant/run.txt" />
-			</programlisting>
+					parse="text" href="./examples/ant/run.txt[]
+----
 		
 
 		The build should finish successfully and generate the build
 			artifacts.
 		
-	</section>
-</section>
+

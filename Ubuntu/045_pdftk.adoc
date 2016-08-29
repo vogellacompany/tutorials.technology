@@ -10,8 +10,8 @@
 		
 			<programlisting language="bourne">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/pdf/install.txt" />
-			</programlisting>
+					parse="text" href="./examples/pdf/install.txt[]
+----
 		
 		
 			For example, to extract pages from a pdf document you can use
@@ -22,10 +22,10 @@
 		
 			<programlisting language="bourne">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/pdf/extract.txt" />
-			</programlisting>
+					parse="text" href="./examples/pdf/extract.txt[]
+----
 		
-	</section>
+
 	<section id="pdf_soffice">
 === Converting .odp file to pdf in batch
 		
@@ -36,10 +36,9 @@
 		
 			<programlisting language="bourne">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/pdf/soffice.txt" />
-			</programlisting>
+					parse="text" href="./examples/pdf/soffice.txt[]
+----
 		
 
 
-	</section>
-</section>
+

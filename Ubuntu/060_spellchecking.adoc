@@ -31,4 +31,3 @@
 				parse="text" href="./examples/hunspell/checkbatch.txt[]
 ----
 	
-</section>
