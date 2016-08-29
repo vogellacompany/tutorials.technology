@@ -1,0 +1,13 @@
+++++
+<!-- Non responsive Lake Quincy Ads
+<div data-type="ad" data-publisher="lqm.javaeclipseandroid.site" data-zone="inBetween01" data-format="728x90">
+</div> -->
+
+<!-- Responsive Lake Quincy Ads -->
+<div id='ad-inBetween01'>
+	<script type='text/javascript'>
+		googletag.cmd.push(function() { googletag.display('ad-inBetween01'); });
+	</script>
+</div>
+++++
+

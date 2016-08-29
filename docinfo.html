@@ -1,0 +1,285 @@
+<link rel="stylesheet" type="text/css" href="http://www.vogella.com/css/articles_left_right.css">
+<link rel="stylesheet" type="text/css" href="http://www.vogella.com/css/header.css">
+
+<!-- Google analytics (Jennifer) -->
+
+<script type="text/javascript">
+
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-3967758-1']);
+	_gaq.push(['_setDomainName', 'vogella.com']);
+	_gaq.push(['_setAllowLinker', true]);
+	_gaq.push(['_trackPageview']);
+
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+</script>
+
+<!-- Load jQuery -->
+<script type="text/javascript" src="../../javascript/jquery/jquery.js"></script>
+<!-- jQuery Hide Buttons -->
+<script type="text/javascript" src="../../javascript/jquery/jquery_hideButtons.js"></script>
+
+<!-- Lake Quincy Ads Responsive -->  
+<script type='text/javascript'>
+	var googletag = googletag || {};
+	googletag.cmd = googletag.cmd || [];
+	(function() {
+		var gads = document.createElement('script');
+		gads.async = true;
+		gads.type = 'text/javascript';
+		var useSSL = 'https:' == document.location.protocol;
+		gads.src = (useSSL ? 'https:' : 'http:') + 
+		'//www.googletagservices.com/tag/js/gpt.js';
+		var node = document.getElementsByTagName('script')[0];
+		node.parentNode.insertBefore(gads, node);
+	})();
+</script>
+
+<script type='text/javascript'>
+
+ googletag.cmd.push(function() {
+
+   // Define a size mapping object. The first parameter to addSize is
+   // a viewport size, while the second is a list of allowed ad sizes.
+   var mapping = googletag.sizeMapping().
+
+   // Accepts both common mobile banner formats // ([browser-size], [[ad size1],[ad size2]])
+   addSize([0, 0], [300, 250]). 
+		
+   // Landscape tablet 
+   addSize([750, 250], [300, 250]). 
+
+   // Desktop
+   addSize([1170, 200], [728, 90]).build();
+
+   // Define the GPT slots 
+   //('/PartnerID/data-publisher/data-zone', [[ad display format], [ad display format]], 'div id')
+    googletag.defineSlot('/6839/lqm.javaeclipseandroid.site/right', [160, 600], 'ad-left').
+       addService(googletag.pubads()).
+       setTargeting('left');   
+	googletag.defineSlot('/6839/lqm.javaeclipseandroid.site/beforetoc', [[300, 250], [728, 90]], 'ad-beforeTOC').
+       defineSizeMapping(mapping).
+       addService(googletag.pubads()).
+       setTargeting('beforetoc');
+	googletag.defineSlot('/6839/lqm.javaeclipseandroid.site/inbetween01', [[300, 250], [728, 90]], 'ad-inBetween01').
+       defineSizeMapping(mapping).
+       addService(googletag.pubads()).
+       setTargeting('inbetween01');
+   	googletag.defineSlot('/6839/lqm.javaeclipseandroid.site/inbetween02', [[300, 250], [728, 90]], 'ad-inBetween02').
+       defineSizeMapping(mapping).
+       addService(googletag.pubads()).
+       setTargeting('inbetween02');
+	googletag.defineSlot('/6839/lqm.javaeclipseandroid.site/inbetween03', [[300, 250], [728, 90]], 'ad-inBetween03').
+       defineSizeMapping(mapping).
+       addService(googletag.pubads()).
+       setTargeting('inbetween03');
+	googletag.defineSlot('/6839/lqm.javaeclipseandroid.site/afterresources', [[300, 250], [728, 90]], 'ad-afterResources').
+    defineSizeMapping(mapping).
+    addService(googletag.pubads()).
+    setTargeting('afterresources');
+
+   // Start ad fetching
+   googletag.pubads().enableSingleRequest();
+   googletag.enableServices();
+ });
+</script>
+
+<!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
+<script type="text/javascript">
+    window.cookieconsent_options = {"message":"We use cookies to personalise ads and to analyse our traffic. We also share information about your use of our site with our advertising and analytics partners. By using this site you agree to our cookie use.","dismiss":"Got it!","learnMore":"See details","link":"http://www.vogella.com/legal.html","theme":"dark-bottom"};
+</script>
+
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.9/cookieconsent.min.js"></script>
+<!-- End Cookie Consent plugin -->
+
+<div id="headerpart">
+
+	<div id="logo">
+		<a title="vogella.com" href="http://www.vogella.com">
+			<img src="http://www.vogella.com/img/logo/index_logo.png"  alt="vogella.com"/> 
+		</a>
+	</div> <!-- logo -->
+	
+	<div id="topnav">
+		<ul id="home" class="topnav">
+			<li id="home-icon"><a href="http://www.vogella.com/"></a></li>
+			<li class="currentpage"> <a href="http://www.vogella.com/tutorials/">Tutorials</a>
+				<ul>
+					<li><a href="http://www.vogella.com/tutorials/android.html">Android Programming</a></li>
+					<li><a href="http://www.vogella.com/tutorials/eclipseide.html">Eclipse IDE</a></li>
+					<li><a href="http://www.vogella.com/tutorials/eclipse.html">Eclipse RCP/Plug-ins</a></li>
+					<li><a href="http://www.vogella.com/tutorials/web.html">Web</a></li>
+					<li><a href="http://www.vogella.com/tutorials/java.html">Java</a></li>
+					<li><a href="http://www.vogella.com/tutorials/technology.html">Technology</a></li>
+					<li><a href="http://www.vogella.com/tutorials/google.html">Google</a></li>
+					<li><a href="http://www.vogella.com/tutorials/algorithms.html">Algorithms</a></li>
+					<li><a href="http://www.vogella.com/tutorials/designpattern.html">Design Pattern</a></li>
+					<li><a href="http://www.vogella.com/code/index.html">Source Code</a></li>
+				</ul>
+			</li>
+				<li><a href="http://www.vogella.com/training/">Training</a>
+					<ul>
+						<li><a href="http://www.vogella.com/training/eclipse/index.html">Eclipse Development Training</a>
+							<ul>
+								<li><a href="http://www.vogella.com/training/eclipse/eclipsercp.html">Eclipse RCP</a></li>
+								<li><a href="http://www.vogella.com/training/eclipse/tycho.html">Testing and building Eclipse RCP</a></li>								
+								<li><a href="http://www.vogella.com/training/eclipse/eclipsercpmigration.html">Eclipse RCP Migration</a></li>
+								<li><a href="http://www.vogella.com/training/eclipse/eclipsecontribution.html">	Contributing to Eclipse</a></li>
+								<li><a href="http://www.vogella.com/training/eclipse/vaaclipse.html">Vaadin web apps with Eclipse RCP</a></li>
+								<li><a href="http://www.vogella.com/training/eclipse/eclipseplugin.html">Eclipse IDE Plug-in Development</a></li>
+								<li><a href="http://www.vogella.com/training/eclipse/eclipseide.html">Eclipse IDE Expert</a></li>
+								<li><a href="http://www.vogella.com/training/eclipse/rcpjavaeespring.html">Eclipse RCP with Java EE and Spring</a></li>
+								<li><a href="http://www.vogella.com/training/eclipse/eclipseoxygen.html">oXygen in Eclipse</a></li>
+								<li><a href="http://www.vogella.com/training/eclipse/eclipsenattable.html">NatTable</a></li>
+							</ul>
+						</li>
+						<li><a href="http://www.vogella.com/training/android/index.html">Android Development Training</a>
+							<ul>
+								<li><a href="http://www.vogella.com/training/android/androidprofessional.html">Android Professional</a></li>
+								<li><a href="http://www.vogella.com/training/android/androidtesting.html">Android Testing and Appl. Optimization</a></li>
+								<li><a href="http://www.vogella.com/training/android/androidexpert.html">Android Expert</a></li>
+							</ul>
+						</li>
+						<li><a href="http://www.vogella.com/training/git/index.html">Git and Gerrit Training</a></li>
+						<li><a href="http://www.vogella.com/training/build/index.html">Testing and Building Training</a>
+							<ul>
+								<li><a href="http://www.vogella.com/training/eclipse/tycho.html">Testing and building Eclipse RCP</a></li>
+								<li><a href="http://www.vogella.com/training/build/maven.html">Apache Maven</a></li>
+								<li><a href="http://www.vogella.com/training/build/gradle.html">Gradle</a></li>	
+							</ul>
+						</li>
+						<li><a href="http://www.vogella.com/training/programming/index.html">Programming Languages Training</a>
+							<ul>
+								<li><a href="http://www.vogella.com/training/programming/groovy.html">Groovy</a></li>
+								<li><a href="http://www.vogella.com/training/programming/java.html">Java</a></li>
+							</ul>
+						</li>	
+						<li><a href="http://www.vogella.com/training/javaweb/index.html">Java Web Dev Training</a>
+							<ul>
+								<li><a href="http://www.vogella.com/training/javaweb/spring.html">Spring</a></li>
+								<li><a href="http://www.vogella.com/training/eclipse/rcpjavaeespring.html">Eclipse RCP with Java EE and Spring</a></li>
+							</ul>
+						</li>
+						<li><a href="http://www.vogella.com/training/docker/index.html">Docker Training</a></li>
+					</ul>
+				</li>
+				
+				<li><a href="http://www.vogella.com/consulting/">Consulting</a></li>
+				
+				<li><a href="http://www.vogella.com/products/">Products</a>
+					<ul>
+					<li><a href="http://saneclipse.vogella.com">saneclipse</a></li>
+					<li><a href="http://codemodify.vogella.com">CodeModify</a></li>
+					<li><a href="http://e4tools.vogella.com">e4 tools</a></li>
+					<li><a href="http://www.vogella.com/files/eclipse_cheatsheet.pdf">Eclipse Cheatsheet</a></li>
+					<!--<li><a href="http://e4perspectiveswitcher.vogella.com">e4 perspectiveSwitcher</a></li>-->
+					</ul>
+				</li>
+				<li><a href="http://www.vogella.com/books/">Books</a>
+					<ul>
+						<li><a href="http://www.vogella.com/books/eclipsercp.html">Eclipse RCP</a></li>
+						<li><a href="http://www.vogella.com/books/eclipseide.html">Eclipse IDE</a></li>
+						<li><a href="http://www.vogella.com/books/eclipsecontribution.html">Contributing to the Eclipse Project</a></li>
+						<li><a href="http://www.vogella.com/books/git.html">Git</a></li>
+						<li><a href="http://www.vogella.com/books/android.html">Android SQlite and ContentProvider</a></li>
+					</ul>
+				</li>
+				<li><a href="http://www.vogella.com/company/">Company</a>
+					<ul>
+						<li><a href="http://www.vogella.com/aboutvogella.html">About us</a></li>
+						<li><a href="http://www.vogella.com/people/index.html">People at vogella</a></li>
+						<li><a href="http://www.vogella.com/customers.html" onclick="_gaq.push(['_trackEvent', 'Customers', 'clicked', 'Header']);">Reference Customers</a></li>
+						<li><a href="http://blog.vogella.com/">Blog</a></li>
+						<li><a href="http://www.vogella.com/jobs/">Jobs</a></li>
+						<li><a href="http://www.vogella.com/faq.html">FAQ</a></li>
+						<li><a href="http://www.vogella.com/legal.html">Legal</a></li>
+					</ul>
+				</li>
+				
+				<li><a href="http://www.vogella.com/support.html">Donate</a></li>
+				<li><a href="http://www.vogella.com/contact.html">Contact us</a></li>
+			</ul>
+		</div><!-- topnav -->	
+
+	<div id="searchfixed">
+		<form action="http://www.vogella.com/search.html" id="cse-search-box">
+			<div id="searchwrapper">
+
+				<input type="hidden" name="cx" value="partner-pub-3851443674951530:3991491935" />
+				<input type="hidden" name="cof" value="FORID:10" />
+				<input type="hidden" name="ie" value="UTF-8" />
+				<input type="text" placeholder="Search" id="search_field" name="q" size="55" />
+				<input type="image" src="http://www.vogella.com/img/icons/srch.png" id="search_button" name="sa" alt="Search" />
+			</div>
+		</form>
+	</div> <!-- searchfixed -->
+
+</div> <!-- headerpart -->
+
+<div id="leftcol">
+
+	<br/>
+	<br/>
+
+	<script async = "async" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<!-- LeftColumn -->
+	<ins class="adsbygoogle"
+     style="display:inline-block;width:160px;height:600px"
+     data-ad-client="ca-pub-3851443674951530"
+     data-ad-slot="6294971031"></ins>
+	<script>
+		(adsbygoogle = window.adsbygoogle || []).push({});
+	</script>
+
+	<p/>
+	
+	<br/>
+	<br/>
+
+	<!-- Nonresponsive Lake Quincy 160x600 Wide Skycraper code
+	<div data-type="ad" data-publisher="lqm.javaeclipseandroid.site" data-zone="right" data-format="160x600"></div>-->
+	
+	<!-- Responsive Lake Quincy Ads -->
+	<div id='ad-left'>
+		<script type='text/javascript'>
+			googletag.cmd.push(function() { googletag.display('ad-left'); });
+		</script>
+	</div>
+</div> <!-- leftcolumn -->
+
+<div id="rightcol">
+	<br/>
+	<br/>
+	<a class="hiring_ads" href="http://www.vogella.com/jobs/" onclick="_gaq.push(['_trackEvent', 'vogella Services', 'clicked', 'hiring']);">NOW Hiring</a>
+	
+	<br/>
+	<br/>
+	<!-- vogellas own advertising for training and books --> 	
+	<div class="vogella_ads">
+		<h1>Quick links</h1>
+		<ul>
+			<li><a href="http://www.vogella.com/training/eclipse/eclipsercp.html" onclick="_gaq.push(['_trackEvent', 'vogella Services', 'clicked', 'next RCP training']);">10 Oct - RCP Training</a></li>
+			<li><a href="http://www.vogella.com/training/android/androidprofessional.html" onclick="_gaq.push(['_trackEvent', 'vogella Services', 'clicked', 'next Android training']);">14 Nov - Android Development</a></li>
+			<li><a href="http://www.vogella.com/training/" onclick="_gaq.push(['_trackEvent', 'vogella Services', 'clicked', 'training']);">vogella Training</a></li>
+			<li><a href="http://www.vogella.com/books/index.html" onclick="_gaq.push(['_trackEvent', 'vogella Services', 'clicked', 'books']);">vogella Books</a></li>
+		</ul>
+		<div class="social_media_icons">
+			<a class="no_underline" href="http://www.twitter.com/vogellacompany">
+				<img src="http://www.vogella.com/img/tutoriallinks/twitter.png" alt="Follow me on twitter"/>
+			</a>
+			<a class="no_underline" rel="me" href="https://profiles.google.com/104044918586174763681">
+				<img src="http://www.vogella.com/img/tutoriallinks/google_plus.png" alt="Follow me on Google+"/>
+			</a>
+		</div>
+	</div>
+</div> <!--rightcol-->
+
+
+
+
+
+

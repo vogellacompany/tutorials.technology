@@ -1,0 +1,41 @@
+include::web/advertisement/beforeSupport.adoc[]
+
+== About this website
+
+++++
+<div class="about_vogella_container">
+    <div class="about_vogella">
+    	<a href="http://www.vogella.com/support.html">
+            <h1>Support free content</h1> 
+            <img src="http://www.vogella.com/img/common/vogella-donate.png" width="50" height="57"
+			alt="Support free tutorials" title="Support free tutorials"
+			onclick="_gaq.push(['_trackEvent', 'Donations', 'clicked', 'Buttom tutorial in thank you']);"/>
+		</a>
+	</div>
+	<div class="about_vogella">
+    	<a href="http://www.vogella.com/contact.html">
+            <h1>Questions and discussion</h1> 
+            <img src="http://www.vogella.com/img/common/questions.png" width="76" height="57"
+			alt="Questions and discussion" title="Questions and discussion"
+			onclick="_gaq.push(['_trackEvent', 'Questions', 'clicked', 'Buttom tutorial in thank you']);"/>
+		</a>
+	</div>
+	<div class="about_vogella">
+    	<a href="http://www.vogella.com/license.html">
+            <h1>Tutorial &amp; code license</h1> 
+            <img src="http://www.vogella.com/img/common/license.png" width="56" height="56"
+			alt="License" title="License"
+			onclick="_gaq.push(['_trackEvent', 'License', 'clicked', 'Buttom tutorial in thank you']);"/>
+		</a>
+	</div>
+	<div class="about_vogella">
+    	<a href="http://www.vogella.com/code/index.html">
+            <h1>Get source code</h1> 
+            <img src="http://www.vogella.com/img/common/code.png" width="85" height="56"
+			alt="Source Code" title="Source Code"
+			onclick="_gaq.push(['_trackEvent', 'Source Code', 'clicked', 'Buttom tutorial in thank you']);"/>
+		</a>
+	</div>
+</div>
+++++
+

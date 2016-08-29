@@ -1,0 +1,12 @@
+=== vogella GmbH training and consulting support
+
+|===
+|http://www.vogella.com/training/[TRAINING] |http://www.vogella.com/consulting/[SERVICE & SUPPORT]
+
+|The vogella company provides comprehensive http://www.vogella.com/training/[training and education services] 
+from experts in the areas of Eclipse RCP, Android, Git, Java, Gradle and Spring.
+We offer both public and inhouse training. Whichever course you decide to take, you are guaranteed to experience 
+what many before you refer to as http://www.vogella.com/training/[“The best IT class I have ever attended”].
+|The vogella company offers http://www.vogella.com/consulting/[expert consulting] services, development support and coaching. 
+Our customers range from Fortune 100 corporations to individual developers.	
+|===

@@ -1,0 +1,9 @@
+++++
+<!-- Responsive Lake Quincy Ads -->
+<div id='ad-inBetween02'>
+	<script type='text/javascript'>
+		googletag.cmd.push(function() { googletag.display('ad-inBetween02'); });
+	</script>
+</div>
+++++
+
