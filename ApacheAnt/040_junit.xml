@@ -4,7 +4,7 @@
 		Ant allows to run
 		http://www.vogella.com/tutorials/JUnit/article.html">JUnit</ulink>
 		tests. Ant defines
-		<guilabel>junit</guilabel>
+		_junit_
 		task. You only need to include the
 		junit.jar and the compiled classes
 		into the classpath for Ant and then

@@ -50,7 +50,7 @@ image::pydev02.gif[]
 
 		
 			Press the
-			<guibutton>New</guibutton>
+			btn:[New]
 			button
 			and enter the path to
 			`python.exe`

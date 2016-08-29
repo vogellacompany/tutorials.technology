@@ -4,7 +4,7 @@
 		This part is only relevant for the administrator. Create a new
 		Git
 		repository called
-		<wordasword>gerrittest</wordasword>
+		_gerrittest_
 		via EGit or the Git command line.
 	
 	
@@ -19,18 +19,12 @@
 	
 	
 		Since version 2.6.1 you can also click
-		<menuchoice>
-			<guimenu>Projects</guimenu>
-			<guisubmenu>Create New Project</guisubmenu>
-		</menuchoice>
+		menu:Projects[Create New Project]
 		in the web interface.
 	
 	
 		The new project can be found in the Gerrit web interface under
-		<menuchoice>
-			<guimenu>Projects</guimenu>
-			<guisubmenu>List</guisubmenu>
-		</menuchoice>
+		menu:Projects[List]
 		.
 	
 	
@@ -44,8 +38,7 @@ image::gerrit_reposetup10.png[]
 	
 	
 		Select your project and
-		<menuchoice>
-			<guimenu>Access</guimenu>
+		menu:Access</guimenu>
 		</menuchoice>
 		. For testing give push rights to all registered users, which is the
 		default after

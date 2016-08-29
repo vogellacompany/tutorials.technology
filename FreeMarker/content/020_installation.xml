@@ -2,7 +2,7 @@
 == Installation of FreeMarker
 	
 		To use
-		<wordasword>FreeMarker</wordasword>
+		_FreeMarker_
 		download the latest version of it from the following
 		webpage and add it
 		to the classpath of your Java project.

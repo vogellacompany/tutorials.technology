@@ -4,10 +4,10 @@
 === Creating a bootable USB disk with unetbootin
 		
 			The default program for creating a bootable USB disk is
-			<wordasword>Startup Disk Creator</wordasword>
+			_Startup Disk Creator_
 			. This crashes frequently during the creation of a boot disk. The
 			program
-			<wordasword>unetbootin</wordasword>
+			_unetbootin_
 			is much more stable. You can install it via the following command and
 			start it on the command line.
 		
@@ -29,7 +29,7 @@
 === Chat applications
 		
 			The
-			<wordasword>mumble</wordasword>
+			_mumble_
 			application
 			allows online chats.
 		
@@ -47,7 +47,7 @@
 === Sharing desktop
 		
 			The
-			<wordasword>Teamviewer</wordasword>
+			_Teamviewer_
 			application
 			allows to share desktop and online chats. It can be
 			installed from
@@ -59,7 +59,7 @@
 === Remote xserver
 		
 			The
-			<wordasword>x2go</wordasword>
+			_x2go_
 			server allows to install a X-server on a remote server and access it
 			via a client from a different machine.
 			More information can be found on

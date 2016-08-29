@@ -1,4 +1,3 @@
-<section id="artifactory_repository_config">
 == Configuration of Artifactory
 
 Once an Artifactory instance is running its web interface can be accessed under this URL:
@@ -23,6 +22,6 @@ The _Set Me Up_ link gives guidance how to setup your build tools like Maven or 
 image::artifactory-ui-set-me-up.png[]
 
 
-But concerning build tool configuration refer to the http://www.vogella.com/tutorials/ApacheMaven/article.html">Maven</ulink> and http://www.vogella.com/tutorials/Gradle/article.html">Gradle</ulink> tutorials.
+But concerning build tool configuration refer to the http://www.vogella.com/tutorials/ApacheMaven/article.html[Maven] and http://www.vogella.com/tutorials/Gradle/article.html[Gradle] tutorials.
 
 

@@ -2,11 +2,11 @@
 == DocBook Tags
 	
 		So far you have used a very limited set of
-		<wordasword>DocBook</wordasword>
+		_DocBook_
 		attributes. The
 		following chapter presents more tags which you typically
 		need in a
-		<wordasword>DocBook</wordasword>
+		_DocBook_
 		document.
 	
 	<section id="docbooktags_text">
@@ -50,7 +50,7 @@
 						
 						
 |
-								<![CDATA[ <wordasword></wordasword> ]]>
+								<![CDATA[ __ ]]>
 							
 |Indicates a special word
 						
@@ -65,13 +65,13 @@
 						
 						
 |
-								<![CDATA[ <guilabel> </guilabel> ]]>
+								<![CDATA[ _ _ ]]>
 							
 |Label on a GUI
 						
 						
 |
-								<![CDATA[ <guibutton> </guibutton> ]]>
+								<![CDATA[ btn:[ ] ]]>
 							
 | Button on a GUI
 						
@@ -143,9 +143,9 @@
 		
 		The following snippet shows how to use these.
 		
-			<programlisting language="xml">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/warning/warning.xml[]
+[source,xml]
+----
+include::res/warning/warning.xml[]
 ----
 		
 
@@ -175,9 +175,9 @@
 			content license. These tags are confined to meta-information.
 		
 		
-			<programlisting language="xml">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/legalnotice.xml[]
+[source,xml]
+----
+include::res/legalnotice.xml[]
 ----
 		
 
@@ -191,23 +191,23 @@
 		
 		To create index elements, you can use the following:
 		
-			<programlisting language="xml">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/indexelement1.xml[]
+[source,xml]
+----
+include::res/indexelement1.xml[]
 ----
 		
 		You can add a secondary index term.
 		
-			<programlisting language="xml">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/indexelement2.xml[]
+[source,xml]
+----
+include::res/indexelement2.xml[]
 ----
 		
 		You can also place a reference to another index term.
 		
-			<programlisting language="xml">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/indexelement3.xml[]
+[source,xml]
+----
+include::res/indexelement3.xml[]
 ----
 		
 
@@ -216,9 +216,9 @@
 === Tables
 		You can create a table via the following coding.
 		
-			<programlisting language="xml">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/exampletable.xml[]
+[source,xml]
+----
+include::res/exampletable.xml[]
 ----
 		
 
@@ -227,17 +227,17 @@
 === Lists
 		You can create non-numbered lists like this:
 		
-			<programlisting language="xml">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/simplelist.xml[]
+[source,xml]
+----
+include::res/simplelist.xml[]
 ----
 		
 
 		You can create numbered lists like this:
 		
-			<programlisting language="xml">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/numberedlist.xml[]
+[source,xml]
+----
+include::res/numberedlist.xml[]
 ----
 		
 

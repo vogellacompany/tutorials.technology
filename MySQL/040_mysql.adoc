@@ -6,7 +6,7 @@ command line interface for administrative work.
 
 
 To connect to the
-<wordasword>MySQL</wordasword>
+_MySQL_
 database server use the following command.
 
 

@@ -59,9 +59,9 @@
 			input.
 		
 		
-			<programlisting language="java">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/builder/MarkupTemplateEngineExample.groovy[]
+[source,java]
+----
+include::res/builder/MarkupTemplateEngineExample.groovy[]
 ----
 		
 		Templates support includes.
@@ -75,9 +75,9 @@
 			is demonstrated by the following snippet.
 		
 		
-			<programlisting language="java">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/builder/TestMarkupWriter.groovy[]
+[source,java]
+----
+include::res/builder/TestMarkupWriter.groovy[]
 ----
 		
 		The builder in Groovy uses the method names to construct the
@@ -88,9 +88,9 @@
 		
 		It is possible to use maps MarkupBuilderin the builder
 		
-			<programlisting language="java">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/builder/TestMarkupWriterMap.groovy[]
+[source,java]
+----
+include::res/builder/TestMarkupWriterMap.groovy[]
 ----
 		
 
@@ -98,9 +98,9 @@
 		You can also use the builder to create valid HTML.
 
 		
-			<programlisting language="java">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/builder/TestMarkupHtml.groovy[]
+[source,java]
+----
+include::res/builder/TestMarkupHtml.groovy[]
 ----
 		
 

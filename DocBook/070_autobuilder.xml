@@ -5,18 +5,18 @@
 		DocBook output.
 	
 	
-		On your project right-click with the mouse. Select <guibutton>Properties</guibutton>.
-		Go to <guibutton>Builder</guibutton> and press <guibutton>New</guibutton>.
-		Select <guilabel>Ant build</guilabel> and select your existing
+		On your project right-click with the mouse. Select btn:[Properties].
+		Go to btn:[Builder] and press btn:[New].
+		Select _Ant build_ and select your existing
 		ant `build.xml` file.
 	
 	
-		Under targets select <guilabel>Select-targets</guilabel>
-		in the <guilabel>Auto-Build</guilabel> section
+		Under targets select _Select-targets_
+		in the _Auto-Build_ section
 		and select your target.
 	
 	
-		On the tab <guibutton>Build Options</guibutton> you can specify
+		On the tab btn:[Build Options] you can specify
 		a working set for relevant resources.
 		This would be your source folder.
 	

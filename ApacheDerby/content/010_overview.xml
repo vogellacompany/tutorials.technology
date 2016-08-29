@@ -21,7 +21,7 @@
 		
 			Derby can be used in a
 			server mode and in so-called
-			<wordasword>embedded mode</wordasword>
+			_embedded mode_
 			.
 			If
 			Derby runs in the server mode
@@ -30,7 +30,7 @@
 			which
 			will be responsible for
 			handling the database requests. In
-			<wordasword>embedded mode</wordasword>
+			_embedded mode_
 			Derby runs
 			within the
 			JVM (Java Virtual

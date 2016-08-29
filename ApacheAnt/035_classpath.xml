@@ -8,13 +8,13 @@
 			following
 			`build.xml`
 			from a project called
-			<wordasword>de.vogella.build.ant.classpath</wordasword>
+			_de.vogella.build.ant.classpath_
 			demonstrates this.
 		
 		
-			<programlisting language="xml">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/classpath/build.xml[]
+[source,xml]
+----
+include::res/classpath/build.xml[]
 ----
 		
 

@@ -11,9 +11,9 @@
 		
 
 		
-			<programlisting language="java">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/fail/fail1.txt[]
+[source,java]
+----
+include::res/fail/fail1.txt[]
 ----
 		
 
@@ -21,9 +21,9 @@
 		Or you can check for the number of files generated. 
 
 		
-			<programlisting language="java">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/fail/fail2.txt[]
+[source,java]
+----
+include::res/fail/fail2.txt[]
 ----
 		
 

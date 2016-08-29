@@ -24,9 +24,9 @@
 			file with the following contents has to be created.
 		
 		
-			<programlisting language="java">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/daemon/gradle.properties[]
+[source,java]
+----
+include::res/daemon/gradle.properties[]
 ----
 		
 	
@@ -41,9 +41,9 @@
 			of the build any more.
 		
 		
-			<programlisting language="java">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/daemon/daemon-notice.txt[]
+[source,java]
+----
+include::res/daemon/daemon-notice.txt[]
 ----
 		
 	

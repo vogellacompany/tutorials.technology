@@ -14,14 +14,14 @@
 			You can, for example, include a file `foo.xml`
 			into another one via the
 			following statement
-			<programlisting language="xml">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/xincludeexample1.xml[]
+[source,xml]
+----
+include::res/xincludeexample1.xml[]
 ----
 			In case this file should be treated as text:
-			<programlisting language="xml">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/xincludeexample2.xml[]
+[source,xml]
+----
+include::res/xincludeexample2.xml[]
 ----
 		
 		
@@ -62,9 +62,9 @@ http://www.vogella.com/tutorials/ApacheAnt/article.html#classpath">
 			You should now be able to create and run the xinclude task.
 			Below an example ant build.xml file.
 		
-			<programlisting language="xml">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/ant/buildxinclude.xml[]
+[source,xml]
+----
+include::res/ant/buildxinclude.xml[]
 ----
 		
 

@@ -70,7 +70,7 @@
 		
 		
 			You can add another remote repository called
-			<wordasword>remote_name</wordasword>
+			_remote_name_
 			via the following command.
 		
 		
@@ -82,9 +82,9 @@
 
 		
 			For merging the changes in
-			<wordasword>mysecondrepo</wordasword>
+			_mysecondrepo_
 			create a new branch called
-			<wordasword>newbranch</wordasword>
+			_newbranch_
 			.
 		
 		
@@ -95,7 +95,7 @@
 		
 		
 			Afterwards you can pull from your new repository called
-			<wordasword>mysecondrepo</wordasword>
+			_mysecondrepo_
 			and push to your original repository, e.g., origin.
 		
 		

@@ -267,7 +267,7 @@
 				
 			|===
 		
-		The empty object (null) is called <wordasword>None</wordasword> in Python.
+		The empty object (null) is called _None_ in Python.
 		
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"

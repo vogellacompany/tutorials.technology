@@ -3,7 +3,7 @@
 == Project and Domain model
 	
 		Create the Java project called
-		<wordasword>de.vogella.rss</wordasword>
+		_de.vogella.rss_
 		. Create the following
 		Java classes, which is used as
 		domain

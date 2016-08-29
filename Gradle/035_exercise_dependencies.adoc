@@ -5,9 +5,9 @@
 		previously created groovy project.
 	
 	
-		<programlisting language="gradle">
-			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-				parse="text" href="./examples/dependencies/dependency_task_command_line.txt[]
+[source,gradle]
+----
+include::res/dependencies/dependency_task_command_line.txt[]
 ----
 	
 	This command will result in the following output:

@@ -1,13 +1,13 @@
 <section id="overview">
 == XSLT
 	
-		<wordasword>XSLT</wordasword>
+		_XSLT_
 		allows converting XML into other formats. XSLT stands for
-		<wordasword>
+		_
 			Extensible Stylesheet Language for Transformations
-		</wordasword>
+		_
 		. You typically run
-		<wordasword>XLST</wordasword>
+		_XLST_
 		from the command line but there is also tooling available for
 		graphical tools, like the Eclipse IDE.
 	

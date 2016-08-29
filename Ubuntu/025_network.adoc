@@ -34,9 +34,9 @@
 		
 			For example, to
 			create an alias called
-			<wordasword>foo</wordasword>
+			_foo_
 			for the IP address 144.76.74.162 and to use the user called
-			<wordasword>testing</wordasword>
+			_testing_
 			switch to
 			your
 			`~/.ssh`

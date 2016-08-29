@@ -4,9 +4,9 @@
 === Defining closures
 		
 			Closures are
-			<wordasword>code fragments</wordasword>
+			_code fragments_
 			or
-			<wordasword>code blocks</wordasword>
+			_code blocks_
 			which can be used without
 			being a
 			method or a class.

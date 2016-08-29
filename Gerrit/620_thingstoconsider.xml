@@ -142,7 +142,7 @@ include::res/commitmessage/header.txt[]
 			modified by John
 			Doe
 			and he fixed Bug 429728 with it. The additional entry in the
-			<wordasword>Contributors</wordasword>
+			_Contributors_
 			section is
 			typically considered
 			optional, but this depends on the
@@ -227,7 +227,7 @@ include::res/commitmessage/header.txt[]
 			lines,
 			as this makes the review process much harder.
 			Avoid pressing the
-			<guilabel>Format source code</guilabel>
+			_Format source code_
 			shortcut in your editor. Instead, only select the changes lines and
 			then press the format source code shortcut (this
 			is also an

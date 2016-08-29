@@ -61,10 +61,10 @@ image::gerritissue_solution30.png" scale="30" />
 		<tip>
 			
 				The Git tooling in Eclipse allows squashing commits via the
-				<guilabel>Git Interactive Rebase</guilabel>
+				_Git Interactive Rebase_
 				view. A simple way of doing this is by selecting the adjacent
 				commits you want to squash in the
-				<guilabel>History</guilabel>
+				_History_
 				view and by selecting
 				<menuchoice>
 					<guimenu>Modify</guimenu>
@@ -83,7 +83,7 @@ image::gerritissue_solution30.png" scale="30" />
 		
 		
 			The easiest way to do so is via the
-			<guibutton>Rebase</guibutton>
+			btn:[Rebase]
 			button
 			in the Gerrit web interface, if there are no conflicts.
 

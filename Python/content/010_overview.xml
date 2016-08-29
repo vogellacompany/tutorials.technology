@@ -3,25 +3,25 @@
 	<section id="python_overview">
 === What is Python
 		
-			<wordasword>Python</wordasword>
+			_Python_
 			is an interpreted programming language and claims to be a
 			very
 			effective programming language.
-			<wordasword>Python</wordasword>
+			_Python_
 			was develop by Guido van
 			Rossum.
 		
 		
 			The name Python is
 			based on the TV show called
-			<wordasword>Monty Python's Flying Circus</wordasword>
+			_Monty Python's Flying Circus_
 			. During execution the Python source code is translated
 			into
 			bytecode
 			which is then interpreted by the
-			<wordasword>Python</wordasword>
+			_Python_
 			interpreter.
-			<wordasword>Python</wordasword>
+			_Python_
 			source code
 			can also run on the Java Virtual Machine, in
 			this
@@ -31,7 +31,7 @@
 		
 		
 			Key features of
-			<wordasword>Python</wordasword>
+			_Python_
 			are:
 			<itemizedlist>
 				<listitem>
@@ -60,10 +60,10 @@
 
 	<section id="python_blocks">
 === Block concept in
-			<wordasword>Python</wordasword>
+			_Python_
 			via indentation
 		
-			<wordasword>Python</wordasword>
+			_Python_
 			identify
 			blocks of code by
 			indentation. If you

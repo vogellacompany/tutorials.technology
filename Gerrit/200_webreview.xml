@@ -35,7 +35,7 @@ image::webreview10.png[]
 
 		
 			Clicking on
-			<guilabel>Up to change</guilabel>
+			_Up to change_
 			brings you back to the change.
 		
 		
@@ -52,7 +52,7 @@ image::webreview10.png[]
 === Publishing your review result
 		
 			Click on
-			<guilabel>Reply</guilabel>
+			_Reply_
 			button
 			to give feedback on the change.
 		
@@ -115,7 +115,7 @@ image::webreview30.png[]
 		
 		
 			As the developer amends the commit, the same
-			<wordasword>Change-Id</wordasword>
+			_Change-Id_
 			is used and the
 			Gerrit review system identifies the change as update
 			of the existing change.
@@ -123,7 +123,7 @@ image::webreview30.png[]
 
 		
 			The
-			<guilabel>Git Staging</guilabel>
+			_Git Staging_
 			view allows amending the last commit by clicking the amend button
 			shown in the screenshot.
 		
@@ -138,7 +138,7 @@ image::amendwithstagingview32.png[]
 		<tip>
 			
 				Gerrit allows you to select which patch sets you want to compare in
-				<guilabel>Comparison</guilabel>
+				_Comparison_
 				view. Typically you compare the base version with the latest patch
 				set, but if e.g. you already reviewed patch set 3
 				you may want to
@@ -285,7 +285,7 @@ image::webreviewpull10.png[]
 				.
 				When working with many projects, it is often easier to right-click
 				on the repository instead and access
-				<guibutton>Fetch from Gerrit</guibutton>
+				btn:[Fetch from Gerrit]
 				from there.
 				You can paste the change's number (shown in the change's
 				URL) and use
@@ -327,7 +327,7 @@ image::editingerrit10.png[]
 			Afterwards select the file or the commit message you want to edit. Press save and close once you are done. After
 			you
 			are done with all your edits, press the
-			<guilabel>Publish Edit</guilabel>
+			_Publish Edit_
 			.
 		
 

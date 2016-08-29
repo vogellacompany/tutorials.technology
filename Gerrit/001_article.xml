@@ -1,6 +1,14 @@
-<?xml version="1.0"?>
-<article>
-	<articleinfo>
+=  - Tutorial
+:linkcss:
+:sectnums:                                                          
+:experimental:
+:icons:
+:imagesdir: ./img
+Lars Vogel, (c) 2009, 2016 vogella GmbH
+Version 0.3, 06.07.2016
+:docinfodir: ../
+:vgwort: XXX
+
 === Gerrit code review - Tutorial
 		<author>
 			<firstname>Lars</firstname>

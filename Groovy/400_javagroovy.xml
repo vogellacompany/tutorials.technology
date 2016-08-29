@@ -35,15 +35,15 @@ image::javagroovy10.gif[]
 	<section id="script">
 === Calling a script
 		
-			<programlisting language="java">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/script/ExecuteGroovyViaJSR223.java[]
+[source,java]
+----
+include::res/script/ExecuteGroovyViaJSR223.java[]
 ----
 		
 		
-			<programlisting language="java">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/script/hello.groovy[]
+[source,java]
+----
+include::res/script/hello.groovy[]
 ----
 		
 

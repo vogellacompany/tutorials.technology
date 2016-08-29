@@ -22,12 +22,12 @@
 	
 	
 		After cloning the repository you can configure Gerrit in the
-		<guilabel>Git repositories</guilabel>
+		_Git repositories_
 		view
 		by right-clicking on the
-		<wordasword>origin</wordasword>
+		_origin_
 		remote and selecting
-		<guilabel>Gerrit Configuration</guilabel>
+		_Gerrit Configuration_
 		.
 	
 	
@@ -41,15 +41,14 @@ image::gerrit_pushconfiguration10.png[]
 
 	
 		You can see the Gerrit review notes in Eclipse. Select
-		<menuchoice>
-			<guimenu>Open in
+		menu:Open in
 				Commit Viewer
 			</guimenu>
 		</menuchoice>
 		on a commit in the History View. In the Commit Viewer you have
 		an
 		additional tab called
-		<guilabel>Notes</guilabel>
+		_Notes_
 		. Here you see the data which was created by
 		the Gerrit reviewer.
 	

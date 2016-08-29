@@ -5,7 +5,7 @@
 		to serve static HTML
 		pages. The standard directory which will be
 		served is below the
-		<wordasword>Tomcat</wordasword>
+		_Tomcat_
 
 		`webapps/ROOT`
 		below the installation directory. Place static content

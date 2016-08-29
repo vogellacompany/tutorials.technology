@@ -3,9 +3,9 @@
 	<section id="antoverview_definition">
 === What is Apache Ant?
 		
-			<wordasword>Apache Ant</wordasword>
+			_Apache Ant_
 			(Ant) is a general purpose build tool. Ant is an abbreviation for
-			<wordasword>Another Neat Tool</wordasword>
+			_Another Neat Tool_
 			.
 		
 
@@ -44,11 +44,11 @@
 			.
 			Ant
 			builds are based on three blocks:
-			<wordasword>tasks</wordasword>
+			_tasks_
 			,
-			<wordasword>targets</wordasword>
+			_targets_
 			and
-			<wordasword>extension points</wordasword>
+			_extension points_
 			.
 		
 		

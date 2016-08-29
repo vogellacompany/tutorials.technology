@@ -36,15 +36,15 @@ http://www.vogella.com/tutorials/ApacheAnt/article.html#classpath">
 			it. The second listing is then a full example ant `build.xml` file.
 		
 		
-			<programlisting language="xml">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/ant/pdftask.xml[]
+[source,xml]
+----
+include::res/ant/pdftask.xml[]
 ----
 		
 		
-			<programlisting language="xml">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/ant/buildpdf.xml[]
+[source,xml]
+----
+include::res/ant/buildpdf.xml[]
 ----
 		
 

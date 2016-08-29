@@ -6,7 +6,7 @@
 			Unity is the default windows manager on Ubuntu. It introduced
 			the
 			launcher on the left side of Ubuntu and the
-			<wordasword>Dash</wordasword>
+			_Dash_
 			to start
 			programs.
 
@@ -17,7 +17,7 @@
 				<keycap>Windows</keycap>
 			</keycombo>
 			key to start the
-			<wordasword>Dash</wordasword>
+			_Dash_
 			. Here you can type in commands to open programs and files.
 		
 		

@@ -102,9 +102,9 @@
 			file as template for a Gradle project.
 		
 		
-			<programlisting language="java">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/git/gitignore[]
+[source,java]
+----
+include::res/git/gitignore[]
 ----
 		
 	

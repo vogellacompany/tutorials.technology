@@ -1,7 +1,7 @@
 <section id="freemarker">
 == Introduction to FreeMarker
 	
-		<wordasword>FreeMarker</wordasword>
+		_FreeMarker_
 		is a Java-based template engine which can be used in
 		stand-alone or
 		servlet-based Java programs.

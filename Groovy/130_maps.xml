@@ -17,9 +17,9 @@
 			double quotes in the map declaration.
 		
 		
-			<programlisting language="java">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/maps/MapTest.groovy[]
+[source,java]
+----
+include::res/maps/MapTest.groovy[]
 ----
 		
 		
@@ -41,9 +41,9 @@
 		
 
 		
-			<programlisting language="java">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/maps/MapTest.groovy[]
+[source,java]
+----
+include::res/maps/MapTest.groovy[]
 ----
 		
 		
@@ -134,9 +134,9 @@
 		It is possible to use named arguments in method invocation.
 		
 		
-			<programlisting language="java">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/namedarguments/TestNamedArgument.groovy[]
+[source,java]
+----
+include::res/namedarguments/TestNamedArgument.groovy[]
 ----
 		
 
@@ -153,9 +153,9 @@
 			perform its setup.
 		
 		
-			<programlisting language="java">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/namedarguments/Person.groovy[]
+[source,java]
+----
+include::res/namedarguments/Person.groovy[]
 ----
 		
 
@@ -167,9 +167,9 @@
 			method.
 		
 		
-			<programlisting language="java">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/maps/ConvertListToMap.groovy[]
+[source,java]
+----
+include::res/maps/ConvertListToMap.groovy[]
 ----
 		
 

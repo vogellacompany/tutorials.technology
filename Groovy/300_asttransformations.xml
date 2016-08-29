@@ -4,7 +4,7 @@
 === What are AST transformations?
 		
 			An
-			<wordasword>Abstract Syntax Tree</wordasword>
+			_Abstract Syntax Tree_
 			(AST)
 			is a in memory representation of code as data. An ADT transformation
 			allows to

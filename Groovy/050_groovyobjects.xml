@@ -40,12 +40,12 @@
 			`PropertyChangeSupport`
 			to the class or property.
 			Such a Groovy classes fits to the
-			<wordasword>Java beans</wordasword>
+			_Java beans_
 			specification.
 		
 		
 			Groovy objects are frequently referred to as
-			<wordasword>Plain Old Groovy Objects (POGO)</wordasword>
+			_Plain Old Groovy Objects (POGO)_
 			.
 		
 		
@@ -71,13 +71,13 @@
 === Constructors
 		
 			Groovy provides
-			<wordasword>constructors with named parameters</wordasword>
+			_constructors with named parameters_
 
 			in which you can
 			specify the
 			element you would like to set during
 			construction. This constructor is also called
-			<wordasword>map based constructor</wordasword>
+			_map based constructor_
 			, as it uses the
 			`property:value`
 			map syntax.

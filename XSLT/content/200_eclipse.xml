@@ -14,9 +14,9 @@
 			In case you want to use Eclipse to perform your transformation you
 			can
 			install the
-			<guilabel>
+			_
 				Eclipse XSL Developer
-			</guilabel>
+			_
 			plugin
 			via the
 			http://www.vogella.com/tutorials/Eclipse/article.html">
@@ -31,10 +31,10 @@
 			This chapter explains how to use the Eclipse tooling to do your XLS
 			transformation. We again use the simplest transformation
 			of just
-			copying the data. Create a new project of type <guilabel>General</guilabel>
+			copying the data. Create a new project of type _General_
 			in Eclipse
 			called
-			<wordasword>de.vogella.xslt.first</wordasword>
+			_de.vogella.xslt.first_
 			. Create a
 			folder
 			<filename class="directory">files`
@@ -77,9 +77,9 @@ image::first10.gif[]
 		
 
 		
-			Select <guibutton>Open Files...</guibutton> and select
+			Select btn:[Open Files...] and select
 			`source.xml`
-			. Press <guibutton>OK</guibutton> to run
+			. Press btn:[OK] to run
 			it.
 		
 		

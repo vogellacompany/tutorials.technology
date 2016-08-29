@@ -1,16 +1,13 @@
 <section id="eclipse_integration">
 == Eclipse Integration
 	
-		<wordasword>FreeMarker</wordasword>
+		_FreeMarker_
 		code completion and syntax highlighting
 		is part of the
-		<wordasword>JBoss Tools</wordasword>.
+		_JBoss Tools_.
 		Add the following update site to your
 		Eclipse installation via
-		<menuchoice>
-			<guimenu>Help</guimenu>
-			<guisubmenu>Install New Software...</guisubmenu>
-		</menuchoice>
+		menu:Help[Install New Software...]
 	
 
 	

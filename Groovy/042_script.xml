@@ -10,7 +10,7 @@
 === Create a new Groovy script
 		
 			Use the Eclipse wizard to create a new
-			<guilabel>Groovy class</guilabel>
+			_Groovy class_
 			in your existing project.
 		
 
@@ -38,7 +38,7 @@ menu:Run As[Groovy Script]
 			The above menu entry triggers the execution of the script and prints
 			output
 			to
-			<wordasword>Console</wordasword>
+			_Console_
 			view of the Eclipse IDE.
 		
 

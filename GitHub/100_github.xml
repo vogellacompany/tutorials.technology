@@ -18,9 +18,9 @@
 			GitHub supports that repositories can be cloned
 			to a new Git
 			repository hosted at Github. GitHub uses the term
-			<wordasword>fork</wordasword>
+			_fork_
 			or
-			<wordasword>forking</wordasword>
+			_forking_
 			for creating such clones.
 		
 		
@@ -96,7 +96,7 @@
 			repository. For example the following screenshots demonstrate the
 			creation of
 			the
-			<wordasword>de.vogella.git.github</wordasword>
+			_de.vogella.git.github_
 			repository.
 		
 
@@ -139,7 +139,7 @@ image::github20.png" scale="30" />
 		</indexterm>
 		
 			GitHub uses
-			<wordasword>Pull requests</wordasword>
+			_Pull requests_
 			for contributions.
 		
 		The typical workflow in GitHub is to fork a repository, create
@@ -150,7 +150,7 @@ image::github20.png" scale="30" />
 		
 			GitHub makes is easy to fork a repository via its web interface.
 			Simply click the
-			<guibutton>Fork</guibutton>
+			btn:[Fork]
 			button of a repository of your choice.
 		
 		
@@ -172,7 +172,7 @@ image::github_pullrequest10.png"
 			from. Your
 			repository is the fork as highlighted in the
 			screenshot. Press
-			<guilabel>Pull Requests</guilabel>
+			_Pull Requests_
 			to see existing and create new pull requests.
 		
 		
@@ -187,7 +187,7 @@ image::github_pullrequest20.png"
 
 		
 			Click
-			<guilabel>New pull request</guilabel>
+			_New pull request_
 			to create a new one.
 		
 		
@@ -202,7 +202,7 @@ image::github_pullrequest30.png"
 		
 			On the next screen you can specify the direction of the pull request
 			and the branches if you select the
-			<guilabel>Edit</guilabel>
+			_Edit_
 			button.
 		
 		

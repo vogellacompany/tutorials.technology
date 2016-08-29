@@ -15,7 +15,7 @@
 	
 	
 		Open the
-		<guilabel>Git Repositories</guilabel>
+		_Git Repositories_
 		view
 		and select that you want to clone an existing repository. Enter
 		the URL from the Git repository hosted at Gerrit, for example:

@@ -14,10 +14,10 @@
 === Create Java project
 		
 			Create a Java project called
-			<wordasword>de.vogella.build.ant.first</wordasword>
+			_de.vogella.build.ant.first_
 			in
 			Eclipse. Create a package called
-			<wordasword>math</wordasword>
+			_math_
 			and the following class.
 		
 		
@@ -49,9 +49,9 @@ menu:File[New > File]
 		
 		
 
-			<programlisting language="xml">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/ant/build.xml[]
+[source,xml]
+----
+include::res/ant/build.xml[]
 ----
 		
 		 The code is documented, you should be able to determine the
@@ -65,7 +65,7 @@ menu:File[New > File]
 			Run the
 			`build.xml`
 			file as an
-			<guilabel>Ant Build</guilabel>
+			_Ant Build_
 			in Eclipse.
 image::anttest20.gif[]
 		

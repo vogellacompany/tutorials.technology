@@ -81,9 +81,9 @@
 			in your <filename class="directory">input` directory.
 		
 		
-			<programlisting language="xml">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/epub/book.xml[]
+[source,xml]
+----
+include::res/epub/book.xml[]
 ----
 		
 		
@@ -114,9 +114,9 @@
 			output.
 		
 		
-			<programlisting language="xml">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/epub/buildepub.xml[]
+[source,xml]
+----
+include::res/epub/buildepub.xml[]
 ----
 		
 		

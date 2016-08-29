@@ -107,7 +107,7 @@ include::res/datatypes/Person.groovy[]
 		
 			List support operator overloading. You can use + to concatenate
 			strings, - to substract lists and the
-			<wordasword>left-shift operator</wordasword>
+			_left-shift operator_
 			to add elements to a list.
 		
 

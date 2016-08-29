@@ -15,7 +15,7 @@ menu:General[Projects]
 		
 		
 			The new project is called
-			<wordasword>de.vogella.docbook.first</wordasword>.
+			_de.vogella.docbook.first_.
 		
 		
 			Create the following folder structure:
@@ -52,7 +52,7 @@ menu:General[Projects]
 			Copy the
 			`jar`
 			files from your
-			<wordasword>Saxon</wordasword>
+			_Saxon_
 			download into the
 			<filename class="directory">lib`
 			folder.
@@ -69,9 +69,9 @@ menu:General[Projects]
 			with the following content.
 		
 		
-			<programlisting language="xml">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/firstdocbook/book.xml[]
+[source,xml]
+----
+include::res/firstdocbook/book.xml[]
 ----
 		
 		

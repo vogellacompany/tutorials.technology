@@ -28,9 +28,9 @@ http://docbook.sourceforge.net/release/xsl/current/doc/fo/highlight.source.html"
 			highlighting for the bourne shell.
 		
 		
-			<programlisting language="xml">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/syntaxhighlighting/bourne-hl.xml[]
+[source,xml]
+----
+include::res/syntaxhighlighting/bourne-hl.xml[]
 ----
 		
 
@@ -40,9 +40,9 @@ http://docbook.sourceforge.net/release/xsl/current/doc/fo/highlight.source.html"
 			file, for example:
 		
 		
-			<programlisting language="xml">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/syntaxhighlighting/xslthl-config.xml[]
+[source,xml]
+----
+include::res/syntaxhighlighting/xslthl-config.xml[]
 ----
 		
 
@@ -61,9 +61,9 @@ http://docbook.sourceforge.net/release/xsl/current/doc/fo/highlight.source.html"
 		
 
 		
-			<programlisting language="xml">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/advanced/remove_sections_for_book.xsl[]
+[source,xml]
+----
+include::res/advanced/remove_sections_for_book.xsl[]
 ----
 		
 
@@ -80,9 +80,9 @@ http://docbook.sourceforge.net/release/xsl/current/doc/fo/highlight.source.html"
 			HTML content and changes the titlepage by including an image.
 		
 		
-			<programlisting language="xml">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/own/style.xsl[]
+[source,xml]
+----
+include::res/own/style.xsl[]
 ----
 		
 

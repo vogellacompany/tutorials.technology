@@ -1,6 +1,6 @@
 == Overview
 	
-<wordasword>MySQL</wordasword>
+_MySQL_
 is a popular open source database which can be used free
 of
 charge.

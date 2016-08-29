@@ -4,7 +4,7 @@
 === What is the Meta Object Protocol_
 		
 			The
-			<wordasword>Meta-Object Protocol (MOP)</wordasword>
+			_Meta-Object Protocol (MOP)_
 			is the underlying layer in Groovy which allows you to add methods and properties to an object at runtime.
 			Using MOP
 			you can

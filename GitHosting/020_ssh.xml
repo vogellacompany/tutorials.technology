@@ -8,7 +8,7 @@
 		
 			Most Git (and Gerrit) servers support SSH based authentication. This
 			requires a
-			<wordasword>SSH key pair</wordasword>
+			_SSH key pair_
 			for
 			automatic authentication.
 		

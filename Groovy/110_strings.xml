@@ -103,7 +103,7 @@
 		
 			String support operator overloading. You can use + to concatenate
 			strings, - to substract strings and the
-			<wordasword>left-shift operator</wordasword>
+			_left-shift operator_
 			to add to a String.
 		
 

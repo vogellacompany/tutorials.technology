@@ -16,12 +16,12 @@ This will open a console window which allows you to issue commands.
 Ubuntu offers several editors which are installed by default.
 The most
 common command line editor is
-<wordasword>vim</wordasword>
+_vim_
 .
 
 
 To install
-<wordasword>vim</wordasword>
+_vim_
 on your Ubuntu machine use the following command.
 
 
@@ -34,7 +34,7 @@ parse="text" href="./examples/vim/install.txt" />
 
 
 Start
-<wordasword>vim</wordasword>
+_vim_
 from the
 command line. vim has two modes, one editing
 mode

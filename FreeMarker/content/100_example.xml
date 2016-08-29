@@ -3,7 +3,7 @@
 
 	
 		Create a new Java project called
-		<wordasword>com.vogella.freemarker.first</wordasword>
+		_com.vogella.freemarker.first_
 		. Create a new folder called
 		`lib`
 		and add the Freemarker library to it. Add this library to the
@@ -18,7 +18,7 @@
 		Create a new folder called
 		`templates`
 		inside the folder of the
-		<wordasword>com.vogella.freemarker.first</wordasword>
+		_com.vogella.freemarker.first_
 		package. Inside that, create the following file with name
 		`helloworld.ftl`
 		.

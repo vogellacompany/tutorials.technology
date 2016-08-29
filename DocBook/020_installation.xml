@@ -72,7 +72,7 @@
 		
 		
 			In this case try adding the
-			<wordasword>xerces-j</wordasword>
+			_xerces-j_
 			XML parser to your build path
 			and see if that resolves the
 			error.

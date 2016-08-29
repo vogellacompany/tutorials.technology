@@ -7,7 +7,7 @@
 		configuration information defined via
 		Groovy. The configuration can be supplied as String, file or URL. You
 		can add an
-		<wordasword>environment</wordasword>
+		_environment_
 		section in your configuration script, which allows to specify the
 		 environment dependent configuration.
 	

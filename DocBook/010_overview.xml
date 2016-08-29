@@ -3,7 +3,7 @@
 	<section id="overview_defintion">
 === Overview
 		
-			<wordasword>DocBook</wordasword>
+			_DocBook_
 			is a standard for creating well-formated plain text
 			documents.
 			DocBook
@@ -11,19 +11,19 @@
 		
 		
 			For further processing
-			<wordasword>DocBook</wordasword>
+			_DocBook_
 			files are transformed into
 			other
 			output
 			formats. This is typically done
 			via
-			<wordasword>XSLT</wordasword>
-			(<wordasword>
+			_XSLT_
+			(_
 				Extensible Stylesheet Language Transformation
-			</wordasword>).
+			_).
 		
 		
-			<wordasword>XSLT</wordasword>
+			_XSLT_
 			sheets
 			for converting DocBook
 			into common output, e.g. HTML or PDF,
@@ -35,9 +35,9 @@
 === Documents classes
 		
 			DocBook has two main document classes, the
-			<wordasword>book</wordasword>
+			_book_
 			class and the
-			<wordasword>article</wordasword>
+			_article_
 			class.
 		
 		
@@ -64,7 +64,7 @@
 	<section id="overview_versions">
 === DocBook versions
 		
-			<wordasword>DocBook</wordasword>
+			_DocBook_
 			is currently available in two versions. The
 			`4.5`
 			version and the
@@ -79,17 +79,17 @@
 === DocBook Example
 		
 			The following listing shows an example of a DocBook article.
-			<programlisting language="xml">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/firstdocbook/article.xml[]
+[source,xml]
+----
+include::res/firstdocbook/article.xml[]
 ----
 		
 
 		
 			The following listing shows an example of a DocBook book.
-			<programlisting language="xml">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/firstdocbook/book.xml[]
+[source,xml]
+----
+include::res/firstdocbook/book.xml[]
 ----
 		
 

@@ -2,7 +2,7 @@
 == Build tools
 	
 		In software development the term
-		<wordasword>building</wordasword>
+		_building_
 		usually means the conversion of source code and other artifacts, like images or configuration files, into another
 		artifact. For example source code might be compiled into a JAR file. Or you may create a new standalone application.
 		The build result can
@@ -12,7 +12,7 @@
 	
 	
 		A
-		<wordasword>build tools</wordasword>
+		_build tools_
 		is"EclipseTycho/001_article.xml"
 		used to
 		automate repetitive tasks during this process. This
@@ -34,15 +34,15 @@
 		tools typically run without a graphical user interface
 		directly from the command line. As a user interface is not
 		required to such builds, these builds are called
-		<wordasword>headless</wordasword>
+		_headless_
 		.
 	
 	
 		Popular build tools in the Java space are
-		<wordasword>Maven</wordasword>
+		_Maven_
 		and
-		<wordasword>Gradle</wordasword>
-		and <wordasword>Apache Ant</wordasword>.
+		_Gradle_
+		and _Apache Ant_.
 	
 
 

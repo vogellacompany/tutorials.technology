@@ -2,7 +2,7 @@
 == Administrator: create example project
 	
 		Also for testing create a new Java project called
-		<wordasword>com.vogella.gerrit.example</wordasword>
+		_com.vogella.gerrit.example_
 		in Eclipse that gets stored in a local
 		Git repository. Add a few
 		classes to it.
@@ -18,14 +18,10 @@
 		push the local Git
 		repository
 		to Gerrit by selecting
-		<menuchoice>
-			<guimenu>Team</guimenu>
-			<guisubmenu>Remote</guisubmenu>
-			<guisubmenu>Push</guisubmenu>
-		</menuchoice>.
+		menu:Team[Remote > Push].
 		Enter the following URL <![CDATA[ssh://<userid>@localhost:29418/demo/gerrittest.git]]>
 		in the wizard and press the
-		<guilabel>Next</guilabel>
+		_Next_
 		button.
 	
 	
@@ -39,7 +35,7 @@ image::gerrit_initialpush10.png"
 	
 	
 		On the next page, click the
-		<guilabel>Add All Branches Spec</guilabel>
+		_Add All Branches Spec_
 		button.
 	
 	
@@ -53,9 +49,9 @@ image::gerrit_initialpush20.png"
 	
 	
 		Press the
-		<guilabel>Next</guilabel>
+		_Next_
 		button and on the last wizard page the
-		<guilabel>Finish</guilabel>
+		_Finish_
 		button.
 	
 

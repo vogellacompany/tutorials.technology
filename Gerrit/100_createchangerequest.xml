@@ -12,9 +12,9 @@
 	
 		Perform some changes in your Java project. Commit the changes and
 		ensure to select the
-		<guilabel>Add Change-Id</guilabel>
+		_Add Change-Id_
 		button in the
-		<guilabel>Git Staging</guilabel>
+		_Git Staging_
 		view.
 	
 	

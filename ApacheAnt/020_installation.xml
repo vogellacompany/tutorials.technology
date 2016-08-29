@@ -44,7 +44,7 @@ http://www.vogella.com/tutorials/JavaIntroduction/article.html"> Java introducti
 			set to
 			the
 			JDK. This is required for running
-			<wordasword>Ant</wordasword>
+			_Ant_
 			.
 		
 		
@@ -57,7 +57,7 @@ http://www.vogella.com/tutorials/JavaIntroduction/article.html"> Java introducti
 			ant and
 			show
 			the version number of your installed
-			<wordasword>Ant</wordasword>
+			_Ant_
 			version.
 		
 

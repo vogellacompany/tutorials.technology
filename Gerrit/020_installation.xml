@@ -109,7 +109,7 @@ include::res/install/install.txt[]
 |
 								The easiest way of
 								configuring access to Gerrit is to use
-								<wordasword>OpenID Single Sign-on</wordasword>
+								_OpenID Single Sign-on_
 								which is the default setting. Use ? to see all available
 								settings for this option. For testing
 								"development_become_any_account" is
@@ -125,10 +125,10 @@ include::res/install/install.txt[]
 		<tip>
 			
 				Use
-				<wordasword>development_become_any_account</wordasword>
+				_development_become_any_account_
 				to enable general access to Gerrit. This is a nice setting for
 				testing. If started with this setting, you have a
-				<guilabel>Become</guilabel>
+				_Become_
 				link in the web interface which allows you to login and to create a
 				new account.
 			

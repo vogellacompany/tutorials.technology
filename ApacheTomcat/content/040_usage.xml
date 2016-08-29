@@ -4,10 +4,10 @@
 === Start Tomcat on Ubuntu (Linux)
 		
 			In Ubuntu the
-			<wordasword>Tomcat</wordasword>
+			_Tomcat_
 			server
 			is started automatically. To restart
-			<wordasword>Tomcat</wordasword>
+			_Tomcat_
 			use the following
 			command.
 		
@@ -87,9 +87,9 @@ image::tomcat_initialpage10.png"
 		
 			The default user for the Tomcat administration console under Windows
 			is
-			<wordasword>admin</wordasword>
+			_admin_
 			with the
-			<wordasword>admin</wordasword>
+			_admin_
 			password.
 		
 

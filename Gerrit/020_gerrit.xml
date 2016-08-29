@@ -34,7 +34,7 @@
 			user
 			interface
 			of Gerrit is based on
-			<wordasword>Google Web Toolkit</wordasword>
+			_Google Web Toolkit_
 			and its Git
 			implementation is JGit.
 		
@@ -85,7 +85,7 @@
 
 			The Gerrit review system
 			uses the term
-			<wordasword>change</wordasword>
+			_change_
 			, to define a code review / review request. Each change is based on one commit.
 		
 
@@ -99,15 +99,15 @@
 			If you
 			push to
 			Gerrit, you use a certain path (
-			<wordasword>ref specification</wordasword>
+			_ref specification_
 			) which tells
 			Gerrit
 			that you want to create a change. This push ref
 			specification is
-			<wordasword>refs/for/master</wordasword>
+			_refs/for/master_
 			if the target of the change under review is the master branch. You
 			can also push to
-			<wordasword>refs/for/xyz</wordasword>
+			_refs/for/xyz_
 			to put a commit into the review queue
 			for the xyz branch.
 		
@@ -117,7 +117,7 @@
 			makes an update of an existing one.
 			Gerrit uses
 			the
-			<wordasword>Change-Id</wordasword>
+			_Change-Id_
 			information in the commit message to identify if the push is a new
 			commit or an update of an existing change.
 		
@@ -129,7 +129,7 @@
 		
 		
 			It is still possible to bypass code review by pushing directly to
-			<wordasword>refs/heads/master</wordasword>
+			_refs/heads/master_
 			if sufficient rights have been
 			granted.
 		
@@ -142,12 +142,12 @@
 			its
 			default configuration it
 			supports the
-			<wordasword>Code-Review</wordasword>
+			_Code-Review_
 			category.
 		
 		
 			In typical installations also the
-			<wordasword>Verified</wordasword>
+			_Verified_
 			category is installed.
 		
 
@@ -212,9 +212,9 @@
 		
 		
 			Typically Gerrit instances uses the
-			<wordasword>Verified</wordasword>
+			_Verified_
 			and the
-			<wordasword>Code-Review </wordasword>
+			_Code-Review _
 			category.
 
 		
@@ -309,7 +309,7 @@
 === Posting draft reviews
 		
 			There is also a special
-			<wordasword>refs/drafts/master</wordasword>
+			_refs/drafts/master_
 			refspec which you can
 			use to push changes to for private review before
 			publishing them to all developers.
@@ -326,7 +326,7 @@
 			Once it is ready for
 			public
 			review there is a
-			<guilabel>Publish</guilabel>
+			_Publish_
 			button
 			to convert the draft into a
 			change

@@ -44,11 +44,11 @@
 		
 		
 			To change the default shell of the user to
-			<wordasword>bash</wordasword>
+			_bash_
 			set the last entry of the corresponding user in the
 			`/usr/passwd`
 			file to the
-			<wordasword>/bin/bash</wordasword>
+			_/bin/bash_
 			following as in the following example.
 		
 		

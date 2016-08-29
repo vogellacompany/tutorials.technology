@@ -13,7 +13,7 @@
 		
 		
 			Create a new Groovy project called
-			<wordasword>com.vogella.groovy.first</wordasword>
+			_com.vogella.groovy.first_
 			the
 menu:File[New > Other > Groovy > Groovy Project]
 			.
@@ -37,7 +37,7 @@ image::groovyfirst20.png[]
 		
 		
 			After entering the project name, press the
-			<guilabel>Finish</guilabel>
+			_Finish_
 			button. This creates a new Groovy project similar to a new Java
 			project but with the required Groovy libraries.
 		
@@ -92,7 +92,7 @@ menu:Run As[Groovy Script]
 			The above menu entry triggers the execution of the main method in
 			your Groovy class and prints output
 			to
-			<wordasword>Console</wordasword>
+			_Console_
 			view of the Eclipse IDE.
 		
 

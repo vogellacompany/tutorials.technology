@@ -4,7 +4,7 @@
 === Create a Java project script
 		
 			Use the Eclipse wizard to create a new
-			<guilabel>Java project</guilabel>
+			_Java project_
 			called
 			`com.vogella.groovy.fromjava`
 			and create a package called

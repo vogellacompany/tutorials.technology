@@ -15,9 +15,9 @@
 		 This property can later be used for example as a parameter.
 		
 		
-			<programlisting language="xml">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/tips/use.txt[]
+[source,xml]
+----
+include::res/tips/use.txt[]
 ----
 		
 
@@ -26,13 +26,13 @@
 		
 			Ant can be used to replace text based on regular expressions. The
 			following
-			<wordasword>Ant Target</wordasword>
+			_Ant Target_
 			replaces tabs with double spaces.
 		
 		
-			<programlisting language="xml">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/regex/example.xml[]
+[source,xml]
+----
+include::res/regex/example.xml[]
 ----
 		
 

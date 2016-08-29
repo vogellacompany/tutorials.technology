@@ -33,9 +33,9 @@
 		
 		
 			From the user drop down menu select
-			<guilabel>Settings</guilabel>
+			_Settings_
 			and select
-			<guilabel>SSH Public Keys</guilabel>
+			_SSH Public Keys_
 			to upload your public SSH key.
 		
 		
@@ -60,9 +60,9 @@ image::gerritsetup20.png[]
 		
 		
 			Select
-			<guilabel>Profile</guilabel>
+			_Profile_
 			to assign a
-			<guilabel>Username</guilabel>
+			_Username_
 			to your user.
 		
 

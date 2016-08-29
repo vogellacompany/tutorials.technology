@@ -78,9 +78,9 @@
 			Html builder to create a HTML page.
 		
 		
-			<programlisting language="java">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/groovlets/test.groovy[]
+[source,java]
+----
+include::res/groovlets/test.groovy[]
 ----
 		
 
@@ -90,9 +90,9 @@
 			to the following.
 		
 		
-			<programlisting language="java">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/groovlets/web.xml[]
+[source,java]
+----
+include::res/groovlets/web.xml[]
 ----
 		
 
