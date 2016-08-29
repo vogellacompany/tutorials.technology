@@ -29,8 +29,8 @@ Version 0.3, 06.07.2016
 		<abstract id="abstract">
 	=== Short description how to publish EBooks
 			 This is currently a collection of notes for me. 
-		</abstract>
-	</articleinfo>
+  
+  
 
 include::../web/advertisement/afterTableOfContent.adoc[]
 include::content/001_introduction.adoc[]

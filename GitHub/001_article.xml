@@ -33,9 +33,9 @@ Version 0.3, 06.07.2016
 		<abstract id="abstract">
 	=== Using Github tutorial
 			 This tutorial explains how to use GitHub.
-		</abstract>
+  
 
-	</articleinfo>
+  
 
 	<?dbhtml-include href="../../web/kindle/git.txt"?>
 include::../web/advertisement/afterTableOfContent.adoc[]

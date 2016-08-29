@@ -35,8 +35,8 @@ Version 0.3, 06.07.2016
 				statements. The installation of Apache Derby as Windows Service is
 				also explained. 
 			
-		</abstract>
-	</articleinfo>
+  
+  
 include::../web/advertisement/afterTableOfContent.adoc[]
 include::content/010_overview.adoc[]
 include::content/020_installation.adoc[]

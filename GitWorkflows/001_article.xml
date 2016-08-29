@@ -32,8 +32,8 @@ Version 0.3, 06.07.2016
 	=== Git typical workflows
 			 This tutorial explains typical workflows for using Git.
 			
-		</abstract>
-	</articleinfo>
+  
+  
 
 	<?dbhtml-include href="../../web/kindle/git.txt"?>
 include::../web/advertisement/afterTableOfContent.adoc[]

@@ -36,8 +36,8 @@ Version 0.3, 06.07.2016
 				command line or via
 				the Eclipse XSL project.
 			
-		</abstract>
-	</articleinfo>
+  
+  
 
 include::../web/advertisement/afterTableOfContent.adoc[]
 include::content/010_overview.adoc[]

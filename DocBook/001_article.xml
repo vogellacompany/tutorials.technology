@@ -37,8 +37,8 @@
 				version 6.5.5, Eclipse 4.3 and the XLST stylesheets in version
 				1.77.1.
 			
-		</abstract>
-	</articleinfo>
+  
+  
 include::../web/advertisement/afterTableOfContent.adoc[]
 include::010_overview.adoc[]
 include::012_tools.adoc[]

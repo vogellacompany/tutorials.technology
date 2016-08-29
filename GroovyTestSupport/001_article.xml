@@ -37,9 +37,9 @@ Version 0.3, 06.07.2016
 			This article gives a short overview of the additional testing support the Groovy language
 				bring to devlopers.
 			
-		</abstract>
+  
 
-	</articleinfo>
+  
 include::../web/advertisement/afterTableOfContent.adoc[]
 include::010_overview.adoc[]
 include::100_spock.adoc[]

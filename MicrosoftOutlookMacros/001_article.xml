@@ -25,8 +25,8 @@
 				for the email
 				client Microsoft Outlook. 
 
-		</abstract>
-	</articleinfo>
+  
+  
 
 <?dbhtml-include href="../../web/advertisement/afterTableOfContent"?>
 include::content/010_overview.adoc[]

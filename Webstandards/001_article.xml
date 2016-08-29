@@ -28,8 +28,8 @@ Version 0.3, 06.07.2016
 				and
 				URL's.
 			
-		</abstract>
-	</articleinfo>
+  
+  
 include::../web/advertisement/afterTableOfContent.adoc[]
 include::010_architecture.adoc[]
 

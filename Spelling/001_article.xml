@@ -28,8 +28,8 @@ Version 0.3, 06.07.2016
 	=== Typical errors I do in spelling
 			 Reminder for Lars.
 			
-		</abstract>
-	</articleinfo>
+  
+  
 	
 include::../web/advertisement/afterTableOfContent.adoc[]
 include::content/010_overview.adoc[]

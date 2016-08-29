@@ -32,8 +32,8 @@
 				TODO
 			
 
-		</abstract>
-	</articleinfo>
+  
+  
 include::../web/advertisement/afterTableOfContent.adoc[]
 include::010_overview.adoc[]
 include::../web/advertisement/inBetween01.adoc[]

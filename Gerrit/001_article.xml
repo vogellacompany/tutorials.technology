@@ -34,8 +34,8 @@ Version 0.3, 06.07.2016
 				system. It describes the setup of Eclipse (with EGit) as well as the
 				command line setup. Contributing to an Eclipse.org project via Gerrit is also described.
 			
-		</abstract>
-	</articleinfo>
+  
+  
 
 include::../web/advertisement/afterTableOfContent.adoc[]
 include::010_codereview.adoc[]

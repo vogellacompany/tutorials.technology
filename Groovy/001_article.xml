@@ -47,9 +47,9 @@ Version 0.3, 06.07.2016
 				and that you have used Eclipse for Java development. This article
 				was written using Groovy 2.4, Eclipse 4.4 (Luna) and Java 1.8.
 			
-		</abstract>
+  
 
-	</articleinfo>
+  
 include::../web/advertisement/afterTableOfContent.adoc[]
 include::010_overview.adoc[]
 include::020_installation.adoc[]

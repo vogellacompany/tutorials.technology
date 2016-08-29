@@ -30,9 +30,7 @@
             groovyConsole. This console allows you to test Groovy code.
         
         
-            <mediaobject>
-                <imageobject>
-                    <imagedata fileref="images/groovyshell.png[]
+            image::groovyshell.png[]
 
                 </imageobject>
             </mediaobject>

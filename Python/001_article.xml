@@ -40,8 +40,8 @@ Version 0.3, 06.07.2016
 				PyDev
 				version 2.7.3.
 			
-		</abstract>
-	</articleinfo>
+  
+  
 include::../web/advertisement/afterTableOfContent.adoc[]
 include::content/010_overview.adoc[]
 include::content/020_installation.adoc[]
