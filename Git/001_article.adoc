@@ -13,14 +13,17 @@ Version 5.8, 10.08.2015
 This tutorial explains the usage of the distributed version control system Git via the command line.
 The examples were done on Linux (Ubuntu), but should also work on other operating systems like Microsoft Windows.
 
-                
+include::../web/advertisement/afterTableOfContent.adoc[]               
 include::001_overview.adoc[]
 include::002_tools.adoc[]
+include::../web/advertisement/inBetween01.adoc[]
 include::004_gitterminology.adoc[]
 include::008_commitobject.adoc[]
 include::014_commit_references.adoc[]
+include::../web/advertisement/inBetween02.adoc[]
 include::018_tools.adoc[]
 include::020_installation.adoc[]
+include::../web/advertisement/inBetween03.adoc[]
 include::021_gitconfiguration.adoc[]
 include::024_exercise_setup.adoc[]
 include::026_ignore.adoc[]
@@ -91,7 +94,9 @@ include::760_faq.adoc[]
 include::780_gitseries.adoc[]
 include::800_offline.adoc[]
 
-
+include::../support.adoc[]
+include::008_resourceslocal.adoc[]
+include::../copyright.adoc[]
 
 
 

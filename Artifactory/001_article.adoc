@@ -1,4 +1,4 @@
-== Artifactory Repository Manager
+== Artifactory Repository Manager - Tutorial
 :linkcss:
 :sectnums:                                                          
 :experimental:
@@ -6,13 +6,18 @@
 :imagesdir: ./img
 Simon Scholz (c) 2013 - 2016 vogella GmbH
 Version 2.2, 11.08.2016		
+:docinfodir: ../
+:vgwort: Artifactory
 
 This article describes how to use and install the Artifactory Repository Manager.
 			
-	
+include::../web/advertisement/afterTableOfContent.adoc[]	
 include::010_overview.adoc[]
 include::020_installation.adoc[]
+include::../web/advertisement/inBetween01.adoc[]
 include::030_configuration.adoc[]
-include::006_resources.adoc[]
+include::../support.adoc[]
+include::008_resourceslocal.adoc[]
+include::../copyright.adoc[]
 
 

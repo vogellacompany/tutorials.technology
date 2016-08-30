@@ -15,7 +15,7 @@ See https://docs.docker.com/engine/articles/dockerfile_best-practices/[Dockerfil
 For example the following is a docker file which describes an image based on Ubuntu 15.10 with Java installed.
 
 ----
-include::examples/ubuntujava/Dockerfile[]
+include::res/ubuntujava/Dockerfile[]
 ----
 
 To create an Docker image from this file, enter the `docker build -t [imagename]` command. 

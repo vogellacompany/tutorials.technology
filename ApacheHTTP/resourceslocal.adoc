@@ -1,5 +1,0 @@
-[[resources]]
-== Apache HTTP resources
-
-http://httpd.apache.org[Apache HTTP Homepage]
-

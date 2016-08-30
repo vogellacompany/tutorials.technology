@@ -41,7 +41,7 @@ The following listing shows a configuration for a high traffic web server using 
 
 [source]
 ----
-include::examples/snippets/event.txt[]
+include::res/snippets/event.txt[]
 ----
 	
 === Checking for Apache HTTP problems
@@ -68,7 +68,7 @@ The 301 redirect will tell search engines that this side has moved and is the re
 
 [source]
 ----
-include::examples/htaccess_config/htaccess.reroute[]
+include::res/htaccess_config/htaccess.reroute[]
 ----
 
 [[apachehttp_modules]]
@@ -86,14 +86,14 @@ This requires the Apache module "mod_deflate" which can be installed by the foll
 
 [source]
 ----
-include::examples/compress2/compress_module.txt[]
+include::res/compress2/compress_module.txt[]
 ----
 
 The compression can be activate in the default configuration file for this module located in /etc/apache2/mods-available/deflate.conf or via your ".htaccess" file.
 
 [source]
 ----
-include::examples/compress2/htaccess.compress[]
+include::res/compress2/htaccess.compress[]
 ----
 
 [[Other Apache modules]]

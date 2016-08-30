@@ -5,7 +5,10 @@ Lars Vogel, Simon Scholz (c) 2014-2016 vogella GmbH
 Version 2.2, 03.09.2016
 :keywords: Gradle, Groovy
 :contentidentifier: description
-:imagesdir: img
+:imagesdir: ./img
+:docinfodir: ../
+:vgwort: Gradle
+
 
 [abstract]
 This tutorial describes how to the the Gradle build tool.
@@ -15,10 +18,12 @@ include::010_overview.adoc[]
 include::012_idesupport.adoc[]
 include::020_installgradle.adoc[]
 include::021_exercise_installgradle.adoc[]
+include::../web/advertisement/inBetween01.adoc[]
 include::022_exercise_setup_deamon.adoc[]
 include::030_plug-ins.adoc[]
 include::034_dependencies.adoc[]
 include::040_runningabuild.adoc[]
+include::../web/advertisement/inBetween02.adoc[]
 include::050_tasks.adoc[]
 include::051_exercise_tasks.adoc[]
 include::060_gradle_wrapper.adoc[]
@@ -26,6 +31,7 @@ include::053_exercise_custom_tasks.adoc[]
 include::080_building_javaprojects.adoc[]
 include::090_building_groovyprojects.adoc[]
 include::100_testing.adoc[]
+include::../web/advertisement/inBetween03.adoc[]
 include::105_multiproject_build.adoc[]
 include::110_deployment.adoc[]
 include::120_apacheant.adoc[]

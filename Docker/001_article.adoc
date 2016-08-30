@@ -1,20 +1,31 @@
 = Docker - Light weight containers - Tutorial
-Lars Vogel - https://www.twitter.com[vogella]
+:linkcss:
+:sectnums:                                                          
+:experimental:
+:icons:
+:imagesdir: ./img
+Lars Vogel (c) 2009, 2016 vogella GmbH
 :keywords: Docker, Light weight containers
 :revdate: 17.12.2015
 :revnumber: 0.3
+:docinfodir: ../
+:vgwort: Docker
 
 
+[abstract]
 This tutorial contains some notes about using Docker as container for running virtual environments. The examples
 were done on Ubuntu, hence they are prefixed with the `sudo` command.
-				
+
+include::../web/advertisement/afterTableOfContent.adoc[]				
 include::010_overview.adoc[]
 include::020_setup.adoc[]
+include::../web/advertisement/inBetween01.adoc[]
 include::030_dockercommands.adoc[]
 include::080_creating_fedore_container.adoc[]
+include::../web/advertisement/inBetween02.adoc[]
 include::090_creating_ubuntu_container.adoc[]
 include::100_eclipse.adoc[]
-
-include::../copyright.adoc[]
+include::../support.adoc[]
 include::008_resourceslocal.adoc[]
+include::../copyright.adoc[]
 

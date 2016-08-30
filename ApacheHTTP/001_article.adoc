@@ -15,9 +15,12 @@ Version 0.2, 22.01.2016
 
 This articles contains some information about handling the Apache HTTP server.
 				
-
+include::../web/advertisement/afterTableOfContent.adoc[]
 include::010_overview.adoc[]
 include::012_installation.adoc[]
+include::../web/advertisement/inBetween01.adoc[]
 include::100_apachehttp.adoc[]
 include::200_vhosts.adoc[]
+include::../support.adoc[]
 include::008_resourceslocal.adoc[]
+include::../copyright.adoc[]

@@ -6,12 +6,17 @@ Version 5.8, 10.08.2015
 :keywords: Git command line, Git, rebase, merge
 :contentidentifier: description
 :imagesdir: img
+:docinfodir: ../
+:vgwort: GitSubmodules
 
 [abstract]
 This tutorial explains the usage of submodules with the Git version control system.
 
+include::../web/advertisement/afterTableOfContent.adoc[]
 include::010_overview.adoc[]
-
+include::../support.adoc[]
+include::008_resourceslocal.adoc[]
+include::../copyright.adoc[]
 
 
 

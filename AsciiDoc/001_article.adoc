@@ -6,13 +6,21 @@ Lars Vogel (c) 2015 vogella GmbH
 Version 0.2, 17.12.2015
 :keywords: AsciiDoc
 :imagesdir: ./img
+:docinfodir: ../
+:vgwort: AsciiDoc
 
+[abstract]
 This tutorial contains some notes about writing documentation with AsciiDoc and Asciidoctor.
 				
+include::../web/advertisement/afterTableOfContent.adoc[]
 include::010_overview.adoc[]
 include::014_annotations.adoc[]
+include::../web/advertisement/inBetween01.adoc[]
 include::020_edit_tooling.adoc[]
 include::020_pdfoutput.adoc[]
+include::../web/advertisement/inBetween02.adoc[]
 include::030_generating_output.adoc[]
 include::index.adoc[]
-include::resourceslocal.adoc[]
+include::../support.adoc[]
+include::008_resourceslocal.adoc[]
+include::../copyright.adoc[]

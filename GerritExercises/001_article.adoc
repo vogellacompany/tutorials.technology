@@ -8,26 +8,25 @@ Lars Vogel (c) 2009-2016 vogella GmbH
 Version 5.8, 10.08.2015
 :keywords: Gerrit, Code review
 :contentidentifier: description
+:docinfodir: ../
+:vgwort: GerritExercises
 
 [abstract]
 == Summary of this tutorial
 
 This tutorial explains the usage of the Gerrit code review server
 
-
+include::../web/advertisement/afterTableOfContent.adoc[]
 include::010_configure-push-to-gerrit.adoc[]
-
 include::020_push-a-change-to-gerrit.adoc[]
-
+include::../web/advertisement/inBetween01.adoc[]
 include::030_review-a-change.adoc[]
-
 include::040_improve-a-change.adoc[]
-
+include::../web/advertisement/inBetween02.adoc[]
 include::050_submit-a-change-to-the-codebase.adoc[]
-
 include::060_view-gerrit-review-notes.adoc[]
-
-
+include::../support.adoc[]
+include::../copyright.adoc[]
 
 
 
