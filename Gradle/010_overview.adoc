@@ -1,171 +1,103 @@
-<section id="gradleintro" role="wrapper">
 == Introduction to the Gradle build system
-	<section id="gradleintro_what">
+
 === What is the Gradle build system?
-		<indexterm>
-			<primary>Gradle
-			</primary>
-		</indexterm>
-		
-image::gradle-logo.png[]
-				
-				<textobject>
-					<phrase>Gradle logo</phrase>
-				</textobject>
-			
-		
-		
-			_Gradle_
-			is an advanced general purpose build management system based
-			on
-			Groovy.
-			Gradle supports the automatic download and
-			configuration of project dependencies
-			(libraries). It supports
-			Maven and Ivy
-			repositories
-			for
-			retrieving these
-			dependencies. This
-			allows reusing the artifacts of
-			existing
-			build systems.
-		
-		Gradle supports
-			multi-project and
-			multi-artifact
-			builds.
-		
-		
-			Gradle has the notion of
-			_projects_
-			and
-			_tasks_
-			.
-		
+(((Gradle)))
 
+image::gradle-logo.png[Gradle logo]
 	
-	<section id="gradle_projectstasks">
+
+_Gradle_ is an advanced general purpose build management system based on Groovy and Kotlin.
+Gradle supports the automatic download and configuration of dependencies or other libraries. 
+It supports Maven and Ivy repositories for retrieving these dependencies. 
+This allows reusing the artifacts of existing build systems.
+
+Gradle supports multi-project and multi-artifact builds.
+
+Gradle has the notion of _projects_ and _tasks_.
+
+
+[[gradle_projectstasks]]
 === Projecs and tasks in Gradle
-		A Gradle build
-		consists of one or more projects. Projects can be
-		something which
-		should be built or something that
-		should
-		be done. Each
-		project consists of tasks. A task represents a piece of
-		work which
-		a build performs, e.g., compile
-		the
-		source code or generate the
-		Javadoc.
-	
 
-	<section id="gradle_runbuild_buildfile">
+A Gradle build consists of one or more _projects_.
+Projects can be something which should be built or something that should be done. 
+Each project consists of _tasks_. 
+A task represents a piece of work which a build performs, e.g., compile the source code or generate the Javadoc.
+	
+[[gradle_runbuild_buildfile]]
 === The Gradle build file - build.gradle
-		
-		
-			A
-			project using Gradle describes its build via a
-			_build.gradle_
-			file. This file is located
-			in the root folder of the project.
-			The build file for Gradle builds is based on a
-			_Domain Specific Language_
-			(DSL) written in Groovy. In this file you can use a combination of
-			declarative and
-			imperative statements, as
-			well as
-			writing
-			Groovy code
-			whenever you need it. Tasks can also be created dynamically.
-		
-		
-			This build file
-			defines a project and
-			its
-			tasks. Gradle is a general purpose build
-			system hence this build
-			file
-			can
-			perform any task. The following listing represents a very simple build file.
-		
-		
-			<programlisting language="gradle">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/starter/build_hello.gradle[]
+
+A project using Gradle describes its build via a _build.gradle_ file. 
+This file is located in the root folder of the project.
+The build file for Gradle builds is based on a_Domain Specific Language_ (DSL). 
+In this file you can use a combination of declarative and imperative statements.
+You can also write Groovy or Kotlin code, whenever you need it. 
+Tasks can also be created and extended dynamically at runtime.
+
+
+This build file defines a project and its tasks. 
+Gradle is a general purpose build system hence this build file can perform any task. 
+The following listing represents a very simple build file.
+
+[source,gradle]
 ----
-		
+include::res/starter/build_hello.gradle[]
+----
+
 This build file can also be simplified << can be used as shortcut to define the `doLast` statement.
-		
-		
-			<programlisting language="gradle">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/starter/build_hello2.gradle[]
-----
-		
-		
-			To execute the
-			`hello`
-			task in this build file, type
-			`gradle hello`
-			on the command line in the directory of the build file. If the Gradle output should be suppressed, use the
-			`-q`
-			(quite)
-			parameter.
-		
 
-		
-			<programlisting language="gradle">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/starter/runbuild.gradle[]
+[source,gradle]
 ----
-		
-	
+include::res/starter/build_hello2.gradle[]
+----
 
-	<section id="gradle_runbuild_buildfile_comments">
+
+To execute the `hello` task in this build file, type `gradle hello` on the command line in the directory of the build file. 
+If the Gradle output should be suppressed, use the `-q` (quite) parameter.
+
+[source,console]
+----
+include::res/starter/runbuild.gradle[]
+----
+
+[[gradle_runbuild_buildfile_comments]]
+
 === Comments in Gradle build files
-		You can use single and multiline comments in Gradle build files.
-[source,java]
+You can use single and multiline comments in Gradle build files.
+
+[source,gradle]
 -----
 include::res/comments/example.gradle[]
 ----
-		
-
-
-	
-	<section id="gradle_runbuild_projectinformation">
 
 === Project settings and description
-		
-			By default, Gradle uses the directory name as project name. You can
-			change this by creating a
-			_settings.gradle_
-			file in the directory which specifies the project name.
-		
-		
-			<programlisting language="gradle">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/settings/settings.gradle[]
-----
-		
 
-		
-			You can also add a description to your project via the
-			_build.gradle_
-			file.
-		
-		
-			<programlisting language="gradle">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/settings/build.gradle[]
+By default, Gradle uses the directory name as project name. 
+You can change this by creating a _settings.gradle_ file in the directory which specifies the project name.
+
+
+[source,console]
 ----
-		
-		
-			Use the
-			`gradle project`
-			command to get information about your project. The following listing
-			shows the output.
-		
-		
-			<programlisting language="plain">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/settings/settings.output[]
+include::res/settings/settings.gradle[]
 ----
-		
+
+
+
+You can also add a description to your project via the _build.gradle_ file.
+
+
+[source,gradle]
+----
+include::res/settings/build.gradle[]
+----
+
+Use the `gradle project` command to get information about your project. 
+The following listing shows the output.
+
+[source,console]
+----
+include::res/settings/settings.output[]
+----
+
 	
 

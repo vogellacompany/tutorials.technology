@@ -16,4 +16,5 @@ include 'Ubuntu'
 include 'Nexus'
 include 'SonarQube'
 include 'Artifactory'
+include 'Gradle'
 

@@ -1,125 +1,85 @@
-<section id="gradeintro_dependencymanagement">
 == Dependency management for Java projects
 
-	<section id="gradeintro_addingdependencies">
 === Managing dependencies with Gradle
-		<indexterm>
-			<primary>Gradle
-			</primary>
-			<secondary>Dependencies</secondary>
-		</indexterm>
-		<indexterm>
-			<primary>Gradle
-			</primary>
-			<secondary>Specifying dependencies</secondary>
-		</indexterm>
-		<indexterm>
-			<primary>Gradle
-			</primary>
-			<secondary>classpath</secondary>
-		</indexterm>
-		
-			Gradle allows managing the classpath of your projects. It can add JAR files, directories or other projects to
-			the build path of your application. It also
-			supports the automatic download
-			of
-			your
-			Java library dependencies. Simply
-			specify the dependency in your Gradle build
-			file. This triggers Gradle
-			to
-			download
-			the
-			library including its
-			transient
-			dependencies during the build.
+(((Gradle,Dependencies)))
+(((Gradle, Specifying dependencies)))
+(((Gradle,classpath)
 
-		
-		
-			A Java library is identified by Gradle via its project’s
-			`groupId:artifactId:version`
-			(also known as GAV in Maven). This
-			GAV uniquely identifies a library in a certain version. You can for example
-			http://search.maven.org/">Search Maven</ulink>
-			to search for the GAV of a library in Maven Central.
-		
+Gradle allows managing the classpath of your projects. 
+It can add JAR files, directories or other projects to the build path of your application.
+It also supports the automatic download of your Java library dependencies. 
+Simply specify the dependency in your Gradle build file. 
+This triggers Gradle to download the library including its transient dependencies during the build.
+
+A Java library is identified by Gradle via its project’s `groupId:artifactId:version` (also known as GAV in Maven).
+This GAV uniquely identifies a library in a certain version.
+You can use the http://search.maven.org/[Search Maven Website] to search for the GAV of a library in Maven Central.
 
 
-		To add a dependency add an entry to the dependency section in your build.gradle file as demonstrated by the
-			following listing.
-		
+To add a dependency add an entry to the dependency section in your build.gradle file as demonstrated by the following listing.
 
-		
-			<programlisting language="gradle">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/dependencies/dep.txt[]
+
+
+[source,gradle]
 ----
-		
-	
-	<section id="gradeintro_addingrepositories">
+include::res/dependencies/dep.txt[]
+----
+
 === Specifying the repositories to search for dependencies
-		
-			In your build
-			file you specify the remote
-			repositories to look
-			for dependencies. Gradle supports Maven and Ivy
-			repositories to search for dependencies. The following listing shows how to
-			configure
-			Maven
-			central as
-			dependency
-			source.
-		
-		
-			<programlisting language="gradle">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/dependencies/maven1.txt[]
-----
-		
 
-		It is also possible to configure the target as a URL.
-		
-			<programlisting language="gradle">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/dependencies/maven2.txt[]
-----
-		
-
-		You can also specify other targets, for example Bintray as Maven repository.
-		
-			<programlisting language="gradle">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/dependencies/jcenter.txt[]
-----
-		
-		The next listing demonstrates how to define an Ivy dependency. 
-		
-			<programlisting language="gradle">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/dependencies/ivy.txt[]
-----
-		
-		You can also add different repositories at once.
-		
-			<programlisting language="gradle">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text"
-					href="./examples/dependencies/multiple_jfrog_maven.txt[]
-----
-		
-		You can also reference artifacts from the file system.
-		
-			<programlisting language="gradle">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/java/build_file_deps.gradle[]
-----
-		
-	
+In your build file you specify the remote repositories to look for dependencies. 
+Gradle supports Maven and Ivy repositories to search for dependencies. 
+The following listing shows how to configure Maven central as dependency source.
 
 
-	<section id="gradeintro_cache">
+[source,gradle]
+----
+include::res/dependencies/maven1.txt[]
+----
+
+
+It is also possible to configure the target as a URL.
+
+[source,gradle]
+----
+include::res/dependencies/maven2.txt[]
+----
+
+
+You can also specify other targets, for example Bintray as Maven repository.
+
+[source,gradle]
+----
+include::res/dependencies/jcenter.txt[]
+----
+
+The next listing demonstrates how to define an Ivy dependency. 
+
+[source,gradle]
+----
+include::res/dependencies/ivy.txt[]
+----
+
+You can also add different repositories at once.
+
+[source,gradle]
+----
+include::res/dependencies/multiple_jfrog_maven.txt[]
+----
+
+You can also reference artifacts from the file system.
+
+[source,gradle]
+----
+include::res/java/build_file_deps.gradle[]
+----
+
+
 === Gradle cache and deleting the cache
-		
-			You can refresh dependencies in your cache with the command line option
-			`--refresh-dependencies`
-			. You
-			can also delete the cached files under
-			_~/.gradle/caches_
-			. With the next build Gradle attempts to download
-			the dependencies again.
-		
+
+You can refresh dependencies in your cache with the command line option `--refresh-dependencies`. 
+You can also delete the cached files under _~/.gradle/caches_ . 
+With the next build Gradle attempts to download the dependencies again.
+
 	
 

@@ -1,12 +1,9 @@
-<section id="resources_gradle">
-== Gradle_
+[[resources_gradle]]
+== Gradle
 	
-		http://mrhaki.blogspot.de/search/label/Gradle%3AGoodness">Gradle Goodness blog series</ulink>
-	_
-	
-		http://www.vogella.com/tutorials/EclipseGradle/article.html">Eclipse Gradle tooling</ulink>
-	_
-	
-		https://docs.gradle.org/current/userguide/publishing_maven.html">Publish to Maven repositories</ulink>
-	_
+http://mrhaki.blogspot.de/search/label/Gradle%3AGoodness[Gradle Goodness blog series]
+
+http://www.vogella.com/tutorials/EclipseGradle/article.html[Eclipse Gradle tooling]
+
+https://docs.gradle.org/current/userguide/publishing_maven.html[Publish to Maven repositories]
 

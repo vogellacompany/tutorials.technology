@@ -1,7 +1,118 @@
-<section id="introduction">
 == Ubuntu
-	Ubuntu Linux is a full fledged Linux system trailed for the
-		desktop.
-		Ubuntu builds a unique user interface and offers the users a
-		solid choice of tools.
+
+=== What is Ubuntu
+
+Ubuntu Linux is a full fledged Linux system trailed for the desktop.
+Ubuntu builds a unique user interface and offers the users a solid choice of tools.
+	
+<section id="unity">
+== Using the Ubuntu desktop
+	<section id="unity_overview">
+=== Unity as desktop manager
+		
+			Unity is the default windows manager on Ubuntu. It introduced
+			the
+			launcher on the left side of Ubuntu and the
+			_Dash_
+			to start
+			programs.
+
+		
+		
+			Press the
+			<keycombo>
+				<keycap>Windows</keycap>
+			</keycombo>
+			key to start the
+			_Dash_
+			. Here you can type in commands to open programs and files.
+		
+		
+image::dash10.png[]
+				</imageobject>
+				<textobject>
+					<phrase>Dash in Action</phrase>
+				</textobject>
+			</mediaobject>
+		
+
+
+	<section id="unity_fileexplorer">
+=== Nautilus as file explorer
+		Ubuntu uses Nautilus as file explorer. Use the Dash or click on the icon in the task manager to start it.
+		
+image::nautilus10.png[]
+				</imageobject>
+				<textobject>
+					<phrase>Starting Nautilus</phrase>
+				</textobject>
+			</mediaobject>
+		
+		
+			To be able to copy the current path, press
+			<keycombo>
+				<keycap>Ctrl</keycap>
+				<keycap>L</keycap>
+			</keycombo>
+			.
+		
+		
+image::nautilus20.png[]
+				</imageobject>
+				<textobject>
+					<phrase>Starting Nautilus</phrase>
+				</textobject>
+			</mediaobject>
+		
+
+
+	<section id="unity_newentries">
+=== Adding entries to the launcher
+		
+			To add new entries to the launcher you can create an
+			`.desktop`
+			file and drag file on the launcher. For example, the following creates
+			an entry to start Eclipse with different
+			shortcuts for different
+			workspaces.
+		
+		
+			<programlisting language="desktop">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/launcher/eclipse.desktop[]
+----
+		
+
+
+
+	<section id="unity_shortcuts">
+=== Useful shortcuts
+		
+			The following lists a few useful shortcuts for the Unity window
+			manager.
+
+.Table Title
+|===
+
+		=== Window Shortcuts
+				<tgroup cols='2' align='left' colsep='1' rowsep='1'>
+					<colspec colname='c1' />
+					<colspec colname='c2' />
+					
+						
+|Long press on Super (Windows key)
+|Opens up help for the most common keyboard shortcuts
+							
+						
+					
+					
+						
+|Alt+Left Mouse Click
+|Allows to moves the current window
+						
+					
+				
+			|===
+		
+
+
 	
