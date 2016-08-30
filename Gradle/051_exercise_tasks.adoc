@@ -1,21 +1,21 @@
 == Exercise: Gradle Tasks
 
 === Using the tasks Gradle task
-		
+
 The target of this exercise is to get an overview about the default tasks, which are delivered by default.
-		
+
 Open a command line and execute the following command:
-		
+
 [source,gradle]
 ----
 include::res/tasks/tasks_command_line.txt[]
 ----
 
 === Using the help task
-		
+
 The target of this exercise is to make use of the `help` task to get more information about other tasks, e.g., the init task.
-		
-		
+
+
 [source,gradle]
 ----
 include::res/tasks/help_task_command_line.txt[]
@@ -24,11 +24,10 @@ include::res/tasks/help_task_command_line.txt[]
 === Create a Groovy project
 
 The previous exercise informed about the usage of the init task.
-		
+
 [source,gradle]
 ----
 include::res/tasks/tasks_command_line_init.txt[]
 ----
-		
-	
+
 

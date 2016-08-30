@@ -4,107 +4,84 @@
 === Requirements
 
 The usage of Gradle requires an JDK (Java Development Kit) installation.
-	
+
 === Download Gradle
-		
+
 The latest version of Gradle can be found on the http://gradle.org/gradle-download[Gradle Download page].
 Download the latest _Complete distribution_ of Gradle from http://gradle.org/gradle-download[Gradle Download page]
-		
-		
+
 It is a gradle-${version}-all.zip, where ${version} is a placeholder for the current version, e.g., _gradle-2.13-all.zip_.
-		
+
 === Installing Gradle on Windows
-		
+
 Extract the contents of the downloaded zip file to _C:\Program Files_ or a different location. 
 This will for example result in a _C:\Program Files\gradle-2.13_ folder.
-		
-		
+
 Afterwards add the _C:\Program Files\${version}_ folder, e.g., _C:\Program Files\gradle-2.13_ to your `PATH` environment variable.
-		
+
 By pressing Win + Pause the system settings can be opened.
-		
-		
+
 image::system_settings.png[Windows System Settings]
-	
-		
+
 First the _Advanced System Settings_ have to be selected and then the _Environment Variables_ button needs to be pressed.
-		
+
 image::user_and_system_variables.png[Windows User and System Variables]
 
-		
 In the _Environment Variables_ dialog the (1) GRADLE_HOME and JAVA_HOME user variables should be set.
 After that the (2) Path entry in the _system variables_ is selected, the _modify_ button can be pressed to add the _bin_ folder of the Gradle installation to the Path.
-		
+
 image::path_variables.png"[Windows Path Variables]
-	
-	
+
 === Installing Gradle on Linux/Mac
-		
+
 Extract the contents of the downloaded zip file to _/opt/gradle_ or a different location. 
 This will for example result in a _/opt/gradle/gradle-2.13_ folder.
-		
-		
-The `JAVA_HOME` variable must point to a proper jdk and `$JAVA_HOME/bin` must be part of the PATH environment variable.
-		
-		
-Add Gradle to the path by running `export PATH=/usr/local/gradle/gradle-2.13/bin:$PATH` in a terminal.
-		
-=== Validate
-		
-Open a command line and type `gradle` , which will run Gradle's help task by default.
-		
-	
 
-		
-	
+The `JAVA_HOME` variable must point to a proper jdk and `$JAVA_HOME/bin` must be part of the PATH environment variable.
+
+Add Gradle to the path by running `export PATH=/usr/local/gradle/gradle-2.13/bin:$PATH` in a terminal.
+
+=== Validate
+
+Open a command line and type `gradle` , which will run Gradle's help task by default.
+
 [[gradeinstallation_demon]]
 === Using the Gradle daemon for improved startup time
-		
+
 Gradle allows to start Gradle as daemon to avoid starting the Java virtual machine for every build. 
 To configure that create a file called _gradle.properties_ in the _${HOME}/.gradle_ and add the following line to it.gradle.properties.
-		
+
 [source,console]
 ----
 include::res/install/gradle.properties[]
 ----
-		
 
-		
 You can also place the _gradle.properties_ file to the root directory of your project and commit it to your version control system.
-		
+
 If Gradle is not used for a few hours, the daemon stops automatically.
-		
-		
+
 Executing gradle with the `--daemon` parameter on the command line starts the gradle daemon.
-		
-		
+
 To stop the daemon interactively use the `gradle --stop` command.
-		
-	
 
 === Specify custom JVM settings for Gradle
 
 The GRADLE_OPTS environment variable offers the opportunity to set specific JVM options for Gradle.
-		
+
 In  <<gradeinstallation_demon>> the performance for the JVM startup is improved, but another performance killer for large builds can be a too small maximum heap space. 
 Therefore it makes sense to increase it for Gradle.
-		
-		
+
 `export GRADLE_OPTS=-Xmx1024m`
 defines that Gradle can use 1 GB as maximum heap size.
-		
+
 On Windows OS environment variables are usually defined via the system property UI.
-		
-	
+
 === Typical .gitignore file for Gradle projects
-		
+
 If you are using Git as version control system, you can use the following _.gitignore_ file as template for a Gradle project.
-		
-		
+
 [source,java]
 ----
 include::res/git/gitignore[]
 ----
-		
-	
 

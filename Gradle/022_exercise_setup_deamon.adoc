@@ -1,4 +1,5 @@
 == Exercise: Setup the Gradle Daemon
+
 === Target
 
 In this exercise the Gradle Daemon will be configured, so that it starts automatically when a build is run.

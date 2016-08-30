@@ -1,13 +1,13 @@
 [[gradle_code_analysis]]
 == Using code analysis tools
-	
+
 Gradle provides several plugins for analyzing the code base of a Gradle project.
 
 .Table Gradle Code Analysis Tools
 [cols="1,1,2"]
 |===
 |Tool |Plugin |Description
-	
+
 | https://docs.gradle.org/current/userguide/checkstyle_plugin.html[Checkstyle]
 | checkstyle
 | Validates checkstyle rules, which are applied for a project
@@ -15,17 +15,15 @@ Gradle provides several plugins for analyzing the code base of a Gradle project.
 | https://docs.gradle.org/current/userguide/jacoco_plugin.html[Jacoco]
 | jacoco
 | Checks for test coverage of the code being built
-	
+
 | https://docs.gradle.org/current/userguide/findbugs_plugin.html[FindBugs]
 | findbugs
 | Static Code Analysis for Java
 
-	
-	
 | https://docs.gradle.org/current/userguide/codenarc_plugin.html[CodeNarc]
 | codenarc
 | Static Code Analysis for Groovy
-	
+
 | https://docs.gradle.org/current/userguide/pmd_plugin.html[PMD]
 | pmd
 | Adds code quality checks for several programming languages to the build
@@ -33,6 +31,6 @@ Gradle provides several plugins for analyzing the code base of a Gradle project.
 |https://docs.gradle.org/current/userguide/jdepend_plugin.html[JDepend]
 | jdepend
 | Another code analysis tool for analyzing dependencies in Java code
-	
+
 |===
-	
+

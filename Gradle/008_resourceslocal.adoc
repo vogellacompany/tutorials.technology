@@ -1,6 +1,6 @@
 [[resources_gradle]]
 == Gradle
-	
+
 http://mrhaki.blogspot.de/search/label/Gradle%3AGoodness[Gradle Goodness blog series]
 
 http://www.vogella.com/tutorials/EclipseGradle/article.html[Eclipse Gradle tooling]

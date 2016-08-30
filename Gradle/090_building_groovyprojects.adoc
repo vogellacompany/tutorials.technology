@@ -3,32 +3,26 @@
 
 [[gradle_buildgroovy_plugin]]
 === The Groovy plug-in
-		
+
 The Groovy plug-in for Gradle extends the Java plug-in and
 provides tasks for Groovy programs.
-		
 
 [source,gradle]
 ----
 include::res/groovy/build.gradle[]
 ----
-		
+
 To start the build, type `gradle build` on the command line.
-		
 
 [[gradle_buildgroovy_projectlayout]]
 === Default project layout of Groovy projects
-		
+
 This plug-ins assume a certain setup of your Groovy project.
 
 * src/main/groovy contains the Groovy source code
 * src/test/groovy contains the Groovy tests
 * src/main/java contains the Java source code
 * src/test/java contains the Java tests
-	
 
 If you follow this setup, the following build file is sufficient to compile, test and bundle a Groovy project.
-		
-	
 
-	

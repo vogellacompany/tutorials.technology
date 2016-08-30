@@ -16,10 +16,7 @@ A Java library is identified by Gradle via its project’s `groupId:artifactId:v
 This GAV uniquely identifies a library in a certain version.
 You can use the http://search.maven.org/[Search Maven Website] to search for the GAV of a library in Maven Central.
 
-
 To add a dependency add an entry to the dependency section in your build.gradle file as demonstrated by the following listing.
-
-
 
 [source,gradle]
 ----
@@ -32,12 +29,10 @@ In your build file you specify the remote repositories to look for dependencies.
 Gradle supports Maven and Ivy repositories to search for dependencies. 
 The following listing shows how to configure Maven central as dependency source.
 
-
 [source,gradle]
 ----
 include::res/dependencies/maven1.txt[]
 ----
-
 
 It is also possible to configure the target as a URL.
 
@@ -45,7 +40,6 @@ It is also possible to configure the target as a URL.
 ----
 include::res/dependencies/maven2.txt[]
 ----
-
 
 You can also specify other targets, for example Bintray as Maven repository.
 
@@ -75,12 +69,9 @@ You can also reference artifacts from the file system.
 include::res/java/build_file_deps.gradle[]
 ----
 
-
 === Gradle cache and deleting the cache
 
 You can refresh dependencies in your cache with the command line option `--refresh-dependencies`. 
 You can also delete the cached files under _~/.gradle/caches_ . 
 With the next build Gradle attempts to download the dependencies again.
-
-	
 
