@@ -1,17 +1,13 @@
 [[gitk]]
 
-== Commit history of a repository or certain files
+=== Commit history of a repository or certain files
 
-http://git-scm.com/docs/gitk[Gitk] can be used to visualize the history
-of a repository of certain files.
+http://git-scm.com/docs/gitk[Gitk] can be used to visualize the history of a repository of certain files.
 
-In some cases simply using `git blame` is not sufficient in order to see
-all details of certain changes. Therefore you can for exmaple navigate
-to the filelocation in the target git repository and use the
-`gitk [filename]` command to see all commits of a file in a clear UI.
+In some cases simply using `git blame` is not sufficient in order to see all details of certain changes. 
+You can navigate to the file location in the target git repository and use the `gitk [filename]` command to see all commits of a file in a clear UI.
 
-In this screenshot we can see all commits of the `ShowViewHandler.java`
-by using the `gitk ShowViewHandler.java` command:
+In this screenshot we can see all commits of the `ShowViewHandler.java` by using the `gitk ShowViewHandler.java` command:
 
 image::gitk_showviewhandler.png[gitk command for the ShowViewHandler] 
 

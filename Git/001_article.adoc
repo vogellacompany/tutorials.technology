@@ -44,6 +44,7 @@ include::100_analyze_changedfiles.adoc[]
 include::110_analyzehistory.adoc[]
 include::120_analyze_diff.adoc[]
 
+== Git blame
 include::121_gitblame_def.adoc[]
 include::121_gitblame.adoc[]
 

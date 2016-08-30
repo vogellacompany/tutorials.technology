@@ -1,10 +1,10 @@
 [[retrievefiles]]
 
-= Retrieving files from the history
+== Retrieving files from the history
 
 [[retrievefiles_show]]
 
-== View file in different revision
+=== View file in different revision
 
 (((git show)))
 
@@ -28,7 +28,7 @@ include::./examples/show/showrev.txt[]
  
 [[retrievefiles_fromcommit]]
 
-== Restore a deleted file in a Git repo
+=== Restore a deleted file in a Git repo
 
 You can checkout a file from the commit. To find the commit which
 deleted the file you can use the `git log` or the `git ref-list` command

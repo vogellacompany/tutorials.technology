@@ -1,6 +1,6 @@
 [[resetcommits]]
 
-== Resetting changes with git reset
+=== Resetting changes with git reset
 
 [[findingresettedcommits]]
 === Finding commits that are no longer visible on a branch
@@ -36,7 +36,7 @@ them also see <<gitreflog>>.
 ====
 
 [[resettosquash]]
-== Using git reset to squash commits
+=== Using git reset to squash commits
 
 ((git reset, squash  commits))
 As a soft reset does not remove your change to
