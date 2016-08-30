@@ -1,102 +1,38 @@
-<section id="gradle_code_analysis" role="wrapper">
+[[gradle_code_analysis]]
 == Using code analysis tools
 	
-		Gradle provides several plugins for analyzing the code base,
-		which is being built.
+Gradle provides several plugins for analyzing the code base of a Gradle project.
 
-.Table Title
+.Table Gradle Code Analysis Tools
+[cols="1,1,2"]
 |===
+|Tool |Plugin |Description
+	
+| https://docs.gradle.org/current/userguide/checkstyle_plugin.html[Checkstyle]
+| checkstyle
+| Validates checkstyle rules, which are applied for a project
 
-	=== Gradle Code Analysis Tools
-			<tgroup cols='3' align='left' colsep='1' rowsep='1'>
-				<colspec colname='c1' colwidth="1*" />
-				<colspec colname='c2' colwidth="1*" />
-				<colspec colname='c3' colwidth="2*" />
-				
-					
-|Tool
-|Plugin
-|Description
-					
-				
-				
-					
-|
-							<ulink
-								url="https://docs.gradle.org/current/userguide/checkstyle_plugin.html">
-								Checkstyle
-							</ulink>
-						
-|
-							checkstyle
-						
-|
-							Validates checkstyle rules, which are applied for a project
-						
-					
-					
-|
-							<ulink
-								url="https://docs.gradle.org/current/userguide/jacoco_plugin.html">Jacoco</ulink>
-						
-|
-							jacoco
-						
-|
-							Checks for test coverage of the code being built
-						
-					
-					
-|
-							<ulink
-								url="https://docs.gradle.org/current/userguide/findbugs_plugin.html">FindBugs</ulink>
-						
-|
-							findbugs
-						
-|
-							Static Code Analysis for Java
-						
-					
-					
-|
-							<ulink
-								url="https://docs.gradle.org/current/userguide/codenarc_plugin.html">CodeNarc</ulink>
-						
-|
-							codenarc
-						
-|
-							Static Code Analysis for Groovy
-						
-					
-					
-|
-							<ulink
-								url="https://docs.gradle.org/current/userguide/pmd_plugin.html">PMD</ulink>
-						
-|
-							pmd
-						
-|
-							Adds code quality checks for several programming languages
-							to the build
-						
-					
-					
-|
-							<ulink
-								url="https://docs.gradle.org/current/userguide/jdepend_plugin.html">JDepend</ulink>
-						
-|
-							jdepend
-						
-|
-							Another code analysis tool for analyzing dependencies in
-							Java code
-						
-					
-				
-			
-		|===
+| https://docs.gradle.org/current/userguide/jacoco_plugin.html[Jacoco]
+| jacoco
+| Checks for test coverage of the code being built
+	
+| https://docs.gradle.org/current/userguide/findbugs_plugin.html[FindBugs]
+| findbugs
+| Static Code Analysis for Java
+
+	
+	
+| https://docs.gradle.org/current/userguide/codenarc_plugin.html[CodeNarc]
+| codenarc
+| Static Code Analysis for Groovy
+	
+| https://docs.gradle.org/current/userguide/pmd_plugin.html[PMD]
+| pmd
+| Adds code quality checks for several programming languages to the build
+
+|https://docs.gradle.org/current/userguide/jdepend_plugin.html[JDepend]
+| jdepend
+| Another code analysis tool for analyzing dependencies in Java code
+	
+|===
 	

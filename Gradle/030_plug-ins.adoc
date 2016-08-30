@@ -11,11 +11,9 @@ This plug-in adds tasks to your project which allow compiling Java source code, 
 	
 A plug-in is included in a _build.gradle_ file with the `apply plugin: 'pluginname'` statement.
 	
-	
 For example the entry `apply plugin: 'com.android.application'` makes the Android plug-in available for a Gradle build.
 	
 	
 Gradle provides also a registry for plug-ins via http://plugins.gradle.org[Gradle Plugin search].
-.
 	
 

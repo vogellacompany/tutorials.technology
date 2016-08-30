@@ -1,100 +1,60 @@
-<section id="exercise_custom_gradle_tasks">
 == Exercise: Create Custom Gradle Tasks
-	<section id="exercise_custom_wrapper_task">
+
 === Exercise: Specifying a Wrapper Task
-		Gradle's Wrapper Task can be implemented like this:
-		
-			<programlisting language="gradle">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/wrapper/wrappertask.gradle[]
+
+Gradle's Wrapper Task can be implemented like this:
+
+[source,gradle]
 ----
-		
+include::res/wrapper/wrappertask.gradle[]
+----
 	
-	<section id="exercise_custom_copy_task">
 === Exercise: Creating a Copy Task
-		The Copy task type can be used to specify a task, which is able
-			to copy files.
-		
-		
-			Create a new project with the following
-			_build.gradle_
-			file:
-		
-		
-			<programlisting language="gradle">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/tasks/copy_task_type.gradle[]
+The `Copy` task type can be used to specify a task, which is able to copy files.
+
+
+Create a new project with the following _build.gradle_ file:
+
+[source,gradle]
 ----
-		
-		
-			Create a
-			_source_
-			folder inside this project and add a text file to the
-			_source_
-			folder.
-		
-		
-			When running the
-			`copyFile`
-			task it copies the text file to a new
-			_destination_
-			folder.
-		
+include::res/tasks/copy_task_type.gradle[]
+----
+
+Create a _source_ folder inside this project and add a text file to this folder.
+
+When running the `copyFile` task it copies the text file to a new _destination_ folder.
+
 	
-	<section id="exercise_custom_external_file_task">
 === Exercise: Specifying a custom Task in another gradle file
-		
-		Create a new Gradle project, which contains the following
-			structure.
-		
-		
+
+Create a new Gradle project, which contains the following structure.
+
 image::buildSrc_Tasks.png[]
-				
-			
-		
-		
-			The
-			_CheckWebsite.groovy_
-			class looks like this:
-		
-		
-			<programlisting language="gradle">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/tasks/CheckWebsite.groovy[]
-----
-		
-		
-			Since this class has external dependencies to jsoup, a
-			_build.gradle_
-			file for this class has to be created.
-		
-		
-			So the
-			_build.gradle_
-			inside the
-			_buildSrc_
-			folder, which is responsible for building the
-			`CheckWebsite`
-			class, looks like this:
-		
-		
-			<programlisting language="gradle">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/tasks/buildSrcCheckWebsite.gradle[]
-----
-		
-		
-			Finally the main
-			_build.gradle_
-			file in the root folder makes use of the new
-			`com.example.CheckWebsite`
-			task type.
-		
-		
-			<programlisting language="gradle">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/tasks/Checkwebsite.gradle[]
-----
-		
 	
+
+The _CheckWebsite.groovy_ class looks like this:
+
+[source,gradle]
+----
+include::res/tasks/CheckWebsite.groovy[]
+----
+
+
+Since this class has external dependencies to jsoup, a _build.gradle_ file for this class has to be created.
+
+
+So the _build.gradle_ inside the _buildSrc_ folder, which is responsible for building the `CheckWebsite` class, looks like this:
+
+
+[source,gradle]
+----
+include::res/tasks/buildSrcCheckWebsite.gradle[]
+----
+
+Finally the main _build.gradle_ file in the root folder makes use of the new `com.example.CheckWebsite` task type.
+
+[source,gradle]
+----
+include::res/tasks/Checkwebsite.gradle[]
+----
 

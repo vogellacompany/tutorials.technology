@@ -1,144 +1,76 @@
-<section id="gradle_buildjava">
 == Building Java projects
-	<section id="gradle_buildjava1">
 === The Java plug-in
 		
-			The Java plug-in provides tasks to compile Java source code, run
-			unit
-			tests, create Javadoc and create a JAR file.
-		
+The Java plug-in provides tasks to compile Java source code, run unit tests, create Javadoc and create a JAR file.
 	
-	<section id="gradle_buildjava_projectlayout">
 === Default project layout of Java projects
 		
-			This plug-ins assume
-			a certain setup of your Java project (similar to
-			Maven).
-			<itemizedlist>
-				*
-					src/main/java contains the Java source code
-				
-				*
-					src/test/java contains the Java tests
-				
-			
+This plug-ins assume a certain setup of your Java project (similar to Maven).
 
-			If you
-			follow this setup, the following build file is
-			sufficient to
-			compile,
-			test and bundle a Java project.
-		
-		
-			<programlisting language="gradle">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/java/build.gradle[]
-----
-		
-		
-			To start the build, type
-			`gradle build`
-			on the command line.
-		
-		
-			`SourceSets`
-			can be used to specify a different project structure, e.g., the
-			sources are stored in a
-			_src_
-			folder rather than in
-			_src/main/java_
-			.
-		
-		
-			<programlisting language="gradle">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/java/sourcesets.gradle[]
-----
-		
+* src/main/java contains the Java source code
+* src/test/java contains the Java tests
 	
 
-	<section id="gradle_init_task">
+If you follow this setup, the following build file is sufficient to compile, test and bundle a Java project.
+		
+[source,gradle]
+----
+include::res/java/build.gradle[]
+----
+		
+		
+To start the build, type `gradle build` on the command line.
+		
+`SourceSets` can be used to specify a different project structure, e.g., the sources are stored in a _src_ folder rather than in _src/main/java_.
+		
+		
+[source,gradle]
+----
+include::res/java/sourcesets.gradle[]
+----
+		
 === Java project creation with the init task
 		
-			Gradle does not yet support multiple project templates (called archetypes) like Maven. But it offers
-			an
-			`init`
-			task create the structure of a new Gradle project. Without additional parameters, this task
-			creates a Gradle project,
-			which contains the
-			gradle wrapper files, a
-			_build.gradle_
-			and
-			_settings.gradle_
-			file.
+Gradle does not yet support multiple project templates (called archetypes) like Maven. 
+But it offers an `init` task create the structure of a new Gradle project. 
+Without additional parameters, this task creates a Gradle project, which contains the gradle wrapper files, a _build.gradle_ and _settings.gradle_ file.
 		
-		
-			When adding the
-			`--type`
-			parameter with
-			`'java-library'`
-			as value, a java project structure is created and the
-			_build.gradle_
-			file contains a certain Java template with JUnit.
-		
+When adding the `--type` parameter with `'java-library'` as value, a java project structure is created and the _build.gradle_ file contains a certain Java template with JUnit.
 		
 image::gradle_init_java_library.png[]
-				
-			
-		
-		
-			The
-			_build.gradle_
-			file will look similar to this:
-		
-		
-			<programlisting language="gradle">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/java/build_init_java.gradle[]
-----
-		
-		
-			A project hosted at Github
-			<ulink href="https://github.com/townsfolk/gradle-templates">gradle-templates project</ulink>
-			provides more templates beyond the init task. The
-			Gradle team is also
-			working on this
-			archetype/template
-			topic.
-		
 	
 
-	<section id="gradle_java_artifact_properties">
-=== Specifying the Java version in your build file
+The _build.gradle_ file will look similar to this:
 		
-			Usually a Java project has a version and a target JRE on which it is compiled.
-			The
-			`version`
-			and
-			`sourceCompatibility`
-			property can be set in the
-			_build.gradle_
-			file.
-		
-		
-			<programlisting language="gradle">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text"
-					href="./examples/java/build_version_sourceComp.gradle[]
+[source,gradle]
+----
+include::res/java/build_init_java.gradle[]
 ----
 		
 		
-			When the
-			`version`
-			property is set, the name of the resulting artifact will be changed
-			accordingly, e.g.,
-			_{my-lib-name}-0.1.0.jar_
-			.
+A project hosted at Github https://github.com/townsfolk/gradle-templates[Gradle-templates project] provides more templates beyond the init task. 
+The Gradle team is also working on this archetype/template topic.
+		
+
+=== Specifying the Java version in your build file
+		
+Usually a Java project has a version and a target JRE on which it is compiled.
+The `version` and `sourceCompatibility` property can be set in the _build.gradle_ file.
+		
+[source,gradle]
+----
+include::res/build_version_sourceComp.gradle[]
+----
 		
 		
-			If the artifact is an executable java application the
-			_MANIFEST.MF_
-			file must be aware of the class with the main method.
+When the `version` property is set, the name of the resulting artifact will be changed accordingly, e.g., _{my-lib-name}-0.1.0.jar_.
+		
+If the artifact is an executable java application the _MANIFEST.MF_ file must be aware of the class with the main method.
 		
 		
-			<programlisting language="gradle">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/java/main_class.gradle[]
+[source,gradle]
+----
+include::res/java/main_class.gradle[]
 ----
 		
 	

@@ -1,9 +1,0 @@
-<section id="gradle_usingeclipse">
-== Using the Eclipse IDE with Gradle
-	
-		See
-		http://www.vogella.com/tutorials/EclipseGradle/article.html">Gradle Eclipse Integration</ulink>
-	
-	.
-
-	

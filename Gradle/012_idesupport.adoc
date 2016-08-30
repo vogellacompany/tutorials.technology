@@ -1,8 +1,0 @@
-
-<section id="install_gradleeclipse">
-== IDE support for Gradle
-	
-The Gradleware company is developing Eclipse Gradle tooling via the Eclipse Buildship project.
-Other IDEs like IntelliJ and Android Studio already include also good Gradle support. 
-See http://www.vogella.com/tutorials/EclipseGradle/article.html[Eclipse Gradle tutorial] for the usage of Gradle with Eclipse.
-

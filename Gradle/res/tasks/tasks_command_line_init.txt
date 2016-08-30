@@ -1,1 +1,1 @@
-> gradle -q init --type groovy-library
+gradle -q init --type groovy-library

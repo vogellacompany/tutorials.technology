@@ -1,9 +1,10 @@
 == Dependency management for Java projects
 
 === Managing dependencies with Gradle
+
 (((Gradle,Dependencies)))
 (((Gradle, Specifying dependencies)))
-(((Gradle,classpath)
+(((Gradle,classpath)))
 
 Gradle allows managing the classpath of your projects. 
 It can add JAR files, directories or other projects to the build path of your application.
