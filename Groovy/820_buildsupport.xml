@@ -29,7 +29,7 @@
 			`pom.xml`
 			file.
 [source,java]
------
+----
 include::res/gradle/build.gradle[]
 ----
 		

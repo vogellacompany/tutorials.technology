@@ -73,7 +73,7 @@
 			`@ToString(excludes=list)`
 			we can exclude a list of fields and properties.
 [source,java]
------
+----
 include::res/ast/TaskToString.groovy[]
 ----
 		
@@ -110,7 +110,7 @@ include::res/ast/TaskToString.groovy[]
 		
 		You can also include/exclude fields.
 [source,java]
------
+----
 include::res/ast/TaskSortable.groovy[]
 ----
 		
@@ -128,11 +128,11 @@ include::res/ast/TaskSortable.groovy[]
 			the method is called again with the same
 			parameters, the result is returned from the cache.
 [source,java]
------
+----
 include::res/ast/MemoizedExample.groovy[]
 ----
 [source,java]
------
+----
 include::res/ast/CallMemoizedExample.groovy[]
 ----
 		
@@ -147,7 +147,7 @@ include::res/ast/CallMemoizedExample.groovy[]
 			`AnnotationCollector`
 			allows to combine other AST Transformations annotations.
 [source,java]
------
+----
 include::res/ast/Pojo.groovy[]
 ----
 		
@@ -155,7 +155,7 @@ include::res/ast/Pojo.groovy[]
 		You can use this annotation, it is also possible to override
 			parameters in them.
 [source,java]
------
+----
 include::res/ast/Person.groovy[]
 ----
 		
@@ -207,11 +207,11 @@ include::res/ast/Person.groovy[]
 			can be applied to a class and generates transparently a builder for
 			this class.
 [source,java]
------
+----
 include::res/ast/TaskWithBuilder.groovy[]
 ----
 [source,java]
------
+----
 include::res/ast/TestBuilder.groovy[]
 ----
 		

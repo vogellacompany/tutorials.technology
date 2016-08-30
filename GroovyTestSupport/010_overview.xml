@@ -18,7 +18,7 @@
 			is enabled by
 			default.
 [source,java]
------
+----
 include::res/testing/assert.java[]
 ----
 		
@@ -40,7 +40,7 @@ include::res/testing/assert.java[]
 			. This method validates if the inner block is false or throws can
 			exception.
 [source,java]
------
+----
 include::res/testing/shouldfail.java[]
 ----
 		

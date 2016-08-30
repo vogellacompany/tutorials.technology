@@ -31,7 +31,7 @@
 			`it`
 			variable on the automatic return statement is demonstrates in the following example.
 [source,java]
------
+----
 include::res/closures/Tiny.groovy[]
 ----
 		
@@ -89,7 +89,7 @@ include::res/closures/Tiny.groovy[]
 			method gets a closure as parameter and every method call or property
 			access in this closure is applied to the object.
 [source,java]
------
+----
 include::res/closures/WithExample.groovy[]
 ----
 		

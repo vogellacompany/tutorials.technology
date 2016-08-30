@@ -61,7 +61,7 @@
 			following
 			format:
 [source,java]
------
+----
 include::res/commitmessage/header.txt[]
 ----
 		

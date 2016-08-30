@@ -14,7 +14,7 @@
 			either use
 			list.get(i) or list[i].
 [source,java]
------
+----
 include::res/datatypes/Person.groovy[]
 ----
 		
@@ -121,7 +121,7 @@ include::res/datatypes/Person.groovy[]
 			of this operation
 			is another Collection object.
 [source,java]
------
+----
 include::res/datatypes/SpreadDot.groovy[]
 ----
 		
@@ -156,7 +156,7 @@ include::res/datatypes/SpreadDot.groovy[]
 				</listitem>
 			</itemizedlist>
 [source,java]
------
+----
 include::res/grep/GrepExample.groovy[]
 ----
 		

@@ -56,7 +56,7 @@ menu:Help[Install New Software...]
 			to install the Groovy Eclipse plug-in. Enter the following
 			URL in this dialog:
 [source,java]
------
+----
 include::res/install/updatesite.txt[]
 ----
 		

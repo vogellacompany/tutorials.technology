@@ -64,7 +64,7 @@
 			Groovy
 			script.
 [source,java]
------
+----
 include::res/first/HelloWorld.groovy[]
 ----
 		
