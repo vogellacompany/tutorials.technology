@@ -4,7 +4,7 @@
 	
 
 	
-image::pydev10.gif" />
+image::pydev10.gif[]
 				
 			</imageobject>
 		</mediaobject>
@@ -15,7 +15,7 @@ image::pydev10.gif" />
 	
 
 	
-image::pydev20.gif" />
+image::pydev20.gif[]
 				
 			</imageobject>
 		</mediaobject>
@@ -25,7 +25,7 @@ image::pydev20.gif" />
 	 Select Window->Open Perspective ->Other. Select the PyDev
 		perspective.
 	
-image::pydev30.gif" />
+image::pydev30.gif[]
 				
 			</imageobject>
 		</mediaobject>
@@ -35,14 +35,14 @@ image::pydev30.gif" />
 		select New
 		-> PyDev Modul. Create a module "FirstModule".
 	
-image::pydev40.gif" />
+image::pydev40.gif[]
 				
 			</imageobject>
 		</mediaobject>
 	
 
 	
-image::pydev50.gif" />
+image::pydev50.gif[]
 				
 			</imageobject>
 		</mediaobject>
@@ -57,7 +57,7 @@ image::pydev50.gif" />
 	
 	Right-click your model and select Run As -> Python run.
 	
-image::pydev60.gif" />
+image::pydev60.gif[]
 				
 			</imageobject>
 		</mediaobject>

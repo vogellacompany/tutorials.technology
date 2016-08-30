@@ -3,14 +3,14 @@
 	 Just right-click in the source code and add a breakpoint.
 
 	
-image::debug10.gif" />
+image::debug10.gif[]
 				
 			</imageobject>
 		</mediaobject>
 	
 	 Then select Debug as -> Python Run
 	
-image::debug20.gif" />
+image::debug20.gif[]
 				
 			</imageobject>
 		</mediaobject>
@@ -19,7 +19,7 @@ image::debug20.gif" />
 		view.
 
 	
-image::debug30.gif" />
+image::debug30.gif[]
 				
 			</imageobject>
 		</mediaobject>
@@ -82,7 +82,7 @@ image::debug30.gif" />
 	
 
 	
-image::debug40.gif" />
+image::debug40.gif[]
 				
 			</imageobject>
 		</mediaobject>

@@ -2,10 +2,10 @@
 
 	<mediaobject>
 		<imageobject role="html">
-			<imagedata fileref="images/antview10.gif" />
+			<imagedata fileref="images/antview10.gif[]
 		</imageobject>
 		<imageobject role="fo">
-			<imagedata fileref="images/antview10.gif" />
+			<imagedata fileref="images/antview10.gif[]
 		</imageobject>
 		<textobject>
 			<phrase>A text for the graphic</phrase>

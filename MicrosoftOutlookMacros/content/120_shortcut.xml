@@ -3,7 +3,7 @@
 	 To define a shortcut for your macro, select View -> Toolbars ->
 		Customize and select Macros.
 	
-image::button10.gif" />
+image::button10.gif[]
 				
 			</imageobject>
 		</mediaobject>
@@ -14,7 +14,7 @@ image::button10.gif" />
 	macro. For example the following sets the hotkey for the Move macro to
 	Alt+1. 
 	
-image::button20.gif" />
+image::button20.gif[]
 				
 			</imageobject>
 		</mediaobject>
