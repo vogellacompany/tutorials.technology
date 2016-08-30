@@ -1,8 +1,14 @@
 = Apache HTTP Server - Tutorial
 :linkcss:
+:sectnums:                                                          
+:experimental:
+:icons:
+:imagesdir: ./img
 Lars Vogel(c) 2010, 2016 vogella GmbH
 Version 0.2, 22.01.2016
 :keywords: AsciiDoc
+:docinfodir: ../
+:vgwort: ApacheHTTP
 
 [abstract]
 == Installation and configuration of the Apache HTTP server
