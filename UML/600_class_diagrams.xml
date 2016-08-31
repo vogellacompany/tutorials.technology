@@ -1,6 +1,6 @@
-<section id="classModel-Driven Architecture (MDA) development_diagrams">
+[[classModel-Driven Architecture (MDA) development_diagrams">
 == Appendix: Class diagrams
-	<section id="class_diagramss1s2a">
+[[class_diagramss1s2a">
 === Overview
 		
 			A class diagram captures the static relationships of your
@@ -8,7 +8,7 @@
 		
 
 
-	<section id="class_diagramss1s2b">
+[[class_diagramss1s2b">
 === Classes
 		
 			A class is represented by a rectangular box divided into
@@ -52,7 +52,7 @@ image::UML10.gif[]
 		
 
 
-	<section id="class_diagramss1s2c">
+[[class_diagramss1s2c">
 === Attributes
 		
 			Attributes specifies details of a class and can be simple
@@ -64,7 +64,7 @@ image::UML10.gif[]
 			compartment of
 			the diagram of the class) or as relationship.
 		
-		<section id="class_diagramss1s2bs3a">
+	[[class_diagramss1s2bs3a">
 	=== Inlined Attributes
 			
 				Inlined attributes are placed in the second compartment
@@ -160,7 +160,7 @@ image::UML10.gif[]
 
 	
 
-		<section id="class_diagramss1s2bs3b">
+	[[class_diagramss1s2bs3b">
 	=== Attributes by Relationship
 			
 				To model attributes by relationship you use an
@@ -181,7 +181,7 @@ image::UML10.gif[]
 
 	
 
-		<section id="class_diagramss1s2bs3c">
+	[[class_diagramss1s2bs3c">
 	=== Static Attributes
 			
 				Static attributes (attributes that are part of the class
@@ -194,7 +194,7 @@ image::UML10.gif[]
 
 
 
-	<section id="class_diagramss1s2d">
+[[class_diagramss1s2d">
 === Interfaces
 		
 			Interfaces are indicated via the stereotype
@@ -214,7 +214,7 @@ image::UMLInterface30.gif[]
 
 
 
-	<section id="class_diagramss1s2e">
+[[class_diagramss1s2e">
 === Relationships
 		
 			UML defines several ways of representing relationships
@@ -223,7 +223,7 @@ image::UMLInterface30.gif[]
 		
 
 
-		<section id="class_diagramss1s2es3a">
+	[[class_diagramss1s2es3a">
 	=== Association
 			
 				Read as "..has a.." association between classes. Drawn
@@ -243,7 +243,7 @@ image::UMLInterface30.gif[]
 			
 	
 
-		<section id="class_diagramss1s2es3b">
+	[[class_diagramss1s2es3b">
 	=== Aggregation
 			
 				Read as "..owns a ..". Not as strong as a composite.
@@ -259,7 +259,7 @@ image::UMLInterface30.gif[]
 			
 	
 
-		<section id="class_diagramss1s2es3c">
+	[[class_diagramss1s2es3c">
 	=== Composition
 			
 				Strong relationship between classes to the point of
@@ -280,7 +280,7 @@ image::UMLInterface30.gif[]
 			
 	
 
-		<section id="class_diagramss1s2es3d">
+	[[class_diagramss1s2es3d">
 	=== Generalisation
 			
 				Read as ".. is a..". Use to express inheritance.
@@ -293,14 +293,14 @@ image::UMLInterface30.gif[]
 			
 				<programlisting>
 					<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-						parse="text" href="./examples/Animal.java" />
-				</programlisting>
+						parse="text" href="./examples/Animal.java[]
+----
 			
 			
 				<programlisting>
 					<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-						parse="text" href="./examples/Frog.java" />
-				</programlisting>
+						parse="text" href="./examples/Frog.java[]
+----
 			
 			
 				<mediaobject>
@@ -312,7 +312,7 @@ image::UMLInterface30.gif[]
 			
 	
 
-	<section id="class_export">
+[[class_export">
 === Export your class diagram as image
 		 To export your diagram as image / graphic, right-click on your
 			diagram and select File -> Save as Image File.

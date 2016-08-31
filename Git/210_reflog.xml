@@ -1,6 +1,6 @@
-<section id="gitreflog" role="wrapper">
+[[gitreflog" role="wrapper">
 == Recovering lost commits
-	<section id="detachedheadmode">
+[[detachedheadmode">
 === Detached HEAD
 		
 			LARSPRIMARYINDEX"Detached HEAD"LARSPRIMARYINDEX
@@ -25,7 +25,7 @@
 			command.
 		
 	
-	<section id="gitreflog_definition">
+[[gitreflog_definition">
 === git reflog
 		
 			LARSPRIMARYINDEX"git reflog"LARSPRIMARYINDEX
@@ -66,7 +66,7 @@ include::./examples/reflog/see.txt[]
 			
 		
 	
-	<section id="gitreflog_example">
+[[gitreflog_example">
 === Example
 		The following example shows how you can use git reflog to
 			reset

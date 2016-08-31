@@ -1,7 +1,7 @@
-<section id="gerrit_problems" role="wrapper">
+[[gerrit_problems" role="wrapper">
 == Solving typical Gerrit problems
 
-	<section id="gerrit_problems_squashcommits">
+[[gerrit_problems_squashcommits">
 === You forgot to amend the commit
 		<indexterm>
 			<primary>squash commits first</primary>
@@ -75,7 +75,7 @@ image::gerritissue_solution30.png" scale="30" />
 		
 
 
-	<section id="gerrit_problems_mergeconflicts">
+[[gerrit_problems_mergeconflicts">
 === Handling merge conflicts
 		
 			The submit step may fail due to merge conflicts, depending on
@@ -149,7 +149,7 @@ image::gerrit_rebasebutton10.png[]
 
 
 
-	<section id="gerrit_problems_nonfastforward">
+[[gerrit_problems_nonfastforward">
 === non-fast forward
 		
 			You get this error message if you try to submit a commit in
@@ -204,7 +204,7 @@ image::gerritissue_solution10.png[]
 		
 		
 			See
-			https://git.eclipse.org/r/Documentation/error-non-fast-forward.html">non-fast forward</ulink>
+			https://git.eclipse.org/r/Documentation/error-non-fast-forward.html">non-fast forward]
 			for details.
 		
 

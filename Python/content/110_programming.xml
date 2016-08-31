@@ -1,6 +1,6 @@
-<section id="development">
+[[development">
 == Programming in Python
-	<section id="development_comments">
+[[development_comments">
 === Comments
 		The following create a single line comment.
 		
@@ -10,7 +10,7 @@
 ----
 		
 
-	<section id="development_variables">
+[[development_variables">
 === Variables
 		Python provides dynamic typing of its variables, e.g. you do not
 			have to define a type of the variable Python will take care of this
@@ -22,7 +22,7 @@
 ----
 		
 
-	<section id="development_assertions">
+[[development_assertions">
 === Assertions
 		Python provides assertions. These assertions are always
 			called.
@@ -34,7 +34,7 @@
 ----
 		
 
-	<section id="development_methods">
+[[development_methods">
 === Methods / Functions in Python
 		 Python allows to define methods via the keyword def. As the
 			language is interpreted the methods need to be defined before using
@@ -46,7 +46,7 @@
 ----
 		
 
-	<section id="development_conditionals">
+[[development_conditionals">
 === Loops and if clauses
 		 The following demonstrates a loop the usage of an if-clause.
 		
@@ -59,7 +59,7 @@
 		
 
 
-	<section id="development_strings">
+[[development_strings">
 === String manipulation
 		 Python allows the following String operations.
 
@@ -136,7 +136,7 @@
 ----
 		
 
-	<section id="development_concatenate">
+[[development_concatenate">
 === Concatenate strings and numbers
 		 Python does not allow to concatenate a string directly with a
 			number. It requires you to turn the number first into a string with
@@ -153,7 +153,7 @@
 ----
 		
 
-	<section id="development_lists">
+[[development_lists">
 === Lists
 		 Python has good support for lists. See the following example
 			how to create a list, how to access individual elements or
@@ -177,7 +177,7 @@
 
 
 
-	<section id="textfiles">
+[[textfiles">
 === Processing files in Python
 		 The following example is contained in the project
 			"de.vogella.python.files".
@@ -201,7 +201,7 @@
 		
 
 
-	<section id="splitstring">
+[[splitstring">
 === Splitting strings and comparing lists.
 		 The following example is contained in the project
 			"de.vogella.python.files". It reads to files which contain one long
@@ -215,7 +215,7 @@
 		
 
 
-	<section id="unicode">
+[[unicode">
 === Writing Python Scripts in Unicode
 		 If you read special non ASCII sign, e.g. ö, ä. ü or ß, you have
 			to tell Python which character set to use. Include the following in
@@ -229,7 +229,7 @@
 		
 			
 
-	<section id="classes">
+[[classes">
 === Classes in Python
 		 The following is a defined class in Python. Python uses the
 			naming convension __name__ for internal functions.

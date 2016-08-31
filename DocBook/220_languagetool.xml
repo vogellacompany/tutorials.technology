@@ -1,19 +1,19 @@
-<section id="languagetool">
+[[languagetool">
 == Language Tool
-	<section id="languagetool_about">
+[[languagetool_about">
 === What is Language Tool?
 		
-			https://www.languagetool.org">Language Tool</ulink>
+			https://www.languagetool.org">Language Tool]
 			is an Open Source tool for checking the style and the grammar of a text. It is written in Java. Language Tool
 			contains
 			thousands of rules to
 			detect
 			grammar and style pitfalls as well
 			as common typos. It is hosted at
-			https://github.com/languagetool-org/languagetool">Github Languagetools</ulink>.
+			https://github.com/languagetool-org/languagetool">Github Languagetools].
 		
 		
-			https://github.com/vogellacompany/languagetool-eclipse-plugin">Eclipse plug-in for Language Tool</ulink>
+			https://github.com/vogellacompany/languagetool-eclipse-plugin">Eclipse plug-in for Language Tool]
 			provides integration of this spell checker into the Eclipse IDE.
 			This plug-in allows replacing the default
 			spell-checker with an enhanced
@@ -35,7 +35,7 @@ image::languagetool-eclipse-editor.png[]
 		
 
 
-	<section id="languagetool_installation">
+[[languagetool_installation">
 === Installation
 		You can install LanguageTool via an Eclipse update site:
 		
@@ -46,7 +46,7 @@ image::languagetool-eclipse-editor.png[]
 
 
 
-	<section id="languagetool_usage">
+[[languagetool_usage">
 === Usage
 		
 			To enable LanguageTool click
@@ -69,44 +69,44 @@ image::languagetool-eclipse-preferences.png[]
 			
 		
 
-	<section id="languagetool_rules">
+[[languagetool_rules">
 === Developing custom LanguageTools rules
 		
 			LanguageTool development takes place on GitHub at
-			https://github.com/languagetool-org/languagetool">LanguageTool project</ulink>
+			https://github.com/languagetool-org/languagetool">LanguageTool project]
 			. Contributing new rules for undetected errors is easy and only
 			requires
 			editing XML files which can be developed using
 			a
 			web-based
-			http://community.languagetool.org/ruleEditor2">Rule Editor</ulink>
+			http://community.languagetool.org/ruleEditor2">Rule Editor]
 			.
 
 		
 		
 			The Eclipse plug-in is available on
-			https://github.com/vogellacompany/languagetool-eclipse-plugin">LanguageTool Eclipse plug-in Github site</ulink>
+			https://github.com/vogellacompany/languagetool-eclipse-plugin">LanguageTool Eclipse plug-in Github site]
 			.
 
 		
 		
 			You can also write your own detection algorithms in Java or use the
-			http://wiki.languagetool.org/java-api">LanguageTool API</ulink>
+			http://wiki.languagetool.org/java-api">LanguageTool API]
 			to embed the functionality in your own Java projects.
 		
 
-	<section id="languagetool_words">
+[[languagetool_words">
 === Reporting new words
 		New words missing in the directory should be reported in https://github.com/kevina/wordlist/issues. Please check
 			if these words are already in the following directory: https://github.com/marcoagpinto/aoo-mozilla-en-dict
 		
 
-	<section id="languagetool_onlineresources">
+[[languagetool_onlineresources">
 === Language tools forum
 
 		
 			You find the public forum of Language Tool here
-			http://languagetool-user-forum.2306527.n4.nabble.com/">Language Tool forum</ulink>
+			http://languagetool-user-forum.2306527.n4.nabble.com/">Language Tool forum]
 			.
 		
 

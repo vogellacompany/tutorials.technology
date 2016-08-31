@@ -1,6 +1,6 @@
-<section id="usermanagement">
+[[usermanagement">
 == User management
-	<section id="usermanagement_create">
+[[usermanagement_create">
 === Creating new users
 		
 			To create a new user via the console use the following
@@ -31,7 +31,7 @@
 		
 
 	
-	<section id="usermanagement_root">
+[[usermanagement_root">
 === Giving root access
 		 Careful: The following command allows the user to execute sudo
 			commands (root).
@@ -59,7 +59,7 @@
 		
 
 	
-	<section id="usermanagement_home">
+[[usermanagement_home">
         <title>Manually creating the home directory
         In case you need to create the home directory at a later stage
             you can use the following command which creates the home directory
@@ -76,7 +76,7 @@
     
 	
 	
-	<section id="usermanagement_delete">
+[[usermanagement_delete">
 === Deleting users
 		To delete a user use the following command.
 		

@@ -1,6 +1,6 @@
-<section id="epub">
+[[epub">
 == Creating epub
-	<section id="epub_overview">
+[[epub_overview">
 === Overview of EPUB
 		
 			EPUB is a format for electronic book defined by the
@@ -48,7 +48,7 @@
 		
 			To validate an EPUB file, you can use the JAR file from the
 			https://github.com/IDPF/epubcheck">
-				EPubCheck Validation Tool</ulink>.
+				EPubCheck Validation Tool].
 			Download the latest 1.x version and put it into the classpath of
 			your Ant file. Make sure that you also extract the
 			<filename class="directory">lib`
@@ -72,7 +72,7 @@
 		
 
 
-	<section id="epub_ant">
+[[epub_ant">
 === Creating EPUB files with Apache Ant
 		
 			The following example is based on the same file and directory
@@ -141,7 +141,7 @@ include::res/epub/buildepub.xml[]
 		
 			You find another example Ant file in
 			http://inasmuch.as/2010/12/10/ant-for-epub/">
-				Ant for EPUB Blog Entry</ulink>
+				Ant for EPUB Blog Entry]
 			from Tony Graham.
 		
 

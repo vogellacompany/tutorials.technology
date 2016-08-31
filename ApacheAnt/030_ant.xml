@@ -1,6 +1,6 @@
-﻿<section id="antexample">
+﻿[[antexample">
 == Tutorial: Using Apache Ant
-	<section id="antexample_overview">
+[[antexample_overview">
 === Using Ant for Java development
 		
 			The following describes how you compile Java classes, create an
@@ -10,7 +10,7 @@
 			Java project and your Ant build.
 		
 
-	<section id="antexample_javaproject">
+[[antexample_javaproject">
 === Create Java project
 		
 			Create a Java project called
@@ -38,7 +38,7 @@
 ----
 		
 
-	<section id="antexample_buildxml">
+[[antexample_buildxml">
 === Create build.xml
 		
 			Create a new File through the
@@ -59,7 +59,7 @@ include::res/ant/build.xml[]
 			coding.
 		
 
-	<section id="antexample_eclipserun">
+[[antexample_eclipserun">
 === Run your Ant build from Eclipse
 		
 			Run the
@@ -74,7 +74,7 @@ image::anttest20.gif[]
 image::anttest30.gif[]
 		
 
-	<section id="antexample_run">
+[[antexample_run">
 === Run your Ant build from the command line
 		 Open a command line and switch to your project directory. Type
 			in the following commands.

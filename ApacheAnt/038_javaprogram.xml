@@ -1,4 +1,4 @@
-﻿<section id="javaprogram">
+﻿[[javaprogram">
 == Run Java program
 	Ant allows to run Java programs. You can specify properties which
 		are passed as parameters to the main method of Java. The following

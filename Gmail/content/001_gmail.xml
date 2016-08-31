@@ -1,6 +1,6 @@
-<section id="gmail">
+[[gmail">
 == Gmail
-	<section id="gmailsearch">
+[[gmailsearch">
 === Advanced search features
 		
 			Gmail allows to search via pre-defined values. For example:
@@ -15,7 +15,7 @@
 			</itemizedlist>
 		
 
-	<section id="gmaillabels">
+[[gmaillabels">
 === Assign automatic labels to emails
 		
 			If you register to a mailing list you can put the message
@@ -57,7 +57,7 @@ image::gmaillabel1.jpg" />
 		
 
 
-	<section id="gmail_emailtemplates">
+[[gmail_emailtemplates">
 === Email templates
 		
 			To activate templates select

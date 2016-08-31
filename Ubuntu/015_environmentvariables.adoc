@@ -1,5 +1,5 @@
 
-<section id="environ">
+[[environ">
 == Environment Variables
 
 .Table Title
@@ -45,7 +45,7 @@
 		
 	|===
 
-	<section id="environ_path">
+[[environ_path">
 === Add a directory to the path
 
 		

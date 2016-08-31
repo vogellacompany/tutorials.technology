@@ -1,11 +1,11 @@
-<section id="installgroovy" role="wrapper">
+[[installgroovy" role="wrapper">
 == Installation of Groovy
-	<section id="install_groovy">
+[[install_groovy">
 === Install Groovy for the command line
 		
 			To be able to run Groovy code from the command line download the
 			latest version from Groovy from the
-			http://www.groovy-lang.org/download.html">Groovy download website</ulink>
+			http://www.groovy-lang.org/download.html">Groovy download website]
 			.
 		
 
@@ -38,12 +38,12 @@ image::downloadgroovycommandline.png[]
 		
 
 
-	<section id="install_springgroovytools">
+[[install_springgroovytools">
 === Installation of the Groovy tools for the Eclipse IDE
 		
 			You can download a pre-configured version of the Eclipse IDE with Groovy and Gradle support from the following
 			website:
-			http://spring.io/tools">Spring tools download side</ulink>
+			http://spring.io/tools">Spring tools download side]
 			.
 		
 		
@@ -72,15 +72,15 @@ image::eclipsegroovyinstallation10.png[]
 
 		
 			The update site is Eclipse version dependent, see
-			https://github.com/groovy/groovy-eclipse/wiki">Groovy/Grails Tool Suite™ Downloads</ulink>
+			https://github.com/groovy/groovy-eclipse/wiki">Groovy/Grails Tool Suite™ Downloads]
 			if you use a different release than Eclipse 4.5.
 		
 
-	<section id="install_intellij">
+[[install_intellij">
 === Installation of the Groovy tools for the IntelliJ IDE
 		
 			You can also download the
-			https://www.jetbrains.com/idea/download/">IntelliJ IDEA Community edition</ulink>
+			https://www.jetbrains.com/idea/download/">IntelliJ IDEA Community edition]
 			for free which includes support for Groovy.
 		
 

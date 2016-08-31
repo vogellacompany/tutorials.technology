@@ -1,4 +1,4 @@
-<section id="docbooktags">
+[[docbooktags">
 == DocBook Tags
 	
 		So far you have used a very limited set of
@@ -9,7 +9,7 @@
 		_DocBook_
 		document.
 	
-	<section id="docbooktags_text">
+[[docbooktags_text">
 === Markup
 
 .Table Title
@@ -98,7 +98,7 @@
 						
 						
 |
-								<![CDATA[ http://www.heise.de/newsticker">German IT News</ulink>. ]]>
+								<![CDATA[ http://www.heise.de/newsticker">German IT News]. ]]>
 							
 |Paste a hypertext link into the document.
 						
@@ -118,7 +118,7 @@
 		
 
 
-	<section id="docbooktags_warnings">
+[[docbooktags_warnings">
 === Warnings
 		
 			To define warning messages, DocBook provides several tags. The
@@ -150,7 +150,7 @@ include::res/warning/warning.xml[]
 		
 
 
-	<section id="docbooktags_linebreak">
+[[docbooktags_linebreak">
 === Line break
 		
 			You
@@ -159,7 +159,7 @@ include::res/warning/warning.xml[]
 		
 
 
-	<section id="docbooktags_link">
+[[docbooktags_link">
 === References to other elements
 		
 			You link to different elements in Docbook with
@@ -167,7 +167,7 @@ include::res/warning/warning.xml[]
 		
 
 
-	<section id="docbooktags_legal">
+[[docbooktags_legal">
 === Legal Notice
 		
 			You can define legal notices where you state the conditions
@@ -182,7 +182,7 @@ include::res/legalnotice.xml[]
 		
 
 
-	<section id="docbooktags_index">
+[[docbooktags_index">
 === Index
 		
 			You
@@ -212,7 +212,7 @@ include::res/indexelement3.xml[]
 		
 
 
-	<section id="docbooktags_table">
+[[docbooktags_table">
 === Tables
 		You can create a table via the following coding.
 		
@@ -223,7 +223,7 @@ include::res/exampletable.xml[]
 		
 
 
-	<section id="docbooktags_lists">
+[[docbooktags_lists">
 === Lists
 		You can create non-numbered lists like this:
 		
@@ -242,7 +242,7 @@ include::res/numberedlist.xml[]
 		
 
 
-	<section id="docbooktags_links">
+[[docbooktags_links">
 === Links
 		You can create links like this
 
@@ -252,7 +252,7 @@ include::res/numberedlist.xml[]
 ----
 
 
-	<section id="docbooktags_graphics">
+[[docbooktags_graphics">
 === Graphics
 		
 			DocBook has no restrictions what kind of graphic format you
@@ -288,7 +288,7 @@ include::res/numberedlist.xml[]
 ----
 
 
-	<section id="docbooktags_menu">
+[[docbooktags_menu">
 === Menus
 		
 			To define menu paths, as, for example,
@@ -301,7 +301,7 @@ menu:File[New Project],
 ----
 
 
-	<section id="docbooktags_shortcuts">
+[[docbooktags_shortcuts">
 === Keyboard Shortcuts
 		
 			To define keyboard as, for example,

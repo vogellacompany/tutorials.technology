@@ -1,6 +1,6 @@
-<section id="datatypes_list">
+[[datatypes_list">
 == Lists
-	<section id="datatypes_list1">
+[[datatypes_list1">
 === Defining and accessing lists
 		
 			Groovy treads lists as first class constructs in the
@@ -37,7 +37,7 @@ include::res/datatypes/Person.groovy[]
 
 
 
-	<section id="datatypes_list_arrayconvert">
+[[datatypes_list_arrayconvert">
 === Convert a list to an array and vice versa
 
 		Groovy converts automatically an Array to a List and vice versa. This is demonstrated by the following snippet.
@@ -50,7 +50,7 @@ include::res/datatypes/Person.groovy[]
 		
 		
 
-	<section id="datatypes_list_methods">
+[[datatypes_list_methods">
 === List methods
 		
 			The following lists the most useful methods on List.
@@ -102,7 +102,7 @@ include::res/datatypes/Person.groovy[]
 
 
 
-	<section id="datatypes_list_operatoroverloading">
+[[datatypes_list_operatoroverloading">
 === Operator overloading in Lists
 		
 			List support operator overloading. You can use + to concatenate
@@ -111,7 +111,7 @@ include::res/datatypes/Person.groovy[]
 			to add elements to a list.
 		
 
-	<section id="datatypes_list_spreaddotoperator">
+[[datatypes_list_spreaddotoperator">
 === Spreaddot operator
 		
 			The spread dot operator (spread-dot operator)
@@ -130,7 +130,7 @@ include::res/datatypes/SpreadDot.groovy[]
 
 
 
-	<section id="datatypes_list_search">
+[[datatypes_list_search">
 === Searching in a list with find, findall and grep
 		
 			You can search in a list.

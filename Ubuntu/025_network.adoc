@@ -1,6 +1,6 @@
-<section id="network">
+[[network">
 == Network
-	<section id="network_status">
+[[network_status">
 === See all open ports on your machine
 		You see all listeners on your machine via the following
 			command.
@@ -14,7 +14,7 @@
 ----
 		
 
-	<section id="network_ssh">
+[[network_ssh">
 === SSH access to the server
 		
 			The
@@ -63,7 +63,7 @@
 		
 
 
-	<section id="network_firewall">
+[[network_firewall">
 === Firewall
 		Ubuntu provides a uncomplicated firewall (ufw). To install it
 			and
@@ -78,7 +78,7 @@
 
 
 
-	<section id="network_commands">
+[[network_commands">
 === Network commands
 		 The following commands give you an overview of your network
 			connections.
@@ -137,7 +137,7 @@
 			
 		|===
 
-	<section id="network_curl">
+[[network_curl">
 === HTTP debugging with curl
 		
 			curl is a command line tool to issue and receive http (and
@@ -185,12 +185,12 @@
 		
 			<tip>
 				If you are using Microsoft Windows, see
-				http://curl.haxx.se/download.html">curl for Windows</ulink>
+				http://curl.haxx.se/download.html">curl for Windows]
 				.
 			
 		
 
-	<section id="network_irc">
+[[network_irc">
 === IRC
 		
 			For IRC communication you can use the tool xchat. To install it,
@@ -198,7 +198,7 @@
 		
 
 
-	<section id="network_ftp">
+[[network_ftp">
 === FTP
 		
 			For FTP access you can install filezilla via

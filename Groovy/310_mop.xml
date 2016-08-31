@@ -1,6 +1,6 @@
-<section id="mop">
+[[mop">
 == Meta Object Protocol
-	<section id="mop_purpose">
+[[mop_purpose">
 === What is the Meta Object Protocol_
 		
 			The
@@ -12,7 +12,7 @@
 		
 
 
-	<section id="mop_methodandpropertyacces">
+[[mop_methodandpropertyacces">
 === Calling methods or accessing properties on a Groovy object
 		
 			If a method is called or a property is accessed in a class and this
@@ -51,7 +51,7 @@
 		
 
 
-	<section id="mop_addingpropertiesandmethods">
+[[mop_addingpropertiesandmethods">
 === Adding methods and properties
 		
 			Using the

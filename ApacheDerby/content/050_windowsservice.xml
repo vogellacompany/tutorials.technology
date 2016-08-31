@@ -1,4 +1,4 @@
-<section id="service">
+[[service">
 == Running Derby Server as Windows Service
 	 The Derby Server is started via a batch program. In an server
 		environment this batch program should be automatically started if the
@@ -30,8 +30,8 @@
 			
 				<programlisting>
 					<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-						parse="text" href="../examples/service/removeservice.txt" />
-				</programlisting>
+						parse="text" href="../examples/service/removeservice.txt[]
+----
 			
 		
 	

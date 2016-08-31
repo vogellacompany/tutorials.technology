@@ -1,6 +1,6 @@
-<section id="gitremotebranch" role="wrapper">
+[[gitremotebranch" role="wrapper">
 == Remote and local tracking branches
-	<section id="gitremotebranch_overview">
+[[gitremotebranch_overview">
 === Remote tracking branches
 		
 			LARSPRIMARYINDEX"Remote-tracking branch"LARSPRIMARYINDEX
@@ -37,7 +37,7 @@ include::./examples/remotebranch/showremotes.txt[]
 
 
 	
-	<section id="gitremotebranch_delete">
+[[gitremotebranch_delete">
 === Delete a remote-tracking branch in your local repository
 		
 			LARSPRIMARYINDEX"Remote tracking branch"LARSPRIMARYINDEX
@@ -58,7 +58,7 @@ include::./examples/remotebranch/delete.txt[]
 		
 	
 
-	<section id="gitremotebranch_deleteremote">
+[[gitremotebranch_deleteremote">
 === Delete a branch in a remote repository
 		
 			LARSPRIMARYINDEX"Remote tracking branch"LARSPRIMARYINDEX
@@ -104,7 +104,7 @@ include::./examples/remotebranch/deleteremotebranch4.txt[]
 
 	
 
-	<section id="git_trackingbranches">
+[[git_trackingbranches">
 === Tracking branches
 		
 			LARSPRIMARYINDEX"Tracking branch"LARSPRIMARYINDEX
@@ -144,7 +144,7 @@ include::./examples/remotebranch/deleteremotebranch4.txt[]
 			by Git.
 		
 	
-	<section id="git_setting_uptrackingbranches">
+[[git_setting_uptrackingbranches">
 === Setting up tracking branches
 		
 			You create new
@@ -189,7 +189,7 @@ include::./examples/remotebranch/update.txt[]
 
 
 	
-	<section id="gitremotebranch_seetrackingbranch">
+[[gitremotebranch_seetrackingbranch">
 === See the branch information for a remote repository
 		To see the tracking branches for a remote repository (short:
 			remote) you can use the

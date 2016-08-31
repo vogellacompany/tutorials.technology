@@ -1,6 +1,6 @@
-<section id="gitserver" role="wrapper">
+[[gitserver" role="wrapper">
 == Own Git server
-	<section id="gitserver_install">
+[[gitserver_install">
 === Hosting your own Git server
 		<indexterm>
 			<primary>Git server</primary>
@@ -65,7 +65,7 @@
 
 
 
-	<section id="gitserver_access">
+[[gitserver_access">
 === Give write access to a Git repository
 		<indexterm>
 			<primary>Git server</primary>
@@ -86,7 +86,7 @@
 
 
 
-	<section id="gitserver_security">
+[[gitserver_security">
 === Security setup for the git user
 		<indexterm>
 			<primary>Git server</primary>

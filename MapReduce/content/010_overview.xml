@@ -1,6 +1,6 @@
-<section id="mapreduce">
+[[mapreduce">
 == Parallel Programming and MapReduce
-	<section id="mapreduce_parallel">
+[[mapreduce_parallel">
 === Parallel Programming
 		 Parallel programming describes a means to divide a problem into
 			several smaller subproblems and solve these in parallel. Distributed
@@ -15,7 +15,7 @@
 		
 	
 
-	<section id="mapreduce_overview">
+[[mapreduce_overview">
 === MapReduce
 
 		
@@ -30,7 +30,7 @@
 			to power their websearch.
 			MapReduce was first
 			describes in a
-			http://research.google.com/archive/mapreduce.html"> research paper from Google</ulink>
+			http://research.google.com/archive/mapreduce.html"> research paper from Google]
 			.
 		
 
@@ -69,7 +69,7 @@
 			the same reducer.
 		
 	
-	<section id="mapreduce_examples">
+[[mapreduce_examples">
 === Usage of MapReduce
 
 		 The classical example for using MapReduce is logfile analysis.

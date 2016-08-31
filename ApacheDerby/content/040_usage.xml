@@ -1,6 +1,6 @@
-<section id="tools">
+[[tools">
 == Derby tools
-	<section id="tools_commandline">
+[[tools_commandline">
 === Using Derby from the command line (ij)
 		 ij is Derby's interactive JDBC scripting tool. It is a simple
 			utility for running scripts or interactive queries against a Derby
@@ -54,7 +54,7 @@
 ----
 		
 
-	<section id="usage_sqldump">
+[[usage_sqldump">
 === SQL dump for the database schema
 		 Use the tool dblook. Type dblook on the console to see the
 			options, the tool is really easy to use. For example to write the

@@ -63,7 +63,7 @@ A simple editor with a graphical user interface is gedit.
 
 
 
-<section id="commands_find">
+[[commands_find">
 <title>Find files
 The following demonstrates the usage of the find command.
 
@@ -134,11 +134,11 @@ The -0 options is used for files and folders with spaces.
 The
 `find`
 command can also be combined with the grep command. See
-http://www.vogella.com/tutorials/UnixGrep/article.html">Using the grep command</ulink>
+http://www.vogella.com/tutorials/UnixGrep/article.html">Using the grep command]
 .
 
 
-<section id="commands_foldersize">
+[[commands_foldersize">
 <title>Calculate the size of a folder
 
 The following calculates the size (disk usage))of a folder
@@ -152,7 +152,7 @@ parse="text" href="./examples/du/du.txt" />
 </programlisting>
 
 
-<section id="commands_rm">
+[[commands_rm">
 <title>Remove files
 
 Use the command
@@ -169,7 +169,7 @@ parse="text" href="./examples/rm/rm.txt" />
 
 
 
-<section id="commands_ps">
+[[commands_ps">
 <title>Processes
 To see all running processes on your system use
 
@@ -180,7 +180,7 @@ parse="text" href="./examples/process/process" />
 
 
 
-<section id="commands_chown">
+[[commands_chown">
 <title>Change owner of files and directories
 
 .Table Title
@@ -206,7 +206,7 @@ directory "mydir" and its subdirectories.
 
 |===
 
-<section id="commands_link">
+[[commands_link">
 <title>Creating links
 
 You can create a soft link to a file or directory using the
@@ -221,7 +221,7 @@ parse="text" href="./examples/link/soft.txt" />
 
 
 
-<section id="commands_zip">
+[[commands_zip">
 <title>Zipping files
 
 To zip or unzip files on the command line you can use the following

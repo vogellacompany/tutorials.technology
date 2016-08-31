@@ -1,4 +1,4 @@
-<section id="rssoverview_java">
+[[rssoverview_java">
 == Prerequisites
 	 As an RSS feed is a XML file we can use the Java XML parsers to
 		read and create
@@ -7,7 +7,7 @@
 	
 	
 		For an introduction into XML and its usage with Java see
-		http://www.vogella.com/tutorials/JavaXML/article.html"> Java XML Tutorial</ulink>
+		http://www.vogella.com/tutorials/JavaXML/article.html"> Java XML Tutorial]
 		.
 	
 

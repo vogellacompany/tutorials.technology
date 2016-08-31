@@ -1,6 +1,6 @@
-<section id="tomcat">
+[[tomcat">
 == Managing Apache Tomcat
-	<section id="tomcat_startubuntu">
+[[tomcat_startubuntu">
 === Start Tomcat on Ubuntu (Linux)
 		
 			In Ubuntu the
@@ -21,7 +21,7 @@
 
 
 
-	<section id="tomcat_start">
+[[tomcat_start">
 === Start Tomcat on Windows
 		
 			To start Tomcat use
@@ -31,7 +31,7 @@
 		
 
 
-	<section id="tomcat_test">
+[[tomcat_test">
 === Test Tomcat
 		 The default port for Tomcat is 8080. After starting Tomcat
 			on
@@ -50,7 +50,7 @@ image::tomcat_initialpage10.png"
 		
 
 
-	<section id="tomcat_admin">
+[[tomcat_admin">
 === Admin console
 		Tomcat provides a webbased adminstration console which can be
 			started via the following link: http://localhost:8080/manager/html
@@ -96,7 +96,7 @@ image::tomcat_initialpage10.png"
 
 
 
-	<section id="tomcat_deploy">
+[[tomcat_deploy">
 === Deployment
 		
 			The standard deployment format for webapplications is a

@@ -1,4 +1,4 @@
-<section id="spellchecking">
+[[spellchecking">
 == Spell checking with hunspell
 	
 		The command line tool hunspell allows you to check the spelling

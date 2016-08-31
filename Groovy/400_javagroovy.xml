@@ -1,6 +1,6 @@
-<section id="javagroovy">
+[[javagroovy">
 == Using Groovy classes in Java
-	<section id="javagroovy1">
+[[javagroovy1">
 === Calling Groovy classes directly
 		 To use Groovy classes in Java classes you need to add the
 			Groovy
@@ -32,7 +32,7 @@
 image::javagroovy10.gif[]
 		
 
-	<section id="script">
+[[script">
 === Calling a script
 		
 [source,java]

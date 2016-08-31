@@ -1,6 +1,6 @@
-<section id="tips">
+[[tips">
 == Tips
-	<section id="tipcs_bootdisk">
+[[tipcs_bootdisk">
 === Creating a bootable USB disk with unetbootin
 		
 			The default program for creating a bootable USB disk is
@@ -25,7 +25,7 @@
 		 In the panel click and hold Alt to quick switch/launch apps.
 		
 
-	<section id="tipcs_numble">
+[[tipcs_numble">
 === Chat applications
 		
 			The
@@ -43,7 +43,7 @@
 
 
 
-	<section id="tipcs_teamviewer">
+[[tipcs_teamviewer">
 === Sharing desktop
 		
 			The
@@ -55,7 +55,7 @@
 		
 
 
-	<section id="tipcs_remotexserver">
+[[tipcs_remotexserver">
 === Remote xserver
 		
 			The
@@ -67,11 +67,11 @@
 		
 
 
-	<section id="tipcs_eclipse">
+[[tipcs_eclipse">
 === Eclipse IDE configuration
 		
 			See
-http://devblog.virtage.com/2013/06/eclipse-and-eclipse-based-apps-on-ubuntu-13-04-desktop-hacks/">Eclipse and Ubuntu</ulink>
+http://devblog.virtage.com/2013/06/eclipse-and-eclipse-based-apps-on-ubuntu-13-04-desktop-hacks/">Eclipse and Ubuntu]
 			for an introduction into the configuration of the Eclipse IDE under
 			Ubuntu.
 		

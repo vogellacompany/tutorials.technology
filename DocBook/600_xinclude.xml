@@ -1,6 +1,6 @@
-<section id="xinclude">
+[[xinclude">
 == Using XInclude with Eclipse XSL
-	<section id="xinclude_overview">
+[[xinclude_overview">
 === Overview
 		
 			`XInclude` can be used to structure the DocBook source files so
@@ -30,7 +30,7 @@ include::res/xincludeexample2.xml[]
 			Eclipse XLS project. :-)
 		
 
-	<section id="xinclude_eclipsexsl">
+[[xinclude_eclipsexsl">
 === Eclipse XSL Tools
 		
 			Eclipse XSL Tools provide support for XSLT transformations. It
@@ -41,21 +41,21 @@ include::res/xincludeexample2.xml[]
 			Install the XSL tools via the update manager from the standard
 			Eclipse update site. See
 http://www.vogella.com/tutorials/Eclipse/article.html#updatemanager">
-				Using the Eclipse update manager</ulink>
+				Using the Eclipse update manager]
 			for details.
 		
 		
 image::installxsl10.gif[]
 		
 
-	<section id="xinclude_using">
+[[xinclude_using">
 === Using the XInclude ant task
 		
 			From your Eclipse installation take the
 			`org.eclipse.wst.xsl.core.jar` and add this JAR file to your ant
 			classpath. Put the new JAR into your Ant classpath. See
 http://www.vogella.com/tutorials/ApacheAnt/article.html#classpath">
-				Apache Ant Tutorial - Classpath</ulink>
+				Apache Ant Tutorial - Classpath]
 			for details.
 		
 		

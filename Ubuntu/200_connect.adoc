@@ -1,15 +1,15 @@
-<section id="connect">
+[[connect">
 == Connection
-	<section id="connect_remove">
+[[connect_remove">
 === Telnet / ssh client for Windows
 		
 			To connect to your Linux system via telnet or via ssh from Windows
 			you can use
 			http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html"
-			>putty</ulink>
+			>putty]
 		
 
-	<section id="connect_terminal">
+[[connect_terminal">
 === Switch to Console mode from Graphical User Interface
 		
 			In case your Linux system is running under a graphical user

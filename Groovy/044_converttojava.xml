@@ -1,6 +1,6 @@
-<section id="converttogroovy" role="wrapper">
+[[converttogroovy" role="wrapper">
 == Exercise: Convert a Java project to Groovy
-	<section id="converttogroovy_project">
+[[converttogroovy_project">
 === Create a Java project script
 		
 			Use the Eclipse wizard to create a new
@@ -12,7 +12,7 @@
 			.
 		
 
-	<section id="converttogroovy_javabean">
+[[converttogroovy_javabean">
 === Create a Java class
 		
 			Create a Java bean in this project called
@@ -42,7 +42,7 @@
 		
 
 
-	<section id="converttogroovy_main">
+[[converttogroovy_main">
 === Main method
 		
 			Create a new class with a main method In this method construct at
@@ -57,7 +57,7 @@
 ----
 		
 
-	<section id="converttogroovy_convert">
+[[converttogroovy_convert">
 === Convert to Groovy
 		
 			Right-click on your project and select
@@ -73,7 +73,7 @@ menu:Convert[Convert file extension to Groovy ]
 			.
 		
 
-	<section id="converttogroovy_project_validate">
+[[converttogroovy_project_validate">
 === Simplify the Task class
 		
 			Simplify the
@@ -86,7 +86,7 @@ menu:Convert[Convert file extension to Groovy ]
 		
 
 
-	<section id="converttogroovy_project_asttransformation">
+[[converttogroovy_project_asttransformation">
 === Replace the toString and equals/hashCode method
 		<note>
 			This exercise is optional.

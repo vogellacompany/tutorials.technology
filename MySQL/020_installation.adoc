@@ -17,21 +17,21 @@ password to use, etc.
 
 
 
-<section id="installation_windows">
+[[installation_windows">
 <title>Windows
 
 Under Windows download the community edition from
-http://dev.mysql.com/downloads/">http://dev.mysql.com/downloads/</ulink>
+http://dev.mysql.com/downloads/">http://dev.mysql.com/downloads/]
 . For windows you have installer program available which guides you
 through the installation process.
 
 
 
-<section id="installation_password">
+[[installation_password">
 <title>Resetting the password
 
 See
-https://help.ubuntu.com/community/MysqlPasswordReset">Ubuntu password reset</ulink>
+https://help.ubuntu.com/community/MysqlPasswordReset">Ubuntu password reset]
 to learn how to set and reset your password under Ubuntu.
 
 

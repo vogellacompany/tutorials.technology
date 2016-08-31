@@ -1,6 +1,6 @@
-<section id="rebase" role="wrapper">
+[[rebase" role="wrapper">
 == Rebasing branches
-	<section id="rebase_branches">
+[[rebase_branches">
 === Rebasing branches
 		
 			LARSPRIMARYINDEX"git rebase"LARSPRIMARYINDEX
@@ -107,7 +107,7 @@ LARSLINEBREAK
 			
 		
 	
-	<section id="rebase_bestpractice">
+[[rebase_bestpractice">
 === Good practice for rebase
 
 

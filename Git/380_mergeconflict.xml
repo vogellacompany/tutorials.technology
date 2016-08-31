@@ -1,7 +1,7 @@
-<section id="mergeconflict" role="wrapper">
+[[mergeconflict" role="wrapper">
 == Solving merge conflicts
 
-	<section id="mergeconflict_definition">
+[[mergeconflict_definition">
 === What is a conflict during a merge operation?
 		
 			LARSPRIMARYINDEX"Merge conflict"LARSPRIMARYINDEX
@@ -39,7 +39,7 @@
 
 	
 
-	<section id="mergeconflict_theirs">
+[[mergeconflict_theirs">
 === Keep a version of a file during a merge conflict
 
 		

@@ -1,7 +1,7 @@
-<section id="resources">
+[[resources">
 == Links and Literature
 	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../10_Include/sourcejava.xml" />
-	<section id="ant_links">
+[[ant_links">
 === General
 		Not listed yet
 	

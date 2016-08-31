@@ -1,6 +1,6 @@
-<section id="groovyobjects" role="wrapper">
+[[groovyobjects" role="wrapper">
 == Groovy classes, objects and methods
-	<section id="groovycode_class">
+[[groovycode_class">
 === A Groovy class and default access modifier
 		
 			A Groovy class is defined with the
@@ -23,7 +23,7 @@
 		
 
 
-	<section id="groovyobjects_fields">
+[[groovyobjects_fields">
 === Groovy objects (Plain Old Groovy Objects) and fields
 		
 			In Groovy all fields of a class have by default the
@@ -67,7 +67,7 @@
 
 
 
-	<section id="groovyobjects_constructors">
+[[groovyobjects_constructors">
 === Constructors
 		
 			Groovy provides
@@ -110,7 +110,7 @@
 ----
 		
 
-	<section id="groovyobjects_equals">
+[[groovyobjects_equals">
 === Equals, == and the method is()
 		 One difference between Java and Groovy is that the == operator
 			will check for equality and not for identity.
@@ -134,7 +134,7 @@
 			method.
 		
 
-	<section id="groovyobjects_parameter">
+[[groovyobjects_parameter">
 === Optional parameters in methods
 		 Groovy allows to have optional parameter values. Optional
 			parameter values are indicated by =0.
@@ -147,7 +147,7 @@
 
 
 
-	<section id="groovyobjects_default_parameter">
+[[groovyobjects_default_parameter">
 === Default parameters in methods
 		In Groovy you assign default values to parameters in a
 			method. If

@@ -1,10 +1,10 @@
-	<section id="dbsetup">
+[[dbsetup">
 == Database setup
 	 After installation of a database management system you need to
 		create the database itself, create users and grant access to the
 		database. Some database management system create defaults but it is
 		good to know how to create them yourself. 
-	<section id="dbsetup_schema">
+[[dbsetup_schema">
 === Database schema
 		 The following explains the creation, deletion and usage of
 			database schemas.
@@ -53,7 +53,7 @@
 			
 		|===
 	
-	<section id="db_setup_user">
+[[db_setup_user">
 === User Maintenance
 		The following demonstrate how to create a user and how to grant
 			access rights to a user.

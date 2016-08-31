@@ -1,6 +1,6 @@
-<section id="msoutlook">
+[[msoutlook">
 == Outlook
-	<section id="msoutlook_resetviews">
+[[msoutlook_resetviews">
 === Reset the views
 		If I search in outlook sometimes I loose the Day / Month /
 			Year
@@ -9,7 +9,7 @@
 			the cleanviews switch helps. Start-> Run -> outlook /cleanviews
 		
 
-	<section id="msoutlook_signature">
+[[msoutlook_signature">
 === Signature for macros
 		 If you want to use macros automatically in Outlook you need to
 			sign them. You can sign your macros directly from the Visual Basic
@@ -21,7 +21,7 @@
 			security settings under "Tools -> Trust Center on the tab macros".
 		
 
-	<section id="msoutlook_security">
+[[msoutlook_security">
 === A program is trying to access e-mail addresses you have stored
 			in Outlook
 		 If you have a macro which access the outlook email addresses
@@ -29,7 +29,7 @@
 			to access e-mail addresses you have stored in Outlook".
 		
 			Installing the tool
-			http://www.mapilab.com/de/outlook/security/"> Advanced Security for Outlook</ulink>
+			http://www.mapilab.com/de/outlook/security/"> Advanced Security for Outlook]
 			from MAPILab will solve this problem.
 		
 

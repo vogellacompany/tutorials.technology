@@ -1,7 +1,7 @@
-<section id="gitfetch" role="wrapper">
+[[gitfetch" role="wrapper">
 == Updating your remote-tracking branches with git fetch
 
-	<section id="gitfetch_intro">
+[[gitfetch_intro">
 === Fetch
 		
 			LARSPRIMARYINDEX"git fetch"LARSPRIMARYINDEX
@@ -78,7 +78,7 @@ include::./examples/fetch/fetch.txt[]
 			for the rebase command.
 		
 	
-	<section id="gitfetch_updateremotes">
+[[gitfetch_updateremotes">
 === Fetch from all remote repositories
 		
 			The
@@ -98,7 +98,7 @@ include::./examples/remote/gitupdate.txt[]
 ----
 	
 
-	<section id="gitfetch_compare">
+[[gitfetch_compare">
 === Compare remote-tracking branch with local branch
 		The following code shows a few options how you can compare your
 			branches.
@@ -117,7 +117,7 @@ include::./examples/remotebranch/compare.txt[]
 			parameter.
 		
 	
-	<section id="gitfetch_rebase">
+[[gitfetch_rebase">
 === Rebase your local branch onto the remote-tracking branch
 		
 		
@@ -143,7 +143,7 @@ include::./examples/remotebranch/apply.txt[]
 		
 	
 
-	<section id="gitremotebranch_fetchpull">
+[[gitremotebranch_fetchpull">
 === Fetch compared with pull
 		
 			LARSPRIMARYINDEX"Fetch compared with pull"LARSPRIMARYINDEX

@@ -1,8 +1,8 @@
-<section id="gitworkflows" role="wrapper">
+[[gitworkflows" role="wrapper">
 == Typical Git workflow using separate repositories
 	 The following description highlights typical Git workflows.
 	
-	<section id="gitworkflow_patch">
+[[gitworkflow_patch">
 === Providing a patch
 		<indexterm>
 			<primary>Git workflow</primary>
@@ -54,7 +54,7 @@
 
 
 
-	<section id="gitworkflows_workingwithtworepositories">
+[[gitworkflows_workingwithtworepositories">
 === Working with two repositories
 		<indexterm>
 			<primary>Git workflow</primary>
@@ -106,7 +106,7 @@
 		
 
 
-	<section id="gitworkflows_pullrequests">
+[[gitworkflows_pullrequests">
 === Using pull requests
 		<indexterm>
 			<primary>Git workflow</primary>
@@ -140,7 +140,7 @@
 				into an email.
 				See
 				<ulink
-					url="https://www.kernel.org/pub/software/scm/git/docs/git-request-pull.html">Git request-pull</ulink>
+					url="https://www.kernel.org/pub/software/scm/git/docs/git-request-pull.html">Git request-pull]
 				for details.
 			
 		

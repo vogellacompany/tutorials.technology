@@ -1,6 +1,6 @@
-<section id="gitmergecommand_branches" role="wrapper">
+[[gitmergecommand_branches" role="wrapper">
 == Commands to merge two branches
-	<section id="gitmergecommand_branches">
+[[gitmergecommand_branches">
 === The git merge command
 		
 			The
@@ -22,7 +22,7 @@
 include::./examples/commandline/git_merge[]
 ----
 	
-	<section id="gitmerge_mergeoptionsstrategies">
+[[gitmerge_mergeoptionsstrategies">
 === Specifying merge strategies
 		
 			The
@@ -64,7 +64,7 @@ include::./examples/merge/mergeoctupus.txt[]
 
 	
 
-	<section id="gitmerge_mergeoptions">
+[[gitmerge_mergeoptions">
 === Specifying parameters for the default merge strategy
 		
 			The recursive merge strategy (default) allows you to specify
@@ -120,11 +120,11 @@ include::./examples/merge/mergeours2.txt[]
 		
 		
 			For more information about the merge strategies and options see
-https://www.kernel.org/pub/software/scm/git/docs/git-merge.html">Git merge manpage</ulink>
+https://www.kernel.org/pub/software/scm/git/docs/git-merge.html">Git merge manpage]
 			.
 		
 	
-	<section id="gitmerge_forcemergecommit">
+[[gitmerge_forcemergecommit">
 === Enforcing the creation of a merge commit
 		
 			If you prefer to have merge commits even for situations in which Git

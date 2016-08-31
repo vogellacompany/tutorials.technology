@@ -1,4 +1,4 @@
-<section id="ftpserver">
+[[ftpserver">
 == Installing a FTP server
 	
 		To install an easy to use and configure ftp server use the

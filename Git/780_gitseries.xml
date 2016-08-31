@@ -1,4 +1,4 @@
-<section id="gitseries">
+[[gitseries">
 == Git series
 	
 		This tutorial is part of a series about the Git version control
@@ -7,30 +7,30 @@
 			*
 				
 					http://www.vogella.com/tutorials/Git/article.html">
-						Introduction to Git</ulink>
+						Introduction to Git]
 				
 			
 			*
 				
 					http://www.vogella.com/tutorials/GitHub/article.html">
-						Using Github</ulink>
+						Using Github]
 				
 			
 			*
 				
 					http://www.vogella.com/tutorials/GitHosting/article.html">
-						Hosting Git repositories at Bitbucket or on your own server</ulink>
+						Hosting Git repositories at Bitbucket or on your own server]
 				
 			
 			*
 				
 					http://www.vogella.com/tutorials/GitWorkflows/article.html">
-						Typical workflows with Git</ulink>
+						Typical workflows with Git]
 				
 			
 			*
 				
-					http://www.vogella.com/tutorials/EclipseGit/article.html">EGit - Teamprovider for Eclipse</ulink>
+					http://www.vogella.com/tutorials/EclipseGit/article.html">EGit - Teamprovider for Eclipse]
 				
 			
 		

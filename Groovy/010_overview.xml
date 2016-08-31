@@ -1,9 +1,9 @@
-<section id="groovy" role="wrapper">
+[[groovy" role="wrapper">
 == Groovy
-	<section id="groovy_overview">
+[[groovy_overview">
 === What is Groovy?
 		
-			http://www.groovy-lang.org/">Groovy</ulink> is an optionally typed, dynamic language that runs on
+			http://www.groovy-lang.org/">Groovy] is an optionally typed, dynamic language that runs on
 			the JVM. It is
 			tightly integrated with the Java
 			programming language. Groovy describes itself as feature-rich and Java-friendly
@@ -47,7 +47,7 @@
 			operator.
 		
 
-	<section id="groovy_types">
+[[groovy_types">
 === Groovy classes and scripts 
 		
 			A Groovy source files ends with the
@@ -73,7 +73,7 @@ include::res/first/HelloWorld.groovy[]
 
 
 
-	<section id="groovy_compatibility">
+[[groovy_compatibility">
 === Compatibility with Java
 		
 			Groovy runs inside the JVM and can use Java libraries. Every Groovy
@@ -110,7 +110,7 @@ include::res/first/HelloWorld.groovy[]
 		
 		Groovy does currently not support Java 8 lambda expressions.
 
-	<section id="groovy_feature">
+[[groovy_feature">
 === Reasons to use Groovy
 		
 			Groovy focus on simplicity and ease of use as its leading
@@ -193,7 +193,7 @@ include::res/first/HelloWorld.groovy[]
 
 
 
-	<section id="groovy_imports">
+[[groovy_imports">
 === Imports in Groovy 
 		
 			Groovy automatically imports the following packages and classes which

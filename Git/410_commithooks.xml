@@ -1,6 +1,6 @@
-<section id="gitcommithooks" role="wrapper">
+[[gitcommithooks" role="wrapper">
 == Git commit and other hooks
-	<section id="gitcommithooks_intro">
+[[gitcommithooks_intro">
 === Usage of Git hooks
 		
 			LARSPRIMARYINDEX"commit hooks"LARSPRIMARYINDEX
@@ -28,7 +28,7 @@
 
 
 	
-	<section id="gitcommithooks_clientserver">
+[[gitcommithooks_clientserver">
 === Client and server side commit hooks
 		
 			Git provides hooks for the client and for the server side. On
@@ -55,11 +55,11 @@
 		
 		
 			The hooks are documented under the following URL:
-https://www.kernel.org/pub/software/scm/git/docs/githooks.html">Git hooks manual page</ulink>
+https://www.kernel.org/pub/software/scm/git/docs/githooks.html">Git hooks manual page]
 			.
 		
 	
-	<section id="gitcommithooks_restrictions">
+[[gitcommithooks_restrictions">
 === Restrictions
 		Not all Git server implementations support server side commit
 			hooks. For example
