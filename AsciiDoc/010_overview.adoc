@@ -353,6 +353,41 @@ Of course you can define tables with more than two columns.
 |===
 ----
 
+If you want to add Asciidoc element styles like lists, source code, etc, just prefix the cell with an `a`.
+This would look like the following:
+
+....
+.Table Title
+|===
+|Name of Column 1 |list |code 
+
+|test
+a|*a 
+*b
+*c
+a|[source, java]
+----
+System.out.println(); 
+----
+
+|===
+....
+
+The result would be:
+.Table Title
+|===
+|Name of Column 1 |list |code
+
+|test
+a|* a 
+* b
+* c
+a|[source, java]
+----
+System.out.println(); 
+----
+
+|===
 
 ==== Define column widths
 
@@ -390,6 +425,8 @@ The snippet above will result in the following:
 |===
 
 Alternatively % values can be used, e.g., [cols="40%, 60%"].
+
+
 
 [[source-code]]
 === Source code, using monospace and callouts
