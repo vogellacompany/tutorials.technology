@@ -374,6 +374,7 @@ System.out.println();
 ....
 
 The result would be:
+
 .Table Title
 |===
 |Name of Column 1 |list |code
