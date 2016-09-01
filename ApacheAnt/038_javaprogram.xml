@@ -5,9 +5,9 @@
 		demonstrates how to run a Java program.
 	
 	
-		<programlisting language="java">
-			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-				parse="text" href="./examples/javaprogram/build.xml[]
+[source,java]
+----
+include::res/javaprogram/build.xml[]
 ----
 	
 
