@@ -11,12 +11,25 @@ JUnit classes are identified by:
 * Class or a super class is annotated with @RunWith
 * Class or a super class contain a method annotated with @Test
 
-You can set the `scanForTestClasses` property to false, if you do not want automatic test class detection.
-In this case, if no additional include / exclude patterns are specified, the default for included classes are **/*Tests.class”, “**/*Test.class” and the default excluded classes are “**/Abstract*.class”.
+
+You can set the
+`scanForTestClasses`
+property to false, if you do not want automatic test class detection.
+In this case, if no additional include /
+exclude
+patterns are
+specified, the default for included classes are **/*Tests.class”,
+“**/*Test.class” and the
+default excluded
+classes are
+“**/Abstract*.class”.
+
 
 === Include and Exclude particular Tests
 
 The test configuration in general is described at https://docs.gradle.org/current/dsl/org.gradle.api.tasks.testing.Test.html[Gradle Test tasks description].
+.
+
 
 The `Test` class has a `include` and `exclude` method. 
 These methods can be used to specify, which tests should actually be run.
@@ -34,4 +47,6 @@ Skip excluded tests:
 ----
 include::res/tasks/test/exclude.gradle[]
 ----
+
+
 

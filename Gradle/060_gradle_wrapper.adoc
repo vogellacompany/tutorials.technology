@@ -5,6 +5,7 @@ The _Gradle wrapper_ allows that a user can run the build with a predefined vers
 This wrapper is a batch script on Windows, and a shell script for other operating systems. 
 When you start a Gradle build via the wrapper, the specified version of Gradle is automatically downloaded and used to run the build.
 
+
 The wrapper is the preferred way of starting a Gradle build, as it make the execution of the build independent of the installed Gradle version.
 The wrapper script can be created via `gradle wrapper`.
 
@@ -14,6 +15,7 @@ These files can be used instead for the `gradle` command, and if Gradle is not i
 It is also possible to define a task which defines the version of the wrapper. 
 If this task is executed, it creates the wrapper and downloads the correct version of Gradle.
 
+
 [source,gradle]
 ----
 include::res/wrapper/wrappertask.gradle[]
@@ -21,21 +23,27 @@ include::res/wrapper/wrappertask.gradle[]
 
 The version of the Gradle Wrapper can also be defined, when creating it via the command line.
 
+
 `&gt; gradle wrapper --gradle-version 2.9`
 
 Without this explicit version parameter Gradle will automatically pick the latest version.
 
+
 === Configure GRADLE_OPTS for the Gradle wrapper
 
 GRADLE_OPTS can also be defined inside the _gradlew_ or _gradlew.bat_ file.
+
 
 [source,gradle]
 ----
 include::res/wrapper/gradlew[]
 ----
 
+
 [source,gradle]
 ----
 include::res/wrapper/gradlew.bat[]
 ----
+
+
 

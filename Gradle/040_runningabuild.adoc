@@ -1,22 +1,27 @@
 == Running a build
 (((Gradle, Running a build)))
-
+	
 When starting a Gradle build via the command line, the `gradle` command tool looks for a file called `build.gradle` in the current directory.
-
+	
+	
 Gradle also supports abbreviation of tasks, e.g,. to start the task `lars` using the `gradle l` command is sufficient. 
 The abbreviation must uniquely identify a task, otherwise Gradle gives you an error message, which tell that the abbreviation is ambiguous.
 CamelCase can also be used for an abbreviation, e.g., the task `gradle vogellaCompany` can also be called with the `gradle vC` command.
-
+	
+	
 A Gradle build can be triggered via the `gradle` or `gradle -q` command. 
 The `-q` or `--quite` parameter makes the execution of Gradle less verbose. 
 A specific task can be addressed like this: `gradle -q other`, which runs the "other" task. 
 You can of course also use the Gradle wrapper script, if that is avaiable.
-
+	
+	
 To define a different build file the `-b buildFileName` option can be used.
-
+	
+	
 In scenarios where no network connection is available the `--offline` parameter can be used. 
 This run the Gradle build offline, which means that Gradle does not try to reach resources from the network during a build. 
 E.g., for dependencies from an artifact repository like Maven Central or Bintray.
-
+	
+	
 To get a detailed output of what Gradle is doing you can specify the `--info` parameter.
 

@@ -6,6 +6,38 @@ As a general rule, it is useful to have a build that is as much declarative as p
 Therefore it is advised to avoid complex code in your Gradle build file. 
 If you need customer logic you should place it, into a custom Gradle plugin.
 
+=== Gradle DSL 
+
+Each Gradle plug-in comes with a DSL. 
+To see all properites of a Gradle objects, you can use the following code snippet:
+
+[source,code]
+----
+println variants.properties
+            .sort{it.key}
+            .collect{it}
+            .findAll{!filtered.contains(it.key)}
+            .join('\n')
+----
+
+For example to define a tasks which show the properties of all `android.applicationVariants` (in an Android project), use:
+
+[source,code]
+----
+task showAndoidVariantsInformation {
+    doLast {
+        android.applicationVariants.all { variants ->
+        	println variants.properties
+            .sort{it.key}
+            .collect{it}
+            .findAll{!filtered.contains(it.key)}
+            .join('\n')
+        }
+    }
+}
+----
+
+
 === Example: Creating a simple Gradle plugin
 
 To create a custom Gradle plug-in you have to create the following directories for your Gradle project. 
@@ -17,12 +49,14 @@ The Java or Groovy directory is only required if you want to use Java or Groovy 
 
 * projectroot/plugin/src/main/groovy
 
+
 Change your main _build.gradle_ build file to the following.
 
 [source,java]
 ----
 include::res/plugin/mainbuild.gradle[]
 ----
+
 
 Create a file _vogella.properties_ in the _META-INF/gradle-plugins_ folder. 
 The name of the properties file defines your plugin name and its content points to the class which implements the plugin.
@@ -32,6 +66,7 @@ The name of the properties file defines your plugin name and its content points 
 include::res/plugin/vogella.properties[]
 ----
 
+
 In the _plugin/src/main/java_ folder create the following two classes.
 
 [source,java]
@@ -39,10 +74,12 @@ In the _plugin/src/main/java_ folder create the following two classes.
 include::res/plugin/MyPlugin.java[]
 ----
 
+
 [source,java]
 ----
 include::res/plugin/MyTask.java[]
 ----
+
 
 In your _plugin_ folder, create the following build.gradle file.
 
@@ -50,6 +87,7 @@ In your _plugin_ folder, create the following build.gradle file.
 ----
 include::res/plugin/build.gradle[]
 ----
+
 
 In your _plugin_ folder, create the following _settings.gradle_ file.
 
@@ -74,4 +112,6 @@ If you pushed your plug-in to your local Maven repository, Gradle should find it
 ----
 include::res/plugin/consumer.gradle[]
 ----
+
+
 

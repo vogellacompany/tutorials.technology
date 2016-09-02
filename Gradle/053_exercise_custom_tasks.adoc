@@ -8,10 +8,10 @@ Gradle's Wrapper Task can be implemented like this:
 ----
 include::res/wrapper/wrappertask.gradle[]
 ----
-
+	
 === Exercise: Creating a Copy Task
-
 The `Copy` task type can be used to specify a task, which is able to copy files.
+
 
 Create a new project with the following _build.gradle_ file:
 
@@ -24,11 +24,13 @@ Create a _source_ folder inside this project and add a text file to this folder.
 
 When running the `copyFile` task it copies the text file to a new _destination_ folder.
 
+	
 === Exercise: Specifying a custom Task in another gradle file
 
 Create a new Gradle project, which contains the following structure.
 
 image::buildSrc_Tasks.png[]
+	
 
 The _CheckWebsite.groovy_ class looks like this:
 
@@ -37,9 +39,12 @@ The _CheckWebsite.groovy_ class looks like this:
 include::res/tasks/CheckWebsite.groovy[]
 ----
 
+
 Since this class has external dependencies to jsoup, a _build.gradle_ file for this class has to be created.
 
+
 So the _build.gradle_ inside the _buildSrc_ folder, which is responsible for building the `CheckWebsite` class, looks like this:
+
 
 [source,gradle]
 ----

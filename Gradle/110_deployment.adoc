@@ -3,29 +3,35 @@
 
 [[gradle_deployment_overview]]
 === How to deploy with Gradle
-
+		
 Gradle offers several ways to deploy build artifacts to artifact repositories, like https://www.jfrog.com/open-source[Artifactory] or http://www.sonatype.org/nexus[Sonatype Nexus].
-
+		
 [[gradle_deployment_maven]]
 === Using the maven-publish plugin
-
+		
 The most common way is to use the `maven-publish` plugin, which is provides by Gradle by default.
-
+		
 [source,gradle]
 ----
 include::res/deployment/maven_plugin_local.gradle[]
 ----
-
+		
+		
 There are several publish options, when the `java` and the `maven-publish` plugin is applied.
-
+		
 image::maven-publish-tasks.png[]
-
+	
+		
 The deployment to a remote repository can be done like this:
-
+		
 [source,gradle]
 ----
 include::res/deployment/maven_plugin_remote.gradle[]
 ----
-
+		
+		
 More information about the deployment to a Maven artifact repository can be found here: https://docs.gradle.org/current/userguide/publishing_maven.html[Publish to Maven repository with Gradle].
+		
+	
 
+	

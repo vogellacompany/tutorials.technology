@@ -1,26 +1,34 @@
 [[gradle_convert_maven]]
 == Convert Maven Projects to Gradle
-
+	
 Gradle provides an incubating <<gradle_init_task>>, which helps with the creation of new Gradle projects. 
 This task can also convert Apache Maven _pom.xml_ files to Gradle build files, if all used Maven plug-ins are known to this task.
-
+	
+	
 In this section the following _pom.xml_ maven configuration will be converted to a Gradle project.
-
+	
+	
 [source,xml]
 ----
 include::res/maven/pom.xml[]
 ----
-
+	
+	
 Running the `gradle init --type pom` command on the command line results in the following Gradle configuration.
-
+	
+	
 image::gradle_init_pom.png[]
+	
 
+	
 The init task depends on the wrapper task so that also a Gradle wrapper is created.
-
+	
+	
 The resulting _build.gradle_ file looks similar to this:
-
+	
 [source,gradle]
 ----
 include::res/maven/build.gradle[]
 ----
+	
 

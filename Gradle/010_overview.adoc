@@ -53,7 +53,7 @@ include::res/starter/build_hello2.gradle[]
 
 
 To execute the `hello` task in this build file, type `gradle hello` on the command line in the directory of the build file. 
-If the Gradle output should be suppressed, use the `-q` (quiet) parameter.
+If the Gradle output should be suppressed, use the `-q` (quite) parameter.
 
 [source,console]
 ----
@@ -99,8 +99,10 @@ The following listing shows the output.
 include::res/settings/settings.output[]
 ----
 
-=== IDE support for Gradle
+	
 
+=== IDE support for Gradle
+	
 The Gradleware company is developing Eclipse Gradle tooling via the Eclipse Buildship project.
 Other IDEs like IntelliJ and Android Studio already include also good Gradle support. 
 See http://www.vogella.com/tutorials/EclipseGradle/article.html[Eclipse Gradle tutorial] for the usage of Gradle with Eclipse.

@@ -2,60 +2,96 @@
 == Gradle Tasks
 
 === Default Gradle tasks
-
+		
 Gradle also offers tasks for introspection of Gradle itself, so a Gradle project can be analyzed by using Gradle's default tasks.
-
+		
+		
 A good example is the `tasks` task, which shows the available tasks of a project.
 When typing `gradle -q tasks`, a list of tasks is shown. 
 This command lists the base tasks even without an `build.gradle` file.
-
+		
 image::gradle_tasks_task.png[]
-
+	
+		
 Gradle also tries to give some guidance for the usage of invoked tasks, as shown in the bottom of the console output.
 The `gradle tasks --all` command would also list dependent tasks, which are invoked before the actual task.
-
+		
+		
 When running `gradle tasks --all` the output looks quite similar to the one before, except of the `init` task, which depends on the `wrapper` task.
-
+		
+	
 [[creating_gradle_tasks]]
 === Creating custom Gradle tasks
-
+		
 In the <<gradle_runbuild_buildfile>> section the first minimalist task in a `build.gradle` file has been created.
-
+		
+		
 [source,gradle]
 ----
 include::res/starter/build_hello.gradle[]
 ----
-
-When running the `gradle -q tasks` task with this `build.gradle` file, the `hello` task will be listed under "Other tasks".
-
+		
+		
+When running the
+`gradle -q tasks`
+task with this
+`build.gradle`
+file, the
+`hello`
+task will be listed under "Other tasks".
+		
+		
 image::gradle_starter_hello_task_command_line.png[]
+	
 
+		
+		
 Tasks without a group are considered as private tasks.
-For instance the _Gradle Task View_ of the Eclipse Gradle Plug-in hides these private tasks by default, but they can be shown by activating the right entry in the view's menu.
-
-Groups can be applied with the `group` property and a description can be applied by using the `description` property.
-In case the group already exists the `hello` task is added to it.
-If the group does not exist, it is created.
-
+For instance
+the
+_Gradle Task View_
+of the Eclipse Gradle Plug-in hides these private tasks by
+default,
+but they can be shown by activating the right
+entry
+in the
+view's
+menu.
+		
+		
+Groups can be applied with the
+`group`
+property and a description can
+be applied by using the
+`description`
+property. In case the group already exists the
+`hello`
+task is added to it. If the group does not exist, it
+is created.
+		
+		
 [source,gradle]
 ----
 include::res/tasks/build_hello_described.gradle[]
 ----
-
+		
+	
 [[gradle_task_structure]]
 === Task structure
-
+		
 Gradle has different phases, when working with tasks. 
 First of all there is a configuration phase, where the code, which is specified directly in a task's closure, is executed. 
 The configuration block is executed for every available task and not only for those tasks, which are later actually executed.
-
+		
+		
 After the configuration phase, the execution phase then runs the code inside the `doFirst` or `doLast` closures of those tasks, which are actually executed.
-
+		
 [source,gradle]
 ----
 include::res/tasks/configuration_phase_build.gradle[]
 ----
-
+		
+		
 When running `gradle -q anotherUnrelatedTask` the following is printed:
 
 [source,console]
@@ -73,41 +109,65 @@ Gradle allows the definition of default tasks in the build file.
 These are executed, if no other tasks are specified.
 Tasks can also define their dependencies. 
 Both settings are demonstrated in the following build file.
-
+		
 [source,gradle]
 ----
 include::res//starter/build.gradle[]
 ----
-
+		
+	
 NOTE: << is a  shortcut for the doLast action. So the `clean` task could also use << instead of doLast.
-
+	
+		
+		
 Hooking into predefined task executions for default tasks or tasks from plug-ins can also be done by using the `dependsOn` method.
-
+		
 For instance when certain things have to be done right after the compilation of java code:
-
+		
+		
 [source,gradle]
 ----
 include::res/tasks/compile_java_dep_build.gradle[]
 ----
-
-An alternative to creating a new task, which depends on the `'compileJava'` task, a new execution block can also be directly applied to an existing task, e.g., the `'compileJava'` task.
-
+		
+		
+An alternative to creating a new task, which depends on the
+`'compileJava'`
+task
+, a new execution block can also be directly applied to an
+existing
+task, e.g., the
+`'compileJava'`
+task.
+		
+		
 [source,gradle]
 ----
 include::res/tasks/add_action_to_existing_task_build.gradle[]
 ----
-
-When running the javaCompile task all actions, which have been applied to the javaCompile task, are run one by one according to the order they have been applied to the task.
+		
+When running the javaCompile task all actions, which have been
+applied to the javaCompile task, are run one by
+one according to the
+order they have been applied to the task.
+		
+	
 
 [[skip_gradle_tasks]]
 === Skipping Tasks
-
+		
 Skipping tasks can be done by passing a predicate closure to the `onlyIf` method of a task or by throwing a `StopExecutionException` before the actual work of a task is executed.
+		
 
 [source,gradle]
 ----
 include::res/tasks/skip_tasks_build.gradle[]
 ----
-
+		
+		
 NOTE: Tasks depending on the eclipse task will be run even, if a  `StopExecutionException` is thrown.
+	
+
+		
+	
 
