@@ -32,43 +32,19 @@ include::res/starter/build_hello.gradle[]
 ----
 		
 		
-When running the
-`gradle -q tasks`
-task with this
-`build.gradle`
-file, the
-`hello`
-task will be listed under "Other tasks".
+When running the `gradle -q tasks` task with this `build.gradle` file, the `hello` task will be listed under "Other tasks".
 		
 		
 image::gradle_starter_hello_task_command_line.png[]
 	
-
-		
 		
 Tasks without a group are considered as private tasks.
-For instance
-the
-_Gradle Task View_
-of the Eclipse Gradle Plug-in hides these private tasks by
-default,
-but they can be shown by activating the right
-entry
-in the
-view's
-menu.
+For instance, the _Gradle Task View_ of the Eclipse Gradle Plug-in does not show such tasks.
+But they can be shown by activating the right entry in the view's menu.
 		
 		
-Groups can be applied with the
-`group`
-property and a description can
-be applied by using the
-`description`
-property. In case the group already exists the
-`hello`
-task is added to it. If the group does not exist, it
-is created.
-		
+Groups can be applied with the `group` property and a description can be applied by using the `description` property. 
+In case the group already exists the `hello` task is added to it. If the group does not exist, it is created.
 		
 [source,gradle]
 ----
@@ -155,7 +131,7 @@ order they have been applied to the task.
 [[skip_gradle_tasks]]
 === Skipping Tasks
 		
-Skipping tasks can be done by passing a predicate closure to the `onlyIf` method of a task or by throwing a `StopExecutionException` before the actual work of a task is executed.
+Skipping tasks can be done by passing a predicate closure to the `onlyIf` method of a task or by throwing a `StopExecutionException`. 
 		
 
 [source,gradle]
@@ -166,7 +142,13 @@ include::res/tasks/skip_tasks_build.gradle[]
 		
 NOTE: Tasks depending on the eclipse task will be run even, if a  `StopExecutionException` is thrown.
 	
+==== Accessing system variables like the user home directory
 
-		
-	
+You can access system variables.
+For example, to get the user home directory use the following:
 
+[source,gradle]
+----
+def homePath = System.properties['user.home']
+----
+ 
