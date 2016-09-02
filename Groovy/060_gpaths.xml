@@ -1,4 +1,4 @@
-[[gpath">
+<section id="gpath">
 == GPath
 	GPath is a path expression language integrated into Groovy which
 		allows parts of nested structured data to be identified. In this

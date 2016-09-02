@@ -1,7 +1,7 @@
-[[gitdiffchapter" role="wrapper">
+<section id="gitdiffchapter" role="wrapper">
 == Viewing changes with git diff and git show
 
-[[analyzechanges_showcommitchanges">
+	<section id="analyzechanges_showcommitchanges">
 === See the differences introduced by a commit
 		
 			LARSPRIMARYINDEX"git diff"LARSPRIMARYINDEX
@@ -17,7 +17,7 @@ include::./examples/changes/diff.txt[]
 
 	
 
-[[gitdiff_comparetwocommits">
+	<section id="gitdiff_comparetwocommits">
 === See the difference between two commits
 		
 			LARSPRIMARYINDEX"git diff"LARSPRIMARYINDEX
@@ -37,7 +37,7 @@ include::./examples/diff/diff_commits.txt[]
 ----
 	
 
-[[analyzechanges_file">
+	<section id="analyzechanges_file">
 === See the files changed by a commit
 		
 			LARSPRIMARYINDEX"git diff"LARSPRIMARYINDEX

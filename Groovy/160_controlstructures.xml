@@ -1,7 +1,7 @@
-[[controlstructures" role="wrapper">
+<section id="controlstructures" role="wrapper">
 == Control structures
 
-[[datatypes_evaluation">
+	<section id="datatypes_evaluation">
 === Groovy evaluation of conditions - The Groovy truth
 		
 			Groovy evaluates a condition defined in a control statement
@@ -30,7 +30,7 @@
 		
 
 
-[[controlstructures_if">
+	<section id="controlstructures_if">
 === if statements
 		
 			The
@@ -43,7 +43,7 @@
 			and Groovy will evaluate this Groovy truth value.
 		
 
-[[controlstructures_switch">
+	<section id="controlstructures_switch">
 === switch statement and the isCase method
 
 		
@@ -84,7 +84,7 @@ include::res/switch/SwitchTest.groovy[]
 
 
 
-[[controlstructuress_safenull">
+	<section id="controlstructuress_safenull">
 === Safe navigation operator
 		
 			You can use safe navigation operator to check safety for null via the
@@ -102,7 +102,7 @@ include::res/switch/SwitchTest.groovy[]
 ----
 		
 
-[[controlstructures_elvis">
+	<section id="controlstructures_elvis">
 === Elvis operator
 		
 			The

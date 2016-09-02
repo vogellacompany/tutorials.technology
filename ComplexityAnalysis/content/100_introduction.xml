@@ -1,4 +1,4 @@
-[[introduction">
+<section id="introduction">
 == Introduction
 	 Choosing the fastest algorithm for a certain task require
 		that you can estimate the runtime of an algorithm. 

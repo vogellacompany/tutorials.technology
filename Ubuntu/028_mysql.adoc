@@ -1,6 +1,6 @@
-[[mysql">
+<section id="mysql">
 == MySQL
 	
 		For a description of MySQL and its installation in Ubuntu see
-		http://www.vogella.com/tutorials/MySQL/article.html"> MySQL - Tutorial].
+		http://www.vogella.com/tutorials/MySQL/article.html"> MySQL - Tutorial</ulink>.
 	

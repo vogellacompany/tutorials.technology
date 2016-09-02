@@ -1,7 +1,7 @@
-[[line_feedendings" role="wrapper">
+<section id="line_feedendings" role="wrapper">
 == Handling line endings on different platforms
 
-[[line_feedendings_platform">
+	<section id="line_feedendings_platform">
 === Line endings of the different platforms
 
 		
@@ -30,7 +30,7 @@
 
 	
 
-[[line_feedendings_convert">
+	<section id="line_feedendings_convert">
 === Configuring line ending settings as developer
 		On Windows systems you can tell Git to convert line endings
 			during a checkout
@@ -55,7 +55,7 @@ include::./examples/linefeed/linux.txt[]
 
 	
 
-[[line_feedendings_gitattributes">
+	<section id="line_feedendings_gitattributes">
 === Configuring line ending settings per repository
 		
 			LARSPRIMARYINDEX".gitattributes
@@ -80,7 +80,7 @@ include::./examples/linefeed/linux.txt[]
 				Not all graphical Git tools support the
 				_.gitattributes_
 				file, for example the Eclipse IDE does currently not support it. See
-				https://bugs.eclipse.org/bugs/show_bug.cgi?id=342372">Eclipse Bug report]
+				https://bugs.eclipse.org/bugs/show_bug.cgi?id=342372">Eclipse Bug report</ulink>
 				.
 			
 		

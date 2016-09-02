@@ -1,6 +1,6 @@
-[[gerrit_problems" role="wrapper">
+<section id="gerrit_problems" role="wrapper">
 == More infos on trouble shooting
-[[gerrit_problems_removecommit">
+	<section id="gerrit_problems_removecommit">
 === Remove a bad commit from a series of commits
 		
 			If you create a series
@@ -72,11 +72,11 @@ image::gerritissue_solution20.png"
 
 
 
-[[gerrit_problems_more">
+	<section id="gerrit_problems_more">
 === More error messages and their solution
 		
 			See
-			https://git.eclipse.org/r/Documentation/error-messages.html">Gerrit error message]
+			https://git.eclipse.org/r/Documentation/error-messages.html">Gerrit error message</ulink>
 			for more error messages and their solutions.
 		
 

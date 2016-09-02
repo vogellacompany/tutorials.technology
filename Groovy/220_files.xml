@@ -1,6 +1,6 @@
-[[files" role="wrapper">
+<section id="files" role="wrapper">
 == File and network I/O with Groovy
-[[files1">
+	<section id="files1">
 === Groovy and processing files 
 		
 			Groovy adds several convenient methods the
@@ -26,7 +26,7 @@
 			which takes an closure as argument.
 		
 
-[[files3">
+	<section id="files3">
 === Writing to files
 		Groovy also provides API to write to a file and append to it.
 
@@ -36,7 +36,7 @@
 ----
 		
 
-[[files2">
+	<section id="files2">
 === Groovy and processing HTTP get requests
 
 		Reading an HTTP page is similar to reading a text file. 

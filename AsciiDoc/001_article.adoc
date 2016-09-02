@@ -2,7 +2,7 @@
 :linkcss:
 :sectnums:
 :experimental:
-Lars Vogel, Jennifer Nerlich (c) 2015 vogella GmbH
+Lars Vogel (c) 2015 vogella GmbH
 Version 0.2, 17.12.2015
 :keywords: AsciiDoc
 :imagesdir: ./img

@@ -1,6 +1,6 @@
-[[tomcatconf">
+<section id="tomcatconf">
 == Apache Tomcat
-[[tomcatconfs2a">
+	<section id="tomcatconfs2a">
 === Important Files
 
 .Table Title
@@ -42,7 +42,7 @@
 			
 		|===
 
-[[tomcatconfs2a">
+	<section id="tomcatconfs2a">
 === Important Commands
 
 .Table Title

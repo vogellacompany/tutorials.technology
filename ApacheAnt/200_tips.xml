@@ -1,6 +1,6 @@
-﻿[[tips">
+﻿<section id="tips">
 == Ant tips
-[[tips_path">
+	<section id="tips_path">
 === Converting Paths
 		Apache Ant allows to convert relative paths to absolute paths.
 			The following example demonstrates that.
@@ -21,7 +21,7 @@ include::res/tips/use.txt[]
 ----
 		
 
-[[tips_regularexpressions">
+	<section id="tips_regularexpressions">
 === Regular expressions
 		
 			Ant can be used to replace text based on regular expressions. The

@@ -1,4 +1,4 @@
-[[packagemanagement">
+<section id="packagemanagement">
 == Package management
 	 On the command line Ubuntu allows to install / remove and search
 		for packages via the following commands.

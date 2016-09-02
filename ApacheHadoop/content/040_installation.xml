@@ -1,8 +1,8 @@
-[[installation">
+<section id="installation">
 == Installation
 	
 		Apache Hadoop can be downloaded from
-		http://hadoop.apache.org/"> Hadoop Homepage]
+		http://hadoop.apache.org/"> Hadoop Homepage</ulink>
 		. To get started with Hadoop you require the following sub-projects:
 
 		<itemizedlist>

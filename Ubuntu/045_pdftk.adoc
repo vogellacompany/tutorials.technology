@@ -1,6 +1,6 @@
-[[pdf">
+<section id="pdf">
 == PDF files
-[[pdftk">
+	<section id="pdftk">
 === Command line tool pdftk
 		
 			The "pdftk" command line tool allows to rework existing pdf
@@ -26,7 +26,7 @@
 ----
 		
 
-[[pdf_soffice">
+	<section id="pdf_soffice">
 === Converting .odp file to pdf in batch
 		
 			If you have LibreOffice installed, you can convert .odp files on

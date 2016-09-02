@@ -1,6 +1,6 @@
-[[read">
+<section id="read">
 == Read RSS Feeds with Stax
-[[read_stax">
+	<section id="read_stax">
 === Create the XML Reader class
 		Create the following
 			class to read the XML file.
@@ -13,11 +13,11 @@
 		
 	
 
-[[read_test">
+	<section id="read_test">
 === Test the code
 		
 			The following uses a main method to test. You could also use
-			http://www.vogella.com/tutorials/JUnit/article.html"> JUnit]
+			http://www.vogella.com/tutorials/JUnit/article.html"> JUnit</ulink>
 			.
 		
 

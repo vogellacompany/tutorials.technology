@@ -1,6 +1,6 @@
-[[installation">
+<section id="installation">
 == Installation
-[[installation_ubuntu">
+	<section id="installation_ubuntu">
 === Ubuntu Linux
 		For Ubuntu you can install Tomcat via the following commands.
 		
@@ -11,11 +11,11 @@
 ----
 		
 
-[[installation_windows">
+	<section id="installation_windows">
 === Windows
 		
 			Download the Windows installer for Tomcat7 from the
-			http://tomcat.apache.org/"> Apache Tomcat Homepage]
+			http://tomcat.apache.org/"> Apache Tomcat Homepage</ulink>
 			and run the installer.
 		
 

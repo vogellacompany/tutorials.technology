@@ -1,6 +1,6 @@
-[[groovyclosures" role="wrapper">
+<section id="groovyclosures" role="wrapper">
 == Using lambdas and closures in Groovy
-[[groovyclosures1">
+	<section id="groovyclosures1">
 === Defining closures
 		
 			Closures are
@@ -38,7 +38,7 @@ include::res/closures/Tiny.groovy[]
 
 
 
-[[groovyclosures_defaultvalues">
+	<section id="groovyclosures_defaultvalues">
 === Defining default values in a closure
 		If you define a closure you can also define default values for
 			its parameters.
@@ -53,7 +53,7 @@ include::res/closures/Tiny.groovy[]
 
 
 
-[[groovyclosures2">
+	<section id="groovyclosures2">
 === Example: Using closures in the each method
 
 		 The Groovy collections have several methods which accept a
@@ -65,7 +65,7 @@ include::res/closures/Tiny.groovy[]
 ----
 		
 
-[[groovyclosures_sortlist">
+	<section id="groovyclosures_sortlist">
 === Example: Sort a list by lenght of the string
 
 		 The Groovy collections have several methods which accept a
@@ -78,7 +78,7 @@ include::res/closures/Tiny.groovy[]
 		
 
 
-[[groovyclosures_with">
+	<section id="groovyclosures_with">
 === Using the with method
 		
 			Every Groovy object has a

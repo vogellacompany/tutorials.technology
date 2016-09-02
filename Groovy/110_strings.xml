@@ -1,6 +1,6 @@
-[[groovy_strings">
+<section id="groovy_strings">
 == Strings in Groovy
-[[groovy_strings1">
+	<section id="groovy_strings1">
 === Strings and GStrings
 		
 			Groovy allows to use two different types of String, the
@@ -98,7 +98,7 @@
 		
 
 
-[[groovy_strings2">
+	<section id="groovy_strings2">
 === Operator overloading in Strings
 		
 			String support operator overloading. You can use + to concatenate

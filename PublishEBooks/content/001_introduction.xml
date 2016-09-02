@@ -1,10 +1,10 @@
-[[kindle">
+<section id="kindle">
 == Kindle Publishing
-[[kindle_intro">
+	<section id="kindle_intro">
 === Kindle Publishing
 		
 			See
-			https://kdp.amazon.com/self-publishing/help"> https://kdp.amazon.com/self-publishing/help]
+			https://kdp.amazon.com/self-publishing/help"> https://kdp.amazon.com/self-publishing/help</ulink>
 		
 		.
 		 "Kindle Previewer" can be used to view mobipocket.
@@ -30,7 +30,7 @@ Calibre to preview Ebooks
 
 
 
-[[kindle_publisher">
+	<section id="kindle_publisher">
 === Amazon Publisher Page
 		
 			https://authorcentral.amazon.de
@@ -40,7 +40,7 @@ Calibre to preview Ebooks
 		
 
 
-[[print">
+	<section id="print">
 === Print Books
 		
 		CreateSpace

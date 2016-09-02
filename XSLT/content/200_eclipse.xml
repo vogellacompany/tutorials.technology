@@ -1,6 +1,6 @@
-[[eclipse">
+<section id="eclipse">
 == Using Eclipse
-[[installation_eclipse">
+	<section id="installation_eclipse">
 === Eclipse XSLT installation
 		
 			The Eclipse XSL
@@ -20,12 +20,12 @@
 			plugin
 			via the
 			http://www.vogella.com/tutorials/Eclipse/article.html">
-				Eclipse update manager]
+				Eclipse update manager</ulink>
 			.
 		
 
 
-[[installation_eclipse">
+	<section id="installation_eclipse">
 === XSLT transformations with Eclipse
 		
 			This chapter explains how to use the Eclipse tooling to do your XLS

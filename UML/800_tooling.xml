@@ -1,9 +1,9 @@
-[[uom_tooling">
+<section id="uom_tooling">
 == Tooling
 	The Eclipse Modeling Framework
 	
 		See
-		http://www.vogella.com/tutorials/EclipseEMF/article.html">EMF tutorial]
+		http://www.vogella.com/tutorials/EclipseEMF/article.html">EMF tutorial</ulink>
 		to learn how the Eclipse IDE provides support for getting logical
 		models and UML representations of it.
 	

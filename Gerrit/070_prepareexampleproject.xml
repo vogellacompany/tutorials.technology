@@ -1,4 +1,4 @@
-[[gerritsetup_project">
+<section id="gerritsetup_project">
 == Administrator: create example project
 	
 		Also for testing create a new Java project called

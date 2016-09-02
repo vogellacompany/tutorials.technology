@@ -1,13 +1,13 @@
-﻿[[javaprogram">
+﻿<section id="javaprogram">
 == Run Java program
 	Ant allows to run Java programs. You can specify properties which
 		are passed as parameters to the main method of Java. The following
 		demonstrates how to run a Java program.
 	
 	
-[source,java]
-----
-include::res/javaprogram/build.xml[]
+		<programlisting language="java">
+			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+				parse="text" href="./examples/javaprogram/build.xml[]
 ----
 	
 

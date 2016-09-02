@@ -1,8 +1,8 @@
-[[bigtable">
+<section id="bigtable">
 == Bigtable
 		
 			Google uses as a data storage a facility called
-			http://labs.google.com/papers/bigtable.html">Bigtable]
+			http://labs.google.com/papers/bigtable.html">Bigtable</ulink>
 			. Bigtable is a distributed, persistent, multidimensional sorted
 			map. Bigtable is not a
 			relational database. In Bigtable you can store
@@ -41,7 +41,7 @@
 			
 		
 			For more information on Bigtable check out the Google whitepaper
-			http://labs.google.com/papers/bigtable.html">Whitepaper for Bigtable]
+			http://labs.google.com/papers/bigtable.html">Whitepaper for Bigtable</ulink>
 			.
 		
 

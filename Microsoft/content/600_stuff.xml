@@ -1,6 +1,6 @@
-[[stuff">
+<section id="stuff">
 == Appendix: Additional Windows Settings
-[[stuff_language">
+	<section id="stuff_language">
 === Language Settings for Office
 		 To change the language in which office works, select the
 			following.
@@ -17,13 +17,13 @@ image::languagesettingsoffice20.gif"/>
 			</mediaobject>
 		
 
-[[stuff_languagegeneral">
+	<section id="stuff_languagegeneral">
 === Language Settings
 		 Control Panel -> Regional and Language Settings -> Languages
 			Click on Details and then Key Settings
 
 	
-[[stuff_networkdrive">
+	<section id="stuff_networkdrive">
 === Map a network drive
 		 You can map a network driver to a local driver which make it
 			easier to access it.
@@ -40,7 +40,7 @@ image::mapnetworkdriver20.gif"/>
 			</mediaobject>
 		
 
-[[stuff_linktoolbar">
+	<section id="stuff_linktoolbar">
 === Create a link toolbar
 		 If you want to have quick access to your folders / network
 			drivers you can create your own toolbar and put your links into it.

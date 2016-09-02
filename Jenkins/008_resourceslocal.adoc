@@ -1,4 +1,4 @@
-[[hudsonlinks">
+<section id="hudsonlinks">
 == Jenkins links
 	
 https://jenkins-ci.org[Homepage of the Jenkins project]

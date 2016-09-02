@@ -1,4 +1,4 @@
-[[gerritsetup_repository">
+<section id="gerritsetup_repository">
 == Administrator: upload Git repository
 	
 		This part is only relevant for the administrator. Create a new

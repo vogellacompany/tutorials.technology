@@ -1,4 +1,4 @@
-[[gerritreview_url">
+<section id="gerritreview_url">
 == URL for reviews
 	
 		To see the reviews on your Gerrit server, open the link to your Gerrit
@@ -11,7 +11,7 @@
 		Gerrit reviews for the Eclipse
 		project
 		use
-		https://git.eclipse.org/r/">Eclipse Gerrit instance]
+		https://git.eclipse.org/r/">Eclipse Gerrit instance</ulink>
 		.
 		You see
 		all change requests, if you login into the Gerrit instance you
@@ -19,6 +19,6 @@
 	
 	
 		You can use the Search field to search for review see
-		https://git.eclipse.org/r/Documentation/user-search.html">Search options in Gerrit]
+		https://git.eclipse.org/r/Documentation/user-search.html">Search options in Gerrit</ulink>
 		for available search options.
 	

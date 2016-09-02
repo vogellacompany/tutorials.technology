@@ -1,6 +1,6 @@
-﻿[[usefulanttasks">
+﻿<section id="usefulanttasks">
 == Useful Ant tasks
-[[usefulanttasks_fail">
+	<section id="usefulanttasks_fail">
 === fail
 		
 			Ant provides the

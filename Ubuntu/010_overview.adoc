@@ -5,9 +5,9 @@
 Ubuntu Linux is a full fledged Linux system trailed for the desktop.
 Ubuntu builds a unique user interface and offers the users a solid choice of tools.
 	
-[[unity">
+<section id="unity">
 == Using the Ubuntu desktop
-[[unity_overview">
+	<section id="unity_overview">
 === Unity as desktop manager
 		
 			Unity is the default windows manager on Ubuntu. It introduced
@@ -37,7 +37,7 @@ image::dash10.png[]
 		
 
 
-[[unity_fileexplorer">
+	<section id="unity_fileexplorer">
 === Nautilus as file explorer
 		Ubuntu uses Nautilus as file explorer. Use the Dash or click on the icon in the task manager to start it.
 		
@@ -66,7 +66,7 @@ image::nautilus20.png[]
 		
 
 
-[[unity_newentries">
+	<section id="unity_newentries">
 === Adding entries to the launcher
 		
 			To add new entries to the launcher you can create an
@@ -84,7 +84,7 @@ image::nautilus20.png[]
 
 
 
-[[unity_shortcuts">
+	<section id="unity_shortcuts">
 === Useful shortcuts
 		
 			The following lists a few useful shortcuts for the Unity window

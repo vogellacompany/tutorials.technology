@@ -1,4 +1,4 @@
-[[eclipsegerrit_push">
+<section id="eclipsegerrit_push">
 == Gerrit support in Eclipse
 	The Gerrit support in Eclipse is very good, that even customers which use a different IDE, use Eclipse as Gerrit
 		client.

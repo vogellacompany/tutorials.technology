@@ -1,6 +1,6 @@
-[[alias" role="wrapper">
+<section id="alias" role="wrapper">
 == Define alias
-[[alias_definition">
+	<section id="alias_definition">
 === Using an alias
 		
 			LARSPRIMARYINDEX"alias"LARSPRIMARYINDEX
@@ -19,7 +19,7 @@
 
 	
 
-[[alias_example">
+	<section id="alias_example">
 === Alias examples
 		
 			The following defines an

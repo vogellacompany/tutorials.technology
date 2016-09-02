@@ -1,7 +1,7 @@
-[[gerrit_workflow" role="wrapper">
+<section id="gerrit_workflow" role="wrapper">
 == Gerrit workflow
 
-[[gerritsetup_workflow3">
+	<section id="gerritsetup_workflow3">
 === A typical Gerrit workflow
 
 		The following describes a typical workflow of a developer who
@@ -72,7 +72,7 @@
 
 
 
-[[gerritsetup_workflow1">
+	<section id="gerritsetup_workflow1">
 === Gerrit vs. Git workflow
 		In the Gerrit scenario amending a commit
 			is used to update
@@ -83,7 +83,7 @@
 			process.
 		
 
-[[gerritsetup_workflow2">
+	<section id="gerritsetup_workflow2">
 === Gerrit vs. GitHub workflow
 		The Gerrit review system is based on the assumption that each commit
 		is reviewed separately, while

@@ -1,6 +1,6 @@
-[[antoverview">
+<section id="antoverview">
 == Apache Ant Overview
-[[antoverview_definition">
+	<section id="antoverview_definition">
 === What is Apache Ant?
 		
 			_Apache Ant_
@@ -20,7 +20,7 @@
 		
 
 
-[[antoverview_definition">
+	<section id="antoverview_definition">
 === Configuring Apache Ant
 		
 			A Java build

@@ -1,6 +1,6 @@
-[[servermode">
+<section id="servermode">
 == Server mode
-[[servermode_start">
+	<section id="servermode_start">
 === Starting Derby in server mode
 		 Use the following command in the command line to start the
 			Derby network server
@@ -51,7 +51,7 @@
 ----
 		
 
-[[servermode_java">
+	<section id="servermode_java">
 === Connect to the Derby Server via Java
 		To connect to the network server via Java code you need to have
 			the derbyclient.jar in your classpath. The network connection string

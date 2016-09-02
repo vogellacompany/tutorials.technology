@@ -1,6 +1,6 @@
-﻿[[classpath">
+﻿<section id="classpath">
 == Apache Ant classpath
-[[classpath_setting">
+	<section id="classpath_setting">
 === Setting the Ant classpath
 		
 			Ant allows to create classpath containers and use them in
@@ -18,7 +18,7 @@ include::res/classpath/build.xml[]
 ----
 		
 
-[[classpath_print">
+	<section id="classpath_print">
 === Print
 		You can
 			use

@@ -1,12 +1,12 @@
-[[firstgroovyscript" role="wrapper">
+<section id="firstgroovyscript" role="wrapper">
 == Exercise: Create and run a Groovy script with the Eclipse IDE
 
-[[firstgroovyscript_target">
+	<section id="firstgroovyscript_target">
 === Target of this exercise
 		In this exercise you learn how to create a Groovy script with the Eclipse IDE.
 
 
-[[firstgroovyscript_project">
+	<section id="firstgroovyscript_project">
 === Create a new Groovy script
 		
 			Use the Eclipse wizard to create a new
@@ -24,7 +24,7 @@
 ----
 		
 
-[[firstgroovyscript_project_run">
+	<section id="firstgroovyscript_project_run">
 === Run the Groovy class
 		
 			Right-click your Groovy script, and select
@@ -32,7 +32,7 @@ menu:Run As[Groovy Script]
 			from the context menu.
 		
 
-[[firstgroovyscript_project_validate">
+	<section id="firstgroovyscript_project_validate">
 === Validate the Groovy script
 		
 			The above menu entry triggers the execution of the script and prints
@@ -46,7 +46,7 @@ menu:Run As[Groovy Script]
 		
 
 
-[[firstgroovyscript_project_decompile">
+	<section id="firstgroovyscript_project_decompile">
 === Decompile the Groovy class file
 		<note>
 			This exercise is optional.

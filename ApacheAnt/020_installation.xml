@@ -1,17 +1,17 @@
-[[installation">
+<section id="installation">
 == Installation
-[[antinstallation_prerequisites">
+	<section id="antinstallation_prerequisites">
 === Prerequisites
 		
 			Ant
 			requires the installation of the Java Development Kit
 			(JDK). See
-http://www.vogella.com/tutorials/JavaIntroduction/article.html"> Java introduction]
+http://www.vogella.com/tutorials/JavaIntroduction/article.html"> Java introduction</ulink>
 			for a description how to install Java.
 		
 
 
-[[installation_ubuntu">
+	<section id="installation_ubuntu">
 === Ubuntu
 		
 			On Ubuntu use the
@@ -22,11 +22,11 @@ http://www.vogella.com/tutorials/JavaIntroduction/article.html"> Java introducti
 			vendor.
 		
 
-[[installation_windows">
+	<section id="installation_windows">
 === Windows
 		
 			Download Apache Ant from
-			http://ant.apache.org/">http://ant.apache.org/]
+			http://ant.apache.org/">http://ant.apache.org/</ulink>
 			.
 		
 		

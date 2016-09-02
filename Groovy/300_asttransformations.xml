@@ -1,6 +1,6 @@
-[[asttransformations">
+<section id="asttransformations">
 == Compile-time meta programming and AST transformations
-[[asttransformations1">
+	<section id="asttransformations1">
 === What are AST transformations?
 		
 			An
@@ -19,7 +19,7 @@
 		
 
 
-[[asttransformations_tupleConstructor">
+	<section id="asttransformations_tupleConstructor">
 === @TupleConstructor
 		
 			If a class is annotated with
@@ -27,7 +27,7 @@
 			Groovy generates a constructor using all fields.
 		
 
-[[asttransformations_equals">
+	<section id="asttransformations_equals">
 === @EqualsAndHashCode
 		
 			The
@@ -48,7 +48,7 @@
 		
 
 
-[[asttransformations_toString">
+	<section id="asttransformations_toString">
 === @ToString for beans
 		
 			The
@@ -79,27 +79,27 @@ include::res/ast/TaskToString.groovy[]
 		
 
 
-[[asttransformations_canonical">
+	<section id="asttransformations_canonical">
 === @Canonical 
 		Combines @ToString, @EqualsAndHashCode and
 			@TupleConstructor.
 		
 
-[[asttransformations_immutable">
+	<section id="asttransformations_immutable">
 === @Immutable for immutable Java beans
 		This annotation marks all fields in a class as final and ensure that there are no setters generate for the
 			fields. It also creates a constructor for all fields, marks the class as final.
 		
 
 
-[[asttransformations_delegate">
+	<section id="asttransformations_delegate">
 === @Delegate
 		@Delegate can be used on a field. All methods on the delegate are also available on the class with defines the
 			delegate. If several delegates define the same method, it is recommended to override the method. If you do not
 			override Groovy will use the first method it finds.
 		
 
-[[asttransformations_sort">
+	<section id="asttransformations_sort">
 === @Sortable for beans
 		
 			You can automatically created a
@@ -115,7 +115,7 @@ include::res/ast/TaskSortable.groovy[]
 ----
 		
 
-[[asttransformations_memoize">
+	<section id="asttransformations_memoize">
 === @Memoize for methods
 		
 			If the
@@ -138,7 +138,7 @@ include::res/ast/CallMemoizedExample.groovy[]
 		
 
 
-[[asttransformations_annotationCollector">
+	<section id="asttransformations_annotationCollector">
 === @AnnotationCollector for combining AST Transformations
 			annotations
 		
@@ -168,7 +168,7 @@ include::res/ast/Person.groovy[]
 		
 
 
-[[asttransformations_bindable">
+	<section id="asttransformations_bindable">
 === @Bindable observable Properties
 		
 			The Java beans specification requires that Java beans support
@@ -199,7 +199,7 @@ include::res/ast/Person.groovy[]
 
 
 
-[[asttransformations_builder">
+	<section id="asttransformations_builder">
 === @Builder
 		
 			The
@@ -217,7 +217,7 @@ include::res/ast/TestBuilder.groovy[]
 		
 
 
-[[groovy_grapes">
+	<section id="groovy_grapes">
 === @Grab for dependency management
 		
 			Groovy allows to add Maven dependencies to your Groovy script or
@@ -245,7 +245,7 @@ include::res/ast/TestBuilder.groovy[]
 
 
 
-[[asttransformations_others">
+	<section id="asttransformations_others">
 === Other AST Transformations
 		
 			The following table lists other commonly used annotations in
@@ -285,7 +285,7 @@ include::res/ast/TestBuilder.groovy[]
 			|===
 		
 
-[[asttransformations2">
+	<section id="asttransformations2">
 === Writing custom transformations
 		You can also define you custom local or global transformations.
 			For a local transformation you would write your

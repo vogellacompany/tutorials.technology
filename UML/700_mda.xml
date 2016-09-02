@@ -1,6 +1,6 @@
-[[mda_overview">
+<section id="mda_overview">
 == Appendix: Model-Driven Architecture (MDA)
-[[mda_overview_s1s2a">
+	<section id="mda_overview_s1s2a">
 === Overview
 		
 			MDA is the approach in which models are automatically
@@ -12,7 +12,7 @@
 			models.
 		
 
-[[mda_overview_s1s2b">
+	<section id="mda_overview_s1s2b">
 === Platform Independent Model (PIM)
 		
 			Represents the business model to be implemented and can be
@@ -23,7 +23,7 @@
 		
 
 
-[[mda_overview_s1s2c">
+	<section id="mda_overview_s1s2c">
 === Platform Specific Model (PSM)
 		
 			The PSM is responsible to specify the technical details to
@@ -34,7 +34,7 @@
 		
 
 
-[[mda_overview_s1s2d">
+	<section id="mda_overview_s1s2d">
 === Code Mode
 		
 			Represents the deployable code. In an ideal MDA scenario

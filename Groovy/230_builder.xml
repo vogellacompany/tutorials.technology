@@ -1,4 +1,4 @@
-[[groovybuilder">
+<section id="groovybuilder">
 == Groovy builders
 	
 		Groovy supports the builder pattern to create tree-like data

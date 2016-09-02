@@ -1,6 +1,6 @@
-[[groovlets">
+<section id="groovlets">
 == Developing Java EE servlets with Groovy - Groovlets
-[[groovlets1">
+	<section id="groovlets1">
 === Using Groovy on the server
 		
 			Java EE defines the servlet API for implementing web
@@ -33,14 +33,14 @@
 		
 
 
-[[groovlets_downloadgroovy">
+	<section id="groovlets_downloadgroovy">
 === Download the groovy-all.jar
 		To use Groovy on the server you need to deploy Groovy on the
 			application server or with your application.
 		
 		
 			The easiest way to download Groovy is via
-			http://search.maven.org/">Search Maven]
+			http://search.maven.org/">Search Maven</ulink>
 			. Search here for
 			`org.codehaus.groovy`
 			and identify the
@@ -48,13 +48,13 @@
 			and download the JAR file of the latest release.
 		
 
-[[groovlets_example">
+	<section id="groovlets_example">
 === Exercise: Using Groovy on the server
 		
 			The following description assume that you are familiar with Java
 			Web
 			development, if not see the
-			http://www.vogella.com/tutorials/EclipseWTP/article.html">Java web development tutorial]
+			http://www.vogella.com/tutorials/EclipseWTP/article.html">Java web development tutorial</ulink>
 			.
 		
 		
@@ -98,7 +98,7 @@ include::res/groovlets/web.xml[]
 
 
 
-[[groovlets_validate">
+	<section id="groovlets_validate">
 === Validate that it run on the server
 		Start your web application and validates that you can access the
 			Groovlet. Also inspect the source of the HTML and validate that it
@@ -106,7 +106,7 @@ include::res/groovlets/web.xml[]
 		
 
 
-[[groovlets_extend">
+	<section id="groovlets_extend">
 === Exercise: Extend your Groovlet
 		
 			Use some of the implicit available variables, e.g.,

@@ -1,4 +1,4 @@
-[[grepchain">
+<section id="grepchain">
 == Chaining the grep
 	
 		Grep is frequently used together with the find command. For

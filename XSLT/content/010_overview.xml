@@ -1,4 +1,4 @@
-[[overview">
+<section id="overview">
 == XSLT
 	
 		_XSLT_
@@ -16,6 +16,6 @@
 		For an introduction to XML please see
 		http://www.vogella.com/tutorials/JavaXML/article.html">
 			Java and XML Tutorial
-		]
+		</ulink>
 		.
 	

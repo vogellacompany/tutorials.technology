@@ -1,4 +1,4 @@
-[[tomcat_httpserver">
+<section id="tomcat_httpserver">
 == Tomcat as HTTP Server
 	
 		contains also a HTTP connector which can be used

@@ -1,4 +1,4 @@
-[[groovytemplatesengines">
+<section id="groovytemplatesengines">
 == Using template engines in Groovy
 	
 		A template is some text with predefined places for modificatoins.
@@ -20,8 +20,8 @@
 		.
 	
 	
-[source,java]
-----
-include::res/templates/TestTemplates.groovy[]
+		<programlisting language="java">
+			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+				parse="text" href="./examples/templates/TestTemplates.groovy[]
 ----
 	

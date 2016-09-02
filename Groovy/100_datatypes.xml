@@ -1,6 +1,6 @@
-[[datatypes" role="wrapper">
+<section id="datatypes" role="wrapper">
 == Groovy data types
-[[groovyobjects_optinaltypes">
+	<section id="groovyobjects_optinaltypes">
 === Optional typed variables
 		
 			Variables and fields can be typed as in Java or your can use the
@@ -27,7 +27,7 @@
 			only valid in scripts and become part of the scripts binding.
 		
 
-[[groovyobjects_generics">
+	<section id="groovyobjects_generics">
 === Groovy and generics
 		
 			Groovy supports the syntax of generics but does not enforce it. For example, you can put any type into a
@@ -37,7 +37,7 @@
 			to learn more about AST transformations.
 		
 
-[[datatypes_overview">
+	<section id="datatypes_overview">
 === All types are objects
 		 All variables in Groovy are objects (reference variables),
 			Groovy does not use primitive variables. Groovy still
@@ -49,7 +49,7 @@
 		
 
 
-[[datatypes_numbers">
+	<section id="datatypes_numbers">
 === Numbers
 
 		Numbers are objects in Groovy, as well as variables defined as
@@ -154,7 +154,7 @@
 
 
 
-[[datatypes_ranges">
+	<section id="datatypes_ranges">
 === Ranges
 		
 			Groovy supports the

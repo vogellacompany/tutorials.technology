@@ -1,7 +1,7 @@
-[[gerrit_installation" role="wrapper">
+<section id="gerrit_installation" role="wrapper">
 == Installation of Gerrit
 
-[[gerrit_installation_download">
+	<section id="gerrit_installation_download">
 		<indexterm>
 			<primary>Gerrit</primary>
 			<secondary>Installation
@@ -10,7 +10,7 @@
 === Download Gerrit
 		
 			Download the latest Gerrit release from
-			http://gerrit-releases.storage.googleapis.com/index.html">Gerrit download page]
+			http://gerrit-releases.storage.googleapis.com/index.html">Gerrit download page</ulink>
 			. The download is a
 			`.war`
 			file which you can directly add to your servlet container, for
@@ -24,7 +24,7 @@
 			description uses this approach.
 		
 
-[[gerrit_installation_setup">
+	<section id="gerrit_installation_setup">
 === Setup of Gerrit
 		
 			Copy the

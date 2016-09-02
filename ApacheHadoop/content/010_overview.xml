@@ -1,11 +1,11 @@
-[[overview">
+<section id="overview">
 == Apache Hadoop
-[[overview">
+	<section id="overview">
 === Overview
 		
 			Apache Hadoop is a software solution for distributed computing of
 			large datasets. Hadoop provides a distributed filesystem (HDFS) and a
-			http://www.vogella.com/tutorials/MapReduce/article.html">MapReduce]
+			http://www.vogella.com/tutorials/MapReduce/article.html">MapReduce</ulink>
 			implementation.
 		
 		A special computer acts as the "name node". This computer saves
@@ -14,7 +14,7 @@
 		 The "name node" is currently a single point of failure. The
 			Hadoop project is working on solutions for this. 
 
-[[tasks">
+	<section id="tasks">
 === Typical tasks
 		 Apache Hadoop can be used to filter and aggregate data, e.g. a
 			typical use case would be the analysis of web server logs file to find
@@ -23,7 +23,7 @@
 
 
 
-[[functions">
+	<section id="functions">
 === Writing the map and reduce functions
 		
 			Hadoop allow that map and reduce functions are written in Java.

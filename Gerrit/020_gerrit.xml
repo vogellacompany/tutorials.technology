@@ -1,7 +1,7 @@
-[[gerrit_overview" role="wrapper">
+<section id="gerrit_overview" role="wrapper">
 == The Gerrit code review system
 
-[[gerrit_explanation">
+	<section id="gerrit_explanation">
 === What is Gerrit?
 		<indexterm>
 			<primary>Gerrit</primary>
@@ -75,7 +75,7 @@
 		
 		
 			The main entry point for Gerrit is the
-			https://www.gerritcodereview.com/">Gerrit code review homepage]
+			https://www.gerritcodereview.com/">Gerrit code review homepage</ulink>
 			.
 		
 		Gerrit is licensed under the Apache 2.0 license.
@@ -90,7 +90,7 @@
 		
 
 
-[[gerrit_centralinfo">
+	<section id="gerrit_centralinfo">
 === How does Gerrit work?
 		
 			Gerrit can
@@ -134,7 +134,7 @@
 			granted.
 		
 
-[[gerrit_votingcategories">
+	<section id="gerrit_votingcategories">
 === Review categories - Verified and Code-Review
 		
 			Gerrit supports different categories (also known as labels) for
@@ -185,7 +185,7 @@
 		
 		Committers and contributors can vote in these categories. 
 
-[[gerrit_voting">
+	<section id="gerrit_voting">
 === Voting in Gerrit
 		
 			The rules for voting in Gerrit is:
@@ -281,7 +281,7 @@
 		
 
 
-[[gerrit_documentation">
+	<section id="gerrit_documentation">
 === Gerrit online documentation
 
 		
@@ -289,9 +289,9 @@
 			Gerrit at:
 			https://gerrit-review.googlesource.com/Documentation/intro-quick.html">
 				Gerrit Code Review - A Quick Introduction
-			]
+			</ulink>
 			and detailed information in the
-			 https://gerrit-review.googlesource.com/Documentation/index.html">Gerrit documentation]
+			 https://gerrit-review.googlesource.com/Documentation/index.html">Gerrit documentation</ulink>
 			.
 		
 
@@ -299,13 +299,13 @@
 			Eclipse specific information can be found on the
 			http://wiki.eclipse.org/Gerrit">
 				Gerrit at Eclipse
-			]
+			</ulink>
 			webpage.
 		
 
 
 
-[[gerrit_drafts">
+	<section id="gerrit_drafts">
 === Posting draft reviews
 		
 			There is also a special

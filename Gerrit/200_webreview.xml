@@ -1,6 +1,6 @@
-[[webreview" role="wrapper">
+<section id="webreview" role="wrapper">
 == Using the Gerrit web interface
-[[webreview_reviewchangerequest">
+	<section id="webreview_reviewchangerequest">
 === Reviewing a change request
 		
 			Click on one change request to see the
@@ -48,7 +48,7 @@ image::webreview10.png[]
 			it is important to provide a good commit message.
 		
 
-[[webreview_reviewresult">
+	<section id="webreview_reviewresult">
 === Publishing your review result
 		
 			Click on
@@ -91,7 +91,7 @@ image::webreview30.png[]
 
 
 
-[[webreview_adjustingthechange">
+	<section id="webreview_adjustingthechange">
 === Improve a change based on review feedback
 		
 			If the review process has resulted review comments explaining
@@ -212,7 +212,7 @@ image::webreview50.png[]
 			</mediaobject>
 		
 
-[[webreview_keyboardshortcuts">
+	<section id="webreview_keyboardshortcuts">
 === Keyboard shortcuts in Gerrit
 
 		
@@ -236,7 +236,7 @@ image::gerrit_shortcuts10.png" scale="25" />
 		
 
 
-[[webreview_getting">
+	<section id="webreview_getting">
 === Fetching a remote change into a local Git repository
 		
 			It is possible to fetch the changes from the Gerrit review into
@@ -269,7 +269,7 @@ image::webreviewpull10.png[]
 		
 
 
-[[webreview_gettingeclpise">
+	<section id="webreview_gettingeclpise">
 === Fetching a remote change with Eclipse Git
 
 		<tip>
@@ -312,7 +312,7 @@ image::webreviewpull10.png[]
 		
 
 
-[[webreview_editintheweb">
+	<section id="webreview_editintheweb">
 === Edit a change directly via the web interface
 		You can also edit directly in Gerrit. Press the edit button for this.
 		

@@ -1,6 +1,6 @@
-[[installation">
+<section id="installation">
 == Installation
-[[installation_ubuntu">
+	<section id="installation_ubuntu">
 === Installation on Ubuntu
 		 Install Mercurial on Ubuntu via:
 
@@ -12,15 +12,15 @@
 		
 		
 			The installation of Mercurial for other platforms is described in 
-			http://www.selenic.com/mercurial/wiki/index.cgi/Mercurial">Mercurial installation]
+			http://www.selenic.com/mercurial/wiki/index.cgi/Mercurial">Mercurial installation</ulink>
 			.
 		
 	
-[[installation_windows">
+	<section id="installation_windows">
 === Installation on Windows
 		
 			You find binary packages for Mercurial on Window on
-			http://mercurial.berkwood.com/"> Binary packages for Windows.]
+			http://mercurial.berkwood.com/"> Binary packages for Windows.</ulink>
 		
 	
 

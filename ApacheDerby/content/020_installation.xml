@@ -1,8 +1,8 @@
-[[installation">
+<section id="installation">
 == Installation of Derby
 	
 		Download the latest Derby version from the Apache website
-		http://db.apache.org/derby/"> http://db.apache.org/derby/]
+		http://db.apache.org/derby/"> http://db.apache.org/derby/</ulink>
 		. Choose the bin distribution and extract this zip to a directory of
 		your choice. Also make the Derby tools available in your path via the 
 		following:

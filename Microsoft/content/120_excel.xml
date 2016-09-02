@@ -1,6 +1,6 @@
-[[excel">
+<section id="excel">
 == Excel
-[[excel_team">
+	<section id="excel_team">
 === Simultaneously editing of one excel spreadsheet
 		
 			Excel allows to edit it with several persons at the same time.
@@ -19,7 +19,7 @@ image::share20.png[]
 			</mediaobject>
 		
 
-[[excel_dropdownlist">
+	<section id="excel_dropdownlist">
 === Dropdown List
 		
 image::excel10.gif[]

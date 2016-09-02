@@ -1,6 +1,6 @@
-[[sql">
+<section id="sql">
 == SQL - Structured Query Language
-[[sql_overview">
+	<section id="sql_overview">
 === Overview
 		
 			SQL is a query language for relational databases.

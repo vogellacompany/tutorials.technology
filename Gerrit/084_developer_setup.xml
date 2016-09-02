@@ -1,4 +1,4 @@
-[[gerritreview_configuration">
+<section id="gerritreview_configuration">
 == Developer: Gerrit configuration for the Git repository
 	
 		After you cloned the repository from Gerrit, right-click in the
@@ -82,8 +82,8 @@ image::gerrit_remoteconfiguration40.png"
 			
 				<programlisting language="bourne">
 					<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-						parse="text" href="./examples/pushrefspec/refspec.txt[]
-----
+						parse="text" href="./examples/pushrefspec/refspec.txt" />
+				</programlisting>
 			
 		
 	

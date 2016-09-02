@@ -1,6 +1,6 @@
-[[docbookpdf">
+<section id="docbookpdf">
 == Create pdf output
-[[docbookpdf_overview">
+	<section id="docbookpdf_overview">
 === Overview
 		
 			You can convert DocBook to XML-FO via the DocBook XSL
@@ -10,25 +10,25 @@
 			tranlated into PDF via the Apache FOP library.
 		
 
-[[docbookpdf_installation">
+	<section id="docbookpdf_installation">
 === Installation
 		
 			In addition to the existing setup you also require the Apache
 			FOP
 			library. Download the binary FOP distribution from
 http://xmlgraphics.apache.org/fop/">
-				http://xmlgraphics.apache.org/fop/].
+				http://xmlgraphics.apache.org/fop/</ulink>.
 		
 		
 			Copy all the JAR files from the FOP distribution in your library
 			directory
 			and add the libs to the ant build path. See
 http://www.vogella.com/tutorials/ApacheAnt/article.html#classpath">
-				Apache Ant Tutorial]
+				Apache Ant Tutorial</ulink>
 			on how to modify the ant build path.
 		
 
-[[docbookpdf_">
+	<section id="docbookpdf_">
 === Define the Ant Task
 		
 			You have to add the task to your ant build file and then call

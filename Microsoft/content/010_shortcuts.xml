@@ -1,6 +1,6 @@
-[[shortcuts">
+<section id="shortcuts">
 == Shortcuts
-[[shortcuts_windows">
+	<section id="shortcuts_windows">
 === Windows
 		<itemizedlist>
 			<listitem>
@@ -19,7 +19,7 @@
 		 .
 
 	
-	[[shortcuts_msoutlook">
+		<section id="shortcuts_msoutlook">
 === Outlook
 
 .Table Title

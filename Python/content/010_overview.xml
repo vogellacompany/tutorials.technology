@@ -1,6 +1,6 @@
-[[python">
+<section id="python">
 == Overview
-[[python_overview">
+	<section id="python_overview">
 === What is Python
 		
 			_Python_
@@ -58,7 +58,7 @@
 
 
 
-[[python_blocks">
+	<section id="python_blocks">
 === Block concept in
 			_Python_
 			via indentation
@@ -84,7 +84,7 @@
 			level.
 		
 
-[[python_tutorial">
+	<section id="python_tutorial">
 === About this tutorial
 		This tutorial will first explain how to install Python and the
 			Python plugins for Eclipse. It will then create a small Python

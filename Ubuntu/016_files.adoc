@@ -1,4 +1,4 @@
-[[files">
+<section id="files">
 == Important files
 
 .Table Title

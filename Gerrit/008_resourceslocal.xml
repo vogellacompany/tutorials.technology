@@ -1,21 +1,21 @@
 
-[[resources">
+<section id="resources">
     <title>Gerrit related links
 
     
-        https://www.gerritcodereview.com/"> Gerrit Code Review homepage]
+        https://www.gerritcodereview.com/"> Gerrit Code Review homepage</ulink>
     
     
-        http://git-scm.com/"> Git homepage]
+        http://git-scm.com/"> Git homepage</ulink>
     
     
-        http://www.vogella.com/tutorials/EclipseGit/article.html"> EGit - Teamprovider for Eclipse]
+        http://www.vogella.com/tutorials/EclipseGit/article.html"> EGit - Teamprovider for Eclipse</ulink>
     
 
     
-        http://www.infoq.com/articles/Gerrit-jenkins-hudson"> Setting up Gerrit and Jenkins from Alex Blewitt]
+        http://www.infoq.com/articles/Gerrit-jenkins-hudson"> Setting up Gerrit and Jenkins from Alex Blewitt</ulink>
     
     
-        http://wiki.eclipse.org/Gerrit"> Contributing to Eclipse via Gerrit]
+        http://wiki.eclipse.org/Gerrit"> Contributing to Eclipse via Gerrit</ulink>
     
     <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../10_Include/resources.xml" />

@@ -1,9 +1,9 @@
-[[architecture">
+<section id="architecture">
 == Web Architecture
 	 In a web server architecture you have a web client (browser)
 		taking to a web server.
 	
-[[architecture_web server">
+	<section id="architecture_web server">
 === Web Server
 		 A web server takes a client request, process the request and
 			send the result back to the client. The web server may return a HTML
@@ -16,7 +16,7 @@
 
 		 Popular web servers are the Apache HTTP web server. 
 
-[[architecture_webclient">
+	<section id="architecture_webclient">
 === Web Client
 		 A web client issues requests (via the user) to the web server
 			and displays (renders) the result. A web client is typically a
@@ -24,7 +24,7 @@
 		
 
 
-[[architecture_html">
+	<section id="architecture_html">
 === HTML
 		 HTML is a markup language which contains content and describes
 			the structure how this content will be displayed. The current version
@@ -33,7 +33,7 @@
 		
 
 
-[[architecture_http">
+	<section id="architecture_http">
 === HTTP
 		 HTTP (HyperText Transfer Protocol) is the protocol usually used
 			for the communication between web server and web client. HTTP is
@@ -70,7 +70,7 @@
 			text or HTML.
 		
 
-[[architecture_url">
+	<section id="architecture_url">
 === URL - Uniform Resource Locator
 		 A resource in the web (and on the web server) can get
 			identified via the URL. A URL is what is usually displayed in the
@@ -86,7 +86,7 @@
 ----
 		
 
-[[architecture_dns">
+	<section id="architecture_dns">
 === DNS - Dynamic name server and entries
 		 A DNS server is responsible for identifying resources in the
 			Internet based on domain names. The provide which hosts and URL can

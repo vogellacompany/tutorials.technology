@@ -1,6 +1,6 @@
-[[commandline" role="wrapper">
+<section id="commandline" role="wrapper">
 == Using Groovy without IDE support
-[[commandline_options">
+	<section id="commandline_options">
 === Options for using Groovy with IDE support
 		
 			You can execute a Groovy class or script from your IDE
@@ -24,7 +24,7 @@
 		
 
 	
-[[commandline_console">
+	<section id="commandline_console">
         <title>The Groovy Console
          Start the interactive Groovy Shell with the command
             groovyConsole. This console allows you to test Groovy code.
@@ -37,7 +37,7 @@
         
     
     
-[[commandline_groovyshell">
+	<section id="commandline_groovyshell">
 === The Groovy shell
 		 The Groovy shell is the simplest way to run Groovy program. The
 			groovy shell allow you to type in groovy
@@ -57,7 +57,7 @@
 
 	
 
-[[groovycode_compile">
+	<section id="groovycode_compile">
 === Using the Groovy compiler to create class files
 		 You can also complile Groovy code into Java bytecode to use it
 			from Java. To use the byte code the Groovy

@@ -1,6 +1,6 @@
-[[codereview" role="wrapper">
+<section id="codereview" role="wrapper">
 == Code review
-[[codereview_process">
+	<section id="codereview_process">
 === The code review process
 		<indexterm>
 			<primary>Code review</primary>
@@ -37,7 +37,7 @@
 			for compile time errors and to run a test suite.
 		
 
-[[codereview_advantages">
+	<section id="codereview_advantages">
 === Advantages of code review
 		<indexterm>
 			<primary>Advantages of code review</primary>

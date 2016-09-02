@@ -1,6 +1,6 @@
-[[examples_xml">
+<section id="examples_xml">
 == Groovy and Markup like XML or HTML
-[[examples_readingxml">
+	<section id="examples_readingxml">
 === Parsing XML with XmlSlurper
 		
 			Groovy allows to process XML very easily. Groovy provide the
@@ -39,7 +39,7 @@
 		
 
 
-[[generating_markuptemplateengine">
+	<section id="generating_markuptemplateengine">
 === Using the MarkupTemplateEngine to generated Markup
 		
 			Introduce in Groovy 2.3 the
@@ -66,7 +66,7 @@ include::res/builder/MarkupTemplateEngineExample.groovy[]
 		
 		Templates support includes.
 
-[[examples_markupBuilder">
+	<section id="examples_markupBuilder">
 === Creating Markup (XML) files with the MarkupBuilder
 		
 			The usage of the

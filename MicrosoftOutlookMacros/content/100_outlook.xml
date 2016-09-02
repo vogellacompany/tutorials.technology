@@ -1,6 +1,6 @@
-[[msoutlook">
+<section id="msoutlook">
 == Outlook Macros
-[[msoutlook_hellomacro">
+	<section id="msoutlook_hellomacro">
 === Create automatically greetings for email receiver
 		 The following macro describes how you can extract information
 			from the email and create a corresponding message in your email text.
@@ -22,7 +22,7 @@
 ----
 		
 
-[[msoutlook_movemail">
+	<section id="msoutlook_movemail">
 === Macro for moving email to specified folder
 		 I gave up on sorting manually my email a long time ago. Now I
 			move all my email to a quarterly folder. I search mails is done via a
