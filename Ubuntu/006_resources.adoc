@@ -1,10 +1,6 @@
-<section id="resources">
 == Links and Literature
 	
-		https://www.ibm.com/developerworks/linux/tutorials/l-vi/">vim editor reference</ulink>
+https://www.ibm.com/developerworks/linux/tutorials/l-vi[vim editor reference]
 	
-	
-http://blixtra.org/blog/2006/07/14/setting-up-tomcat-5-on-ubuntu-606/">
-			Setting up Tomcat and Java on Ubuntu
-		</ulink>
+http://blixtra.org/blog/2006/07/14/setting-up-tomcat-5-on-ubuntu-606[Setting up Tomcat and Java on Ubuntu]
 	

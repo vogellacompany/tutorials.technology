@@ -1,219 +1,195 @@
-<section id="network">
-== Network
-	<section id="network_status">
+== Networkng with Linux
 === See all open ports on your machine
-		You see all listeners on your machine via the following
-			command.
-			Port which listen to 127.0.0.1 cannot get accessed from
-			external.
-		
-		
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/network/openports.txt[]
-----
-		
 
-	<section id="network_ssh">
+You see all listeners on your machine via the following command.
+Port which listen to 127.0.0.1 cannot get accessed from
+external.
+
+
+[source,console]
+----
+include::res/network/openports.txt[]
+----
+
+
 === SSH access to the server
-		
-			The
-			`ssh`
-			command provides secure, encrypted access to a server. Use
-			`ssh IP-address` or `ssh your_hostname`
-			to access the server.
-		
-		
-			You can also assign a shortname for an IP address via the
-			`config`
-			file in your
-			`~/.ssh`
-			director.
-		
 
-		
-			For example, to
-			create an alias called
-			_foo_
-			for the IP address 144.76.74.162 and to use the user called
-			_testing_
-			switch to
-			your
-			`~/.ssh`
-			directory, create the
-			`config`
-			file if it does not exists and enter the following.
-		
-		
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/hosts/config[]
+The
+`ssh`
+command provides secure, encrypted access to a server. Use
+`ssh IP-address` or `ssh your_hostname`
+to access the server.
+
+
+You can also assign a shortname for an IP address via the
+`config`
+file in your
+`~/.ssh`
+director.
+
+
+
+For example, to
+create an alias called
+_foo_
+for the IP address 144.76.74.162 and to use the user called
+_testing_
+switch to
+your
+`~/.ssh`
+directory, create the
+`config`
+file if it does not exists and enter the following.
+
+
+[source,console]
 ----
-		
-
-		
-			To upload your public ssh key which allows you to login
-			automatically into a server use the following command.
-		
-		
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/hosts/uploadpublicssh[]
+include::res/hosts/config[]
 ----
-		
 
 
-	<section id="network_firewall">
+
+To upload your public ssh key which allows you to login
+automatically into a server use the following command.
+
+
+[source,console]
+----
+include::res/hosts/uploadpublicssh[]
+----
+
+
 === Firewall
-		Ubuntu provides a uncomplicated firewall (ufw). To install it
-			and
-			only allow SSH, FTP, and webtraffic use the following command.
-		
-		
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/ufw/setup.txt[]
+Ubuntu provides a uncomplicated firewall (ufw). 
+To install it and only allow SSH, FTP, and webtraffic use the following command.
+
+
+[source,console]
 ----
-		
+include::res/ufw/setup.txt[]
+----
 
 
 
-	<section id="network_commands">
+
 === Network commands
-		 The following commands give you an overview of your network
-			connections.
+The following commands give you an overview of your network connections.
 
-.Table Title
+.Table 
 |===
+|Command |Description
 
-			<tgroup cols='2' align='left' colsep='1' rowsep='1'>
-				<colspec colname='c1' />
-				<colspec colname='c2' />
-				
-					
-|Command
-|Description
-					
-				
-				
-					
+
+
+
 |lspci -nn | grep -i net
-						
+
 |
-						
-					
-					
+
+
+
 |lsusb
 
-						
+
 |
-						
-					
-					
+
+
+
 |iwconfig
 
-						
+
 |
-						
-					
-					
+
+
+
 |ifconfig
 
-						
+
 | Shows the network connections
-						
-					
-					
+
+
+
 |lsmod
 |
-					
-					
+
+
 |python -m SimpleHTTPServer
 |Start web server serving current directory tree at
-							http://localhost:8000/
-						
-					
-				
-			
-		|===
+http://localhost:8000/
+|===
 
-	<section id="network_curl">
 === HTTP debugging with curl
-		
-			curl is a command line tool to issue and receive http (and
-			other) request. For example, if you want to see the HTTP output of a
-			webpage, use the following command.
-		
-		
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/network/curlgetpage.txt[]
-----
-		
-		 If you want to the HTTPrequest header (including the HTTP
-			status
-			codes, use the following command. This is for example nice to
-			see if
-			your server delivers a 404 return code for your self-defined
-			error page.
-		
-		
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/network/curlinfo.txt[]
-----
-		
-		
-			You can set HTTP header information with the -h flag. For
-			example, to request a certain MIME type use the -H'Accept:MIME'
-			option.
-		
-		
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/network/curlheader.txt[]
-----
-		
 
-		To use curl behind a proxy.
-		
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/network/curlproxy.txt[]
-----
-		
-		
-			<tip>
-				If you are using Microsoft Windows, see
-				http://curl.haxx.se/download.html">curl for Windows</ulink>
-				.
-			
-		
+curl is a command line tool to issue and receive http (and
+other) request. For example, if you want to see the HTTP output of a
+webpage, use the following command.
 
-	<section id="network_irc">
+
+[source,console]
+----
+include::res/network/curlgetpage.txt[]
+----
+
+ If you want to the HTTPrequest header (including the HTTP
+status
+codes, use the following command. This is for example nice to
+see if
+your server delivers a 404 return code for your self-defined
+error page.
+
+
+[source,console]
+----
+include::res/network/curlinfo.txt[]
+----
+
+
+You can set HTTP header information with the -h flag. For
+example, to request a certain MIME type use the -H'Accept:MIME'
+option.
+
+
+[source,console]
+----
+include::res/network/curlheader.txt[]
+----
+
+
+To use curl behind a proxy.
+
+[source,console]
+----
+include::res/network/curlproxy.txt[]
+----
+
+
+[TIP]
+====
+If you are using Microsoft Windows, see
+http://curl.haxx.se/download.html[curl for Windows].
+====
+
+
 === IRC
-		
-			For IRC communication you can use the tool xchat. To install it,
-			use "sudo apt-get install xchat".
-		
+
+For IRC communication you can use the tool xchat. 
+To install it, use "sudo apt-get install xchat".
 
 
-	<section id="network_ftp">
+
 === FTP
-		
-			For FTP access you can install filezilla via
-			`sudo apt-get install filezilla`
-			or map the ftp access to a virtual device.
-		
 
-		
-			To map the device select your desktop. Select the file menu and
-			the entry "Connect to server".
-		
-		
+For FTP access you can install filezilla via
+`sudo apt-get install filezilla`
+or map the ftp access to a virtual device.
+
+
+
+To map the device select your desktop. Select the file menu and
+the entry "Connect to server".
+
+
 image::ftp_menu.png[]
-				</imageobject>
-			</mediaobject>
-		
+
 
 

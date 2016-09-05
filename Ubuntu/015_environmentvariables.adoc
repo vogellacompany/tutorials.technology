@@ -23,13 +23,9 @@ sudo -i
 |
 Switches to root
 	
-
-
-
 		
-	|===
+|===
 
-	<section id="environ_path">
 === Add a directory to the path
 
 		
@@ -59,8 +55,7 @@ and add the following line to
 the
 file. Every new directory in the path
 must start with
-`:`
-.
+`:`.
 		
 
 		

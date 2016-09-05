@@ -58,11 +58,11 @@ include::res/user/home[]
 
 [usermanagement_delete]
 === Deleting users
+
 To delete a user use the following command.
 
 [source,console]
 ----
 include::res/user/delete.txt[]
 ----
-
 

@@ -3,39 +3,30 @@
 
 .Table Title
 |===
+|File |Description
 
-		<tgroup cols='2' align='left' colsep='1' rowsep='1'>
-			<colspec colname='c1' />
-			<colspec colname='c2' />
-			
-				
-|File
-|Description
-				
-			
-			
-				
+
 |/etc/issue
 | Contains the Ubuntu version you are running
-				
-				
+
+
 |lsb_release -a
 | Prints out the Ubuntu version you are running
-				
-				
+
+
 |/etc/apt/sources.list
 | Contains the available sources for software installation
-					
-				
-				
+
+
+
 |/usr/share/tomcat
 |Installation directory for tomcat
-				
-				
+
+
 |/var/www/vhosts/domain1
 | Contains on my v-server the user directory for a specific
-						domain which is hosted on this server
-				
-			
-		
-	|===
+domain which is hosted on this server
+
+
+
+|===

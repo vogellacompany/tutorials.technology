@@ -1,79 +1,57 @@
-<section id="tips">
 == Tips
-	<section id="tipcs_bootdisk">
+
 === Creating a bootable USB disk with unetbootin
 		
-			The default program for creating a bootable USB disk is
-			_Startup Disk Creator_
-			. This crashes frequently during the creation of a boot disk. The
-			program
-			_unetbootin_
-			is much more stable. You can install it via the following command and
-			start it on the command line.
+The default program for creating a bootable USB disk is _Startup Disk Creator_. 
+This crashes frequently during the creation of a boot disk. The program _unetbootin_ is much more stable. 
+You can install it via the following command and start it on the command line.
 		
 		
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/unity/menu.txt[]
+[source,console]
+----
+include::res/unity/menu.txt[]
 ----
 		
 		
-			To open this type "Menu Manager" in the Dash. Choose
-			"programming" in the left panel. Press "New item" button then. Choose
-			name, command, icon
+To open this type "Menu Manager" in the Dash. 
+Choose "programming" in the left panel. 
+Press "New item" button then. 
+Choose name, command, icon
 		
-		 In the panel click and hold Alt to quick switch/launch apps.
+In the panel click and hold Alt to quick switch/launch apps.
 		
 
-	<section id="tipcs_numble">
 === Chat applications
 		
-			The
-			_mumble_
-			application
-			allows online chats.
+The
+_mumble_
+application
+allows online chats.
 		
 
 		
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/tools/mumble-install.txt[]
+[source,console]
 ----
-		
+include::res/tools/mumble-install.txt[]
+----
 
-
-
-	<section id="tipcs_teamviewer">
 === Sharing desktop
 		
-			The
-			_Teamviewer_
-			application
-			allows to share desktop and online chats. It can be
-			installed from
-			http://www.teamviewer.com/.
+The _Teamviewer_ application allows to share desktop and online chats. 
+It can be installed from http://www.teamviewer.com/.
 		
 
 
-	<section id="tipcs_remotexserver">
 === Remote xserver
 		
-			The
-			_x2go_
-			server allows to install a X-server on a remote server and access it
-			via a client from a different machine.
-			More information can be found on
-			http://wiki.x2go.org/.
+The _x2go_ server allows to install a X-server on a remote server and access it via a client from a different machine.
+More information can be found on http://wiki.x2go.org/.
 		
 
 
-	<section id="tipcs_eclipse">
 === Eclipse IDE configuration
 		
-			See
-http://devblog.virtage.com/2013/06/eclipse-and-eclipse-based-apps-on-ubuntu-13-04-desktop-hacks/">Eclipse and Ubuntu</ulink>
-			for an introduction into the configuration of the Eclipse IDE under
-			Ubuntu.
+See http://devblog.virtage.com/2013/06/eclipse-and-eclipse-based-apps-on-ubuntu-13-04-desktop-hacks[Eclipse and Ubuntu] for an introduction into the configuration of the Eclipse IDE under Ubuntu.
 		
 
 
