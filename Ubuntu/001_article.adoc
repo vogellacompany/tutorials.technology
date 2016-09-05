@@ -13,9 +13,7 @@ This tutorial contains some information about handling a Linux system.
 
 
 include::010_overview.adoc[]
-include::011_unity.adoc[]
-include::012_commands.adoc[]
-include::014_user_management.adoc.adoc[]
+include::014_user_management.adoc[]
 include::015_environmentvariables.adoc[]
 include::016_files.adoc[]
 include::018_packagemanagement.adoc[]
