@@ -56,9 +56,9 @@
 			before running the following commands.
 		
 		
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/ssh/generate.txt[]
+[source,bourne]
+----
+include::res/ssh/generate.txt[]
 ----
 		
 

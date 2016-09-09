@@ -80,9 +80,9 @@ image::anttest30.gif[]
 			in the following commands.
 		
 		
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/ant/run.txt[]
+[source,bourne]
+----
+include::res/ant/run.txt[]
 ----
 		
 

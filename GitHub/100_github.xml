@@ -74,9 +74,9 @@
 			These instructions will be similar to the following commands.
 		
 		
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/github/example.txt[]
+[source,bourne]
+----
+include::res/github/example.txt[]
 ----
 		
 

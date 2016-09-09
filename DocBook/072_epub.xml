@@ -65,9 +65,9 @@
 			We will include the check also in our Ant task.
 		
 		
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/epubvalidate/validate.sh[]
+[source,bourne]
+----
+include::res/epubvalidate/validate.sh[]
 ----
 		
 

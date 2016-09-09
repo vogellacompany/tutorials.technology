@@ -22,9 +22,9 @@
 		 First make sure you have installed the SSH tooling.
 
 		
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/server/ssh_install.txt[]
+[source,bourne]
+----
+include::res/server/ssh_install.txt[]
 ----
 		
 		 If you have not yet installed Git on your server, you need to
@@ -33,32 +33,32 @@
 		
 
 		
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/server/installgit.txt[]
+[source,bourne]
+----
+include::res/server/installgit.txt[]
 ----
 		
 		 Create a new user and set a password for the Git system. 
 		
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/server/user.txt[]
+[source,bourne]
+----
+include::res/server/user.txt[]
 ----
 		
 		Now log in with your Git user and create a bare repository.
 		
 		
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/server/repo.txt[]
+[source,bourne]
+----
+include::res/server/repo.txt[]
 ----
 		
 
 		 Now you can push to the remote repository. 
 		
-			<programlisting language="bourne">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/server/commit.txt[]
+[source,bourne]
+----
+include::res/server/commit.txt[]
 ----
 		
 
