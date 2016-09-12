@@ -19,8 +19,9 @@
 			code.
 		
 		
-			<programlisting>
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/first/HelloWorld.groovy[]
+[source,text]
+----
+include::res/first/HelloWorld.groovy[]
 ----
 		
 

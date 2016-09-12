@@ -17,8 +17,9 @@
 			.
 		
 		
-			<programlisting>
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/explained/SumItUp.groovy[]
+[source,text]
+----
+include::res/explained/SumItUp.groovy[]
 ----
 		
 
@@ -105,8 +106,9 @@
 			demonstrated by the following example.
 		
 		
-			<programlisting>
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/explained/Person.groovy[]
+[source,text]
+----
+include::res/explained/Person.groovy[]
 ----
 		
 
@@ -140,8 +142,9 @@
 			parameter values are indicated by =0.
 		
 		
-			<programlisting>
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/explained/DefaultValues.groovy[]
+[source,text]
+----
+include::res/explained/DefaultValues.groovy[]
 ----
 		
 

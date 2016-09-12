@@ -12,8 +12,9 @@
 		and lists them.
 	
 	
-		<programlisting>
-			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/grep/grepfind.txt[]
+[source,text]
+----
+include::res/grep/grepfind.txt[]
 ----
 	
 	

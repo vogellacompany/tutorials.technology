@@ -17,17 +17,18 @@
 			calls.
 		
 		
-			<programlisting>
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/mop/AnyMethodExecutor.groovy[]
+[source,text]
+----
+include::res/mop/AnyMethodExecutor.groovy[]
 ----
 		
 
 		 Test this method via the following Groovy script.
 
 		
-			<programlisting>
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text"
-					href="./examples/mop/TestAnyMethodExecutor.groovy[]
+[source,text]
+----
+include::res/mop/TestAnyMethodExecutor.groovy[]
 ----
 		
 
@@ -37,8 +38,9 @@
 		Create the following Groovy class. 
 
 		
-			<programlisting>
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/mop/Task.groovy[]
+[source,text]
+----
+include::res/mop/Task.groovy[]
 ----
 		
 		
@@ -51,8 +53,9 @@
 		
 		This script trigger the JSON generation.
 		
-			<programlisting>
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/mop/TestMop.groovy[]
+[source,text]
+----
+include::res/mop/TestMop.groovy[]
 ----
 		
 
@@ -62,8 +65,9 @@
 			and register it automatic for a certain class. This registration is
 			based on a package naming conversion:
 		
-		<programlisting>
-			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/mop/Naming.txt[]
+[source,text]
+----
+include::res/mop/Naming.txt[]
 ----
 		
 			Create the following class in the listed package to register it as
@@ -71,14 +75,16 @@
 			for your class.
 		
 
-		<programlisting>
-			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/mop/MyMetaClass.groovy[]
+[source,text]
+----
+include::res/mop/MyMetaClass.groovy[]
 ----
 		This allows you to clean up your domain model. 
 
 		
-			<programlisting>
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/mop/Task2.groovy[]
+[source,text]
+----
+include::res/mop/Task2.groovy[]
 ----
 		
 
@@ -88,8 +94,9 @@
 		
 
 		
-			<programlisting>
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/mop/TestMop.groovy[]
+[source,text]
+----
+include::res/mop/TestMop.groovy[]
 ----
 		
 
@@ -99,9 +106,9 @@
 		The following example demonstrates how you can add a method to the String class using closures. 
 
 		
-			<programlisting>
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text"
-					href="./examples/mop/AdditionalMethodOnStringWithClosures.groovy[]
+[source,text]
+----
+include::res/mop/AdditionalMethodOnStringWithClosures.groovy[]
 ----
 		
 

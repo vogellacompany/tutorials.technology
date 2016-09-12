@@ -97,8 +97,9 @@ include::res/switch/SwitchTest.groovy[]
 			which is null.
 		
 		
-			<programlisting>
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/safenull/safenull.txt[]
+[source,text]
+----
+include::res/safenull/safenull.txt[]
 ----
 		
 
@@ -113,8 +114,9 @@ include::res/switch/SwitchTest.groovy[]
 			to false or null.
 		
 		
-			<programlisting>
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/elvis/elvis.txt[]
+[source,text]
+----
+include::res/elvis/elvis.txt[]
 ----
 		
 

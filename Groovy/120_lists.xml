@@ -19,8 +19,9 @@ include::res/datatypes/Person.groovy[]
 ----
 		
 		
-			<programlisting>
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/datatypes/ListTest.groovy[]
+[source,text]
+----
+include::res/datatypes/ListTest.groovy[]
 ----
 		
 

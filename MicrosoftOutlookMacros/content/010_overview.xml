@@ -29,9 +29,9 @@ image::create30.gif[]
 		</mediaobject>
 	
 	
-		<programlisting>
-			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-				parse="text" href="../examples/hello/HelloOutlook.txt[]
+[source,text]
+----
+include::res/hello/HelloOutlook.txt[]
 ----
 	
 

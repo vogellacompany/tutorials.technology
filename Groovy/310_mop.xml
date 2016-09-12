@@ -59,8 +59,9 @@
 			access you can add properties and methods to an existing class.
 		
 		
-			<programlisting>
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/mop/AddMethods.groovy[]
+[source,text]
+----
+include::res/mop/AddMethods.groovy[]
 ----
 		
 

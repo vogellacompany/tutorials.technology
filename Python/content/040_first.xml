@@ -50,9 +50,9 @@ image::pydev50.gif[]
 	 Create the following source code.
 
 	
-		<programlisting>
-			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-				parse="text" href="../examples/first/FirstModule.py[]
+[source,text]
+----
+include::res/first/FirstModule.py[]
 ----
 	
 	Right-click your model and select Run As -> Python run.

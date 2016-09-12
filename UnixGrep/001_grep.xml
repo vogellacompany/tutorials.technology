@@ -29,8 +29,9 @@
 	
 
 	
-		<programlisting>
-			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/grep/grepall.txt[]
+[source,text]
+----
+include::res/grep/grepall.txt[]
 ----
 	
 

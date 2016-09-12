@@ -10,8 +10,9 @@
 			change the output of a line by adding a prefix.
 		
 		
-			<programlisting>
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/file/MyFileExample.groovy[]
+[source,text]
+----
+include::res/file/MyFileExample.groovy[]
 ----
 		
 		
@@ -31,8 +32,9 @@
 		Groovy also provides API to write to a file and append to it.
 
 		
-			<programlisting>
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/file/WriteFileExample.groovy[]
+[source,text]
+----
+include::res/file/WriteFileExample.groovy[]
 ----
 		
 
@@ -41,8 +43,9 @@
 
 		Reading an HTTP page is similar to reading a text file. 
 		
-			<programlisting>
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/http/ReadWebsite.groovy[]
+[source,text]
+----
+include::res/http/ReadWebsite.groovy[]
 ----
 		
 

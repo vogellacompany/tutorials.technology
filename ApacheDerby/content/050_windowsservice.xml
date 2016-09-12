@@ -16,9 +16,9 @@
 		line register a service via: 
 
 	
-		<programlisting>
-			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-				parse="text" href="../examples/service/installservice.txt[]
+[source,text]
+----
+include::res/service/installservice.txt[]
 ----
 	
 
@@ -50,9 +50,9 @@
 		values.
 	
 	
-		<programlisting>
-			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-				parse="text" href="../examples/service/keys.txt[]
+[source,text]
+----
+include::res/service/keys.txt[]
 ----
 	
 

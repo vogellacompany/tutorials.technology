@@ -229,8 +229,9 @@ include::res/ast/TestBuilder.groovy[]
 			them to the classpath of the program.
 		
 		
-			<programlisting>
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/grap/grapexample.gradle[]
+[source,text]
+----
+include::res/grap/grapexample.gradle[]
 ----
 		
 

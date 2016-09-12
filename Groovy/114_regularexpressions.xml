@@ -54,9 +54,9 @@
 			slashes.
 		
 		
-			<programlisting>
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text"
-					href="./examples/datatypes/RegularExpressionTest.groovy[]
+[source,text]
+----
+include::res/datatypes/RegularExpressionTest.groovy[]
 ----
 		
 		

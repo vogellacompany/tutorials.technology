@@ -20,8 +20,9 @@
 			with two properties.
 		
 		
-			<programlisting>
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/first/Task1.java[]
+[source,java]
+----
+include::res/first/Task1.java[]
 ----
 		
 		
@@ -36,8 +37,9 @@
 		
 
 		
-			<programlisting>
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/first/Task.java[]
+[source,java]
+----
+include::res/first/Task.java[]
 ----
 		
 
@@ -52,8 +54,9 @@
 		
 
 		
-			<programlisting>
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/first/MainTest.java[]
+[source,java]
+----
+include::res/first/MainTest.java[]
 ----
 		
 

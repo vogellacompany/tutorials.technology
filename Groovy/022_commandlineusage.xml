@@ -49,8 +49,9 @@
 			following code:
 		
 		
-			<programlisting>
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/helloworld/hello[]
+[source,text]
+----
+include::res/helloworld/hello[]
 ----
 		
 		 Press enter-> the system will execute your code.

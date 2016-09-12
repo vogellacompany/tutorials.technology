@@ -60,8 +60,9 @@ include::res/closures/Tiny.groovy[]
 			closure as parameter, for example the each method.
 		
 		
-			<programlisting>
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/closures/ClosureEachTest.groovy[]
+[source,text]
+----
+include::res/closures/ClosureEachTest.groovy[]
 ----
 		
 
@@ -72,8 +73,9 @@ include::res/closures/Tiny.groovy[]
 			closure as parameter, for example the each method.
 		
 		
-			<programlisting>
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/closures/ClosureTest.groovy[]
+[source,text]
+----
+include::res/closures/ClosureTest.groovy[]
 ----
 		
 

@@ -10,15 +10,15 @@
 		model.
 	
 	
-		<programlisting>
-			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-				parse="text" href="../examples/model/FeedMessage.java[]
+[source,java]
+----
+include::res/model/FeedMessage.java[]
 ----
 	
 	
-		<programlisting>
-			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-				parse="text" href="../examples/model/Feed.java[]
+[source,java]
+----
+include::res/model/Feed.java[]
 ----
 	
 

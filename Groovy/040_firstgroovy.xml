@@ -73,8 +73,9 @@ image::groovyfirst40.png[]
 		
 		Create the following code.
 		
-			<programlisting>
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/first/FirstGroovy.groovy[]
+[source,text]
+----
+include::res/first/FirstGroovy.groovy[]
 ----
 		
 

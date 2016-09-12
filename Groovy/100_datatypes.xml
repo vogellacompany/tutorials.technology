@@ -11,8 +11,9 @@
 			.
 		
 		
-			<programlisting>
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/explained/Type.groovy[]
+[source,text]
+----
+include::res/explained/Type.groovy[]
 ----
 		
 		At runtime variables and fields are always typed, Groovy infers
@@ -74,8 +75,9 @@
 			to play with numbers.
 		
 		
-			<programlisting>
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/datatypes/TypesTest.groovy[]
+[source,text]
+----
+include::res/datatypes/TypesTest.groovy[]
 ----
 		
 
@@ -166,8 +168,9 @@
 		
 
 		
-			<programlisting>
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/datatypes/RangesTest.groovy[]
+[source,text]
+----
+include::res/datatypes/RangesTest.groovy[]
 ----
 		
 		You can use Strings for the definition of ranges, these ranges
