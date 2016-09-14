@@ -49,7 +49,7 @@
 				<listitem>
 					
 						Early error detection:
-						<itemizedlist>
+						
 							<listitem>Build problems are detected
 								immediately
 								by automatic test
@@ -67,7 +67,7 @@
 				<listitem>
 					
 						Conformation to the source code standards:
-						<itemizedlist>
+						
 							<listitem>
 								Allows the
 								team
@@ -97,7 +97,7 @@
 					
 
 						Knowledge exchange:
-						<itemizedlist>
+						
 							<listitem>The code review process allows newcomers
 								to see the code
 								of other

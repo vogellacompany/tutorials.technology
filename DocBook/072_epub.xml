@@ -123,7 +123,7 @@ include::res/epub/buildepub.xml[]
 			I personally see the following issues. Please let me know if you have
 			a
 			solution for it.
-			<itemizedlist>
+			
 				<listitem>
 					
 						Target location of <filename class="directory">META-INF/`

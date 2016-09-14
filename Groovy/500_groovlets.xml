@@ -11,7 +11,7 @@
 		
 		
 			A Groovlet has automatically access to the following information:
-			<itemizedlist>
+			
 				<listitem>
 					application, context - Gives access to
 						javax.servlet.ServletContext

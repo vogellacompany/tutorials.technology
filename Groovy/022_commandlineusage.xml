@@ -5,7 +5,7 @@
 		
 			You can execute a Groovy class or script from your IDE
 			but Groovy provides other options. You can run Groovy code via:
-			<itemizedlist>
+			
 				<listitem>
 					the Groovy shell: groovysh
 				</listitem>

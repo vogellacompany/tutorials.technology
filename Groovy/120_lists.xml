@@ -55,7 +55,7 @@ include::res/datatypes/ListTest.groovy[]
 === List methods
 		
 			The following lists the most useful methods on List.
-			<itemizedlist>
+			
 				<listitem>
 					reverse()
 				</listitem>
@@ -135,7 +135,7 @@ include::res/datatypes/SpreadDot.groovy[]
 === Searching in a list with find, findall and grep
 		
 			You can search in a list.
-			<itemizedlist>
+			
 				<listitem>
 					findAll{closure} - returns all list elements for which the
 						closure validates to true

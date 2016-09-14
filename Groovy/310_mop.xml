@@ -19,7 +19,7 @@
 			class does not define this method / property then
 			pre-defined methods
 			are called which can be used to handle this call.
-			<itemizedlist>
+			
 				<listitem>
 					def methodMissing (String name, args) - Called for missing
 						method

@@ -10,8 +10,7 @@
 image::gerritsetup_screen.png[]
 			</imageobject>
 			<textobject>
-				<phrase>SSH public key setting in Gerrit</phrase>
-			</textobject>
+				<phrase>SSH public key setting in Gerrit]
 		</mediaobject>
 	
 

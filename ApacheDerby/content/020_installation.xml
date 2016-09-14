@@ -6,7 +6,7 @@
 		. Choose the bin distribution and extract this zip to a directory of
 		your choice. Also make the Derby tools available in your path via the 
 		following:
-		<itemizedlist>
+		
 			<listitem>
 				Set the environment variable DERBY_HOME to the Derby
 					installation directory

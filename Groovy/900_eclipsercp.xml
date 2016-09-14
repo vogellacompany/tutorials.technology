@@ -6,7 +6,7 @@
 		this install the Groovy tooling into your Eclipse
 		IDE and make them
 		available in your target platform. Afterwards:
-		<itemizedlist>
+		
 			<listitem>
 				
 					Add the Groovy nature to the plug-in which should contain Groovy

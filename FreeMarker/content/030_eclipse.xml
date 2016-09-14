@@ -18,11 +18,7 @@
 	
 
 	
-image::jboss-updatesite.png[]
-			
-			<textobject>
-				<phrase>Add the JBoss Tools update site and search for FreeMarker</phrase>
-			</textobject>
+image::jboss-updatesite.png[Add the JBoss Tools update site and search for FreeMarker]
 		
 	
 

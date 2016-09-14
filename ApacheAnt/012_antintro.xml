@@ -25,7 +25,7 @@
 		
 			A Java build
 			process typically includes:
-			<itemizedlist>
+			
 				<listitem> the compilation of the Java source code into Java
 					bytecode
 				</listitem>

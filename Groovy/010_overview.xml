@@ -119,7 +119,7 @@ include::res/first/HelloWorld.groovy[]
 		
 		
 			The enhancements of Groovy compared to Java can be classified as:
-			<itemizedlist>
+			
 				<listitem>
 					Groovy language features
 				</listitem>
@@ -139,7 +139,7 @@ include::res/first/HelloWorld.groovy[]
 			The following list contains
 			some of the example how Groovy archives
 			this.
-			<itemizedlist>
+			
 
 				<listitem>
 					
@@ -199,7 +199,7 @@ include::res/first/HelloWorld.groovy[]
 			Groovy automatically imports the following packages and classes which
 			can be used in Groovy without specifying the
 			package name.
-			<itemizedlist>
+			
 				<listitem>
 					groovy.lang.*
 				</listitem>

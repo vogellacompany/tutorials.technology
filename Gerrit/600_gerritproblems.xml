@@ -108,7 +108,7 @@ image::gerrit_rebasebutton10.png[]
 			steps required to
 			solve a merge
 			conflict are:
-			<itemizedlist>
+			
 				<listitem>
 					
 						Rebase your local branch onto the latest state of

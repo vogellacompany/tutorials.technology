@@ -21,8 +21,7 @@
 image::gerrit_review10.png[]
 			</imageobject>
 			<textobject>
-				<phrase>Create change request</phrase>
-			</textobject>
+				<phrase>Create change request]
 		</mediaobject>
 	
 	
@@ -55,8 +54,7 @@ image::gerrit_review10.png[]
 image::gerrit_webreview10.png[]
 			</imageobject>
 			<textobject>
-				<phrase>Create Gerrit change request</phrase>
-			</textobject>
+				<phrase>Create Gerrit change request]
 		</mediaobject>
 	
 	
@@ -80,8 +78,7 @@ image::gerrit_webreview10.png[]
 image::gerrit_webreview20.png[]
 			</imageobject>
 			<textobject>
-				<phrase>Update Gerrit change request</phrase>
-			</textobject>
+				<phrase>Update Gerrit change request]
 		</mediaobject>
 	
 

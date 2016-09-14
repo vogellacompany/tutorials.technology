@@ -5,7 +5,7 @@
 		http://hadoop.apache.org/"> Hadoop Homepage</ulink>
 		. To get started with Hadoop you require the following sub-projects:
 
-		<itemizedlist>
+		
 			<listitem>Hadoop Common    
 			</listitem>
 			<listitem>MapReduce    
