@@ -2,14 +2,14 @@
 == Running JUnit Tests via Ant
 	
 		Ant allows to run
-		http://www.vogella.com/tutorials/JUnit/article.html">JUnit</ulink>
+		http://www.vogella.com/tutorials/JUnit/article.html[JUnit</ulink>
 		tests. Ant defines
 		_junit_
 		task. You only need to include the
 		junit.jar and the compiled classes
 		into the classpath for Ant and then
 		you can run JUnit tests. See
-		http://www.vogella.com/tutorials/JUnit/article.html">JUnit Tutorial</ulink>
+		http://www.vogella.com/tutorials/JUnit/article.html[JUnit Tutorial</ulink>
 		for an introduction into JUnit.
 
 	

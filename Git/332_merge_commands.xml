@@ -120,7 +120,7 @@ include::./examples/merge/mergeours2.txt[]
 		
 		
 			For more information about the merge strategies and options see
-https://www.kernel.org/pub/software/scm/git/docs/git-merge.html">Git merge manpage</ulink>
+https://www.kernel.org/pub/software/scm/git/docs/git-merge.html[Git merge manpage</ulink>
 			.
 		
 	

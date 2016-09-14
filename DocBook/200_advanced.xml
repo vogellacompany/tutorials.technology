@@ -7,7 +7,7 @@
 			a
 			customization stylesheet layer, the usage of an external lib and
 			configuration file. Please see
-http://docbook.sourceforge.net/release/xsl/current/doc/fo/highlight.source.html">
+http://docbook.sourceforge.net/release/xsl/current/doc/fo/highlight.source.html[
 				Source Code Syntax Highlighting with DocBook</ulink>
 			for a description of the setup.
 		

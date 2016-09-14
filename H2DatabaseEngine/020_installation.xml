@@ -3,7 +3,7 @@
 
 	
 		Download the h2.jar from
-		http://h2database.com/html/download.html"></ulink>
+		http://h2database.com/html/download.html[</ulink>
 		and place it into the classpath of your Java program to use the
 		database.
 	

@@ -17,7 +17,7 @@ include::res/read/RSSFeedParser.java[]
 === Test the code
 		
 			The following uses a main method to test. You could also use
-			http://www.vogella.com/tutorials/JUnit/article.html"> JUnit</ulink>
+			http://www.vogella.com/tutorials/JUnit/article.html[JUnit</ulink>
 			.
 		
 

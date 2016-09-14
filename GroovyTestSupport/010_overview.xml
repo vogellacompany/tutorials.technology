@@ -60,7 +60,7 @@ include::res/testing/shouldfail.java[]
 		
 		
 			See
-			http://beta.groovy-lang.org/docs/groovy-2.3.0/html/documentation/core-testing-guide.html">Groovy testing guide</ulink>
+			http://beta.groovy-lang.org/docs/groovy-2.3.0/html/documentation/core-testing-guide.html[Groovy testing guide</ulink>
 			.
 		
 

@@ -121,7 +121,7 @@ image::eclipseide_sshgen.png" scale="30" />
 				GitHub Help: description of SSH key creation
 			</ulink>
 			or
-			http://www.openssh.com/manual.html">OpenSSH manual</ulink>
+			http://www.openssh.com/manual.html[OpenSSH manual</ulink>
 			.
 		
 		<tip>

@@ -32,7 +32,7 @@
 		
 		
 			Another popular distributed version control systems is
-			http://www.vogella.com/tutorials/Git/article.html">Git</ulink>
+			http://www.vogella.com/tutorials/Git/article.html[Git</ulink>
 			.
 		
 	
@@ -48,7 +48,7 @@
 		
 			Mercurial is written in Python. Mercurial has a command-line
 			interface.
-			http://www.vogella.com/tutorials/Eclipse/article.html">Eclipse</ulink>
+			http://www.vogella.com/tutorials/Eclipse/article.html[Eclipse</ulink>
 			provides also a
 		 plug-in to use Mercurial.
 		

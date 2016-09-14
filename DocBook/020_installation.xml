@@ -4,13 +4,13 @@
 === Eclipse
 		
 			Install Eclipse. See
-			http://www.vogella.com/tutorials/Eclipse/article.html">
+			http://www.vogella.com/tutorials/Eclipse/article.html[
 				Eclipse IDE</ulink>
 			for installing and using Eclipse.
 		
 		
 			Eclipse has
-			http://www.vogella.com/tutorials/ApacheAnt/article.html">
+			http://www.vogella.com/tutorials/ApacheAnt/article.html[
 				Apache Ant</ulink>
 			integrated. Therefore, no additional
 			installation for Ant

@@ -10,7 +10,7 @@
 === Download Gerrit
 		
 			Download the latest Gerrit release from
-			http://gerrit-releases.storage.googleapis.com/index.html">Gerrit download page</ulink>
+			http://gerrit-releases.storage.googleapis.com/index.html[Gerrit download page</ulink>
 			. The download is a
 			`.war`
 			file which you can directly add to your servlet container, for
