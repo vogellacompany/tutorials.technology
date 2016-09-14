@@ -6,9 +6,9 @@
 			class to read the XML file.
 		
 		
-			<programlisting>
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/read/RSSFeedParser.java[]
+[source,text]
+----
+include::res/read/RSSFeedParser.java[]
 ----
 		
 	
@@ -22,9 +22,9 @@
 		
 
 		
-			<programlisting>
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/read/ReadTest.java[]
+[source,text]
+----
+include::res/read/ReadTest.java[]
 ----
 		
 	

@@ -4,9 +4,9 @@
 === Comments
 		The following create a single line comment.
 		
-			<programlisting>
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/comments/comments.txt[]
+[source,text]
+----
+include::res/comments/comments.txt[]
 ----
 		
 
@@ -16,9 +16,9 @@
 			have to define a type of the variable Python will take care of this
 			for you.
 		
-			<programlisting>
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/variables/variables.txt[]
+[source,text]
+----
+include::res/variables/variables.txt[]
 ----
 		
 
@@ -28,9 +28,9 @@
 			called.
 		
 		
-			<programlisting>
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/assertions/assertions.txt[]
+[source,text]
+----
+include::res/assertions/assertions.txt[]
 ----
 		
 
@@ -40,9 +40,9 @@
 			language is interpreted the methods need to be defined before using
 			it.
 		
-			<programlisting>
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/methods/methodtester.py[]
+[source,text]
+----
+include::res/methods/methodtester.py[]
 ----
 		
 
@@ -52,9 +52,9 @@
 		
 
 		
-			<programlisting>
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/conditional/IfTest.py[]
+[source,text]
+----
+include::res/conditional/IfTest.py[]
 ----
 		
 
@@ -130,9 +130,9 @@
 		
 		For example:
 		
-			<programlisting>
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/string/stringTester.py[]
+[source,text]
+----
+include::res/string/stringTester.py[]
 ----
 		
 
@@ -147,9 +147,9 @@
 
 		For example:
 		
-			<programlisting>
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/string/stringNumberConcatenate.py[]
+[source,text]
+----
+include::res/string/stringNumberConcatenate.py[]
 ----
 		
 
@@ -161,17 +161,17 @@
 			and how to add elements to a list.
 		
 		
-			<programlisting>
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/list/List.py[]
+[source,text]
+----
+include::res/list/List.py[]
 ----
 		
 		 If you want to remove the duplicates from a list you can use:
 		
 		
-			<programlisting>
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/list/ListDuplicates.py[]
+[source,text]
+----
+include::res/list/ListDuplicates.py[]
 ----
 		
 
@@ -185,18 +185,18 @@
 			prints
 			each line to the console.
 		
-			<programlisting>
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/file/Readfile.py[]
+[source,text]
+----
+include::res/file/Readfile.py[]
 ----
 		
 
 		 The following reads the same file but write the output to
 			another file.
 		
-			<programlisting>
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/file/ReadWriteFile.py[]
+[source,text]
+----
+include::res/file/ReadWriteFile.py[]
 ----
 		
 
@@ -208,9 +208,9 @@
 			comma separated string. This string is splitted into lists and the
 			lists are compared. 
 		
-			<programlisting>
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/split/CompareFiles.py[]
+[source,text]
+----
+include::res/split/CompareFiles.py[]
 ----
 		
 
@@ -222,9 +222,9 @@
 			the first or second line of your script.  
 			
 			
-			<programlisting>
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/utf/example.txt[]
+[source,text]
+----
+include::res/utf/example.txt[]
 ----
 		
 			
@@ -269,9 +269,9 @@
 		
 		The empty object (null) is called _None_ in Python.
 		
-			<programlisting>
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/classes/Point.py[]
+[source,text]
+----
+include::res/classes/Point.py[]
 ----
 		
 

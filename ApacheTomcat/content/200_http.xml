@@ -19,9 +19,9 @@
 		`conf/web.xml`
 		from false to true.
 		
-			<programlisting>
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/httpserver/listings.txt[]
+[source,text]
+----
+include::res/httpserver/listings.txt[]
 ----
 		
 	

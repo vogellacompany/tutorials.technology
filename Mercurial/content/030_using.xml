@@ -17,9 +17,9 @@
 		 Check that you are using Mercurial version 1.3 or higher:
 		
 		
-			<programlisting>
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/using/version.txt[]
+[source,text]
+----
+include::res/using/version.txt[]
 ----
 		
 
@@ -28,9 +28,9 @@
 		 Initialize a new Mercurial repository with:
 		
 		
-			<programlisting>
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/using/clone.txt[]
+[source,text]
+----
+include::res/using/clone.txt[]
 ----
 		
 
@@ -60,9 +60,9 @@
 			hg
 			project.
 
-			<programlisting>
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/ignore/hgignore.txt[]
+[source,text]
+----
+include::res/ignore/hgignore.txt[]
 ----
 		
 	
@@ -76,9 +76,9 @@
 			class.
 		
 		
-			<programlisting>
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/javaproject/Test.java[]
+[source,text]
+----
+include::res/javaproject/Test.java[]
 ----
 		
 	
@@ -87,16 +87,16 @@
 === Add Project to Mercurial and commit
 		 Add the project to Mercurial.  
 		
-			<programlisting>
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/using/add.txt[]
+[source,text]
+----
+include::res/using/add.txt[]
 ----
 		
 		 Commit.  
 		
-			<programlisting>
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/using/commit.txt[]
+[source,text]
+----
+include::res/using/commit.txt[]
 ----
 		
 
@@ -104,17 +104,17 @@
 			you can push your changes to the repository.
 		
 		
-			<programlisting>
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/using/push.txt[]
+[source,text]
+----
+include::res/using/push.txt[]
 ----
 		
 
 		 Check the history via:
 		
-			<programlisting>
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/using/log.txt[]
+[source,text]
+----
+include::res/using/log.txt[]
 ----
 		
 	
@@ -126,16 +126,16 @@
 		
 
 		
-			<programlisting>
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/javaproject/Test2.java[]
+[source,text]
+----
+include::res/javaproject/Test2.java[]
 ----
 		
 		 Add the new files to Mercurial.  
 		
-			<programlisting>
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/using/add.txt[]
+[source,text]
+----
+include::res/using/add.txt[]
 ----
 		
 		 A rename in Java removes the old file. Mercurial will report
@@ -144,9 +144,9 @@
 		
 		 Add the new files to Mercurial.  
 		
-			<programlisting>
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/using/addremove.txt[]
+[source,text]
+----
+include::res/using/addremove.txt[]
 ----
 		
 
@@ -154,9 +154,9 @@
 			also automatically add and remove new files.
 		
 		
-			<programlisting>
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/using/commitadd.txt[]
+[source,text]
+----
+include::res/using/commitadd.txt[]
 ----
 		
 	
@@ -167,9 +167,9 @@
 			differences.
 		
 		
-			<programlisting>
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/using/changes.txt[]
+[source,text]
+----
+include::res/using/changes.txt[]
 ----
 		
 	
@@ -178,9 +178,9 @@
 
 		You can revert the changes via "hg revert". 
 		
-			<programlisting>
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/using/revert.txt[]
+[source,text]
+----
+include::res/using/revert.txt[]
 ----
 		
 

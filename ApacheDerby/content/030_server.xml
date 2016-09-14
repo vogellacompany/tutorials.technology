@@ -82,9 +82,9 @@
 			users with the columns "name" and "number".
 		
 		
-			<programlisting>
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/server/DerbyTest.java[]
+[source,text]
+----
+include::res/server/DerbyTest.java[]
 ----
 		
 

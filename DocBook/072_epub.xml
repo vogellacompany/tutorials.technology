@@ -128,13 +128,13 @@ include::res/epub/buildepub.xml[]
 					
 						Target location of <filename class="directory">META-INF/`
 						can be specified via
-						<property>epub.metainf.dir</property>,
+						`epub.metainf.dir`,
 						but if you do so this path is also used in the
 						`container.xml`.
 					
 				</listitem>
 				<listitem>
-					Same issue with <property>epub.oebps.dir</property>.
+					Same issue with `epub.oebps.dir`.
 				</listitem>
 			</itemizedlist>
 		

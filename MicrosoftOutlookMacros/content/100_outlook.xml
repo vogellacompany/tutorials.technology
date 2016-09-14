@@ -16,9 +16,9 @@
 			the right position to reply. The macro allows also to set a defined
 			delay in sending out the email.
 		
-			<programlisting>
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/reply/replymacro_short.txt[]
+[source,text]
+----
+include::res/reply/replymacro_short.txt[]
 ----
 		
 
@@ -31,9 +31,9 @@
 			 The following macro will move one or more
 			selected email to a specified folder. This folder must exists.
 		
-			<programlisting>
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/move/movemacro.txt[]
+[source,text]
+----
+include::res/move/movemacro.txt[]
 ----
 		
 

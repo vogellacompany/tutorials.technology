@@ -4,9 +4,9 @@
 === Create writer
 		Create the following class to write the XML file.
 		
-			<programlisting>
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/write/RSSFeedWriter.java[]
+[source,text]
+----
+include::res/write/RSSFeedWriter.java[]
 ----
 		
 	
@@ -23,9 +23,9 @@
 		
 
 		
-			<programlisting>
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/write/WriteTest.java[]
+[source,text]
+----
+include::res/write/WriteTest.java[]
 ----
 		
 	

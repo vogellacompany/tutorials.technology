@@ -5,9 +5,9 @@
 		For Ubuntu you can install Tomcat via the following commands.
 		
 		
-			<programlisting>
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/install/installtomcat[]
+[source,text]
+----
+include::res/install/installtomcat[]
 ----
 		
 
