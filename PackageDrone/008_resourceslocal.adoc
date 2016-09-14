@@ -1,0 +1,6 @@
+== PackageDrone resources
+
+Deploying to Package Drone with Maven Tycho - https://dzone.com/articles/deploying-package-drone-maven
+
+
+

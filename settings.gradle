@@ -17,4 +17,5 @@ include 'Nexus'
 include 'SonarQube'
 include 'Artifactory'
 include 'Gradle'
+include 'PackageDrone'
 
