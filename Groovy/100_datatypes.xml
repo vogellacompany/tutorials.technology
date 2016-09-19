@@ -34,7 +34,7 @@ include::res/explained/Type.groovy[]
 			Groovy supports the syntax of generics but does not enforce it. For example, you can put any type into a
 			`<![CDATA[List<Integer>]]>`
 			collection. To enforce type checking in Groovy you can use AST transformations. See
-			<xref linkend="asttransformations" />
+			<<asttransformations" />
 			to learn more about AST transformations.
 		
 

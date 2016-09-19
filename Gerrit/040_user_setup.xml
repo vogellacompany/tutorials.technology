@@ -28,7 +28,7 @@
 		
 			If you want to use SSH you have to upload your SSH key. If you prefer
 			to use HTTPS, skip this step and go to
-			<xref linkend="gerrit_usersetup_https" />
+			<<gerrit_usersetup_https" />
 			.
 		
 		

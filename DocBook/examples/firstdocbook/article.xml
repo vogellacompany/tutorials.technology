@@ -14,19 +14,19 @@
 
 	<chapter>
 === This is the first chapter
-		<section>
+		
 	=== First section in the chapter
 			Test
-			<section>
+			
 		=== First sub section
 				Subsection1
 		
-			<section>
+			
 		=== second sub section
 				 Subsection2
 		
 	
-		<section>
+		
 	=== Second section in the chapter
 			Other random text
 
@@ -42,11 +42,11 @@ image::title.png[]
 
 	<chapter>
 === This is the second chapter
-		<section>
+		
 	=== My Title
 			More...
 	
-		<section>
+		
 	=== Other title
 			Blabla
 	

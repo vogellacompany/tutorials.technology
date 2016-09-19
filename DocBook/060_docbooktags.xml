@@ -163,7 +163,7 @@ include::res/warning/warning.xml[]
 === References to other elements
 		
 			You link to different elements in Docbook with
-			<![CDATA[<xref linkend="id_of_the_element"/> ]]>.
+			<![CDATA[<<id_of_the_element"/> ]]>.
 		
 
 

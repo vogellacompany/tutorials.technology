@@ -106,7 +106,7 @@ menu:Convert[Convert file extension to Groovy ]
 		
 			These annotations triggers a so called AST (Abstract Syntax Tree) transformation during
 			compilation. See
-			<xref linkend="asttransformations" />
+			<<asttransformations" />
 			for more details.
 		
 

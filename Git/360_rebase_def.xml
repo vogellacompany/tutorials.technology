@@ -102,7 +102,7 @@ LARSLINEBREAK
 				commits. This is called
 				_interactive_
 				rebase, see
-				<xref linkend="interactive_rebase" />
+				<<interactive_rebase" />
 				for information about this feature.
 			
 		

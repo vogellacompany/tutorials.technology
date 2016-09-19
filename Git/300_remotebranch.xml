@@ -30,7 +30,7 @@ include::./examples/remotebranch/showremotes.txt[]
 			use the
 			`git fetch`
 			command which is covered in
-			<xref linkend="gitfetch" />
+			<<gitfetch" />
 			.
 		
 

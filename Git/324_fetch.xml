@@ -70,11 +70,11 @@ include::./examples/fetch/fetch.txt[]
 		
 		
 			See
-			<xref linkend="cherrypick_definition" />
+			<<cherrypick_definition" />
 			for information about cherry-pick. See
-			<xref linkend="gitmerge_definition" />
+			<<gitmerge_definition" />
 			for the merge operation and
-			<xref linkend="rebase_branches" />
+			<<rebase_branches" />
 			for the rebase command.
 		
 	
@@ -137,7 +137,7 @@ include::./examples/remotebranch/apply.txt[]
 		<tip>
 			
 				More information on the rebase command can be found in
-				<xref linkend="" />
+				<<" />
 				.
 			
 		

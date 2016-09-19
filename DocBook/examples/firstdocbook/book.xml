@@ -5,11 +5,11 @@
 == Docbook Book Example
 	<chapter>
 === This is the first chapter
-		<section>
+		
 	=== First section in the chapter
 			Random text.
 	
-		<section>
+		
 	=== Second section in the chapter
 			Other random text
 	
@@ -17,11 +17,11 @@
 
 	<chapter>
 === This is the second chapter
-		<section>
+		
 	=== My Title
 			More...
 	
-		<section>
+		
 	=== Other title
 			Blabla
 	

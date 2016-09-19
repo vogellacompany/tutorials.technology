@@ -57,7 +57,7 @@ include::./examples/commandline/git_checkout3[]
 				branch to leave the
 				_detached head mode_
 				. See
-				<xref linkend="detachedheadmode" />
+				<<detachedheadmode" />
 				for details.
 			
 		

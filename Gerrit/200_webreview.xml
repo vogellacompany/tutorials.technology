@@ -77,7 +77,7 @@ image::webreview12.png" scale="30" />
 			rework
 			or that you
 			disagree with the suggested change. See
-			<xref linkend="gerrit_voting" />
+			<<gerrit_voting" />
 			for details of the default voting rules.
 		
 		

@@ -48,7 +48,7 @@ include::./examples/cherry/step4.txt[]
 	<tip>
 		
 			See
-			<xref linkend="commitreference_ranges_doubledot" />
+			<<commitreference_ranges_doubledot" />
 			for more information about commit ranges.
 		
 	

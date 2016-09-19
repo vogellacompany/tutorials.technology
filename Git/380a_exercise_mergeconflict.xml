@@ -69,9 +69,9 @@ include::./examples/merge/createconflict7.txt[]
 
 		
 			The resulting conflict is displayed in
-			<xref linkend="mergeconflict_examplesee" />
+			<<mergeconflict_examplesee" />
 			and solved in
-			<xref linkend="mergeconflict_examplesolve" />
+			<<mergeconflict_examplesolve" />
 		
 		<tip>
 			
@@ -81,7 +81,7 @@ include::./examples/merge/createconflict7.txt[]
 				command together in one step. Whether merge or rebase is used
 				depends on
 				your Git configuration for the branch. See
-				<xref linkend="setup_rebase" />
+				<<setup_rebase" />
 				for the global configuration.
 			
 		
@@ -93,7 +93,7 @@ include::./examples/merge/createconflict7.txt[]
 			Git marks
 			the
 			conflicts in the affected files. In the example from
-			<xref linkend="mergeconflict_examplecreate" />
+			<<mergeconflict_examplecreate" />
 			one
 			file has a conflict and the file looks
 			like
@@ -117,7 +117,7 @@ include::./examples/merge/mergeconflict.txt[]
 		
 			In this example you
 			resolve the conflict which was created in
-			<xref linkend="mergeconflict_examplecreate" />
+			<<mergeconflict_examplecreate" />
 			and
 			apply the change to
 			the Git
