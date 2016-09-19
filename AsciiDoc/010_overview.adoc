@@ -391,6 +391,36 @@ The snippet above will result in the following:
 
 Alternatively % values can be used, e.g., [cols="40%, 60%"].
 
+In order to add special asciidoc elements as lists, Keyboard shortcuts, buttons within a table cell just add an `a` before the `|`.
+This would look like this:
+
+----
+
+.Table with asciidoc elements 
+|===
+|Keyboard shortcuts |List |Button 
+
+a|kbd:[Ctrl+9]
+a|* Test 1
+* Test 2
+* Test 3
+a|btn:[OK]
+
+|===
+----
+
+.Table with asciidoc elements 
+|===
+|Keyboard shortcuts |List |Button 
+
+a|kbd:[Ctrl+9]
+a|* Test 1
+* Test 2
+* Test 3
+a|btn:[OK]
+
+|===
+
 [[source-code]]
 === Source code, using monospace and callouts
 
