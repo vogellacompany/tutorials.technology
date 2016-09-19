@@ -9,7 +9,7 @@ Any text editor can be used. Some websites, like Github, render AsciiDoc files d
 The following listing is an example of a simple Asciidoc file.
 
 ----
-include::examples/first.adoc[]
+include::res/first.adoc[]
 ----
 
 <1> this attribute defines the you want to numbered sections.
