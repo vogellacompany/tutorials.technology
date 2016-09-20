@@ -6,7 +6,7 @@ http://asciidoctor.org/docs/asciidoc-writers-guide/[AsciiDoc writers guide]
 
 http://chimera.labs.oreilly.com/books/1234000001578/ch02.html#_basic_index_entry[How to define an index in Asciidoc]
 
-https://waynebeaton.wordpress.com/2015/08/11/technology-behind-the-new-eclipse-project-handbook/[Eclipse Handbook - Technologies used including Asciidoc]
+https://waynebeaton.wordpress.com/2015/08/11/technology-behind-the-new-eclipse-project-handbook/[Eclipse Handbook[Technologies used including Asciidoc]
 
 https://github.com/opendevise/docbookrx[DocBook to Asciidoc conversion tool]
 

@@ -1,4 +1,5 @@
 [[apachehttp_resources]]
 == Apache HTTP links
 
-http://httpd.apache.org - Apache HTTP Homepage
+http://httpd.apache.org[Apache HTTP Homepage]
+
