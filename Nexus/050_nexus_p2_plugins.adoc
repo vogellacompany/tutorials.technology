@@ -35,8 +35,7 @@ _Repository Name_
 has to be specifed. (1)
 
 The previously installed p2 plugins offer additional providers like
-_p2_
-. (2)
+_p2_. (2)
 
 The
 _Remote Storage Location_
