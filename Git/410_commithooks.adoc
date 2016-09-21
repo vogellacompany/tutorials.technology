@@ -3,7 +3,6 @@
 
 [[gitcommithooks_intro]]
 === Usage of Git hooks
-
 (((commit hooks)))
 Git provides commit hooks, e.g., programs which can be executed at a pre-defined point during the work with the repository. 
 For example, you can ensure that the commit message has a certain format or trigger an action after a push to the server.

@@ -5,7 +5,6 @@
 [[retrievefiles_show]]
 
 === View file in different revision
-
 (((git show)))
 
 The `git show` command allows
@@ -41,9 +40,7 @@ include::./res/restore/restoredeletedfile.txt[]
  
 [[retrievefiles_finddeletedfile]]
 == See which commit deleted a file
-
 (((Find commit which deleted a file in Git)))
-
 (((File deletion log in Git)))
 
 The `git log` command allows you to determine which commit deleted a file.

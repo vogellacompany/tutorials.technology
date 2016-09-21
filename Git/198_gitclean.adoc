@@ -3,7 +3,6 @@
 
 [[gitclean_command]]
 === Removing untracked files
-
 (((git clean)))
 (((Removing untracked files)))
 

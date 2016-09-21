@@ -2,9 +2,7 @@
 == Code review
 	<section id="codereview_process">
 === The code review process
-		<indexterm>
-			<primary>Code review</primary>
-		</indexterm>
+(((Code review)))
 		
 			During a code review process a proposed change
 			is reviewed by
@@ -39,9 +37,7 @@
 
 	<section id="codereview_advantages">
 === Advantages of code review
-		<indexterm>
-			<primary>Advantages of code review</primary>
-		</indexterm>
+(((Advantages of code review)))
 		
 			In general a structured code review process has the following
 			advantages:

@@ -12,8 +12,8 @@
 						Select
 						<menuchoice>
 							<guimenu>File</guimenu>
-							<guisubmenu>Document Properties</guisubmenu>
-						</menuchoice>
+							<guisubmenu>Document Properties]
+						
 						and select the background color. Set the
 						alpha channel
 						to 0.
@@ -26,8 +26,8 @@
 						alpha channel to 0 via
 						<menuchoice>
 							<guimenu>Object</guimenu>
-							<guisubmenu>Fill and Stroke</guisubmenu>
-						</menuchoice>
+							<guisubmenu>Fill and Stroke]
+						
 					
 				
 				*
@@ -35,8 +35,8 @@
 						Afterwards select
 						<menuchoice>
 							<guimenu>File</guimenu>
-							<guisubmenu>Export Bitmap</guisubmenu>
-						</menuchoice>
+							<guisubmenu>Export Bitmap]
+						
 						and save a file with a .png extension.
 					
 				

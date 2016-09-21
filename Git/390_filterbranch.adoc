@@ -3,7 +3,6 @@
 
 [[filterbranch_definition]]
 === Using git filter-branch
-
 (((git filter-branch)))
 
 The `git filter-branch` command allows you to rewrite the Git commit history.

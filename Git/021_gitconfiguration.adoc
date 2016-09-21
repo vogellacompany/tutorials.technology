@@ -45,7 +45,6 @@ If neither the `--system` not the `--global` parameter is used, the setting is s
 
 [[gitsetup_user]]
 === User credential configuration
-
 (((Configuration, user and email)))
 
 You have to configure at least your user and email address to be able to commit to a Git repository because this information is stored in each commit.
@@ -62,7 +61,6 @@ git config --global user.email "your.email@example.org"
 
 [[gitsetup_pushconfiguration]]
 === Push configuration
-
 (((Configuration, push configuration)))
 If your are using Git in a version below 2.0 you should also execute the following command.
 
@@ -79,7 +77,6 @@ You learn about the push command in <<cloneremotes_push>>.
 [[autosetuprebase]]
 
 === Avoid merge commits for pulling
-
 (((Configuration, autosetuprebase)))
 (((autosetuprebase)))
 
@@ -100,7 +97,6 @@ The author of this {contentidentifier} always uses this setting for his Git repo
 [[setup_highlighting]]
 
 === Color Highlighting
-
 (((Configuration, color highlighting)))
 The following commands enables color highlighting for Git in the console.
 
@@ -111,7 +107,6 @@ include::./res/highlight/color.txt[]
  
 [[setup_editor]]
 === Setting the default editor
-
 (((Configuration, default editor)))
 By default Git uses the system default editor which
 is taken from the _VISUAL_ or _EDITOR_ environment variables if set. You
@@ -124,7 +119,6 @@ include::./res/settings/editor.txt[]
  
 [[setup_mergetool]]
 === Setting the default merge tool
-
 (((Configuration, default merge tool)))
 File conflicts might occur in Git during an
 operation which combines different versions of the same files. In this
@@ -154,7 +148,6 @@ manual page]
 [[setup_seesettings]]
 
 === Query Git settings
-
 (((Configuration, query existing configuration)))
 To query your Git settings, execute the following command:
 

@@ -3,7 +3,6 @@
 
 [[tagging_list]]
 === List tags
-
 (((Tags/Tagging, list available tags)))
 You can list the available tags via the following command:
 
@@ -24,7 +23,6 @@ include::./res/tag/search.txt[]
 
 [[tagging_createlightweight]]
 === Creating lightweight tags
-
 (((Tags/Tagging, create lightweight tags)))
 To create a lightweight tag don't use the `-m` , `-a` or `-s` option.
 
@@ -41,7 +39,6 @@ include::./res/tag/createlight.txt[]
 
 [[tagging_createannoted]]
 === Creating annotated tags
-
 (((Tags/Tagging, create annotated tags)))
 
 You can create a new annotated tag via the
@@ -63,7 +60,6 @@ include::./res/tag/createid.txt[]
 
 [[tagging_signedtags]]
 === Creating signed tags
-
 (((Tags/Tagging, signed tags)))
 
 You can use the option `-s` to create a signed tag.
@@ -74,7 +70,6 @@ manpage].
 
 [[tagging_checkout]]
 === Checkout tags
-
 (((Tags/Tagging, checkout tags)))
  
 If you want to use the code associated with the tag, use:
@@ -92,7 +87,6 @@ a branch again. See <<detachedheadmode>> for details.
 
 [[tagging_pushtags]]
 === Push tags
-
 (((Tags/Tagging, pushtag)))
 
 By default the `git push` command does not transfer
@@ -106,7 +100,6 @@ include::./res/tag/push.txt[]
 
 [[tagging_delete]]
 === Delete tags
-
 (((Tags/Tagging, delete tag)))
 
 You can delete tags with the `-d` parameter. This

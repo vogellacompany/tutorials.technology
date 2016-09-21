@@ -2,8 +2,7 @@
 == Installation of Gerrit
 
 	<section id="gerrit_installation_download">
-		<indexterm>
-			<primary>Gerrit</primary>
+(((Gerrit</primary>
 			<secondary>Installation
 			</secondary>
 		</indexterm>
@@ -160,10 +159,7 @@ include::res/install/start.txt[]
 		
 			This starts Gerrit.
 			To stop it again, kill the running process using
-			<keycombo>
-				<keycap>Ctrl</keycap>
-				<keycap>C</keycap>
-			</keycombo>
+			kbd:[Ctrl+C]
 			If something goes wrong, look into the
 			<filename class="directory">logs`
 			folder.

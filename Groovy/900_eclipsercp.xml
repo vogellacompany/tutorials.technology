@@ -13,8 +13,8 @@
 					code via right-mouse click on the project and by selecting
 					<menuchoice>
 						<guimenu> Configure</guimenu>
-						<guisubmenu>Convert to Groovy Project</guisubmenu>
-					</menuchoice>
+						<guisubmenu>Convert to Groovy Project]
+					
 					. This adds the Groovy libraries to the project.
 				
 				

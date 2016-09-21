@@ -279,9 +279,9 @@ image::webreviewpull10.png[]
 				the project
 				<menuchoice>
 					<guimenu>Team</guimenu>
-					<guisubmenu>Remote</guisubmenu>
-					<guisubmenu>Fetch from Gerrit</guisubmenu>
-				</menuchoice>
+					<guisubmenu>Remote]
+					<guisubmenu>Fetch from Gerrit]
+				
 				.
 				When working with many projects, it is often easier to right-click
 				on the repository instead and access

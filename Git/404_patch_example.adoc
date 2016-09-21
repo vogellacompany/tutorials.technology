@@ -3,7 +3,6 @@
 
 [[gitpatch_createandapply]]
 === Create and apply patches
-
 (((Create patch)))
  (((git format-patch)))
 

@@ -3,7 +3,6 @@
 
 [[gitmerge_fastforward]]
 === Fast-forward merge
-
 (((Merging,fast-forward merge)))
 
 If the commits which are merged are direct successors of the _HEAD_ pointer of the current branch, Git performs a so-called _fast forward merge_. 
@@ -25,7 +24,6 @@ image::merge_fastforward20.png[Fast forward merge result]
  
 [[gitmerge_mergecommit]]
 == Merge commit
-
 (((Merging, merge commit)))
 (((Merging, three-way-merge)))
 (((Merging, Merge strategies)))
@@ -51,7 +49,6 @@ This is called the _recursive merge_ strategy and is the default merge strategy.
 
 [[gitmerge_octopus]]
 == Merge strategies - Octopus, Subtree, Ours
-
 (((Merge strategies, Octopus)))
 (((Merge strategies, Subtree)))
 (((Merge strategies, Ours)))

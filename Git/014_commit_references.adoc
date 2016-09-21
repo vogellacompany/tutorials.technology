@@ -5,9 +5,7 @@
 [[commitreference_whatis]]
 
 === Predecessor commits, parents and commit references
-
 (((Commit references)))
-
 (((Simple reference)))
  
 (((Symbolic reference))))
@@ -36,7 +34,6 @@ pointer points to a commit.
 [[commitreference_branchheadreferences]]
 
 === Branch references and the HEAD reference
-
 (((Commit references, Branch)))
 (((Commit references, HEAD)))
 
@@ -58,7 +55,6 @@ The Git terminology is _parent_ for ^ and _ancestor_ for ~.
 [[commitreference_carettilde]]
 
 === Using caret and tilde for commit references
-
 (((caret and tilde for predecessor commit references)))
 
 [reference]~1 describes the first
@@ -89,7 +85,6 @@ image::commitreference20.png[Commit reference pointer example]
 [[commitreference_ranges_doubledot]]
 
 === Commit ranges with the double dot operator
-
 (((Commit ranges, double dot operator)))
 
 You can also specify ranges of commits. This is useful for certain Git
@@ -133,7 +128,6 @@ include::./res/ranges/logranges3[]
 [[commitreference_ranges_tripledot]]
 
 === Commit ranges with the triple dot operator
-
 (((Commit ranges, triple dot operator)))
 
 The triple dot operator allows you to select all

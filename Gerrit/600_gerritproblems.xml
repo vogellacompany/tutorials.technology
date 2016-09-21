@@ -3,9 +3,7 @@
 
 	<section id="gerrit_problems_squashcommits">
 === You forgot to amend the commit
-		<indexterm>
-			<primary>squash commits first</primary>
-		</indexterm>
+(((squash commits first)))
 		
 			If you try to push a commit which contains the same ChangeId as
 			a
@@ -68,8 +66,8 @@ image::gerritissue_solution30.png" scale="30" />
 				view and by selecting
 				<menuchoice>
 					<guimenu>Modify</guimenu>
-					<guisubmenu>Squash</guisubmenu>
-				</menuchoice>
+					<guisubmenu>Squash]
+				
 				from the context menu.
 			
 		
@@ -123,8 +121,8 @@ image::gerrit_rebasebutton10.png[]
 						Commit them using
 						<menuchoice>
 							<guimenu>Rebase</guimenu>
-							<guisubmenu>Continue</guisubmenu>
-						</menuchoice>
+							<guisubmenu>Continue]
+						
 						.
 					
 				</listitem>

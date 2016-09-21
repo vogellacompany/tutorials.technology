@@ -2,8 +2,7 @@
 == Own Git server
 	<section id="gitserver_install">
 === Hosting your own Git server
-		<indexterm>
-			<primary>Git server</primary>
+(((Git server</primary>
 			<secondary>configuration</secondary>
 		</indexterm>
 
@@ -67,8 +66,7 @@ include::res/server/commit.txt[]
 
 	<section id="gitserver_access">
 === Give write access to a Git repository
-		<indexterm>
-			<primary>Git server</primary>
+(((Git server</primary>
 			<secondary>write access</secondary>
 		</indexterm>
 		
@@ -88,12 +86,10 @@ include::res/server/commit.txt[]
 
 	<section id="gitserver_security">
 === Security setup for the git user
-		<indexterm>
-			<primary>Git server</primary>
+(((Git server</primary>
 			<secondary>security</secondary>
 		</indexterm>
-		<indexterm>
-			<primary>Git server</primary>
+(((Git server</primary>
 			<secondary>git-shell</secondary>
 		</indexterm>
 		

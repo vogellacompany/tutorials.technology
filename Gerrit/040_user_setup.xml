@@ -1,10 +1,6 @@
 <section id="gerrit_usersetup">
 == User setup
-	<indexterm>
-		<primary>Gerrit</primary>
-		<secondary>User setup
-		</secondary>
-	</indexterm>
+(((Gerrit,User setup)))
 	<section id="gerrit_usersetupcreate">
 === Create user
 		You require a valid Gerrit user to work with Gerrit.

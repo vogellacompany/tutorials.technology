@@ -1,8 +1,6 @@
 [[svn_migration]]
 == Migrating from SVN
-
 (((svn)))
-
 (((migration)))
 
 To convert Subversion projects to Git you can use a RubyGem called _svn2git_. 

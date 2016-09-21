@@ -5,7 +5,6 @@
 [[analyzechanges_showcommitchanges]]
 
 === See the differences introduced by a commit
-
 (((git diff, changes by a commits)))
 
 To see the changes introduced by a commit use the following command.
@@ -17,7 +16,6 @@ include::./res/changes/diff.txt[]
  
 [[gitdiff_comparetwocommits]]
 === See the difference between two commits
-
 (((git diff, changes between two commits)))
 To see the differences introduced between two commits you use the `git diff` command specifying the commits. 
 For example, the following command shows the differences introduced in the last commit.
@@ -29,7 +27,6 @@ include::./res/diff/diff_commits.txt[]
 
 [[analyzechanges_file]]
 === See the files changed by a commit
-
 (((git diff, changes in a specific file)))
 To see the files which have been changed in
 a commit use the `git diff-tree` command. The `name-only` tells the

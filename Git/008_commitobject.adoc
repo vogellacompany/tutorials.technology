@@ -5,7 +5,6 @@
 [[commit_object]]
 
 === Commit object (commit)
-
 (((Commit object)))
 (((Commit)))
 
@@ -48,7 +47,6 @@ multiple commits.
 [[commits_sha_checksum]]
 
 === Hash and abbreviated commit hash
-
 (((SHA-1 checksum in Git)))
 (((Shortened SHA-1)))
 (((Hash)))

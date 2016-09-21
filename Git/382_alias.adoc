@@ -3,7 +3,6 @@
 
 [[alias_definition]]
 == Using an alias
-
 (((alias)))
 
 An _alias_ in Git allows you to create a short form of one or several existing Git commands. 

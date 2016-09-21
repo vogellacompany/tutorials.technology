@@ -5,7 +5,6 @@
 [[versioncontrolssystems]]
 
 === What is a version control system?
-
 (((Version control system)))
 
 A version control system (VCS) allows you to track the history of a collection of files. 
@@ -42,7 +41,6 @@ Both system makes it also harder to work in parallel on different features.
 
 [[dvcs_definition]]
 === What is a distributed version control system?
-
 (((Version control system, distributed version control system)))
 
 In a distributed version control system each user has a complete local copy of a repository on his individual computer. 

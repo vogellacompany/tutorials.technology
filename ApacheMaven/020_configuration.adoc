@@ -22,7 +22,6 @@ In the _build_ section of th epom you can define plugins for which are needed fo
 
 [[maven_configuration_coordinates]]
 === The GAV as project unique identifier - project coordinates
-
 (((Maven, Coordinates)))
 (((Maven, GAV)))
 

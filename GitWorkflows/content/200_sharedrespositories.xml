@@ -31,8 +31,7 @@
 
 	<section id="gitworkflow_pullpush">
 === Workflow
-		<indexterm>
-			<primary>Git workflow</primary>
+(((Git workflow</primary>
 			<secondary>shared repository</secondary>
 		</indexterm>
 		
@@ -92,8 +91,7 @@
 
 	<section id="gitworkflows_workingbranches">
 === Using branches
-		<indexterm>
-			<primary>Git workflow</primary>
+(((Git workflow</primary>
 			<secondary>using branches</secondary>
 		</indexterm>
 		Even if you have the rights to push to master in a remote

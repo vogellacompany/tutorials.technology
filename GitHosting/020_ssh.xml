@@ -2,9 +2,7 @@
 == Authentication via SSH
 	<section id="ssh_authentication">
 === The concept of SSH
-		<indexterm>
-			<primary>SSH key pair</primary>
-		</indexterm>
+(((SSH key pair)))
 		
 			Most Git (and Gerrit) servers support SSH based authentication. This
 			requires a

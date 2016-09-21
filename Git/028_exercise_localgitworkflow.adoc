@@ -193,7 +193,6 @@ image::firstgit-directory10.png[First Git directory]
 
 [[firstgit_deletefile]]
 === Remove files
-
 (((Repository, remove files)))
 
 If you delete a file, you use the `git add .` command to add the deletion of a file to the staging area. 
@@ -212,9 +211,7 @@ Alternatively you can use the `git rm` command to delete the file from your work
 
 [[firstgit_checkout]]
 === Revert changes in files in the working tree
-
 (((Remove changes in the working tree)))
-
 (((Undo changes in the working tree)))
 
 Use the `git checkout` command to reset a tracked file (a file that was once
@@ -243,7 +240,6 @@ The `git checkout` command deletes the  unstaged and uncommitted changes of trac
 
 [[firstgit_amend]]
 === Correct the changes of the commit with git amend
-
 (((git amend)))
 (((change last commit)))
 
@@ -278,7 +274,6 @@ If that would be the case, they would need to migrate their work based on the ne
 
 [[usegitignore]]
 === Ignore files and directories with the .gitignore file
-
 (((.gitignore)))
 (((gitignore file)))
 

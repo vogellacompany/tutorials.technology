@@ -3,7 +3,6 @@
 
 [[stash_usage1]]
 === The git stash command
-
 (((stashing in Git)))
 (((git stash)))
 

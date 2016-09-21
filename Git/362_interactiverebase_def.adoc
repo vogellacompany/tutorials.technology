@@ -1,6 +1,5 @@
 [[interactive_rebase]]
 = Editing history with the interactive rebase
-
 (((git rebase)))
 (((rebase plan)))
 (((Interactive rebase)))

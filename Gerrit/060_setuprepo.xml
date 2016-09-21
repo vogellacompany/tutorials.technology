@@ -32,14 +32,14 @@ image::gerrit_reposetup10.png[]
 			</imageobject>
 			<textobject>
 				<phrase>Viewing the list of Gerrit repositories</phrase>
-				<guisubmenu>Remote</guisubmenu>
+				<guisubmenu>Remote]
 			</textobject>
 		</mediaobject>
 	
 	
 		Select your project and
 		menu:Access</guimenu>
-		</menuchoice>
+		
 		. For testing give push rights to all registered users, which is the
 		default after
 		a fresh installation. In a productive

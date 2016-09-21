@@ -4,8 +4,7 @@
 	
 	<section id="gitworkflow_patch">
 === Providing a patch
-		<indexterm>
-			<primary>Git workflow</primary>
+(((Git workflow</primary>
 			<secondary>providing patches</secondary>
 		</indexterm>
 		 Git emphasizes the creation of branches for feature development
@@ -56,8 +55,7 @@
 
 	<section id="gitworkflows_workingwithtworepositories">
 === Working with two repositories
-		<indexterm>
-			<primary>Git workflow</primary>
+(((Git workflow</primary>
 			<secondary>using two repositories</secondary>
 		</indexterm>
 		Sometimes you want to add a second remote repository to your
@@ -108,8 +106,7 @@
 
 	<section id="gitworkflows_pullrequests">
 === Using pull requests
-		<indexterm>
-			<primary>Git workflow</primary>
+(((Git workflow</primary>
 			<secondary>providing pull requests</secondary>
 		</indexterm>
 		Another very common Git workflow is the usage of pull requests.

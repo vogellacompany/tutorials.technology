@@ -3,7 +3,6 @@
 
 [[analyzechanges_log]]
 === Using git log
-
 (((git log)))
 
 The `git log` command shows the history of the Git repository. 
@@ -24,7 +23,6 @@ git log COMMIT_REF #<2>
 
 [[git_log_options]]
 === Helpful parameters for git log
-
 (((git log, oneline)))
 (((git log, abbrev-commit)))
 (((git log, graph)))
@@ -54,7 +52,6 @@ https://www.kernel.org/pub/software/scm/git/docs/git-log.html[Git log manpage].
 [[analyzechangesg_changesinafile]]
 
 === View the change history of a file
-
 (((git log, File history)))
 (((File history in Git)))
 To see changes in a file you can use the `-p` option in the `git log` command.
@@ -91,7 +88,6 @@ to define an alias.
 
 [[analyzechanges_grep]]
 === Filtering based on the commit message via regular expressions
-
 (((Search, Regular expression)))
 
 You can filter the output of the `git log` command to commits whose commit message, or reflog entry,
@@ -111,7 +107,6 @@ There is also the `--invert-grep=<pattern>` option. When this option is used, gi
 [[analyzechanges_user]]
 
 === Filtering the log output based on author or committer
-
 (((Changes by a certain author or committer)))
 (((Search, Git commits by author or committer)))
 

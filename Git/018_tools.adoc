@@ -27,7 +27,6 @@ git commit --message "This is a message"
 [[git_tools_commandline_doublehyphens]]
 
 === Separating parameters and file arguments in Git commands
-
 (((Separating files and parameter arguments in Git)))
 (((Double hyphen (--) usage in Git)))
 

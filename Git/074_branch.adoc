@@ -1,6 +1,5 @@
 [[gitbranch_listbranches]]
 === List available branches
-
 (((git branch)))
 The `git branch` command lists all local branches. The currently active branch is marked with `*`.
 
@@ -29,7 +28,6 @@ include::./res/commandline/git_brancheslist3.commands[]
 
 [[gitbranch_createnewbranch]]
 === Create new branch
-
 (((Branch, Create new branch)))
 (((git branch)))
 You can create a new branch via the `git branch [newname]` command. 
@@ -43,7 +41,6 @@ include::./res/branch/git_create_branch[]
 
 [[gitbranch_checkout]]
 === Checkout branch
-
 (((checkout branch)))
 (((git checkout)))
 To start working in a branch you have to _checkout_ the branch. If you _checkout_ a branch, the HEAD pointer
@@ -69,7 +66,6 @@ include::./res/branch/git_createcheckout[]
 
 [[git_rename_branch]]
 === Rename a branch
-
 (((rename branch)))
 Renaming a branch can be done with the following command.
 
@@ -80,7 +76,6 @@ include::./res/branch/git_rename_branch[]
 
 [[gitdeletebrach]]
 === Delete a branch
-
 (((delete local branch)))
 To delete a branch which is not needed anymore, you can use the following command. You may
 get an error message that there are uncommited changes if you did the
@@ -94,7 +89,6 @@ include::./res/branch/git_delete_branch[]
 
 [[gitpushbranch]]
 === Push changes of a branch to a remote repository
-
 (((push branch)))
 You can push the changes in a branch to a remote repository by specifying the
 target branch. This creates the target branch in the remote repository
@@ -138,7 +132,6 @@ branches and remote repositories in <<gitremotebranch_overview>>.
 [[gitbranch_untrackedfiles]]
 
 === Switching branches with untracked files
-
 (((switch branch, with untrack files)))
 
 Untracked files (never added to the staging
@@ -150,7 +143,6 @@ at any point in time.
 [[gitbranch_dirtyfiles]]
 
 === Switching branches with uncommitted changes
-
 (((switch branch,with uncommitted changes)))
 
 Similar to untracked files you can switch branches with unstaged or staged modifications which are not yet committed.
@@ -167,7 +159,6 @@ You can also always create a new branch based on the current HEAD.
 [[gitdiffbranches]]
 
 === Differences between branches
-
 (((difference between branches)))
 (((git diff, for branches)))
 To see the difference between two branches you can use the following command.

@@ -3,9 +3,7 @@
 
 	<section id="hosting_github_what">
 === What is GitHub?
-		<indexterm>
-			<primary>GitHub</primary>
-		</indexterm>
+(((GitHub)))
 
 		
 			GitHub
@@ -133,8 +131,7 @@ image::github20.png" scale="30" />
 
 	<section id="hosting_github_mergingpullrequests">
 === Merging pull request at GitHub
-		<indexterm>
-			<primary>GitHub</primary>
+(((GitHub</primary>
 			<secondary>Merging pull requests</secondary>
 		</indexterm>
 		

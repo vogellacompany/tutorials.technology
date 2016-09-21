@@ -40,10 +40,8 @@ image::gerrit_pushconfiguration10.png[]
 
 	
 		You can see the Gerrit review notes in Eclipse. Select
-		menu:Open in
-				Commit Viewer
-			</guimenu>
-		</menuchoice>
+		menu:Open in Commit Viewer[]
+		
 		on a commit in the History View. In the Commit Viewer you have
 		an
 		additional tab called

@@ -59,9 +59,7 @@ about the `git reset` command see ? .
 
 [[undochanges_checkout]]
 === Remove changes in the working tree
-
 (((git checkout, Checkout version from staging area)))
-
 (((Undo changes in the working tree)))
 
 [WARNING]
@@ -91,7 +89,6 @@ include::./res/delete/restoredir_notstaged.txt[]
  
 [[undochanges_directorydeletion]]
 === Remove changes in the working tree and the staging area
-
 (((git checkout, undo staged changes)))
 If you want to undo a staged but uncommitted
 change, you use the `git checkout [commit-pointer] [paths]` command.

@@ -5,7 +5,6 @@
 [[detachedheadmode]]
 
 == Detached HEAD
-
 (((Detached HEAD)))
 
 If you checkout a commit
@@ -19,7 +18,6 @@ To find such commits you can use the `git reflog` command.
 [[gitreflog_definition]]
 
 == git reflog
-
 (((git reflog)))
 
 Reflog is a mechanism to record the movements of the _HEAD_ and the branches references.

@@ -5,7 +5,6 @@
 [[remotes_definition]]
 
 === What are remotes?
-
 (((Repository, remote)))
 (((Remote repositories)))
 _Remotes_ are URLs in a Git
@@ -42,7 +41,6 @@ system.
 [[bareremotes_definition]]
 
 === Bare repositories
-
 (((Repository, bare)))
 (((Bare repository)))
 A remote repository on a server typically does
@@ -80,7 +78,6 @@ repository with the `--bare` option.
 [[remotes_cloneoperation]]
 
 === Cloning a repository
-
 (((Repository)))
 (((Clone repository with Git)))
 (((Protocols supported by Git)))
@@ -118,7 +115,6 @@ include::./res/remote/checkouthttp.txt[]
 
 [[remote_add]]
 === Adding remote repositories
-
 (((origin)))
 If you clone a repository, Git implicitly creates a _remote_ named _origin_ by default. 
 The _origin_ _remote_ links back to the cloned repository.
@@ -199,7 +195,6 @@ http://git-scm.com/docs/git-config[Git config manpage].
 ====
 
 === Adding a remote repository
-
 (((Repository, add more remote repositories)))
 
 You add as many _remotes_ to your repository as
@@ -216,7 +211,6 @@ include::./res/remoteadd/gitremoteadd.txt[]
 
 [[remotes_remote_synchronize]]
 === Synchronizing with remote repositories
-
 (((Synchronize repositories more remotes)))
 
 You can synchronize your local Git repository with remote repositories.
@@ -231,7 +225,6 @@ include::./res/remoteadd/gitremotepush.txt[]
 [[remotes_showremote]]
 
 === Show the existing remotes
-
 (((Repository, show existing remotes)))
 
 To see the existing definitions of the remote repositories, use the following command.
@@ -256,7 +249,6 @@ git remote -v
 [[cloneremotes_push]]
 
 === Push changes to another repository
-
 (((push)))
 (((git push)))
 
@@ -276,7 +268,6 @@ manpage] for general information.
 [[cloneremotes_pull]]
 
 === Pull changes from a remote repository
-
 (((pull)))
 (((git pull)))
 The `git pull` command allows you to get the

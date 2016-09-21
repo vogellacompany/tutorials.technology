@@ -1,6 +1,5 @@
 [[gitpatch]]
 == What is a patch file?
-
 (((Patch)))
 
 A _patch_ is a text file that contains changes to other text files in a standarized format.

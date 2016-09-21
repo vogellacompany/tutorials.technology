@@ -1,7 +1,6 @@
 [[gitbranch_def]]
 
 === What are branches?
-
 (((Branches in Git)))
 
 Git allows you to create _branches_, i.e. named pointers to commits. 

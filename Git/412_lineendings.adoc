@@ -3,7 +3,6 @@
 
 [[line_feedendings_platform]]
 === Line endings of the different platforms
-
 (((line endings)))
 (((linefeed characters)))
 
@@ -41,7 +40,6 @@ include::./res/linefeed/linux.txt[]
  
 [[line_feedendings_gitattributes]]
 === Configuring line ending settings per repository
-
 (((.gitattributes )))
 
 You can also configure the line ending handling per repository by adding a special `.gitattributes` file to the root folder of your Git repository. 

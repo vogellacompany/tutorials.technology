@@ -3,7 +3,6 @@
 
 [[gitremotebranch_overview]]
 === Remote tracking branches
-
 (((Remote-tracking branch)))
 
 Your local Git repository contains references to the state of the branches on the remote repositories to which it is connected. 
@@ -20,7 +19,6 @@ To update remote-tracking branches without changing local branches you use the `
 See <<gitfetch>> for more information.
 
 [[gitremotebranch_delete]]
-
 (((Remote tracking branch, delete in local repository)))
 
 It is safe to delete a remote branch in your local Git repository, this does not affect a remote repository.
@@ -35,7 +33,6 @@ include::./res/remotebranch/delete.txt[]
 
 [[gitremotebranch_deleteremote]]
 === Delete a remote branch
-
 (((Remote tracking branch, delete in remote repository)))
 
 To delete the branch in a remote repository use the following command.
@@ -47,7 +44,6 @@ include::./res/remotebranch/deleteremotebranch.txt[]
 
 [[git_trackingbranches]]
 == Tracking branches
-
 (((Tracking branch)))
 
 Branches can track another branch. This is called _to have an upstream branch_ and such branches can be referred to as _tracking branches_.

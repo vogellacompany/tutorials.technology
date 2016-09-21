@@ -3,7 +3,6 @@
 
 [[rebase_branches]]
 == Rebasing branches
-
 (((git rebase)))
 
 You can use Git to rebase one branch on another one. 

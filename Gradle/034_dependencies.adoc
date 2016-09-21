@@ -1,7 +1,6 @@
 == Dependency management for Java projects
 
 === Managing dependencies with Gradle
-
 (((Gradle,Dependencies)))
 (((Gradle, Specifying dependencies)))
 (((Gradle,classpath)))
