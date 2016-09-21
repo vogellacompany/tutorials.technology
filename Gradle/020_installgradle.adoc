@@ -27,13 +27,13 @@ By pressing Win + Pause the system settings can be opened.
 image::system_settings.png[Windows System Settings]
 	
 		
-First the _Advanced System Settings_ have to be selected and then the _Environment Variables_ button needs to be pressed.
+First the _Advanced System Settings_ have to be selected and then the btn:[Environment Variables] button needs to be pressed.
 		
 image::user_and_system_variables.png[Windows User and System Variables]
 
 		
 In the _Environment Variables_ dialog the (1) GRADLE_HOME and JAVA_HOME user variables should be set.
-After that the (2) Path entry in the _system variables_ is selected, the _modify_ button can be pressed to add the _bin_ folder of the Gradle installation to the Path.
+After that the (2) Path entry in the _system variables_ is selected, the btn:[modify] button can be pressed to add the _bin_ folder of the Gradle installation to the Path.
 		
 image::path_variables.png"[Windows Path Variables]
 	

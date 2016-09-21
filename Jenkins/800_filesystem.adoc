@@ -10,7 +10,7 @@ The _jobs_ directory contains the individual jobs configured in the Jenkins inst
 You can move a job from one Jenkins installation to another by copying the corresponding job directory. 
 You can also copy a job directory to clone a job or rename the directory.
 		
-Click _reload config_ button in the Jenkins web user interface to force Jenkins to reload configuration from the disk.
+Click btn:[reload config] button in the Jenkins web user interface to force Jenkins to reload configuration from the disk.
 		
 See the following link for details: https://wiki.jenkins-ci.org/display/JENKINS/Administering+Jenkins
 

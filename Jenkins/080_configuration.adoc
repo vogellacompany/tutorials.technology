@@ -11,7 +11,7 @@ image::jenkins10.png[Jenkins at first startup]
 
 		
 		
-Enter the correct path to your JDK, Apache Ant and Maven and press the _Save_ button below. 
+Enter the correct path to your JDK, Apache Ant and Maven and press the btn:[Save] button below. 
 Jenkins can also install these for your automatically.
 		
 image::jenkins20.png[Configuring Jenkins]
