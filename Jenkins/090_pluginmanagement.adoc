@@ -16,7 +16,7 @@ Select it from the list and select to install it and restart Jenkins.
 The following table is a summary of commonly used plug-ins.
 
 .Table Jenkins plug-ins
-[cols="1,2,2"]
+[cols="1,2,2",options="header"]
 |===
 |Plug-in name |Description |URL
 

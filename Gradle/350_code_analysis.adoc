@@ -4,7 +4,7 @@
 Gradle provides several plugins for analyzing the code base of a Gradle project.
 
 .Table Gradle Code Analysis Tools
-[cols="1,1,2"]
+[cols="1,1,2",options="header"]
 |===
 |Tool |Plugin |Description
 	
