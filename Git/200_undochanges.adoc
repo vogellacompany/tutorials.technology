@@ -29,28 +29,28 @@ file. Both changes are staged.
 
 [source,console]
 ----
-include::./examples/deletefile/stageunwantedchanges.txt[]
+include::./res/deletefile/stageunwantedchanges.txt[]
 ----
 
 The output of `git status` command should look similar to the following.
 
 [source,console]
 ----
-include::./examples/deletefile/stageunwantedchanges_result.txt[]
+include::./res/deletefile/stageunwantedchanges_result.txt[]
 ----
 
 Remove the changes from the staging area with the following command.
 
 [source,console]
 ----
-include::./examples/deletefile/unstage.txt[]
+include::./res/deletefile/unstage.txt[]
 ----
 
 Use the `git status` command to see the result.
 
 [source,console]
 ----
-include::./examples/deletefile/unstage_result.txt[]
+include::./res/deletefile/unstage_result.txt[]
 ----
 
 The `git reset`
@@ -78,7 +78,7 @@ committed version is used for the restore operation.
 
 [source,console]
 ----
-include::./examples/delete/git_checkoutfile.txt[]
+include::./res/delete/git_checkoutfile.txt[]
 ---- 
 
 For example, you can restore the content of a directory called
@@ -86,7 +86,7 @@ For example, you can restore the content of a directory called
 
 [source,console]
 ----
-include::./examples/delete/restoredir_notstaged.txt[]
+include::./res/delete/restoredir_notstaged.txt[]
 ----
  
 [[undochanges_directorydeletion]]
@@ -102,7 +102,7 @@ directory.
 
 [source,console]
 ----
-include::./examples/delete/restoredir.txt[]
+include::./res/delete/restoredir.txt[]
 ----
 
 The additional commit pointer parameter instructs the `git checkout`
@@ -116,5 +116,5 @@ also revert the changes in the staging area base on the last commit.
 
 [source,console]
 ----
-include::./examples/commandline/git_revert[]
+include::./res/commandline/git_revert[]
 ----

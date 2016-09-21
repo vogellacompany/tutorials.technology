@@ -19,7 +19,7 @@
 		
 		[source,console]
 ----
-include::./examples/commandline/git_merge[]
+include::./res/commandline/git_merge[]
 ----
 	
 	<section id="gitmerge_mergeoptionsstrategies">
@@ -42,7 +42,7 @@ include::./examples/commandline/git_merge[]
 		
 		[source,console]
 ----
-include::./examples/merge/mergeours.txt[]
+include::./res/merge/mergeours.txt[]
 ----
 		<warning>
 			
@@ -59,7 +59,7 @@ include::./examples/merge/mergeours.txt[]
 
 		[source,console]
 ----
-include::./examples/merge/mergeoctupus.txt[]
+include::./res/merge/mergeoctupus.txt[]
 ----
 
 	
@@ -110,7 +110,7 @@ include::./examples/merge/mergeoctupus.txt[]
 		
 		[source,console]
 ----
-include::./examples/merge/mergeours2.txt[]
+include::./res/merge/mergeours2.txt[]
 ----
 
 		

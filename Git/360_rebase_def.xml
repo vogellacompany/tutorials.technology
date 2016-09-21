@@ -184,7 +184,7 @@ LARSLINEBREAK
 			
 			[source,console]
 ----
-include::./examples/rebase/forcedpush.txt[]
+include::./res/rebase/forcedpush.txt[]
 ----
 		
 	

@@ -23,7 +23,7 @@
 
 		[source,console]
 ----
-include::./examples/fetch/fetch.txt[]
+include::./res/fetch/fetch.txt[]
 ----
 
 
@@ -94,7 +94,7 @@ include::./examples/fetch/fetch.txt[]
 
 		[source,console]
 ----
-include::./examples/remote/gitupdate.txt[]
+include::./res/remote/gitupdate.txt[]
 ----
 	
 
@@ -105,7 +105,7 @@ include::./examples/remote/gitupdate.txt[]
 		
 		[source,console]
 ----
-include::./examples/remotebranch/compare.txt[]
+include::./res/remotebranch/compare.txt[]
 ----
 		
 			The above commands show the changes introduced in HEAD compared
@@ -132,7 +132,7 @@ include::./examples/remotebranch/compare.txt[]
 		
 		[source,console]
 ----
-include::./examples/remotebranch/apply.txt[]
+include::./res/remotebranch/apply.txt[]
 ----
 		<tip>
 			

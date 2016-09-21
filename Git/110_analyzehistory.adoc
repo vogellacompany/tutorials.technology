@@ -79,7 +79,7 @@ You can use the `--pretty` parameter to configure the output.
 
 [source,console]
 ----
-include::./examples/log/pretty.txt[]
+include::./res/log/pretty.txt[]
 ----
 
 This command creates the output.

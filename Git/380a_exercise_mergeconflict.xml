@@ -23,17 +23,17 @@
 
 		[source,console]
 ----
-include::./examples/merge/createconflict1.txt[]
+include::./res/merge/createconflict1.txt[]
 ----
 
 		[source,console]
 ----
-include::./examples/merge/createconflict2.txt[]
+include::./res/merge/createconflict2.txt[]
 ----
 
 		[source,console]
 ----
-include::./examples/merge/createconflict3.txt[]
+include::./res/merge/createconflict3.txt[]
 ----
 
 		As this push would not result in a non-fast-format merge, you
@@ -42,7 +42,7 @@ include::./examples/merge/createconflict3.txt[]
 
 		[source,console]
 ----
-include::./examples/merge/createconflict4.txt[]
+include::./res/merge/createconflict4.txt[]
 ----
 
 		
@@ -55,7 +55,7 @@ include::./examples/merge/createconflict4.txt[]
 		
 		[source,console]
 ----
-include::./examples/merge/createconflict5.txt[]
+include::./res/merge/createconflict5.txt[]
 ----
 		
 			This creates the conflict and a message similar to the
@@ -63,7 +63,7 @@ include::./examples/merge/createconflict5.txt[]
 		
 		[source,console]
 ----
-include::./examples/merge/createconflict7.txt[]
+include::./res/merge/createconflict7.txt[]
 ----
 
 
@@ -102,7 +102,7 @@ include::./examples/merge/createconflict7.txt[]
 		
 		[source,console]
 ----
-include::./examples/merge/mergeconflict.txt[]
+include::./res/merge/mergeconflict.txt[]
 ----
 
 		
@@ -129,7 +129,7 @@ include::./examples/merge/mergeconflict.txt[]
 		
 		[source,console]
 ----
-include::./examples/merge/mergeconflictsolved.txt[]
+include::./res/merge/mergeconflictsolved.txt[]
 ----
 		
 			Afterwards add the affected file to the staging area and
@@ -141,7 +141,7 @@ include::./examples/merge/mergeconflictsolved.txt[]
 
 		[source,console]
 ----
-include::./examples/merge/createconflict6.txt[]
+include::./res/merge/createconflict6.txt[]
 ----
 
 		

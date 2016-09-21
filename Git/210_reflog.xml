@@ -44,7 +44,7 @@
 		
 		[source,console]
 ----
-include::./examples/reflog/see.txt[]
+include::./res/reflog/see.txt[]
 ----
 		
 			The
@@ -75,7 +75,7 @@ include::./examples/reflog/see.txt[]
 		
 		[source,console]
 ----
-include::./examples/reflog/remove.txt[]
+include::./res/reflog/remove.txt[]
 ----
 	
 

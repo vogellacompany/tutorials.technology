@@ -6,7 +6,7 @@
 	
 	[source,console]
 ----
-include::./examples/cherry/step1.txt[]
+include::./res/cherry/step1.txt[]
 ----
 
 	
@@ -18,7 +18,7 @@ include::./examples/cherry/step1.txt[]
 	
 	[source,console]
 ----
-include::./examples/cherry/step2.txt[]
+include::./res/cherry/step2.txt[]
 ----
 
 	
@@ -32,7 +32,7 @@ include::./examples/cherry/step2.txt[]
 	
 	[source,console]
 ----
-include::./examples/cherry/step3.txt[]
+include::./res/cherry/step3.txt[]
 ----
 	
 		The
@@ -43,7 +43,7 @@ include::./examples/cherry/step3.txt[]
 	
 	[source,console]
 ----
-include::./examples/cherry/step4.txt[]
+include::./res/cherry/step4.txt[]
 ----
 	<tip>
 		
@@ -58,6 +58,6 @@ include::./examples/cherry/step4.txt[]
 	
 	[source,console]
 ----
-include::./examples/cherry/step5.txt[]
+include::./res/cherry/step5.txt[]
 ----
 

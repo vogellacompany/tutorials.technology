@@ -53,7 +53,7 @@ repository is displayed below.
 
 [source,console]
 ----
-include::./examples/create/gitinitbare.txt[] 
+include::./res/create/gitinitbare.txt[] 
 ----
 
 By convention the name of a bare repository should end with the `.git`
@@ -97,7 +97,7 @@ firewalls.
 
 [source,console]
 ----
-include::./examples/remote/checkout.txt[]
+include::./res/remote/checkout.txt[]
 ----
 
 If you have SSH access to a Git repository, you can also use the `ssh`
@@ -106,14 +106,14 @@ connection.
 
 [source,console]
 ----
-include::./examples/remote/checkoutssh.txt[] 
+include::./res/remote/checkoutssh.txt[] 
 ----
 
 Alternatively you could clone the same repository via the `http` protocol.
 
 [source,console]
 ----
-include::./examples/remote/checkouthttp.txt[]
+include::./res/remote/checkouthttp.txt[]
 ---- 
 
 [[remote_add]]
@@ -135,7 +135,7 @@ the http protocol via the following command.
 
 [source,console]
 ----
-include::./examples/add/addremote.txt[]
+include::./res/add/addremote.txt[]
 ----
 
 [[remote_rename]]
@@ -146,7 +146,7 @@ command. This is demonstrated by the following listing.
 
 [source,console]
 ----
-include::./examples/add/renameremote.txt[]
+include::./res/add/renameremote.txt[]
 ----
 
 If you create a Git repository from scratch with the `git init` command,
@@ -162,7 +162,7 @@ This is especially helpful if your firewall blocks everything except HTTP or HTT
 
 [source,console]
 ----
-include::./examples/proxy/http.txt[]
+include::./res/proxy/http.txt[]
 ----
 
 For secured SSL encrypted communication you should use the SSH or HTTPS
@@ -181,14 +181,14 @@ The following listing configures the proxy via environment variables.
 
 [source,console]
 ----
-include::./examples/proxy/proxy.txt[]
+include::./res/proxy/proxy.txt[]
 ----
 
 The following listing configures the proxy via Git config settings.
 
 [source,console]
 ----
-include::./examples/proxy/proxy2.txt[]
+include::./res/proxy/proxy2.txt[]
 ----
 
 [TIP]
@@ -211,7 +211,7 @@ name.
 
 [source,console]
 ----
-include::./examples/remoteadd/gitremoteadd.txt[]
+include::./res/remoteadd/gitremoteadd.txt[]
 ---- 
 
 [[remotes_remote_synchronize]]
@@ -225,7 +225,7 @@ command demonstrates how you can send changes to your remote repository.
 
 [source,console]
 ----
-include::./examples/remoteadd/gitremotepush.txt[]
+include::./res/remoteadd/gitremotepush.txt[]
 ---- 
 
 [[remotes_showremote]]

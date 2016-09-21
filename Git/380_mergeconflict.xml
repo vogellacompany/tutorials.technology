@@ -75,12 +75,12 @@
 		
 		[source,console]
 ----
-include::./examples/rebase/ours.txt[]
+include::./res/rebase/ours.txt[]
 ----
 
 		[source,console]
 ----
-include::./examples/rebase/theirs.txt[]
+include::./res/rebase/theirs.txt[]
 ----
 
 	

@@ -42,7 +42,7 @@
 
 		[source,console]
 ----
-include::./examples/linefeed/windows.txt[]
+include::./res/linefeed/windows.txt[]
 ----
 
 		On Linux and Mac you can tell Git to convert CRLF  to
@@ -50,7 +50,7 @@ include::./examples/linefeed/windows.txt[]
 		
 		[source,console]
 ----
-include::./examples/linefeed/linux.txt[]
+include::./res/linefeed/linux.txt[]
 ----
 
 	

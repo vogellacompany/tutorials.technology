@@ -19,14 +19,14 @@ The following command shows the log.
 
 [source,console]
 ----
-include::./examples/commandline/git_checkout1[]
+include::./res/commandline/git_checkout1[]
 ---- 
 
 The following listing shows an example output of a Git log command.
 
 [source,console]
 ----
-include::./examples/commandline/git_checkout2[]
+include::./res/commandline/git_checkout2[]
 ---- 
 [[undochanges_checkoutcommits2]]
 == Example: Checkout a commit
@@ -35,7 +35,7 @@ To checkout a specific commit you can use the following command.
 
 [source,console]
 ----
-include::./examples/commandline/git_checkout3[]
+include::./res/commandline/git_checkout3[]
 ----
 
 [WARNING]

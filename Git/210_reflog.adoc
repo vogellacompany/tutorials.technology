@@ -28,7 +28,7 @@ The reflog command gives a history of the complete changes of the _HEAD_ referen
 
 [source,console]
 ----
-include::./examples/reflog/see.txt[]
+include::./res/reflog/see.txt[]
 ----
 
 The `git reflog` command also list commits which you have removed.
@@ -50,5 +50,5 @@ branch anymore.
 
 [source,console]
 ----
-include::./examples/reflog/remove.txt[]
+include::./res/reflog/remove.txt[]
 ----

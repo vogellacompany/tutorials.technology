@@ -21,7 +21,7 @@
 		
 		[source,console]
 ----
-include::./examples/remotebranch/showremotes.txt[]
+include::./res/remotebranch/showremotes.txt[]
 ----
 
 		
@@ -49,7 +49,7 @@ include::./examples/remotebranch/showremotes.txt[]
 
 		[source,console]
 ----
-include::./examples/remotebranch/delete.txt[]
+include::./res/remotebranch/delete.txt[]
 ----
 		
 			The next time you run the
@@ -70,12 +70,12 @@ include::./examples/remotebranch/delete.txt[]
 
 		[source,console]
 ----
-include::./examples/remotebranch/deleteremotebranch2.txt[]
+include::./res/remotebranch/deleteremotebranch2.txt[]
 ----
 		Alternatively you can also use the following command. 
 		[source,console]
 ----
-include::./examples/remotebranch/deleteremotebranch.txt[]
+include::./res/remotebranch/deleteremotebranch.txt[]
 ----
 		
 			For example if you want to delete the branch called
@@ -88,7 +88,7 @@ include::./examples/remotebranch/deleteremotebranch.txt[]
 
 		[source,console]
 ----
-include::./examples/remotebranch/deleteremotebranch3.txt[]
+include::./res/remotebranch/deleteremotebranch3.txt[]
 ----
 
 		<note>
@@ -98,7 +98,7 @@ include::./examples/remotebranch/deleteremotebranch3.txt[]
 
 			[source,console]
 ----
-include::./examples/remotebranch/deleteremotebranch4.txt[]
+include::./res/remotebranch/deleteremotebranch4.txt[]
 ----
 		
 
@@ -156,7 +156,7 @@ include::./examples/remotebranch/deleteremotebranch4.txt[]
 		
 		[source,console]
 ----
-include::./examples/remotebranch/trackingbranch.txt[]
+include::./res/remotebranch/trackingbranch.txt[]
 ----
 
 
@@ -169,7 +169,7 @@ include::./examples/remotebranch/trackingbranch.txt[]
 		
 		[source,console]
 ----
-include::./examples/remotebranch/create.txt[]
+include::./res/remotebranch/create.txt[]
 ----
 
 		
@@ -182,7 +182,7 @@ include::./examples/remotebranch/create.txt[]
 		
 		[source,console]
 ----
-include::./examples/remotebranch/update.txt[]
+include::./res/remotebranch/update.txt[]
 ----
 
 
@@ -197,12 +197,12 @@ include::./examples/remotebranch/update.txt[]
 		
 		[source,console]
 ----
-include::./examples/remotebranch/showtrackingbranches.txt[]
+include::./res/remotebranch/showtrackingbranches.txt[]
 ----
 		An example output of this might look as follows. 
 		[source,console]
 ----
-include::./examples/remotebranch/output.txt[]
+include::./res/remotebranch/output.txt[]
 ----
 	
 

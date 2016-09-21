@@ -11,28 +11,28 @@ The following example creates a branch, changes several files and creates a comm
 
 [source,console]
 ----
-include::./examples/patch/patch1.txt[]
+include::./res/patch/patch1.txt[]
 ----
  The
 next example creates a patch for these changes.
 
 [source,console]
 ----
-include::./examples/patch/patch2.txt[]
+include::./res/patch/patch2.txt[]
 ----
 
 To apply this patch to your master branch in a different clone of the repository, switch to it and use the `git apply` command.
 
 [source,console]
 ----
-include::./examples/patch/patch3.txt[]
+include::./res/patch/patch3.txt[]
 ----
 
 Afterwards you can commit the changes introduced by the patches and delete the patch file.
 
 [source,console]
 ----
-include::./examples/patch/patch4.txt[]
+include::./res/patch/patch4.txt[]
 ----
 
 [TIP]
@@ -51,5 +51,5 @@ the HEAD pointer you can use the following commands.
 
 [source,console]
 ----
-include::./examples/patch/patch5.txt[]
+include::./res/patch/patch5.txt[]
 ----

@@ -30,7 +30,7 @@
 		
 		[source,console]
 ----
-include::./examples/alias/staged.txt[]
+include::./res/alias/staged.txt[]
 ----
 
 
@@ -48,7 +48,7 @@ include::./examples/alias/staged.txt[]
 		
 		[source,console]
 ----
-include::./examples/alias/log.txt[]
+include::./res/alias/log.txt[]
 ----
 		
 			You can also run external commands. In this case you start the
@@ -65,7 +65,7 @@ include::./examples/alias/log.txt[]
 		
 		[source,console]
 ----
-include::./examples/alias/alias.txt[]
+include::./res/alias/alias.txt[]
 ----
 		<warning>
 			

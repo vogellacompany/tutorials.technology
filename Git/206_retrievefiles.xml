@@ -35,7 +35,7 @@
 		
 		[source,console]
 ----
-include::./examples/show/showrev.txt[]
+include::./res/show/showrev.txt[]
 ----
 
 	
@@ -53,7 +53,7 @@ include::./examples/show/showrev.txt[]
 
 		[source,console]
 ----
-include::./examples/restore/restoredeletedfile.txt[]
+include::./res/restore/restoredeletedfile.txt[]
 ----
 	
 
@@ -85,7 +85,7 @@ include::./examples/restore/restoredeletedfile.txt[]
 		
 		[source,console]
 ----
-include::./examples/show/delete.txt[]
+include::./res/show/delete.txt[]
 ----
 
 	

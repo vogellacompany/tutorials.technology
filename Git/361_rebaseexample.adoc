@@ -5,5 +5,5 @@ The following demonstrates how to perform a rebase operation.
 
 [source,console]
 ----
-include::./examples/rebase/git_rebase[]
+include::./res/rebase/git_rebase[]
 ----

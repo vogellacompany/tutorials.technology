@@ -20,7 +20,7 @@ The `git reset --hard` command makes the working tree exactly match HEAD.
 
 [source,console]
 ----
-include::./examples/delete/cleanworking.txt[]
+include::./res/delete/cleanworking.txt[]
 ----
 
 [WARNING]
@@ -49,7 +49,7 @@ from the commits which were reseted are still part of the staging area.
 
 [source,console]
 ----
-include::./examples/delete/squash.txt[]
+include::./res/delete/squash.txt[]
 ----
 
 The interactive rebase adds more flexibility to squashing commits and allows to use the existing commit messages. See <<interactive_rebase>> for details.

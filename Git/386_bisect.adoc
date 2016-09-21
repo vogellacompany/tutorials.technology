@@ -22,7 +22,7 @@ Ensure that this file is executable.
 
 [source,console]
 ----
-include::./examples/bisect/check.sh[]
+include::./res/bisect/check.sh[]
 ----
 
 Afterwards use the `git bisect` command to find the bad commit. First
@@ -32,14 +32,14 @@ problem).
 
 [source,console]
 ----
-include::./examples/bisect/bisect_start.txt[]
+include::./res/bisect/bisect_start.txt[]
 ---- 
 
 Afterwards run the bisect command using the shell script.
 
 [source,console]
 ----
-include::./examples/bisect/bisectrun.txt[]
+include::./res/bisect/bisectrun.txt[]
 ----
 
 [TIP]

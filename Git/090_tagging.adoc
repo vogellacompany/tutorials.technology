@@ -9,7 +9,7 @@ You can list the available tags via the following command:
 
 [source,console]
 ----
-include::./examples/tag/list.txt[]
+include::./res/tag/list.txt[]
 ----
 
 [[tag_searchbypattern]]
@@ -19,7 +19,7 @@ You can use the `-l` parameter in the `git tag` command to search for a pattern 
 
 [source,console]
 ----
-include::./examples/tag/search.txt[]
+include::./res/tag/search.txt[]
 ----
 
 [[tagging_createlightweight]]
@@ -36,7 +36,7 @@ than a build identifier or the timestamp.
 
 [source,console]
 ----
-include::./examples/tag/createlight.txt[]
+include::./res/tag/createlight.txt[]
 ----
 
 [[tagging_createannoted]]
@@ -51,14 +51,14 @@ following command tags the current active HEAD.
 
 [source,console]
 ----
-include::./examples/tag/create.txt[]
+include::./res/tag/create.txt[]
 ----
 
 You can also create tags for a certain commit id.
 
 [source,console]
 ----
-include::./examples/tag/createid.txt[]
+include::./res/tag/createid.txt[]
 ----
 
 [[tagging_signedtags]]
@@ -81,7 +81,7 @@ If you want to use the code associated with the tag, use:
 
 [source,console]
 ----
-include::./examples/tag/checkout.txt[]
+include::./res/tag/checkout.txt[]
 ----
 [WARNING]
 ====
@@ -101,7 +101,7 @@ the following command.
 
 [source,console]
 ----
-include::./examples/tag/push.txt[]
+include::./res/tag/push.txt[]
 ----
 
 [[tagging_delete]]
@@ -118,5 +118,5 @@ The following commands demonstrate how to push a tag deletion.
 
 [source,console]
 ----
-include::./examples/tag/delete.txt[]
+include::./res/tag/delete.txt[]
 ----

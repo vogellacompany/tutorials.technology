@@ -12,7 +12,7 @@ To see the changes introduced by a commit use the following command.
 
 [source,console]
 ----
-include::./examples/changes/diff.txt[]
+include::./res/changes/diff.txt[]
 ----
  
 [[gitdiff_comparetwocommits]]
@@ -24,7 +24,7 @@ For example, the following command shows the differences introduced in the last 
 
 [source,console]
 ----
-include::./examples/diff/diff_commits.txt[]
+include::./res/diff/diff_commits.txt[]
 ----
 
 [[analyzechanges_file]]
@@ -37,5 +37,5 @@ command to show only the names of the files.
 
 [source,console]
 ----
-include::./examples/changes/changedfiles.txt[]
+include::./res/changes/changedfiles.txt[]
 ----

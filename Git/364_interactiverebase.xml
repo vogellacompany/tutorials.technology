@@ -7,7 +7,7 @@
 	
 	[source,console]
 ----
-include::./examples/rebase/git_rebase_commits[]
+include::./res/rebase/git_rebase_commits[]
 ----
 	 We want to combine the last seven commits. You can do
 		this
@@ -15,7 +15,7 @@ include::./examples/rebase/git_rebase_commits[]
 	
 	[source,console]
 ----
-include::./examples/rebase/rebase_i.txt[]
+include::./res/rebase/rebase_i.txt[]
 ----
 	
 		This command opens your editor of choice and lets you configure the
@@ -45,7 +45,7 @@ include::./examples/rebase/rebase_i.txt[]
 
 	[source,console]
 ----
-include::./examples/rebase/interactiverebase10.txt[]
+include::./res/rebase/interactiverebase10.txt[]
 ----
 
 

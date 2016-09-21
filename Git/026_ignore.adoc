@@ -20,7 +20,7 @@ For example, the following `.gitignore` file tells Git to ignore the
 
 [source,console]
 ----
-include::./examples/ignore/gitignore[]
+include::./res/ignore/gitignore[]
 ----
 
 You can create the `.gitignore` file in the root directory of the working
@@ -78,7 +78,7 @@ setting is demonstrated in the following code snippet.
 
 [source,console]
 ----
-include::./examples/gitignore/global.txt[] 
+include::./res/gitignore/global.txt[] 
 ----
 
 The global `.gitignore` file is only locally available.

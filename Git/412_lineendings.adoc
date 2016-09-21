@@ -29,14 +29,14 @@ following setting for this.
 
 [source,console]
 ----
-include::./examples/linefeed/windows.txt[]
+include::./res/linefeed/windows.txt[]
 ----
 
 On Linux and Mac you can tell Git to convert CRLF to LF with the following setting.
 
 [source,console]
 ----
-include::./examples/linefeed/linux.txt[]
+include::./res/linefeed/linux.txt[]
 ----
  
 [[line_feedendings_gitattributes]]

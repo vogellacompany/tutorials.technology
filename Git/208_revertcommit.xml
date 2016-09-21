@@ -27,7 +27,7 @@
 		
 		[source,console]
 ----
-include::./examples/commandline/git_revert_commit[]
+include::./res/commandline/git_revert_commit[]
 ----
 
 	

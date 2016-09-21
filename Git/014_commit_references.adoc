@@ -112,7 +112,7 @@ HEAD and HEAD~4.
 
 [source,console]
 ----
-include::./examples/ranges/logranges1[]
+include::./res/ranges/logranges1[]
 ----
 
 This also works for branches. To list all commits which are in the "master"
@@ -120,14 +120,14 @@ branch but not in the "testing" branch, use the following command.
 
 [source,console]
 ----
-include::./examples/ranges/logranges2[]
+include::./res/ranges/logranges2[]
 ----
 
 You can also list all commits which are in the "testing" but not in the "master" branch.
 
 [source,console]
 ----
-include::./examples/ranges/logranges3[]
+include::./res/ranges/logranges3[]
 ----
 
 [[commitreference_ranges_tripledot]]
@@ -145,5 +145,5 @@ been combined.
 
 [source,console]
 ----
-include::./examples/ranges/logranges4[] 
+include::./res/ranges/logranges4[] 
 ----

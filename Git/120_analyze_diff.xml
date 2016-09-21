@@ -12,7 +12,7 @@
 		
 		[source,console]
 ----
-include::./examples/changes/diff.txt[]
+include::./res/changes/diff.txt[]
 ----
 
 	
@@ -33,7 +33,7 @@ include::./examples/changes/diff.txt[]
 		
 		[source,console]
 ----
-include::./examples/diff/diff_commits.txt[]
+include::./res/diff/diff_commits.txt[]
 ----
 	
 
@@ -54,7 +54,7 @@ include::./examples/diff/diff_commits.txt[]
 
 		[source,console]
 ----
-include::./examples/changes/changedfiles.txt[]
+include::./res/changes/changedfiles.txt[]
 ----
 	
 

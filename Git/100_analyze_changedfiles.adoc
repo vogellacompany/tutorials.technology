@@ -50,7 +50,7 @@ The output of the command looks like the following listing.
 
 [source,console]
 ----
-include::./examples/log/status3.txt[]
+include::./res/log/status3.txt[]
 ----
 
 

@@ -30,7 +30,7 @@ Configure Git to use always rebase during the `git pull` command.
 
 [source,console]
 ----
-include::./examples/commandline/setup_useful[]
+include::./res/commandline/setup_useful[]
 ---- 
 
 

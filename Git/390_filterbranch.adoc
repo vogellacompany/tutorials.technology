@@ -38,5 +38,5 @@ It replaces the email address from one author of all the commits via the `git fi
 
 [source,console]
 ----
-include::./examples/filterbranch/replace.txt[]
+include::./res/filterbranch/replace.txt[]
 ----

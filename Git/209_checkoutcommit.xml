@@ -27,7 +27,7 @@
 		The following command shows the log.
 		[source,console]
 ----
-include::./examples/commandline/git_checkout1[]
+include::./res/commandline/git_checkout1[]
 ----
 		
 			The following listing shows an example output of a Git log
@@ -35,7 +35,7 @@ include::./examples/commandline/git_checkout1[]
 		
 		[source,console]
 ----
-include::./examples/commandline/git_checkout2[]
+include::./res/commandline/git_checkout2[]
 ----
 	
 	<section id="undochanges_checkoutcommits2">
@@ -45,7 +45,7 @@ include::./examples/commandline/git_checkout2[]
 		
 		[source,console]
 ----
-include::./examples/commandline/git_checkout3[]
+include::./res/commandline/git_checkout3[]
 ----
 		<warning>
 			
