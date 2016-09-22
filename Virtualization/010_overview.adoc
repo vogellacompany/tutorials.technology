@@ -1,7 +1,9 @@
-= gnome-boxes
+= Virtualization with Gnome boxes
 
-Gnome-boxes provide a virtualization layer for other OS for Linux. You can install it under Ubuntu via
+Gnome-boxes provide a virtualization layer for other OS for Linux. You can install it under Ubuntu via the following command:
 
+[source,console]
+----
 sudo apt-get install gnome-boxes
-
+----
 
