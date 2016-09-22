@@ -25,15 +25,11 @@ While Asciidoctor is awesome, several outstanding issues make the usage of the P
 If you want to create PDF from Asciidoc, you most likely need first to create Docbook output and afterwards PDF from it.
 
 Please vote for the following issues at Github:
-
-* https://github.com/asciidoctor/asciidoctor-pdf/issues/463
-* https://github.com/asciidoctor/asciidoctor-pdf/issues/464
+* https://github.com/asciidoctor/asciidoctor-pdf/issues/464[Option to include the section number in a cross-reference]
+* https://github.com/asciidoctor/asciidoctor-pdf/issues/386[Ability to create an index]
 
 image::vote-asciidoc-issue.png[Vote for issue]
 
-Less important but annoying is:
-
-* https://github.com/asciidoctor/asciidoctor-pdf/issues/455 
 
 === Install2 the Asciidoctor toolchain
 
