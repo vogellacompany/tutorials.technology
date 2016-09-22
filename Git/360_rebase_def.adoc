@@ -1,8 +1,8 @@
 [[rebase]]
-= Rebasing branches
+== Rebasing branches
 
 [[rebase_branches]]
-== Rebasing branches
+=== Rebasing branches
 (((git rebase)))
 You can use Git to rebase one branch on another one. 
 As described, the `merge` command combines the changes of two branches. 
@@ -41,7 +41,7 @@ about this feature.
 ====
 
 [[rebase_bestpractice]]
-== Good practice for rebase
+=== Good practice for rebase
 
 You should avoid using the Git rebase operation for changes which have
 been published in other Git repositories. The Git rebase operation

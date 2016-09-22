@@ -14,8 +14,7 @@ This tutorial explains the usage of the distributed version control system Git v
 The examples were done on Linux (Ubuntu), but should also work on other operating systems like Microsoft Windows.
 
 include::../web/advertisement/afterTableOfContent.adoc[]               
-include::001_overview.adoc[]
-include::002_tools.adoc[]
+include::001_overview.adoc[tags=jennifer]
 include::../web/advertisement/inBetween01.adoc[]
 include::004_gitterminology.adoc[]
 include::008_commitobject.adoc[]
@@ -81,7 +80,6 @@ include::380_mergeconflict.adoc[]
 include::380a_exercise_mergeconflict.adoc[]
 include::381_rebaseconflicts.adoc[]
 include::382_alias.adoc[]
-include::384_submodules.adoc[]
 include::386_bisect.adoc[]
 include::390_filterbranch.adoc[]
 include::400_patch_def.adoc[]

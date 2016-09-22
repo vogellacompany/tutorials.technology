@@ -1,5 +1,5 @@
 [[tagging]]
-=== What are tags?
+== What are tags?
 (((Tags/Tagging)))
 Git has the option to _tag_ a commit in the repository history so that you find it easier at a
 later point in time. Most commonly, this is used to tag a certain

@@ -1,5 +1,5 @@
 [[rebase_example]]
-= Example for a rebase
+== Example for a rebase
 
 The following demonstrates how to perform a rebase operation.
 

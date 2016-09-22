@@ -1,5 +1,5 @@
 [[git_blame_example]]
-=== Example: git blame
+== Example: git blame
 
 The following code snippet demonstrates the usage of the `git blame` command.
 

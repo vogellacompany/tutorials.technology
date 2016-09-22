@@ -1,9 +1,8 @@
 [[gitbranch_listbranches]]
-# tag::jennifer[]
 == List available branches
 (((git branch)))
 The `git branch` command lists all local branches. The currently active branch is marked with `*`.
-# end::jennifer[]
+
 [source,console]
 ----
 include::./res/commandline/git_brancheslist.commands[]

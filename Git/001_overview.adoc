@@ -1,3 +1,4 @@
+# tag::jennifer[]
 [[git]]
 == Introduction to version control systems
 
@@ -11,7 +12,7 @@ These versions are stored in a specific place, typically called a _repository_.
 
 You may, for example, revert the collection of files to a state from 2 days ago. 
 Or you may switch between versions of your files for experimental features.
-
+# end::jennifer[]
 The process of creating different versions (snapshots) in the repository is depicted in the following graphic. 
 Please note that this picture fits primarily to Git. 
 Other version control systems like _Concurrent Versions System_ (CVS) don't create snapshots of the files but store file deltas.

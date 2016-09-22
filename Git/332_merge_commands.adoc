@@ -1,8 +1,8 @@
 [[gitmergecommand_branches]]
-= Commands to merge two branches
+== Commands to merge two branches
 
 [[gitmergecommand_branches]]
-== The git merge command
+=== The git merge command
 
 The `git merge` command performs a merge. You can merge changes from one
 branch to the current active one via the following command.
@@ -13,7 +13,7 @@ include::./res/commandline/git_merge[]
 ----
 
 [[gitmerge_mergeoptionsstrategies]]
-== Specifying merge strategies
+=== Specifying merge strategies
 
 The `-s` parameter allows you to specify other merge strategies. This is
 demonstrated with the following command.
@@ -43,7 +43,7 @@ include::./res/merge/mergeoctupus.txt[]
 ----
 
 [[gitmerge_mergeoptions]]]
-== Specifying parameters for the default merge strategy
+=== Specifying parameters for the default merge strategy
 
 The recursive merge strategy (default) allows you to specify flags with
 the `-X` parameter. For example you can specify here the `ours` option.
@@ -75,7 +75,7 @@ https://www.kernel.org/pub/software/scm/git/docs/git-merge.html[Git
 merge manpage].
 
 [[gitmerge_forcemergecommit]]
-== Enforcing the creation of a merge commit
+=== Enforcing the creation of a merge commit
 
 If you prefer to have merge commits even for situations in which Git
 could perform a fast-forward merge you can use the `git merge --no-ff`

@@ -1,5 +1,5 @@
 [[gitk]]
-=== Commit history of a repository or certain files
+== Commit history of a repository or certain files
 
 http://git-scm.com/docs/gitk[Gitk] can be used to visualize the history of a repository of certain files.
 
