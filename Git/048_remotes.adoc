@@ -1,9 +1,7 @@
 [[remotes]]
-
 == Remote repositories
 
 [[remotes_definition]]
-
 === What are remotes?
 (((Repository, remote)))
 (((Remote repositories)))
@@ -39,7 +37,6 @@ system.
 ====
 
 [[bareremotes_definition]]
-
 === Bare repositories
 (((Repository, bare)))
 (((Bare repository)))
@@ -62,7 +59,6 @@ connect to your server via the SSH protocol or you use some Git hosting
 platform, e.g., GitHub.com.
 
 [[bareremotes_convert]]
-
 === Convert a Git repository to a bare repository
 
 Converting a normal Git repository to a bare repository is not directly support by Git.
@@ -76,7 +72,6 @@ As this is officially not supported, you should prefer cloning a
 repository with the `--bare` option.
 
 [[remotes_cloneoperation]]
-
 === Cloning a repository
 (((Repository)))
 (((Clone repository with Git)))
@@ -165,7 +160,6 @@ For secured SSL encrypted communication you should use the SSH or HTTPS
 protocol in order to guarantee security.
 
 [[remote_httpproxy]]
-
 === Using a proxy
 
 Git also provides support for HTTP access via a proxy server. The
@@ -212,7 +206,6 @@ include::./res/remoteadd/gitremoteadd.txt[]
 [[remotes_remote_synchronize]]
 === Synchronizing with remote repositories
 (((Synchronize repositories more remotes)))
-
 You can synchronize your local Git repository with remote repositories.
 These commands are covered in detail in later sections but the following
 command demonstrates how you can send changes to your remote repository.
@@ -247,7 +240,6 @@ git remote -v
 ----
 
 [[cloneremotes_push]]
-
 === Push changes to another repository
 (((push)))
 (((git push)))
@@ -262,11 +254,9 @@ which results in a fast-forward merge. See <<gitmerge_fastforward>> to learn abo
 merges.
 
 See <<gitpushbranch>> for details on pushing branches or the
-https://www.kernel.org/pub/software/scm/git/docs/git-push.html[Git push
-manpage] for general information.
+https://www.kernel.org/pub/software/scm/git/docs/git-push.html[Git push manpage] for general information.
 
 [[cloneremotes_pull]]
-
 === Pull changes from a remote repository
 (((pull)))
 (((git pull)))
@@ -278,3 +268,4 @@ by the `git merge` or the `git rebase` command depending on your
 configuration. In <<autosetuprebase>> you configured your Git repository so that
 `git pull` is a fetch followed by a rebase. See <<gitfetch_intro>> for more information
 about the fetch command.
+

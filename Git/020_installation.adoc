@@ -1,9 +1,7 @@
 [[installation]]
-
 == Installation of the Git command line tooling
 
 [[installation_ubuntu]]
-
 === Ubuntu, Debian and derived systems
 (((Git Installation, Ubuntu, Debian)))
 On Ubuntu and similar systems you can install the

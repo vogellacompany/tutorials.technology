@@ -1,5 +1,4 @@
 [[gitk]]
-
 === Commit history of a repository or certain files
 
 http://git-scm.com/docs/gitk[Gitk] can be used to visualize the history of a repository of certain files.
@@ -14,3 +13,4 @@ image::gitk_showviewhandler.png[gitk command for the ShowViewHandler]
 On Linux you can easily install gitk by using the `sudo apt-get install gitk` command in a terminal.
 
 See http://git-scm.com/docs/gitk for further information.
+

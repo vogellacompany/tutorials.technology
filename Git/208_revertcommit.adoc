@@ -1,11 +1,8 @@
 [[revertcommit]]
-
 = Revert commits
 
 [[undochanges_revertcommit1]]
-
 == Reverting a commit
-
 ((git revert))
 You can revert commits via
 the `git revert` command. This command reverts the changes of a commit.
@@ -23,3 +20,4 @@ command.
 ----
 include::./res/commandline/git_revert_commit[]
 ----
+

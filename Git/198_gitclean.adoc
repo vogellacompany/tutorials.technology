@@ -5,7 +5,6 @@
 === Removing untracked files
 (((git clean)))
 (((Removing untracked files)))
-
 If you have untracked files in your working tree which you want to remove, you can use the `git clean` command.
 
 [WARNING]
@@ -24,3 +23,4 @@ The following commands demonstrate the usage of the `git clean` command.
 ----
 include::./res/undo/dropchanges.txt[]
 ----
+

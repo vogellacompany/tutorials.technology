@@ -4,7 +4,6 @@
 [[filterbranch_definition]]
 === Using git filter-branch
 (((git filter-branch)))
-
 The `git filter-branch` command allows you to rewrite the Git commit history.
 This can be done for selected branches and you can  apply custom filters on each revision. 
 This creates different hashes for all modified commits. 
@@ -39,3 +38,4 @@ It replaces the email address from one author of all the commits via the `git fi
 ----
 include::./res/filterbranch/replace.txt[]
 ----
+

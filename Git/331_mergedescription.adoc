@@ -4,7 +4,6 @@
 [[gitmerge_fastforward]]
 === Fast-forward merge
 (((Merging,fast-forward merge)))
-
 If the commits which are merged are direct successors of the _HEAD_ pointer of the current branch, Git performs a so-called _fast forward merge_. 
 This _fast forward merge_ only moves the _HEAD_ pointer of the current branch to the tip of the branch which is being merged. 
 
@@ -20,7 +19,6 @@ master branch pointing to "Commit 3". The "branch 1" branch points to
 the same commit.
 
 image::merge_fastforward20.png[Fast forward merge result]
-
  
 [[gitmerge_mergecommit]]
 == Merge commit
@@ -28,8 +26,6 @@ image::merge_fastforward20.png[Fast forward merge result]
 (((Merging, three-way-merge)))
 (((Merging, Merge strategies)))
 (((Merging, Recursive)))
-
-
 If commits are merged which are not direct predecessors of the current
 branch, Git performs a so-called _three-way-merge_ between the latest
 commits of the two branches, based on the most recent common predecessor
@@ -55,7 +51,6 @@ This is called the _recursive merge_ strategy and is the default merge strategy.
 (((Octopus merge strategy)))
 (((Subtree merge strategy)))
 (((Ours merge strategy)))
-
 If a fast-forward merge is not possible, Git uses a merge strategy. 
 The default strategy called _recursive merge_ strategy was described in <<gitmerge_mergecommit>>.
 
@@ -69,3 +64,4 @@ The `ours` strategy merges a branch without looking at the changes introduced in
 This keeps the history of the merged branch but ignores the changes introduced in this branch.
 
 You can use the _ours_ merge strategy to document that you have integrated a branch and decided to ignore all changes from this branch.
+

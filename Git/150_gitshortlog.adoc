@@ -1,6 +1,5 @@
 [[gitshortlog]]
 === git shortlog for release announcements
-
 ((git shortlog))
 The `git shortlog` command summarizes the `git log` output. 
 It groups all commits by author and includes the first line of the commit message.
@@ -34,3 +33,4 @@ git shortlog --author="Lars Vogel" --since=2years
 # see the number of commits by the author "Lars Vogel" 
 git shortlog -s --author="Lars Vogel" --since=2years
 ----
+

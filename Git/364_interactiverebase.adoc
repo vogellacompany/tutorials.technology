@@ -1,5 +1,5 @@
 [[interactiverebase_example]]
-= Example: Interactive rebase
+== Example: Interactive rebase
 
 The following commands create several commits which will be used for the
 interactive rebase.
@@ -26,3 +26,4 @@ The listing uses the long format of the commands (for example `fixup` instead of
 ----
 include::./res/rebase/interactiverebase10.txt[]
 ----
+

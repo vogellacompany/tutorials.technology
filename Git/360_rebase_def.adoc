@@ -4,7 +4,6 @@
 [[rebase_branches]]
 == Rebasing branches
 (((git rebase)))
-
 You can use Git to rebase one branch on another one. 
 As described, the `merge` command combines the changes of two branches. 
 If you rebase a branch called A onto another, the `git` command takes the changes introduced by the commits
@@ -79,3 +78,4 @@ commits.
 include::./res/rebase/forcedpush.txt[]
 ----
 ====
+

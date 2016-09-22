@@ -190,7 +190,6 @@ This directory structure is depicted in the following screenshot.
 
 image::firstgit-directory10.png[First Git directory] 
 
-
 [[firstgit_deletefile]]
 === Remove files
 (((Repository, remove files)))
@@ -317,3 +316,4 @@ git add .gitignore
 # commit the change
 git commit -m "Adds .gitignore file"
 ----
+

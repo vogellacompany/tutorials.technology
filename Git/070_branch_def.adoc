@@ -1,6 +1,5 @@
 [[gitbranch_def]]
-
-=== What are branches?
+== What are branches?
 (((Branches in Git)))
 
 Git allows you to create _branches_, i.e. named pointers to commits. 
@@ -18,3 +17,4 @@ pointer to the new branch.
 
 As explained in <<gitterminology>> _HEAD_ is a symbolic reference usually pointing to the
 branch which is currently checked out.
+

@@ -33,15 +33,12 @@ This and additional information can be stored in the Git user settings.
 In each Git repository you can also configure the settings for this repository. 
 User configuration is done if you include the `--global` option in the `git config` command.
 
-
-
 [[setup_configuration]]
 ==== Repository specific configuration (((Configuration, repository specific configuration))) (((Repository specific Git configuration )))
 
 You can also store repository specific settings in the `.git/config` file of a repository.
 Use the `--local` or use no flag at all. 
 If neither the `--system` not the `--global` parameter is used, the setting is specific for the current Git repository.
-
 
 [[gitsetup_user]]
 === User credential configuration
@@ -75,11 +72,9 @@ As of Git version 2.0 this is the default and therefore it is good practice to c
 You learn about the push command in <<cloneremotes_push>>.
 
 [[autosetuprebase]]
-
 === Avoid merge commits for pulling
 (((Configuration, autosetuprebase)))
 (((autosetuprebase)))
-
 By default, Git runs the `git fetch`  followed by the `git merge` command if you use the `git pull` command. 
 You can configure git to use `git rebase` instead of `git merge` for the pull command via the following setting.
 
@@ -146,7 +141,6 @@ https://www.kernel.org/pub/software/scm/git/docs/git-config.html[git-config
 manual page]
 
 [[setup_seesettings]]
-
 === Query Git settings
 (((Configuration, query existing configuration)))
 To query your Git settings, execute the following command:
@@ -163,3 +157,4 @@ command.
 ----
 include::./res/settings/listsettingsglobal.txt[] 
 ----
+

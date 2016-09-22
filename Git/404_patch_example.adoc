@@ -4,8 +4,7 @@
 [[gitpatch_createandapply]]
 === Create and apply patches
 (((Create patch)))
- (((git format-patch)))
-
+(((git format-patch)))
 The following example creates a branch, changes several files and creates a commit recording these changes.
 
 [source,console]
@@ -52,3 +51,4 @@ the HEAD pointer you can use the following commands.
 ----
 include::./res/patch/patch5.txt[]
 ----
+

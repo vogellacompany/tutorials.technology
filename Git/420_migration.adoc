@@ -2,7 +2,6 @@
 == Migrating from SVN
 (((svn)))
 (((migration)))
-
 To convert Subversion projects to Git you can use a RubyGem called _svn2git_. 
 This tool relies on `git svn` internally and handles most of the trouble.
 
@@ -26,3 +25,4 @@ The parameter `--verbose` adds detailed output to the commandline so you can see
 The second `svn2git --rebase` command aligns your new git repository with the svn import. 
 You are now ready to push to the web and get forked! 
 If your svn layout deviates from the standard or other problems occur, seek `svn2git --help` for documentation on additional parameters.
+

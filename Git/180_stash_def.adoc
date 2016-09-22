@@ -5,7 +5,6 @@
 === The git stash command
 (((stashing in Git)))
 (((git stash)))
-
 Git provides the `git stash` command which allows you to record the current state of the working directory and the staging
 area and to revert to the last committed revision.
 
@@ -23,3 +22,4 @@ You can also commit frequently in your local Git repository and use interactive 
 Even if you prefer not to use branches, you can avoid using the `git stash` command. 
 In this case you commit the changes you want to put aside and amend the commit with the next commit. 
 If you use the approach of creating a commit, you typically put a marker in the commit message to mark it as a draft, e.g., "[DRAFT] implement feature x".
+

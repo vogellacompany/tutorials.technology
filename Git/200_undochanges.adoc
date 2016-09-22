@@ -1,9 +1,7 @@
 [[undochanges]]
-
 == Revert uncommitted changes in tracked files
 
 [[undochanges_usecase]]
-
 === Use cases
 
 If you have a tracked file in Git, you can always recreate the file
@@ -13,7 +11,6 @@ changes are included in the next commit. This chapter explain you how
 you can do this.
 
 [[undochanges_reset]]
-
 === Remove staged changes from the staging area
 
 ((Staging area, remove staged changes))
@@ -61,7 +58,6 @@ about the `git reset` command see ? .
 === Remove changes in the working tree
 (((git checkout, Checkout version from staging area)))
 (((Undo changes in the working tree)))
-
 [WARNING]
 ====
 Be careful with the
@@ -115,3 +111,4 @@ also revert the changes in the staging area base on the last commit.
 ----
 include::./res/commandline/git_revert[]
 ----
+

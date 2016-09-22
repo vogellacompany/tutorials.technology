@@ -88,3 +88,4 @@ branch.
 When pulling from a remote repository, prefer doing a rebase to a merge.
 This will help to keep the history easier to read. A merge commit can be
 helpful to document that functionality was developed in parallel.
+

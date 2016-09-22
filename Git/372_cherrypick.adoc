@@ -1,5 +1,5 @@
 [[cherrypick_example]]
-= Example: Using cherry-pick
+== Example: Using cherry-pick
 
 In the following example you create a new branch and commit two changes.
 
@@ -36,7 +36,6 @@ include::./res/cherry/step4.txt[]
 See <<commitreference_ranges_doubledot>> for more information about commit ranges.
 ====
 
-
 If things go wrong or you change your mind, you can always reset to the
 previous state using the following command.
 
@@ -44,3 +43,4 @@ previous state using the following command.
 ----
 include::./res/cherry/step5.txt[]
 ----
+

@@ -1,12 +1,9 @@
 [[gitdiffchapter]]
-
 == Viewing changes with git diff and git show
 
 [[analyzechanges_showcommitchanges]]
-
 === See the differences introduced by a commit
 (((git diff, changes by a commits)))
-
 To see the changes introduced by a commit use the following command.
 
 [source,console]
@@ -36,3 +33,4 @@ command to show only the names of the files.
 ----
 include::./res/changes/changedfiles.txt[]
 ----
+

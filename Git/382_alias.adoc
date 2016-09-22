@@ -1,15 +1,14 @@
 [[alias]]
-= Define alias
+== Define alias
 
 [[alias_definition]]
-== Using an alias
+=== Using an alias
 (((alias)))
-
 An _alias_ in Git allows you to create a short form of one or several existing Git commands. 
 For example, you can define an alias which is a short form of your own favorite commands or you can combine several commands with an alias.
 
 [[alias_example]]
-== Alias examples
+=== Alias examples
 
 The following defines an _alias_ to see the staged changes with the new
 `git staged` command.

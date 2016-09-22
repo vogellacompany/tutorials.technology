@@ -4,7 +4,6 @@
 [[analyzechanges_log]]
 === Using git log
 (((git log)))
-
 The `git log` command shows the history of the Git repository. 
 If no commit reference is specified it starts from the commit referred to by the HEAD pointer.
 
@@ -20,16 +19,12 @@ git log COMMIT_REF #<2>
 <1> shows the history of commits starting from the HEAD~10 commit
 <2> shows the history of commits starting from the COMMIT_REF commit
 
-
 [[git_log_options]]
 === Helpful parameters for git log
 (((git log, oneline)))
 (((git log, abbrev-commit)))
 (((git log, graph)))
-
 The following gives an overview of useful parameters for the `git log` command.
-
-
 
 [source,console]
 ----
@@ -50,7 +45,6 @@ For more options on the `git log` command see the
 https://www.kernel.org/pub/software/scm/git/docs/git-log.html[Git log manpage].
 
 [[analyzechangesg_changesinafile]]
-
 === View the change history of a file
 (((git log, File history)))
 (((File history in Git)))
@@ -89,7 +83,6 @@ to define an alias.
 [[analyzechanges_grep]]
 === Filtering based on the commit message via regular expressions
 (((Search, Regular expression)))
-
 You can filter the output of the `git log` command to commits whose commit message, or reflog entry,
 respectively, matches the specified regular expression pattern with the `--grep=<pattern>` and `--grep-reflog=<pattern>` option.
 
@@ -109,7 +102,6 @@ There is also the `--invert-grep=<pattern>` option. When this option is used, gi
 === Filtering the log output based on author or committer
 (((Changes by a certain author or committer)))
 (((Search, Git commits by author or committer)))
-
 You can use the `--author=<pattern>` or `--committer=<pattern>` to filter
 the log output by author or committer. You do not need to use the full
 name, if a substring matches, the commit is included in the log output.
@@ -122,24 +114,4 @@ git log --author="Vogel"
 ----
 
 See also <<gitshortlog>>.
-
-[ditaa]
-----
-                   +-------------+
-                   | Asciidoctor |-------+
-                   |  Diagram    |       |
-                   +-------------+       | PNG out
-                       ^                 |
-                       | ditaa in        |
-                       |                 v
- +--------+   +--------+----+    /----------------\
- |        | --+ Asciidoctor +--> |                |
- |  Text  |   +-------------+    |Beautiful output|
- |Document|   |   !magic!   |    |                |
- |     {d}|   |             |    |                |
- +---+----+   +-------------+    \----------------/
-     :                                   ^
-     |          Lots of work             |
-     +-----------------------------------+
-----
 

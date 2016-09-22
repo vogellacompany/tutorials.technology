@@ -1,9 +1,7 @@
 [[analyzechanges]]
-
 == Comparing changes
 
 [[gitstatus]]
-
 === Listing changed files
 (((git status)))
 
@@ -20,7 +18,6 @@ Otherwise, if you have a new directory with severals files, only the directory i
 ====
 
 [[gitstatus_example]]
-
 === Example: Using git status
 
 The following commands create some changes in your Git repository.
@@ -44,7 +41,6 @@ Now use the status command.
 git status
 ----
 
-
 The output of the command looks like the following listing.
 
 [source,console]
@@ -52,13 +48,11 @@ The output of the command looks like the following listing.
 include::./res/log/status3.txt[]
 ----
 
-
 [[gitdiff_using]]
 === Using git diff
 (((git diff)))
 (((unstaged changes)))
 (((git diff, unstaged changes)))
-
 The `git diff` command allows you to compare changes between commits, the staging area and working tree, etc.
 Via an optional third parameter you can specify a path to filter the displayed changes path can be a file or directory
 `git diff [path]`.
@@ -90,5 +84,4 @@ git diff -- [file_reference] # <4>
 <2> shows the differences  between the staging area and the last commit
 <3> shows the differences introduced between two commits references
 <4> shows the differences introduced in the working tree compared with the staging area for [file_reference]
-
 

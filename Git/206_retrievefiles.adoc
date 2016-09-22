@@ -1,12 +1,9 @@
 [[retrievefiles]]
-
 == Retrieving files from the history
 
 [[retrievefiles_show]]
-
 === View file in different revision
 (((git show)))
-
 The `git show` command allows
 to see and retrieve files from branches, commits and tags. It allows
 seeing the status of these files in the selected branch, commit or tag
@@ -42,7 +39,6 @@ include::./res/restore/restoredeletedfile.txt[]
 == See which commit deleted a file
 (((Find commit which deleted a file in Git)))
 (((File deletion log in Git)))
-
 The `git log` command allows you to determine which commit deleted a file.
 You can use the `--` option in `git log` to see the commit history for a
 file, even if you have deleted the file.
@@ -51,3 +47,4 @@ file, even if you have deleted the file.
 ----
 include::./res/show/delete.txt[]
 ----
+

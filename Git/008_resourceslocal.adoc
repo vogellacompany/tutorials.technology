@@ -1,5 +1,5 @@
 [[resources]]
-= Links and Literature
+== Links and Literature
 
 http://git-scm.com/[Git homepage]
 
@@ -12,3 +12,4 @@ https://github.com/blog/2066-git-2-6-including-flexible-fsck-and-improved-status
 http://www.youtube.com/watch?v=4XpnKHJAok8[Video with Linus Torvalds on Git]
 
 https://git-for-windows.github.io/[Git on Windows]
+

@@ -5,7 +5,6 @@
 [[movebranchpointer]]
 === Moving the HEAD and branch pointer
 (((git reset)))
-
 Sometimes you want to change
 the commmit your branch pointer is pointing to. The `git reset` command
 allows you to manually set the current HEAD pointer (and its associated
@@ -47,19 +46,18 @@ Via parameters you can define if the staging area and the working tree is update
 These parameters are listed in the following table.
 
 .git reset options
-[width="97%",cols="<16%,<28%,<28%,<28%",options="header",]
-|=================================================
+|====
 |Reset |Branch pointer |Working tree |Staging area
 |soft |Yes |No |No
 |mixed (default) |Yes |No |Yes
 |hard |Yes |Yes |Yes
-|=================================================
+|====
 
 The `git reset` command does not remove untracked files. See <<gitclean>> command for this purpose.
 
 [[resetcommit_path]]
-
 === Not moving the HEAD pointer with git reset
 
 If you specify a path via the `git reset [path]` command , Git does not move the HEAD pointer. 
 It updates the staging area or also the working tree depending on your specified option.
+

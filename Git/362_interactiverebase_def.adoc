@@ -1,9 +1,8 @@
 [[interactive_rebase]]
-= Editing history with the interactive rebase
+== Editing history with the interactive rebase
 (((git rebase)))
 (((rebase plan)))
 (((Interactive rebase)))
-
 Git allows you to edit your commit history with  a functionality called `interactive rebase`. 
 For example, you can combine several commits into one commit, reorder or skip commits and edit the commit message.
 
@@ -14,8 +13,8 @@ Interactive rebase allows you to quickly edit a series of commits using
 the following actions:
 
 .Interactive rebase actions
-[width="97%",cols="<27%,<73%",options="header",]
-|=======================================================================
+[cols="<27%,<73%",options="header",]
+|====
 |Action |Description
 |pick |includes the selected commit, moving pick entries enables
 reordering of commits
@@ -31,7 +30,7 @@ combines their commit messages
 discarding the squashed commit's message
 
 |reword |similar to pick but allows modifying the commit message
-|=======================================================================
+|====
 
 The setup for the rebase is called the _rebase plan_ . Based on this
 plan, the actual interactive rebase can be executed.
@@ -43,3 +42,4 @@ been pushed to another repository. As the interactive rebase creates new
 commit objects, other developers might be confused if you rebase already
 published changes.
 ====
+

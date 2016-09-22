@@ -23,7 +23,6 @@ Annotated tags can also be signed and verified with _GNU Privacy Guard (GPG)_ .
 [[tagging_namingconventions]]
 === Naming conventions for tags
 (((Tags/Tagging, naming conventions)))
-
 Tags are frequently used to tag the state of a release of the Git repository. 
 In this case they are typically called _release tags_.
 
@@ -38,4 +37,5 @@ API and the _major_ version is incremented if any backwards incompatible
 changes are introduced to the public API.
 
 For the detailed discussion on naming conventions please see the
-following URL: http://semver.org/[Semantic versioning] .
+following URL: http://semver.org/[Semantic versioning].
+

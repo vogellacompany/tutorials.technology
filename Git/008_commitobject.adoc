@@ -1,20 +1,16 @@
 [[git]]
-
 == The details of the commit objects
 
 [[commit_object]]
-
 === Commit object (commit)
 (((Commit object)))
 (((Commit)))
-
 Conceptually a commit object
 (short:commit) represents a version of all files tracked in the
 repository at the time the commit was created. Commits know their
 parent(s) and this way capture the version history of the repository.
 
 [[commit_objects]]
-
 === Technical details of a commit object
 
 This commit object is addressable via a hash ( _SHA-1 checksum_ ). This
@@ -45,13 +41,11 @@ blobs. Objects which didn't change between commits are reused by
 multiple commits.
 
 [[commits_sha_checksum]]
-
 === Hash and abbreviated commit hash
 (((SHA-1 checksum in Git)))
 (((Shortened SHA-1)))
 (((Hash)))
 (((Abbreviated commit hash)))
-
 A Git commit object is identified by its
 hash (SHA-1 checksum). SHA-1 produces a 160-bit (20-byte) hash value. A
 SHA-1 hash value is typically rendered as a hexadecimal number, 40
@@ -65,3 +59,4 @@ called the shortened SHA-1 or abbreviated SHA-1.
 
 Several commands, e.g., the `git log` command can be instructed to use
 the shortened SHA-1 for their output.
+

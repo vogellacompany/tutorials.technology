@@ -1,8 +1,9 @@
 [[gitbranch_listbranches]]
-=== List available branches
+# tag::jennifer[]
+== List available branches
 (((git branch)))
 The `git branch` command lists all local branches. The currently active branch is marked with `*`.
-
+# end::jennifer[]
 [source,console]
 ----
 include::./res/commandline/git_brancheslist.commands[]
@@ -27,7 +28,7 @@ include::./res/commandline/git_brancheslist3.commands[]
 ----
 
 [[gitbranch_createnewbranch]]
-=== Create new branch
+== Create new branch
 (((Branch, Create new branch)))
 (((git branch)))
 You can create a new branch via the `git branch [newname]` command. 
@@ -40,7 +41,7 @@ include::./res/branch/git_create_branch[]
 ---- 
 
 [[gitbranch_checkout]]
-=== Checkout branch
+== Checkout branch
 (((checkout branch)))
 (((git checkout)))
 To start working in a branch you have to _checkout_ the branch. If you _checkout_ a branch, the HEAD pointer
@@ -75,7 +76,7 @@ include::./res/branch/git_rename_branch[]
 ----
 
 [[gitdeletebrach]]
-=== Delete a branch
+== Delete a branch
 (((delete local branch)))
 To delete a branch which is not needed anymore, you can use the following command. You may
 get an error message that there are uncommited changes if you did the
@@ -130,10 +131,8 @@ branches and remote repositories in <<gitremotebranch_overview>>.
 
 
 [[gitbranch_untrackedfiles]]
-
 === Switching branches with untracked files
 (((switch branch, with untrack files)))
-
 Untracked files (never added to the staging
 area) are unrelated to any branch. They exist only in the working tree
 and are ignored by Git until they are committed to the Git repository.
@@ -141,10 +140,8 @@ This allows you to create a branch for unstaged and uncommitted changes
 at any point in time.
 
 [[gitbranch_dirtyfiles]]
-
 === Switching branches with uncommitted changes
 (((switch branch,with uncommitted changes)))
-
 Similar to untracked files you can switch branches with unstaged or staged modifications which are not yet committed.
 
 You can switch branches if the modifications do not conflict with the files from the branch.
@@ -157,7 +154,6 @@ In this case the changes must be committed, reverted or stashed (see <<stash_usa
 You can also always create a new branch based on the current HEAD.
 
 [[gitdiffbranches]]
-
 === Differences between branches
 (((difference between branches)))
 (((git diff, for branches)))
@@ -182,3 +178,4 @@ include::./res/branchdiff/diff1.txt[]
 ----
 
 See <<gitdiffchapter>> for more examples of the `git diff` command.
+

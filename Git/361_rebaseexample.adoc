@@ -7,3 +7,4 @@ The following demonstrates how to perform a rebase operation.
 ----
 include::./res/rebase/git_rebase[]
 ----
+

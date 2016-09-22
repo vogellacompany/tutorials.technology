@@ -1,11 +1,8 @@
 [[undochanges_checkoutcommits]]
-
-= Resetting the working tree based on a commit
+== Resetting the working tree based on a commit
 
 [[undochanges_checkoutcommits1]]
-
-== Checkout based on commits and working tree
-
+=== Checkout based on commits and working tree
 ((git checkout, based on commit ID))
 
 You can check out arbitrary revisions of your file
@@ -28,6 +25,7 @@ The following listing shows an example output of a Git log command.
 ----
 include::./res/commandline/git_checkout2[]
 ---- 
+
 [[undochanges_checkoutcommits2]]
 == Example: Checkout a commit
 
@@ -46,3 +44,4 @@ checkout another branch. Before committing it is good practice to
 create a new branch > to leave the _detached head mode_ . See <<detachedheadmode>> for
 details.
 ====
+

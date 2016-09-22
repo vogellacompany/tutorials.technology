@@ -1,11 +1,9 @@
 [[rebaseconflict]]
-= Solving rebase conflicts
+== Solving rebase conflicts
 
 [[rebaseconflict_definition]]
-== What is a conflict during a rebase operation?
-
+=== What is a conflict during a rebase operation?
 ((Rebase conflict))
-
 During a rebase operation, several commits are applied onto a certain commit. 
 If you rebase a branch onto another branch, this commit is the last common ancestor of the two branches.
 
@@ -59,7 +57,6 @@ include::./res/rebase/rebaseabort.txt[]
 == Picking theirs or ours for conflicting file
 (((Rebase conflict,theirs parameter))) 
 (((Rebase conflict)))
-
 If a file is in conflict, you can instruct Git to take the version from the new commit of the version of commit onto which the new changes are applied. 
 This is sometimes easier than to solve all conflicts manually.
 For this you can use the `git checkout` with the `--theirs` or `--ours`
@@ -79,3 +76,4 @@ To take the version of the new commit use the following command.
 ----
 include::./res/rebase/theirs.txt[]
 ----
+

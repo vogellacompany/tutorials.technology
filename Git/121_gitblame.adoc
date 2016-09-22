@@ -9,3 +9,4 @@ include::./res/changes/blame.txt[]
 ----
 
 The `git blame` command can also ignore whitespace changes with the `-w` parameter.
+

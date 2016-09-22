@@ -1,15 +1,11 @@
 [[commitreference]]
-
 == Commit references
 
 [[commitreference_whatis]]
-
 === Predecessor commits, parents and commit references
 (((Commit references)))
 (((Simple reference)))
- 
 (((Symbolic reference))))
-
 Each commit has zero or more direct predecessor commits. The first commit has
 zero parents, merge commits have two or more parents, most commits have
 one parent.
@@ -32,18 +28,15 @@ points to a branch. HEAD points to the branch pointer and the branch
 pointer points to a commit.
 
 [[commitreference_branchheadreferences]]
-
 === Branch references and the HEAD reference
 (((Commit references, Branch)))
 (((Commit references, HEAD)))
-
 A branch points to a
 specific commit. You can use the branch name as reference to the
 corresponding commit. You can also use HEAD to reference the
 corresponding commit.
 
 [[commitreference_parentancestor]]
-
 === Parent and ancestor commits
 
 You can use ^ (caret) and ~ (tilde) to reference predecessor commit
@@ -53,10 +46,8 @@ operators. See <<commitreference_carettilde>> for their usage.
 The Git terminology is _parent_ for ^ and _ancestor_ for ~.
 
 [[commitreference_carettilde]]
-
 === Using caret and tilde for commit references
 (((caret and tilde for predecessor commit references)))
-
 [reference]~1 describes the first
 predecessor of the commit object accessed via [reference]. [reference]~2
 is the first predecessor of the first predecessor of the [reference]
@@ -83,10 +74,8 @@ image::commitreference20.png[Commit reference pointer example]
 [reference]^ is an abbreviation for [reference]^1.
 
 [[commitreference_ranges_doubledot]]
-
 === Commit ranges with the double dot operator
 (((Commit ranges, double dot operator)))
-
 You can also specify ranges of commits. This is useful for certain Git
 commands, for example, for seeing the changes between a series of
 commits.
@@ -129,7 +118,6 @@ include::./res/ranges/logranges3[]
 
 === Commit ranges with the triple dot operator
 (((Commit ranges, triple dot operator)))
-
 The triple dot operator allows you to select all
 commits which are reachable either from commit c1 or commit c2 but not
 from both of them.
@@ -141,3 +129,4 @@ been combined.
 ----
 include::./res/ranges/logranges4[] 
 ----
+

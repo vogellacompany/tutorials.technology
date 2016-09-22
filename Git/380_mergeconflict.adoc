@@ -1,11 +1,10 @@
 [[mergeconflict]]
-= Solving merge conflicts
+== Solving merge conflicts
 
 [[mergeconflict_definition]]
-== What is a conflict during a merge operation?
-
+=== What is a conflict during a merge operation?
 ((Merge conflict))
- A conflict during a
+A conflict during a
 merge operation occurs if two commits from different branches have
 modified the same content and Git cannot automatically determine how
 both changes should be combined when merging these branches.
@@ -21,10 +20,8 @@ change. These steps are required to finish the merge operation.
 
 [[mergeconflict_theirs]]
 == Keep a version of a file during a merge conflict
-
 ((Merge conflict))
- LARSSECONDARY"theirs
-parameter"LARSSECONDARY ((Merge conflict))
+LARSSECONDARY"theirs parameter"LARSSECONDARY ((Merge conflict))
 
 LARSSECONDARY"ours parameter"LARSSECONDARY Sometimes if a conflict
 occurs the developer does not want to solve the conflict. He decides
@@ -44,3 +41,5 @@ include::./res/rebase/ours.txt[]
 ----
 include::./res/rebase/theirs.txt[]
 ----
+
+

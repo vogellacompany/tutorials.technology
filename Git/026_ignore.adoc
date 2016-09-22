@@ -12,8 +12,7 @@ for the sub-directory and below.
 
 You can use certain wildcards in this file. `*` matches several
 characters. More patterns are possible and described under the following
-URL: https://www.kernel.org/pub/software/scm/git/docs/gitignore.html[gitignore
-manpage]
+URL: https://www.kernel.org/pub/software/scm/git/docs/gitignore.html[gitignore manpage]
 
 For example, the following `.gitignore` file tells Git to ignore the
 `bin` and `target` directories and all files ending with a ~.
@@ -107,3 +106,4 @@ Some people suggest to call the file `.gitkeep`.
 One problem with this approach is that `.gitkeep` is unlikely to be ignored by build systems. 
 This may result  in the `.gitkeep` file being copied to the output repository, which is typically not desired.
 ====
+

@@ -1,6 +1,5 @@
 [[resetcommits]]
-
-=== Resetting changes with git reset
+== Resetting changes with git reset
 
 [[findingresettedcommits]]
 === Finding commits that are no longer visible on a branch
@@ -37,7 +36,6 @@ them also see <<gitreflog>>.
 
 [[resettosquash]]
 === Using git reset to squash commits
-
 ((git reset, squash  commits))
 As a soft reset does not remove your change to
 your files and index, you can use the `git reset --soft` command to
@@ -53,3 +51,4 @@ include::./res/delete/squash.txt[]
 ----
 
 The interactive rebase adds more flexibility to squashing commits and allows to use the existing commit messages. See <<interactive_rebase>> for details.
+

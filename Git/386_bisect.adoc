@@ -3,7 +3,6 @@
 
 [[bisect_definition]]
 === Using git bisect
-
 ((git bisect))
 The `git bisect` command allows you to run a binary search through the commit history to identify the commit which introduced an issue. 
 You specify a range of commits and a script that the `bisect` command uses to identify whether a commit is good or bad.
@@ -48,3 +47,4 @@ The above commands serve as an example.
 The existence of a file can be easier verified with the `git bisect` command:
 `git bisect run test -f test1.txt`
 ====
+

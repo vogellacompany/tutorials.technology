@@ -105,3 +105,4 @@ Alternatively, you could use the `git mergetool` command.
 changes in a split screen. Some operating systems may come with a
 suitable merge tool already installed or configured for Git.
 ====
+

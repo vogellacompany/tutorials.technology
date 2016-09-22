@@ -1,12 +1,9 @@
 [[git]]
-
 == Introduction to version control systems
 
 [[versioncontrolssystems]]
-
 === What is a version control system?
 (((Version control system)))
-
 A version control system (VCS) allows you to track the history of a collection of files. 
 It supports creating different versions of this collection. 
 Each version captures a snapshot of the files at a certain point in time and the VCS allows you to switch between these versions. 
@@ -42,7 +39,6 @@ Both system makes it also harder to work in parallel on different features.
 [[dvcs_definition]]
 === What is a distributed version control system?
 (((Version control system, distributed version control system)))
-
 In a distributed version control system each user has a complete local copy of a repository on his individual computer. 
 The user can copy an existing repository. 
 This copying process is typically called _cloning_ and the resulting repository can be referred to as a _clone_ .
@@ -55,3 +51,4 @@ Typically, there is a central server for keeping a repository but each cloned re
 The decision which of the copies is considered to be the central server repository is pure convention.
 
 image::sharedrepo10.png[Creating snapshots] 
+

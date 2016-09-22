@@ -40,7 +40,6 @@ include::./res/tag/createlight.txt[]
 [[tagging_createannoted]]
 === Creating annotated tags
 (((Tags/Tagging, create annotated tags)))
-
 You can create a new annotated tag via the
 `git tag -a` command. An annotated tag can also be created using the
 `-m` parameter, which is used to specify the description of the tag. The
@@ -61,7 +60,6 @@ include::./res/tag/createid.txt[]
 [[tagging_signedtags]]
 === Creating signed tags
 (((Tags/Tagging, signed tags)))
-
 You can use the option `-s` to create a signed tag.
 These tags are signed with _GNU Privacy Guard (GPG)_ and can also be
 verified with GPG. For details on this please see the following URL:
@@ -71,7 +69,6 @@ manpage].
 [[tagging_checkout]]
 === Checkout tags
 (((Tags/Tagging, checkout tags)))
- 
 If you want to use the code associated with the tag, use:
 
 [source,console]
@@ -101,7 +98,6 @@ include::./res/tag/push.txt[]
 [[tagging_delete]]
 === Delete tags
 (((Tags/Tagging, delete tag)))
-
 You can delete tags with the `-d` parameter. This
 deletes the tag from your local repository. By default Git does not push
 tag deletions to a remote repository, you have to trigger that
@@ -113,3 +109,4 @@ The following commands demonstrate how to push a tag deletion.
 ----
 include::./res/tag/delete.txt[]
 ----
+
