@@ -109,6 +109,32 @@ Result:
 ----
 include::res/source.java[]
 ----
+
+=== Importing files partially
+
+It is also possible to include files partially. For this mark the part of the file to be included with a tag like the following:
+
+....
+//article.adoc
+# tag::tagname[]
+This should be included!
+# end::tagname[]
+This text will not be included!
+....
+
+and include the file with the tagname in the brackets like this:
+
+[listing]
+....
+\include::article.adoc[tags=tagname]
+....
+
+The result would be
+
+----
+This should be included!
+----
+ 
 === Importing images
 
 You can import images with ´image::´ for the HTML output you can add the ´alt´ text within the brackets []. 
