@@ -34,8 +34,7 @@ heading:
     align: right
 ----
 
-A useful feature is to set a default width for images in the pdf output. To achieve this maintain in the the file `basic-theme.yml` under `themes` 
-the following entry:
+A useful feature is to set a default width for images in the pdf output. To achieve this do the following entry:
 
 ----
 image:
