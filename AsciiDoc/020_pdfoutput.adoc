@@ -18,4 +18,12 @@ Unfortunately Asciidoctor does not add a page break before a  part if you use "b
 See https://github.com/asciidoctor/asciidoctor-pdf/issues/329.
 As workaround you have to put manual line breaks into it with `<<<`.
 
+It is possible to set a default width for images in the pdf output. To achieve this maintain in the the file `basic-theme.yml` under `themes` 
+the following entry:
+
+----
+image:
+  width: 60%
+----
+
 
