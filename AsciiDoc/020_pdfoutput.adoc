@@ -18,7 +18,7 @@ Unfortunately Asciidoctor does not add a page break before a  part if you use "b
 See https://github.com/asciidoctor/asciidoctor-pdf/issues/329.
 As workaround you have to put manual line breaks into it with `<<<`.
 
-=== Styling of the PDF output
+=== Styling the PDF output
 
 In order to style the PDF output use the file _basic-theme.yml_ in folder _themes_.
 In this file you can style the title page, the headings (h1, h2, h3, etc), the images and many more objects.
