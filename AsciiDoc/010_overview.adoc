@@ -13,10 +13,11 @@ include::res/first.adoc[]
 ----
 
 <1> this attribute defines the you want to numbered sections.
-<2> enables experimental features, like button and menu paths
-<3> adds description to the HTML output
-<4> adds keywords to the HTML output
-<5> Defines the default image location
+<2> by default, the TOC will display only level 1 and level 2 section titles. With the toclevels attribute the level can be set differently.
+<3> enables experimental features, like button and menu paths
+<4> adds description to the HTML output
+<5> adds keywords to the HTML output
+<6> Defines the default image location
 Asciidoc documents typically ends with the _.adoc_. 
 
 === Important outstanding issues in Asciidoctor
