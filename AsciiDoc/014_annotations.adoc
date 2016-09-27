@@ -77,3 +77,23 @@ The following styles are supported:
 * CAUTION
 * WARNING
 
+You can also add header to these admonitions.
+
+----
+.My header for the note 
+[NOTE]
+====
+Blabla
+====
+----
+
+This looks like the following:
+
+.My header for the note 
+[NOTE]
+====
+Blabla
+====
+
+
+

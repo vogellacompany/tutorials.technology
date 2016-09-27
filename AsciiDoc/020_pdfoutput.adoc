@@ -4,8 +4,10 @@ To see the links in the generated output use the following attribute in the head
 
 [source,console]
 ----
-:showlinks:
+:show-link-uri:
 ----
+
+NOTE: Before release alpha.13 you have to use the :showlinks: attribute instead.
 
 Also you can configure the label for a chapter via the `chapter-label` attribute, e.g. if you do not want any label you can use:
 
