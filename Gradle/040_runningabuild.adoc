@@ -1,6 +1,5 @@
 == Running a build
 (((Gradle, Running a build)))
-	
 When starting a Gradle build via the command line, the `gradle` command tool looks for a file called `build.gradle` in the current directory.
 	
 	

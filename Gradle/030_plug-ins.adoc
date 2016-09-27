@@ -1,6 +1,5 @@
 == Gradle plug-ins
 (((Gradle, Plug-ins)))
-	
 The Gradle build system uses plug-ins to extend its core functionality.
 A plug-in is an extension to Gradle which typically adds some preconfigured tasks.
 Gradle ships with a number of plug-ins, and you can develop custom plug-ins.

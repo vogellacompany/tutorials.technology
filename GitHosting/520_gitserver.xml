@@ -2,9 +2,7 @@
 == Own Git server
 	<section id="gitserver_install">
 === Hosting your own Git server
-(((Git server</primary>
-			<secondary>configuration</secondary>
-		</indexterm>
+(((Git server,configuration)))
 
 		
 			As described before, you do not need a server. You can just use
@@ -66,9 +64,7 @@ include::res/server/commit.txt[]
 
 	<section id="gitserver_access">
 === Give write access to a Git repository
-(((Git server</primary>
-			<secondary>write access</secondary>
-		</indexterm>
+(((Git server,write access)))
 		
 			The typical setup based on the created "git" user from above is
 			that
@@ -86,12 +82,8 @@ include::res/server/commit.txt[]
 
 	<section id="gitserver_security">
 === Security setup for the git user
-(((Git server</primary>
-			<secondary>security</secondary>
-		</indexterm>
-(((Git server</primary>
-			<secondary>git-shell</secondary>
-		</indexterm>
+(((Git server,security)))
+(((Git server,git-shell)))
 		
 			The Git installation provides a specialized shell, which can be
 			assigned to the user. Typically this shell is located under in

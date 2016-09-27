@@ -225,9 +225,9 @@ kbd:[Alt+F11] - Toggle Full Screen Mode in the Eclipse IDE
 
 To reference images in your AsciiDoc with the `image::` macro pointing to a relative file location. Use brackets to define a fixed or related size.
 
------
+----
 image::vogellacompany.jpg[200,200]
------
+----
 
 The result looks like the following:
 
@@ -235,9 +235,9 @@ image::vogellacompany.jpg[200,200]
 
 You can also define a text for the image which is for example used for screenreaders or as placeholder if the image cannot be found.
 
------
+----
 image::vogellacompany.jpg[vogella Logo, 200,200]
------
+----
 
 If you want to scale the image for the PDF output you can use the `pdfwidth` attribute.
 ----
@@ -520,6 +520,6 @@ Multiline comments are enclosed in a block of four forward slashes (////).
 You can define custom variables and use them in your document. 
 For example the following defines the variable `yourvariable` which can be used with \{yourvariable\} and Asciidoctor will replace it with the value defined after the second :.
 
------
+----
 :yourvariable: vogella
------
+----

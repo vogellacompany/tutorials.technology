@@ -33,10 +33,10 @@ Version 0.3, 29.08.2016
 		
 	
 include::../web/advertisement/afterTableOfContent.adoc[]
-include::content/010_overview.adoc[]
-include::content/020_implementation.adoc[]
+include::010_overview.adoc[]
+include::020_implementation.adoc[]
 include::../web/advertisement/inBetween01.adoc[]
-include::content/100_information.adoc[]
+include::100_information.adoc[]
 
 include::../support.adoc[]
 include::008_resourceslocal.adoc[]

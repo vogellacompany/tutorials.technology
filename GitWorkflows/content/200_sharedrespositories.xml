@@ -31,9 +31,7 @@
 
 	<section id="gitworkflow_pullpush">
 === Workflow
-(((Git workflow</primary>
-			<secondary>shared repository</secondary>
-		</indexterm>
+(((Git workflow,shared repository)))
 		
 			To develop a change and integrate it into the shared repository,
 			the
@@ -91,9 +89,7 @@
 
 	<section id="gitworkflows_workingbranches">
 === Using branches
-(((Git workflow</primary>
-			<secondary>using branches</secondary>
-		</indexterm>
+(((Git workflow,using branches)))
 		Even if you have the rights to push to master in a remote
 			repository,
 			creating a local branch for

@@ -34,7 +34,7 @@ Version 0.3, 29.08.2016
   
   
 include::../web/advertisement/afterTableOfContent.adoc[]
-include::content/001_gmail.adoc[]
+include::001_gmail.adoc[]
 
 include::../support.adoc[]
 include::008_resourceslocal.adoc[]

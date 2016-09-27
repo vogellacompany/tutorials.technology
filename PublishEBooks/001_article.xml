@@ -33,7 +33,7 @@ Version 0.3, 06.07.2016
   
 
 include::../web/advertisement/afterTableOfContent.adoc[]
-include::content/001_introduction.adoc[]
+include::001_introduction.adoc[]
 
 
 

@@ -2,10 +2,8 @@
 == Installation of Gerrit
 
 	<section id="gerrit_installation_download">
-(((Gerrit</primary>
-			<secondary>Installation
-			</secondary>
-		</indexterm>
+(((Gerrit,Installation
+			)))
 === Download Gerrit
 		
 			Download the latest Gerrit release from
@@ -39,7 +37,7 @@
 			Gerrit with
 			the following command.
 [source,console]
------
+----
 include::res/install/install.txt[]
 ----
 		
@@ -140,7 +138,7 @@ include::res/install/install.txt[]
 			based systems.
 			
 [source,console]
------
+----
 include::res/install/start.txt[]
 ----
 		

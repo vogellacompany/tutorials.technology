@@ -33,13 +33,13 @@ Version 0.3, 29.08.2016
   
 
 include::../web/advertisement/afterTableOfContent.adoc[]
-include::content/010_overview.adoc[]
-include::content/020_hdsf.adoc[]
+include::010_overview.adoc[]
+include::020_hdsf.adoc[]
 include::../web/advertisement/inBetween01.adoc[]
-include::content/030_mapreduce.adoc[]
+include::030_mapreduce.adoc[]
 include::../web/advertisement/inBetween02.adoc[]
-include::content/040_installation.adoc[]
-include::content/050_gettingstarted.adoc[]
+include::040_installation.adoc[]
+include::050_gettingstarted.adoc[]
 
 include::../support.adoc[]
 include::008_resourceslocal.adoc[]

@@ -37,8 +37,8 @@ Version 0.3, 06.07.2016
 
 	<?dbhtml-include href="../../web/kindle/git.txt"?>
 include::../web/advertisement/afterTableOfContent.adoc[]
-include::content/100_separaterepos.adoc[]
-include::content/200_sharedrespositories.adoc[]
+include::100_separaterepos.adoc[]
+include::200_sharedrespositories.adoc[]
 
 include::../support.adoc[]
 include::008_resourceslocal.adoc[]

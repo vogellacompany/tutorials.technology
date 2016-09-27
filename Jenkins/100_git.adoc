@@ -10,7 +10,7 @@ For this switch into your job directory and run the `git config` command.
 	
 	
 [source,console]
------
+----
 include::res/git/config.txt[]
 ----	
 	
