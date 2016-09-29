@@ -11,9 +11,9 @@
 	
 
 	
-		<programlisting language="text">
-			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-				parse="text" href="../examples/links/jboss-updatesite.txt[]
+[source,text]
+----
+include::res/links/jboss-updatesite.txt[]
 ----
 	
 

@@ -38,9 +38,9 @@
 	
 
 	
-		<programlisting language="java">
-			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-				parse="text" href="../examples/first/ValueExampleObject.java[]
+[source,java]
+----
+include::res/first/ValueExampleObject.java[]
 ----
 	
 
@@ -50,9 +50,9 @@
 		creates the output.
 	
 	
-		<programlisting language="java">
-			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-				parse="text" href="../examples/first/MainTest.java[]
+[source,java]
+----
+include::res/first/MainTest.java[]
 ----
 	
 
