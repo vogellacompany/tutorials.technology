@@ -39,34 +39,34 @@
 		
 		
 			<orderedlist>
-				<listitem>
+				* 
 					Create a new local branch for the development
-				</listitem>
-				<listitem>
+				
+				* 
 					Change content in the working tree and add and commit his
 						changes
 					
-				</listitem>
+				
 
-				<listitem>
+				* 
 					If required he switches to other branches to do other work
 					
-				</listitem>
-				<listitem>
+				
+				* 
 					Once the development in the branch is complete he rebases (or
 						merges) the
 						commit history onto the relevant remote-tracking branch
 						to allow a
 						fast-forward merge for this development
 					
-				</listitem>
-				<listitem>
+				
+				* 
 					Pushes
 						his changes to the remote repository; this results
 						in a
 						fast-forward merge in the remote repository
 					
-				</listitem>
+				
 			</orderedlist>
 		
 		<note>

@@ -9,12 +9,12 @@
 		
 		
 			<orderedlist>
-				<listitem>
+				* 
 					The developer fetches or pulls in the latest changes from the
 						Git repository
 					
-				</listitem>
-				<listitem>
+				
+				* 
 					
 						The developer create a new local branch based on the
 						`origin/master`
@@ -29,38 +29,38 @@
 						between commits (Gerrit
 						reviews).
 					
-				</listitem>
-				<listitem>
+				
+				* 
 					The developer implements a change(new feature, bug fix,
 						documentation change) and create a commit in his local repository
 						with
 						these modifications.
 					
-				</listitem>
-				<listitem>
+				
+				* 
 					The developer implements (if necessary) more changes and
 						amends the existing commit,
 						until he is
 						satisfied with the change.
 					
-				</listitem>
+				
 			</orderedlist>
 		
 		
 			Afterwards you perform the following steps.
 			<orderedlist>
-				<listitem>
+				* 
 					
 						Push the change to the Gerrit review system to the
 						`refs/for/master`
 						refspec to create a change for the master branch.
 					
-				</listitem>
-				<listitem>
+				
+				* 
 					If you receive improvement suggestions, fetch the latest
 						changes and rebase your patch onto origin/master
 					
-				</listitem>
+				
 			</orderedlist>
 
 		

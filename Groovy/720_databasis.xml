@@ -2,9 +2,9 @@
 == Groovy data databases
 	 Groovy simplifies JDBC access to database.
 	
-		<programlisting>
-			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-				parse="text" href="./examples/explained/XmlTest.groovy[]
+[source,text]
+----
+include::res/explained/XmlTest.groovy[]
 ----
 	
 

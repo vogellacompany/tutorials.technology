@@ -42,81 +42,81 @@
 			In general a structured code review process has the following
 			advantages:
 			<orderedlist>
-				<listitem>
+				* 
 					
 						Early error detection:
 						
-							<listitem>Build problems are detected
+							* Build problems are detected
 								immediately
 								by automatic test
 								builds.
-							</listitem>
-							<listitem>Logical
+							
+							* Logical
 								flaws can be spotted by the human reviewer
 								before any code
 								is
 								merged.
-							</listitem>
-						</itemizedlist>
+							
+						
 					
-				</listitem>
-				<listitem>
+				
+				* 
 					
 						Conformation to the source code standards:
 						
-							<listitem>
+							* 
 								Allows the
 								team
 								to identify early in the process any
 								violations with
 								the team code
 								standards.
-							</listitem>
-							<listitem>
+							
+							* 
 								Helps to keep code
 								readable and easier
 								to
 								maintain.
-							</listitem>
-							<listitem>
+							
+							* 
 								
 									In some projects the continuous integration system also
 									checks for code
 									standard conformity automatically as part of the
 									build process.
 								
-							</listitem>
-						</itemizedlist>
+							
+						
 					
-				</listitem>
-				<listitem>
+				
+				* 
 					
 
 						Knowledge exchange:
 						
-							<listitem>The code review process allows newcomers
+							* The code review process allows newcomers
 								to see the code
 								of other
 								more experienced developers.
-							</listitem>
-							<listitem>Developers get fast feedback on their
+							
+							* Developers get fast feedback on their
 								suggested changes.
-							</listitem>
-							<listitem>Experienced developers can help to evaluate the impact
+							
+							* Experienced developers can help to evaluate the impact
 								on
 								the whole code.
-							</listitem>
-						</itemizedlist>
+							
+						
 
 					
-				</listitem>
-				<listitem>
+				
+				* 
 					
 						Shared code ownership: by reviewing code of other developers
 						the whole team gets a solid knowledge of the complete code base.
 					
-				</listitem>
-				<listitem>
+				
+				* 
 					
 						Easy entry to contribution: People
 						without write
@@ -124,8 +124,8 @@
 						a repository have an easy way to start contributing and to get
 						feedback.
 					
-				</listitem>
-				<listitem>
+				
+				* 
 					
 						Enables review before a change is submitted: Iteration based
 						on review comments / build results happen before a change is
@@ -133,7 +133,7 @@
 						the target branch. This result in a cleaner history of
 						the repository.
 					
-				</listitem>
+				
 			</orderedlist>
 		
 

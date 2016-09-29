@@ -35,20 +35,20 @@ image::UML10.gif[]
 			UML suggests that a class name:
 
 			
-				<listitem>
+				* 
 					Starts with a capital letter
-				</listitem>
-				<listitem>
+				
+				* 
 					is centered in the top compartment
-				</listitem>
-				<listitem>
+				
+				* 
 					is written in a boldface font
-				</listitem>
-				<listitem>
+				
+				* 
 					is written in italics if the class is abstract
 					
-				</listitem>
-			</itemizedlist>
+				
+			
 		
 
 

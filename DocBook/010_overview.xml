@@ -42,14 +42,14 @@
 		
 		
 			
-				<listitem>
+				* 
 					Article:
 						Used for writing technical articles. The main tag
 						is <![CDATA[<article>]]>.
 						Article is used in the following example.
 					
-				</listitem>
-				<listitem>
+				
+				* 
 					
 						Book: Used for longer description. The main tags is book. In
 						addition to sections in articles you have also the
@@ -57,8 +57,8 @@
 						and the <![CDATA[<part>]]>
 						tag.
 					
-				</listitem>
-			</itemizedlist>
+				
+			
 		
 
 	<section id="overview_versions">

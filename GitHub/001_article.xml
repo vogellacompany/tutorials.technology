@@ -30,7 +30,7 @@ Version 0.3, 06.07.2016
 			Version 5.6
 		</releaseinfo>
 
-		<abstract id="abstract">
+[abstract]
 	=== Using Github tutorial
 			 This tutorial explains how to use GitHub.
   

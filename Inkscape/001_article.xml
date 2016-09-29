@@ -22,7 +22,7 @@ Version 0.3, 06.07.2016
 			Version 0.1
 		</releaseinfo>
 		
-		<abstract id="abstract">
+[abstract]
 	=== Inkscape tutorial
 			This tutorial is a small introduction into the usage of
 				Inkscape for creating svg graphics.

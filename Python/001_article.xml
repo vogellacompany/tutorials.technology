@@ -27,7 +27,7 @@ Version 0.3, 06.07.2016
 		</releaseinfo>
 		<pubdate>01.08.2013</pubdate>
 		
-		<abstract id="abstract">
+[abstract]
 	=== Python, Pydev and Eclipse
 			 This article describes how to write
 				and debug

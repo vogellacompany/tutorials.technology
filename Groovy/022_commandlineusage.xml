@@ -6,21 +6,21 @@
 			You can execute a Groovy class or script from your IDE
 			but Groovy provides other options. You can run Groovy code via:
 			
-				<listitem>
+				* 
 					the Groovy shell: groovysh
-				</listitem>
-				<listitem>
+				
+				* 
 					the Groovy interpreter: groovy
-				</listitem>
-				<listitem>
+				
+				* 
 					the Groovy Console : groovyConsole
-				</listitem>
-				<listitem>
+				
+				* 
 					complile Groovy code to classfiles and run it via the
 						Java virtual machine
 					
-				</listitem>
-			</itemizedlist>
+				
+			
 		
 
 	

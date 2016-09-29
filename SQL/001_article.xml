@@ -25,7 +25,7 @@ Version 0.3, 29.08.2016
 			Version 0.6
 		</releaseinfo>
 		
-		<abstract id="abstract">
+[abstract]
 	=== SQL Statements
 			 This tutorial lists important SQL statements which you need to
 				use to create, update and read from database tables.

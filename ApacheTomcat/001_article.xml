@@ -31,7 +31,7 @@ Version 0.3, 29.08.2016
 		</releaseinfo>
 		<pubdate>20.08.2014</pubdate>
 		
-		<abstract id="abstract">
+[abstract]
 	=== Apache Tomcat
 			 This article describes the installation and usage of Apache
 				Tomcat for Java web development. Tomcat version 7.x is used in this

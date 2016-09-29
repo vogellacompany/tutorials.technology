@@ -7,12 +7,12 @@
 		your choice. Also make the Derby tools available in your path via the 
 		following:
 		
-			<listitem>
+			* 
 				Set the environment variable DERBY_HOME to the Derby
 					installation directory
-			</listitem>
-			<listitem>
+			
+			* 
 				Add DERBY_HOME/bin to the "path" environment variable
-			</listitem>
-		</itemizedlist>
+			
+		
 	

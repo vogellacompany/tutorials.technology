@@ -184,24 +184,24 @@
 		
 			The rules for voting in Gerrit is:
 			<orderedlist>
-				<listitem>
+				* 
 					Highest vote (+2 in Code-Review and +1 in Verified) enables
 						submitting
 					
-				</listitem>
-				<listitem>
+				
+				* 
 					Lowest vote (-2 in Code-Review) is a veto blocking that the
 						change can be submitted and
 						can't be overruled by
 						other reviewers
 					
-				</listitem>
-				<listitem>
+				
+				* 
 					You cannot submit the changes to the Git repository until
 						there is the highest vote in all
 						categories
 					
-				</listitem>
+				
 			</orderedlist>
 		
 		

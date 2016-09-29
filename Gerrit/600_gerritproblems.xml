@@ -107,16 +107,16 @@ image::gerrit_rebasebutton10.png[]
 			solve a merge
 			conflict are:
 			
-				<listitem>
+				* 
 					
 						Rebase your local branch onto the latest state of
 						`origin/master`
 					
-				</listitem>
-				<listitem>
+				
+				* 
 					Resolve all conflicts
-				</listitem>
-				<listitem>
+				
+				* 
 					
 						Commit them using
 						<menuchoice>
@@ -125,11 +125,11 @@ image::gerrit_rebasebutton10.png[]
 						
 						.
 					
-				</listitem>
-				<listitem>
+				
+				* 
 					Push your change again to Gerrit for review
-				</listitem>
-			</itemizedlist>
+				
+			
 		
 		
 			This creates a new

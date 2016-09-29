@@ -56,44 +56,44 @@ include::res/datatypes/ListTest.groovy[]
 		
 			The following lists the most useful methods on List.
 			
-				<listitem>
+				* 
 					reverse()
-				</listitem>
-				<listitem>
+				
+				* 
 					sort()
-				</listitem>
-				<listitem>
+				
+				* 
 					remove(index)
-				</listitem>
-				<listitem>
+				
+				* 
 					findAll{closure} - returns all list elements for which the
 						closure validates to true
 					
-				</listitem>
-				<listitem>
+				
+				* 
 					first()
-				</listitem>
-				<listitem>
+				
+				* 
 					last()
-				</listitem>
-				<listitem>
+				
+				* 
 					max()
-				</listitem>
-				<listitem>
+				
+				* 
 					min()
-				</listitem>
-				<listitem>
+				
+				* 
 					join("string") - combines all list elements, calling the
 						toString method and using the string for
 						concatenation.
 					
-				</listitem>
-				<listitem>
+				
+				* 
 					 <![CDATA[<<]]>
 						e - appends element e to the list
 					
-				</listitem>
-			</itemizedlist>
+				
+			
 		
 		
 			The
@@ -136,17 +136,17 @@ include::res/datatypes/SpreadDot.groovy[]
 		
 			You can search in a list.
 			
-				<listitem>
+				* 
 					findAll{closure} - returns all list elements for which the
 						closure validates to true
 					
-				</listitem>
-				<listitem>
+				
+				* 
 					find{closure} - returns the list element for which the
 						closure validates to true
 					
-				</listitem>
-				<listitem>
+				
+				* 
 					grep(Object filter) - Iterates over the collection of items
 						and returns each item that matches the given
 						filter - calling the
@@ -154,8 +154,8 @@ include::res/datatypes/SpreadDot.groovy[]
 						filters like regular
 						expressions, classes, ranges etc.
 					
-				</listitem>
-			</itemizedlist>
+				
+			
 [source,java]
 ----
 include::res/grep/GrepExample.groovy[]

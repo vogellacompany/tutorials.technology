@@ -6,13 +6,13 @@
 			Gmail allows to search via pre-defined values. For example:
 
 			
-				<listitem>
+				* 
 					has:attachement - search email with an attachment    
-				</listitem>
-				<listitem>
+				
+				* 
 					from: Paul- search emails from Paul     
-				</listitem>
-			</itemizedlist>
+				
+			
 		
 
 	<section id="gmaillabels">

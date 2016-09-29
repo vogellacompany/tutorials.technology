@@ -28,7 +28,7 @@ Version 0.3, 06.07.2016
 			Version 2.2
 		</releaseinfo>
 		
-		<abstract id="abstract">
+[abstract]
 	=== Gerrit tutorial
 			 This tutorial explains the usage of the Gerrit code review
 				system. It describes the setup of Eclipse (with EGit) as well as the

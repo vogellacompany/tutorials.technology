@@ -9,9 +9,9 @@
 		for parsing JSON.
 	
 	
-		<programlisting>
-			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-				parse="text" href="./examples/json/JsonSlurperExample.groovy[]
+[source,text]
+----
+include::res/json/JsonSlurperExample.groovy[]
 ----
 	
 	

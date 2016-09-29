@@ -23,7 +23,7 @@ Version 0.3, 06.07.2016
 			Version 0.1
 		</releaseinfo>
 		
-		<abstract id="abstract">
+[abstract]
 	=== H2 database engine
 			 This tutorial explains how to install H2 database engine.
 			

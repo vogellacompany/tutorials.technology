@@ -9,9 +9,9 @@
 	
 
 	
-		<programlisting>
-			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-				parse="text" href="./examples/traits/MyNotifier.groovy[]
+[source,text]
+----
+include::res/traits/MyNotifier.groovy[]
 ----
 	
 	A trait can have properties, unlike Java 8 default methods for
@@ -20,9 +20,9 @@
 
 
 	
-		<programlisting>
-			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-				parse="text" href="./examples/traits/MyTester.groovy[]
+[source,text]
+----
+include::res/traits/MyTester.groovy[]
 ----
 	
 

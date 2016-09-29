@@ -34,26 +34,26 @@
 			_Python_
 			are:
 			
-				<listitem>
+				* 
 					high-level data types, as for example extensible
 						lists
 					
-				</listitem>
-				<listitem>
+				
+				* 
 					statement grouping is done by indentation instead of
 						brackets
 					
-				</listitem>
-				<listitem>
+				
+				* 
 					variable or argument declaration is not necessary 
-				</listitem>
-				<listitem>
+				
+				* 
 					supports for object-orientated, procedural and
 						functional
 						programming style
 					
-				</listitem>
-			</itemizedlist>
+				
+			
 		
 
 

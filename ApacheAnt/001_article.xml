@@ -32,7 +32,7 @@ Version 0.3, 29.08.2016
 		</releaseinfo>
 		<pubdate>02.03.2014</pubdate>
 		
-		<abstract id="abstract">
+[abstract]
 	=== Apache Ant Tutorial
 			 This tutorial describes the usage of Ant as a build tool to
 				compile Java

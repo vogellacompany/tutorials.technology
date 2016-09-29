@@ -6,18 +6,18 @@
 		The absolute runtime of an algorithm is determined by several things,
 		for example:
 		
-			<listitem>The Hardware it is running upon 
+			* The Hardware it is running upon 
 				
-			</listitem>
-			<listitem>
+			
+			* 
 				The programming language your are using
 				
-			</listitem>
-			<listitem>
+			
+			* 
 				The compiler / runtime environment you are using 
 				
-			</listitem>
-		</itemizedlist>
+			
+		
 	
 
 	All these factors influence the actual runtime of a algorithm.

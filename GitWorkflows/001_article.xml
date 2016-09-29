@@ -28,7 +28,7 @@ Version 0.3, 06.07.2016
 			Version 5.5
 		</releaseinfo>
 		
-		<abstract id="abstract">
+[abstract]
 	=== Git typical workflows
 			 This tutorial explains typical workflows for using Git.
 			

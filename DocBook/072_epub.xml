@@ -124,7 +124,7 @@ include::res/epub/buildepub.xml[]
 			a
 			solution for it.
 			
-				<listitem>
+				* 
 					
 						Target location of <filename class="directory">META-INF/`
 						can be specified via
@@ -132,11 +132,11 @@ include::res/epub/buildepub.xml[]
 						but if you do so this path is also used in the
 						`container.xml`.
 					
-				</listitem>
-				<listitem>
+				
+				* 
 					Same issue with `epub.oebps.dir`.
-				</listitem>
-			</itemizedlist>
+				
+			
 		
 		
 			You find another example Ant file in

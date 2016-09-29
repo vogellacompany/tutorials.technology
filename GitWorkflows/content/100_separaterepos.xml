@@ -22,27 +22,27 @@
 		
 		
 			<orderedlist>
-				<listitem>
+				* 
 					Clone the repository, in case you have not done that.
-				</listitem>
-				<listitem>
+				
+				* 
 					Create a new branch for the bug fix
-				</listitem>
-				<listitem>
+				
+				* 
 					Modify the files (source code)
-				</listitem>
+				
 
-				<listitem>
+				* 
 					Commit changes to your branch 
-				</listitem>
-				<listitem>
+				
+				* 
 					Create patch 
-				</listitem>
-				<listitem>
+				
+				* 
 					Send patch to another person or attach it to a bug report, so
 						that is can be applied to the other Git repository
 					
-				</listitem>
+				
 			</orderedlist>
 		
 		You may also want to commit several times during 3. and 4. and

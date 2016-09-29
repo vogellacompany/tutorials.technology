@@ -6,25 +6,25 @@
 		files and to convert them into other formats, you need the following
 		tools.
 		
-			<listitem>
+			* 
 				
 					The DocBook DTD which defines the structure of a
 					_DocBook_
 					document.
 				
-			</listitem>
-			<listitem>
+			
+			* 
 				
 					An XSLT stylesheet to convert your
 					_DocBook_
 					file into another
 					format.
 				
-			</listitem>
-			<listitem>
+			
+			* 
 				An XSLT parser
-			</listitem>
-		</itemizedlist>
+			
+		
 	
 	
 		In this tutorial you use the

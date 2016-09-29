@@ -1,9 +1,9 @@
 
 <orderedlist>
-	<listitem>
+	* 
 		This is a list entry
-	</listitem>
-	<listitem>
+	
+	* 
 		This is another list entry
-	</listitem>
+	
 </orderedlist>

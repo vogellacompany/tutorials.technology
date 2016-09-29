@@ -23,7 +23,7 @@
 			Version 3.8
 		</releaseinfo>
 		
-		<abstract id="abstract">
+[abstract]
 	=== DocBook
 			
 				This tutorial explains how to write DocBook files in Eclipse

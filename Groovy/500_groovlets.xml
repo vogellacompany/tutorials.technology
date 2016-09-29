@@ -12,24 +12,24 @@
 		
 			A Groovlet has automatically access to the following information:
 			
-				<listitem>
+				* 
 					application, context - Gives access to
 						javax.servlet.ServletContext
 					
-				</listitem>
-				<listitem>
+				
+				* 
 					session – Gives access to javax.servlet.HttpSession
-				</listitem>
-				<listitem>
+				
+				* 
 					request –s Gives access to javax.servlet.HttpServlet
-				</listitem>
-				<listitem>
+				
+				* 
 					response –> Gives access to javax.servlet.HttpResponse
-				</listitem>
-				<listitem>
+				
+				* 
 					out –> Gives access to response.getWriter()
-				</listitem>
-			</itemizedlist>
+				
+			
 		
 
 

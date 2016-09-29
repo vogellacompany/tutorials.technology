@@ -20,24 +20,24 @@
 			pre-defined methods
 			are called which can be used to handle this call.
 			
-				<listitem>
+				* 
 					def methodMissing (String name, args) - Called for missing
 						method
 					
-				</listitem>
-				<listitem>
+				
+				* 
 					void setProperty (String property, Object o ) - called for
 						non
 						existing setter of a property
 					
-				</listitem>
-				<listitem>
+				
+				* 
 					Object getProperty (String property) - called for non
 						existing
 						getter of a property
 					
-				</listitem>
-			</itemizedlist>
+				
+			
 		
 		Instances of Groovy object have default implementations of these
 			methods, but an Groovy object can override these

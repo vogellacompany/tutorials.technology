@@ -26,14 +26,14 @@
 			A Java build
 			process typically includes:
 			
-				<listitem> the compilation of the Java source code into Java
+				*  the compilation of the Java source code into Java
 					bytecode
-				</listitem>
-				<listitem> creation of the .jar file for the distribution of the
+				
+				*  creation of the .jar file for the distribution of the
 					code
-				</listitem>
-				<listitem> creation of the Javadoc documentation</listitem>
-			</itemizedlist>
+				
+				*  creation of the Javadoc documentation
+			
 		
 		
 			Ant

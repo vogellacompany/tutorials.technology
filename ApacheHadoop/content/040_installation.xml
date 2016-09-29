@@ -6,11 +6,11 @@
 		. To get started with Hadoop you require the following sub-projects:
 
 		
-			<listitem>Hadoop Common    
-			</listitem>
-			<listitem>MapReduce    
-			</listitem>
-			<listitem>HDFS     
-			</listitem>
-		</itemizedlist>
+			* Hadoop Common    
+			
+			* MapReduce    
+			
+			* HDFS     
+			
+		
 	

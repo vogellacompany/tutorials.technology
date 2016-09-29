@@ -124,22 +124,22 @@
 			To define warning messages, DocBook provides several tags. The
 			following list gives an overview of them.
 			
-				<listitem>
+				* 
 					tip
-				</listitem>
-				<listitem>
+				
+				* 
 					note
-				</listitem>
-				<listitem>
+				
+				* 
 					important
-				</listitem>
-				<listitem>
+				
+				* 
 					warning
-				</listitem>
-				<listitem>
+				
+				* 
 					caution
-				</listitem>
-			</itemizedlist>
+				
+			
 		
 		The following snippet shows how to use these.
 		
@@ -246,9 +246,9 @@ include::res/numberedlist.xml[]
 === Links
 		You can create links like this
 
-		<programlisting language="xml">
-			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-				parse="text" href="./examples/link/examplelink.xml[]
+[source,xml]
+----
+include::res/link/examplelink.xml[]
 ----
 
 
@@ -269,22 +269,22 @@ include::res/numberedlist.xml[]
 			`"alt"`
 			attribute of image.
 		
-		<programlisting language="xml">
-			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-				parse="text" href="./examples/images/images.xml[]
+[source,xml]
+----
+include::res/images/images.xml[]
 ----
 		
 			You can also specify different graphics for different output
 			formats.
 		
-		<programlisting language="xml">
-			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-				parse="text" href="./examples/images/images2.xml[]
+[source,xml]
+----
+include::res/images/images2.xml[]
 ----
 		You can also embed a figure with enumeration and header.
-		<programlisting language="xml">
-			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-				parse="text" href="./examples/images/figure.xml[]
+[source,xml]
+----
+include::res/images/figure.xml[]
 ----
 
 
@@ -295,9 +295,9 @@ include::res/numberedlist.xml[]
 menu:File[New Project],
 			use the following
 		
-		<programlisting language="xml">
-			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-				parse="text" href="./examples/gui/menu.xml[]
+[source,xml]
+----
+include::res/gui/menu.xml[]
 ----
 
 
@@ -313,9 +313,9 @@ menu:File[New Project],
 			</shortcut>,
 			use the following
 		
-		<programlisting language="xml">
-			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-				parse="text" href="./examples/gui/shortcut.xml[]
+[source,xml]
+----
+include::res/gui/shortcut.xml[]
 ----
 
 

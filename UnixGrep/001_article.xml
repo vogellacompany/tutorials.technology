@@ -33,7 +33,7 @@ Version 0.3, 06.07.2016
 		
 
 
-		<abstract id="abstract">
+[abstract]
 	=== The grep command
 			 This tutorial explains the usage of the grep command for
 				searching for regular expressions in files.

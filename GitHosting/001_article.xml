@@ -30,7 +30,7 @@ Version 0.3, 06.07.2016
 			Version 5.6
 		</releaseinfo>
 		
-		<abstract id="abstract">
+[abstract]
 	=== Hosting your Git repositories
 			 This tutorial explains how to use Bitbucket as hosting
 				provider for your Git repository and how you can install a Git

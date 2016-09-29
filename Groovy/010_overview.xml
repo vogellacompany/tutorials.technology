@@ -120,20 +120,20 @@ include::res/first/HelloWorld.groovy[]
 		
 			The enhancements of Groovy compared to Java can be classified as:
 			
-				<listitem>
+				* 
 					Groovy language features
-				</listitem>
-				<listitem>
+				
+				* 
 					Groovy specific libraries
-				</listitem>
-				<listitem>
+				
+				* 
 					Additional methods to existing Java classes by the Groovy
 						Developer
 						Kit, this is commonly known as the Groovy
 						JDK.
 					
-				</listitem>
-			</itemizedlist>
+				
+			
 		
 		
 			The following list contains
@@ -141,7 +141,7 @@ include::res/first/HelloWorld.groovy[]
 			this.
 			
 
-				<listitem>
+				* 
 					
 						Simplification - Groovy does not require semicolons at the end of
 						statements. The
@@ -156,9 +156,9 @@ include::res/first/HelloWorld.groovy[]
 						allows
 						optional typing.
 					
-				</listitem>
+				
 
-				<listitem>
+				* 
 					Flexibility - Groovy allows to change classes and methods at
 						runtime, e.g.
 						if a method is called which does not
@@ -170,24 +170,24 @@ include::res/first/HelloWorld.groovy[]
 						very flexible builder
 						pattern.
 					
-				</listitem>
+				
 
-				<listitem>
+				* 
 					Ease of use - Groovy has list, maps and regular expressions
 						directly
 						build
 						into
 						the language.
 					
-				</listitem>
-				<listitem>
+				
+				* 
 					Simplification in I/O - parsing and creating XML, JSON and
 						files is very simple with
 						Groovy.
 					
-				</listitem>
+				
 
-			</itemizedlist>
+			
 
 		
 
@@ -200,31 +200,31 @@ include::res/first/HelloWorld.groovy[]
 			can be used in Groovy without specifying the
 			package name.
 			
-				<listitem>
+				* 
 					groovy.lang.*
-				</listitem>
-				<listitem>
+				
+				* 
 					groovy.util.*
-				</listitem>
-				<listitem>
+				
+				* 
 					java.lang.*
-				</listitem>
-				<listitem>
+				
+				* 
 					java.util.*
-				</listitem>
-				<listitem>
+				
+				* 
 					java.net.*
-				</listitem>
-				<listitem>
+				
+				* 
 					java.io.*
-				</listitem>
-				<listitem>
+				
+				* 
 					java.math.BigInteger
-				</listitem>
-				<listitem>
+				
+				* 
 					java.math.BigDecimal
-				</listitem>
-			</itemizedlist>
+				
+			
 		
 		
 			Groovy allows that an import is shortened for later access, e.g.,

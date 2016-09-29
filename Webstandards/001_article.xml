@@ -22,7 +22,7 @@ Version 0.3, 06.07.2016
 			Version 0.1 - 0.2
 		</releaseinfo>
 		
-		<abstract id="abstract">
+[abstract]
 	=== Webstandards
 			Short overview of web standards, e.g. web server, HTML, HTTP
 				and

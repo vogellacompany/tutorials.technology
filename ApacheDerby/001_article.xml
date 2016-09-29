@@ -25,7 +25,7 @@ Version 0.3, 06.07.2016
 			Version 0.8
 		</releaseinfo>
 		
-		<abstract id="abstract">
+[abstract]
 	=== Apache Derby
 			 This articles explains how to install the Apache Derby
 				database,

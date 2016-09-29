@@ -30,7 +30,7 @@ Version 0.3, 06.07.2016
 
 		</releaseinfo>
 
-		<abstract id="abstract">
+[abstract]
 	=== XSLT with Eclipse
 			 This articles explains how to do a XSLT transformations on the
 				command line or via

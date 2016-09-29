@@ -13,9 +13,9 @@
 		
 
 		
-			<programlisting language="java">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/start/start.txt[]
+[source,java]
+----
+include::res/start/start.txt[]
 ----
 		
 
@@ -78,9 +78,9 @@ image::tomcat_initialpage10.png" />
 		
 
 		
-			<programlisting language="java">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/install/user.txt[]
+[source,java]
+----
+include::res/install/user.txt[]
 ----
 		
 		

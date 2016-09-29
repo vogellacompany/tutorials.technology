@@ -20,28 +20,28 @@ menu:General[Projects]
 		
 			Create the following folder structure:
 			
-				<listitem>
+				* 
 					input
-				</listitem>
-				<listitem>
+				
+				* 
 					input/images
-				</listitem>
-				<listitem>
+				
+				* 
 					css
-				</listitem>
-				<listitem>
+				
+				* 
 					output
-				</listitem>
-				<listitem>
+				
+				* 
 					docbook-xml-4.5
-				</listitem>
-				<listitem>
+				
+				* 
 					docbook-xsl
-				</listitem>
-				<listitem>
+				
+				* 
 					lib
-				</listitem>
-			</itemizedlist>
+				
+			
 		
 		
 			Place the DocBook DTD and the XSLT stylesheets into the
@@ -111,9 +111,9 @@ include::res/firstdocbook/book.xml[]
 			`buildhtml.xml`
 			file in your project directory.
 		
-		<programlisting language="xml">
-			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-				parse="text" href="./examples/ant/buildhtml.xml[]
+[source,xml]
+----
+include::res/ant/buildhtml.xml[]
 ----
 		
 			Run the `build.xml` file

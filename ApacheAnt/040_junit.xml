@@ -18,9 +18,9 @@
 		previous example.
 	
 	
-		<programlisting>
-			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-				parse="text" href="./examples/junit/MyMathTest.java[]
+[source,java]
+----
+include::res/junit/MyMathTest.java[]
 ----
 	
 	 You can run this JUnit unit test via the following build.xml.
@@ -28,8 +28,8 @@
 		"lib".
 	
 	
-		<programlisting language="xml">
-			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-				parse="text" href="./examples/junit/build.xml[]
+[source,xml]
+----
+include::res/junit/build.xml[]
 ----
 	

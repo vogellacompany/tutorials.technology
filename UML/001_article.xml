@@ -25,7 +25,7 @@ Version 0.3, 29.08.2016
 			Version 1.2
 		</releaseinfo>
 		
-		<abstract id="abstract">
+[abstract]
 	=== UML modelling
 			 This article gives a short overview of UML2.
 			
