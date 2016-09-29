@@ -39,14 +39,6 @@ include::res/maps/MapTest.groovy[]
 			is added to the
 			map.
 		
-
-		
-[source,java]
-----
-include::res/maps/MapTest.groovy[]
-----
-		
-		
 			The
 			`keySet()`
 			method returns a set of
