@@ -1,10 +1,6 @@
 [[exercise_workingwithremotes]]
 == Exercise: Working with a (local) remote repository
 
-[[exercise_cloneremotes_clone]]
-
-=== Target of this exercise
-
 This exercise is based on <<firstgit>>.
 You now create a local bare repository based on your existing Git repository.
 In order to simplify the examples, the Git repository is hosted locally in the filesystem and not on a server in the Internet.

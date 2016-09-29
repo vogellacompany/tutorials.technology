@@ -1,9 +1,6 @@
 [[exercise_maven]]
 == Exercise: Create and build a Java project with Maven
 
-[[exercise_maven_target]]
-=== Target of this exercise
-		
 In this exercise you create a Java project with the Maven command line and build this project.
 
 [[exercise_maven_generation]]
