@@ -1,0 +1,14 @@
+[[resources]]
+== Links and Literature
+
+[[resources_tomcat]]
+=== Apache Tomcat
+
+http://tomcat.apache.org/[Apache Tomcat Homepage]
+
+http://www.vogella.com/tutorials/EclipseWTP/article.html[Java Webdevelopment with Eclipse WTP - Tutorial]
+
+http://wiki.eclipse.org/WTP_Tomcat_FAQ[Eclipse WTP and Tomcat FAQ]
+
+http://tomcat.apache.org/tomcat-6.0-doc/security-manager-howto.html[Apache Tomcat Sercurity Manager How-to]
+
