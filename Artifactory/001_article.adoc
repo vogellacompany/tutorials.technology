@@ -1,4 +1,4 @@
-== Artifactory Repository Manager - Tutorial
+= Artifactory Repository Manager - Tutorial
 :linkcss:
 :sectnums:                                                          
 :experimental:
@@ -19,5 +19,4 @@ include::030_configuration.adoc[]
 include::../support.adoc[]
 include::008_resourceslocal.adoc[]
 include::../copyright.adoc[]
-
 
