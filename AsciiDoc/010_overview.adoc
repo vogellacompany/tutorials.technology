@@ -515,6 +515,9 @@ You can use both single and multiline comments.
 Single line comments start with a double slash (//). 
 Multiline comments are enclosed in a block of four forward slashes (////).
 
+=== Escape Asciidoc markup
+
+Most AsciiDoc elements can be escaped by preceding them with a backslash character.
 
 === Custom attributes / variables
 

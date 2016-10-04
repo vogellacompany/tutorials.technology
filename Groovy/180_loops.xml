@@ -1,6 +1,6 @@
-<section id="groovyloops" role="wrapper">
+[[groovyloops" role="wrapper">
 == Loops
-	<section id="groovyloops1">
+	[[groovyloops1">
 === For and while loops
 		
 			Groovy supports the standard Java
@@ -15,7 +15,7 @@
 			loop.
 		
 
-	<section id="groovyloops?each">
+	[[groovyloops?each">
 === Using the each method
 		
 			While for and while loops are supported the Groovy way of iterating
@@ -54,7 +54,7 @@
 			the second it the index.
 		
 
-	<section id="groovyloops_numbers">
+	[[groovyloops_numbers">
 === Iterative with numbers 
 
 		

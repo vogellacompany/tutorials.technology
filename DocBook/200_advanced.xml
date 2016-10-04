@@ -1,6 +1,6 @@
-<section id="advanced">
+[[advanced">
 == Advanced Features
-	<section id="advanced_syntaxhighlighting">
+	[[advanced_syntaxhighlighting">
 === Syntax Highlighting
 		
 			You can also enable syntax highlighting. This involves creating
@@ -8,7 +8,7 @@
 			customization stylesheet layer, the usage of an external lib and
 			configuration file. Please see
 http://docbook.sourceforge.net/release/xsl/current/doc/fo/highlight.source.html[
-				Source Code Syntax Highlighting with DocBook</ulink>
+				Source Code Syntax Highlighting with DocBook]
 			for a description of the setup.
 		
 		
@@ -47,7 +47,7 @@ include::res/syntaxhighlighting/xslthl-config.xml[]
 		
 
 
-	<section id="advanced_removepart">
+	[[advanced_removepart">
 === Remove certain parts
 		
 			Sometimes you want to remove certain parts of your document
@@ -68,7 +68,7 @@ include::res/advanced/remove_sections_for_book.xsl[]
 		
 
 
-	<section id="advanced_own">
+	[[advanced_own">
 === Using own stylesheets
 		
 			You can also create your own stylesheets, import the default

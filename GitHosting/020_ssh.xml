@@ -1,6 +1,6 @@
-<section id="ssh_authentication" role="wrapper">
+[[ssh_authentication" role="wrapper">
 == Authentication via SSH
-	<section id="ssh_authentication">
+	[[ssh_authentication">
 === The concept of SSH
 (((SSH key pair)))
 		
@@ -35,7 +35,7 @@
 			private key.
 		
 
-	<section id="ssh_keygeneration">
+	[[ssh_keygeneration">
 === SSH key pair generation
 
 		
@@ -117,9 +117,9 @@ image::eclipseide_sshgen.png" scale="30" />
 			webpages:
 			https://help.github.com/articles/generating-ssh-keys">
 				GitHub Help: description of SSH key creation
-			</ulink>
+			]
 			or
-			http://www.openssh.com/manual.html[OpenSSH manual</ulink>
+			http://www.openssh.com/manual.html[OpenSSH manual]
 			.
 		
 		<tip>

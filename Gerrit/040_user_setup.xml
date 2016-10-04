@@ -1,7 +1,7 @@
-<section id="gerrit_usersetup">
+[[gerrit_usersetup">
 == User setup
 (((Gerrit,User setup)))
-	<section id="gerrit_usersetupcreate">
+	[[gerrit_usersetupcreate">
 === Create user
 		You require a valid Gerrit user to work with Gerrit.
 		<tip>
@@ -12,14 +12,14 @@
 		
 		
 			Login to Gerrit via
-			http://localhost:8080/login/">http://localhost:8080/login/</ulink>
+			http://localhost:8080/login/">http://localhost:8080/login/]
 			. The
 			first user to login automatically gets the administrator
 			status.
 		
 
 
-	<section id="gerrit_usersetup_ssh">
+	[[gerrit_usersetup_ssh">
 === SSH setup
 		
 			If you want to use SSH you have to upload your SSH key. If you prefer
@@ -71,7 +71,7 @@ image::gerritsetup30.png[]
 			</mediaobject>
 		
 
-	<section id="gerrit_usersetup_https">
+	[[gerrit_usersetup_https">
 === HTTPS setup
 		You can also enter a password for HTTPS access.
 		

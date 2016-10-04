@@ -1,4 +1,4 @@
-<section id="freemarkertest">
+[[freemarkertest">
 == Basic example
 
 	
@@ -11,7 +11,7 @@
 	
 	
 		If you don't know how to achieve that, please see the
-		http://www.vogella.com/tutorials/Eclipse/article.html[Eclipse IDE Tutorial</ulink>
+		http://www.vogella.com/tutorials/Eclipse/article.html[Eclipse IDE Tutorial]
 		for instructions on the required steps.
 	
 	

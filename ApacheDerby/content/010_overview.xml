@@ -1,7 +1,7 @@
-<section id="derby">
+[[derby">
 == Apache Derby
 
-	<section id="derby_overview">
+	[[derby_overview">
 === Overview
 		 Apache Derby is an open source database written in Java. It is
 			free and performs well. Apache Derby is used in the JDK and is
@@ -16,7 +16,7 @@
 		
 
 
-	<section id="derby_modes">
+	[[derby_modes">
 === Server vs. embedded mode
 		
 			Derby can be used in a

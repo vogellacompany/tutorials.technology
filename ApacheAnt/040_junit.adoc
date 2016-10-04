@@ -1,0 +1,31 @@
+﻿[[junit4]]
+== Running JUnit Tests via Ant
+	
+Ant allows to run
+http://www.vogella.com/tutorials/JUnit/article.html[JUnit]
+tests. Ant defines
+_junit_
+task. You only need to include the
+junit.jar and the compiled classes
+into the classpath for Ant and then
+you can run JUnit tests. See
+http://www.vogella.com/tutorials/JUnit/article.html[JUnit Tutorial]
+for an introduction into JUnit.
+	
+The following is a JUnit test for the
+previous example.
+	
+[source,java]
+----
+include::res/junit/MyMathTest.java[]
+----
+	
+You can run this JUnit unit test via the following build.xml.
+This example assumes that the JUnit jar "junit.jar" is in folder
+"lib".
+	
+[source,xml]
+----
+include::res/junit/build.xml[]
+----
+	

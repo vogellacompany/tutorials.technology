@@ -1,6 +1,6 @@
-<section id="grooygtests" role="wrapper">
+[[grooygtests" role="wrapper">
 == Assert statements and unit tests with Groovy
-	<section id="grooygtests_asserts">
+	[[grooygtests_asserts">
 === Asserts 
 		
 			Groovy provides the
@@ -23,7 +23,7 @@ include::res/testing/assert.java[]
 ----
 		
 
-	<section id="grooygtests_unittests">
+	[[grooygtests_unittests">
 === Unit tests 
 		
 			Groovy can be used to write JUnit 4 test cases without any
@@ -60,7 +60,7 @@ include::res/testing/shouldfail.java[]
 		
 		
 			See
-			http://beta.groovy-lang.org/docs/groovy-2.3.0/html/documentation/core-testing-guide.html[Groovy testing guide</ulink>
+			http://beta.groovy-lang.org/docs/groovy-2.3.0/html/documentation/core-testing-guide.html[Groovy testing guide]
 			.
 		
 

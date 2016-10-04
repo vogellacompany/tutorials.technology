@@ -1,7 +1,7 @@
-<section id="hosting_github" role="wrapper">
+[[hosting_github" role="wrapper">
 == GitHub
 
-	<section id="hosting_github_what">
+	[[hosting_github_what">
 === What is GitHub?
 (((GitHub)))
 
@@ -54,7 +54,7 @@
 		
 			https://github.com">
 				GitHub
-			</ulink>
+			]
 		
 
 		
@@ -87,7 +87,7 @@ include::res/github/example.txt[]
 		
 
 
-	<section id="github_createrepo">
+	[[github_createrepo">
 === Create repository in GitHub
 		
 			Once you create a user at Github, you can create a new public
@@ -129,7 +129,7 @@ image::github20.png" scale="30" />
 			ignore this information.
 		
 
-	<section id="hosting_github_mergingpullrequests">
+	[[hosting_github_mergingpullrequests">
 === Merging pull request at GitHub
 (((GitHub,Merging pull requests)))
 		

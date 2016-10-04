@@ -1,15 +1,15 @@
-<section id="xsltparameters">
+[[xsltparameters">
 == Influencing the output result
 	
 		The XSLT stylesheets have several parameters which can influence
 		the result of the conversion.
 	
-	<section id="xsltparameterss1as2a">
+	[[xsltparameterss1as2a">
 === HTML Parameters
 		
 			You find all HTML relevant parameters at
 			http://docbook.sourceforge.net/release/xsl/current/doc/html/">
-				http://docbook.sourceforge.net/release/xsl/current/doc/html/</ulink>.
+				http://docbook.sourceforge.net/release/xsl/current/doc/html/].
 
 .Table Title
 |===
@@ -59,12 +59,12 @@
 		
 
 
-	<section id="xsltparameterss1as2b">
+	[[xsltparameterss1as2b">
 === PDF Parameters
 		
 			You find all FO / PDF relevant parameters at
 			http://docbook.sourceforge.net/release/xsl/current/doc/fo/">
-				http://docbook.sourceforge.net/release/xsl/current/doc/fo/</ulink>.
+				http://docbook.sourceforge.net/release/xsl/current/doc/fo/].
 
 .Table Title
 |===
@@ -103,7 +103,7 @@
 |===
 		
 
-	<section id="xsltparameters_includehtml">
+	[[xsltparameters_includehtml">
 === Add content into the HTML output
 		
 			DocBook allows you to include external HTML files into the HTML
@@ -123,7 +123,7 @@
 		
 			See
 http://www.sagehill.net/docbookxsl/InsertExtHtml.html#CodeInPage">
-				Inserting external HTML code</ulink>
+				Inserting external HTML code]
 			for details.
 		
 

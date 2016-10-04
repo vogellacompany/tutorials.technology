@@ -1,17 +1,17 @@
-<section id="installation">
+[[installation">
 == Installation
-	<section id="installation_eclipse">
+	[[installation_eclipse">
 === Eclipse
 		
 			Install Eclipse. See
 			http://www.vogella.com/tutorials/Eclipse/article.html[
-				Eclipse IDE</ulink>
+				Eclipse IDE]
 			for installing and using Eclipse.
 		
 		
 			Eclipse has
 			http://www.vogella.com/tutorials/ApacheAnt/article.html[
-				Apache Ant</ulink>
+				Apache Ant]
 			integrated. Therefore, no additional
 			installation for Ant
 			is
@@ -19,7 +19,7 @@
 		
 
 
-	<section id="installation_sheets">
+	[[installation_sheets">
 === Docbook and Stylesheets
 		
 			Download the Docbook DTD in version 4.5 and the latest version
@@ -27,20 +27,20 @@
 		
 		
 			http://www.oasis-open.org/docbook/xml/4.5">
-				DocBook DTD in version 4.5</ulink>
+				DocBook DTD in version 4.5]
 		
 		
 			http://sourceforge.net/projects/docbook/files/docbook-xsl/">
-				XSLT stylesheets</ulink>
+				XSLT stylesheets]
 		
 
 
-	<section id="installation_xslprocessor">
+	[[installation_xslprocessor">
 === XSL processor
 		
 			The download link for Saxon is:
 			http://saxon.sourceforge.net/">
-				http://saxon.sourceforge.net/</ulink>.
+				http://saxon.sourceforge.net/].
 		
 		
 			Download the version 6.5.5 as newer Saxon versions do not work
@@ -58,7 +58,7 @@
 		
 
 
-	<section id="installation_issues">
+	[[installation_issues">
 === Issues
 		
 			Sometimes running the XSLT conversion results in the following

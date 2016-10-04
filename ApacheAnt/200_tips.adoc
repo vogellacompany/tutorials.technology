@@ -1,0 +1,34 @@
+﻿[[tips]]
+== Ant tips
+
+[[tips_path]]
+=== Converting Paths
+
+Apache Ant allows to convert relative paths to absolute paths.
+The following example demonstrates that.
+
+[source,text]
+----
+include::res/tips/define.txt[]
+----
+
+This property can later be used for example as a parameter.
+
+[source,xml]
+----
+include::res/tips/use.txt[]
+----
+
+[[tips_regularexpressions]]
+=== Regular expressions
+
+Ant can be used to replace text based on regular expressions. The
+following
+_Ant Target_
+replaces tabs with double spaces.
+
+[source,xml]
+----
+include::res/regex/example.xml[]
+----
+

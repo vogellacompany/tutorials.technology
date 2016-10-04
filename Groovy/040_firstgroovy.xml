@@ -1,10 +1,10 @@
-<section id="firstgroovy" role="wrapper">
+[[firstgroovy" role="wrapper">
 == Exercise: Create a Groovy program with the Eclipse IDE
-	<section id="firstgroovy_target">
+	[[firstgroovy_target">
 === Target of this exercise
 		In this exercise you learn how to create Groovy program with the Eclipse IDE.
 
-	<section id="firstgroovy_project">
+	[[firstgroovy_project">
 === Create a new Groovy project
 		
 			The following example assumes you have Groovy and the Eclipse
@@ -79,7 +79,7 @@ include::res/first/FirstGroovy.groovy[]
 ----
 		
 
-	<section id="firstgroovy_project_run">
+	[[firstgroovy_project_run">
 === Run the Groovy class
 		
 			Right-click the Groovy class, and select
@@ -87,7 +87,7 @@ menu:Run As[Groovy Script]
 			from the context menu.
 		
 
-	<section id="firstgroovy_project_validate">
+	[[firstgroovy_project_validate">
 === Validate the Groovy class
 		
 			The above menu entry triggers the execution of the main method in

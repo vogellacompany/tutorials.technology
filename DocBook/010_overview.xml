@@ -1,6 +1,6 @@
-<section id="overview">
+[[overview">
 == Introduction to DocBook
-	<section id="overview_defintion">
+	[[overview_defintion">
 === Overview
 		
 			_DocBook_
@@ -31,7 +31,7 @@
 			available,
 		
 
-	<section id="overview_types">
+	[[overview_types">
 === Documents classes
 		
 			DocBook has two main document classes, the
@@ -61,7 +61,7 @@
 			
 		
 
-	<section id="overview_versions">
+	[[overview_versions">
 === DocBook versions
 		
 			_DocBook_
@@ -75,7 +75,7 @@
 		
 
 
-	<section id="overview_example">
+	[[overview_example">
 === DocBook Example
 		
 			The following listing shows an example of a DocBook article.

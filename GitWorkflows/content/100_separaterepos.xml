@@ -1,8 +1,8 @@
-<section id="gitworkflows" role="wrapper">
+[[gitworkflows" role="wrapper">
 == Typical Git workflow using separate repositories
 	 The following description highlights typical Git workflows.
 	
-	<section id="gitworkflow_patch">
+	[[gitworkflow_patch">
 === Providing a patch
 (((Git workflow,providing patches)))
 		 Git emphasizes the creation of branches for feature development
@@ -51,7 +51,7 @@
 
 
 
-	<section id="gitworkflows_workingwithtworepositories">
+	[[gitworkflows_workingwithtworepositories">
 === Working with two repositories
 (((Git workflow,using two repositories)))
 		Sometimes you want to add a second remote repository to your
@@ -100,7 +100,7 @@
 		
 
 
-	<section id="gitworkflows_pullrequests">
+	[[gitworkflows_pullrequests">
 === Using pull requests
 (((Git workflow,providing pull requests)))
 		Another very common Git workflow is the usage of pull requests.
@@ -131,7 +131,7 @@
 				into an email.
 				See
 				<ulink
-					url="https://www.kernel.org/pub/software/scm/git/docs/git-request-pull.html[Git request-pull</ulink>
+					url="https://www.kernel.org/pub/software/scm/git/docs/git-request-pull.html[Git request-pull]
 				for details.
 			
 		

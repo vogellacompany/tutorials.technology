@@ -1,4 +1,4 @@
-<section id="usermanagement">
+[[usermanagement">
 == User management
 
 [usermanagement_create]

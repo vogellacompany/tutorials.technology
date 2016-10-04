@@ -1,9 +1,9 @@
-<section id="concurrency">
+[[concurrency">
 == Groovy and concurrency
 	
 		GPars adds support for parallel processing to Groovy. It
 		supports Actors, Map/Reduce, Dataflow, Fork/Join. You find more
 		information on the
-		http://gpars.codehaus.org/">GPars website</ulink>
+		http://gpars.codehaus.org/">GPars website]
 		.
 	

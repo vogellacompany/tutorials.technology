@@ -1,10 +1,10 @@
-<section id="installation">
+[[installation">
 == Installation
-	<section id="installation_python">
+	[[installation_python">
 === Python
 		
 			Download Python from
-			http://www.python.org">http://www.python.org</ulink>
+			http://www.python.org">http://www.python.org]
 			. Download the version 3.3.1 or higher of Python. If you are using
 			Windows
 			you can
@@ -13,14 +13,14 @@
 
 
 
-	<section id="installation_eclipse">
+	[[installation_eclipse">
 === Eclipse Python plugin
 		
 			The following assume that you have already
-			http://www.vogella.com/tutorials/Eclipse/article.html[Eclipse</ulink>
+			http://www.vogella.com/tutorials/Eclipse/article.html[Eclipse]
 			installed. For an
 			installation description of Eclipse please see
-			http://www.vogella.com/tutorials/Eclipse/article.html[Eclipse IDE for Java</ulink>
+			http://www.vogella.com/tutorials/Eclipse/article.html[Eclipse IDE for Java]
 			.
 		
 		
@@ -34,7 +34,7 @@
 		
 
 
-	<section id="configuration">
+	[[configuration">
 === Configuration of Eclipse
 		
 			You also have to maintain in Eclipse the location of your

@@ -1,6 +1,6 @@
-<section id="visualeditors">
+[[visualeditors">
 == Visual editor support for Docbook in Eclipse
-	<section id="vex">
+	[[vex">
 === Oxygen
 		
 			_Oxygen_
@@ -13,9 +13,9 @@
 		You require a license to use Oxygen, see the Oxygen for details.
 		
 
-	<section id="vex">
+	[[vex">
 === Visual Editor for XML (Vex)
-		<section id="vex_1">
+		[[vex_1">
 	=== What is Vex
 			
 				Vex is an Open Source plug-in for the
@@ -28,7 +28,7 @@
 				the Eclipse project.
 			
 	
-		<section id="vex_2">
+		[[vex_2">
 	=== Installation
 			You can install Vex via an Eclipse update site:
 			
@@ -38,7 +38,7 @@
 				</programlisting>
 			
 	
-		<section id="vex_3">
+		[[vex_3">
 	=== Usage
 			
 				To switch between the standard Eclipse XML editor and Vex, do a

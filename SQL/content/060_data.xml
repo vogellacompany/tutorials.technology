@@ -1,8 +1,8 @@
-<section id="data">
+[[data">
 == Data maintenance - Select, Insert, Delete, Update
 	 The following demonstrates how to insert, updates and deletes
 		entries from a database. 
-	<section id="data_select">
+	[[data_select">
 === Select
 
 .Table Title
@@ -27,7 +27,7 @@
 			
 |===
 	
-	<section id="data_insert">
+	[[data_insert">
 === Insert
 
 .Table Title
@@ -52,7 +52,7 @@
 			
 |===
 	
-	<section id="data_update">
+	[[data_update">
 === Update
 
 .Table Title
@@ -81,7 +81,7 @@
 			
 |===
 	
-	<section id="data_delete">
+	[[data_delete">
 === Delete
 
 .Table Title

@@ -1,6 +1,6 @@
-<section id="gitserver" role="wrapper">
+[[gitserver" role="wrapper">
 == Own Git server
-	<section id="gitserver_install">
+	[[gitserver_install">
 === Hosting your own Git server
 (((Git server,configuration)))
 
@@ -62,7 +62,7 @@ include::res/server/commit.txt[]
 
 
 
-	<section id="gitserver_access">
+	[[gitserver_access">
 === Give write access to a Git repository
 (((Git server,write access)))
 		
@@ -80,7 +80,7 @@ include::res/server/commit.txt[]
 
 
 
-	<section id="gitserver_security">
+	[[gitserver_security">
 === Security setup for the git user
 (((Git server,security)))
 (((Git server,git-shell)))

@@ -1,8 +1,8 @@
-<section id="images">
+[[images">
 == Command line tools for adjusting images
 	
 		ImageMagick allows to convert images in batch see
-		http://www.imagemagick.org/script/command-line-options.php">ImageMagick Command line Options.</ulink>
+		http://www.imagemagick.org/script/command-line-options.php">ImageMagick Command line Options.]
 	
 	For example, the following adjusts the DPI size of images to 300.
 	

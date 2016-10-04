@@ -1,0 +1,11 @@
+[[resources]]
+== Links and Literature
+
+include::../10_Include/sourcejava.adoc[]
+
+[[ant_links]]
+=== General
+
+http://ant.apache.org/[Apache Ant Homepage]
+http://subclipse.tigris.org/svnant.html[Subversion Ant Task]
+

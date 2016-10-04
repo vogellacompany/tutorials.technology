@@ -1,6 +1,6 @@
-<section id="usingmaventobuildgroovy" role="wrapper">
+[[usingmaventobuildgroovy" role="wrapper">
 == Using Groovy in a Maven or Gradle build
-	<section id="using_groovy_maventobuild">
+	[[using_groovy_maventobuild">
 === Using Groovy in a Maven build
 		
 			Maven is a well established build tool in the Java world.
@@ -21,7 +21,7 @@
 
 
 
-	<section id="using_groovy_gradlebuild">
+	[[using_groovy_gradlebuild">
 === Using Groovy in a Gradle build
 		
 			To use Groovy code in your Gradle build, simply add the following

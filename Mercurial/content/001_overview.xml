@@ -1,6 +1,6 @@
-<section id="overview">
+[[overview">
 == Overview
-	<section id="overview_dvcs">
+	[[overview_dvcs">
 === Distributed Version control system
 
 		 With a distributed version control system you basically do not
@@ -32,12 +32,12 @@
 		
 		
 			Another popular distributed version control systems is
-			http://www.vogella.com/tutorials/Git/article.html[Git</ulink>
+			http://www.vogella.com/tutorials/Git/article.html[Git]
 			.
 		
 	
 
-	<section id="overview_mercurial">
+	[[overview_mercurial">
 === Mercurial
 		
 			Mercurial is a distributed version control system. Mercurial is
@@ -48,7 +48,7 @@
 		
 			Mercurial is written in Python. Mercurial has a command-line
 			interface.
-			http://www.vogella.com/tutorials/Eclipse/article.html[Eclipse</ulink>
+			http://www.vogella.com/tutorials/Eclipse/article.html[Eclipse]
 			provides also a
 		 plug-in to use Mercurial.
 		

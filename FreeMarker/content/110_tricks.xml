@@ -1,7 +1,7 @@
-<section id="freemarkertricks">
+[[freemarkertricks">
 == Useful FTL tricks
 
-	<section id="freemarkertricks_macro">
+	[[freemarkertricks_macro">
 === Reuse common template fragments
 
 		
@@ -50,7 +50,7 @@
 		
 	
 
-	<section id="freemarkertricks_variables">
+	[[freemarkertricks_variables">
 === Variables
 		
 			You can define and assign content to variables inside the FTL files for easy reuse.
@@ -64,7 +64,7 @@
 	
 
 
-	<section id="freemarkertricks_macro">
+	[[freemarkertricks_macro">
 === Handling null/undefined values
 
 		
@@ -83,7 +83,7 @@
 
 	
 
-	<section id="freemarkertricks_escape">
+	[[freemarkertricks_escape">
 === Escape
 		
 			When generating HTML, it's important to escape

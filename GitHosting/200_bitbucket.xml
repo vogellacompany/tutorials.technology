@@ -1,10 +1,10 @@
-<section id="hosting_bickbucket" role="wrapper">
+[[hosting_bickbucket" role="wrapper">
 == Bitbucket
-	<section id="hosting_bickbucket_what">
+	[[hosting_bickbucket_what">
 === What is Bitbucket?
 (((Bitbucket)))
 		
-			https://bitbucket.org/">Bitbucket</ulink>
+			https://bitbucket.org/">Bitbucket]
 			offers free hosting of public and private
 			Git
 			repositories.
@@ -22,7 +22,7 @@
 			BitBucket.
 		
 
-	<section id="hosting_bickbucket_creating">
+	[[hosting_bickbucket_creating">
 === Creating a repository
 		
 			You need to create a user via the web interface of Bitbucket.

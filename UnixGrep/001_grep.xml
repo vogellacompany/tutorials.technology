@@ -2,7 +2,7 @@
 == Grep
 	
 		Grep is a command line tool to search for
-		http://www.vogella.com/tutorials/JavaRegularExpressions/article.html[regular expressions</ulink>
+		http://www.vogella.com/tutorials/JavaRegularExpressions/article.html[regular expressions]
 		.
 		Grep will print the
 		matching

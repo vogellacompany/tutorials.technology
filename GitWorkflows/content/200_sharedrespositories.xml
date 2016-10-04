@@ -1,6 +1,6 @@
-<section id="gitworkflows_sharedrepo" role="wrapper">
+[[gitworkflows_sharedrepo" role="wrapper">
 == Git workflows using one shared repository
-	<section id="gitworkflow_sharedrepository">
+	[[gitworkflow_sharedrepository">
 === A shared repository between developers
 		A very typical Git workflow is that the developers integrate
 			their work via a shared remote repository.
@@ -29,7 +29,7 @@
 			to his local repository.
 		
 
-	<section id="gitworkflow_pullpush">
+	[[gitworkflow_pullpush">
 === Workflow
 (((Git workflow,shared repository)))
 		
@@ -87,7 +87,7 @@
 
 
 
-	<section id="gitworkflows_workingbranches">
+	[[gitworkflows_workingbranches">
 === Using branches
 (((Git workflow,using branches)))
 		Even if you have the rights to push to master in a remote

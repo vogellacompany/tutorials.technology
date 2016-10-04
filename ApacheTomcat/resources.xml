@@ -1,21 +1,21 @@
-<section id="resources">
+[[resources">
 == Links and Literature
-	<section id="resources_tomcat">
+	[[resources_tomcat">
 === Apache Tomcat
 		
-			http://tomcat.apache.org/"> http://tomcat.apache.org/</ulink>
+			http://tomcat.apache.org/"> http://tomcat.apache.org/]
 			Apache Tomcat Homepage
 		
 		
-			http://www.vogella.com/tutorials/EclipseWTP/article.html[Java Webdevelopment with Eclipse WTP - Tutorial</ulink>
+			http://www.vogella.com/tutorials/EclipseWTP/article.html[Java Webdevelopment with Eclipse WTP - Tutorial]
 		
 		
-			http://wiki.eclipse.org/WTP_Tomcat_FAQ"> http://wiki.eclipse.org/WTP_Tomcat_FAQ</ulink>
+			http://wiki.eclipse.org/WTP_Tomcat_FAQ"> http://wiki.eclipse.org/WTP_Tomcat_FAQ]
 			Eclipse WTP and Tomcat FAQ
 		
 		
 http://tomcat.apache.org/tomcat-6.0-doc/security-manager-howto.html"
-			> http://tomcat.apache.org/tomcat-6.0-doc/security-manager-howto.html</ulink>
+			> http://tomcat.apache.org/tomcat-6.0-doc/security-manager-howto.html]
 			Apache Tomcat Sercurity Manager How-to
 		
 

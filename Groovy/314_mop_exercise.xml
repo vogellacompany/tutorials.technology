@@ -1,13 +1,13 @@
-<section id="mop_exercise">
+[[mop_exercise">
 == Exercise: Meta Object Protocol
-	<section id="mop_exercise_target">
+	[[mop_exercise_target">
 === Target of this exercise
 		
 			In this exercise you learn how to extend a Groovy class using
 			the Meta Object Protocol.
 		
 
-	<section id="mop_exercise_anycall">
+	[[mop_exercise_anycall">
 === Making a Groovy object responding to all methods and property
 			calls
 		
@@ -33,7 +33,7 @@ include::res/mop/TestAnyMethodExecutor.groovy[]
 		
 
 
-	<section id="mop_exercise_json">
+	[[mop_exercise_json">
 === Exercise: Adding JSON output to Groovy class, the ugly and the smart way
 		Create the following Groovy class. 
 
@@ -101,7 +101,7 @@ include::res/mop/TestMop.groovy[]
 		
 
 
-	<section id="mop_exercise_addingmethodtostring">
+	[[mop_exercise_addingmethodtostring">
 === Exercise: Adding a method to String
 		The following example demonstrates how you can add a method to the String class using closures. 
 

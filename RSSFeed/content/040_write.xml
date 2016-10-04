@@ -1,6 +1,6 @@
-<section id="write">
+[[write">
 == Write RSS Feeds with Stax
-	<section id="write_stax">
+	[[write_stax">
 === Create writer
 		Create the following class to write the XML file.
 		
@@ -11,7 +11,7 @@ include::res/write/RSSFeedWriter.java[]
 		
 	
 
-	<section id="write_test">
+	[[write_test">
 === Test the code
 		
 			The following uses a main method to test.

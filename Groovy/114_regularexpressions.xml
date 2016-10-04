@@ -1,5 +1,5 @@
-<section id="regularexpressions" role="wrapper">
-	<section id="regularexpressions_groovy">
+[[regularexpressions" role="wrapper">
+	[[regularexpressions_groovy">
 === Regular expressions
 		
 			Groovy is based on Java regular expression support and add the

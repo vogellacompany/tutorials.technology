@@ -1,0 +1,71 @@
+﻿[[antexample]]
+== Tutorial: Using Apache Ant
+
+[[antexample_overview]]
+=== Using Ant for Java development
+
+The following describes how you compile Java classes, create an
+executable JAR file and create Javadoc for your project with Apache
+Ant. The following example assumes that your are using the Eclipse
+IDE to manage your
+Java project and your Ant build.
+
+[[antexample_javaproject]]
+=== Create Java project
+
+Create a Java project called
+_de.vogella.build.ant.first_
+in
+Eclipse. Create a package called
+_math_
+and the following class.
+
+[source,java]
+----
+include::res/ant/MyMath.java[]
+----
+
+Create the `test` package and the following class.
+
+[source,java]
+----
+include::res/ant/Main.java[]
+----
+
+[[antexample_buildxml]]
+=== Create build.xml
+
+Create a new File through the menu:File[New > File] menu and create the `build.xml` file. 
+Implement the following code to this file.
+
+[source,xml]
+----
+include::res/ant/build.xml[]
+----
+
+The code is documented, you should be able to determine the purpose of the different ant tasks via the documentation in the coding.
+
+[[antexample_eclipserun]]
+=== Run your Ant build from Eclipse
+
+Run the `build.xml` file as an _Ant Build_ in Eclipse.
+
+image::anttest20.gif[]
+
+After this process your data structure should look like this:
+
+image::anttest30.gif[]
+
+[[antexample_run]]
+=== Run your Ant build from the command line
+
+Open a command line and switch to your project directory. Type
+in the following commands.
+
+[source,bourne]
+----
+include::res/ant/run.txt[]
+----
+
+The build should finish successfully and generate the build artifacts.
+

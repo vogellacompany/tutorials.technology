@@ -1,11 +1,11 @@
-<section id="resources">
+[[resources">
 == Links and Literature
 	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../10_Include/sourcejava.xml" />
-	<section id="ant_links">
+	[[ant_links">
 === Hadoop
-		http://hadoop.apache.org/"> Apache Hadoop Homepage</ulink>
-		http://hadoop.apache.org/common/docs/current/quickstart.html[Apache Hadoop Quickstart</ulink>
-http://www.heise.de/developer/artikel/Verarbeiten-grosser-verteilter-Datenmengen-mit-Hadoop-964755.html[Heise Intro into Hadoop (German)</ulink>
+		http://hadoop.apache.org/"> Apache Hadoop Homepage]
+		http://hadoop.apache.org/common/docs/current/quickstart.html[Apache Hadoop Quickstart]
+http://www.heise.de/developer/artikel/Verarbeiten-grosser-verteilter-Datenmengen-mit-Hadoop-964755.html[Heise Intro into Hadoop (German)]
 
 
 

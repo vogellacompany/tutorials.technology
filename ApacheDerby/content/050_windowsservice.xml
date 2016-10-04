@@ -1,4 +1,4 @@
-<section id="service">
+[[service">
 == Running Derby Server as Windows Service
 	 The Derby Server is started via a batch program. In an server
 		environment this batch program should be automatically started if the

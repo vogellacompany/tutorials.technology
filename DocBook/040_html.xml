@@ -1,10 +1,10 @@
-<section id="htmlconvert">
+[[htmlconvert">
 == Tutorial: convert Docbook to HTML5
 	
 		The following tutorial describes how you can use Eclipse to
 		convert a Docbook input file into an HTML output using Apache Ant.
 	
-	<section id="htmlconvert_project">
+	[[htmlconvert_project">
 === Project Setup
 		
 			In Eclipse select from the menu the
@@ -59,7 +59,7 @@ menu:General[Projects]
 		
 
 
-	<section id="htmlconvert_docbook">
+	[[htmlconvert_docbook">
 === Write your first DocBook document
 		
 			In your
@@ -104,7 +104,7 @@ include::res/firstdocbook/book.xml[]
 		
 
 
-	<section id="htmlconvert_convert">
+	[[htmlconvert_convert">
 === Use Ant to convert DocBook to HTML5
 		
 			Create the following

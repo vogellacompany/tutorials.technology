@@ -1,6 +1,6 @@
-<section id="eclipsegerritcontribution_pushsetup">
+[[eclipsegerritcontribution_pushsetup">
 == Things to consider if you want to contribute to an existing project
-	<section id="contribution_whattofix">
+	[[contribution_whattofix">
 === How to start contributing?
 		It is typically a good approach to fix something really simple
 			as the
@@ -16,7 +16,7 @@
 			contributing something more difficult.
 		
 
-	<section id="contribution_scope">
+	[[contribution_scope">
 === Scope of a Gerrit change / commit
 		
 			A Gerrit change (== one commit) should address only one issue.
@@ -53,7 +53,7 @@
 			done in the way it was implemented.
 		
 
-	<section id="contribution_commitmessagegerrit">
+	[[contribution_commitmessagegerrit">
 === Commit message
 		Most project handles the required commit message a bit
 			differently. For example, the Eclipse Platform project
@@ -104,7 +104,7 @@ include::res/commitmessage/header.txt[]
 			
 		
 
-	<section id="contribution_copyrightheader">
+	[[contribution_copyrightheader">
 === Copyright header update
 		In some projects the source file contains a copyright header. If you modify the
 			file you should also update the
@@ -113,7 +113,7 @@ include::res/commitmessage/header.txt[]
 			existing files and try to adapt the style preferred by the existing developers.
 		
 
-	<section id="contribution_copyrightheader_platformui">
+	[[contribution_copyrightheader_platformui">
 === Example: Copyright header in Eclipse Platform UI
 
 		
@@ -154,7 +154,7 @@ include::res/commitmessage/header.txt[]
 			adding the
 			organization name in parentheses. See:
 			http://www.eclipse.org/legal/copyrightandlicensenotice.php">Copyright info from eclipse.org
-			</ulink>
+			]
 			.
 			For
 			example:
@@ -198,7 +198,7 @@ include::res/commitmessage/header.txt[]
 		
 
 
-	<section id="contribution_polite">
+	[[contribution_polite">
 === Stay polite
 		The best way to get your contribution accepted is to stay
 			polite
@@ -220,7 +220,7 @@ include::res/commitmessage/header.txt[]
 
 
 
-	<section id="contribution_formatting">
+	[[contribution_formatting">
 === Avoid unnecessary formatting changes
 		
 			Typically open source projects dislike if you re-format unchanged
@@ -252,7 +252,7 @@ image::unnecessaryformatingchanges10.png" scale="20" />
 
 
 
-	<section id="contribution_whitespace">
+	[[contribution_whitespace">
 === Avoid unnecessary whitespace changes
 		Typically projects dislike unnecessary whitespace in
 			the
@@ -267,7 +267,7 @@ image::unnecessaryformatingchanges10.png" scale="20" />
 		
 
 
-	<section id="contribution_pushunfinished">
+	[[contribution_pushunfinished">
 === Pushing unfinished features
 		For most projects it is OK to push an initial
 			(unfinished)
@@ -296,7 +296,7 @@ image::unnecessaryformatingchanges10.png" scale="20" />
 		
 
 
-	<section id="contribution_validuserpassword">
+	[[contribution_validuserpassword">
 === Valid user and email
 		Some project uses additional validation plug-ins. For example the Eclipse foundation uses a server-side Gerrit
 			plugin which
@@ -325,7 +325,7 @@ image::unnecessaryformatingchanges10.png" scale="20" />
 		
 			See:
 			https://wiki.eclipse.org/Development_Resources/Handling_Git_Contributions">Wiki for Git contributions
-			</ulink>
+			]
 
 		
 
@@ -333,7 +333,7 @@ image::unnecessaryformatingchanges10.png" scale="20" />
 
 
 
-	<section id="contribution_nofeedback">
+	[[contribution_nofeedback">
 === Not getting feedback
 		If everything works perfectly, the developers of the project you are contributing to will
 			accept
@@ -360,7 +360,7 @@ image::unnecessaryformatingchanges10.png" scale="20" />
 		
 
 
-	<section id="contribution_rudefeedback">
+	[[contribution_rudefeedback">
 === Dealing with negative feedback
 		
 			Don't get

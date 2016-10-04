@@ -1,13 +1,13 @@
-<section id="windows">
+[[windows">
 == Windows Settings
-	<section id="windows_environmentvariables">
+	[[windows_environmentvariables">
 === Environment Variables
 		 To set the windows environment variables, select Control Panel
 			-> System -> Advanced ->Button "Environment Variables".
 		 To check the content of a variable, open a command shell
 			(Start-> Run-> cmd) and type echo%VARIABLE_NAME% 
 
-	<section id="windows_search">
+	[[windows_search">
 === Search (Microsoft and Google)
 		
 			The following search term will work on Microsoft search and
@@ -68,7 +68,7 @@
 		
 
 
-	<section id="windows_dynamicmenus">
+	[[windows_dynamicmenus">
 === Turn of the dynamic menus
 
 		 If you do not what dynamic menus in Windows -> Programs,
