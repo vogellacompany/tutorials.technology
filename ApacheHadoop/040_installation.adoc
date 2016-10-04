@@ -1,0 +1,10 @@
+[[installation]]
+== Installation
+
+Apache Hadoop can be downloaded from http://hadoop.apache.org/[Hadoop Homepage]. 
+To get started with Hadoop you require the following sub-projects:
+
+* Hadoop Common    
+* MapReduce    
+* HDFS     
+

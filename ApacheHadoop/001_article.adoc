@@ -1,36 +1,17 @@
-=  - Tutorial
+= Apache Hadoop - Tutorial
 :linkcss:
 :sectnums:                                                          
 :experimental:
 :icons:
 :imagesdir: ./img
-Lars Vogel, (c) 2009, 2016 vogella GmbH
-Version 0.3, 29.08.2016
+Lars Vogel, (c) 2010, 2016 vogella GmbH
+Version 0.4, 29.09.2016
 :docinfodir: ../
-:vgwort: XXX
+:vgwort: ApacheHadoop
 
 [abstract]
-
-=== Apache Hadoop - Tutorial
-		<author>
-			<firstname>Lars</firstname>
-			<surname>Vogel</surname>
-		</author>
-		<copyright>
-			<year>2010</year>
-			<holder>vogella GmbH</holder>
-		</copyright>
-		<releaseinfo>
-			Version 0.3
-		</releaseinfo>
-		<pubdate>03.04.2010</pubdate>
-		
-[abstract]
-	=== Apache Hadoop
-			 This article describes how to use Apache Hadoop.
-			
-  
-  
+Apache Hadoop.
+This article describes how to use Apache Hadoop.
 
 include::../web/advertisement/afterTableOfContent.adoc[]
 include::010_overview.adoc[]
@@ -40,11 +21,7 @@ include::030_mapreduce.adoc[]
 include::../web/advertisement/inBetween02.adoc[]
 include::040_installation.adoc[]
 include::050_gettingstarted.adoc[]
-
 include::../support.adoc[]
 include::008_resourceslocal.adoc[]
 include::../copyright.adoc[]	
-
-
-
 

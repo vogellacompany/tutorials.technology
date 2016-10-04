@@ -1,5 +1,6 @@
 rootProject.name = 'com.vogella.tutorials.technology'
 
+include 'ApacheHadoop'
 include 'ApacheDerby'
 include 'ApacheAnt'
 include 'Fedora'
