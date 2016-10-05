@@ -1,0 +1,71 @@
+[[advanced]]
+== Advanced Features
+
+[[advanced_syntaxhighlighting]]
+=== Syntax Highlighting
+
+You can also enable syntax highlighting. This involves creating
+a
+customization stylesheet layer, the usage of an external lib and
+configuration file. Please see
+http://docbook.sourceforge.net/release/xsl/current/doc/fo/highlight.source.html[Source Code Syntax Highlighting with DocBook]
+for a description of the setup.
+
+To change how the highlighting is done, you could adjust the
+following template file:
+`your_xslt_installation_dir/html/highlight.xsl`
+
+To add highlighting for a different language, create a language
+description file in the
+`highlighting`
+folder of your DocBook XSLT folder, e.g., add the following file
+called
+`bourne-hl.xml`
+for
+syntax
+highlighting for the bourne shell.
+
+[source,xml]
+----
+include::res/syntaxhighlighting/bourne-hl.xml[]
+----
+
+And register it in the
+`highlighting/xslthl-config.xml`
+file, for example:
+
+[source,xml]
+----
+include::res/syntaxhighlighting/xslthl-config.xml[]
+----
+
+[[advanced_removepart]]
+=== Remove certain parts
+
+Sometimes you want to remove certain parts of your document
+before processing it. The following is an example where sections
+marked with the `role="wrapper"` will be removed.
+
+The following processing rule will remove the marked section.
+You would output that to a temporary folder and run your real
+conversion on the temp folder.
+
+[source,xml]
+----
+include::res/advanced/remove_sections_for_book.xsl[]
+----
+
+[[advanced_own]]
+=== Using own stylesheets
+
+You can also create your own stylesheets, import the default
+ones and override the parts which you do not like.
+
+The following example shows an own stylesheet. It imports some
+HTML content and changes the titlepage by including an image.
+
+[source,xml]
+----
+include::res/own/style.xsl[]
+----
+

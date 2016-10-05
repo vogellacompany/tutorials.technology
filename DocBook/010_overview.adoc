@@ -1,0 +1,76 @@
+[[overview]]
+== Introduction to DocBook
+
+[[overview_defintion]]
+=== Overview
+
+_DocBook_
+is a standard for creating well-formated plain text
+documents.
+DocBook
+files are written as plain text.
+
+For further processing
+_DocBook_
+files are transformed into
+other
+output
+formats. This is typically done
+via
+_XSLT_
+(_Extensible Stylesheet Language Transformation_).
+
+_XSLT_
+sheets
+for converting DocBook
+into common output, e.g. HTML or PDF,
+are
+available.
+
+[[overview_types]]
+=== Documents classes
+
+DocBook has two main document classes, the
+_book_
+class and the
+_article_
+class.
+
+* Article: Used for writing technical articles. The main tag is `<article>`.
+Article is used in the following example.
+
+* Book: Used for longer description. 
+The main tags is book. 
+In addition to sections in articles you have also the `<chapter>` tag and the `<part>` tag.
+
+[[overview_versions]]
+=== DocBook versions
+
+_DocBook_
+is currently available in two versions. The
+`4.5`
+version and the
+`5.0`
+version. This tutorial is based on the
+`4.5`
+version which seems to be the version that is still heavily used.
+
+[[overview_example]]
+=== DocBook Example
+
+The following listing shows an example of a DocBook article.
+
+[source,xml]
+----
+include::res/firstdocbook/article.xml[]
+----
+
+The following listing shows an example of a DocBook book.
+
+[source,xml]
+----
+include::res/firstdocbook/book.xml[]
+----
+
+The header in the file points to the location of the DTD file of the docbook download.
+

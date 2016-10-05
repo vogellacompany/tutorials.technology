@@ -1,0 +1,222 @@
+[[docbooktags]]
+== DocBook Tags
+
+So far you have used a very limited set of
+_DocBook_
+attributes. The
+following chapter presents more tags which you typically
+need in a
+_DocBook_
+document.
+
+[[docbooktags_text]]
+=== Markup
+
+.Important Docbook tags
+|===
+|Tag |Explanation
+
+|<![CDATA[ SPECIAL_SIGN_HERE, e.g. & ]]>
+|Allows you to enter special signs into the text which would be otherwise interpreted by DocBook.
+
+|<programlisting> </programlisting>
+|Highlights the text as coding. 
+You can also specify the programming language of this listing, e.g., language="java" or language="xml". 
+This information can, for example, be used for syntax highlighting.
+
+|<wordasword></wordasword>
+|Indicates a special word
+
+|<parameter class='command'>/w</parameter>
+|Describes a parameter; `class` can be command, function, option
+
+|<guilabel> </guilabel>
+|Label on a GUI
+
+|<guibutton> </guibutton>
+|Button on a GUI
+
+|<filename class="directory">/usr/bin</filename>, <filename>db2html</filename>
+|Directory or filename
+
+|<emphasis> </emphasis>
+|Highlights the text
+
+|<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="example1.txt" />
+|Includes `example1.xml` as text, so the file can contain tags, etc.
+
+|<ulink url="http://www.heise.de/newsticker">German IT News</ulink>.
+|Paste a hypertext link into the document.
+
+|\&amp;
+|Creates the ampersand (&amp;) sign. 
+Can, for example, be used in links.
+
+|===
+
+[[docbooktags_warnings]]
+=== Warnings
+
+To define warning messages, DocBook provides several tags. The
+following list gives an overview of them.
+
+* tip
+* note
+* important
+* warning
+* caution
+
+The following snippet shows how to use these.
+
+[source,xml]
+----
+include::res/warning/warning.xml[]
+----
+
+[[docbooktags_linebreak]]
+=== Line break
+
+You can create an explicit line break with the `<sbr/>` command.
+
+[[docbooktags_link]]
+=== References to other elements
+
+You link to different elements in Docbook with <xref linkend="id_of_the_element"/>.
+
+[[docbooktags_legal]]
+=== Legal Notice
+
+You can define legal notices where you state the conditions
+for reproduction like traditional copyright or an open
+content license. These tags are confined to meta-information.
+
+[source,xml]
+----
+include::res/legalnotice.xml[]
+----
+
+[[docbooktags_index]]
+=== Index
+
+You create an index in your document with the <index/> entry.
+
+To create index elements, you can use the following:
+
+[source,xml]
+----
+include::res/indexelement1.xml[]
+----
+
+You can add a secondary index term.
+
+[source,xml]
+----
+include::res/indexelement2.xml[]
+----
+
+You can also place a reference to another index term.
+
+[source,xml]
+----
+include::res/indexelement3.xml[]
+----
+
+[[docbooktags_table]]
+=== Tables
+
+You can create a table via the following coding.
+
+[source,xml]
+----
+include::res/exampletable.xml[]
+----
+
+[[docbooktags_lists]]
+=== Lists
+You can create non-numbered lists like this:
+
+[source,xml]
+----
+include::res/simplelist.xml[]
+----
+
+You can create numbered lists like this:
+
+[source,xml]
+----
+include::res/numberedlist.xml[]
+----
+
+[[docbooktags_links]]
+=== Links
+
+You can create links like this
+
+[source,xml]
+----
+include::res/link/examplelink.xml[]
+----
+
+[[docbooktags_graphics]]
+=== Graphics
+
+DocBook has no restrictions what kind of graphic format you
+use,
+e.g.
+JPEG, PNG or SVG.
+You can include graphics via the following
+tag.
+The
+optional
+`"phrase"`
+is used in HTML output to define the
+mandatory
+`"alt"`
+attribute of image.
+
+[source,xml]
+----
+include::res/images/images.xml[]
+----
+
+You can also specify different graphics for different output formats.
+
+[source,xml]
+----
+include::res/images/images2.xml[]
+----
+You can also embed a figure with enumeration and header.
+[source,xml]
+----
+include::res/images/figure.xml[]
+----
+
+[[docbooktags_menu]]
+=== Menus
+
+To define menu paths, as, for example,
+menu:File[New Project],
+use the following
+
+[source,xml]
+----
+include::res/gui/menu.xml[]
+----
+
+[[docbooktags_shortcuts]]
+=== Keyboard Shortcuts
+
+To define keyboard as, for example,
+<shortcut>
+<keycombo>
+<keycap>Ctrl</keycap>
+<keycap>Space</keycap>
+</keycombo>
+</shortcut>,
+use the following
+
+[source,xml]
+----
+include::res/gui/shortcut.xml[]
+----
+

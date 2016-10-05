@@ -1,5 +1,7 @@
 rootProject.name = 'com.vogella.tutorials.technology'
 
+include 'DocBook'
+include 'ComplexityAnalysis'
 include 'Bigtable'
 include 'ApacheTomcat'
 include 'ApacheHadoop'

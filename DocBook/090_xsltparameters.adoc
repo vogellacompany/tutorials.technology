@@ -1,0 +1,74 @@
+[[xsltparameters]]
+== Influencing the output result
+
+The XSLT stylesheets have several parameters which can influence
+the result of the conversion.
+
+[[xsltparameterss1as2a]]
+=== HTML Parameters
+
+You find all HTML relevant parameters at
+http://docbook.sourceforge.net/release/xsl/current/doc/html/.
+
+.HTML Parameters
+|===
+|Parameter |Description
+
+|name="section.autolabel" expression="1"
+|Turns on the autolabeling for sections (1. Title, 1.1. Subtitle, etc.
+
+|name="chapter.autolabel" expression="1"
+|Turns on the autolabeling for chapters
+
+|name="html.stylesheet" expression="styles.css"
+|Define the stylesheet which should be used.
+
+|name="html.cleanup" expression="1"
+|Will try to clean-up the html code for better readability
+
+|name="chunk.first.sections" expression="0"
+|Will try to clean-up the html code for better readability [TODO: Does not work yet]
+
+|===
+
+[[xsltparameterss1as2b]]
+=== PDF Parameters
+
+You find all FO / PDF relevant parameters at
+http://docbook.sourceforge.net/release/xsl/current/doc/fo/.
+
+.PDF Parameters
+|===
+|Parameter |Description
+
+|name="section.autolabel" expression="1"
+|Turns on the autolabeling for sections (1. Title, 1.1. Subtitle, etc.
+
+|name="chapter.autolabel" expression="1"
+|Turns on the autolabeling for chapters
+
+|name="html.stylesheet" expression="styles.css"
+|Define the stylesheet which should be used.
+
+|name="html.cleanup" expression="1"
+|Will try to clean-up the html code for better readability
+
+|===
+
+[[xsltparameters_includehtml]]
+=== Add content into the HTML output
+
+DocBook allows you to include external HTML files into the HTML
+output. For example, you could use this to add JavaScript into your
+HTML output.
+
+For example, use the following statement to include some HTML
+code.
+
+[source,html]
+----
+include::res/additionalhtml.html[]
+----
+
+See http://www.sagehill.net/docbookxsl/InsertExtHtml.html#CodeInPage[Inserting external HTML code] for details.
+
