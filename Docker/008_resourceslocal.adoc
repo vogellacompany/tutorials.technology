@@ -3,9 +3,9 @@
 
 http://tools.jboss.org/blog/eclipse-for-docker-has-arrived.html[Docker Tools for Eclipse]
 
-
 https://docs.docker.com/engine/userguide/dockerizing/[Docker user guide]
 
 http://developerblog.redhat.com/2014/05/15/practical-introduction-to-docker-containers/
 
 http://fabiorehm.com/blog/2014/09/11/running-gui-apps-with-docker/[Running GUI applications with Docker]
+
