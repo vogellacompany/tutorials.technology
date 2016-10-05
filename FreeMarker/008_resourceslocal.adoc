@@ -1,0 +1,8 @@
+[[resources]]
+== Links and Literature
+
+[[resources_freemarker]]
+=== FreeMarker homepage
+
+http://freemarker.org/[FreeMarker homepage]
+

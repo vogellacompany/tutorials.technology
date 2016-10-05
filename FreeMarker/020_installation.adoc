@@ -1,0 +1,14 @@
+[[freemarker_install]]
+== Installation of FreeMarker
+	
+To use
+_FreeMarker_
+download the latest version of it from the following
+webpage and add it
+to the classpath of your Java project.
+	
+[source,text]
+----
+include::res/links/freemarkerdownload.txt[]
+----
+

@@ -1,0 +1,70 @@
+[[freemarker]]
+== Introduction to FreeMarker
+	
+_FreeMarker_
+is a Java-based template engine which can be used in
+stand-alone or
+servlet-based Java programs.
+	
+In FreeMarker
+you define templates, which are text files that contain
+the desired output,
+except that they contain placeholders like
+`${name}`
+, and even some
+logic like conditionals, loops, etc. In your Java program
+you
+supply the actual
+values for these placeholders
+and the final
+output is
+generated based on
+this input.
+	
+The input of templates is a bunch of named variables that you usually
+provide
+as a
+`Map&lt;String, Object>`
+(the
+`Map`
+entries will be
+the variables) or as a JavaBean (the JavaBean
+properties will be the
+variables).
+The variable values can be simple
+strings, numbers and such primitive
+values,
+but also lists, maps, or
+arbitrary Java objects whose methods
+you can call from the template.
+Note that when accessing JavaBean
+properties,
+`myObject.myProperty`
+syntax should be used instead of
+`myObject.getMyProperty()`.
+	
+The output of templates is written into a
+`Writer`
+that you provide,
+so it can go into a HTTP response (for dynamic web
+pages), into a local
+file,
+into a
+`String`
+, etc.
+	
+It is configurable from where FreeMarker reads the templates;
+commonly
+used options are
+loading from a file-system directory,
+from the
+class-path, from
+the servlet context (
+`WEB-INF/templates`
+or such),
+or even from a database table.
+It's also possible to "load"
+templates directly from
+`String`
+objects.
+

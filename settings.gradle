@@ -1,5 +1,6 @@
 rootProject.name = 'com.vogella.tutorials.technology'
 
+include 'FreeMarker'
 include 'DocBook'
 include 'ComplexityAnalysis'
 include 'Bigtable'
