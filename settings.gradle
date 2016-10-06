@@ -1,5 +1,6 @@
 rootProject.name = 'com.vogella.tutorials.technology'
 
+include 'GitHub'
 include 'GitHosting'
 include 'Gerrit'
 include 'FreeMarker'
