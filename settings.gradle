@@ -1,5 +1,6 @@
 rootProject.name = 'com.vogella.tutorials.technology'
 
+include 'GitWorkflows'
 include 'GitHub'
 include 'GitHosting'
 include 'Gerrit'

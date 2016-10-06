@@ -1,0 +1,73 @@
+[[gitworkflows_sharedrepo]]
+== Git workflows using one shared repository
+
+[[gitworkflow_sharedrepository]]
+=== A shared repository between developers
+
+A very typical Git workflow is that the developers integrate
+their work via a shared remote repository.
+The following section
+describes
+a typical
+Git
+workflow for this scenario.
+
+The shared repository is located on a server so that it can
+easily be reached by each developer.
+
+The developers push to this remote repository, typically they use
+the
+remote
+`master`
+branch on the remote repository to integrate their work. They may
+also use different remote branches for shared feature development or
+maintenance releases.
+
+The initial setup requires that every developer clones the
+remote
+repository or adds the remote repository as additional remote
+to his local repository.
+
+[[gitworkflow_pullpush]]
+=== Workflow
+(((Git workflow,shared repository)))
+To develop a change and integrate it into the shared repository,
+the
+developer would:
+
+* Create a new local branch for the development
+* Change content in the working tree and add and commit his changes
+* If required he switches to other branches to do other work
+* Once the development in the branch is complete he rebases (or merges) the commit history onto the relevant remote-tracking branch to allow a fast-forward merge for this development
+* Pushes his changes to the remote repository; this results in a fast-forward merge in the remote repository
+
+NOTE: Git emphasizes the creation of branches for feature development or to create bug fixes.
+
+During this development he may fetch and merge or rebase the changes
+from
+the remote repository at any point in time. The developer may use
+the
+`pull`
+command instead of the
+`fetch`
+command.
+
+[[gitworkflows_workingbranches]]
+=== Using branches
+(((Git workflow,using branches)))
+Even if you have the rights to push to master in a remote
+repository,
+creating a local branch for
+every
+feature or bug fix is a
+good
+practice.
+
+Once your development is
+finished you merge your changes to
+your
+master and
+push the changes
+from master to the shared remote Git
+repository.
+
