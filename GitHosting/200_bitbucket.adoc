@@ -1,0 +1,40 @@
+[[hosting_bickbucket]]
+== Bitbucket
+
+[[hosting_bickbucket_what]]
+=== What is Bitbucket?
+(((Bitbucket)))
+https://bitbucket.org/[Bitbucket]
+offers free hosting of public and private Git repositories.
+
+Bitbucket allows unlimited public and
+private repositories.
+The
+number of participants for a free private
+repository is currently
+limited to 5 collaborators, i.e., if you have
+more than 5 developers
+which need access to a private repository you
+have to pay money to
+BitBucket.
+
+[[hosting_bickbucket_creating]]
+=== Creating a repository
+
+You need to create a user via the web interface of Bitbucket.
+After creating this user you can create new repositories via the web
+interface.
+
+After creating a new repository on BitBucket, you can use the
+following
+instructions connect a local Git repository with the
+BitBucket
+repository.
+
+These instructions will be similar to the following commands.
+
+[source,bourne]
+----
+include::res/bitbucket/example.txt[]
+----
+

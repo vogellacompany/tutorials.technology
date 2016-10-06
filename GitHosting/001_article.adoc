@@ -1,0 +1,27 @@
+= Git hosting on Bitbucket or on your own server - Tutorial
+:linkcss:
+:sectnums:                                                          
+:experimental:
+:icons:
+:imagesdir: ./img
+Lars Vogel, (c) 2009, 2016 vogella GmbH
+Version 5.7, 06.07.2016
+:docinfodir: ../
+:vgwort: GitHosting
+
+[abstract]
+Hosting your Git repositories.
+This tutorial explains how to use Bitbucket as hosting provider for your Git repository and how you can install a Git server on your own machine.
+  
+
+include::../web/kindle/git.adoc[]
+include::../web/advertisement/afterTableOfContent.adoc[]
+include::010_overview.adoc[]
+include::../web/advertisement/inBetween01.adoc[]
+include::020_ssh.adoc[]
+include::200_bitbucket.adoc[]
+include::520_gitserver.adoc[]
+include::../support.adoc[]
+include::008_resourceslocal.adoc[]
+include::../copyright.adoc[]	
+

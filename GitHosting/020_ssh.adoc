@@ -1,0 +1,136 @@
+[[ssh_authentication]]
+== Authentication via SSH
+
+[[ssh_authentication]]
+=== The concept of SSH
+(((SSH key pair)))
+Most Git (and Gerrit) servers support SSH based authentication. This
+requires a
+_SSH key pair_
+for
+automatic authentication.
+
+An SSH key par consists of a public and private key. The public
+key is
+uploaded to the application you want to authenticate with. The
+application has
+no
+access
+to
+the private key. If you interact with
+the
+hosting
+provider via
+the
+ssh
+protocol, the public key is used to
+identify
+a
+user
+who encrypted
+the
+data
+during communication with the
+corresponding
+private key.
+
+[[ssh_keygeneration]]
+=== SSH key pair generation
+
+To create an SSH key under Linux (or Windows / Mac with OpenSSH
+installed) switch to the command line and
+execute
+the following
+commands.
+The generated SSH
+key is by default
+located in the
+<filename class="directory]].ssh`
+directory of the user home directory. Ensure that you backup existing
+keys in
+this directory
+before running the following commands.
+
+[source,bourne]
+----
+include::res/ssh/generate.txt[]
+----
+
+The Eclipse IDE allows you to create an SSH key pair via
+menu:Window[Preferences > General > Network Connection > SSH2].
+
+image::eclipseide_sshgen.png[Generating a SSH key via the Eclipse IDE]
+
+It is good practice to use a
+passphrase to protect your
+private key. It
+is also good practice to
+use
+operating system level permission settings
+to ensure that only
+the
+owning user can access the
+`~/.ssh`
+folder and its content.
+
+NOTE: In the above
+`ssh-keygen`
+command the -C parameter is a comment. Using your email is good
+practice so that
+someone looking at your public key can contact you
+in
+case they have
+questions. Including the email enables system
+administrators
+to contact the person in case of questions.
+
+The result will be two files,
+`id_rsa`
+which is your private key and
+`id_rsa.pub`
+which is your public key.
+
+You find more details for the generation of an SSH key on the
+following
+webpages:
+https://help.github.com/articles/generating-ssh-keys[GitHub Help: description of SSH key creation]
+or
+http://www.openssh.com/manual.html[OpenSSH manual].
+
+TIP: You can specify alternative key names with the
+`-f`
+parameter on the
+command line.
+This is helpful if you have multiple
+different
+repositories and you
+want to have a different key for each
+one. For
+example, you can name
+your SSH keys in domain
+name format,
+e.g.,
+`eclipse.org`
+and
+`eclipse.org.pub`
+as well as
+`github.com`
+and
+`github.com.pub`.
+
+You need
+additional configuration in the
+`.ssh/config`
+file, because
+only
+the
+`id_rsa`
+will be picked up by
+default. The following code shows an
+example.
+
+[source,text]
+----
+include::res/ssh/config[]
+----
+
