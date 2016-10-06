@@ -1,4 +1,4 @@
-[[usingmaventobuildgroovy" role="wrapper">
+[[usingmaventobuildgroovy]]
 == Using Groovy in a Maven or Gradle build
 	[[using_groovy_maventobuild">
 === Using Groovy in a Maven build
