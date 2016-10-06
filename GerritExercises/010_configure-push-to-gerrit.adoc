@@ -29,7 +29,7 @@ In case you cloned via the Git command line, open the node 'Remotes' of your rep
 View and choose 'Gerrit Configuration...' from the context menu on the
 'origin' repository.
 
-image::/gerrit-configuration.png[Gerrit Configuration]
+image::gerrit-configuration.png[Gerrit Configuration]
 
 Normally you can keep the default values in this Wizard page and
 confirm with 'Finish'.
@@ -39,6 +39,6 @@ You can check the result in the configuration of the local repository.
 Select 'Properties' from the context menu on the repository node in
 the Git Repositories View.
 
-image::/gerrit-configuration-3.png[Gerrit Configuration]
+image::gerrit-configuration-3.png[Gerrit Configuration]
 
 
