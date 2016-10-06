@@ -1,0 +1,20 @@
+[[gerritreview_clonerepo]]
+== Clone repository from Gerrit
+
+In this exercise you act as a
+developer who wants to upload a
+Gerrit review. This requires that you have a valid Gerrit user on the
+Gerrit system.
+
+For this exercise it is assumed that you have not yet a local Git
+repository Therefore, you need to clone the Git repository from the
+Gerrit server.
+Open a new workspace for this.
+
+Open the
+_Git Repositories_
+view
+and select that you want to clone an existing repository. Enter
+the URL from the Git repository hosted at Gerrit, for example:
+`ssh://<user-id>@localhost:29418/demo/gerrittest.git`.
+

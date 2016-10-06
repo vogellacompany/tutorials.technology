@@ -1,48 +1,26 @@
-=  - Tutorial
+= Gerrit code review - Tutorial
 :linkcss:
 :sectnums:                                                          
 :experimental:
 :icons:
 :imagesdir: ./img
-Lars Vogel, (c) 2009, 2016 vogella GmbH
-Version 0.3, 06.07.2016
+Lars Vogel, (c) 2012, 2016 vogella GmbH
+Version 2.3, 06.10.2016
 :docinfodir: ../
-:vgwort: XXX
+:vgwort: Gerrit
 
-=== Gerrit code review - Tutorial
-		<author>
-			<firstname>Lars</firstname>
-			<surname>Vogel</surname>
-		</author>
-		<copyright>
-			<year>2012</year>
-			<year>2013</year>
-			<year>2014</year>
-			<year>2014</year>
-			<year>2015</year>
-			<year>2016</year>
-			<holder>vogella GmbH</holder>
-		</copyright>
-		<pubdate>18.01.2016</pubdate>
-		<releaseinfo>
-			Version 2.2
-		</releaseinfo>
-		
 [abstract]
-	=== Gerrit tutorial
-			 This tutorial explains the usage of the Gerrit code review
-				system. It describes the setup of Eclipse (with EGit) as well as the
-				command line setup. Contributing to an Eclipse.org project via Gerrit is also described.
-			
-  
-  
+Gerrit tutorial.
+This tutorial explains the usage of the Gerrit code review
+system. It describes the setup of Eclipse (with EGit) as well as the
+command line setup. Contributing to an Eclipse.org project via Gerrit is also described.
 
 include::../web/advertisement/afterTableOfContent.adoc[]
 include::010_codereview.adoc[]
 include::020_gerrit.adoc[]
 include::../web/advertisement/inBetween01.adoc[]
 include::020_installation.adoc[]
-    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="030_workflow.adoc[]
+include::030_workflow.adoc[]
 include::040_user_setup.adoc[]
 include::044_user_newchangescreen.adoc[]
 include::060_setuprepo.adoc[]
@@ -59,11 +37,7 @@ include::610_otherproblems.adoc[]
 include::620_thingstoconsider.adoc[]
 include::800_eclipse_gerrit.adoc[]
 include::900_contributing_to_eclipse.adoc[]
-
 include::../support.adoc[]
 include::008_resourceslocal.adoc[]
-include::../copyright.adoc[]	
-
-include::006_resources.adoc[]
-
+include::../copyright.adoc[]
 
