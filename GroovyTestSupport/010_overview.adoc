@@ -1,0 +1,59 @@
+[[grooygtests]]
+== Assert statements and unit tests with Groovy
+[[grooygtests_asserts]]
+=== Asserts 
+
+Groovy provides the
+`assert`
+keyword which takes a boolean expression as an argument.
+If the
+expression is true, nothing is returned,
+but if it
+evaluates to
+false a
+detailed
+error message is
+printed to the console.
+`assert`
+is enabled by
+default.
+[source,java]
+----
+include::res/testing/assert.java[]
+----
+
+[[grooygtests_unittests]]
+=== Unit tests 
+
+Groovy can be used to write JUnit 4 test cases without any
+restrictions. The
+`groovy.test.GroovyAssert`
+holds various static assert
+methods that can be used as replacement
+for
+the JUnit assert statements.
+
+You also have the static import for
+`shouldFail`
+. This method validates if the inner block is false or throws can
+exception.
+
+[source,java]
+----
+include::res/testing/shouldfail.java[]
+----
+
+The
+`MockFor`
+and
+`StubFor`
+classes in
+the Groovy library, which are great
+ways to build mock objects and
+also
+provide
+some insight into Groovy
+metaprogramming.
+
+See http://beta.groovy-lang.org/docs/groovy-2.3.0/html/documentation/core-testing-guide.html[Groovy testing guide].
+

@@ -31,4 +31,6 @@ include 'SonarQube'
 include 'Artifactory'
 include 'Gradle'
 include 'PackageDrone'
-
+include 'GroovyTestSupport'
+include 'H2DatabaseEngine'
+include 'Inkscape'

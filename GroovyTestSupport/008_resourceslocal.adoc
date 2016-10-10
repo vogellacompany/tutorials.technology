@@ -1,0 +1,7 @@
+[[resources_groovytestingsupport]]
+== Groovy testing links
+	
+http://www.groovy-lang.org/testing.html[Groovy testing guide]
+	
+https://github.com/spockframework/spock[Spock homepage]
+	
