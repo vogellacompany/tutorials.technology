@@ -1,0 +1,27 @@
+[[resources]]
+== Links and Literature
+
+[[resources_mercurial]]
+=== Mercurial Resources
+
+http://mercurial.selenic.com/[Mercurial Homepage]
+
+http://mercurial.selenic.com/wiki/[Mercurial Wiki]
+
+http://hgbook.red-bean.com/[Free Online Mercurial Book]
+
+http://bitbucket.org/[Mercurial Hosting service]
+
+http://hgbook.red-bean.com/read/[Mercurial: The Definitive Guide]
+
+http://code.google.com/p/support/wiki/ConvertingSvnToHg[How to convert svn to Mercurial at Google hosting]
+
+[[resources_mercurialeclipse]]
+=== MercurialEclipse Resources
+
+http://www.javaforge.com/project/HGE[EclipseMercurial plug-in homepage]
+
+http://javaforge.com/wiki/76402[EclipseMercurial change logs]
+
+http://www.javaforge.com/project/HGE/tracker[Mercurial Eclipse Bug tracker]
+

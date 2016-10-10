@@ -1,0 +1,153 @@
+[[using]]
+== Mercurial usage with the command line
+
+[[using_overview]]
+=== Overview
+ 
+The following will demonstrate a short development cycle using the command line interface of Mercurial.
+
+You will create a new Mercurial repository, create a new Java project and commit the changes to your Mercurial repository.
+
+The command for using Mercurial on the command line is "hg".
+
+[[using_prepare]]
+=== Prepare
+
+Check that you are using Mercurial version 1.3 or higher:
+
+[source,text]
+----
+include::res/using/version.txt[]
+----
+
+Create and switch to your desired work directory . 
+
+Initialize a new Mercurial repository with:
+
+[source,text]
+----
+include::res/using/clone.txt[]
+----
+
+TIP: If you have an existing project you could clone, e.g. create a copy of, your repository via the following command.
+
+[source,text]
+----
+include::res/using/clone.txt[]
+----
+
+Eclipse creates a lot of metadata with regards to the current status
+of the Eclipse workbench. Also Eclipse creates compiled version in
+the directory bin. This data should not be placed in the
+mercurial
+repository. Create the file ".hgignore" in the same directory as
+the
+hg
+project.
+
+[source,text]
+----
+include::res/ignore/hgignore.txt[]
+----
+
+[[using_javaproject]]
+=== Create Java Project
+
+Start Eclipse and use the new directory as workspace. Create a
+new Java
+project "de.vogella.mercurial.firstproject". Create the
+following Java
+class.
+
+[source,text]
+----
+include::res/javaproject/Test.java[]
+----
+
+[[using_commit]]
+=== Add Project to Mercurial and commit
+
+Add the project to Mercurial.  
+
+[source,text]
+----
+include::res/using/add.txt[]
+----
+
+Commit.  
+
+[source,text]
+----
+include::res/using/commit.txt[]
+----
+
+If you have checked out the Mercurial project from another site you can push your changes to the repository.
+
+[source,text]
+----
+include::res/using/push.txt[]
+----
+
+Check the history via:
+
+[source,text]
+----
+include::res/using/log.txt[]
+----
+
+[[using_delta]]
+=== Making changes
+
+Rename your Java class to "TestNewName" and create a new class "Test2".
+
+[source,text]
+----
+include::res/javaproject/Test2.java[]
+----
+
+Add the new files to Mercurial.  
+
+[source,text]
+----
+include::res/using/add.txt[]
+----
+
+A rename in Java removes the old file. Mercurial will report
+these files as missing (hg status). You can use the following command
+to automatically add the new files and remove the deleted.
+
+Add the new files to Mercurial.  
+
+[source,text]
+----
+include::res/using/addremove.txt[]
+----
+
+You can now commit. The -A flag in the commit command would
+also automatically add and remove new files.
+
+[source,text]
+----
+include::res/using/commitadd.txt[]
+----
+
+[[using_diff]]
+=== See changes
+
+To see the changes use the status command. diff we show the differences.
+
+[source,text]
+----
+include::res/using/changes.txt[]
+----
+
+[[using_revert]]
+=== Revert
+
+You can revert the changes via "hg revert". 
+
+[source,text]
+----
+include::res/using/revert.txt[]
+----
+
