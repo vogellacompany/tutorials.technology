@@ -1,0 +1,33 @@
+[[msoutlook]]
+== Outlook
+
+[[msoutlook_resetviews]]
+=== Reset the views
+
+If I search in outlook sometimes I loose the Day / Month /
+Year
+view in the calendar of outlook. In this case restarting Output
+with
+the cleanviews switch helps. menu:Start[Run > outlook /cleanviews].
+
+[[msoutlook_signature]]
+=== Signature for macros
+
+If you want to use macros automatically in Outlook you need to
+sign them. You can sign your macros directly from the Visual Basic
+editor via the menu menu:Tools[Digital Signature]. The dialog allows
+you to sign your project. 
+
+If you restart Outlook and run your macro you might receive a
+warning but the macro should run. You might have to change your
+security settings under menu:Tools[Trust Center on the tab macros].
+
+[[msoutlook_security]]
+=== A program is trying to access e-mail addresses you have stored in Outlook
+
+If you have a macro which access the outlook email addresses
+you in some cases receive the following warning: "A program is trying
+to access e-mail addresses you have stored in Outlook".
+
+Installing the tool http://www.mapilab.com/de/outlook/security/[Advanced Security for Outlook] from MAPILab will solve this problem.
+

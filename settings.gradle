@@ -37,4 +37,5 @@ include 'Inkscape'
 include 'MapReduce'
 include 'Mercurial'
 include 'Microsoft'
+include 'MicrosoftOutlookMacros'
 

@@ -1,0 +1,15 @@
+[[shortcuts]]
+== Define shortcuts for your macros
+
+To define a shortcut for your macro, select menu:View[Toolbars > Customize and select Macros].
+
+image::button10.gif[]
+
+Drag the macro into your toolbar. Right-click it to change its
+properties, e.g. the name. Use `&`
+number to assign a hotkey to your
+macro. For example the following sets the hotkey for the Move macro to
+kbd:[Alt+1]. 
+
+image::button20.gif[]
+

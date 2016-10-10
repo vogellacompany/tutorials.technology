@@ -1,0 +1,24 @@
+[[overview]]
+== Overview
+
+Microsoft Outlook allow the user to define macros written in
+Visual Basis to automate certain activities. 
+To create a macro select menu:Tools[Macro > Macros]
+
+image::create10.gif[]
+
+Type in the name of your desired macro and press "Create".
+
+image::create20.gif[]
+
+You can now write your macro. 
+
+image::create30.gif[]
+
+[source,text]
+----
+include::res/hello/HelloOutlook.txt[]
+----
+
+To run your macro, open menu:Tools[Macro > Macros], select your macro and press Run.
+
