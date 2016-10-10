@@ -9,6 +9,5 @@ this database
 to store
 persistence data.
 	
-	
 This tutorial covers theinstallation of MySQL and the usage of the database.
 	
