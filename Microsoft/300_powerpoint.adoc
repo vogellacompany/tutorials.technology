@@ -1,0 +1,6 @@
+== Powerpoint
+
+=== Apply master layout to slide
+
+Press kbd:[Ctrl + Space] to apply the master slide layout to the slide.
+

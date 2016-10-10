@@ -1,0 +1,57 @@
+[[windows]]
+== Windows Settings
+
+[[windows_environmentvariables]]
+=== Environment Variables
+
+To set the windows environment variables, select menu:Control Panel[System > Advanced > Button "Environment Variables"].
+ To check the content of a variable, open a command shell
+menu:Start[Run > cmd] and type echo%VARIABLE_NAME% 
+
+[[windows_search]]
+=== Search (Microsoft and Google)
+
+The following search term will work on Microsoft search and
+may
+work on Google Desktop search.
+
+.Search
+|===
+|Command |Description
+
+|mars to:Jim
+|Messages with the keyword "mars" to the user Jim.
+
+|attachment:mars
+|All emails which have an attachment named mars
+
+|mars filetype:jpg
+|mars stuff with pictures
+
+|from:Jim created: 23.04.2007
+|Stuff from Jim created on 23.04.2007
+
+|"mars rover"
+|Email with the phrase "mars rover"
+
+|mars +photos -rover
+|mars +photos -rover
+
+|===
+
+[[windows_dynamicmenus]]
+=== Turn of the dynamic menus
+
+If you do not what dynamic menus in Windows -> Programs,
+select men:Settings[Taskbar and Start Menu > Tab Start Menu > Classic] and press Customize.
+
+image::turnoffdynamicmenu02.gif[]
+
+If you do not like the dynamic menus in winword / excel /
+powerpoint, select tools -> customize and then select "Always show
+full path name".
+
+image::turnoffdynamicmenu10.gif[]
+
+image::turnoffdynamicmenu20.gif[]
+

@@ -1,0 +1,44 @@
+[[shortcuts]]
+== Shortcuts
+
+[[shortcuts_windows]]
+=== Windows
+
+* kbd:[WindowsKey + d] - Hide / restore all applications
+* kbd:[WindowsKey + m] - Minimize all applications
+* kbd:[WindowsKey + r] - Open the run dialog
+* kbd:[WindowsKey + Pause] - Opens the settings dialog
+
+[[shortcuts_msoutlook]]
+=== Outlook
+
+.Shortcuts
+|===
+|Shortcut |Description
+
+|kbd:[Ctrl+1] / kbd:[Ctrl+2] / kbd:[Ctrl+3] / kbd:[Ctrl+4]
+|Switch to Mail / Calendar / Contacts / Tasks
+
+|kbd:[Ctrl+n]
+|Neu Email
+
+|kbd:[Ctrl+Enter]
+|Send Email
+
+|kbd:[Ctrl+r]
+|Reply Email
+
+|kbd:[Alt+F4]
+|Close Email
+
+|kbd:[Ctrl+Shift+r]
+|Reply to all
+
+|kbd:[Ctrl+Q]
+|Mark as read
+
+|kbd:[Ctrl+U]
+|Mark as unread
+
+|===
+

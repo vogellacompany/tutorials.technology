@@ -1,47 +1,17 @@
-=  - Tutorial
+= Microsoft Applications - Tutorial
 :linkcss:
 :sectnums:                                                          
 :experimental:
 :icons:
 :imagesdir: ./img
-Lars Vogel, (c) 2009, 2016 vogella GmbH
-Version 0.3, 06.07.2016
+Lars Vogel, (c) 2007, 2016 vogella GmbH
+Version 1.2, 06.10.2016
 :docinfodir: ../
-:vgwort: XXX
+:vgwort: Microsoft
 
 [abstract]
-=== Microsoft Applications - Tutorial
-		<author>
-			<firstname>Lars</firstname>
-			<surname>Vogel</surname>
-		</author>
-		<copyright>
-			<year>2007 - 2011</year>
-			<holder>vogella GmbH</holder>
-		</copyright>
-
-
-		<pubdate>07.08.2011</pubdate>
-
-		<releaseinfo>
-			Version 1.1
-		</releaseinfo>
-
-		
-
-[abstract]
-	=== Using Microsoft
-			
-				This article captures
-				some
-				settings / features in Microsoft
-				Windows which I find useful.
-			
-
-			
-
-  
-  
+Using Microsoft.
+This article captures some settings / features in Microsoft Windows which I find useful.
 
 include::../web/advertisement/afterTableOfContent.adoc[]
 include::010_shortcuts.adoc[]
@@ -53,10 +23,7 @@ include::200_word.adoc[]
 include::../web/advertisement/inBetween03.adoc[]
 include::300_powerpoint.adoc[]
 include::600_stuff.adoc[]
-
 include::../support.adoc[]
 include::008_resourceslocal.adoc[]
 include::../copyright.adoc[]	
-
-
 

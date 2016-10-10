@@ -1,0 +1,22 @@
+[[msword]]
+== Winword
+
+[[msword_s1s2a]]
+=== Add Macrobuttons
+
+image::macrobutton10.gif[]
+
+image::macrobutton20.gif[]
+
+Go to the menu entry Macro and click on it. Select the macro
+you want to assign to a push button, hold left mouse button
+and drag it to the menu.
+
+
+image::macrobutton30.gif[]
+
+In customizing click on the macro button and press the right
+mouse button. Rename the button to a reasonable name.
+
+image::macrobutton40.gif[]
+

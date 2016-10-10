@@ -1,0 +1,47 @@
+[[stuff]]
+== Appendix: Additional Windows Settings
+
+[[stuff_language]]
+=== Language Settings for Office
+
+To change the language in which office works, select the following.
+
+image::languagesettingsoffice.gif[]
+
+image::languagesettingsoffice20.gif[]
+
+[[stuff_languagegeneral]]
+=== Language Settings
+
+menu:Control Panel[Regional and Language Settings > Languages] Click on Details and then Key Settings
+
+[[stuff_networkdrive]]
+=== Map a network drive
+
+You can map a network driver to a local driver which make it easier to access it.
+
+image::mapnetworkdriver10.gif[]
+
+image::mapnetworkdriver20.gif[]
+
+[[stuff_linktoolbar]]
+=== Create a link toolbar
+
+If you want to have quick access to your folders / network
+drivers you can create your own toolbar and put your links into it.
+
+Right-click on the toolbar and select toolbar -> own toolbar.
+
+image::owntoolbar10.gif[]
+
+Right-click on the toolbar and select toolbar -> own toolbar.
+
+image::owntoolbar20.gif[]
+
+You can now pull the new toolbar on your desktop and then position it for example at the top of your screen. 
+Fill the folder with links and you will have easy access to your folders.
+
+image::owntoolbar30.gif[]
+
+image::owntoolbar40.gif[]
+
