@@ -7,15 +7,12 @@
 Jenkins can be extended via additional plug-ins with more functionality. 
 You can configure your plug-ins via the menu:Manage Jenkins[Manager Plugins] link.
 		
-		
 To install plugins in Jenkins select use the menu:Manage Jenkins[Manager Plugins] link and search for the plugin you want to install. 
 Select it from the list and select to install it and restart Jenkins.
 		
-
-		
 The following table is a summary of commonly used plug-ins.
 
-.Table Jenkins plug-ins
+.Jenkins plug-ins
 [cols="1,2,2",options="header"]
 |===
 |Plug-in name |Description |URL
@@ -24,9 +21,8 @@ The following table is a summary of commonly used plug-ins.
 |This plugin allows use of Git as a build SCM. 
 |https://wiki.jenkins-ci.org/display/JENKINS/Git+Plugin
 
-| Xvnc plugin
-|
-This plugin allows projects to run xvnc during a build.
+|Xvnc plugin
+a|This plugin allows projects to run xvnc during a build.
 This allows for example to run tests which requires a display to run on a virtual display. 
 To use this plug-in you need to connect once to your vncserver on the command line to provide a password. 
 Use for example the following commands.
@@ -36,41 +32,38 @@ Use for example the following commands.
 include::res/xvnc/connect.txt[]
 ----
 
-|wiki.jenkins-ci.org/display/JENKINS/Xvnc+Plugin
+|https://wiki.jenkins-ci.org/display/JENKINS/Xvnc+Plugin
 
-| Gradle Plugin
-| This plugin allows to run Gradle builds, e.g., as required for Android, via Jenkins.
+|Gradle Plugin
+|This plugin allows to run Gradle builds, e.g., as required for Android, via Jenkins.
 |https://wiki.jenkins-ci.org/display/JENKINS/Gradle+Plugin
 
-| Maven Plugin
-| This plugin allows to run Maven builds.
-| https://wiki.jenkins-ci.org/display/JENKINS/Maven+Project+Plugin
+|Maven Plugin
+|This plugin allows to run Maven builds.
+|https://wiki.jenkins-ci.org/display/JENKINS/Maven+Project+Plugin
 
-| GitHub plugin
-| This plugin integrates Jenkins with Github projects.
+|GitHub plugin
+|This plugin integrates Jenkins with Github projects.
 |https://wiki.jenkins-ci.org/display/JENKINS/Github+Plugin
 
+|Publish Over SSH Plugin	
+|This plugin allows to publish build artifacts via ssh
+|https://wiki.jenkins-ci.org/display/JENKINS/Publish+Over+SSH+Plugin
 
-| Publish Over SSH Plugin	
-| This plugin allows to publish build artifacts via ssh
-| https://wiki.jenkins-ci.org/display/JENKINS/Publish+Over+SSH+Plugin
+|Workspace Cleanup Plugin
+|This plugin allows to delete the workspace before the build or when a build is finished and artifacts saved.
+|https://wiki.jenkins-ci.org/display/JENKINS/Workspace+Cleanup+Plugin
 
-| Workspace Cleanup Plugin
-| This plugin allows to delete the workspace before the build or when a build is finished and artifacts saved.
-| https://wiki.jenkins-ci.org/display/JENKINS/Workspace+Cleanup+Plugin
-
-| Github Pull Request Builder
-| This plugin allows to build Github Pull Requests
-| https://wiki.jenkins-ci.org/display/JENKINS/GitHub+pull+request+builder+plugin
+|Github Pull Request Builder
+|This plugin allows to build Github Pull Requests
+|https://wiki.jenkins-ci.org/display/JENKINS/GitHub+pull+request+builder+plugin
 	
 |===
 		
 [[jenkins_pluginmanagement_restart]]
 === Restart your Jenkins
-
 		
 You can manually restart Jenkins by adding `restart` as URL parameter.
 
 image::jenkinsrestart10.png[How to manually restart Jenkins]
-	
 		

@@ -4,12 +4,10 @@ _Continuous integration_ is a process in which all development work is integrate
 The resulting artifacts are automatically created and tested.
 This process should identify errors as very early in the process.
 	
-	
 _Jenkins_ is one open source tool to perform continuous integration and build automation. 
 The basic functionality of Jenkins is to execute a predefined list of steps.
 The trigger for this execution can be time or event based. 
 For example, every 20 minutes or after a new commit in a Git repository.
-	
 	
 The list of steps can, for example, include:
 

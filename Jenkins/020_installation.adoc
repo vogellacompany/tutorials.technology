@@ -3,7 +3,6 @@
 Jenkins can be started via the command line or can run in a web application server.
 Under Linux you can also install Jenkins as a system service.
 
-
 For most platforms you have native packages, see the https://jenkins.io/[Jenkins Homepage].
 
 If you installed Jenkins locally, you find it running under the following URL: http://localhost:8080/
@@ -17,14 +16,12 @@ The Linux installation creates a _/etc/init.d/jenkins_ script which starts Jenki
 Jenkins stores all the settings, logs and build artifacts in its home directory. 
 The default installation directory is _/var/lib/jenkins_ under Ubuntu.
 
-
 === Using the .WAR file of Jenkins
 
 Download the _jenkins.war_ file from https://jenkins.io/[Jenkins Homepage].
 From this file you can start Jenkins directly via the command line with `java -jar jenkins*.war`.
 
 If you start it locally, you find it running under the following URL: http://localhost:8080/">http://localhost:8080/]
-
 
 To run it in your Tomcat server, put the .WAR file into the _webapps_ directory. 
 If you start Tomcat, your Jenkins installation will be available under http://localhost:8080/jenkins.
@@ -33,7 +30,6 @@ If you start Tomcat, your Jenkins installation will be available under http://lo
 ====
 If the jenkins.war is deployed in your _webapps_ directory, but cannot be started and the tomcat manager says
 _﻿FAIL - Application at context path /jenkins could not be started_ , you may need to grant the permissons for `﻿JENKINS_HOME`.
-
 
 [source,console]
 ----
@@ -44,3 +40,4 @@ chown tomcat7:nogroup .jenkins
 
 This makes the .jenkins folder writable and Jenkins can use it.
 ====
+

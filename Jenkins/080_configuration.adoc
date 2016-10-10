@@ -8,14 +8,11 @@ Before using Jenkins to build Java applications, you need to configure the locat
 Select _Manage Jenkins_ and afterwards _Configure System_.
 
 image::jenkins10.png[Jenkins at first startup]
-
-		
 		
 Enter the correct path to your JDK, Apache Ant and Maven and press the btn:[Save] button below. 
 Jenkins can also install these for your automatically.
 		
 image::jenkins20.png[Configuring Jenkins]
-	
 
 === Secure Jenkins
 		
@@ -25,30 +22,23 @@ The easiest way is to use Jenkins own user database.
 Create at least the user "Anonymous" with read access. 
 Also create entries for the users you want to add in the next step.
 		
-		
 image::jenkins30.png[Access restrictions]
 
 On the login page, select _Create an account_ to create the users you just gave access.
 		
-		
 image::jenkins40.png[Create Jenkins account]
-	
 
 image::jenkins50.png[Sign up a new Jenkins user]
-	
 		
 Go to_Manage Jenkins_, _Manage and Assign Roles_ and then _Assign Roles_ to grant the newly created user additional access rights.
 		
-		
 image::jenkins50.png[Sign up a new Jenkins user]
-	
 		
 Navigate to _Manage Roles_ to define access restrictions in detail. 
 _Pattern_ is a regex value of the job name.
 The following grants unregistered users read-only access to your build jobs that start with the `C-MASTER` or `M-MASTER` prefix and only those.
 		
 image::jenkins70.png[Sign up a new Jenkins user]
-	
 	
 [[jenkinsconfiguration_ssh]]
 === Generate ssh key for Jenkins user

@@ -5,9 +5,8 @@ Select _New Item_ from the menu
 	
 image::jenkins_createjob10.png[Setting up a Jenkins job]
 	
-	
 Afterwards enter a name for the job and select _Freestyle Job_. 
-Press _OK_.
+Press btn:[OK].
 	
 The next page allows you to configure your job. 
 If you for example using Git, enter the URL to the Git repository. 
@@ -20,19 +19,16 @@ The following example polls the Git repository every 15 min.
 It triggers a build, if something has changed in the repo.
 
 image::jenkins_createjob30.png[Setting up a Jenkins job]
-	
 
 I typically delete the workspace before a build to avoid any side-effect. 
 In the _Build_ section you can add a build step, e.g., a Maven build.
 	
 image::jenkins_createjob40.png[Setting up a Jenkins job]
 	
-	
-Press _Save_ to finish the job definition. 
-Press _Build Now _ on the job page to validate the job works as expected.
+Press btn:[Save] to finish the job definition. 
+Press btn:[Build Now] on the job page to validate the job works as expected.
 	
 image::jenkins_createjob50.png[Setting up a Jenkins job]
-	
 	
 After a while the job should go to green or blue (depending on your configuration), if successful. 
 Click on the job and afterwards on _Console Output_ to see the log file.

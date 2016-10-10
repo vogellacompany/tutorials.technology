@@ -5,7 +5,6 @@ For example, in _/var/lib/jenkins_ under the default install location of Ubuntu.
 		
 To create a backup of your Jenkins setup, just copy this directory.
 		
-		
 The _jobs_ directory contains the individual jobs configured in the Jenkins install. 
 You can move a job from one Jenkins installation to another by copying the corresponding job directory. 
 You can also copy a job directory to clone a job or rename the directory.
@@ -20,3 +19,4 @@ Jenkins supports the https://wiki.jenkins-ci.org/display/JENKINS/SCM+Sync+config
 plug-in which allows you to store every change in a Git repo.
 		
 It is also possible to manually maintain the Jenkins configuration in a Git repo. 
+
