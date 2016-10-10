@@ -1,0 +1,21 @@
+= Publish EBooks - Tutorial
+:linkcss:
+:sectnums:                                                          
+:experimental:
+:icons:
+:imagesdir: ./img
+Lars Vogel, (c) 2011, 2016 vogella GmbH
+Version 0.2, 06.10.2016
+:docinfodir: ../
+:vgwort: PublishEBooks
+
+[abstract]
+Short description how to publish EBooks.
+This is currently a collection of notes for me. 
+
+include::../web/advertisement/afterTableOfContent.adoc[]
+include::001_introduction.adoc[]
+include::../support.adoc[]
+include::008_resourceslocal.adoc[]
+include::../copyright.adoc[]
+
