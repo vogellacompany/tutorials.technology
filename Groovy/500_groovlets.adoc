@@ -1,0 +1,91 @@
+[[groovlets]]
+== Developing Java EE servlets with Groovy - Groovlets
+
+[[groovlets1]]
+=== Using Groovy on the server
+
+Java EE defines the servlet API for implementing web
+applications. Groovlets are the servlet equivalent for Groovy.
+
+Groovlets, or Groovy Pages, are typically processed by a Groovy
+Servlet.
+
+A Groovlet has automatically access to the following information:
+
+* application, context - Gives access to javax.servlet.ServletContext
+* session – Gives access to javax.servlet.HttpSession
+* request –s Gives access to javax.servlet.HttpServlet
+* response –> Gives access to javax.servlet.HttpResponse
+* out –> Gives access to response.getWriter()
+
+[[groovlets_downloadgroovy]]
+=== Download the groovy-all.jar
+
+To use Groovy on the server you need to deploy Groovy on the
+application server or with your application.
+
+The easiest way to download Groovy is via
+http://search.maven.org/]]Search Maven]
+. Search here for
+`org.codehaus.groovy`
+and identify the
+`groovy-all`
+and download the JAR file of the latest release.
+
+[[groovlets_example]]
+=== Exercise: Using Groovy on the server
+
+The following description assume that you are familiar with Java
+Web
+development, if not see the
+http://www.vogella.com/tutorials/EclipseWTP/article.html[Java web development tutorial].
+
+Create a new Dynamic Web Project in Eclipse called
+`com.vogella.groovy.web.groovelets`.
+
+Add the
+`groovy-all.jar`
+to the
+`WebContent`
+folder
+
+Add a file called
+`test.groovy`
+to the
+`WebContent`
+folder with the following content. This is a Groovy page using the
+Html builder to create a HTML page.
+
+[source,java]
+----
+include::res/groovlets/test.groovy[]
+----
+
+Change the
+`WebContent/WEB-INF/web.xml`
+to the following.
+
+[source,java]
+----
+include::res/groovlets/web.xml[]
+----
+
+[[groovlets_validate]]
+=== Validate that it run on the server
+
+Start your web application and validates that you can access the
+Groovlet. Also inspect the source of the HTML and validate that it
+really is HTML code.
+
+[[groovlets_extend]]
+=== Exercise: Extend your Groovlet
+
+Use some of the implicit available variables, e.g.,
+`request`
+to display information in your Groovlet.
+  
+[source,java]
+----
+include::res/groovlets/test2.groovy[]
+----
+

@@ -1,0 +1,102 @@
+[[datatypes_list]]
+== Lists
+
+[[datatypes_list1]]
+=== Defining and accessing lists
+
+Groovy treads lists as first class constructs in the
+language.
+You
+define a list via
+`List list = new List[]`. 
+You can also
+use
+generics. To access element i in a list you can
+either use
+list.get(i) or list[i].
+
+[source,java]
+----
+include::res/datatypes/Person.groovy[]
+----
+
+[source,text]
+----
+include::res/datatypes/ListTest.groovy[]
+----
+
+Groovy allows direct property access for a list of items. This
+is
+demonstrated by the following snippet.
+
+[source,groovy]
+----
+include::res/datatypes/ListPropertyAccess.groovy[]
+----
+
+[[datatypes_list_arrayconvert]]
+=== Convert a list to an array and vice versa
+
+Groovy converts automatically an Array to a List and vice versa. This is demonstrated by the following snippet.
+
+[source,groovy]
+----
+include::res/datatypes/ConvertArrayToList.groovy[]
+----
+
+[[datatypes_list_methods]]
+=== List methods
+
+The following lists the most useful methods on List.
+
+* reverse()
+* sort()
+* remove(index)
+* findAll{closure} - returns all list elements for which the closure validates to true
+* first()
+* last()
+* max()
+* min()
+* join("string") - combines all list elements, calling the toString method and using the string for concatenation.
+* << e - appends element e to the list
+
+The `grep` method can be used to filter elements in a collection.
+
+[[datatypes_list_operatoroverloading]]
+=== Operator overloading in Lists
+
+List support operator overloading. You can use + to concatenate
+strings, - to substract lists and the
+_left-shift operator_
+to add elements to a list.
+
+[[datatypes_list_spreaddotoperator]]
+=== Spreaddot operator
+
+The spread dot operator (spread-dot operator)
+`*.`
+is used to invoke a method on all members
+of a Collection. The result
+of this operation
+is another Collection object.
+
+[source,java]
+----
+include::res/datatypes/SpreadDot.groovy[]
+----
+
+[[datatypes_list_search]]
+=== Searching in a list with find, findall and grep
+
+You can search in a list.
+
+* findAll{closure} - returns all list elements for which the closure validates to true
+* find{closure} - returns the list element for which the closure validates to true
+* grep(Object filter) - Iterates over the collection of items and returns each item that matches the given filter - calling the Object#isCase. 
+This method can be used with different kinds of filters like regular expressions, classes, ranges etc.
+
+[source,java]
+----
+include::res/grep/GrepExample.groovy[]
+----
+

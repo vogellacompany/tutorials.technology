@@ -1,0 +1,52 @@
+[[commandline]]
+== Using Groovy without IDE support
+[[commandline_options]]
+=== Options for using Groovy with IDE support
+
+You can execute a Groovy class or script from your IDE
+but Groovy provides other options. You can run Groovy code via:
+
+* the Groovy shell: groovysh
+* the Groovy interpreter: groovy
+* the Groovy Console : groovyConsole
+* complile Groovy code to classfiles and run it via the Java virtual machine
+
+[[commandline_console]]
+=== The Groovy Console
+
+Start the interactive Groovy Shell with the command groovyConsole. 
+This console allows you to test Groovy code.
+        
+image::groovyshell.png[]
+
+[[commandline_groovyshell]]
+=== The Groovy shell
+
+The Groovy shell is the simplest way to run Groovy program. The
+groovy shell allow you to type in groovy
+commands and let them
+evaluate.
+
+Open a command shell (Start-> Run -> cmd under Windows) and
+start the groovy shell via "groovysh". Type in the
+following code:
+
+[source,text]
+----
+include::res/helloworld/hello[]
+----
+
+Press enter-> the system will execute your code.
+
+[[groovycode_compile]]
+=== Using the Groovy compiler to create class files
+
+You can also complile Groovy code into Java bytecode to use it
+from Java. To use the byte code the Groovy
+runtime library must
+included in the Java classpath.
+
+To create Java bytecode, run the
+`groovyc Hello.groovy`
+command.
+

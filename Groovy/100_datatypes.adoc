@@ -1,0 +1,153 @@
+[[datatypes]]
+== Groovy data types
+
+[[groovyobjects_optinaltypes]]
+=== Optional typed variables
+
+Variables and fields can be typed as in Java or your can use the
+`def`
+keyword to define a variable. As a rule of thumb, use the type if it
+adds clarity to your code otherwise use
+`def`.
+
+[source,text]
+----
+include::res/explained/Type.groovy[]
+----
+
+At runtime variables and fields are always typed, Groovy infers
+the type based on your source code. This means
+that at runtime you
+receive an error if you try to assign a non fitting type to a
+variable.
+
+Variables which are not declared can be used in Groovy scripts
+to indicate that they can be set from outside.
+Such declarations are
+only valid in scripts and become part of the scripts binding.
+
+[[groovyobjects_generics]]
+=== Groovy and generics
+
+Groovy supports the syntax of generics but does not enforce it. For example, you can put any type into a
+`List<Integer>`
+collection. To enforce type checking in Groovy you can use AST transformations. See
+<<asttransformations>>
+to learn more about AST transformations.
+
+[[datatypes_overview]]
+=== All types are objects
+
+All variables in Groovy are objects (reference variables),
+Groovy does not use primitive variables. Groovy still
+allows to use
+the primitives types as a short form for the variable declaration but
+the compiler
+translates this into
+the object.
+
+[[datatypes_numbers]]
+=== Numbers
+
+Numbers are objects in Groovy, as well as variables defined as
+int, float, double, etc. If you use numbers in
+your code Groovy
+assigns a
+type
+to it
+and performs automatically the down- and
+upcasting
+for you.
+
+As numbers are object they have also methods for example the
+`times`
+method which executes a block of code the number of times defined by
+the number.
+
+Create the following class called
+`TypesTest`
+to play with numbers.
+
+[source,text]
+----
+include::res/datatypes/TypesTest.groovy[]
+----
+
+The operators, like + or - are also mapped to methods by Groovy.
+
+.Operators and Methods
+|===
+|Operator |Name |Method
+
+|a+b
+|plus
+|a.plus(b)
+
+|a-b
+|minus
+|a.minus(b)
+
+|a*b
+|star
+|a.multiply(b)
+
+|a/b
+|divide
+|a.div(b)
+
+|a%b
+|modulo
+|a.mod(b)
+
+|a--, --a
+|decrement
+|a.previous()
+
+|a++, ++a
+|increment
+|a.next()
+
+|a**b
+|power
+|a.power(b)
+
+|a-b
+|minus
+|a.minus(b)
+
+|a-b
+|minus
+|a.minus(b)
+
+|===
+
+[[datatypes_ranges]]
+=== Ranges
+
+Groovy supports the
+`Range`
+data type is a
+`Collection`. 
+Ranges consists of two values separated by two dots. Ranges can for
+example be used to define a loop statement.
+
+[source,text]
+----
+include::res/datatypes/RangesTest.groovy[]
+----
+
+You can use Strings for the definition of ranges, these ranges
+follow the alphabet.
+
+Every object can be used as
+`Range`
+long as it
+implements the
+`previous()`
+and
+`next()`
+methods and the
+`java.util.Comparable`
+interface. The methods map to the
+++ and -- operators.
+

@@ -1,0 +1,47 @@
+[[javagroovy]]
+== Using Groovy classes in Java
+
+[[javagroovy1]]
+=== Calling Groovy classes directly
+
+To use Groovy classes in Java classes you need to add the
+Groovy
+runtime to the Java classpath.
+
+Create a new Java project "de.vogella.groovy.java". Create
+package "de.vogella.groovy.java"
+
+Create the following Groovy class.
+
+[source,java]
+----
+include::res/javagroovy/Person.groovy[]
+----
+
+Create the following Java class.
+
+[source,java]
+----
+include::res/javagroovy/Main.java[]
+----
+
+You should be able to run this Java program.
+Right-click your project, select "Properties" and
+check that the
+build path includes the Groovy libraries.
+
+image::javagroovy10.gif[]
+
+[[script]]
+=== Calling a script
+
+[source,java]
+----
+include::res/script/ExecuteGroovyViaJSR223.java[]
+----
+
+[source,java]
+----
+include::res/script/hello.groovy[]
+----
+

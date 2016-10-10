@@ -1,0 +1,68 @@
+[[firstgroovy]]
+== Exercise: Create a Groovy program with the Eclipse IDE
+
+[[firstgroovy_target]]
+=== Target of this exercise
+
+In this exercise you learn how to create Groovy program with the Eclipse IDE.
+
+[[firstgroovy_project]]
+=== Create a new Groovy project
+
+The following example assumes you have Groovy and the Eclipse
+IDE
+installed and configured.
+
+Create a new Groovy project called
+_com.vogella.groovy.first_
+the
+menu:File[New > Other > Groovy > Groovy Project].
+
+image::groovyfirst10.png[Creating a Groovy project]
+
+image::groovyfirst20.png[Creating a Groovy project]
+
+After entering the project name, press the
+btn:[Finish]
+button. This creates a new Groovy project similar to a new Java
+project but with the required Groovy libraries.
+
+image::groovyfirst30.png[Creating a Groovy project]
+
+Right click on the source folder and
+menu:New[Package]
+from the context menu. Create a new package called
+`first`.
+
+Create a new Groovy class called
+`FirstGroovy`
+via
+menu:File[New > Other > Groovy > Groovy Class].
+
+image::groovyfirst40.png[Creating a Groovy class Part 1]
+
+Create the following code.
+
+[source,text]
+----
+include::res/first/FirstGroovy.groovy[]
+----
+
+[[firstgroovy_project_run]]
+=== Run the Groovy class
+
+Right-click the Groovy class, and select
+menu:Run As[Groovy Script]
+from the context menu.
+
+[[firstgroovy_project_validate]]
+=== Validate the Groovy class
+
+The above menu entry triggers the execution of the main method in
+your Groovy class and prints output
+to
+_Console_
+view of the Eclipse IDE.
+
+Congratulation! You created and ran your first Groovy class.
+

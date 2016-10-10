@@ -1,0 +1,10 @@
+[[groovydsl]]
+== Domain specific language in Groovy
+
+Groovy allow to define domain specific languages by leaving out the
+top level parentheses. Instead of writing
+`read(file)`
+you can write
+`read file`
+which is much more accessible to non-technical users.
+

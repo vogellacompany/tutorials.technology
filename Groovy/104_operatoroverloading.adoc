@@ -1,0 +1,11 @@
+[[operator_overloading]]
+== Operator overloading
+
+Groovy supports that you can use the standard operations in
+your
+own classes. For example if you want to use the
+operation a+b
+where a
+and b are from class Z then you have to implement the method
+`plus(Zname)` in class Z.
+

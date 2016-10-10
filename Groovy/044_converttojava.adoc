@@ -1,0 +1,87 @@
+[[converttogroovy]]
+== Exercise: Convert a Java project to Groovy
+[[converttogroovy_project]]
+=== Create a Java project script
+
+Use the Eclipse wizard to create a new
+_Java project_
+called
+`com.vogella.groovy.fromjava`
+and create a package called
+`fromjava`.
+
+[[converttogroovy_javabean]]
+=== Create a Java class
+
+Create a Java bean in this project called
+`Task`
+with two properties.
+
+[source,java]
+----
+include::res/first/Task1.java[]
+----
+
+Use the code generation capacities of the Eclipse IDE to
+generate getter and setter, the constructor, the
+`toString`
+and
+`equals`
+and
+`hashcode`
+method.
+
+[source,java]
+----
+include::res/first/Task.java[]
+----
+
+[[converttogroovy_main]]
+=== Main method
+
+Create a new class with a main method In this method construct at
+least one instance of
+`Task`.
+
+[source,java]
+----
+include::res/first/MainTest.java[]
+----
+
+[[converttogroovy_convert]]
+=== Convert to Groovy
+
+Right-click on your project and select
+menu:Configure[Convert to Groovy Project]. 
+This adds the Groovy libraries to the project classpath and adds the Groovy builder.
+
+Right-click on your
+`Task`
+class and select
+menu:Convert[Convert file extension to Groovy].
+
+[[converttogroovy_project_validate]]
+=== Simplify the Task class
+
+Simplify the
+`Task`
+class and ensure that the Java main program still can use it.
+
+Congratulation! You converted your first object to Groovy and
+used it in an Java program.
+
+[[converttogroovy_project_asttransformation]]
+=== Replace the toString and equals/hashCode method
+
+NOTE: This exercise is optional.
+
+Use
+`@EqualsAndHashCode`
+and the
+`@ToString`
+to allow the Groovy compiler to create these methods during its
+compile phase.
+
+These annotations triggers a so called AST (Abstract Syntax Tree) transformation during compilation. 
+See <<asttransformations>> for more details.
+

@@ -1,0 +1,104 @@
+[[controlstructures]]
+== Control structures
+
+[[datatypes_evaluation]]
+=== Groovy evaluation of conditions - The Groovy truth
+
+Groovy evaluates a condition defined in a control statement
+differently
+from Java. A boolean expression is evaluated
+the same as
+in Java, but
+empty collections or null evaluates to
+`false`
+. The number "0" evaluates to
+`true`
+, all other numbers evaluates to
+`true`.
+
+[source,java]
+----
+include::res/controlstructure/GroovyTruth.groovy[]
+----
+
+NOTE: This evaluation is commonly known in the Groovy worlds as _the Groovy truth_.
+
+[[controlstructures_if]]
+=== if statements
+
+The
+`if`
+and
+`switch`
+are supported, the if statement supports the Groovy truth, e.g., you
+can use for example a list as parameter in
+`if`
+and Groovy will evaluate this Groovy truth value.
+
+[[controlstructures_switch]]
+=== switch statement and the isCase method
+
+The switch statement is very flexible, everything which implements
+the
+`isCase`
+method can be used as classifier.Groovy provides an
+implementation of
+the
+`isCase()`
+method to
+`Class`
+(using isInstance),
+`Object`
+(using
+(equals),
+`Collections`
+(using contains) and regular expressions (using
+matches). You can also
+specify a closure, which is evaluated to a
+boolean value.
+
+[source,java]
+----
+include::res/switch/SwitchTest.groovy[]
+----
+
+If several conditions fit, the first
+`case`
+statement is selected.
+
+To use your custom class in a switch statement implement the
+`isCase`
+method.
+
+[[controlstructuress_safenull]]
+=== Safe navigation operator
+
+You can use safe navigation operator to check safety for null via the
+`?.`
+operator.
+This will avoid a
+`NullPointerException`
+if you access
+properties of an object
+which is null.
+
+[source,text]
+----
+include::res/safenull/safenull.txt[]
+----
+
+[[controlstructures_elvis]]
+=== Elvis operator
+
+The
+`?:`
+(called the Elvis operator) is a short form for the Java ternary
+operator. You can use this to set a default if an
+expression resolves
+to false or null.
+
+[source,text]
+----
+include::res/elvis/elvis.txt[]
+----
+

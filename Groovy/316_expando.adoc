@@ -1,0 +1,21 @@
+[[expando]]
+== Expando
+
+The
+`Expando`
+class allows that
+properties and new methods are added
+at runtime to an instance of it. The new method must be defined
+as
+closure. It uses the Groovy meta object protocol for that.
+
+This is demonstrated by the following example.
+
+[source,java]
+----
+include::res/expando/test.groovy[]
+----
+
+Espandos are useful for creating on the fly objects with certain properties and methods and can be used in
+testing for parameters which do not define their type.
+

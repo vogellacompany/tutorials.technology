@@ -1,0 +1,46 @@
+[[regularexpressions]]
+[[regularexpressions_groovy]]
+=== Regular expressions
+
+Groovy is based on Java regular expression support and add the
+addition support operators to make the usage of
+regular expressions easier.
+
+Groovy adds the Slashy string as String declaration. Slashy
+strings are Strings between two "/" signs. They don't need
+escape backslashes in regular
+expressions.
+
+.Constructs
+|===
+|Construct |Description
+
+|str =~ pattern
+|Creates a Matcher from a regex and a string. Same as Pattern.compile(pattern).matcher(str). If you call
+the find method it returns true if
+the pattern is contained in the str variable.
+
+|==~
+|Returns a boolean if pattern matches str. Same as Pattern.matches(pattern, str).
+
+|~String
+|Creates a Pattern object from a string. Equivalent to Pattern.compile(str) in Java. 
+
+|===
+
+If you use the ~ operator such a string turns into a regular
+expression which can be used for pattern matching.
+You can use
+special
+sign (escape characters) in Strings if you put them between
+slashes.
+
+[source,text]
+----
+include::res/datatypes/RegularExpressionTest.groovy[]
+----
+
+Groovy also provides the
+`replaceAll`
+method, which allows to define a closure for the replacement.
+

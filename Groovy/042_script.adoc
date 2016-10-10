@@ -1,0 +1,53 @@
+[[firstgroovyscript]]
+== Exercise: Create and run a Groovy script with the Eclipse IDE
+
+[[firstgroovyscript_target]]
+=== Target of this exercise
+In this exercise you learn how to create a Groovy script with the Eclipse IDE.
+
+[[firstgroovyscript_project]]
+=== Create a new Groovy script
+
+Use the Eclipse wizard to create a new
+_Groovy class_
+in your existing project.
+
+Remove everything from it and replace it with the following code.
+
+[source,text]
+----
+include::res/first/HelloWorld.groovy[]
+----
+
+[[firstgroovyscript_project_run]]
+=== Run the Groovy class
+
+Right-click your Groovy script, and select
+menu:Run As[Groovy Script]
+from the context menu.
+
+[[firstgroovyscript_project_validate]]
+=== Validate the Groovy script
+
+The above menu entry triggers the execution of the script and prints
+output
+to
+_Console_
+view of the Eclipse IDE.
+
+Congratulation! You created and ran your first Groovy script.
+
+[[firstgroovyscript_project_decompile]]
+=== Decompile the Groovy class file
+
+NOTE: This exercise is optional.
+
+If you are familiar with a Java decompiler, like the JadClipse
+plug-in, decompile the class
+file generated from
+your Groovy source
+file and review it.
+
+Ensure that it is an instance of
+`groovy.lang.Script`.
+

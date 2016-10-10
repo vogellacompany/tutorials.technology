@@ -1,0 +1,59 @@
+= Groovy with Eclipse - Tutorial
+:linkcss:
+:sectnums:                                                          
+:experimental:
+:icons:
+:imagesdir: ./img
+Lars Vogel, (c) 2008, 2016 vogella GmbH
+Version 2.3, 06.10.2016
+:docinfodir: ../
+:vgwort: Groovy
+
+[abstract]
+Groovy.
+This article gives a short overview of the Groovy language
+including collections, loops, gstrings, MOP, closures, operator
+overloading, XML
+handing and using Groovy together with Java class.
+It also
+describes how to
+use the
+Eclipse IDE for developing Groovy.
+This article assumes that you have already Eclipse installed
+and that you have used Eclipse for Java development. This article
+was written using Groovy 2.4, Eclipse 4.4 (Luna) and Java 1.8.
+  
+include::../web/advertisement/afterTableOfContent.adoc[]
+include::010_overview.adoc[]
+include::020_installation.adoc[]
+include::022_commandlineusage.adoc[]
+include::040_firstgroovy.adoc[]
+include::../web/advertisement/inBetween01.adoc[]
+include::050_groovyobjects.adoc[]
+include::060_gpaths.adoc[]
+include::100_datatypes.adoc[]
+include::104_operatoroverloading.adoc[]
+include::110_strings.adoc[]
+include::114_regularexpressions.adoc[]
+include::120_lists.adoc[]
+include::130_maps.adoc[]
+include::../web/advertisement/inBetween02.adoc[]
+include::160_controlstructures.adoc[]
+include::180_loops.adoc[]
+include::190_closures.adoc[]
+include::170_gpars.adoc[]
+include::220_files.adoc[]
+include::228_templateengines.adoc[]
+include::230_builder.adoc[]
+include::240_xml.adoc[]
+include::250_json.adoc[]
+include::300_asttransformations.adoc[]
+include::310_mop.adoc[]
+include::314_mop_exercise.adoc[]
+include::400_javagroovy.adoc[]
+include::../web/advertisement/inBetween03.adoc[]
+include::820_buildsupport.adoc[]
+include::../support.adoc[]
+include::008_resourceslocal.adoc[]
+include::../copyright.adoc[]
+

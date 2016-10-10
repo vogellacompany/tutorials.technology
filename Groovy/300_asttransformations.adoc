@@ -1,0 +1,254 @@
+[[asttransformations]]
+== Compile-time meta programming and AST transformations
+
+[[asttransformations1]]
+=== What are AST transformations?
+
+An
+_Abstract Syntax Tree_
+(AST)
+is a in memory representation of code as data. An ADT transformation
+allows to
+modify this representation during
+compile time. This is
+sometimes
+called
+compile-time metaprogramming.
+
+Groovy provides several AST transformations which allows you to
+reduce the amount of code you have to write.
+
+[[asttransformations_tupleConstructor]]
+=== @TupleConstructor
+
+If a class is annotated with
+`@TupleConstructor`
+Groovy generates a constructor using all fields.
+
+[[asttransformations_equals]]
+=== @EqualsAndHashCode
+
+The
+`@EqualsAndHashCode`
+annotation
+can be
+applied to a class, creates the
+`equals`
+and
+`hashCode`
+method. Includes fields can be customized.
+
+[source,java]
+----
+include::res/ast/TaskEqualsAndHashCode.groovy[]
+----
+
+[[asttransformations_toString]]
+=== @ToString for beans
+
+The
+`@ToString`
+annotation
+can be
+applied to a class, generates a toString method,
+support
+boolean
+flags, like
+includePackage,
+includeNames, allows to
+exclude a
+list of
+fields.
+
+This annotation typically only considers properties (non-private
+fields) but you can include them via
+`@ToString(includeFields=true)`. 
+Via `@ToString(excludes=list)` we can exclude a list of fields and properties.
+
+[source,java]
+----
+include::res/ast/TaskToString.groovy[]
+----
+
+[[asttransformations_canonical]]
+=== @Canonical 
+
+Combines @ToString, @EqualsAndHashCode and @TupleConstructor.
+
+[[asttransformations_immutable]]
+=== @Immutable for immutable Java beans
+
+This annotation marks all fields in a class as final and ensure that there are no setters generate for the
+fields. It also creates a constructor for all fields, marks the class as final.
+
+[[asttransformations_delegate]]
+=== @Delegate
+
+@Delegate can be used on a field. All methods on the delegate are also available on the class with defines the
+delegate. If several delegates define the same method, it is recommended to override the method. If you do not
+override Groovy will use the first method it finds.
+
+[[asttransformations_sort]]
+=== @Sortable for beans
+
+You can automatically created a
+`Comparator`
+for a Groovy bean by annotating it with
+`@Sortable`. 
+Fields are used in the order of declaration.
+
+You can also include/exclude fields.
+
+[source,java]
+----
+include::res/ast/TaskSortable.groovy[]
+----
+
+[[asttransformations_memoize]]
+=== @Memoize for methods
+
+If the
+`@Memoize`
+annotation is to a method the Groovy runtime caches the result for
+invocations with the same parameters. If the
+annotated method is
+called the first time with a certain set of parameter, it is executed
+and the result is cached. If
+the method is called again with the same
+parameters, the result is returned from the cache.
+
+[source,java]
+----
+include::res/ast/MemoizedExample.groovy[]
+----
+
+[source,java]
+----
+include::res/ast/CallMemoizedExample.groovy[]
+----
+
+[[asttransformations_annotationCollector]]
+=== @AnnotationCollector for combining AST Transformations annotations
+
+The
+`AnnotationCollector`
+allows to combine other AST Transformations annotations.
+
+[source,java]
+----
+include::res/ast/Pojo.groovy[]
+----
+
+You can use this annotation, it is also possible to override
+parameters in them.
+
+[source,java]
+----
+include::res/ast/Person.groovy[]
+----
+
+[source,java]
+----
+include::res/ast/TestPojoAnnotationCollector.groovy[]
+----
+
+[[asttransformations_bindable]]
+=== @Bindable observable Properties
+
+The Java beans specification requires that Java beans support
+`PropertyChangeSupport`
+for all fields.
+
+The
+`@groovy.beans.Bindable`
+annotation can be applied to a whole class or a method. If the
+property is applied to a
+class, all methods will be
+treated as having
+the
+`@Bindable`
+annotation. This will trigger Groovy to generated
+a
+`java.beans.PropertyChangeSupport`
+property in the class and generate methods so that listeners can
+register and deregister. Also all setter methods
+will
+notfiy the
+property change listener.
+
+The following listing shows the Java version of a Java Bean with
+one property.
+
+[[asttransformations_builder]]
+=== @Builder
+
+The
+`@Builder`
+can be applied to a class and generates transparently a builder for
+this class.
+
+[source,java]
+----
+include::res/ast/TaskWithBuilder.groovy[]
+----
+[source,java]
+----
+include::res/ast/TestBuilder.groovy[]
+----
+
+[[groovy_grapes]]
+=== @Grab for dependency management
+
+Groovy allows to add Maven dependencies to your Groovy script or
+Groovy class using the
+`@Grab`
+annotation. Before a Groovy program is executed it reads the
+`@Grab`
+annotation, resolves the Maven dependencies, downloads them and adds
+them to the classpath of the program.
+
+[source,text]
+----
+include::res/grap/grapexample.gradle[]
+----
+
+Using the @GrabResolver annotation you can specify the Maven
+repository you want to use. For example
+`@GrabResolver(name='myrepo',
+root='http://myrepo.my-company.com/')`.
+
+[[asttransformations_others]]
+=== Other AST Transformations
+
+The following table lists other commonly used annotations in
+Groovy
+code:
+
+.AST transformation annotations
+|===
+|Annotation |Description
+
+|@Singleton
+|Makes annotated class a Singleton, access via ClassName.instance.
+
+|@PackageScope
+|Defines fields, methods or class as package scope, which is the default access modifier in Java.
+
+|===
+
+[[asttransformations2]]
+=== Writing custom transformations
+
+You can also define you custom local or global transformations.
+For a local transformation you would write your
+own annotation and
+write a processors for that and use the annotation on an element in
+your Groovy class. The Groovy
+compiler calls your processors to
+transform the input into something else.
+
+Global transformations are applied to every single source unit
+in the
+compilation without the need for additional
+customization.
+
