@@ -1,0 +1,24 @@
+[[write]]
+== Write RSS Feeds with Stax
+
+[[write_stax]]
+=== Create writer
+Create the following class to write the XML file.
+
+[source,text]
+----
+include::res/write/RSSFeedWriter.java[]
+----
+
+[[write_test]]
+=== Test the code
+
+The following uses a main method to test.
+
+Run the program to write the `articles.rss` file.
+
+[source,text]
+----
+include::res/write/WriteTest.java[]
+----
+
