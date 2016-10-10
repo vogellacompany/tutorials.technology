@@ -1,4 +1,4 @@
-[[usermanagement">
+[[usermanagement]]
 == User management
 
 [usermanagement_create]
@@ -15,46 +15,37 @@ include::res/user/createuser[]
 
 You can create new user groups and add the user to the new group with the following command.
 
-
-
 [source,console]
 ----
 include::res/user/group.txt[]
 ----
 
-
-
 === Giving root access
-Careful: The following command allows the user to execute sudo commands (root).
 
+Careful: The following command allows the user to execute sudo commands (root).
 
 [source,console]
 ----
 include::res/user/sudouser[]
 ----
 
-
 To change the default shell of the user to _bash_ set the last entry of the corresponding user in the `/usr/passwd` file to  _/bin/bash_. 
 This is demonstrated in the following example.
-
 
 [source,console]
 ----
 include::res/user/shell[]
 ----
 
-
 [usermanagement_home]
 === Manually creating the home directory
 
 In case you need to create the home directory at a later stage you can use the following command which creates the home directory and change this ownership of the directory.
 
-
 [source,console]
 ----
 include::res/user/home[]
 ----
-
 
 [usermanagement_delete]
 === Deleting users

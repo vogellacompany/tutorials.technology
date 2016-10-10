@@ -23,7 +23,6 @@ include::res/shell/chmod.txt[]
 Now you can call the shell script via `./yourScript`.
 It should print "Hello, world" to the console.
 
-
 === Batch renaming files
 
 The following is an example how to recursively rename all files called "article.xml" to "001_article.xml" from the current home directory.
@@ -39,6 +38,4 @@ For to rename all extensions from ".xml" to ".adoc" you can use:
 ----
 find . -name "*.xml" -exec rename 's/xml/adoc/;' '{}' \;
 ----
-
-
 

@@ -6,5 +6,4 @@ To install an easy to use and configure ftp server use the following command.
 ----
 include::res/ftpserver/install.txt[]
 ----
-	
 

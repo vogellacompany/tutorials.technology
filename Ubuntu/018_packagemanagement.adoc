@@ -1,69 +1,44 @@
 == Package management
 On the command line Ubuntu allows to install / remove and search for packages via the following commands.
 
-.Table Package management
+.Package management
 |===
 |Command |Description
-
 
 |sudo apt-get install paketname
 |Installs a package
 
-
 |apt-cache search openjdk
-|Search for all packages which contain openjdk. The found
-package can get installed via the "apt-get install" command.
-	
-
-
+|Search for all packages which contain openjdk. 
+The found package can get installed via the "apt-get install" command.
 
 |apt-cache show eclipse
-|Write down the meta-data of a package, e.g., the package
-description and the package maintainer
-	
-
+|Write down the meta-data of a package, e.g., the package description and the package maintainer
 
 |sudo apt-get remove package
 |Removes a package but leave the configuration data active
-	
-
 
 |sudo apt-get purge package 
-|Removes a package and orphaned dependencies and its
-configuration files
-	
-
-
+|Removes a package and orphaned dependencies and its configuration files
 
 |sudo apt-get update
 |Update the local package list
 
-
 |sudo apt-get upgrade
-| Updates any installed packages for which an update is
-available. Will not install new packages or remove packages to
-satisfy dependencies.
-	
-
+|Updates any installed packages for which an update is available. 
+Will not install new packages or remove packages to satisfy dependencies.
 
 |sudo apt-get dist-upgrade
-|Install available updates for the Ubuntu release you already
-have installed. Also installs new packages or removes existing
-packages to satisfy dependencies.
-	
+|Install available updates for the Ubuntu release you already have installed. 
+Also installs new packages or removes existing packages to satisfy dependencies.
 
-|
-dpkg -L
-packagename
-	
+|dpkg -L packagename
 |Lists all files and their location in a package
 
-
 |sudo updatedb; locate javac
-| Updates the installation database and locates the javac
-command.
-|===
+|Updates the installation database and locates the javac command.
 
+|===
 
 To search for the installed packages use the following command.
 

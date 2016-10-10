@@ -1,33 +1,22 @@
-[[environ">
+[[environ]]
 == Environment Variables
 
-.Table Title
+.Environment Variables
 |===
-	
 |Command |Description
 	
-|
-echo $VARIABLE
-|
-Prints the content of the environment
-variable
-		
-|
-sudo /etc/init.d/tomcat5 start/stop
-		
-|
-Starts / stops the tomcat server
-	
-|
-sudo -i
-|
-Switches to root
-	
+|echo $VARIABLE
+|Prints the content of the environment variable
+
+|sudo /etc/init.d/tomcat5 start/stop
+|Starts / stops the tomcat server
+
+|sudo -i
+|Switches to root
 		
 |===
 
 === Add a directory to the path
-
 		
 The
 `PATH`
@@ -40,12 +29,10 @@ to the
 `PATH`
 use the following command.
 		
-		
 [source,console]
 ----
 include::res/shell/path.sh[]
 ----
-		
 		
 If you want to add a directory permanently to the path, you can
 edit /
@@ -54,20 +41,12 @@ create the file
 and add the following line to
 the
 file. Every new directory in the path
-must start with
-`:`.
-		
-
+must start with `:`.
 		
 [source,console]
 ----
 include::res/path/bash_profile[]
 ----
 		
-		
 Open a new shell to make the changes in the `.bashrc` file active.
-		
-
-
-
 

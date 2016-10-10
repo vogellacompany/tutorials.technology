@@ -5,12 +5,10 @@ of a document. For example, you can check an XML document written in
 English called
 "input.xml" with the command.
 	
-	
 [source,console]
 ----
 include::res/hunspell/check.txt[]
 ----
-	
 	
 The following trigger an interactive session for spell checking.
 With
@@ -19,9 +17,7 @@ located in your home directory under
 `.hunspell_en_US`
 in case you using the US en checker.
 	
-	
 You can also check all words in a batch mode with the `-l` parameter.
-	
 	
 [source,console]
 ----

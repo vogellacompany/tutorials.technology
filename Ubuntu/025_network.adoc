@@ -1,16 +1,15 @@
 == Networkng with Linux
+
 === See all open ports on your machine
 
 You see all listeners on your machine via the following command.
 Port which listen to 127.0.0.1 cannot get accessed from
 external.
 
-
 [source,console]
 ----
 include::res/network/openports.txt[]
 ----
-
 
 === SSH access to the server
 
@@ -20,14 +19,11 @@ command provides secure, encrypted access to a server. Use
 `ssh IP-address` or `ssh your_hostname`
 to access the server.
 
-
 You can also assign a shortname for an IP address via the
 `config`
 file in your
 `~/.ssh`
 director.
-
-
 
 For example, to
 create an alias called
@@ -41,81 +37,58 @@ directory, create the
 `config`
 file if it does not exists and enter the following.
 
-
 [source,console]
 ----
 include::res/hosts/config[]
 ----
 
-
-
 To upload your public ssh key which allows you to login
 automatically into a server use the following command.
-
 
 [source,console]
 ----
 include::res/hosts/uploadpublicssh[]
 ----
 
-
 === Firewall
+
 Ubuntu provides a uncomplicated firewall (ufw). 
 To install it and only allow SSH, FTP, and webtraffic use the following command.
-
 
 [source,console]
 ----
 include::res/ufw/setup.txt[]
 ----
 
-
-
-
 === Network commands
+
 The following commands give you an overview of your network connections.
 
-.Table 
+.Network connections 
 |===
 |Command |Description
 
-
-
-
-|lspci -nn | grep -i net
-
+|lspci -nn 
 |
 
-
+| grep -i net
+|
 
 |lsusb
-
-
 |
-
-
 
 |iwconfig
-
-
 |
 
-
-
 |ifconfig
-
-
-| Shows the network connections
-
-
+|Shows the network connections
 
 |lsmod
 |
 
-
 |python -m SimpleHTTPServer
-|Start web server serving current directory tree at
-http://localhost:8000/
+|Start web server serving current directory tree at http://localhost:8000/
+
 |===
 
 === HTTP debugging with curl
@@ -124,36 +97,31 @@ curl is a command line tool to issue and receive http (and
 other) request. For example, if you want to see the HTTP output of a
 webpage, use the following command.
 
-
 [source,console]
 ----
 include::res/network/curlgetpage.txt[]
 ----
 
- If you want to the HTTPrequest header (including the HTTP
+If you want to the HTTPrequest header (including the HTTP
 status
 codes, use the following command. This is for example nice to
 see if
 your server delivers a 404 return code for your self-defined
 error page.
 
-
 [source,console]
 ----
 include::res/network/curlinfo.txt[]
 ----
 
-
 You can set HTTP header information with the -h flag. For
 example, to request a certain MIME type use the -H'Accept:MIME'
 option.
-
 
 [source,console]
 ----
 include::res/network/curlheader.txt[]
 ----
-
 
 To use curl behind a proxy.
 
@@ -162,20 +130,16 @@ To use curl behind a proxy.
 include::res/network/curlproxy.txt[]
 ----
 
-
 [TIP]
 ====
 If you are using Microsoft Windows, see
 http://curl.haxx.se/download.html[curl for Windows].
 ====
 
-
 === IRC
 
 For IRC communication you can use the tool xchat. 
 To install it, use "sudo apt-get install xchat".
-
-
 
 === FTP
 
@@ -183,13 +147,8 @@ For FTP access you can install filezilla via
 `sudo apt-get install filezilla`
 or map the ftp access to a virtual device.
 
-
-
 To map the device select your desktop. Select the file menu and
 the entry "Connect to server".
 
-
 image::ftp_menu.png[]
-
-
 

@@ -9,9 +9,7 @@ It can be installed with this command:
 include::res/byzanz/install.txt[]
 ----
 
-
 See http://manpages.ubuntu.com/manpages/natty/man1/byzanz-record.1.html[byzanz command line options]for details about the usage.
-
 
 The following example creates an animated `output.gif` file of the screen in the area of (x=0, y=0, width=800, height=1024) with the duration of 20 seconds.
 
@@ -21,3 +19,4 @@ byzanz-record --duration=20 --x=0 --y=0 --width=800 --height=1024 output.gif
 ----
 
 Besides the gif format also flv, ogg, ogv and byzanz formats are supported.
+

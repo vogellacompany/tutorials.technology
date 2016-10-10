@@ -23,11 +23,8 @@ include::res/pdf/extract.txt[]
 		
 If you have LibreOffice installed, you can convert .odp files on the command line to pdf files.
 		
-
-		
 [source,console]
 ----
 include::res/pdf/soffice.txt[]
 ----
-
 

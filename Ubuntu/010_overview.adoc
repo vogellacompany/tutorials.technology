@@ -13,7 +13,6 @@ It introduced the launcher on the left side of Ubuntu and the _Dash_ to start pr
 Press the kbd:[Windows] key to start the _Dash_. 
 Here you can type in commands to open programs and files.
 		
-		
 image::dash10.png[Dash in Action]
 
 [unity_fileexplorer]
@@ -23,14 +22,9 @@ Ubuntu uses Nautilus as file explorer. Use the Dash or click on the icon in the 
 		
 image::nautilus10.png[Starting Nautilus]
 		
-		
 To be able to copy the current path, press kbd:[Ctrl + L].
-.
-		
 		
 image::nautilus20.png[Starting Nautilus]
-		
-
 
 [unity_newentries]
 === Adding entries to the launcher
@@ -42,15 +36,16 @@ For example, the following creates an entry to start Eclipse with different shor
 ----
 include::res/launcher/eclipse.desktop[]
 ----
-		
 
 [unity_shortcuts]
 === Useful shortcuts
 		
 The following lists a few useful shortcuts for the Unity window manager.
 
-.Table Ubuntu general shortcuts
+.Ubuntu general shortcuts
 |===
+|Shorcut |Description
+
 |Long press on Super (Windows key)
 |Opens up help for the most common keyboard shortcuts
 
@@ -73,12 +68,10 @@ The most common command line editor is _vim_.
 
 To install _vim_ on your Ubuntu machine use the following command.
 
-
 [source,console]
 ----
 include::res/vim/install.txt[]
 ----
-
 
 Start _vim_ from the command line. 
 vim has two modes, one editing mode and other mode in which you can move within the file. 
@@ -86,45 +79,33 @@ To start editing the file, use the "i" key.
 Once you want to save press the escape button and write ":wq".
 If you want to exit without saving, use ":q!".
 
-
 A simple editor with a graphical user interface is gedit. 
-
 
 [commands_find]
 
 === Find files
+
 The following demonstrates the usage of the find command.
 
-.Table Using the find command
+.Using the find command
 |===
 |Command |Description
 
-|
-find dir -name "pattern" 2>/dev/null
-| 
-Finds all files which recursively apply to the pattern "pattern" starting from the directory "dir". 
+|find dir -name "pattern" 2>/dev/null
+|Finds all files which recursively apply to the pattern "pattern" starting from the directory "dir". 
 The 2> sends all error messages to the null device.
 
+|find . -name '*.java' -newer build.xml -print
+|Search for all java files newer then the file build.xml
 
-|
-find . -name '*.java' -newer build.xml -print
-|
-Search for all java files newer then the file build.xml
+|find . -name '*.java' -mtime +7 -print
+|Search for all java files newer then 7 dates
 
-|
-find . -name '*.java' -mtime +7 -print
-|
-Search for all java files newer then 7 dates
-
-| 
-find . -name '*.java' -mtime +7 -print0 | xargs -0 grep 'swt'
-
-|
-Search for all java files newer then 7 dates using "swt".
+|find . -name '*.java' -mtime +7 -print0 | xargs -0 grep 'swt'
+|Search for all java files newer then 7 dates using "swt".
 The -0 options is used for files and folders with spaces.
 
 |===
-
 
 The `find` command can also be combined with the grep command. 
 See http://www.vogella.com/tutorials/UnixGrep/article.html[Using the grep command].
@@ -133,7 +114,6 @@ See http://www.vogella.com/tutorials/UnixGrep/article.html[Using the grep comman
 === Calculate the size of a folder
 
 The following calculates the size (disk usage))of a folder "folder1" in megabyte.
-
 
 [source,console]
 ----
@@ -148,13 +128,10 @@ Use the command `rm pattern` to delete files.
 Be careful with the usage of this command. 
 There is no way to undo deletions.
 
-
-
 [source,console]
 ----
 include::res/rm/rm.txt[]
 ----
-
 
 [commands_ps]
 === Processes
@@ -172,6 +149,7 @@ To see all running processes on your system use the `ps -aux` command.
 |chown -R www-data:www-data mydir
 | Change recursively the owner and the group of the
 directory "mydir" and its subdirectories.
+
 |===
 
 [commands_link]
@@ -180,13 +158,10 @@ directory "mydir" and its subdirectories.
 You can create a soft link to a file or directory using the
 following command.
 
-
-
 [source,console]
 ----
 include::res/link/soft.txt[]
 ----
-
 
 [commands_zip]
 === Zipping files
@@ -206,6 +181,5 @@ To remove tailing whitespace from existing files you can use the following comma
 ----
 include::res/ack/whitespace.txt[]
 ----
-
 
 	
