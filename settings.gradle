@@ -34,4 +34,5 @@ include 'PackageDrone'
 include 'GroovyTestSupport'
 include 'H2DatabaseEngine'
 include 'Inkscape'
+include 'MapReduce'
 

@@ -1,0 +1,10 @@
+[[resources]]
+== Links and Literature
+
+include::../10_Include/sourcejava.adoc[]
+	
+[[ant_links]]
+=== General
+
+Not listed yet.
+	
