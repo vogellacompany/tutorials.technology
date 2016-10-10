@@ -1,0 +1,46 @@
+[[debugging]]
+== Debugging
+
+Just right-click in the source code and add a breakpoint.
+
+image::debug10.gif[]
+
+Then select Debug as -> Python Run
+
+image::debug20.gif[]
+
+You can now inspect and modify the variables in the variables view.
+
+image::debug30.gif[]
+
+Via the debug buttons (or shortcuts kbd:[F5], kbd:[F6], kbd:[F7], kbd:[F8]) you can move in
+your program.
+
+You can use kbd:[F5] / kbd:[F6], kbd:[F7] and kbd:[F8] to step through your coding.
+
+.Debugging Key bindings
+|===
+|Command |Description
+
+|kbd:[F5] 
+|Goes to the next step in your program. 
+If the next step is a method / function this command will jump into the associated code. 
+
+|kbd:[F6] 
+|F6 will step over the call, e.g. it will call a method / function without entering the associated code.  
+
+|kbd:[F7]
+|F7 will go to the caller of the method/ function. 
+So this will leave the current code and go to the calling code.  
+
+|kbd:[F8]
+|Use F8 to go to the next breakpoint. If no further
+breakpoint is encountered then the program will normally run.
+
+|===
+
+You can of course use the ui to debug. The following displays
+the key bindings for the debug buttons. 
+
+image::debug40.gif[]
+

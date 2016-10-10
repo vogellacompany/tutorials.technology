@@ -1,0 +1,9 @@
+[[resources]]
+== Links and Literature
+
+http://www.python.org/[Python Homepage]
+
+http://www.pydev.org/[PyDev Homepage]
+
+http://docs.python.org/tutorial/[Python Tutorial]
+

@@ -1,0 +1,220 @@
+[[development]]
+== Programming in Python
+
+[[development_comments]]
+=== Comments
+
+The following create a single line comment.
+
+[source,text]
+----
+include::res/comments/comments.txt[]
+----
+
+[[development_variables]]
+=== Variables
+
+Python provides dynamic typing of its variables, e.g. you do not
+have to define a type of the variable Python will take care of this
+for you.
+
+[source,text]
+----
+include::res/variables/variables.txt[]
+----
+
+[[development_assertions]]
+=== Assertions
+
+Python provides assertions. These assertions are always called.
+
+[source,text]
+----
+include::res/assertions/assertions.txt[]
+----
+
+[[development_methods]]
+=== Methods / Functions in Python
+
+Python allows to define methods via the keyword def. As the
+language is interpreted the methods need to be defined before using
+it.
+
+[source,text]
+----
+include::res/methods/methodtester.py[]
+----
+
+[[development_conditionals]]
+=== Loops and if clauses
+
+The following demonstrates a loop the usage of an if-clause.
+
+[source,text]
+----
+include::res/conditional/IfTest.py[]
+----
+
+[[development_strings]]
+=== String manipulation
+
+Python allows the following String operations.
+
+.String Operations
+|===
+|Operations |Description
+
+|len(s)
+|Returns the length of string s
+
+|s[i]
+|Gets the element on position i in String s, position start with zero
+
+|s[-i]
+|Get the i-tes Sign of the string from behind the string, e.g. -1 returns the last element in the string
+
+|"abcdefg"[0:4]
+|Gets the first 4 elements (abcd)
+
+|"abcdefg"[4:]
+|Gets the elements after the first 4 elements (abcd)
+
+|`a`+`b` + `c`
+|Concatenates the int varibles a, b,c, e.g. if a=1, b=2, c=3 then the result is 123.
+
+|s.lower()
+|Result will be s in lower cases
+
+|s.upper()
+|Result will be s in upper cases
+
+|s.startswith(t)
+|True, if s startsWith t
+
+|s.rstrip()
+|Removes the end of line sign from the string
+
+|===
+
+For example:
+
+[source,text]
+----
+include::res/string/stringTester.py[]
+----
+
+[[development_concatenate]]
+=== Concatenate strings and numbers
+
+Python does not allow to concatenate a string directly with a
+number. It requires you to turn the number first into a string with
+the str() function. 
+
+If you do not use str() you will get "TypeError: cannot
+concatenate 'str' and 'int' objects".
+
+For example:
+
+[source,text]
+----
+include::res/string/stringNumberConcatenate.py[]
+----
+
+[[development_lists]]
+=== Lists
+
+Python has good support for lists. See the following example
+how to create a list, how to access individual elements or
+sublists
+and how to add elements to a list.
+
+[source,text]
+----
+include::res/list/List.py[]
+----
+
+If you want to remove the duplicates from a list you can use:
+
+[source,text]
+----
+include::res/list/ListDuplicates.py[]
+----
+
+[[textfiles]]
+=== Processing files in Python
+
+The following example is contained in the project
+"de.vogella.python.files".
+The following reads a file, strips out the end of line sign and
+prints
+each line to the console.
+
+[source,text]
+----
+include::res/file/Readfile.py[]
+----
+
+The following reads the same file but write the output to
+another file.
+
+[source,text]
+----
+include::res/file/ReadWriteFile.py[]
+----
+
+[[splitstring]]
+=== Splitting strings and comparing lists.
+
+The following example is contained in the project
+"de.vogella.python.files". It reads to files which contain one long
+comma separated string. This string is splitted into lists and the
+lists are compared. 
+
+[source,text]
+----
+include::res/split/CompareFiles.py[]
+----
+
+[[unicode]]
+=== Writing Python Scripts in Unicode
+
+If you read special non ASCII sign, e.g. ö, ä. ü or ß, you have
+to tell Python which character set to use. Include the following in
+the first or second line of your script.  
+
+[source,text]
+----
+include::res/utf/example.txt[]
+----
+
+[[classes]]
+=== Classes in Python
+
+The following is a defined class in Python. Python uses the
+naming convension \__name__ for internal functions.
+Python allows operator overloading, e.g. you can define what
+the
+operator + will do for a specific class.
+
+.Table Title
+|===
+|\__init__ |Constructor of the class
+
+|\__str__
+|The method which is called if print is applied to this object
+
+|\__add__
+|+ Operator
+
+|\__mul__
+|* Operator
+
+|===
+
+The empty object (null) is called \_None_ in Python.
+
+[source,text]
+----
+include::res/classes/Point.py[]
+----
+

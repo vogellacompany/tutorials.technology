@@ -1,0 +1,59 @@
+[[installation]]
+== Installation
+[[installation_python]]
+=== Python
+
+Download Python from
+http://www.python.org. 
+Download the version 3.3.1 or higher of Python. If you are using
+Windows
+you can
+use the native installer for Python.
+
+[[installation_eclipse]]
+=== Eclipse Python plugin
+
+The following assume that you have already
+http://www.vogella.com/tutorials/Eclipse/article.html[Eclipse]
+installed. For an
+installation description of Eclipse please see
+http://www.vogella.com/tutorials/Eclipse/article.html[Eclipse IDE for Java].
+
+For Python development under Eclipse you can use the PyDev
+Plugin
+which is an open source project. Install PyDev via the
+Eclipse
+update manager
+via the
+following update site: http://pydev.org/updates.
+
+[[configuration]]
+=== Configuration of Eclipse
+
+You also have to maintain in Eclipse the location of your
+Python
+installation. Open in the
+menu:Window[Preference > Pydev > Interpreter Python] menu.
+
+image::pydev02.gif[]
+
+Press the
+btn:[New]
+button
+and enter the path to
+`python.exe`
+in your
+Python installation directory. For Linux and Mac OS X users
+this is
+normally /usr/bin/python.
+
+image::pydev04.gif[]
+
+WARNING: Note that on MAC OS X the python libraries are not installed by
+default. Please use Google to find out, how to install them on a Mac
+OS X system, the author of this text only uses Linux.
+
+The result should look like the following.
+
+image::pydev06.gif[]
+

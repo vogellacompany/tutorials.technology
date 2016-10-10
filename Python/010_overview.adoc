@@ -1,0 +1,71 @@
+[[python]]
+== Overview
+
+[[python_overview]]
+=== What is Python
+
+_Python_
+is an interpreted programming language and claims to be a
+very
+effective programming language.
+_Python_
+was develop by Guido van
+Rossum.
+
+The name Python is
+based on the TV show called
+_Monty Python's Flying Circus_
+. During execution the Python source code is translated
+into
+bytecode
+which is then interpreted by the
+_Python_
+interpreter.
+_Python_
+source code
+can also run on the Java Virtual Machine, in
+this
+case you
+are using
+Jython.
+
+Key features of
+_Python_
+are:
+
+* high-level data types, as for example extensible lists
+* statement grouping is done by indentation instead of brackets
+* variable or argument declaration is not necessary 
+* supports for object-orientated, procedural and functional programming style
+
+[[python_blocks]]
+=== Block concept in _Python_ via indentation
+
+_Python_
+identify
+blocks of code by
+indentation. If you
+have
+an if statement and
+the next line is indented
+then it means that
+this indented
+block belongs
+to the if. The Python
+interpreter supports
+either spaces or tabs, e.g.
+you can not mix
+both. The most "pythonic"
+way is to use 4 spaces
+per
+indentation
+level.
+
+[[python_tutorial]]
+=== About this tutorial
+
+This tutorial will first explain how to install Python and the
+Python plugins for Eclipse. It will then create a small Python
+project to show the usage of the plugin. Afterwards the general
+constructs of Python are explained.
+
