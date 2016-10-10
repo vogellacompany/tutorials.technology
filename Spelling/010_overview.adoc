@@ -1,52 +1,30 @@
-[[words">
+[[words]]
 == Words
 
-.Table Title
+.Misspelled words
 |===
-
-== Misspelled words
-	<tgroup cols='2' align='left' colsep='1' rowsep='1'>
-		<colspec colname='c1' />
-		<colspec colname='c2' />
-		
-			
-|primarily
-|Wrong: primary
-			
-		
-		
+|primarily |Wrong: primary
 			
 |consist of
 |Wrong consist out of
 			
-			
 |Double words
 |Build regular expression to find double words
-			
 			
 |Done vs made
 |Changes are made in 
 			
-			
 |hierarchy
 |Wrong: hierachy 
-			
 				
 |By default
 |Wrong: By default 
 			
-			
-				
 |turn off
 |Wrong: turn of 
-			
-			
                 
 |on vacation
 |Wrong: in vacation
-            
-		
 	
 |===
-
 

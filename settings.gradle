@@ -43,3 +43,5 @@ include 'MySQL'
 include 'PublishEBooks'
 include 'Python'
 include 'RSSFeed'
+include 'Spelling'
+
