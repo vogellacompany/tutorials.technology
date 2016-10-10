@@ -1,15 +1,17 @@
 = Mathematik - Tutorial
 :linkcss:
-:stem:
+:sectnums:                                                          
+:experimental:
+:icons:
+:imagesdir: ./img
 (c) 2015 vogella GmbH
 Version 0.1, 28.04.2016
+:docinfodir: ../
 
 [abstract]
-== Mathematik
-
+Mathematik.
 This tutorial contains notes about Mathematik.
 				
 include::010_overview.adoc[]
 include::008_resourceslocal.adoc[]
-
 
