@@ -1,0 +1,18 @@
+[[user]]
+== Table
+
+The following demonstrates how to create and drop (deletes)
+tables.
+
+.Tables
+|===
+|Command |Description
+
+|CREATE TABLE TEST (id INT NOT NULL AUTO_INCREMENT, MYTEST VARCHAR(30) NOT NULL, PRIMARY KEY (ID) );
+|Creates a table TEST with two columns (id, mytest), both are not allowed to be NULL, id is the primary key.
+
+|CREATE TABLE COMMENTS ( id INT NOT NULL AUTO_INCREMENT, MYUSER VARCHAR(30) NOT NULL, EMAIL VARCHAR(30), WEBPAGE VARCHAR(100) NOT NULL, DATUM DATE NOT NULL, SUMMARY VARCHAR(40) NOT NULL, COMMENTS VARCHAR(400) NOT NULL, PRIMARY KEY (ID) );
+|Creates a table with the listed columns.
+
+|===
+

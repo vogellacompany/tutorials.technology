@@ -1,0 +1,26 @@
+= SQL Statements - Overview - Tutorial
+:linkcss:
+:sectnums:                                                          
+:experimental:
+:icons:
+:imagesdir: ./img
+Lars Vogel, (c) 2008, 2016 vogella GmbH
+Version 0.7, 29.09.2016
+:docinfodir: ../
+:vgwort: SQL
+
+[abstract]
+SQL Statements.
+This tutorial lists important SQL statements which you need to use to create, update and read from database tables.
+	
+include::../web/advertisement/afterTableOfContent.adoc[]
+include::001_overview.adoc[]
+include::050_tables.adoc[]
+include::../web/advertisement/inBetween01.adoc[]
+include::060_data.adoc[]
+include::../web/advertisement/inBetween02.adoc[]
+include::080_dbsetup.adoc[]
+include::../support.adoc[]
+include::008_resourceslocal.adoc[]
+include::../copyright.adoc[]	
+
