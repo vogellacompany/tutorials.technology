@@ -38,4 +38,5 @@ include 'MapReduce'
 include 'Mercurial'
 include 'Microsoft'
 include 'MicrosoftOutlookMacros'
+include 'MQTT'
 
