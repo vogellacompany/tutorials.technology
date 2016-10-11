@@ -1,0 +1,18 @@
+[[transform]]
+== Your first transformation
+
+We want to do a real transformation. 
+Create the following `transform2.xsl` and run it with the same input file.
+
+[source,xml]
+----
+include::res/second/transform2.xsl[]
+----
+
+The result should look like the following.
+
+[source,xml]
+----
+include::res/second/source.out.xml[]
+----
+

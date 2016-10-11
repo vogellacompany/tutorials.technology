@@ -1,0 +1,36 @@
+[[copy]]
+== Your first transformation - copy
+
+We start first with the simplest transformation possible; no transformation at all. 
+Create a new directory called `com.vogella.xslt.first`. 
+Create a folder `files`.
+
+Create the following XML file `source.xml` in the `files` folder.
+
+[source,xml]
+----
+include::res/first/source.xml[]
+----
+
+Create the following
+`transform.xsl`
+file
+in the
+`files`
+folder.
+
+[source,xml]
+----
+include::res/first/transform.xsl[]
+----
+
+To run the transformation, use the following command on the command line.
+
+[source,bourne]
+----
+include::res/xsltproc/transform.txt[]
+----
+
+Review the generated `result.xml` file. 
+It should be a copy of the input file.
+

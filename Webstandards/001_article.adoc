@@ -1,0 +1,21 @@
+= Webstandards - Overview - Tutorial
+:linkcss:
+:sectnums:                                                          
+:experimental:
+:icons:
+:imagesdir: ./img
+Lars Vogel, (c) 2010, 2016 vogella GmbH
+Version 0.3, 06.10.2016
+:docinfodir: ../
+:vgwort: Webstandards
+
+[abstract]
+Webstandards.
+Short overview of web standards, e.g. web server, HTML, HTTP and URL's.
+  
+include::../web/advertisement/afterTableOfContent.adoc[]
+include::010_architecture.adoc[]
+include::../support.adoc[]
+include::008_resourceslocal.adoc[]
+include::../copyright.adoc[]
+

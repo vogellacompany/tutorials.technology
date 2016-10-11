@@ -48,4 +48,6 @@ include 'Spelling'
 include 'SQL'
 include 'UML'
 include 'UnixGrep'
+include 'Webstandards'
+include 'XSLT'
 
