@@ -1,14 +1,21 @@
 = Virtualization under Ubuntu - Tutorial
 :linkcss:
-(c) 2015 vogella GmbH
+:sectnums:                                                          
+:experimental:
+:icons:
+:imagesdir: ./img
+Lars Vogel, (c) 2008, 2016 vogella GmbH
 Version 0.1, 12.05.2016
+:docinfodir: ../
+:vgwort: Virtualization
 
 [abstract]
-== Virtualization using gnome-boxes
-
+Virtualization using gnome-boxes.
 This tutorial contains notes about the usage of gnome-boxes.
-				
-include::010_overview.adoc[]
-include::008_resourceslocal.adoc[]
 
+include::../web/advertisement/afterTableOfContent.adoc[]				
+include::010_overview.adoc[]
+include::../support.adoc[]
+include::008_resourceslocal.adoc[]
+include::../copyright.adoc[]
 
