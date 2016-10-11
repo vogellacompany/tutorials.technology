@@ -1,0 +1,185 @@
+[[classModel]]
+== Appendix: Class diagrams
+
+[[class_diagramss1s2a]]
+=== Overview
+
+A class diagram captures the static relationships of your software.
+
+[[class_diagramss1s2b]]
+=== Classes
+
+A class is represented by a rectangular box divided into
+compartments.
+A Compartment is an area in the box to write
+information. The first
+compartment holds the
+`name`
+, the second holds the
+`attributes`
+and the third is used for the
+`operations`.
+
+image::UML10.gif[]
+
+Any compartment can be hidden to improve readability of the diagram.
+
+UML suggests that a class name:
+
+* Starts with a capital letter
+* is centered in the top compartment
+* is written in a boldface font
+* is written in italics if the class is abstract
+
+[[class_diagramss1s2c]]
+=== Attributes
+
+Attributes specifies details of a class and can be simple types or objects.
+
+Attributes can be defined inlined (as part second
+compartment of
+the diagram of the class) or as relationship.
+
+[[class_diagramss1s2bs3a]]
+=== Inlined Attributes
+
+Inlined attributes are placed in the second compartment of the class. 
+The notation for inline attribute is:
+`visibility name: type {multiplicity} {=default}`
+
+.Table
+|===
+|Element |Values |Description
+
+|visibility
+|+ 
+
+- 
+
+# 
+
+~
+
+|public Attribute
+
+private Attribute
+
+protected Attribute
+
+package Attribute
+
+|name
+|myName
+|Name of the attribute following the camelCase notation
+
+|type
+|
+|Class name, interface or primitive types, e.g. int
+
+|multiplicity
+|
+|Optional, if not specified then it is assumed to be 1, * for any value, 1,..,* for ranges.
+
+|default
+|
+|Optional, default value of the attribute
+
+|===
+
+image::UML20.gif[]
+
+[[class_diagramss1s2bs3b]]
+=== Attributes by Relationship
+
+To model attributes by relationship you use an
+association
+relationship between the class which
+represents the attribute and the
+class containing the
+attribute.
+
+image::UML30.gif[]
+
+[[class_diagramss1s2bs3c]]
+=== Static Attributes
+
+Static attributes (attributes that are part of the class
+and not
+part of the instance of the class) are displayed
+via underlining the
+name of the relationship.
+
+[[class_diagramss1s2d]]
+=== Interfaces
+
+Interfaces are indicated via the stereotype <<interface>>.
+
+image::UMLInterface20.gif[]
+
+Relationships can be expressed via the ball-and-socket notation.
+
+image::UMLInterface30.gif[]
+
+=== Relationships
+
+UML defines several ways of representing relationships between classes.
+
+=== Association
+
+Read as "..has a.." association between classes. Drawn
+as a
+straight line between the two classes. Does not
+mean that the classes
+are owned by one, other classes
+may use the connected class too.
+
+image::UML30.gif[]
+
+[[class_diagramss1s2es3b]]
+=== Aggregation
+
+Read as "..owns a ..". Not as strong as a composite.
+
+image::UML50.gif[]
+
+[[class_diagramss1s2es3c]]
+=== Composition
+
+Strong relationship between classes to the point of
+containment. Read as "..is part of..". If the owning
+instance is
+destroyed then normally (not necessarily)
+the linked object is
+destroyed too.
+
+image::UML60.gif[]
+
+=== Generalisation
+
+Read as ".. is a..". Use to express inheritance.
+Represented by
+a solid line and a hollow triangular
+arrow. For example the following
+code could be expressed
+with the following diagram.
+
+[source,java]
+----
+include::res/Animal.java[]
+----
+
+[source,java]
+----
+include::res/Frog.java[]
+----
+
+image::UML70.gif[]
+
+[[class_export]]
+=== Export your class diagram as image
+
+To export your diagram as image / graphic, right-click on your
+diagram and select menu:File[Save as Image File].
+
+image::ExportImage10.gif[]
+

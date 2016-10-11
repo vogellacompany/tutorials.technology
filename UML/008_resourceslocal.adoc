@@ -1,0 +1,9 @@
+[[resources]]
+== Links and Literature
+	
+http://www.omg.org/uml[Home of the standard body for UML]
+	
+http://wiki.eclipse.org/MDT-UML2Tools[Wiki about the UML2 Tool project]
+	
+http://www.eclipse.org/modeling/[Eclipse Modeling Project]
+
