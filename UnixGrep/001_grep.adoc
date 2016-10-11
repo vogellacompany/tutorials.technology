@@ -1,0 +1,22 @@
+[[grep]]
+== Grep
+
+Grep is a command line tool to search for http://www.vogella.com/tutorials/JavaRegularExpressions/article.html[regular expressions].
+Grep will print the matching line to the output and with the `--color` flag you can highlight the matching strings.
+
+The usage of the Grep command is demonstrated by the following
+example.
+
+
+[source,bourne]
+----
+include::res/simple/search.txt[]
+----
+
+Use the `-r` "recursive" option to search a directory and all files included within it.
+
+[source,text]
+----
+include::res/grep/grepall.txt[]
+----
+

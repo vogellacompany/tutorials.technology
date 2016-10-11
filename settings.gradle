@@ -47,3 +47,5 @@ include 'RSSFeed'
 include 'Spelling'
 include 'SQL'
 include 'UML'
+include 'UnixGrep'
+

@@ -1,0 +1,11 @@
+[[grepchain]]
+== Chaining the grep
+
+Grep is frequently used together with the find command. 
+For example the following will case-insensitive search for the pattern `".*Legacy.*.xml"` through the content of all files which ends with'`".java"` and lists them.
+
+[source,text]
+----
+include::res/grep/grepfind.txt[]
+----
+
