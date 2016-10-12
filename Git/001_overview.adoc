@@ -1,4 +1,3 @@
-# tag::jennifer[]
 [[git]]
 == Introduction to version control systems
 

@@ -133,7 +133,7 @@ The developer can use Git commands to combine the changes at a later point in ti
 (((Terminology in Git)))
 The following table provides a summary of important _Git_ terminology discussed in this section.
 
-.Table
+.Git terminology
 [width="100%",cols="27%,73%",options="header",]
 |===
 |Term |Definition
