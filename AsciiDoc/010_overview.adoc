@@ -307,7 +307,7 @@ http://www.vogella.com[vogella]
 http://www.vogella.com
 
 
-=== Defining references
+=== Defining cross references
 
 You can assign meta data to a block. Here’s an example of a quote block that includes all types of metadata:
 ....
@@ -328,7 +328,7 @@ ____
 <2> reference for the block 
 <3> can be used to style the corresponding block.
 
-You can link to the references via `<<yourId>>`, for example
+You can link to the references via, for example
 ....
 You find more information on this in <<yourId>>.
 ....
