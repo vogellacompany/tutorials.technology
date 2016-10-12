@@ -195,6 +195,26 @@ Result:
 . Application with its configuration
 ====
 
+Additional paragraphs, blocks, images, source code, etc. are adjoined to a list element by putting
+a plus sign (+) on a line adjacent to both blocks.
+
+[source]
+....
+* Listing1
+* Listing2
++
+image::vote-asciidoc-issue.png[]
+....
+
+Result:
+====
+* Listing1
+* Listing2
++
+image::vote-asciidoc-issue.png[]
+====
+
+
 === Menus and Buttons
 
 You can define menus and buttons with the following syntax. This requires the activation of an experimental feature, via the *:experimental:* attribute in the header section of your document.

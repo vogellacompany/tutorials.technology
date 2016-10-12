@@ -36,7 +36,7 @@ This information can, for example, be used for syntax highlighting.
 |<guibutton> </guibutton>
 |Button on a GUI
 
-|<filename class="directory">/usr/bin</filename>, <filename>db2html</filename>
+|`/usr/bin`, `db2html`
 |Directory or filename
 
 |<emphasis> </emphasis>
