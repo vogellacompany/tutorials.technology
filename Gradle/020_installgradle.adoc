@@ -10,7 +10,6 @@ The usage of Gradle requires an JDK (Java Development Kit) installation.
 The latest version of Gradle can be found on the http://gradle.org/gradle-download[Gradle Download page].
 Download the latest _Complete distribution_.
 		
-		
 It is a gradle-${version}-all.zip, where ${version} is a placeholder for the current version, e.g., _gradle-2.13-all.zip_.
 		
 === Installing Gradle on Windows
