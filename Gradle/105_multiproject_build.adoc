@@ -1,11 +1,10 @@
-[gradle_multiproject_build
+[[gradle_multiproject_build]]
 == Building multiple projects with Gradle
 
 [[gradle_multiproject_build_structure]]
 === Creating a multi project build structure
 
 A business application usually does not consist of only one single project/module, but has many projects, which should be build.
-
 
 Gradle has the concept of a root project, which can have many sub projects. 
 The root project is specified by a _build.gradle_ file, like the single projects before. 
@@ -19,30 +18,24 @@ For instance there might be this project structure:
 ** util
 * settings.gradle
 
-
 Having this project structure the _settings.gradle_ file would look like this:
-
 
 [source,gradle]
 ----
 include::res/multiproject/simple_settings.gradle[]
 ----
 
-
 Besides the `tasks` task Gradle also provides a `projects`
 help task, which can be run in the
 _root_project_
 folder.
-
 
 [source,gradle]
 ----
 include::res/multiproject/projects_task.cmdline[]
 ----
 
-
 image::projects_task.png[]
-	
 	
 === Specifying a general build configuration
 
@@ -51,12 +44,10 @@ _build.gradle_
 file in the root_project general configurations can be applied to all
 projects or just to the sub projects.
 
-
 [source,gradle]
 ----
 include::res/multiproject/root_build.gradle[]
 ----
-
 
 This specifies a common
 `com.example.gradle`
@@ -64,14 +55,12 @@ group and the
 `0.1.0`
 version to all projects.
 
-
 The
 `subprojects`
 closure applies common configurations for all sub projects, but not
 to the root project, like the
 `allprojects`
 closure does.
-
 	
 === Project specific configurations and dependencies
 
@@ -86,25 +75,20 @@ _build.gradle_
 file, if they have specific needs, which are not already applied by
 the general configuration of the root project.
 
-
 For instance the ui project usually has a dependency to the core
 project. So the ui project needs its own
 _build.gradle_
 file to specify this dependency.
-
 
 [source,gradle]
 ----
 include::res//multiproject/ui_build.gradle[]
 ----
 
-
 Project dependencies are specified with the project method.
-
 
 [NOTE]
 ====
-	
 The
 `':'`
 before the core project reference is Gradle specific and acts
@@ -112,22 +96,15 @@ pretty much like
 a slash (
 `'/'`
 ), when referencing a folder structure.
-	
 ====
 
 Alternatively you can also define the dependencies of a project in the root build.gradle file. But it is
 considered good practice to define the dependencies in the project specific build.gradle files, hence the following
 approach is only included for demonstration purpose.
 
-
-
 [source,gradle]
 ----
 include::res/multiproject/ui_build_master.gradle[]
 ----
-
-
-
-	
 
 	
