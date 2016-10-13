@@ -10,8 +10,7 @@ In FreeMarker
 you define templates, which are text files that contain
 the desired output,
 except that they contain placeholders like
-`${name}`
-, and even some
+`${name}`, and even some
 logic like conditionals, loops, etc. In your Java program
 you
 supply the actual
@@ -50,8 +49,7 @@ so it can go into a HTTP response (for dynamic web
 pages), into a local
 file,
 into a
-`String`
-, etc.
+`String`, etc.
 	
 It is configurable from where FreeMarker reads the templates;
 commonly

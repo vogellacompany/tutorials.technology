@@ -133,8 +133,7 @@ include::res/tasks/compile_java_dep_build.gradle[]
 		
 An alternative to creating a new task, which depends on the
 `'compileJava'`
-task
-, a new execution block can also be directly applied to an
+task, a new execution block can also be directly applied to an
 existing
 task, e.g., the
 `'compileJava'`

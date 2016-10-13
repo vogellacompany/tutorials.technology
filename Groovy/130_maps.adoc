@@ -46,8 +46,7 @@ and no guaranteed ordering.
 === Each, any and the every method
 
 You can call closures on the elements, via the
-`each()`
-,
+`each()`,
 `any()`
 and
 `every()`

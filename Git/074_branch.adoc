@@ -48,7 +48,7 @@ moves to the last commit in this branch and the files in the working
 tree are set to the state of this commit.
 
 The following commands demonstrate how you switch to the branch called
-_testing_ , perform some changes in this branch and switch back to the
+_testing_, perform some changes in this branch and switch back to the
 branch called _master_.
 
 [source,console]

@@ -11,8 +11,7 @@ Continuing our last example, create a new folder called
 inside the
 `templates`
 directory, and there create a file called
-`utils.ftl`
-, with
+`utils.ftl`, with
 this content:
 
 [source,ftl]

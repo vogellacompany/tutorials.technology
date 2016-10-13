@@ -29,7 +29,7 @@ If you start Tomcat, your Jenkins installation will be available under http://lo
 [NOTE]
 ====
 If the jenkins.war is deployed in your _webapps_ directory, but cannot be started and the tomcat manager says
-_﻿FAIL - Application at context path /jenkins could not be started_ , you may need to grant the permissons for `﻿JENKINS_HOME`.
+_﻿FAIL - Application at context path /jenkins could not be started_, you may need to grant the permissons for `﻿JENKINS_HOME`.
 
 [source,console]
 ----

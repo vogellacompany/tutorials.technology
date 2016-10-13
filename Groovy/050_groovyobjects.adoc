@@ -66,8 +66,7 @@ in which you can
 specify the
 element you would like to set during
 construction. This constructor is also called
-_map based constructor_
-, as it uses the
+_map based constructor_, as it uses the
 `property:value`
 map syntax.
 

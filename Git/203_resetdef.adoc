@@ -15,7 +15,7 @@ image::gitreset10.png[Git reset]
 
 All commits which
 were originally pointed to by the HEAD pointer and the commit pointed to
-by HEAD after the reset, are _reseted_ , e.g., not directly visible
+by HEAD after the reset, are _reseted_, e.g., not directly visible
 anymore from the current HEAD and branch pointer.
 
 Via parameters you can decide what you happen to the changes in the
@@ -58,6 +58,6 @@ The `git reset` command does not remove untracked files. See <<gitclean>> comman
 [[resetcommit_path]]
 === Not moving the HEAD pointer with git reset
 
-If you specify a path via the `git reset [path]` command , Git does not move the HEAD pointer. 
+If you specify a path via the `git reset [path]` command, Git does not move the HEAD pointer. 
 It updates the staging area or also the working tree depending on your specified option.
 

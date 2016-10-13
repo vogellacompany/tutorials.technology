@@ -5,8 +5,7 @@
 === For and while loops
 
 Groovy supports the standard Java
-`for`
-, the
+`for`, the
 `for-each`
 and the
 `while`
@@ -53,10 +52,8 @@ the second it the index.
 In additional
 your
 have the methods
-`upto()`
-,
-`downto()`
-,
+`upto()`,
+`downto()`,
 `times()`
 on
 number variables.

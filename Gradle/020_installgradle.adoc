@@ -43,7 +43,7 @@ Add Gradle to the path by running `export PATH=/usr/local/gradle/gradle-2.13/bin
 		
 === Validate
 		
-Open a command line and type `gradle` , which will run Gradle's help task by default.
+Open a command line and type `gradle`, which will run Gradle's help task by default.
 	
 [[gradeinstallation_demon]]
 === Using the Gradle daemon for improved startup time

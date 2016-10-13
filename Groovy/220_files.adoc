@@ -18,8 +18,7 @@ include::res/file/MyFileExample.groovy[]
 The
 `File`
 object provides methods like
-`eachFile`
-,
+`eachFile`,
 `eachDir`
 and
 `earchFileRecursively`

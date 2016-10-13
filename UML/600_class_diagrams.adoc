@@ -14,8 +14,7 @@ compartments.
 A Compartment is an area in the box to write
 information. The first
 compartment holds the
-`name`
-, the second holds the
+`name`, the second holds the
 `attributes`
 and the third is used for the
 `operations`.

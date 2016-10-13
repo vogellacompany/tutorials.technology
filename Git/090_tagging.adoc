@@ -24,7 +24,7 @@ include::./res/tag/search.txt[]
 [[tagging_createlightweight]]
 === Creating lightweight tags
 (((Tags/Tagging, create lightweight tags)))
-To create a lightweight tag don't use the `-m` , `-a` or `-s` option.
+To create a lightweight tag don't use the `-m`, `-a` or `-s` option.
 
 The term _build_ describes the conversion of your source code into
 another state, e.g., converting Java sources to an executable `JAR`

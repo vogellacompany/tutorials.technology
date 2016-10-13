@@ -65,8 +65,7 @@ closure does.
 === Project specific configurations and dependencies
 
 The
-`core`
-,
+`core`,
 `ui`
 and
 `util`
