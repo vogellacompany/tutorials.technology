@@ -74,12 +74,9 @@ You can also reference artifacts from the file system.
 include::res/java/build_file_deps.gradle[]
 ----
 
-
 === Gradle cache and deleting the cache
 
 You can refresh dependencies in your cache with the command line option `--refresh-dependencies`. 
-You can also delete the cached files under _~/.gradle/caches_ . 
+You can also delete the cached files under _~/.gradle/caches_. 
 With the next build Gradle attempts to download the dependencies again.
-
-	
 

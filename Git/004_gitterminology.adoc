@@ -129,7 +129,7 @@ The developer can use Git commands to combine the changes at a later point in ti
 
 
 [[gitterminology]]
-=== Summary of the core Git terminologie 
+=== Summary of the core Git terminology
 (((Terminology in Git)))
 The following table provides a summary of important _Git_ terminology discussed in this section.
 
@@ -139,10 +139,9 @@ The following table provides a summary of important _Git_ terminology discussed 
 |Term |Definition
 
 |Branch
-|A _branch_ is a named pointer to a commit. Selecting a branch in Git
-terminology is called _to checkout a branch_ . If you are working in a
-certain branch, the creation of a new commit advances this pointer to
-the newly created commit.
+|A _branch_ is a named pointer to a commit. 
+Selecting a branch in Git terminology is called _to checkout a branch_. 
+If you are working in a certain branch, the creation of a new commit advances this pointer to the newly created commit.
 
 Each commit knows their parents (predecessors). Successors are retrieved
 by traversing the commit graph starting from branches or other refs,
@@ -168,18 +167,17 @@ author did the change and the committer applied the change to the Git
 repository. This is common for contributions to open source projects.
 
 |HEAD
-|_HEAD_ is a symbolic reference most often pointing to the currently
-checked out branch.
+|_HEAD_ is a symbolic reference most often pointing to the currently checked out branch.
 
-Sometimes the _HEAD_ points directly to a commit object, this is called
-_detached HEAD mode_ . In that state creation of a commit will not move
-any branch.
+Sometimes the _HEAD_ points directly to a commit object, this is called _detached HEAD mode_. 
+In that state creation of a commit will not move any branch.
 
 If you switch branches, the _HEAD_ pointer points to the branch pointer
 which in turn points to a commit. If you checkout a specific commit, the
 _HEAD_ points to this commit directly.
 
-|Index |_Index_ is an alternative term for the _staging area_ .
+|Index 
+|_Index_ is an alternative term for the _staging area_.
 
 |Repository
 |A _repository_ contains the history, the different versions over time

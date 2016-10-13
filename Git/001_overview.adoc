@@ -41,7 +41,7 @@ Both system makes it also harder to work in parallel on different features.
 (((Version control system, distributed version control system)))
 In a distributed version control system each user has a complete local copy of a repository on his individual computer. 
 The user can copy an existing repository. 
-This copying process is typically called _cloning_ and the resulting repository can be referred to as a _clone_ .
+This copying process is typically called _cloning_ and the resulting repository can be referred to as a _clone_.
 
 Every clone contains the full history of the collection of files and a cloned repository has the same functionality as the original repository.
 

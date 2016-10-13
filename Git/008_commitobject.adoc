@@ -27,10 +27,8 @@ _tree_ object. The files are stored in the Git repository as _blob_
 objects and might be packed by Git for better performance and more
 compact storage. Blobs are addressed via their SHA-1 hash.
 
-Packing involves storing changes as deltas, compression and storage of
-many objects in a single _pack file_ . _Pack files_ are accompanied by
-one or multiple index files which speedup access to individual objects
-stored in these packs.
+Packing involves storing changes as deltas, compression and storage of many objects in a single _pack file_. 
+_Pack files_ are accompanied by one or multiple index files which speedup access to individual objects stored in these packs.
 
 A commit object is depicted in the following picture.
 

@@ -31,13 +31,8 @@ _Gerrit Configuration_.
 
 image::gerrit_pushconfiguration10.png[Gerrit configuration in the Git repository view]
 
-You can see the Gerrit review notes in Eclipse. Select
-menu:Open in Commit Viewer[]
-
-on a commit in the History View. In the Commit Viewer you have
-an
-additional tab called
-_Notes_
-. Here you see the data which was created by
-the Gerrit reviewer.
+You can see the Gerrit review notes in Eclipse. 
+Select menu:Open in Commit Viewer[] on a commit in the History View. 
+In the Commit Viewer you have an additional tab called _Notes_. 
+Here you see the data which was created by the Gerrit reviewer.
 
