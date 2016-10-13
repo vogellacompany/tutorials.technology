@@ -49,7 +49,6 @@ In this file you can configure Git to auto detect the line endings.
 ====
 Not all graphical Git tools support the `.gitattributes` file, for
 example the Eclipse IDE does currently not support it. See
-https://bugs.eclipse.org/bugs/show_bug.cgi?id=342372[Eclipse Bug report]
-.
+https://bugs.eclipse.org/bugs/show_bug.cgi?id=342372[Eclipse Bug report].
 ====
 

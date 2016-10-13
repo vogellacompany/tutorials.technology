@@ -25,8 +25,8 @@ To use Groovy on the server you need to deploy Groovy on the
 application server or with your application.
 
 The easiest way to download Groovy is via
-http://search.maven.org/]]Search Maven]
-. Search here for
+http://search.maven.org/]]Search Maven]. 
+Search here for
 `org.codehaus.groovy`
 and identify the
 `groovy-all`
