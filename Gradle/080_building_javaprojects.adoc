@@ -10,7 +10,6 @@ This plug-ins assume a certain setup of your Java project (similar to Maven).
 * src/main/java contains the Java source code
 * src/test/java contains the Java tests
 	
-
 If you follow this setup, the following build file is sufficient to compile, test and bundle a Java project.
 		
 [source,gradle]
@@ -18,11 +17,9 @@ If you follow this setup, the following build file is sufficient to compile, tes
 include::res/java/build.gradle[]
 ----
 		
-		
 To start the build, type `gradle build` on the command line.
 		
 `SourceSets` can be used to specify a different project structure, e.g., the sources are stored in a _src_ folder rather than in _src/main/java_.
-		
 		
 [source,gradle]
 ----
@@ -39,7 +36,6 @@ When adding the `--type` parameter with `'java-library'` as value, a java projec
 		
 image::gradle_init_java_library.png[]
 	
-
 The _build.gradle_ file will look similar to this:
 		
 [source,gradle]
@@ -47,11 +43,9 @@ The _build.gradle_ file will look similar to this:
 include::res/java/build_init_java.gradle[]
 ----
 		
-		
 A project hosted at Github https://github.com/townsfolk/gradle-templates[Gradle-templates project] provides more templates beyond the init task. 
 The Gradle team is also working on this archetype/template topic.
 		
-
 === Specifying the Java version in your build file
 		
 Usually a Java project has a version and a target JRE on which it is compiled.
@@ -59,19 +53,15 @@ The `version` and `sourceCompatibility` property can be set in the _build.gradle
 		
 [source,gradle]
 ----
-include::res/build_version_sourceComp.gradle[]
+include::res/java/build_version_sourceComp.gradle[]
 ----
-		
 		
 When the `version` property is set, the name of the resulting artifact will be changed accordingly, e.g., _{my-lib-name}-0.1.0.jar_.
 		
 If the artifact is an executable java application the _MANIFEST.MF_ file must be aware of the class with the main method.
 		
-		
 [source,gradle]
 ----
 include::res/java/main_class.gradle[]
 ----
-		
-	
 
