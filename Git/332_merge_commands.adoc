@@ -42,7 +42,7 @@ than one reference to merge.
 include::./res/merge/mergeoctupus.txt[]
 ----
 
-[[gitmerge_mergeoptions]]]
+[[gitmerge_mergeoptions]]
 === Specifying parameters for the default merge strategy
 
 The recursive merge strategy (default) allows you to specify flags with
