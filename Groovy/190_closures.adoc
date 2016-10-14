@@ -13,8 +13,7 @@ being a
 method or a class.
 
 A closure in Groovy is defined via the following construct:
-`{list of parameters-> closure body}`
-.
+`{list of parameters-> closure body}`.
 The values before the
 `->`
 sign define the parameters of the closure.

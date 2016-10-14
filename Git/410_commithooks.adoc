@@ -22,7 +22,7 @@ commit hook requires that you have access to the server. Hosting
 providers like GitHub or Bitbucket do not offer this access.
 
 If you create a new Git repository, Git creates example scripts in the
-`.git/hooks` directory. The example scripts end with `.sample` . To
+`.git/hooks` directory. The example scripts end with `.sample`. To
 activate them make them executable and remove the `.sample` from the
 filename.
 

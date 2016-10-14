@@ -5,7 +5,7 @@ http://localhost:8081/artifactory/webapp/
 
 === User Settings
 
-The default user is `admin` and the password is `password` .
+The default user is `admin` and the password is `password`.
 
 
 === Repositories in Artifactory

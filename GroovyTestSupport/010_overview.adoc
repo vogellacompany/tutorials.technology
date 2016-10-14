@@ -34,8 +34,7 @@ for
 the JUnit assert statements.
 
 You also have the static import for
-`shouldFail`
-. This method validates if the inner block is false or throws can
+`shouldFail`. This method validates if the inner block is false or throws can
 exception.
 
 [source,java]
