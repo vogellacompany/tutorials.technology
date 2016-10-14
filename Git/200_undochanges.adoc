@@ -12,11 +12,10 @@ you can do this.
 
 [[undochanges_reset]]
 === Remove staged changes from the staging area
-
 ((Staging area, remove staged changes))
 You can use the `git reset [paths]`
 command to remove staged changes from the staging area. This means that
-`git reset [paths]` is the opposite of `git add [paths]` . It avoids
+`git reset [paths]` is the opposite of `git add [paths]`. It avoids
 that the changes are included in the next commit. The changes are still
 available in the working tree, e.g., you will not lose your changes and
 can stage and commit them at a later point.
@@ -51,8 +50,7 @@ include::./res/deletefile/unstage_result.txt[]
 ----
 
 The `git reset`
-behaves differently depending on the options you provide. To learn more
-about the `git reset` command see ? .
+behaves differently depending on the options you provide. To learn more about the `git reset` command see <<gitreset>>.
 
 [[undochanges_checkout]]
 === Remove changes in the working tree

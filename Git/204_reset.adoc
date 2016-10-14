@@ -10,7 +10,7 @@ branch pointer. For example assume you have two commits A-> B, where B
 is the commit after A. You if you reset your branch pointer to A, the
 `git log` command does not include B anymore.
 
-Commits like B can still be found via the `git reflog` command. See ? .
+Commits like B can still be found via the `git reflog` command. See <<gitreflog>>.
 
 [[cleanworkingdir]]
 == Deleting changes in the working tree and staging area for tracked files

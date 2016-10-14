@@ -14,8 +14,7 @@ Rossum.
 
 The name Python is
 based on the TV show called
-_Monty Python's Flying Circus_
-. During execution the Python source code is translated
+_Monty Python's Flying Circus_. During execution the Python source code is translated
 into
 bytecode
 which is then interpreted by the

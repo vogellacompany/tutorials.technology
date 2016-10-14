@@ -28,7 +28,7 @@ filename.
 
 The hooks are documented under the following URL:
 https://www.kernel.org/pub/software/scm/git/docs/githooks.html[Git hooks
-manual page] .
+manual page].
 
 [[gitcommithooks_restrictions]]
 === Restrictions

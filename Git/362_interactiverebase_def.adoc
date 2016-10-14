@@ -32,8 +32,8 @@ discarding the squashed commit's message
 |reword |similar to pick but allows modifying the commit message
 |====
 
-The setup for the rebase is called the _rebase plan_ . Based on this
-plan, the actual interactive rebase can be executed.
+The setup for the rebase is called the _rebase plan_. 
+Based on this plan, the actual interactive rebase can be executed.
 
 [WARNING]
 ====

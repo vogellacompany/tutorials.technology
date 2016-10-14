@@ -16,7 +16,7 @@ We want to combine the last seven commits. You can do this interactively via the
 include::./res/rebase/rebase_i.txt[]
 ----
 
-This command opens your editor of choice and lets you configure the rebase operation by defining which commits to _pick_, _squash_ or _fixup_ .
+This command opens your editor of choice and lets you configure the rebase operation by defining which commits to _pick_, _squash_ or _fixup_.
 
 The following listing shows an example of the selection. 
 We pick the last commit, squash 5 commits and fix the sixth commit. 

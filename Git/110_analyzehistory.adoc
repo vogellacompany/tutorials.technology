@@ -37,7 +37,7 @@ git log --decorate #<4>
 
 <1> `--oneline` -  fits the output of the `git log` command in one line. `--online` is a shorthand for "--pretty=oneline --abbrev-commit" 
 <2> `--abbrev-commit` - the log command uses shorter versions of the SHA-1 identifier for a commit object but keeps the SHA-1 unique. This parameter uses 7 characters by default, but you
-can specify other numbers, e.g., `--abbrev-commit --abbrev=4` .
+can specify other numbers, e.g., `--abbrev-commit --abbrev=4`.
 <3> `graph` - draws a text-based graphical representation of the branches and the merge history of the Git repository.
 <4> decorate - adds symbolic pointers to the log output
 

@@ -19,7 +19,7 @@ include::./res/alias/staged.txt[]
 ----
 
 Or you can define an _alias_ for a detailed `git log` command. 
-The following command defines the `git ll` _alias_ .
+The following command defines the `git ll` _alias_.
 
 [source,console]
 ----

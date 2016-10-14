@@ -5,7 +5,7 @@
 === Detached HEAD
 (((Detached HEAD)))
 If you checkout a commit
-or a tag, you are in the so-called _detached HEAD mode_ . If you commit
+or a tag, you are in the so-called _detached HEAD mode_. If you commit
 changes in this mode, you have no branch which points to this commit.
 After you checkout a branch you cannot see the commit you did in
 detached head mode in the `git log` command.
