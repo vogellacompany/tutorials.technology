@@ -1,5 +1,19 @@
-[[gitpatch_create]]
-== Example: Creating patches
+== Working with patch files
+
+[[gitpatch]]
+== What is a patch file?
+(((Patch)))
+A _patch_ is a text file that contains changes to other text files in a standarized format.
+A patch created with the `git format-patch` command includes meta-information about the commit
+(committer, date, commit message, etc) and also contains the changes introduced in binary data in the commit.
+
+This file can be sent to someone else and the receiver can use it to apply the changes to his local repository. 
+The metadata is preserved.
+
+Alternatively you could create a diff file with the `git diff` command, but this diff file does not contain the metadata information.
+
+
+
 
 [[gitpatch_createandapply]]
 === Create and apply patches

@@ -79,3 +79,15 @@ include::res/rebase/forcedpush.txt[]
 ----
 ====
 
+
+
+[[rebase_example]]
+=== Example for a rebase
+
+The following demonstrates how to perform a rebase operation.
+
+[source,console]
+----
+include::res/rebase/git_rebase[]
+----
+

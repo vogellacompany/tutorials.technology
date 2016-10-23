@@ -1,5 +1,15 @@
+== Using the Git blame command 
+
+[[git_blame_def]]
+=== Analyzing line changes with git blame
+(((git blame)))
+The `git blame` command allows you to see which commit and author modified a file on a per line base.
+That is very useful to identify the person or the commit which introduced a change.
+
+
+
 [[git_blame_example]]
-== Example: git blame
+=== Example: git blame
 
 The following code snippet demonstrates the usage of the `git blame` command.
 

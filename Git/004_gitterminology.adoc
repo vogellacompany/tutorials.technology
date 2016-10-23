@@ -81,22 +81,17 @@ Some tools and Git user prefer the usage of the _index_ instead of staging area.
 Both terms mean the same thing.
 
 (((Commit process)))
-After adding the selected files to the staging area, you can _commit_ these files to add
-them permanently to the Git repository. _Committing_ creates a new
-persistent snapshot (called _commit_ or _commit object_) of the staging
-area in the Git repository. A commit object, like all objects in Git, is
-immutable.
+After adding the selected files to the staging area, you can _commit_ these files to add them permanently to the Git repository. _
+Committing_ creates a new persistent snapshot (called _commit_ or _commit object_) of the staging area in the Git repository. 
+A commit object, like all objects in Git, is immutable.
 
-The _staging area_ keeps track of the snapshots of the files until the
-staged changes are committed.
+The _staging area_ keeps track of the snapshots of the files until the staged changes are committed.
 
 For committing the staged changes you use the `git commit` command.
 
 (((Committing)))
-
-If you commit changes to
-your Git repository, you create a new _commit object_ in the Git
-repository. See <<commit_object>> for information about the commit object.
+If you commit changes to your Git repository, you create a new _commit object_ in the Git repository. 
+See <<commit_object>> for information about the commit object.
 
 
 [[gitdefintion_remoterepositories]]
@@ -108,11 +103,11 @@ Git allows the user to synchronize the local repository with other (remote) repo
 Users with sufficient authorization can send new version in their local repository to to remote repositories via the _push_ operation.
 They can also integrate changes from other repositories into their local repository via the _fetch_ and _pull_ operation.
 
-[[gitdefintion_branching]]
+[[gitdefinition_branching]]
 === The concept of branches
+
 (((Branch)))
 (((What is branching in Git?)))
-
 Git supports _branching_ which means that you can work on different versions of your collection of files. 
 A branch allows the user to switch between these versions so that he can work on different changes independently from each other.
 
@@ -122,7 +117,7 @@ For example, you can work independently on a branch called _production_ for bugf
 
 Branches in Git are local to the repository. 
 A branch created in a local repository does not need to have a counterpart in a remote repository. 
-Local branches can be compared with other local branches and with _remote-tracking branches_.
+Local branches can be compared with other local branches and with _remote-tracking branches.
 A remote-tracking branch proxies the state of a branch in another remote repository.
 
 Git supports the combination of changes from different branches. 
@@ -131,6 +126,7 @@ The developer can use Git commands to combine the changes at a later point in ti
 
 [[gitterminology]]
 === Summary of the core Git terminology
+
 (((Terminology in Git)))
 The following table provides a summary of important _Git_ terminology discussed in this section.
 
@@ -141,31 +137,27 @@ The following table provides a summary of important _Git_ terminology discussed 
 
 |Branch
 |A _branch_ is a named pointer to a commit. 
-Selecting a branch in Git terminology is called _to checkout a branch_. 
+Selecting a branch in Git terminology is called _to checkout a branch. 
 If you are working in a certain branch, the creation of a new commit advances this pointer to the newly created commit.
 
-Each commit knows their parents (predecessors). Successors are retrieved
-by traversing the commit graph starting from branches or other refs,
-symbolic references (for example: HEAD) or explicit commit objects. This
-way a branch defines its own line of descendants in the overall version
-graph formed by all commits in the repository.
+Each commit knows their parents (predecessors). 
+Successors are retrieved by traversing the commit graph starting from branches or other refs, symbolic references (for example: HEAD) or explicit commit objects. This
+way a branch defines its own line of descendants in the overall version graph formed by all commits in the repository.
 
-You can create a new branch from an existing one and change the code
-independently from other branches. One of the branches is the default
-(typically named _master_ ). The default branch is the one for which a
-local branch is automatically created when cloning the repository.
+You can create a new branch from an existing one and change the code independently from other branches. 
+One of the branches is the default (typically named _master_ ). 
+The default branch is the one for which a local branch is automatically created when cloning the repository.
 
 |Commit
-|When you commit your changes into a repository this creates a new
-_commit object_ in the Git repository. This _commit object_ uniquely
-identifies a new revision of the content of the repository.
+|When you commit your changes into a repository this creates a new _commit object_ in the Git repository. 
+This _commit object_ uniquely identifies a new revision of the content of the repository.
 
-This revision can be retrieved later, for example, if you want to see
-the source code of an older version. Each commit object contains the
-author and the committer, thus making it possible to identify who did
-the change. The author and committer might be different people. The
-author did the change and the committer applied the change to the Git
-repository. This is common for contributions to open source projects.
+This revision can be retrieved later, for example, if you want to see the source code of an older version. 
+Each commit object contains the author and the committer.
+This makes it possible to identify who did the change. 
+The author and committer might be different people.
+The author did the change and the committer applied the change to the Git repository. 
+This is common for contributions to open source projects.
 
 |HEAD
 |_HEAD_ is a symbolic reference most often pointing to the currently checked out branch.
@@ -221,9 +213,8 @@ distinguishes between _fetchurl_ for getting new data from other
 repositories and _pushurl_ for pushing data to another repository.
 
 |Working tree 
-|The _working tree_ contains the set of working files for
-the repository. You can modify the content and commit the changes as new
-commits to the repository.
+|The _working tree_ contains the set of working files for the repository. 
+You can modify the content and commit the changes as new commits to the repository.
 |===
 
 

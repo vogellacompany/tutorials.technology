@@ -3,6 +3,7 @@
 
 [[versioncontrolssystems]]
 === What is a version control system?
+
 (((Version control system)))
 A version control system (VCS) allows you to track the history of a collection of files. 
 It supports creating different versions of this collection. 

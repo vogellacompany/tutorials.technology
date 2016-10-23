@@ -90,8 +90,10 @@ This allows you to exclude, for example, locally generated files.
 
 
 [[tracking_empty_directories]]
-=== Tracking empty directories with Git (((Empty directory handling in Git))) (((Tracking an empty directory in Git)))
+=== Tracking empty directories with Git 
 
+(((Empty directory handling in Git)))
+(((Tracking an empty directory in Git)))
 Git ignores empty directories, i.e., it does not put them under version control.
 If you want to track an empty directory in your Git repository, it is a good practice to put a file called `.gitignore` in the directory. 
 As the directory now contains a file, Git includes it into its version control mechanism.

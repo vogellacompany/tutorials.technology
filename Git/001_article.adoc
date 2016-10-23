@@ -32,15 +32,10 @@ include::028_exercise_localgitworkflow.adoc[]
 include::048_remotes.adoc[]
 include::052_exercises_remoterepositories.adoc[]
 
-[[branches]]
-== Working with local branches
-
-include::070_branch_def.adoc[]
 include::074_branch.adoc[]
 
 == Using tags in Git
 
-include::088_tagging_def.adoc[]
 include::090_tagging.adoc[]
 
 
@@ -48,13 +43,10 @@ include::100_analyze_changedfiles.adoc[]
 include::110_analyzehistory.adoc[]
 include::120_analyze_diff.adoc[]
 
-== Git blame
-include::121_gitblame_def.adoc[]
 include::121_gitblame.adoc[]
 
 include::130_gitk.adoc[]
 include::150_gitshortlog.adoc[]
-include::180_stash_def.adoc[]
 include::182_stash.adoc[]
 
 include::198_gitclean.adoc[]
@@ -67,14 +59,9 @@ include::209_checkoutcommit.adoc[]
 include::210_reflog.adoc[]
 include::300_remotebranch.adoc[]
 include::324_fetch.adoc[]
-include::330_mergedef.adoc[]
-include::331_mergedescription.adoc[]
-include::332_merge_commands.adoc[]
-include::360_rebase_def.adoc[]
-include::361_rebaseexample.adoc[]
-include::362_interactiverebase_def.adoc[]
+include::332_merge.adoc[]
+include::361_rebase.adoc[]
 include::364_interactiverebase.adoc[]
-include::370_cherrypick_def.adoc[]
 include::372_cherrypick.adoc[]
 include::380_mergeconflict.adoc[]
 include::380a_exercise_mergeconflict.adoc[]
@@ -82,8 +69,7 @@ include::381_rebaseconflicts.adoc[]
 include::382_alias.adoc[]
 include::386_bisect.adoc[]
 include::390_filterbranch.adoc[]
-include::400_patch_def.adoc[]
-include::404_patch_example.adoc[]
+include::404_patch.adoc[]
 include::410_commithooks.adoc[]
 include::412_lineendings.adoc[]
 include::420_migration.adoc[]

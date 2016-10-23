@@ -15,8 +15,7 @@ This tutorial explains typical workflows for using Git.
 
 include::../web/kindle/git.adoc[]
 include::../web/advertisement/afterTableOfContent.adoc[]
-include::100_separaterepos.adoc[]
-include::200_sharedrespositories.adoc[]
+include::010_overview.adoc[]
 include::../support.adoc[]
 include::008_resourceslocal.adoc[]
 include::../copyright.adoc[]	

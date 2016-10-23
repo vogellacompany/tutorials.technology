@@ -1,5 +1,29 @@
+== Using Branches
+
+[[gitbranch_def]]
+=== What are branches?
+
+(((Branches in Git)))
+Git allows you to create _branches_, i.e. named pointers to commits. 
+You can work on different branches independently from each other. 
+The default branch is most often called _master_.
+
+A branch pointer in Git is 41 bytes large, 40 bytes of characters and an additional new line character. 
+Therefore, the creating of branches in Git is very fast and cheap in terms of resource consumption. 
+Git encourages the usage of branches on a regular basis.
+
+If you decide to work on a branch, you _checkout_ this branch. 
+This means that Git populates the _working tree_ with the version of the
+files from the commit to which the branch points and moves the _HEAD_
+pointer to the new branch.
+
+As explained in <<gitterminology>> _HEAD_ is a symbolic reference usually pointing to the
+branch which is currently checked out.
+
+
 [[gitbranch_listbranches]]
-== List available branches
+=== List available branches
+
 (((git branch)))
 The `git branch` command lists all local branches. The currently active branch is marked with `*`.
 
@@ -8,9 +32,8 @@ The `git branch` command lists all local branches. The currently active branch i
 include::res/commandline/git_brancheslist.commands[]
 ----
 
-If you want to see all branches (including remote-tracking branches), use the
-`-a` for the `git branch` command. See <<gitremotebranch_overview>> for information about
-remote-tracking branches.
+If you want to see all branches (including remote-tracking branches), use the `-a` for the `git branch` command. 
+See <<gitremotebranch_overview>> for information about remote-tracking branches.
 
 [source,console]
 ----    
@@ -27,7 +50,8 @@ include::res/commandline/git_brancheslist3.commands[]
 ----
 
 [[gitbranch_createnewbranch]]
-== Create new branch
+=== Create new branch
+
 (((Branch, Create new branch)))
 (((git branch)))
 You can create a new branch via the `git branch [newname]` command. 
@@ -40,7 +64,8 @@ include::res/branch/git_create_branch[]
 ---- 
 
 [[gitbranch_checkout]]
-== Checkout branch
+=== Checkout branch
+
 (((checkout branch)))
 (((git checkout)))
 To start working in a branch you have to _checkout_ the branch. If you _checkout_ a branch, the HEAD pointer
@@ -56,8 +81,7 @@ branch called _master_.
 include::res/branch/git_checkout[]
 ----
 
-To create a branch and to switch to it at the same time you can use the
-`git checkout` command with the `-b` parameter.
+To create a branch and to switch to it at the same time you can use the `git checkout` command with the `-b` parameter.
 
 [source,console]
 ----
@@ -75,7 +99,8 @@ include::res/branch/git_rename_branch[]
 ----
 
 [[gitdeletebrach]]
-== Delete a branch
+=== Delete a branch
+
 (((delete local branch)))
 To delete a branch which is not needed anymore, you can use the following command. You may
 get an error message that there are uncommited changes if you did the
@@ -89,10 +114,10 @@ include::res/branch/git_delete_branch[]
 
 [[gitpushbranch]]
 === Push changes of a branch to a remote repository
+
 (((push branch)))
-You can push the changes in a branch to a remote repository by specifying the
-target branch. This creates the target branch in the remote repository
-if it does not yet exist.
+You can push the changes in a branch to a remote repository by specifying the target branch. 
+This creates the target branch in the remote repository if it does not yet exist.
 
 If you do not specify the remote repository, the `origin` is used as default
 
@@ -124,36 +149,35 @@ git checkout master
 git pull
 ---- 
 
-This way you can decide which branches you want to push to other
-repositories and which should be local branches. You learn more about
-branches and remote repositories in <<gitremotebranch_overview>>.
+This way you can decide which branches you want to push to other repositories and which should be local branches. 
+You learn more about branches and remote repositories in <<gitremotebranch_overview>>.
 
 
 [[gitbranch_untrackedfiles]]
 === Switching branches with untracked files
+
 (((switch branch, with untrack files)))
-Untracked files (never added to the staging
-area) are unrelated to any branch. They exist only in the working tree
-and are ignored by Git until they are committed to the Git repository.
-This allows you to create a branch for unstaged and uncommitted changes
-at any point in time.
+Untracked files (never added to the staging area) are unrelated to any branch. 
+They exist only in the working tree and are ignored by Git until they are committed to the Git repository.
+This allows you to create a branch for unstaged and uncommitted changes at any point in time.
 
 [[gitbranch_dirtyfiles]]
 === Switching branches with uncommitted changes
+
 (((switch branch,with uncommitted changes)))
 Similar to untracked files you can switch branches with unstaged or staged modifications which are not yet committed.
 
 You can switch branches if the modifications do not conflict with the files from the branch.
 
-If Git needs to modify a changed file during the checkout of a branch,
-the checkout fails with a "checkout conflict" error. This avoids that
-you lose changes in your files.
+If Git needs to modify a changed file during the checkout of a branch, the checkout fails with a "checkout conflict" error.
+This avoids that you lose changes in your files.
 
 In this case the changes must be committed, reverted or stashed (see <<stash_usage1>>). 
 You can also always create a new branch based on the current HEAD.
 
 [[gitdiffbranches]]
 === Differences between branches
+
 (((difference between branches)))
 (((git diff, for branches)))
 To see the difference between two branches you can use the following command.
@@ -167,9 +191,7 @@ git diff master your_branch
 ----
 
 You can use commit ranges as described in <<commitreference_ranges_doubledot>> and <<commitreference_ranges_tripledot>>. 
-For example, if you compare a branch called _your_branch_ with the _master_ branch the
-following command shows the changes in _your_branch_ and _master_ since
-these branches diverged.
+For example, if you compare a branch called _your_branch_ with the _master_ branch the following command shows the changes in _your_branch_ and _master_ since these branches diverged.
 
 [source,console]
 ----
