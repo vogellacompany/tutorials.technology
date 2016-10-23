@@ -9,7 +9,7 @@ branch to the current active one via the following command.
 
 [source,console]
 ----
-include::./res/commandline/git_merge[]
+include::res/commandline/git_merge[]
 ----
 
 [[gitmerge_mergeoptionsstrategies]]
@@ -25,7 +25,7 @@ the following command.
 
 [source,console]
 ----
-include::./res/merge/mergeours.txt[]
+include::res/merge/mergeours.txt[]
 ----
  
 [WARNING]
@@ -39,7 +39,7 @@ than one reference to merge.
 
 [source,console]
 ----
-include::./res/merge/mergeoctupus.txt[]
+include::res/merge/mergeoctupus.txt[]
 ----
 
 [[gitmerge_mergeoptions]]
@@ -65,7 +65,7 @@ Both options are demonstrated in the following example code.
 
 [source,console]
 ----
-include::./res/merge/mergeours2.txt[]
+include::res/merge/mergeours2.txt[]
 ----
 Another useful option is the `ignore-space-change` parameter which
 ignores whitespace changes.

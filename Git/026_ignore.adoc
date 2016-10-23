@@ -4,22 +4,21 @@
 [[ignoring-files-and-directories-with-a-.gitignore-file]]
 === Ignoring files and directories with a .gitignore file (((Ignore files))) (((.gitignore)))
 
-Git can be configured to ignore certain files and directories for repository operations. This is
-configured via one or several `.gitignore` files. Typically, this file
-is located at the root of your Git repository but it can also be located
-in sub-directories. In the second case the defined rules are only valid
-for the sub-directory and below.
+Git can be configured to ignore certain files and directories for repository operations. 
+This is configured via one or several `.gitignore` files. 
+Typically, this file is located at the root of your Git repository but it can also be located in sub-directories. 
+In the second case the defined rules are only valid for the sub-directory and below.
 
-You can use certain wildcards in this file. `*` matches several
-characters. More patterns are possible and described under the following
+You can use certain wildcards in this file. 
+`*` matches several characters. 
+More patterns are possible and described under the following
 URL: https://www.kernel.org/pub/software/scm/git/docs/gitignore.html[gitignore manpage]
 
-For example, the following `.gitignore` file tells Git to ignore the
-`bin` and `target` directories and all files ending with a ~.
+For example, the following `.gitignore` file tells Git to ignore the `bin` and `target` directories and all files ending with a ~.
 
 [source,console]
 ----
-include::./res/ignore/gitignore[]
+include::res/ignore/gitignore[]
 ----
 
 You can create the `.gitignore` file in the root directory of the working
@@ -28,10 +27,8 @@ tree to make it specific for the Git repository.
 
 [TIP]
 ====
-The `.gitignore` file tells Git to ignore the specified files in Git
-commands. You can still add ignored files to the _staging area_ of the
-Git repository by using the `--force` parameter, i.e. with the
-`git add --force [paths]` command.
+The `.gitignore` file tells Git to ignore the specified files in Git commands. 
+You can still add ignored files to the _staging area_ of the Git repository by using the `--force` parameter, i.e. with the `git add --force [paths]` command.
 
 This is useful if you want to add, for example, auto-generated binaries,
 but you need to have a fine control about the version which is added and
@@ -77,7 +74,7 @@ setting is demonstrated in the following code snippet.
 
 [source,console]
 ----
-include::./res/gitignore/global.txt[] 
+include::res/gitignore/global.txt[] 
 ----
 
 The global `.gitignore` file is only locally available.

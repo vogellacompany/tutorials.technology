@@ -6,35 +6,31 @@
 (((Commit references)))
 (((Simple reference)))
 (((Symbolic reference))))
-Each commit has zero or more direct predecessor commits. The first commit has
-zero parents, merge commits have two or more parents, most commits have
-one parent.
+Each commit has zero or more direct predecessor commits. 
+The first commit has zero parents, merge commits have two or more parents, most commits have one parent.
 
 image::commitreference10.png[Commit reference overview]
 
-In Git you frequently want to refer to certain commits. For
-example, you want to tell Git to show you all changes which were done in
-the last three commits. Or you want to see the differences introduced
-between two different branches.
+In Git you frequently want to refer to certain commits.
+For example, you want to tell Git to show you all changes which were done in the last three commits. 
+Or you want to see the differences introduced between two different branches.
 
 Git allows addressing commits via _commit reference_ for this purpose.
 
-A commit reference can be a _simple reference_ (simple ref), in this
-case it points directly to a commit. This is the case for a commit hash
-or a tag. A commit reference can also be _symbolic reference_ (symbolic
-ref, symref). In this case it points to another reference (either simple
-or symbolic). For example HEAD is a symbolic ref for a branch, if it
-points to a branch. HEAD points to the branch pointer and the branch
-pointer points to a commit.
+A commit reference can be a _simple reference_ (simple ref), in this case it points directly to a commit. 
+This is the case for a commit hash or a tag. 
+A commit reference can also be _symbolic reference_ (symbolic ref, symref). 
+In this case it points to another reference (either simple or symbolic). 
+For example HEAD is a symbolic ref for a branch, if it points to a branch. 
+HEAD points to the branch pointer and the branch pointer points to a commit.
 
 [[commitreference_branchheadreferences]]
 === Branch references and the HEAD reference
 (((Commit references, Branch)))
 (((Commit references, HEAD)))
-A branch points to a
-specific commit. You can use the branch name as reference to the
-corresponding commit. You can also use HEAD to reference the
-corresponding commit.
+A branch points to a specific commit. 
+You can use the branch name as reference to the corresponding commit. 
+You can also use HEAD to reference the corresponding commit.
 
 [[commitreference_parentancestor]]
 === Parent and ancestor commits
@@ -47,27 +43,22 @@ The Git terminology is _parent_ for ^ and _ancestor_ for ~.
 
 [[commitreference_carettilde]]
 === Using caret and tilde for commit references
+
 (((caret and tilde for predecessor commit references)))
-[reference]~1 describes the first
-predecessor of the commit object accessed via [reference]. [reference]~2
-is the first predecessor of the first predecessor of the [reference]
-commit. [reference]~3 is the first predecessor of the first predecessor
-of the first predecessor of the [reference] commit, etc.
+[reference]~1 describes the first predecessor of the commit object accessed via [reference]. 
+[reference]~2 is the first predecessor of the first predecessor of the [reference] commit. 
+[reference]~3 is the first predecessor of the first predecessor of the first predecessor of the [reference] commit, etc.
 
 [reference]~ is an abbreviation for [reference]~1.
 
-For example, you can use the _HEAD~1_ or _HEAD~_ reference to access the
-first parent of the commit to which the _HEAD_ pointer currently points.
+For example, you can use the _HEAD~1_ or _HEAD~_ reference to access the first parent of the commit to which the _HEAD_ pointer currently points.
 
-[reference]^1 also describes the first predecessor of the commit object
-accessed via [reference].
+[reference]^1 also describes the first predecessor of the commit object accessed via [reference].
 
 For example HEAD^^^ is the same as HEAD~~~ and is the same as HEAD~3.
 
-The difference is that [reference]^2 describes the second parent of a
-commit. A merge commit typically has two predecessors. HEAD^3 means ‘the
-third parent of a merge’ and in most cases this won’t exist (merges are
-generally between two commits, though more is possible).
+The difference is that [reference]^2 describes the second parent of a commit. 
+A merge commit typically has two predecessors. HEAD^3 means ‘the third parent of a merge’ and in most cases this won’t exist (merges are generally between two commits, though more is possible).
 
 image::commitreference20.png[Commit reference pointer example]
 
@@ -75,15 +66,14 @@ image::commitreference20.png[Commit reference pointer example]
 
 [[commitreference_ranges_doubledot]]
 === Commit ranges with the double dot operator
-(((Commit ranges, double dot operator)))
-You can also specify ranges of commits. This is useful for certain Git
-commands, for example, for seeing the changes between a series of
-commits.
 
-The double dot operator allows you to select all commits which are
-reachable from a commit c2 but not from commit c1. The syntax for this
-is "c1..c2". A commit A is reachable from another commit B if A is a
-direct or indirect parent of B.
+(((Commit ranges, double dot operator)))
+You can also specify ranges of commits. 
+This is useful for certain Git commands, for example, for seeing the changes between a series of commits.
+
+The double dot operator allows you to select all commits which are reachable from a commit c2 but not from commit c1. 
+The syntax for this is "c1..c2". 
+A commit A is reachable from another commit B if A is a direct or indirect parent of B.
 
 [TIP]
 ====
@@ -91,42 +81,38 @@ Think of c1..c2 as _all commits as of c1 (not including c1) until commit
 c2._
 ====
 
-For example, you can ask Git to show all commits which happened between
-HEAD and HEAD~4.
+For example, you can ask Git to show all commits which happened between HEAD and HEAD~4.
 
 [source,console]
 ----
-include::./res/ranges/logranges1[]
+include::res/ranges/logranges1[]
 ----
 
-This also works for branches. To list all commits which are in the "master"
-branch but not in the "testing" branch, use the following command.
+This also works for branches. To list all commits which are in the "master" branch but not in the "testing" branch, use the following command.
 
 [source,console]
 ----
-include::./res/ranges/logranges2[]
+include::res/ranges/logranges2[]
 ----
 
 You can also list all commits which are in the "testing" but not in the "master" branch.
 
 [source,console]
 ----
-include::./res/ranges/logranges3[]
+include::res/ranges/logranges3[]
 ----
 
 [[commitreference_ranges_tripledot]]
 
 === Commit ranges with the triple dot operator
-(((Commit ranges, triple dot operator)))
-The triple dot operator allows you to select all
-commits which are reachable either from commit c1 or commit c2 but not
-from both of them.
 
-This is useful to show all commits in two branches which have not yet
-been combined.
+(((Commit ranges, triple dot operator)))
+The triple dot operator allows you to select all commits which are reachable either from commit c1 or commit c2 but not from both of them.
+
+This is useful to show all commits in two branches which have not yet been combined.
 
 [source,console]
 ----
-include::./res/ranges/logranges4[] 
+include::res/ranges/logranges4[] 
 ----
 

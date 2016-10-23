@@ -63,7 +63,7 @@ If your are using Git in a version below 2.0 you should also execute the followi
 
 [source,console]
 ----
-include::./res/commandline/setup_pushmatching.txt[]
+include::res/commandline/setup_pushmatching.txt[]
 ----
 
 This configures Git so that the `git push` command pushes only the active branch to your Git remote repository. 
@@ -80,7 +80,7 @@ You can configure git to use `git rebase` instead of `git merge` for the pull co
 
 [source,console]
 ----
-include::./res/commandline/setup_useful[]
+include::res/commandline/setup_useful[]
 ---- 
 
 [NOTE]
@@ -97,7 +97,7 @@ The following commands enables color highlighting for Git in the console.
 
 [source,console]
 ----
-include::./res/highlight/color.txt[]
+include::res/highlight/color.txt[]
 ----
  
 [[setup_editor]]
@@ -109,7 +109,7 @@ can configure a different one via the following setting.
 
 [source,console]
 ----
-include::./res/settings/editor.txt[]
+include::res/settings/editor.txt[]
 ----
  
 [[setup_mergetool]]
@@ -130,7 +130,7 @@ merge tool with the following command.
 
 [source,console]
 ----
-include::./res/settings/mergetool.txt[] 
+include::res/settings/mergetool.txt[] 
 ----
 
 [[setup_allsetttings]]
@@ -147,7 +147,7 @@ To query your Git settings, execute the following command:
 
 [source,console]
 ----
-include::./res/settings/listsettings.txt[]
+include::res/settings/listsettings.txt[]
 ---- 
 
 If you want to query the global settings you can use the following
@@ -155,6 +155,6 @@ command.
 
 [source,console]
 ----
-include::./res/settings/listsettingsglobal.txt[] 
+include::res/settings/listsettingsglobal.txt[] 
 ----
 

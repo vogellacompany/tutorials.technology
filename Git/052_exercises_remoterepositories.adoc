@@ -14,7 +14,7 @@ Execute the following commands to create a bare repository based on your existin
 
 [source,console]
 ----
-include::./res/commandline/git_remote.commands[]
+include::res/commandline/git_remote.commands[]
 ----
 
 [[remotes_remoteadd]]
@@ -24,7 +24,7 @@ Clone your bare repository and checkout a working tree in a new directory via th
 
 [source,console]
 ----
-include::./res/commandline/git_clone.commands[]
+include::res/commandline/git_clone.commands[]
 ----
 
 [[exercise_cloneremotes_push]]
@@ -34,7 +34,7 @@ Make some changes in one of your non-bare local repositories and push them to yo
 
 [source,console]
 ----
-include::./res/commandline/git_push.commands[]
+include::res/commandline/git_push.commands[]
 ----
  
 [[exercise_cloneremotes_pull]]
@@ -46,13 +46,13 @@ Afterwards make some changes and push them again to your remote repository.
 
 [source,console]
 ----
-include::./res/commandline/git_pull.txt[]
+include::res/commandline/git_pull.txt[]
 ---- 
 
 You can pull in the changes in your first example repository with the following commands.
 
 [source,console]
 ----
-include::./res/commandline/git_pull2.txt[]
+include::res/commandline/git_pull2.txt[]
 ----
 

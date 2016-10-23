@@ -35,11 +35,11 @@ merge operation was started.
 
 [source,console]
 ----
-include::./res/rebase/ours.txt[]
+include::res/rebase/ours.txt[]
 ----
 [source,console]
 ----
-include::./res/rebase/theirs.txt[]
+include::res/rebase/theirs.txt[]
 ----
 
 

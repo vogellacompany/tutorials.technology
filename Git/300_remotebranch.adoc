@@ -11,7 +11,7 @@ You can see your remote-tracking branches with the following command.
 
 [source,console]
 ----
-include::./res/remotebranch/showremotes.txt[]
+include::res/remotebranch/showremotes.txt[]
 ----
 
 To update remote-tracking branches without changing local branches you use the `git fetch` command. 
@@ -25,7 +25,7 @@ You can use the following command for that.
 
 [source,console]
 ----
-include::./res/remotebranch/delete.txt[]
+include::res/remotebranch/delete.txt[]
 ---- 
 
 
@@ -36,7 +36,7 @@ To delete the branch in a remote repository use the following command.
 
 [source,console]
 ----
-include::./res/remotebranch/deleteremotebranch.txt[]
+include::res/remotebranch/deleteremotebranch.txt[]
 ----
 
 [[git_trackingbranches]]
@@ -53,14 +53,14 @@ You create new _tracking branches_ by specifying the _remote branch_ during the 
 
 [source,console]
 ----
-include::./res/remotebranch/trackingbranch.txt[]
+include::res/remotebranch/trackingbranch.txt[]
 ----
 
 Instead of using the `git checkout` command you can also use the `git branch` command.
 
 [source,console]
 ----
-include::./res/remotebranch/create.txt[]
+include::res/remotebranch/create.txt[]
 ---- 
 
 The `--no-track` allows you to specify that you do not want to track a branch. 
@@ -68,20 +68,20 @@ You can explicitly add a tracking branch with the `git branch -u` command later.
 
 [source,console]
 ----
-include::./res/remotebranch/update.txt[]
+include::res/remotebranch/update.txt[]
 ---- 
 
 To see the tracking branches for a remote repository (short: remote) you can use the following command.
 
 [source,console]
 ----
-include::./res/remotebranch/showtrackingbranches.txt[]
+include::res/remotebranch/showtrackingbranches.txt[]
 ----
 
 An example output of this might look as follows.
 
 [source,console]
 ----
-include::./res/remotebranch/output.txt[]
+include::res/remotebranch/output.txt[]
 ----
 

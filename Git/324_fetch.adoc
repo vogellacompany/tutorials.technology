@@ -10,7 +10,7 @@ the remote-tracking branches from the repository called _origin_.
 
 [source,console]
 ----
-include::./res/fetch/fetch.txt[]
+include::res/fetch/fetch.txt[]
 ----
 The fetch command only updates the _remote-tracking branches_ and none of the local branches. 
 It also does not change the working tree of the Git repository. 
@@ -32,7 +32,7 @@ In case you want to update the remote-tracking branches of all your remote repos
 
 [source,console]
 ----
-include::./res/remote/gitupdate.txt[]
+include::res/remote/gitupdate.txt[]
 ----
 
 [[gitfetch_compare]]
@@ -43,7 +43,7 @@ branches.
 
 [source,console]
 ----
-include::./res/remotebranch/compare.txt[]
+include::res/remotebranch/compare.txt[]
 ---- 
 
 The above commands show the changes introduced in HEAD compared to origin. 
@@ -56,7 +56,7 @@ You can rebase your current local branch onto a remote-tracking branch. The foll
 
 [source,console]
 ----
-include::./res/remotebranch/apply.txt[]
+include::res/remotebranch/apply.txt[]
 ----
 
 [TIP]

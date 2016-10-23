@@ -19,7 +19,7 @@ file.
 
 [source,console]
 ----
-include::./res/show/showrev.txt[]
+include::res/show/showrev.txt[]
 ----
  
 [[retrievefiles_fromcommit]]
@@ -32,7 +32,7 @@ as demonstrated by the following command.
 
 [source,console]
 ----
-include::./res/restore/restoredeletedfile.txt[]
+include::res/restore/restoredeletedfile.txt[]
 ----
  
 [[retrievefiles_finddeletedfile]]
@@ -45,6 +45,6 @@ file, even if you have deleted the file.
 
 [source,console]
 ----
-include::./res/show/delete.txt[]
+include::res/show/delete.txt[]
 ----
 

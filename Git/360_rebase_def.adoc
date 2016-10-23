@@ -75,7 +75,7 @@ commits.
 
 [source,console]
 ----
-include::./res/rebase/forcedpush.txt[]
+include::res/rebase/forcedpush.txt[]
 ----
 ====
 

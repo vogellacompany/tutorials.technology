@@ -9,7 +9,7 @@ To install it (on Ubuntu) simply type:
 
 [source,console]
 ----
-include::./res/migration/svn2git_install.txt[]
+include::res/migration/svn2git_install.txt[]
 ----
 
 Let's say you have a repository called `http://svn.example.com/repo` with the default
@@ -18,7 +18,7 @@ repository where you want to put everything, then navigate to your git directory
 
 [source,console]
 ----
-include::./res/migration/svn2git_example.txt[]
+include::res/migration/svn2git_example.txt[]
 ----
 
 The parameter `--verbose` adds detailed output to the commandline so you can see what is going on including potential errors. 

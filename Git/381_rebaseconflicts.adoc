@@ -24,14 +24,14 @@ the rebase operation with the following command.
 
 [source,console]
 ----
-include::./res/rebase/rebasecontinue.txt[]
+include::res/rebase/rebasecontinue.txt[]
 ----
 
 To see the files which have a rebase conflict use the following command.
 
 [source,console]
 ----
-include::./res/rebase/conflictingfiles.txt[]
+include::res/rebase/conflictingfiles.txt[]
 ---- 
 
 You solve such a conflict the same way as you would solve a merge conflict.
@@ -40,7 +40,7 @@ You can also skip the commit which creates the conflict.
 
 [source,console]
 ----
-include::./res/rebase/rebaseskip.txt[]
+include::res/rebase/rebaseskip.txt[]
 ----
 
 [[rebaseconflict_abort]]
@@ -50,7 +50,7 @@ You can also abort a rebase operation with the following command.
 
 [source,console]
 ----
-include::./res/rebase/rebaseabort.txt[]
+include::res/rebase/rebaseabort.txt[]
 ----
 
 [[rebaseconflict_theirs]]
@@ -68,12 +68,12 @@ Therefore to ignore the changes in a commit for a file use the following command
 
 [source,console]
 ----
-include::./res/rebase/ours.txt[]
+include::res/rebase/ours.txt[]
 ----
 To take the version of the new commit use the following command.
 
 [source,console]
 ----
-include::./res/rebase/theirs.txt[]
+include::res/rebase/theirs.txt[]
 ----
 

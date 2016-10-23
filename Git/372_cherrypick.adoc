@@ -5,14 +5,14 @@ In the following example you create a new branch and commit two changes.
 
 [source,console]
 ----
-include::./res/cherry/step1.txt[]
+include::res/cherry/step1.txt[]
 ----
 
 You can check the commit history, for example, with the `git log --oneline` command.
 
 [source,console]
 ----
-include::./res/cherry/step2.txt[]
+include::res/cherry/step2.txt[]
 ----
 
 The following command selects the first commit based on the commit ID and applies its changes to the master branch. 
@@ -20,7 +20,7 @@ This creates a new commit on the master branch.
 
 [source,console]
 ----
-include::./res/cherry/step3.txt[]
+include::res/cherry/step3.txt[]
 ----
 
 The `cherry-pick` command can be used to change the order of commits. 
@@ -28,7 +28,7 @@ The `cherry-pick` command can be used to change the order of commits.
 
 [source,console]
 ----
-include::./res/cherry/step4.txt[]
+include::res/cherry/step4.txt[]
 ----
 
 [[TIP]]
@@ -41,6 +41,6 @@ previous state using the following command.
 
 [source,console]
 ----
-include::./res/cherry/step5.txt[]
+include::res/cherry/step5.txt[]
 ----
 

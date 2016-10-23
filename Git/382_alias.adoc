@@ -15,7 +15,7 @@ The following defines an _alias_ to see the staged changes with the new
 
 [source,console]
 ----
-include::./res/alias/staged.txt[]
+include::res/alias/staged.txt[]
 ----
 
 Or you can define an _alias_ for a detailed `git log` command. 
@@ -23,7 +23,7 @@ The following command defines the `git ll` _alias_.
 
 [source,console]
 ----
-include::./res/alias/log.txt[]
+include::res/alias/log.txt[]
 ----
 
 You can also run external commands. 
@@ -33,6 +33,6 @@ commands.
 
 [source,console]
 ----
-include::./res/alias/alias.txt[]
+include::res/alias/alias.txt[]
 ----
 

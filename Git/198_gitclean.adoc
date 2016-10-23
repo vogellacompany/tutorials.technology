@@ -21,6 +21,6 @@ The following commands demonstrate the usage of the `git clean` command.
 
 [source,console]
 ----
-include::./res/undo/dropchanges.txt[]
+include::res/undo/dropchanges.txt[]
 ----
 

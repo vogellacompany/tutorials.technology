@@ -18,6 +18,6 @@ command.
 
 [source,console]
 ----
-include::./res/commandline/git_revert_commit[]
+include::res/commandline/git_revert_commit[]
 ----
 

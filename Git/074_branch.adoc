@@ -5,7 +5,7 @@ The `git branch` command lists all local branches. The currently active branch i
 
 [source,console]
 ----
-include::./res/commandline/git_brancheslist.commands[]
+include::res/commandline/git_brancheslist.commands[]
 ----
 
 If you want to see all branches (including remote-tracking branches), use the
@@ -14,7 +14,7 @@ remote-tracking branches.
 
 [source,console]
 ----    
-include::./res/commandline/git_brancheslist2.commands[]
+include::res/commandline/git_brancheslist2.commands[]
 ----
 
 The `-v` option lists more information about the branches.
@@ -23,7 +23,7 @@ In order to list branches in a remote repository use the `git branch -r` command
 
 [source,console]
 ----
-include::./res/commandline/git_brancheslist3.commands[]
+include::res/commandline/git_brancheslist3.commands[]
 ----
 
 [[gitbranch_createnewbranch]]
@@ -36,7 +36,7 @@ If not specified, the commit to which the HEAD reference points is used to creat
 
 [source,console]
 ----
-include::./res/branch/git_create_branch[]
+include::res/branch/git_create_branch[]
 ---- 
 
 [[gitbranch_checkout]]
@@ -53,7 +53,7 @@ branch called _master_.
 
 [source,console]
 ----
-include::./res/branch/git_checkout[]
+include::res/branch/git_checkout[]
 ----
 
 To create a branch and to switch to it at the same time you can use the
@@ -61,7 +61,7 @@ To create a branch and to switch to it at the same time you can use the
 
 [source,console]
 ----
-include::./res/branch/git_createcheckout[]
+include::res/branch/git_createcheckout[]
 ---- 
 
 [[git_rename_branch]]
@@ -71,7 +71,7 @@ Renaming a branch can be done with the following command.
 
 [source,console]
 ----
-include::./res/branch/git_rename_branch[]
+include::res/branch/git_rename_branch[]
 ----
 
 [[gitdeletebrach]]
@@ -84,7 +84,7 @@ delete it anyway.
 
 [source,console]
 ----
-include::./res/branch/git_delete_branch[]
+include::res/branch/git_delete_branch[]
 ---- 
 
 [[gitpushbranch]]
@@ -173,7 +173,7 @@ these branches diverged.
 
 [source,console]
 ----
-include::./res/branchdiff/diff1.txt[] 
+include::res/branchdiff/diff1.txt[] 
 ----
 
 See <<gitdiffchapter>> for more examples of the `git diff` command.

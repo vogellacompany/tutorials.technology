@@ -64,7 +64,7 @@ Use the following commands to create several new files.
 
 [source,console]
 ----
-include::./res/commandline/first.commands[]
+include::res/commandline/first.commands[]
 ---- 
 
 [[firstgit_repostatus]]
@@ -79,14 +79,14 @@ Run it via the following command.
 
 [source,console]
 ----
-include::./res/commandline/first.status[]
+include::res/commandline/first.status[]
 ---- 
 
 The output looks similar to the following listing.
 
 [source,console]
 ----
-include::./res/commandline/first.output[]
+include::res/commandline/first.output[]
 ---- 
 
 [[firstgit_repoadd]]
@@ -108,7 +108,7 @@ The following listing shows the output of this command.
 
 [source,console]
 ----
-include::./res/commandline/gitrepo_add.result[]
+include::res/commandline/gitrepo_add.result[]
 ----
  
 [[firstgit_changefiles]]
@@ -120,14 +120,14 @@ All new changes must again be staged.
 
 [source,console]
 ----
-include::./res/commandline/gitrepo_changestaged[]
+include::res/commandline/gitrepo_changestaged[]
 ----
 
 Validate that the new changes are not yet staged.
 
 [source,console]
 ----
-include::./res/commandline/gitrepo_changestaged.result[]
+include::res/commandline/gitrepo_changestaged.result[]
 ----
 
 Add the new changes to the staging area.
@@ -142,7 +142,7 @@ Use the `git status` command again to see that all changes are staged.
 
 [source,console]
 ----
-include::./res/commandline/gitrepo_changestaged.finalresult[] 
+include::res/commandline/gitrepo_changestaged.finalresult[] 
 ----
 
 [[firstgit_repocommit]]
@@ -155,7 +155,7 @@ If you leave this parameter out, your default editor is started and you can ente
 
 [source,console]
 ----
-include::./res/commandline/gitrepo_commit[]
+include::res/commandline/gitrepo_commit[]
 ----
 
 [[firstgitresult_results]]
@@ -174,7 +174,7 @@ You see an output similar to the following.
 
 [source,console]
 ----
-include::./res/gitfirst/gitlog-output.txt[]
+include::res/gitfirst/gitlog-output.txt[]
 ---- 
 
 === Viewing the changes of a commit
@@ -220,7 +220,7 @@ be applied to files which are not yet staged or committed.
 
 [source,console]
 ----
-include::./res/deletefile/checkout.txt[]
+include::res/deletefile/checkout.txt[]
 ----
 
 If you use `git status` command to see that there are no changes
@@ -228,7 +228,7 @@ left in the working directory.
 
 [source,console]
 ----
-include::./res/deletefile/checkout_result.txt[]
+include::res/deletefile/checkout_result.txt[]
 ----
 
 [WARNING]

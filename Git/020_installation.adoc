@@ -9,7 +9,7 @@ Git command line tool via the following command:
 
 [source,console] 
 ---- 
-include::./res/installation/ubuntu.txt[]
+include::res/installation/ubuntu.txt[]
 ----
  
 [[installation_fedora]]
@@ -21,7 +21,7 @@ the Git command line tool via the following command:
 
 [source,console] 
 ---- 
-include::./res/installation/fedora.txt[]
+include::res/installation/fedora.txt[]
 ----
 
 [[installation_linux]] 
@@ -34,7 +34,7 @@ following listing contains the commands for the most popular ones.
 
 [source,console] 
 ----
-include::./res/installation/linux.txt[]
+include::res/installation/linux.txt[]
 ----
 
 [[installation_windows]] 
