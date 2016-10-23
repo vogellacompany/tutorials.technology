@@ -27,15 +27,14 @@ git commit --message "This is a message"
 [[git_tools_commandline_doublehyphens]]
 
 === Separating parameters and file arguments in Git commands
+
 (((Separating files and parameter arguments in Git)))
 (((Double hyphen (--) usage in Git)))
 The double hyphens (--) in Git separates out any references or other options from a path (usually file names). 
-For example HEAD has a special meaning in Git. Using double hyphens allows
-you to distinguish between looking at a file called HEAD from a Git
-commit reference called HEAD.
+For example, HEAD has a special meaning in Git. 
+Using double hyphens allows you to distinguish between looking at a file called HEAD from a Git commit reference called HEAD.
 
-In case Git can determine the correct parameters and options
-automatically the double hyphens can be avoided.
+In case Git can determine the correct parameters and options automatically the double hyphens can be avoided.
 
 [source,console]
 ----

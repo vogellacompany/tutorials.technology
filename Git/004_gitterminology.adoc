@@ -4,19 +4,20 @@
 In this part a brief overview of Git is giving. The corresponding Git operations are later covered in detail.
 
 === What is Git?
+
 (((What is Git)))
 _Git_ is currently the most popular implementation of a distributed version control system.
 
 Git originates from the Linux kernel development and was founded in 2005 by Linus Torvalds. 
 Nowadays it is used by many popular open source projects, e.g., the Android or the Eclipse developer teams, as well as many commercial organizations.
 
-The core of Git was originally written in the programming language _C_, but Git has also been re-implemented in other languages, e.g., Java, Ruby and Python.
+The core of Git was originally written in the programming language _C, but Git has also been re-implemented in other languages, e.g., Java, Ruby and Python.
 
 [[gitdefintion_localrepositories]]
 === Git repositories
 
 A Git repository contains the history of a collection of files starting from a certain directory.
-The process of copying an existing Git repository via the Git tooling is called _cloning_.
+The process of copying an existing Git repository via the Git tooling is called _cloning.
 After cloning a repository the user has the complete repository with its history on his local machine. 
 Of course, Git also supports the creation of new repositories.
 
