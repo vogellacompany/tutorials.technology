@@ -125,7 +125,6 @@ a branch again. See <<detachedheadmode>> for details.
 [[tagging_pushtags]]
 === Push tags
 (((Tags/Tagging, pushtag)))
-
 By default the `git push` command does not transfer
 tags to remote repositories. You explicitly have to push the tag with
 the following command.

@@ -190,7 +190,6 @@ http://git-scm.com/docs/git-config[Git config manpage].
 
 === Adding a remote repository
 (((Repository, add more remote repositories)))
-
 You add as many _remotes_ to your repository as
 desired. For this you use the `git remote add` command.
 
@@ -219,7 +218,6 @@ include::res/remoteadd/gitremotepush.txt[]
 
 === Show the existing remotes
 (((Repository, show existing remotes)))
-
 To see the existing definitions of the remote repositories, use the following command.
 
 [source,console]
@@ -243,7 +241,6 @@ git remote -v
 === Push changes to another repository
 (((push)))
 (((git push)))
-
 The `git push` command allows you to send data to
 other repositories. By default it sends data from your current branch to
 the same branch of the remote repository.

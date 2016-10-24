@@ -2,7 +2,6 @@
 
 === What is the Gradle build system?
 (((Gradle)))
-
 image::gradle-logo.png[Gradle logo]
 	
 

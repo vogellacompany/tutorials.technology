@@ -2,8 +2,9 @@
 == Configure files and directories to ignore
 
 [[ignoring-files-and-directories-with-a-.gitignore-file]]
-=== Ignoring files and directories with a .gitignore file (((Ignore files))) (((.gitignore)))
-
+=== Ignoring files and directories with a .gitignore file 
+(((Ignore files))) 
+(((.gitignore)))
 Git can be configured to ignore certain files and directories for repository operations. 
 This is configured via one or several `.gitignore` files. 
 Typically, this file is located at the root of your Git repository but it can also be located in sub-directories. 
@@ -40,8 +41,8 @@ repository so that everyone who clones this repository have it.
 
 
 [[gitignore_untrack]]
-=== Stop tracking files based on the .gitignore file (((.gitignore, remove already committed files)))
-
+=== Stop tracking files based on the .gitignore file 
+(((.gitignore, remove already committed files)))
 Files that are tracked by Git are not automatically removed if you add them to a `.gitignore` file. 
 Git never ignores files which are already tracked, so changes in the `.gitignore` file only affect new files. 
 If you want to ignore files which are already tracked you need to explicitly remove them.

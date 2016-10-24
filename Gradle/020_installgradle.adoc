@@ -1,6 +1,5 @@
 == Installing and configuring Gradle
 (((Gradle, Installation)))
-
 === Requirements
 
 The usage of Gradle requires an JDK (Java Development Kit) installation.

@@ -4,7 +4,6 @@
 [[gitstatus]]
 === Listing changed files
 (((git status)))
-
 The `git status` command shows the current status of your repository and possible actions which you can perform.
 
 It shows which files have changed, which are staged and which are not part of the staging area. 

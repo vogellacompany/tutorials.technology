@@ -194,7 +194,6 @@ image::firstgit-directory10.png[First Git directory, pdfwidth=30%]
 [[firstgit_deletefile]]
 === Remove files
 (((Repository, remove files)))
-
 If you delete a file, you use the `git add .` command to add the deletion of a file to the staging area. 
 
 [source,console]
@@ -241,7 +240,6 @@ The `git checkout` command deletes the  unstaged and uncommitted changes of trac
 === Correct the changes of the commit with git amend
 (((git amend)))
 (((change last commit)))
-
 The `git commit --amend` command makes it possible to rework the changes of the last commit.
 It creates a new commit with the adjusted changes.
 
@@ -275,7 +273,6 @@ If that would be the case, they would need to migrate their work based on the ne
 === Ignore files and directories with the .gitignore file
 (((.gitignore)))
 (((gitignore file)))
-
 Create the following `.gitignore` file in the root of your Git directory to ignore the specified directory and file.
 
 [source,console]

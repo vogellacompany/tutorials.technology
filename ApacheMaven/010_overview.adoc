@@ -37,7 +37,6 @@ The Maven core does	for example not know how to compile Java source code, this i
 [[maven_central]]
 === Maven Central
 (((Maven Central)))
-
 Maven Central is an open repository provided by the company Sonatype. 
 This repository hosts libraries which can be used in your build. 
 By default, a Maven build uses Maven Central to search for required libraries.

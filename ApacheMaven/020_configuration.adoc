@@ -24,7 +24,6 @@ In the _build_ section of th epom you can define plugins for which are needed fo
 === The GAV as project unique identifier - project coordinates
 (((Maven, Coordinates)))
 (((Maven, GAV)))
-
 Maven coordinates define a set of identifiers which can be used to uniquely identify a Maven component.
 This can for example be used to define the exact version of the JUnit test library which should be used for the project.
 These are defined via the groupId, artifactId, version and packaging property.
