@@ -213,7 +213,6 @@ Alternatively you can use the `git rm` command to delete the file from your work
 === Revert changes in files in the working tree
 (((Remove changes in the working tree)))
 (((Undo changes in the working tree)))
-
 Use the `git checkout` command to reset a tracked file (a file that was once
 staged or committed) to its latest staged or commit state. The command
 removes the changes of the file in the working tree. This command cannot
