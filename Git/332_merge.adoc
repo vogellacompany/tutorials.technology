@@ -7,6 +7,9 @@ Git allows you to combine the changes which were created on two different branch
 One way to achieve this is _merging_, which is described in this chapter. 
 You can merge based on branches, tags or commits. Other ways are using rebase or cherry-pick.
 
+This part explains how to merge changes between two different branches under the assumption that no merging conflicts happen.
+Solving conflicts is covered in <<mergeconflict_definition>>.
+
 [[gitmerge_fastforward]]
 === Fast-forward merge
 (((Merging,fast-forward merge)))
@@ -27,7 +30,7 @@ the same commit.
 image::merge_fastforward20.png[Fast forward merge result]
  
 [[gitmerge_mergecommit]]
-== Merge commit
+=== Merge commit
 (((Merging, merge commit)))
 (((Merging, three-way-merge)))
 (((Merging, Merge strategies)))
@@ -50,7 +53,8 @@ For this Git creates a merged tree of the common ancestors and uses that as the 
 This is called the _recursive merge_ strategy and is the default merge strategy.
 
 [[gitmerge_octopus]]
-== Merge strategies - Octopus, Subtree, Ours
+=== Merge strategies - Octopus, Subtree, Ours
+
 (((Merge strategies, Octopus)))
 (((Merge strategies, Subtree)))
 (((Merge strategies, Ours)))
