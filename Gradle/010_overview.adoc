@@ -2,8 +2,8 @@
 
 === What is the Gradle build system?
 (((Gradle)))
+
 image::gradle-logo.png[Gradle logo]
-	
 
 _Gradle_ is an advanced general purpose build management system based on Groovy and Kotlin.
 Gradle supports the automatic download and configuration of dependencies or other libraries. 
