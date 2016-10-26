@@ -45,7 +45,7 @@ commands.
 The generated SSH
 key is by default
 located in the
-<filename class="directory]].ssh`
+`.ssh`
 directory of the user home directory. Ensure that you backup existing
 keys in
 this directory
