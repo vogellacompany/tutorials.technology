@@ -1,4 +1,10 @@
 == PackageDrone resources
 
+https://github.com/eclipse/packagedrone[Package Drone on Github]
+
+https://packagedrone.org/[Package Drone Blog]
+
+https://wiki.eclipse.org/PackageDrone[Package Drone Eclipse Wiki]
+
 https://dzone.com/articles/deploying-package-drone-maven[Deploying to Package Drone with Maven Tycho]
 
