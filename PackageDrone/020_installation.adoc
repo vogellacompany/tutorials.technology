@@ -1,0 +1,52 @@
+== Install Package Drone
+
+=== Installation on unix systems
+
+Package drone offers installers for several unix systems including Ubuntu, CentOs, OpenSuse and others.
+
+Further information about that can be found here: https://wiki.eclipse.org/PackageDrone/Installation
+
+=== Using the plain zip
+
+Download locations
+
+* http://download.eclipse.org/package-drone/drops/release/?d[Package Drone Releases]
+* http://download.eclipse.org/package-drone/drops/milestone/?d[Package Drone Milestones]
+
+After downloading the ZIP it can be extracted and started like a normal OSGi application.
+
+=== Running Package Drone from the Eclipse IDE
+
+Package drone provides an easy to use Oomph setup.
+
+The Oomph installer can be downloaded on: http://download.eclipse.org
+
+After starting the Oomph installer and switching to it's advanced mode the "Eclipse IDE for Eclipse Committers" can be chosen.
+
+image::./oomph-installer-eclipse-comitter.png[]
+
+On the next page of the _Eclipse Installer_ the _Package Drone_ profile has to be chosen.
+
+image::./oomph-installer-package-drone-profile.png[]
+
+When pressing btn:[Next >] some workspace and install settings can be applied.
+
+image::./oomph-installer-settings.png[]
+
+After pressing btn:[Next >] again the profile settings can be seen.
+
+image::./oomph-installer-profile-settings.png[]
+
+When btn:[Finish] is pressed a setup Eclipse IDE containing the Package Drone project is available.
+
+After starting the Eclipse IDE there will be a _runtime_ project to setup the target platform.
+
+There are two ways to download the libs for the target definition:
+
+* Run the _build.ant_ build file of the _runtime_ project with Apache Ant
+* Run a `mvn clean install` build with Apache Maven in the _runtime_ folder on the _pom.xml_
+
+After that the target definition file can be used to set the target platform.
+
+image::./set-target-platform.png[]
+
