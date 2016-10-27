@@ -1,0 +1,24 @@
+== Exercise: Setup Package Drone
+
+To run Package Drone use:
+
+[source, console]
+----
+~$ cd /{package-drone-directory}/
+~$ ./server
+----
+
+By default Package Drone uses `http://localhost:8080/` as URL, which leads to this:
+
+image::./web-package-drone-setup.png[]
+
+The _Sign in_ link can be found on the right hand side of the web page.
+
+In the console should appear something similar to this:
+
+image::./console-package-drone-pw.png[]
+
+This _User_ and _Password_ are supposed to be used to sign in for the very first time.
+
+After the login a new user with _Admin_ and _Manager_ rights should be created.
+
