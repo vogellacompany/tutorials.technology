@@ -50,3 +50,8 @@ After that the target definition file can be used to set the target platform.
 
 image::./set-target-platform.png[]
 
+In order to launch Package Drone from the IDE the _Package Drone Server.launch_ file can be used.
+
+image::./launching-from-IDE.png[]
+
+
