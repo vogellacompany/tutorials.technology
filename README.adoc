@@ -1,5 +1,10 @@
 = Technology tutorials from vogella.com
 
+== Contributions
+
+We gladly and thankfully accept pull requests to improve the content of our tutorials. 
+See https://github.com/vogellacompany/com.vogella.tutorials.technology/blob/master/CONTRIBUTING.adoc[Contributing to this repo] for the legal details.
+
 == How to build
 
 In the root directory the following commands can be used to build different outputs.
