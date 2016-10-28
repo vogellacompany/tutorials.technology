@@ -1,10 +1,10 @@
 <figure>
-== Logo
-
-image::logo.png[]
-		</imageobject>
-		<textobject>
-			<phrase>Our Company Logo</phrase>
-		</textobject>
-	</mediaobject>
+    <mediaobject>
+        <imageobject>
+            <imagedata fileref="images/antview10.gif"/>
+        </imageobject>
+        <textobject>
+            <phrase>Our Company Logo</phrase>
+        </textobject>
+    </mediaobject>
 </figure>
