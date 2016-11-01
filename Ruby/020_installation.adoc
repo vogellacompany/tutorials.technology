@@ -1,9 +1,26 @@
-== Installation of Angular
+== Installation of Ruby
 	
-For Angular you need node.js and npm installed
+=== With rbenv
+* https://github.com/rbenv/rbenv#basic-github-checkout and install by cloning the github repository
 
-* https://nodejs.org/en/download/ and install node.js (LTS) and npm for your system.
+* https://github.com/rbenv/ruby-build#installing-as-an-rbenv-plugin-recommended clone for ruby build capabilities
 
-Ubuntu Users you can use  please pay special attention, since you might need to install additional packages 'nodejs-legacy' and 'npm').
+Add this to your bash file (ubuntu: ~/.bashrc) and restart your console:
+----
+eval "$(rbenv init -)"
+----
 
-You can check whether you correctly installed both node and npm by opening a terminal and executing 'node' and 'npm' respectively.
+Install build dependencies:
+----
+> apt-get install autoconf bison build-essential libssl-dev libyaml-dev libreadline6-dev zlib1g-dev libncurses5-dev libffi-dev libgdbm3 libgdbm-dev
+----
+
+Install newest ruby version:
+----
+> rbenv install 2.3.1
+----
+
+Set default ruby version to 2.3.1:
+----
+> rbenv global 2.3.1
+----

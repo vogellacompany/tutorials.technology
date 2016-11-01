@@ -1,4 +1,4 @@
-== Angular 
+== Ruby
 
-Framework for declaring expressive dynamic views in HTML
+A dynamic, reflective, object-oriented, general-purpose programming language.
 
