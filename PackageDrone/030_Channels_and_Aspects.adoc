@@ -1,0 +1,10 @@
+== Channels and Aspects
+
+A Channel is a binary repository instance, where binary files like *.jar files can be deployed to.
+
+Package Drone provides 3 channel types:
+
+* Plain Channel
+* APT Channel
+* RPM Channel
+

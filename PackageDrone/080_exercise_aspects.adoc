@@ -1,0 +1,7 @@
+== Exercise: Using Aspects
+
+=== Exercise: The Maven Aspect
+
+=== Exercise: The P2 Aspect
+
+
