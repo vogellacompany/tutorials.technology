@@ -1,0 +1,9 @@
+== Installation of Angular
+	
+For Angular you need node.js and npm installed
+
+* https://nodejs.org/en/download/ and install node.js (LTS) and npm for your system.
+
+Ubuntu Users you can use  please pay special attention, since you might need to install additional packages 'nodejs-legacy' and 'npm').
+
+You can check whether you correctly installed both node and npm by opening a terminal and executing 'node' and 'npm' respectively.

@@ -1,0 +1,19 @@
+= Rubz - Tutorial
+:linkcss:
+:sectnums:                                                          
+:experimental:
+:icons:
+:imagesdir: ./img
+Fabian Pfaff (c) 2016 vogella GmbH
+Version 0.1, 01.11.2016		
+:docinfodir: ../
+:vgwort: Ruby
+
+Some notes about Ruby
+			
+include::010_overview.adoc[]
+include::020_installation.adoc[]
+include::../support.adoc[]
+include::008_resourceslocal.adoc[]
+include::../copyright.adoc[]
+
