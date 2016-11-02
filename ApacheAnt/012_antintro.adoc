@@ -6,75 +6,30 @@
 
 _Apache Ant_ (Ant) is a general purpose build tool. Ant is an abbreviation for _Another Neat Tool_.
 
-Ant
-is primarily used for building and deploying
-Java
-projects but
-can be
-used for every possible repetitive tasks, e.g. generating
-documentation.
+Ant is primarily used for building and deploying Java projects but can be used for every possible repetitive tasks, e.g. generating documentation.
 
 [[antoverview_definition]]
 === Configuring Apache Ant
 
-A Java build
-process typically includes:
+A Java build process typically includes:
 
 * the compilation of the Java source code into Java bytecode
 * creation of the .jar file for the distribution of the code
 * creation of the Javadoc documentation
 
-Ant
-uses an
-`xml`
-file for its configuration. The default file name is
-`build.xml`.
-Ant
-builds are based on three blocks:
-_tasks_,
-_targets_
-and
-_extension points_.
+Ant uses an `xml` file for its configuration. 
+The default file name is `build.xml`.
+Ant builds are based on three blocks: _tasks_, _targets_ and _extension points_.
 
-A
-task
-is a unit of work which should be performed and
-are small,
-atomic
-steps,
-for example compile source code or create
-Javadoc.
-Tasks
-can be grouped into
-targets.
+A task is a unit of work which should be performed and constitutes of small atomic steps, for example compile source code or create Javadoc.
+Tasks can be grouped into targets.
 
-A
-target
-can be directly invoked via Ant.
-Targets
-can
-specify their
-dependencies.
-Ant
-will automatically execute all dependent
-targets.
+A target can be directly invoked via Ant.
+Targets can specify their dependencies.
+Ant will automatically execute all dependent targets.
 
-For example if
-target
-A
-depends on
-B and Ant is instructed to run A,
-it first runs B before running A.
+For example if target A depends on B and Ant is instructed to run A, it first runs B before running A.
 
-In your
-`build.xml`
-file you can
-specify
-the default
-target.
-Ant
-executes
-this target, if no
-explicit target
-is specified.
+In your `build.xml` file you can specify the default target.
+Ant executes this target, if no explicit target is specified.
 

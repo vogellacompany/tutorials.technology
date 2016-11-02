@@ -4,11 +4,8 @@
 [[usefulanttasks_fail]]
 === fail
 
-Ant provides the
-`fail`
-task which allows to fail the build if a condition is not met. For
-example the following task would check for the existing of a file and
-if this file is present the build would fail.
+Ant provides the `fail` task which allows to fail the build if a condition is not met. 
+For example the following task would check for the existence of a file and if this file is not present the build would fail.
 
 [source,java]
 ----

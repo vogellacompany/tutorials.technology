@@ -24,7 +24,7 @@ The error log of Apache is located in the `/var/log/apache2/error.log` file.
 [[apachehttp_mpm]]
 === Multi-Processing-Module (MPMs)
 
-Apache HTTP can be running in different modes. 
+Apache HTTP can run in different modes. 
 These modes determine how the web requests of users are answered. 
 There are called http://httpd.apache.org/docs/2.4/mpm.html[Multi-Processing-Module (MPMs)].
 
@@ -37,7 +37,7 @@ sudo apachectl -V | grep -i mpm
 The configuration for the event mpm is stored in `/etc/apache2/mods-available/mpm_event.conf`. 
 Configure only the module which your server is using. 
 
-The following listing shows a configuration for a high traffic web server using the event module
+The following listing shows a configuration for a high traffic web server using the event module.
 
 [source]
 ----
@@ -46,7 +46,8 @@ include::res/snippets/event.txt[]
 	
 === Checking for Apache HTTP problems
 
-The `error.log` file contains the error messages of the Apache HTTP server. For example to check for too many simultaneous request you can run.
+The `error.log` file contains the error messages of the Apache HTTP server. 
+For example to check for too many simultaneous request you can run.
 
 [source]
 ----
@@ -60,9 +61,9 @@ grep MaxClients /var/log/apache2/error.log
 === Apache Configuration via .htaccess
 
 Use the file ".htacess" to configure certain behavior of Apache HTTP. 
-One major application of this file is to redirect URL to other URL's.
+One major application of this file is to redirect an URL to other URL's.
 
-The following .htacess file reroutes that http://vogella.com to http://www.vogella.com. 
+The following .htacess file reroutes http://vogella.com to http://www.vogella.com. 
 It also redirect access to a certain webpage (/articles/SpringFramework/article.html) to another webpage via a 301 redirect. 
 The 301 redirect will tell search engines that this side has moved and is the recommended way to move webpages.
 
@@ -73,10 +74,9 @@ include::res/htaccess_config/htaccess.reroute[]
 
 [[apachehttp_modules]]
 === Using modules on Apache Http
+
 Apache Http supports the usage of modules. 
 To enable  modules use the `a2enmod` command, e.g. `a2enmod rewrite` to enable the rewrite module.
-
-
 
 [[apachehttp_compression]]
 === Performance - Turn on gzip compression
@@ -89,7 +89,7 @@ This requires the Apache module "mod_deflate" which can be installed by the foll
 include::res/compress2/compress_module.txt[]
 ----
 
-The compression can be activate in the default configuration file for this module located in /etc/apache2/mods-available/deflate.conf or via your ".htaccess" file.
+The compression can be activated in the default configuration file for this module located in /etc/apache2/mods-available/deflate.conf or via the ".htaccess" file.
 
 [source]
 ----
@@ -118,15 +118,15 @@ sudo a2enmod rewrite
 [[apachehttp_email]]
 === Configuring your server to send out emails
 
-In case you want to send out emails from your PHP sides you have to configure an email client. 
-A simple one is exim4, a setup description can be found under the following links: https://help.ubuntu.com/community/Exim4 and https://wiki.debian.org/GmailAndExim4 
+In case you want to send out emails from your PHP sites you have to configure an email client. 
+A simple one is exim4, a setup description can be found under the following links: https://help.ubuntu.com/community/Exim4 and https://wiki.debian.org/GmailAndExim4.
 
 [source]
 ----
 sudo apt-get install exim4
 ----
 
-Here is an example /etc/exim4/update-exim4.conf.conf file
+Here is an example /etc/exim4/update-exim4.conf.conf file.
 
 [source]    
 ----
@@ -154,16 +154,19 @@ Afterwards you need to enable the new configuration with the following command.
 
 [source]    
 ----
+TODO
 ----
+
 [[apachehttp_pagespeed]]
 === Using the pagespeed module
 
-You should also install he pagespeed module from Google, as this compresses the content of the website and results in a mucher faster download.
+You should also install the pagespeed module from Google, as this compresses the content of the website and results in a much faster download.
 See http://tecadmin.net/install-apache2-with-mod-pagespeed-on-ubuntu/ for the setup.
-
 
 [[apachehttp_migration]]
 === Migration of servers
 
 In case you are migrating your server from one server to another you can tell your local computer to resolve to the new server, even though you did not yet change the DNS setting. 
-This way you can test if the new server works fine. 
+This way you can test if the new server works fine.
+
+ 

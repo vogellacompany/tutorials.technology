@@ -1,27 +1,20 @@
 == Configuration of Artifactory
 
-Once an Artifactory instance is running its web interface can be accessed under this URL:
-http://localhost:8081/artifactory/webapp/
+Once an Artifactory instance is running its web interface can be accessed under this URL: http://localhost:8081/artifactory/webapp/.
 
 === User Settings
 
 The default user is `admin` and the password is `password`.
 
-
 === Repositories in Artifactory
 
 Artifactory contains some repositories by default:
 
-
 image::artifactory-artifacts-ui.png[]
-
 
 The _Set Me Up_ link gives guidance how to setup your build tools like Maven or Gradle.
 
-
 image::artifactory-ui-set-me-up.png[]
 
-
 But concerning build tool configuration refer to the http://www.vogella.com/tutorials/ApacheMaven/article.html[Maven] and http://www.vogella.com/tutorials/Gradle/article.html[Gradle] tutorials.
-
 

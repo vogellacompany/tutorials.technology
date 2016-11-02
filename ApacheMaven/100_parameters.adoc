@@ -3,7 +3,7 @@
 
 The following table lists useful Maven parameters.
 
-.Table Maven build parameters
+.Maven build parameters
 |===
 |Parameter |Description
 
@@ -13,3 +13,4 @@ The following table lists useful Maven parameters.
 |--debug
 |Outputs more information during the build process
 |===
+

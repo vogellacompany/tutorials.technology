@@ -4,7 +4,7 @@
 [[maven_repositories]]
 === Maven repositories
 
-During the initial phase of a build Maven validates  if you have the specified version of all required artifact dependencies and Maven plug-ins.
+During the initial phase of a build Maven validates if you have the specified version of all required artifact dependencies and Maven plug-ins.
 If required, it retrieves them from a Maven repository. 
 A repository is a collection of project artifacts stored in a directory structure similar to the Maven coordinates of the project.
 		
@@ -20,7 +20,7 @@ If you run the `mvn install` command, the generated artifacts are installed into
 [[maven_dependencyresolution]]
 === Maven dependency resolution and Maven reactor
 
-Every project can define dependencies using the unique	identifier (GAV) of the component it required to compile.
+Every project can define dependencies using the uniqueidentifier (GAV) of the component it required to compile.
 		
 [source,xml]
 ----
@@ -30,7 +30,7 @@ include::res//dependencies/dep.txt[]
 During a build, the Maven system tries to resolve the dependencies of the modules which are build. 
 To resolve dependencies, Maven uses the following sources in the given order:
 
-* Project which are included in the same Maven run (the so called Maven _reactor_)
-* local repository
+* Projects which are included in the same Maven run (the so called Maven _reactor_)
+* Local repository
 * Maven central repository
 		

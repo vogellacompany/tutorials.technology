@@ -6,8 +6,7 @@
 
 Maven supports the usage of profiles to define different configurations. 
 If you start Maven, you can instruct it to use a certain profile.
-For this you specify the `-P` parameter followed directly (without whitespace) by the profile. 
-For example, `-PyourProfile`.
+For this you specify the `-P` parameter followed directly (without whitespace) by the profile, e.g. `-PyourProfile`.
 
 [source,xml]
 ----
@@ -42,12 +41,12 @@ include::res/properties/commandline.txt[]
 [[maven_properties_usefulproperties]]
 === Useful properties
 
-.Table Useful properties
+.Useful properties
 |===
 |Property |Description
 
 |skipTests
-|true or false, specifies if tests should be executed or now
+|true or false, specifies if tests should be executed or not
 
 |showWarnings
 |true or false, defines if the Maven build shows the compiler warnings

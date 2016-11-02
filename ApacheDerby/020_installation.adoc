@@ -3,7 +3,8 @@
 
 Download the latest Derby version from the Apache website http://db.apache.org/derby/. 
 Choose the bin distribution and extract this zip to a directory of your choice. 
-Also make the Derby tools available in your path via the following:
+
+Also make the Derby tools available in your path:
 
 * Set the environment variable DERBY_HOME to the Derby installation directory
 * Add DERBY_HOME/bin to the "path" environment variable

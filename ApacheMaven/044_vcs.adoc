@@ -1,7 +1,6 @@
 [[maven_vcs]]
 == Maven and version control systems
 
-	
 Maven generates its output into the _target_ folder of each project. 
 This build output should not get included into your version control system.
 	

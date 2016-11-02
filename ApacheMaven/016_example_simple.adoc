@@ -9,7 +9,7 @@ In this exercise you create a Java project with the Maven command line and build
 In this project we use the scaffolding functionality of Maven to create a Java project.
 To avoid the interactive mode, all required properties are passed directly to the command. 
 Otherwise Maven asks for all the required parameters.
-Enter the following into your command shell into one line (the backslash masks the line breaks).
+Enter the following into one line in the command shell(the backslash masks the line breaks).
 
 [source,console]
 ----
@@ -48,7 +48,6 @@ include::res/excercise_maven/pom.xml[]
 [[exercise_maven_compile]]
 === Compile your sources
 
-
 Now you want to compile your Java sources. 
 For this switch on the command line into our projects root directory and trigger the following Maven command.
 
@@ -56,15 +55,13 @@ For this switch on the command line into our projects root directory and trigger
 ----
 include::res/excercise_maven/compile.txt[]
 ----	
-
 		
-Maven now run through all life cycle phases, which were needed by the `compile` phase. 
+Maven now runs through all life cycle phases, which were needed by the `compile` phase. 
 It resolves the dependencies, loads the JUnit artifact and built the sources. 
 It even executed the JUnit test.
 
 [[exercise_maven_package]]
 === Create a JAR file
-
 
 Now you want to create an executable JAR file out of our project. 
 The `package` goal creates a deployable JAR file.
@@ -75,7 +72,6 @@ To ensure previous build artifacts are removed, you can use the `clean` goal.
 ----
 mvn clean package
 ----
-		
 
 Afterwards you can run the packed program. 
 
@@ -83,13 +79,11 @@ Afterwards you can run the packed program.
 ----
 include::res/excercise_maven/execute_result.txt[]
 ----
-
 		
 [source,console]
 ----
 include::res/excercise_maven/package.txt[]
 ----
-	
 	
 === Running the test 
 
@@ -108,3 +102,4 @@ To clean the project and so remove the generated files in the _./target/_ folder
 ----
 include::res/excercise_maven/clean.txt[]
 ----		
+

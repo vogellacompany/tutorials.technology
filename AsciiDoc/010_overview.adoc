@@ -4,7 +4,8 @@
 
 AsciiDoc is a text document format for writing notes, documentation, articles, books, ebooks, slideshows, web pages, man pages and blogs. 
 AsciiDoc files can be translated via the Asciidoctor toolchain to many formats including HTML, PDF, EPUB, DocBook and man page.
-Any text editor can be used. Some websites, like Github, render AsciiDoc files directly into HTML.
+Any text editor can be used. 
+Some websites, like Github, render AsciiDoc files directly into HTML.
 
 The following listing is an example of a simple Asciidoc file.
 
@@ -31,7 +32,6 @@ Please vote for the following issues at Github:
 
 image::vote-asciidoc-issue.png[Vote for issue]
 
-
 === Install2 the Asciidoctor toolchain
 
 If you want to use Asciidoctor directly you have to install its toolchain. 
@@ -49,11 +49,10 @@ sudo apt-get install -y asciidoctor
 
 Try to write one sentence per line. 
 This allows you to search this sentence easily and ensure you use concise descriptions which are easy to read.
-This may you can also easily move sentence around in your favorite text editor.
+This also makes it easy to move sentence around in your favorite text editor.
 
 Based on personal experience this rule makes a great difference in the generated text. 
-It helps you to avoid complex sentence structures and this help to reduce redundancy in your text.
-
+It helps you to avoid complex sentence structures and helps to reduce redundancy in your text.
 
 == Basic document features
 
@@ -86,7 +85,8 @@ kbd:[&#43; + SPACE]
 
 === Importing files or file includes
 
-You can import files via the include macro. This also works for source code includes. 
+You can import files via the include macro. 
+This also works for source code includes. 
 To use ---- in your listing use the [listing] style before that. 
 The following example imports a file formatted as Java source code.
 Via the `leveloffset` attribute you can change the section offset, for example a `=` section will become `==` if you add the following statement `:leveloffset: 1`.
@@ -172,7 +172,6 @@ Result:
 * Application with its configuration
 ====
 
-
 Numbered lists start with the .
 
 [source]
@@ -195,8 +194,7 @@ Result:
 . Application with its configuration
 ====
 
-Additional paragraphs, blocks, images, source code, etc. are adjoined to a list element by putting
-a plus sign (+) on a line adjacent to both blocks.
+Additional paragraphs, blocks, images, source code, etc. are adjoined to a list element by putting a plus sign (+) on a line adjacent to both blocks.
 
 [source]
 ....
@@ -214,10 +212,11 @@ Result:
 image::vote-asciidoc-issue.png[]
 ====
 
-
 === Menus and Buttons
 
-You can define menus and buttons with the following syntax. This requires the activation of an experimental feature, via the *:experimental:* attribute in the header section of your document.
+You can define menus and buttons. 
+This requires the activation of an experimental feature, via the *:experimental:* attribute in the header section of your document.
+
 ----
 menu:View[Zoom > Reset]
 
@@ -232,7 +231,7 @@ Press the btn:[OK] button when you are finished.
 
 === Keyboard shortcuts
 
-You can also define keyboard shortcuts the the `kbd` macro, as demonstrated via the following macro.
+You can also define keyboard shortcuts with the `kbd` macro.
 
 ----
 kbd:[Alt+F11] - Toggle Full Screen Mode in the Eclipse IDE
@@ -244,7 +243,8 @@ kbd:[Alt+F11] - Toggle Full Screen Mode in the Eclipse IDE
 
 === Images and Graphics
 
-To reference images in your AsciiDoc with the `image::` macro pointing to a relative file location. Use brackets to define a fixed or related size.
+To reference images in your AsciiDoc with the `image::` macro pointing to a relative file location. 
+Use brackets to define a fixed or related size.
 
 ----
 image::vogellacompany.jpg[200,200]

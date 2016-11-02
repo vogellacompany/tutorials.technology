@@ -4,13 +4,8 @@
 [[classpath_setting]]
 === Setting the Ant classpath
 
-Ant allows to create classpath containers and use them in
-tasks. The
-following
-`build.xml`
-from a project called
-_de.vogella.build.ant.classpath_
-demonstrates this.
+Ant allows to create classpath containers and use them in tasks. 
+The following `build.xml` from a project called _de.vogella.build.ant.classpath_ demonstrates this.
 
 [source,xml]
 ----
@@ -20,12 +15,8 @@ include::res/classpath/build.xml[]
 [[classpath_print]]
 === Print
 
-You can use the following statements to write the full classpath
-to the
-console. You can
-use this to
-easily verify if the classpath is
-correct.
+You can use the following statements to write the full classpath to the console. 
+You can use this to easily verify if the classpath is correct.
 
 [source,text]
 ----

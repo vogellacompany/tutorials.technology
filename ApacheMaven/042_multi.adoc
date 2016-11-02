@@ -11,3 +11,4 @@ include::res/multiple/pom.xml[]
 ----
 
 The packaging type of such a POM is pom, as such a project will not result in any build output.
+

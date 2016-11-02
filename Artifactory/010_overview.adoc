@@ -2,18 +2,16 @@
 
 === What is a Repository Manager?
 
-An repository manager allows to store and retrieve build artifacts.
+A repository manager allows to store and retrieve build artifacts.
 You can use a repository manager to retrieve your code dependencies, for example during a Gradle or Maven build.
 The most popular examples for repository manager are http://search.maven.org[Maven Central Repository] and https://bintray.com/bintray/jcenter[jcenter at Bintray].
-
 	
 === What is Artifactory?
 
-A Artifactory installation brings such a repository for your company. 
+An Artifactory installation brings such a repository for your company. 
 So you can host your own repositories, but also use Artifactory as a proxy for public repositories. 
 With such a proxy the time to receive an artifact is reduced and it saves ﻿bandwidth.
 Artifactory allows you to host your private build artifacts.
 
-
-Artifactory is available as https://www.jfrog.com/artifactory/free-trial[Commercial version] and https://www.jfrog.com/open-source/[Open Source distribution].
+Artifactory is avaalable as a https://www.jfrog.com/artifactory/free-trial[commercial version] and as an https://www.jfrog.com/open-source/[Open Source distribution].
 

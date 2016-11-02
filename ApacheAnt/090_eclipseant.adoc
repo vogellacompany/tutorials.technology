@@ -1,13 +1,12 @@
 ﻿[[eclipseant]]
 == Eclipse Ant Editor
 	 
-Eclipse has an ant editor which make the editing of ant file
-very easy by providing syntax checking of the build file. Eclipse has
-also a ant view. In this view you execute ant files via
-double-clicking on the target.
+Eclipse has an ant editor which makes the editing of ant files very easy by providing syntax checking of the build file. 
+Eclipse has also an ant view. 
+In this view you execute ant files via double-clicking on the target.
 	
 image::antview10.gif[]
 
 TIP: By default Eclipse uses the ant version which ships with Eclipse. 
-Via the menu:preference Ant[Runtime > Ant Home] you can configure the version of Ant Eclipse should be using.
+Via the menu:preference Ant[Runtime > Ant Home] you can configure which version of Ant Eclipse should use.
 	

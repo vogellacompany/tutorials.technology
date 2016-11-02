@@ -16,3 +16,4 @@ include::res/simple/pom2.xml[]
 ----
 
 image:mavenexecute10.png[Output of Maven]
+

@@ -30,5 +30,3 @@ For example, running `mvn versions:display-dependency-updates` for a project mig
 
 image::display-dependency-updates.png[﻿The display-dependency-updates goal of the versions maven plugin]
 		
-	
-	

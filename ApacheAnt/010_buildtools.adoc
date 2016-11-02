@@ -1,42 +1,14 @@
 [[antoverview]]
 == Build tools
 	
-In software development the term
-_building_
-usually means the conversion of source code and other artifacts, like images or configuration files, into another
-artifact. For example source code might be compiled into a JAR file. Or you may create a new standalone application.
-The build result can
-be shared with
-users of the
-software or used only internally.
+In software development the term _building_ usually means the conversion of source code and other artifacts, like images or configuration files, into another artifact. 
+For example source code might be compiled into a JAR file, or you may create a new standalone application.
+The build result can be shared with users of the software or used only internally.
+
+A _build tool_ is used to automate repetitive tasks during this process. 
+This can be, for example, compiling source code, running software tests and creating files and documentation for the software deployment.
 	
-A
-_build tool_
-is
-used to
-automate repetitive tasks during this process. This
-can be, for example,
-compiling
-source code,
-running
-software
-tests and
-creating
-files and
-documentation
-for the
-software
-deployment.
+Build tools typically run without a graphical user interface directly from the command line. As a user interface is not required for such builds, these builds are called _headless_.
 	
-Build
-tools typically run without a graphical user interface
-directly from the command line. As a user interface is not
-required to such builds, these builds are called
-_headless_.
-	
-Popular build tools in the Java space are
-_Maven_
-and
-_Gradle_
-and _Apache Ant_.
+Popular build tools in the Java space are _Maven_, _Gradle_ and _Apache Ant_.
 

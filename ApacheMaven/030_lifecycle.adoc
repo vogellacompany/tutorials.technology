@@ -16,7 +16,7 @@ The goals are executed based on the information found in the pom of the project,
 === Maven life cycle
 		
 Every build follows a specified	_life cycle_. 
-Maven comes with a default life cycle that includes the most common build _phases_ like compiling,testing and packaging.
+Maven comes with a default life cycle that includes the most common build _phases_ like compiling, testing and packaging.
 		
 The following lists gives an overview of the important Maven life cycle phases.
 					
@@ -31,7 +31,7 @@ The following lists gives an overview of the important Maven life cycle phases.
 		
 For a complete list of the Maven phases see http://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html.
 		
-If you instruct Maven to execute a phase, it executes all existing phases in the pre-defined sequence until has executed the defined phase.
+If you instruct Maven to execute a phase, it executes all existing phases in the pre-defined sequence until it has executed the defined phase.
 All relevant goals are executed during this process. 
 A goal is relevant for a phase if the Maven plug-in or the pom binds this goal to the corresponding life cycle phase.
 
@@ -41,7 +41,7 @@ A goal is relevant for a phase if the Maven plug-in or the pom binds this goal t
 Each packaging contains a list of bindings for goals to a particular life cycle phase. 
 For example, the jar packaging binds the following goals to the life cycle phases.
 
-.Table Packaging goal
+.Packaging goal
 |===
 |Life cycle phase |Goal binding
 
@@ -73,7 +73,7 @@ For example, the jar packaging binds the following goals to the life cycle phase
 [[maven_packagesgoalbindings2]]
 === Adding goals to life cycle phases
 
-You can add goals to life cycle phases by configure more Maven plug-ins and add them to a life cycle in your pom file. 
+You can add goals to life cycle phases by configuring more Maven plug-ins and adding them to a life cycle in your pom file. 
 You need to specify which goal should be executed. 
 If the plug-in does not specify the default life cycle it should run, you must also specify the life cycle phase it should run.
 		
@@ -81,3 +81,4 @@ If the plug-in does not specify the default life cycle it should run, you must a
 ----
 include::res/plugin/addgoal.txt[]
 ----
+

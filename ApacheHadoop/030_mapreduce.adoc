@@ -1,8 +1,6 @@
 [[mapreduce]]
 == MapReduce
 
-Apache Hadoop jobs are working according to the MapRecude principle.
-See
-http://www.vogella.com/tutorials/MapReduce/article.html[MapReduce]
-for details. 
+Apache Hadoop jobs work according to the MapRecude principle.
+See http://www.vogella.com/tutorials/MapReduce/article.html[MapReduce] for details. 
 

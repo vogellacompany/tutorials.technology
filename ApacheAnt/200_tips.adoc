@@ -22,10 +22,8 @@ include::res/tips/use.txt[]
 [[tips_regularexpressions]]
 === Regular expressions
 
-Ant can be used to replace text based on regular expressions. The
-following
-_Ant Target_
-replaces tabs with double spaces.
+Ant can be used to replace text based on regular expressions. 
+The following _Ant Target_ replaces tabs with double spaces.
 
 [source,xml]
 ----

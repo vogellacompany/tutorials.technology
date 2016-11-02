@@ -6,7 +6,7 @@
 
 Maven provides a command line tool. 
 
-To build via the command line a Maven project, run the `mvn` command from the command line. 
+To build a Maven project via the command line, run the `mvn` command from the command line. 
 The command should be executed in the directory which contains the relevant pom file.
 You need to provide the `mvn` command with the life cycle phase or goal to execute.
 		
@@ -14,14 +14,13 @@ The Maven tooling reads the pom file and resolves the dependencies of the projec
 Maven validates if required components are available in a local repository.
 The local repository is found in the _.m2/repository_ folder of the  users home directory.
 
-If the dependency is not available in the build reactor or the local repo, 
-Maven downloads the depended artifacts from the central repository or the specifid ones into the local repository.
+If the dependency is not available in the build reactor or the local repo,  Maven downloads the depended artifacts from the central repository or the specified ones into the local repository.
 	
 Maven executes all life cycle phases until the specified one.
 
 For example the `mvn clean install` command triggers the jar packaging. 
 This includes compiling the sources, executing the tests and packaging the compiled files in a JAR file.
-As last step the `install` phase installs the the resulting artifact into the local repository, so it can be used as dependencies by other Maven builds.
+As last step the `install` phase installs the resulting artifact into the local repository, so it can be used as dependencies by other Maven builds.
 		
 Maven creates the build result in the _target_ folder.
 		
@@ -30,7 +29,7 @@ Maven creates the build result in the _target_ folder.
 mvn install	# <1>
 ----
 
-<1> compiles, build and install the build result
+<1> compile, build and install the build result
 		
 To ensure that the build target is removed before a new build, add the `clean` target.
 	
@@ -53,27 +52,22 @@ mvn -o clean install
 If you are running a complex multi-module project build, you can define how the Maven build system should react to errors in one module.
 
 * -fae, --fail-at-end - fails the build after all modules are build; allow all non-impacted builds to continue
-				
 * -ff, --fail-fast - Stop at first module build failure
-				
 * -fn, --fail-never - NEVER fail the build, regardless of module build result
-				
 			
-The -fn and -fae options are useful to verify builds that are running within a continuous integration tool like bJenkins to see all errors in the build.
-
+The -fn and -fae options are useful to verify builds that are running within a continuous integration tool like Jenkins and to see all errors in the build.
 
 [[maven_scaffolding]]
 === Scaffolding a project with Maven
 	
 Maven supports project scaffolding, based on project templates (called _archtype_).
 This is provided by the _archetype_	plug-in. 
-Maven provides archetypes for almost anything,  from a simple Java application to a complex web application,.
+Maven provides archetypes for almost anything, from a simple Java application to a complex web application.
 
 The goal of this scaffolding is to allow a fast start into the Maven world.
 It provides the "standardized" folder structure of software projects.
 	
-	
-You can create a project by executing the generation _goal_ on the archetype plugin via the following command:
-`mvn archetype:generate`.
+You can create a project by executing the generation _goal_ on the archetype plugin via the following command: `mvn archetype:generate`.
 	
 This starts the generation process in the interactive mode and asks you for several settings.
+

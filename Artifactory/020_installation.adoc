@@ -6,12 +6,10 @@ Even a Docker image can be used to run Artifactory.
 	
 image::artifactory-download.png[]
 	
-	
 The ZIP version can be extracted into an arbitrary folder, e.g., the user home directory `${user-home}/artifactory`.
 	
 Inside the extracted folder there is a `bin` folder, which contains startup files suitable for Linux/Mac and Windows.
 For Linux/Mac the `artifactory.sh` can be executed to startup a local Artifactory instance and for Windows the `artifactory.bat` can be executed.
 	
-	
-Inside the `bin` folder are other options to run Artifactory, for examples it also can be run as a service.
+Inside the `bin` folder there are other options to run Artifactory, for examples it also can be run as a service.
 	

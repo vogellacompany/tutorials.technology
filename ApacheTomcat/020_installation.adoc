@@ -14,7 +14,5 @@ include::res/install/installtomcat[]
 [[installation_windows]]
 === Windows
 
-Download the Windows installer for Tomcat7 from the
-http://tomcat.apache.org/[Apache Tomcat Homepage]
-and run the installer.
+Download the Windows installer for Tomcat7 from the http://tomcat.apache.org/[Apache Tomcat Homepage] and run the installer.
 

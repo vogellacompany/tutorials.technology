@@ -6,29 +6,28 @@
 (((Maven,GAV)))
 (((Maven,pom)))
 (((Maven,Project Object Model)))
-		
 The configuration of a Maven project is done via a _Project Object Model_ (POM). 
 This model is typically represented by a _pom.xml_ file. 
-This Maven configuration file is called the pom file
+This Maven configuration file is called the pom file.
 		
 The pom file describes the project, configures plugins, and declares dependencies. 
 It names the project and provides a set of unique identifiers (called coordinates) for a project. 
-It also  defines the relationships between this project and others through  dependencies, parents, and prerequisites.
+It also  defines the relationships between this project and others through dependencies, parents, and prerequisites.
 		
 A multi project pom file includes a _modules_ section.
 This section tells Maven which project are part of the build.
 		
-In the _build_ section of th epom you can define plugins for which are needed for the build.
+In the _build_ section of the pom you can define plugins for which are needed for the build.
 
 [[maven_configuration_coordinates]]
 === The GAV as project unique identifier - project coordinates
 (((Maven, Coordinates)))
 (((Maven, GAV)))
-Maven coordinates define a set of identifiers which can be used to uniquely identify a Maven component.
+Maven coordinates and defines a set of identifiers which can be used to uniquely identify a Maven component.
 This can for example be used to define the exact version of the JUnit test library which should be used for the project.
 These are defined via the groupId, artifactId, version and packaging property.
 		
-.Table Coordinate attributes
+.Coordinate attributes
 |===
 |Name |Description
 
@@ -45,13 +44,12 @@ If you generate a new project via Maven this is also used as root folder for the
 |Defines the packaging method. 
 This could be e.g. a jar, war or ear file. 
 If the packaging type is pom, Maven does not create anything for this project, it is just meta-data.
+
 |version
 |This defines the version of the project.
 |===
 		
-
-A project’s groupId:artifactId:version (also known as GAV) make that project unique.
-		
+The project `groupId:artifactId:version` (also known as GAV) makes that project unique.
 		
 The full Maven coordinates are often written in the following format: groupId:artifactId:packaging:version.
 		
@@ -61,10 +59,11 @@ Maven always executes against an _effective pom_.
 This is a combination of settings from this project’s pom.xml, all parent pom, a super-pom defined within Maven, user-defined settings, and active profiles.
 		
 The result of a build is called _artifact_.
-An artifact, for example,can be an executable or an archive of documents.
+An artifact can be for example an executable or an archive of documents.
 
 [[maven_polyglot]]
 == Maven Polyglot
 
-_Polyglot for Maven_ is a Maven feature that  allows the expression of a pom file in something other than XML.
+_Polyglot for Maven_ is a Maven feature that allows the expression of a pom file in something other than XML.
 For example, you can specify the build information in the Groovy, Ruby or Scala programming language.
+

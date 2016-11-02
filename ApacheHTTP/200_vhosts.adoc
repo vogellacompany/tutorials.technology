@@ -11,14 +11,14 @@ This allows you to have one Apache HTTP web server running on one IP serving mul
 [[apachehttp_vhostsconfiguration]]
 === How to configure vhosts under Ubuntu
 
-Under Ubuntu you create a configuration file in the `/etc/apache2/sites-available` folder, for example the `www.vogella.com</filename`.
+Under Ubuntu you create a configuration file in the `/etc/apache2/sites-available` folder, for example the `www.vogella.com.filename`.
 
 [source]
 ----
-include::examples/vhosts/www.vogella.com[]
+include::res/vhosts/www.vogella.com[]
 ----
 
-You enable or disable virtual hosts the following command.
+You enable or disable virtual hosts with the following command.
 
 [source]
 ----
@@ -30,3 +30,4 @@ sudo a2dissite www.vogella.com
 ----
 
 After enabling sites you have to reload the Apache HTTP server configuration with the `sudo service apache2 reload` command.
+
