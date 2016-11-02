@@ -3,16 +3,17 @@
 
 [[remotes_definition]]
 === What are remotes?
+
 (((Repository, remote)))
 (((Remote repositories)))
-_Remotes_ are URLs in a Git
-repository to other remote repositories that are hosted on the Internet,
-locally or on the network.
+Git allows that you can synchronize your repository with more than one remote repository.
 
-Such remotes can be used to synchronize the changes of several Git
-repositories. A local Git repository can be connected to multiple remote
-repositories and you can synchronize your local repository with them via
-Git operations.
+In the local repository you can address each remote repository by a shortcut.
+This shortcut is simply called _remote_. 
+Such a _remote_ repository point to another remote repository that can hosted on the Internet, locally or on the network.
+
+
+You can specify properties for the remove, e.g. URL, branches to fetch or branches to push. 
 
 [NOTE]
 ====
