@@ -15,5 +15,5 @@ With such a proxy the time to receive an artifact is reduced and it saves ﻿ban
 Artifactory allows you to host your private build artifacts.
 
 
-Artifactory is avaalable as https://www.jfrog.com/artifactory/free-trial[Commercial version] and https://www.jfrog.com/open-source/[Open Source distribution].
+Artifactory is available as https://www.jfrog.com/artifactory/free-trial[Commercial version] and https://www.jfrog.com/open-source/[Open Source distribution].
 
