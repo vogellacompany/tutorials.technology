@@ -1,26 +1,34 @@
 == Installation of Ruby
 	
-=== With rbenv
+=== Installation with rbenv
+
+rbenv is a small tool that allows you to install multiple ruby versions and switch between them on the fly.
+
 * https://github.com/rbenv/rbenv#basic-github-checkout and install by cloning the github repository
 
 * https://github.com/rbenv/ruby-build#installing-as-an-rbenv-plugin-recommended clone for ruby build capabilities
 
 Add this to your bash file (ubuntu: ~/.bashrc) and restart your console:
+[source, bash]
 ----
 eval "$(rbenv init -)"
 ----
 
 Install build dependencies:
+[source, terminal]
 ----
-> apt-get install autoconf bison build-essential libssl-dev libyaml-dev libreadline6-dev zlib1g-dev libncurses5-dev libffi-dev libgdbm3 libgdbm-dev
-----
-
-Install newest ruby version:
-----
-> rbenv install 2.3.1
+apt-get install autoconf bison build-essential libssl-dev libyaml-dev libreadline6-dev zlib1g-dev libncurses5-dev libffi-dev libgdbm3 libgdbm-dev
 ----
 
-Set default ruby version to 2.3.1:
+You can now build and install the newest ruby version.
+[source, terminal]
 ----
-> rbenv global 2.3.1
+rbenv install 2.3.1
+----
+
+You now have to set the default ruby version you'd like to use and you are good to go.
+[source, terminal]
+----
+rbenv global 2.3.1
+ruby -v
 ----

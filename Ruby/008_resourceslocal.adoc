@@ -1,5 +1,0 @@
-== What is Angular 
-
-https://angular.io/ is a web development framework from Google.
-	
-	
