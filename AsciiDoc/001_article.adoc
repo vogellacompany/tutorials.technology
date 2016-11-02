@@ -14,6 +14,7 @@ This tutorial contains some notes about writing documentation with AsciiDoc and 
 				
 include::../web/advertisement/afterTableOfContent.adoc[]
 include::010_overview.adoc[]
+include::012_conversion.adoc[]
 include::014_annotations.adoc[]
 include::../web/advertisement/inBetween01.adoc[]
 include::020_edit_tooling.adoc[]
