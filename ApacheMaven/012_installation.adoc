@@ -8,7 +8,7 @@ In case you want to be able to use Maven from the command line, you need to inst
 If you plan to use Maven only from within your Eclipse IDE this installation is not required.
 		
 For a manual installation you can download Maven from the http://maven.apache.org/download.cgi[Maven Download] page.
-Extract the downloaded distribution to a selected folder on your computer and add the `M2_HOME`environment pointing to this directory. 
+Extract the downloaded distribution to a selected folder on your computer and add the `M2_HOME` environment pointing to this directory. 
 Add `M2_HOME/bin` to your path variable. 
 
 See http://maven.apache.org/download.html#Installation[Maven installation description] for a detailed installation guide.
