@@ -1,7 +1,41 @@
 == Exercise: Using Aspects
 
-=== Exercise: The Maven Aspect
+So called _Aspects_ can be applied to a _Channel_ like this:
 
-=== Exercise: The P2 Aspect
+image::./aspects-config-link.png[] 
+
+In the _Channel aspects_ section additional _Aspects_ can be added.
+
+Default categories of additional _Aspects_:
+
+* Debian
+* Maven
+* OSGi
+* Other
+* RPM
+
+=== Exercise: The P2 Repository Aspect
+
+When OSGi bundles have been added to a channel, it is usually helpful to provide these bundles as p2 update site.
+For example when bundles and features should be provided for a Maven Tycho build, which only works with p2 update sites.
+
+Package Drone has the capability to automatically generate a p2 update site by using the _P2 Repository Aspect_.
+
+The _P2 Repository Aspect_ can be found in the OSGi category of the Channel aspects section.
+
+image::./aspects-p2-repo.png[] 
+
+The _P2 Repository_ Aspect requires the _Hasher_ and _Mine_ Aspect.
+But when pressing on the btn:[Add] button, one can confirm to btn:[Add with dependencies], to also add the _Hasher_ and _Mine_ Aspect.
+
+image::./aspects-assigned.png[] 
+
+The p2 update site for this _Channel_ be accessed with this URL schema: {server}:{port}/p2/{channel-id}, e.g., http://localhost:8080/p2/828d10a6-c682-4d56-9d68-74dfe6dbb1e4/
+
+
+[IMPORTANT]
+====
+Do not add the _Tycho Cleaner_ or the _P2 Meta Data Generator_ Aspect, otherwise these Aspects would interfere with the _P2 Repository_ Aspect and cause invalid results.
+====
 
 
