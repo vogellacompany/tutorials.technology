@@ -1,7 +1,7 @@
 
 == Installation of Artifactory
 	
-In order to install the open source version of Artifactory you need to visit https://www.jfrog.com/open-source/">Artifactory Open Source] and download the ZIP version or the RPM version. 
+In order to install the open source version of Artifactory you need to visit https://www.jfrog.com/open-source/[Artifactory Open Source] and download the ZIP version or the RPM version. 
 Even a Docker image can be used to run Artifactory.
 	
 image::artifactory-download.png[]
