@@ -5,7 +5,7 @@ buildscript {
 		maven{ url 'https://dl.bintray.com/vogellacompany/Gradle-AsciiDoctor-Plugin/' }
 	}
 	dependencies {
-		classpath 'com.vogella.gradle:com.vogella.gradle.plugin.asciidoc:0.9.0'
+		classpath 'com.vogella.gradle:com.vogella.gradle.plugin.asciidoc:0.5.0'
 	}
 }
 
