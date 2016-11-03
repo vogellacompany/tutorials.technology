@@ -1,0 +1,174 @@
+== Debugging
+
+=== Debugging with print statements
+The easiest way to debug a ruby program is to use print statements.
+This has the advantage that it works out of the box, without any extra dependencies.
+
+[source, ruby]
+----
+number = 5
+puts number
+=> 5
+----
+
+While puts is very useful, it also has it's limitations.
+[source, ruby]
+----
+ary = [1, 2, [3, 4]]
+puts ary
+=> 1
+=> 2
+=> 3
+=> 4
+=> 5
+----
+
+Thankfully Ruby has a pretty print class that can print out arrays and other enumerables in a more meaningful way.
+
+[source, ruby]
+----
+require 'pp'
+ary = [1, 2, [3, 4]]
+pp ary
+=> [1, 2, [3, 4]]
+----
+
+Some useful methods to use in conjunction with puts are
+* instance_variables: all instance variables of the object
+* methods: all available methods of the class instance
+* methods(false): without inherited methods
+* instance_methods: all available methods of the object instance, get's called on the class itself
+* instance_methods(false): without inherited methods
+// TODO(fap): add examples for this methods
+
+Because of Rubys nature of being a dynamic language it's not always clear which code actually gets called by a statement but we have a way to find out.
+
+[source, ruby]
+----
+puts some_object.method(:method_name).source_location
+=> ["/path/to/file.rb", 13]
+----
+
+[TIP]
+====
+Sadly this approach won't work for 'super', since you can't create a method object from it.
+To find out which code get's executed by 'super' it is possible to traverse the classes ancestors and look for the method definition.
+[source, ruby]
+----
+self.class.ancestors.each do |klass|
+  puts klass.instance_method(:method_name).source_location if klass.method_defined?(:method_name)
+----
+====
+
+To find out the calling methods it is possibly to print the stack trace.
+
+[source, ruby]
+----
+def a
+  b
+end
+
+def b
+  puts caller
+end
+
+a
+=> /path/file.rb:2 in 'a'
+=> /path/file.rb:9 in '<main>'
+----
+
+[TIP]
+====
+If your program makes use of a framework like Rails or Sinatra your stacktrace might be quite convoluted.
+It can help to filter the stack trace for your project name.
+[source, ruby]
+----
+puts caller.select { |line| line.include? 'project_name' }
+----
+or
+[source, ruby]
+----
+puts caller.select { |line| line['project_name'] }
+----
+====
+
+
+=== Debugging with pry-byebug
+Interactive step-by-step debugging can be done with pry-byebug, which adds debugging and stack navigation to the ruby console pry.
+To use it you have to add it as a dependency to your project.
+If your project uses bundler you add it to your Gemfile.
+// TODO(fap): should move to general gem installation guide?
+
+----
+group :development do
+  # your other dev dependencies
+  gem 'pry-byebug'
+end
+----
+
+If you don't use bundler you may add it to your *.gemspec file.
+
+[source, ruby]
+----
+Gem::Specification.new do |s|
+  # ...
+  s.add_development_dependency 'pry-byebug'
+end
+----
+
+Now you can add breakpoints in your code where you want to jump into a pry session.
+
+[source, ruby]
+----
+require 'pry'
+binding.pry
+----
+
+[TIP]
+====
+Since this is ruby code you can make your breakpoint conditional.
+[source, ruby]
+----
+binding.pry if user.deleted?
+----
+====
+
+Once you have entered pry you can execute statements like you would normally do in your ruby console but you also have byebugs debugging capabilities at hand.
+
+[source, ruby]
+----
+	2:  def factorial(n, acc = 1)
+	3:  	binding.pry
+=>	4:  	return acc if n <= 1
+	5:  	fact(n - 1, n * acc)
+	6:  end
+	
+pry(#<Math>)> n
+=> 4
+pry(#<Math>)> acc
+=> 1
+pry(#<Math>)> next
+
+	2:  def factorial(n, acc = 1)
+	3:  	binding.pry
+	4:  	return acc if n <= 1
+=>	5:  	fact(n - 1, n * acc)
+	6:  end
+	
+pry(#<Math>)> n
+=> 4
+pry(#<Math>)> continue
+
+	2:  def factorial(n, acc = 1)
+	3:  	binding.pry
+=>	4:  	return acc if n <= 1
+	5:  	fact(n - 1, n * acc)
+	6:  end
+	
+pry(#<Math>)> n
+=> 3
+----
+
+You can also move around the callstack with the commands 'up' and 'down'.
+
+The complete list of available commands can be found in the pry-byebug https://github.com/deivid-rodriguez/pry-byebug#commands[documentation].
