@@ -34,11 +34,13 @@ pp ary
 ----
 
 Some useful methods to use in conjunction with puts are
+
 * instance_variables: all instance variables of the object
 * methods: all available methods of the class instance
 * methods(false): without inherited methods
 * instance_methods: all available methods of the object instance, get's called on the class itself
 * instance_methods(false): without inherited methods
+
 // TODO(fap): add examples for this methods
 
 Because of Rubys nature of being a dynamic language it's not always clear which code actually gets called by a statement but we have a way to find out.
