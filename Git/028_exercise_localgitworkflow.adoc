@@ -159,6 +159,18 @@ include::res/commandline/gitrepo_commit[]
 ----
 
 [[firstgitresult_results]]
+
+[TIP]
+====
+Git also offers a mode that lets you choose interactively which changes you want to commit.
+After you quit the mode you will be asked to provide a commit message in your $EDITOR.
+
+[source,terminal]
+----
+include::res/commandline/git_commit_interactive[]
+----
+====
+
 === Viewing the Git commit history
 
 The Git operations you performed have created a local Git repository in the `.git` folder and added all files to this repository via one commit.
