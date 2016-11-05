@@ -33,7 +33,7 @@ pp ary
 => [1, 2, [3, 4]]
 ----
 
-Some useful methods to use in conjunction with puts are
+Some useful methods to use in conjunction with 'puts' are
 
 * instance_variables: all instance variables of the object
 * methods: all available methods of the class instance
@@ -82,7 +82,7 @@ a
 [TIP]
 ====
 If your program makes use of a framework like Rails or Sinatra your stacktrace might be quite convoluted.
-It can help to filter the stack trace for your project name.
+It might be useful to filter the stack trace by your project name.
 [source, ruby]
 ----
 puts caller.select { |line| line.include? 'project_name' }
@@ -98,9 +98,10 @@ puts caller.select { |line| line['project_name'] }
 === Debugging with pry-byebug
 Interactive step-by-step debugging can be done with pry-byebug, which adds debugging and stack navigation to the ruby console pry.
 To use it you have to add it as a dependency to your project.
-If your project uses bundler you add it to your Gemfile.
+If your project uses bundler must you add it to your Gemfile.
 // TODO(fap): should move to general gem installation guide?
 
+[source, ruby]
 ----
 group :development do
   # your other dev dependencies
@@ -139,11 +140,11 @@ Once you have entered pry you can execute statements like you would normally do 
 
 [source, ruby]
 ----
-	2:  def factorial(n, acc = 1)
-	3:  	binding.pry
-=>	4:  	return acc if n <= 1
-	5:  	fact(n - 1, n * acc)
-	6:  end
+    2:  def factorial(n, acc = 1)
+    3:    binding.pry
+=>  4:    return acc if n <= 1
+    5:    fact(n - 1, n * acc)
+    6:  end
 	
 pry(#<Math>)> n
 => 4
@@ -151,21 +152,21 @@ pry(#<Math>)> acc
 => 1
 pry(#<Math>)> next
 
-	2:  def factorial(n, acc = 1)
-	3:  	binding.pry
-	4:  	return acc if n <= 1
-=>	5:  	fact(n - 1, n * acc)
-	6:  end
+    2:  def factorial(n, acc = 1)
+    3:    binding.pry
+    4:    return acc if n <= 1
+=>  5:    fact(n - 1, n * acc)
+    6:  end
 	
 pry(#<Math>)> n
 => 4
 pry(#<Math>)> continue
 
-	2:  def factorial(n, acc = 1)
-	3:  	binding.pry
-=>	4:  	return acc if n <= 1
-	5:  	fact(n - 1, n * acc)
-	6:  end
+    2:  def factorial(n, acc = 1)
+    3:    binding.pry
+=>  4:    return acc if n <= 1
+    5:    fact(n - 1, n * acc)
+    6:  end
 	
 pry(#<Math>)> n
 => 3

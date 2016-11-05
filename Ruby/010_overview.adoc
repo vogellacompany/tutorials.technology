@@ -1,4 +1,52 @@
 == Ruby
 
-A dynamic, reflective, object-oriented, general-purpose programming language.
+Ruby is a dynamic, reflective, object-oriented, general-purpose programming language.
 
+=== "Hello, World!" Ruby program
+
+[source, ruby]
+----
+include::res/hello_world/hello.rb[]
+----
+
+=== Executing Ruby source files
+
+Ruby source files are by convention marked with the `.rb` extension.
+To execute the hello world program you have to save it into a file, e.g. `hello.rb`.
+You can then run it from the command line.
+
+[source, terminal]
+----
+include::res/terminal/hello[]
+----
+
+If you want to omit the `ruby` before your file name you have to add a shebang line as the first line in your file.
+
+[source, ruby]
+----
+include::res/shebang/shebang_line[]
+----
+
+If you are using a Unix-like operating system you also have to make the file executable with `chmod`.
+
+[source, terminal]
+----
+include::res/terminal/chmod[]
+----
+
+=== The Ruby console
+The Ruby console offers a quick way to execute Ruby code. It allows you to type in Ruby commands and evaluates them.
+You can call it from your terminal by issuing the command `irb`. Type in our hello world program:
+
+[source, ruby]
+----
+include::res/hello_world/hello.rb[]
+----
+Press enter-> and the code will be executed.
+
+You can even prototype methods and classes inside the console.
+
+[source, ruby]
+----
+include::res/irb/method_prototyping[]
+----

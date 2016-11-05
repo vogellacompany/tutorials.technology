@@ -1,0 +1,6 @@
+irb(main):001:0> def reverse(ary)
+irb(main):002:1> ary.reduce([]) { |a, e| a.unshift(e) }
+irb(main):003:1> end
+=> :reverse
+irb(main):004:0> reverse([1, 2, 3, 4])
+=> [4, 3, 2, 1]
