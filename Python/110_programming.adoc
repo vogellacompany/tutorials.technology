@@ -6,7 +6,7 @@
 
 The following create a single line comment.
 
-[source,text]
+[source, python]
 ----
 include::res/comments/comments.txt[]
 ----
@@ -18,7 +18,7 @@ Python provides dynamic typing of its variables, e.g. you do not
 have to define a type of the variable Python will take care of this
 for you.
 
-[source,text]
+[source, python]
 ----
 include::res/variables/variables.txt[]
 ----
@@ -28,7 +28,7 @@ include::res/variables/variables.txt[]
 
 Python provides assertions. These assertions are always called.
 
-[source,text]
+[source, python]
 ----
 include::res/assertions/assertions.txt[]
 ----
@@ -40,7 +40,7 @@ Python allows to define methods via the keyword def. As the
 language is interpreted the methods need to be defined before using
 it.
 
-[source,text]
+[source, python]
 ----
 include::res/methods/methodtester.py[]
 ----
@@ -50,7 +50,7 @@ include::res/methods/methodtester.py[]
 
 The following demonstrates a loop the usage of an if-clause.
 
-[source,text]
+[source, python]
 ----
 include::res/conditional/IfTest.py[]
 ----
@@ -98,7 +98,7 @@ Python allows the following String operations.
 
 For example:
 
-[source,text]
+[source, python]
 ----
 include::res/string/stringTester.py[]
 ----
@@ -115,7 +115,7 @@ concatenate 'str' and 'int' objects".
 
 For example:
 
-[source,text]
+[source, python]
 ----
 include::res/string/stringNumberConcatenate.py[]
 ----
@@ -128,14 +128,14 @@ how to create a list, how to access individual elements or
 sublists
 and how to add elements to a list.
 
-[source,text]
+[source, python]
 ----
 include::res/list/List.py[]
 ----
 
 If you want to remove the duplicates from a list you can use:
 
-[source,text]
+[source, python]
 ----
 include::res/list/ListDuplicates.py[]
 ----
@@ -149,7 +149,7 @@ The following reads a file, strips out the end of line sign and
 prints
 each line to the console.
 
-[source,text]
+[source, python]
 ----
 include::res/file/Readfile.py[]
 ----
@@ -157,7 +157,7 @@ include::res/file/Readfile.py[]
 The following reads the same file but write the output to
 another file.
 
-[source,text]
+[source, python]
 ----
 include::res/file/ReadWriteFile.py[]
 ----
@@ -170,7 +170,7 @@ The following example is contained in the project
 comma separated string. This string is splitted into lists and the
 lists are compared. 
 
-[source,text]
+[source, python]
 ----
 include::res/split/CompareFiles.py[]
 ----
@@ -182,7 +182,7 @@ If you read special non ASCII sign, e.g. ö, ä. ü or ß, you have
 to tell Python which character set to use. Include the following in
 the first or second line of your script.  
 
-[source,text]
+[source, python]
 ----
 include::res/utf/example.txt[]
 ----
@@ -213,7 +213,7 @@ operator + will do for a specific class.
 
 The empty object (null) is called \_None_ in Python.
 
-[source,text]
+[source, python]
 ----
 include::res/classes/Point.py[]
 ----
