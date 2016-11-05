@@ -1,0 +1,6 @@
+import com.github.jrubygradle.JRubyPrepare
+task customJRubyPrepare(type: JRubyPrepare) {
+  dependencies project.configurations.gems
+  dependencies file('development-gems/asciidoctor-pdf-1.5.0.alpha.14.dev.gem')
+  outputDir buildDir
+}

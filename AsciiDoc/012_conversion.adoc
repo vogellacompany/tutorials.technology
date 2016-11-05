@@ -33,7 +33,7 @@ If you want to use the latest development version of asciidoctor to create your 
 
 [source, terminal]
 ----
-git clone git@github.com:asciidoctor/asciidoctor-pdf.git
+include::res/terminal/clone_asciidoctor-pdf[]
 ----
 
 To get the application ready you first need to install the dependencies. You might have to install the bundler gem first. 
@@ -51,3 +51,58 @@ Now you can start using the latest version to convert your AsciiDoc.
 ----
 ./bin/asciidoctor-pdf /path/to/your/file.adoc
 ----
+
+=== Using the development version of Asciidoctor-Pdf in a Gradle build file
+To use the development version of https://github.com/asciidoctor/asciidoctor-pdf[Asciidoctor-Pdf] in a Gradle build file you first need to build the Gem.
+
+[source, terminal]
+----
+include::res/terminal/clone_asciidoctor-pdf[]
+include::res/terminal/build_gem[]
+----
+You can then find the `.gem` file under `/pkg`.
+Copy it into your Gradle project under the folder `development-gems`.
+
+We are going to use the JRuby and Asciidoctor Gradle plugin, so we need to declare them.
+
+[source, groovy]
+----
+include::res/gradle/jruby_plugin[]
+----
+
+To use a local Gem from Gradle, all dependencies of that Gem have to be specified manually.
+You can find the dependencies in `asciidoctor-pdf.gemspec`
+
+[source, ruby]
+----
+include::res/gemspec/asciidoctor-pdf_gemspec[]
+----
+
+You can then add them to your `build.gradle`.
+
+[source, groovy]
+----
+include::res/gradle/asciidoctor-pdf_dependencies[]
+----
+
+You need to override the jrubyPrepare task to use all of the declared dependencies plus the local gem.
+
+[source, groovy]
+----
+include::res/gradle/customJRubyPrepare[]
+----
+
+Finally you have to make sure that the asciidoctor task depends on `customJRubyPrepare` and requires `asciidoctor-pdf`.
+
+[source, groovy]
+----
+include::res/gradle/asciidoctor[]
+----
+
+Trigger the asciidoctor task to convert your AsciiDoc.
+
+[source, terminal]
+----
+include::res/terminal/asciidoctor[]
+----
+

@@ -1,0 +1,3 @@
+cd asciidoctor-pdf
+bundle
+bundle exec rake build

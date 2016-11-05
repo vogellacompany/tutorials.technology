@@ -1,0 +1,6 @@
+asciidoctor {
+    dependsOn customJRubyPrepare
+    requires ['asciidoctor-pdf']
+    gemPath customJRubyPrepare.outputDir
+    backends 'pdf'
+}
