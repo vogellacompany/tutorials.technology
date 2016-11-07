@@ -9,7 +9,7 @@ If you need customer logic you should place it, into a custom Gradle plugin.
 === Gradle DSL 
 
 Each Gradle plug-in comes with a DSL. 
-To see all properites of a Gradle objects, you can use the following code snippet:
+To see all properites of a Gradle object, you can use the following code snippet:
 
 [source,code]
 ----

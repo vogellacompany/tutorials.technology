@@ -28,7 +28,7 @@ A task represents a piece of work which a build performs, e.g., compile the sour
 
 A project using Gradle describes its build via a _build.gradle_ file. 
 This file is located in the root folder of the project.
-The build file for Gradle builds is based on a_Domain Specific Language_ (DSL). 
+The build file for Gradle builds is based on a _Domain Specific Language_ (DSL). 
 In this file you can use a combination of declarative and imperative statements.
 You can also write Groovy or Kotlin code, whenever you need it. 
 Tasks can also be created and extended dynamically at runtime.
@@ -52,7 +52,7 @@ include::res/starter/build_hello2.gradle[]
 
 
 To execute the `hello` task in this build file, type `gradle hello` on the command line in the directory of the build file. 
-If the Gradle output should be suppressed, use the `-q` (quite) parameter.
+If the Gradle output should be suppressed, use the `-q` (quiet) parameter.
 
 [source,console]
 ----

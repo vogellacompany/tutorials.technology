@@ -9,7 +9,7 @@ CamelCase can also be used for an abbreviation, e.g., the task `gradle vogellaCo
 	
 	
 A Gradle build can be triggered via the `gradle` or `gradle -q` command. 
-The `-q` or `--quite` parameter makes the execution of Gradle less verbose. 
+The `-q` or `--quiet` parameter makes the execution of Gradle less verbose. 
 A specific task can be addressed like this: `gradle -q other`, which runs the "other" task. 
 You can of course also use the Gradle wrapper script, if that is avaiable.
 	
@@ -18,7 +18,7 @@ To define a different build file the `-b buildFileName` option can be used.
 	
 	
 In scenarios where no network connection is available the `--offline` parameter can be used. 
-This run the Gradle build offline, which means that Gradle does not try to reach resources from the network during a build. 
+This runs the Gradle build offline, which means that Gradle does not try to reach resources from the network during a build. 
 E.g., for dependencies from an artifact repository like Maven Central or Bintray.
 	
 	

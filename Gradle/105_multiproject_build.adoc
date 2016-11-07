@@ -37,7 +37,7 @@ image::projects_task.png[]
 	
 === Specifying a general build configuration
 
-In a _build.gradle_file in the root_project general configurations can be applied to all projects or just to the sub projects.
+In a _build.gradle_ file in the root_project general configurations can be applied to all projects or just to the sub projects.
 
 [source,gradle]
 ----
@@ -50,7 +50,7 @@ The `subprojects` closure applies common configurations for all sub projects, bu
 	
 === Project specific configurations and dependencies
 
-The `core`, `ui` and `util` sub projects can also have their own _build.gradle_file.
+The `core`, `ui` and `util` sub projects can also have their own _build.gradle_ file.
 If they have specific needs, which are not already applied by the general configuration of the root project.
 
 For instance the ui project usually has a dependency to the core project. 

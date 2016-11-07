@@ -24,7 +24,7 @@ classes are
 
 === Include and Exclude particular Tests
 
-The test configuration in general is described at https://docs.gradle.org/current/dsl/org.gradle.api.tasks.testing.Test.html[Gradle Test tasks description]..
+The test configuration in general is described at https://docs.gradle.org/current/dsl/org.gradle.api.tasks.testing.Test.html[Gradle Test tasks description].
 
 The `Test` class has a `include` and `exclude` method. 
 These methods can be used to specify, which tests should actually be run.

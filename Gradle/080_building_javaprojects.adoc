@@ -29,7 +29,7 @@ include::res/java/sourcesets.gradle[]
 === Java project creation with the init task
 		
 Gradle does not yet support multiple project templates (called archetypes) like Maven. 
-But it offers an `init` task create the structure of a new Gradle project. 
+But it offers an `init` task to create the structure of a new Gradle project. 
 Without additional parameters, this task creates a Gradle project, which contains the gradle wrapper files, a _build.gradle_ and _settings.gradle_ file.
 		
 When adding the `--type` parameter with `'java-library'` as value, a java project structure is created and the _build.gradle_ file contains a certain Java template with JUnit.
