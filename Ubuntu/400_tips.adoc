@@ -40,7 +40,3 @@ It can be installed from http://www.teamviewer.com/.
 The _x2go_ server allows to install a X-server on a remote server and access it via a client from a different machine.
 More information can be found on http://wiki.x2go.org/.
 
-=== Eclipse IDE configuration
-		
-See http://devblog.virtage.com/2013/06/eclipse-and-eclipse-based-apps-on-ubuntu-13-04-desktop-hacks[Eclipse and Ubuntu] for an introduction into the configuration of the Eclipse IDE under Ubuntu.
-

@@ -7,8 +7,6 @@ http://www.sagehill.net/docbookxsl/index.html[DocBook XSL Online Book from Bob S
 
 http://www.vogella.com/tutorials/XSLT/article.html[Eclipse XSLT]
 
-http://wiki.docbook.org/DocBookAppsMailingList[XSLT mailing list]
-
 http://fedoraproject.org/wiki/Publican[Publican]
 
 http://www.oxygenxml.com/[oXygen XML Editor]

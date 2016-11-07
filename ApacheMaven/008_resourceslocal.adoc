@@ -4,7 +4,5 @@ http://www.ibm.com/developerworks/library/j-5things13[Five things you did not kn
 
 http://maven.apache.org/plugins/maven-deploy-plugin/examples/deploy-ftp.html[Maven deployment artifact]
 
-https://support.sonatype.com/entries/20894498.html[What is Maven Central?]
-
 https://github.com/pkainulainen/maven-examples[Maven tools examples on GitHub]
 
