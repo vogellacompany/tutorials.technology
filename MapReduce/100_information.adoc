@@ -1,12 +1,7 @@
 [[information]]
 == Information
 
-MapReduce is described in the following introduction
-http://code.google.com/edu/parallel/mapreduce-tutorial.html.
+MapReduce is described in the following introduction http://code.google.com/edu/parallel/mapreduce-tutorial.html.
 
-List of resources about distributed computing
-http://code.google.com/edu/parallel/index.html.
-
-Video lecture about MapReduce from Google
-http://code.google.com/edu/submissions/mapreduce-minilecture/listing.html.
+Video lecture about MapReduce from Google http://code.google.com/edu/submissions/mapreduce-minilecture/listing.html.
 

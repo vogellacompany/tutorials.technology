@@ -1,5 +1,5 @@
 [[gettingstarted]]
 == Getting started
 
-See http://hadoop.apache.org/common/docs/current/quickstart.html[Apache Hadoop Quickstart Guide].
+See https://wiki.apache.org/hadoop/QuickStart[Apache Hadoop Quickstart Guide].
 
