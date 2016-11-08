@@ -1,5 +1,7 @@
 == Settings for the PDF output
 
+=== Links
+
 To see the links in the generated output use the following attribute in the header of you document.
 
 [source,console]
@@ -19,6 +21,31 @@ Also you can configure the label for a chapter via the `chapter-label` attribute
 Unfortunately Asciidoctor does not add a page break before a  part if you use "book" as output.
 See https://github.com/asciidoctor/asciidoctor-pdf/issues/329.
 As workaround you have to put manual line breaks into it with `<<<`.
+
+=== Index
+
+You can add an index to your pdf output by defining it as follows:
+
+....
+[index]
+= Index
+....
+
+This will list all the defined indexes. The output will look like this:
+
+image::index.png[]
+
+
+=== Appendix
+
+The appendix is defined as follows:
+
+....
+[appendix]
+= Appendix
+....
+
+
 
 === Styling the PDF output
 
