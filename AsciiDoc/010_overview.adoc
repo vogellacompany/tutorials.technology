@@ -309,6 +309,17 @@ http://www.vogella.com[vogella]
 
 http://www.vogella.com
 
+In order to include a link with white spaces or special characters as for example 
+
+....
+https://vogella.com--sa- 23345
+....
+
+the definition should look like this:
+
+....
+link:++https://vogella.com--sa- 23345++
+....
 
 === Defining cross references
 
