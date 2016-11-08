@@ -28,7 +28,11 @@ From this file you can start Jenkins directly via the command line with `java -j
 If you start it locally, you find it running under the following URL: http://localhost:8080/
 
 To run it in your Tomcat server, put the .WAR file into the _webapps_ directory. 
-If you start Tomcat, your Jenkins installation will be available under http://localhost:8080/jenkins.
+If you start Tomcat, your Jenkins installation will be available under 
+
+....
+http://localhost:8080/jenkins
+....
 
 [NOTE]
 ====
