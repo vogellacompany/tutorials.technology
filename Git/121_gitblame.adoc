@@ -2,7 +2,14 @@
 
 [[git_blame_def]]
 === Analyzing line changes with git blame
+
 (((git blame)))
+
+Using the Git log command and filtering the history is a useful tool for inspecting the project history. 
+However, if you look at a particular file and find a bug in a particular line of code you would like to instantly know who was the last person who changed this line of code.
+Additionally, you would like to know why the developer did that i.e. locate the commit in which the change was done.
+	
+In Git, this feature is called _git blame_ or _git annotate_.
 The `git blame` command allows you to see which commit and author modified a file on a per line base.
 That is very useful to identify the person or the commit which introduced a change.
 

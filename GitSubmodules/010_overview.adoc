@@ -1,13 +1,21 @@
 [[submodules]]
 == Submodules - repositories inside other Git repositories
+
 (((Submodules)))
 (((git submodules)))
 === Using Git repositories inside other Git repositories
 
 Git allows you to include other Git repositories called _submodules_ into a repository. 
-This allows you to track changes in several repositories via  a central one.
+This allows you to track changes in several repositories via a central one.
+Submodules are Git repositories nested inside a parent Git repository at a specific path in the parent repository’s working directory.
+A submodule can be located anywhere in a parent Git repository’s working directory and is configured via a `.gitmodules` file located at the root of the parent repository. 
+This file contains which paths are submodules and what URL should be used when cloning and fetching for that submodule.  
+Submodule support includes support for adding, updating, synchronizing, and cloning submodules. 
 
 Git allows you to commit, pull and push to these repositories independently.
+
+Submodules allow you to keep projects in separate repositories but still be able to reference them as folders in the working directory of other repositories.
+
 
 
 [[submodules_trackbranch]]
@@ -43,7 +51,17 @@ git submodule update --remote
 == Adding a submodule to a Git repository and tracking based on commits
 
 === Adding a submodule and tracking commits
+
 Alternatively to the tracking of a branch, you can also control which commit of the submodule should be used.
+In this case the Git parent repository tracks the commit that should be checked out in each configured submodule.
+Performing a submodule update checks out that specific revision in the submodule’s Git repository.
+You commonly perform this task after you pull a change in the parent repository that updates the revision checked out in the submodule. 
+You would then fetch the latest changes in the submodule’s Git repository and perform a submodule update to check out the current revision referenced in the parent repository.
+Performing a submodule update is also useful when you want to restore your submodule’s repository to the current commit tracked by the parent repository.  
+This is common when you are experimenting with different checked out branches or tags in the submodule and you want to restore it back to the commit tracked by the parent repository.
+You can also change the commit that is checked out in each submodule by performing a checkout in the submodule repository and then committing the change in the parent repository.
+
+
 You add a submodule to a Git repository via the `git submodule add` command. 
 
 [source,console]
@@ -57,6 +75,9 @@ git submodule init #<2>
 
 [[submodules_cloning]]
 === Pulling with submodules
+
+Cloning a repository with submodules requires cloning all submodule repositories after the parent repository clone completes.
+This ensure that all necessary files and folders are present in the working directory once cloning completes.
 
 To pull everything including the submodules, use the `--recurse-submodules` and the `--remote` parameter in the `git pull command`.
 

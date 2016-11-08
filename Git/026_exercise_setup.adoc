@@ -27,6 +27,7 @@ Configure Git to use always rebase during the `git pull` command.
 
 [source,console]
 ----
-include::res/commandline/setup_useful[]
+# set default so that you avoid unnecessary commits
+git config --global branch.autosetuprebase always
 ---- 
 

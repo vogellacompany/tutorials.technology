@@ -24,8 +24,8 @@ include::018_tools.adoc[]
 include::020_installation.adoc[]
 include::../web/advertisement/inBetween03.adoc[]
 include::021_gitconfiguration.adoc[]
-include::024_exercise_setup.adoc[]
-include::026_ignore.adoc[]
+include::024_ignore.adoc[]
+include::026_exercise_setup.adoc[]
 
 include::028_exercise_localgitworkflow.adoc[]
 

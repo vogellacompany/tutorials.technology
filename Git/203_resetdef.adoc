@@ -1,6 +1,5 @@
 [[resetcommitsdef]]
-== Using Git reset for moving the HEAD pointer and updating the staging area and working tree
-(((git reset)))
+== Using Git reset
  
 [[movebranchpointer]]
 === Moving the HEAD and branch pointer
