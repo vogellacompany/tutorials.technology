@@ -5,7 +5,12 @@ To see the reviews on your Gerrit server, open the link to your Gerrit
 instance. For
 example if you have Gerrit locally
 installed use
-http://localhost:8080/ which is the default port for a local Gerrit
+
+....
+http://localhost:8080/ 
+....
+
+which is the default port for a local Gerrit
 installation.
 Or if you want to see the
 Gerrit reviews for the Eclipse

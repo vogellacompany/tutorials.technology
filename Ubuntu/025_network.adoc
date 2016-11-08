@@ -87,7 +87,10 @@ The following commands give you an overview of your network connections.
 |
 
 |python -m SimpleHTTPServer
-|Start web server serving current directory tree at http://localhost:8000/
+a|Start web server serving current directory tree at 
+....
+http://localhost:8000/
+....
 
 |===
 

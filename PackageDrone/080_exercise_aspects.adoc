@@ -30,7 +30,11 @@ But when pressing on the btn:[Add] button, one can confirm to btn:[Add with depe
 
 image::./aspects-assigned.png[] 
 
-The p2 update site for this _Channel_ be accessed with this URL schema: {server}:{port}/p2/{channel-id}, e.g., http://localhost:8080/p2/828d10a6-c682-4d56-9d68-74dfe6dbb1e4/
+The p2 update site for this _Channel_ be accessed with this URL schema: {server}:{port}/p2/{channel-id}, e.g., 
+
+....
+http://localhost:8080/p2/828d10a6-c682-4d56-9d68-74dfe6dbb1e4/
+....
 
 
 [IMPORTANT]

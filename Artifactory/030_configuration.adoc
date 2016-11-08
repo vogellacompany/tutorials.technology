@@ -1,6 +1,10 @@
 == Configuration of Artifactory
 
-Once an Artifactory instance is running its web interface can be accessed under this URL: http://localhost:8081/artifactory/webapp/.
+Once an Artifactory instance is running its web interface can be accessed under this URL: 
+
+....
+http://localhost:8081/artifactory/webapp/
+....
 
 === User Settings
 

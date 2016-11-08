@@ -1,8 +1,10 @@
 == Configuration of Nexus
 	
-Once the nexus repository manager has been started, its web interface
-can be accessed under this URL:
-http://localhost:8081/nexus/[http://localhost:8081/nexus/]
+Once the nexus repository manager has been started, its web interface can be accessed under this URL:
+
+....
+http://localhost:8081/nexus/
+....
 	
 The Nexus contains some repositories by default:
 	

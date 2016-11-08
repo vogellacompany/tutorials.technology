@@ -3,7 +3,13 @@
 We want to have a separate repository for our p2 artifacts.
 This can be created like this:
 
-* Login to the nexus (http://localhost:8081/nexus/) with User `admin` and password `admin123`.
+* Login to the nexus 
++
+....
+http://localhost:8081/nexus/ 
+....
++
+with User `admin` and password `admin123`.
 * Click on Repositories on the right hand side.
 * Select menu:Add..[Hosted Repository] and use the following data:
 

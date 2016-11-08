@@ -9,7 +9,12 @@ You require a valid Gerrit user to work with Gerrit.
 
 TIP: In a Gerrit installation in which you are not the administrator, you ask the administrator to create a user for you, but in your test installation you create your own users.
 
-Login to Gerrit via http://localhost:8080/login/. 
+Login to Gerrit via 
+
+....
+http://localhost:8080/login/
+....
+
 The first user to login automatically gets the administrator status.
 
 [[gerrit_usersetup_ssh]]

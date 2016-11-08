@@ -51,7 +51,10 @@ image::final_p2_proxy_repo.png[]
 
 After settings this up, a target definition can make use of this
 proxy, but using the given URL:
+
+....
 http://localhost:8081/nexus/content/repositories/Eclipse-Neon-Milestones/
+....
 
 image::nexus_updatesite_consumer.png[]
 

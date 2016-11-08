@@ -21,7 +21,11 @@ To start Tomcat use `tomcat7.exe` in the bin directory.
 === Test Tomcat
 
 The default port for Tomcat is 8080. 
-After starting Tomcat on your local machine, you can validate if Tomcat is running the URL: http://localhost:8080.
+After starting Tomcat on your local machine, you can validate if Tomcat is running the URL: 
+
+....
+http://localhost:8080
+....
 
 This should show a web page similar to the following. 
 
@@ -30,7 +34,11 @@ image::tomcat_initialpage10.png[Tomcat initial page]
 [[tomcat_admin]]
 === Admin console
 
-Tomcat provides a webbased adminstration console which can be started via the following link: http://localhost:8080/manager/html.
+Tomcat provides a webbased adminstration console which can be started via the following link: 
+
+....
+http://localhost:8080/manager/html
+....
 
 The available users can be found in the `tomcat-users.xml` file of the Tomcat configuration directory, i.e., the `/etc/tomcat/tomcat-users.xml` file under Ubuntu.
 
