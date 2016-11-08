@@ -301,7 +301,7 @@ You can also define a anchor text via [] directly after the link.
 ----
 http://www.vogella.com[vogella]
 
-http://www.vogella.com[vogella]
+http://www.vogella.com
 ----
 The result looks like the following.
 
