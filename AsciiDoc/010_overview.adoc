@@ -134,16 +134,39 @@ This should be included!
  
 === Importing images
 
-You can import images with ´image::´ for the HTML output you can add the ´alt´ text within the brackets []. 
+You can import images with `image::` for the HTML output you can add the `alt` text within the brackets [].
+If the image is located in the `img` folder then the import would look like this:
+
 ----
-image::committingprocess10.png[Git commit process] 
+image::./img/vogellacompany.jpg[vogella Company] 
 ----
 
-NOTE: If the images are located in a certain directory, you can specify this folder in the header of your document via the following:
+[NOTE] 
+====
+If the images are located in a certain directory, e.g. `img`, you can specify this folder in the header of your document and the import of the image will only contain the name of the image without the name of the folder.
+Please note that you have to add a space between `:imagesdir:` and the name of the folder.
+
+This would look as follows:
 
 ....
 :imagesdir: ./img
+image::vogellacompany.jpg[vogella Company]
 ....
+====
+
+The import of an image with `image::` will add the image in a new line.
+If you want to add an image inline then use the macro: `image:`
+
+....
+
+This is just a text
+image:vogellacompany.jpg[vogella Company, width=5%] to show inline images.
+....
+
+Result:
+
+This is just a text
+image:vogellacompany.jpg[vogella Company, width=5%] to show inline images.
 
 === Defining lists
 
