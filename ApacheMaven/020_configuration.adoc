@@ -2,7 +2,8 @@
 == Configuration and coordinates of a Maven project
 [[maven_configurationpom]]
 
-=== Project Object Model (POM) 
+=== Project Object Model (POM)
+
 (((Maven,GAV)))
 (((Maven,pom)))
 (((Maven,Project Object Model)))
@@ -60,10 +61,4 @@ This is a combination of settings from this project’s pom.xml, all parent pom,
 		
 The result of a build is called _artifact_.
 An artifact can be for example an executable or an archive of documents.
-
-[[maven_polyglot]]
-== Maven Polyglot
-
-_Polyglot for Maven_ is a Maven feature that allows the expression of a pom file in something other than XML.
-For example, you can specify the build information in the Groovy, Ruby or Scala programming language.
 

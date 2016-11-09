@@ -1,11 +1,16 @@
 [[maven_installation]]
-== Installation of Maven outside an IDE
+== Installation of the Maven command line tools
 
 [[maven_requirements]]
 === Downloading and installing Maven
 
+[INFO]
+====
+If you plan to use Maven only from within the Eclipse IDE, this installation is not required.
+====
+
 In case you want to be able to use Maven from the command line, you need to install the Maven command line support. 
-If you plan to use Maven only from within your Eclipse IDE this installation is not required.
+
 		
 For a manual installation you can download Maven from the http://maven.apache.org/download.cgi[Maven Download] page.
 Extract the downloaded distribution to a selected folder on your computer and add the `M2_HOME` environment pointing to this directory. 

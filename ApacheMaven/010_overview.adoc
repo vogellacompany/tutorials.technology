@@ -1,5 +1,5 @@
 [[maven_overview]]
-== Introduction to Apache Maven
+== What is Apache Maven?
 (((Apache Maven)))
 
 [[maven_whatisit]]
