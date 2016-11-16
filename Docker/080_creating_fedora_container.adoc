@@ -1,4 +1,4 @@
-= Exercise: Creating an Fedora based Unix system with Git
+== Exercise: Creating an Fedora based Unix system with Git
 
 To run a bash on the latest Fedara system, use the following command.
 

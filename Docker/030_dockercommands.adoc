@@ -1,12 +1,12 @@
-= Docker commands
+== Docker commands
 
-== List all available images
+=== List all available images
 
 ----
 docker images
 ----
 
-== List all available containers
+=== List all available containers
 
 Via the -a flag you list all contains, without you list the running containers.
 
@@ -14,11 +14,11 @@ Via the -a flag you list all contains, without you list the running containers.
 docker ps -a
 ----
 
-== Create a new container
+=== Create a new container
 
 docker run `image`
 
-== Delete a container and an image
+=== Delete a container and an image
 
 Use the following command to remove all your containers.
 

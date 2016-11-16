@@ -1,5 +1,5 @@
 [appendix]
-= Docker resources
+== Docker resources
 
 http://tools.jboss.org/blog/eclipse-for-docker-has-arrived.html[Docker Tools for Eclipse]
 

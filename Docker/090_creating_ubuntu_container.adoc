@@ -1,4 +1,4 @@
-= Exercise: Creating an Ubuntu based Unix system with Java
+== Exercise: Creating an Ubuntu based Unix system with Java
 
 To run a bash on an Ubuntu 15.04 system, use the following command.
 ----
