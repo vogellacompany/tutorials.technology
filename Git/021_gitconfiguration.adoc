@@ -82,7 +82,7 @@ You can configure git to use `git rebase` instead of `git merge` for the pull co
 
 [source,console]
 ----
-include::res/commandline/setup_useful[]
+include::res/commandline/gitconfig_autosetuprebase[]
 ---- 
 
 [NOTE]
