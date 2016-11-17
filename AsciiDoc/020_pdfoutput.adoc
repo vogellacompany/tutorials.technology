@@ -72,3 +72,54 @@ image:
 
 To see all possible styling settings visit the https://github.com/asciidoctor/asciidoctor-pdf/blob/master/docs/theming-guide.adoc[Asciidoc theming guide].
 
+=== Publishing Mode
+
+In order to use some publishing attributes you must set the `media` attribute in the header of your AsciiDoc document as follows:
+
+`:media: prepress`
+
+This attribute will trigger the following settings:
+
+* Double-sided (mirror) page margins
+
+* Automatic facing pages
+
+==== Double-sided (mirror) page margins
+
+The double-sided page margins will have the following impact:
+the page margins for the recto (right-hand, odd-numbered) and verso (left-hand, even-numbered) pages will be replaced by the side page margins with the values of the  page_margin_inner and page_margin_outer keys.
+
+You can define the page_margin_inner and page_margin_outer in the theme.
+This will look as follows:
+
+[source,text]
+----
+page:
+  margin: [0.5in, 0.67in, 0.67in, 0.67in]
+  margin_inner: 0.75in
+  margin_outer: 0.59in
+----
+
+These settings will trigger the following change to the output:
+
+----
+recto page margin
+[0.5in, 0.59in, 0.67in, 0.75in]
+
+verso page margin
+[0.5in, 0.75in, 0.67in, 0.59in]
+----
+
+==== Automatic facing pages
+
+Regarding to the automatic facing pages, a blank page will be inserted, if necessary, to ensure the following pages are right-hand-facing pages:
+
+* Title page
+* Table of contents
+* First page of body content
+* Parts and chapters 
+////
+TODO:(except those which have the nonfacing option set)
+Try to find out how this works.
+////
+
