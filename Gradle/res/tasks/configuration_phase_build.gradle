@@ -6,7 +6,7 @@ task onlySpecifiesCodeForConfigurationPhase {
 }
 
 task anotherUnrelatedTask {
-    doLast{
+    doLast {
         println 'I am in the doLast execution phase'
     }
 }

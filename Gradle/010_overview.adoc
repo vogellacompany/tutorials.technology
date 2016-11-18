@@ -43,12 +43,16 @@ The following listing represents a very simple build file.
 include::res/starter/build_hello.gradle[]
 ----
 
-This build file can also be simplified << can be used as shortcut to define the `doLast` statement.
-
-[source,gradle]
+[NOTE]
+====
+In older Gradle files you might encounter the use of `<<` instead of `doLast`.
+[source, groovy]
 ----
-include::res/starter/build_hello2.gradle[]
+include::res/starter/build_hello_deprecated.gradle[]
 ----
+With the release of Gradle v3.2 the use of this syntax shortcut is deprecated and you shouldn't use it.
+It will be removed in Gradle v5.0.
+====
 
 
 To execute the `hello` task in this build file, type `gradle hello` on the command line in the directory of the build file. 

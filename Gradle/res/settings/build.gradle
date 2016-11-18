@@ -5,4 +5,8 @@ Project name: ${project.name}
 
 More detailed information here... """
 
-task hello << {println 'Hello Gradle'}
+task hello {
+	doLast {
+		println 'Hello Gradle'
+	}
+}

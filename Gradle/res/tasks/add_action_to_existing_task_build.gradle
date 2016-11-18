@@ -1,4 +1,4 @@
 apply plugin: 'java'
 
 compileJava.doFirst { println 'Another action applied to the "compileJava" task' }
-compileJava << { println 'Another doLast action is also applied' }
+compileJava.doLast { println 'Another doLast action is also applied' }

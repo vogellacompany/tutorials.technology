@@ -1,5 +1,7 @@
-task eclipse << {
-	println 'Hello Eclipse'
+task eclipse {
+	doLast {
+		println 'Hello Eclipse'
+	}
 }
 
 // #1st approach - closure returning true, if the task should be executed, false if not.

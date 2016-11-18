@@ -1,19 +1,27 @@
 defaultTasks 'clean', 'compile'
 
-task clean << {
+task clean {
+	doLast {
 		println 'Executing the clean task'
+	}
 }
 
-task compile << {
-    println 'Executing the compile task'
+task compile {
+	doLast {
+		println 'Executing the compile task'
+	}
 }
 
-task other(dependsOn: 'compile') << {
-    println "I'm not a default task!"
+task other(dependsOn: 'compile') {
+	doLast {
+		println "I'm not a default task!"
+	}
 }
 
-task cleanOther << {
-	println "I want to clean up before running!"
+task cleanOther {
+	doLast {
+		println "I want to clean up before running!"
+	}
 }
 
 cleanOther.dependsOn clean, compile

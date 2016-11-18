@@ -91,11 +91,6 @@ Both settings are demonstrated in the following build file.
 include::res//starter/build.gradle[]
 ----
 		
-	
-NOTE: << is a  shortcut for the doLast action. So the `clean` task could also use << instead of doLast.
-	
-		
-		
 Hooking into predefined task executions for default tasks or tasks from plug-ins can also be done by using the `dependsOn` method.
 		
 For instance when certain things have to be done right after the compilation of java code:
