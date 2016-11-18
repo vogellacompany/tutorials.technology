@@ -1,0 +1,3 @@
+sdk install gradle 2.13
+# use 2.13 for current terminal session
+sdk use gradle 2.13

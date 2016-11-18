@@ -1,0 +1,2 @@
+sdk install gradle 3.2
+sdk default gradle 3.2

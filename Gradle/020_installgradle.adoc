@@ -33,6 +33,8 @@ After that the (2) Path entry in the _system variables_ is selected, the btn:[mo
 image::path_variables.png[Windows Path Variables]
 	
 === Installing Gradle on Linux/Mac
+
+==== Manual installation
 		
 Extract the contents of the downloaded zip file to _/opt/gradle_ or a different location. 
 This will for example result in a _/opt/gradle/gradle-2.13_ folder.
@@ -41,9 +43,42 @@ The `JAVA_HOME` variable must point to a proper jdk and `$JAVA_HOME/bin` must be
 		
 Add Gradle to the path by running `export PATH=/usr/local/gradle/gradle-2.13/bin:$PATH` in a terminal.
 		
-=== Validate
+===== Validate
 		
 Open a command line and type `gradle`, which will run Gradle's help task by default.
+
+==== Installation with SDKMAN!
+
+SDKMAN! is a command-line tool that allows you to install multiple Gradle versions and switch between them.
+It runs on any UNIX based operating system.
+
+===== Installing SDKMAN!
+
+You install it from the command-line. If you have already installed SDKMAN! you can skip this step.
+
+[source, commandline]
+----
+include::res/install/sdkman_install[]
+----
+
+After you've installed SDKMAN! you have to restart you terminal before using it.
+
+===== Installing Gradle and setting default version
+
+[source, commandline]
+----
+include::res/install/sdkman_install_gradle[]
+include::res/gradle/check_version[]
+----
+
+===== Switching Gradle version
+
+[source, commandline]
+----
+include::res/install/sdkman_switch_version[]
+include::res/gradle/check_version[]
+----
+
 	
 [[gradeinstallation_demon]]
 === Using the Gradle daemon for improved startup time
