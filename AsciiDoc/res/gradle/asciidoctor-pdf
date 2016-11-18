@@ -1,0 +1,25 @@
+plugins {
+    id 'org.asciidoctor.convert' version '1.5.3'
+    id 'com.github.jruby-gradle.base' version '1.3.3'
+}
+
+apply plugin: 'org.asciidoctor.convert'
+
+dependencies {
+    gems 'rubygems:asciidoctor-pdf:1.5.0.alpha.13'
+}
+
+asciidoctorj {
+    version = '1.5.4.1'
+}
+
+asciidoctor {
+    // jrubyPrepare downloads and installs Ruby Gem dependencies
+    dependsOn jrubyPrepare
+    // include the 'asciidoctor-pdf' Ruby module
+    requires = ['asciidoctor-pdf']
+    // let the Asciidoctor Plugin search for Gems in jrubyPrepares output directory
+    gemPath = jrubyPrepare.outputDir
+    // convert to pdf
+    backends 'pdf'
+}

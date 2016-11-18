@@ -1,11 +1,11 @@
 == Conversion with Asciidoctor
 
-You will need a working ruby installation. For our installation guide see:
+You will need a working Ruby installation. For our installation guide see:
 http://www.vogella.com/tutorials/Ruby/article.html
 
 === Asciidoctor installation
 
-To convert your asciidoc files you need to install the asciidoctor gem.
+To convert your asciidoc files you need to install the http://asciidoctor.org[Asciidoctor gem].
 
 [source, terminal]
 ----
@@ -19,8 +19,21 @@ If you want to be able to create pdf-files you can use the asciidoctor-pdf gem.
 gem install --pre asciidoctor-pdf
 ----
 
-=== Converting adoc to pdf-files
-After the installation of the gems you are ready to convert your adoc files to pdf-format.
+=== Converting AsciiDoc to html5
+
+Because Asciidoctor will default to the html5 backend you don't need to call it with any extra arguments.
+
+[source, terminal]
+----
+asciidoctor example.adoc
+# defaults to
+asciidoctor -b html5 example.adoc
+----
+
+To see a list of all available backends you can call `asciidoctor --help`.
+
+=== Converting AsciiDoc to pdf-files
+After the installation of the gems you are ready to convert your AsciiDoc files to pdf-format.
 
 [source, terminal]
 ----
@@ -50,10 +63,50 @@ Now you can start using the latest version to convert your AsciiDoc.
 [source, terminal]
 ----
 ./bin/asciidoctor-pdf /path/to/your/file.adoc
+# or via bundler
+bundle execute asciidoctor-pdf /path/to/your/file.adoc
 ----
 
-=== Using the development version of Asciidoctor-Pdf in a Gradle build file
-To use the development version of https://github.com/asciidoctor/asciidoctor-pdf[Asciidoctor-Pdf] in a Gradle build file you first need to build the Gem.
+=== Using Asciidoctor in a Gradle build file
+
+==== Using AsciidoctorJ in a Gradle build
+
+The easiest way to use Asciidoctor in a Gradle build is through the Asciidoctor Gradle Plugin.
+It is based on AsciidoctorJ, which functions as a Java wrapper for Asciidoctor.
+
+The following example `build.gradle` will convert your source files to html5.
+
+[source, groovy]
+----
+include::res/gradle/asciidoctorj[]
+----
+
+You start the conversion by invoking the `asciidoctor` task.
+
+[source, commandline]
+----
+include::res/gradle/asciidoctor_task[]
+----
+
+==== Using the Asciidoctor-Pdf gem in a Gradle build
+
+You can use the latest Ruby version of Asciidoctor extensions directly in your Gradle build.
+The following example shows how to use the asciidoctor-pdf gem.
+
+[source, groovy]
+----
+include::res/gradle/asciidoctor-pdf[]
+----
+
+You start the conversion by invoking the `asciidoctor` task.
+
+[source, commandline]
+----
+include::res/gradle/asciidoctor_task[]
+----
+
+==== Using the development version of Asciidoctor-Pdf in a Gradle build file
+To use the development version of https://github.com/asciidoctor/asciidoctor-pdf[Asciidoctor-Pdf] in a Gradle build file you first need to build the gem.
 
 [source, terminal]
 ----
@@ -70,19 +123,19 @@ We are going to use the JRuby and Asciidoctor Gradle plugin, so we need to decla
 include::res/gradle/jruby_plugin[]
 ----
 
-To use a local Gem from Gradle, all dependencies of that Gem have to be specified manually.
+To use a local gem from Gradle, all dependencies of that gem have to be specified manually.
 You can find the dependencies in `asciidoctor-pdf.gemspec`
 
 [source, ruby]
 ----
-include::res/gemspec/asciidoctor-pdf_gemspec[]
+include::res/gemspec/asciidoctor-pdf-dev_gemspec[]
 ----
 
 You can then add them to your `build.gradle`.
 
 [source, groovy]
 ----
-include::res/gradle/asciidoctor-pdf_dependencies[]
+include::res/gradle/asciidoctor-pdf-dev_dependencies[]
 ----
 
 You need to override the jrubyPrepare task to use all of the declared dependencies plus the local gem.
