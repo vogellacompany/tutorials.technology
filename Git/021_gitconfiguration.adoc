@@ -91,6 +91,22 @@ This setting helps avoiding merge commits during the pull operation which synchr
 The author of this {contentidentifier} always uses this setting for his Git repositories.
 ====
 
+=== Allow rebasing with uncommited changes
+
+If you want Git to automatically save your uncommited changes before a rebase you can activate autoStash.
+After the rebase is done your changes will get reapplied.
+For an explanation of `git stash` please see <<stash_usage>>.
+
+[source, console]
+----
+include::res/commandline/gitconfig_rebase_autoStash[]
+----
+
+[NOTE]
+====
+Before Git v2.6 `git pull --rebase` didn't respected this setting.
+====
+
 [[setup_highlighting]]
 
 === Color Highlighting
