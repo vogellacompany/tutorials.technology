@@ -12,3 +12,7 @@ buildscript {
 subprojects {
 	apply plugin: 'com.vogella.gradle.plugin'
 }
+
+task wrapper(type: Wrapper) {
+	gradleVersion = '2.14'
+}
