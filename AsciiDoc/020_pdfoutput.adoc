@@ -118,8 +118,15 @@ Regarding to the automatic facing pages, a blank page will be inserted, if neces
 * Table of contents
 * First page of body content
 * Parts and chapters 
-////
-TODO:(except those which have the nonfacing option set)
-Try to find out how this works.
-////
+
+It’s possible to disable the automatic facing feature for a given part or chapter. 
+This can be done by adding the nonfacing option *[%nonfacing]* to the section node. 
+When the nonfacing option is present, the part or chapter title will be placed on the following page.
+
+----
+[%nonfacing]
+= Chapter Title
+
+Chapter content
+----
 
