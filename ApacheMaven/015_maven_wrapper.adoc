@@ -1,0 +1,68 @@
+== Maven Wrapper
+
+Having reproducible builds on every machine is highly demanded, so that local builds as well as builds on a CI server are really the same. When building with Maven the same input should always result in the same output. To ensure this on different machines, every machine has to have the same version of Maven.
+
+This circumstance can be very difficult, if different projects require different versions of Maven.
+
+To resolve this a Maven Wrapper can be specified for Maven projects. The Maven Wrapper allows to run a Wrapper, which wraps a specified version of Maven for a projects build. When having a Maven Wrapper for a project there is no need to install a certain version of Maven on a machine. Only for the inital creation of the Maven Wrapper files a local Maven installation is necessary.
+
+This concept has been adopted from the Gradle build tool, which also provides a Gradle Wrapper.
+
+=== Creating a Maven Wrapper
+
+Create a Maven Wrapper for a project with the latest available Maven version.
+
+[source, Console]
+----
+cd {your-project}
+mvn -N io.takari:maven:wrapper
+----
+
+Create a Maven Wrapper for a project with a specified Maven version by using the maven property.
+
+[source, Console]
+----
+cd {your-project}
+mvn -N io.takari:maven:wrapper -Dmaven=3.3.0
+----
+
+When wrapper goal has been executed the following files will be created in the maven project.
+
+
+* mvnw (shell script for unix systems)
+* mvnw.cmd (batch file for windows)
+* .mvn/wrapper/maven-wrapper.jar (Maven Wrapper JAR)
+* .mvn/wrapper/maven-wrapper.properties (Maven Wrapper properties)
+
+
+[TIP]
+====
+These Maven Wrapper files should be checked in into version control (e.g. GIT or SVN), so that others who checkout the sources are able to build the projects without the need to install Maven manually in the first place.
+And when using the Maven Wrapper there is no need to worry about the right version of Maven, since the project's Wrapper already specifies and downloads it automatically.
+====
+
+
+[NOTE]
+====
+The `-N`, `--non-recursive` command line option specifies that only the project in the current directory is built without building it's submodules. So the Maven Wrapper will only be applied for the main project and not in every submodule.
+====
+
+
+=== Executing a Maven Wrapper
+
+To run the Maven Wrapper the mvnw for unix systems or mvnw.bat for windows systems can be used.
+
+UNIX:
+
+[source, Console]
+----
+./mvnw clean package
+----
+
+WINDOWS:
+
+[source, Console]
+----
+mvnw.cmd clean package
+----
+

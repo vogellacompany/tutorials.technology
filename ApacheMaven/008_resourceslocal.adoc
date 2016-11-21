@@ -6,3 +6,5 @@ http://maven.apache.org/plugins/maven-deploy-plugin/examples/deploy-ftp.html[Mav
 
 https://github.com/pkainulainen/maven-examples[Maven tools examples on GitHub]
 
+https://github.com/takari/maven-wrapper[Maven Wrapper GitHub repo]
+
