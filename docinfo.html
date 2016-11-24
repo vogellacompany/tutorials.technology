@@ -91,6 +91,24 @@
 <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.9/cookieconsent.min.js"></script>
 <!-- End Cookie Consent plugin -->
 
+<!-- Share on Facebook -->
+<script language="javascript">
+    function fbshareCurrentPage()
+    {
+    	window.open("https://www.facebook.com/sharer/sharer.php?u="+escape(window.location.href), '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');
+    	return false; 
+    }
+</script>
+
+<!-- Share on Twitter -->
+<script>
+	function tweetCurrentPage()
+	{ 
+		window.open("https://twitter.com/share?url="+escape(window.location.href)+"&text="+document.title, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');
+		return false; 
+		}
+</script>
+
 <div id="headerpart">
 
 	<div id="logo">
@@ -261,13 +279,14 @@
 			<li><a href="http://www.vogella.com/training/" onclick="_gaq.push(['_trackEvent', 'vogella Services', 'clicked', 'training']);">vogella Training</a></li>
 			<li><a href="http://www.vogella.com/books/index.html" onclick="_gaq.push(['_trackEvent', 'vogella Services', 'clicked', 'books']);">vogella Books</a></li>
 		</ul>
+		<h1>Share</h1>
 		<div class="social_media_icons">
-			<a href="http://www.twitter.com/vogellacompany">
-				<img src="http://www.vogella.com/img/tutoriallinks/twitter.png" alt="Follow us on twitter" width="32" height="32"/>
+ 			<a href="javascript:tweetCurrentPage()">
+				<img src="http://www.vogella.com/img/tutoriallinks/twitter.png" alt="Tweet" title="Tweet"/>
 			</a>
 			
-			<a href="https://www.facebook.com/pages/Vogella/291986214230897">
-				<img src="http://www.vogella.com/img/common/facebook_small.png" alt="Follow us on Facebook" width="32" height="32"/>
+			<a href="javascript:fbshareCurrentPage()">
+				<img src="http://www.vogella.com/img/common/facebook_small.png" alt="Share on Facebook" title="Share on Facebook">
 			</a>
 		</div>
 	</div>
