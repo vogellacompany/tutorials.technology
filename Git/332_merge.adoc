@@ -68,7 +68,7 @@ The Git command line tooling also supports the _octopus merge_ strategy for merg
 With this operation it can merge multiple branches at once.
 
 The `subtree` option is useful when you want to merge in another project into a sub-directory of your current project. 
-It is rarely used and you should prefer the usage of Git submodules. See <<submodules_definition>> for more information.
+It is rarely used and you should prefer the usage of Git submodules. See http://www.vogella.com/tutorials/GitSubmodules/article.html[Git Submodules] for more information.
 
 The `ours` strategy merges a branch without looking at the changes introduced in this branch. 
 This keeps the history of the merged branch but ignores the changes introduced in this branch.
