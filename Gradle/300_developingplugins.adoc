@@ -98,6 +98,8 @@ include::res/plugin/settings.gradle[]
 
 === Example: Deploy your custom Gradle plug-in to your local Maven repository
 Publish your Gradle plug-in to the Maven repo defined in your plugin/build.gradle file via the following command.
+We use the `clean` task to first delete the `/build` folder to remove old build artifacts.
+The `clean` task gets provided by the java plugin.
 
 [source,java]
 ----
