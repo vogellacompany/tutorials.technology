@@ -484,7 +484,7 @@ This would look like this:
 |===
 |Keyboard shortcuts |List |Button 
 
-a|kbd:[Ctrl+9]
+|kbd:[Ctrl+9]
 a|* Test 1
 * Test 2
 * Test 3
@@ -497,7 +497,7 @@ a|btn:[OK]
 |===
 |Keyboard shortcuts |List |Button 
 
-a|kbd:[Ctrl+9]
+|kbd:[Ctrl+9]
 a|* Test 1
 * Test 2
 * Test 3
