@@ -476,14 +476,14 @@ The snippet above will result in the following:
 Alternatively % values can be used, e.g., [cols="40%, 60%"].
 
 In order to add special asciidoc elements as lists, notes, sourcecode, etc. within a table cell just add an `a` before the `|`. 
-Some elements like kbd and btn do not need a special definition in tables.
+Some elements like keyboard shortcuts(kbd) and buttons(btn) do not need a special definition in tables.
 This would look like this:
 
 ----
 
 .Table with asciidoc elements 
 |===
-|Keyboard shortcuts |List |Note |Button 
+|Keyboard shortcut |List |Note |Button 
 
 |kbd:[Ctrl+9]
 a|* Test 1
@@ -501,7 +501,7 @@ This is a good idea
 
 .Table with asciidoc elements 
 |===
-|Keyboard shortcuts |List |Note |Button
+|Keyboard shortcut |List |Note |Button
 
 |kbd:[Ctrl+9]
 a|* Test 1
