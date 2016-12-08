@@ -17,7 +17,68 @@ Git allows you to commit, pull and push to these repositories independently.
 
 Submodules allow you to keep projects in separate repositories but still be able to reference them as folders in the working directory of other repositories.
 
+== Working with repositories that contain submodules
 
+=== Cloning a repository that contains submodules
+
+If you want to clone a repository including its submodules you can use the `--recursive` parameter.
+
+[source,console]
+----
+git clone --recursive [URL to Git repo]
+----
+
+If you already have cloned a repository and now want to load it's submodules you have to use `submodule update`.
+[source,console]
+----
+git submodule update --init
+# if there are nested submodules:
+git submodule update --init --recursive
+----
+
+=== Downloading multiple submodules at once
+
+Since a repository can include many submodules, downloading them all sequentially can take much time.
+For this reason `clone` and `submodule update` command support the `--jobs` parameter to fetch multiple submodules at the same time.
+
+[source,console]
+----
+# download up to 8 submodules at once
+git submodule update --init --recursive --jobs 8
+git clone --recursive --jobs 8 [URL to Git repo]
+# short version
+git submodule update --init --recursive -j 8
+----
+
+[[submodules_pulling]]
+=== Pulling with submodules
+
+Once you have set up the submodules you can update the repository with fetch/pull like you would normally do.
+To pull everything including the submodules, use the `--recurse-submodules` and the `--remote` parameter in the `git pull command`.
+
+[source,console]
+----
+# pull all changes including submodules in case you are tracking branches
+git pull --remote
+
+# pull all changes including submodules in case you are tracking commits
+git pull --recurse-submodules
+----
+
+=== Executing a command on every submodule
+
+Git provides a command that lets us execute an arbitrary shell command on every submodule.
+To allow execution in nested subprojects the `--recursive` parameter is supported.
+For our example we assume that we want to reset all submodules.
+
+[source,console]
+----
+git submodule foreach 'git reset --hard'
+# including nested submodules
+git submodule foreach --recursive 'git reset --hard'
+----
+
+== Creating repositories with submodules
 
 [[submodules_trackbranch]]
 === Adding a submodule to a Git repository and tracking a branch
@@ -49,8 +110,6 @@ git submodule update --remote
 
 
 [[submodules_adding]]
-== Adding a submodule to a Git repository and tracking based on commits
-
 === Adding a submodule and tracking commits
 
 Alternatively to the tracking of a branch, you can also control which commit of the submodule should be used.
@@ -74,23 +133,6 @@ git submodule init #<2>
 <1> adds a submodule to the existing Git repository
 <2> initialize submodule configuration
 
-[[submodules_cloning]]
-=== Pulling with submodules
-
-Cloning a repository with submodules requires cloning all submodule repositories after the parent repository clone completes.
-This ensure that all necessary files and folders are present in the working directory once cloning completes.
-
-To pull everything including the submodules, use the `--recurse-submodules` and the `--remote` parameter in the `git pull command`.
-
-[source,console]
-----
-# pull all changes including submodules in case you are tracking branches
-git pull --remote
-
-# pull all changes including submodules in case you are tracking commits
-git pull --recurse-submodules
-
-----
 [[submodules_track]]
 === Updating which commit your are tracking
 
@@ -143,4 +185,3 @@ With this setup you need to create a new commit in the master repository, to use
 You need to repeat this procedure every time you want to use another state in one of the submodules. 
 See <<submodules_trackbranch>> for tracking a certain branch of a submodule.
 ====
-
