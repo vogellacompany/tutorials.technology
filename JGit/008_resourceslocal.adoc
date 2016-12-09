@@ -1,0 +1,7 @@
+== JGit resources
+
+https://mvnrepository.com/artifact/org.eclipse.jgit/org.eclipse.jgit/[JGit Maven Repository]
+
+https://eclipse.org/jgit/[JGit project page]
+
+https://github.com/centic9/jgit-cookbook/[JGit Cookbook]

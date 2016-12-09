@@ -1,0 +1,141 @@
+== JGit
+
+_JGit_ is a pure Java implementation of the Git version control system.
+It powers many Git related java projects like EGit and Gerrit.
+JGit is part the Eclipse project.
+You can find more information on the official homepage: https://eclipse.org/jgit/
+
+== Using JGit in your project
+
+JGit is java framework and can be integrated into your project with the usual methods.
+
+=== Adding JGit to your project with Maven
+
+The latest release of JGit can always be found on the Maven repository.
+You can find it's maven repository page here:
+https://mvnrepository.com/artifact/org.eclipse.jgit/org.eclipse.jgit
+
+To add JGit as a Maven dependency, add this to your `pom.xml`.
+
+[source, xml]
+----
+<!-- https://mvnrepository.com/artifact/org.eclipse.jgit/org.eclipse.jgit -->
+<dependency>
+    <groupId>org.eclipse.jgit</groupId>
+    <artifactId>org.eclipse.jgit</artifactId>
+    <version>4.5.0.201609210915-r</version>
+</dependency>
+----
+
+== Using JGit to access Git repositories
+
+JGit implements most of the commands that come with the Git CLI.
+Some of the actions of JGit can be executed on a remote repository but for most methods you have to have a local copy.
+
+=== Cloning a Git repository with JGit
+
+The `Git` class has a static method that allows you to clones a remote repository.
+JGits commands are lazily evaluated to allow configuration via method chaining.
+The call of `Class#call()` starts the execution of the command.
+
+[source, java]
+----
+Git.cloneRepository()
+  .setURI("https://github.com/eclipse/jgit.git")
+  .setDirectory(new File("/path/to/repo"))
+  .call();
+----
+
+By default JGit only clones the default branch.
+It is also possible to tell JGit to clone a specific branch.
+
+[source, java]
+----
+Git.cloneRepository()
+  .setURI("https://github.com/eclipse/jgit.git")
+  .setDirectory(new File("/path/to/repo"))
+  .setBranchesToClone(Arrays.asList("refs/heads/specific-branch"))
+  .setBranch("refs/heads/specific-branch")
+  .call();
+----
+
+JGit can also be told to clone all branches.
+
+[source, java]
+----
+Git git = Git.cloneRepository()
+  .setURI("https://github.com/eclipse/jgit.git")
+  .setDirectory("/path/to/repo")
+  .setCloneAllBranches(true)
+  .call();
+----
+
+
+=== Opening a local repository with JGit
+
+[source, java]
+----
+Repository repository = repositoryBuilder.setGitDir(new File("/path/to/repo"))
+                .readEnvironment() // scan environment GIT_* variables
+                .findGitDir() // scan up the file system tree
+                .setMustExist(true)
+                .build();
+----
+
+=== Checking out a specific commit
+
+The example shows how to check out a specific commit.
+This leaves you in a detatched HEAD state.
+
+[source, java]
+----
+repository.checkout()
+    .setCreateBranch(true)
+    .setName("new-branch")
+    .call();
+----
+
+You can also check out a commit and create a new branch with this commit.
+
+[source, java]
+----
+repository.checkout()
+    .setCreateBranch(true)
+    .setName("new-branch")
+    .setStartPoint("<id-to-commit>")
+    .call();
+----
+
+=== Searching and accessing a file
+
+[source, java]
+----
+            // find the HEAD
+            ObjectId lastCommitId = repository.resolve(Constants.HEAD);
+
+            // a RevWalk allows to walk over commits based on some filtering that is defined
+            try (RevWalk revWalk = new RevWalk(repository)) {
+                RevCommit commit = revWalk.parseCommit(lastCommitId);
+                // and using commit's tree find the path
+                RevTree tree = commit.getTree();
+                System.out.println("Having tree: " + tree);
+
+                // now try to find a specific file
+                try (TreeWalk treeWalk = new TreeWalk(repository)) {
+                    treeWalk.addTree(tree);
+                    treeWalk.setRecursive(true);
+                    treeWalk.setFilter(PathFilter.create("README.md"));
+                    if (!treeWalk.next()) {
+                        throw new IllegalStateException("Did not find expected file 'README.md'");
+                    }
+
+                    ObjectId objectId = treeWalk.getObjectId(0);
+                    ObjectLoader loader = repository.open(objectId);
+
+                    // and then one can the loader to read the file
+                    loader.copyTo(System.out);
+                }
+
+                revWalk.dispose();
+        }
+----
