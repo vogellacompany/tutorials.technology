@@ -1,18 +1,18 @@
 == JGit
 
 _JGit_ is a pure Java implementation of the Git version control system.
-It powers many Git related java projects like EGit and Gerrit.
-JGit is part the Eclipse project.
+It powers many Git related Java projects like EGit and Gerrit.
+JGit is part of the Eclipse project.
 You can find more information on the official homepage: https://eclipse.org/jgit/
 
 == Using JGit in your project
 
-JGit is java framework and can be integrated into your project with the usual methods.
+JGit is a Java framework and can be integrated into your project with the usual methods.
 
 === Adding JGit to your project with Maven
 
 The latest release of JGit can always be found on the Maven repository.
-You can find it's maven repository page here:
+You can find it's Maven repository page here:
 https://mvnrepository.com/artifact/org.eclipse.jgit/org.eclipse.jgit
 
 To add JGit as a Maven dependency, add this to your `pom.xml`.
@@ -34,8 +34,8 @@ Some of the actions of JGit can be executed on a remote repository but for most 
 
 === Cloning a Git repository with JGit
 
-The `Git` class has a static method that allows you to clones a remote repository.
-JGits commands are lazily evaluated to allow configuration via method chaining.
+The `Git` class has a static method that allows you to clone a remote repository.
+JGits commands are lazily evaluated to allow for configuration via method chaining.
 The call of `Class#call()` starts the execution of the command.
 
 [source, java]
@@ -73,13 +73,25 @@ Git git = Git.cloneRepository()
 
 === Opening a local repository with JGit
 
+If you want to directly create a repository object you can use the `FileRepositoryBuilder`.
+
 [source, java]
 ----
-Repository repository = repositoryBuilder.setGitDir(new File("/path/to/repo"))
+FileRepositoryBuilder repositoryBuilder = new FileRepositoryBuilder();
+Repository repository = repositoryBuilder.setGitDir(new File("/path/to/repo/.git"))
                 .readEnvironment() // scan environment GIT_* variables
                 .findGitDir() // scan up the file system tree
                 .setMustExist(true)
                 .build();
+----
+
+If you also need a Git object you can call a static method on it's class.
+
+[source, java]
+----
+Git.open(new File("/path/to/repo/.git"))
+    .checkout();
+Repository repository = git.getRepository();
 ----
 
 === Checking out a specific commit
@@ -89,7 +101,7 @@ This leaves you in a detatched HEAD state.
 
 [source, java]
 ----
-repository.checkout()
+git.checkout()
     .setCreateBranch(true)
     .setName("new-branch")
     .call();
@@ -99,7 +111,7 @@ You can also check out a commit and create a new branch with this commit.
 
 [source, java]
 ----
-repository.checkout()
+git.checkout()
     .setCreateBranch(true)
     .setName("new-branch")
     .setStartPoint("<id-to-commit>")
@@ -107,6 +119,8 @@ repository.checkout()
 ----
 
 === Searching and accessing a file
+
+This example assumes that your already have opened a repository.
 
 [source, java]
 ----
