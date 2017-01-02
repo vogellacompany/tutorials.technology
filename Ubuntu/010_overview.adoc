@@ -1,11 +1,9 @@
 == Ubuntu
 
-=== What is Ubuntu
+=== Introduction
 
 Ubuntu Linux is a full fledged Linux system trailed for the desktop.
 Ubuntu builds a unique user interface and offers the users a solid choice of tools.
-	
-=== Unity as desktop manager
 		
 Unity is the default windows manager on Ubuntu. 
 It introduced the launcher on the left side of Ubuntu and the _Dash_ to start programs.
@@ -14,9 +12,6 @@ Press the kbd:[Windows] key to start the _Dash_.
 Here you can type in commands to open programs and files.
 		
 image::dash10.png[Dash in Action]
-
-[unity_fileexplorer]
-=== Nautilus as file explorer
 
 Ubuntu uses Nautilus as file explorer. Use the Dash or click on the icon in the task manager to start it.
 		
@@ -29,6 +24,8 @@ image::nautilus20.png[Starting Nautilus]
 [unity_newentries]
 === Adding entries to the launcher
 		
+[TIP]
+====		
 To add new entries to the launcher you can create an `.desktop` file and drag file on the launcher. 
 For example, the following creates an entry to start Eclipse with different shortcuts for different workspaces.
 		

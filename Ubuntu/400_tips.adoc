@@ -3,37 +3,14 @@
 === Creating a bootable USB disk with unetbootin
 		
 The default program for creating a bootable USB disk is _Startup Disk Creator_. 
-This crashes frequently during the creation of a boot disk. The program _unetbootin_ is much more stable. 
+This crashes frequently during the creation of a boot disk. 
+The program _unetbootin_ is much more stable. 
 You can install it via the following command and start it on the command line.
 		
 [source,console]
 ----
 include::res/unity/menu.txt[]
 ----
-		
-To open this type "Menu Manager" in the Dash. 
-Choose "programming" in the left panel. 
-Press "New item" button then. 
-Choose name, command, icon
-		
-In the panel click and hold Alt to quick switch/launch apps.
-
-=== Chat applications
-		
-The
-_mumble_
-application
-allows online chats.
-		
-[source,console]
-----
-include::res/tools/mumble-install.txt[]
-----
-
-=== Sharing desktop
-		
-The _Teamviewer_ application allows to share desktop and online chats. 
-It can be installed from http://www.teamviewer.com/.
 
 === Remote xserver
 		
