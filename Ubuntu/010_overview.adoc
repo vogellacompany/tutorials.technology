@@ -24,8 +24,6 @@ image::nautilus20.png[Starting Nautilus]
 [unity_newentries]
 === Adding entries to the launcher
 		
-[TIP]
-====		
 To add new entries to the launcher you can create an `.desktop` file and drag file on the launcher. 
 For example, the following creates an entry to start Eclipse with different shortcuts for different workspaces.
 		
