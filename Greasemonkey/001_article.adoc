@@ -1,0 +1,22 @@
+= Greasemonkey - Tutorial
+:l inkcss:
+:sectnums:
+Lars Vogel (c) 2014-2017 vogella GmbH
+Version 0.1, 16.01.2017
+:keywords: Greasemonkey
+:contentidentifier: description
+:imagesdir: ./img
+:docinfodir: ../
+:vgwort: Greasemonkey
+
+
+[abstract]
+This tutorial describes how to the the Greasemonkey Mozilla Extension to modify webpages.
+
+include::../web/advertisement/afterTableOfContent.adoc[]
+include::010_overview.adoc[]
+include::../support.adoc[]
+include::008_resourceslocal.adoc[]
+include::../copyright.adoc[]
+
+

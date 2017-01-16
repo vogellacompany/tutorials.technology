@@ -1,0 +1,17 @@
+== What is Greasemonkey?
+
+Greasemonkey is a Mozilla Firefox extension that allows scripts to make on-the-fly changes to web pages.
+This allows to modify and simplify webpages.
+
+See https://eclipse.org/jdt/ui/dev.php#scripts for a usage of Greasemonkey together with Bugzilla and JDT UI.
+
+== Installation
+
+Use the Mozilla Addons installation dialog to search for Greasemonkey and to install it.
+
+
+== Using Greasemonkey for Platform UI development
+
+Click on the following link to install a Greasemonkey script to work with Bugzilla for Eclipse Platform UI development:
+
+https://github.com/vogellacompany/com.vogella.tutorials.technology/blob/master/Greasemonkey/res/platformui_bugzilla_greasemonkey.js
