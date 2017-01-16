@@ -1,23 +1,22 @@
 == Installing and configuring Gradle
-(((Gradle, Installation)))
 
 === Requirements
 
+(((Gradle, Installation)))
 The usage of Gradle requires an JDK (Java Development Kit) installation.
 	
-=== Download Gradle
+=== Download and extract Gradle
 		
 The latest version of Gradle can be found on the http://gradle.org/gradle-download[Gradle Download page].
 Download the latest _Complete distribution_.
 		
-It is a gradle-${version}-all.zip, where ${version} is a placeholder for the current version, e.g., _gradle-2.13-all.zip_.
+It is a gradle-${version}-all.zip, where ${version} is a placeholder for the current version.
+
+Extract the contents of the downloaded zip file a new folder.
 		
 === Installing Gradle on Windows
 		
-Extract the contents of the downloaded zip file to _C:\Program Files_ or a different location. 
-This will for example result in a _C:\Program Files\gradle-2.13_ folder.
-		
-Afterwards add the _C:\Program Files\${version}_ folder, e.g., _C:\Program Files\gradle-2.13_ to your `PATH` environment variable.
+Add the folder to which you extracted Gradle to your `PATH` environment variable.
 		
 By pressing Win + Pause the system settings can be opened.
 		
@@ -36,12 +35,9 @@ image::path_variables.png[Windows Path Variables]
 
 ==== Manual installation
 		
-Extract the contents of the downloaded zip file to _/opt/gradle_ or a different location. 
-This will for example result in a _/opt/gradle/gradle-2.13_ folder.
-		
 The `JAVA_HOME` variable must point to a proper jdk and `$JAVA_HOME/bin` must be part of the PATH environment variable.
 		
-Add Gradle to the path by running `export PATH=/usr/local/gradle/gradle-2.13/bin:$PATH` in a terminal.
+Add Gradle to the path by running `export PATH=/usr/local/gradle/FOLDER_TO_WHICH_YOU_EXTRACTED_GRADLE/bin:$PATH` in a terminal.
 		
 ===== Validate
 		
