@@ -34,7 +34,7 @@
 // @resource      config   https://www.eclipse.org/jdt/ui/scripts/jdtbugzilla.config.js
 // @downloadURL   https://raw.githubusercontent.com/vogellacompany/com.vogella.tutorials.technology/master/Greasemonkey/res/platformui_bugzilla_greasemonkey.js
 // @updateURL     https://raw.githubusercontent.com/vogellacompany/com.vogella.tutorials.technology/master/Greasemonkey/res/platformui_bugzilla_greasemonkey.js
-// @version 1.20170111T1327
+// @version 1.20170117T1139
 
 // @include       https://bugs.eclipse.org/*
 // @include       https://bugs.eclipse.org/bugs/show_bug.cgi*
@@ -1112,6 +1112,17 @@ if (commentElem) {
 + "}\n"
 ;
 	commentElem.parentNode.appendChild(createScript(script));
+}
+
+// add bug report link for Platform/UI to navbar
+var newLinks = document.querySelectorAll("a[href='enter_bug.cgi']");
+for (var i = 0; i < newLinks.length; i++) {
+    var newLink = newLinks[i];
+    var platformLink = newLink.cloneNode();
+    platformLink.textContent = "(in Platform/UI)";
+    platformLink.href = newLink.href + "?product=platform&component=UI"
+    newLink.parentNode.insertBefore(platformLink, newLink.nextSibling);
+    newLink.parentNode.insertBefore(document.createTextNode(" "), platformLink);
 }
 
 // Loop over <label>s:
