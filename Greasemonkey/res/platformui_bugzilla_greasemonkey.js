@@ -32,8 +32,8 @@
 // @grant         GM_addStyle
 // @run-at document-start
 // @resource      config   https://www.eclipse.org/jdt/ui/scripts/jdtbugzilla.config.js
-// @downloadURL   https://www.eclipse.org/jdt/ui/scripts/jdtbugzilla.user.js
-// @updateURL     https://www.eclipse.org/jdt/ui/scripts/jdtbugzilla.user.js
+// @downloadURL   https://raw.githubusercontent.com/vogellacompany/com.vogella.tutorials.technology/master/Greasemonkey/res/platformui_bugzilla_greasemonkey.js
+// @updateURL     https://raw.githubusercontent.com/vogellacompany/com.vogella.tutorials.technology/master/Greasemonkey/res/platformui_bugzilla_greasemonkey.js
 // @version 1.20170111T1327
 
 // @include       https://bugs.eclipse.org/bugs/show_bug.cgi*
