@@ -1,4 +1,4 @@
-h= Greasemonkey - Tutorial
+= Greasemonkey - Tutorial
 :l inkcss:
 :sectnums:
 Lars Vogel (c) 2014-2017 vogella GmbH
