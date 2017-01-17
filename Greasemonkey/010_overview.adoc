@@ -15,3 +15,6 @@ Use the Mozilla Addons installation dialog to search for Greasemonkey and to ins
 Click on the following link to install a Greasemonkey script to work with Bugzilla for Eclipse Platform UI development:
 
 https://github.com/vogellacompany/com.vogella.tutorials.technology/blob/master/Greasemonkey/res/platformui_bugzilla_greasemonkey.js
+
+== Using Userscripts with a different browser
+If you want to use userscripts with a different browser than Mozilla Firefox you can install https://tampermonkey.net/[Tampermonkey].
