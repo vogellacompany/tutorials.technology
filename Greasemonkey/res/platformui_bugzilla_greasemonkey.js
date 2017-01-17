@@ -36,6 +36,7 @@
 // @updateURL     https://raw.githubusercontent.com/vogellacompany/com.vogella.tutorials.technology/master/Greasemonkey/res/platformui_bugzilla_greasemonkey.js
 // @version 1.20170111T1327
 
+// @include       https://bugs.eclipse.org/*
 // @include       https://bugs.eclipse.org/bugs/show_bug.cgi*
 // @include       https://bugs.eclipse.org/bugs/process_bug.cgi
 // @include       https://bugs.eclipse.org/bugs/attachment.cgi*
