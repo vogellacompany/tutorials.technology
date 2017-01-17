@@ -1,4 +1,4 @@
-= Greasemonkey - Tutorial
+h= Greasemonkey - Tutorial
 :l inkcss:
 :sectnums:
 Lars Vogel (c) 2014-2017 vogella GmbH
@@ -16,7 +16,6 @@ This tutorial describes how to the the Greasemonkey Mozilla Extension to modify 
 include::../web/advertisement/afterTableOfContent.adoc[]
 include::010_overview.adoc[]
 include::../support.adoc[]
-include::008_resourceslocal.adoc[]
 include::../copyright.adoc[]
 
 
