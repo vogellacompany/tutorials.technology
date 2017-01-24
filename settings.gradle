@@ -53,4 +53,5 @@ include 'UML'
 include 'UnixGrep'
 include 'Webstandards'
 include 'XSLT'
+include 'RequirementsEngineering'
 

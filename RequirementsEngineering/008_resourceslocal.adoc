@@ -1,0 +1,6 @@
+== Links and literature
+
+http://www.vogella.com/tutorials/UML/article.html[Unified Modeling Language]
+
+
+

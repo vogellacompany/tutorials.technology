@@ -1,0 +1,66 @@
+== What is Requirements Engineering
+
+Requirements Engineering (RE) defines the process of the defining, documenting, maintaining and validating requirements.
+In order to define a requirement different methods can be used. 
+
+
+== User stories
+
+A user story is a requirement which is written by the user or customer of the software.
+They are written in simple words and should not be longer than two sentences.  
+User stories are used in agile software development projects.
+
+A template for a user story could look like this:
+
+* As a <type of user>, I want <goal> to <reason>.
+* As a <type of user>, I want <goal>.
+
+== Use cases
+
+Use cases are a definition of actions on how a user will interact with a software to achieve a goal. 
+The actions are described step by step to define the process that a user will go through to complete the goal.
+Use cases do not only describe the correct steps, they also state the errors that the user could encounter on its way to achieve the goal.
+
+They can consist of only text or also include UML (http://www.vogella.com/tutorials/UML/article.html[Unified Modeling Language]) diagrams.
+
+There is not a standard way to write use cases and each project needs to set a a template that fulfills the needs of the project. 
+A possible template for a use case could look like this:
+
+* Title 
+* Id - this should be unique
+* Brief Description - A maximum of two sentences, similar to a user story
+* Level - Possibe options: High Level Summary,  Summary, User Goal, Sub-Function, Low Level
+* Actors - Roles of the persons involved in the use case
+* Preconditions - Conditions which have to be true at the beginning of the use case
+* Basic Flow - Step by step definition of the user actions and the reaction of the system
+* Alternate Flows - Deviations of the basic flow which could come up in the process due to special conditions 
+* Exception Flows - Errors that could happen on the way to achieve a goal
+* Post Conditions - Conditions which must be true at the end of the use case
+
+== Personas
+
+The word _personas_ was first published in 1999 in Alan Cooper's book: "The Inmates Are Running The Asylum" and is used to describe fictitious types of users. 
+The main reasons for the definition of personas as stated by Alan Cooper are:
+
+* The product should adapt to the users, and not the users to the product
+* Try to fascinate only some users with the product, it is not possible to make all users happy 
+
+In Requirement Engineering it is since then common to define personas, which can be used in the use cases.
+This are highly personalized users of the software, with a fictitious name and an unique personality.
+
+During the design and implementation phase of software the needs of this fictitious users should be highly considered.
+
+NOTE: The number of personas should be as small as possible.
+
+The definition of a persona might include the following information: 
+
+* Name and surname
+* Foto
+* Role 
+* Marital status
+* Age
+* Goals
+* Education
+* Hobbys
+* Expectations
+
