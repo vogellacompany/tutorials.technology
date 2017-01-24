@@ -10,7 +10,7 @@ Version 0.1, 24.01.2017
 :vgwort: RequirementsEngineering
 
 [abstract]
-This tutorial explains the basics of Requirements engineering
+This tutorial explains the basics of Requirements Engineering
 
 include::../web/advertisement/afterTableOfContent.adoc[]				
 include::010_overview.adoc[]
