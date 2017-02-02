@@ -1,13 +1,7 @@
 == Overview
 	
-_MySQL_
-is a popular open source database which can be used free
-of
-charge.
-MySQL is a relational database. Web applications can use
-this database
-to store
-persistence data.
+_MySQL_ is a popular relational open source database.
+Applications can use this database to persist data.
 	
-This tutorial covers theinstallation of MySQL and the usage of the database.
+This tutorial covers the installation of MySQL and the usage of the database.
 	

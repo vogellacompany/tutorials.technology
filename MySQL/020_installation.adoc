@@ -6,13 +6,10 @@ Under Ubuntu you can install MySQL with the following command:
 
 [source,text]
 ----
-include::res/installMySQL.txt[]
+sudo apt-get install mysql-server
 ----
 
-The installation will asked you questions regarding your desired
-installation, e.g.
-the
-password to use, etc.
+The installation procedure allow you to set the root password.
 
 
 [[installation_windows]]

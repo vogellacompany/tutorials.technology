@@ -1,16 +1,12 @@
 == Connecting to MySQL
 
-MySQL provides the
-`mysql`
-command line interface for administrative work.
-
-To connect to the
-_MySQL_
-database server use the following command.
+MySQL provides the `mysql` command line interface for administrative work.
+To connect to the _MySQL_ database server use the following command:
 
 [source,text]
 ----
-include::res/connectMySQL.txt[]
+# connect as root to MySQL server
+mysql -u root -p
 ----
 
 Once you have created a database on this server you can also
@@ -18,10 +14,10 @@ connect directory to the database with the following command.
 
 [source,text]
 ----
-include::res/connectDbMySQL.txt[]
+mysql db_name -u user -pmypassword
 ----
 
-The default port of the database server is 3306, e.g., the Java
-JDBC connection string to connect to the iotcloud database would be
+The default port of the database server is 3306.
+For example, the Java JDBC connection string to connect to the iotcloud database would be
 jdbc:mysql://localhost:3306/iotcloud. 
 
