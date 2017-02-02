@@ -4,41 +4,34 @@
 [[gerritsetup_workflow3]]
 === A typical Gerrit workflow
 
-The following describes a typical workflow of a developer who
-uploads a Gerrit review and a reviewer.
+The following describes a typical Gerrit workflow of you as a developer using Gerrit.
 
-* The developer fetches or pulls in the latest changes from the Git repository
-* The developer create a new local branch based on the `origin/master` branch. 
+* You fetch or pull in the latest changes from the Git repository
+* Optionally, you create a new local branch based on the `origin/master` branch. 
+
+[NOTE]
+====
 This step is optional but it is considered a good practice to create an independent branch per change to avoid unnecessary dependencies between commits (Gerrit reviews).
-* The developer implements a change(new feature, bug fix, documentation change) and create a commit in his local repository with these modifications.
-* The developer implements (if necessary) more changes and amends the existing commit, until he is satisfied with the change.
+====
+
+* You implement a change (new feature, bug fix, documentation change) and create a commit in his local repository with these modifications.
+* implements (if necessary) more changes and amends the existing commit, until he is satisfied with the change.
 
 Afterwards you perform the following steps.
 
 * Push the change to the Gerrit review system to the `refs/for/master` refspec to create a change for the master branch.
 * If you receive improvement suggestions, fetch the latest changes and rebase your patch onto origin/master
 
-Repeat the last three steps until the patch is finally accepted
-and merged into the codebase (or until the change is completely
-rejected). Finally you can delete your
-local branch.
+Repeat the last three steps until the patch is finally accepted and merged into the codebase (or until the change is completely rejected). Finally you can delete your local branch.
 
 [[gerritsetup_workflow1]]
 === Gerrit vs. Git workflow
 
-In the Gerrit scenario amending a commit
-is used to update
-the
-Gerrit change request. Using the amend operation on a published
-commit is usually
-discouraged in Git, in Gerrit it is the normal
-process.
+In the Gerrit scenario amending a commit is used to update the Gerrit change request. 
+Using the amend operation on a published commit is usually discouraged in Git, in Gerrit it is the normal process.
 
 [[gerritsetup_workflow2]]
 === Gerrit vs. GitHub workflow
-The Gerrit review system is based on the assumption that each commit
-is reviewed separately, while
-at GitHub, a complete
-branch is reviewed
-and merging with the pull request.
+The Gerrit review system is based on the assumption that each commit is reviewed separately. 
+At GitHub, a complete branch is reviewed and merging with the pull request.
 

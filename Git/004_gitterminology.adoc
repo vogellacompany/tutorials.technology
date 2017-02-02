@@ -1,9 +1,5 @@
 [[gitterminlogy]]
-== Introduction into Git
-
-In this part a brief overview of Git is giving. The corresponding Git operations are later covered in detail.
-
-=== What is Git?
+== What is Git?
 
 (((What is Git)))
 _Git_ is currently the most popular implementation of a distributed version control system.
@@ -14,7 +10,7 @@ Nowadays it is used by many popular open source projects, e.g., the Android or t
 The core of Git was originally written in the programming language _C, but Git has also been re-implemented in other languages, e.g., Java, Ruby and Python.
 
 [[gitdefintion_localrepositories]]
-=== Git repositories
+== Git repositories
 
 A Git repository contains the history of a collection of files starting from a certain directory.
 The process of copying an existing Git repository via the Git tooling is called _cloning.
@@ -36,7 +32,7 @@ This is the default type which is created if you do not specify any parameter du
 A _local non-bare Git repository_ is typically called _local repository_.
 
 [[workingtree]]
-=== Working tree
+== Working tree
 (((Working tree in Git)))
 A local repository provides at least one collection of files which originate from a certain version of the repository. 
 This collection of files is called the _working tree_. 
@@ -59,7 +55,7 @@ A file in the working tree of a Git repository can have different states. These 
 After doing changes in the working tree, the user can add these changes to the Git repository or revert these changes.
 
 [[gitaddingprocess]]
-=== Adding to a Git repository via staging and committing
+== Adding to a Git repository via staging and committing
 (((Adding files to the Git repository)))
 After modifying your _working tree_ you need to perform the following two steps to persist these changes in your local repository:
 
@@ -94,7 +90,8 @@ See <<commit_object>> for information about the commit object.
 
 
 [[gitdefintion_remoterepositories]]
-=== Synchronizing with other Git repositories (remote repositories)
+== Synchronizing with other Git repositories (remote repositories)
+
 (((Remote repositories)))
 Git allows the user to synchronize the local repository with other (remote) repositories.
 
@@ -102,7 +99,7 @@ Users with sufficient authorization can send new version in their local reposito
 They can also integrate changes from other repositories into their local repository via the _fetch_ and _pull_ operation.
 
 [[gitdefinition_branching]]
-=== The concept of branches
+== The concept of branches
 
 (((Branch)))
 (((What is branching in Git?)))
@@ -123,7 +120,7 @@ The developer can use Git commands to combine the changes at a later point in ti
 
 
 [[gitterminology]]
-=== Summary of the core Git terminology
+== Summary of the core Git terminology
 
 (((Terminology in Git)))
 The following table provides a summary of important _Git_ terminology discussed in this section.
@@ -214,5 +211,4 @@ repositories and _pushurl_ for pushing data to another repository.
 |The _working tree_ contains the set of working files for the repository. 
 You can modify the content and commit the changes as new commits to the repository.
 |===
-
 

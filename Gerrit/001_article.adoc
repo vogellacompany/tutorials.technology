@@ -11,18 +11,15 @@ Version 2.3, 06.10.2016
 
 [abstract]
 Gerrit tutorial.
-This tutorial explains the usage of the Gerrit code review
-system. It describes the setup of Eclipse (with EGit) as well as the
-command line setup. Contributing to an Eclipse.org project via Gerrit is also described.
+This tutorial explains the installation and usage of the Gerrit code review system.
+It describes the setup of Eclipse (with EGit) as well as the command line setup.
 
 include::../web/advertisement/afterTableOfContent.adoc[]
 include::010_codereview.adoc[]
-include::020_gerrit.adoc[]
-include::../web/advertisement/inBetween01.adoc[]
 include::020_installation.adoc[]
+include::../web/advertisement/inBetween01.adoc[]
 include::030_workflow.adoc[]
 include::040_user_setup.adoc[]
-include::044_user_newchangescreen.adoc[]
 include::060_setuprepo.adoc[]
 include::070_prepareexampleproject.adoc[]
 include::../web/advertisement/inBetween02.adoc[]

@@ -4,41 +4,24 @@
 [[webreview_reviewchangerequest]]
 === Reviewing a change request
 
-Click on one change request to see the
-details of the Gerrit
-change request. Click on the commit message of the
-file name
-(highlighted in the
-screenshot)
-to see the changes in the file.
+Click on one change request to see the details of the Gerrit change request. 
+Click on the commit message of the file name (highlighted in the screenshot) to see the changes in the file.
 
 image::webreview08.png[Web review]
 
-You can
-double-click on
-a line to comment on the change.
+You can double-click on a line to comment on the change.
 
 image::webreview10.png[Web review]
 
-Clicking on
-_Up to change_
-brings you back to the change.
+Clicking on _Up to change_ brings you back to the change.
 
-Gerrit allows you to review the commit
-message, which appears at
-the top of the
-file
-list. To understand the history
-of the repository
-it is important to provide a good commit message.
+Gerrit allows you to review the commit message, which appears at the top of the file list.
+To understand the history of the repository it is important to provide a good commit message.
 
 [[webreview_reviewresult]]
 === Publishing your review result
 
-Click on
-_Reply_
-button
-to give feedback on the change.
+Click on _Reply_ button to give feedback on the change.
 
 image::webreview12.png[Web review]
 
@@ -85,10 +68,7 @@ is used and the
 Gerrit review system identifies the change as update
 of the existing change.
 
-The
-_Git Staging_
-view allows amending the last commit by clicking the amend button
-shown in the screenshot.
+The _Git Staging_ view allows amending the last commit by clicking the amend button shown in the screenshot.
 
 image::amendwithstagingview32.png[Amend flag in Git Staging view]
 
@@ -101,41 +81,19 @@ just see what the author changed between patchset 3 and patchset 5.
 
 image::patchsets10.png[Patch set comparison view]
 
-Once the change has reached the required quality, the
-reviewer
-can give
-a +2
-evaluation of the
-change.
+Once the change has reached the required quality, the reviewer can give a +2 evaluation of the change.
 
-Depending on the settings of the Gerrit repository, the Gerrit
-review might have to be rebased. If you conflict
-happens during this
-rebase operation you can trigger this rebase directly from the web
-interface. If a change
-is
-rebased, it
-needs to be reviewed again.
+Depending on the settings of the Gerrit repository, the Gerrit review might have to be rebased.
+If you conflict happens during this rebase operation, you can trigger this rebase directly from the web interface.
+If a change is rebased, it needs to be reviewed again.
 
 image::webreview40.png[Web review]
 
-Afterwards a developer with commit rights can submit the
-change.
-This is typically done by the same committer who
-voted +2.
-Depending
-on the Gerrit configuration for the project, this
-may only work
-if the
-change is based on the
-current
-origin/master branch. Gerrit
-allows the
-committer and
-contributor to
-rebase the change if
-that is not
-the case.
+Afterwards a developer with commit rights can submit the change.
+This is typically done by the same committer who voted +2.
+This may require that the corresponding commit is based on the current origin/master branch. 
+This depends on the Gerrit configuration for the project.
+The Gerrit UI allows the committer or contributor to rebase the change onto origin/master if no conflicts occur.
 
 image::webreview50.png[Web review]
 
@@ -185,18 +143,10 @@ For this, right-click on
 the project
 menu:Team[Remote > Fetch from Gerrit].
 
-When working with many projects, it is often easier to right-click
-on the repository instead and access
-btn:[Fetch from Gerrit]
-from there.
-You can paste the change's number (shown in the change's
-URL) and use
-kbd:[Ctrl+Space]
-to expand the change number to the list of patch sets, select the
-one you want to download and fetch it into a new
-local branch.
-Afterwards you can
-to test the changes in isolation.
+When working with many projects, it is often easier to right-click on the repository instead and access btn:[Fetch from Gerrit] from there.
+You can paste the change's number (shown in the change's URL) and use kbd:[Ctrl+Space] to expand the change number to the list of patch sets.
+Select the one you want to download and fetch it into a new local branch.
+Afterwards you can to test the changes in isolation.
 
 image::webreviewpull20.png[Pulling in the change]
 
@@ -206,8 +156,7 @@ You can also edit directly in Gerrit. Press the edit button for this.
 
 image::editingerrit10.png[Edit in Gerrit]
 
-Afterwards select the file or the commit message you want to edit. Press save and close once you are done. After
-you
-are done with all your edits, press the
-_Publish Edit_.
+Afterwards select the file or the commit message you want to edit. 
+Press save and close once you are done. 
+After you are done with all your edits, press the _Publish Edit_.
 

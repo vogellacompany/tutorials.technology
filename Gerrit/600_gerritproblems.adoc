@@ -3,29 +3,18 @@
 
 [[gerrit_problems_squashcommits]]
 === You forgot to amend the commit
-(((squash commits first)))
-If you try to push a commit which contains the same ChangeId as
-a
-predecessor commit, Gerrit will reject it and
-responds with the error
-message:
-"squash commits first".
 
-In this case you probably forgot to
-amend the existing
-commit but
-used
-the same Gerrit Change-ID. This is depicted
-in the following
-graphic.
+(((squash commits first)))
+If you try to push a commit which contains the same ChangeId as a predecessor commit, Gerrit rejects it and responds with the error message: "squash commits first".
+
+In this case you probably forgot to amend the existing commit and used the same Gerrit Change-ID. This is depicted in the following graphic.
 
 image::gerritissue_problem30.png[Rebase as solution]
 
-In this case you need to squash the commits. This results in a
-new commit which can be pushed to Gerrit. As you
-use the same
-Change-ID this pushed commit will update the Gerrit review. In the following diagram the "Commit 2'" is
-the result of squashing "Commit 2" and "Commit 3" into one commit.
+In this case you need to squash the commits.
+This results in a new commit which can be pushed to Gerrit. 
+As you use the same Change-ID this pushed commit updates the Gerrit review. 
+In the following diagram the "Commit 2'" is the result of squashing "Commit 2" and "Commit 3" into one commit.
 
 image::gerritissue_solution30.png[Rebase as solution]
 
@@ -90,42 +79,23 @@ into the master branch.
 [[gerrit_problems_nonfastforward]]
 === non-fast forward
 
-You get this error message if you try to submit a commit in
-Gerrit to the Git repository and the change would
-result in a
-non-fast forward merge. The Gerrit service is sometimes configured
-with
-the setting to allow only
-fast-forward merges. The default submit
-type
-in
-Gerrit is
-"Merge if necessary".
+You get this error message, if you try to submit a commit which would result in a non-fast forward merge. 
+The Gerrit service is sometimes configured with the setting to allow only fast-forward merges. 
 
-This
-is the
-case if
-the pushed commit is not based on the current
-tip
-of the
-remote
-branch, e.g., origin/master if you
-aim to merge your
-change into this branch.. This problem is depicted in the following
-graphic.
+[NOTE]
+====
+The default submit type in Gerrit is "Merge if necessary".
+====
+
+In this case the pushed commit is not based on the current tip of the remote branch.
+This problem is depicted in the following graphic.
 
 image::gerritissue_problem10.png[Non-fast forward]
 
-The solution is to rebase your commit onto
-`origin/master`. 
-This updates your change onto changes which reached origin/master
-while you were working on your change. Afterwards
-you push the commit
-again to Gerrit.
+The solution is to rebase your commit onto `origin/master`. 
+Afterwards you push the commit again to Gerrit.
 
 image::gerritissue_solution10.png[Rebase as solution]
 
-See
-https://git.eclipse.org/r/Documentation/error-non-fast-forward.html[non-fast forward]
-for details.
+See https://git.eclipse.org/r/Documentation/error-non-fast-forward.html[non-fast forward] for details.
 

@@ -1,55 +1,42 @@
 [[gerrit_installation]]
 == Installation of Gerrit
 
+The installation of Gerrit requires the JDK to be installed on the machine.
+Also the Git command line tooling must be installed.
+
 [[gerrit_installation_download]]
 === Download Gerrit
+
 (((Gerrit,Installation)))
 Download the latest Gerrit release from
-http://gerrit-releases.storage.googleapis.com/index.html[Gerrit download page]. The download is a
-`.war`
-file which you can directly add to your servlet container, for
-example, a Jetty or Tomcat installation.
+http://gerrit-releases.storage.googleapis.com/index.html[Gerrit download page].
 
-The
-`.war`
-file also contains a Jetty web server and can be started directly for
-testing or rapid deployment. The following
-description uses this approach.
+The download is a `.war` file.
+This war file can run in a servlet container, for example, a Jetty or Tomcat installation.
+The `.war` file contains a Jetty web server and can be started directly for testing or rapid deployment. 
 
+The following description starts the Gerrit server directly.
 
 [[gerrit_installation_setup]]
 === Setup of Gerrit
 
-Copy the
-`.war`
-file into an empty directory.
+Copy the `.war` file into an empty directory.
 
-Switch on the command line to the location of the directory to which
-you extracted the
-`.war`
-file.
-Install and start
-Gerrit with
-the following command.
+Switch on the command line to the location of the directory to which you extracted the `.war` file.
+Install Gerrit with the following command.
 
 [source,console]
 ----
 include::res/install/install.txt[]
 ----
 
-The installation procedure allows you to configure your Gerrit
-installation. The installation is done in the folder
-specified with
-the
-`-d`
-parameter, in this example "review_site".
+The Gerrit instance is installed into the folder specified with the `-d` parameter, in this example _review_site_.
 
-The installation procedure asks a few question, pressing enter uses
-the default value which is typically fine for a
-test installation. A
-few of these options are discussed in the following table.
+If you do not use `--batch` flag, you can interactively configure the Gerrit instance via a set of questions.
+A few of these options are discussed in the following table.
 
 .Gerrit setup options
+[cols="1,3",options="header"]
 |===
 |Option |Description
 
@@ -67,36 +54,30 @@ few of these options are discussed in the following table.
 This can be changed if the ports are already used.
 
 |Authentication method 
-|The easiest way of
-configuring access to Gerrit is to use
-_OpenID Single Sign-on_
-which is the default setting. Use ? to see all available
-settings for this option. For testing
-"development_become_any_account" is
-a valid option, this setting allows to
+|Typical configuring to access the Gerrit server uses _LDAP_ or _OpenID Single Sign-on_ which is the default setting. 
+Use ? to see all available settings for this option. 
+For testing use "development_become_any_account".
 
 |===
 
-
-TIP: Use _development_become_any_account_ to enable general access to Gerrit. 
-This is a nice setting for testing. 
+[NOTE]
+====
+Use _development_become_any_account_ to enable general access to Gerrit. 
 If started with this setting, you have a _Become_ link in the web interface which allows you to login and to create a new account.
+To enable that authentication method, you can use the following command:
+git config --file ~/etc/gerrit.config auth.type DEVELOPMENT_BECOME_ANY_ACCOUNT
+====
 
-After a successful installation Gerrit starts automatically. You
-can start and stop it again with the following
-commands on Linux
-based systems.
+After a successful installation Gerrit starts automatically on Unix-like systems.
+You can start and stop it again with the following commands on Linux based systems.
 
 [source,console]
 ----
 include::res/install/start.txt[]
 ----
 
-On Microsoft Windows based systems you need to invoke the
-daemon directly. From a command shell switch to the folder
-`gerrit_site`
-and
-run the following command to start the server.
+On Microsoft Windows based systems you need to invoke the daemon directly. 
+From a command shell switch to the folder `gerrit_site` and run the following command to start the server.
 
 [source,batch]
 ----
@@ -104,11 +85,15 @@ include::res/install/windows.txt[]
 ----
 
 This starts Gerrit.
-To stop it again, kill the running process using
-kbd:[Ctrl+C]
-If something goes wrong, look into the
-`logs`
-folder.
+To stop it again, kill the running process using kbd:[Ctrl+C].
 
-TIP: The local Gerrit configuration is stored in the `./review_site/etc/` folder.
 
+[TIP]
+====
+If something goes wrong, look into the `logs` folder.
+====
+
+[NOTE]
+====
+The local Gerrit configuration is stored in the `./review_site/etc/` folder.
+====

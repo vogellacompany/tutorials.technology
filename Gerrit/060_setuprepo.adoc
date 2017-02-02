@@ -1,40 +1,26 @@
 [[gerritsetup_repository]]
-== Administrator: upload Git repository
+== Administrator: Upload Git repository
 
-This part is only relevant for the administrator. Create a new
-Git
-repository called
-_gerrittest_
-via EGit or the Git command line.
+This part is only relevant for the administrator. 
+Create a new Git repository called _gerrittest_ via EGit or the Git command line.
 
-Create a the new Git repository in Gerrit via the following
-command.
+Create a the new Git repository in Gerrit via the following command.
 
 [source,bourne]
 ----
 include::res/projectsetup/createproject.txt[]
 ----
 
-Since version 2.6.1 you can also click
-menu:Projects[Create New Project]
-in the web interface.
+You can also click menu:Projects[Create New Project] in the web interface.
 
 The new project can be found in the Gerrit web interface under
 menu:Projects[List].
 
 image::gerrit_reposetup10.png[Viewing the list of Gerrit repositories]
 
-Select your project and
-menu:Access. 
-For testing give push rights to all registered users, which is the
-default after
-a fresh installation. In a productive
-environment you can
-configure
-Gerrit to be more restrictive.
-Especially the access right `Push Merge Commit`
-for feature branches named `refs/heads/*`
-is something only trusted and experienced committers should be allowed to do.
+Select your project and menu:Access[]. 
+For testing give push rights to all registered users, which is the default after a fresh installation. In a productive environment, you can configure Gerrit to be more restrictive.
+Especially the access right `Push Merge Commit` for feature branches named `refs/heads/*` is something only trusted and experienced committers should be allowed to do.
 
 image::gerrit_reposetup20.png[Viewing the list of Gerrit repositories]
 

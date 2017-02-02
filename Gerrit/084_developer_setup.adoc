@@ -1,34 +1,26 @@
 [[gerritreview_configuration]]
 == Developer: Gerrit configuration for the Git repository
 
-After you cloned the repository from Gerrit, right-click in the
-_Git Repositories_
-view
-on the
-_origin_
-remote and select
-_Gerrit Configuration..._.
+[NOTE]
+====
+If you used Eclipse for cloning the Git repository from Gerrit, you can skip this step.
+Eclipse configured itself automatically to work with Gerrit.
+If you cloned via the command line, you need to perform this configuration step.
+====
+
+Right-click on your cloned repository in the _Git Repositories_ view on the _origin_ remote and select _Gerrit Configuration..._.
 
 image::remotegerritconfiguration10.png[Configure a remote for Gerrit]
 
-The default values in this dialog should be okay. Press the
-finish
-button.
+The default values in this dialog are okay.
+Press the btn:[Finish] button.
 
 image::remotegerritconfiguration20.png[Configure a remote for Gerrit]
 
-This sets your push configuration for this remote to
-_refs/for/*_
-which tells Gerrit that you created or updated a change.
-To
-valid the
-push configuration, right-click on your remote and select
-_Configure push_
-and ensure that the setting is similar to the
-following screenshot. It
-also adds a flag to your repository to tell the Eclipse Git tooling to
-create a
-Gerrit Change-id.
+This sets your push configuration for this remote to _refs/for/*_ which tells Gerrit that you created or updated a change.
+To valid the push configuration, right-click on your remote and select _Configure push_.
+Ensure that the setting is similar to the following screenshot. 
+It also adds a flag to your repository to tell the Eclipse Git tooling to create a Gerrit Change-id.
 
 TIP: Use the _Properties_ view on your repository to see the details of your repository configuration.
 

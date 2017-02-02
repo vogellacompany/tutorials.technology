@@ -1,35 +1,23 @@
 [[gerritsetup_project]]
-== Administrator: create example project
+== Administrator: Create example project
 
-Also for testing create a new Java project called
-_com.vogella.gerrit.example_
-in Eclipse that gets stored in a local
-Git repository. Add a few
-classes to it.
+Also for testing create a new Java project called _com.vogella.gerrit.example_.
+Add a few classes to it.
+Create a new local Git repository and add the project to it.
 
-NOTE: The following pushes the changes directly to the Git repository without a change in Gerrit. Administrators are allowed to do this.
-
-Afterwards
-push the local Git
-repository
-to Gerrit by selecting
-menu:Team[Remote > Push].
-Enter the following URL ssh://<userid>@localhost:29418/demo/gerrittest.git
-in the wizard and press the
-_Next_
-button.
+Afterwards push the local Git repository to Gerrit by selecting menu:Team[Remote > Push].
+Enter the following URL ssh://<userid>@localhost:29418/demo/gerrittest.git in the wizard and press the _Next_ button.
 
 image::gerrit_initialpush10.png[Initial push to Gerrit]
 
-On the next page, click the
-btn:[Add All Branches Spec]
-button.
+On the next page, click the btn:[Add All Branches Spec] button.
 
 image::gerrit_initialpush20.png[Initial push to Gerrit]
 
-Press the
-btn:[Next]
-button and on the last wizard page the
-btn:[Finish]
-button.
+Press the btn:[Next] button and on the last wizard page the btn:[Finish] button.
 
+[NOTE]
+====
+This pushes the changes directly to the Git repository without a change in Gerrit.
+This is possible as the default permissions in Gerrit are set to allow this.
+====

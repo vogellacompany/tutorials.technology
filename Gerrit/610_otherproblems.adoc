@@ -3,44 +3,30 @@
 [[gerrit_problems_removecommit]]
 === Remove a bad commit from a series of commits
 
-If you create a series
-of dependent commits, it might happen that
-one of the commits
-is rejected during the review
-process.
+If you create a series of dependent commits, it might happen that
+one of the commits is rejected during the review process.
 
-In this
-case you
-cannot merge the
-other commits as they still
-have a
-dependency to the
-"bad" commit.
+In this case, you cannot merge the  other commits as they still have a dependency to the "bad" commit.
 
 image::gerritissue_problem20.png[Non-fast forward]
 
 During the review process commit 2 are rejected.
-The commit 3 and
-commit 4 are still good and do not depend on the changes in commit 2.
+The commit 3 and commit 4 are still good and do not depend on the changes in commit 2.
 
 image::gerritissue_problem22.png[Non-fast forward]
 
-The solution is to use interactive rebase to skip the bad
-commit.
+The solution is to use interactive rebase to skip the bad commit.
 
 image::gerritissue_solution20.png[Rebase as solution]
 
-TIP: The Gerrit user interface does show "depends on" and "needed
-by" fields
-when it knows that a Gerrit review depends on another
-review. This
-helps you
-manage your dependency trail.
+[TIP]
+====
+The Gerrit user interface does show "depends on" and "needed by" fields when it knows that a Gerrit review depends on another review. 
+This helps you manage your dependency trail.
+====
 
 [[gerrit_problems_more]]
 === More error messages and their solution
 
-See
-https://git.eclipse.org/r/Documentation/error-messages.html[Gerrit error message]
-for more error messages and their solutions.
+See https://git.eclipse.org/r/Documentation/error-messages.html[Gerrit error message] for more error messages and their solutions.
 

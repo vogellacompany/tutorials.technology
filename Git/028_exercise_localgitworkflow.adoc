@@ -1,12 +1,7 @@
 [[firstgit]]
 == Exercise: Performing a local Git workflow
 
-[[firstgit_createrepotarget]]
-=== Target of this chapter
-
-In this exercise you learn how to create a local Git repository and to place files and their changes under version control. 
-It assumes that you follow the given instructions and give some explanations about the commands you are using.
-
+In this exercise, you learn how to create and work with a local Git repository.
 
 Open a command shell for the operations. 
 Some commands are Linux specific, e.g., appending to a file or creating a directory. 
