@@ -6,15 +6,12 @@ The following describes the configuration files and commands for the Apache HTTP
 === Important Apache HTTP commands
 
 Use the following command to list the available modules of the Apache HTTP server.
-
 ----
 /etc/init.d/apache2 -l
 ----
-
 ----
 /etc/init.d/apache2 restart
 ----
-
 [[apachehttp_conffiles]]
 === Configuration Files
 

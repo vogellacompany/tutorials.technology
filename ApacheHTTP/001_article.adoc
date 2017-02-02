@@ -4,9 +4,9 @@
 :experimental:
 :icons:
 :imagesdir: ./img
-Lars Vogel(c) 2010, 2016 vogella GmbH
-Version 0.2, 22.01.2016
-:keywords: AsciiDoc
+Lars Vogel(c) 2010, 2017 vogella GmbH
+Version 0.3, 23.01.2017
+:keywords: Apache HTTP
 :docinfodir: ../
 :vgwort: ApacheHTTP
 
