@@ -2,10 +2,12 @@
 
 === Writing a shell script
 
-Shell scripts are short programs that are written in a shell programming language and interpreted by a shell process in the console. 
+Shell scripts are short programs that are written in a shell programming language.
+They are interpreted by a shell process in the console. 
 You can create these programs via a text editor and execute them in a terminal window.
-
+Bash 
 Create for example the following text file.
+A bash shell scripts starts with "#!", the so-called "shebang".
 
 [source,console]
 ----
