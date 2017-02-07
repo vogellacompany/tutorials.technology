@@ -1,53 +1,62 @@
-== Networkng with Linux
-
-=== See all open ports on your machine
-
-You see all listeners on your machine via the following command.
-Port which listen to 127.0.0.1 cannot get accessed from
-external.
-
-[source,console]
-----
-include::res/network/openports.txt[]
-----
+== Networking with Linux
 
 === SSH access to the server
 
-The
-`ssh`
-command provides secure, encrypted access to a server. Use
-`ssh IP-address` or `ssh your_hostname`
-to access the server.
+The `ssh` command provides secure, encrypted access to a server.
+Use `ssh IP-address` or `ssh your_hostname` to access the server.
 
-You can also assign a shortname for an IP address via the
-`config`
-file in your
-`~/.ssh`
-director.
+To upload your public ssh key which allows you to login automatically into a server use the following command.
 
-For example, to
-create an alias called
-_foo_
-for the IP address 144.76.74.162 and to use the user called
-_testing_
-switch to
-your
-`~/.ssh`
-directory, create the
-`config`
-file if it does not exists and enter the following.
+[source,console]
+----
+ssh-copy-id youruser@yourserver
+----
+
+
+[NOTE]
+====
+You can also assign a shortname for an IP address via the `config` file in your  `~/.ssh` directory.
+
+For example, to create an alias called _foo_ for the IP address 144.76.74.162 and to use the user called _testing_ switch to
+your `~/.ssh` directory, create the  `config` file if it does not exists and enter the following.
 
 [source,console]
 ----
 include::res/hosts/config[]
 ----
+====
 
-To upload your public ssh key which allows you to login
-automatically into a server use the following command.
+=== Execute a shell script on a remote machine
+
+http://www.hamvocke.com/blog/a-quick-and-easy-guide-to-tmux/[Tmux] allows to run a shell script to the background via the C-b d command.
+You can later connect to it again.
+To see all running background processes use the following command
 
 [source,console]
 ----
-include::res/hosts/uploadpublicssh[]
+tmux ls
+----
+
+To attach for example the the first one again use:
+
+[source,console]
+----
+tmux attach -t 0
+
+----
+
+To scroll in tmux use kbd:[Ctrl-b+[] . 
+Now you can use the normal scroll keys to scroll.
+Press q to quit scroll mode.
+
+=== See all open ports on your machine
+
+You see all listeners on your machine via the following command.
+Port which listen to 127.0.0.1 cannot get accessed from external.
+
+[source,console]
+----
+include::res/network/openports.txt[]
 ----
 
 === Firewall
@@ -96,30 +105,24 @@ http://localhost:8000/
 
 === HTTP debugging with curl
 
-curl is a command line tool to issue and receive http (and
-other) request. For example, if you want to see the HTTP output of a
-webpage, use the following command.
+curl is a command line tool to issue and receive http (and other) request. 
+For example, if you want to see the HTTP output of a webpage, use the following command.
 
 [source,console]
 ----
 include::res/network/curlgetpage.txt[]
 ----
 
-If you want to the HTTPrequest header (including the HTTP
-status
-codes, use the following command. This is for example nice to
-see if
-your server delivers a 404 return code for your self-defined
-error page.
+If you want to the HTTPrequest header (including the HTTP status codes, use the following command.
+This is for example nice to see if your server delivers a 404 return code for your self-defined error page.
 
 [source,console]
 ----
 include::res/network/curlinfo.txt[]
 ----
 
-You can set HTTP header information with the -h flag. For
-example, to request a certain MIME type use the -H'Accept:MIME'
-option.
+You can set HTTP header information with the -h flag.
+For example, to request a certain MIME type use the -H'Accept:MIME' option.
 
 [source,console]
 ----
@@ -135,8 +138,7 @@ include::res/network/curlproxy.txt[]
 
 [TIP]
 ====
-If you are using Microsoft Windows, see
-http://curl.haxx.se/download.html[curl for Windows].
+If you are using Microsoft Windows, see http://curl.haxx.se/download.html[curl for Windows].
 ====
 
 === IRC
@@ -146,12 +148,10 @@ To install it, use "sudo apt-get install xchat".
 
 === FTP
 
-For FTP access you can install filezilla via
-`sudo apt-get install filezilla`
-or map the ftp access to a virtual device.
+For FTP access you can install filezilla via `sudo apt-get install filezilla` or map the ftp access to a virtual device.
 
-To map the device select your desktop. Select the file menu and
-the entry "Connect to server".
+To map the device select your desktop.
+Select the file menu and the entry "Connect to server".
 
 image::ftp_menu.png[]
 
