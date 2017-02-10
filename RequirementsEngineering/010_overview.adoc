@@ -3,7 +3,6 @@
 Requirements Engineering (RE) defines the process of the defining, documenting, maintaining and validating requirements.
 In order to define a requirement different methods can be used. 
 
-
 == User stories
 
 A user story is a requirement which is written by the user or customer of the software.
@@ -15,6 +14,12 @@ A template for a user story could look like this:
 * As a <type of user>, I want <goal> to <reason>.
 * As a <type of user>, I want <goal>.
 
+== Epic
+
+An epic is the description of a big requirement. 
+The structure of an epic is like the structure of a user story. 
+It contains multiple user stories.
+ 
 == Use cases
 
 Use cases are a definition of actions on how a user will interact with a software to achieve a goal. 
