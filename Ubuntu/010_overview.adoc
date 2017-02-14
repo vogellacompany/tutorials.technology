@@ -24,8 +24,54 @@ image::nautilus20.png[Starting Nautilus]
 [unity_newentries]
 === Adding entries to the launcher
 		
-To add new entries to the launcher you can create an `.desktop` file and drag file on the launcher. 
-For example, the following creates an entry to start Eclipse with different shortcuts for different workspaces.
+To add new entries to the launcher you can create an `.desktop` file and drag the file on the launcher. 
+
+
+==== Adding Eclipse to the launcher
+
+To lock Eclipse to the launcher first create an `eclipse.desktop` file for Eclipse. 
+
+In the command-line enter:
+
+[source,console]
+----
+gedit ~/.local/share/applications/eclipse.desktop
+----
+
+This file should include the following information:
+
+[source,console]
+----
+[Desktop Entry]
+Type=Application
+Name=Eclipse
+Comment=Eclipse Integrated Development Environment
+Icon= home/vogella/eclipse/icon.xpm
+Exec= home/vogella/eclipse/eclipse
+Terminal=false
+Categories=Development;IDE;Java;
+StartupWMClass=Eclipse
+----
+
+NOTE: Modify the icon and exec path to the the path where you installed Eclipse.
+
+Now add execution permission to `eclipse.desktop` in the command-line
+
+[source,console]
+----
+chmod +x ~/.local/share/applications/eclipse.desktop
+----
+
+Finally you can add Eclipse to the launcher. To achieve this you can either use the command-line and enter 
+
+[source,console]
+----
+nautilus ~/.local/share/applications
+----
+
+select `eclipse.desktop` and drop it on the launcher or you can start Eclipse and then press `Lock to Launcher` on the Eclipse icon in the launcher.
+
+The following example creates an entry to start Eclipse with different shortcuts for different workspaces.
 		
 [source,console]
 ----
