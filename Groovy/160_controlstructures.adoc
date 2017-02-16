@@ -17,7 +17,7 @@ Every other non-`null` object evaluates to `true`.
 include::res/controlstructure/GroovyTruth.groovy[]
 ----
 
-NOTE: This evaluation is commonly known in the Groovy worlds as _the Groovy truth_.
+NOTE: This evaluation is commonly known in the Groovy worlds as _the Groovy truth_. In other languages with this concept values that evaluate to `true` are sometimes called `truthy` and those that evaluate to `false` are called `falsy`.
 
 [[controlstructures_if]]
 === if statements
