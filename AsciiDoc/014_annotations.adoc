@@ -95,5 +95,20 @@ This looks like the following:
 Blabla
 ====
 
+=== Block quotes
 
+[source, asciidoc]
+----
+[quote, Ben Parker, Spiderman Movie]
+____
+With great power comes great responsibility.
+____
+----
+
+will look like this:
+
+[quote, Ben Parker, Spiderman Movie]
+____
+With great power comes great responsibility.
+____
 
