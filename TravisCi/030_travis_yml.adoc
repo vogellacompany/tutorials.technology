@@ -1,0 +1,35 @@
+== .travis.yml Configuration
+
+_.travis.yml_ files can be valided here: http://lint.travis-ci.org/
+
+Supported programming languages can be found here: https://docs.travis-ci.com/user/languages/
+
+A usual _.travis.yml_ file for a Java project, which uses Gradle could look like this:
+
+[source, yml]
+----
+language: java
+# use Java 8
+jdk:
+- oraclejdk8
+
+# see https://blog.travis-ci.com/2014-12-17-faster-builds-with-container-based-infrastructure
+sudo: false
+
+# cache the build tool's caches
+cache:
+  directories:
+  - $HOME/.m2
+  - $HOME/.gradle
+----
+
+
+[NOTE]
+====
+When a Gradle wrapper is available Gradle Travis CI will build your project by using the `gradlew build` command.
+
+Please ensure to upload all Gradle wrapper files, including the _gradle-wrapper.jar_ file, which might be filtered by the _.gitignore_ file.
+====
+
+
+
