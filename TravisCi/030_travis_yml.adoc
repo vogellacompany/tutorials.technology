@@ -26,7 +26,7 @@ cache:
 
 [NOTE]
 ====
-When a Gradle wrapper is available Gradle Travis CI will build your project by using the `gradlew build` command.
+When a Gradle wrapper is available Travis CI will build your project by using the `gradlew build` command.
 
 Please ensure to upload all Gradle wrapper files, including the _gradle-wrapper.jar_ file, which might be filtered by the _.gitignore_ file.
 ====

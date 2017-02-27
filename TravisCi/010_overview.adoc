@@ -1,6 +1,6 @@
 == Travis CI
 
-Travis CI is a really build server for projects hosted on https://github.com/[GitHub], where the projects easily can be tested and deployed. Even pull requests (PRs) can be built automatically with Travis CI.
+Travis CI is a really easy to use build server for projects hosted on https://github.com/[GitHub], where the projects easily can be tested and deployed. Even pull requests (PRs) can be built automatically with Travis CI.
 
 It is available here: https://travis-ci.org/
 

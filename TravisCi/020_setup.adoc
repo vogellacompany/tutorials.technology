@@ -1,6 +1,6 @@
 == Setup
 
-Go to https://travis-ci.org/ and press btn:[Sign Up] or btn:[Sign in with GitHub] button.
+Go to https://travis-ci.org/ and press the btn:[Sign Up] or btn:[Sign in with GitHub] button.
 
 image::./travis-ci-signup.png[] 
 

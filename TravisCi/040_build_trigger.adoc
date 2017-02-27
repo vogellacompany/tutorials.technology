@@ -1,14 +1,27 @@
 == Triggering a build
 
-When a build should be run can be configured in the _settings_ section.
+How a build can be triggered can be configured in the _settings_ section.
 
 The _settings_ section can be found in the menu:More options[Settings] menu.
 
 image::travis-ci-repo-settings.png[] 
 
-Here it can be enforced that a _.travis.yml_ file has to be present in order to start a build and if any time a push occurs a build should be triggered or even if pull requests come in.
+Here it can be enforced that a _.travis.yml_ file has to be present in order to start a build and whether a build  should be triggered at any time a push occurs or even if pull requests come in.
 
 image::travis-ci-build-trigger.png[] 
 
-With this options being activated and having a proper _.travis.yml_ configuration simply pushing a new commit is enough to trigger a new build.
+With these options being activated and having a proper _.travis.yml_ configuration simply pushing a new commit is enough to trigger a new build.
+
+
+[IMPORTANT]
+====
+The very first build must be be triggered by a `git push`.
+Later builds can also be restarted by pressing the btn:[Restart build] button, which appear after the very first build.
+
+image::restart-build.png[] 
+
+====
+
+
+
 
