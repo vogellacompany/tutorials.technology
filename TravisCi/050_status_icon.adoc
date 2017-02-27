@@ -1,0 +1,21 @@
+== Showing a status icon
+
+To let the users trust in the library the build status determined by Travis CI is often shown in public.
+
+In order to do this simply click on the build status icon and choose from several options for embedding the status icon.
+
+image::travis-ci-status-icon.png[] 
+
+In the _Status Image_ dialog a status from a certain branch can be queried.
+
+And besides _ASCIIDOC_ there are many other templates for formats to embed the icon:
+
+* IMAGE_URL
+* MARKDOWN
+* TEXTILE
+* RDOC
+* ASCIIDOC
+* RST
+* POD
+* CCTRAY
+
