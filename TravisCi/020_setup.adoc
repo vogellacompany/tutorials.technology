@@ -1,0 +1,31 @@
+== Setup
+
+Go to https://travis-ci.org/ and press btn:[Sign Up] or btn:[Sign in with GitHub] button.
+
+image::./travis-ci-signup.png[] 
+
+Once the btn:[Sign Up] button has been pressed a redirection to https://github.com/[GitHub] will take place in order to authorize Travis CI as application.
+
+image::./authorize-travis-ci.png[] 
+
+Press btn:[Authorize application] to authorize Travis CI, confirm this with your password and Travis CI will check which repositories are available.
+
+
+[NOTE]
+====
+Now Travis CI should be listed as application in the https://github.com/settings/applications[settings].
+
+image::github-apps.png[] 
+====
+
+== Adding a Repository
+
+Once the setup is done and Travis CI has access to the projects a build can be activated by going to the https://travis-ci.org/profile.
+
+image::travis-ci-profile.png[] 
+
+A certain Repository can be activated by pressing the switch button.
+
+image::travis-ci-activate-repo.png[] 
+
+
