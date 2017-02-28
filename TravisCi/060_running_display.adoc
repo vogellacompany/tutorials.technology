@@ -1,0 +1,16 @@
+== Using a display during the build
+
+In order to use and test a UI toolkit during the build _xvfb_ can be used.
+
+It can be activated in the _.travis.yml_ file with the following `before_script` statement.
+
+[source, yml]
+----
+# Specify a display with xvfb for UI testing
+before_script:
+  - "export DISPLAY=:99.0"
+  - "sh -e /etc/init.d/xvfb start"
+  - sleep 3 # give xvfb some time to start
+----
+
+
