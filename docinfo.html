@@ -110,21 +110,23 @@
 </script>
 
 <script>
-    /* Open the sidenav */ 
-    function openNav() {
-        document.getElementById("mobileTopnav").style.width = "150px";
-        document.body.style.marginLeft = "160px";
-    }
-
-    /*Close/hide the sidenav */
-    function closeNav() {
-        document.getElementById("mobileTopnav").style.width = "0";
-        document.body.style.marginLeft = "8px";
-    }
+	/* Open/close the sidenav */ 
+	function openCloseNav() {
+		if (document.getElementById("mobileTopnav").style.width === "150px")
+		{
+			document.getElementById("mobileTopnav").style.width = "0";
+        	document.body.style.marginLeft = "8px";
+        }
+        else
+        {
+			document.getElementById("mobileTopnav").style.width = "150px";
+        	document.body.style.marginLeft = "160px";
+        }
+	}
 </script>
 
 <div id="mobileHeaderpart">
-    <span onclick="openNav()"><img src="http://www.vogella.com/img/icons/burger.svg" alt="" /> </span>
+    <span onclick="openCloseNav()"><img src="http://www.vogella.com/img/icons/burger.svg" alt="" /> </span>
     <div id="mobileLogo">
         <a title="vogella.com" href="http://www.vogella.com">
             <img src="http://www.vogella.com/img/logo/index_logo.svg" alt="vogella.com"/>
@@ -133,7 +135,6 @@
 </div>
 
 <div id="mobileTopnav" class="sidenav">
-    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
     <a href="http://www.vogella.com/">Home</a>
     <a class="currentpage" href="http://www.vogella.com/tutorials/">Tutorials</a>
     <a href="http://www.vogella.com/training/">Training</a>
@@ -142,9 +143,7 @@
     <a href="http://www.vogella.com/books/">Books</a>
     <a href="http://www.vogella.com/company/">Company</a>
     <a href="http://www.vogella.com/support.html">Donate</a>
-    <a style="margin-bottom:60px" href="http://www.vogella.com/contact.html">Contact us</a>
-</div>
-
+    <a style="margin-bottom:60px" href="http://www.vogella.com/contact.html">Contact us</a></div>
 
 <div id="headerpart">
 
