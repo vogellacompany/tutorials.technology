@@ -55,4 +55,5 @@ include 'Webstandards'
 include 'XSLT'
 include 'RequirementsEngineering'
 include 'TravisCi'
+include 'Codecov'
 

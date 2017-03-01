@@ -1,0 +1,41 @@
+== Setup
+
+Go to https://codecov.io/ and press the btn:[Sign in with GitHub] button or the one for Bitbucket or GitLab.
+
+image::./codecov-sign-up.png[] 
+
+Once the btn:[Sign Up] button has been pressed a redirection to https://github.com/[GitHub] will take place in order to authorize Travis CI as application.
+
+image::./codecov-authorize.png[] 
+
+Press btn:[Authorize application] to authorize Codecov, confirm this with your password and Codecov will ask for repositories to be checked.
+
+[NOTE]
+====
+Now Codecov should be listed as application in the https://github.com/settings/applications[settings].
+
+image::github-apps.png[] 
+====
+
+After authorizing Codecov repositories from your either your account or organization can be chosen.
+
+image::codecov-repo-select.png[] 
+
+Press desired btn:[Integrate a repository] button and then choose a repository, which should be checked for code coverage.
+
+
+== Adding a Repository
+
+By clicking on a certain repository or going to the proper URL, e.g., _https://codecov.io/gh/{account-name}/{desired-repo}_ an API token will be shown.
+
+image::api-token.png[] 
+
+
+[NOTE]
+====
+If http://www.vogella.com/tutorials/TravisCi/article.html[Travis CI] is used the API token is not required.
+====
+
+By pressing on the btn:[View example repositories] a lot of example for different languages are shown.
+
+
