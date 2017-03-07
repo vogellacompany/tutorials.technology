@@ -133,7 +133,7 @@ The result would be
 ----
 This should be included!
 ----
- 
+
 === Importing images
 
 You can import images with `image::` for the HTML output you can add the `alt` text within the brackets [].
@@ -523,8 +523,8 @@ Use monospace text formatting to emulate how source code appears in computer ter
 simple text editors, and integrated development environments (IDEs). 
 Enclose the starting hypthen string with \ for this, e.g., \`System.out.println("Hello");` results in `System.out.println("Hello");` 
 
-
 To enable syntax highlighting in the output, set the style on the block to source and specify the source language in the second attribute position. 
+The possible highlighting styles are described in chapter <<highlighting>>.
 
 ....
 [source, java]
@@ -561,6 +561,39 @@ private int a;
 <1> Imports the library
 
 Supported types are java, xml, terminal
+
+NOTE: Asciidoc automatically replaces tabs in source code with spaces.
+You can set the amount of spaces to be set per tab with the attribute `:tabsize: 2`.
+In this case one tab will be replaced with 2 spaces.
+
+[[highlighting]]
+==== Source code highlighting
+
+Syntax highlighting can be used by setting the source-highlighter attribute in the document header.
+
+`:source-highlighter: pygments`
+
+The valid options for html styling are coderay, highlightjs, prettify, rouge and pygments.
+For pfd styling coderay, rouge and pygments are available.
+
+coderay, rouge and pygments work with an embedded css styling which will be added to the folder of the *.adoc file during the output conversion. 
+In this case the attribute `:linkcss:` must be set in the document header.
+highlightjs and prettify use javascript.
+
+For pygments, highlightjs, prettify there are a variaty of different styles/themes.
+ 
+To use a pygment style add the following attribute to the document header:
+
+`:pygments-style: xcode` 
+
+If you dont set the pygment-style attribute, the default style will be used.
+
+To see the list of all available pygments styles execute: `pygmentize -L styles` in the command line.
+
+As for hightlightjs the styles are called themes and can be added to the docuemnt header as follows:
+
+`:highlightjs-theme: xcode`
+
 
 === Escape special signs
 
