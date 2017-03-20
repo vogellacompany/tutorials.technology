@@ -16,20 +16,6 @@ If you want to set a specific port, just append _:offset_.
 
 The default port is 8080 and as we chose 5 as our offset, the actual port is now 8085.
 
-=== Using Broadway to start a runtime Eclipse from the Eclipse IDE
-
-Make sure, that you use _Eclipse Neon_ or above.
-To now display Eclipse in your web browser, open Eclipse itself.
-Eclipse has the ability to start itself with the help of a new run configuration.
-To create one, click on the small black arrow next to the _Run_ button `image:broadway_runconfigurations.png[]` and select _Run Configurations..._.
-On the left side of the newly opened window make a right-click on _Eclipse Application_ and select _New_.
-Open the _Environment_ tab and create two new environment variables like the following:
-
-image::broadway_environment.png[]
-
-If you started your Broadway server with a port offset, just replace _:0_ with your selected offset.
-You can now open your web browser and go to http://localhost:8080 (or 8085) and see Eclipse running.
-
 === Using Broadway to run a GTK+ application
 
 You can use any GTK3 application, like Eclipse or gedit in the browser. 
@@ -43,3 +29,17 @@ If you started your Broadway server with a specific port offset (e.g. to use 808
 	GDK_BACKEND=broadway BROADWAY_DISPLAY=:5 gedit
 
 You can now open your web browser and go to http://localhost:8080[http://localhost:8080] (or 8085) and see your application running.
+
+=== Using Broadway to start a runtime Eclipse from the Eclipse IDE
+
+Make sure, that you use _Eclipse Neon_ or above.
+To now display Eclipse in your web browser, open Eclipse itself.
+Eclipse has the ability to start itself with the help of a new run configuration.
+To create one, click on the small black arrow next to the _Run_ button `image:broadway_runconfigurations.png[]` and select _Run Configurations..._.
+On the left side of the newly opened window make a right-click on _Eclipse Application_ and select _New_.
+Open the _Environment_ tab and create two new environment variables like the following:
+
+image::broadway_environment.png[]
+
+If you started your Broadway server with a port offset, just replace _:0_ with your selected offset.
+You can now open your web browser and go to http://localhost:8080 (or 8085) and see Eclipse running.
