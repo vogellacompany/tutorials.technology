@@ -28,8 +28,19 @@ include::res/hosts/config[]
 
 === Execute a shell script on a remote machine
 
-http://www.hamvocke.com/blog/a-quick-and-easy-guide-to-tmux/[Tmux] allows to run a shell script to the background via the C-b d command.
-You can later connect to it again.
+http://www.hamvocke.com/blog/a-quick-and-easy-guide-to-tmux/[Tmux] allows to run multiple command line sessions that continue to run even after you log out from SSH.
+You can later connect to them again.
+
+To create a new tmux session named `database` type this into your console:
+
+[source, console]
+----
+tmux new -s database
+----
+
+To detach from your current session press kbd:[C-b d].
+Your session will continue to run in the background.
+
 To see all running background processes use the following command
 
 [source,console]
@@ -37,12 +48,17 @@ To see all running background processes use the following command
 tmux ls
 ----
 
-To attach for example the the first one again use:
+To attach for example to the first one again use:
 
 [source,console]
 ----
 tmux attach -t 0
+----
 
+To attach to a named session just replace `0` with the respective session name:
+[source, console]
+----
+tmux attach -t database
 ----
 
 To scroll in tmux use kbd:[Ctrl-b+[] . 

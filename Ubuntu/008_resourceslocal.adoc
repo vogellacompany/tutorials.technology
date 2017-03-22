@@ -4,3 +4,7 @@ https://www.ibm.com/developerworks/linux/tutorials/l-vi[vim editor reference]
 	
 http://blixtra.org/blog/2006/07/14/setting-up-tomcat-5-on-ubuntu-606[Setting up Tomcat and Java on Ubuntu]
 	
+http://www.hamvocke.com/blog/a-quick-and-easy-guide-to-tmux/[Tmux introduction]
+
+http://hamvocke.com/blog/a-guide-to-customizing-your-tmux-conf/[Guide to Tmux customization]
+
