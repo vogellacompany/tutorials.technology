@@ -1,0 +1,50 @@
+== Closing issues with commit messages
+
+Github allows you to close issues with commit messages by using special keywords.
+Github will put a link to the closing commit into the specified issue.
+While it is possible to use this syntax anywhere in the commit message it is preferable to put it into the commit subject.
+This way it is easier to see which commit closes which issue.
+
+=== Closing issues in the same repository
+
+To close an issues in the same repository you type in one of the keywords followed by a reference to the issue number.
+List of possible keywords:
+
+- close
+- closes
+- closed
+- fix
+- fixes
+- fixed
+- resolve
+- resolves
+- resolved
+
+This is a commit message that would close issue 42 in the same repository:
+[source, text]
+----
+Fixes #42 - Upgrade SWT dependencies
+----
+
+If the issue is commited to the default branch the issue will be closed immediately.
+If the issue is commited to another branch then the issue will only be closed if it gets merged into the default branch.
+This behaviour is the same for closing issues in other repositories.
+
+=== Closing issues in other repositories
+
+The syntax to close issues in other repositories is `username/repository#issue_number`.
+So our example from before would look like this for the repository `project` by the user `vogellacompany`.
+[source, text]
+----
+Fixes vogellacompany/project#42 - Upgrade SWT dependencies
+----
+
+=== Closing multiple issues with one commit
+
+If you want to close multiple issues with one commit just chain the messages together.
+Each message follows the pattern `<keyword> <issue>`.
+[source, text]
+----
+This closes #42, closes #23, and closes vogellacompany/project#42
+----
+
