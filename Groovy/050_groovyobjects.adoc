@@ -70,23 +70,8 @@ _map based constructor_, as it uses the
 `property:value`
 map syntax.
 
-If such a
-constructor is used, Groovy calls the default
-constructor and then
-calls the
-setter methods for the
-attributes.
-This
-"constructor with
-named parameters" works also if you call
-a Java class
-from Groovy code
-as Groovy uses
-again the default
-constructor of the
-Java class and then
-the methods to set the
-properties.
+If such a constructor is used, Groovy calls the default constructor and then calls the setter methods for the attributes.
+This "constructor with named parameters" works also if you call a Java class from Groovy code as Groovy uses again the default constructor of the Java class and then the methods to set the properties.
 
 The usage of the constructors with named parameters is
 demonstrated by the following example.
@@ -133,18 +118,7 @@ include::res/explained/DefaultValues.groovy[]
 [[groovyobjects_default_parameter]]
 === Default parameters in methods
 
-In Groovy you assign default values to parameters in a
-method. If
-a default value for a parameter is defined,
-Groovy
-offers two method
-signatures: one with all parameters and one where
-the
-parameter with a
-default value is omitted.
-If you use multiple
-parameters with default
-values then the right most parameter with a
-default value is first
-eliminated then the next, etc.
+In Groovy you assign default values to parameters in a method. 
+If a default value for a parameter is defined, Groovy offers two method signatures: one with all parameters and one where the parameter with a default value is omitted.
+If you use multiple parameters with default values then the right most parameter with a default value is first eliminated then the next, etc.
 
