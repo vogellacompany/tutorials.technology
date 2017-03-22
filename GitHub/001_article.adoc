@@ -16,6 +16,7 @@ This tutorial explains how to use GitHub.
 include::../web/kindle/git.adoc[]
 include::../web/advertisement/afterTableOfContent.adoc[]
 include::100_github.adoc[]
+include::200_closing_issues_with_commit_messages.adoc[]
 include::../support.adoc[]
 include::008_resourceslocal.adoc[]
 include::../copyright.adoc[]	
