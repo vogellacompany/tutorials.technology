@@ -16,7 +16,8 @@ image::jenkins20.png[Configuring Jenkins]
 
 === Secure Jenkins
 		
-It is recommended to secure Jenkins. _Manage Jenkins_ and then _Configure Global Security_. 
+It is recommended to secure Jenkins. 
+Select _Manage Jenkins_ and then _Configure Global Security_. 
 Select the _Enable security_ flag. 
 The easiest way is to use Jenkins own user database. 
 Create at least the user "Anonymous" with read access. 

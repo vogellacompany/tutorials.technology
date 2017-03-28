@@ -4,9 +4,9 @@
 :experimental:
 :icons:
 :imagesdir: ./img
-Lars Vogel (c) 2009, 2016 vogella GmbH
-Version 1.6, 10.06.2016
-:keywords: Git command line, Git, rebase, merge
+Lars Vogel (c) 2009, 2017 vogella GmbH
+Version 1.6, 96.02.2017
+:keywords: Jenkins, Continues Integration
 :contentidentifier: description
 :docinfodir: ../
 :vgwort: Jenkins

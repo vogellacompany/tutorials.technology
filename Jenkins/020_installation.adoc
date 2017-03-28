@@ -44,8 +44,22 @@ _﻿FAIL - Application at context path /jenkins could not be started_, you may n
 ﻿sudo mkdir .jenkins
 ﻿sudo
 chown tomcat7:nogroup .jenkins
----
+----
 
 This makes the .jenkins folder writable and Jenkins can use it.
 ====
+
+=== Initial configuration
+
+After installation, open a browser and connect to it.
+You will have to copy a password from your file system to access.
+
+Afterwards you can select to install plug-ins.
+Select the _Install suggested plug-ins" to get a typical configuration.
+
+
+
+Create an admin user and press _Save and Finish_.
+
+
 
