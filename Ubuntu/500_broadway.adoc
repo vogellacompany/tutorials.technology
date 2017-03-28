@@ -8,7 +8,10 @@ In order to display Eclipse or any other application in your web browser, you ne
 
 Simply open a Terminal window and start a Broadway server by typing the following:
 
-	start broadwayd
+[source,terminal]
+----
+start broadwayd
+----
 
 If you want to set a specific port, just append _:offset_.
 
@@ -29,6 +32,13 @@ If you started your Broadway server with a specific port offset (e.g. to use 808
 	GDK_BACKEND=broadway BROADWAY_DISPLAY=:5 gedit
 
 You can now open your web browser and go to http://localhost:8080[http://localhost:8080] (or 8085) and see your application running.
+
+=== Starting Eclipse
+
+[source,terminal]
+----
+GDK_BACKEND=broadway BROADWAY_DISPLAY=:5 java -jar ./plugins/org.eclipse.equinox.launcher_1.4.0.v20161219-1356.jar
+----
 
 === Using Broadway to start a runtime Eclipse from the Eclipse IDE
 
