@@ -68,7 +68,7 @@ You can also reference artifacts from the file system.
 include::res/java/build_file_deps.gradle[]
 ----
 
-=== Displaying all (transient) dependencies.
+=== Show dependencies of a project (also transient dependencies) .
 
 The following command shows all transient dependencies of a Gradle project.
 [source,gradle]
@@ -76,6 +76,10 @@ The following command shows all transient dependencies of a Gradle project.
 gradle dependencies
 ----
 
+[NOTE]
+====
+https://mvnrepository.com allows also to search for an artifact and shows its direct dependencies.
+====
 
 === Gradle cache and deleting the cache
 
