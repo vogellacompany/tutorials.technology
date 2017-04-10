@@ -102,6 +102,13 @@ The following listing shows the output.
 include::res/settings/settings.output[]
 ----
 
+=== IDE support for Gradle
+	
+The Gradleware company is developing Eclipse Gradle tooling via the Eclipse Buildship project.
+Other IDEs like IntelliJ and Android Studio already include also good Gradle support. 
+See http://www.vogella.com/tutorials/EclipseGradle/article.html[Eclipse Gradle tutorial] for the usage of Gradle with Eclipse.
+
+
 == Gradle plug-ins
 
 (((Gradle, Plug-ins)))
@@ -117,10 +124,4 @@ A plug-in is included in a _build.gradle_ file with the `apply plugin: 'pluginna
 For example the entry `apply plugin: 'com.android.application'` makes the Android plug-in available for a Gradle build.
 	
 Gradle provides also a registry for plug-ins via http://plugins.gradle.org[Gradle Plugin search].
-
-=== IDE support for Gradle
-	
-The Gradleware company is developing Eclipse Gradle tooling via the Eclipse Buildship project.
-Other IDEs like IntelliJ and Android Studio already include also good Gradle support. 
-See http://www.vogella.com/tutorials/EclipseGradle/article.html[Eclipse Gradle tutorial] for the usage of Gradle with Eclipse.
 

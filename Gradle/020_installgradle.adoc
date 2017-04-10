@@ -39,10 +39,6 @@ The `JAVA_HOME` variable must point to a proper jdk and `$JAVA_HOME/bin` must be
 		
 Add Gradle to the path by running `export PATH=/usr/local/gradle/FOLDER_TO_WHICH_YOU_EXTRACTED_GRADLE/bin:$PATH` in a terminal.
 		
-===== Validate
-		
-Open a command line and type `gradle`, which will run Gradle's help task by default.
-
 ==== Installation with SDKMAN!
 
 SDKMAN! is a command-line tool that allows you to install multiple Gradle versions and switch between them.
@@ -74,6 +70,10 @@ include::res/gradle/check_version[]
 include::res/install/sdkman_switch_version[]
 include::res/gradle/check_version[]
 ----
+
+==== Check if Gradle installation was successful
+		
+Open a command line and type `gradle`, which will run Gradle's help task by default.
 
 	
 [[gradeinstallation_demon]]

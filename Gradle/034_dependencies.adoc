@@ -1,6 +1,7 @@
 == Dependency management for Java projects
 
 === Managing dependencies with Gradle
+
 (((Gradle,Dependencies)))
 (((Gradle, Specifying dependencies)))
 (((Gradle,classpath)))
@@ -66,6 +67,15 @@ You can also reference artifacts from the file system.
 ----
 include::res/java/build_file_deps.gradle[]
 ----
+
+=== Displaying all (transient) dependencies.
+
+The following command shows all transient dependencies of a Gradle project.
+[source,gradle]
+----
+gradle dependencies
+----
+
 
 === Gradle cache and deleting the cache
 
