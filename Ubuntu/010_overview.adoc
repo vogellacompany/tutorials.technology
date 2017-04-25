@@ -182,7 +182,7 @@ To see all running processes on your system use the `ps -aux` command.
 [commands_chown]
 === Change owner of files and directories
 
-.Table Using the chown command
+.Using the chown command
 |===
 
 |Command |Description

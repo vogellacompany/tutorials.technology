@@ -379,7 +379,7 @@ You can create also tables in Asciidoc via the following syntax.
 
 ----
 
-.Table Title
+.This is the optional title of the table
 |===
 |Name of Column 1 |Name of Column 2
 
@@ -395,7 +395,7 @@ You can create also tables in Asciidoc via the following syntax.
 
 The result looks like the following.
 
-Table Title
+.This is the optional title of the table
 |===
 |Name of Column 1 |Name of Column 2
 
@@ -408,7 +408,7 @@ Table Title
 
 You can also define the relative table width.
 ----
-.Table with relative column widths (1,3)
+.with relative column widths (1,3)
 [cols="1,3",options="header"]
 |===
 | Name | Description
@@ -421,7 +421,7 @@ Of course you can define tables with more than two columns.
 
 ----
 
-.Table Title
+.Title
 |===
 |Name of Column 1 |Name of Column 2 |Name of Column 3 
 
@@ -438,13 +438,13 @@ Of course you can define tables with more than two columns.
 
 ==== Define column widths
 
-The `[cols="1,3"]` declaration directly underneath the .Table declaration can be used to specify the column's width.
+The `[cols="1,3"]` declaration directly underneath the .declaration can be used to specify the column's width.
 If the width is set then the option="header" must also be set like this: [cols="1,3",options="header"] in order to see
 the first row of a table as a header.
 
 ----
 
-.Table Title
+.Title
 [cols="1,3",options="header"]
 |===
 |Name of Column 1 |Name of Column 2 |Name of Column 3 
@@ -461,7 +461,7 @@ the first row of a table as a header.
 
 The snippet above will result in the following:
 
-.Table Title
+.Title
 [cols="1, 3",options="header"]
 |===
 |Name of Column 1 |Name of Column 2
@@ -481,7 +481,7 @@ This would look like this:
 
 ----
 
-.Table with asciidoc elements 
+.with asciidoc elements 
 |===
 |Keyboard shortcut |List |Note |Button 
 
@@ -499,7 +499,7 @@ This is a good idea
 |===
 ----
 
-.Table with asciidoc elements 
+.with asciidoc elements 
 |===
 |Keyboard shortcut |List |Note |Button
 

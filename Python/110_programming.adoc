@@ -196,7 +196,7 @@ Python allows operator overloading, e.g. you can define what
 the
 operator + will do for a specific class.
 
-.Table Title
+.Title
 |===
 |\__init__ |Constructor of the class
 
