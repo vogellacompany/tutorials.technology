@@ -1,6 +1,5 @@
 = Maven for building Java applications - Tutorial
 :linkcss:
-:sectnums:                                                          
 :experimental:
 :icons:
 :imagesdir: ./img

@@ -1,6 +1,5 @@
 = Fedora - Tutorial
 :linkcss:
-:sectnums:                                                          
 :experimental:
 :icons:
 :imagesdir: ./img

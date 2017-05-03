@@ -1,6 +1,5 @@
 = Testing with Groovy - Tutorial
 :linkcss:
-:sectnums:                                                          
 :experimental:
 :icons:
 :imagesdir: ./img

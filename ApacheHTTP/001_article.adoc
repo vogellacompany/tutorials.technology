@@ -1,6 +1,5 @@
 = Apache HTTP Server - Tutorial
 :linkcss:
-:sectnums:                                                          
 :experimental:
 :icons:
 :imagesdir: ./img

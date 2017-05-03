@@ -1,6 +1,5 @@
 = XSLT - Extensible Stylesheet Language for Transformations - Tutorial
 :linkcss:
-:sectnums:                                                          
 :experimental:
 :icons:
 :imagesdir: ./img

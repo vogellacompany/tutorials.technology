@@ -1,6 +1,5 @@
 = Complexity Analysis of Algorithms - Tutorial
 :linkcss:
-:sectnums:                                                          
 :experimental:
 :icons:
 :imagesdir: ./img

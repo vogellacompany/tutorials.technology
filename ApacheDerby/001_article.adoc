@@ -1,6 +1,5 @@
 = Apache Derby Database - Tutorial
 :linkcss:
-:sectnums:                                                          
 :experimental:
 :icons:
 :imagesdir: ./img

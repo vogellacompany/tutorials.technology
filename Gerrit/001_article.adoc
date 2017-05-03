@@ -1,6 +1,5 @@
 = Gerrit code review - Tutorial
 :linkcss:
-:sectnums:                                                          
 :experimental:
 :icons:
 :imagesdir: ./img

@@ -1,6 +1,5 @@
 = MapReduce Introduction - Tutorial
 :linkcss:
-:sectnums:                                                          
 :experimental:
 :icons:
 :imagesdir: ./img

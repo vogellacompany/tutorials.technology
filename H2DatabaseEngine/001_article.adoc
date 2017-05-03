@@ -1,6 +1,5 @@
 = H2 database engine - Tutorial
 :linkcss:
-:sectnums:                                                          
 :experimental:
 :icons:
 :imagesdir: ./img

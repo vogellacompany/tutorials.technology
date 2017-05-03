@@ -1,6 +1,5 @@
 = Collection of Helpful Programs - Tutorial
 :linkcss:
-:sectnums:                                                          
 :experimental:
 :icons:
 :imagesdir: ./img

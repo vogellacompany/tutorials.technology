@@ -1,6 +1,5 @@
 = Apache Tomcat - Tutorial
 :linkcss:
-:sectnums:                                                          
 :experimental:
 :icons:
 :imagesdir: ./img

@@ -1,6 +1,5 @@
 = Git typical workflows - Tutorial
 :linkcss:
-:sectnums:                                                          
 :experimental:
 :icons:
 :imagesdir: ./img

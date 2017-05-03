@@ -1,6 +1,5 @@
 = Using FreeMarker templates (FTL)- Tutorial
 :linkcss:
-:sectnums:                                                          
 :experimental:
 :icons:
 :imagesdir: ./img

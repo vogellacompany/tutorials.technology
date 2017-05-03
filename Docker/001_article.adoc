@@ -1,6 +1,5 @@
 = Docker - Light weight containers - Tutorial
 :linkcss:
-:sectnums:                                                          
 :experimental:
 :icons:
 :imagesdir: ./img

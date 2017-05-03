@@ -1,6 +1,5 @@
 = Using the grep command line command - Tutorial
 :linkcss:
-:sectnums:                                                          
 :experimental:
 :icons:
 :imagesdir: ./img

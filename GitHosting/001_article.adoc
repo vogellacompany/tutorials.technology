@@ -1,6 +1,5 @@
 = Git hosting on Bitbucket or on your own server - Tutorial
 :linkcss:
-:sectnums:                                                          
 :experimental:
 :icons:
 :imagesdir: ./img

@@ -1,6 +1,5 @@
 = RSS feeds with Java - Tutorial
 :linkcss:
-:sectnums:                                                          
 :experimental:
 :icons:
 :imagesdir: ./img

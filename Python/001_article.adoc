@@ -1,6 +1,5 @@
 = Python Development with PyDev and Eclipse - Tutorial
 :linkcss:
-:sectnums:                                                          
 :experimental:
 :icons:
 :imagesdir: ./img
