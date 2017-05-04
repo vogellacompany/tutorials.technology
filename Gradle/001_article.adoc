@@ -1,6 +1,5 @@
 = The Gradle build system- Tutorial
 :linkcss:
-:sectnums:
 Lars Vogel, Simon Scholz (c) 2014-2016 vogella GmbH
 Version 2.2, 03.09.2016
 :keywords: Gradle, Groovy

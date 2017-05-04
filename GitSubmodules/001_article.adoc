@@ -1,6 +1,5 @@
 = Using submodules in Git - Tutorial
 :linkcss:
-:sectnums:
 Lars Vogel (c) 2009-2016 vogella GmbH
 Version 5.8, 10.08.2015
 :keywords: Git command line, Git, rebase, merge

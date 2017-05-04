@@ -1,6 +1,5 @@
 = Using AsciiDoc and Asciidoctor to write documentation - Tutorial
 :linkcss:
-:sectnums:
 :experimental:
 Lars Vogel, Jennifer Nerlich (c) 2015 vogella GmbH
 Version 0.2, 17.12.2015

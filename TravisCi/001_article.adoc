@@ -1,6 +1,5 @@
 = Continuous Integration (CI) with Travis - Tutorial
 :linkcss:
-:sectnums:
 :experimental:
 :icons:
 :imagesdir: ./img
