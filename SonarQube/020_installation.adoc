@@ -1,5 +1,7 @@
 == Installation of SonarQube
-	
+
+You can install Sonar into Eclipse. See http://www.sonarlint.org/eclipse/index.html[Sonar on Eclipse].
+
 See http://docs.sonarqube.org/display/SONAR/Setup+and+Upgrade for an full installation of SonarQube. 
 If you want to try out SonarQube you can also use the official Docker image for SonarQube from  https://hub.docker.com/r/_/sonarqube/
 	
