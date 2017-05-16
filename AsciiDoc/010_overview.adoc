@@ -12,15 +12,17 @@ The following listing is an example of a simple Asciidoc file.
 ----
 include::res/first.adoc[]
 ----
-
-<1> this attribute defines the you want to numbered sections.
-<2> by default, the TOC will display only level 1 and level 2 section titles. With the toclevels attribute the level can be set differently.
-<3> by default, the TOC will get the title "Table of Contents", you can set a customized name with the toc-title attribute. 
+<1> this is the documents title including a subtitle
+<2> in the line after the title you can list the author
+<3> this is the revision of the document 
+<4> this attribute defines the you want to numbered sections.
+<5> by default, the TOC will display only level 1 and level 2 section titles. With the toclevels attribute the level can be set differently.
+<6> by default, the TOC will get the title "Table of Contents", you can set a customized name with the toc-title attribute. 
 This will apply for the html and pdf output.
-<4> enables experimental features, like button and menu paths
-<5> adds description to the HTML output
-<6> adds keywords to the HTML output
-<7> Defines the default image location
+<7> enables experimental features, like button and menu paths
+<8> adds description to the HTML output
+<9> adds keywords to the HTML output
+<10> Defines the default image location
 Asciidoc documents typically ends with the _.adoc_. 
 
 === Important outstanding issues in Asciidoctor
@@ -57,6 +59,94 @@ Based on personal experience this rule makes a great difference in the generated
 It helps you to avoid complex sentence structures and helps to reduce redundancy in your text.
 
 == Basic document features
+
+=== Title
+
+The title is defined at the top of the .adoc file as
+
+[source,console]
+----
+= Title of the document
+----
+
+=== Subtitle
+
+If you want to define a subtitle add a `:` (a colon followed by a space) after the title
+
+[source,console]
+----
+= Title of the document: This is the subtitle
+----
+
+=== Author
+
+The Author can be written just after the title with or without an attribute. 
+
+The author can also include information as an Email or an URL inside angle brackets.
+It is possible to have a list of authors. 
+Multiple authors and their emails are separated by a semicolon and a space `;`. 
+
+Without attributes:
+
+[source,console]
+----
+= Title of the document: This is the subtitle
+Jennifer Nerlich <jn@vogella.com>
+----
+
+With attributes:
+[source,console]
+----
+= Title of the document: This is the subtitle
+:author: Jennifer Nerlich 
+:email: jn@vogella.com
+----
+
+Asciidoctor uses the author’s name and email to assign values to built-in attributes that can be used throughout the document’s body. 
+These attributes include: author (firstname and lastname), firstname, lastname, middlename, initials and email.
+
+[source,console]
+----
+= Title of the document: This is the subtitle
+Jennifer Nerlich <jn@vogella.com>
+
+My first name is {firstname}.
+----
+
+If there are multiple authors you can refere to them by using the following convention: {firstname2}, {firstname3}, etc.
+ 
+=== Revision
+
+The revision information is listed on the third line of the .adoc document, beneath the author information line with or without attributes.
+It can include the following data:
+
+* Revision Number: It must contain at least one numeric character. 
+Letters or symbols preceding the numeric character will not be rendered. 
+Unless the attribute :version-label!: is set.
+* Revision Date
+* Revision Remark
+
+Revision number and revision date are separated by a `,` (comma and space). 
+Revison Remark is separated by a `:` (colon and space). 
+
+Without attributes:
+ 
+[source,console]
+----
+= Title of the document: This is the subtitle
+Jennifer Nerlich <jn@vogella.com>
+v1.1, 15.05.2017: First draft
+----
+
+With attributes:
+ 
+[source,console]
+----
+= Title of the document: This is the subtitle
+:revnumber: v1.1 
+:revdate: 15.05.2017
+:revremark: First draft
+----
 
 === Text formatting
 
