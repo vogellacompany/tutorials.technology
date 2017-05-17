@@ -260,6 +260,58 @@ Result:
 This is just a text
 image:vogellacompany.jpg[vogella Company, width=5%] to show inline images.
 
+=== Using Conditional Directives
+
+It is possible to include or exclude text based on document attributes or based on the value of a document attribute. 
+The attributes ifdef, ifndef and ifeval can be used to achieve this. 
+
+To include content if the attribute `test` is set use the following syntax:
+
+[source]
+....
+\ifdef::test[]
+Content is shown when test attribute is set
+\endif::test[]
+
+or
+
+\ifdef::test[Content is shown when include attribute is set]
+....
+
+To include content if the attribute `test` is not set, use the following syntax:
+
+[source]
+....
+\ifndef::test[]
+Content is shown when test attribute is NOT set
+\endif::test[]
+OR
+\ifndef::test[Content is shown when test attribute is NOT set]
+....
+
+It is also possible to use multiple attributes.
+If the attribute names are separated by a `,` (comma) only one of the attributes need to be set to include the content. 
+If they are separated by a `+` (plus) all attributes must be set to include the content.
+
+With the ifeval attribute it is possible to evaluate the value of attributes. 
+If the expression is true then the content is included in the document, otherwise it is not. 
+
+[source]
+....
+:version: 1 
+ 
+\ifeval::[{version} >= 1]
+This is a good one!
+\endif::[]
+ 
+\ifeval::[{version} < 1]
+Work in process
+\endif::[]
+....
+
+In this case the text _This is a good one!_ will be shown.
+
+
 === Defining lists
 
 Lists can be defined with the * operator at the beginning of a line. You can define up to 6 levels for a list. 
