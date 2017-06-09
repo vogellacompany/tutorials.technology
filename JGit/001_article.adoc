@@ -3,13 +3,13 @@
 :experimental:
 :icons:
 :imagesdir: ./img
-(c) 2016 vogella GmbH
+(c) 2016, 2017 vogella GmbH
 Version 0.1, 09.12.2016
 :docinfodir: ../
 // :vgwort: JGit
 
 [abstract]
-This tutorial contains notes about JGit.
+This tutorial contains examples for the usage of the JGit API.
 				
 include::010_overview.adoc[]
 // include::../web/advertisement/inBetween01.adoc[]

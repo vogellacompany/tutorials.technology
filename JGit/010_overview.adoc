@@ -1,9 +1,8 @@
 == JGit
 
-_JGit_ is a pure Java implementation of the Git version control system.
+https://eclipse.org/jgit/[JGit] is a pure Java implementation of the Git version control system.
 It powers many Git related Java projects like EGit and Gerrit.
 JGit is part of the Eclipse project.
-You can find more information on the official homepage: https://eclipse.org/jgit/
 
 == Using JGit in your project
 
@@ -11,11 +10,12 @@ JGit is a Java framework and can be integrated into your project with the usual 
 
 === Adding JGit to your project with Maven
 
-The latest release of JGit can always be found on the Maven repository.
-You can find it's Maven repository page here:
+The latest release of JGit is available as Maven repository.
+
+You can find the latest release via the following link:
 https://mvnrepository.com/artifact/org.eclipse.jgit/org.eclipse.jgit
 
-To add JGit as a Maven dependency, add this to your `pom.xml`.
+To add JGit as a Maven dependency, add the following to your `pom.xml`.
 
 [source, xml]
 ----
@@ -23,8 +23,16 @@ To add JGit as a Maven dependency, add this to your `pom.xml`.
 <dependency>
     <groupId>org.eclipse.jgit</groupId>
     <artifactId>org.eclipse.jgit</artifactId>
-    <version>4.5.0.201609210915-r</version>
+    <version>4.7.0.201704051617-r</version>
 </dependency>
+----
+
+=== Adding JGit to your project with Gradle
+[source, gradle]
+----
+dependencies {
+	compile 'org.eclipse.jgit:org.eclipse.jgit:4.5.0.201609210915-r'
+}
 ----
 
 == Using JGit to access Git repositories
