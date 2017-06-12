@@ -1,19 +1,6 @@
 [[jenkinsconfiguration]]
 == Configure Jenkins
 
-[[jenkinsconfiguration_java]]
-=== Configuration the JDK location
-		
-Before using Jenkins to build Java applications, you need to configure the location or it where your JDK installation is. 
-Select _Manage Jenkins_ and afterwards _Configure System_.
-
-image::jenkins10.png[Jenkins at first startup]
-		
-Enter the correct path to your JDK, Apache Ant and Maven and press the btn:[Save] button below. 
-Jenkins can also install these for your automatically.
-		
-image::jenkins20.png[Configuring Jenkins]
-
 === Secure Jenkins
 		
 It is recommended to secure Jenkins. 
@@ -30,8 +17,10 @@ On the login page, select _Create an account_ to create the users you just gave 
 image::jenkins40.png[Create Jenkins account]
 
 image::jenkins50.png[Sign up a new Jenkins user]
+
+=== Create a new user
 		
-Go to_Manage Jenkins_, _Manage and Assign Roles_ and then _Assign Roles_ to grant the newly created user additional access rights.
+Go to _Manage Jenkins_, _Manage and Assign Roles_ and then _Assign Roles_ to grant the newly created user additional access rights.
 		
 image::jenkins50.png[Sign up a new Jenkins user]
 		
@@ -52,3 +41,4 @@ Create a SSH key with the following command.
 sudo -u jenkins ssh-keygen
 ----
 
+The public key must be uploaded to the service you are using, e.g., Github.

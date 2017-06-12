@@ -8,15 +8,23 @@ To create a backup of your Jenkins setup, just copy this directory.
 The _jobs_ directory contains the individual jobs configured in the Jenkins install. 
 You can move a job from one Jenkins installation to another by copying the corresponding job directory. 
 You can also copy a job directory to clone a job or rename the directory.
+
+You only need to copy the `config.xml` file.
+If you are using Git in the `jobs` directory you can use the following `.gitignore` file to exclude everything except this file.
+
+[source,git]
+====
+# Ignore everything in /jobs
+*
+# Reinclude all folders in /jobs
+!*/
+# Ignore everything in the subfolders of /jobs
+*/*
+# Reinclude config.xml files in the first-level subfolders of /jobs
+!*/config.xml
+====
 		
 Click btn:[reload config] button in the Jenkins web user interface to force Jenkins to reload configuration from the disk.
 		
 See the following link for details: https://wiki.jenkins-ci.org/display/JENKINS/Administering+Jenkins
-
-=== Managing Jenkins with Git
-	
-Jenkins supports the https://wiki.jenkins-ci.org/display/JENKINS/SCM+Sync+configuration+plugin
-plug-in which allows you to store every change in a Git repo.
-		
-It is also possible to manually maintain the Jenkins configuration in a Git repo. 
 
