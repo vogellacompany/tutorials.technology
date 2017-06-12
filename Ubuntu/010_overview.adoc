@@ -116,14 +116,18 @@ include::res/vim/install.txt[]
 
 Start _vim_ from the command line. 
 vim has two modes, one editing mode and other mode in which you can move within the file. 
-To start editing the file, use the "i" key.
-Once you want to save press the escape button and write ":wq".
-If you want to exit without saving, use ":q!".
 
-A simple editor with a graphical user interface is gedit. 
+Here is a minimal command reference for vim:
+
+* kbd:[i] - Enter interactive mode to edit the file
+* kbd:[Escape] - Leave interactive mode
+
+* kbd:[/] - Search in file
+* kbd:[:wq] - Saves the file and exists vim
+* kbd:[:q!] - Exists vim without saving
+
 
 [commands_find]
-
 === Find files
 
 The following demonstrates the usage of the find command.
