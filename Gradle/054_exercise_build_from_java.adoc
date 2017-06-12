@@ -1,0 +1,56 @@
+== Exercise: Trigger Gradle build from Java code
+
+This exercise describes how to trigger a gradle build from Java code.
+
+=== Create new gradle projects
+
+Create two new gradle projects with the names _BaseProject_ (this project starts the gradle build) and _TargetProject_ (this project is built by the BaseProject).
+Make sure the BaseProject applies the _java_ plugin.
+
+
+=== Add dependencies
+
+Add the following dependency to the BaseProject.
+
+....
+compile 'org.gradle:gradle-tooling-api:4.0-rc-2'
+....
+
+=== Build TargetProject
+
+Create a class named _Application_ with a static main method like the following.
+
+....
+import java.io.File;
+
+import org.gradle.tooling.BuildLauncher;
+import org.gradle.tooling.GradleConnector;
+import org.gradle.tooling.ProjectConnection;
+
+public class Application {
+
+	public static void main(String[] args) {
+		ProjectConnection connection = GradleConnector.newConnector().forProjectDirectory(new File("path/to/targetproject")).connect();
+		try {
+			BuildLauncher build = connection.newBuild();
+			build.forTasks("build");
+			build.run();
+		} catch (Exception e) {
+			e.printStackTrace();
+		} finally {
+			connection.close();
+		}
+	}
+}
+....
+
+This method first creates a _ProjectConnection_ to the project that should be build and connects to it. 
+Make sure to replace _path/to/targetproject_ with the path of the TargetProject.
+From the project connection, a new _BuildLauncher_ can be obtained.
+With the help of the method _forTasks()_ you can specify the gradle tasks that should be executed.
+The BuildLauncher also provides some other methods to configure the build.
+You can, for example, set gradle build arguments or change the Java version to build the project with.
+By calling the _run()_ method the build is finally executed.
+Make sure to close the connection in the finally block.
+
+
