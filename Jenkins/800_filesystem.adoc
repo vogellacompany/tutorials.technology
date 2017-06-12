@@ -13,7 +13,7 @@ You only need to copy the `config.xml` file.
 If you are using Git in the `jobs` directory you can use the following `.gitignore` file to exclude everything except this file.
 
 [source,git]
-====
+----
 # Ignore everything in /jobs
 *
 # Reinclude all folders in /jobs
@@ -22,7 +22,7 @@ If you are using Git in the `jobs` directory you can use the following `.gitigno
 */*
 # Reinclude config.xml files in the first-level subfolders of /jobs
 !*/config.xml
-====
+----
 		
 Click btn:[reload config] button in the Jenkins web user interface to force Jenkins to reload configuration from the disk.
 		
