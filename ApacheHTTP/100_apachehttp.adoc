@@ -112,48 +112,6 @@ sudo a2enmod proxy
 sudo a2enmod rewrite
 ----
 
-[[apachehttp_email]]
-=== Configuring your server to send out emails
-
-In case you want to send out emails from your PHP sites you have to configure an email client. 
-A simple one is exim4, a setup description can be found under the following links: https://help.ubuntu.com/community/Exim4 and https://wiki.debian.org/GmailAndExim4.
-
-[source]
-----
-sudo apt-get install exim4
-----
-
-Here is an example /etc/exim4/update-exim4.conf.conf file.
-
-[source]    
-----
-dc_eximconfig_configtype='smarthost'
-dc_other_hostnames=''
-dc_local_interfaces='127.0.0.1 ; ::1'
-dc_readhost='gilbert.vogella.com'
-dc_relay_domains=''
-dc_minimaldns='false'
-dc_relay_nets=''
-dc_smarthost='smtp.gmail.com:587'
-CFILEMODE='644'
-dc_use_split_config='true'
-dc_hide_mailname='false'
-dc_mailname_in_oh='true'
-----
-
-You need to enter valid user credentials in the passwd.client file in the following format.
-
-----
-*google.com:youruser@gmail.com:yourpassword
-----
-
-Afterwards you need to enable the new configuration with the following command.
-
-[source]    
-----
-TODO
-----
-
 [[apachehttp_pagespeed]]
 === Using the pagespeed module
 
