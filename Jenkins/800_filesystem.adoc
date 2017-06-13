@@ -24,7 +24,9 @@ If you are using Git in the `jobs` directory you can use the following `.gitigno
 !*/config.xml
 ----
 		
-Click btn:[reload config] button in the Jenkins web user interface to force Jenkins to reload configuration from the disk.
-		
+Click btn:[Reload Configuration from Disk] button in the Jenkins web user interface to force Jenkins to reload configuration from the disk.
+
+image::reload-jenkins.png[] 
+
 See the following link for details: https://wiki.jenkins-ci.org/display/JENKINS/Administering+Jenkins
 
