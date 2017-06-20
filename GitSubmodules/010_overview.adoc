@@ -58,11 +58,11 @@ To pull everything including the submodules, use the `--recurse-submodules` and 
 
 [source,console]
 ----
-# pull all changes including submodules in case you are tracking branches
-git pull --remote
-
-# pull all changes including submodules in case you are tracking commits
+# pull all changes in the repo including changes in the submodules
 git pull --recurse-submodules
+
+# pull all changes for the submodules 
+git submodule update --remote 
 ----
 
 === Executing a command on every submodule
