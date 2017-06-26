@@ -15,14 +15,15 @@ include::res/first.adoc[]
 <1> this is the documents title including a subtitle
 <2> in the line after the title you can list the author
 <3> this is the revision of the document 
-<4> this attribute defines the you want to numbered sections.
-<5> by default, the TOC will display only level 1 and level 2 section titles. With the toclevels attribute the level can be set differently.
-<6> by default, the TOC will get the title "Table of Contents", you can set a customized name with the toc-title attribute. 
+<4> this attribute defines that you want to numbered sections.
+<5> a table of content will be generated
+<6> by default, the TOC will display only level 1 and level 2 section titles. With the toclevels attribute the level can be set differently.
+<7> by default, the TOC will get the title "Table of Contents", you can set a customized name with the toc-title attribute. 
 This will apply for the html and pdf output.
-<7> enables experimental features, like button and menu paths
-<8> adds description to the HTML output
-<9> adds keywords to the HTML output
-<10> Defines the default image location
+<8> enables experimental features, like button and menu paths
+<9> adds description to the HTML output
+<10> adds keywords to the HTML output
+<11> Defines the default image location
 Asciidoc documents typically ends with the _.adoc_. 
 
 === Important outstanding issues in Asciidoctor

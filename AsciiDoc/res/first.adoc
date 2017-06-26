@@ -2,12 +2,13 @@
 Lars Vogel(c) 2016 vogella GmbH										# <2>
 Version 0.2, 17.12.2015												# <3>
 :sectnums:                                                          # <4>
-:toclevels: 4 														# <5>
-:toc-title: My Content												# <6>
-:experimental:                                                      # <7>
-:description: Example AsciiDoc document                             # <8>
-:keywords: AsciiDoc                                                 # <9>
-:imagesdir: ./img 													# <10>
+:toc:																# <5>
+:toclevels: 4 														# <6>
+:toc-title: My Content												# <7>
+:experimental:                                                      # <8>
+:description: Example AsciiDoc document                             # <9>
+:keywords: AsciiDoc                                                 # <10>
+:imagesdir: ./img 													# <11>
 
 This is the optional preamble (an untitled section body). Useful for
 writing simple sectionless documents consisting only of a preamble.
