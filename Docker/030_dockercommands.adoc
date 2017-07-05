@@ -32,5 +32,20 @@ Use the following command to remove all your images.
 docker rmi $(docker images -q)
 ----
 
+=== Start a terminal session on a running container
+
+Use this command to start a terminal session on a running container:
+----
+docker exec -it <container id> /bin/sh
+----
+
+NOTE: If your image is using bash you have to replace `/bin/sh` with `/bin/bash`.
+
+=== Start a terminal session on an image
+
+Use this command to start a terminal session on an image:
+----
+docker run -i -t --entrypoint /bin/sh <image id>
+----
 
 
