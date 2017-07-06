@@ -30,7 +30,7 @@ include::web/advertisement/beforeSupport.adoc[]
 	</div>
 	<div class="about_vogella">
     	<a href="http://www.vogella.com/code/index.html">
-            <h1>Get source code</h1> 
+            <h1>Get the source code</h1> 
             <img src="http://www.vogella.com/img/common/sourcecode.svg"
 			alt="Source Code" title="Source Code"
 			onclick="_gaq.push(['_trackEvent', 'Source Code', 'clicked', 'Buttom tutorial in thank you']);"/>
