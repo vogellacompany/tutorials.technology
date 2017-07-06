@@ -3,8 +3,8 @@
 	ServerAdmin test@test.com
 	ServerAlias vogella.de www.vogella.de vogella.com www.vogella.org vogella.org
 
-	DocumentRoot /var/www/vhosts/vogella.com/documentroot
-	<Directory /var/www/vhosts/vogella.com/documentroot>
+	DocumentRoot /var/www/vhosts/vogella/www
+	<Directory /var/www/vhosts/vogella/www>
 		Options -Indexes
 		AllowOverride all
 		Order allow,deny

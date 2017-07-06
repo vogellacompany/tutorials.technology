@@ -1,2 +1,2 @@
 a2enmod deflate 
-/etc/init.d/apache2 restart
+sudo /etc/init.d/apache2 restart

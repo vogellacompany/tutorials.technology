@@ -11,7 +11,7 @@ This allows you to have one Apache HTTP web server running on one IP serving mul
 [[apachehttp_vhostsconfiguration]]
 === How to configure vhosts under Ubuntu
 
-Under Ubuntu you create a configuration file in the `/etc/apache2/sites-available` folder, for example the `www.vogella.com.filename`.
+Under Ubuntu you create a configuration file in the `/etc/apache2/sites-available` folder, for example the `vogella.conf`.
 
 [source]
 ----

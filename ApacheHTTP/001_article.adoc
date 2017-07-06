@@ -4,7 +4,7 @@
 :icons:
 :imagesdir: ./img
 Lars Vogel(c) 2010, 2017 vogella GmbH
-Version 0.3, 23.01.2017
+Version 1.1, 06.07.2017
 :keywords: Apache HTTP
 :docinfodir: ../
 :vgwort: ApacheHTTP
@@ -12,12 +12,10 @@ Version 0.3, 23.01.2017
 [abstract]
 == Installation and configuration of the Apache HTTP server
 
-This articles contains some information about handling the Apache HTTP server.
+This articles contains information about the Apache HTTP server.
 				
 include::../web/advertisement/afterTableOfContent.adoc[]
 include::010_overview.adoc[]
-include::012_installation.adoc[]
-include::../web/advertisement/inBetween01.adoc[]
 include::100_apachehttp.adoc[]
 include::200_vhosts.adoc[]
 include::../support.adoc[]

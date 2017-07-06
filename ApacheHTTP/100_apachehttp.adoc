@@ -122,6 +122,6 @@ See http://tecadmin.net/install-apache2-with-mod-pagespeed-on-ubuntu/ for the se
 === Migration of servers
 
 In case you are migrating your server from one server to another you can tell your local computer to resolve to the new server, even though you did not yet change the DNS setting. 
-This way you can test if the new server works fine.
+This way, you can test if the new server works fine.
 
  
