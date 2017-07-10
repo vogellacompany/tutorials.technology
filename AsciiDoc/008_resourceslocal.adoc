@@ -1,5 +1,7 @@
 == Asciidoc resources
 
+https://salt.bountysource.com/teams/asciidoctor[Support page for AsciiDoc]
+
 http://www.methods.co.nz/asciidoc/[AsciiDoc homepage]
 
 http://asciidoctor.org/docs/asciidoc-writers-guide/[AsciiDoc writers guide]
