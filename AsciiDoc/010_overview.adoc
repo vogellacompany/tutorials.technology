@@ -266,31 +266,31 @@ Result:
 This is just a text
 image:vogellacompany.jpg[vogella Company, width=5%] to show inline images.
 
-=== Using Conditional Directives
+=== Using Conditional directives
 
 It is possible to include or exclude text based on document attributes or based on the value of a document attribute. 
 The attributes ifdef, ifndef and ifeval can be used to achieve this. 
 
-To include content if the attribute `test` is set use the following syntax:
+To include content, if the attribute `exercise_solution` is set use the following syntax:
 
 [source]
 ....
-\ifdef::test[]
+\ifdef::exercise_solution[]
 Content is shown when test attribute is set
-\endif::test[]
+\endif::exercise_solution[]
 
 or
 
-\ifdef::test[Content is shown when include attribute is set]
+\ifdef::exercise_solution[Content is shown when include attribute is set]
 ....
 
-To include content if the attribute `test` is not set, use the following syntax:
+To include content if the attribute `exercise_solution` is not set, use the following syntax:
 
 [source]
 ....
-\ifndef::test[]
+\ifndef::exercise_solution[]
 Content is shown when test attribute is NOT set
-\endif::test[]
+\endif::exercise_solution[]
 OR
 \ifndef::test[Content is shown when test attribute is NOT set]
 ....
