@@ -1,7 +1,26 @@
-== Installation of SonarQube
+== Using SonarLint or SonarQube
 
-You can install Sonar into Eclipse. See http://www.sonarlint.org/eclipse/index.html[Sonar on Eclipse].
+=== Using SonarLint in Eclipse
+
+_SonarLint_ is available an stand-alone extension for the Eclipse IDE.
+
+You can install SonarLint into Eclipse via the marketplace client. 
+See http://www.sonarlint.org/eclipse/index.html[Sonar on Eclipse] for details.
+
+Afterwards _SonarLint_ analysis your files automatically if you open them.
+Tou can run its analysis for one or several projects.
+
+image::sonarlint_analyze10.png[] 
+
+After the analysis the _SonarLint_ Report shows the issues the analysis found.
+
+image::sonarlint_analyze20.png[]
+
+=== Using the SonarQube server
 
 See http://docs.sonarqube.org/display/SONAR/Setup+and+Upgrade for an full installation of SonarQube. 
-If you want to try out SonarQube you can also use the official Docker image for SonarQube from  https://hub.docker.com/r/_/sonarqube/
-	
+If you want to try out SonarQube, you can also use the official Docker image for SonarQube from  https://hub.docker.com/r/_/sonarqube/
+
+=== Eclipse and SonarQube
+
+To see an example you can use the https://sonar.eclipse.org[Eclipse Sonar server].

@@ -6,5 +6,5 @@ It provides a server component with a bug dashboard which allows to view and ana
 Using SonarQube via Maven or Gradle is very simple and very well described on the SonarQube homepage.
 See http://docs.sonarqube.org/display/SCAN/Analyzing+Source+Code and its links for Maven or Gradle.
 	
-To see an example you can use the https://dev.eclipse.org/sonar[Eclipse Sonar server].
+
 
