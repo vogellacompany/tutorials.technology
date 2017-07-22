@@ -30,3 +30,15 @@ image::reload-jenkins.png[]
 
 See the following link for details: https://wiki.jenkins-ci.org/display/JENKINS/Administering+Jenkins
 
+== Deleting Jenkins log file
+
+Since you can't delete a file that is currently opened by a program you need to stop all applications accessing the log file.
+If you are running Ubuntu the applications are `Jenkins` itself and the `rsyslog` service.
+
+[source, terminal]
+----
+sudo service jenkins stop
+sudo rm /var/log/jenkins/jenkins.log
+sudo service rsyslog restart
+sudo service jenkins start
+----
