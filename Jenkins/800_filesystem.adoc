@@ -42,3 +42,20 @@ sudo rm /var/log/jenkins/jenkins.log
 sudo service rsyslog restart
 sudo service jenkins start
 ----
+
+If restarting your services is not an option you can truncate the deleted file.
+
+[source, terminal]
+----
+$ sudo rm /var/log/jenkins/jenkins.log
+$ sudo lsof | grep deleted | grep jenkins.log
+daemon    28791                jenkins    5w      REG                8,1 166199259136    4589589 /var/log/jenkins/jenkins.log (deleted)
+$ sudo su root
+$ cd /proc/28791/fd
+$ ls -l | grep deleted
+lrwx------ 1 jenkins jenkins 64 Jul 10 19:30 3 -> /run/jenkins/jenkins.pid (deleted)
+l-wx------ 1 jenkins jenkins 64 Jul 10 19:30 4 -> /var/log/jenkins/jenkins.log (deleted)
+l-wx------ 1 jenkins jenkins 64 Jul 10 19:30 5 -> /var/log/jenkins/jenkins.log (deleted)
+$ > 4
+$ > 5
+----
