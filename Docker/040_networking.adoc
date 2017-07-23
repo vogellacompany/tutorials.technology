@@ -64,3 +64,87 @@ The simplest way is to use the bridge driver.
 Docker container on an user-defined network can address each other via their host name since Docker provides an embedded DNS server.
 Other possibilities are the `overlay` and the `macvlan` network driver.
 
+== Exercise: Allow a container in bridge mode to connect to a database on the host
+
+In this exercise we are going to enable a docker container to connect to a Postgresql database on the host machine.
+
+First we want to set the default bridge to an IP of our liking.
+
+In  `/etc/default/docker` add the line:
+
+[source, config]
+----
+DOCKER_OPTS="--bip=172.26.0.1/16"
+----
+
+This sets the ip address of the docker0 bridge to 172.26.0.1.
+
+Then restart docker with
+
+[source, terminal]
+----
+sudo /etc/init.d/docker restart
+----
+
+You can validate your change with
+
+[source, terminal]
+----
+/sbin/ifconfig -a
+----
+
+Install postgresql, if you it already installed you can skip this step:
+----
+sudo apt-get install -y postgresql postgresql-contrib
+----
+
+
+
+Create a user and database:
+
+[source, terminal]
+----
+sudo su - postgres
+createuser --interactive -P my-user
+Enter password for new role: 
+Enter it again: 
+Shall the new role be a superuser? (y/n) n
+Shall the new role be allowed to create databases? (y/n) y
+Shall the new role be allowed to create more new roles? (y/n) n
+createdb -O my-user testdb
+----
+
+By default postgres is only listening on localhost for incoming connections.
+We want it to also listen on our `docker0` bridge.
+In `/etc/postgresql/9.5/main/postgresql.conf` set
+[source, config]
+----
+listen_addresses = 'localhost, 172.26.0.1'
+----
+
+Now we have to allow the user to connect through this addresss.
+In `/etc/postgresql/9.5/main/pg_hba.conf` set
+
+[source, config]
+----
+# TYPE  DATABASE                   USER                       ADDRESS                 METHOD
+# with docker:
+host    testdb                     my-user                    172.26.0.1/16           md5
+----
+
+To activate the changes restart postgres with
+
+[source, terminal]
+----
+sudo /etc/init.d/postgresql restart
+----
+
+Assuming your CMD in your dockerfile is `start.sh` you can add this to your starter shell script to expose the host ip to your application:
+
+[source, bash]
+----
+export DOCKER_HOST_IP=$(/sbin/ip route|awk '/default/ { print $3 }')
+----
+
+Now your docker container is ready to connect to the database on the host.
+
