@@ -106,6 +106,13 @@ Therefore it makes sense to increase it for Gradle.
 defines that Gradle can use 1 GB as maximum heap size.
 		
 On Windows OS environment variables are usually defined via the system property UI.
+
+If you want to set JVM settings not globally but on a per project basis you can place them in `<Your app folder>/gradle.properties`:
+
+[source, gradle.properties]
+----
+org.gradle.jvmargs=-Xms2g -Xmx4g -XX\:MaxHeapSize\=3g
+----
 		
 === Typical .gitignore file for Gradle projects
 		
