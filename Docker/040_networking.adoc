@@ -1,0 +1,66 @@
+== Docker networking
+
+=== Docker networking modes
+
+Docker offers the following networking modes:
+
+* none
+* bridge (default)
+* host
+* container:<name|id>
+* user-defined network
+
+==== None
+
+----
+docker run --net="none"
+----
+
+This option deactivates all external routes for the container.
+The only way to exchange data then is I/O or STDIN/STDOUT.
+
+==== Bridge
+
+----
+docker run --net="bridge"
+----
+
+This is the default mode.
+In this mode the host and the container can communicate via their ip adresses.
+A veth (virtual ethernet interface) gets created on both host and container.
+Both of those veths are put into a bridge which enables the communication.
+The bridge is usually named `docker0`.
+
+==== Host
+
+----
+docker run --net="host"
+----
+
+In this mode the container shares the complete network stack of the host.
+This is useful for containers that need high performance network connectivity since the network traffic doesn't have to go through virtualization.
+
+WARNING: Since this mode gives the container full access to all network interfaces and services of the host it poses a security risk.
+
+==== Container
+
+----
+docker run --network container:<name|id>
+----
+
+In this mode the container shares the network stack of another container.
+
+==== User-defined network
+
+----
+docker network create -d bridge my-net
+docker run --network=my-net
+----
+
+You don't have to use the default network bridge to connect your containers.
+There are multiple network drivers to use.
+This way you first create a network and then add the container you want to communicate with each other to it.
+The simplest way is to use the bridge driver.
+Docker container on an user-defined network can address each other via their host name since Docker provides an embedded DNS server.
+Other possibilities are the `overlay` and the `macvlan` network driver.
+
