@@ -1,0 +1,70 @@
+== Using Gerrit through GerritHub
+
+http://gerrithub.io[GerritHub] is a service that allows you to use http://www.vogella.com/tutorials/Gerrit/article.html[Gerrit] for code reviews for your GitHub repositories.
+It works by cloning your repositories to it's servers and allows you to push Gerrit changes to them.
+Merged Gerrit changes are synced back to GitHub.
+
+=== Authorizing GerritHub
+
+To use the service you have to Sign in with your GitHub account.
+Open up http://gerrithub.io and press btn:[First time Sign In].
+
+image::gerrithub/gerrithub_first_time_sign_in.png[First time Sign In button] 
+
+On the next page choose btn:[Sign In] to log in with your GitHub account.
+
+image::gerrithub/gerrithub_sign_in.png[Sign In button]
+
+You can then choose if you want to give GerritHub access to your private or only your public repositories.
+GerritHub then asks for the following authorizations:
+
+* Read-only access to your email adresses
+* Read and write acess to your public (and possibly private) repositories
+* Read-only access to your organizations
+You have to accept to proceed.
+
+After finalizing your account information you are then ready to use GerritHub.
+In the next step you can choose which repositories you want to import and have the possibility to import existing pull requests.
+
+=== Importing a repository from GitHub
+
+To import a repository from GitHub, first open Gerrit on GerritHub: https://review.gerrithub.io.
+Now choose menu:GitHub[Repositories].
+
+image::gerrithub/gerrithub_import_repositories_link.png[Import repositories link]
+
+Select all repositories that you want to import and click on the btn:[Next] button.
+The next page lets you select which existing pull requests you want to import as Gerrit changes.
+
+=== Importing pull requests from GitHub
+
+It is possible to import existing pull requests from GitHub as Gerrit changes.
+Please be aware that changes made to the pull request after the import won't propagate to the Gerrit change.
+You can import the pull request again but this will create a new Gerrit change instead of updating the old Gerrit change.
+
+To import pull requests from GitHub open Gerrit on GerritHub: https://review.gerrithub.io.
+Now choose menu:GitHub[Pull Requests].
+
+image::gerrithub/gerrithub_import_pull_requests_link.png[Import pull requests link]
+
+Select all pull requests you want to import and then press the btn:[Next] button.
+
+=== Pushing a commit to GerritHub for code review
+
+Once you have imported your GitHub resources into GerritHub you can use it like any other Gerrit instance.
+After you merged a change GerritHub will automatically try to push it back to GitHub.
+For information on how to use Gerrit please see our http://www.vogella.com/tutorials/Gerrit/article.html#gerritreview_configuration[Gerrit tutorial].
+
+
+=== Keeping the repositories in sync
+
+If you are only using GerritHub to push changes you don't have to do anything additional.
+GerritHub automatically propagates merged changes back to GitHub.
+If you or someone else pushes changes directly to GitHub you have to manually sync this changes to GerritHub.
+Assuming you have set GitHub as your `origin` remote and `gerrithub` as your GerritHub remote:
+
+[source, terminal]
+----
+git pull master
+git push gerrithub master
+----
