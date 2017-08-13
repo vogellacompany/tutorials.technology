@@ -1,0 +1,36 @@
+== Administrator: Editing the project config through Git
+
+It is possible to edit the project configuration file directly.
+The config files are store in the projects Git repository.
+They reside in the special branch `refs/meta/config`.
+To check them out issue the following commands on your terminal:
+
+[source, terminal]
+----
+git remote add gerrit ssh://<gerrit-site>:<gerrit-port>
+git fetch gerrit refs/meta/config:gerrit-config
+git checkout gerrit-config
+----
+
+Your project specific rules are in the file `project.config`.
+The file follows the Git configuration format.
+
+Assuming your project is lacking the "Verified" label you could add the following to the config:
+
+[source, git_config]
+----
+[label "Verified"]
+       function = MaxWithBlock
+       value = -1 Fails
+       value =  0 No score
+       value = +1 Verified
+----
+
+Once you have done your changes you can commit and push them:
+
+[source, terminal]
+----
+git commit -am "Message"
+git push gerrit meta/config:meta/config
+----
+
