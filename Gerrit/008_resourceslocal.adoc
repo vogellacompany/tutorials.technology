@@ -22,3 +22,4 @@ http://wiki.eclipse.org/Gerrit[Contributing to Eclipse via Gerrit]
 http://stackoverflow.com/questions/18179728/set-up-gerrit-with-http-authentication[Setup Gerrit with HTTP authentication]
 
 https://gerrit-review.googlesource.com/Documentation/config-gerrit.html#auth[Authentication settings]
+
