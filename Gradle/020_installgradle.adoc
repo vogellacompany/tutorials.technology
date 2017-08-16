@@ -80,9 +80,8 @@ Open a command line and type `gradle`, which will run Gradle's help task by defa
 === Using the Gradle daemon for improved startup time
 		
 Gradle allows to start Gradle as daemon to avoid starting the Java virtual machine for every build. 
-To configure that create a file called _gradle.properties_ in the _${HOME}/.gradle_ and add the following line to it.gradle.properties.
-		
-[source,console]
+To configure that create a file called _gradle.properties_ in the _${HOME}/.gradle_ and add the following line to it:
+
 ----
 include::res/install/gradle.properties[]
 ----
@@ -109,7 +108,6 @@ On Windows OS environment variables are usually defined via the system property 
 
 If you want to set JVM settings not globally but on a per project basis you can place them in `<Your app folder>/gradle.properties`:
 
-[source, gradle.properties]
 ----
 org.gradle.jvmargs=-Xms2g -Xmx4g -XX\:MaxHeapSize\=3g
 ----
