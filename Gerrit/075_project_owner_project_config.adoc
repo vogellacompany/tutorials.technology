@@ -35,6 +35,7 @@ git commit -am "Message"
 git push gerrit meta/config:meta/config
 ----
 
+[[managing_project_access]]
 == Project Owner: Managing project access
 
 Project access in Gerrit is generally handled through Groups, although you can also set permissions on a per user basis.
