@@ -68,3 +68,13 @@ Assuming you have set GitHub as your `origin` remote and `gerrithub` as your Ger
 git pull master
 git push gerrithub master
 ----
+
+=== Build validation with Jenkins
+
+
+
+
+
+
+
+

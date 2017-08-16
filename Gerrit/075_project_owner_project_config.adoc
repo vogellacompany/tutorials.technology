@@ -1,4 +1,5 @@
-== Administrator: Editing the project config through Git
+[[editing_project_config_git]]
+== Project Owner: Editing the project config through Git
 
 It is possible to edit the project configuration file directly.
 The config files are store in the projects Git repository.
@@ -33,4 +34,19 @@ Once you have done your changes you can commit and push them:
 git commit -am "Message"
 git push gerrit meta/config:meta/config
 ----
+
+== Project Owner: Managing project access
+
+Project access in Gerrit is generally handled through Groups, although you can also set permissions on a per user basis.
+An open source project might have a group for commiters, who can review and merge changes, and a group for their CI solutions.
+To create a new group navigate to menu:People[Create New Group].
+
+image::create_group.png[Create Group page] 
+
+Once you have created a group you are taken to the group management page, where you can add new members to the group.
+
+image::group_management.png[Group management page] 
+
+After that you can give this Group access to your project.
+This is done either through the web interface at menu:Projects[Access] or by editing the projects config file as described in <<editing_project_config_git>>.
 
