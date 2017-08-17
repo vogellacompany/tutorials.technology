@@ -9,8 +9,8 @@ To check them out issue the following commands on your terminal:
 [source, terminal]
 ----
 git remote add gerrit ssh://<gerrit-site>:<gerrit-port>
-git fetch gerrit refs/meta/config:gerrit-config
-git checkout gerrit-config
+git fetch gerrit refs/meta/config:refs/remotes/gerrithub/meta/config
+git checkout gerrithub/meta/config
 ----
 
 Your project specific rules are in the file `project.config`.
@@ -27,12 +27,11 @@ Assuming your project is lacking the "Verified" label you could add the followin
        value = +1 Verified
 ----
 
-Once you have done your changes you can commit and push them:
+After you have commited your changes you can push them:
 
 [source, terminal]
 ----
-git commit -am "Message"
-git push gerrit meta/config:meta/config
+git push -f gerrithub  HEAD:refs/meta/config
 ----
 
 [[managing_project_access]]
