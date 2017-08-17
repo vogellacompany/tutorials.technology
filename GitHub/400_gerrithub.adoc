@@ -4,6 +4,7 @@ http://gerrithub.io[GerritHub] is a service that allows you to use http://www.vo
 It works by cloning your repositories to it's servers and allows you to push Gerrit changes to them.
 Merged Gerrit changes are synced back to GitHub.
 
+[[authorize_gerrithub]]
 === Authorizing GerritHub
 
 To use the service you have to Sign in with your GitHub account.
@@ -71,10 +72,67 @@ git push gerrithub master
 
 === Build validation with Jenkins
 
+It is possible to trigger a new build by every patch set that gets uploaded to Gerrit.
+This way you can be confident that changes submitted through Gerrit won't break your build.
+It is recommended to use an extra Jenkins user for Gerrit.
 
+Create a new GitHub user for your Jenkins instance and link it with GerritHub as described in <<authorize_gerrithub>>.
+Make sure to add the public ssh key of the Jenkins to this account at https://review.gerrithub.io/#/settings/ssh-keys.
 
+Now give the Jenkins user the rights to change the `Verified` label.
+You can do this by editing your http://www.vogella.com/tutorials/Gerrit/article.html#editing_project_config_git[project configuration file]:
 
+----
+[access "refs/*"]
+	<other entries...>
+	read = group user/<Jenkins User Id>
+[access "refs/heads/*"]
+	<...>
+	label-Verified = -1..+1 group user/<Jenkins User Id>
+----
 
+Now install the https://wiki.jenkins.io/display/JENKINS/Gerrit+Trigger[Gerrit Trigger plugin] onto your Jenkins instance.
+The `Gerrit Trigger` plugin works by listening to the Gerrit event stream.
+This way the Gerrit server doesn't have to specifically know about the Jenkins server.
+It is enough to give the Jenkins user the required access rights to the Jenkins project.
+If you want to check out the event stream yourself you can listen to it with this command:
 
+[source, terminal]
+----
+ssh -p 29418 <your jenkins user>@review.gerrithub.io gerrit stream-events
+----
 
+The next step is to add GerritHub to the Gerrit Trigger configuration.
+Navigate to menu:Manager Jenkins[Gerrit Trigger] and add a new server:
+
+image::jenkins/jenkins_gerrit_trigger_server_config.png[alt="Hostname: review.gerrithub.io, Frontend URL: https://review.gerrithub.io/, Port: 29418"]
+
+Before saving hit the btn:[Test Connection] button to make sure you entered the right information.
+
+Now you can change your desired project to include a Gerrit trigger.
+Open up menu:Project[Configure] and choose "Gerrit event" under "Build triggers".
+Select the server that we created earlier from the drop down menu.
+For this example we have chosen to name our project "hello_world".
+We match on it by adding a project of type "Plain" and writing down the exact project name.
+The project name follows the pattern `<jenkins user name>/<project name>`.
+To match all branches on the project we choose the type "RegExp" and enter `.*`.
+By not adding anything under "Trigger on" we let the plugin add the default triggers "Patch set created" and "Draft published".
+
+image::jenkins/gerrit_trigger_configuration.png[Jenkins Project configuration page with Gerrit Trigger configuration] 
+
+The next step is to configure the Git plugin, so the build job knows which repository to fetch and build.
+As "Repository URL" we enter the the GerritHub project url.
+It follows the pattern `ssh://<GerritHub jenkins user>@review.gerrithub.io:29418/<project owner user>/<project name>`.
+Press the btn:[Advanced] button and enter `$GERRIT_REFSPEC` as "Refspec".
+As branch to build enter `$GERRIT_BRANCH`.
+Under "Additional Behaviors" add an "Strategy for choosing what to build" entry and choose "Gerrit Trigger" from the drop down menu.
+
+image::jenkins/gerrit_trigger_git_configuration.png[Gerrit Trigger Git configuration] 
+
+As last step your should add the appropriate build step for your project.
+
+To test your configuration create a new Gerrit change or upload a new patch set to an existing change.
+The Jenkins build server should give you feedback now:
+
+image::jenkins/jenkins_build_feedback.png[Jenkins build server setting -1 verified flag] 
 
