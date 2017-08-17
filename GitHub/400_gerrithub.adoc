@@ -3,6 +3,9 @@
 http://gerrithub.io[GerritHub] is a service that allows you to use http://www.vogella.com/tutorials/Gerrit/article.html[Gerrit] for code reviews for your GitHub repositories.
 It works by cloning your repositories to it's servers and allows you to push Gerrit changes to them.
 Merged Gerrit changes are synced back to GitHub.
+Once you have imported a repository to GerritHub it is best to stop pushing to GitHub as GerritHub only syncs in one direction.
+You can still push commits directly to the repository on GerritHub without starting a Gerrit change.
+Those commits will also be synced back to GitHub.
 
 [[authorize_gerrithub]]
 === Authorizing GerritHub
