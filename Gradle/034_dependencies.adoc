@@ -87,3 +87,46 @@ You can refresh dependencies in your cache with the command line option `--refre
 You can also delete the cached files under _~/.gradle/caches_. 
 With the next build Gradle attempts to download the dependencies again.
 
+[[excluding_dependencies]]
+=== Excluding transitive dependencies
+
+Sometimes you have dependencies on packages that define conflicting transitive dependencies.
+One solution is to exclude a dependency from a specific module:
+
+[source, groovy]
+----
+compile 'org.springframework:spring-web:4.3.10.RELEASE' {
+    exclude group: 'com.google.code.gson', module: 'gson'
+}
+----
+
+If you have multiple dependency that define a dependency you want to exclude, you can do so at the project level:
+
+[source, groovy]
+----
+configurations.all {
+    exclude group: 'com.google.code.gson', module: 'gson'
+}
+----
+
+Following the same approach we can exclude a dependency only during runtime:
+
+[source, groovy]
+----
+configurations.runtime {
+    exclude group: 'com.google.code.gson', module: 'gson'
+}
+----
+
+=== Forcing a specific version of a transitive dependency
+
+It is possible to force gradle to pick a specific version when it encounters conflicting transitive dependencies.
+Keep in mind that you might have to manually update this version when you are upgrading the packages that depend on it.
+
+[source, groovy]
+----
+configurations.all {
+    resolutionStrategy.force 'com.google.code.gson:gson:2.8.1'
+}
+----
+
