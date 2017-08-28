@@ -89,4 +89,21 @@ Each pulll request has a link which once clicked shows you the corresponding com
 
 image::github_local_clone_pullrequest.png[Getting the changes of a Github Pull request into your local repo]
 
+[[source_permalink]]
+== Permanent links to source code lines
 
+When discussing code with other people it is often helpful to link them to a particular line in the source code.
+If you are browsing a branch and not a particular commit on GitHub, this code may change. 
+This might change the text at the line you are referencing.
+For this reason GitHub offers you to copy a permanent link to your clipboard.
+To do this first select the line you want to reference by clicking on it's line number:
+
+image::github_select_line.png[GitHub line number]
+
+After that a new button appears left of the line number:
+
+image::github_select_line_new_button.png[GitHub button left of line number]
+
+Clicking on it opens a drop down menu, from which you can select `Copy permalink`:
+
+image::github_copy_permalink.png[Copy permalink button]
