@@ -1,0 +1,15 @@
+[[inkscape]]
+== Cut a section of an image
+
+In order to cut out a section of an image first make sure that the image is either contained in a layer or all elements are grouped.
+
+To see the layers go to  menu:Layer[Layers ...]. 
+Now create a new layer for the section to be cut out by pressing the _+_ button in the layer window. 
+The position of the new layer should be _Above current_.
+
+Now select the section either with _Draw bezier curves and straight lines_ kbd:[Shift+F6] or with _Create rectangles and squares_ kbd:[F4]. 
+After the selection is done switch to the _select and transform objects_ kbd:[F1] mode and select the new layer. 
+Now press the btn:[SHIFT] button and also select the original image or layer.
+Both layers should now be selected. Inside the new layer press the right mouse and select _Set Clip_.
+Now the selection will be cut out of the original svg.
+
