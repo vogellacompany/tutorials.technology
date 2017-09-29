@@ -26,6 +26,19 @@ This will apply for the html and pdf output.
 <11> Defines the default image location
 Asciidoc documents typically ends with the _.adoc_. 
 
+=== Position of the TOC
+
+You can define the position of the toc.
+
+----
+:toc:
+:toc: left
+:toc: right
+:toc: preamble
+----
+
+`preamble` will position the toc in the main content area (some as default) but before the preable.
+
 === Important outstanding issues in Asciidoctor
 
 While Asciidoctor is awesome, several outstanding issues make the usage of the PDF output difficult.
@@ -760,7 +773,7 @@ For example:
 
 === Comments in Asciidoc
 
-We can add comments to the Asciidoc markup. 
+You can add comments to the Asciidoc markup. 
 The comments are not added to the generated output. 
 You can use both single and multiline comments. 
 Single line comments start with a double slash (//). 
