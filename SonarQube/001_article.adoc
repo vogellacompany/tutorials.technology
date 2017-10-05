@@ -1,17 +1,17 @@
-= Using SonarQube
+= Using SonarLint and SonarQube
 :linkcss:
 :sectnums:
-Simon Scholz (c) 2016 vogella GmbH
-Version 0.3, 03.09.2016
-:keywords: Gradle, Groovy
+Simon Scholz, Lars Vogel (c) 2016 vogella GmbH
+Version 0.4, 05.10.2017
+:keywords: SonarLint, SonarQube
 :contentidentifier: description
 :imagesdir: ./img
 :docinfodir: ../
 :vgwort: SonarQube
 
 [abstract]
-This article describes how to use and install the SonarQube. 
-It is currently in DRAFT mode.
+This article describes how to use SonarLint and SonarQube. 
+For the examples the Eclipse IDE is used.
 
 include::../web/advertisement/afterTableOfContent.adoc[]	
 include::010_overview.adoc[]
