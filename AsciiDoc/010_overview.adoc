@@ -39,19 +39,6 @@ You can define the position of the toc.
 
 `preamble` will position the toc in the main content area (some as default) but before the preable.
 
-=== Important outstanding issues in Asciidoctor
-
-While Asciidoctor is awesome, several outstanding issues make the usage of the PDF output difficult.
-If you want to create PDF from Asciidoc, you most likely need first to create Docbook output and afterwards PDF from it.
-
-Please vote for the following issues at Github:
-
-* https://github.com/asciidoctor/asciidoctor-pdf/issues/464[Option to include the section number in a cross-reference]
-
-
-
-image::vote-asciidoc-issue.png[Vote for issue]
-
 === Install2 the Asciidoctor toolchain
 
 If you want to use Asciidoctor directly you have to install its toolchain. 
