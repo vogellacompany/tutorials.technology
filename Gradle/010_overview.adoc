@@ -1,10 +1,10 @@
 == Introduction to the Gradle build system
 
 === What is the Gradle build system?
-(((Gradle)))
 
 image::gradle-logo.png[Gradle logo, pdfwidth=40%]
 
+(((Gradle)))
 _Gradle_ is an advanced general purpose build management system based on Groovy and Kotlin.
 Gradle supports the automatic download and configuration of dependencies or other libraries. 
 It supports Maven and Ivy repositories for retrieving these dependencies. 
@@ -46,12 +46,13 @@ include::res/starter/build_hello.gradle[]
 [NOTE]
 ====
 In older Gradle files you might encounter the use of `<<` instead of `doLast`.
+
 [source, groovy]
 ----
 include::res/starter/build_hello_deprecated.gradle[]
 ----
-With the release of Gradle v3.2 the use of this syntax shortcut is deprecated and you shouldn't use it.
-It will be removed in Gradle v5.0.
+
+This option is removed in Gradle v5.0.
 ====
 
 
@@ -84,10 +85,7 @@ You can change this by creating a _settings.gradle_ file in the directory which 
 include::res/settings/settings.gradle[]
 ----
 
-
-
 You can also add a description to your project via the _build.gradle_ file.
-
 
 [source,gradle]
 ----
@@ -101,12 +99,6 @@ The following listing shows the output.
 ----
 include::res/settings/settings.output[]
 ----
-
-=== IDE support for Gradle
-	
-The Gradleware company is developing Eclipse Gradle tooling via the Eclipse Buildship project.
-Other IDEs like IntelliJ and Android Studio already include also good Gradle support. 
-See http://www.vogella.com/tutorials/EclipseGradle/article.html[Eclipse Gradle tutorial] for the usage of Gradle with Eclipse.
 
 
 == Gradle plug-ins

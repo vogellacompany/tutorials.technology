@@ -14,6 +14,7 @@ This tutorial describes how to the the Gradle build tool.
 
 include::../web/advertisement/afterTableOfContent.adoc[]
 include::010_overview.adoc[]
+include::012_ide_support.adoc[]
 include::020_installgradle.adoc[]
 include::../web/advertisement/inBetween01.adoc[]
 include::022_exercise_setup_deamon.adoc[]
