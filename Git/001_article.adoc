@@ -1,7 +1,7 @@
 = Git - Tutorial
 :linkcss:
-Lars Vogel (c) 2009-2016 vogella GmbH
-Version 5.8, 10.08.2015
+Lars Vogel (c) 2009-2017 vogella GmbH
+Version 5.9, 03.11.2017
 :keywords: Git command line, Git, rebase, merge
 :contentidentifier: description
 :imagesdir: img

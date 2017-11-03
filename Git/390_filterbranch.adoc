@@ -2,7 +2,8 @@
 == Rewriting commit history with git filter-branch
 
 [[filterbranch_definition]]
-=== Using git filter-branch
+=== Using the git filter branch command (filter-branch)
+
 (((git filter-branch)))
 The `git filter-branch` command allows you to rewrite the Git commit history.
 This can be done for selected branches and you can  apply custom filters on each revision. 
@@ -10,10 +11,7 @@ This creates different hashes for all modified commits.
 This implies that you get new IDs for all commits based on any rewritten commit.
 
 The command allows you to filter for several values, e.g., the author,
-the message, etc. For details please see the following link:
-
-http://www.kernel.org/pub/software/scm/git/docs/git-filter-branch.html[git-filter-branch(1)
-Manual Page]
+the message, etc. For details please see the http://www.kernel.org/pub/software/scm/git/docs/git-filter-branch.html[git-filter-branch manual page]
 
 [WARNING]
 ====
@@ -29,13 +27,22 @@ Or you want to remove huge binary files from the history.
 To completely remove such files, you need to run the `filter-branch` command on all branches.
 
 [[filterbranch_example]]
-=== filter-branch example
+=== filter-branch examples
 
-The following listing shows an example. 
-It replaces the email address from one author of all the commits via the `git filter-branch` command.
+The following command extracts a directory from a Git repository and retains all commits for this subfolder.
 
 [source,console]
 ----
-include::res/filterbranch/replace.txt[]
+git filter-branch --prune-empty --subdirectory-filter FOLDER-NAME  BRANCH-NAME 
 ----
+
+The following command replaces the email address of one author from all commits.
+
+[source,console]
+----
+git filter-branch -f \
+--env-filter 'if [ "$GIT_AUTHOR_NAME" = "Lars Vogel" ]; then \
+GIT_AUTHOR_EMAIL="lars.vogel@gmail.com"; fi' HEAD)
+----
+
 
