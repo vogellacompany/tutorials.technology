@@ -4,7 +4,7 @@
 In a web server architecture you have a web client (browser)
 taking to a web server.
 
-[[architecture_web server]]
+[[architecture_webserver]]
 === Web Server
 
 A web server takes a client request, process the request and
@@ -67,35 +67,32 @@ text or HTML.
 
 [[architecture_url]]
 === URL - Uniform Resource Locator
- A resource in the web (and on the web server) can get
+
+A resource in the web (and on the web server) can get
 identified via the URL. A URL is what is usually displayed in the
 browser, e.g. http://www.vogella.com is a URL.
 
+A URL consists of the following parts:
 
- A URL consists of the following parts:
-
-
-<programlisting>
-<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-parse="text" href="./examples/architecture/url.txt[]
+[source, txt]
 ----
-
+include::res/architecture/url.txt[]
+----
 
 [[architecture_dns]]
 === DNS - Dynamic name server and entries
- A DNS server is responsible for identifying resources in the
+
+A DNS server is responsible for identifying resources in the
 Internet based on domain names. The provide which hosts and URL can
 specify which DNS server should be used and if someone requests a
 resource with this URL, the name server is contacted to which IP
 address the domain belongs.
 
-
 To check which entries for a certain domain name is returned, you can use the `digg` command on the command line. f
 
-
-<programlisting>
-<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-parse="text" href="./examples/dns/diff.txt[]
+[source, txt]
+----
+include::res/dns/diff.txt[]
 ----
 
 
