@@ -8,7 +8,7 @@ Version 1.3, 02.02.2017
 :vgwort: MySQL
 
 This tutorial explains how to install MySQL and how to create and query a database. 
-This tutorial is using Ubuntu.
+It includes important SQL statements which you need to use to create, update and read from database tables.
 
 include::../web/advertisement/afterTableOfContent.adoc[]                
 include::010_overview.adoc[]

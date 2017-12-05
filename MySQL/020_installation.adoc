@@ -11,6 +11,11 @@ sudo apt-get install mysql-server
 
 The installation procedure allow you to set the root password.
 
+.Resetting the database password under Ubuntu
+[TIP]
+====
+See https://help.ubuntu.com/community/MysqlPasswordReset[Ubuntu password reset] to learn how to set and reset your password under Ubuntu.
+====
 
 [[installation_windows]]
 === Windows
@@ -18,8 +23,4 @@ The installation procedure allow you to set the root password.
 Under Windows download the community edition from http://dev.mysql.com/downloads/. 
 For windows you have installer program available which guides you through the installation process.
 
-[[installation_password]]
-=== Resetting the password
-
-See https://help.ubuntu.com/community/MysqlPasswordReset[Ubuntu password reset] to learn how to set and reset your password under Ubuntu.
 

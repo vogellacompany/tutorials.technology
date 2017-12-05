@@ -1,8 +1,7 @@
 [[data]]
 == Data maintenance - Select, Insert, Delete, Update
 
-The following demonstrates how to insert, updates and deletes
-entries from a database. 
+The following demonstrates how to insert, updates and deletes entries from a database. 
 
 [[data_select]]
 === Select

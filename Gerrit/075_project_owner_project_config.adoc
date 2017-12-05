@@ -1,7 +1,13 @@
 [[editing_project_config_git]]
 == Project Owner: Editing the project config through Git
 
-It is possible to edit the project configuration file directly.
+Each Gerrit project is configured via a project configuration file.
+You can edit the project configuration via the webuser interface, under the menu:General[] tab.
+
+image::gerrit-project-configuration-file.png[Gerrit Project Configuration File editing via the web] 
+
+
+It is possible to edit this directly.
 The config files are store in the projects Git repository.
 They reside in the special branch `refs/meta/config`.
 To check them out issue the following commands on your terminal:

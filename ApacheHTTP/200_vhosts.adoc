@@ -29,5 +29,12 @@ sudo a2ensite vogella.conf
 sudo a2dissite www.vogella.com
 ----
 
+To check if your Apache configuratin is valid use:
+
+[source]
+----
+sudo apache2ctl configtest
+----
+
 After enabling sites you have to reload the Apache HTTP server configuration with the `sudo service apache2 reload` command.
 

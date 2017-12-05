@@ -1,10 +1,14 @@
 [[dbsetup]]
-== Database setup
+== Database management
 
 After installation of a database management system you need to
-create the database itself, create users and grant access to the
-database. Some database management system create defaults but it is
-good to know how to create them yourself. 
+create the database itself.
+Also you need to users and grant access to the database. 
+Some database management system create defaults but it is good to know how to create them yourself.
+
+
+=== Setting up the database
+
 
 [[dbsetup_schema]]
 === Database schema
@@ -18,6 +22,9 @@ database schemas.
 
 |show databases;
 |List all the databases on the SQL server
+
+| SELECT User FROM mysql.user;
+| show all users
 
 |create database my_database;
 |Creates a new database with the name my_database
@@ -39,8 +46,7 @@ database schemas.
 [[db_setup_user]]
 === User Maintenance
 
-The following demonstrate how to create a user and how to grant
-access rights to a user.
+The following demonstrate how to create a user and how to grant access rights to a user.
 
 .User maintenance
 |===
@@ -49,10 +55,10 @@ access rights to a user.
 |CREATE USER my_user IDENTIFIED BY 'my_password';
 |Creates a user my_user on the database with the password my_password;
 
-|grant usage on *.* to my_user@localhost identified by 'my_password';
+|GRANT USAGE on *.* TO my_user IDENTIFIED BY 'my_password'
 |Allows the user my_user to connect to the database.
 
-|grant all privileges on my_database.* to my_user@localhost;
+|GRANT ALL PRIVILEGES on my_database.* TO my_user@localhost;
 |Allows the user my_user from the localhost full access to my_database
 
 |===

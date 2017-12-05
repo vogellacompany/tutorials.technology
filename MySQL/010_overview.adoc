@@ -1,7 +1,11 @@
-== Overview
+== Using the MySQL database
 	
 _MySQL_ is a popular relational open source database.
 Applications can use this database to persist data.
 	
 This tutorial covers the installation of MySQL and the usage of the database.
+	
+
+To work in `MySQL` databases you use `SQL`.
+SQL is a query language for relational databases.
 	
