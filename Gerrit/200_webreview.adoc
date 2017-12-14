@@ -95,7 +95,7 @@ For this, right-click on the project menu:Team[Remote > Fetch from Gerrit].
 When working with many projects, it is often easier to right-click on the repository instead and access btn:[Fetch from Gerrit] from there.
 You can paste the change's number (shown in the change's URL) and use kbd:[Ctrl+Space] to expand the change number to the list of patch sets.
 Select the one you want to download and fetch it into a new local branch.
-Afterwards you can to test the changes in isolation.
+Afterwards you can test the changes in isolation.
 
 image::webreviewpull20.png[Pulling in the change]
 
