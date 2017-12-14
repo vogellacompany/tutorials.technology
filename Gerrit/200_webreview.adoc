@@ -25,66 +25,32 @@ Click on _Reply_ button to give feedback on the change.
 
 image::webreview12.png[Web review]
 
-You can give a summary of your feedback and return a review
-number between -2 and +2 (if you are a committer) or
-between
--1 and
-+1 (if you are not a committer). If you vote -1 or
--2, you respectively indicate that the patch still
-requires
-rework
-or that you
-disagree with the suggested change. See
-<<gerrit_voting>>
-for details of the default voting rules.
+You can give a summary of your feedback and return a review number between -2 and +2 (if you are a committer) or between -1 and +1 (if you are not a committer). If you vote -1 or -2, you respectively indicate that the patch still requires rework or that you disagree with the suggested change. 
+See <<gerrit_voting>> for details of the default voting rules.
 
 image::webreview30.png[Web review]
 
 [[webreview_adjustingthechange]]
 === Improve a change based on review feedback
 
-If the review process has resulted review comments explaining
-how to
-improve the proposed patch, the author of the
-patch (or someone
-else)
-can adjust the
-patch. The developer
-amends the
-commit in his local
-repository and
-pushes the
-improved commit
-to Gerrit. He can
-also
-adjust
-the
-commit
-message while amending the commit.
+If the review process has resulted review comments explaining how to improve the proposed patch, the author of the patch (or someone else) can adjust the patch. 
+The developer amends the commit in his local repository and pushes the improved commit to Gerrit. 
+He can also adjust the commit message while amending the commit.
 
-As the developer amends the commit, the same
-_Change-Id_
-is used and the
-Gerrit review system identifies the change as update
-of the existing change.
+As the developer amends the commit, the same _Change-Id_ is used and the Gerrit review system identifies the change as update of the existing change.
 
 The _Git Staging_ view allows amending the last commit by clicking the amend button shown in the screenshot.
 
 image::amendwithstagingview32.png[Amend flag in Git Staging view]
 
-TIP: Gerrit allows you to select which patch sets you want to compare in
-_Comparison_
-view. Typically you compare the base version with the latest patch
-set, but if e.g. you already reviewed patch set 3
-you may want to
-just see what the author changed between patchset 3 and patchset 5.
+TIP: Gerrit allows you to select which patch sets you want to compare in _Comparison_ view. Typically you compare the base version with the latest patch set, but if e.g. you already reviewed patch set 3 you may want to just see what the author changed between patchset 3 and patchset 5.
 
 image::patchsets10.png[Patch set comparison view]
 
 Once the change has reached the required quality, the reviewer can give a +2 evaluation of the change.
 
 Depending on the settings of the Gerrit repository, the Gerrit review might have to be rebased.
-If you conflict happens during this rebase operation, you can trigger this rebase directly from the web interface.
+If conflicts happen during this rebase operation, you can trigger this rebase directly from the web interface.
 If a change is rebased, it needs to be reviewed again.
 
 image::webreview40.png[Web review]
@@ -100,48 +66,31 @@ image::webreview50.png[Web review]
 [[webreview_keyboardshortcuts]]
 === Keyboard shortcuts in Gerrit
 
-Press the "?" key in the Gerrit web user interface to see the
-actions you
-can trigger via shortcuts. The available
-shortcuts depend
-on there you are in the user interface.
+Press the "?" key in the Gerrit web user interface to see the actions you can trigger via shortcuts. 
+The available shortcuts depend on there you are in the user interface.
 
 image::gerrit_shortcuts10.png[Gerrit shortcuts]
 
-The available shortcuts are different, depending on the page
-your are.
+The available shortcuts are different, depending on the page your are.
 
 [[webreview_getting]]
 === Fetching a remote change into a local Git repository
 
-It is possible to fetch the changes from the Gerrit review into
-another local Git
-repository. The Gerrit page
-lists the
-commands for
-downloading the change. This is depicted in the following screenshot.
+It is possible to fetch the changes from the Gerrit review into another local Git repository. 
+The Gerrit page lists the commands for downloading the change. 
+This is depicted in the following screenshot.
 
 image::webreviewpull10.png[Pulling in the change]
 
-After fetching a change, the developer can adjust the change and
-amend the commit.
-If he pushes it to Gerrit, the
-change is updated.
-Such a
-procedure
-should be coordinated by the author of the original
-change
-to avoid
-that two developers
-do the same work.
+After fetching a change, the developer can adjust the change and amend the commit.
+If he pushes it to Gerrit, the change is updated.
+Such a procedure should be coordinated by the author of the original change to avoid that two developers do the same work.
 
 [[webreview_gettingeclpise]]
 === Fetching a remote change with Eclipse Git
 
 TIP: The Git tooling in Eclipse allows you to fetch a change from Gerrit.
-For this, right-click on
-the project
-menu:Team[Remote > Fetch from Gerrit].
+For this, right-click on the project menu:Team[Remote > Fetch from Gerrit].
 
 When working with many projects, it is often easier to right-click on the repository instead and access btn:[Fetch from Gerrit] from there.
 You can paste the change's number (shown in the change's URL) and use kbd:[Ctrl+Space] to expand the change number to the list of patch sets.
