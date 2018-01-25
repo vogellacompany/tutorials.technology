@@ -1,0 +1,13 @@
+== Migration of a wordpress blog
+
+Fpt client must be installed see http://www.vogella.com/tutorials/Ubuntu/article.html#installing-a-ftp-server
+
+=== Exporting
+
+Use `-u username` to specify your user and to export your database.
+
+[source,terminal]
+----
+mysqldump vogella_blog > vogella_blog.sql -u myblog -p
+----
+

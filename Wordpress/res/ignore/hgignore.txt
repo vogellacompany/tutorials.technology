@@ -1,0 +1,5 @@
+
+# switch to regexp syntax.
+syntax: regexp
+^\.metadata
+^de.vogella.mercurial.firstproject/bin$

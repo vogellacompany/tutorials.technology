@@ -9,8 +9,8 @@ Version 0.1, 12.05.2016
 :vgwort: Virtualization
 
 [abstract]
-Virtualization using gnome-boxes.
-This tutorial contains notes about the usage of gnome-boxes.
+This tutorial contains notes about the usage of virtualization under Ubuntu.
+It contains notes for gnome-boxes and VirtualBox.
 
 include::../web/advertisement/afterTableOfContent.adoc[]				
 include::010_overview.adoc[]

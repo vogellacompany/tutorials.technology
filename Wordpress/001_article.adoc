@@ -1,0 +1,18 @@
+=  Wordpress Migration- Tutorial
+:linkcss:
+:experimental:
+:icons:
+:imagesdir: ./img
+Lars Vogel, (c) 2017 vogella GmbH
+Version 1.2, 06.10.2016
+:docinfodir: ../
+:vgwort: Wordpress
+
+[abstract]
+Wordpress migration tutorial.
+This article describes the migration of an word press installation to another server.
+	
+include::001_overview.adoc[]
+include::008_resourceslocal.adoc[]
+include::../copyright.adoc[]	
+

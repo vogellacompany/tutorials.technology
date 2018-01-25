@@ -5,4 +5,6 @@ http://www.mysql.com[MySQL homepage]
 http://dev.mysql.com/downloads/[Download link for MySQL]
 	
 http://forums.mysql.com[MySQL forum]
+
+https://downloads.mariadb.org/mariadb/repositories/#mirror=exascale&distro=Ubuntu&distro_release=artful--ubuntu_artful&version=10.0[Maria DB installation on Ubuntu]
 	

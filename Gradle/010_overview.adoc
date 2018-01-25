@@ -117,3 +117,4 @@ For example the entry `apply plugin: 'com.android.application'` makes the Androi
 	
 Gradle provides also a registry for plug-ins via http://plugins.gradle.org[Gradle Plugin search].
 
+

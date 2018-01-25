@@ -2,7 +2,7 @@
 :linkcss:
 :experimental:
 Lars Vogel (c) 2008 - 2017 vogella GmbH
-Version 1.3, 02.02.2017
+Version 1.4, 07.11.2017
 :imagesdir: ./img
 :docinfodir: ../
 :vgwort: MySQL
@@ -12,10 +12,8 @@ It includes important SQL statements which you need to use to create, update and
 
 include::../web/advertisement/afterTableOfContent.adoc[]                
 include::010_overview.adoc[]
-include::020_installation.adoc[]
 include::../web/advertisement/inBetween01.adoc[]
 include::040_mysql.adoc[]
-include::080_sql.adoc[]
 include::100_importexport.adoc[]
 include::../support.adoc[]
 include::008_resourceslocal.adoc[]

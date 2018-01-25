@@ -161,6 +161,8 @@ Afterwards you need to enable the new configuration with the following command.
 sudo update-exim4.conf
 ----
 
+The log files are located in `/var/log/exim4`.
+
 === HTTP debugging with curl
 
 curl is a command line tool to issue and receive http (and other) request. 

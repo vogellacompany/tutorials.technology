@@ -1,3 +1,8 @@
+== Virtualization with VirtualBox
+
+You can configure a virtual machine.
+
+
 == Virtualization with Gnome boxes
 
 Gnome-boxes provide a virtualization layer for other OS for Linux. You can install it under Ubuntu via the following command:

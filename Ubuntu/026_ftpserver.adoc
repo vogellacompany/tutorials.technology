@@ -4,6 +4,6 @@ To install an easy to use and configure ftp server use the following command.
 	
 [source,console]
 ----
-include::res/ftpserver/install.txt[]
+sudo apt-get install vsftpd
 ----
 

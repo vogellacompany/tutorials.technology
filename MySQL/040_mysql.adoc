@@ -34,3 +34,28 @@ The default port of the database server is 3306.
 For example, the Java JDBC connection string to connect to the iotcloud database would be
 jdbc:mysql://localhost:3306/iotcloud. 
 
+== See databases and tables
+
+To see all databases and to connect to the `vogella_blog` database.
+
+[source,sql]
+----
+show databases;
+connect vogella_blog;
+----
+
+List all tables in the currently used database;
+
+[source,sql]
+----
+show tables;
+----
+
+For example, to show the content of a `wp_users` of table use the following command.
+
+[source,sql]
+----
+SELECT wp_users.* FROM wp_users ;
+----
+
+

@@ -1,11 +1,35 @@
-== Using the MySQL database
+== What is MySQL
 	
-_MySQL_ is a popular relational open source database.
+_MySQL_ is a open source relational  database.
 Applications can use this database to persist data.
 	
 This tutorial covers the installation of MySQL and the usage of the database.
-	
 
 To work in `MySQL` databases you use `SQL`.
 SQL is a query language for relational databases.
 	
+== Installation of MySQL
+
+=== Ubuntu
+
+Under Ubuntu you can install MySQL with the following command:
+
+[source,text]
+----
+sudo apt-get install mysql-server
+----
+
+The installation procedure allow you to set the root password.
+
+
+[[installation_windows]]
+=== Windows
+
+Under Windows download the community edition from http://dev.mysql.com/downloads/. 
+For windows you have installer program available which guides you through the installation process.
+
+[[installation_password]]
+=== Resetting the password
+
+See https://help.ubuntu.com/community/MysqlPasswordReset[Ubuntu password reset] to learn how to set and reset your password under Ubuntu.
+

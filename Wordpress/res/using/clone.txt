@@ -1,0 +1,3 @@
+
+
+hg clone https://yourproject.googlecode.com/hg/ name_of_directory_for_the_clone
