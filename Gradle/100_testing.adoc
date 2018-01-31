@@ -43,5 +43,16 @@ Skip excluded tests:
 include::res/test/exclude.gradle[]
 ----
 
+=== Show all test output in the terminal
+
+By default Gradle doesn't print the standard output of your tests to the terminal.
+To see all output of your tests add this to your build file:
+
+[source, groovy]
+----
+test {
+    testLogging.showStandardStreams = true
+}
+----
 
 
