@@ -56,4 +56,5 @@ include 'XSLT'
 include 'RequirementsEngineering'
 include 'TravisCi'
 include 'Codecov'
+include 'Ansible'
 

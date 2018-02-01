@@ -1,0 +1,74 @@
+== Playbooks
+
+`Playbooks` are Ansible configuration files that specify which tasks should be performed and in what order.
+It is possible to switch host groups between tasks and to either execute tasks synchronously as well as asynchronously.
+By default tasks are executed synchronously and sequentially in the order they are defined in the Playbook.
+
+Playbooks are written in YAML format.
+To do a syntax check on a Playbook without executing it start it with the `--syntax-check` parameter:
+
+[source, terminal]
+----
+ansible-playbook my_playbook.yml --syntax-check
+----
+
+Ansible comes with a sizable number of https://docs.ansible.com/ansible/latest/list_of_all_modules.html[modules] that we can use in our playbooks to do common tasks.
+
+Here is an example playbook with three tasks:
+
+[source, yaml]
+----
+- hosts: test <1>
+  tasks:
+    - name: Ensure sudo group exists
+      group: <2>
+        name: sudo <3>
+        state: present <4>
+    - name: Ensure test user exists
+      user: <5>
+        name: test
+        state: present
+    - name: Add test user to sudo group
+      user: <6>
+        name: test
+        groups: sudo
+        append: yes
+      
+----
+
+<1> we define the host group on which this playbook is executed
+<2> we use the Ansible group module to add a new user group
+<3> each module defines a specific set of variables by which it can be configured, here we specify the name of the group
+<4> check if user exists and create him if he is missing
+<5> we use the user module to create a new user
+<6> we add our new test user to the sudo group
+
+
+It is possible to have multiple task blocks with different settings in one playbook.
+The next example works on multiple hosts:
+
+[source, yaml]
+----
+- hosts: dbserver
+  tasks:
+    - name: fetch backup
+      fetch:
+        src: /backup/
+        dest: /tmp/fetched
+- hosts: storageserver
+  tasks:
+    - name: upload backup
+----
+
+=== Dry run
+
+Many Ansible modules support a dry run to check if the playbook would succeed without persisting any actual changes.
+To trigger a dry run execute with the `--check` parameter.
+To see the changes that would be made add `--diff`.
+This parameter can also be used in a regular run.
+
+[source, terminal]
+----
+ansible-playbook my_playbook.yml --check --diff
+----
+

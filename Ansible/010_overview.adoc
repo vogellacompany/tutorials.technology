@@ -1,0 +1,9 @@
+== Ansible
+
+`Ansible` is an open source tool for automated software provisioning and application deployment.
+It is developed by Ansible Inc., owned by Red Hat Inc., with help from the community.
+Ansible works by connecting to remote or local machines via SSH and executing predefined tasks.
+In comparison to other deployment automation tools Ansible is deemed simpler while still being very powerful.
+Ansible doesn't use a server/client architecture by default.
+You can execute Ansible from your local machine while the remote machines don't need an Ansible installation.
+

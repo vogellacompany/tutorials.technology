@@ -1,0 +1,42 @@
+== Installing Ansible
+
+Ansible is included as part of Fedora and is available for all major Linux distributions.
+You can install it with your package manager.
+Under Ubuntu you can enter this:
+
+[source, terminal]
+----
+sudo apt install ansible
+----
+
+Often the Ansible version available through the systems package manager is outdated.
+To run the latest Ansible version you can install it through the Python package manager https://pip.pypa.io/en/stable/installing/[pip].
+At the time of this writing Ansible only fully supports Python 2.x.
+
+[source, terminal]
+----
+pip install ansible
+----
+
+[NOTE]
+====
+If you decide to install Ansible through `pip` make sure to delete your system Ansible installation.
+Otherwise you might run into some problems.
+====
+
+=== Global host file
+
+Ansible needs to know to which machines you want it to connect.
+You can define host groups in the global configuration file `/etc/ansible/hosts`.
+
+The following configuration would define a group named `test` with two hosts from a local network:
+
+----
+[test]
+192.168.56.101
+192.168.56.123
+----
+
+Besides the global host file you can create any number of host files and reference them on the command line with `-i /path`.
+This has the advantage that you can easily place these files under version control and share them with your others.
+

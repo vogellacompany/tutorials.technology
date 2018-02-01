@@ -1,0 +1,39 @@
+== Ad-hoc commands
+
+The easiest way to get started with Ansible is by executing ad-hoc commands.
+While you usually want to save Ansible tasks into Playbooks to make them reusable you can also issue one off commands.
+
+Create a directory for your ansible files and save this into a file called `hosts`:
+
+----
+[test]
+your.host
+----
+
+If you changed the SSH port on a host you can specify it like this:
+
+----
+[test]
+your.host:22222
+----
+
+This host might be a web server you can use for testing or a VM or container you set up for this purpose.
+If you don't have any remote machine for testing you can also connect and execute your commands on localhost.
+
+[source, terminal]
+----
+# ansible -i <host file> <group> -m <module> -a <module arguments>
+ansible -i hosts test_group -m shell -a "uptime"
+
+# output should look something like this:
+your.host | SUCCESS | rc=0 >>
+ 21:56:49 up  3:04,  2 users,  load average: 0.00, 0.00, 0.00
+ 
+# using localhost:
+ansible localhost -m shell -a "uptime"
+----
+
+If the user you want to use on the remote machines is different than your current local user you can specify this by passing in `--become-user <username>`.
+To gain sudo rights for your command add `--become`.
+If the remote user needs a password for sudo additionally add `--ask-become-password`.
+

@@ -1,0 +1,8 @@
+== Ansible resources
+
+https://docs.ansible.com/ansible/latest/intro_getting_started.html[Getting started | Ansible docs]
+
+https://docs.ansible.com/ansible/latest/playbooks_best_practices.html[Best practices | Ansible docs]
+
+https://github.com/ansible/ansible-examples[Ansible example repository]
+
