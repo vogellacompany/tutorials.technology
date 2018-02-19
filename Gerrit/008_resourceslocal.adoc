@@ -2,6 +2,8 @@
 == Gerrit related links
     
 https://www.gerritcodereview.com/[Gerrit Code Review homepage]
+
+https://blogs.sap.com/2013/06/03/install-gerrit-in-tomcat-under-windows/[Running Gerrit under Tomcat]
     
 https://gerrit-review.googlesource.com/Documentation/intro-quick.html[Gerrit Code Review - A Quick Introduction]
 

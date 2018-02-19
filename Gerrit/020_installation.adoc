@@ -8,14 +8,13 @@ Also the Git command line tooling must be installed.
 === Download Gerrit
 
 (((Gerrit,Installation)))
-Download the latest Gerrit release from
-http://gerrit-releases.storage.googleapis.com/index.html[Gerrit download page].
+Download the latest Gerrit release from the http://gerrit-releases.storage.googleapis.com/index.html[Gerrit download page].
 
 The download is a `.war` file.
 This war file can run in a servlet container, for example, a Jetty or Tomcat installation.
 The `.war` file contains a Jetty web server and can be started directly for testing or rapid deployment. 
 
-The following description starts the Gerrit server directly.
+The following description uses the approach to start the Gerrit server directly via the command line.
 
 [[gerrit_installation_setup]]
 === Setup of Gerrit
@@ -97,3 +96,5 @@ If something goes wrong, look into the `logs` folder.
 ====
 The local Gerrit configuration is stored in the `./review_site/etc/` folder.
 ====
+
+
