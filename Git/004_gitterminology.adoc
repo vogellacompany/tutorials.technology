@@ -46,7 +46,7 @@ The user can change the files in the _working tree_ by modifying existing files 
 (((Stagedfile)))
 A file in the working tree of a Git repository can have different states. These states are the following:
 
-* untracked: the file is not tracked by the Git repository. This means that the file never staged nor committed.
+* untracked: the file is not tracked by the Git repository. This means that the file is never staged nor committed.
 * tracked: committed and not staged
 * staged: staged to be included in the next commit
 * dirty / modified: the file has changed but the change is not staged
@@ -95,7 +95,7 @@ See <<commit_object>> for information about the commit object.
 (((Remote repositories)))
 Git allows the user to synchronize the local repository with other (remote) repositories.
 
-Users with sufficient authorization can send new version in their local repository to to remote repositories via the _push_ operation.
+Users with sufficient authorization can send a new version in their local repository to remote repositories via the _push_ operation.
 They can also integrate changes from other repositories into their local repository via the _fetch_ and _pull_ operation.
 
 [[gitdefinition_branching]]
