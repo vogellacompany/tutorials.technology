@@ -1,6 +1,21 @@
 [[retrievefiles]]
 == Retrieving files from the history
 
+=== Create a zip file with the changes files
+
+You can use Git to retrieve the file which were changed.
+You can use other command line tools to copy or zip these files.
+
+The command `git ls-files --modified` shows the files which are not yet committed.
+`git diff --name-only HEAD^` shows the files changed in the last commit.
+
+For example, the following command zips all changed files which are not yet committed.
+
+[code,terminal]
+====
+zip modified-files.zip $(git ls-files --modified)
+====
+
 [[retrievefiles_show]]
 === View file in different revision
 (((git show)))

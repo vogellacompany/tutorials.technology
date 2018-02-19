@@ -31,7 +31,7 @@ A developer can copy (checkout) a certain version from the central sever onto th
 
 Both approaches have the drawback that they have one single point of failure.
 In a localized version control systems it is the individual computer and in a centralized version control systems it is the server machine. 
-Both system makes it also harder to work in parallel on different features.
+Both systems make it also harder to work in parallel on different features.
 
 [[dvcs_definition]]
 == Distributed version control systems
