@@ -1,6 +1,8 @@
 == Virtualization with VirtualBox
 
-You can configure a virtual machine.
+To run another operating system under your OS, you can use https://www.virtualbox.org/[VirtualBox].
+This allows you for example to run an Ubuntu system under Windows or  vice versa.
+
 
 
 == Virtualization with Gnome boxes
