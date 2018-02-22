@@ -12,8 +12,7 @@ Lars Vogel (c) 2009, 2016 vogella GmbH
 
 
 [abstract]
-This tutorial contains some notes about using Docker as container for running virtual environments. The examples
-were done on Ubuntu, hence they are prefixed with the `sudo` command.
+This tutorial contains some notes about using Docker as container for running virtual environments. 
 
 include::../web/advertisement/afterTableOfContent.adoc[]				
 include::010_overview.adoc[]

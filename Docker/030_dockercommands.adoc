@@ -8,7 +8,8 @@ docker images
 
 === List all available containers
 
-Via the -a flag you list all contains, without you list the running containers.
+Via the -a flag you list all contains.
+Without `-a` you only list the running containers.
 
 ----
 docker ps -a

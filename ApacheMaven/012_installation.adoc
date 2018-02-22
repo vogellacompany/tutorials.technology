@@ -4,7 +4,7 @@
 [[maven_requirements]]
 === Downloading and installing Maven
 
-[INFO]
+[NOTE]
 ====
 If you plan to use Maven only from within the Eclipse IDE, this installation is not required.
 ====
