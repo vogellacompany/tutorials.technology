@@ -25,10 +25,12 @@ Create a new branch:
 git checkout -b feature/*** name of the feature ***
 ----
 
-Make changes on the branch and push them.
+Make changes on the branch and then add, commit and push them.
 
 [source, console]
 ----
+git add .
+git commit -m "Made changes to my feature/*** name of the feature *** branch" 
 git push origin feature/*** name of the feature ***
 ----
 
