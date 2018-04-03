@@ -38,13 +38,17 @@ After the changes have been pushed a pull request can be triggered on the websit
 
 image::create-pull-request.png[]
 
+After pressing the btn:[Compare & pull request] button the pull request can be described and then be proposed.
+
+image::compare-and-pull-request.png[]
+
 Then wait until your pull request is merged or react on the comments of the maintainer of the upstream repository.
 
 When your pull request has been merged you should sync with the upstream master again in order to make new feature branches from the current master and create new pull requests.
 
 == Sync forks master with original master
 
-After your pull request has been merged you'd usually want to sync the fork with the current upstream master again. 
+After your pull request has been merged you'd usually want to sync the fork's master branch with the current upstream master branch again. 
 
 === Add remote pointing to the original repository
 
