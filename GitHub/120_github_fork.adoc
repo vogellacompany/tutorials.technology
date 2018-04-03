@@ -1,0 +1,109 @@
+== Contributing to other projects by using forks
+
+=== Creating a fork on GitHub
+
+Create a fork by navigating to a desired git repository and press the btn:[Fork] button.
+
+image::create_fork.png[]
+
+Then press on your user or other repository, which belongs to you.
+
+image::create_fork_user.png[]
+
+This will result in having a copy of the original repository, which can be modified.
+
+image::created_fork_result.png[]
+
+You can now work on the master repository, but in case you want to contribute back to the upstream repository a feature branch should be created. 
+
+=== Creating a new feature branch and a pull request
+
+Create a new branch:
+
+[source, console]
+----
+git checkout -b feature/*** name of the feature ***
+----
+
+Make changes on the branch and push them.
+
+[source, console]
+----
+git push origin feature/*** name of the feature ***
+----
+
+After the changes have been pushed a pull request can be triggered on the website.
+
+image::create-pull-request.png[]
+
+Then wait until your pull request is merged or react on the comments of the maintainer of the upstream repository.
+
+When your pull request has been merged you should sync with the upstream master again in order to make new feature branches from the current master and create new pull requests.
+
+== Sync forks master with original master
+
+After your pull request has been merged you'd usually want to sync the fork with the current upstream master again. 
+
+=== Add remote pointing to the original repository
+
+In order to sync with the original master of the forked repository a remote should be added.
+
+The following command shows the existing remotes:
+
+[source, console]
+----
+git remote -v
+----
+
+Add orignal remote repository and call it upstream.
+
+[source, console]
+----
+git remote add upstream https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git
+
+e.g.
+
+git remote add upstream	git@github.com:stempler/bnd-platform.git
+----
+
+When this was successful another `git remote -v` invocation will result in:
+
+image::remotes.png[]
+
+With the upstream being configured the origin master can be synced again.
+
+=== Sync fork with the upstream master
+
+Get latest changes from the upstream master.
+
+[source, console]
+----
+git fetch upstream
+----
+
+Check out the origin master in case it is not already checked out.
+
+[source, console]
+----
+git checkout master
+----
+
+Merge the origin master with the upstream master.
+
+[source, console]
+----
+git merge upstream/master
+----
+
+Push the merged origin master to the github repository.
+
+[source, console]
+----
+git push origin master
+----
+
+This should result in the message that your master branch is even with the upstream master.
+
+image::even_with_upstream_master.png[]
+
+
