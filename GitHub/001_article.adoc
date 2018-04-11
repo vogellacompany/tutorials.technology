@@ -3,7 +3,7 @@
 :experimental:
 :icons:
 :imagesdir: ./img
-Lars Vogel, (c) 2009, 2016 vogella GmbH
+Lars Vogel, Simon Scholz (c) 2009, 2018 vogella GmbH
 Version 5.7, 06.07.2016
 :docinfodir: ../
 :vgwort: GitHub

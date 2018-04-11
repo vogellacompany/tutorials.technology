@@ -44,6 +44,15 @@ image::compare-and-pull-request.png[]
 
 Then wait until your pull request is merged or react on the comments of the maintainer of the upstream repository.
 
+[TIP]
+====
+Once the pull request has been merged you can savely delete it, because it is now part of the upstream master branch.
+
+GitHub provides a direct deletion feature when you navigate to the merged pull request: 
+
+image::delete-merged-branch.png[]
+====
+
 When your pull request has been merged you should sync with the upstream master again in order to make new feature branches from the current master and create new pull requests.
 
 == Sync forks master with original master
