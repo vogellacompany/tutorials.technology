@@ -1,0 +1,40 @@
+== Debugging Gradle Plug-ins
+
+=== Activate remote debugging
+
+The following properties have to be specified in the _gradle.properties_ file to enable remote debugging:
+
+[source, properties]
+----
+org.gradle.daemon=true
+org.gradle.jvmargs=-XX:+HeapDumpOnOutOfMemoryError -Xmx4g -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=5006
+----
+
+When running a Gradle build locally with these settings remote debugging can be accessed via localhost on port 5006.
+
+[TIP]
+====
+The _gradle.properties_ file is usually located in the gradleHomeDir (usually _/${user.home}/.gradle_)
+====
+
+=== Remote debugging in the Eclipse IDE
+
+You should import a certain Gradle plug-in into the Eclipse IDE by using the Buildship tooling.
+
+Then break points can be added to the Gradle plug-in's source files.
+
+After that open the debug configuration and right click _Remote Java Application_ to create a _New_ _Debug Configuration_ with the follwing settings:
+
+image::remote-debug-config.png[]
+
+Press the btn:[Debug] to run the remote debugger.
+
+image::remote-debug-view.png[]
+
+Then a Gradle build, which uses the desired Gradle plug-in, can be run by either using the Gradle Tasks View of the Buildship tooling inside the Eclipse IDE or invoke a Gradle build from command line. 
+
+When a break point is hit during the Gradle task processing the Eclipse IDE will stop at that point.
+
+image::remote-debug-editor.png[]
+
+
