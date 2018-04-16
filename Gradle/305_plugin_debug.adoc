@@ -27,7 +27,7 @@ After that open the debug configuration and right click _Remote Java Application
 
 image::remote-debug-config.png[]
 
-Press the btn:[Debug] to run the remote debugger.
+Press the kbd:[Debug] button to run the remote debugger.
 
 image::remote-debug-view.png[]
 

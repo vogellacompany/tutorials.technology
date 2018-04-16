@@ -1,7 +1,9 @@
 = The Gradle build system- Tutorial
-:linkcss:
 Lars Vogel, Simon Scholz (c) 2014 - 2018 vogella GmbH
 Version 2.2, 03.09.2016
+:linkcss:
+:experimental:
+:icons:
 :keywords: Gradle, Groovy
 :contentidentifier: description
 :imagesdir: ./img
