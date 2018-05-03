@@ -4,8 +4,8 @@ Once a user with the _MANAGER_ role has been created and is signed in, a new Cha
 
 image::channel-new.png[] 
 
-<1> Click on the Channel Section
-<2> Then press the btn:[Create Channel] button
+1.) Click on the Channel Section
+2.) Then press the btn:[Create Channel] button
 
 image::channel-create.png[] 
 

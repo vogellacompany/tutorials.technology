@@ -9,3 +9,5 @@ http://developerblog.redhat.com/2014/05/15/practical-introduction-to-docker-cont
 
 http://fabiorehm.com/blog/2014/09/11/running-gui-apps-with-docker/[Running GUI applications with Docker]
 
+https://mariadb.com/kb/en/library/installing-and-using-mariadb-via-docker/[Maria DB with Docker]
+

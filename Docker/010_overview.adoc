@@ -1,8 +1,10 @@
 == Introduction to docker
 
 Docker is a light weight container, allowing to run pre-configured system images on another operating system. 
-Compared to other virtualization technologies, Docker allows to run many containers per VM and uses less  memory/CPU resources. Docker does this,
-as does not require an hypervisor for each container. 
+Docker does not virtualize a whole system; a container only includes the packages that are not included in the underlying system.
+Docker requires a very small amount of resources, as does not require an hypervisor for each container. 
+
+Docker is an open source project, released under the Apache License, version 2.
 
 Docker allows to package the full stack in a container:
 
@@ -40,7 +42,7 @@ for example, you can add Java to the Ubuntu image and get another image based on
 
 The Docker hub provides lot of pre-configured images. You can modify existing images and save these modifications as new image. 
 
-== Containers
+=== Containers
 
 Container are the started components based on images. They contain the actual application and dependencies but share the same kernel.
 They can be started, stopped, paused, deleted. Containers are immutable and disposable.
@@ -49,11 +51,11 @@ They can be started, stopped, paused, deleted. Containers are immutable and disp
 
 Is used to manage the container. It runs natively on Linux and  inside a VM on Windows and Mac OS X. To start it use the `docker` command.
 
-== Docker Clients
+=== Docker clients
 
 Clients (CLI, IDE) run on host VM. They provide the tools to interact with container, i.e., to start them.
 
-=== Registries
+=== Docker registry
 
 Images are saved in a registry and have an ID with consists of a repository and a tag. 
 For example, _fedora:22_, is an image which contains the Fedora 22 OS from the fedora repository.
