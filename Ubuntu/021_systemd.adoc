@@ -1,0 +1,23 @@
+== systemd
+
+`systemd` is used as Ubuntus default init system.
+
+Services can be started and stopped with `systemctl`:
+
+[source, terminal]
+----
+# start service
+systemctl start <service-name>
+# stop service
+systemctl stop <service-name>
+# restart service
+systemctl restart <service-name>
+----
+
+`journalctl` is used to access the log files of a systemd service:
+
+[source, terminal]
+----
+journalctl -u <service-name>
+----
+
