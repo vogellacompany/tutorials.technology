@@ -1,5 +1,6 @@
 rootProject.name = 'com.vogella.tutorials.technology'
 
+include 'Flutter'
 include 'Groovy'
 include 'Gmail'
 include 'GitWorkflows'
