@@ -1,5 +1,5 @@
 [[firstgit]]
-== Exercise: Performing a local Git workflow
+== Exercise: Performing a local Git workflow via the command line
 
 In this exercise, you learn how to create and work with a local Git repository.
 

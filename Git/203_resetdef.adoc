@@ -17,10 +17,13 @@ were originally pointed to by the HEAD pointer and the commit pointed to
 by HEAD after the reset, are _reseted_, e.g., not directly visible
 anymore from the current HEAD and branch pointer.
 
-You can decide what happens to the relevant changes.
-Relevant changes can be in the working tree and changes which were included in the commits between the original commit and the commit now referred to by the HEAD pointer. 
-
-Depending on the specified parameters the `git reset` command performs the following:
+Via parameters you can decide what you happen to the changes in the
+working tree and changes which were included in the commits between the
+original commit and the commit now referred to by the HEAD pointer. As a
+reminder, the working tree contains the files and the staging area
+contains the changes which are marked to be included in the next commit.
+Depending on the specified parameters the `git reset` command performs
+the following:
 
 1.  If you specify the `--soft` parameter, the `git reset` command moves
 the HEAD pointer. Changes in the working tree will be left unchanged and

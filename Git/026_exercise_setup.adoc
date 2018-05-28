@@ -1,5 +1,5 @@
 [[exercise_gitsetup]]
-== Exercise - Setting up Git
+== Exercise - Setting up Git via the command line
 
 In this exercise you configure your user and email which is a required setup for Git. 
 You also configure Git to use _rebase_ during a pull operation which is also a common setting for Git.

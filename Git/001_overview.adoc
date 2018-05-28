@@ -1,5 +1,7 @@
+== Introduction into version control systems
+
 [[versioncontrolssystems]]
-== What is a version control system?
+=== What is a version control system?
 
 (((Version control system)))
 A version control system (VCS) allows you to track the history of a collection of files. 
@@ -21,7 +23,7 @@ Of course, version control systems are not limited to text files, they can also 
 For example, you may use a VCS to track the different versions of a png file.
 
 [[cvcs_definition]]
-== Localized and centralized version control systems
+=== Localized and centralized version control systems
 
 A localized version control system keeps local copies of the files. 
 This approach can be as simple as creating a manual copy of the relevant files.
@@ -31,10 +33,10 @@ A developer can copy (checkout) a certain version from the central sever onto th
 
 Both approaches have the drawback that they have one single point of failure.
 In a localized version control systems it is the individual computer and in a centralized version control systems it is the server machine. 
-Both systems make it also harder to work in parallel on different features.
+Both system makes it also harder to work in parallel on different features.
 
 [[dvcs_definition]]
-== Distributed version control systems
+=== Distributed version control systems
 
 (((Version control system, distributed version control system)))
 In a distributed version control system each user has a complete local copy of a repository on his individual computer. 
