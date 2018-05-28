@@ -1,12 +1,8 @@
 == Maven Wrapper
 
-Having reproducible builds on every machine is highly demanded, so that local builds as well as builds on a CI server are really the same. When building with Maven the same input should always result in the same output. To ensure this on different machines, every machine has to have the same version of Maven.
 
-This circumstance can be very difficult, if different projects require different versions of Maven.
-
-To resolve this a Maven Wrapper can be specified for Maven projects. The Maven Wrapper allows to run a Wrapper, which wraps a specified version of Maven for a projects build. When having a Maven Wrapper for a project there is no need to install a certain version of Maven on a machine. Only for the inital creation of the Maven Wrapper files a local Maven installation is necessary.
-
-This concept has been adopted from the Gradle build tool, which also provides a Gradle Wrapper.
+You can create a wrapper script which downloads automatically the correct version of Maven.
+This way users do not need to install Maven on their local machine.
 
 === Creating a Maven Wrapper
 
