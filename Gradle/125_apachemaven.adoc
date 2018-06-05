@@ -10,7 +10,7 @@ In this section the following _pom.xml_ maven configuration will be converted to
 	
 [source,xml]
 ----
-include::res/maven/pom.xml[]
+include::res/maven/gradle-convert-pom.xml[]
 ----
 	
 	

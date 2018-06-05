@@ -7,7 +7,7 @@ This aggregator can contain also the build configuration or include another pare
 
 [source,xml]
 ----
-include::res/multiple/pom.xml[]
+include::res/multiple/multi-pom.xml[]
 ----
 
 The packaging type of such a POM is pom, as such a project will not result in any build output.

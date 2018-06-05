@@ -42,7 +42,7 @@ In the root folder there is a _pom.xml_	file.
 
 [source,console]
 ----
-include::res/excercise_maven/pom.xml[]
+include::res/excercise_maven/maven-pom.xml[]
 ----	
 
 [[exercise_maven_compile]]
