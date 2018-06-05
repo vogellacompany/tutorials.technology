@@ -1,0 +1,125 @@
+[[java]]
+== Using Java and Saxon
+
+=== Adding Saxon dependency
+
+Saxon HE can be found here: https://mvnrepository.com/artifact/net.sf.saxon/Saxon-HE/9.8.0-12
+
+Using Apache Maven
+
+[source, xml]
+----
+<dependency>
+    <groupId>net.sf.saxon</groupId>
+    <artifactId>Saxon-HE</artifactId>
+    <version>9.8.0-12</version>
+</dependency
+----
+
+Using Gradle
+
+[source, groovy]
+----
+compile group: 'net.sf.saxon', name: 'Saxon-HE', version: '9.8.0-12'
+----
+
+=== XSL transformation with XML input
+
+Create a new Gradle or Maven project with the Saxon-HE and add the following _input.xml_ file to the project:
+
+[source, xml]
+----
+<?xml version="1.0" encoding="UTF-8"?>
+<vogellacompany>
+	<online-trainings>
+		<training name="Android Development" />
+		<training name="Eclipse IDE extensions" />
+		<training name="Rich Client Platform" />
+	</online-trainings>
+</vogellacompany>
+----
+
+And add the following _transformation.xsl_ file to the project:
+
+[source, xml]
+----
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="2.0"
+	xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:fn="http://www.w3.org/2005/xpath-functions">
+	<xsl:output method="html" />
+
+	<xsl:template match="/">
+		<html>
+			<body>
+				<h2>Vogella Trainings</h2>
+				<xsl:apply-templates />
+			</body>
+		</html>
+	</xsl:template>
+
+	<xsl:template match="online-trainings">
+		<ul>
+			<xsl:apply-templates />
+		</ul>
+	</xsl:template>
+
+	<xsl:template match="training">
+		<li>
+			<xsl:value-of select="@name" />
+		</li>
+	</xsl:template>
+</xsl:stylesheet>
+----
+
+Then create a `Main` class, which uses Saxon to transform the _input.xml_ file to a _result.html_ file.
+
+[source, java]
+----
+public static void main(String[] args) {
+	Processor proc = new Processor(false);
+	XsltCompiler comp = proc.newXsltCompiler();
+	
+	ClassLoader classLoader = XsltService.class.getClassLoader();
+	// load xsl file from java project
+	InputStream xsl = classLoader.getResourceAsStream("transformation.xsl");
+	// load xml file from java project
+	InputStream xmlInput = classLoader.getResourceAsStream("input.xml");
+	try {
+		XsltExecutable exp = comp.compile(new StreamSource(xsl));
+		
+		XdmNode source = proc.newDocumentBuilder().build(new StreamSource(xmlInput));
+		
+		String outputDir = System.getProperty("user.home");
+		// create a report.html file as result in the user home directory
+		Serializer out = proc.newSerializer(new File(outputDir, "result.html"));
+		out.setOutputProperty(Serializer.Property.METHOD, "html");
+		out.setOutputProperty(Serializer.Property.INDENT, "yes");
+		XsltTransformer trans = exp.load();
+		trans.setInitialContextNode(source);
+		trans.setDestination(out);
+		trans.transform();
+	} catch (SaxonApiException e) {
+		e.printStackTrace();
+	}
+}
+----
+
+The _result.html_ file in the user home directory will look like this:
+
+[source, html]
+----
+<html xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:fn="http://www.w3.org/2005/xpath-functions">
+   <body>
+      <h2>Vogella Trainings</h2>
+	     <ul>
+		       <li>Android Development</li>
+		       <li>Eclipse IDE extensions</li>
+		       <li>Rich Client Platform</li>
+	     </ul>
+   </body>
+</html>
+----
+
