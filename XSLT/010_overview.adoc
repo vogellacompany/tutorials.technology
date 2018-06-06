@@ -6,4 +6,32 @@ You typically run _XLST_ from the command line but there is also tooling availab
 	
 For an introduction to XML please see
 http://www.vogella.com/tutorials/JavaXML/article.html[Java and XML Tutorial].
+
+.Common instructions
+[cols="1,2",options="header"]
+|===
+|Xsl instruction |Description
+
+|`<xsl:output method="xml" />`
+|Specifies the output of the transformation, e.g., _xml_ or _html_
+
+|`<xsl:param name="xmlFiles" />`
+|Parameters can be passed to xsl transformation, e.g., by using Saxon
+
+|`<xsl:template match="/">`
+|Specifies a template, which will be automatically applied to the root element
+
+|`<xsl:template name="test">`
+|Specifies a template, which can be addressed by its name
+
+|`<xsl:copy-of select="/" />`
+|Used to copy the original content of a selected xml element
+
+|`<xsl:for-each select="/training">`
+|Can be used to loop over a collection of xml elements, e.g., all child _/training_ xml elements.
+
+|`<xsl:for-each select="$xmlFiles">`
+|Can be used to loop over a collection param, e.g., the param from above
+|===
+
 	

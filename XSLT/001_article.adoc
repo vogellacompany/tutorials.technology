@@ -9,8 +9,8 @@ Version 0.8, 06.10.2016
 :vgwort: XSLT
 
 [abstract]
-XSLT with Eclipse.
-This articles explains how to do a XSLT transformations on the command line or via the Eclipse XSL project.
+XSLT with Eclipse and Java.
+This articles explains how to do a XSLT transformations on the command line or via the Eclipse XSL project or Java with Saxon.
 
 include::../web/advertisement/afterTableOfContent.adoc[]
 include::010_overview.adoc[]
