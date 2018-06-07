@@ -1,6 +1,11 @@
 [[git_tooling]]
 == Git tooling
 
+ifdef::fullscript[]
+This description covers both the usage of the Git command line and the usage of the Git tooling within the Eclipse IDE.
+endif::fullscript[]
+
+
 [[git_tools_commmandline]]
 === The Git command line tools
 
@@ -48,10 +53,18 @@ git log HEAD --
 git log HEAD
 ---- 
 
-=== Graphical tools for Git
+=== Eclipse IDE
+
+The https://www.eclipse.org/downloads/[Eclipse IDE] provides excellent support for working with Git repositories.
+
+ifndef::fullscript[]
+See http://www.vogella.com/tutorials/EclipseGit/article.html[Using Git with the Eclipse IDE] for an introduction into the usage of Git with Eclipse.
+endif::fullscript[]
+
+
+=== Other graphical tools for Git
 
 You can also use graphical tools. 
-For example, the https://www.eclipse.org/downloads/[Eclipse IDE] provides excellent support for working with Git repositories.
 
-See http://git-scm.com/downloads/guis[GUI Clients] for an overview of the available tools
-
+See http://git-scm.com/downloads/guis[GUI Clients] for an overview of other available tools.
+Graphical tools like Visual Studio Code, Netbeans or IntelliJ provide also integrated Git Tooling but are not covered in this description.

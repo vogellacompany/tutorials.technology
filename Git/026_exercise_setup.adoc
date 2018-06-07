@@ -1,12 +1,15 @@
 [[exercise_gitsetup]]
-== Exercise - Setting up Git via the command line
+== Exercise: Setting up Git via the command line
 
-In this exercise you configure your user and email which is a required setup for Git. 
+After the installation of the Git tooling for the command line you need to configure Git.
+
+The minimum required information to use Git is the user name and the email which Git should use.
+
 You also configure Git to use _rebase_ during a pull operation which is also a common setting for Git.
 
 Configure your user and email for Git via the following command.
 
-[source,console]
+[source,git]
 ----
 # configure the user which will be used by Git
 # this should be not an acronym but your full name

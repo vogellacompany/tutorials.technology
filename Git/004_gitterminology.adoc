@@ -9,13 +9,13 @@ _Git_ is currently the most popular implementation of a distributed version cont
 Git originates from the Linux kernel development and was founded in 2005 by Linus Torvalds. 
 Nowadays it is used by many popular open source projects, e.g., the Android or the Eclipse developer teams, as well as many commercial organizations.
 
-The core of Git was originally written in the programming language _C, but Git has also been re-implemented in other languages, e.g., Java, Ruby and Python.
+The core of Git was originally written in the programming language _C_, but Git has also been re-implemented in other languages, e.g., Java, Ruby and Python.
 
 [[gitdefintion_localrepositories]]
 === Git repositories
 
 A Git repository contains the history of a collection of files starting from a certain directory.
-The process of copying an existing Git repository via the Git tooling is called _cloning.
+The process of copying an existing Git repository via the Git tooling is called _cloning_.
 After cloning a repository the user has the complete repository with its history on his local machine. 
 Of course, Git also supports the creation of new repositories.
 
@@ -24,10 +24,10 @@ If you want to delete a Git repository, you can simply delete the folder which c
 If you clone a Git repository, by default, Git assumes that you want to work in this repository as a user. 
 Git also supports the creation of repositories targeting the usage on a server.
 
-* bare repositories are supposed to be used on a server for sharing changes coming from different developers. 
+* _bare repositories_ are supposed to be used on a server for sharing changes coming from different developers. 
 Such repositories do not allow the user to modify locally files and to create new versions for the repository based on these modifications.
 
-* non-bare repositories target the user. 
+* _non-bare repositories_ target the user. 
 They allow you to create new changes through modification of files and to create new versions in the repository. 
 This is the default type which is created if you do not specify any parameter during the clone operation.
 
@@ -42,6 +42,7 @@ This collection of files is called the _working tree_.
 It corresponds to a checkout of one version of the repository with potential changes done by the user.
 
 The user can change the files in the _working tree_ by modifying existing files and by creating and removing files.
+
 (((File state in Git)))
 (((Untracked file)))
 (((Tracked file)))
@@ -59,8 +60,8 @@ After doing changes in the working tree, the user can add these changes to the G
 
 [[gitaddingprocess]]
 === Adding to a Git repository via staging and committing
-(((Adding files to the Git repository)))
 
+(((Adding files to the Git repository)))
 After modifying your _working tree_ you need to perform the following two steps to persist these changes in your local repository:
 
 * add the selected changes to the _staging area_ (also known as index) via the `git add` command
