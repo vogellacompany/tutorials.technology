@@ -1,4 +1,6 @@
-== Introduction to docker
+== Introduction to Docker
+
+=== What is Docker
 
 Docker is a light weight container, allowing to run pre-configured system images on another operating system. 
 Docker does not virtualize a whole system; a container only includes the packages that are not included in the underlying system.
@@ -15,16 +17,14 @@ Docker allows to package the full stack in a container:
 
 This makes the virtual machine portable  across environments. Developers can use the same setup as you can use in your production environment.
 
-== Use cases
 
-Docker allows to solve the following use cases
+Docker addresses the following use cases
 
 * You can to use a specific version of a operating system for testing
 * You want to run your software tests in an controlled environment
 * You want to configure a system and share the configuration
 
-
-== Docker components
+=== Docker components
 
 Docker consists of the following components:
 
