@@ -1,0 +1,20 @@
+== Usage of SonarQube
+
+=== Analyse a Maven project
+
+To analyse a Maven project use the following command:
+
+[code,shell]
+----
+mvn sonar:sonar   -Dsonar.host.url=http://localhost:9000   -Dsonar.login=yourkey
+----
+
+=== Create HTML reports
+
+Your can generate HTML reports in the preview analysis mode.
+
+[code,shell]
+----
+mvn sonar:sonar -Dsonar.analysis.mode=preview -Dsonar.issuesReport.html.enable=true
+----
+

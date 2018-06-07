@@ -1,0 +1,22 @@
+== Installation of SonarQube
+
+=== Using Docker
+
+Running SonarQube via Docker is as simple as the following command.
+
+[code,shell]
+----
+$ docker run -d --name sonarqube -p 9000:9000 -p 9092:9092 sonarqube
+----
+
+You can now login your local Sonar server on http://localhost:9000/ with the `admin` user and the `admin` password.
+
+Click on: Create your first project.
+
+This will allow you to create an access token which you batch job can use to update the project.
+
+
+
+See http://docs.sonarqube.org/display/SONAR/Setup+and+Upgrade for an full installation of SonarQube. 
+If you want to try out SonarQube, you can also use the official Docker image for SonarQube from  https://hub.docker.com/r/_/sonarqube/
+

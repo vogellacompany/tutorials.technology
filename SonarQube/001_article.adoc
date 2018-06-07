@@ -15,7 +15,11 @@ For the examples the Eclipse IDE is used.
 
 include::../web/advertisement/afterTableOfContent.adoc[]	
 include::010_overview.adoc[]
+include::018_using_sonarlint.adoc[]
 include::020_installation.adoc[]
+include::020_installation_qube.adoc[]
+include::100_usage_sonarcube.adoc[]
+
 include::../support.adoc[]
 include::008_resourceslocal.adoc[]
 include::../copyright.adoc[]
