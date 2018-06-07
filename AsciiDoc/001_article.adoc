@@ -1,8 +1,8 @@
 = Using AsciiDoc and Asciidoctor to write documentation - Tutorial
 :linkcss:
 :experimental:
-Lars Vogel, Jennifer Nerlich (c) 2015 vogella GmbH
-Version 0.2, 17.12.2015
+Lars Vogel, Jennifer Nerlich (c) 2015- 2018 vogella GmbH
+Version 1.0, 04.06.2018
 :keywords: AsciiDoc
 :imagesdir: ./img
 :docinfodir: ../
