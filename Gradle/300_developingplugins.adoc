@@ -4,12 +4,12 @@
 
 As a general rule, it is useful to have a build that is as much declarative as possible as this simplifies future maintenance. 
 Therefore it is advised to avoid complex code in your Gradle build file. 
-If you need customer logic you should place it, into a custom Gradle plugin.
+If you need custom logic you should place it into a custom Gradle plug-in.
 
 === Gradle DSL 
 
 Each Gradle plug-in comes with a DSL. 
-To see all properites of a Gradle object, you can use the following code snippet:
+To see all properties of a Gradle object, you can use the following code snippet:
 
 [source,code]
 ----
@@ -97,6 +97,7 @@ include::res/plugin/settings.gradle[]
 ----
 
 === Example: Deploy your custom Gradle plug-in to your local Maven repository
+
 Publish your Gradle plug-in to the Maven repo defined in your plugin/build.gradle file via the following command.
 We use the `clean` task to first delete the `/build` folder to remove old build artifacts.
 The `clean` task gets provided by the java plugin.
@@ -106,7 +107,8 @@ The `clean` task gets provided by the java plugin.
 include::res/plugin/publish.gradle[]
 ----
 
-=== Example: Using your new plugin
+=== Example: Using your new plug-in
+
 To use your new plug-in, define a dependency to it and a task extending the defined task.
 If you pushed your plug-in to your local Maven repository, Gradle should find it and make it available.
 
