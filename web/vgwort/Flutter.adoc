@@ -1,5 +1,4 @@
 ++++
-<!-- TODO Jennifer -->
-<img src="http://vg08.met.vgwort.de/na/" width="1" height="1" alt="" />
+<img src="http://vg03.met.vgwort.de/na/79b6cdd1b25745649244596ff6c47473" width="1" height="1" alt="">
 ++++
 
