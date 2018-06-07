@@ -12,7 +12,7 @@ image::asciidoc-review-eclipse.png[]
 
 One nice feature is that if you hold the CTRL (Command key on Mac), you can open files included with the `include::` directive.
 
-image::mylyn-hyperlinking10.png[]
+image::eclipse-hyperlinking10.png[]
 
 
 [NOTE]
