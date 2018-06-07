@@ -92,7 +92,7 @@ public static void main(String[] args) {
 		XdmNode source = proc.newDocumentBuilder().build(new StreamSource(xmlInput));
 		
 		String outputDir = System.getProperty("user.home");
-		// create a report.html file as result in the user home directory
+		// create a result.html file as result in the user home directory
 		Serializer out = proc.newSerializer(new File(outputDir, "result.html"));
 		out.setOutputProperty(Serializer.Property.METHOD, "html");
 		out.setOutputProperty(Serializer.Property.INDENT, "yes");
