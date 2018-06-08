@@ -7,6 +7,8 @@ Test images of MS can be found on the following site.
 
 https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/
 
+After downloading the file you can import it into Virtualbox via menu:File[Import|Open Appliance].
+
 
 == Virtualization with Gnome boxes
 
