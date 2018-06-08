@@ -1,5 +1,18 @@
 == .travis.yml Configuration
 
+Travis requires a _.travis.yml_ file to run.
+As a minimum this file must specify the programming language to be used.
+For Java, Travis supports Maven and Gradle as build system out of the box.
+
+A minimal _.travis.yml_ file for a Maven or Gradle project looks like the following:
+
+
+[source, yml]
+----
+language: java
+----
+
+
 _.travis.yml_ files can be valided here: http://lint.travis-ci.org/
 
 Supported programming languages can be found here: https://docs.travis-ci.com/user/languages/

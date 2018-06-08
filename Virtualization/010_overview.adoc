@@ -3,6 +3,9 @@
 To run another operating system under your OS, you can use https://www.virtualbox.org/[VirtualBox].
 This allows you for example to run an Ubuntu system under Windows or  vice versa.
 
+Test images of MS can be found on the following site.
+
+https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/
 
 
 == Virtualization with Gnome boxes
