@@ -55,14 +55,15 @@ In the _/src/main/java_ folder create the following two classes.
 
 [source,java]
 ----
+include::res/plugin/MyTask.java[]
+----
+
+[source,java]
+----
 include::res/plugin/MyPlugin.java[]
 ----
 
 
-[source,java]
-----
-include::res/plugin/MyTask.java[]
-----
 
 === Exercise - Deploy your custom Gradle plug-in to your local Maven repository
 
