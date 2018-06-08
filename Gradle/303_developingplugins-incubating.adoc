@@ -130,6 +130,17 @@ Now the new task from the com.vogella.gradleplugin should be available:
 
 To publish a Gradle plug-in in the Gradle Plug-in Portal the _com.gradle.plugin-publish_ Gradle plug-in can be used.
 
+Before uploading Gradle plug-ins to the portal you must register at https://plugins.gradle.org/user/register?_ga=2.226431962.1136046408.1528381640-161768163.1525180183 and obtain the api keys from your profile.
+
+The _gradle.publish.key_ and _gradle.publish.secret_ properties have to be added to the _gradle.properties_.
+
+[TIP]
+====
+The _gradle.properties_ file is usually located in the gradleHomeDir (usually _/${user.home}/.gradle_)
+====
+
+Then the _build.gradle_ file needs to be adjusted to be able to upload Gradle plug-ins.
+
 [source, groovy]
 ----
 plugins {
@@ -137,6 +148,8 @@ plugins {
     id 'maven-publish'
     id 'com.gradle.plugin-publish' version '0.9.10' 
 }
+
+// more code ...
 
 pluginBundle {
     website = '${Web site for your plugin}'
@@ -153,6 +166,13 @@ pluginBundle {
         }
     }
 }
+----
+
+The following task can then be used to upload the Gradle plug-in.
+
+[source, console]
+----
+./gradlew publishPlugins
 ----
 
 [NOTE]
