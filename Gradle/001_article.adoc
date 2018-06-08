@@ -1,6 +1,6 @@
 = The Gradle build system- Tutorial
 Lars Vogel, Simon Scholz (c) 2014 - 2018 vogella GmbH
-Version 2.2, 03.09.2016
+Version 2.3, 07.06.2018
 :linkcss:
 :experimental:
 :icons:
@@ -36,6 +36,7 @@ include::110_deployment.adoc[]
 include::120_apacheant.adoc[]
 include::125_apachemaven.adoc[]
 include::300_developingplugins.adoc[]
+include::303_developingplugins-incubating.adoc[]
 include::305_plugin_debug.adoc[]
 include::350_code_analysis.adoc[]
 include::../support.adoc[]

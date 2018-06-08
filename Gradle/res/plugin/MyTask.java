@@ -1,4 +1,4 @@
-package com.vogella.gradle.exampleplugin;
+package com.vogella.gradleplugin;
 
 import org.gradle.api.DefaultTask;
 import org.gradle.api.tasks.TaskAction;

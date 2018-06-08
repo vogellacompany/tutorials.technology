@@ -1,0 +1,162 @@
+== Exercise - Creating a simple Gradle plugin
+
+With the 'java-gradle-plugin' incubating Gradle plug-in it becomes fairly easy to create custom plug-ins with a lot of support for the developer.
+
+* gradleApi() dependency is automatically added
+* gradleTestKit() dependency is automatically added
+* Generates necessary plug-in descriptor files automatically
+
+=== Create a Gradle project
+
+Make use of Eclipse Buildship to create a new _com.vogella.gradleplugin_ Gradle project:
+
+image::gradle-plugin-new-wizard.png[] 
+
+Stick to the defaults of the wizard and create the project.
+
+=== Apply the 'java-gradle-plugin' plug-in
+
+Change the build.gradle file to the following:
+
+[source, groovy]
+----
+plugins {
+    id 'java-gradle-plugin'
+}
+
+gradlePlugin {
+    plugins {
+        vogellaPlugin {
+            id = 'com.vogella.gradleplugin'
+            implementationClass = 'com.vogella.gradleplugin.MyPlugin'
+        }
+    }
+}
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+	// No need to add gradleApi() here, because it is applied by the 'java-gradle-plugin' plug-in
+
+	// We want to merge and parse SpotBugs xml files with XSLT
+	compile('net.sf.saxon:Saxon-HE:9.8.0-12')
+    // Use JUnit test framework
+    testImplementation 'junit:junit:4.12'
+}
+
+task wrapper(type: Wrapper) {
+	gradleVersion = '4.8'
+}
+----
+
+In the _/src/main/java_ folder create the following two classes.
+
+[source,java]
+----
+include::res/plugin/MyPlugin.java[]
+----
+
+
+[source,java]
+----
+include::res/plugin/MyTask.java[]
+----
+
+=== Exercise - Deploy your custom Gradle plug-in to your local Maven repository
+
+Add the _maven-publish_ Gradle plug-in and the _publishing_ closure to the build.gradle file.
+
+[source, groovy]
+----
+plugins {
+    id 'java-gradle-plugin'
+    id 'maven-publish'
+}
+
+group = 'com.vogella'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = 1.8
+
+// ... more code
+
+publishing {
+    publications {
+        mavenJava(MavenPublication) {
+            from components.java
+        }
+    }
+}
+----
+
+Now additional publishing tasks are available and the _publishToMavenLocal_ task can be used to add the Gradle plug-in to the local Maven repository.
+
+[source, console]
+----
+./gradlew pTML
+----
+
+=== Exercise - Using the new plug-in
+
+To use the new Gradle plug-in a dependency to it has to be defined.
+If you pushed your plug-in to your local Maven repository, Gradle should find it and make it available.
+
+[source,java]
+----
+buildscript {
+	repositories {
+		mavenLocal()
+	}
+ 	dependencies {
+		classpath 'com.vogella:com.vogella.gradleplugin:0.0.1-SNAPSHOT'
+    }
+ }
+
+apply plugin: 'com.vogella.gradleplugin'
+----
+
+Now the new task from the com.vogella.gradleplugin should be available:
+
+[source, console]
+----
+./gradlew tasks
+
+./gradlew myTask
+----
+
+=== Optional Exercise - Publishing the plug-in in the Gradle Plug-in Portal
+
+To publish a Gradle plug-in in the Gradle Plug-in Portal the _com.gradle.plugin-publish_ Gradle plug-in can be used.
+
+[source, groovy]
+----
+plugins {
+    id 'java-gradle-plugin'
+    id 'maven-publish'
+    id 'com.gradle.plugin-publish' version '0.9.10' 
+}
+
+pluginBundle {
+    website = '${Web site for your plugin}'
+    vcsUrl = 'https://github.com/${your-repo}'
+
+    plugins {
+        vogellaPlugin {
+            id = 'com.vogella.gradleplugin'
+            displayName = 'Vogella Sample Plug-in'
+            description = 'Vogella Sample Plug-in for trying the '
+            tags = ['Vogella','Training','Gradle','Sample']
+            // Gradle's plug-in portal does not support SNAPSHOTs
+            version = '0.0.1'
+        }
+    }
+}
+----
+
+[NOTE]
+====
+More details can be found here: https://guides.gradle.org/publishing-plugins-to-gradle-plugin-portal/
+====
+
+
