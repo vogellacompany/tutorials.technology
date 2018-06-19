@@ -175,6 +175,17 @@ The following task can then be used to upload the Gradle plug-in.
 ./gradlew publishPlugins
 ----
 
+When the plug-in has been published the _plugins_ closure can be used to make use of the Gradle plug-in.
+
+[source, groovy]
+----
+plugins {
+  id "com.vogella.gradleplugin" version "0.0.1"
+}
+----
+
+So the more verbose `buildscript` closure and the `apply plugin` method from previous chapters can be omitted. 
+
 [NOTE]
 ====
 More details can be found here: https://guides.gradle.org/publishing-plugins-to-gradle-plugin-portal/
