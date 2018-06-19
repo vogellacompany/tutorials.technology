@@ -1,14 +1,18 @@
 == Exercise - Creating a simple Gradle plugin
 
-With the 'java-gradle-plugin' incubating Gradle plug-in it becomes fairly easy to create custom plug-ins with a lot of support for the developer.
+The 'java-gradle-plugin' Gradle plug-in simplifies creating custom Gradle plug-ins.
+This plug-in is current incubating.
 
-* gradleApi() dependency is automatically added
-* gradleTestKit() dependency is automatically added
-* Generates necessary plug-in descriptor files automatically
+It does the following:
+
+* the gradleApi() dependency is automatically added
+* the gradleTestKit() dependency is automatically added
+* the necessary plug-in descriptor files automatically
 
 === Create a Gradle project
 
-Make use of Eclipse Buildship to create a new _com.vogella.gradleplugin_ Gradle project:
+Select menu:File[New|Other|Gradle|Gradle Project] in Eclipse to create a new Gradle project.
+The _com.vogella.gradleplugin_ as project name.
 
 image::gradle-plugin-new-wizard.png[] 
 
@@ -16,7 +20,7 @@ Stick to the defaults of the wizard and create the project.
 
 === Apply the 'java-gradle-plugin' plug-in
 
-Change the build.gradle file to the following:
+Change the `build.gradle` file to the following:
 
 [source, groovy]
 ----
@@ -126,11 +130,13 @@ Now the new task from the com.vogella.gradleplugin should be available:
 ./gradlew myTask
 ----
 
-=== Optional Exercise - Publishing the plug-in in the Gradle Plug-in Portal
+=== Optional Exercise - Publishing the plug-in to the Gradle plug-in portal
 
 To publish a Gradle plug-in in the Gradle Plug-in Portal the _com.gradle.plugin-publish_ Gradle plug-in can be used.
 
 Before uploading Gradle plug-ins to the portal you must register at https://plugins.gradle.org/user/register and obtain the api keys from your profile.
+
+image::[gradle-plug-in-api-key.png] 
 
 The _gradle.publish.key_ and _gradle.publish.secret_ properties have to be added to the _gradle.properties_.
 
@@ -140,6 +146,7 @@ The _gradle.properties_ file is usually located in the gradleHomeDir (usually _/
 ====
 
 Then the _build.gradle_ file needs to be adjusted to be able to upload Gradle plug-ins.
+
 
 [source, groovy]
 ----
