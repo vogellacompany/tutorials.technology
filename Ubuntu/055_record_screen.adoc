@@ -20,3 +20,18 @@ byzanz-record --duration=20 --x=0 --y=0 --width=800 --height=1024 output.gif
 
 Besides the gif format also flv, ogg, ogv and byzanz formats are supported.
 
+== UI tool for recording the screen
+
+A simple tool to create screen recordings is called peek, which is available on GitHub: https://github.com/phw/peek
+
+image::peek-recording-itself.gif[] 
+
+On Ubuntu it can be installed like this:
+
+[source, console]
+----
+sudo add-apt-repository ppa:peek-developers/stable
+sudo apt update
+sudo apt install peek
+----
+
