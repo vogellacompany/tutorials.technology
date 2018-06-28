@@ -3,8 +3,8 @@
 :experimental:
 :icons:
 :imagesdir: ./img
-(c) 2016, 2017 vogella GmbH
-Version 0.1, 09.12.2016
+(c) 2016, 2018 vogella GmbH
+Version 0.2, 28.06.2018
 :docinfodir: ../
 // :vgwort: JGit
 

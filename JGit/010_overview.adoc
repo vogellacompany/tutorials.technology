@@ -2,7 +2,6 @@
 
 https://eclipse.org/jgit/[JGit] is a pure Java implementation of the Git version control system.
 It powers many Git related Java projects like EGit and Gerrit.
-JGit is part of the Eclipse project.
 
 == Using JGit in your project
 
@@ -28,6 +27,7 @@ To add JGit as a Maven dependency, add the following to your `pom.xml`.
 ----
 
 === Adding JGit to your project with Gradle
+
 [source, gradle]
 ----
 dependencies {
@@ -54,7 +54,7 @@ Git.cloneRepository()
   .call();
 ----
 
-By default JGit only clones the default branch.
+By default, JGit only clones the default branch.
 It is also possible to tell JGit to clone a specific branch.
 
 [source, java]
@@ -161,3 +161,17 @@ This example assumes that your already have opened a repository.
                 revWalk.dispose();
         }
 ----
+
+=== Example for using JGit
+
+The following example, creates a new Git repostory, creates a few files, branches and extracts information for the repo.
+
+This example assume that you have `org.eclipse.jgit` and ` org.slf4j.api` in your classpath.
+
+[source,java]
+----
+include::res/JGitUsageExample.java[]
+----
+
+
+
