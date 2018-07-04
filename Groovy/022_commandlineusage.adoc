@@ -3,8 +3,8 @@
 [[commandline_options]]
 === Options for using Groovy with IDE support
 
-You can execute a Groovy class or script from your IDE
-but Groovy provides other options. You can run Groovy code via:
+You can execute a Groovy class or script from your IDE but Groovy provides other options.
+You can run Groovy code via:
 
 * the Groovy shell: groovysh
 * the Groovy interpreter: groovy
@@ -22,14 +22,11 @@ image::groovyshell.png[]
 [[commandline_groovyshell]]
 === The Groovy shell
 
-The Groovy shell is the simplest way to run Groovy program. The
-groovy shell allow you to type in groovy
-commands and let them
-evaluate.
+The Groovy shell is the simplest way to run Groovy program.
+The groovy shell allow you to type in groovy commands and let them evaluate.
 
-Open a command shell (Start-> Run -> cmd under Windows) and
-start the groovy shell via "groovysh". Type in the
-following code:
+Open a command shell (Start-> Run -> cmd under Windows) and start the groovy shell via "groovysh".
+Type in the following code:
 
 [source,text]
 ----
@@ -41,12 +38,7 @@ Press enter-> the system will execute your code.
 [[groovycode_compile]]
 === Using the Groovy compiler to create class files
 
-You can also complile Groovy code into Java bytecode to use it
-from Java. To use the byte code the Groovy
-runtime library must
-included in the Java classpath.
+You can also complile Groovy code into Java bytecode to use it from Java.
+To use the byte code the Groovy runtime library must included in the Java classpath.
 
-To create Java bytecode, run the
-`groovyc Hello.groovy`
-command.
-
+To create Java bytecode, run the `groovyc Hello.groovy` command.

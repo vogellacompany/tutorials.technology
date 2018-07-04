@@ -4,16 +4,11 @@
 [[groovycode_class]]
 === A Groovy class and default access modifier
 
-A Groovy class is defined with the
-`class`
-keyword, similar to Java.
-All
-Groovy classes and methods are by default
-public.
+A Groovy class is defined with the `class` keyword, similar to Java.
+All Groovy classes and methods are by default public.
 
 
-The following is an example Groovy class called
-`Task.groovy`.
+The following is an example Groovy class called `Task.groovy`.
 
 [source,text]
 ----
@@ -23,58 +18,28 @@ include::res/explained/SumItUp.groovy[]
 [[groovyobjects_fields]]
 === Groovy objects (Plain Old Groovy Objects) and fields
 
-In Groovy all fields of a class have by default the
-`private`
-access
-modifier. Groovy creates automatically getter and
-setter
-methods
-for the
-fields. If you annotate the class or a
-property with the
-`@Bindable`
-annotation, Groovy also adds
-`PropertyChangeSupport`
-to the class or property.
-Such a Groovy classes fits to the
-_Java beans_
-specification.
+In Groovy all fields of a class have by default the `private` access modifier.
+Groovy creates automatically getter and setter methods for the fields.
+If you annotate the class or a property with the `@Bindable`annotation, Groovy also adds `PropertyChangeSupport` to the class or property.
+Such a Groovy classes fits to the _Java beans_ specification.
 
-Groovy objects are frequently referred to as
-_Plain Old Groovy Objects (POGO)_.
+Groovy objects are frequently referred to as _Plain Old Groovy Objects (POGO)_.
 
-You can use the getter and setter directly or use the name of
-the
-field for access. Groovy also supports the array
-subscript acessor
-(object[property]). Groovy uses the getter or
-setter method,
-even if
-you
-directly use the name of the
-field. If a field should not be
-changeable define it as
-`final`, in this case Groovy will not provide a setter.
+You can use the getter and setter directly or use the name of the field for access. Groovy also supports the array subscript acessor
+(object[property]).
+Groovy uses the getter or setter method, even if you directly use the name of the field.
+If a field should not be changeable define it as `final`, in this case Groovy will not provide a setter.
 
 [[groovyobjects_constructors]]
 === Constructors
 
-Groovy provides
-_constructors with named parameters_
-
-in which you can
-specify the
-element you would like to set during
-construction. This constructor is also called
-_map based constructor_, as it uses the
-`property:value`
-map syntax.
+Groovy provides _constructors with named parameters_ in which you can specify the element you would like to set during construction.
+This constructor is also called _map based constructor_, as it uses the `property:value` map syntax.
 
 If such a constructor is used, Groovy calls the default constructor and then calls the setter methods for the attributes.
 This "constructor with named parameters" works also if you call a Java class from Groovy code as Groovy uses again the default constructor of the Java class and then the methods to set the properties.
 
-The usage of the constructors with named parameters is
-demonstrated by the following example.
+The usage of the constructors with named parameters is demonstrated by the following example.
 
 [source,text]
 ----
@@ -84,31 +49,19 @@ include::res/explained/Person.groovy[]
 [[groovyobjects_equals]]
 === Equals, == and the method is()
  
-One difference between Java and Groovy is that the == operator
-will check for equality and not for identity.
-Java checks if both
-variables points to the same object while Groovy checks if both
-variables are equals. To check for
-identify you can use in Groovy the
-is() method.
+One difference between Java and Groovy is that the == operator will check for equality and not for identity.
+Java checks if both variables points to the same object while Groovy checks if both variables are equals.
+To check for identify you can use in Groovy the is() method.
 
-In Groovy null == null returns
-true. If two references point to
-the
-same object it is also true. If
-an object implements
-the
-`compareTo`
-method, Comparable
-this method is used, otherwise the
-`equals`
-method.
+In Groovy null == null returns true.
+If two references point to the same object it is also true.
+If an object implements the `compareTo` method, Comparable this method is used, otherwise the `equals` method.
 
 [[groovyobjects_parameter]]
 === Optional parameters in methods
 
-Groovy allows to have optional parameter values. Optional
-parameter values are indicated by =0.
+Groovy allows to have optional parameter values.
+Optional parameter values are indicated by =0.
 
 [source,text]
 ----

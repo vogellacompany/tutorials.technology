@@ -3,63 +3,26 @@
 [[groovy_overview]]
 === What is Groovy?
 
-http://www.groovy-lang.org/[Groovy] is an optionally typed, dynamic language that runs on
-the JVM. It is
-tightly integrated with the Java
-programming language. Groovy describes itself as feature-rich and Java-friendly
-language.
+http://www.groovy-lang.org/[Groovy] is an optionally typed, dynamic language that runs on the JVM.
+It is tightly integrated with the Java programming language.
+Groovy describes itself as feature-rich and Java-friendly language.
 
-Groovy
-source code is compiled into Java byte-code by the Groovy compiler. To run Groovy code in
-a Java
-virtual machine,
-only the Groovy
-`JAR`
-file must be present in the classpath at runtime.
+Groovy source code is compiled into Java byte-code by the Groovy compiler.
+To run Groovy code in a Java virtual machine, only the Groovy `JAR` file must be present in the classpath at runtime.
 
-Groovy
-supports standard
-Java constructs including
-annotations,
-generics,
-static imports,
-enums, varargs and lambda
-expression. It provides lots of
-simplifications
-compared to the Java
-programming language
-and
-advanced language
-features as
-properties,
-closures, dynamic methods, the Meta Object Protocol (MOP), native
-support
-for
-lists,
-maps,
-regular
-expressions,
-duck typing
-and the
-elvis
-operator.
+Groovy supports standard Java constructs including annotations, generics, static imports, enums, varargs and lambda expression.
+It provides lots of simplifications compared to the Java programming language and advanced language features as properties, closures, dynamic methods, the Meta Object Protocol (MOP), native support for lists, maps, regular expressions, duck typing and the elvis operator.
 
 [[groovy_types]]
 === Groovy classes and scripts 
 
-A Groovy source files ends with the
-`.groovy`
-extension. This file can contain a Groovy script or a Groovy class. A
-Groovy script is a code listing which does not
-include a class
-definition. Groovy scripts are converted at compile time to a class
-which extends the
-`groovy.lang.Script`
-class.
+A Groovy source files ends with the `.groovy` extension.
+This file can contain a Groovy script or a Groovy class.
+A Groovy script is a code listing which does not include a class definition.
+Groovy scripts are converted at compile time to a class which extends the `groovy.lang.Script` class.
 
-The classical "Hello world" program can be written as a short
-Groovy
-script.
+The classical "Hello world" program can be written as a short Groovy script.
+
 [source,java]
 ----
 include::res/first/HelloWorld.groovy[]
@@ -68,42 +31,23 @@ include::res/first/HelloWorld.groovy[]
 [[groovy_compatibility]]
 === Compatibility with Java
 
-Groovy runs inside the JVM and can use Java libraries. Every Groovy
-type is a subclass of
-`java.lang.Object`.
+Groovy runs inside the JVM and can use Java libraries.
+Every Groovy type is a subclass of `java.lang.Object`.
 
-Groovy code can call Java code and Java code can call Groovy
-code.
-Every Groovy class is compiled into a Java class and
-you can use the
-`new`
-operator in Java to create instances of the Groovy class. This
-instance can be used to call methods or to pass as
-parameter to a
-fitting Java method. Groovy classes can extend Java classes and Java
-classes can also extend Groovy
-classes.
+Groovy code can call Java code and Java code can call Groovy code.
+Every Groovy class is compiled into a Java class and you can use the `new` operator in Java to create instances of the Groovy class.
+This instance can be used to call methods or to pass as parameter to a fitting Java method.
+Groovy classes can extend Java classes and Java classes can also extend Groovy classes.
 
-Groovy is
-almost compatible with the Java 7 sytax, e.g., almost every valid Java 7
-construct
-is valid
-Groovy code. This
-makes the
-migration to Groovy
-for
-a
-Java
-programmer
-relatively smooth.
+Groovy is almost compatible with the Java 7 sytax, e.g., almost every valid Java 7 construct is valid Groovy code.
+This makes the migration to Groovy for a Java programmer relatively smooth.
 
 Groovy does currently not support Java 8 lambda expressions.
 
 [[groovy_feature]]
 === Reasons to use Groovy
 
-Groovy focus on simplicity and ease of use as its leading
-principle.
+Groovy focus on simplicity and ease of use as its leading principle.
 This makes using Groovy very productive.
 
 The enhancements of Groovy compared to Java can be classified as:
@@ -112,50 +56,23 @@ The enhancements of Groovy compared to Java can be classified as:
 * Groovy specific libraries
 * Additional methods to existing Java classes by the Groovy Developer Kit, this is commonly known as the Groovy JDK.
 
-The following list contains
-some of the example how Groovy archives
-this.
+The following list contains some of the example how Groovy archives this.
 
-* Simplification - Groovy does not require semicolons at the end of
-statements. The
-`return`
-keyword can be left out, by default Groovy returns the last
-expression of the method, top
-level parentheses can be
-left out,
-the
-`public`
-keyword can be left out, it is the default in Groovy. It also
-allows
-optional typing.
+* Simplification - Groovy does not require semicolons at the end of statements.
+The `return` keyword can be left out, by default Groovy returns the last expression of the method, top level parentheses can be left out, the `public` keyword can be left out, it is the default in Groovy.
+It also allows optional typing.
 
-* Flexibility - Groovy allows to change classes and methods at
-runtime, e.g.
-if a method is called which does not
-exist on a
-class, the class
-can intercept this call and react to it. This
-allows for example
-that Groovy provides a
-very flexible builder
-pattern.
+* Flexibility - Groovy allows to change classes and methods at runtime, e.g., if a method is called which does not exist on a class, the class can intercept this call and react to it.
+This allows for example that Groovy provides a very flexible builder pattern.
 
-* Ease of use - Groovy has list, maps and regular expressions
-directly
-build
-into
-the language.
+* Ease of use - Groovy has list, maps and regular expressions directly build into the language.
 
-* Simplification in I/O - parsing and creating XML, JSON and
-files is very simple with
-Groovy.
+* Simplification in I/O - parsing and creating XML, JSON and files is very simple with Groovy.
 
 [[groovy_imports]]
 === Imports in Groovy 
 
-Groovy automatically imports the following packages and classes which
-can be used in Groovy without specifying the
-package name.
+Groovy automatically imports the following packages and classes which can be used in Groovy without specifying the package name.
 
 * groovy.lang.*
 * groovy.util.*
@@ -166,6 +83,4 @@ package name.
 * java.math.BigInteger
 * java.math.BigDecimal
 
-Groovy allows that an import is shortened for later access, e.g.,
-`import javax.swing.WindowConstants as WC`.
-
+Groovy allows that an import is shortened for later access, e.g., `import javax.swing.WindowConstants as WC`.
