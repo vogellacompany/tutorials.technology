@@ -1,18 +1,3 @@
-[[installgroovy]]
-== Installation of Groovy
-[[install_groovy]]
-=== Install Groovy for the command line
-
-To be able to run Groovy code from the command line download the latest version from Groovy from the http://www.groovy-lang.org/download.html[Groovy download website].
-
-Download at least the binary zip file and extract it to a directory on your hard disk.
-Afterwards set the GROOVY_HOME environment variable and %GROOVY_HOME%/bin to your path.
-
-If you are using MS Windows you can use the Windows installer.
-This installer configured the environment variables automatically for you.
-
-image::downloadgroovycommandline.png[Download Groovz command line]
-
 [[install_springgroovytools]]
 === Installation of the Groovy tools for the Eclipse IDE
 
