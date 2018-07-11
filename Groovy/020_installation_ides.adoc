@@ -1,5 +1,5 @@
 [[install_springgroovytools]]
-=== Installation of the Groovy tools for the Eclipse IDE
+== Installation of the Groovy tools for the Eclipse IDE
 
 You can download a pre-configured version of the Eclipse IDE with Groovy and Gradle support from the following
 website:
@@ -18,6 +18,6 @@ image::eclipsegroovyinstallation10.png[Install Groovy support for Eclipse]
 The update site is Eclipse version dependent, see https://github.com/groovy/groovy-eclipse/wiki[Groovy/Grails Tool Suite™ Downloads] if you use a different release than Eclipse 4.5.
 
 [[install_intellij]]
-=== Installation of the Groovy tools for the IntelliJ IDE
+== Installation of the Groovy tools for the IntelliJ IDE
 
 You can also download the https://www.jetbrains.com/idea/download/[IntelliJ IDEA Community edition] for free which includes support for Groovy.

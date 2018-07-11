@@ -1,7 +1,5 @@
 [[installgroovy]]
-== Installation of Groovy
-[[install_groovy]]
-=== Install Groovy for the command line
+== Install Groovy for the command line
 
 To be able to run Groovy code from the command line download the latest version from Groovy from the http://www.groovy-lang.org/download.html[Groovy download website].
 
