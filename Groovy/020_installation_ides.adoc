@@ -15,7 +15,7 @@ http://dist.springsource.org/snapshot/GRECLIPSE/e4.8
 
 image::eclipsegroovyinstallation10.png[Install Groovy support for Eclipse]
 
-The update site is Eclipse version dependent, see https://github.com/groovy/groovy-eclipse/wiki[Groovy/Grails Tool Suite™ Downloads] if you use a different release than Eclipse 4.5.
+The update site is Eclipse version dependent, see https://github.com/groovy/groovy-eclipse/wiki[Groovy/Grails Tool Suite™ Downloads] if you use a different release than Eclipse 4.8.
 
 [[install_intellij]]
 == Installation of the Groovy tools for the IntelliJ IDE
