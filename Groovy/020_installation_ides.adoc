@@ -10,7 +10,7 @@ Open the Eclipse Update manager via the menu:Help[Install New Software...] menu 
 
 [source,java]
 ----
-include::res/install/updatesite.txt[]
+http://dist.springsource.org/snapshot/GRECLIPSE/e4.8
 ----
 
 image::eclipsegroovyinstallation10.png[Install Groovy support for Eclipse]
