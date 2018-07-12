@@ -3,7 +3,9 @@
 When using the _gradle_ command the first time a _.gradle_ folder is created in the ${USER_HOME} directory.
 
 On Linux this is usually /home/${yourUserName}/.gradle
+
 On Windows this is usually C:\Users\${yourUserName}\.gradle
+
 On Mac this is usually /Users/${yourUserName}/.gradle
 
 Inside this _.gradle_ folder a _gradle.properties_ file with the following contents has to be created.
