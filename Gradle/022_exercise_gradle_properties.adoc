@@ -1,0 +1,19 @@
+== Exercise: Configure Gradle properties
+
+When using the _gradle_ command the first time a _.gradle_ folder is created in the ${USER_HOME} directory.
+
+On Linux this is usually /home/${yourUserName}/.gradle
+On Windows this is usually C:\Users\${yourUserName}\.gradle
+On Mac this is usually /Users/${yourUserName}/.gradle
+
+Inside this _.gradle_ folder a _gradle.properties_ file with the following contents has to be created.
+
+[source, properties]
+----
+org.gradle.warning.mode=all
+----
+
+Now the default of the _org.gradle.warning.mode_ property will be overridden. (Default is summary)
+
+NOTE: Common or secret properties can be set or overridden here, e.g., Gradle defaults or access tokens for deployment. 
+
