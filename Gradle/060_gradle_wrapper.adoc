@@ -24,7 +24,7 @@ include::res/wrapper/wrappertask.gradle[]
 The version of the Gradle Wrapper can also be defined, when creating it via the command line.
 
 
-`gradle wrapper --gradle-version 2.9`
+`gradle wrapper --gradle-version 4.9`
 
 Without this explicit version parameter Gradle will automatically pick the latest version.
 
