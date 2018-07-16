@@ -1,0 +1,10 @@
+== Exercise: Configuring the Wrapper Task
+
+Tasks like Gradle's Wrapper Task are available by default and certain properties of it, e.g., _gradleVersion_ can be configured like this:
+
+[source,gradle]
+----
+include::res/wrapper/wrappertask.gradle[]
+----
+
+

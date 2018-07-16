@@ -1,0 +1,20 @@
+== Exercise - Create Custom Gradle Tasks
+
+=== Exercise - Hello Gradle Task
+
+Create a _helloGradle_ task, which prints _Hello Gradle_ with the group _workshop_ and a proper description.
+
+Then use the `./gradlew tasks` command to see your new _helloGradle_ task in the console or use Buildship in the Eclipse IDE.
+
+Then invoke the _helloGradle_ task by calling `./gradlew hG` or again use Buildship in the Eclipse IDE.
+
+=== Exercise - Dependencies between tasks
+
+Create two new tasks called `learnGroovy`, which prints _Learn Groovy_,  and `learnGradle`, which prints 'Learn Gradle'.
+
+These tasks should have reasonable dependencies.
+
+=== Exercise - doFirst action for the tasks
+
+Extend the `learnGroovy` task so that it prints _Install Eclipse IDE with Buildship_ before it prints Learn Groovy.
+

@@ -1,0 +1,17 @@
+== Exercise: Creating a Copy Task
+
+New tasks can also be created and derived from another task and specify certain properties.
+
+The `Copy` task type can be used to specify such a task, which is able to copy files.
+
+Create a new project with the following _build.gradle_ file:
+
+[source,gradle]
+----
+include::res/tasks/copy_task_type.gradle[]
+----
+
+Create a _source_ folder inside this project and add a text file to this folder.
+
+When running the `copyFile` task it copies the text file to a new _destination_ folder.
+
