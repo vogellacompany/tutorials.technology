@@ -24,7 +24,8 @@ was written using Groovy 2.4, Eclipse 4.4 (Luna) and Java 1.8.
   
 include::../web/advertisement/afterTableOfContent.adoc[]
 include::010_overview.adoc[]
-include::020_installation.adoc[]
+include::015_installation_cmd.adoc[]
+include::020_installation_ides.adoc[]
 include::022_commandlineusage.adoc[]
 include::040_firstgroovy.adoc[]
 include::../web/advertisement/inBetween01.adoc[]
