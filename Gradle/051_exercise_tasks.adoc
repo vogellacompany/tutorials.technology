@@ -29,6 +29,18 @@ The previous exercise informed about the usage of the init task.
 ----
 include::res/tasks/tasks_command_line_init.txt[]
 ----
-		
-	
 
+=== Optional - Import the new groovy project
+
+Eclipse Buildship can be used to import the project into the Eclipse IDE.
+
+=== Using the dependencies task
+
+In order to see the project's dependencies (including the transitive ones) the _dependencies_ task has to be invoked.
+
+[source, gradle]
+----
+./gradlew dependencies
+----
+
+If the optional Buildship import exercise has been done the `dependencies` task can also be invoked using the _Gradle Tasks_ view.
