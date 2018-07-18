@@ -1,0 +1,33 @@
+== Exercise - Deploy your custom Gradle plug-in to your local Maven repository
+
+Add the _maven-publish_ Gradle plug-in and the _publishing_ closure to the build.gradle file.
+
+[source, groovy]
+----
+plugins {
+    id 'java-gradle-plugin'
+    id 'maven-publish'
+}
+
+group = 'com.vogella'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = 1.8
+
+// ... more code
+
+publishing {
+    publications {
+        mavenJava(MavenPublication) {
+            from components.java
+        }
+    }
+}
+----
+
+Now additional publishing tasks are available and the _publishToMavenLocal_ task can be used to add the Gradle plug-in to the local Maven repository.
+
+[source, console]
+----
+./gradlew pTML
+----
+

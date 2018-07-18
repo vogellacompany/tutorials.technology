@@ -1,0 +1,28 @@
+== Exercise - Using the new plug-in
+
+To use the new Gradle plug-in a dependency to it has to be defined.
+If you pushed your plug-in to your local Maven repository, Gradle should find it and make it available.
+
+[source,java]
+----
+buildscript {
+	repositories {
+		mavenLocal()
+	}
+ 	dependencies {
+		classpath 'com.vogella:com.vogella.gradleplugin:0.0.1-SNAPSHOT'
+    }
+ }
+
+apply plugin: 'com.vogella.gradleplugin'
+----
+
+Now the new task from the com.vogella.gradleplugin should be available:
+
+[source, console]
+----
+./gradlew tasks
+
+./gradlew myTask
+----
+
