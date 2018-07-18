@@ -67,3 +67,5 @@ include::res/plugin/MyTask.java[]
 include::res/plugin/MyPlugin.java[]
 ----
 
+Run the _build_ task to build to plug-in and see next exercises on how to deploy and consume the plug-in.
+
