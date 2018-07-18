@@ -59,12 +59,36 @@ In the _/src/main/java_ folder create the following two classes.
 
 [source,java]
 ----
-include::res/plugin/MyTask.java[]
+package com.vogella.gradleplugin;
+
+import org.gradle.api.DefaultTask;
+import org.gradle.api.tasks.TaskAction;
+
+public class MyTask extends DefaultTask {
+
+    @TaskAction
+    public void myTask() {
+    	System.out.println("Hello from vogella task");
+    }
+}
+
 ----
 
 [source,java]
 ----
-include::res/plugin/MyPlugin.java[]
+package com.vogella.gradleplugin;
+
+import org.gradle.api.Plugin;
+import org.gradle.api.Project;
+
+public class MyPlugin implements Plugin<Project> {
+
+    @Override
+    public void apply(Project project) {
+    	project.getTasks().create("myTask", MyTask.class);
+    }
+
+}
 ----
 
 Run the _build_ task to build to plug-in and see next exercises on how to deploy and consume the plug-in.
