@@ -1,12 +1,9 @@
 == Installation of Nexus
 
 In order to install the open source version of Nexus you need to visit
-http://www.sonatype.org/nexus/go/[Nexus OSS]
+https://www.sonatype.com/download-oss-sonatype[Nexus OSS]
 and download the TGZ
-version or the ZIP version. Currently the latest version is 2.11.4-01.
-
-In order to extract the archive use
-`﻿$ tar xvzf nexus-2.11.4-01-bundle.tar.gz`
+version or the ZIP version. Currently the latest version is 3.13.0.
 
 To start Nexus, after extracting, the
 `nexus`
