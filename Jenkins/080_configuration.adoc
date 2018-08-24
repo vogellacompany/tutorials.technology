@@ -1,9 +1,26 @@
 [[jenkinsconfiguration]]
 == Configure Jenkins
 
-=== Secure Jenkins
+=== Connect to Jenkins for the initial configuration
+
+After installation, open a browser and connect to it.
+The default port of Jenkins is `:8080`, therefore on your local machine you find it under the following URL: 
+....
+http://localhost:8080/
+....
+
+
+You will need to copy the initial password from the file system of the server.
+
+Afterwards you can select to install plug-ins.
+Select the _Inst#ce9178all suggested plug-ins_ to get a typical configuration.
+
+Create an admin user and press _Save and Finish_.
+
+
+
+=== User management Jenkins
 		
-It is recommended to secure Jenkins. 
 Select _Manage Jenkins_ and then _Configure Global Security_. 
 Select the _Enable security_ flag. 
 The easiest way is to use Jenkins own user database. 

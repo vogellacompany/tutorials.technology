@@ -6,7 +6,7 @@ For most platforms you have native packages, see the https://jenkins.io/[Jenkins
 
 
 Jenkins provides Debian/Ubuntu packages which install Jenkins and register Jenkins as start service. 
-See the https://wiki.jenkins-ci.org/display/JENKINS/Installing+Jenkins+on+Ubuntu[Install Jenkins on Ubuntu description]
+See the https://jenkins.io/doc/book/installing/#debian-ubuntu[Install Jenkins on Ubuntu description]
 The Linux installation creates a _/etc/init.d/jenkins_ script which starts Jenkins automatically at boot time.
 
 Jenkins stores all the settings, logs and build artifacts in its home directory. 
@@ -40,22 +40,6 @@ chown tomcat7:nogroup .jenkins
 
 This makes the .jenkins folder writable and Jenkins can use it.
 ====
-
-=== Connect to Jenkins for the initial configuration
-
-After installation, open a browser and connect to it.
-The default port of Jenkins is `:8080`, therefore on your local machine you find it under the following URL: 
-....
-http://localhost:8080/
-....
-
-
-You will need to copy the initial password from the file system of the server.
-
-Afterwards you can select to install plug-ins.
-Select the _Install suggested plug-ins_ to get a typical configuration.
-
-Create an admin user and press _Save and Finish_.
 
 
 
