@@ -1,5 +1,24 @@
 == Generating different output for AsciiDoc
 
+=== Using custom templates to alter the html output
+
+The default styling of the asciidoctor tooling is good for most cases.
+But some cases require the use of custom templates to modify the output for the use case.
+
+This requires to specify the option `template_dir` in the config file.
+
+For gradle: 
+[source, gradle]
+----
+options template_dirs : [new File('<template_folder>').absolutePath]
+----
+
+For Asciidoctor CLI tooling use the -T parameter:
+
+`$ asciidoctor <target_file> -T '<template_folder>'`
+
+Templates can be written in haml or slim.
+
 === Convert to DocBook
 
 To convert asciidoc into DocBook use the following command:
