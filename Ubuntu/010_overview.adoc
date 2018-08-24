@@ -21,7 +21,6 @@ To be able to copy the current path, press kbd:[Ctrl + L].
 		
 image::nautilus20.png[Starting Nautilus]
 
-[unity_newentries]
 === Adding entries to the launcher
 		
 To add new entries to the launcher you can create an `.desktop` file and drag the file on the launcher. 
