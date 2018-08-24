@@ -185,3 +185,21 @@ With this setup you need to create a new commit in the master repository, to use
 You need to repeat this procedure every time you want to use another state in one of the submodules. 
 See <<submodules_trackbranch>> for tracking a certain branch of a submodule.
 ====
+
+=== Delete a submodule from a repository
+
+Currently Git provides no standard interface to delete a submodule.
+To remove a submodule you need to:
+
+* Delete the relevant section from the `.gitmodules`  and the `.git/config` file.
+* Run `git rm --cached path_to_submodule` (no trailing slash).
+* Run `rm -rf .git/modules/path_to_submodule` (no trailing slash).
+* Stage the .gitmodules changes via `git add .gitmodules`
+* Commit the staged changes with `git commit -m "Removed submodule "`
+
+This removed the submodule.
+You can now delete the untracked submodule files with `rm -rf path_to_submodule`.
+
+
+
+
