@@ -1,4 +1,4 @@
-== The First Asciidoc example: Subtitle								# <1>
+= The First Asciidoc example: Subtitle								# <1>
 Lars Vogel(c) 2016 vogella GmbH										# <2>
 Version 0.2, 17.12.2015												# <3>
 :sectnums:                                                          # <4>
