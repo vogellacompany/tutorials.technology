@@ -1,0 +1,9 @@
+== Dart
+
+The Dart programming language is a pretty new language from Google.
+It is widely used at Google and can be used for pretty much any kind of programming.
+Be it mobile app development (using Flutter), web development (using Dart2JS) or run it on a server (using various libraries and frameworks), Dart should be able to handle everything.
+
+But it should be noted that the language is not that old and only recently gained traction in the development community.
+
+The object oriented language is very approachable for developers from various different languages as it's syntax is close to Java or C++.
