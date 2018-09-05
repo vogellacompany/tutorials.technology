@@ -35,4 +35,26 @@ image::jenkins_createjob60.png[Setting up a Jenkins job]
 After a while the job should go to green or blue (depending on your configuration), if successful. 
 Click on the job and afterwards on _Console Output_ to see the log file.
 Here you can analyze the build errors.
-	
+
+== Setting up a build pipeline with Jenkins
+
+Jenkins support build pipelines via the _Blue Ocean_ plugin.
+
+Go to menu:[Manage Jenkins|Manage Plugins|Available] and install the _Blue Ocean_ plugin.
+
+Afterwards you have an additional menu entry _Open Blue Ocean_.
+
+
+image::jenkins_pipeline10.png[] 
+
+Click here on _New Pipeline_.
+
+image::jenkins_pipeline20.png[]
+
+Creating the pipeline is self-explanatory.
+
+image::jenkins_pipeline30.png[]
+
+
+
+
