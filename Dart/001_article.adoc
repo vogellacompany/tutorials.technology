@@ -7,7 +7,7 @@
 (c) 2018 vogella GmbH
 Version 0.1, 04.09.2018
 :docinfodir: ../
-:vgwort: Dart
+///:vgwort: Dart
 
 [abstract]
 This tutorial contains notes about Dart.
