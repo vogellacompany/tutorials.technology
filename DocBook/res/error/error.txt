@@ -1,2 +1,0 @@
-
-javax.xml.transform.TransformerConfigurationException: java.net.MalformedURLException: no protocol: ../common/entities.ent

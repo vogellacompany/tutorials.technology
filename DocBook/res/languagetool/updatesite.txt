@@ -1,1 +1,0 @@
-http://download.vogella.com/p2/C-MASTER-Eclipse-LanguageTool/workspace/cx.ath.remisoft.languagetool.p2updatesite/target/repository/
