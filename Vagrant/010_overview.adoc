@@ -1,0 +1,48 @@
+== Vagrant
+_Vagrant_ is an open-source tool developed by https://www.hashicorp.com/[HashiCorp] that allows you to configure and create virtual environments.
+This is mainly used to create virtual development environments.
+
+Vagrant sets up virtual environments using _Providers_.
+Supported providers include VirtualBox, Hyper-V, Docker, VMware and AWS.
+Virtual environments are configured using _Provisioners_.
+Supported provisioners include Chef, Puppet and Ansible.
+
+The setup of an environment is specified with a `Vagrantfile`.
+The Vagrantfile uses Ruby syntax.
+
+Vagrant creates environments from pre-made images.
+Vagrant calls the images in it's package format _Boxes_.
+A variety of boxes can be found on the https://app.vagrantup.com/boxes/search[Vagrant Cloud].
+
+=== Common commands
+
+These are some common commands that are meant to be executed in the folder of your Vagrantfile.
+
+[options="header"]
+|===
+|Command | Action
+
+|vagrant up |Starts the VM, creates it from the box if it doesn't exist
+
+|vagrant halt |Stops Vagrant VM
+
+|vagrant destroy |Deletes Vagrant VM
+
+|vagrant provision |(Re)Execute Provisioner
+
+|vagrant reload |Reload Vagrantfile, equivalent to calling halt and then up
+
+|vagrant ssh |Connects to VM via ssh
+
+|vagrant sshconfig |Shows ssh configuration, used if you want to connect manually or through external software like Ansible
+
+|===
+
+=== Resetting your VM
+To reset your box you can use the following command.
+
+[source, terminal]
+----
+vagrant destroy -f && vagrant up
+----
+

@@ -1,0 +1,6 @@
+== Resources
+
+https://www.vagrantup.com/[Vagrant Homepage]
+
+https://www.vagrantup.com/docs/cli/[Vagrant CLI Documentation]
+

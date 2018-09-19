@@ -1,0 +1,13 @@
+== Installation
+It is strongly advised to install the latest version from the official website: https://www.vagrantup.com/downloads.html
+The version in the system package manager is often outdated or is missing dependencies.
+Download the package for your OS or distribution and use it to install Vagrant.
+
+For this tutorial we will use VirtualBox as the provider.
+On Ubuntu you can install it with the following command.
+
+[source, terminal]
+----
+sudo apt install virtualbox
+----
+

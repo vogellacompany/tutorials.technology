@@ -1,0 +1,11 @@
+== The Vagrantfile
+
+=== Giving the VM a public and static IP
+
+Add this to your configuration block to give the VM a public static IP.
+
+[source, ruby]
+----
+config.vm.network :public_network, ip: "192.168.192.200"
+----
+
