@@ -16,7 +16,7 @@ Gradle has the notion of _projects_ and _tasks_.
 
 
 [[gradle_projectstasks]]
-=== Projecs and tasks in Gradle
+=== Projects and tasks in Gradle
 
 A Gradle build consists of one or more _projects_.
 Projects can be something which should be built or something that should be done. 
