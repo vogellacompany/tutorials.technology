@@ -1,6 +1,6 @@
 == What is Requirements Engineering
 
-Requirements Engineering (RE) defines the process of the defining, documenting, maintaining and validating requirements.
+Requirements Engineering (RE) defines the process of the defining, documenting, maintaining and Validate requirements.
 In order to define a requirement different methods can be used. 
 
 == User stories

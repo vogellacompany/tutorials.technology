@@ -12,7 +12,7 @@ apply plugin: 'android'
 
 
 dependencies {
-    compile files('libs/android-support-v4.jar')
+    implementation files('libs/android-support-v4.jar')
 }
 
 android {
