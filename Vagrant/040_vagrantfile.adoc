@@ -1,11 +1,32 @@
 == The Vagrantfile
 
-=== Giving the VM a public and static IP
+=== Giving the VM a private IP
 
-Add this to your configuration block to give the VM a public static IP.
+Add this to your configuration block to bind the guest VM to an IP that is only reachable by the host.
+
+[source, ruby]
+----
+config.vm.network :private_network, ip: "192.168.192.200"
+----
+
+
+=== Giving the VM a public IP
+
+Add this to your configuration block to give the VM a public IP.
+Vagrant will ask you during VM startup to which network adapter the IP should be bound.
 
 [source, ruby]
 ----
 config.vm.network :public_network, ip: "192.168.192.200"
+----
+
+=== Changing the ssh port of the VM
+
+If you change the ssh port of the guest machine, you have to let Vagrant know about the new port.
+Otherwise `vagrant ssh` and other functionality won't work.
+
+[source, ruby]
+----
+config.ssh.port=2222
 ----
 
