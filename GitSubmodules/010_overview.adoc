@@ -189,16 +189,13 @@ See <<submodules_trackbranch>> for tracking a certain branch of a submodule.
 === Delete a submodule from a repository
 
 Currently Git provides no standard interface to delete a submodule.
-To remove a submodule you need to:
+To remove a submodule called `mymodule` you need to:
 
-* Delete the relevant section from the `.gitmodules`  and the `.git/config` file.
-* Run `git rm --cached path_to_submodule` (no trailing slash).
-* Run `rm -rf .git/modules/path_to_submodule` (no trailing slash).
-* Stage the .gitmodules changes via `git add .gitmodules`
-* Commit the staged changes with `git commit -m "Removed submodule "`
+* git submodule deinit -f -- mymodule
+* rm -rf .git/modules/mymodule
+* git rm -f mymodule
 
-This removed the submodule.
-You can now delete the untracked submodule files with `rm -rf path_to_submodule`.
+
 
 
 

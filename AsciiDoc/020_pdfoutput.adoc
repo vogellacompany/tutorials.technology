@@ -9,7 +9,7 @@ The title page of a pdf document can include the following attributes:
 * Author
 * Revision
 
-This attributes can be styled in the the file _basic-theme.yml_ in folder _themes_.
+This attributes can be styled in the file _basic-theme.yml_ in folder _themes_.
 
 
 === Links

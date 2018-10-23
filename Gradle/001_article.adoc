@@ -11,7 +11,7 @@ Version 2.3, 07.06.2018
 :vgwort: Gradle
 
 [abstract]
-This tutorial describes how to the the Gradle build tool.
+This tutorial describes how to the Gradle build tool.
 
 include::../web/advertisement/afterTableOfContent.adoc[]
 include::010_overview.adoc[]
