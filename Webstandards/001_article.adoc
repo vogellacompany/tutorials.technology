@@ -14,7 +14,7 @@ Short overview of web standards, e.g. web server, HTML, HTTP and URL's.
   
 include::../web/advertisement/afterTableOfContent.adoc[]
 include::010_architecture.adoc[]
-include::../support.adoc[]
+
 include::008_resourceslocal.adoc[]
 include::../copyright.adoc[]
 

@@ -53,7 +53,7 @@ include::314_mop_exercise.adoc[]
 include::400_javagroovy.adoc[]
 include::../web/advertisement/inBetween03.adoc[]
 include::820_buildsupport.adoc[]
-include::../support.adoc[]
+
 include::008_resourceslocal.adoc[]
 include::../copyright.adoc[]
 

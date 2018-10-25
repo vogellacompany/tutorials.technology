@@ -20,7 +20,7 @@ include::../web/advertisement/inBetween01.adoc[]
 include::020_ssh.adoc[]
 include::200_bitbucket.adoc[]
 include::520_gitserver.adoc[]
-include::../support.adoc[]
+
 include::008_resourceslocal.adoc[]
 include::../copyright.adoc[]	
 

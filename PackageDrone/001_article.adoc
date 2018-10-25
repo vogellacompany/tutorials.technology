@@ -19,7 +19,7 @@ include::060_exercise_setup.adoc[]
 include::070_exercise_channels.adoc[]
 include::075_exercise_channel_deploy.adoc[]
 include::080_exercise_aspects.adoc[]
-include::../support.adoc[]
+
 include::008_resourceslocal.adoc[]
 include::../copyright.adoc[]
 

@@ -24,7 +24,7 @@ include::040_improve-a-change.adoc[]
 include::../web/advertisement/inBetween02.adoc[]
 include::050_submit-a-change-to-the-codebase.adoc[]
 include::060_view-gerrit-review-notes.adoc[]
-include::../support.adoc[]
+
 include::../copyright.adoc[]
 
 

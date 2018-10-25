@@ -14,13 +14,13 @@ mysql -u root -p
 To create a database and a user with access rights, use the following commands.
 
 [source,sql]
-====
+----
 CREATE DATABASE vogella_blog;
 CREATE USER 'myblog'@'localhost' IDENTIFIED BY 'my_password';
 GRANT ALL PRIVILEGES ON * . * TO 'myblog'@'localhost';
 GRANT ALL ON vogella_blog.* TO 'myblog'@'localhost' IDENTIFIED BY 'my_password' WITH GRANT OPTION;
 FLUSH PRIVILEGES;
-====
+----
 
 Once you have created a database on this server you can also
 connect directory to the database with the following command.

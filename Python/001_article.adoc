@@ -22,7 +22,7 @@ include::050_debugging.adoc[]
 include::../web/advertisement/inBetween02.adoc[]
 include::110_programming.adoc[]
 include::120_google.adoc[]
-include::../support.adoc[]
+
 include::008_resourceslocal.adoc[]
 include::../copyright.adoc[]	
 

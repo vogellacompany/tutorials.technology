@@ -20,7 +20,7 @@ include::030_mapreduce.adoc[]
 include::../web/advertisement/inBetween02.adoc[]
 include::040_installation.adoc[]
 include::050_gettingstarted.adoc[]
-include::../support.adoc[]
+
 include::008_resourceslocal.adoc[]
 include::../copyright.adoc[]	
 

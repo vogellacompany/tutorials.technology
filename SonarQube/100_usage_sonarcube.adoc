@@ -4,7 +4,7 @@
 
 To analyse a Maven project use the following command:
 
-[code,shell]
+[source,shell]
 ----
 mvn sonar:sonar   -Dsonar.host.url=http://localhost:9000   -Dsonar.login=yourkey
 ----
@@ -13,7 +13,7 @@ mvn sonar:sonar   -Dsonar.host.url=http://localhost:9000   -Dsonar.login=yourkey
 
 Your can generate HTML reports in the preview analysis mode.
 
-[code,shell]
+[source,shell]
 ----
 mvn sonar:sonar -Dsonar.analysis.mode=preview -Dsonar.issuesReport.html.enable=true
 ----

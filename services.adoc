@@ -1,12 +1,31 @@
-=== vogella GmbH training and consulting support
+== vogella training and consulting support
 
-|===
-|http://www.vogella.com/training/[TRAINING] |http://www.vogella.com/consulting/[SERVICE & SUPPORT]
+++++
+<div class="about_vogella_container">
+    <div class="about_vogella">
+    	<a href="https://learn.vogella.com/">
+            <img src="http://www.vogella.com/img/common/logo_very_rough_white.svg"
+			alt="Online Training" title="Online Training"
+			onclick="_gaq.push(['_trackEvent', 'Online Training', 'clicked', 'Buttom tutorial']);"/>
+			<h1>Online Training</h1>
+		</a>
+	</div>
+	<div class="about_vogella">
+    	<a href="http://www.vogella.com/training/">
+            <i class="material-icons md-48 white" onclick="_gaq.push(['_trackEvent', 'Onsite Training', 'clicked', 'Buttom tutorial']);">
+				fitness_center
+			</i>
+            <h1>Onsite Training</h1> 
+		</a>
+	</div>
+	<div class="about_vogella">
+    	<a href="http://www.vogella.com/consulting/">
+            <i class="material-icons md-48 white" onclick="_gaq.push(['_trackEvent', 'Consulting', 'clicked', 'Buttom tutorial']);">
+				group
+			</i>
+            <h1>Consulting</h1> 
+		</a>
+	</div>
+</div>
+++++
 
-|The vogella company provides comprehensive http://www.vogella.com/training/[training and education services] 
-from experts in the areas of Eclipse RCP, Android, Git, Java, Gradle and Spring.
-We offer both public and inhouse training. Whichever course you decide to take, you are guaranteed to experience 
-what many before you refer to as http://www.vogella.com/training/[“The best IT class I have ever attended”].
-|The vogella company offers http://www.vogella.com/consulting/[expert consulting] services, development support and coaching. 
-Our customers range from Fortune 100 corporations to individual developers.	
-|===

@@ -76,7 +76,7 @@ include::760_faq.adoc[]
 include::780_gitseries.adoc[]
 include::800_offline.adoc[]
 
-include::../support.adoc[]
+
 include::008_resourceslocal.adoc[]
 include::../copyright.adoc[]
 

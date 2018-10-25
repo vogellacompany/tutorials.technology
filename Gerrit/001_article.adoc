@@ -34,7 +34,7 @@ include::610_otherproblems.adoc[]
 include::620_thingstoconsider.adoc[]
 include::800_eclipse_gerrit.adoc[]
 include::900_contributing_to_eclipse.adoc[]
-include::../support.adoc[]
+
 include::008_resourceslocal.adoc[]
 include::../copyright.adoc[]
 

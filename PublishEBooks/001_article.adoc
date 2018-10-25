@@ -14,7 +14,7 @@ This is currently a collection of notes for me.
 
 include::../web/advertisement/afterTableOfContent.adoc[]
 include::001_introduction.adoc[]
-include::../support.adoc[]
+
 include::008_resourceslocal.adoc[]
 include::../copyright.adoc[]
 

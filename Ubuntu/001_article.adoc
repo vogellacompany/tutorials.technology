@@ -33,7 +33,7 @@ include::060_spellchecking.adoc[]
 include::200_connect.adoc[]
 include::400_tips.adoc[]
 include::500_broadway.adoc[]
-include::../support.adoc[]
+
 include::008_resourceslocal.adoc[]
 include::../copyright.adoc[]	
 

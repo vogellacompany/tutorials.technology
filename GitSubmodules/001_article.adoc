@@ -13,7 +13,7 @@ This tutorial explains the usage of submodules with the Git version control syst
 
 include::../web/advertisement/afterTableOfContent.adoc[]
 include::010_overview.adoc[]
-include::../support.adoc[]
+
 include::008_resourceslocal.adoc[]
 include::../copyright.adoc[]
 

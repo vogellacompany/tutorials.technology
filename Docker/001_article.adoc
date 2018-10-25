@@ -24,7 +24,7 @@ include::080_creating_fedora_container.adoc[]
 include::../web/advertisement/inBetween02.adoc[]
 include::090_creating_ubuntu_container.adoc[]
 include::100_eclipse.adoc[]
-include::../support.adoc[]
+
 include::008_resourceslocal.adoc[]
 include::../copyright.adoc[]
 

@@ -16,7 +16,7 @@ include::../web/advertisement/afterTableOfContent.adoc[]
 include::100_introduction.adoc[]
 include::../web/advertisement/inBetween01.adoc[]
 include::200_bigo.adoc[]
-include::../support.adoc[]
+
 include::008_resourceslocal.adoc[]
 include::../copyright.adoc[]	
 

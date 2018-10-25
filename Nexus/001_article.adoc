@@ -22,7 +22,7 @@ include::040_create_repository.adoc[]
 include::../web/advertisement/inBetween02.adoc[]
 include::050_nexus_p2_plugins.adoc[]
 include::060_nexus_unzip_plugin.adoc[]
-include::../support.adoc[]
+
 include::008_resourceslocal.adoc[]
 include::../copyright.adoc[]
 

@@ -17,7 +17,7 @@ include::010_overview.adoc[]
 include::020_implementation.adoc[]
 include::../web/advertisement/inBetween01.adoc[]
 include::100_information.adoc[]
-include::../support.adoc[]
+
 include::008_resourceslocal.adoc[]
 include::../copyright.adoc[]	
 

@@ -28,7 +28,7 @@ include::040_junit.adoc[]
 include::050_usefultasks.adoc[]
 include::090_eclipseant.adoc[]
 include::200_tips.adoc[]
-include::../support.adoc[]
+
 include::008_resourceslocal.adoc[]
 include::../copyright.adoc[]
 

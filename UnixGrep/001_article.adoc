@@ -17,7 +17,7 @@ include::001_grep.adoc[]
 include::010_flags.adoc[]
 include::../web/advertisement/inBetween01.adoc[]
 include::020_chain.adoc[]
-include::../support.adoc[]
+
 include::008_resourceslocal.adoc[]
 include::../copyright.adoc[]
 

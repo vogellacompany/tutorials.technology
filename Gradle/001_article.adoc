@@ -45,7 +45,7 @@ include::307_developingplugins_using.adoc[]
 include::309_developingplugins_plugin_portal.adoc[]
 include::325_plugin_debug.adoc[]
 include::350_code_analysis.adoc[]
-include::../support.adoc[]
+
 include::008_resourceslocal.adoc[]
 include::../copyright.adoc[]
 

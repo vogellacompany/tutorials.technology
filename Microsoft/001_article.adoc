@@ -22,7 +22,7 @@ include::200_word.adoc[]
 include::../web/advertisement/inBetween03.adoc[]
 include::300_powerpoint.adoc[]
 include::600_stuff.adoc[]
-include::../support.adoc[]
+
 include::008_resourceslocal.adoc[]
 include::../copyright.adoc[]	
 

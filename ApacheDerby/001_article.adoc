@@ -22,7 +22,7 @@ include::../web/advertisement/inBetween01.adoc[]
 include::040_usage.adoc[]
 include::../web/advertisement/inBetween02.adoc[]
 include::050_windowsservice.adoc[]
-include::../support.adoc[]
+
 include::008_resourceslocal.adoc[]
 include::../copyright.adoc[]	
 
