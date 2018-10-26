@@ -1,18 +1,12 @@
 [[gerritsetup_user]]
 == Creating and updating a Gerrit change request from Eclipse
 
-In the following description we make a change in our local
-repository and create a Gerrit change request.
+In the following description we create a Gerrit change request.
 
-After getting the latest source code, when you are ready for development, create a new local branch starting from
-the origin/master branch.
+After getting the latest source code, when you are ready for development, create a new local branch starting from the origin/master branch.
 
-Perform some changes in your Java project. Commit the changes and
-ensure to select the
-_Add Change-Id_
-button in the
-_Git Staging_
-view.
+Perform some changes in your Java project.
+Commit the changes and ensure to select the _Add Change-Id_ button in the _Git Staging_ view.
 
 image::gerrit_review10.png[Create change request]
 
@@ -55,4 +49,24 @@ Eclipse Git push confirmation dialog should tell you that
 you created a new change set.
 
 image::gerrit_webreview20.png[Update Gerrit change request]
+
+
+== Combining changes from two commits / Gerrit change reviews
+
+Sometimes you want to update an existing Gerrit but push a new commit which creates a new Gerrit.
+So you have two Gerrit change reviews, instead of one.
+
+Here is what you have to do to combine them:
+
+* Use Ctrl+3 Fetch from Gerrit and fetch the second Gerrit into your local repository
+* Go to the history view, you will see both commits
+* Select the last commit before the two commits which you want to combine
+* Right-mouse clicke and select _Rebase Interactive_
+* In the _Rebase_ view, select `Fixup` on the second commit to combine two commits using the commit message from the first commit.
+* Press _Start_ to run the interactive rebase
+* Push the changed commit to Gerrit, this will update the first Gerrit, as the `Change-Id` is still the same.
+* Abondan the second commit
+
+
+
 
