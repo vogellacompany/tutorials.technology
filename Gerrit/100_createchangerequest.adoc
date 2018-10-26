@@ -65,7 +65,7 @@ Here is what you have to do to combine them:
 * In the _Rebase_ view, select `Fixup` on the second commit to combine two commits using the commit message from the first commit.
 * Press _Start_ to run the interactive rebase
 * Push the changed commit to Gerrit, this will update the first Gerrit, as the `Change-Id` is still the same.
-* Abondan the second commit
+* Abandon the second commit
 
 
 
