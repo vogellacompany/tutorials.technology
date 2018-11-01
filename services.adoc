@@ -6,13 +6,13 @@
     	<a href="https://learn.vogella.com/">
             <img src="http://www.vogella.com/img/common/logo_very_rough_white.svg"
 			alt="Online Training" title="Online Training"
-			onclick="_gaq.push(['_trackEvent', 'Online Training', 'clicked', 'Buttom tutorial']);"/>
+			onclick="_gaq.push(['_trackEvent', 'Buttom tutorial', 'clicked', 'Online Training']);"/>
 			<h1>Online Training</h1>
 		</a>
 	</div>
 	<div class="about_vogella">
     	<a href="http://www.vogella.com/training/">
-            <i class="material-icons md-48 white" onclick="_gaq.push(['_trackEvent', 'Onsite Training', 'clicked', 'Buttom tutorial']);">
+            <i class="material-icons md-48 white" onclick="_gaq.push(['_trackEvent', 'Buttom tutorial', 'clicked', 'Onsite Training']);">
 				fitness_center
 			</i>
             <h1>Onsite Training</h1> 
@@ -20,7 +20,7 @@
 	</div>
 	<div class="about_vogella">
     	<a href="http://www.vogella.com/consulting/">
-            <i class="material-icons md-48 white" onclick="_gaq.push(['_trackEvent', 'Consulting', 'clicked', 'Buttom tutorial']);">
+            <i class="material-icons md-48 white" onclick="_gaq.push(['_trackEvent', 'Buttom tutorial', 'clicked', 'Consulting']);">
 				group
 			</i>
             <h1>Consulting</h1> 
