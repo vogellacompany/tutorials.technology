@@ -22,6 +22,7 @@ include::080_configuration.adoc[]
 include::090_pluginmanagement.adoc[]
 include::../web/advertisement/inBetween01.adoc[]
 include::200_usage.adoc[]
+include::300_pipelines.adoc[]
 include::800_filesystem.adoc[]
 
 include::008_resourceslocal.adoc[]

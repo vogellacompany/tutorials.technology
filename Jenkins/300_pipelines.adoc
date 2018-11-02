@@ -1,0 +1,109 @@
+== Build Pipelines
+
+Jenkins pipelines help you align the build process of a project.
+This is done by specifying tasks and the order in which they are executed.
+There are all kinds of possible tasks that a jenkins pipeline can do for you.
+For example, build assets, send an email on error or send the build artifacts via SSH to your application server.
+
+=== Setup using a Jenkinsfile
+
+Jenkins allows to specify pipelines using a `Jenkinsfile`. 
+This is just a textfile that contains the necessary data for jenkins to execute the pipeline.
+It is called `Jenkinsfile` (notice: no file extension) and should be placed in the root of your project.
+
+NOTE: This file should be checked into version control as it is needed on your Jenkins instance.
+
+Jenkins supports two different syntaxes.
+
+1. Declarative (since Pipeline version 2.5)
+2. Scripted
+
+For this tutorial we will focus on the declarative approach.
+
+The following example shows a pipeline with 2 stages:
+
+[source,groovy]
+----
+pipeline {
+	agent any <1>
+
+	stages {
+		stage('Build Assets') {
+			agent any <1>
+			steps {
+				echo 'Building Assets'
+			}
+		}
+		stage('Test') {
+			agent any
+			steps {
+				echo 'Testing stuff...'
+			}
+		}
+	}
+}
+----
+<1> The `agent` directive tells jenkins to allocate a workspace and an executor for the pipeline.
+Without it, the pipeline is not valid and therefore required. 
+
+=== Setup using the Blue Ocean plugin
+
+The above process can also be done using the https://jenkins.io/projects/blueocean/[Blue Ocean] _Jenkins_ plugin.
+
+==== Installation
+
+To install the plugin go to menu:Manage Jenkins[Manage Plugins>Available] and select the _Blue Ocean_ plugin.
+
+After the installation is finished you have an additional menu entry called btn:[Open Blue Ocean] in your main _Jenkins_ navigation.
+
+image::jenkins_pipeline10.png[]
+
+==== Creating a new pipeline
+
+Click on btn:[New Pipeline] to create a new pipeline.
+
+image::jenkins_pipeline20.png[]
+
+Select your version control provider.
+
+image::jenkins_pipeline21.png[]
+
+NOTE: For this example we will use a github repository
+
+Depending on your provider you will need to pass some kind of credentials.
+
+NOTE: Github provides the ability to generate access-tokens that applications can use to access the platform with your user.
+You can also restrict what the acess-token can do.
+
+The _Blue Ocean_ application will provide a link to the GitHub page you need visit.
+The necessary permissions that _Blue Ocean_ needs to operate are already selected.
+Add a description and click on btn:[Generate Token] at the bottom of the page.
+
+Copy the generated token and paste it in the _Blue Ocean_ mask.
+
+Select the account the repository belongs to and select the repository.
+
+image:jenkins_pipeline30.png[]
+
+If you already have a `Jenkinsfile` with pipelines in the repository it will show up in the last step.
+If not _Blue Ocean_ offers to create one for you.
+
+==== Adding steps to your pipeline
+
+In the next screen you will see a visual representation of your pipeline.
+Here you can add or remove steps.
+
+image:jenkins_pipeline40.png[]
+
+To create a new stage click on btn:[+] in the canvas.
+A menu will open on the right that lets you specify a name and what steps you want to perform.
+
+image:jenkins_pipeline50.png[]
+
+After you have finished editing the pipeline _Blue Ocean_ offers to commit the newly created pipeline to your repository.
+
+Under the hood _Blue Ocean_ only created a valid `Jenkinsfile` for jenkins to use.
+
+After commiting _Jenkins_ will build the project using the newly modified pipelines.
+
+
