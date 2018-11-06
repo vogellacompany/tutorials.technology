@@ -1,0 +1,10 @@
+// Still in Draft, don't include!
+== SELinux
+
+One of the main reasons why many people choose _Fedora_ is SELinux.
+SELinux stands for **S**ecurity **E**nhanced **Linux**.
+
+It is a Linux kernel security module that provides additional security features.
+On _Fedora_ it is pre-installed.
+
+The module enforces access-control security policies.

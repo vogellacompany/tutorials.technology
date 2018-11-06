@@ -9,12 +9,14 @@ Version 0.1, 12.05.2016
 :vgwort: Fedora
 
 [abstract]
-This tutorial contains some notes about Fedora.
+This article gives an overview over the Fedora linux distribution
 
-include::../web/advertisement/afterTableOfContent.adoc[]				
+include::../web/advertisement/afterTableOfContent.adoc[]
 include::010_overview.adoc[]
+
+include::020_package-manager.adoc[]
+
+include::030_desktop-environment.adoc[]
 
 include::008_resourceslocal.adoc[]
 include::../copyright.adoc[]
-
-

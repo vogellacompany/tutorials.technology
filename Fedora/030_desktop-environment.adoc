@@ -1,0 +1,16 @@
+== Desktop Environment
+
+The default desktop environment is https://www.gnome.org/[Gnome].
+
+There are other alternatives in the official repositories available:
+
+- XFCE
+- KDE Plasma
+- Cinnamon
+- Mate
+- LXQT
+- LXDE
+
+If you prefer one of them over Gnome they can be installed using the package manager.
+Although it might make sense for you to directly install a spin that has the desired environment by default.
+They are called spins and are available on the https://spins.fedoraproject.org/[official Fedora spins website].

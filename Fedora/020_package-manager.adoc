@@ -1,0 +1,67 @@
+== The package manager
+
+Managing software packages on Fedora is done using the package manager `dnf`.
+It can install software, remove it, upgrade the Fedora version and much more.
+
+=== Commands
+
+.Table Available Commands
+|===
+|Command |Usage |Description
+|`install`
+|`$ dnf install <package_name>`
+|Installs a package on the system
+
+|`remove`
+|`$ dnf remove <package_name>`
+|Removes an installed package from the system
+
+|`autoremove`
+|`$ dnf autoremove`
+|Removes all packages that were not installed by the user but are not needed anymore
+
+|`search`
+|`$ dnf search <term1> <term2>`
+|Searches for packages whose description or name match one or more of the given terms
+
+|`info`
+|`$ dnf info <package_name>`
+|Displays information about a package
+
+|`check-update`
+|`$ dnf check-update`
+|Checks for available updates for locally installed packages
+
+|`upgrade`
+|`$ dnf upgrade`
+|Applies available updates for packages
+
+|`history`
+|`$ dnf history`
+|Displays the transaction history for all transactions of the `dnf` command
+
+|===
+
+=== Third party repositories
+
+If you want to install software that is not part of the official Fedora repositories, you have the ability to add third-party repositories.
+These will be considered whenever you install or upgrade any package. These are called COPR (**C**ool **O**ther **P**ackage **R**epo)
+
+To enable a _COPR_ use the Command
+
+[source,console]
+----
+$ dnf copr enable user/fedoraproject
+----
+
+There is a comprehensive list of all available _COPRs_ here: https://copr.fedorainfracloud.org/.
+However most of the time you will stumble upon these when searching for alternative installation sources for a package.
+Many software distributors also automatically add their repository when you install their software so they can distribute updates more easily.
+
+=== A note on _yum_
+
+When browsing packages it's likely that you will come across commands starting with _yum_.
+_Yum_ was the package manager of _Fedora_ until version 22 (2015).
+It has since been replaced with _dnf_.
+However the command is still available to ensure backwards compatibility for scripts or automated software installations.
+It is encouraged to use _dnf_ now.

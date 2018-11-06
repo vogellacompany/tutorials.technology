@@ -1,12 +1,10 @@
-== Using Fedora
+== Fedora
 
-=== Downloading Fedora
+Fedora is a community driven Linux distribution backed by RedHat.
 
-See https://getfedora.org/en/workstation/download/ for an image to download.
+The project has a reputation to adopt new technologies early and for working closely together with upstream communities.
 
-=== Installing new software
+The default desktop environment is gnome.
+There are other alternatives (called spins) available like KDE, XFCE or Cinnamon.
 
-You can use the `dnf` command to install new software. For example, use the following command to install Git.
-sudo dnf install git
-
-
+See the https://getfedora.org/en/workstation/download/[Fedora download page] for a download link.
