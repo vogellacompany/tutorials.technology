@@ -112,15 +112,9 @@ existing files and try to adapt the style preferred by the existing developers.
 [[contribution_copyrightheader_platformui]]
 === Example: Copyright header in Eclipse Platform UI
 
-The Eclipse platform project for example requires you to update the copyright header with the last modified
-year. Optionally you can also
-add
-yourself to the copyright
-with a reference to the
-bug. The following
-listing
-shows an
-example for this standard.
+Most Eclipse projects to not required to update the copyright header.
+Optionally you can also add yourself to the copyright with a reference to the bug and update the copyright header with the last modified year.
+The following listing shows an example for this standard.
 
 [source,text]
 ----
