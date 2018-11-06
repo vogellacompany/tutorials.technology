@@ -1,9 +1,8 @@
 ++++
 <div id="kindle">
-	<a href="http://www.vogella.com/books/git.html">
-		Get the book!
+	<a class="kindle_link" href="http://www.vogella.com/books/git.html"></a>
 		<img src="../../img/books/git_book.png" width="150" height="200" alt="Git book"/> 
-	</a>
+		Get the book!
 </div>
 ++++
 
