@@ -3,21 +3,21 @@
 In this exercise you will set up an Ubuntu VM using Vagrant.
 
 You can find Vagrant boxes on the https://app.vagrantup.com/boxes/search[Vagrant Cloud].
-For this exercise we'll use https://app.vagrantup.com/ubuntu/boxes/xenial64[ubuntu/xenial64].
+For this exercise we'll use https://app.vagrantup.com/ubuntu/boxes/bionic64[ubuntu/bionic64].
 
 Create a new directory that will contain your Vagrantfile.
 
 [source, terminal]
 ----
-mkdir ubuntu_xenial64_box
-cd ubuntu_xenial64_box
+mkdir ubuntu_bionic64_box
+cd ubuntu_bionic64_box
 ----
 
 Now create the Vagrantfile using the box and start the VM.
 
 [source, terminal]
 ----
-vagrant init ubuntu/xenial64
+vagrant init ubuntu/bionic64
 vagrant up
 ----
 
