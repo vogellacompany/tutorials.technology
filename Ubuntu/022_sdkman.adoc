@@ -1,0 +1,29 @@
+== SDKMAN!
+
+SDKMAN! is a tool for managing parallel versions of multiple Software Development Kits on most Unix based systems. It provides a convenient Command Line Interface (CLI) and API for installing, switching, removing and listing Candidates.
+It provides different versions for Java, Gradle, Maven and much more.
+
+It is super easy to https://sdkman.io/install[install].
+
+[source,terminal]
+----
+curl -s "https://get.sdkman.io" | bash
+source "$HOME/.sdkman/bin/sdkman-init.sh"
+----
+
+To see all available versions of a certain package use the `sdk list packageName` command.
+
+[source,terminal]
+----
+sdk list java
+----
+
+To use a certain version, use the `sdk list packageName version` command.
+
+[source,terminal]
+----
+sdk use java 11.0.1-open
+----
+
+To change the default, use `sdk list packageName version`.
+
