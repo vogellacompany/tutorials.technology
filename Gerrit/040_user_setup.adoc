@@ -29,7 +29,7 @@ If you want to use SSH you have to upload your SSH key. If you prefer
 to use HTTPS, skip this step and go to
 <<gerrit_usersetup_https>>.
 
-From the user drop down menu select _Settings_ and select _SSH Public Keys_ to upload your public SSH key.
+From the user drop down menu select _Settings_ and select _SSH Keys_ to upload your public SSH key.
 
 image::gerritsetup10.png[Settings in Gerrit]
 
