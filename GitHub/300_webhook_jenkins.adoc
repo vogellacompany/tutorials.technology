@@ -1,22 +1,25 @@
-== Continuous Integration with Github and Jenkins via webhooks
+== Continuous Integration with Github and Jenkins via Webhooks
 
 
-You can trigger a `Jenkins` build after each change in on your `GitHub` repository.
+You can trigger a `Jenkins` build after each change in on your `GitHub` repository while using Webhooks.
+It is also possible to use Github Services to achieve this, but GitHub Services are being deprecated, so you should rather use Webhooks.
 
-To enable this, navigate to the repository and click on menu:Settings[Integrations & services].
-Click on `Add Service` and choose the `Jenkins (Github Plugin)` integration.
+To enable this, navigate to the repository and click on menu:Settings[Webhooks].
 
+Click on `Add webhook`.
 
-image::jenkins/github_jenkins_plugin0.png[Select Jenkins (Github Plugin) Service]
+image::jenkins/github_webhook.png[Create new webhook]
 
-The Jenkins webhook url follows the pattern `<Jenkins url>/github-webhook`.
+The Jenkins Webhook URL or also called Payload URL follows the pattern `<Jenkins url>/github-webhook`.
 
-image::jenkins/github_jenkins_plugin1.png[Set your Jenkins webhook url]
+image::jenkins/github_payloadurl.png[Set your Jenkins webhook url]
+
+Click on `Update webhook`.
 
 Now add the https://wiki.jenkins-ci.org/display/JENKINS/GitHub+Plugin[Jenkins GitHub Plugin] to your Jenkins instance.
 Make sure you have your Jenkins build correctly configured for the GitHub repository.
 Navigate to the Configure page of your Jenkins build.
-Under "Build Triggers" choose the option "Build when a change is pushed to GitHub".
+Under "Build Triggers" choose the option "GitHub hook trigger for GITScm polling".
 
 image::jenkins/jenins_github_build_trigger.png[Set jenkins build trigger "Build when a change is pushed to GitHub"] 
 
