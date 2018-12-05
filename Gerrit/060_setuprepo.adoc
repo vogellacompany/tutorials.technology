@@ -22,5 +22,3 @@ Select your project and menu:Access[].
 For testing give push rights to all registered users, which is the default after a fresh installation. In a productive environment, you can configure Gerrit to be more restrictive.
 Especially the access right `Push Merge Commit` for feature branches named `refs/heads/*` is something only trusted and experienced committers should be allowed to do.
 
-
-
