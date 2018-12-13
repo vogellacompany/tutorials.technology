@@ -1,4 +1,3 @@
-[[mergeconflict]]
 == Exercise: Solving a conflict during a merge operation
 
 [[mergeconflict_examplecreate]]
