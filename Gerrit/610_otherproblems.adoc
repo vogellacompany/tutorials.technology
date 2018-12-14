@@ -1,4 +1,3 @@
-[[gerrit_problems]]
 == More infos on trouble shooting
 [[gerrit_problems_removecommit]]
 === Remove a bad commit from a series of commits
