@@ -1,0 +1,34 @@
+== Development
+
+To develop and run a _Dart_ application you typically only need the SDK on your Path and a text editor.
+Such tools are https://LINK-TO-VSCODE[Visual Studio Code] or https://atom.io/[Atom].
+Currently it's quite hard to find proper support, like syntax highlighting or error reporting in other IDEs or editors.
+This is due to Darts proprietary analysis server, that can not be easily used by other clients.
+
+NOTE: There is however a https://langserver.org[Language Server] in development.
+This should make the implementation in other editors or IDEs easier.
+
+=== Running a Dart application
+
+To run a _Dart_ file the file simply needs a `main()` method.
+Then call it from the command line with `dart file-name.dart`.
+
+=== Packaging / Building for production
+
+To bundle your application dart uses so called "snapshots".
+It bundles all files in your project into a runnable dart binary file.
+The _Dart SDK_ can then execute the file.
+
+Creating a snapshot:
+[source, console]
+----
+$ dart --snapshot=<your-snapshot-name> <your-main-file>
+----
+
+Then run the created snapshot:
+[source, console]
+----
+$ dart <your-snapshot-name>
+----
+
+

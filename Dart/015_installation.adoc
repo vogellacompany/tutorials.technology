@@ -5,7 +5,7 @@ This can be done from the https://www.dartlang.org/tools/sdk#install[Dart instal
 
 Follow the instructions for your operating system.
 
-After that the Dart SDK should be on your automatically on you path.
+After that the Dart SDK should be automatically on your path.
 
 To test this type `dart --version` in a terminal.
 
@@ -18,6 +18,8 @@ This is a very handy tool to have on your path as you can use it similar to npm.
 
 To make all of the extra tools available on your path, add the folder `<dart-location>/bin` to your path.
 
+TIP: On most Linux distributions and macOS you can find the `<dart-location>` by typing `which dart` into a terminal.
+
 ==== Linux
 
 On Linux this is typically in `/usr/lib/dart/bin`.
@@ -27,5 +29,4 @@ To add it to your path, simply add `export $PATH:/usr/lib/dart/bin` at the end o
 ==== MacOS
 
 Add `/Applications/dart/dart-sdk/bin` at the end of `/etc/paths`.
-
 

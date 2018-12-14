@@ -1,0 +1,92 @@
+== Programming in Dart
+
+=== Comments
+
+There are three types of comments:
+[source, dart]
+----
+// Single line comment
+
+/*
+Multi line
+comment
+*/
+
+/// Documentation comments
+/// These allow to reference types or variables via [square-brackets]
+----
+
+NOTE: When you use documentation comments (`///`) generting _Dartdoc_ can easily be done by using the `dartdoc` tool.
+This is distributed with the SDK.
+
+=== Variables
+
+Dart has type inference.
+This means there is a `var` keyword that tells the compiler, that it should determine the variable type from the return value.
+Other than this _Dart_ is statically typed.
+
+[source, dart]
+----
+var someVariable = "";
+int someOtherVariable = 1;
+----
+
+=== Classes
+
+Since _Dart_ is an object oriented language there are classes.
+[source, dart]
+----
+class ClassName {
+
+}
+----
+
+==== Constructors
+
+Constructors are called upon the instantiation of the class.
+
+Populating fields in the constructor is very simple:
+[source, dart]
+----
+class ClassName {
+
+    String someVar;
+
+    ClassName(this.someVar); <1>
+}
+
+----
+<1> This automatically requires that one parameter of type `String` is passed to the constructor.
+
+Optional parameter in constructors are also possible:
+[source, dart]
+----
+class ClassName {
+
+    String someVar;
+
+    ClassName({this.someVar}); <1>
+}
+
+----
+<1> Note the curly braces.
+This marks the parameter `someVar` as optional and the user can decide whether to populate the field or not.
+
+==== Instantiation of a class
+
+A class can be instantiated using the `new` keyword:
+
+[source, dart]
+----
+new ClassName("Some Parameter");
+----
+
+Optional parameters need to be named:
+
+[source, dart]
+----
+new ClassName(someVar: "Some Value");
+----
+
+==== Inheritance
+
