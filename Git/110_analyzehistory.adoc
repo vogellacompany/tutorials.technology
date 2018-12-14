@@ -1,7 +1,7 @@
-[[analyzechanges]]
+[[analyzechanges_in_githistory]]
 == Analyzing the commit history with git log
 
-[[analyzechanges_log]]
+[[analyzechanges_log_git]]
 === Using git log
 (((git log)))
 The `git log` command shows the history of the Git repository. 
