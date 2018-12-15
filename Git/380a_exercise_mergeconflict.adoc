@@ -1,4 +1,4 @@
-== Exercise: Solving a conflict during a merge operation
+== Example: Solving a conflict during a merge operation
 
 [[mergeconflict_examplecreate]]
 === Create a conflict
