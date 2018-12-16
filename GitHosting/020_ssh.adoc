@@ -1,7 +1,6 @@
 [[ssh_authentication]]
 == Authentication via SSH
 
-[[ssh_authentication]]
 === The concept of SSH
 (((SSH key pair)))
 Most Git (and Gerrit) servers support SSH based authentication. This
