@@ -1,4 +1,4 @@
-[[resources]]
+[[gerrit_resources]]
 == Gerrit related links
     
 https://www.gerritcodereview.com/[Gerrit Code Review homepage]
