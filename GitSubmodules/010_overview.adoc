@@ -97,7 +97,7 @@ git submodule init #<2>
 <2> initialize submodule configuration
 
 If you track branches in your submodules, you can update them via the `--remote` parameter of the `git submodule update` command.
-This pull in new commits into the main repository and its submodules.
+This pulls in new commits into the main repository and its submodules.
 It also changes the working directories of the submodules to the commit of the tracked branch.
 
 
