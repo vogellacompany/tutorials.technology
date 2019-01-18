@@ -1,14 +1,14 @@
 # see the changes of a file, works even 
 # if the file was deleted
-git log -- [file_path]
+git log --full-history -- [file_path]
 
 # limit the output of Git log to the 
 # last commit, i.e. the commit which delete the file
 # -1 to see only the last commit
 # use 2 to see the last 2 commits etc
-git log -1 -- [file_path]
+git log --full-history -1 -- [file_path]
 
 # include stat parameter to see
 # some statics, e.g., how many files were 
 # deleted
-git log -1 --stat -- [file_path]
+git log --full-history -1 --stat -- [file_path]
