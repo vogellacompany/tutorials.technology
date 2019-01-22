@@ -2,7 +2,6 @@
 
 
 You can trigger a `Jenkins` build after each change in on your `GitHub` repository while using Webhooks.
-It is also possible to use Github Services to achieve this, but GitHub Services are being deprecated, so you should rather use Webhooks.
 
 To enable this, navigate to the repository and click on menu:Settings[Webhooks].
 
@@ -10,7 +9,7 @@ Click on `Add webhook`.
 
 image::jenkins/github_webhook.png[Create new webhook]
 
-The Jenkins Webhook URL or also called Payload URL follows the pattern `<Jenkins url>/github-webhook`.
+The Jenkins Webhook URL or also called Payload URL follows the pattern `<Jenkins url>/github-webhook/`.
 
 image::jenkins/github_payloadurl.png[Set your Jenkins webhook url]
 
