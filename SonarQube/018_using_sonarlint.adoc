@@ -1,0 +1,25 @@
+== SonarLint for Eclipse
+
+=== Installation 
+
+_SonarLint_ is available an stand-alone extension for the Eclipse IDE.
+
+You can install SonarLint into Eclipse via the marketplace client.
+The update site is http://eclipse.sonarlint.org.
+See http://www.sonarlint.org/eclipse/index.html[Sonar on Eclipse] for details.
+
+
+=== Using SonarLint
+
+
+
+Afterwards _SonarLint_ analysis your files automatically if you open them.
+You can run its analysis for one or several projects.
+
+image::sonarlint_analyze10.png[] 
+
+After the analysis the _SonarLint_ Report shows the issues the analysis found.
+
+image::sonarlint_analyze20.png[]
+
+
