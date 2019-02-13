@@ -1,0 +1,4 @@
+== Eclipse tool support
+
+See https://github.com/vogellacompany/eclipse-dart for Eclipse tools support.
+
