@@ -33,7 +33,7 @@ image::api-token.png[]
 
 [NOTE]
 ====
-If http://www.vogella.com/tutorials/TravisCi/article.html[Travis CI] is used the API token is not required.
+If https://www.vogella.com/tutorials/TravisCi/article.html[Travis CI] is used the API token is not required.
 ====
 
 By pressing on the btn:[View example repositories] a lot of example for different languages are shown.

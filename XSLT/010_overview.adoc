@@ -5,7 +5,7 @@ _XSLT_ allows converting XML into other formats. XSLT stands for _Extensible Sty
 You typically run _XLST_ from the command line but there is also tooling available for graphical tools, like the Eclipse IDE.
 	
 For an introduction to XML please see
-http://www.vogella.com/tutorials/JavaXML/article.html[Java and XML Tutorial].
+https://www.vogella.com/tutorials/JavaXML/article.html[Java and XML Tutorial].
 
 .Common instructions
 [cols="1,2",options="header"]

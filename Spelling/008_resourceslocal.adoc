@@ -4,9 +4,9 @@
 [[resources_databinding]]
 === Android Resources
 
-http://www.vogella.com/tutorials/Android/article.html[Android Tutorial]
+https://www.vogella.com/tutorials/Android/article.html[Android Tutorial]
 		
-http://www.vogella.com/tutorials/AndroidLocationAPI/article.html[Android Location API and Google Maps]
+https://www.vogella.com/tutorials/AndroidLocationAPI/article.html[Android Location API and Google Maps]
 		
-http://www.vogella.com/tutorials/AndroidNetworking/article.html[Android and Networking]
+https://www.vogella.com/tutorials/AndroidNetworking/article.html[Android and Networking]
 		

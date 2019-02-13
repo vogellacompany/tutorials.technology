@@ -37,7 +37,7 @@ TIP: Single subprojects can be build when navigating into a subproject and for e
 
 
 NOTE: On Windows OS `./gradlew.bat` must be used +
-See http://www.vogella.com/tutorials/CSS/article.html[CSS tutorial]
+See https://www.vogella.com/tutorials/CSS/article.html[CSS tutorial]
 
 == Create a new tutorial
 

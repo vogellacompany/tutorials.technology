@@ -20,5 +20,5 @@ The _Set Me Up_ link gives guidance how to setup your build tools like Maven or 
 
 image::artifactory-ui-set-me-up.png[]
 
-But concerning build tool configuration refer to the http://www.vogella.com/tutorials/ApacheMaven/article.html[Maven] and http://www.vogella.com/tutorials/Gradle/article.html[Gradle] tutorials.
+But concerning build tool configuration refer to the https://www.vogella.com/tutorials/ApacheMaven/article.html[Maven] and https://www.vogella.com/tutorials/Gradle/article.html[Gradle] tutorials.
 

@@ -4,7 +4,7 @@
 === Prerequisites
 
 Ant requires the installation of the Java Development Kit (JDK). 
-See http://www.vogella.com/tutorials/JavaIntroduction/article.html[Java introduction] for a description how to install Java.
+See https://www.vogella.com/tutorials/JavaIntroduction/article.html[Java introduction] for a description how to install Java.
 
 [[installation_ubuntu]]
 === Ubuntu

@@ -152,7 +152,7 @@ The -0 options is used for files and folders with spaces.
 |===
 
 The `find` command can also be combined with the grep command. 
-See http://www.vogella.com/tutorials/UnixGrep/article.html[Using the grep command].
+See https://www.vogella.com/tutorials/UnixGrep/article.html[Using the grep command].
 
 [commands_foldersize]
 === Calculate the size of a folder

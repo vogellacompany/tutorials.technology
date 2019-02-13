@@ -1,6 +1,6 @@
 == Using Gerrit through GerritHub
 
-http://gerrithub.io[GerritHub] is a service that allows you to use http://www.vogella.com/tutorials/Gerrit/article.html[Gerrit] for code reviews for your GitHub repositories.
+http://gerrithub.io[GerritHub] is a service that allows you to use https://www.vogella.com/tutorials/Gerrit/article.html[Gerrit] for code reviews for your GitHub repositories.
 It works by cloning your repositories to it's servers and allows you to push Gerrit changes to them.
 Merged Gerrit changes are synced back to GitHub.
 Once you have imported a repository to GerritHub it is best to stop pushing to GitHub as GerritHub only syncs in one direction.
@@ -57,7 +57,7 @@ Select all pull requests you want to import and then press the btn:[Next] button
 
 Once you have imported your GitHub resources into GerritHub you can use it like any other Gerrit instance.
 After you merged a change GerritHub will automatically try to push it back to GitHub.
-For information on how to use Gerrit please see our http://www.vogella.com/tutorials/Gerrit/article.html#gerritreview_configuration[Gerrit tutorial].
+For information on how to use Gerrit please see our https://www.vogella.com/tutorials/Gerrit/article.html#gerritreview_configuration[Gerrit tutorial].
 
 
 === Keeping the repositories in sync
@@ -83,7 +83,7 @@ Create a new GitHub user for your Jenkins instance and link it with GerritHub as
 Make sure to add the public ssh key of the Jenkins to this account at https://review.gerrithub.io/#/settings/ssh-keys.
 
 Now give the Jenkins user the rights to change the `Verified` label.
-You can do this by editing your http://www.vogella.com/tutorials/Gerrit/article.html#editing_project_config_git[project configuration file]:
+You can do this by editing your https://www.vogella.com/tutorials/Gerrit/article.html#editing_project_config_git[project configuration file]:
 
 ----
 [access "refs/*"]

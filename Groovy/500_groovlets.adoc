@@ -38,7 +38,7 @@ and download the JAR file of the latest release.
 The following description assume that you are familiar with Java
 Web
 development, if not see the
-http://www.vogella.com/tutorials/EclipseWTP/article.html[Java web development tutorial].
+https://www.vogella.com/tutorials/EclipseWTP/article.html[Java web development tutorial].
 
 Create a new Dynamic Web Project in Eclipse called
 `com.vogella.groovy.web.groovelets`.

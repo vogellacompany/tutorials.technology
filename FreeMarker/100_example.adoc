@@ -6,7 +6,7 @@ Create a new folder called `lib` and add the Freemarker library to it.
 Add this library to the classpath for your project.
 	
 If you don't know how to achieve that, please see the
-http://www.vogella.com/tutorials/Eclipse/article.html[Eclipse IDE Tutorial]
+https://www.vogella.com/tutorials/Eclipse/article.html[Eclipse IDE Tutorial]
 for instructions on the required steps.
 	
 Create a new folder called

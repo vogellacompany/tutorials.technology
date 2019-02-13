@@ -1,6 +1,6 @@
 == Migration of a wordpress blog
 
-Fpt client must be installed see http://www.vogella.com/tutorials/Ubuntu/article.html#installing-a-ftp-server
+Fpt client must be installed see https://www.vogella.com/tutorials/Ubuntu/article.html#installing-a-ftp-server
 
 === Exporting
 

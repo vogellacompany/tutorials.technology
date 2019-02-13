@@ -26,7 +26,7 @@ Use cases are a definition of actions on how a user will interact with a softwar
 The actions are described step by step to define the process that a user will go through to complete the goal.
 Use cases do not only describe the correct steps, they also state the errors that the user could encounter on its way to achieve the goal.
 
-They can consist of only text or also include UML (http://www.vogella.com/tutorials/UML/article.html[Unified Modeling Language]) diagrams.
+They can consist of only text or also include UML (https://www.vogella.com/tutorials/UML/article.html[Unified Modeling Language]) diagrams.
 
 There is not a standard way to write use cases and each project needs to set a a template that fulfills the needs of the project. 
 A possible template for a use case could look like this:

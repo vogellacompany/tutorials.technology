@@ -1,5 +1,5 @@
 [[sourcecode]]
 === Source Code
 
-http://www.vogella.com/code/codejava.html[Source Code of Examples]
+https://www.vogella.com/code/codejava.html[Source Code of Examples]
 

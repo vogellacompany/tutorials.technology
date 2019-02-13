@@ -58,7 +58,7 @@ git log HEAD
 The https://www.eclipse.org/downloads/[Eclipse IDE] provides excellent support for working with Git repositories.
 
 ifndef::fullscript[]
-See http://www.vogella.com/tutorials/EclipseGit/article.html[Using Git with the Eclipse IDE] for an introduction into the usage of Git with Eclipse.
+See https://www.vogella.com/tutorials/EclipseGit/article.html[Using Git with the Eclipse IDE] for an introduction into the usage of Git with Eclipse.
 endif::fullscript[]
 
 

@@ -1,6 +1,6 @@
 == Broadway
 
-This section describes, how you can display the http://www.vogella.com/tutorials/Eclipse/article.html[Eclipse IDE] or any other GTK+ application in your web browser using the _GDK Broadway_ backend.
+This section describes, how you can display the https://www.vogella.com/tutorials/Eclipse/article.html[Eclipse IDE] or any other GTK+ application in your web browser using the _GDK Broadway_ backend.
 
 === Start a Broadway server
 

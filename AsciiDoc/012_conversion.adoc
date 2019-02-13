@@ -1,7 +1,7 @@
 == Conversion with Asciidoctor
 
 You will need a working Ruby installation. For our installation guide see:
-http://www.vogella.com/tutorials/Ruby/article.html
+https://www.vogella.com/tutorials/Ruby/article.html
 
 === Asciidoctor installation
 

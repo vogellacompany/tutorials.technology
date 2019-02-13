@@ -6,7 +6,7 @@
 
 http://tomcat.apache.org/[Apache Tomcat Homepage]
 
-http://www.vogella.com/tutorials/EclipseWTP/article.html[Java Webdevelopment with Eclipse WTP - Tutorial]
+https://www.vogella.com/tutorials/EclipseWTP/article.html[Java Webdevelopment with Eclipse WTP - Tutorial]
 
 http://wiki.eclipse.org/WTP_Tomcat_FAQ[Eclipse WTP and Tomcat FAQ]
 

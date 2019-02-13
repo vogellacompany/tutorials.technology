@@ -1,4 +1,4 @@
 == MySQL
 	
-For a description of MySQL and its installation in Ubuntu see http://www.vogella.com/tutorials/MySQL/article.html[MySQL - Tutorial].
+For a description of MySQL and its installation in Ubuntu see https://www.vogella.com/tutorials/MySQL/article.html[MySQL - Tutorial].
 	

@@ -31,6 +31,6 @@ Finally `mvn clean deploy` can be called on a Maven project in order to deploy i
 
 [NOTE]
 ====
-For the usage in a Gradle project, please see http://www.vogella.com/tutorials/Gradle/article.html[Gradle tutorial]
+For the usage in a Gradle project, please see https://www.vogella.com/tutorials/Gradle/article.html[Gradle tutorial]
 ====
 

@@ -2,5 +2,5 @@
 == Contributing to Eclipse via Gerrit
 
 This part of the tutorial has moved to
-http://www.vogella.com/tutorials/EclipsePlatformDevelopment/article.html[Eclipse platform development].
+https://www.vogella.com/tutorials/EclipsePlatformDevelopment/article.html[Eclipse platform development].
 

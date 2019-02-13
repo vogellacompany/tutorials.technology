@@ -9,7 +9,7 @@ http://mrhaki.blogspot.de/search/label/Groovy[Groovy Goodness blog series from H
 
 https://github.com/martofeld/groovykoans-master-resolve[Groovy Koans from Nadav Cohen partially reused in this description]
 
-http://www.vogella.com/articles/JavaRegularExpressions/article.html[Java regular expression tutorial]
+https://www.vogella.com/articles/JavaRegularExpressions/article.html[Java regular expression tutorial]
 
 http://docs.groovy-lang.org/latest/html/documentation/index.html#_regular_expression_operators[Regular expressions in Groovy]
 

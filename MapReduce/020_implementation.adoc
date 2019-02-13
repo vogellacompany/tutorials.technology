@@ -2,5 +2,5 @@
 == Implementation in Java
 
 The best known Java implementation of MapReduce is
-http://www.vogella.com/tutorials/ApacheHadoop/article.html[Apache Hadoop].
+https://www.vogella.com/tutorials/ApacheHadoop/article.html[Apache Hadoop].
 

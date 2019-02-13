@@ -1,4 +1,4 @@
 == Package Drone
 
-Package Drone is an artifact manager like http://www.vogella.com/tutorials/Artifactory/article.html[Artifactory] or http://www.vogella.com/tutorials/Nexus/article.html[Nexus], which is based on OSGi. Since this artifact manager itself is based on OSGi it comes with very strong support for OSGi environments.
+Package Drone is an artifact manager like https://www.vogella.com/tutorials/Artifactory/article.html[Artifactory] or https://www.vogella.com/tutorials/Nexus/article.html[Nexus], which is based on OSGi. Since this artifact manager itself is based on OSGi it comes with very strong support for OSGi environments.
 

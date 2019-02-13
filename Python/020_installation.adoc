@@ -14,10 +14,10 @@ use the native installer for Python.
 === Eclipse Python plugin
 
 The following assume that you have already
-http://www.vogella.com/tutorials/Eclipse/article.html[Eclipse]
+https://www.vogella.com/tutorials/Eclipse/article.html[Eclipse]
 installed. For an
 installation description of Eclipse please see
-http://www.vogella.com/tutorials/Eclipse/article.html[Eclipse IDE for Java].
+https://www.vogella.com/tutorials/Eclipse/article.html[Eclipse IDE for Java].
 
 For Python development under Eclipse you can use the PyDev
 Plugin

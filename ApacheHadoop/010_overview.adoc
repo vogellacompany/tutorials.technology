@@ -3,7 +3,7 @@
 === Overview
 
 Apache Hadoop is a software solution for distributed computing of large datasets. 
-Hadoop provides a distributed filesystem (HDFS) and a http://www.vogella.com/tutorials/MapReduce/article.html[MapReduce] implementation.
+Hadoop provides a distributed filesystem (HDFS) and a https://www.vogella.com/tutorials/MapReduce/article.html[MapReduce] implementation.
 
 A special computer acts as the "name node". 
 This computer saves the information about the available clients and the files. 

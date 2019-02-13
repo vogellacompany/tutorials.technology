@@ -20,7 +20,7 @@ The main advantages of distributed version control systems are
 * Commits: Everyone can commit to his own branch
 
 Another popular distributed version control systems is
-http://www.vogella.com/tutorials/Git/article.html[Git].
+https://www.vogella.com/tutorials/Git/article.html[Git].
 
 [[overview_mercurial]]
 === Mercurial
@@ -32,6 +32,6 @@ hosting.
 
 Mercurial is written in Python. Mercurial has a command-line
 interface.
-http://www.vogella.com/tutorials/Eclipse/article.html[Eclipse]
+https://www.vogella.com/tutorials/Eclipse/article.html[Eclipse]
 provides also a plug-in to use Mercurial.
 

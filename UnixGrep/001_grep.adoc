@@ -1,7 +1,7 @@
 [[grep]]
 == Grep
 
-Grep is a command line tool to search for http://www.vogella.com/tutorials/JavaRegularExpressions/article.html[regular expressions].
+Grep is a command line tool to search for https://www.vogella.com/tutorials/JavaRegularExpressions/article.html[regular expressions].
 Grep will print the matching line to the output and with the `--color` flag you can highlight the matching strings.
 
 The usage of the Grep command is demonstrated by the following

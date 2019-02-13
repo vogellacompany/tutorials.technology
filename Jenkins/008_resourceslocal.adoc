@@ -5,5 +5,5 @@ https://jenkins-ci.org[Homepage of the Jenkins project]
 	
 http://blog.dahanne.net/2011/07/18/run-ui-tests-on-a-headless-jenkins-hudson-continuous-integration-server-running-ubuntu[Running tests on a headless Jenkins server]
 	
-http://www.vogella.com/tutorials/AndroidBuild/article.html[Android Build tutorial]	
+https://www.vogella.com/tutorials/AndroidBuild/article.html[Android Build tutorial]	
 

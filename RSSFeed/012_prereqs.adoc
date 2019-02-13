@@ -7,5 +7,5 @@ RSS feeds. The following will use the Java Stax XML
 parser.
 	
 For an introduction into XML and its usage with Java see
-http://www.vogella.com/tutorials/JavaXML/article.html[Java XML Tutorial].
+https://www.vogella.com/tutorials/JavaXML/article.html[Java XML Tutorial].
 

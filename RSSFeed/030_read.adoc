@@ -14,7 +14,7 @@ include::res/read/RSSFeedParser.java[]
 [[read_test]]
 === Test the code
 
-The following uses a main method to test. You could also use http://www.vogella.com/tutorials/JUnit/article.html[JUnit].
+The following uses a main method to test. You could also use https://www.vogella.com/tutorials/JUnit/article.html[JUnit].
 
 [source,text]
 ----

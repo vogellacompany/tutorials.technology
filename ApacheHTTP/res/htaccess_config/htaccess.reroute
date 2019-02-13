@@ -1,5 +1,5 @@
 
 RewriteEngine on
 RewriteCond %{HTTP_HOST} !^www\.vogella\.de$
-RewriteRule ^(.*)$ http://www.vogella.com/$1 [L,R=301] 
-redirect 301 /articles/SpringFramework/article.html http://www.vogella.com/tutorials/SpringDependencyInjection/article.html
+RewriteRule ^(.*)$ https://www.vogella.com/$1 [L,R=301] 
+redirect 301 /articles/SpringFramework/article.html https://www.vogella.com/tutorials/SpringDependencyInjection/article.html

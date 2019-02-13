@@ -3,7 +3,7 @@
 
 http://git-scm.com/[Git homepage]
 
-http://www.vogella.com/tutorials/EclipseGit/article.html[EGit - Teamprovider for Eclipse]
+https://www.vogella.com/tutorials/EclipseGit/article.html[EGit - Teamprovider for Eclipse]
 
 http://www.youtube.com/watch?v=4XpnKHJAok8[Video with Linus Torvalds on Git]
 

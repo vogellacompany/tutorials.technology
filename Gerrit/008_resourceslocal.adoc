@@ -13,7 +13,7 @@ http://wiki.eclipse.org/Gerrit[Gerrit at Eclipse webpage] .
 
 http://git-scm.com/[Git homepage]
     
-http://www.vogella.com/tutorials/EclipseGit/article.html[Git support for the Eclipse IDE]
+https://www.vogella.com/tutorials/EclipseGit/article.html[Git support for the Eclipse IDE]
     
 http://www.infoq.com/articles/Gerrit-jenkins-hudson[Setting up Gerrit and Jenkins from Alex Blewitt]
 

@@ -2,5 +2,5 @@
 == MapReduce
 
 Apache Hadoop jobs work according to the MapRecude principle.
-See http://www.vogella.com/tutorials/MapReduce/article.html[MapReduce] for details. 
+See https://www.vogella.com/tutorials/MapReduce/article.html[MapReduce] for details. 
 

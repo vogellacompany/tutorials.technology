@@ -4,9 +4,9 @@
 This tutorial is part of a series about the Git version control system.
 See the other tutorials for more information.
 
-* http://www.vogella.com/tutorials/Git/article.html[Introduction to Git]
-* http://www.vogella.com/tutorials/GitHub/article.html[Using Github]
-* http://www.vogella.com/tutorials/GitHosting/article.html[Hosting Git repositories at Bitbucket or on your own server]
-* http://www.vogella.com/tutorials/GitWorkflows/article.html[Typical workflows with Git]
-* http://www.vogella.com/tutorials/EclipseGit/article.html[EGit - Teamprovider for Eclipse]
+* https://www.vogella.com/tutorials/Git/article.html[Introduction to Git]
+* https://www.vogella.com/tutorials/GitHub/article.html[Using Github]
+* https://www.vogella.com/tutorials/GitHosting/article.html[Hosting Git repositories at Bitbucket or on your own server]
+* https://www.vogella.com/tutorials/GitWorkflows/article.html[Typical workflows with Git]
+* https://www.vogella.com/tutorials/EclipseGit/article.html[EGit - Teamprovider for Eclipse]
 
