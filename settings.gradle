@@ -1,4 +1,4 @@
-rootProject.name = 'com.vogella.tutorials.technology'
+rootProject.name = 'tutorials.technology'
 
 include 'Flutter'
 include 'Groovy'
