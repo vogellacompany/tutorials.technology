@@ -9,7 +9,6 @@ The default port of Jenkins is `:8080`, therefore on your local machine you find
 http://localhost:8080/
 ....
 
-
 You will need to copy the initial password from the file system of the server.
 
 Afterwards you can select to install plug-ins.
@@ -59,3 +58,10 @@ sudo -u jenkins ssh-keygen
 ----
 
 The public key must be uploaded to the service you are using, e.g., Github.
+
+=== Configure the default port of the Jenkins build server
+
+[source,console]
+----
+sudo vim /etc/default/jenkins
+

@@ -3,8 +3,8 @@
 :experimental:
 :icons:
 :imagesdir: ./img
-Lars Vogel(c) 2010, 2017 vogella GmbH
-Version 1.1, 06.07.2017
+Lars Vogel(c) 2010, 2019 vogella GmbH
+Version 1.1, 06.02.2019
 :keywords: Apache HTTP
 :docinfodir: ../
 :vgwort: ApacheHTTP
@@ -16,6 +16,7 @@ This articles contains information about the Apache HTTP server.
 				
 include::../web/advertisement/afterTableOfContent.adoc[]
 include::010_overview.adoc[]
+include::012_installation.adoc[]
 include::100_apachehttp.adoc[]
 include::200_vhosts.adoc[]
 

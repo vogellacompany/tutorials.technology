@@ -4,8 +4,8 @@
 :experimental:
 :icons:
 :imagesdir: ./img
-Lars Vogel (c) 2009, 2017 vogella GmbH
-Version 1.7, 12.06.2017
+Lars Vogel (c) 2009, 2019 vogella GmbH
+Version 1.8, 14.02.2019
 :keywords: Jenkins, Continues Integration
 :contentidentifier: description
 :docinfodir: ../

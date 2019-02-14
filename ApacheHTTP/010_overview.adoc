@@ -3,9 +3,4 @@
 The https://httpd.apache.org/[Apache HTTP server project] develops and maintains an open-source HTTP server.
 The Apache HTTP web server is one of the most used web server worldwide.
 
-== Installation and configuration
 
-On Ubuntu you can install the Apache HTTP server with the following command.
-----
-sudo apt-get install apache2
-----
