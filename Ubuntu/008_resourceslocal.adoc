@@ -8,3 +8,4 @@ http://www.hamvocke.com/blog/a-quick-and-easy-guide-to-tmux/[Tmux introduction]
 
 http://hamvocke.com/blog/a-guide-to-customizing-your-tmux-conf/[Guide to Tmux customization]
 
+https://wiki.hetzner.de/index.php/Hetzner_Rescue-System[Rescue a lost server]
