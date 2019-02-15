@@ -1,4 +1,4 @@
-[[inkscape]]
+[[inkscape_cutimage]]
 == Cut a section of an image
 
 In order to cut out a section of an image first make sure that the image is either contained in a layer or all elements are grouped.
