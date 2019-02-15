@@ -8,7 +8,7 @@ _Apache Ant_ (Ant) is a general purpose build tool. Ant is an abbreviation for _
 
 Ant is primarily used for building and deploying Java projects but can be used for every possible repetitive tasks, e.g. generating documentation.
 
-[[antoverview_definition]]
+[[antoverview_config]]
 === Configuring Apache Ant
 
 A Java build process typically includes:
