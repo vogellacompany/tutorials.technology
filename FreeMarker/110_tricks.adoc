@@ -41,7 +41,7 @@ You can define and assign content to variables inside the FTL files for easy reu
 include::res/tricks/variables.ftl[]
 ----
 
-[[freemarkertricks_macro]]
+[[freemarkertricks_null_values]]
 === Handling null/undefined values
 
 FreeMarker requires you to provide an explicit default for variables, so avoid
