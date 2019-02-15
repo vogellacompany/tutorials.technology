@@ -9,7 +9,7 @@ The Eclipse XSL Project allows to edit XSLT files and perform interactive XSL tr
 In case you want to use Eclipse to perform your transformation you can install the _Eclipse XSL Developer_ plugin via the
 https://www.vogella.com/tutorials/Eclipse/article.html[Eclipse update manager].
 
-[[installation_eclipse]]
+[[transformations_eclipse]]
 === XSLT transformations with Eclipse
 
 This chapter explains how to use the Eclipse tooling to do your XLS transformation. 
