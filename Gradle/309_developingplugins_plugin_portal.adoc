@@ -4,7 +4,7 @@ To publish a Gradle plug-in in the Gradle Plug-in Portal the _com.gradle.plugin-
 
 Before uploading Gradle plug-ins to the portal you must register at https://plugins.gradle.org/user/register and obtain the api keys from your profile.
 
-image::[gradle-plug-in-api-key.png] 
+image::gradle-plug-in-api-key.png[] 
 
 The _gradle.publish.key_ and _gradle.publish.secret_ properties have to be added to the _gradle.properties_.
 
