@@ -1,19 +1,11 @@
-buildscript {
-	repositories { 
-		mavenLocal()
-		jcenter()
-		maven{ url 'https://dl.bintray.com/vogellacompany/Gradle-AsciiDoctor-Plugin/' }
-	}
-	dependencies {
-		classpath 'com.vogella.gradle:com.vogella.gradle.plugin.asciidoc:0.5.9'
-
-	}
+plugins {
+  id "com.vogella.asciidoc" version "0.16.0"
 }
 
-subprojects {
-	apply plugin: 'com.vogella.gradle.plugin'
+allprojects {
+	apply plugin: 'com.vogella.asciidoc'
 }
 
-task wrapper(type: Wrapper) {
-	gradleVersion = '3.3'
+wrapper {
+	gradleVersion = '4.10.1'
 }
