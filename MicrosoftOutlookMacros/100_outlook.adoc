@@ -1,4 +1,4 @@
-[[msoutlook]]
+[[msoutlook_macros]]
 == Outlook Macros
 
 [[msoutlook_hellomacro]]
