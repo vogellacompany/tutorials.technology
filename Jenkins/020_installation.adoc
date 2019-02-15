@@ -4,7 +4,6 @@ For most platforms you have native packages, see the https://jenkins.io/[Jenkins
 
 === Installing of the Jenkins server on Ubuntu
 
-
 Jenkins provides Debian/Ubuntu packages which install Jenkins and register Jenkins as start service. 
 See the https://jenkins.io/doc/book/installing/#debian-ubuntu[Install Jenkins on Ubuntu description]
 The Linux installation creates a _/etc/init.d/jenkins_ script which starts Jenkins automatically at boot time.

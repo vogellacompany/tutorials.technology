@@ -104,6 +104,6 @@ After you have finished editing the pipeline _Blue Ocean_ offers to commit the n
 
 Under the hood _Blue Ocean_ only created a valid `Jenkinsfile` for jenkins to use.
 
-After commiting _Jenkins_ will build the project using the newly modified pipelines.
+After committing _Jenkins_ will build the project using the newly modified pipelines.
 
 
