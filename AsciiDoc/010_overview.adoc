@@ -39,7 +39,7 @@ You can define the position of the toc.
 
 `preamble` will position the toc in the main content area (some as default) but before the preable.
 
-=== Install2 the Asciidoctor toolchain
+=== Install the Asciidoctor toolchain
 
 If you want to use Asciidoctor directly you have to install its toolchain. 
 If you are using Gradle or Maven as build systems, it is not required to install Asciidoctor separately. 
