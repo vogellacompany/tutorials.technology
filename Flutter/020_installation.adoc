@@ -1,11 +1,38 @@
-[[installation]]
-== Installation of Derby
+== Installation of Flutter
 
-Download the latest Derby version from the Apache website http://db.apache.org/derby/. 
-Choose the bin distribution and extract this zip to a directory of your choice. 
+To develop _Flutter_ apps you need the _Flutter SDK_ and a text editor.
+Follow the instructions on the https://flutter.dev/docs/get-started/install[Flutter installation page] for your operating system.
 
-Also make the Derby tools available in your path:
+Apart from the SDK itself _Flutter_ also needs a few other tools to function properly.
+Namely the Android SDK is needed for Android development.
+Follow the instructions here: https://developer.android.com/studio
 
-* Set the environment variable DERBY_HOME to the Derby installation directory
-* Add DERBY_HOME/bin to the "path" environment variable
+For iOS development you also need Xcode. 
+Follow the instructions here: https://flutter.dev/docs/get-started/install/macos#install-xcode
 
+NOTE: Due to the nature of iOS apps they can only be developed on macOS devices.
+
+To test your installation run the `$ flutter doctor` command.
+The output should look like this:
+[source, console]
+----
+[✓] Flutter (Channel stable, v1.2.1, on Linux, locale en_US.UTF-8)
+[✓] Android toolchain - develop for Android devices (Android SDK version 28.0.3)
+[!] Android Studio (version 3.3)
+    ✗ Flutter plugin not installed; this adds Flutter specific functionality. <1>
+    ✗ Dart plugin not installed; this adds Dart specific functionality. <1>
+[✓] VS Code (version 1.32.3)
+[!] Connected device
+    ! No devices available <2>
+----
+<1> If you're not using Android Studio for development you can ignore these errors
+<2> Configuring devices for debugging will be covered later
+
+=== Setup of the Android Emulator
+
+The emulator can be a powerful replacement of a physical Android device.
+
+Before setting it up it is advisable to enable https://developer.android.com/studio/run/emulator-acceleration[VM Acceleration] on your development machine.
+This can sometimes drastically improve performance of the emulator.
+
+=== Setup of ADB on a physical device

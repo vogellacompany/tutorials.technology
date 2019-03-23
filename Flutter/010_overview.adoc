@@ -1,21 +1,13 @@
-[[derby]]
-== Apache Derby
+[[flutter]]
+== Flutter
 
-[[derby_overview]]
+[[flutter_overview]]
 === Overview
 
-Apache Derby is an open source database written in Java. 
-It is free and performs well. 
-Apache Derby is used in the JDK and is called Java DB.
-Apache Derby and Java DB are essentially the same.
-Apache Derby is the reference implementation for JDBC 4.0 and compatible to ANSI-SQL.
-JDBC is the Java interface to connect to databases.
+The _Flutter SDK_ allows you to build beautiful and fast native apps for both iOS and Android with a single codebase.
+It was introduced by Google in 2017 and has reached v1.0 on December 4th, 2018.
 
-[[derby_modes]]
-=== Server vs. embedded mode
+It is written in C, C++ and Dart.
+The SDK utilizes the Skia Graphics Engine to render on iOS and Android.
 
-Derby can be used in a _server mode_ and in a so-called _embedded mode_.
-If Derby runs in the _server mode_ you start the Derby network server which will be responsible for handling the database requests. 
-In _embedded mode_ Derby runs within the JVM (Java Virtual Machine) of the application. 
-In this mode only the application can access the database, e.g. another user / application will not be able to access the database.
 

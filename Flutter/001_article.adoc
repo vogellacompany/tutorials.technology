@@ -1,16 +1,16 @@
-= Using the Flutter SDK to build mobile applications - Tutorial
+= Developing Mobile Apps with Flutter  - Tutorial
 :linkcss:
 :experimental:
 :icons:
 :imagesdir: ./img
-Lars Vogel, (c) 2018 vogella GmbH
-Version 0.1, 20.04.2018
+Lars Vogel, Jonas Hungershausen (c) 2018 vogella GmbH
+Version 0.2, 23.03.2019
 :docinfodir: ../
 :vgwort: Flutter
 
 [abstract]
-This tutorial explains how to develop mobile application using the Flutter SDK.
-  
+This tutorial gives a brief introduction to the Flutter SDK
+
 include::../web/advertisement/afterTableOfContent.adoc[]
 include::010_overview.adoc[]
 include::020_installation.adoc[]

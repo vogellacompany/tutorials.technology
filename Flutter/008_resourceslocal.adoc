@@ -1,7 +1,7 @@
 [[resources]]
 == Links and Literature
 
-http://db.apache.org/derby/[Apache Derby Homepage]
+https://flutter.dev/[Flutter Homepage]
 
-http://support.microsoft.com/kb/q137890/[Microsoft Help - How To Create a User-Defined Service]
+https://www.vogella.com/tutorials/Dart/article.html[vogella - Dart Tutorial]
 
