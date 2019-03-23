@@ -16,14 +16,14 @@ comment
 /// These allow to reference types or variables via [square-brackets]
 ----
 
-NOTE: When you use documentation comments (`///`) generting _Dartdoc_ can easily be done by using the `dartdoc` tool.
+TIP: When you use documentation comments (`///`) generating _Dartdoc_ can easily be done by using the `dartdoc` tool.
 This is distributed with the SDK.
 
 === Variables
 
 Dart has type inference.
 This means there is a `var` keyword that tells the compiler, that it should determine the variable type from the return value.
-Other than this _Dart_ is statically typed.
+But variables can also be manually typed though it is favorable to use var in many cases.
 
 [source, dart]
 ----
@@ -31,9 +31,20 @@ var someVariable = "";
 int someOtherVariable = 1;
 ----
 
+==== `static`, `final`, `const`
+
+`static` variables are available on the class itself instead of the instance. 
+
+`final` variables can not be reassigned. 
+They must be initialized.
+
+`const` means that the value of a variable can not be changed.
+This applies to `List`s, classes and other types.
+Essentially the value of a `const` variable is determined at *compile* time and can not be changed whatsoever at run time.
+
 === Classes
 
-Since _Dart_ is an object oriented language there are classes.
+Since _Dart_ is an object oriented language it has classes.
 [source, dart]
 ----
 class ClassName {
@@ -43,7 +54,7 @@ class ClassName {
 
 ==== Constructors
 
-Constructors are called upon the instantiation of the class.
+Constructors are called upon instantiation of the class.
 
 Populating fields in the constructor is very simple:
 [source, dart]
@@ -70,7 +81,7 @@ class ClassName {
 
 ----
 <1> Note the curly braces.
-This marks the parameter `someVar` as optional and the user can decide whether to populate the field or not.
+This marks the parameter `someVar` as optional and the programmer can decide whether to populate the field or not.
 
 ==== Instantiation of a class
 
@@ -88,5 +99,23 @@ Optional parameters need to be named:
 new ClassName(someVar: "Some Value");
 ----
 
+NOTE: Since _Dart 2_ the new keyword can be omitted.
+
+If the members of a class are `final` and are initialized in the constructor it can also be made `const`. 
+This allows the class to be constructed at compile time.
+
+[source, dart]
+----
+class ClassName {
+
+    final String someVar;
+
+    const ClassName({this.someVar});
+}
+----
+
 ==== Inheritance
+
+_Dart_ classes have mixin-based inheritance.
+Every object is an instance of a class, and all classes inherit from `Object`.
 

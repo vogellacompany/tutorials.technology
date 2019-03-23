@@ -1,22 +1,18 @@
 == Development
 
 To develop and run a _Dart_ application you typically only need the SDK on your Path and a text editor.
-Such tools are https://LINK-TO-VSCODE[Visual Studio Code] or https://atom.io/[Atom].
-Currently it's quite hard to find proper support, like syntax highlighting or error reporting in other IDEs or editors.
-This is due to Darts proprietary analysis server, that can not be easily used by other clients.
-
-NOTE: There is however a https://langserver.org[Language Server] in development.
-This should make the implementation in other editors or IDEs easier.
+Such tools are https://code.visualstudio.com/[Visual Studio Code] or https://atom.io/[Atom].
 
 === Running a Dart application
 
-To run a _Dart_ file the file simply needs a `main()` method.
-Then call it from the command line with `dart file-name.dart`.
+Running a _Dart_ program simply needs a file with a `main()` method.
+This file can then be executed using the _Dart_ compiler via `$ dart path-to-file.dart`.
+The compiler will automatically pick up the `main()` method and execute it.
 
 === Packaging / Building for production
 
-To bundle your application dart uses so called "snapshots".
-It bundles all files in your project into a runnable dart binary file.
+To bundle your application _Dart_ uses so called "snapshots".
+It bundles all files in your project into an executable binary file.
 The _Dart SDK_ can then execute the file.
 
 Creating a snapshot:

@@ -1,22 +1,22 @@
 == Installation
 
-To be able to run or compile Dart written apps you will need to have the Dart SDK installed.
-This can be done from the https://www.dartlang.org/tools/sdk#install[Dart installation website].
+To be able to run or compile _Dart_ apps you will need to have the Dart SDK installed.
+The SDK can be downloaded from the https://www.dartlang.org/tools/sdk#install[Dart installation website].
 
 Follow the instructions for your operating system.
 
-After that the Dart SDK should be automatically on your path.
+After that the _Dart SDK_ should be automatically added to your path.
 
 To test this type `dart --version` in a terminal.
 
 === Other modules
 
-Dart comes with some other modules that may need to be on the path.
+Dart comes with some other modules that may need to be added to the path.
 
-Amongst them is the https://www.dartlang.org/tools/pub[Dart Package Manager "*Pub*"].
-This is a very handy tool to have on your path as you can use it similar to npm.
+One of them is the https://www.dartlang.org/tools/pub[Dart Package Manager "*Pub*"].
+Having it on the path can be handy as it allows you to use packages from the pub registry, similar to _NPM_.
 
-To make all of the extra tools available on your path, add the folder `<dart-location>/bin` to your path.
+To make all of the extra tools available anywhere, add the folder `<dart-location>/bin` to your path.
 
 TIP: On most Linux distributions and macOS you can find the `<dart-location>` by typing `which dart` into a terminal.
 
@@ -30,3 +30,4 @@ To add it to your path, simply add `export $PATH:/usr/lib/dart/bin` at the end o
 
 Add `/Applications/dart/dart-sdk/bin` at the end of `/etc/paths`.
 
+//TODO: Add windows description
