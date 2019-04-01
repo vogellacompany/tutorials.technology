@@ -21,12 +21,34 @@ The output should look like this:
 [!] Android Studio (version 3.3)
     ✗ Flutter plugin not installed; this adds Flutter specific functionality. <1>
     ✗ Dart plugin not installed; this adds Dart specific functionality. <1>
-[✓] VS Code (version 1.32.3)
+[!] VS Code (version 1.32.3)
+    ✗ Flutter extension not installed; install from
+      https://marketplace.visualstudio.com/items?itemName=Dart-Code.flutter <2>
 [!] Connected device
-    ! No devices available <2>
+    ! No devices available <3>
 ----
 <1> If you're not using Android Studio for development you can ignore these errors
-<2> Configuring devices for debugging will be covered later
+<2> Configuration of the editor will be covered later
+<3> Configuring devices for debugging will be covered later
+
+==== Special note for Linux users
+
+If you're on Linux (Ubuntu, Fedora, Arch, etc.) you might need to install an additional package.
+The output of `$ flutter doctor` will show you the following message:
+```
+    ✗ Downloaded executables cannot execute on host.
+      See https://github.com/flutter/flutter/issues/6207 for more information
+      On Debian/Ubuntu/Mint: sudo apt-get install lib32stdc++6
+      On Fedora: dnf install libstdc++.i686
+      On Arch: pacman -S lib32-libstdc++5 (you need to enable multilib:
+      https://wiki.archlinux.org/index.php/Official_repositories#multilib)
+```
+
+For flutter to function correctly you need to install the packages mentioned in the message.
+
+- For ubuntu: `sudo apt-get install lib32stdc++6`
+- For fedora: `dnf install libstdc++.i686`
+- For arch: `pacman -S lib32-libstdc++5` along with following the instructions on this link: https://wiki.archlinux.org/index.php/Official_repositories#multilib
 
 === Setup of the Android Emulator
 
@@ -36,3 +58,24 @@ Before setting it up it is advisable to enable https://developer.android.com/stu
 This can sometimes drastically improve performance of the emulator.
 
 === Setup of ADB on a physical device
+
+Flutter allows to use your physical android device as a debug target.
+To enable this functionality you need to enable ADB debugging on the device.
+This setting can be found in the developer options of your phone.
+
+Open the settings app on the phone and got to *About Phone* and tap *Build Number* seven times.
+This enables a submenu in the settings app.
+
+Go to *Developer options* at the bottom and enable *USB-Debugging*.
+
+NOTE: On some devices the *Developer Options* can be located or activated differently.
+If unsure search for the instructions for your specific device.
+
+Connect your smartphone to your PC via USB.
+
+Now run `$ flutter doctor` again and there should be 1 connected device:
+
+`[✓] Connected device (1 available)`
+
+NOTE: On some devices you will first have accept the connection by your PC.
+

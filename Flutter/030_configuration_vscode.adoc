@@ -1,0 +1,27 @@
+== Configuration of the development environment
+
+Generally Flutter can be developed with both https://code.visualstudio.com/[VSCode] and https://developer.android.com/studio[Android Studio].
+Even just a texteditor and a command line could be sufficient.
+But it should be noted that a proper IDE (or VSCode with plugins) will greatly enhance the development experience through proper debugging, etc.
+
+=== Visual Studio Code
+
+Visual Studio Code is a very lightweight text editor with support for a wide-array of plugins. 
+
+Follow the instructions on https://code.visualstudio.com/ for your platform.
+
+For Flutter development there are two plugins required:
+
+- link:vscode:extension/Dart-Code.dart-code[Dart Code]
+- link:vscode:extension/Dart-Code.flutter[Flutter]
+
+By clicking each link above Visual Studio Code will open the installation page of each plugin.
+Install both and reload the program if prompted.
+
+Alternatively (or if the above links don't work) you can click on the extension icon on the left sidebar and search for *Dart* and *Flutter* and install the extensions manually.
+
+=== Android Studio
+
+Android Studio has the advantage of needing to be installed anyway to develop Flutter applications.
+At this step you should already have Android Studio installed.
+
