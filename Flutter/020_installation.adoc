@@ -31,7 +31,7 @@ The output should look like this:
 <2> Configuration of the editor will be covered later
 <3> Configuring devices for debugging will be covered later
 
-==== Special note for Linux users
+=== Special note for Linux users
 
 If you're on Linux (Ubuntu, Fedora, Arch, etc.) you might need to install an additional package.
 The output of `$ flutter doctor` will show you the following message:
