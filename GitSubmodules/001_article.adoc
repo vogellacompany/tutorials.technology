@@ -1,12 +1,10 @@
 = Using submodules in Git - Tutorial
-:linkcss:
+include::../10_Include/settings.adoc[]
+:vgwort: GitSubmodules
+:contentidentifier: description
+:keywords: Git command line, Git, rebase, merge
 Lars Vogel (c) 2009-2016 vogella GmbH
 Version 5.8, 10.08.2015
-:keywords: Git command line, Git, rebase, merge
-:contentidentifier: description
-:imagesdir: img
-:docinfodir: ../
-:vgwort: GitSubmodules
 
 [abstract]
 This tutorial explains the usage of submodules with the Git version control system.

@@ -1,21 +1,17 @@
 = Collection of Helpful Programs - Tutorial
-:linkcss:
-:experimental:
-:icons:
-:imagesdir: ./img
+include::../10_Include/settings.adoc[]
+:vgwort: Gmail
 Lars Vogel, (c) 2007, 2016 vogella GmbH
 Version 1.3, 29.09.2016
-:docinfodir: ../
-:vgwort: Gmail
 
 [abstract]
 Helpful programs.
-This articles lists useful programs which I like to use. 
+This articles lists useful programs which I like to use.
 The article is not intended to contain any useful information for other users then myself.
-  
+
 include::../web/advertisement/afterTableOfContent.adoc[]
 include::001_gmail.adoc[]
 
 include::008_resourceslocal.adoc[]
-include::../copyright.adoc[]	
+include::../copyright.adoc[]
 

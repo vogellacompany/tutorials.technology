@@ -1,16 +1,12 @@
 = Continuous Integration (CI) with Travis - Tutorial
-:linkcss:
-:experimental:
-:icons:
-:imagesdir: ./img
+include::../10_Include/settings.adoc[]
+:vgwort: TravisCi
 Simon Scholz (c) 2017 vogella GmbH
 Version 0.1, 27.02.2017
-:docinfodir: ../
-:vgwort: TravisCi
 
 [abstract]
 This tutorial contains notes about Travis CI.
-				
+
 include::010_overview.adoc[]
 include::../web/advertisement/inBetween01.adoc[]
 include::020_setup.adoc[]
@@ -21,6 +17,6 @@ include::../web/advertisement/inBetween02.adoc[]
 include::060_running_display.adoc[]
 
 include::008_resourceslocal.adoc[]
-include::../copyright.adoc[]	
+include::../copyright.adoc[]
 
 

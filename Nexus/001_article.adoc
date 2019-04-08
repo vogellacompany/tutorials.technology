@@ -1,19 +1,14 @@
 = Nexus Repository Manager - Tutorial
-:linkcss:
-:sectnums:                                                          
-:experimental:
-:icons:
-:imagesdir: ./img
+include::../10_Include/settings.adoc[]
+:vgwort: Nexus
 Simon Scholz, (c) 2009, 2016 vogella GmbH
 Version 0.2, 26.08.2016
-:docinfodir: ../
-:vgwort: Nexus
 
 [abstract]
 Nexus Repository Manager.
 This article describes how to use and install the Nexus Repository Manager.
 
-include::../web/advertisement/afterTableOfContent.adoc[]	
+include::../web/advertisement/afterTableOfContent.adoc[]
 include::010_overview.adoc[]
 include::020_installation.adoc[]
 include::../web/advertisement/inBetween01.adoc[]

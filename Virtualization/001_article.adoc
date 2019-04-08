@@ -1,18 +1,14 @@
 = Virtualization under Ubuntu - Tutorial
-:linkcss:
-:experimental:
-:icons:
-:imagesdir: ./img
+include::../10_Include/settings.adoc[]
+:vgwort: Virtualization
 Lars Vogel, (c) 2008, 2016 vogella GmbH
 Version 0.1, 12.05.2016
-:docinfodir: ../
-:vgwort: Virtualization
 
 [abstract]
 This tutorial contains notes about the usage of virtualization under Ubuntu.
 It contains notes for gnome-boxes and VirtualBox.
 
-include::../web/advertisement/afterTableOfContent.adoc[]				
+include::../web/advertisement/afterTableOfContent.adoc[]
 include::010_overview.adoc[]
 
 include::008_resourceslocal.adoc[]

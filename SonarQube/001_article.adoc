@@ -1,19 +1,16 @@
 = Using SonarLint and SonarQube
-:linkcss:
-:sectnums:
-Simon Scholz, Lars Vogel (c) 2016 vogella GmbH
-Version 0.9, 29.02.2019
+include::../10_Include/settings.adoc[]
+:vgwort: SonarQube
 :keywords: SonarLint, SonarQube
 :contentidentifier: description
-:imagesdir: ./img
-:docinfodir: ../
-:vgwort: SonarQube
+Simon Scholz, Lars Vogel (c) 2016 vogella GmbH
+Version 0.9, 29.02.2019
 
 [abstract]
-This article describes how to use SonarLint, SonarQube and SonarCloud. 
+This article describes how to use SonarLint, SonarQube and SonarCloud.
 For the examples the Eclipse IDE is used.
 
-include::../web/advertisement/afterTableOfContent.adoc[]	
+include::../web/advertisement/afterTableOfContent.adoc[]
 include::010_overview.adoc[]
 include::018_using_sonarlint.adoc[]
 include::100_usage_sonarcube.adoc[]

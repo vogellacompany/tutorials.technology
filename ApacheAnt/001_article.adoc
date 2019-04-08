@@ -1,19 +1,15 @@
 = Apache Ant - Tutorial
-:linkcss:
-:experimental:
-:icons:
-:imagesdir: ./img
+include::../10_Include/settings.adoc[]
+:vgwort: ApacheAnt
 Lars Vogel, (c) 2008, 2016 vogella GmbH
 Version 2.8, 29.09.2016
-:docinfodir: ../
-:vgwort: ApacheAnt
 
 [abstract]
 Apache Ant Tutorial.
-This tutorial describes the usage of Ant as a build tool to compile Java code, pack this code into an executable jar and how to create Javadoc. 
-The usage of Ant is demonstrated within Eclipse and from the command line. 
+This tutorial describes the usage of Ant as a build tool to compile Java code, pack this code into an executable jar and how to create Javadoc.
+The usage of Ant is demonstrated within Eclipse and from the command line.
 This tutorial is based on Apache Ant 1.8.x.
-  
+
 include::../web/advertisement/afterTableOfContent.adoc[]
 include::010_buildtools.adoc[]
 include::012_antintro.adoc[]

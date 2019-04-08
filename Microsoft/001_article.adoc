@@ -1,12 +1,8 @@
 = Microsoft Applications - Tutorial
-:linkcss:
-:experimental:
-:icons:
-:imagesdir: ./img
+include::../10_Include/settings.adoc[]
+:vgwort: Microsoft
 Lars Vogel, (c) 2007, 2016 vogella GmbH
 Version 1.2, 06.10.2016
-:docinfodir: ../
-:vgwort: Microsoft
 
 [abstract]
 Using Microsoft.
@@ -24,5 +20,5 @@ include::300_powerpoint.adoc[]
 include::600_stuff.adoc[]
 
 include::008_resourceslocal.adoc[]
-include::../copyright.adoc[]	
+include::../copyright.adoc[]
 

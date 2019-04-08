@@ -1,17 +1,13 @@
 =  Mercurial - Tutorial
-:linkcss:
-:experimental:
-:icons:
-:imagesdir: ./img
+include::../10_Include/settings.adoc[]
+:vgwort: Mercurial
 Lars Vogel, (c) 2008, 2016 vogella GmbH
 Version 1.2, 06.10.2016
-:docinfodir: ../
-:vgwort: Mercurial
 
 [abstract]
 Mercurial tutorial.
 This article describes the distributed version control system Mercurial.
-	
+
 include::../web/advertisement/afterTableOfContent.adoc[]
 include::001_overview.adoc[]
 include::020_installation.adoc[]
@@ -19,5 +15,5 @@ include::../web/advertisement/inBetween01.adoc[]
 include::030_using.adoc[]
 
 include::008_resourceslocal.adoc[]
-include::../copyright.adoc[]	
+include::../copyright.adoc[]
 

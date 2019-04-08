@@ -1,14 +1,10 @@
 = Ruby - Tutorial
-:linkcss:
-:sectnums:                                                          
-:experimental:
-:icons:
-:imagesdir: ./img
-Fabian Pfaff (c) 2016 vogella GmbH
-Version 0.1, 01.11.2016		
-:docinfodir: ../
+include::../10_Include/settings.adoc[]
 :vgwort: Ruby
-			
+
+Fabian Pfaff (c) 2016 vogella GmbH
+Version 0.1, 01.11.2016
+
 include::010_overview.adoc[]
 include::020_installation.adoc[]
 include::030_debugging.adoc[]

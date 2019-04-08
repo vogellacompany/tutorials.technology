@@ -1,12 +1,8 @@
 = Package Drone - Tutorial
-:linkcss:
-:experimental:
-:icons:
-:imagesdir: ./img
+include::../10_Include/settings.adoc[]
+:vgwort: PackageDrone
 Simon Scholz (c) 2016 vogella GmbH
 Version 0.1, 27.10.2016
-:docinfodir: ../
-:vgwort: PackageDrone
 
 [abstract]
 This tutorial contains notes about Eclipse Package Drone.

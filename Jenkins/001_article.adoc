@@ -1,20 +1,15 @@
 = Continuous integration with Jenkins - Tutorial
-:linkcss:
-:sectnums:
-:experimental:
-:icons:
-:imagesdir: ./img
+include::../10_Include/settings.adoc[]
+:vgwort: Jenkins
+:contentidentifier: description
+:keywords: Jenkins, Continues Integration
 Lars Vogel (c) 2009, 2019 vogella GmbH
 Version 1.8, 14.02.2019
-:keywords: Jenkins, Continues Integration
-:contentidentifier: description
-:docinfodir: ../
-:vgwort: Jenkins
 
 [abstract]
 This article describes how to use the Jenkins continuous integration build server.
 
-include::../web/advertisement/afterTableOfContent.adoc[]                
+include::../web/advertisement/afterTableOfContent.adoc[]
 include::010_overview.adoc[]
 include::020_installation.adoc[]
 include::../web/advertisement/inBetween01.adoc[]

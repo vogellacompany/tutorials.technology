@@ -1,20 +1,16 @@
 = Spelling - Tutorial
-:linkcss:
-:experimental:
-:icons:
-:imagesdir: ./img
-Lars Vogel, (c) 20011, 2016 vogella GmbH
-Version 1.2, 06.10.2016
-:docinfodir: ../
+include::../10_Include/settings.adoc[]
 :vgwort: Spelling
+Lars Vogel, (c) 2011, 2016 vogella GmbH
+Version 1.2, 06.10.2016
 
 [abstract]
 Typical errors I do in spelling.
 Reminder for Lars.
-	
+
 include::../web/advertisement/afterTableOfContent.adoc[]
 include::010_overview.adoc[]
 
 include::008_resourceslocal.adoc[]
-include::../copyright.adoc[]	
+include::../copyright.adoc[]
 

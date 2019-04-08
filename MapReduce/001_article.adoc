@@ -1,17 +1,13 @@
 = MapReduce Introduction - Tutorial
-:linkcss:
-:experimental:
-:icons:
-:imagesdir: ./img
+include::../10_Include/settings.adoc[]
+:vgwort: MapReduce
 Lars Vogel, (c) 2010, 2016 vogella GmbH
 Version 0.5, 10.10.2016
-:docinfodir: ../
-:vgwort: MapReduce
 
 [abstract]
 MapReduce Tutorial.
-This article gives an overview of MapReduce and lists several resources which describes MapReduce. 
-	
+This article gives an overview of MapReduce and lists several resources which describes MapReduce.
+
 include::../web/advertisement/afterTableOfContent.adoc[]
 include::010_overview.adoc[]
 include::020_implementation.adoc[]
@@ -19,5 +15,5 @@ include::../web/advertisement/inBetween01.adoc[]
 include::100_information.adoc[]
 
 include::008_resourceslocal.adoc[]
-include::../copyright.adoc[]	
+include::../copyright.adoc[]
 

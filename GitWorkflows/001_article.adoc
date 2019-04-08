@@ -1,12 +1,8 @@
 = Git typical workflows - Tutorial
-:linkcss:
-:experimental:
-:icons:
-:imagesdir: ./img
+include::../10_Include/settings.adoc[]
+:vgwort: GitWorkflows
 Lars Vogel, (c) 2009, 2016 vogella GmbH
 Version 5.6, 06.10.2016
-:docinfodir: ../
-:vgwort: GitWorkflows
 
 [abstract]
 Git typical workflows.
@@ -17,5 +13,5 @@ include::../web/advertisement/afterTableOfContent.adoc[]
 include::010_overview.adoc[]
 
 include::008_resourceslocal.adoc[]
-include::../copyright.adoc[]	
+include::../copyright.adoc[]
 

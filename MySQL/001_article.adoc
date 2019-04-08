@@ -1,21 +1,18 @@
 = MySQL - Tutorial
-:linkcss:
-:experimental:
+include::../10_Include/settings.adoc[]
+:vgwort: MySQL
 Lars Vogel (c) 2008 - 2017 vogella GmbH
 Version 1.4, 07.11.2017
-:imagesdir: ./img
-:docinfodir: ../
-:vgwort: MySQL
 
-This tutorial explains how to install MySQL and how to create and query a database. 
+This tutorial explains how to install MySQL and how to create and query a database.
 It includes important SQL statements which you need to use to create, update and read from database tables.
 
-include::../web/advertisement/afterTableOfContent.adoc[]                
+include::../web/advertisement/afterTableOfContent.adoc[]
 include::010_overview.adoc[]
 include::../web/advertisement/inBetween01.adoc[]
 include::040_mysql.adoc[]
 include::100_importexport.adoc[]
 
 include::008_resourceslocal.adoc[]
-include::../copyright.adoc[]	
+include::../copyright.adoc[]
 

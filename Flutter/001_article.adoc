@@ -1,12 +1,8 @@
 = Developing Mobile Apps with Flutter  - Tutorial
-:linkcss:
-:experimental:
-:icons:
-:imagesdir: ./img
+include::../10_Include/settings.adoc[]
+:vgwort: Flutter
 Lars Vogel, Jonas Hungershausen (c) 2018 vogella GmbH
 Version 0.2, 23.03.2019
-:docinfodir: ../
-:vgwort: Flutter
 
 [abstract]
 This tutorial gives a brief introduction to the Flutter SDK
@@ -18,5 +14,5 @@ include::../web/advertisement/inBetween01.adoc[]
 include::../web/advertisement/inBetween02.adoc[]
 
 include::008_resourceslocal.adoc[]
-include::../copyright.adoc[]	
+include::../copyright.adoc[]
 

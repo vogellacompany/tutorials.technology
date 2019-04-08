@@ -1,12 +1,8 @@
 = Gerrit code review - Tutorial
-:linkcss:
-:experimental:
-:icons:
-:imagesdir: ./img
+include::../10_Include/settings.adoc[]
+:vgwort: Gerrit
 Lars Vogel, (c) 2012, 2016 vogella GmbH
 Version 2.3, 06.10.2016
-:docinfodir: ../
-:vgwort: Gerrit
 
 [abstract]
 Gerrit tutorial.

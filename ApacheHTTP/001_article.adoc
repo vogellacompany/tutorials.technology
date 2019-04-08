@@ -1,19 +1,15 @@
 = Apache HTTP Server - Tutorial
-:linkcss:
-:experimental:
-:icons:
-:imagesdir: ./img
+include::../10_Include/settings.adoc[]
+:vgwort: ApacheHTTP
 Lars Vogel(c) 2010, 2019 vogella GmbH
 Version 1.1, 06.02.2019
-:keywords: Apache HTTP
-:docinfodir: ../
-:vgwort: ApacheHTTP
+
 
 [abstract]
 == Installation and configuration of the Apache HTTP server
 
 This articles contains information about the Apache HTTP server.
-				
+
 include::../web/advertisement/afterTableOfContent.adoc[]
 include::010_overview.adoc[]
 include::012_installation.adoc[]

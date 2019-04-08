@@ -1,12 +1,8 @@
 = Using the grep command line command - Tutorial
-:linkcss:
-:experimental:
-:icons:
-:imagesdir: ./img
+include::../10_Include/settings.adoc[]
+:vgwort: UnixGrep
 Lars Vogel, (c) 2008, 2016 vogella GmbH
 Version 3.4, 06.10.2016
-:docinfodir: ../
-:vgwort: UnixGrep
 
 [abstract]
 The grep command.

@@ -1,19 +1,15 @@
 = RSS feeds with Java - Tutorial
-:linkcss:
-:experimental:
-:icons:
-:imagesdir: ./img
+include::../10_Include/settings.adoc[]
+:vgwort: RSSFeed
 Lars Vogel, (c) 2008, 2016 vogella GmbH
 Version 2.2, 06.10.2016
-:docinfodir: ../
-:vgwort: RSSFeed
 
 [abstract]
 RSS Feeds with Java.
-This tutorial explains how to read and create RSS feeds with Java. 
-It uses the Stax XML API. 
+This tutorial explains how to read and create RSS feeds with Java.
+It uses the Stax XML API.
 Eclipse is used as the Java IDE and Java7 is used.
-	
+
 include::../web/advertisement/afterTableOfContent.adoc[]
 include::010_overview.adoc[]
 include::012_prereqs.adoc[]
@@ -24,5 +20,5 @@ include::030_read.adoc[]
 include::040_write.adoc[]
 
 include::008_resourceslocal.adoc[]
-include::../copyright.adoc[]	
+include::../copyright.adoc[]
 

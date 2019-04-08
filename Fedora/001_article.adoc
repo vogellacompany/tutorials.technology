@@ -1,12 +1,8 @@
 = Fedora - Tutorial
-:linkcss:
-:experimental:
-:icons:
-:imagesdir: ./img
-(c) 2015 vogella GmbH
-Version 0.1, 12.05.2016
-:docinfodir: ../
+include::../10_Include/settings.adoc[]
 :vgwort: Fedora
+(c) 2015, 2016 vogella GmbH
+Version 0.1, 12.05.2016
 
 [abstract]
 This article gives an overview over the Fedora linux distribution

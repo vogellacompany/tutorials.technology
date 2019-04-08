@@ -1,21 +1,18 @@
 = JGit - Tutorial
-:linkcss:
-:experimental:
-:icons:
-:imagesdir: ./img
+include::../10_Include/settings.adoc[]
+:vgwort: JGit
 (c) 2016, 2018 vogella GmbH
 Version 0.2, 28.06.2018
-:docinfodir: ../
 :vgwort: JGit
 
 [abstract]
 This tutorial contains examples for the usage of the JGit API.
-				
+
 include::010_overview.adoc[]
 // include::../web/advertisement/inBetween01.adoc[]
 // include::../web/advertisement/inBetween02.adoc[]
-// 
+//
 include::008_resourceslocal.adoc[]
-// include::../copyright.adoc[]	
+// include::../copyright.adoc[]
 
 

@@ -1,12 +1,9 @@
 = Greasemonkey - Tutorial
-:l inkcss:
-Lars Vogel (c) 2014-2017 vogella GmbH
-Version 0.1, 16.01.2017
+:vgwort: Greasemonkey
 :keywords: Greasemonkey
 :contentidentifier: description
-:imagesdir: ./img
-:docinfodir: ../
-:vgwort: Greasemonkey
+Lars Vogel (c) 2014-2017 vogella GmbH
+Version 0.1, 16.01.2017
 
 
 [abstract]

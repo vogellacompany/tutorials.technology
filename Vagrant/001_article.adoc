@@ -1,13 +1,8 @@
 = Vagrant
-:linkcss:
-:sectnums:
-:experimental:
-:icons:
-:imagesdir: ./img
+include::../10_Include/settings.adoc[]
+:vgwort: Vagrant
 Fabian Pfaff (c) 2018 vogella GmbH
 Version 0.1, 18.09.2018
-:docinfodir: ../
-:vgwort: Vagrant
 
 include::../web/advertisement/afterTableOfContent.adoc[]
 include::010_overview.adoc[]

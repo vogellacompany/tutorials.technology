@@ -1,12 +1,8 @@
 = Using GitHub - Tutorial
-:linkcss:
-:experimental:
-:icons:
-:imagesdir: ./img
+include::../10_Include/settings.adoc[]
+:vgwort: GitHub
 Lars Vogel, Simon Scholz (c) 2009, 2018 vogella GmbH
 Version 5.7, 06.07.2016
-:docinfodir: ../
-:vgwort: GitHub
 
 [abstract]
 Using Github tutorial.
@@ -21,5 +17,5 @@ include::300_webhook_jenkins.adoc[]
 include::400_gerrithub.adoc[]
 
 include::008_resourceslocal.adoc[]
-include::../copyright.adoc[]	
+include::../copyright.adoc[]
 

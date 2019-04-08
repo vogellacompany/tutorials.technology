@@ -1,7 +1,7 @@
 = XSLT - Extensible Stylesheet Language for Transformations - Tutorial
-:linkcss:
-:experimental:
-:icons:
+include::../10_Include/settings.adoc[]
+
+
 :imagesdir: ./img
 Lars Vogel, (c) 2009, 2016 vogella GmbH
 Version 0.8, 06.10.2016

@@ -1,17 +1,13 @@
 = H2 database engine - Tutorial
-:linkcss:
-:experimental:
-:icons:
-:imagesdir: ./img
+include::../10_Include/settings.adoc[]
+:vgwort: H2DatabaseEngine
 Lars Vogel, (c) 2014, 2016 vogella GmbH
 Version 0.2, 06.10.2016
-:docinfodir: ../
-:vgwort: H2DatabaseEngine
 
 [abstract]
 H2 database engine.
 This tutorial explains how to install H2 database engine.
-	
+
 include::../web/advertisement/afterTableOfContent.adoc[]
 include::010_overview.adoc[]
 include::020_installation.adoc[]

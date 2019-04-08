@@ -1,17 +1,13 @@
 = Maven for building Java applications - Tutorial
-:linkcss:
-:experimental:
-:icons:
-:imagesdir: ./img
-Lars Vogel, Hendrik Still, Simon Scholz (c) 2013 - 2016 vogella GmbH
-Version 2.2, 11.01.2016
-:docinfodir: ../
+include::../10_Include/settings.adoc[]
 :vgwort: ApacheMaven
+Lars Vogel, Hendrik Still, Simon Scholz (c) 2013 - 2019 vogella GmbH
+Version 2.3, 11.01.2019
 
 [abstract]
 This tutorial describes the usage of Maven for building Java applications.
 
-include::../web/advertisement/afterTableOfContent.adoc[]				
+include::../web/advertisement/afterTableOfContent.adoc[]
 include::010_overview.adoc[]
 include::012_installation.adoc[]
 include::014_usage_commandline.adoc[]

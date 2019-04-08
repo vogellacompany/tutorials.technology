@@ -1,19 +1,17 @@
 = Git - Tutorial
-:linkcss:
-Lars Vogel (c) 2009-2017 vogella GmbH
-Version 5.9, 03.11.2017
-:keywords: Git command line, Git, rebase, merge
-:contentidentifier: description
-:imagesdir: img
-:docinfodir: ../
+include::../10_Include/settings.adoc[]
 :vgwort: Git
+:contentidentifier: description
+:keywords: Git command line, Git, rebase, merge
+Lars Vogel (c) 2009-2019 vogella GmbH
+Version 6.0, 03.04.2019
 
 [abstract]
 This tutorial explains the usage of the distributed version control system Git via the command line.
 The examples were done on Linux (Ubuntu), but should also work on other operating systems like Microsoft Windows.
 
 include::../web/kindle/git.adoc[]
-include::../web/advertisement/afterTableOfContent.adoc[]               
+include::../web/advertisement/afterTableOfContent.adoc[]
 include::001_overview.adoc[]
 include::../web/advertisement/inBetween01.adoc[]
 include::004_gitterminology.adoc[]

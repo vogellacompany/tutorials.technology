@@ -1,16 +1,12 @@
 = Microsoft Outlook Macros - Tutorial
-:linkcss:
-:experimental:
-:icons:
-:imagesdir: ./img
+include::../10_Include/settings.adoc[]
+:vgwort: MicrosoftOutlookMacros
 Lars Vogel, (c) 2008, 2016 vogella GmbH
 Version 0.6, 06.10.2016
-:docinfodir: ../
-:vgwort: MicrosoftOutlookMacros
 
 [abstract]
 Microsoft Outlook Macros.
-This article describes how to create macros in Visual Basic for the email client Microsoft Outlook. 
+This article describes how to create macros in Visual Basic for the email client Microsoft Outlook.
 
 include::../web/advertisement/afterTableOfContent.adoc[]
 include::010_overview.adoc[]

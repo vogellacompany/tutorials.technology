@@ -1,17 +1,13 @@
 = Webstandards - Overview - Tutorial
-:linkcss:
-:experimental:
-:icons:
-:imagesdir: ./img
+include::../10_Include/settings.adoc[]
+:vgwort: Webstandards
 Lars Vogel, (c) 2010, 2016 vogella GmbH
 Version 0.3, 06.10.2016
-:docinfodir: ../
-:vgwort: Webstandards
 
 [abstract]
 Webstandards.
 Short overview of web standards, e.g. web server, HTML, HTTP and URL's.
-  
+
 include::../web/advertisement/afterTableOfContent.adoc[]
 include::010_architecture.adoc[]
 

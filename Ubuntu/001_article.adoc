@@ -1,12 +1,10 @@
 = Ubuntu Linux - Tips and Tricks in using Linux - Tutorial
-:linkcss:
-:experimental:
+include::../10_Include/settings.adoc[]
+:vgwort: Ubuntu
+:keywords: Ubuntu, Linux
+
 Lars Vogel (c) 2008 - 2016 vogella GmbH
 Version 3.7, 09.02.2016
-:keywords: Ubuntu, Linux
-:imagesdir: ./img
-:docinfodir: ../
-:vgwort: Ubuntu
 
 [abstract]
 This tutorial contains some information about handling a Linux system.
@@ -36,5 +34,5 @@ include::400_tips.adoc[]
 include::500_broadway.adoc[]
 
 include::008_resourceslocal.adoc[]
-include::../copyright.adoc[]	
+include::../copyright.adoc[]
 

@@ -1,14 +1,10 @@
 = The Gradle build system- Tutorial
-Lars Vogel, Simon Scholz (c) 2014 - 2018 vogella GmbH
-Version 2.3, 07.06.2018
-:linkcss:
-:experimental:
-:icons:
+include::../10_Include/settings.adoc[]
 :keywords: Gradle, Groovy
 :contentidentifier: description
-:imagesdir: ./img
-:docinfodir: ../
 :vgwort: Gradle
+Version 2.3, 07.06.2018
+Lars Vogel, Simon Scholz (c) 2014 - 2018 vogella GmbH
 
 [abstract]
 This tutorial describes how to the Gradle build tool.

@@ -1,17 +1,13 @@
 = Inkscape - Tutorial
-:linkcss:
-:experimental:
-:icons:
-:imagesdir: ./img
+include::../10_Include/settings.adoc[]
+:vgwort: Inkscape
 Lars Vogel, (c) 2014, 2016 vogella GmbH
 Version 0.2, 06.10.2016
-:docinfodir: ../
-:vgwort: Inkscape
 
 [abstract]
 Inkscape tutorial.
 This tutorial is a small introduction into the usage of Inkscape for creating svg graphics.
-	
+
 include::../web/advertisement/afterTableOfContent.adoc[]
 include::010_overview.adoc[]
 include::../web/advertisement/inBetween01.adoc[]

@@ -1,12 +1,8 @@
 = Apache Hadoop - Tutorial
-:linkcss:
-:experimental:
-:icons:
-:imagesdir: ./img
+include::../10_Include/settings.adoc[]
+:vgwort: ApacheHadoop
 Lars Vogel, (c) 2010, 2016 vogella GmbH
 Version 0.4, 29.09.2016
-:docinfodir: ../
-:vgwort: ApacheHadoop
 
 [abstract]
 Apache Hadoop.
@@ -22,5 +18,5 @@ include::040_installation.adoc[]
 include::050_gettingstarted.adoc[]
 
 include::008_resourceslocal.adoc[]
-include::../copyright.adoc[]	
+include::../copyright.adoc[]
 

@@ -1,17 +1,13 @@
 = UML - Tutorial
-:linkcss:
-:experimental:
-:icons:
-:imagesdir: ./img
+include::../10_Include/settings.adoc[]
+:vgwort: UML
 Lars Vogel, (c) 2008, 2016 vogella GmbH
 Version 1.3, 29.09.2016
-:docinfodir: ../
-:vgwort: UML
 
 [abstract]
 UML modelling.
 This article gives a short overview of UML2.
-  
+
 include::../web/advertisement/afterTableOfContent.adoc[]
 include::100_uml_intro.adoc[]
 include::../web/advertisement/inBetween01.adoc[]
@@ -21,5 +17,5 @@ include::../web/advertisement/inBetween02.adoc[]
 include::800_tooling.adoc[]
 
 include::008_resourceslocal.adoc[]
-include::../copyright.adoc[]	
+include::../copyright.adoc[]
 

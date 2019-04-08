@@ -1,12 +1,8 @@
 = Groovy with Eclipse - Tutorial
-:linkcss:
-:experimental:
-:icons:
-:imagesdir: ./img
+include::../10_Include/settings.adoc[]
+:vgwort: Groovy
 Lars Vogel, (c) 2008, 2016 vogella GmbH
 Version 2.3, 06.10.2016
-:docinfodir: ../
-:vgwort: Groovy
 
 [abstract]
 Groovy.
@@ -21,7 +17,7 @@ Eclipse IDE for developing Groovy.
 This article assumes that you have already Eclipse installed
 and that you have used Eclipse for Java development. This article
 was written using Groovy 2.4, Eclipse 4.4 (Luna) and Java 1.8.
-  
+
 include::../web/advertisement/afterTableOfContent.adoc[]
 include::010_overview.adoc[]
 include::015_installation_cmd.adoc[]

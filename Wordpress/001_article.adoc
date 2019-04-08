@@ -1,7 +1,7 @@
 =  Wordpress Migration- Tutorial
-:linkcss:
-:experimental:
-:icons:
+include::../10_Include/settings.adoc[]
+
+
 :imagesdir: ./img
 Lars Vogel, (c) 2017 vogella GmbH
 Version 1.2, 06.10.2016

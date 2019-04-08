@@ -1,16 +1,14 @@
 = Using AsciiDoc and Asciidoctor to write documentation - Tutorial
-:linkcss:
-:experimental:
+include::../10_Include/settings.adoc[]
+:keywords: AsciiDoc
+:vgwort: AsciiDoc
+
 Lars Vogel, Jennifer Nerlich (c) 2015- 2018 vogella GmbH
 Version 1.0, 04.06.2018
-:keywords: AsciiDoc
-:imagesdir: ./img
-:docinfodir: ../
-:vgwort: AsciiDoc
 
 [abstract]
 This tutorial contains some notes about writing documentation with AsciiDoc and Asciidoctor.
-				
+
 include::../web/advertisement/afterTableOfContent.adoc[]
 include::010_overview.adoc[]
 include::012_conversion.adoc[]

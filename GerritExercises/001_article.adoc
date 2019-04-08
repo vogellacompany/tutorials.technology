@@ -1,14 +1,10 @@
 = Using Gerrit with Eclipse - Tutorial
-:linkcss:
-:experimental:
-:icons:
-:imagesdir: ./img
-Lars Vogel (c) 2009-2016 vogella GmbH
-Version 5.8, 10.08.2015
+include::../10_Include/settings.adoc[]
+:vgwort: GerritExercises
 :keywords: Gerrit, Code review
 :contentidentifier: description
-:docinfodir: ../
-:vgwort: GerritExercises
+Lars Vogel (c) 2009-2019 vogella GmbH
+Version 5.8, 10.04.2019
 
 [abstract]
 == Summary of this tutorial
