@@ -6,7 +6,7 @@
 (c) 2016, 2018 vogella GmbH
 Version 0.2, 28.06.2018
 :docinfodir: ../
-// :vgwort: JGit
+:vgwort: JGit
 
 [abstract]
 This tutorial contains examples for the usage of the JGit API.
