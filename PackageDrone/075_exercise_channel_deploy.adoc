@@ -2,27 +2,28 @@
 
 In order to deploy to a Channel with Maven or Gradle a _Deploy Group_ has to be created.
 
-image::./deploy-group-create.png[] 
+image::./deploy-group-create.png[]
 
 <1> Press on Menu:Administration[Deploy Keys]
 <2> Press add group
 
 Create a group called _Maven_ and create a key for this group.
 
-image::./deploy-key-create.png[] 
+image::./deploy-key-create.png[]
 
 Once a deploy key has been created it can be applied to a _Channel_.
 
-image::./channel-apply-deploy-key.png[] 
+image::./channel-apply-deploy-key.png[]
 
 <1> Select Channels Section
 <2> Select the previously created channel in the list, e.g., My_first_Channel
 <3> Go to _Deploy Keys_
-<4> Add the _Deploy Group_, which just has been created
+
+Add the _Deploy Group_, which just has been created
 
 When clicking on the _View Maven settings_ link, the following dialog, containing the maven setup, will appear.
 
-image::./channel-maven-settings.png[] 
+image::./channel-maven-settings.png[]
 
 These settings can then be specified in the _pom.xml_ and _settings.xml_ file.
 

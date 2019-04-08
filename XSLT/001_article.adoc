@@ -1,12 +1,9 @@
 = XSLT - Extensible Stylesheet Language for Transformations - Tutorial
 include::../10_Include/settings.adoc[]
+:vgwort: XSLT
 
-
-:imagesdir: ./img
 Lars Vogel, (c) 2009, 2016 vogella GmbH
 Version 0.8, 06.10.2016
-:docinfodir: ../
-:vgwort: XSLT
 
 [abstract]
 XSLT with Eclipse and Java.
@@ -16,12 +13,12 @@ include::../web/advertisement/afterTableOfContent.adoc[]
 include::010_overview.adoc[]
 include::020_installation.adoc[]
 include::../web/advertisement/inBetween01.adoc[]
-include::030_copy.adoc[]		
+include::030_copy.adoc[]
 include::../web/advertisement/inBetween02.adoc[]
 include::040_transformations.adoc[]
 include::200_eclipse.adoc[]
 include::250_java.adoc[]
 
 include::008_resourceslocal.adoc[]
-include::../copyright.adoc[]	
+include::../copyright.adoc[]
 
