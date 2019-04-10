@@ -1,44 +1,23 @@
 == Using Tags
 
-[[tagging]]
-=== What are tags?
-
 (((Tags/Tagging)))
-Git has the option to _tag_ a commit in the repository history so that you find it easier at a
-later point in time. Most commonly, this is used to tag a certain
-version which has been released.
-
-If you tag a commit, you create an annotated or lightweight tag.
-
-[[tagging_lightweight_annotated]]
-==== Lightweight and annotated tags
 (((Tags/Tagging, lightweight tag)))
 (((Tags/Tagging, annotated tag)))
+Git has the option to add additional metadata to commits.
+This can be used to document for example a commit this is used to perform a software release.
+
+This is done via _tags_.
+
 Git supports two different types of tags, lightweight and annotated tags.
 
-A _lightweight tag_ is a pointer to a commit, without any additional information about the tag. 
-An _annotated tag_ contains additional information about the tag, e.g., 
-the name and email of the person who created the tag, a tagging message
-and the date of the tagging.
+A _lightweight tag_ is a named pointer to a commit, without any additional information about the tag.
+An _annotated tag_ contains additional meta data:
+
+* the name and email of the person who created the tag
+* tagging message similar to a commit message
+* the date of the tagging
+
 Annotated tags can also be signed and verified with _GNU Privacy Guard (GPG)_.
-
-[[tagging_namingconventions]]
-==== Naming conventions for tags
-(((Tags/Tagging, naming conventions)))
-Tags are frequently used to tag the state of a release of the Git repository. 
-In this case they are typically called _release tags_.
-
-Convention is that release tags are labeled based on the
-[major].[minor].[patch] naming scheme, for example "1.0.0". Several
-projects also use the "v" prefix.
-
-The idea is that the _patch_ version is incremented if (only) backwards
-compatible bug fixes are introduced, the _minor_ version is incremented
-if new, backwards compatible functionality is introduced to the public
-API and the _major_ version is incremented if any backwards incompatible
-changes are introduced to the public API.
-
-For the detailed discussion on naming conventions please see the following URL: http://semver.org/[Semantic versioning].
 
 
 [[tagging_list]]
@@ -48,7 +27,7 @@ You can list the available tags via the following command:
 
 [source,console]
 ----
-include::res/tag/list.txt[]
+git tag
 ----
 
 [[tag_searchbypattern]]
@@ -148,4 +127,45 @@ The following commands demonstrate how to push a tag deletion.
 ----
 include::res/tag/delete.txt[]
 ----
+
+[[tagging_namingconventions]]
+=== Using tags for software releases
+
+(((Tags/Tagging, naming conventions)))
+Tags are frequently used to tag a software release.
+In this case, they are called _release tags_.
+
+Convention is that release tags are labeled based on the [major].[minor].[patch] naming scheme.
+These release tags follow the semantic versioning of the software release.
+
+* the _patch_ version is incremented if (only) backwards compatible bug fixes are introduced
+* the _minor_ version is incremented if backwards compatible functionality of the user of the public API are introduced
+* the _major_ version is incremented if incompatible changes are introduced in the public API
+
+
+For example "1.0.0" or "v1.0.0".
+
+If software build tools like Maven or Gradle are use, the released version should also follow the semantic versioning.
+In this case the tag is typically same as the release version.
+
+See http://semver.org/[Semantic versioning] for more information.
+
+
+=== Creating of a release log based on tags
+
+Git allows to list the commits between any reference; this includes tags.
+
+This allow to create a release log, for example via the following commands.
+
+[source,console]
+----
+# show log between two tags
+git log tag1..tag1
+
+# show shortlog between two tags
+git shortlog tag1..tag1
+----
+
+
+
 
