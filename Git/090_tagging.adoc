@@ -19,10 +19,6 @@ An _annotated tag_ contains additional meta data:
 
 Annotated tags can also be signed and verified with _GNU Privacy Guard (GPG)_.
 
-
-[[tagging_list]]
-=== List tags
-(((Tags/Tagging, list available tags)))
 You can list the available tags via the following command:
 
 [source,console]
@@ -30,39 +26,28 @@ You can list the available tags via the following command:
 git tag
 ----
 
-[[tag_searchbypattern]]
-=== Search by pattern for a tag
-
-You can use the `-l` parameter in the `git tag` command to search for a pattern in the tag.
-
-[source,console]
-----
-include::res/tag/search.txt[]
-----
-
-[[tagging_createlightweight]]
-=== Creating lightweight tags
+.Creating lightweight tags
+[NOTE]
+====
 (((Tags/Tagging, create lightweight tags)))
 To create a lightweight tag don't use the `-m`, `-a` or `-s` option.
 
-The term _build_ describes the conversion of your source code into
-another state, e.g., converting Java sources to an executable `JAR`
-file. Lightweight tags in Git are often used to identify the input for a
-build. Frequently this does not require additional information other
-than a build identifier or the timestamp.
+Lightweight tags in Git are sometimes used to identify the input for a build.
 
 [source,console]
 ----
-include::res/tag/createlight.txt[]
-----
+# create lightweight tag
+git tag 1.7.1
 
-[[tagging_createannoted]]
-=== Creating annotated tags
+# see the tag
+git show 1.7.1
+----
+====
+
 (((Tags/Tagging, create annotated tags)))
-You can create a new annotated tag via the
-`git tag -a` command. An annotated tag can also be created using the
-`-m` parameter, which is used to specify the description of the tag. The
-following command tags the current active HEAD.
+You can create a new annotated tag via the `git tag -a` command. 
+To specify the tag message, use the  `-m` parameter.
+The following command tags the commit to which the current active HEAD points.
 
 [source,console]
 ----
@@ -128,7 +113,18 @@ The following commands demonstrate how to push a tag deletion.
 include::res/tag/delete.txt[]
 ----
 
-[[tagging_namingconventions]]
+[[tag_searchbypattern]]
+=== Search by pattern for a tag
+
+You can use the `-l` parameter in the `git tag` command to search for a pattern in the tag.
+
+[source,console]
+----
+include::res/tag/search.txt[]
+----
+
+
+[[tagging_releases]]
 === Using tags for software releases
 
 (((Tags/Tagging, naming conventions)))
