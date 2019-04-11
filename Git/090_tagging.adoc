@@ -141,8 +141,8 @@ These release tags follow the semantic versioning of the software release.
 
 For example "1.0.0" or "v1.0.0".
 
-If software build tools like Maven or Gradle are use, the released version should also follow the semantic versioning.
-In this case the tag is typically same as the release version.
+If software build tools like Maven or Gradle are used, the released version should also follow the semantic versioning.
+In this case the tag is typically the same as the release version.
 
 See http://semver.org/[Semantic versioning] for more information.
 
@@ -151,7 +151,7 @@ See http://semver.org/[Semantic versioning] for more information.
 
 Git allows to list the commits between any reference; this includes tags.
 
-This allow to create a release log, for example via the following commands.
+This allows to create a release log, for example via the following commands.
 
 [source,console]
 ----
