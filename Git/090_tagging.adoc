@@ -4,7 +4,7 @@
 (((Tags/Tagging, lightweight tag)))
 (((Tags/Tagging, annotated tag)))
 Git has the option to add additional metadata to commits.
-This can be used to document for example a commit this is used to perform a software release.
+This can be used to document for example a commit which is used to perform a software release.
 
 This is done via _tags_.
 
