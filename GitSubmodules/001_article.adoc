@@ -9,8 +9,8 @@ Version 5.8, 10.08.2015
 [abstract]
 This tutorial explains the usage of submodules with the Git version control system.
 
-include::../web/kindle/git.adoc[]
-include::../web/advertisement/afterTableOfContent.adoc[]
+//include::../web/kindle/git.adoc[]
+include::../web/advertisement/vogella_Git_afterTOC.adoc[]
 include::010_overview.adoc[]
 
 include::008_resourceslocal.adoc[]

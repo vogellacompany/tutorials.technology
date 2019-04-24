@@ -9,7 +9,7 @@ Gerrit tutorial.
 This tutorial explains the installation and usage of the Gerrit code review system.
 It describes the setup of Eclipse (with EGit) as well as the command line setup.
 
-include::../web/advertisement/afterTableOfContent.adoc[]
+include::../web/advertisement/vogella_Git_afterTOC.adoc[]
 include::010_codereview.adoc[]
 include::020_installation.adoc[]
 include::../web/advertisement/inBetween01.adoc[]

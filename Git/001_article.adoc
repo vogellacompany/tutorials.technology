@@ -10,8 +10,8 @@ Version 6.0, 03.04.2019
 This tutorial explains the usage of the distributed version control system Git via the command line.
 The examples were done on Linux (Ubuntu), but should also work on other operating systems like Microsoft Windows.
 
-include::../web/kindle/git.adoc[]
-include::../web/advertisement/afterTableOfContent.adoc[]
+//include::../web/kindle/git.adoc[]
+include::../web/advertisement/vogella_Git_afterTOC.adoc[]
 include::001_overview.adoc[]
 include::../web/advertisement/inBetween01.adoc[]
 include::004_gitterminology.adoc[]

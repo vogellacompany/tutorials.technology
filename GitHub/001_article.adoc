@@ -8,8 +8,8 @@ Version 5.7, 06.07.2016
 Using Github tutorial.
 This tutorial explains how to use GitHub.
 
-include::../web/kindle/git.adoc[]
-include::../web/advertisement/afterTableOfContent.adoc[]
+//include::../web/kindle/git.adoc[]
+include::../web/advertisement/vogella_Git_afterTOC.adoc[]
 include::100_github.adoc[]
 include::120_github_fork.adoc[]
 include::200_closing_issues_with_commit_messages.adoc[]
