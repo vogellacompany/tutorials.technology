@@ -1,0 +1,79 @@
+== Exercise: Creating a new project
+
+Currently there are 3 different ways of developing Flutter applications:
+
+1. Visual Studio Code (or *VSCode* for short)
+2. Android Studio (or any other JetBrains IDE)
+3. A TextEditor and a Terminal
+
+NOTE: This tutorial will use Visual Studio Code for development
+
+=== Creating the project
+
+Open VSCode and invoke the command palette via (menu:View[Command Palette...] or button:[Ctrl + Shift + P]).
+
+1. Select **Flutter: New Project**.
+2. Enter a name for your project.
+3. Select a folder where the project should be saved.
+
+VSCode will now restart after it restarted it will run the actual creation of template code.
+This will create the `hello_world` project.
+
+Your explorer on the left should look similar to this:
+
+image::hello_world__project_explorer.png[Hello World - Project Explorer]
+
+NOTE: If the project is not automatically created, make sure the `Dart` and `Flutter` extensions are enabled.
+
+=== Starting the application
+
+On the right side of the status bar at the bottom of VSCode you should see multiple information about your development environment.
+One of these indicators shows the current status of the target device (or emulator):
+
+image::hello_world__status_bar.png[Hello World - Status Bar]
+
+If you set up an emulator or your physical device earlier you can click on the btn:[No Devices] button.
+A pop up will open that lets you chose which device you want to develop on.
+The list contains the emulators as well as any ADB enabled device your PC has access to.
+
+Choose one of the listed devices.
+If the target device is an emulator wait for it to fully start.
+
+Press kbd:[F5] to start the application.
+
+The build process is now started.
+
+NOTE: Depending on your internet connection and host device speed the initial build could take several minutes.
+You can see the current step/progress in the builtin _DEBUG CONSOLE_ of VSCode.
+If it did not open automatically you can open it using the command `Debug: Focus on Debug Console View`
+
+After the build process finished the app should now appear on your target device:
+
+image:hello_world__running_app.png[Hello World - Running Application]
+
+Tap 3 times on the btn:[+] in the bottom right.
+
+Now go ahead and change 
+
+[source, dart]
+----
+        primarySwatch: Colors.blue,
+----
+
+to
+
+[source, dart]
+----
+        primarySwatch: Colors.red,
+----
+
+on line 12 of the generated code.
+
+When saving the change should automatically show up in the running app.
+Notice how the number of times you clicked the button stayed the same.
+This a feature of the Flutter toolkit that allows state to be persisted between hot reloads.
+
+You can trigger a hot reload manually by using the respective button in the debug toolkit at the top of you VSCode instance:
+
+image::hello_world__running_app_indicator.png[Debug Indicator]
+

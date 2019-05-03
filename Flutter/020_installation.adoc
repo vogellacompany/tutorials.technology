@@ -7,7 +7,7 @@ Apart from the SDK itself _Flutter_ also needs a few other tools to function pro
 Namely the Android SDK is needed for Android development.
 Follow the instructions here: https://developer.android.com/studio
 
-For iOS development you also need Xcode. 
+For iOS development you also need XCode.
 Follow the instructions here: https://flutter.dev/docs/get-started/install/macos#install-xcode
 
 NOTE: Due to the nature of iOS apps they can only be developed on macOS devices.
@@ -31,9 +31,18 @@ The output should look like this:
 <2> Configuration of the editor will be covered later
 <3> Configuring devices for debugging will be covered later
 
+=== Licenses
+
+The Android SDK requires you to sign licenses.
+This will only be relevant once you publish the app, but `$ flutter doctor` will nag you about this.
+You can run the command `$ flutter doctor --android-licenses` to view and accept the licenses.
+
+NOTE: If you get a Java exception when running the above command, make sure the shell you're currently in has Java 8 available.
+The command will only work with Java 8 (not 9 or higher).
+
 === Special note for Linux users
 
-If you're on Linux (Ubuntu, Fedora, Arch, etc.) you might need to install an additional package.
+If you are on Linux (Ubuntu, Fedora, Arch, etc.) you might need to install an additional package.
 The output of `$ flutter doctor` will show you the following message:
 ```
     ✗ Downloaded executables cannot execute on host.
@@ -44,7 +53,7 @@ The output of `$ flutter doctor` will show you the following message:
       https://wiki.archlinux.org/index.php/Official_repositories#multilib)
 ```
 
-For flutter to function correctly you need to install the packages mentioned in the message.
+For _Flutter_ to function correctly you need to install the packages mentioned in the message.
 
 - For ubuntu: `sudo apt-get install lib32stdc++6`
 - For fedora: `dnf install libstdc++.i686`
@@ -57,6 +66,8 @@ The emulator can be a powerful replacement of a physical Android device.
 Before setting it up it is advisable to enable https://developer.android.com/studio/run/emulator-acceleration[VM Acceleration] on your development machine.
 This can sometimes drastically improve performance of the emulator.
 
+// Todo: Add description of emulator
+
 === Setup of ADB on a physical device
 
 Flutter allows to use your physical android device as a debug target.
@@ -64,7 +75,7 @@ To enable this functionality you need to enable ADB debugging on the device.
 This setting can be found in the developer options of your phone.
 
 Open the settings app on the phone and got to *About Phone* and tap *Build Number* seven times.
-This enables a submenu in the settings app.
+This enables a sub menu in the settings app.
 
 Go to *Developer options* at the bottom and enable *USB-Debugging*.
 
