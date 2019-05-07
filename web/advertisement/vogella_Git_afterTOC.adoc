@@ -1,6 +1,6 @@
 ++++
 <div class="wrapper_vogella_learnportal">
-<a href="https://learn.vogella.com/courses/details/git-version-control-system">
+<a href="https://learn.vogella.com/courses/details/git-version-control-system" onclick="_gaq.push(['_trackEvent', 'vogella Services', 'clicked', 'Git online training']);">
 <div class="vogella_learnportal">
 		<h3>Learn more in the Learning Portal. Check out our 
 			<div class="orange"> Git Online Training <i class="material-icons">priority_high</i> </div>
