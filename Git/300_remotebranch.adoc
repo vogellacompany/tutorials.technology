@@ -47,10 +47,10 @@ include::res/remotebranch/deleteremotebranch.txt[]
 Branches can track another branch. 
 This is called _to have an upstream branch_ and such branches can be referred to as _tracking branches_.
 
-Tracking branches_ allow you to use the `git pull` and `git push` command directly without specifying the branch and repository.
+_Tracking branches_ allow you to use the `git pull` and `git push` command directly without specifying the branch and repository.
 
 If you clone a Git repository, your local _master_ branch is created as a _tracking branch_ for the _master_ branch of the _origin_ repository
-(short:_origin/master_) by Git.
+(short: _origin/master_ ) by Git.
 
 You create new _tracking branches_ by specifying the _remote branch_ during the creation of a branch.
 The following example demonstrates that.
