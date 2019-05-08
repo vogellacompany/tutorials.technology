@@ -5,6 +5,6 @@ By contributing to this repository, you confirm that you have not copied the con
 
 The content in the repository and any contribution is owned by the vogella GmbH.
 The content of the repository is licensed under the http://creativecommons.org/licenses/by-nc-sa/3.0/de/deed.en[Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Germany].
-The source code is licensed under the https://www.eclipse.org/legal/epl-v10.html[Eclipse Public License 1.0]. 
+The source code is licensed under the https://www.eclipse.org/legal/epl-2.0/[Eclipse Public License 2.0]. 
 
 The vogella GmbH has the right to relicense and distribute the content of this repository including any contribution. 
