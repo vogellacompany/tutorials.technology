@@ -169,7 +169,7 @@ Similar to untracked files you can switch branches with unstaged or staged modif
 
 You can switch branches if the modifications do not conflict with the files from the branch.
 
-If Git needs to modify a changed file during the checkout of a branch, the checkout fails with a "checkout conflict" error.
+If Git needs to modify a changed file during the checkout of a branch, the checkout fails with a `checkout conflict` error.
 This avoids that you lose changes in your files.
 
 In this case the changes must be committed, reverted or stashed (see <<stash_usage1>>). 

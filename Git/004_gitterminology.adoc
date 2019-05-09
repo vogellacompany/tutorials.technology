@@ -81,8 +81,8 @@ Some tools and Git user prefer the usage of the _index_ instead of staging area.
 Both terms mean the same thing.
 
 (((Commit process)))
-After adding the selected files to the staging area, you can _commit_ these files to add them permanently to the Git repository. _
-Committing_ creates a new persistent snapshot (called _commit_ or _commit object_) of the staging area in the Git repository. 
+After adding the selected files to the staging area, you can _commit_ these files to add them permanently to the Git repository. 
+_Committing_ creates a new persistent snapshot (called _commit_ or _commit object_) of the staging area in the Git repository. 
 A commit object, like all objects in Git, is immutable.
 
 The _staging area_ keeps track of the snapshots of the files until the staged changes are committed.
@@ -113,11 +113,11 @@ A branch allows the user to switch between these versions so that he can work on
 
 For example, if you want to develop a new feature, you can create a branch and make the changes in this branch.
 This does not affect the state of your files in other branches.
-For example, you can work independently on a branch called _production_ for bugfixes and on another branch called _feature_123_ for implementing a new feature. 
+For example, you can work independently on a branch called _production_ for bugfixes and on another branch called `feature_123` for implementing a new feature. 
 
 Branches in Git are local to the repository. 
 A branch created in a local repository does not need to have a counterpart in a remote repository. 
-Local branches can be compared with other local branches and with _remote-tracking branches.
+Local branches can be compared with other local branches and with _remote-tracking_ branches.
 A remote-tracking branch proxies the state of a branch in another remote repository.
 
 Git supports the combination of changes from different branches. 
@@ -137,7 +137,7 @@ The following table provides a summary of important _Git_ terminology discussed 
 
 |Branch
 |A _branch_ is a named pointer to a commit. 
-Selecting a branch in Git terminology is called _to checkout a branch. 
+Selecting a branch in Git terminology is called _to checkout_ a branch. 
 If you are working in a certain branch, the creation of a new commit advances this pointer to the newly created commit.
 
 Each commit knows their parents (predecessors). 

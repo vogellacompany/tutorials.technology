@@ -72,7 +72,7 @@ You can also specify ranges of commits.
 This is useful for certain Git commands, for example, for seeing the changes between a series of commits.
 
 The double dot operator allows you to select all commits which are reachable from a commit c2 but not from commit c1. 
-The syntax for this is "c1..c2". 
+The syntax for this is `c1..c2`. 
 A commit A is reachable from another commit B if A is a direct or indirect parent of B.
 
 [TIP]
@@ -88,14 +88,14 @@ For example, you can ask Git to show all commits which happened between HEAD and
 include::res/ranges/logranges1[]
 ----
 
-This also works for branches. To list all commits which are in the "master" branch but not in the "testing" branch, use the following command.
+This also works for branches. To list all commits which are in the _master_ branch but not in the _testing_ branch, use the following command.
 
 [source,console]
 ----
 include::res/ranges/logranges2[]
 ----
 
-You can also list all commits which are in the "testing" but not in the "master" branch.
+You can also list all commits which are in the _testing_ but not in the _master_ branch.
 
 [source,console]
 ----
